@@ -258,26 +258,37 @@ const YomuReader = {
             window.removeEventListener('scroll', this._scrollListener);
         }
 
+        let lastKnownParaIndex = 0;
+
         this._scrollListener = () => {
-            const topEl = document.elementFromPoint(window.innerWidth / 2, 100);
-            let paraIndex = 0;
+            // Find the topmost visible paragraph to calculate accurate progress
+            const paragraphs = document.querySelectorAll('#novel-content [id^="p-"]');
+            let currentParaIndex = lastKnownParaIndex;
             
-            if (topEl) {
-                const pEl = topEl.closest('[id^="p-"]');
-                if (pEl) {
-                    paraIndex = parseInt(pEl.id.split('-')[1]);
+            for (const p of paragraphs) {
+                const rect = p.getBoundingClientRect();
+                // If the top of the paragraph is below the top 20% of the screen, or the bottom is visible
+                if (rect.bottom > 0) {
+                    const idNum = parseInt(p.id.split('-')[1]);
+                    if (!isNaN(idNum)) {
+                        currentParaIndex = idNum;
+                    }
+                    break;
                 }
             }
+            
+            lastKnownParaIndex = currentParaIndex;
 
             const total = this._paragraphs.length;
-            const percent = total > 0 ? Math.round((paraIndex / total) * 100) : 0;
+            const percent = total > 0 ? Math.round((currentParaIndex / total) * 100) : 0;
             
             this._updateProgressUI(percent);
 
             if (this._scrollTimeout) clearTimeout(this._scrollTimeout);
             this._scrollTimeout = setTimeout(() => {
                 if (this._currentBook) {
-                    YomuStorage.saveProgress(this._currentBook.id, percent, window.scrollY, paraIndex);
+                    // Save both percentage, fallback scroll height, and exact para index
+                    YomuStorage.saveProgress(this._currentBook.id, percent, window.scrollY, currentParaIndex);
                 }
             }, 500);
         };
