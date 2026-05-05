@@ -472,10 +472,25 @@ const Yomu = {
 
     // Vocabulary view
     showVocab(pushState = true) {
+        if (this._vocabViewOpen) {
+            const lastState = YomuStorage.getAppState();
+            if (lastState.lastBookId) {
+                this.openBook(lastState.lastBookId, false);
+            } else {
+                this.showBookList(false);
+            }
+            return;
+        }
+
+        // Save current view state as 'vocab' but don't overwrite lastBookId
+        YomuStorage.saveAppState({ lastView: 'vocab' });
+
         document.getElementById('book-list-view').classList.add('hidden');
         document.getElementById('reader-view').classList.remove('active');
         document.getElementById('vocab-view').classList.remove('hidden');
+        document.getElementById('store-view').classList.add('hidden');
         this._vocabViewOpen = true;
+        this._isReaderOpen = false; // We are in vocab view now
 
         if (pushState) {
             history.pushState({ view: 'vocab' }, '');
