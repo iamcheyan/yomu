@@ -30,6 +30,7 @@ task syncWebAssets(type: Copy) {
         include 'js/**'
         include 'libs/**'
         include 'data/**'
+        include 'assets/**'
         include 'manifest.json'
     }
     into 'src/main/assets'
