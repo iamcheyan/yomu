@@ -296,6 +296,32 @@ body.show-furigana rt {
     visibility: visible;
 }
 
+/* 外字注释 */
+.gaiji {
+    cursor: help;
+    text-decoration: underline dotted;
+    text-underline-offset: 3px;
+    font-size: 0.85em;
+    color: #666;
+}
+
+/* 傍点（强调标记） */
+.bōten {
+    font-style: normal;
+    text-emphasis: dot;
+    -webkit-text-emphasis: dot;
+    text-emphasis-position: over;
+    -webkit-text-emphasis-position: over;
+}
+
+/* 通用注释标记 */
+.annotation {
+    cursor: help;
+    font-size: 0.75em;
+    color: #999;
+    vertical-align: super;
+}
+
 /* 可点击的单词 */
 .word-token {
     cursor: pointer;
