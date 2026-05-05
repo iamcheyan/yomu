@@ -67,7 +67,7 @@ TRANSLATION_PROMPT = """你是一位精通日语的中文翻译老师，正在�
 def load_env(path):
     env = {}
     if not os.path.exists(path):
-        print(f"警告: .env 文件不存在: {path}")
+        logger.log(f"警告: .env 文件不存在: {path}")
         return env
     with open(path) as f:
         for line in f:
@@ -82,7 +82,7 @@ def load_env(path):
 
 def load_config(path):
     if not os.path.exists(path):
-        print(f"警告: config.json 不存在: {path}")
+        logger.log(f"警告: config.json 不存在: {path}")
         return {"providers": {}}
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
@@ -184,15 +184,15 @@ def translate_paragraph(provider, text):
 
     # 截断显示，避免日志过长
     display_text = text[:80] + ("..." if len(text) > 80 else "")
-    print(f"    >> 原文: {display_text}")
+    logger.log(f"    >> 原文: {display_text}")
 
     result = call_provider(provider, prompt)
     if not result:
-        print(f"    << 失败: 无返回")
+        logger.log(f"    << 失败: 无返回")
         return None, None
 
     display_result = result[:120] + ("..." if len(result) > 120 else "")
-    print(f"    << 回复: {display_result}")
+    logger.log(f"    << 回复: {display_result}")
 
     # 清理可能的引号包裹
     result = result.strip('"').strip('"').strip('"').strip()
@@ -216,7 +216,7 @@ def translate_book(book_id, providers):
     """翻译一本书"""
     filepath = os.path.join(DATA_DIR, f"{book_id}.json")
     if not os.path.exists(filepath):
-        print(f"  文件不存在: {filepath}")
+        logger.log(f"  文件不存在: {filepath}")
         return False
 
     with open(filepath, "r", encoding="utf-8") as f:
@@ -233,12 +233,12 @@ def translate_book(book_id, providers):
         existing_translations.append([])
 
     total = len(paragraphs)
-    print(f"  共 {total} 段")
+    logger.log(f"  共 {total} 段")
 
     for provider in providers:
         provider_label = provider["label"]
         provider_id = provider["id"]
-        print(f"  模型: {provider_label} ({provider['model']})")
+        logger.log(f"  模型: {provider_label} ({provider['model']})")
 
         translated_count = 0
         skipped_count = 0
@@ -270,14 +270,14 @@ def translate_book(book_id, providers):
                 with open(filepath, "w", encoding="utf-8") as f:
                     json.dump(book, f, ensure_ascii=False, indent=2)
             else:
-                print(f"    段落 {i+1} 翻译失败")
+                logger.log(f"    段落 {i+1} 翻译失败")
 
             # 限速：避免 API 过载
             time.sleep(0.5)
 
-        print(f"    完成: 新增 {translated_count} 段, 跳过 {skipped_count} 段")
+        logger.log(f"    完成: 新增 {translated_count} 段, 跳过 {skipped_count} 段")
 
-    print(f"  已保存: {filepath}")
+    logger.log(f"  已保存: {filepath}")
     return True
 
 
@@ -288,25 +288,25 @@ def main():
     providers = resolve_providers(config, env)
 
     if not providers:
-        print("错误: 没有找到可用的 API 配置。请检查 .env 和 config.json")
+        logger.log("错误: 没有找到可用的 API 配置。请检查 .env 和 config.json")
         sys.exit(1)
 
-    print(f"找到 {len(providers)} 个 provider 配置")
+    logger.log(f"找到 {len(providers)} 个 provider 配置")
 
     # 测试所有 provider
-    print("\n测试 API 连通性...")
+    logger.log("\n测试 API 连通性...")
     available = []
     for p in providers:
         status = "✓" if test_provider(p) else "✗"
-        print(f"  {status} {p['label']} ({p['model']})")
+        logger.log(f"  {status} {p['label']} ({p['model']})")
         if status == "✓":
             available.append(p)
 
     if not available:
-        print("\n错误: 没有可用的 API 模型")
+        logger.log("\n错误: 没有可用的 API 模型")
         sys.exit(1)
 
-    print(f"\n可用模型: {len(available)} 个")
+    logger.log(f"\n可用模型: {len(available)} 个")
 
     # 确定要翻译的书
     if len(sys.argv) > 1:

@@ -71,25 +71,36 @@ const Yomu = {
     },
 
     _handleGlobalClick(e) {
-        if (!this._isReaderOpen) return;
+        if (!this._isReaderOpen) {
+            console.log('Click ignored: reader not open');
+            return;
+        }
+
+        console.log('Global click:', e.target.tagName, e.target.className);
 
         // Priority 1: If settings panel is open, click outside to close it
         if (this._settingsOpen) {
             if (!e.target.closest('.settings-panel')) {
+                console.log('Closing settings via global click');
                 this.toggleSettings();
             }
-            return; // Don't do anything else while settings are open
+            return; 
         }
 
         // Priority 2: Ignore if clicking on interactive elements
-        if (e.target.closest('.word-token') || 
-            e.target.closest('.bottom-bar') || 
-            e.target.closest('button') ||
-            e.target.closest('.trans-icon')) {
+        const interactive = e.target.closest('.word-token') || 
+                          e.target.closest('.bottom-bar') || 
+                          e.target.closest('button') ||
+                          e.target.closest('.trans-icon') ||
+                          e.target.closest('.settings-panel');
+                          
+        if (interactive) {
+            console.log('Click on interactive element, ignoring toggle');
             return;
         }
 
         // Priority 3: Toggle bottom bar
+        console.log('Toggling bottom bar');
         this.toggleBottomBar();
     },
 

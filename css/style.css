@@ -586,21 +586,20 @@ body.reader-active .bottom-bar .bar-right .reader-only {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.9);
-    width: 360px;
-    max-width: 90vw;
-    max-height: 90vh;
+    width: 310px;
+    max-width: 85vw;
+    max-height: 85vh;
     background: #fff;
     border: 3px solid #000;
     z-index: 2000;
-    padding: 24px;
+    padding: 18px;
     overflow-y: auto;
     /* Isolate settings from global typography changes */
-    line-height: 1.5 !important;
-    font-size: 16px !important;
+    line-height: 1.4 !important;
+    font-size: 13px !important;
     opacity: 0;
     visibility: hidden;
-    transition: none;
-    /* Instant for e-ink */
+    transition: none; /* Instant for e-ink */
 }
 
 .settings-panel.open {
@@ -651,25 +650,26 @@ body.reader-active .bottom-bar .bar-right .reader-only {
 }
 
 .settings-group {
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 15px;
-    flex-wrap: wrap; /* Allow description to wrap below */
+    gap: 10px;
 }
 
 .settings-group label {
     font-size: 13px;
     font-weight: bold;
-    color: #333;
-    flex: 1;
+    color: #000;
+    flex: 0 0 auto;
 }
 
 .settings-group .control-row {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
+    flex: 1;
+    justify-content: flex-end;
 }
 
 .step-btn {
