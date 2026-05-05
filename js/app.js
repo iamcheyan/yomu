@@ -16,6 +16,7 @@ const Yomu = {
                 this._scrollReader(e.detail.direction === 'down' ? 1 : -1);
             }
         });
+        document.addEventListener('click', (e) => this._handleGlobalClick(e));
 
         const loading = document.getElementById('loading-overlay');
         const msg = document.getElementById('loading-msg');
@@ -55,6 +56,28 @@ const Yomu = {
         } catch (e) {
             console.error('Init failed:', e);
             msg.textContent = '初期化に失敗しました。ページを再読み込みしてください。';
+        }
+    },
+
+    _handleGlobalClick(e) {
+        if (!this._isReaderOpen) return;
+
+        // Ignore if clicking on interactive elements
+        if (e.target.closest('.word-token') || 
+            e.target.closest('.bottom-bar') || 
+            e.target.closest('.settings-panel') || 
+            e.target.closest('button') ||
+            e.target.closest('.trans-icon')) {
+            return;
+        }
+
+        this.toggleBottomBar();
+    },
+
+    toggleBottomBar() {
+        const bar = document.getElementById('bottom-bar');
+        if (bar) {
+            bar.classList.toggle('hidden');
         }
     },
 
@@ -129,7 +152,8 @@ const Yomu = {
         await YomuReader.openBook(bookId);
         this._isReaderOpen = true;
         document.body.classList.add('reader-active');
-        document.getElementById('bottom-bar').classList.remove('hidden');
+        // Keep bottom bar hidden by default in reader
+        document.getElementById('bottom-bar').classList.add('hidden');
         if (pushState) {
             history.pushState({ view: 'reader', bookId: bookId }, '');
         }
