@@ -6,18 +6,30 @@ const YomuTokenizer = {
     _ready: false,
 
     async init() {
-        return new Promise((resolve, reject) => {
-            kuromoji.builder({ dicPath: 'libs/dict' }).build((err, tokenizer) => {
-                if (err) {
-                    console.error('Tokenizer init failed:', err);
-                    reject(err);
-                    return;
-                }
+        const paths = [
+            'libs/dict',
+            'https://cdn.jsdelivr.net/npm/kuromoji@0.1.2/dict/'
+        ];
+
+        for (const dicPath of paths) {
+            try {
+                console.log(`Attempting to load tokenizer from: ${dicPath}`);
+                const tokenizer = await new Promise((resolve, reject) => {
+                    kuromoji.builder({ dicPath }).build((err, t) => {
+                        if (err) reject(err);
+                        else resolve(t);
+                    });
+                });
                 this._tokenizer = tokenizer;
                 this._ready = true;
-                resolve();
-            });
-        });
+                console.log(`Tokenizer initialized successfully from: ${dicPath}`);
+                return;
+            } catch (e) {
+                console.warn(`Failed to load tokenizer from ${dicPath}:`, e);
+            }
+        }
+        
+        throw new Error('All tokenizer initialization attempts failed.');
     },
 
     isReady() {
@@ -133,19 +145,34 @@ const YomuTokenizer = {
     /**
      * Render a paragraph with ruby annotations and clickable tokens
      * @param {string} text - raw text paragraph (may contain Aozora 《》｜ ruby)
+     * @param {boolean} forceAuto - whether to force kuromoji for all kanji
      * @returns {string} HTML with ruby tags and word-token spans
      */
-    renderParagraph(text) {
+    renderParagraph(text, forceAuto = false) {
         if (!text) return `<p>${text}</p>`;
 
-        // If text has Aozora markers (ruby or annotations), use them
-        if (text.includes('《') || text.includes('［＃')) {
+        // If auto-furigana is OFF and text has Aozora markers, use Aozora renderer
+        if (!forceAuto && (text.includes('《') || text.includes('［＃'))) {
             return this._renderAozoraParagraph(text);
         }
 
-        // Otherwise fall back to kuromoji auto-ruby
-        if (!this._ready) return `<p>${this._escapeHtml(text)}</p>`;
-        return this._renderKuromojiParagraph(text);
+        // If forceAuto is ON or text has no markers, use Kuromoji
+        if (!this._ready) {
+            // If not ready, at least handle Aozora if present
+            if (text.includes('《') || text.includes('［＃')) {
+                return this._renderAozoraParagraph(text);
+            }
+            return `<p>${this._escapeHtml(text)}</p>`;
+        }
+
+        // For Full Auto mode, we first strip Aozora markers to avoid kuromoji confusion
+        // but ideally we'd want to keep them. For now, simple approach:
+        let cleanText = text
+            .replace(/｜/g, '')
+            .replace(/《[^》]+》/g, '')
+            .replace(/［＃[^］]+］/g, '');
+        
+        return this._renderKuromojiParagraph(cleanText);
     },
 
     /**

@@ -41,6 +41,7 @@ const YomuReader = {
 
             if (!data) throw new Error('Book not found');
             
+            this._currentBookData = data;
             this._renderBook(data);
         } catch (e) {
             console.error('Failed to load book:', e);
@@ -77,6 +78,9 @@ const YomuReader = {
     _renderBook(data) {
         const container = document.getElementById('novel-content');
         let html = '';
+        
+        const settings = YomuStorage.getSettings();
+        const forceAuto = settings.autoFurigana === true;
 
         if (data.chapters) {
             for (const chapter of data.chapters) {
@@ -84,12 +88,12 @@ const YomuReader = {
                     html += `<h2 class="chapter-title">${this._escapeHtml(chapter.title)}</h2>`;
                 }
                 for (const para of chapter.paragraphs) {
-                    html += YomuTokenizer.renderParagraph(para);
+                    html += YomuTokenizer.renderParagraph(para, forceAuto);
                 }
             }
         } else if (data.paragraphs) {
             for (const para of data.paragraphs) {
-                html += YomuTokenizer.renderParagraph(para);
+                html += YomuTokenizer.renderParagraph(para, forceAuto);
             }
         }
 
@@ -102,6 +106,14 @@ const YomuReader = {
                 this._onWordClick(el);
             });
         });
+    },
+
+    reRender() {
+        if (this._currentBookData) {
+            this._renderBook(this._currentBookData);
+            // Scroll to current position to avoid jumping
+            this._refreshVocabMarks();
+        }
     },
 
     _onWordClick(el) {

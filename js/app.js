@@ -456,6 +456,23 @@ const Yomu = {
         
         const animStyle = document.getElementById('animation-style');
         if (animStyle) animStyle.disabled = noAnim;
+
+        // Auto Furigana
+        const autoFuriToggle = document.getElementById('auto-furigana-toggle');
+        const autoFuri = settings.autoFurigana === true;
+        if (autoFuriToggle) autoFuriToggle.checked = autoFuri;
+    },
+
+    updateAutoFuriganaSetting() {
+        const checkbox = document.getElementById('auto-furigana-toggle');
+        const autoFuri = checkbox ? checkbox.checked : false;
+        
+        YomuStorage.saveSetting('autoFurigana', autoFuri);
+        
+        // Trigger re-render if reader is open
+        if (this._isReaderOpen && this.reader.getCurrentBook()) {
+            this.reader.reRender();
+        }
     },
 
     updateAnimationSetting() {
