@@ -1,0 +1,591 @@
+{
+  "summary": {
+    "matched_id": 8760,
+    "matched_title": 2080,
+    "title_ambiguous": 200,
+    "unmatched": 201,
+    "total_local_files": 11041,
+    "matched_total": 10840
+  },
+  "fieldCoverageOnMatched": {
+    "author": 10840,
+    "baseBook1": 10804,
+    "baseBook2": 43,
+    "cardUrl": 10840,
+    "firstAppearance": 6870,
+    "htmlUrl": 10840,
+    "inputBy": 10829,
+    "ndc": 10677,
+    "originalTitle": 130,
+    "orthography": 10840,
+    "proofreadBy": 10795,
+    "publishedAt": 10840,
+    "sortKana": 10838,
+    "subtitle": 718,
+    "subtitleKana": 715,
+    "textFileId": 10840,
+    "textUrl": 10840,
+    "title": 10840,
+    "titleKana": 10840,
+    "updatedAt": 10840,
+    "workCopyright": 10840,
+    "workId": 10840
+  },
+  "unmatchedSamples": [
+    {
+      "file": "_注文の多い料理店_序.json",
+      "localId": "_注文の多い料理店_序",
+      "title": "『注文の多い料理店』序",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "chumon_ryori.json",
+      "localId": "chumon_ryori",
+      "title": "注文の多い料理店",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "gingatetsudo.json",
+      "localId": "gingatetsudo",
+      "title": "銀河鉄道の夜",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "issun_boshi.json",
+      "localId": "issun_boshi",
+      "title": "一寸法師",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "izunodori.json",
+      "localId": "izunodori",
+      "title": "伊豆の踊子",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "kappa.json",
+      "localId": "kappa",
+      "title": "河童",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "kokoro.json",
+      "localId": "kokoro",
+      "title": "こころ",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "mai_hime.json",
+      "localId": "mai_hime",
+      "title": "舞姫",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "meian.json",
+      "localId": "meian",
+      "title": "明暗",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "musashino.json",
+      "localId": "musashino",
+      "title": "武蔵野",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "sangetsuki.json",
+      "localId": "sangetsuki",
+      "title": "山月記",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "sasameyuki.json",
+      "localId": "sasameyuki",
+      "title": "細雪",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "takasebune.json",
+      "localId": "takasebune",
+      "title": "高瀬舟",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "yabu_no_naka.json",
+      "localId": "yabu_no_naka",
+      "title": "藪の中",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "yamada_isho.json",
+      "localId": "yamada_isho",
+      "title": "大導寺信輔の半生",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "yuki_onna.json",
+      "localId": "yuki_onna",
+      "title": "雪女",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "あいびき.json",
+      "localId": "あいびき",
+      "title": "あいびき",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "ある日.json",
+      "localId": "ある日",
+      "title": "ある日",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "お伽草紙.json",
+      "localId": "お伽草紙",
+      "title": "お伽草紙",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "きもの.json",
+      "localId": "きもの",
+      "title": "きもの",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "すみだ川.json",
+      "localId": "すみだ川",
+      "title": "すみだ川",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "たぬき汁.json",
+      "localId": "たぬき汁",
+      "title": "たぬき汁",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "にぎり飯.json",
+      "localId": "にぎり飯",
+      "title": "にぎり飯",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "にごりえ.json",
+      "localId": "にごりえ",
+      "title": "にごりえ",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "はだかの王さま.json",
+      "localId": "はだかの王さま",
+      "title": "はだかの王さま",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "ふるさと.json",
+      "localId": "ふるさと",
+      "title": "ふるさと",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "ゆく雲.json",
+      "localId": "ゆく雲",
+      "title": "ゆく雲",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "アグニの神.json",
+      "localId": "アグニの神",
+      "title": "アグニの神",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "イギリス海岸.json",
+      "localId": "イギリス海岸",
+      "title": "イギリス海岸",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "キュリー夫人.json",
+      "localId": "キュリー夫人",
+      "title": "キュリー夫人",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "クリスマス.json",
+      "localId": "クリスマス",
+      "title": "クリスマス",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "フランケンシュタイン.json",
+      "localId": "フランケンシュタイン",
+      "title": "フランケンシュタイン",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "マッチ売りの少女.json",
+      "localId": "マッチ売りの少女",
+      "title": "マッチ売りの少女",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "ロミオとヂュリエット.json",
+      "localId": "ロミオとヂュリエット",
+      "title": "ロミオとヂュリエット",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "三国志.json",
+      "localId": "三国志",
+      "title": "三国志",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "三尺角.json",
+      "localId": "三尺角",
+      "title": "三尺角",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "不器男句集.json",
+      "localId": "不器男句集",
+      "title": "不器男句集",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "不思議な鳥.json",
+      "localId": "不思議な鳥",
+      "title": "不思議な鳥",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "世界怪談名作集.json",
+      "localId": "世界怪談名作集",
+      "title": "世界怪談名作集",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "中国怪奇小説集.json",
+      "localId": "中国怪奇小説集",
+      "title": "中国怪奇小説集",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "二人の友.json",
+      "localId": "二人の友",
+      "title": "二人の友",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "二人の役人.json",
+      "localId": "二人の役人",
+      "title": "二人の役人",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "二十六夜.json",
+      "localId": "二十六夜",
+      "title": "二十六夜",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "二筋の血.json",
+      "localId": "二筋の血",
+      "title": "二筋の血",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "五所川原.json",
+      "localId": "五所川原",
+      "title": "五所川原",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "五月雨.json",
+      "localId": "五月雨",
+      "title": "五月雨",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "五重塔.json",
+      "localId": "五重塔",
+      "title": "五重塔",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "五階の窓.json",
+      "localId": "五階の窓",
+      "title": "五階の窓",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "人妻.json",
+      "localId": "人妻",
+      "title": "人妻",
+      "candidateWorkId": ""
+    },
+    {
+      "file": "人生論ノート.json",
+      "localId": "人生論ノート",
+      "title": "人生論ノート",
+      "candidateWorkId": ""
+    }
+  ],
+  "titleAmbiguousSamples": [
+    {
+      "file": "_注文の多い料理店_序.json",
+      "localId": "_注文の多い料理店_序",
+      "title": "『注文の多い料理店』序",
+      "candidateWorkIds": [
+        "043735",
+        "043736"
+      ]
+    },
+    {
+      "file": "chumon_ryori.json",
+      "localId": "chumon_ryori",
+      "title": "注文の多い料理店",
+      "candidateWorkIds": [
+        "001927",
+        "043754"
+      ]
+    },
+    {
+      "file": "gingatetsudo.json",
+      "localId": "gingatetsudo",
+      "title": "銀河鉄道の夜",
+      "candidateWorkIds": [
+        "046322",
+        "048222",
+        "043737",
+        "000456"
+      ]
+    },
+    {
+      "file": "issun_boshi.json",
+      "localId": "issun_boshi",
+      "title": "一寸法師",
+      "candidateWorkIds": [
+        "058053",
+        "043457"
+      ]
+    },
+    {
+      "file": "kappa.json",
+      "localId": "kappa",
+      "title": "河童",
+      "candidateWorkIds": [
+        "000069",
+        "045761"
+      ]
+    },
+    {
+      "file": "kokoro.json",
+      "localId": "kokoro",
+      "title": "こころ",
+      "candidateWorkIds": [
+        "055540",
+        "000773"
+      ]
+    },
+    {
+      "file": "mai_hime.json",
+      "localId": "mai_hime",
+      "title": "舞姫",
+      "candidateWorkIds": [
+        "000538",
+        "050283",
+        "000682",
+        "002078",
+        "058126",
+        "002165"
+      ]
+    },
+    {
+      "file": "meian.json",
+      "localId": "meian",
+      "title": "明暗",
+      "candidateWorkIds": [
+        "046939",
+        "000782"
+      ]
+    },
+    {
+      "file": "musashino.json",
+      "localId": "musashino",
+      "title": "武蔵野",
+      "candidateWorkIds": [
+        "000329",
+        "042349"
+      ]
+    },
+    {
+      "file": "sangetsuki.json",
+      "localId": "sangetsuki",
+      "title": "山月記",
+      "candidateWorkIds": [
+        "000623",
+        "000624"
+      ]
+    },
+    {
+      "file": "sasameyuki.json",
+      "localId": "sasameyuki",
+      "title": "細雪",
+      "candidateWorkIds": [
+        "056698",
+        "057416",
+        "057394"
+      ]
+    },
+    {
+      "file": "takasebune.json",
+      "localId": "takasebune",
+      "title": "高瀬舟",
+      "candidateWorkIds": [
+        "000691",
+        "000692",
+        "045245"
+      ]
+    },
+    {
+      "file": "yabu_no_naka.json",
+      "localId": "yabu_no_naka",
+      "title": "藪の中",
+      "candidateWorkIds": [
+        "000179",
+        "024454"
+      ]
+    },
+    {
+      "file": "yamada_isho.json",
+      "localId": "yamada_isho",
+      "title": "大導寺信輔の半生",
+      "candidateWorkIds": [
+        "000032",
+        "046672"
+      ]
+    },
+    {
+      "file": "yuki_onna.json",
+      "localId": "yuki_onna",
+      "title": "雪女",
+      "candidateWorkIds": [
+        "045492",
+        "050326",
+        "004947"
+      ]
+    },
+    {
+      "file": "あいびき.json",
+      "localId": "あいびき",
+      "title": "あいびき",
+      "candidateWorkIds": [
+        "000005",
+        "004843"
+      ]
+    },
+    {
+      "file": "ある日.json",
+      "localId": "ある日",
+      "title": "ある日",
+      "candidateWorkIds": [
+        "054036",
+        "048819",
+        "059055"
+      ]
+    },
+    {
+      "file": "お伽草紙.json",
+      "localId": "お伽草紙",
+      "title": "お伽草紙",
+      "candidateWorkIds": [
+        "052380",
+        "000307"
+      ]
+    },
+    {
+      "file": "きもの.json",
+      "localId": "きもの",
+      "title": "きもの",
+      "candidateWorkIds": [
+        "057412",
+        "004458",
+        "047613"
+      ]
+    },
+    {
+      "file": "すみだ川.json",
+      "localId": "すみだ川",
+      "title": "すみだ川",
+      "candidateWorkIds": [
+        "050556",
+        "050448"
+      ]
+    }
+  ],
+  "source": {
+    "url": "https://www.aozora.gr.jp/index_pages/list_person_all_extended_utf8.zip",
+    "csvRows": 19472,
+    "workCount": 17812,
+    "csvFields": [
+      "作品ID",
+      "作品名",
+      "作品名読み",
+      "ソート用読み",
+      "副題",
+      "副題読み",
+      "原題",
+      "初出",
+      "分類番号",
+      "文字遣い種別",
+      "作品著作権フラグ",
+      "公開日",
+      "最終更新日",
+      "図書カードURL",
+      "人物ID",
+      "姓",
+      "名",
+      "姓読み",
+      "名読み",
+      "姓読みソート用",
+      "名読みソート用",
+      "姓ローマ字",
+      "名ローマ字",
+      "役割フラグ",
+      "生年月日",
+      "没年月日",
+      "人物著作権フラグ",
+      "底本名1",
+      "底本出版社名1",
+      "底本初版発行年1",
+      "入力に使用した版1",
+      "校正に使用した版1",
+      "底本の親本名1",
+      "底本の親本出版社名1",
+      "底本の親本初版発行年1",
+      "底本名2",
+      "底本出版社名2",
+      "底本初版発行年2",
+      "入力に使用した版2",
+      "校正に使用した版2",
+      "底本の親本名2",
+      "底本の親本出版社名2",
+      "底本の親本初版発行年2",
+      "入力者",
+      "校正者",
+      "テキストファイルURL",
+      "テキストファイル最終更新日",
+      "テキストファイル符号化方式",
+      "テキストファイル文字集合",
+      "テキストファイル修正回数",
+      "XHTML/HTMLファイルURL",
+      "XHTML/HTMLファイル最終更新日",
+      "XHTML/HTMLファイル符号化方式",
+      "XHTML/HTMLファイル文字集合",
+      "XHTML/HTMLファイル修正回数"
+    ]
+  }
+}
