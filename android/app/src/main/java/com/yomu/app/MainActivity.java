@@ -62,8 +62,57 @@ public class MainActivity extends Activity {
             public void onPageFinished(WebView view, String url) {
                 // 自动注入数据根路径
                 view.evaluateJavascript("window.DATA_ROOT = 'file:///sdcard/Yomu/data';", null);
+                view.evaluateJavascript("window.IS_ANDROID = true;", null);
             }
         });
+
+        // 注册原生桥接，允许 JS 读写文件
+        webView.addJavascriptInterface(new Object() {
+            @android.webkit.JavascriptInterface
+            public void saveFile(String filename, String content) {
+                try {
+                    File dir = new File("/sdcard/Yomu/data");
+                    if (!dir.exists()) dir.mkdirs();
+                    File file = new File(dir, filename);
+                    java.io.FileWriter writer = new java.io.FileWriter(file);
+                    writer.write(content);
+                    writer.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+
+            @android.webkit.JavascriptInterface
+            public String readFile(String filename) {
+                try {
+                    File file = new File("/sdcard/Yomu/data", filename);
+                    if (!file.exists()) return null;
+                    java.util.Scanner scanner = new java.util.Scanner(file).useDelimiter("\\A");
+                    return scanner.hasNext() ? scanner.next() : "";
+                } catch (Exception e) {
+                    return null;
+                }
+            }
+
+            @android.webkit.JavascriptInterface
+            public String listFiles() {
+                try {
+                    File dir = new File("/sdcard/Yomu/data");
+                    if (!dir.exists()) return "[]";
+                    File[] files = dir.listFiles();
+                    if (files == null) return "[]";
+                    StringBuilder sb = new StringBuilder("[");
+                    for (int i = 0; i < files.length; i++) {
+                        sb.append("\"").append(files[i].getName()).append("\"");
+                        if (i < files.length - 1) sb.append(",");
+                    }
+                    sb.append("]");
+                    return sb.toString();
+                } catch (Exception e) {
+                    return "[]";
+                }
+            }
+        }, "YomuNative");
 
         // 处理 APK 下载和安装
         webView.setDownloadListener((url, userAgent, contentDisposition, mimeType, contentLength) -> {

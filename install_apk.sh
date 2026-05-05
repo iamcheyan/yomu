@@ -4,23 +4,29 @@ set -e
 # Yomu APK 安装脚本
 # 默认从远程编译服务器下载并安装最新 APK
 
-REMOTE="tetsuya@192.168.3.62"
-REMOTE_APK="/home/tetsuya/Development/yomu/build_output/yomu-debug.apk"
-LOCAL_APK="$HOME/Downloads/yomu-debug.apk"
+# REMOTE="user@192.168.x.x"
+# REMOTE_APK="/path/to/yomu/build_output/yomu-debug.apk"
+LOCAL_APK="build_output/yomu-debug.apk"
 
 if [ -n "$1" ] && [ -f "$1" ]; then
     echo ">>> 使用指定的本地 APK: $1"
     APK="$1"
 else
-    echo ">>> 正在从远程服务器 ($REMOTE) 下载最新 APK..."
-    if scp "$REMOTE:$REMOTE_APK" "$LOCAL_APK"; then
-        APK="$LOCAL_APK"
-    elif [ -f "build_output/yomu-debug.apk" ]; then
-        echo ">>> 远程下载失败，尝试使用本地 build_output/ 下的 APK..."
-        APK="build_output/yomu-debug.apk"
-    else
-        echo "❌ 错误: 无法从远程获取 APK，且本地未找到编译产物。"
-        exit 1
+    if [ -n "$REMOTE" ]; then
+        echo ">>> 正在从远程服务器 ($REMOTE) 下载最新 APK..."
+        if scp "$REMOTE:$REMOTE_APK" "$LOCAL_APK"; then
+            APK="$LOCAL_APK"
+        fi
+    fi
+
+    if [ -z "$APK" ]; then
+        if [ -f "build_output/yomu-debug.apk" ]; then
+            echo ">>> 使用本地 build_output/ 下的 APK..."
+            APK="build_output/yomu-debug.apk"
+        else
+            echo "❌ 错误: 未配置远程服务器，且本地未找到编译产物。"
+            exit 1
+        fi
     fi
 fi
 

@@ -7,6 +7,8 @@ const Yomu = {
     _vocabViewOpen: false,
     _storeOpen: false,
     _storeBooks: [],
+    _storePage: 0,
+    _pageSize: 10,
     _isReaderOpen: false,
 
     async init() {
@@ -40,29 +42,29 @@ const Yomu = {
             // Render book list
             this._renderBookList();
 
-            // Setup history handling
+            // Setup history/routing handling
             window.addEventListener('popstate', (e) => this._handlePopState(e));
+            window.addEventListener('hashchange', () => this._handleHashRouting());
             
             // Hide loading
             loading.classList.add('hidden');
             
-            // Initial view state (Restore from last session)
-            const lastState = YomuStorage.getAppState();
-            const view = lastState.lastView || 'library';
-            const bookId = lastState.lastBookId;
+            // Initial Routing (Prioritize URL Hash)
+            if (!this._handleHashRouting()) {
+                // Fallback to last session state if no hash
+                const lastState = YomuStorage.getAppState();
+                const view = lastState.lastView || 'library';
+                const bookId = lastState.lastBookId;
 
-            if (view === 'reader' && bookId) {
-                await this.openBook(bookId, false);
-                if (!history.state) history.replaceState({ view: 'reader', bookId }, '');
-            } else if (view === 'vocab') {
-                this.showVocab(false);
-                if (!history.state) history.replaceState({ view: 'vocab' }, '');
-            } else if (view === 'store') {
-                this.showStore(false);
-                if (!history.state) history.replaceState({ view: 'store' }, '');
-            } else {
-                this.showBookList(false);
-                if (!history.state) history.replaceState({ view: 'library' }, '');
+                if (view === 'reader' && bookId) {
+                    await this.openBook(bookId, false);
+                } else if (view === 'vocab') {
+                    this.showVocab(false);
+                } else if (view === 'store') {
+                    this.showStore(false);
+                } else {
+                    this.showBookList(false);
+                }
             }
         } catch (e) {
             console.error('Init failed:', e);
@@ -71,22 +73,41 @@ const Yomu = {
     },
 
     _handleGlobalClick(e) {
+        // 1. Handle Modal Overlay click (Click on background to cancel)
+        if (e.target.id === 'modal-overlay') {
+            const cancelBtn = document.getElementById('modal-cancel-btn');
+            if (cancelBtn && cancelBtn.style.display !== 'none') {
+                cancelBtn.click();
+            } else {
+                const okBtn = document.getElementById('modal-ok-btn');
+                if (okBtn) okBtn.click();
+            }
+            return;
+        }
+
+        // 2. Handle Settings Overlay click
+        if (e.target.id === 'settings-overlay' && this._settingsOpen) {
+            this.toggleSettings();
+            return;
+        }
+
         if (!this._isReaderOpen) {
             return;
         }
 
-        // Priority 1: Ignore if clicking on interactive elements (buttons, tokens, or panel itself)
+        // Priority 1: Ignore if clicking on interactive elements
         const interactive = e.target.closest('.word-token') || 
                           e.target.closest('.bottom-bar') || 
                           e.target.closest('button') ||
                           e.target.closest('.trans-icon') ||
-                          e.target.closest('.settings-panel');
+                          e.target.closest('.settings-panel') ||
+                          e.target.closest('.modal-card');
                           
         if (interactive) {
             return;
         }
 
-        // Priority 2: If settings panel is open, click anywhere outside (blank area) to close it
+        // Priority 2: If settings panel is open, close it
         if (this._settingsOpen) {
             this.toggleSettings();
             return; 
@@ -128,53 +149,59 @@ const Yomu = {
         const bundledBooks = YomuReader.getBooks();
         const downloadedBooks = YomuStorage.getDownloadedBooks();
         
-        // Merge and deduplicate by ID (downloaded takes precedence)
-        const booksMap = new Map();
-        bundledBooks.forEach(b => booksMap.set(b.id, b));
-        downloadedBooks.forEach(b => booksMap.set(b.id, b));
-        
-        const books = Array.from(booksMap.values());
-        
-        // Sort by last read date to put most recent at top
-        books.sort((a, b) => {
-            const progA = YomuStorage.getProgress(a.id);
-            const progB = YomuStorage.getProgress(b.id);
-            return (progB.lastRead || 0) - (progA.lastRead || 0);
-        });
-        
         // Update counter
         const counter = document.getElementById('library-count');
-        if (counter) counter.textContent = books.length;
+        const totalCount = bundledBooks.length + downloadedBooks.length;
+        if (counter) counter.textContent = totalCount;
         
         const grid = document.getElementById('book-grid');
         let html = '';
 
-        for (const book of books) {
+        const renderCard = (book, isDownloaded = false) => {
             const progress = YomuStorage.getProgress(book.id);
             const percent = Math.round(progress.scrollPercent || 0);
-
-            html += `
+            return `
                 <div class="book-card" onclick="Yomu.openBook('${book.id}')">
                     <div class="book-info">
-                        <div class="book-title">
-                            ${this._escapeHtml(book.title)}
-                        </div>
+                        <div class="book-title">${this._escapeHtml(book.title)}</div>
                         <div class="book-author">${this._escapeHtml(book.author)}</div>
                         <div class="book-desc">${this._escapeHtml(book.desc || '')}</div>
                     </div>
-                    
                     <div class="book-meta">
                         <div class="book-progress-info">
                             ${progress.lastRead ? `<span class="book-progress">読了 ${percent}%</span>` : ''}
                             ${progress.lastRead ? `<div class="progress-bar-container"><div class="progress-bar-fill" style="width:${percent}%"></div></div>` : ''}
                         </div>
-                        <div class="file-id">${book.id}.json</div>
+                        ${isDownloaded ? `
+                            <button class="delete-btn" onclick="Yomu.deleteBook(event, '${book.id}', '${this._escapeAttr(book.title)}')">
+                                削除
+                            </button>
+                        ` : `<div class="file-id">${book.id}</div>`}
                     </div>
                 </div>
             `;
+        };
+
+        // 1. Downloaded section (Now on top)
+        if (downloadedBooks.length > 0) {
+            html += '<h2 class="library-section-title">ダウンロード済み</h2>';
+            html += '<div class="library-section-grid">';
+            for (const book of downloadedBooks) {
+                html += renderCard(book, true);
+            }
+            html += '</div>';
         }
 
+        // 2. Built-in section
+        html += '<h2 class="library-section-title">名作選</h2>';
+        html += '<div class="library-section-grid">';
+        for (const book of bundledBooks) {
+            html += renderCard(book);
+        }
+        html += '</div>';
+
         grid.innerHTML = html;
+        grid.style.display = 'block'; // Ensure it's not a grid itself if it contains grids
     },
 
     async openBook(bookId, pushState = true) {
@@ -188,7 +215,8 @@ const Yomu = {
         YomuStorage.saveAppState({ lastView: 'reader', lastBookId: bookId });
 
         if (pushState) {
-            history.pushState({ view: 'reader', bookId: bookId }, '');
+            const state = { view: 'reader', bookId: bookId };
+            history.pushState(state, '', `#book/${bookId}`);
         }
     },
 
@@ -211,7 +239,7 @@ const Yomu = {
         this._isReaderOpen = false;
         
         if (pushState) {
-            history.pushState({ view: 'library' }, '');
+            history.pushState({ view: 'library' }, '', '#library');
         }
         
         this._renderBookList();
@@ -237,7 +265,31 @@ const Yomu = {
             }
         }
 
+        this._storePage = 0; // Reset page when opening store
         this._renderStore();
+    },
+
+    nextStorePage() {
+        const query = document.getElementById('store-search-input').value.toLowerCase();
+        const filtered = this._storeBooks.filter(b => 
+            b.title.toLowerCase().includes(query) || 
+            b.author.toLowerCase().includes(query)
+        );
+        
+        if ((this._storePage + 1) * this._pageSize < filtered.length) {
+            this._storePage++;
+            this._renderStore(query);
+            window.scrollTo(0, 0);
+        }
+    },
+
+    prevStorePage() {
+        if (this._storePage > 0) {
+            this._storePage--;
+            const query = document.getElementById('store-search-input').value.toLowerCase();
+            this._renderStore(query);
+            window.scrollTo(0, 0);
+        }
     },
 
     _renderStore(filter = '') {
@@ -250,81 +302,129 @@ const Yomu = {
             b.author.toLowerCase().includes(query)
         );
 
+        // Slice for pagination
+        const start = this._storePage * this._pageSize;
+        const paged = filtered.slice(start, start + this._pageSize);
+
         let html = '';
-        for (const book of filtered) {
-            const isDownloaded = downloaded.some(d => d.id === book.id);
+        for (const book of paged) {
+            const id = book.workId || book.fileId; 
+            const isDownloaded = downloaded.some(d => d.id === id);
+            const authorText = book.author || `(著者ID: ${book.authorId})`;
             html += `
-                <div class="book-card ${isDownloaded ? 'downloaded' : ''}" id="store-book-${book.id}" onclick="Yomu.downloadBook('${book.id}')">
+                <div class="book-card ${isDownloaded ? 'downloaded' : ''}" id="store-book-${id}">
                     <div class="book-info">
                         <div class="book-title">${this._escapeHtml(book.title)}</div>
-                        <div class="book-author">${this._escapeHtml(book.author)}</div>
-                        <div class="book-desc">${this._escapeHtml(book.desc || '')}</div>
+                        <div class="book-author">${this._escapeHtml(authorText)}</div>
+                        <div class="book-extra">
+                            <span>著者ID: ${this._escapeHtml(book.authorId)}</span>
+                            <span>作品ID: ${this._escapeHtml(book.workId || 'N/A')}</span>
+                        </div>
                     </div>
                     <div class="book-meta">
-                        ${isDownloaded ? '取得済み' : 'ダウンロード'}
+                        <button class="download-btn ${isDownloaded ? 'downloaded' : ''}" 
+                                id="btn-dl-${id}"
+                                onclick="Yomu.downloadBook('${id}')">
+                            ${isDownloaded ? '読む' : 'ダウンロード'}
+                        </button>
                     </div>
                 </div>
             `;
         }
         grid.innerHTML = html || '<div style="padding: 20px; color: #999;">作品が見つかりませんでした。</div>';
+
+        // Update pagination buttons
+        const prevBtn = document.getElementById('btn-prev-page');
+        const nextBtn = document.getElementById('btn-next-page');
+        if (prevBtn) prevBtn.disabled = this._storePage === 0;
+        if (nextBtn) nextBtn.disabled = (this._storePage + 1) * this._pageSize >= filtered.length;
     },
 
     filterStore(query) {
+        this._storePage = 0; // Reset to page 0 on search
         this._renderStore(query);
     },
 
     async downloadBook(bookId) {
-        const book = this._storeBooks.find(b => b.id === bookId);
+        const book = this._storeBooks.find(b => (b.workId || b.fileId) === bookId);
         if (!book) return;
 
         // Check if already downloaded
         if (YomuStorage.getDownloadedBooks().some(d => d.id === bookId)) {
-            // Already have it, just open it
             this.openBook(bookId);
             return;
         }
 
-        const el = document.getElementById(`store-book-${bookId}`);
-        el.classList.add('downloading');
+        // Show Progress Dialog
+        const overlay = document.getElementById('modal-overlay');
+        const titleEl = document.getElementById('modal-title');
+        const msgEl = document.getElementById('modal-message');
+        const okBtn = document.getElementById('modal-ok-btn');
+        const cancelBtn = document.getElementById('modal-cancel-btn');
+
+        titleEl.textContent = 'ダウンロード';
+        msgEl.innerHTML = `
+            <span class="download-status-text" id="dl-status">接続中...</span>
+            <div class="download-progress-container">
+                <div class="download-progress-fill" id="dl-progress" style="width: 10%"></div>
+            </div>
+        `;
+        cancelBtn.style.display = 'none';
+        okBtn.style.display = 'none'; // Hide OK until done
+        overlay.classList.add('active');
+
+        const updateStatus = (text, progress) => {
+            const statusEl = document.getElementById('dl-status');
+            const progressEl = document.getElementById('dl-progress');
+            if (statusEl) statusEl.textContent = text;
+            if (progressEl) progressEl.style.width = progress + '%';
+        };
 
         try {
+            updateStatus('データを取得中...', 30);
             const processed = await YomuAozora.downloadBook(book);
+            
+            updateStatus('解析・保存中...', 70);
             await YomuStorage.saveBookContent(bookId, processed);
             
             // Add to downloaded list
             YomuStorage.addDownloadedBook({
-                id: book.id,
+                id: bookId,
                 title: book.title,
-                author: book.author,
-                desc: book.desc,
-                year: book.year
+                author: book.author || `(ID: ${book.authorId})`,
+                desc: book.desc || '',
+                year: book.year || ''
             });
 
-            el.classList.remove('downloading');
-            el.classList.add('downloaded');
+            updateStatus('完了！', 100);
+            msgEl.innerHTML += '<p style="margin-top:10px; font-weight:bold;">準備が整いました。</p>';
             
-            // Re-render store to show checkmark
-            this._renderStore(document.getElementById('store-search-input').value);
+            okBtn.textContent = '今すぐ読む';
+            okBtn.style.display = 'block';
+            okBtn.onclick = () => {
+                overlay.classList.remove('active');
+                this.openBook(bookId);
+            };
+
+            // Refresh store in background
+            setTimeout(() => this._renderStore(document.getElementById('store-search-input')?.value || ''), 100);
             
-            await this.alert(`「${book.title}」をダウンロードしました。`, '成功');
         } catch (e) {
-            el.classList.remove('downloading');
             console.error('Download failed:', e);
-            await this.alert('ダウンロードに失敗しました。ネットワーク接続を確認してください。', 'エラー');
+            titleEl.textContent = 'エラー';
+            msgEl.textContent = 'ダウンロードに失敗しました。接続を確認してください。';
+            okBtn.textContent = '閉じる';
+            okBtn.style.display = 'block';
+            okBtn.onclick = () => overlay.classList.remove('active');
         }
     },
 
     // Furigana toggle
     toggleFurigana() {
-        const body = document.body;
-        const isOn = body.classList.toggle('show-furigana');
-        YomuStorage.saveSetting('furigana', isOn);
-
-        // Sync checkbox and button
-        const checkbox = document.getElementById('furigana-toggle');
-        if (checkbox) checkbox.checked = isOn;
-        const btn = document.getElementById('btn-furigana');
-        if (btn) btn.classList.toggle('active', isOn);
+        const settings = YomuStorage.getSettings();
+        const currentMode = settings.furiganaMode || 'nlp';
+        const nextMode = currentMode === 'none' ? 'nlp' : 'none';
+        this.setFuriganaMode(nextMode);
     },
 
     // Font family
@@ -446,6 +546,15 @@ const Yomu = {
     },
 
     // Custom Modals (Async)
+    async deleteBook(event, bookId, title) {
+        event.stopPropagation(); // Don't open the book
+        const ok = await this.confirm(`「${title}」を削除しますか？`);
+        if (ok) {
+            YomuStorage.removeDownloadedBook(bookId);
+            this._renderBookList();
+        }
+    },
+
     alert(message, title = '通知') {
         return new Promise(resolve => {
             const overlay = document.getElementById('modal-overlay');
@@ -658,41 +767,30 @@ const Yomu = {
             this.setLineHeight(settings.lineHeight * 10);
         }
 
-        // Furigana
-        if (settings.furigana !== undefined) {
-            if (!settings.furigana) {
-                document.body.classList.remove('show-furigana');
-                const checkbox = document.getElementById('furigana-toggle');
-                if (checkbox) checkbox.checked = false;
-                const btn = document.getElementById('btn-furigana');
-                if (btn) btn.classList.remove('active');
-            }
-        }
-
-        // Animation (E-ink optimization)
+        // Furigana Mode
+        const furiMode = settings.furiganaMode || 'nlp';
+        const furiSelect = document.getElementById('furigana-mode-select');
+        if (furiSelect) furiSelect.value = furiMode;
+        
+        document.body.classList.toggle('show-furigana', furiMode !== 'none');
+        
+        const animStyle = document.getElementById('animation-style');
+        // Animation
         const noAnimToggle = document.getElementById('no-animation-toggle');
         const noAnim = settings.noAnimation === true;
         if (noAnimToggle) noAnimToggle.checked = noAnim;
         
-        const animStyle = document.getElementById('animation-style');
         if (animStyle) animStyle.disabled = noAnim;
 
-        // Auto Furigana
-        const autoFuriToggle = document.getElementById('auto-furigana-toggle');
-        const autoFuri = settings.autoFurigana === true;
-        if (autoFuriToggle) autoFuriToggle.checked = autoFuri;
+        // Sync bottom bar button
+        const btn = document.getElementById('btn-furigana');
+        if (btn) btn.classList.toggle('active', furiMode !== 'none');
     },
 
-    updateAutoFuriganaSetting() {
-        const checkbox = document.getElementById('auto-furigana-toggle');
-        const autoFuri = checkbox ? checkbox.checked : false;
-        console.log('[App] updateAutoFuriganaSetting:', autoFuri);
-        
-        YomuStorage.saveSetting('autoFurigana', autoFuri);
-        
-        // Trigger re-render if reader is open
+    setFuriganaMode(mode) {
+        YomuStorage.saveSetting('furiganaMode', mode);
+        this._applySettings();
         if (this._isReaderOpen && this.reader.getCurrentBook()) {
-            console.log('[App] Triggering re-render...');
             this.reader.reRender();
         }
     },
@@ -708,9 +806,43 @@ const Yomu = {
     },
 
     _handlePopState(e) {
-        const state = e.state;
-        if (!state) return;
+        // If state is present, use it
+        if (e.state) {
+            this._routeByState(e.state);
+        } else {
+            // Otherwise fallback to hash
+            this._handleHashRouting();
+        }
+    },
 
+    _handleHashRouting() {
+        const hash = window.location.hash;
+        if (!hash) return false;
+
+        if (hash === '#library') {
+            this.showBookList(false);
+            return true;
+        }
+        if (hash === '#store') {
+            this.showStore(false);
+            return true;
+        }
+        if (hash === '#vocab') {
+            this.showVocab(false);
+            return true;
+        }
+        if (hash.startsWith('#book/')) {
+            const bookId = hash.replace('#book/', '');
+            if (bookId) {
+                this.openBook(bookId, false);
+                return true;
+            }
+        }
+        return false;
+    },
+
+    _routeByState(state) {
+        if (!state) return;
         switch (state.view) {
             case 'library':
                 this.showBookList(false);

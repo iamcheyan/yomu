@@ -86,7 +86,8 @@ const YomuStorage = {
             fontSize: 20,
             lineHeight: 2.2,
             font: 'mincho',
-            furigana: true
+            furiganaMode: 'nlp', // 'none', 'internal', 'nlp'
+            noAnimation: true
         });
     },
 
@@ -120,25 +121,53 @@ const YomuStorage = {
     },
 
     async saveBookContent(bookId, data) {
+        // 1. Always save to IndexedDB (Browser cache)
         const db = await this._getDB();
-        return new Promise((resolve, reject) => {
+        await new Promise((resolve, reject) => {
             const transaction = db.transaction([this._STORE_NAME], 'readwrite');
             const store = transaction.objectStore(this._STORE_NAME);
             const request = store.put(data, bookId);
             request.onsuccess = () => resolve();
             request.onerror = (e) => reject(e);
         });
+
+        // 2. If on Android, also save to Filesystem (User Home Dir)
+        if (window.YomuNative) {
+            try {
+                window.YomuNative.saveFile(bookId + '.json', JSON.stringify(data));
+                console.log('[Storage] Saved to Android filesystem:', bookId);
+            } catch (e) {
+                console.error('[Storage] Android filesystem save failed:', e);
+            }
+        }
     },
 
     async getBookContent(bookId) {
+        // 1. Try IndexedDB first
         const db = await this._getDB();
-        return new Promise((resolve, reject) => {
+        let data = await new Promise((resolve, reject) => {
             const transaction = db.transaction([this._STORE_NAME], 'readonly');
             const store = transaction.objectStore(this._STORE_NAME);
             const request = store.get(bookId);
             request.onsuccess = (e) => resolve(e.target.result);
             request.onerror = (e) => reject(e);
         });
+
+        // 2. Fallback to Android filesystem if not in IndexedDB
+        if (!data && window.YomuNative) {
+            try {
+                const json = window.YomuNative.readFile(bookId + '.json');
+                if (json) {
+                    data = JSON.parse(json);
+                    console.log('[Storage] Loaded from Android filesystem:', bookId);
+                    // Sync back to IndexedDB for faster future access
+                    await this.saveBookContent(bookId, data);
+                }
+            } catch (e) {
+                console.error('[Storage] Android filesystem read failed:', e);
+            }
+        }
+        return data;
     },
 
     async deleteBookContent(bookId) {
@@ -160,8 +189,14 @@ const YomuStorage = {
     addDownloadedBook(bookMeta) {
         const books = this.getDownloadedBooks();
         if (!books.find(b => b.id === bookMeta.id)) {
-            books.push(bookMeta);
+            books.unshift(bookMeta);
             this.set('downloaded_books', books);
         }
+    },
+
+    removeDownloadedBook(bookId) {
+        const books = this.getDownloadedBooks().filter(b => b.id !== bookId);
+        this.set('downloaded_books', books);
+        this.deleteBookContent(bookId);
     }
 };

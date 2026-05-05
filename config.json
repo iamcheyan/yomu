@@ -16,6 +16,7 @@
       "format": "openai"
     },
     "mimo": {
+      "enabled": false,
       "label": "小米MiMo",
       "api_key_env": "MIMO_API_KEY",
       "base_url_env": "MIMO_BASE_URL",
@@ -23,6 +24,7 @@
       "format": "openai"
     },
     "gemini": {
+      "enabled": false,
       "label": "Google Gemini",
       "api_key_env": "GEMINI_API_KEY",
       "api_key_envs": ["GEMINI_API_KEY", "GEMINI_API_KEY_2"],

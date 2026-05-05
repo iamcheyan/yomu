@@ -2,25 +2,26 @@
  * Yomu Aozora - Fetcher and parser for Aozora Bunko text files
  */
 const YomuAozora = {
-    BASE_URL: 'https://raw.githubusercontent.com/aozorahack/aozorabunko_text/master/cards/',
+    BASE_URL: 'https://raw.githubusercontent.com/iamcheyan/yomu/main/data/novels/',
+    GITHUB_RAW: 'https://raw.githubusercontent.com/iamcheyan/yomu/main/data/novels/',
 
     /**
-     * Fetch and process a book from Aozora Bunko
+     * Fetch a pre-processed JSON book from GitHub
      */
     async downloadBook(bookMeta) {
-        const { authorId, workId, fileId } = bookMeta;
-        const url = `${this.BASE_URL}${authorId}/files/${fileId}/${fileId}.txt`;
+        // Use workId or id as filename
+        const bookId = bookMeta.id || bookMeta.workId || bookMeta.fileId;
+        const url = `${this.GITHUB_RAW}${bookId}.json`;
 
         try {
             const resp = await fetch(url);
-            if (!resp.ok) throw new Error('Failed to fetch book from Aozora Bunko');
-            const rawText = await resp.text();
-
-            // Process the text
-            const processed = this.parseAozora(rawText, bookMeta);
-            return processed;
+            if (!resp.ok) throw new Error(`Failed to fetch book: ${bookId}`);
+            
+            // It's already JSON in our repo
+            const data = await resp.json();
+            return data;
         } catch (e) {
-            console.error('Aozora download failed:', e);
+            console.error('Download failed:', e);
             throw e;
         }
     },
@@ -39,21 +40,23 @@ const YomuAozora = {
         
         let content = '';
         if (parts.length >= 3) {
-            // Usually [header, body, footer]
+            // Standard Aozora: [Title/Author, Symbol Notes, Body, Footer]
+            // We want the Body (parts[2])
+            content = parts[2].trim();
+        } else if (parts.length === 2) {
+            // Fallback for files with only one separator: [Header, Body]
             content = parts[1].trim();
         } else {
-            // Fallback: try to find the first blank line after metadata
-            content = text;
+            // Last resort: find first blank line after metadata block
+            content = text.replace(/^[\s\S]*?\r?\n\r?\n/, '').trim();
         }
 
         // 2. Remove Aozora notes [＃...]
-        content = content.replace(/［＃[^］]+］/g, '');
-
+        // Keep them for tokenizer.js to handle properly (it knows how to parse them)
+        
         // 3. Handle Ruby
-        // Current implementation: Strip Aozora ruby and let Kuromoji handle it
-        // This ensures consistent look across all books.
-        content = content.replace(/《[^》]+》/g, '');
-        content = content.replace(/｜/g, ''); // Remove ruby start marker
+        // We no longer strip ruby here. We keep them as ｜...《...》 or ...《...》
+        // so that tokenizer.js can render them correctly in "Internal" mode.
 
         // 4. Split into paragraphs
         const lines = content.split(/\r?\n/);

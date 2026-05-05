@@ -51,6 +51,9 @@ const YomuReader = {
                 ];
             }
         }
+        
+        // Initialize gestures
+        this._initGestures();
     },
 
     getBooks() {
@@ -58,7 +61,10 @@ const YomuReader = {
     },
 
     async openBook(bookId) {
-        const book = this._books.find(b => b.id === bookId);
+        let book = this._books.find(b => b.id === bookId);
+        if (!book) {
+            book = YomuStorage.getDownloadedBooks().find(b => b.id === bookId);
+        }
         if (!book) return;
 
         this._currentBook = book;
@@ -126,7 +132,7 @@ const YomuReader = {
         let html = '';
 
         const settings = YomuStorage.getSettings();
-        const forceAuto = settings.autoFurigana === true;
+        const forceAuto = settings.furiganaMode === 'nlp';
 
         this._translations = data.translations || [];
 
@@ -137,44 +143,110 @@ const YomuReader = {
                     html += `<h2 class="chapter-title">${this._escapeHtml(chapter.title)}</h2>`;
                 }
                 for (const para of chapter.paragraphs) {
-                    html += this._renderParaWithTranslation(para, paraIndex, forceAuto);
+                    if (para && para.trim()) {
+                        html += this._renderParaWithTranslation(para, paraIndex, forceAuto);
+                    }
                     paraIndex++;
                 }
             }
         } else if (data.paragraphs) {
             for (let i = 0; i < data.paragraphs.length; i++) {
-                html += this._renderParaWithTranslation(data.paragraphs[i], i, forceAuto);
+                const para = data.paragraphs[i];
+                if (para && para.trim()) {
+                    html += this._renderParaWithTranslation(para, i, forceAuto);
+                }
             }
         }
 
         container.innerHTML = html;
 
-        // Attach click handlers to word tokens
+        // Initialize lazy loading for NLP mode
+        if (forceAuto) {
+            this._initLazyLoading();
+        } else {
+            // Attach click handlers to word tokens (already rendered in standard mode)
+            this._attachWordClickHandlers(container);
+        }
+    },
+
+    _initLazyLoading() {
+        const options = {
+            rootMargin: '400px 0px', // 提前 400 像素开始加载
+            threshold: 0
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const el = entry.target;
+                    const text = el.dataset.text;
+                    const index = parseInt(el.dataset.index);
+                    
+                    // Render actual content with NLP
+                    const html = YomuTokenizer.renderParagraph(text, true);
+                    
+                    // Extract icons and translations if any (we kept them in the placeholder)
+                    const icon = el.querySelector('.trans-icon');
+                    const iconHtml = icon ? icon.outerHTML : '';
+                    
+                    // Update innerHTML
+                    // renderParagraph returns <p>...</p>, we just want the inner part
+                    const innerHtml = html.replace(/^<p[^>]*>/, '').replace(/<\/p>$/, '');
+                    el.innerHTML = innerHtml + iconHtml;
+                    el.classList.remove('lazy-para');
+                    el.classList.add('rendered-para');
+                    
+                    // Attach click handlers to new tokens
+                    this._attachWordClickHandlers(el);
+                    
+                    // Stop observing once rendered
+                    observer.unobserve(el);
+                }
+            });
+        }, options);
+
+        document.querySelectorAll('.lazy-para').forEach(el => observer.observe(el));
+    },
+
+    _attachWordClickHandlers(container) {
         container.querySelectorAll('.word-token').forEach(el => {
+            // Avoid duplicate listeners
+            if (el.dataset.listenerAttached) return;
             el.addEventListener('click', (e) => {
                 e.preventDefault();
                 this._onWordClick(el);
             });
+            el.dataset.listenerAttached = 'true';
         });
     },
 
     _renderParaWithTranslation(text, index, forceAuto) {
-        let html = YomuTokenizer.renderParagraph(text, forceAuto);
         const translations = this._translations && this._translations[index];
-        const hasTranslation = Array.isArray(translations) && translations.length > 0;
+        const hasTranslation = Array.isArray(translations) && translations.some(t => t && t.text && t.text.trim().length > 0);
+        const validTranslations = hasTranslation ? translations.filter(t => t && t.text && t.text.trim().length > 0) : [];
+        const transCount = validTranslations.length;
+        const iconTitle = `${transCount}件の翻訳あり`;
 
-        // Count how many translations we have
-        const transCount = hasTranslation ? translations.length : 0;
-        const iconTitle = hasTranslation ? `${transCount}件の翻訳あり` : '翻訳なし';
+        let iconHtml = '';
+        if (hasTranslation) {
+            iconHtml = `<span class="trans-icon" 
+                                 data-para-index="${index}" 
+                                 title="${iconTitle}" 
+                                 onclick="Yomu.reader.toggleTranslation(${index})">
+                                 译${transCount > 1 ? transCount : ''}
+                             </span>`;
+        }
 
-        // Append translation icon before closing </p>
-        const iconHtml = `<span class="trans-icon${hasTranslation ? '' : ' disabled'}" 
-                             data-para-index="${index}" 
-                             title="${iconTitle}" 
-                             onclick="Yomu.reader.toggleTranslation(${index})">
-                             译${transCount > 1 ? transCount : ''}
-                         </span>`;
+        if (forceAuto) {
+            // Lazy mode: render placeholder
+            return `<p class="lazy-para" data-index="${index}" data-text="${this._escapeAttr(text)}">
+                        ${this._escapeHtml(text)}${iconHtml}
+                    </p>
+                    <div class="translation-line hidden" id="trans-${index}"></div>`;
+        }
 
+        // Standard mode: render immediately
+        let html = YomuTokenizer.renderParagraph(text, false);
         html = html.replace(/<\/p>$/, `${iconHtml}</p>`);
 
         // Add the container for translation text
@@ -291,16 +363,70 @@ const YomuReader = {
                 const scrollTop = window.scrollY;
                 const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
                 const percent = maxScroll > 0 ? Math.round(scrollTop / maxScroll * 100) : 0;
-
-                document.getElementById('progress-text').textContent = percent + '%';
-
+                
                 if (this._currentBook) {
                     YomuStorage.saveProgress(this._currentBook.id, percent, scrollTop);
                 }
-            }, 200);
+            }, 500);
         };
 
         window.addEventListener('scroll', this._scrollListener);
+    },
+
+    /**
+     * Pinch-to-zoom gesture for font size
+     */
+    _initGestures() {
+        let initialDist = 0;
+        let initialFontSize = 0;
+        let isPinching = false;
+        
+        // Target the main scrollable area or the body
+        const container = document.body;
+
+        container.addEventListener('touchstart', (e) => {
+            if (e.touches.length === 2) {
+                isPinching = true;
+                initialDist = Math.hypot(
+                    e.touches[0].pageX - e.touches[1].pageX,
+                    e.touches[0].pageY - e.touches[1].pageY
+                );
+                initialFontSize = YomuStorage.getSettings().fontSize || 20;
+            }
+        }, { passive: false });
+
+        container.addEventListener('touchmove', (e) => {
+            if (e.touches.length === 2 && isPinching) {
+                // Prevent default browser zoom/scroll
+                e.preventDefault();
+                
+                const currentDist = Math.hypot(
+                    e.touches[0].pageX - e.touches[1].pageX,
+                    e.touches[0].pageY - e.touches[1].pageY
+                );
+                
+                if (initialDist > 0) {
+                    const ratio = currentDist / initialDist;
+                    let newSize = Math.round(initialFontSize * ratio);
+                    
+                    // Constraints
+                    if (newSize < 12) newSize = 12;
+                    if (newSize > 64) newSize = 64;
+
+                    // Apply in real-time
+                    if (window.Yomu && typeof Yomu.setFontSize === 'function') {
+                        Yomu.setFontSize(newSize);
+                    }
+                }
+            }
+        }, { passive: false });
+
+        container.addEventListener('touchend', (e) => {
+            if (e.touches.length < 2) {
+                isPinching = false;
+                initialDist = 0;
+            }
+        });
     },
 
     scrollTop() {
@@ -333,5 +459,14 @@ const YomuReader = {
     _escapeHtml(str) {
         if (!str) return '';
         return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    },
+
+    _escapeAttr(str) {
+        if (!str) return '';
+        return str.replace(/&/g, '&amp;')
+                  .replace(/"/g, '&quot;')
+                  .replace(/'/g, '&#39;')
+                  .replace(/</g, '&lt;')
+                  .replace(/>/g, '&gt;');
     }
 };

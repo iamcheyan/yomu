@@ -1,86 +1,52 @@
 [
-  {
-    "id": "rashomon",
-    "title": "羅生門",
-    "author": "芥川龍之介",
-    "desc": "平安末期の荒廃した羅生門を舞台に、生きるための悪を描いた傑作。"
-  },
-  {
-    "id": "hashire_melos",
-    "title": "走れメロス",
-    "author": "太宰治",
-    "desc": "友情と信頼を貫こうとする青年の物語。"
-  },
-  {
-    "id": "bocchan",
-    "title": "坊っちゃん",
-    "author": "夏目漱石",
-    "desc": "無鉄砲な教師が田舎の学校で騒動を巻き起こす。"
-  },
-  {
-    "id": "sangetsuki",
-    "title": "山月記",
-    "author": "中島敦",
-    "desc": "自尊心ゆえに虎になった男の悲哀。"
-  },
-  {
-    "id": "mai_hime",
-    "title": "舞姫",
-    "author": "森鷗外",
-    "desc": "ドイツ留学中のエリートと踊り子の悲恋。"
-  },
-  {
-    "id": "ningen_shikkaku",
-    "title": "人間失格",
-    "author": "太宰治",
-    "desc": "「恥の多い生涯を送ってきました」。"
-  },
-  {
-    "id": "kokoro",
-    "title": "こころ",
-    "author": "夏目漱石",
-    "desc": "先生の遺書を通じて描かれる孤独とエゴイズム。"
-  },
-  {
-    "id": "gingatetsudo",
-    "title": "銀河鉄道の夜",
-    "author": "宮沢賢治",
-    "desc": "星空を駆ける幻想的な鉄道旅。"
-  },
-  {
-    "id": "kumo_no_ito",
-    "title": "蜘蛛の糸",
-    "author": "芥川龍之介",
-    "desc": "地獄に垂らされた一本の糸とカンダタの物語。"
-  },
-  {
-    "id": "kazetachinu",
-    "title": "風立ちぬ",
-    "author": "堀辰雄",
-    "desc": "美しくも切ない愛と死の物語。"
-  },
-  {
-    "id": "lemon",
-    "title": "檸檬",
-    "author": "梶井基次郎",
-    "desc": "鬱屈した感情がレモン一つで晴れる瞬間。"
-  },
-  {
-    "id": "yodaka_no_hoshi",
-    "title": "よだかの星",
-    "author": "宮沢賢治",
-    "desc": "醜いよだかが星になるまでの純粋な魂。"
-  },
-  {
-    "id": "takasebune",
-    "title": "高瀬舟",
-    "author": "森鷗外",
-    "desc": "安楽死をテーマにした深い問いかけ。"
-  },
-  {
-    "id": "gakumon_no_susume",
-    "title": "学問のすすめ",
-    "author": "福沢諭吉",
-    "desc": "「天は人の上に人を造らず」。現代日本の礎。"
-  }
+  { "id": "rashomon", "title": "羅生門", "author": "芥川龍之介", "desc": "平安末期の荒廃した羅生門を舞台に、生きるための悪を描いた傑作。" },
+  { "id": "hashire_melos", "title": "走れメロス", "author": "太宰治", "desc": "友情と信頼を貫こうとする青年的物語。" },
+  { "id": "bocchan", "title": "坊っちゃん", "author": "夏目漱石", "desc": "無鉄砲な教師が田舎の学校で騒動を巻き起こす。" },
+  { "id": "sangetsuki", "title": "山月記", "author": "中島敦", "desc": "自尊心ゆえに虎になった男の悲哀。" },
+  { "id": "mai_hime", "title": "舞姫", "author": "森鷗外", "desc": "ドイツ留学中のエリートと踊り子の悲恋。" },
+  { "id": "ningen_shikkaku", "title": "人間失格", "author": "太宰治", "desc": "「恥の多い生涯を送ってきました」。" },
+  { "id": "kokoro", "title": "こころ", "author": "夏目漱石", "desc": "先生の遺書を通じて描かれる孤独とエゴイズム。" },
+  { "id": "gingatetsudo", "title": "銀河鉄道の夜", "author": "宮沢賢治", "desc": "星空を駆ける幻想的な鉄道旅。" },
+  { "id": "kumo_no_ito", "title": "蜘蛛の糸", "author": "芥川龍之介", "desc": "地獄に垂らされた一本の糸とカンダタの物語。" },
+  { "id": "kazetachinu", "title": "風立ちぬ", "author": "堀辰雄", "desc": "美しくも切ない爱と死の物語。" },
+  { "id": "lemon", "title": "檸檬", "author": "梶井基次郎", "desc": "鬱屈した感情がレモン一つで晴れる瞬間。" },
+  { "id": "yodaka_no_hoshi", "title": "よだかの星", "author": "宮沢賢治", "desc": "醜いよだかが星になるまでの純粋な魂。" },
+  { "id": "takasebune", "title": "高瀬舟", "author": "森鷗外", "desc": "安楽死をテーマにした深い問いかけ。" },
+  { "id": "gakumon_no_susume", "title": "学問のすすめ", "author": "福沢諭吉", "desc": "「天は人の上に人を造らず」。现代日本の礎。" },
+  { "id": "wagahai_neko", "title": "吾輩は猫である", "author": "夏目漱石", "desc": "猫の視点から人间社会を风刺した漱石の出世作。" },
+  { "id": "sanshiro", "title": "三四郎", "author": "夏目漱石", "desc": "地方出身の大学生が東京で揺れ動く青春。" },
+  { "id": "chumon_ryori", "title": "注文の多い料理店", "author": "宮沢賢治", "desc": "注文が次々と出てくる不思議な料理店。" },
+  { "id": "taketori", "title": "竹取物語", "author": "作者不詳", "desc": "日本最古の物語。かぐや姫の伝説。" },
+  { "id": "futon", "title": "蒲団", "author": "島崎藤村", "desc": "日本自然主義文学の出発点となった私小説。" },
+  { "id": "takekurabe", "title": "たけくらべ", "author": "樋口一葉", "desc": "吉原の裏町で揺れる少女たちの青春。" },
+  { "id": "musashino", "title": "武蔵野", "author": "国木田独歩", "desc": "武蔵野の自然を描いた日本抒情文学の傑作。" },
+  { "id": "ukigumo", "title": "浮雲", "author": "二葉亭四迷", "desc": "日本近代文学の出発点。近代人の苦悩。" },
+  { "id": "kingin_yakusha", "title": "金色夜叉", "author": "尾崎紅葉", "desc": "金と愛の間で揺れる男女の悲恋。" },
+  { "id": "sansho_dayu", "title": "山椒大夫", "author": "森鷗外", "desc": "母子の離散と再会を描いた歴史物語。" },
+  { "id": "daidoji_shinsuke", "title": "大導寺信輔の半生", "author": "芥川龍之介", "desc": "芥川唯一の長編。知性と感性の葛藤。" },
+  { "id": "shunkinsho", "title": "春琴抄", "author": "谷崎潤一郎", "desc": "盲目の音楽師と弟子の歪んだ愛の物語。" },
+  { "id": "sasameyuki", "title": "細雪", "author": "谷崎潤一郎", "desc": "大阪の名家四姉妹の華やかな日常と衰退。" },
+  { "id": "gan", "title": "雁", "author": "森鷗外", "desc": "岡田とお玉の淡く切ない恋。" },
+  { "id": "izunodori", "title": "伊豆の踊子", "author": "川端康成", "desc": "伊豆の旅で出会った踊子との淡い恋。" },
+  { "id": "viyon_no_tsuma", "title": "ヴィヨンの妻", "author": "太宰治", "desc": "犯罪者の妻の愛と覚悟を描く。" },
+  { "id": "fugaku_hyakkei", "title": "富嶽百景", "author": "太宰治", "desc": "富士山を題材にした太宰の随筆。" },
+  { "id": "tsugaru", "title": "津軽", "author": "太宰治", "desc": "太宰の故郷津軽を巡る紀行文。" },
+  { "id": "hana", "title": "鼻", "author": "芥川龍之介", "desc": "長い鼻を持つ僧の苦悩と人間の醜さ。" },
+  { "id": "imo_gayu", "title": "芋粥", "author": "芥川龍之介", "desc": "芋粥への執着とその幻滅。" },
+  { "id": "yabu_no_naka", "title": "藪の中", "author": "芥川龍之介", "desc": "多人称で語られる真実の不可知性。" },
+  { "id": "jigokuhen", "title": "地獄変", "author": "芥川龍之介", "desc": "画家の執念と芸術の残酷さ。" },
+  { "id": "kappa", "title": "河童", "author": "芥川龍之介", "desc": "河童の国を舞台にした風刺小说。" },
+  { "id": "aru_aho", "title": "或阿呆の一生", "author": "芥川龍之介", "desc": "芥川の自伝的断章集。" },
+  { "id": "michi_kusa", "title": "道草", "author": "夏目漱石", "desc": "漱石の自伝的長編小説。" },
+  { "id": "yume_juya", "title": "夢十夜", "author": "夏目漱石", "desc": "幻想的な十の夢の物語。" },
+  { "id": "kusa_makura", "title": "草枕", "author": "夏目漱石", "desc": "画家の旅路と美意識の対話。" },
+  { "id": "to_shun", "title": "杜子春", "author": "芥川龍之介", "desc": "唐の都の若者と仙人の物語。" },
+  { "id": "nankin_no_kirisuto", "title": "南京の基督", "author": "芥川龍之介", "desc": "南京を舞台にした信仰と幻想の物語。" },
+  { "id": "meian", "title": "明暗", "author": "夏目漱石", "desc": "漱石の最後の長編。夫婦の心理を描く。" },
+  { "id": "urashima", "title": "浦島太郎", "author": "古典", "desc": "竜宮城から帰った浦島太郎の物語。" },
+  { "id": "issun_boshi", "title": "一寸法師", "author": "古典", "desc": "親指ほどの小さな男の子の冒険。" },
+  { "id": "momotaro", "title": "桃太郎", "author": "芥川龍之介", "desc": "鬼が島に征伐に行く桃太郎。" },
+  { "id": "yuki_onna", "title": "雪女", "author": "小泉八雲", "desc": "雪の中から現れた美女の怪談。" },
+  { "id": "ko_no_takane", "title": "高野聖", "author": "泉鏡花", "desc": "山寺で出会う不思議な女と僧の物語。" },
+  { "id": "serohiki_no_goshu", "title": "セロ弾きのゴーシュ", "author": "宮沢賢治", "desc": "不器用なセロ弾きと動物たちの交流。" }
 ]

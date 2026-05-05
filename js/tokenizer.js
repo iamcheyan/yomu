@@ -149,28 +149,62 @@ const YomuTokenizer = {
     renderParagraph(text, forceAuto = false) {
         if (!text) return `<p>${text}</p>`;
 
-        // If auto-furigana is OFF and text has Aozora markers, use Aozora renderer
-        if (!forceAuto && (text.includes('《') || text.includes('［＃'))) {
+        // Hybrid Mode: Preserve Aozora markers and fill gaps with NLP
+        if (forceAuto) {
+            return this._renderHybridParagraph(text);
+        }
+
+        // Standard Aozora mode
+        if (text.includes('《') || text.includes('［＃')) {
             return this._renderAozoraParagraph(text);
         }
+        
+        return this._renderKuromojiParagraph(text, false);
+    },
 
-        // If forceAuto is ON or text has no markers, use Kuromoji
-        if (!this._ready) {
-            // If not ready, at least handle Aozora if present
-            if (text.includes('《') || text.includes('［＃')) {
-                return this._renderAozoraParagraph(text);
+    /**
+     * Hybrid Rendering: Use Aozora markers where present, NLP for the rest
+     */
+    _renderHybridParagraph(text) {
+        let html = '';
+        let lastIndex = 0;
+        const regex = /｜([^｜《》]+)《([^》]+)》|([一-鿿々〆〇]+)《([^》]+)》|※(［＃[^］]+］)|(［＃「([^」]+)」に傍点］)|(［＃[^］]+］)/g;
+        let match;
+
+        while ((match = regex.exec(text)) !== null) {
+            // Text before this marker - process with NLP
+            const before = text.slice(lastIndex, match.index);
+            if (before) {
+                // Tokenize and add furigana to all kanji in the 'before' block
+                html += this._renderKuromojiParagraph(before, true, true);
             }
-            return `<p>${this._escapeHtml(text)}</p>`;
+
+            // Handle the matched marker (Same as _renderAozoraParagraph)
+            if (match[1] !== undefined) {
+                html += this._makeRuby(match[1], this._kataToHira(match[2]));
+            } else if (match[3] !== undefined) {
+                html += this._makeRuby(match[3], this._kataToHira(match[4]));
+            } else if (match[5] !== undefined) {
+                const desc = match[5].replace(/^［＃|］$/g, '');
+                html += `<span class="gaiji-badge">${this._escapeHtml(desc)}</span>`;
+            } else if (match[8] !== undefined) {
+                const note = match[8].replace(/^［＃|］$/g, '');
+                // 过滤掉纯布局、分页、样式类的标注，这些不应作为注脚显示
+                const isLayoutNote = note.match(/字下げ|字上げ|地から|改頁|見出し|改段|中見出し|大見出し|小見出し|改丁|太字|斜体|窓書き/);
+                if (!isLayoutNote) {
+                    html += `<span class="annotation-wrapper"><span class="annotation-icon">㊟</span><span class="annotation-content">${this._escapeHtml(note)}</span></span>`;
+                }
+            }
+            lastIndex = match.index + match[0].length;
         }
 
-        // For Full Auto mode, we first strip Aozora markers to avoid kuromoji confusion
-        // but ideally we'd want to keep them. For now, simple approach:
-        let cleanText = text
-            .replace(/｜/g, '')
-            .replace(/《[^》]+》/g, '')
-            .replace(/［＃[^］]+］/g, '');
-        
-        return this._renderKuromojiParagraph(cleanText, forceAuto);
+        const after = text.slice(lastIndex);
+        if (after) {
+            html += this._renderKuromojiParagraph(after, true, true);
+        }
+
+        if (!html.trim()) return '';
+        return `<p>${html}</p>`;
     },
 
     /**
@@ -211,7 +245,7 @@ const YomuTokenizer = {
             } else if (match[5] !== undefined) {
                 // ※［＃...］ - 外字 (character description)
                 const desc = match[5].replace(/^［＃|］$/g, '');
-                html += `<span class="gaiji" title="${this._escapeAttr(desc)}">※</span>`;
+                html += `<span class="gaiji-badge">${this._escapeHtml(desc)}</span>`;
             } else if (match[6] !== undefined) {
                 // ［＃「...」に傍点］ - emphasis dots
                 const word = match[7];
@@ -227,14 +261,14 @@ const YomuTokenizer = {
                     if (afterWord) html += this._escapeHtml(afterWord);
                 } else {
                     // Can't find the word, just show the annotation
-                    html += `<span class="annotation" title="傍点: ${this._escapeAttr(word)}">●</span>`;
+                    html += `<span class="annotation-wrapper"><span class="annotation-icon">㊟</span><span class="annotation-content">${this._escapeHtml(word)}</span></span>`;
                 }
             } else if (match[8] !== undefined) {
-                // Other annotations - show as subtle tooltip
+                // Other annotations - show as inline badge
                 const note = match[8].replace(/^［＃|］$/g, '');
                 // Skip layout notes (X字下げ, 地から etc) - they're handled above or ignored
                 if (!note.match(/字下げ|字上げ|地から/)) {
-                    html += `<span class="annotation" title="${this._escapeAttr(note)}">㊟</span>`;
+                    html += `<span class="annotation-wrapper"><span class="annotation-icon">㊟</span><span class="annotation-content">${this._escapeHtml(note)}</span></span>`;
                 }
             }
 
@@ -245,6 +279,7 @@ const YomuTokenizer = {
         const after = text.slice(lastIndex);
         if (after) html += this._escapeHtml(after);
 
+        if (!html.trim()) return '';
         return `<p${prefix}>${html}</p>`;
     },
 
@@ -255,15 +290,17 @@ const YomuTokenizer = {
     },
 
     _makeRuby(kanji, reading) {
-        return `<ruby class="word-token has-furigana" data-surface="${this._escapeAttr(kanji)}" data-reading="${this._escapeAttr(reading)}">${this._escapeHtml(kanji)}<rp>(</rp><rt>${this._escapeHtml(reading)}</rt><rp>)</rp></ruby>`;
+        return `<ruby class="word-token has-furigana" data-surface="${this._escapeAttr(kanji)}" data-reading="${this._escapeAttr(reading)}">${this._escapeHtml(kanji)}<rt>${this._escapeHtml(reading)}</rt></ruby>`;
     },
 
     /**
      * Render using kuromoji auto-tokenization (fallback)
      */
-    _renderKuromojiParagraph(text, forceAllFurigana = false) {
+    _renderKuromojiParagraph(text, forceAllFurigana = false, isInline = false) {
+        if (!this._ready) return this._escapeHtml(text);
+        
         const tokens = this.tokenize(text);
-        let html = '<p>';
+        let html = isInline ? '' : '<p>';
 
         for (const token of tokens) {
             const surface = token.surface_form;
@@ -286,7 +323,7 @@ const YomuTokenizer = {
             const dataAttrs = `data-surface="${this._escapeAttr(surface)}" data-lemma="${this._escapeAttr(lemma)}" data-reading="${this._escapeAttr(reading)}" data-pos="${this._escapeAttr(pos)}" data-pos-detail="${this._escapeAttr(posDetail)}"`;
 
             if (needsRuby) {
-                html += `<ruby class="word-token has-furigana" ${dataAttrs}>${this._escapeHtml(surface)}<rp>(</rp><rt>${this._escapeHtml(reading)}</rt><rp>)</rp></ruby>`;
+                html += `<ruby class="word-token has-furigana" ${dataAttrs}>${this._escapeHtml(surface)}<rt>${this._escapeHtml(reading)}</rt></ruby>`;
             } else if (this.isContentWord(token)) {
                 html += `<span class="word-token" ${dataAttrs}>${this._escapeHtml(surface)}</span>`;
             } else {
@@ -294,6 +331,11 @@ const YomuTokenizer = {
             }
         }
 
+        if (isInline) return html;
+        // Strip <p> and check content
+        const content = html.substring(3); 
+        if (!content.trim()) return '';
+        
         html += '</p>';
         return html;
     },

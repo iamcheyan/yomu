@@ -26,7 +26,7 @@
         <div class="book-list-header">
             <h1>読書器</h1>
             <div class="header-actions">
-                <button id="btn-show-store" onclick="Yomu.showStore()">オンライン書庫</button>
+                <button id="btn-show-store" onclick="Yomu.showStore()">書庫</button>
             </div>
         </div>
         <div id="book-grid" class="book-grid"></div>
@@ -39,8 +39,8 @@
     <div id="store-view" class="store-view hidden">
         <div class="store-header">
             <div>
-                <h1>オンライン書庫</h1>
-                <p>青空文庫から作品を探してダウンロード</p>
+                <h1>書庫</h1>
+                <p>所蔵作品から検索して読む</p>
             </div>
             <div class="header-actions">
                 <button onclick="Yomu.showBookList()" class="back-btn">← 戻る</button>
@@ -51,6 +51,11 @@
                 oninput="Yomu.filterStore(this.value)">
         </div>
         <div id="store-grid" class="book-grid"></div>
+        
+        <div class="pagination-bar">
+            <button onclick="Yomu.prevStorePage()" id="btn-prev-page" class="page-btn">←</button>
+            <button onclick="Yomu.nextStorePage()" id="btn-next-page" class="page-btn">→</button>
+        </div>
     </div>
 
     <!-- ===== 阅读器 ===== -->
@@ -96,16 +101,23 @@
     <!-- ===== 底部工具栏 ===== -->
     <div id="bottom-bar" class="bottom-bar">
         <div class="bar-left">
-            <button id="btn-furigana" class="active reader-only" onclick="Yomu.toggleFurigana()" title="ふりがな">あ</button>
-            <button id="btn-settings" onclick="Yomu.toggleSettings()" title="設定">⚙</button>
+            <button id="btn-home" onclick="Yomu.showBookList()" title="ホーム">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+            </button>
+            <button id="btn-settings" onclick="Yomu.toggleSettings()" title="設定">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" id="circle12" r="3" /><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" id="path12" /></svg>
+            </button>
         </div>
         <div class="bar-center">
             <span id="progress-text">0%</span>
         </div>
         <div class="bar-right">
-            <button id="btn-vocab" onclick="Yomu.showVocab()" title="単語帳">単</button>
-            <button class="reader-only" onclick="Yomu.reader.scrollTop()" title="最初へ">↑</button>
-            <button id="btn-booklist" class="reader-only" onclick="Yomu.showBookList()" title="書籍一覧">一覧</button>
+            <button id="btn-vocab" class="reader-only" onclick="Yomu.showVocab()" title="単語帳">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+            </button>
+            <button class="reader-only" onclick="Yomu.reader.scrollTop()" title="最初へ">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+            </button>
         </div>
     </div>
 
@@ -148,24 +160,17 @@
 
         <div class="settings-group">
             <label>ふりがな表示</label>
-            <label class="switch">
-                <input type="checkbox" id="furigana-toggle" checked onchange="Yomu.toggleFurigana()">
-                <span class="slider-round"></span>
-            </label>
+            <select id="furigana-mode-select" class="settings-select" onchange="Yomu.setFuriganaMode(this.value)">
+                <option value="none">不表示</option>
+                <option value="internal">内置</option>
+                <option value="nlp">Kuromoji.js</option>
+            </select>
         </div>
 
         <div class="settings-group">
             <label>アニメーション無効</label>
             <label class="switch">
                 <input type="checkbox" id="no-animation-toggle" onchange="Yomu.updateAnimationSetting()">
-                <span class="slider-round"></span>
-            </label>
-        </div>
-
-        <div class="settings-group">
-            <label>全文ふりがな</label>
-            <label class="switch">
-                <input type="checkbox" id="auto-furigana-toggle" onchange="Yomu.updateAutoFuriganaSetting()">
                 <span class="slider-round"></span>
             </label>
         </div>
