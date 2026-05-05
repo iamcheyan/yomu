@@ -9,35 +9,20 @@ const YomuAozora = {
      * Fetch a pre-processed JSON book from GitHub
      */
     async downloadBook(bookMeta) {
-        // 优先使用标题作为文件名，因为仓库中的 1.1 万个 JSON 文件是用标题命名的
-        const title = bookMeta.title;
+        // 由于我们已经将所有文件名重命名为标准的 ID (fileId)，
+        // 现在的逻辑变得非常简单和可靠：直接使用 ID 拼接 URL。
         const bookId = bookMeta.id || bookMeta.workId || bookMeta.fileId;
-        
-        // 尝试使用标题下载
-        try {
-            const titleUrl = `${this.GITHUB_RAW}${encodeURIComponent(title)}.json`;
-            console.log(`Trying to fetch by title: ${titleUrl}`);
-            const response = await fetch(titleUrl);
-            
-            if (response.ok) {
-                const bookData = await response.json();
-                await YomuStorage.saveBook(bookId, bookData);
-                return bookData;
-            }
-        } catch (e) {
-            console.log("Fetch by title failed, trying by ID...");
-        }
+        const url = `${this.GITHUB_RAW}${bookId}.json`;
 
-        // 回退到使用 ID 下载 (适用于内置的 20 本书或其他可能的 ID 命名文件)
-        const idUrl = `${this.GITHUB_RAW}${bookId}.json`;
-        console.log(`Trying to fetch by ID: ${idUrl}`);
-        const response = await fetch(idUrl);
+        console.log(`Downloading book: ${bookId} from ${url}`);
+        const response = await fetch(url);
         
         if (!response.ok) {
-            throw new Error(`Failed to fetch book: ${bookId} (tried title and ID)`);
+            throw new Error(`Failed to fetch book: ${bookId} (HTTP ${response.status})`);
         }
         
         const bookData = await response.json();
+        // 保存到本地存储
         await YomuStorage.saveBook(bookId, bookData);
         return bookData;
     },
