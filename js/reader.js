@@ -70,12 +70,10 @@ const YomuReader = {
         this._currentBook = book;
 
         // Load book data
-        try {
-            let data = await YomuStorage.getBookContent(bookId);
-
-            if (!data) {
-                // Fallback to static files (Use XHR for better compatibility on Android file://)
-                data = await new Promise((resolve, reject) => {
+        let bookData = await YomuStorage.getBookContent(bookId);
+        if (!bookData) {
+            try {
+                bookData = await new Promise((resolve, reject) => {
                     const xhr = new XMLHttpRequest();
                     xhr.open('GET', `data/novels/${bookId}.json`, true);
                     xhr.onload = () => {
@@ -85,284 +83,94 @@ const YomuReader = {
                     };
                     xhr.onerror = () => reject(new Error('Network Error'));
                     xhr.send();
-                }).catch(() => null);
+                });
+            } catch (e) {
+                console.error('Failed to load book:', e);
+                Yomu.alert('書籍の読み込みに失敗しました。', 'エラー');
+                return;
             }
+        }
 
-            if (!data) throw new Error('Book not found');
-
-            this._currentBookData = data;
-        } catch (e) {
-            console.error('Failed to load book:', e);
+        if (!bookData) {
             Yomu.alert('書籍の読み込みに失敗しました。', 'エラー');
             return;
         }
 
-        // 已经通过渐进式渲染处理了，不需要再次渲染全量内容
-        // this._renderBook(data);
-
+        this._currentBookData = bookData;
 
         // Update UI
         document.getElementById('reader-title').textContent = book.title;
         document.getElementById('reader-author').textContent = book.author;
 
-        // 平铺所有段落（处理章节结构）
-        this._paragraphs = [];
-        const data = this._currentBookData;
-        if (data.chapters) {
-            for (const chapter of data.chapters) {
-                if (chapter.title) {
-                    this._paragraphs.push({ type: 'header', content: chapter.title });
-                }
-                for (const para of chapter.paragraphs) {
-                    if (para && para.trim()) {
-                        this._paragraphs.push({ type: 'text', content: para });
-                    }
-                }
-            }
-        } else if (data.paragraphs) {
-            for (const para of data.paragraphs) {
-                if (para && para.trim()) {
-                    this._paragraphs.push({ type: 'text', content: para });
-                }
-            }
-        }
-
-        this._renderedCount = 0;
-        document.getElementById('novel-content').innerHTML = '';
+        // Render all content
+        this._renderBook(bookData);
 
         // Show reader view
         document.getElementById('book-list-view').classList.add('hidden');
         document.getElementById('vocab-view').classList.add('hidden');
         document.getElementById('reader-view').classList.add('active');
         document.getElementById('bottom-bar').style.display = 'flex';
-        
-        // 首次加载渲染
-        this._renderNextChunk();
-        
-        // 恢复进度
+
+        // Restore scroll progress
         const progress = YomuStorage.getProgress(bookId);
-        if (progress && progress.paraIndex) {
-            // 如果有保存的段落索引，我们需要预加载到那个位置
-            while (this._renderedCount <= progress.paraIndex && this._renderedCount < this._paragraphs.length) {
-                this._renderNextChunk();
-            }
-            // 滚动到该段落 (简单起见先滚到那个索引对应的元素)
-            const el = document.getElementById(`p-${progress.paraIndex}`);
-            if (el) {
-                el.scrollIntoView();
-            }
-            
-            // 立即更新进度条 UI
-            const percent = this._paragraphs.length > 0 ? Math.round((progress.paraIndex / this._paragraphs.length) * 100) : 0;
-            this._updateProgressUI(percent);
+        if (progress && progress.scrollTop) {
+            setTimeout(() => window.scrollTo(0, progress.scrollTop), 50);
         } else {
             window.scrollTo(0, 0);
-            this._updateProgressUI(0);
         }
 
-        // 初始化无限滚动监听
-        this._initInfiniteScroll();
+        // Start progress tracking
+        this._startProgressTracking();
     },
 
-    _renderNextChunk() {
+    _renderBook(bookData) {
         const container = document.getElementById('novel-content');
-        const start = this._renderedCount;
-        const end = Math.min(start + this._chunkSize, this._paragraphs.length);
-        
-        const settings = YomuStorage.getSettings();
-        const forceAuto = settings.furiganaMode === 'nlp';
-        
         let html = '';
-        for (let i = start; i < end; i++) {
-            const para = this._paragraphs[i];
-            if (para.type === 'header') {
-                html += `<h2 class="chapter-title" id="p-${i}">${this._escapeHtml(para.content)}</h2>`;
-            } else {
-                html += this._renderParaWithTranslation(para.content, i, forceAuto);
+
+        if (bookData.chapters) {
+            for (const chapter of bookData.chapters) {
+                if (chapter.title) {
+                    html += `<h2 class="chapter-title">${this._escapeHtml(chapter.title)}</h2>`;
+                }
+                for (const para of chapter.paragraphs) {
+                    if (para && para.trim()) {
+                        html += this._renderPara(para);
+                    }
+                }
+            }
+        } else if (bookData.paragraphs) {
+            for (const para of bookData.paragraphs) {
+                if (para && para.trim()) {
+                    html += this._renderPara(para);
+                }
             }
         }
-        
-        const temp = document.createElement('div');
-        temp.innerHTML = html;
-        while (temp.firstChild) {
-            container.appendChild(temp.firstChild);
-        }
-        
-        this._renderedCount = end;
-        
-        // Attach click handlers to word tokens
-        this._attachWordClickHandlers(container);
-        
-        // 如果还有内容，添加或移动哨兵节点
-        this._updateSentinel();
+
+        container.innerHTML = html;
     },
 
-    _attachWordClickHandlers(container) {
-        container.querySelectorAll('.word-token').forEach(el => {
-            // Avoid duplicate listeners
-            if (el.dataset.listenerAttached) return;
-            el.addEventListener('click', (e) => {
-                e.preventDefault();
-                this._onWordClick(el);
-            });
-            el.dataset.listenerAttached = 'true';
-        });
-    },
+    _renderPara(text) {
+        // 处理青空文库的假名标记: 漢字《かな》 → <ruby>漢字<rt>かな</rt></ruby>
+        let html = this._escapeHtml(text);
 
-    _renderParaWithTranslation(text, index, forceAuto) {
-        const translations = this._translations && this._translations[index];
-        const hasTranslation = Array.isArray(translations) && translations.some(t => t && t.text && t.text.trim().length > 0);
-        const validTranslations = hasTranslation ? translations.filter(t => t && t.text && t.text.trim().length > 0) : [];
-        const transCount = validTranslations.length;
-        const iconTitle = `${transCount}件の翻訳あり`;
+        // ｜明示标记：｜漢字《かな》
+        html = html.replace(/｜([^｜《》]+)《([^》]+)》/g, '<ruby>$1<rt>$2</rt></ruby>');
 
-        let iconHtml = '';
-        if (hasTranslation) {
-            iconHtml = `<span class="trans-icon" 
-                                 data-para-index="${index}" 
-                                 title="${iconTitle}" 
-                                 onclick="Yomu.reader.toggleTranslation(${index})">
-                                 译${transCount > 1 ? transCount : ''}
-                             </span>`;
-        }
+        // 漢字《かな》（汉字后直接跟标注）
+        html = html.replace(/([一-鿿々〆〇]+)《([^》]+)》/g, '<ruby>$1<rt>$2</rt></ruby>');
 
-        if (forceAuto) {
-            // Lazy mode: render placeholder
-            return `<p class="lazy-para" data-index="${index}" data-text="${this._escapeAttr(text)}">
-                        ${this._escapeHtml(text)}${iconHtml}
-                    </p>
-                    <div class="translation-line hidden" id="trans-${index}"></div>`;
-        }
+        // 清理青空文库的排版指令 ［＃...］
+        html = html.replace(/［＃[^］]*］/g, '');
 
-        // Standard mode: render immediately
-        let html = YomuTokenizer.renderParagraph(text, false);
-        html = html.replace(/<\/p>$/, `${iconHtml}</p>`);
-
-        // Add the container for translation text
-        html += `<div class="translation-line hidden" id="trans-${index}"></div>`;
-        return html;
-    },
-
-    toggleTranslation(index) {
-        const el = document.getElementById(`trans-${index}`);
-        if (!el) return;
-
-        // If already visible, hide it
-        if (!el.classList.contains('hidden')) {
-            el.classList.add('hidden');
-            return;
-        }
-
-        const translations = this._translations && this._translations[index];
-        const hasTrans = Array.isArray(translations) && translations.length > 0;
-        
-        // Hide icon if no translation exists
-        const iconHtml = hasTrans ? `
-            <span class="trans-icon" data-para-index="${index}" title="${translations.length}件の翻訳あり" onclick="Yomu.reader.toggleTranslation(${index})">
-                译
-            </span>
-        ` : '';
-// Build beautiful translation list
-        let html = '';
-        for (const t of translations) {
-            const modelLabel = t.model_name || t.model || 'AI';
-            html += `<div class="trans-item">
-                <div class="trans-meta">
-                    <span class="trans-model">${this._escapeHtml(modelLabel)}</span>
-                </div>
-                <div class="trans-text">${this._escapeHtml(t.text)}</div>
-            </div>`;
-        }
-
-        el.innerHTML = html;
-        el.classList.remove('hidden');
-
-        // Optional: scroll into view if it's too long
-        // el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        return `<p class="novel-para">${html}</p>`;
     },
 
     reRender() {
-        if (this._currentBook) {
-            // 记录当前所在的段落索引
-            const topEl = document.elementFromPoint(window.innerWidth / 2, 100);
-            let currentParaIndex = 0;
-            if (topEl) {
-                const pEl = topEl.closest('[id^="p-"]');
-                if (pEl) currentParaIndex = parseInt(pEl.id.split('-')[1]);
-            }
-
-            // 清空并重新开始渲染
-            this._renderedCount = 0;
-            document.getElementById('novel-content').innerHTML = '';
-            
-            // 加载到刚才的位置
-            while (this._renderedCount <= currentParaIndex && this._renderedCount < this._paragraphs.length) {
-                this._renderNextChunk();
-            }
-
-            // 滚动回刚才的段落
-            const el = document.getElementById(`p-${currentParaIndex}`);
-            if (el) el.scrollIntoView();
-
-            this._refreshVocabMarks();
+        if (this._currentBookData) {
+            const scrollY = window.scrollY;
+            this._renderBook(this._currentBookData);
+            window.scrollTo(0, scrollY);
         }
-    },
-
-    _onWordClick(el) {
-        const surface = el.dataset.surface;
-        const lemma = el.dataset.lemma;
-        const reading = el.dataset.reading;
-        const pos = el.dataset.pos;
-        const posDetail = el.dataset.posDetail;
-
-        // Look up in dictionary
-        let dictEntry = YomuDict.lookupByLemma(lemma, reading);
-        if (!dictEntry) {
-            dictEntry = YomuDict.lookup(surface, reading);
-        }
-
-        // Build popup content
-        const displayWord = surface !== lemma ? `${surface}（${lemma}）` : surface;
-        const displayReading = reading || '';
-        const displayPOS = YomuTokenizer.getPOSEnglish({ pos, pos_detail_1: posDetail }) || pos;
-        const meaning = dictEntry ? (typeof dictEntry === 'string' ? dictEntry : dictEntry.m || dictEntry.meaning || '') : '';
-
-        document.getElementById('popup-word').textContent = displayWord;
-        document.getElementById('popup-reading').textContent = displayReading;
-        document.getElementById('popup-pos').textContent = displayPOS;
-        
-        // Detailed metadata
-        const metaEl = document.getElementById('popup-meta');
-        let metaHtml = '';
-        if (lemma && lemma !== surface) metaHtml += `<div class="popup-meta-item"><strong>原形:</strong> ${this._escapeHtml(lemma)}</div>`;
-        if (posDetail && posDetail !== '*') metaHtml += `<div class="popup-meta-item"><strong>細分類:</strong> ${this._escapeHtml(posDetail)}</div>`;
-        metaEl.innerHTML = metaHtml;
-        metaEl.style.display = metaHtml ? 'block' : 'none';
-
-        const meaningEl = document.getElementById('popup-meaning');
-        meaningEl.textContent = meaning;
-        meaningEl.style.display = meaning ? 'block' : 'none';
-
-        // Update mark button
-        const isMarked = YomuStorage.isMarked(lemma || surface, reading);
-        const btn = document.getElementById('btn-mark-word');
-        btn.textContent = isMarked ? '単語帳から削除' : '単語帳に追加';
-        btn.dataset.surface = surface;
-        btn.dataset.lemma = lemma;
-        btn.dataset.reading = reading;
-        btn.dataset.meaning = meaning;
-        btn.dataset.pos = displayPOS;
-        btn.dataset.posDetail = posDetail || '';
-        btn.dataset.bookId = this._currentBook ? this._currentBook.id : '';
-
-        // Show popup
-        document.getElementById('popup-overlay').classList.remove('hidden');
-        document.getElementById('popup-card').classList.remove('hidden');
-    },
-
-    _initEvents() {
-        this._initGestures();
-        this._startProgressTracking();
     },
 
     _startProgressTracking() {
@@ -371,36 +179,26 @@ const YomuReader = {
         }
 
         this._scrollListener = () => {
-            // 找到视口顶部的元素 (偏移 100px 避开边缘)
-            const topEl = document.elementFromPoint(window.innerWidth / 2, 100);
-            let paraIndex = 0;
-            
-            if (topEl) {
-                // 找到最近的带有 p- 索引 ID 的段落或标题
-                const pEl = topEl.closest('[id^="p-"]');
-                if (pEl) {
-                    paraIndex = parseInt(pEl.id.split('-')[1]);
-                }
-            }
+            const scrollTop = window.scrollY;
+            const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+            const percent = maxScroll > 0 ? Math.round(scrollTop / maxScroll * 100) : 0;
 
-            const total = this._paragraphs.length;
-            const percent = total > 0 ? Math.round((paraIndex / total) * 100) : 0;
-            
-            // 实时更新进度条 UI
+            // Update Zen progress bar
             const zenFill = document.getElementById('zen-progress-fill');
             if (zenFill) zenFill.style.width = `${percent}%`;
 
-            // 防抖保存到存储 (500ms)
+            // Debounced save
             if (this._scrollTimeout) clearTimeout(this._scrollTimeout);
             this._scrollTimeout = setTimeout(() => {
                 if (this._currentBook) {
-                    // 同时保存百分比、高度和段落索引
-                    YomuStorage.saveProgress(this._currentBook.id, percent, window.scrollY, paraIndex);
+                    YomuStorage.saveProgress(this._currentBook.id, percent, scrollTop);
                 }
             }, 500);
         };
         window.addEventListener('scroll', this._scrollListener);
     },
+
+
 
     /**
      * Pinch-to-zoom gesture for font size
@@ -462,24 +260,7 @@ const YomuReader = {
         window.scrollTo({ top: 0 });
     },
 
-    _refreshVocabMarks() {
-        document.querySelectorAll('.word-token.marked').forEach(el => {
-            el.classList.remove('marked');
-        });
 
-        const vocab = YomuStorage.getVocab();
-        document.querySelectorAll('.word-token').forEach(el => {
-            const lemma = el.dataset.lemma;
-            const reading = el.dataset.reading;
-            if (vocab.some(v => v.word === lemma && v.reading === reading)) {
-                el.classList.add('marked');
-            }
-        });
-    },
-
-    refreshMarks() {
-        this._refreshVocabMarks();
-    },
 
     getCurrentBook() {
         return this._currentBook;
