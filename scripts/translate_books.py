@@ -10,12 +10,35 @@ import sys
 import urllib.request
 import urllib.error
 import time
+from datetime import datetime
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(SCRIPT_DIR)
 DATA_DIR = os.path.join(ROOT_DIR, "data", "novels")
+LOG_DIR = os.path.join(ROOT_DIR, "logs")
 ENV_FILE = os.path.join(ROOT_DIR, ".env")
 CONFIG_FILE = os.path.join(ROOT_DIR, "config.json")
+
+
+class Logger:
+    """同时输出到终端和日志文件"""
+    def __init__(self):
+        os.makedirs(LOG_DIR, exist_ok=True)
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        self.log_path = os.path.join(LOG_DIR, f"translate_{timestamp}.log")
+        self._file = open(self.log_path, "w", encoding="utf-8")
+        print(f"日志文件: {self.log_path}")
+
+    def log(self, msg):
+        print(msg)
+        self._file.write(msg + "\n")
+        self._file.flush()
+
+    def close(self):
+        self._file.close()
+
+
+logger = Logger()
 
 TRANSLATION_PROMPT = """你是一位精通日语的中文翻译老师，正在帮助日语初学者阅读日本文学名著。
 
@@ -158,9 +181,18 @@ def test_provider(provider):
 def translate_paragraph(provider, text):
     """翻译一个段落，返回 (translation, grammar) 元组"""
     prompt = TRANSLATION_PROMPT.format(text=text)
+
+    # 截断显示，避免日志过长
+    display_text = text[:80] + ("..." if len(text) > 80 else "")
+    print(f"    >> 原文: {display_text}")
+
     result = call_provider(provider, prompt)
     if not result:
+        print(f"    << 失败: 无返回")
         return None, None
+
+    display_result = result[:120] + ("..." if len(result) > 120 else "")
+    print(f"    << 回复: {display_result}")
 
     # 清理可能的引号包裹
     result = result.strip('"').strip('"').strip('"').strip()

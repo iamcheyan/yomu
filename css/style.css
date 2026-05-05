@@ -651,14 +651,19 @@ body.reader-active .bottom-bar .bar-right .reader-only {
 }
 
 .settings-group {
-    margin-bottom: 24px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap; /* Allow description to wrap below */
 }
 
 .settings-group label {
-    display: block;
     font-size: 13px;
     font-weight: bold;
-    margin-bottom: 8px;
+    color: #333;
+    flex: 1;
 }
 
 .settings-group .control-row {
