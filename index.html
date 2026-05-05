@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animations.css" id="animation-style">
 </head>
+
 <body class="font-mincho show-furigana">
 
     <!-- Loading -->
@@ -45,7 +47,8 @@
             </div>
         </div>
         <div class="store-search">
-            <input type="text" id="store-search-input" placeholder="作品名、著者名で検索..." oninput="Yomu.filterStore(this.value)">
+            <input type="text" id="store-search-input" placeholder="作品名、著者名で検索..."
+                oninput="Yomu.filterStore(this.value)">
         </div>
         <div id="store-grid" class="book-grid"></div>
     </div>
@@ -70,7 +73,9 @@
         <ul id="vocab-list" class="vocab-list"></ul>
         <div id="vocab-empty" class="vocab-empty">まだ単語が登録されていません。<br>小説を読んで、気になる単語をタップして登録しましょう。</div>
         <div style="margin-top: 20px;">
-            <button onclick="Yomu.showBookList()" style="padding: 10px 20px; border: 2px solid #000; background: #fff; font-weight: bold; cursor: pointer;">← 書籍一覧へ</button>
+            <button onclick="Yomu.showBookList()"
+                style="padding: 10px 20px; border: 2px solid #000; background: #fff; font-weight: bold; cursor: pointer;">←
+                書籍一覧へ</button>
         </div>
     </div>
 
@@ -122,7 +127,8 @@
             <label>文字サイズ</label>
             <div class="control-row">
                 <button class="step-btn" onclick="Yomu.adjustFontSize(-1)">-</button>
-                <input type="range" id="font-size-slider" min="14" max="32" value="20" oninput="Yomu.setFontSize(this.value)">
+                <input type="range" id="font-size-slider" min="14" max="32" value="20"
+                    oninput="Yomu.setFontSize(this.value)">
                 <button class="step-btn" onclick="Yomu.adjustFontSize(1)">+</button>
                 <span class="value-display" id="font-size-value" style="display: none;">20px</span>
             </div>
@@ -132,7 +138,8 @@
             <label>行間</label>
             <div class="control-row">
                 <button class="step-btn" onclick="Yomu.adjustLineHeight(-1)">-</button>
-                <input type="range" id="line-height-slider" min="15" max="35" value="22" oninput="Yomu.setLineHeight(this.value)">
+                <input type="range" id="line-height-slider" min="15" max="35" value="22"
+                    oninput="Yomu.setLineHeight(this.value)">
                 <button class="step-btn" onclick="Yomu.adjustLineHeight(1)">+</button>
                 <span class="value-display" id="line-height-value" style="display: none;">2.2</span>
             </div>
@@ -165,7 +172,7 @@
         <div class="settings-group">
             <label>データ同期</label>
             <div style="text-align: right;">
-                <button class="font-btn" onclick="Yomu.syncData()" style="width: auto; padding: 4px 12px;">☁ 同期する</button>
+                <button class="font-btn" onclick="Yomu.syncData()">同期する</button>
             </div>
         </div>
 
@@ -196,4 +203,5 @@
     <script src="js/aozora.js"></script>
     <script src="js/app.js"></script>
 </body>
+
 </html>

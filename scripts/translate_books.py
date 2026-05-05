@@ -6,6 +6,7 @@
 """
 import json
 import os
+import re
 import sys
 import urllib.request
 import urllib.error
@@ -176,15 +177,15 @@ def translate_paragraph(provider, text):
 
     # 截断显示，避免日志过长
     display_text = text[:80] + ("..." if len(text) > 80 else "")
-    logger.log(f"    >> 原文: {display_text}")
+    logger.log(f"    [{provider['label']}] >> {display_text}")
 
     result = call_provider(provider, prompt)
     if not result:
-        logger.log(f"    << 失败: 无返回")
+        logger.log(f"    [{provider['label']}] << 失败: 无返回")
         return None
 
     display_result = result[:120] + ("..." if len(result) > 120 else "")
-    logger.log(f"    << 回复: {display_result}")
+    logger.log(f"    [{provider['label']}] << {display_result}")
 
     # 清理可能的引号包裹
     result = result.strip('"').strip('"').strip('"').strip()
@@ -193,7 +194,7 @@ def translate_paragraph(provider, text):
 
 
 def translate_book(book_id, providers):
-    """翻译一本书"""
+    """翻译一本书，每段轮换模型"""
     filepath = os.path.join(DATA_DIR, f"{book_id}.json")
     if not os.path.exists(filepath):
         logger.log(f"  文件不存在: {filepath}")
@@ -213,47 +214,58 @@ def translate_book(book_id, providers):
         existing_translations.append([])
 
     total = len(paragraphs)
-    logger.log(f"  共 {total} 段")
+    model_names = [p["label"] for p in providers]
+    logger.log(f"  共 {total} 段, 模型轮换: {' / '.join(model_names)}")
 
-    for provider in providers:
-        provider_label = provider["label"]
-        provider_id = provider["id"]
-        logger.log(f"  模型: {provider_label} ({provider['model']})")
+    translated_count = 0
+    skipped_count = 0
+    provider_idx = 0
 
-        translated_count = 0
-        skipped_count = 0
+    for i, para in enumerate(paragraphs):
+        stripped = para.strip()
 
-        for i, para in enumerate(paragraphs):
-            # 跳过已有该模型翻译的段落
-            existing = existing_translations[i]
-            if any(t.get("model") == provider_id for t in existing):
-                skipped_count += 1
-                continue
+        # 跳过空白
+        if not stripped:
+            skipped_count += 1
+            continue
+        # 跳过 Aozora 注释标记（如 ［＃改頁］、［＃ここから...］等）
+        if re.match(r'^[＃［][^］]+］$', stripped):
+            skipped_count += 1
+            continue
+        # 跳过不含实际文字的段落（纯标点、符号）
+        if not re.search(r'[\u4e00-\u9fff\u3040-\u309f\u30a0-\u30ffa-zA-Z]', stripped):
+            skipped_count += 1
+            continue
 
-            # 跳过太短的段落（标点、空白等）
-            if len(para.strip()) < 3:
-                continue
+        # 跳过已有翻译的段落（任何模型）
+        if existing_translations[i]:
+            skipped_count += 1
+            continue
 
-            translation = translate_paragraph(provider, para)
-            if translation:
-                existing_translations[i].append({
-                    "text": translation,
-                    "model": provider_id,
-                })
-                translated_count += 1
+        # 轮换模型
+        provider = providers[provider_idx % len(providers)]
+        provider_idx += 1
 
-                # 每翻译一段就保存，防止中断丢失
-                book["translations"] = existing_translations
-                with open(filepath, "w", encoding="utf-8") as f:
-                    json.dump(book, f, ensure_ascii=False, indent=2)
-            else:
-                logger.log(f"    段落 {i+1} 翻译失败")
+        translation = translate_paragraph(provider, para)
+        if translation:
+            existing_translations[i].append({
+                "text": translation,
+                "model": provider["id"],
+                "model_name": provider["label"],
+            })
+            translated_count += 1
 
-            # 限速：避免 API 过载
-            time.sleep(0.5)
+            # 每翻译一段就保存，防止中断丢失
+            book["translations"] = existing_translations
+            with open(filepath, "w", encoding="utf-8") as f:
+                json.dump(book, f, ensure_ascii=False, indent=2)
+        else:
+            logger.log(f"    段落 {i+1} 翻译失败 ({provider['label']})")
 
-        logger.log(f"    完成: 新增 {translated_count} 段, 跳过 {skipped_count} 段")
+        # 限速：避免 API 过载
+        time.sleep(0.5)
 
+    logger.log(f"  完成: 新增 {translated_count} 段, 跳过 {skipped_count} 段")
     logger.log(f"  已保存: {filepath}")
     return True
 

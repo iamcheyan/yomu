@@ -332,34 +332,42 @@ body.show-furigana rt {
 /* 翻译图标 */
 .trans-icon {
     display: inline-block;
-    font-size: 0.6em;
-    color: #999;
+    font-size: 0.55em;
+    color: #000;
     cursor: pointer;
-    border: 1px solid #ddd;
-    border-radius: 2px;
-    padding: 0 4px;
-    margin-left: 6px;
+    border: 1.5px solid #cccccc;
+    border-radius: 0;
+    /* Sharp for e-ink */
+    padding: 0 5px;
+    margin-left: 8px;
     vertical-align: middle;
     font-family: "Hiragino Sans", sans-serif;
-    font-weight: normal;
+    font-weight: bold;
     line-height: 1.6;
+    background: #fff;
 }
 
 .trans-icon.disabled {
-    color: #ddd;
+    color: #ccc;
     border-color: #eee;
     cursor: default;
+    background: transparent;
+}
+
+.trans-icon:not(.disabled):active {
+    background: #000;
+    color: #fff;
 }
 
 /* 翻译行 */
 .translation-line {
-    font-size: 0.85em;
-    color: #666;
-    line-height: 1.8;
-    margin: -0.5em 0 1em 2em;
-    padding: 8px 0;
-    border-left: 2px solid #ddd;
-    padding-left: 12px;
+    font-size: 0.88em;
+    color: #333;
+    line-height: 1.7;
+    /* margin: 16px 0 24px 1.5em; */
+    padding: 20px;
+    border-left: 3px solid #000;
+    background: #fafafa;
     font-family: "Hiragino Sans", "Yu Gothic", "Microsoft YaHei", sans-serif;
 }
 
@@ -368,17 +376,33 @@ body.show-furigana rt {
 }
 
 .trans-item {
-    margin-bottom: 6px;
+    margin-bottom: 16px;
+}
+
+.trans-item:last-child {
+    margin-bottom: 0;
+}
+
+.trans-meta {
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
 }
 
 .trans-model {
-    font-size: 0.75em;
-    color: #999;
-    font-family: monospace;
-    background: #f5f5f5;
-    padding: 1px 4px;
-    margin-right: 6px;
-    border: 1px solid #eee;
+    font-size: 0.65em;
+    color: #fff;
+    background: #000;
+    padding: 1px 6px;
+    font-family: "Hiragino Sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.trans-text {
+    display: block;
+    word-break: break-all;
 }
 
 .trans-grammar {
@@ -410,7 +434,8 @@ body.show-furigana rt {
 }
 
 .word-token.has-furigana {
-    /* 有振假名的汉字 */
+    /* Reserved for future specific styling of words with furigana */
+    border-bottom-style: solid;
 }
 
 /* 生词标记 */
@@ -688,7 +713,7 @@ body.reader-active .bottom-bar .bar-right .reader-only {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 24px;
-    border-bottom: 3px solid #000;
+    /* border-bottom: 3px solid #000; */
     padding-bottom: 10px;
 }
 
@@ -728,27 +753,27 @@ body.reader-active .bottom-bar .bar-right .reader-only {
     font-size: 13px;
     font-weight: bold;
     color: #000;
-    width: 80px;
-    /* Fixed width for better alignment */
-    flex: 0 0 80px;
+    /* flex: 1; */
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .settings-group .control-row {
     display: flex;
     align-items: center;
-    gap: 4px;
-    flex: 1;
+    gap: 12px;
+    flex: 0 0 auto;
     justify-content: flex-end;
-    min-width: 0;
-    /* Prevent overflow */
 }
 
 .step-btn {
-    width: 32px;
-    height: 32px;
+    width: 22px;
+    height: 22px;
     border: 2px solid #000;
     background: #fff;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     cursor: pointer;
     display: flex;
@@ -760,7 +785,9 @@ body.reader-active .bottom-bar .bar-right .reader-only {
 
 .settings-group input[type="range"] {
     -webkit-appearance: none;
-    flex: 1;
+    appearance: none;
+    width: 80px;
+    /* Narrower slider */
     height: 3px;
     background: #000;
     outline: none;
@@ -768,10 +795,10 @@ body.reader-active .bottom-bar .bar-right .reader-only {
 
 .settings-group input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
-    width: 20px;
-    height: 20px;
+    width: 14px;
+    height: 14px;
     background: #fff;
-    border: 2.5px solid #000;
+    border: 2px solid #000;
     cursor: pointer;
     border-radius: 0;
 }
@@ -792,7 +819,7 @@ body.reader-active .bottom-bar .bar-right .reader-only {
 }
 
 .font-btn {
-    padding: 6px 14px;
+    padding: 2px 10px;
     border: 2.5px solid #000;
     background: #fff;
     cursor: pointer;
@@ -812,8 +839,8 @@ body.reader-active .bottom-bar .bar-right .reader-only {
 .switch {
     position: relative;
     display: inline-block;
-    width: 44px;
-    height: 24px;
+    width: 38px;
+    height: 20px;
 }
 
 .switch input {
@@ -828,16 +855,18 @@ body.reader-active .bottom-bar .bar-right .reader-only {
     inset: 0;
     background-color: #fff;
     border: 2.5px solid #000;
+    width: 38px;
 }
 
 .slider-round:before {
     position: absolute;
     content: "";
-    height: 14px;
-    width: 14px;
-    left: 3px;
+    height: 10px;
+    width: 10px;
+    left: -2.5px;
     bottom: 2.5px;
     background-color: #000;
+    transition: none;
 }
 
 input:checked+.slider-round {
@@ -846,14 +875,14 @@ input:checked+.slider-round {
 
 input:checked+.slider-round:before {
     background-color: #fff;
-    transform: translateX(19px);
+    transform: translateX(23px);
 }
 
 /* 设置遮罩 */
 .settings-overlay {
     position: fixed;
     inset: 0;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.4);
     z-index: 1999;
 }
 
@@ -865,7 +894,7 @@ input:checked+.slider-round:before {
 .vocab-view {
     max-width: 800px;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 40px 0 100px;
 }
 
 .vocab-view.hidden {
@@ -873,46 +902,62 @@ input:checked+.slider-round:before {
 }
 
 .vocab-header {
-    border-bottom: 3px solid var(--primary-color);
+    border-bottom: 3px solid #000;
     margin-bottom: 24px;
-    padding-bottom: 14px;
+    padding-bottom: 15px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
 }
 
 .vocab-header h1 {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
 }
 
 .vocab-header .count {
     font-size: 14px;
-    color: #666;
+    font-weight: bold;
 }
 
 .vocab-list {
     list-style: none;
 }
 
+.vocab-group-header {
+    background: #000;
+    color: #fff;
+    padding: 6px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 32px 0 12px;
+    display: inline-block;
+}
+
 .vocab-item {
-    border: 2px solid var(--primary-color);
-    padding: 16px 20px;
-    margin-bottom: 12px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    gap: 16px;
+    align-items: flex-start;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+    gap: 15px;
 }
 
 .vocab-item-info {
     flex: 1;
 }
 
+.vocab-item-word-row {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 4px;
+}
+
 .vocab-item-word {
     font-size: 20px;
     font-weight: bold;
-    margin-bottom: 4px;
+    color: #000;
 }
 
 .vocab-item-reading {
@@ -921,22 +966,17 @@ input:checked+.slider-round:before {
     font-family: "Hiragino Sans", sans-serif;
 }
 
-.vocab-item-meaning {
-    font-size: 14px;
-    color: #444;
-    margin-top: 6px;
-}
-
-.vocab-item-source {
+.vocab-item-pos {
     font-size: 11px;
     color: #999;
-    margin-top: 4px;
+    background: #f5f5f5;
+    padding: 1px 6px;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
-.vocab-item button {
-    height: 32px;
-    padding: 0 12px;
-    border: 2px solid #000;
+.vocab-item-meaning {
     background: #fff;
     font-size: 12px;
     font-weight: bold;

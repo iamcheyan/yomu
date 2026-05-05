@@ -72,11 +72,8 @@ const Yomu = {
 
     _handleGlobalClick(e) {
         if (!this._isReaderOpen) {
-            console.log('Click ignored: reader not open');
             return;
         }
-
-        console.log('Global click:', e.target.tagName, e.target.className);
 
         // Priority 1: Ignore if clicking on interactive elements (buttons, tokens, or panel itself)
         const interactive = e.target.closest('.word-token') || 
@@ -86,19 +83,16 @@ const Yomu = {
                           e.target.closest('.settings-panel');
                           
         if (interactive) {
-            console.log('Click on interactive element, ignoring global logic');
             return;
         }
 
         // Priority 2: If settings panel is open, click anywhere outside (blank area) to close it
         if (this._settingsOpen) {
-            console.log('Closing settings via global click on blank area');
             this.toggleSettings();
             return; 
         }
 
         // Priority 3: Toggle bottom bar
-        console.log('Toggling bottom bar');
         this.toggleBottomBar();
     },
 
@@ -558,20 +552,54 @@ const Yomu = {
         }
 
         empty.style.display = 'none';
-        let html = '';
 
+        // Group by bookId
+        const books = YomuReader.getBooks();
+        const grouped = {};
+        
         for (const item of vocab) {
-            html += `
-                <li class="vocab-item">
-                    <div class="vocab-item-info">
-                        <div class="vocab-item-word">${this._escapeHtml(item.word)}</div>
-                        <div class="vocab-item-reading">${this._escapeHtml(item.reading)}</div>
-                        ${item.meaning ? `<div class="vocab-item-meaning">${this._escapeHtml(item.meaning)}</div>` : ''}
-                        ${item.pos ? `<div class="vocab-item-source">${this._escapeHtml(item.pos)}</div>` : ''}
-                    </div>
-                    <button onclick="Yomu.removeVocabItem('${this._escapeAttr(item.word)}', '${this._escapeAttr(item.reading)}')">削除</button>
-                </li>
-            `;
+            const bid = item.bookId || 'unknown';
+            if (!grouped[bid]) grouped[bid] = [];
+            grouped[bid].push(item);
+        }
+
+        let html = '';
+        
+        // Sort groups: show current book first, then others alphabetical
+        const currentBook = YomuReader.getCurrentBook();
+        const currentBookId = currentBook ? currentBook.id : null;
+        
+        const sortedBookIds = Object.keys(grouped).sort((a, b) => {
+            if (a === currentBookId) return -1;
+            if (b === currentBookId) return 1;
+            if (a === 'unknown') return 1;
+            if (b === 'unknown') return -1;
+            return a.localeCompare(b);
+        });
+
+        for (const bid of sortedBookIds) {
+            const book = books.find(b => b.id === bid);
+            const bookTitle = book ? book.title : (bid === 'unknown' ? 'その他' : bid);
+            
+            html += `<li class="vocab-group-header">${this._escapeHtml(bookTitle)}</li>`;
+            
+            for (const item of grouped[bid]) {
+                html += `
+                    <li class="vocab-item">
+                        <div class="vocab-item-info">
+                            <div class="vocab-item-word-row">
+                                <span class="vocab-item-word">${this._escapeHtml(item.word)}</span>
+                                <span class="vocab-item-reading">【${this._escapeHtml(item.reading)}】</span>
+                            </div>
+                            <div class="vocab-item-pos">${this._escapeHtml(item.pos || '')}</div>
+                            ${item.meaning ? `<div class="vocab-item-meaning">${this._escapeHtml(item.meaning)}</div>` : ''}
+                        </div>
+                        <button class="vocab-delete-btn" onclick="Yomu.removeVocabItem('${this._escapeAttr(item.word)}', '${this._escapeAttr(item.reading)}')">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                        </button>
+                    </li>
+                `;
+            }
         }
 
         list.innerHTML = html;
@@ -634,11 +662,13 @@ const Yomu = {
     updateAutoFuriganaSetting() {
         const checkbox = document.getElementById('auto-furigana-toggle');
         const autoFuri = checkbox ? checkbox.checked : false;
+        console.log('[App] updateAutoFuriganaSetting:', autoFuri);
         
         YomuStorage.saveSetting('autoFurigana', autoFuri);
         
         // Trigger re-render if reader is open
         if (this._isReaderOpen && this.reader.getCurrentBook()) {
+            console.log('[App] Triggering re-render...');
             this.reader.reRender();
         }
     },

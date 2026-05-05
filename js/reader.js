@@ -27,7 +27,7 @@ const YomuReader = {
                 xhr.onerror = () => reject(new Error('XHR Network Error'));
                 xhr.send();
             });
-            
+
             if (data && Array.isArray(data)) {
                 let books = data;
                 // Merge synced books from storage
@@ -66,7 +66,7 @@ const YomuReader = {
         // Load book data
         try {
             let data = await YomuStorage.getBookContent(bookId);
-            
+
             if (!data) {
                 // Fallback to static files (Use XHR for better compatibility on Android file://)
                 data = await new Promise((resolve, reject) => {
@@ -83,7 +83,7 @@ const YomuReader = {
             }
 
             if (!data) throw new Error('Book not found');
-            
+
             this._currentBookData = data;
             this._renderBook(data);
         } catch (e) {
@@ -162,9 +162,22 @@ const YomuReader = {
         let html = YomuTokenizer.renderParagraph(text, forceAuto);
         const translations = this._translations && this._translations[index];
         const hasTranslation = Array.isArray(translations) && translations.length > 0;
-        const iconTitle = hasTranslation ? `${translations.length}件の翻訳` : '翻訳なし';
-        html = html.replace(/<\/p>$/,
-            `<span class="trans-icon${hasTranslation ? '' : ' disabled'}" data-para-index="${index}" title="${iconTitle}" onclick="Yomu.reader.toggleTranslation(${index})">译${hasTranslation ? translations.length : ''}</span></p>`);
+
+        // Count how many translations we have
+        const transCount = hasTranslation ? translations.length : 0;
+        const iconTitle = hasTranslation ? `${transCount}件の翻訳あり` : '翻訳なし';
+
+        // Append translation icon before closing </p>
+        const iconHtml = `<span class="trans-icon${hasTranslation ? '' : ' disabled'}" 
+                             data-para-index="${index}" 
+                             title="${iconTitle}" 
+                             onclick="Yomu.reader.toggleTranslation(${index})">
+                             译${transCount > 1 ? transCount : ''}
+                         </span>`;
+
+        html = html.replace(/<\/p>$/, `${iconHtml}</p>`);
+
+        // Add the container for translation text
         html += `<div class="translation-line hidden" id="trans-${index}"></div>`;
         return html;
     },
@@ -173,29 +186,35 @@ const YomuReader = {
         const el = document.getElementById(`trans-${index}`);
         if (!el) return;
 
+        // If already visible, hide it
         if (!el.classList.contains('hidden')) {
             el.classList.add('hidden');
             return;
         }
 
         const translations = this._translations && this._translations[index];
-        if (!Array.isArray(translations) || translations.length === 0) return;
+        if (!Array.isArray(translations) || translations.length === 0) {
+            console.log(`No translations for paragraph ${index}`);
+            return;
+        }
 
+        // Build beautiful translation list
         let html = '';
         for (const t of translations) {
+            const modelLabel = t.model_name || t.model || 'AI';
             html += `<div class="trans-item">
-                <span class="trans-model">${this._escapeHtml(t.model || '')}</span>
-                <span class="trans-text">${this._escapeHtml(t.text)}</span>
+                <div class="trans-meta">
+                    <span class="trans-model">${this._escapeHtml(modelLabel)}</span>
+                </div>
+                <div class="trans-text">${this._escapeHtml(t.text)}</div>
             </div>`;
-            if (t.grammar) {
-                html += `<div class="trans-grammar">
-                    <span class="trans-grammar-label">语法解说</span>
-                    <span class="trans-grammar-text">${this._escapeHtml(t.grammar)}</span>
-                </div>`;
-            }
         }
+
         el.innerHTML = html;
         el.classList.remove('hidden');
+
+        // Optional: scroll into view if it's too long
+        // el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     },
 
     reRender() {

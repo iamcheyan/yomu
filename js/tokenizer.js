@@ -13,7 +13,6 @@ const YomuTokenizer = {
 
         for (const dicPath of paths) {
             try {
-                console.log(`Attempting to load tokenizer from: ${dicPath}`);
                 const tokenizer = await new Promise((resolve, reject) => {
                     kuromoji.builder({ dicPath }).build((err, t) => {
                         if (err) reject(err);
@@ -22,7 +21,6 @@ const YomuTokenizer = {
                 });
                 this._tokenizer = tokenizer;
                 this._ready = true;
-                console.log(`Tokenizer initialized successfully from: ${dicPath}`);
                 return;
             } catch (e) {
                 console.warn(`Failed to load tokenizer from ${dicPath}:`, e);
@@ -172,7 +170,7 @@ const YomuTokenizer = {
             .replace(/《[^》]+》/g, '')
             .replace(/［＃[^］]+］/g, '');
         
-        return this._renderKuromojiParagraph(cleanText);
+        return this._renderKuromojiParagraph(cleanText, forceAuto);
     },
 
     /**
@@ -263,7 +261,7 @@ const YomuTokenizer = {
     /**
      * Render using kuromoji auto-tokenization (fallback)
      */
-    _renderKuromojiParagraph(text) {
+    _renderKuromojiParagraph(text, forceAllFurigana = false) {
         const tokens = this.tokenize(text);
         let html = '<p>';
 
@@ -276,10 +274,15 @@ const YomuTokenizer = {
 
             const lemma = this.getLemma(token);
             const reading = this.getHiragana(token);
-            const needsRuby = this.needsRuby(token);
+            let needsRuby = this.needsRuby(token);
+            
+            // If Full Furigana is ON, force ruby for all Kanji
+            if (forceAllFurigana && /[一-鿿]/.test(surface)) {
+                needsRuby = true;
+            }
+
             const pos = token.pos;
             const posDetail = token.pos_detail_1;
-
             const dataAttrs = `data-surface="${this._escapeAttr(surface)}" data-lemma="${this._escapeAttr(lemma)}" data-reading="${this._escapeAttr(reading)}" data-pos="${this._escapeAttr(pos)}" data-pos-detail="${this._escapeAttr(posDetail)}"`;
 
             if (needsRuby) {
