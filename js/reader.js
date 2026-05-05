@@ -193,12 +193,15 @@ const YomuReader = {
         }
 
         const translations = this._translations && this._translations[index];
-        if (!Array.isArray(translations) || translations.length === 0) {
-            console.log(`No translations for paragraph ${index}`);
-            return;
-        }
-
-        // Build beautiful translation list
+        const hasTrans = Array.isArray(translations) && translations.length > 0;
+        
+        // Hide icon if no translation exists
+        const iconHtml = hasTrans ? `
+            <span class="trans-icon" data-para-index="${index}" title="${translations.length}件の翻訳あり" onclick="Yomu.reader.toggleTranslation(${index})">
+                译
+            </span>
+        ` : '';
+// Build beautiful translation list
         let html = '';
         for (const t of translations) {
             const modelLabel = t.model_name || t.model || 'AI';
@@ -247,7 +250,18 @@ const YomuReader = {
         document.getElementById('popup-word').textContent = displayWord;
         document.getElementById('popup-reading').textContent = displayReading;
         document.getElementById('popup-pos').textContent = displayPOS;
-        document.getElementById('popup-meaning').textContent = meaning || '辞書に登録がありません。';
+        
+        // Detailed metadata
+        const metaEl = document.getElementById('popup-meta');
+        let metaHtml = '';
+        if (lemma && lemma !== surface) metaHtml += `<div class="popup-meta-item"><strong>原形:</strong> ${this._escapeHtml(lemma)}</div>`;
+        if (posDetail && posDetail !== '*') metaHtml += `<div class="popup-meta-item"><strong>細分類:</strong> ${this._escapeHtml(posDetail)}</div>`;
+        metaEl.innerHTML = metaHtml;
+        metaEl.style.display = metaHtml ? 'block' : 'none';
+
+        const meaningEl = document.getElementById('popup-meaning');
+        meaningEl.textContent = meaning;
+        meaningEl.style.display = meaning ? 'block' : 'none';
 
         // Update mark button
         const isMarked = YomuStorage.isMarked(lemma || surface, reading);
@@ -258,6 +272,7 @@ const YomuReader = {
         btn.dataset.reading = reading;
         btn.dataset.meaning = meaning;
         btn.dataset.pos = displayPOS;
+        btn.dataset.posDetail = posDetail || '';
         btn.dataset.bookId = this._currentBook ? this._currentBook.id : '';
 
         // Show popup
@@ -266,13 +281,13 @@ const YomuReader = {
     },
 
     _startProgressTracking() {
-        if (this._scrollTimer) {
-            window.removeEventListener('scroll', this._scrollTimer);
+        if (this._scrollListener) {
+            window.removeEventListener('scroll', this._scrollListener);
         }
 
-        this._scrollTimer = () => {
-            clearTimeout(this._scrollTimer);
-            this._scrollTimer = setTimeout(() => {
+        this._scrollListener = () => {
+            if (this._scrollTimeout) clearTimeout(this._scrollTimeout);
+            this._scrollTimeout = setTimeout(() => {
                 const scrollTop = window.scrollY;
                 const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
                 const percent = maxScroll > 0 ? Math.round(scrollTop / maxScroll * 100) : 0;
@@ -285,7 +300,7 @@ const YomuReader = {
             }, 200);
         };
 
-        window.addEventListener('scroll', this._scrollTimer);
+        window.addEventListener('scroll', this._scrollListener);
     },
 
     scrollTop() {

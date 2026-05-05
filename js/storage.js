@@ -53,11 +53,20 @@ const YomuStorage = {
         return this.get('vocab', []);
     },
 
-    addVocab(word, reading, meaning, pos, bookId) {
+    addVocab(word, reading, meaning, pos, bookId, lemma, posDetail) {
         const vocab = this.getVocab();
         const exists = vocab.find(v => v.word === word && v.reading === reading);
         if (exists) return false;
-        vocab.unshift({ word, reading, meaning, pos, bookId, addedAt: Date.now() });
+        vocab.unshift({ 
+            word, 
+            reading, 
+            meaning, 
+            pos, 
+            bookId, 
+            lemma,
+            posDetail,
+            addedAt: Date.now() 
+        });
         this.set('vocab', vocab);
         return true;
     },

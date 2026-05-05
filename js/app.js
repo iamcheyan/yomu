@@ -135,6 +135,13 @@ const Yomu = {
         
         const books = Array.from(booksMap.values());
         
+        // Sort by last read date to put most recent at top
+        books.sort((a, b) => {
+            const progA = YomuStorage.getProgress(a.id);
+            const progB = YomuStorage.getProgress(b.id);
+            return (progB.lastRead || 0) - (progA.lastRead || 0);
+        });
+        
         // Update counter
         const counter = document.getElementById('library-count');
         if (counter) counter.textContent = books.length;
@@ -490,17 +497,19 @@ const Yomu = {
 
     toggleMark() {
         const btn = document.getElementById('btn-mark-word');
-        const word = btn.dataset.lemma || btn.dataset.surface;
+        const word = btn.dataset.surface;
         const reading = btn.dataset.reading;
         const meaning = btn.dataset.meaning;
         const pos = btn.dataset.pos;
+        const posDetail = btn.dataset.posDetail;
+        const lemma = btn.dataset.lemma;
         const bookId = btn.dataset.bookId;
 
         if (YomuStorage.isMarked(word, reading)) {
             YomuStorage.removeVocab(word, reading);
             btn.textContent = '単語帳に追加';
         } else {
-            YomuStorage.addVocab(word, reading, meaning, pos, bookId);
+            YomuStorage.addVocab(word, reading, meaning, pos, bookId, lemma, posDetail);
             btn.textContent = '単語帳から削除';
         }
 
@@ -584,19 +593,29 @@ const Yomu = {
             html += `<li class="vocab-group-header">${this._escapeHtml(bookTitle)}</li>`;
             
             for (const item of grouped[bid]) {
+                const lemma = item.lemma || '';
+                const posDetail = item.posDetail || '';
+                const displayPos = `${this._escapeHtml(item.pos || '')}${posDetail ? ` / ${this._escapeHtml(posDetail)}` : ''}`;
+                const hasExtra = !!(item.meaning || (lemma && lemma !== item.word));
+
                 html += `
-                    <li class="vocab-item">
-                        <div class="vocab-item-info">
+                    <li class="vocab-item ${hasExtra ? 'has-detail' : ''}" onclick="${hasExtra ? 'Yomu.toggleVocabDetail(this)' : ''}">
+                        <div class="vocab-item-main">
                             <div class="vocab-item-word-row">
                                 <span class="vocab-item-word">${this._escapeHtml(item.word)}</span>
                                 <span class="vocab-item-reading">【${this._escapeHtml(item.reading)}】</span>
+                                <span class="vocab-item-pos">${displayPos}</span>
                             </div>
-                            <div class="vocab-item-pos">${this._escapeHtml(item.pos || '')}</div>
-                            ${item.meaning ? `<div class="vocab-item-meaning">${this._escapeHtml(item.meaning)}</div>` : ''}
+                            <button class="vocab-delete-btn" onclick="event.stopPropagation(); Yomu.removeVocabItem('${this._escapeAttr(item.word)}', '${this._escapeAttr(item.reading)}')">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6L6 18M6 6l12 12"></path></svg>
+                            </button>
                         </div>
-                        <button class="vocab-delete-btn" onclick="Yomu.removeVocabItem('${this._escapeAttr(item.word)}', '${this._escapeAttr(item.reading)}')">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
-                        </button>
+                        ${hasExtra ? `
+                        <div class="vocab-item-detail">
+                            ${lemma && lemma !== item.word ? `<div class="vocab-detail-row"><strong>原形:</strong> ${this._escapeHtml(lemma)}</div>` : ''}
+                            ${item.meaning ? `<div class="vocab-detail-meaning">${this._escapeHtml(item.meaning)}</div>` : ''}
+                        </div>
+                        ` : ''}
                     </li>
                 `;
             }
@@ -608,7 +627,12 @@ const Yomu = {
     removeVocabItem(word, reading) {
         YomuStorage.removeVocab(word, reading);
         this._renderVocabList();
-        YomuReader.refreshMarks();
+        // Also refresh marks if reader is active in background
+        if (this.reader) this.reader.refreshMarks();
+    },
+
+    toggleVocabDetail(el) {
+        el.classList.toggle('expanded');
     },
 
     // Apply saved settings on init

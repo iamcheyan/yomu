@@ -97,8 +97,8 @@ body.font-gothic {
 }
 
 .book-list-header {
-    border-bottom: 3px solid var(--primary-color);
-    margin-bottom: 32px;
+    /* border-bottom: 3px solid var(--primary-color); */
+    /* margin-bottom: 32px; */
     padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
@@ -279,7 +279,7 @@ body.font-gothic {
     font-size: var(--base-font-size);
     line-height: var(--line-height);
     margin-bottom: 1em;
-    text-indent: 1em;
+    text-indent: 0;
     /* Standard Japanese indentation is 1 character */
 }
 
@@ -345,6 +345,7 @@ body.show-furigana rt {
     font-weight: bold;
     line-height: 1.6;
     background: #fff;
+    padding-left: 15px;
 }
 
 .trans-icon.disabled {
@@ -405,6 +406,16 @@ body.show-furigana rt {
     word-break: break-all;
 }
 
+body.font-mincho .trans-text,
+body.font-mincho .trans-grammar-text {
+    font-family: "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+}
+
+body.font-gothic .trans-text,
+body.font-gothic .trans-grammar-text {
+    font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS Mincho", serif;
+}
+
 .trans-grammar {
     margin-top: 8px;
     padding-top: 8px;
@@ -424,7 +435,6 @@ body.show-furigana rt {
     font-size: 0.8em;
     color: #555;
     line-height: 1.7;
-    font-family: "Hiragino Sans", sans-serif;
 }
 
 /* 可点击的单词 */
@@ -478,18 +488,40 @@ body.show-furigana rt {
 }
 
 .popup-pos {
+    font-size: 13px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.popup-meta {
+    background: #f5f5f5;
+    padding: 8px 12px;
+    margin-bottom: 12px;
+    border-left: 3px solid #000;
+}
+
+.popup-meta-item {
     font-size: 12px;
-    color: #999;
-    margin-bottom: 10px;
-    font-family: "Hiragino Sans", sans-serif;
+    margin-bottom: 4px;
+    color: #444;
+}
+
+.popup-meta-item:last-child {
+    margin-bottom: 0;
+}
+
+.popup-meta-item strong {
+    color: #000;
+    margin-right: 4px;
 }
 
 .popup-meaning {
-    font-size: 15px;
-    line-height: 1.8;
-    margin-bottom: 16px;
-    border-left: 3px solid #000;
-    padding-left: 12px;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+    padding-top: 12px;
+    border-top: 1px dashed #ccc;
 }
 
 .popup-actions {
@@ -611,17 +643,17 @@ body.reader-active .bottom-bar .bar-right .reader-only {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.9);
-    width: 350px;
-    max-width: 85vw;
-    max-height: 85vh;
+    width: 440px;
+    max-width: 90vw;
+    max-height: 90vh;
     background: #fff;
     border: 3px solid #000;
     z-index: 2000;
-    padding: 24px;
+    padding: 30px;
     overflow-y: auto;
     /* Isolate settings from global typography changes */
     line-height: 1.4 !important;
-    font-size: 13px !important;
+    font-size: 16px !important;
     opacity: 0;
     visibility: hidden;
     transition: none;
@@ -718,7 +750,7 @@ body.reader-active .bottom-bar .bar-right .reader-only {
 }
 
 .settings-header h2 {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
     margin-bottom: 0;
     border-bottom: none;
@@ -728,7 +760,7 @@ body.reader-active .bottom-bar .bar-right .reader-only {
 .settings-header .close-btn {
     background: none;
     border: none;
-    font-size: 32px;
+    font-size: 40px;
     font-weight: bold;
     cursor: pointer;
     line-height: 1;
@@ -736,12 +768,12 @@ body.reader-active .bottom-bar .bar-right .reader-only {
 }
 
 .settings-group {
-    padding: 12px 0;
+    padding: 15px 0;
     margin-bottom: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
     border-bottom: 1px solid #eee;
 }
 
@@ -750,7 +782,7 @@ body.reader-active .bottom-bar .bar-right .reader-only {
 }
 
 .settings-group label {
-    font-size: 13px;
+    font-size: 16px;
     font-weight: bold;
     color: #000;
     /* flex: 1; */
@@ -769,11 +801,11 @@ body.reader-active .bottom-bar .bar-right .reader-only {
 }
 
 .step-btn {
-    width: 22px;
-    height: 22px;
+    width: 28px;
+    height: 28px;
     border: 2px solid #000;
     background: #fff;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     cursor: pointer;
     display: flex;
@@ -786,17 +818,17 @@ body.reader-active .bottom-bar .bar-right .reader-only {
 .settings-group input[type="range"] {
     -webkit-appearance: none;
     appearance: none;
-    width: 80px;
+    width: 100px;
     /* Narrower slider */
-    height: 3px;
+    height: 4px;
     background: #000;
     outline: none;
 }
 
 .settings-group input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
-    width: 14px;
-    height: 14px;
+    width: 18px;
+    height: 18px;
     background: #fff;
     border: 2px solid #000;
     cursor: pointer;
@@ -819,11 +851,11 @@ body.reader-active .bottom-bar .bar-right .reader-only {
 }
 
 .font-btn {
-    padding: 2px 10px;
+    padding: 3px 13px;
     border: 2.5px solid #000;
     background: #fff;
     cursor: pointer;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: bold;
     box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
 }
@@ -839,8 +871,8 @@ body.reader-active .bottom-bar .bar-right .reader-only {
 .switch {
     position: relative;
     display: inline-block;
-    width: 38px;
-    height: 20px;
+    width: 48px;
+    height: 25px;
 }
 
 .switch input {
@@ -855,16 +887,16 @@ body.reader-active .bottom-bar .bar-right .reader-only {
     inset: 0;
     background-color: #fff;
     border: 2.5px solid #000;
-    width: 38px;
+    width: 48px;
 }
 
 .slider-round:before {
     position: absolute;
     content: "";
-    height: 10px;
-    width: 10px;
-    left: -2.5px;
-    bottom: 2.5px;
+    height: 13px;
+    width: 13px;
+    left: 3px;
+    bottom: 3.5px;
     background-color: #000;
     transition: none;
 }
@@ -875,7 +907,7 @@ input:checked+.slider-round {
 
 input:checked+.slider-round:before {
     background-color: #fff;
-    transform: translateX(23px);
+    transform: translateX(24px);
 }
 
 /* 设置遮罩 */
@@ -935,52 +967,103 @@ input:checked+.slider-round:before {
 }
 
 .vocab-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 20px 0;
-    border-bottom: 1px solid #eee;
-    gap: 15px;
+    background: #fff;
+    border: 2.5px solid #000;
+    margin-bottom: 12px;
+    padding: 0;
+    transition: background 0.2s;
+    overflow: hidden;
 }
 
-.vocab-item-info {
-    flex: 1;
+.vocab-item.has-detail {
+    cursor: pointer;
+}
+
+.vocab-item:hover {
+    background: #fcfcfc;
+}
+
+.vocab-item-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
 }
 
 .vocab-item-word-row {
     display: flex;
     align-items: baseline;
-    gap: 8px;
-    margin-bottom: 4px;
+    gap: 12px;
+    flex-wrap: wrap;
+    /* Support horizontal flow */
 }
 
 .vocab-item-word {
     font-size: 20px;
-    font-weight: bold;
-    color: #000;
+    font-weight: 800;
 }
 
 .vocab-item-reading {
     font-size: 14px;
-    color: #666;
-    font-family: "Hiragino Sans", sans-serif;
+    color: #444;
 }
 
 .vocab-item-pos {
-    font-size: 11px;
-    color: #999;
-    background: #f5f5f5;
+    font-size: 13px;
+    color: #666;
+    background: #f0f0f0;
     padding: 1px 6px;
-    display: inline-block;
-    margin-bottom: 10px;
-    font-weight: bold;
 }
 
-.vocab-item-meaning {
-    background: #fff;
-    font-size: 12px;
-    font-weight: bold;
+.vocab-delete-btn {
+    background: #000;
+    color: #fff;
+    border: none;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
+    border-radius: 0;
+}
+
+.vocab-delete-btn:hover {
+    background: #333;
+}
+
+.vocab-item-detail {
+    max-height: 0;
+    padding: 0 16px;
+    border-top: 0 solid #000;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    background: #f9f9f9;
+}
+
+.vocab-item.expanded .vocab-item-detail {
+    max-height: 500px;
+    /* Large enough to fit content */
+    padding: 16px;
+    border-top: 2.5px solid #000;
+}
+
+.vocab-detail-row {
+    font-size: 13px;
+    margin-bottom: 6px;
+    color: #000;
+}
+
+.vocab-detail-row strong {
+    display: inline-block;
+    width: 45px;
+}
+
+.vocab-detail-meaning {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+    padding-top: 10px;
+    border-top: 1px dashed #ccc;
 }
 
 .vocab-empty {
