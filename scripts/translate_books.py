@@ -167,6 +167,7 @@ def call_provider(provider, prompt):
         else:
             return call_openai_compatible(provider["api_key"], provider["base_url"], provider["model"], prompt)
     except Exception as e:
+        logger.log(f"    !! API 错误: {e}")
         return None
 
 
@@ -319,13 +320,14 @@ def main():
                 book_ids.append(f.replace(".json", ""))
 
     logger.log(f"\n待翻译书籍: {len(book_ids)} 本")
-    print("=" * 50)
+    logger.log("=" * 50)
 
     for book_id in book_ids:
-        print(f"\n翻译: {book_id}")
+        logger.log(f"\n翻译: {book_id}")
         translate_book(book_id, available)
 
-    print("\n全部完成!")
+    logger.log("\n全部完成!")
+    logger.close()
 
 
 if __name__ == "__main__":

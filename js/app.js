@@ -78,16 +78,7 @@ const Yomu = {
 
         console.log('Global click:', e.target.tagName, e.target.className);
 
-        // Priority 1: If settings panel is open, click outside to close it
-        if (this._settingsOpen) {
-            if (!e.target.closest('.settings-panel')) {
-                console.log('Closing settings via global click');
-                this.toggleSettings();
-            }
-            return; 
-        }
-
-        // Priority 2: Ignore if clicking on interactive elements
+        // Priority 1: Ignore if clicking on interactive elements (buttons, tokens, or panel itself)
         const interactive = e.target.closest('.word-token') || 
                           e.target.closest('.bottom-bar') || 
                           e.target.closest('button') ||
@@ -95,8 +86,15 @@ const Yomu = {
                           e.target.closest('.settings-panel');
                           
         if (interactive) {
-            console.log('Click on interactive element, ignoring toggle');
+            console.log('Click on interactive element, ignoring global logic');
             return;
+        }
+
+        // Priority 2: If settings panel is open, click anywhere outside (blank area) to close it
+        if (this._settingsOpen) {
+            console.log('Closing settings via global click on blank area');
+            this.toggleSettings();
+            return; 
         }
 
         // Priority 3: Toggle bottom bar
