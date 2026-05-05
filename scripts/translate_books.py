@@ -318,7 +318,7 @@ def main():
             if f.endswith(".json"):
                 book_ids.append(f.replace(".json", ""))
 
-    print(f"\n待翻译书籍: {len(book_ids)} 本")
+    logger.log(f"\n待翻译书籍: {len(book_ids)} 本")
     print("=" * 50)
 
     for book_id in book_ids:
