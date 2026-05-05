@@ -592,7 +592,7 @@ body.reader-active .bottom-bar .bar-right .reader-only {
     background: #fff;
     border: 3px solid #000;
     z-index: 2000;
-    padding: 18px;
+    padding: 24px;
     overflow-y: auto;
     /* Isolate settings from global typography changes */
     line-height: 1.4 !important;
@@ -600,6 +600,7 @@ body.reader-active .bottom-bar .bar-right .reader-only {
     opacity: 0;
     visibility: hidden;
     transition: none; /* Instant for e-ink */
+    box-shadow: 15px 15px 0px rgba(0, 0, 0, 0.05);
 }
 
 .settings-panel.open {
@@ -650,26 +651,34 @@ body.reader-active .bottom-bar .bar-right .reader-only {
 }
 
 .settings-group {
-    margin-bottom: 12px;
+    padding: 12px 0;
+    margin-bottom: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.settings-group:last-of-type {
+    border-bottom: none;
 }
 
 .settings-group label {
     font-size: 13px;
     font-weight: bold;
     color: #000;
-    flex: 0 0 auto;
+    width: 80px; /* Fixed width for better alignment */
+    flex: 0 0 80px;
 }
 
 .settings-group .control-row {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 4px;
     flex: 1;
     justify-content: flex-end;
+    min-width: 0; /* Prevent overflow */
 }
 
 .step-btn {
@@ -726,11 +735,14 @@ body.reader-active .bottom-bar .bar-right .reader-only {
     cursor: pointer;
     font-size: 13px;
     font-weight: bold;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
 }
 
 .font-btn.active {
     background: #000;
     color: #fff;
+    box-shadow: none;
+    transform: translate(2px, 2px);
 }
 
 /* 开关 */
