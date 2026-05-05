@@ -106,7 +106,7 @@ const YomuReader = {
         this._refreshVocabMarks();
 
         // Restore scroll position (Prioritize precise scrollTop, fallback to percentage)
-        const progress = YomuStorage.getProgress(data.id || this._currentBook.id);
+        const progress = YomuStorage.getProgress(bookId);
         if (progress) {
             setTimeout(() => {
                 if (progress.scrollTop) {
