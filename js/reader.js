@@ -88,7 +88,7 @@ const YomuReader = {
             this._renderBook(data);
         } catch (e) {
             console.error('Failed to load book:', e);
-            alert('書籍の読み込みに失敗しました。');
+            Yomu.alert('書籍の読み込みに失敗しました。', 'エラー');
             return;
         }
 

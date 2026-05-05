@@ -586,7 +586,7 @@ body.reader-active .bottom-bar .bar-right .reader-only {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.9);
-    width: 310px;
+    width: 350px;
     max-width: 85vw;
     max-height: 85vh;
     background: #fff;
@@ -599,8 +599,68 @@ body.reader-active .bottom-bar .bar-right .reader-only {
     font-size: 13px !important;
     opacity: 0;
     visibility: hidden;
-    transition: none; /* Instant for e-ink */
+    transition: none;
+    /* Instant for e-ink */
+    /* box-shadow: 15px 15px 0px rgba(0, 0, 0, 0.05); */
+}
+
+/* Modal Overlay (Generic) */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 3000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-overlay.active {
+    display: flex;
+}
+
+.modal-card {
+    background: #fff;
+    border: 3px solid #000;
+    padding: 30px;
+    width: 320px;
+    max-width: 85vw;
     box-shadow: 15px 15px 0px rgba(0, 0, 0, 0.05);
+}
+
+.modal-card h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.modal-card p {
+    font-size: 14px;
+    margin-bottom: 24px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.modal-footer {
+    display: flex;
+    gap: 12px;
+}
+
+.modal-btn {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #000;
+    background: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-btn.primary {
+    background: #000;
+    color: #fff;
 }
 
 .settings-panel.open {
@@ -668,7 +728,8 @@ body.reader-active .bottom-bar .bar-right .reader-only {
     font-size: 13px;
     font-weight: bold;
     color: #000;
-    width: 80px; /* Fixed width for better alignment */
+    width: 80px;
+    /* Fixed width for better alignment */
     flex: 0 0 80px;
 }
 
@@ -678,7 +739,8 @@ body.reader-active .bottom-bar .bar-right .reader-only {
     gap: 4px;
     flex: 1;
     justify-content: flex-end;
-    min-width: 0; /* Prevent overflow */
+    min-width: 0;
+    /* Prevent overflow */
 }
 
 .step-btn {
@@ -720,6 +782,7 @@ body.reader-active .bottom-bar .bar-right .reader-only {
     min-width: 40px;
     text-align: right;
     font-family: "Hiragino Sans", sans-serif;
+    display: none;
 }
 
 /* 字体切换按钮 */

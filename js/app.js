@@ -305,11 +305,11 @@ const Yomu = {
             // Re-render store to show checkmark
             this._renderStore(document.getElementById('store-search-input').value);
             
-            alert(`「${book.title}」をダウンロードしました。`);
+            await this.alert(`「${book.title}」をダウンロードしました。`, '成功');
         } catch (e) {
             el.classList.remove('downloading');
             console.error('Download failed:', e);
-            alert('ダウンロードに失敗しました。ネットワーク接続を確認してください。');
+            await this.alert('ダウンロードに失敗しました。ネットワーク接続を確認してください。', 'エラー');
         }
     },
 
@@ -413,7 +413,7 @@ const Yomu = {
     },
 
     async syncData() {
-        if (!confirm('GitHubから最新の書籍データを取得しますか？\n（現在の読み込み中的书籍列表が更新されます）')) {
+        if (!await this.confirm('GitHubから最新の書籍データを取得しますか？\n（現在の読み込み中的书籍列表が更新されます）', 'データ同期')) {
             return;
         }
 
@@ -430,21 +430,65 @@ const Yomu = {
                 // Save to storage
                 YomuStorage.saveSetting('syncedBooks', books);
                 
-                alert(`同期完了！${books.length} 冊の書籍情報を取得しました。ページを再読み込みします。`);
+                await this.alert(`同期完了！${books.length} 冊の書籍情報を取得しました。ページを再読み込みします。`, '同期成功');
                 window.location.reload();
             } else {
                 throw new Error('Sync failed: ' + r.status);
             }
         } catch (e) {
             console.error('Sync failed:', e);
-            alert('同期に失敗しました。ネットワーク连接を確認してください。');
+            await this.alert('同期に失敗しました。ネットワーク连接を確認してください。', 'エラー');
         } finally {
             btn.textContent = originalText;
             btn.disabled = false;
         }
     },
 
-    // Vocabulary popup
+    // Custom Modals (Async)
+    alert(message, title = '通知') {
+        return new Promise(resolve => {
+            const overlay = document.getElementById('modal-overlay');
+            const titleEl = document.getElementById('modal-title');
+            const msgEl = document.getElementById('modal-message');
+            const okBtn = document.getElementById('modal-ok-btn');
+            const cancelBtn = document.getElementById('modal-cancel-btn');
+
+            titleEl.textContent = title;
+            msgEl.textContent = message;
+            cancelBtn.style.display = 'none';
+            okBtn.onclick = () => {
+                overlay.classList.remove('active');
+                resolve();
+            };
+
+            overlay.classList.add('active');
+        });
+    },
+
+    confirm(message, title = '確認') {
+        return new Promise(resolve => {
+            const overlay = document.getElementById('modal-overlay');
+            const titleEl = document.getElementById('modal-title');
+            const msgEl = document.getElementById('modal-message');
+            const okBtn = document.getElementById('modal-ok-btn');
+            const cancelBtn = document.getElementById('modal-cancel-btn');
+
+            titleEl.textContent = title;
+            msgEl.textContent = message;
+            cancelBtn.style.display = 'block';
+            
+            okBtn.onclick = () => {
+                overlay.classList.remove('active');
+                resolve(true);
+            };
+            cancelBtn.onclick = () => {
+                overlay.classList.remove('active');
+                resolve(false);
+            };
+
+            overlay.classList.add('active');
+        });
+    },
     closePopup() {
         document.getElementById('popup-card').classList.add('hidden');
         document.getElementById('popup-overlay').classList.add('hidden');

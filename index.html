@@ -124,7 +124,7 @@
                 <button class="step-btn" onclick="Yomu.adjustFontSize(-1)">-</button>
                 <input type="range" id="font-size-slider" min="14" max="32" value="20" oninput="Yomu.setFontSize(this.value)">
                 <button class="step-btn" onclick="Yomu.adjustFontSize(1)">+</button>
-                <span class="value-display" id="font-size-value">20px</span>
+                <span class="value-display" id="font-size-value" style="display: none;">20px</span>
             </div>
         </div>
 
@@ -134,7 +134,7 @@
                 <button class="step-btn" onclick="Yomu.adjustLineHeight(-1)">-</button>
                 <input type="range" id="line-height-slider" min="15" max="35" value="22" oninput="Yomu.setLineHeight(this.value)">
                 <button class="step-btn" onclick="Yomu.adjustLineHeight(1)">+</button>
-                <span class="value-display" id="line-height-value">2.2</span>
+                <span class="value-display" id="line-height-value" style="display: none;">2.2</span>
             </div>
         </div>
 
@@ -172,6 +172,18 @@
         <div class="settings-group">
             <label>バージョン</label>
             <span id="settings-version" style="font-size: 12px; font-weight: bold; color: #000;">v1.0.0</span>
+        </div>
+    </div>
+
+    <!-- Reusable Custom Modal (OpenJLPT style) -->
+    <div id="modal-overlay" class="modal-overlay">
+        <div class="modal-card">
+            <h2 id="modal-title">通知</h2>
+            <p id="modal-message">内容</p>
+            <div class="modal-footer" id="modal-footer">
+                <button class="modal-btn" id="modal-cancel-btn">キャンセル</button>
+                <button class="modal-btn primary" id="modal-ok-btn">確定</button>
+            </div>
         </div>
     </div>
 
