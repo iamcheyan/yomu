@@ -22,8 +22,10 @@ android {
     }
 }
 
+def webAssetOutputDir = layout.projectDirectory.dir('src/main/assets')
+
 // 编译前自动同步 Web 文件到 assets
-task syncWebAssets(type: Copy) {
+tasks.register('syncWebAssets', Copy) {
     from('../../') {
         include 'index.html'
         include 'css/**'
@@ -31,18 +33,11 @@ task syncWebAssets(type: Copy) {
         include 'libs/**'
         include 'assets/**'
         include 'manifest.json'
-        
-        include 'index.html'
-        include 'css/**'
-        include 'js/**'
-        include 'libs/**'
-        include 'assets/**'
-        include 'manifest.json'
-        
+
         // 核心数据文件
         include 'data/books.json'
         include 'data/aozora_catalog.json'
-        
+
         // 打包 20 本精选名著
         include 'data/novels/rashomon.json'
         include 'data/novels/hashire_melos.json'
@@ -65,7 +60,10 @@ task syncWebAssets(type: Copy) {
         include 'data/novels/izunodori.json'
         include 'data/novels/yuki_onna.json'
     }
-    into 'src/main/assets'
+    into webAssetOutputDir
+    doFirst {
+        delete webAssetOutputDir
+    }
     // 确保每次编译都是最新的
     outputs.upToDateWhen { false }
 }
