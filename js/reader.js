@@ -213,8 +213,9 @@ const YomuReader = {
             for (const item of batch) {
                 const el = document.getElementById(`p-${item.index}`);
                 if (el) {
-                    // Silently replace the basic paragraph with the fully annotated one
+                    const icon = el.querySelector('.trans-icon');
                     el.innerHTML = YomuTokenizer.renderPureHybridFurigana(item.text);
+                    if (icon) el.appendChild(icon);
                 }
             }
         }, 100);
@@ -265,7 +266,7 @@ const YomuReader = {
         const trans = this._currentBookData.translations ? this._currentBookData.translations[index] : null;
         if (trans && trans.length > 0) {
             const count = trans.length;
-            transIcon = `<span class="trans-icon" data-para-index="${index}" title="${count}件の翻訳あり" onclick="Yomu.reader.toggleTranslation(${index})">译</span>`;
+            transIcon = `<span class="trans-icon" data-para-index="${index}" title="${count}件の翻訳あり" onclick="Yomu.reader.toggleTranslation(${index})">訳</span>`;
         }
 
         return `<p class="novel-para" id="p-${index}">${html}${transIcon}</p>`;

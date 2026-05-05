@@ -14,11 +14,41 @@
     --vocab-border: #999;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -webkit-tap-highlight-color: transparent !important;
+/* Environment Specific Tuning */
+.env-android *, 
+.env-android *:before, 
+.env-android *:after {
+    transition: none !important;
+    animation: none !important;
+}
+
+/* Disable Hover for Android/E-ink to prevent ghosting */
+.env-android .book-card:hover,
+.env-android .download-btn:hover,
+.env-android .page-btn:hover,
+.env-android .step-btn:hover {
+    background: inherit !important;
+    transform: none !important;
+}
+
+/* Enable nice transitions for Web only */
+.env-web .book-card,
+.env-web .download-btn,
+.env-web .page-btn,
+.env-web .step-btn,
+.env-web .modal-overlay,
+.env-web .settings-panel {
+    transition: all 0.2s ease-in-out;
+}
+
+.env-web .book-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 12px 12px 0px rgba(0,0,0,0.05);
+}
+
+.env-web .download-btn:hover,
+.env-web .page-btn:hover {
+    background: #333;
 }
 
 html {
@@ -187,6 +217,22 @@ body.font-gothic {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.badge-e {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    font-size: 11px;
+    color: #ff0000;
+    border: 1px solid #ff0000;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-left: 5px;
+    background: #fff;
+    flex-shrink: 0;
 }
 
 .book-author {
@@ -500,6 +546,8 @@ body.show-furigana rt {
     /* margin: 16px 0 24px 1.5em; */
     padding: 0 20px;
     border-left: 3px solid #000;
+    margin-bottom: 1em;
+    ;
     /* background: #fafafa; */
     font-family: "Hiragino Sans", "Yu Gothic", "Microsoft YaHei", sans-serif;
 }
@@ -1433,7 +1481,6 @@ body.reader-active .reader-status-bar {
 }
 
 .status-left {
-    padding-left: 20px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -1441,13 +1488,12 @@ body.reader-active .reader-status-bar {
     cursor: pointer;
 }
 
-.status-left:active {
+.status-left:active, .store-header h1:active {
     color: #000;
     text-decoration: underline;
 }
 
 .status-right {
-    padding-right: 20px;
     font-weight: bold;
     color: #000;
 }

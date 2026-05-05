@@ -28,6 +28,11 @@ const Yomu = {
         const msg = document.getElementById('loading-msg');
 
         try {
+            // Environment detection: Android (E-ink) vs Web
+            const isAndroid = /Android/i.test(navigator.userAgent);
+            document.body.classList.add(isAndroid ? 'env-android' : 'env-web');
+            console.log('Environment:', isAndroid ? 'Android (E-ink Mode)' : 'Web (Animated Mode)');
+
             // Load dictionary
             msg.textContent = '辞書を読み込み中...';
             await YomuDict.init();
@@ -163,7 +168,10 @@ const Yomu = {
             return `
                 <div class="book-card" onclick="Yomu.openBook('${book.id}')">
                     <div class="book-info">
-                        <div class="book-title">${this._escapeHtml(book.title)}</div>
+                        <div class="book-title">
+                            ${this._escapeHtml(book.title)}
+                            ${book.hasTrans ? '<span class="badge-e">訳</span>' : ''}
+                        </div>
                         <div class="book-author">${this._escapeHtml(book.author)}</div>
                         <div class="book-desc">${this._escapeHtml(book.desc || '')}</div>
                     </div>
@@ -350,7 +358,10 @@ const Yomu = {
             html += `
                 <div class="book-card ${isDownloaded ? 'downloaded' : ''}" id="store-book-${id}">
                     <div class="book-info">
-                        <div class="book-title">${this._escapeHtml(book.title)}</div>
+                        <div class="book-title">
+                            ${this._escapeHtml(book.title)}
+                            ${book.hasTrans ? '<span class="badge-e">訳</span>' : ''}
+                        </div>
                         <div class="book-author">${this._escapeHtml(authorText)}</div>
                         <div class="book-extra">
                             <span>著者ID: ${this._escapeHtml(book.authorId)}</span>
@@ -360,7 +371,7 @@ const Yomu = {
                     <div class="book-meta">
                         <button class="download-btn ${isDownloaded ? 'downloaded' : ''}" 
                                 id="btn-dl-${id}"
-                                onclick="Yomu.downloadBook('${id}')">
+                                onclick="${isDownloaded ? `Yomu.openBook('${id}')` : `Yomu.downloadBook('${id}')`}">
                             ${isDownloaded ? '読む' : 'ダウンロード'}
                         </button>
                     </div>
