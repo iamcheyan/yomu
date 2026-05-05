@@ -91,16 +91,44 @@ const YomuReader = {
             if (!data) throw new Error('Book not found');
 
             this._currentBookData = data;
-            this._renderBook(data);
         } catch (e) {
             console.error('Failed to load book:', e);
             Yomu.alert('書籍の読み込みに失敗しました。', 'エラー');
             return;
         }
 
+        // 已经通过渐进式渲染处理了，不需要再次渲染全量内容
+        // this._renderBook(data);
+
+
         // Update UI
         document.getElementById('reader-title').textContent = book.title;
         document.getElementById('reader-author').textContent = book.author;
+
+        // 平铺所有段落（处理章节结构）
+        this._paragraphs = [];
+        const data = this._currentBookData;
+        if (data.chapters) {
+            for (const chapter of data.chapters) {
+                if (chapter.title) {
+                    this._paragraphs.push({ type: 'header', content: chapter.title });
+                }
+                for (const para of chapter.paragraphs) {
+                    if (para && para.trim()) {
+                        this._paragraphs.push({ type: 'text', content: para });
+                    }
+                }
+            }
+        } else if (data.paragraphs) {
+            for (const para of data.paragraphs) {
+                if (para && para.trim()) {
+                    this._paragraphs.push({ type: 'text', content: para });
+                }
+            }
+        }
+
+        this._renderedCount = 0;
+        document.getElementById('novel-content').innerHTML = '';
 
         // Show reader view
         document.getElementById('book-list-view').classList.add('hidden');
@@ -254,9 +282,28 @@ const YomuReader = {
     },
 
     reRender() {
-        if (this._currentBookData) {
-            this._renderBook(this._currentBookData);
-            // Scroll to current position to avoid jumping
+        if (this._currentBook) {
+            // 记录当前所在的段落索引
+            const topEl = document.elementFromPoint(window.innerWidth / 2, 100);
+            let currentParaIndex = 0;
+            if (topEl) {
+                const pEl = topEl.closest('[id^="p-"]');
+                if (pEl) currentParaIndex = parseInt(pEl.id.split('-')[1]);
+            }
+
+            // 清空并重新开始渲染
+            this._renderedCount = 0;
+            document.getElementById('novel-content').innerHTML = '';
+            
+            // 加载到刚才的位置
+            while (this._renderedCount <= currentParaIndex && this._renderedCount < this._paragraphs.length) {
+                this._renderNextChunk();
+            }
+
+            // 滚动回刚才的段落
+            const el = document.getElementById(`p-${currentParaIndex}`);
+            if (el) el.scrollIntoView();
+
             this._refreshVocabMarks();
         }
     },

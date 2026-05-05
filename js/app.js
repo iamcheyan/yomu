@@ -325,10 +325,19 @@ const Yomu = {
         const downloaded = YomuStorage.getDownloadedBooks();
         const query = filter.toLowerCase();
 
-        const filtered = this._storeBooks.filter(b => 
+        let filtered = this._storeBooks.filter(b => 
             b.title.toLowerCase().includes(query) || 
             b.author.toLowerCase().includes(query)
         );
+
+        // 去重：避免相同标题和作者的作品重复出现
+        const seen = new Set();
+        filtered = filtered.filter(b => {
+            const key = `${b.title}|${b.author}|${b.authorId}`;
+            if (seen.has(key)) return false;
+            seen.add(key);
+            return true;
+        });
 
         // Slice for pagination
         const start = this._storePage * this._pageSize;
