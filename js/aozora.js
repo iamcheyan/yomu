@@ -23,7 +23,7 @@ const YomuAozora = {
         
         const bookData = await response.json();
         // 保存到本地存储
-        await YomuStorage.saveBook(bookId, bookData);
+        await YomuStorage.saveBookContent(bookId, bookData);
         return bookData;
     },
 

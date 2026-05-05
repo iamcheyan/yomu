@@ -683,40 +683,13 @@ body.font-gothic .trans-grammar-text {
 
 /* ===== 底部工具栏 ===== */
 .bottom-bar {
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    width: calc(100% - 40px);
-    /* Match book-grid width on mobile */
-    max-width: 800px;
-    bottom: 0;
-    /* Float slightly above bottom */
-    background: #fff;
-    border-top: 2px solid var(--primary-color);
-    padding: 10px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-    z-index: 1000;
-    /* box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.1); */
+    display: none !important;
 }
 
-.bottom-bar .bar-left {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-
-/* Reader specific elements */
-.bottom-bar .bar-center,
-.bottom-bar .reader-only {
-    display: none;
-}
-
+/* Reader specific elements - now hidden */
 body.reader-active .bottom-bar .bar-center,
 body.reader-active .bottom-bar .reader-only {
-    display: block;
+    display: none !important;
 }
 
 body.reader-active .bottom-bar .bar-center {
@@ -781,8 +754,6 @@ body.reader-active .bottom-bar .bar-right .reader-only {
     font-size: 16px !important;
     opacity: 0;
     visibility: hidden;
-    transition: none;
-    /* Instant for e-ink */
     /* box-shadow: 15px 15px 0px rgba(0, 0, 0, 0.05); */
 }
 
@@ -860,7 +831,6 @@ body.reader-active .bottom-bar .bar-right .reader-only {
     height: 100%;
     background: #000;
     width: 0%;
-    transition: width 0.3s ease;
 }
 
 .download-status-text {
@@ -905,6 +875,21 @@ body.reader-active .bottom-bar .bar-right .reader-only {
     margin-bottom: 0;
     border-bottom: none;
     padding-bottom: 0;
+}
+
+.settings-header .menu-btn {
+    background: none;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.settings-header .menu-btn:hover {
+    color: #000;
 }
 
 .settings-header .close-btn {
@@ -1069,7 +1054,6 @@ body.reader-active .bottom-bar .bar-right .reader-only {
     left: 3px;
     bottom: 3.5px;
     background-color: #000;
-    transition: none;
 }
 
 input:checked+.slider-round {
@@ -1142,7 +1126,6 @@ input:checked+.slider-round:before {
     border: 2.5px solid #000;
     margin-bottom: 12px;
     padding: 0;
-    transition: background 0.2s;
     overflow: hidden;
 }
 
@@ -1207,7 +1190,7 @@ input:checked+.slider-round:before {
     max-height: 0;
     padding: 0 16px;
     border-top: 0 solid #000;
-    transition: max-height 0.3s ease, padding 0.3s ease;
+    overflow: hidden;
     background: #f9f9f9;
 }
 
@@ -1411,4 +1394,25 @@ input:checked+.slider-round:before {
     background: #ccc;
     cursor: not-allowed;
     box-shadow: none;
+}
+/* Zen Progress Bar */
+.zen-progress-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #e0e0e0;
+    z-index: 2000;
+    display: none;
+}
+
+body.reader-active .zen-progress-bar {
+    display: block;
+}
+
+.zen-progress-fill {
+    height: 100%;
+    width: 0%;
+    background: #000;
 }

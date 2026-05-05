@@ -107,105 +107,66 @@ const YomuReader = {
         document.getElementById('vocab-view').classList.add('hidden');
         document.getElementById('reader-view').classList.add('active');
         document.getElementById('bottom-bar').style.display = 'flex';
-
-        // Mark vocab words
-        this._refreshVocabMarks();
-
-        // Restore scroll position (Prioritize precise scrollTop, fallback to percentage)
+        
+        // 首次加载渲染
+        this._renderNextChunk();
+        
+        // 恢复进度
         const progress = YomuStorage.getProgress(bookId);
-        if (progress) {
-            setTimeout(() => {
-                if (progress.scrollTop) {
-                    window.scrollTo(0, progress.scrollTop);
-                } else if (progress.scrollPercent > 0) {
-                    const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
-                    window.scrollTo(0, maxScroll * progress.scrollPercent / 100);
-                }
-            }, 100);
+        if (progress && progress.paraIndex) {
+            // 如果有保存的段落索引，我们需要预加载到那个位置
+            while (this._renderedCount <= progress.paraIndex && this._renderedCount < this._paragraphs.length) {
+                this._renderNextChunk();
+            }
+            // 滚动到该段落 (简单起见先滚到那个索引对应的元素)
+            const el = document.getElementById(`p-${progress.paraIndex}`);
+            if (el) {
+                el.scrollIntoView();
+            }
+            
+            // 立即更新进度条 UI
+            const percent = this._paragraphs.length > 0 ? Math.round((progress.paraIndex / this._paragraphs.length) * 100) : 0;
+            this._updateProgressUI(percent);
+        } else {
+            window.scrollTo(0, 0);
+            this._updateProgressUI(0);
         }
 
-        this._startProgressTracking();
+        // 初始化无限滚动监听
+        this._initInfiniteScroll();
     },
 
-    _renderBook(data) {
+    _renderNextChunk() {
         const container = document.getElementById('novel-content');
-        let html = '';
-
+        const start = this._renderedCount;
+        const end = Math.min(start + this._chunkSize, this._paragraphs.length);
+        
         const settings = YomuStorage.getSettings();
         const forceAuto = settings.furiganaMode === 'nlp';
-
-        this._translations = data.translations || [];
-
-        if (data.chapters) {
-            let paraIndex = 0;
-            for (const chapter of data.chapters) {
-                if (chapter.title) {
-                    html += `<h2 class="chapter-title">${this._escapeHtml(chapter.title)}</h2>`;
-                }
-                for (const para of chapter.paragraphs) {
-                    if (para && para.trim()) {
-                        html += this._renderParaWithTranslation(para, paraIndex, forceAuto);
-                    }
-                    paraIndex++;
-                }
-            }
-        } else if (data.paragraphs) {
-            for (let i = 0; i < data.paragraphs.length; i++) {
-                const para = data.paragraphs[i];
-                if (para && para.trim()) {
-                    html += this._renderParaWithTranslation(para, i, forceAuto);
-                }
+        
+        let html = '';
+        for (let i = start; i < end; i++) {
+            const para = this._paragraphs[i];
+            if (para.type === 'header') {
+                html += `<h2 class="chapter-title" id="p-${i}">${this._escapeHtml(para.content)}</h2>`;
+            } else {
+                html += this._renderParaWithTranslation(para.content, i, forceAuto);
             }
         }
-
-        container.innerHTML = html;
-
-        // Initialize lazy loading for NLP mode
-        if (forceAuto) {
-            this._initLazyLoading();
-        } else {
-            // Attach click handlers to word tokens (already rendered in standard mode)
-            this._attachWordClickHandlers(container);
+        
+        const temp = document.createElement('div');
+        temp.innerHTML = html;
+        while (temp.firstChild) {
+            container.appendChild(temp.firstChild);
         }
-    },
-
-    _initLazyLoading() {
-        const options = {
-            rootMargin: '400px 0px', // 提前 400 像素开始加载
-            threshold: 0
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const el = entry.target;
-                    const text = el.dataset.text;
-                    const index = parseInt(el.dataset.index);
-                    
-                    // Render actual content with NLP
-                    const html = YomuTokenizer.renderParagraph(text, true);
-                    
-                    // Extract icons and translations if any (we kept them in the placeholder)
-                    const icon = el.querySelector('.trans-icon');
-                    const iconHtml = icon ? icon.outerHTML : '';
-                    
-                    // Update innerHTML
-                    // renderParagraph returns <p>...</p>, we just want the inner part
-                    const innerHtml = html.replace(/^<p[^>]*>/, '').replace(/<\/p>$/, '');
-                    el.innerHTML = innerHtml + iconHtml;
-                    el.classList.remove('lazy-para');
-                    el.classList.add('rendered-para');
-                    
-                    // Attach click handlers to new tokens
-                    this._attachWordClickHandlers(el);
-                    
-                    // Stop observing once rendered
-                    observer.unobserve(el);
-                }
-            });
-        }, options);
-
-        document.querySelectorAll('.lazy-para').forEach(el => observer.observe(el));
+        
+        this._renderedCount = end;
+        
+        // Attach click handlers to word tokens
+        this._attachWordClickHandlers(container);
+        
+        // 如果还有内容，添加或移动哨兵节点
+        this._updateSentinel();
     },
 
     _attachWordClickHandlers(container) {
@@ -352,24 +313,45 @@ const YomuReader = {
         document.getElementById('popup-card').classList.remove('hidden');
     },
 
+    _initEvents() {
+        this._initGestures();
+        this._startProgressTracking();
+    },
+
     _startProgressTracking() {
         if (this._scrollListener) {
             window.removeEventListener('scroll', this._scrollListener);
         }
 
         this._scrollListener = () => {
+            // 找到视口顶部的元素 (偏移 100px 避开边缘)
+            const topEl = document.elementFromPoint(window.innerWidth / 2, 100);
+            let paraIndex = 0;
+            
+            if (topEl) {
+                // 找到最近的带有 p- 索引 ID 的段落或标题
+                const pEl = topEl.closest('[id^="p-"]');
+                if (pEl) {
+                    paraIndex = parseInt(pEl.id.split('-')[1]);
+                }
+            }
+
+            const total = this._paragraphs.length;
+            const percent = total > 0 ? Math.round((paraIndex / total) * 100) : 0;
+            
+            // 实时更新进度条 UI
+            const zenFill = document.getElementById('zen-progress-fill');
+            if (zenFill) zenFill.style.width = `${percent}%`;
+
+            // 防抖保存到存储 (500ms)
             if (this._scrollTimeout) clearTimeout(this._scrollTimeout);
             this._scrollTimeout = setTimeout(() => {
-                const scrollTop = window.scrollY;
-                const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
-                const percent = maxScroll > 0 ? Math.round(scrollTop / maxScroll * 100) : 0;
-                
                 if (this._currentBook) {
-                    YomuStorage.saveProgress(this._currentBook.id, percent, scrollTop);
+                    // 同时保存百分比、高度和段落索引
+                    YomuStorage.saveProgress(this._currentBook.id, percent, window.scrollY, paraIndex);
                 }
             }, 500);
         };
-
         window.addEventListener('scroll', this._scrollListener);
     },
 

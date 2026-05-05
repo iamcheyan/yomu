@@ -129,8 +129,16 @@
     <div id="settings-overlay" class="settings-overlay"></div>
     <div id="settings-panel" class="settings-panel">
         <div class="settings-header">
-            <h2>設定</h2>
-            <button class="close-btn" onclick="Yomu.toggleSettings()">×</button>
+            <h2>メニュー</h2>
+            <div style="display: flex; gap: 10px;">
+                <button class="menu-btn" onclick="Yomu.showBookList()" title="ホーム">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                </button>
+                <button class="menu-btn" onclick="Yomu.showVocab()" title="単語帳">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                </button>
+                <button class="close-btn" onclick="Yomu.toggleSettings()">×</button>
+            </div>
         </div>
 
         <div class="settings-group">
@@ -172,13 +180,7 @@
             </select>
         </div>
 
-        <div class="settings-group">
-            <label>アニメーション無効</label>
-            <label class="switch">
-                <input type="checkbox" id="no-animation-toggle" onchange="Yomu.updateAnimationSetting()">
-                <span class="slider-round"></span>
-            </label>
-        </div>
+
 
         <div class="settings-group">
             <label>データ同期</label>
@@ -203,6 +205,11 @@
                 <button class="modal-btn primary" id="modal-ok-btn">確定</button>
             </div>
         </div>
+    </div>
+
+    <!-- Zen Progress Bar (Minimalist line at the very bottom) -->
+    <div id="zen-progress-bar" class="zen-progress-bar">
+        <div id="zen-progress-fill" class="zen-progress-fill"></div>
     </div>
 
     <!-- JS Modules -->

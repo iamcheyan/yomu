@@ -19,6 +19,9 @@ const Yomu = {
                 this._scrollReader(e.detail.direction === 'down' ? 1 : -1);
             }
         });
+        document.addEventListener('dblclick', () => {
+            this.toggleSettings();
+        });
         document.addEventListener('click', (e) => this._handleGlobalClick(e));
 
         const loading = document.getElementById('loading-overlay');
@@ -799,14 +802,6 @@ const Yomu = {
         
         document.body.classList.toggle('show-furigana', furiMode !== 'none');
         
-        const animStyle = document.getElementById('animation-style');
-        // Animation
-        const noAnimToggle = document.getElementById('no-animation-toggle');
-        const noAnim = settings.noAnimation === true;
-        if (noAnimToggle) noAnimToggle.checked = noAnim;
-        
-        if (animStyle) animStyle.disabled = noAnim;
-
         // Sync bottom bar button
         const btn = document.getElementById('btn-furigana');
         if (btn) btn.classList.toggle('active', furiMode !== 'none');
@@ -818,16 +813,6 @@ const Yomu = {
         if (this._isReaderOpen && this.reader.getCurrentBook()) {
             this.reader.reRender();
         }
-    },
-
-    updateAnimationSetting() {
-        const checkbox = document.getElementById('no-animation-toggle');
-        const noAnim = checkbox ? checkbox.checked : false;
-        
-        const animStyle = document.getElementById('animation-style');
-        if (animStyle) animStyle.disabled = noAnim;
-        
-        YomuStorage.saveSetting('noAnimation', noAnim);
     },
 
     _handlePopState(e) {

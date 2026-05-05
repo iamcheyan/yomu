@@ -31,10 +31,15 @@ const YomuStorage = {
         return all[bookId] || { scrollPercent: 0, lastRead: null };
     },
 
-    saveProgress(bookId, scrollPercent, scrollTop) {
-        const all = this.get('progress', {});
-        all[bookId] = { scrollPercent, scrollTop, lastRead: Date.now() };
-        this.set('progress', all);
+    saveProgress(bookId, scrollPercent, scrollTop, paraIndex) {
+        const progress = JSON.parse(localStorage.getItem('yomu_progress') || '{}');
+        progress[bookId] = { 
+            scrollPercent, 
+            scrollTop, 
+            paraIndex,
+            lastRead: Date.now() 
+        };
+        localStorage.setItem('yomu_progress', JSON.stringify(progress));
     },
 
     // App state: { lastView, lastBookId }
