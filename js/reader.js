@@ -68,14 +68,15 @@ const YomuReader = {
         if (!book) return;
 
         this._currentBook = book;
+        const targetFileId = book.fileId || bookId;
 
         // Load book data
-        let bookData = await YomuStorage.getBookContent(bookId);
+        let bookData = await YomuStorage.getBookContent(targetFileId);
         if (!bookData) {
             try {
                 bookData = await new Promise((resolve, reject) => {
                     const xhr = new XMLHttpRequest();
-                    xhr.open('GET', `data/novels/${bookId}.json`, true);
+                    xhr.open('GET', `data/novels/${targetFileId}.json`, true);
                     xhr.onload = () => {
                         if (xhr.status === 0 || (xhr.status >= 200 && xhr.status < 300)) {
                             try { resolve(JSON.parse(xhr.responseText)); } catch (e) { reject(e); }

@@ -5741,16 +5741,76 @@
         "model_name": "智谱AI"
       }
     ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
+    [
+      {
+        "text": "有人从上面叫三四郎：“过来一下”。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“什么事？”提着水桶的三四郎，从梯子段的下面说道。女人站在黑暗的地方。只有围裙是雪白的。三四郎提着水桶又往上爬了几段。女人一动不动地站着。三四郎又往上爬了两段。在昏暗的地方，美禰子的脸和三四郎的脸相距约一尺。",
+        "model": "gemini",
+        "model_name": "Google Gemini"
+      }
+    ],
+    [
+      {
+        "text": "“怎么了？”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "总觉得有点暗，看不清。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“为什么”",
+        "model": "gemini",
+        "model_name": "Google Gemini"
+      }
+    ],
+    [
+      {
+        "text": "“为何《なぜ》呢？”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "三四郎没了追问到底的心思。擦过美禰子身边到上面去了。把馬尻留在昏暗的檐廊后拉开门。的确搞不清楚桟的状况。不一会儿美禰子也上来了。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“还没有开呢。”",
+        "model": "gemini",
+        "model_name": "Google Gemini"
+      }
+    ],
+    [
+      {
+        "text": "美禰子去了相反的那一边。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "是这边",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
     [],
     [],
     [],
