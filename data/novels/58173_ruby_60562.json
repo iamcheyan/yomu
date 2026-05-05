@@ -202,5 +202,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058173",
+    "title": "グローバルタワーにて",
+    "titleKana": "グローバルタワーにて",
+    "sortKana": "くろおはるたわあにて",
+    "firstAppearance": "「大分合同新聞」2016（平成28）年4月30日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2017-01-02",
+    "updatedAt": "2017-01-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001917/card58173.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001917/files/58173_ruby_60562.zip",
+    "textFileId": "58173_ruby_60562",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001917/files/58173_60563.html",
+    "inputBy": "福永信",
+    "proofreadBy": "大久保ゆう",
+    "baseBook1": {
+      "title": "大分合同新聞（朝刊）",
+      "publisher": "大分合同新聞社",
+      "firstPublishedAt": "2016（平成28）年4月30日",
+      "inputEdition": "2016（平成28）年4月30日",
+      "proofreadEdition": "2016（平成28）年4月30日"
+    },
+    "author": "福永信",
+    "authors": [
+      {
+        "personId": "001917",
+        "name": "福永信",
+        "kana": "ふくながしん",
+        "roman": "Shin Fukunaga",
+        "role": "著者",
+        "birthDate": "1972-06-22",
+        "copyright": "あり"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

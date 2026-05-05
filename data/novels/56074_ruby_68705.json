@@ -10608,5 +10608,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056074",
+    "title": "梅里先生行状記",
+    "titleKana": "ばいりせんせいぎょうじょうき",
+    "sortKana": "はいりせんせいきようしようき",
+    "firstAppearance": "「朝日新聞」1941（昭和16）年2月18日～8月24日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-08-11",
+    "updatedAt": "2019-07-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001562/card56074.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001562/files/56074_ruby_68705.zip",
+    "textFileId": "56074_ruby_68705",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001562/files/56074_68754.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "トレンドイースト",
+    "baseBook1": {
+      "title": "梅里先生行状記",
+      "publisher": "吉川英治歴史時代文庫、講談社",
+      "firstPublishedAt": "1990（平成2）年10月11日",
+      "inputEdition": "1990（平成2）年10月11日第1刷",
+      "proofreadEdition": "2017（平成29）年6月9日第9刷"
+    },
+    "author": "吉川英治",
+    "authors": [
+      {
+        "personId": "001562",
+        "name": "吉川英治",
+        "kana": "よしかわえいじ",
+        "roman": "Eiji Yoshikawa",
+        "role": "著者",
+        "birthDate": "1892-08-11",
+        "deathDate": "1962-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

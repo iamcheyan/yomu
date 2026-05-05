@@ -26,5 +26,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001043",
+    "title": "雨の夜",
+    "titleKana": "あめのよ",
+    "sortKana": "あめのよ",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-08-19",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000064/card1043.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000064/files/1043_ruby_18856.zip",
+    "textFileId": "1043_ruby_18856",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000064/files/1043_18857.html",
+    "inputBy": "加藤恭子",
+    "proofreadBy": "浦田伴俊",
+    "baseBook1": {
+      "title": "日本の名随筆43　雨",
+      "publisher": "作品社",
+      "firstPublishedAt": "1986（昭和61）年5月25日",
+      "inputEdition": "1991（平成3）年10月20日第10刷"
+    },
+    "author": "樋口一葉",
+    "authors": [
+      {
+        "personId": "000064",
+        "name": "樋口一葉",
+        "kana": "ひぐちいちよう",
+        "roman": "Ichiyo Higuchi",
+        "role": "著者",
+        "birthDate": "1872-05-02",
+        "deathDate": "1896-11-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

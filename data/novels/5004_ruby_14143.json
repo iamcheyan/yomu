@@ -60,5 +60,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "005004",
+    "title": "双葉山",
+    "titleKana": "ふたばやま",
+    "sortKana": "ふたはやま",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-01-25",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001059/card5004.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001059/files/5004_ruby_14143.zip",
+    "textFileId": "5004_ruby_14143",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001059/files/5004_14198.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "氷魚、多羅尾伴内",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻2　相撲",
+      "publisher": "作品社",
+      "firstPublishedAt": "1991（平成3）年4月25日",
+      "inputEdition": "1997（平成9）年5月20日第5刷",
+      "proofreadEdition": "1997（平成9）年5月20日第5刷"
+    },
+    "author": "斎藤茂吉",
+    "authors": [
+      {
+        "personId": "001059",
+        "name": "斎藤茂吉",
+        "kana": "さいとうもきち",
+        "roman": "Mokichi Saito",
+        "role": "著者",
+        "birthDate": "1882-5-14",
+        "deathDate": "1953-2-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

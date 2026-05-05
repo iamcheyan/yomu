@@ -2372,5 +2372,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047550",
+    "title": "橘曙覧評伝",
+    "titleKana": "たちばなのあけみひょうでん",
+    "sortKana": "たちはなのあけみひようてん",
+    "firstAppearance": "「橘曙覽評傳」日本精神叢書、教學局、1941（昭和16）年3月28日",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-09-01",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card47550.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/47550_ruby_51133.zip",
+    "textFileId": "47550_ruby_51133",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/47550_51134.html",
+    "inputBy": "kompass",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "折口信夫全集　14",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1996（平成8）年5月25日",
+      "inputEdition": "1996（平成8）年5月25日初版",
+      "proofreadEdition": "1996（平成8）年5月25日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

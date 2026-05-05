@@ -78,5 +78,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054065",
+    "title": "鋼鉄",
+    "titleKana": "こうてつ",
+    "sortKana": "こうてつ",
+    "firstAppearance": "「文芸戦線」1929（昭和4）年11月号",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-06-24",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001627/card54065.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001627/files/54065_ruby_53559.zip",
+    "textFileId": "54065_ruby_53559",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001627/files/54065_53602.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・39　プロレタリア詩集（二）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年6月30日",
+      "inputEdition": "1987（昭和62）年6月30日初版",
+      "proofreadEdition": "1987（昭和62）年6月30日初版"
+    },
+    "author": "今村恒夫",
+    "authors": [
+      {
+        "personId": "001627",
+        "name": "今村恒夫",
+        "kana": "いまむらつねお",
+        "roman": "Tsuneo Imamura",
+        "role": "著者",
+        "birthDate": "1908-01-15",
+        "deathDate": "1936-12-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

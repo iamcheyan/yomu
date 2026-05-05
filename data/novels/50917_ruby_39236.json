@@ -190,5 +190,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050917",
+    "title": "世界漫遊",
+    "titleKana": "せかいまんゆう",
+    "sortKana": "せかいまんゆう",
+    "ndc": "NDC 943",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-09-20",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001195/card50917.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001195/files/50917_ruby_39236.zip",
+    "textFileId": "50917_ruby_39236",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001195/files/50917_40226.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "米田",
+    "baseBook1": {
+      "title": "於母影　冬の王　森鴎外全集12",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1996（平成8）年3月21日",
+      "inputEdition": "1996（平成8）年3月21日第1刷",
+      "proofreadEdition": "1996（平成8）年3月21日第1刷"
+    },
+    "author": "ダビットヤーコプ・ユリウス",
+    "authors": [
+      {
+        "personId": "001195",
+        "name": "ダビットヤーコプ・ユリウス",
+        "kana": "ダビットヤーコプ・ユリウス",
+        "roman": "Jakob Julius David",
+        "role": "著者",
+        "birthDate": "1859",
+        "deathDate": "1906",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

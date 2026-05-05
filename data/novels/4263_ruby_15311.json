@@ -284,5 +284,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004263",
+    "title": "脱殻",
+    "titleKana": "ぬけがら",
+    "sortKana": "ぬけから",
+    "firstAppearance": "「新潮　十九巻六号」1913（大正2）年12月発行",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-05-01",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000112/card4263.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000112/files/4263_ruby_15311.zip",
+    "textFileId": "4263_ruby_15311",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000112/files/4263_15538.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "水野仙子　四篇",
+      "publisher": "エディトリアルデザイン研究所",
+      "firstPublishedAt": "2000（平成12）年11月30日",
+      "inputEdition": "2000（平成12）年11月30日",
+      "proofreadEdition": "2000（平成12）年11月30日"
+    },
+    "author": "水野仙子",
+    "authors": [
+      {
+        "personId": "000112",
+        "name": "水野仙子",
+        "kana": "みずのせんこ",
+        "roman": "Senko Mizuno",
+        "role": "著者",
+        "birthDate": "1888-12-03",
+        "deathDate": "1919-05-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

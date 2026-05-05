@@ -218,5 +218,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047417",
+    "title": "越後獅子",
+    "titleKana": "えちごじし",
+    "sortKana": "えちこしし",
+    "firstAppearance": "「新青年」博文館、1926（大正15）年12月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-03-21",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001305/card47417.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001305/files/47417_ruby_33644.zip",
+    "textFileId": "47417_ruby_33644",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001305/files/47417_34393.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "「新青年」傑作選　幻の探偵雑誌10",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2002（平成14）年 2月20日",
+      "inputEdition": "2002（平成14）年 2月20日初版1刷",
+      "proofreadEdition": "2002（平成14）年 2月20日初版1刷"
+    },
+    "author": "羽志主水",
+    "authors": [
+      {
+        "personId": "001305",
+        "name": "羽志主水",
+        "kana": "はしもんど",
+        "roman": "mondo hashi",
+        "role": "著者",
+        "birthDate": "1884-06-03",
+        "deathDate": "1957-02-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

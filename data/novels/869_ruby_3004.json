@@ -488,5 +488,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000869",
+    "title": "俘囚",
+    "titleKana": "ふしゅう",
+    "sortKana": "ふしゆう",
+    "firstAppearance": "「新青年」1934（昭和9）年2月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-01-10",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card869.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/869_ruby_3004.zip",
+    "textFileId": "869_ruby_3004",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/869_42456.html",
+    "inputBy": "田浦亜矢子",
+    "proofreadBy": "もりみつじゅんじ",
+    "baseBook1": {
+      "title": "海野十三全集　第2巻　俘囚",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1991（平成3）年2月28日",
+      "inputEdition": "1991（平成3）年2月28日第1版第1刷"
+    },
+    "author": "海野十三",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

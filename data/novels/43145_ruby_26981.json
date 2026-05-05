@@ -316,5 +316,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043145",
+    "title": "ヨーロッパ的性格　ニッポン的性格",
+    "titleKana": "ヨーロッパてきせいかく　ニッポンてきせいかく",
+    "sortKana": "よおろつはてきせいかくにつほんてきせいかく",
+    "firstAppearance": "「歴史小説　創刊号、第一巻第二号」1948（昭和23）年10月1日、11月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-07-26",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card43145.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/43145_ruby_26981.zip",
+    "textFileId": "43145_ruby_26981",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/43145_27501.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "oterudon",
+    "baseBook1": {
+      "title": "坂口安吾全集　07",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1998（平成10）年8月20日",
+      "inputEdition": "1998（平成10）年8月20日初版第1刷",
+      "proofreadEdition": "1998（平成10）年8月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -92,5 +92,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003830",
+    "title": "硯友社の沿革",
+    "titleKana": "けんゆうしゃのえんかく",
+    "sortKana": "けんゆうしやのえんかく",
+    "firstAppearance": "「新小説　第6年第1巻」1901（明治34）年1月1日",
+    "ndc": "NDC 916",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-12-22",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000091/card3830.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000091/files/3830_ruby_16989.zip",
+    "textFileId": "3830_ruby_16989",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000091/files/3830_17027.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "明治の文学　第6巻　尾崎紅葉",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2001（平成13）年2月20日",
+      "inputEdition": "2001（平成13）年2月20日初版第1刷",
+      "proofreadEdition": "2001（平成13）年2月20日初版第1刷"
+    },
+    "author": "尾崎紅葉",
+    "authors": [
+      {
+        "personId": "000091",
+        "name": "尾崎紅葉",
+        "kana": "おざきこうよう",
+        "roman": "Koyo Ozaki",
+        "role": "著者",
+        "birthDate": "1868-01-10",
+        "deathDate": "1903-10-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

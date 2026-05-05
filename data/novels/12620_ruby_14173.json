@@ -112,5 +112,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "012620",
+    "title": "水中の友",
+    "titleKana": "すいちゅうのとも",
+    "sortKana": "すいちゆうのとも",
+    "firstAppearance": "「『人間失格・櫻桃』解説」角川文庫、角川書店、1950（昭和25）年11月。「文藝　第十卷第十二號」1953（昭和28）年12月",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-06-19",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card12620.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/12620_ruby_14173.zip",
+    "textFileId": "12620_ruby_14173",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/12620_14228.html",
+    "inputBy": "高柳典子",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "折口信夫全集　第廿七巻",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1968（昭和43）年1月25日",
+      "inputEdition": "1968（昭和43）年1月25日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

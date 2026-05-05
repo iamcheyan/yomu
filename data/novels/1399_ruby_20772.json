@@ -56,5 +56,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001399",
+    "title": "玄海灘密航",
+    "titleKana": "げんかいなだみっこう",
+    "sortKana": "けんかいなたみつこう",
+    "firstAppearance": "「文芸首都」1940（昭和15）年8月号",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-01-01",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000252/card1399.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000252/files/1399_ruby_20772.zip",
+    "textFileId": "1399_ruby_20772",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000252/files/1399_20773.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "大野裕",
+    "baseBook1": {
+      "title": "光の中に　金史良作品集",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1999（平成11）年4月10日"
+    },
+    "author": "金史良",
+    "authors": [
+      {
+        "personId": "000252",
+        "name": "金史良",
+        "kana": "きむさりゃん",
+        "roman": "Sa-ryang Kim",
+        "role": "著者",
+        "birthDate": "1914-03-03",
+        "deathDate": "1950",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

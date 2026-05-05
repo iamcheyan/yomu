@@ -158,5 +158,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058187",
+    "title": "落穂拾い",
+    "titleKana": "おちぼひろい",
+    "sortKana": "おちほひろい",
+    "firstAppearance": "「新潮　第四十九巻第四号」新潮社、1952（昭和27）年4月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-10-04",
+    "updatedAt": "2017-09-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001867/card58187.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001867/files/58187_ruby_62753.zip",
+    "textFileId": "58187_ruby_62753",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001867/files/58187_62840.html",
+    "inputBy": "kompass",
+    "proofreadBy": "時雨",
+    "baseBook1": {
+      "title": "落穂拾い・犬の生活",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2013（平成25）年 3月10日",
+      "inputEdition": "2013（平成25）年 3月10日第1刷",
+      "proofreadEdition": "2013（平成25）年 3月10日第1刷"
+    },
+    "author": "小山清",
+    "authors": [
+      {
+        "personId": "001867",
+        "name": "小山清",
+        "kana": "こやまきよし",
+        "roman": "Kiyoshi Koyama",
+        "role": "著者",
+        "birthDate": "1911-10-04",
+        "deathDate": "1965-03-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

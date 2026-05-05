@@ -384,5 +384,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004840",
+    "title": "桜さく島",
+    "titleKana": "さくらさくしま",
+    "sortKana": "さくらさくしま",
+    "subtitle": "見知らぬ世界",
+    "subtitleKana": "みしらぬせかい",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-09-14",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000212/card4840.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000212/files/4840_ruby_19249.zip",
+    "textFileId": "4840_ruby_19249",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000212/files/4840_19270.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "田中敬三",
+    "baseBook1": {
+      "title": "桜さく島　見知らぬ世界",
+      "publisher": "洛陽堂",
+      "firstPublishedAt": "1912（明治45）年4月24日",
+      "inputEdition": "1912（明治45）年4月24日",
+      "proofreadEdition": "1912（明治45）年4月24日"
+    },
+    "author": "竹久夢二",
+    "authors": [
+      {
+        "personId": "000212",
+        "name": "竹久夢二",
+        "kana": "たけひさゆめじ",
+        "roman": "Yumeji Takehisa",
+        "role": "著者",
+        "birthDate": "1884-09-16",
+        "deathDate": "1934-09-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

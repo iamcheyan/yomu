@@ -284,5 +284,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050243",
+    "title": "耕二のこと",
+    "titleKana": "こうじのこと",
+    "sortKana": "こうしのこと",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-11-09",
+    "updatedAt": "2018-10-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000026/card50243.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000026/files/50243_ruby_66269.zip",
+    "textFileId": "50243_ruby_66269",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000026/files/50243_66316.html",
+    "inputBy": "村松洋一",
+    "proofreadBy": "shiro",
+    "baseBook1": {
+      "title": "新編中原中也全集　第四巻　評論・小説",
+      "publisher": "角川書店",
+      "firstPublishedAt": "2003（平成15）年11月25日",
+      "inputEdition": "2003（平成15）年11月25日初版",
+      "proofreadEdition": "2003（平成15）年11月25日初版"
+    },
+    "author": "中原中也",
+    "authors": [
+      {
+        "personId": "000026",
+        "name": "中原中也",
+        "kana": "なかはらちゅうや",
+        "roman": "Chuya Nakahara",
+        "role": "著者",
+        "birthDate": "1907-04-29",
+        "deathDate": "1937-10-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

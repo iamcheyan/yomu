@@ -54,5 +54,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056863",
+    "title": "浜尾新先生",
+    "titleKana": "はまおあらたせんせい",
+    "sortKana": "はまおあらたせんせい",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-02-22",
+    "updatedAt": "2015-01-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001796/card56863.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001796/files/56863_ruby_55602.zip",
+    "textFileId": "56863_ruby_55602",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001796/files/56863_55649.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆71　恩",
+      "publisher": "作品社",
+      "firstPublishedAt": "1988（昭和63）年9月25日",
+      "inputEdition": "1988（昭和63）年9月25日第1刷",
+      "proofreadEdition": "1999（平成11）年2月25日第7刷"
+    },
+    "author": "辰野隆",
+    "authors": [
+      {
+        "personId": "001796",
+        "name": "辰野隆",
+        "kana": "たつのゆたか",
+        "roman": "Yutaka Tatsuno",
+        "role": "著者",
+        "birthDate": "1888-03-01",
+        "deathDate": "1964-02-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

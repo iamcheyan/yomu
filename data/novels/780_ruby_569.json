@@ -206,5 +206,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000780",
+    "title": "幻影の盾",
+    "titleKana": "まぼろしのたて",
+    "sortKana": "まほろしのたて",
+    "firstAppearance": "「ホトトギス」1905（明治38）年4月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-09-20",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000148/card780.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000148/files/780_ruby_569.zip",
+    "textFileId": "780_ruby_569",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000148/files/780_14966.html",
+    "inputBy": "藤本篤子",
+    "proofreadBy": "かとうかおり",
+    "baseBook1": {
+      "title": "倫敦塔・幻影の盾",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1952（昭和27）年7月10日、1968（昭和43）年9月15日20刷改版",
+      "inputEdition": "1997（平成9）年4月25日第69刷",
+      "proofreadEdition": "1995（平成7）年8月15日第68刷"
+    },
+    "author": "夏目漱石",
+    "authors": [
+      {
+        "personId": "000148",
+        "name": "夏目漱石",
+        "kana": "なつめそうせき",
+        "roman": "Soseki Natsume",
+        "role": "著者",
+        "birthDate": "1867-02-09",
+        "deathDate": "1916-12-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

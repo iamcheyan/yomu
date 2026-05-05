@@ -7824,5 +7824,44 @@
     [],
     []
   ],
-  "desc": "金と愛の間で揺れる男女の悲恋。"
+  "desc": "金と愛の間で揺れる男女の悲恋。",
+  "aozora_info": {
+    "workId": "000522",
+    "title": "金色夜叉",
+    "titleKana": "こんじきやしゃ",
+    "sortKana": "こんしきやしや",
+    "firstAppearance": "「読売新聞」1897（明治30）年1月1日～1902（明治35）年5月11日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-02-23",
+    "updatedAt": "2024-02-07",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000091/card522.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000091/files/522_ruby_3355.zip",
+    "textFileId": "522_ruby_3355",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000091/files/522_77785.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "かとうかおり",
+    "baseBook1": {
+      "title": "金色夜叉",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1969（昭和44）年11月10日",
+      "inputEdition": "1998（平成10）年1月15日第39刷",
+      "proofreadEdition": "1999（平成11）4月10日第40刷"
+    },
+    "author": "尾崎紅葉",
+    "authors": [
+      {
+        "personId": "000091",
+        "name": "尾崎紅葉",
+        "kana": "おざきこうよう",
+        "roman": "Koyo Ozaki",
+        "role": "著者",
+        "birthDate": "1868-01-10",
+        "deathDate": "1903-10-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

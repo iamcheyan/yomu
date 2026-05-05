@@ -270,5 +270,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000629",
+    "title": "ごんごろ鐘",
+    "titleKana": "ごんごろがね",
+    "sortKana": "こんころかね",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-10-25",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000121/card629.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000121/files/629_ruby_34385.zip",
+    "textFileId": "629_ruby_34385",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000121/files/629_34386.html",
+    "inputBy": "田浦亜矢子",
+    "proofreadBy": "もりみつじゅんじ",
+    "baseBook1": {
+      "title": "ごんぎつね・夕鶴",
+      "publisher": "少年少女日本文学館第十五巻、講談社",
+      "firstPublishedAt": "1986（昭和61）年4月18日",
+      "inputEdition": "1993（平成5）年2月25日第13刷",
+      "proofreadEdition": "1993（平成5）年2月25日第13刷"
+    },
+    "author": "新美南吉",
+    "authors": [
+      {
+        "personId": "000121",
+        "name": "新美南吉",
+        "kana": "にいみなんきち",
+        "roman": "Nankichi Niimi",
+        "role": "著者",
+        "birthDate": "1913-07-30",
+        "deathDate": "1943-03-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

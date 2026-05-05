@@ -244,5 +244,36 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058129",
+    "title": "赤い婚礼",
+    "titleKana": "あかいこんれい",
+    "sortKana": "あかいこんれい",
+    "originalTitle": "Red Bridal",
+    "ndc": "NDC 933",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2017-01-18",
+    "updatedAt": "2022-04-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000258/card58129.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000258/files/58129_ruby_60565.zip",
+    "textFileId": "58129_ruby_60565",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000258/files/58129_60566.html",
+    "inputBy": "林田清明",
+    "author": "小泉八雲",
+    "authors": [
+      {
+        "personId": "000258",
+        "name": "小泉八雲",
+        "kana": "こいずみやくも",
+        "roman": "Yakumo Koizumi",
+        "role": "著者",
+        "birthDate": "1850-06-27",
+        "deathDate": "1904-09-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

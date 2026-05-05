@@ -518,5 +518,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050296",
+    "title": "鋳物工場",
+    "titleKana": "いものこうじょう",
+    "sortKana": "いものこうしよう",
+    "firstAppearance": "「女人芸術」1930（昭和5）年11月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-04-11",
+    "updatedAt": "2020-03-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001422/card50296.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001422/files/50296_ruby_70693.zip",
+    "textFileId": "50296_ruby_70693",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001422/files/50296_70745.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "hitsuji",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・23　婦人作家集（三）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年11月30日",
+      "inputEdition": "1989（平成元）年5月15日第3刷",
+      "proofreadEdition": "1987（昭和62）年11月30日初版"
+    },
+    "author": "戸田豊子",
+    "authors": [
+      {
+        "personId": "001422",
+        "name": "戸田豊子",
+        "kana": "とだとよこ",
+        "roman": "Toyoko Toda",
+        "role": "著者",
+        "birthDate": "1904-01",
+        "deathDate": "1956-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

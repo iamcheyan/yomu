@@ -220,5 +220,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000171",
+    "title": "一塊の土",
+    "titleKana": "ひとくれのつち",
+    "sortKana": "ひとくれのつち",
+    "firstAppearance": "「新潮」1924（大正13）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-01-16",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000879/card171.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000879/files/171_ruby_1273.zip",
+    "textFileId": "171_ruby_1273",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000879/files/171_15237.html",
+    "inputBy": "j.utiyama",
+    "proofreadBy": "かとうかおり",
+    "baseBook1": {
+      "title": "現代日本文学大系　43　芥川龍之介集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1968（昭和43）年8月25日"
+    },
+    "author": "芥川竜之介",
+    "authors": [
+      {
+        "personId": "000879",
+        "name": "芥川竜之介",
+        "kana": "あくたがわりゅうのすけ",
+        "roman": "Ryunosuke Akutagawa",
+        "role": "著者",
+        "birthDate": "1892-03-01",
+        "deathDate": "1927-07-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

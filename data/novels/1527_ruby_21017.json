@@ -46,5 +46,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001527",
+    "title": "魚の憂鬱",
+    "titleKana": "さかなのゆううつ",
+    "sortKana": "さかなのゆううつ",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-12-25",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000150/card1527.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000150/files/1527_ruby_21017.zip",
+    "textFileId": "1527_ruby_21017",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000150/files/1527_21018.html",
+    "inputBy": "とみ～ばあ",
+    "proofreadBy": "今井忠夫",
+    "baseBook1": {
+      "title": "日本の名随筆32　魚",
+      "publisher": "作品社",
+      "firstPublishedAt": "1985（昭和60）年6月25日",
+      "inputEdition": "1987（昭和62）年8月10日第2刷",
+      "proofreadEdition": "1985（昭和60）年6月25日第1刷"
+    },
+    "author": "薄田泣菫",
+    "authors": [
+      {
+        "personId": "000150",
+        "name": "薄田泣菫",
+        "kana": "すすきだきゅうきん",
+        "roman": "Kyukin Susukida",
+        "role": "著者",
+        "birthDate": "1877-05-19",
+        "deathDate": "1945-10-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

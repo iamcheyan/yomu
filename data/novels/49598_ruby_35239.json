@@ -92,5 +92,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049598",
+    "title": "層雲峡より大雪山へ",
+    "titleKana": "そううんきょうよりだいせつざんへ",
+    "sortKana": "そううんきようよりたいせつさんへ",
+    "firstAppearance": "「中央公論」1923（大正12）年4月",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-07-29",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000237/card49598.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000237/files/49598_ruby_35239.zip",
+    "textFileId": "49598_ruby_35239",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000237/files/49598_35560.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "山の旅　大正・昭和篇",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2003（平成15）年11月14日",
+      "inputEdition": "2007（平成19）年8月6日第5刷",
+      "proofreadEdition": "2007（平成19）年8月6日第5刷"
+    },
+    "author": "大町桂月",
+    "authors": [
+      {
+        "personId": "000237",
+        "name": "大町桂月",
+        "kana": "おおまちけいげつ",
+        "roman": "Keigetsu Omachi",
+        "role": "著者",
+        "birthDate": "1869-03-06",
+        "deathDate": "1925-06-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

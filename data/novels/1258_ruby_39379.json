@@ -2502,5 +2502,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001258",
+    "title": "地球盗難",
+    "titleKana": "ちきゅうとうなん",
+    "sortKana": "ちきゆうとうなん",
+    "firstAppearance": "「ラヂオ科学」1936（昭和11）年",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-10-30",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card1258.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/1258_ruby_39379.zip",
+    "textFileId": "1258_ruby_39379",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/1258_40525.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "宮城高志",
+    "baseBook1": {
+      "title": "海野十三全集　第3巻　深夜の市長",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1988（昭和63）年6月30日",
+      "inputEdition": "1988（昭和63）年6月30日第1版第1刷",
+      "proofreadEdition": "1988（昭和63）年6月30日第1版第1刷"
+    },
+    "author": "海野十三",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

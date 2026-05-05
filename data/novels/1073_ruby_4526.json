@@ -528,5 +528,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001073",
+    "title": "琴のそら音",
+    "titleKana": "ことのそらね",
+    "sortKana": "ことのそらね",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-08-31",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000148/card1073.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000148/files/1073_ruby_4526.zip",
+    "textFileId": "1073_ruby_4526",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000148/files/1073_14944.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "LUNA CAT",
+    "baseBook1": {
+      "title": "夏目漱石全集2",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1987（昭和62）年10月27日",
+      "inputEdition": "1987（昭和62）年10月27日第1刷"
+    },
+    "author": "夏目漱石",
+    "authors": [
+      {
+        "personId": "000148",
+        "name": "夏目漱石",
+        "kana": "なつめそうせき",
+        "roman": "Soseki Natsume",
+        "role": "著者",
+        "birthDate": "1867-02-09",
+        "deathDate": "1916-12-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

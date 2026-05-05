@@ -86,5 +86,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051209",
+    "title": "明治座評",
+    "titleKana": "めいじざひょう",
+    "sortKana": "めいしさひよう",
+    "subtitle": "（明治二十九年四月）",
+    "subtitleKana": "（めいじにじゅうくねんしがつ）",
+    "firstAppearance": "「めさまし草　巻四」1896（明治29）年4月",
+    "ndc": "NDC 774",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-04-17",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000792/card51209.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000792/files/51209_ruby_42304.zip",
+    "textFileId": "51209_ruby_42304",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000792/files/51209_42515.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "観劇偶評",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2004（平成16）年6月16日",
+      "inputEdition": "2004（平成16）年6月16日第1刷",
+      "proofreadEdition": "2004（平成16）年6月16日第1刷"
+    },
+    "author": "三木竹二",
+    "authors": [
+      {
+        "personId": "000792",
+        "name": "三木竹二",
+        "kana": "みきたけじ",
+        "roman": "Takeji Miki",
+        "role": "著者",
+        "birthDate": "1867-10-02",
+        "deathDate": "1908-01-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

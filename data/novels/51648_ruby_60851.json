@@ -102,5 +102,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051648",
+    "title": "ねずみの冒険",
+    "titleKana": "ねずみのぼうけん",
+    "sortKana": "ねすみのほうけん",
+    "firstAppearance": "「小学四年生　17巻12号」1940（昭和15）年3月",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-03-12",
+    "updatedAt": "2017-01-12",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001475/card51648.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001475/files/51648_ruby_60851.zip",
+    "textFileId": "51648_ruby_60851",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001475/files/51648_60893.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "酒井裕二",
+    "baseBook1": {
+      "title": "定本小川未明童話全集　12",
+      "publisher": "講談社",
+      "firstPublishedAt": "1977（昭和52）年10月10日",
+      "inputEdition": "1982（昭和57）年9月10日第5刷",
+      "proofreadEdition": "1977（昭和52）年10月10日第1刷"
+    },
+    "author": "小川未明",
+    "authors": [
+      {
+        "personId": "001475",
+        "name": "小川未明",
+        "kana": "おがわみめい",
+        "roman": "Mimei Ogawa",
+        "role": "著者",
+        "birthDate": "1882-04-07",
+        "deathDate": "1961-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -206,5 +206,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060177",
+    "title": "生けるものと死せるものと",
+    "titleKana": "いけるものとしせるものと",
+    "sortKana": "いけるものとしせるものと",
+    "ndc": "NDC 951",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-11-15",
+    "updatedAt": "2020-10-31",
+    "cardUrl": "https://www.aozora.gr.jp/cards/002136/card60177.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/002136/files/60177_ruby_72080.zip",
+    "textFileId": "60177_ruby_72080",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/002136/files/60177_72121.html",
+    "inputBy": "かな　とよみ",
+    "proofreadBy": "The Creative CAT",
+    "baseBook1": {
+      "title": "繪はがき",
+      "publisher": "角川書店",
+      "firstPublishedAt": "1946（昭和21）年7月20日",
+      "inputEdition": "1946（昭和21）年7月20日初版",
+      "proofreadEdition": "1946（昭和21）年7月20日初版"
+    },
+    "author": "ノアイユアンナ・ド",
+    "authors": [
+      {
+        "personId": "002136",
+        "name": "ノアイユアンナ・ド",
+        "kana": "ノアイユアンナ・ド",
+        "roman": "Anna de Noailles",
+        "role": "著者",
+        "birthDate": "1876-11-15",
+        "deathDate": "1933-04-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

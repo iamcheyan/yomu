@@ -82,5 +82,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050193",
+    "title": "血を吐く",
+    "titleKana": "ちをはく",
+    "sortKana": "ちをはく",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-11-18",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000984/card50193.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000984/files/50193_ruby_36103.zip",
+    "textFileId": "50193_ruby_36103",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000984/files/50193_36915.html",
+    "inputBy": "蒋龍",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "子をつれて　他八篇",
+      "publisher": "岩波文庫、岩波書房",
+      "firstPublishedAt": "1952（昭和27）年10月5日",
+      "inputEdition": "1987（昭和62）年4月8日第7刷",
+      "proofreadEdition": "2009（平成21）年2月19日第9刷"
+    },
+    "author": "葛西善蔵",
+    "authors": [
+      {
+        "personId": "000984",
+        "name": "葛西善蔵",
+        "kana": "かさいぜんぞう",
+        "roman": "Zenzo Kasai",
+        "role": "著者",
+        "birthDate": "1887-01-16",
+        "deathDate": "1928-07-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

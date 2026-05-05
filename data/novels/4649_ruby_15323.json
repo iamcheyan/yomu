@@ -1818,5 +1818,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004649",
+    "title": "みなかみ紀行",
+    "titleKana": "みなかみきこう",
+    "sortKana": "みなかみきこう",
+    "ndc": "NDC 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-06-03",
+    "updatedAt": "2014-10-31",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000162/card4649.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000162/files/4649_ruby_15323.zip",
+    "textFileId": "4649_ruby_15323",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000162/files/4649_15562.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "現代日本紀行文学全集　東日本編",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1976（昭和51）年8月1日",
+      "inputEdition": "1976（昭和51）年8月1日初版"
+    },
+    "author": "若山牧水",
+    "authors": [
+      {
+        "personId": "000162",
+        "name": "若山牧水",
+        "kana": "わかやまぼくすい",
+        "roman": "Bokusui Wakayama",
+        "role": "著者",
+        "birthDate": "1885-08-24",
+        "deathDate": "1928-09-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

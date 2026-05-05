@@ -196,5 +196,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004887",
+    "title": "馬車",
+    "titleKana": "ばしゃ",
+    "sortKana": "はしや",
+    "firstAppearance": "「改造　第十四巻第一号」1931（昭和7）年1月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-03-17",
+    "updatedAt": "2018-02-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card4887.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/4887_ruby_64034.zip",
+    "textFileId": "4887_ruby_64034",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/4887_64126.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "mitocho",
+    "baseBook1": {
+      "title": "愛の挨拶・馬車・純粋小説論",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1993（平成5）年5月10日",
+      "inputEdition": "1999（平成11）年5月12日第3刷",
+      "proofreadEdition": "1993（平成5）年5月10日第1刷"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

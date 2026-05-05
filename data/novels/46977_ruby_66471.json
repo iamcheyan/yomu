@@ -26,5 +26,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046977",
+    "title": "癩者",
+    "titleKana": "らいしゃ",
+    "sortKana": "らいしや",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-12-05",
+    "updatedAt": "2018-11-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000997/card46977.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000997/files/46977_ruby_66471.zip",
+    "textFileId": "46977_ruby_66471",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000997/files/46977_66516.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "定本　北條民雄全集　上巻",
+      "publisher": "東京創元社",
+      "firstPublishedAt": "1980（昭和55）年10月20日",
+      "inputEdition": "1980（昭和55）年10月20日初版",
+      "proofreadEdition": "1980（昭和55）年10月20日初版"
+    },
+    "author": "北条民雄",
+    "authors": [
+      {
+        "personId": "000997",
+        "name": "北条民雄",
+        "kana": "ほうじょうたみお",
+        "roman": "Tamio Hojo",
+        "role": "著者",
+        "birthDate": "1914-09-22",
+        "deathDate": "1937-12-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

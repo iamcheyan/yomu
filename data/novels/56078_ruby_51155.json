@@ -82,5 +82,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056078",
+    "title": "駅伝馬車",
+    "titleKana": "えきでんばしゃ",
+    "sortKana": "えきてんはしや",
+    "ndc": "NDC 933",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-09-20",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001257/card56078.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001257/files/56078_ruby_51155.zip",
+    "textFileId": "56078_ruby_51155",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001257/files/56078_51422.html",
+    "inputBy": "雀",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "スケッチ・ブック",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1935（昭和10）年9月15日",
+      "inputEdition": "2010（平成22）年2月23日第31刷",
+      "proofreadEdition": "1992（平成4）年2月26日第30刷"
+    },
+    "author": "アーヴィングワシントン",
+    "authors": [
+      {
+        "personId": "001257",
+        "name": "アーヴィングワシントン",
+        "kana": "アーヴィングワシントン",
+        "roman": "Washington Irving",
+        "role": "著者",
+        "birthDate": "1783-04-03",
+        "deathDate": "1859-11-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -222,5 +222,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "005072",
+    "title": "ドナウ源流行",
+    "titleKana": "ドナウげんりゅうこう",
+    "sortKana": "となうけんりゆうこう",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-07-13",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001059/card5072.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001059/files/5072_ruby_38453.zip",
+    "textFileId": "5072_ruby_38453",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001059/files/5072_39444.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "日本の名随筆15　旅",
+      "publisher": "作品社",
+      "firstPublishedAt": "1983（昭和58）年9月25日",
+      "inputEdition": "1996（平成8）年8月25日第25刷",
+      "proofreadEdition": "1996（平成8）年8月25日第25刷"
+    },
+    "author": "斎藤茂吉",
+    "authors": [
+      {
+        "personId": "001059",
+        "name": "斎藤茂吉",
+        "kana": "さいとうもきち",
+        "roman": "Mokichi Saito",
+        "role": "著者",
+        "birthDate": "1882-5-14",
+        "deathDate": "1953-2-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

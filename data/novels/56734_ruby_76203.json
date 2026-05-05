@@ -122,5 +122,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056734",
+    "title": "ツンドラへの旅",
+    "titleKana": "ツンドラへのたび",
+    "sortKana": "つんとらへのたひ",
+    "firstAppearance": "「中央公論」1942（昭和17）年1月",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-09-12",
+    "updatedAt": "2022-08-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card56734.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/56734_ruby_76203.zip",
+    "textFileId": "56734_ruby_76203",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/56734_76235.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "najuful",
+    "baseBook1": {
+      "title": "中谷宇吉郎紀行集　アラスカの氷河",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2002（平成14）年12月13日",
+      "inputEdition": "2011（平成23）年12月16日第3刷",
+      "proofreadEdition": "2011（平成23）年12月16日第3刷"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

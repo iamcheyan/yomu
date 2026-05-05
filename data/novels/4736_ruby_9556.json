@@ -48,5 +48,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004736",
+    "title": "浅間山麓",
+    "titleKana": "あさまさんろく",
+    "sortKana": "あさまさんろく",
+    "firstAppearance": "「都新聞」1934（昭和9）年7月28～29日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-04-15",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000331/card4736.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000331/files/4736_ruby_9556.zip",
+    "textFileId": "4736_ruby_9556",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000331/files/4736_9664.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "小林徹",
+    "baseBook1": {
+      "title": "空にむかひて　若杉鳥子随筆集",
+      "publisher": "武蔵野書房",
+      "firstPublishedAt": "2001（平成13）年1月21日",
+      "inputEdition": "2001（平成13）年1月21日初版第1刷"
+    },
+    "author": "若杉鳥子",
+    "authors": [
+      {
+        "personId": "000331",
+        "name": "若杉鳥子",
+        "kana": "わかすぎとりこ",
+        "roman": "Toriko Wakasugi",
+        "role": "著者",
+        "birthDate": "1892-12-21",
+        "deathDate": "1937-12-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

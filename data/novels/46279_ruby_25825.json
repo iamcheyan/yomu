@@ -76,5 +76,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046279",
+    "title": "実践について",
+    "titleKana": "じっせんについて",
+    "sortKana": "しつせんについて",
+    "subtitle": "――馬になった話――",
+    "subtitleKana": "――うまになったはなし――",
+    "firstAppearance": "「青年文化」1948（昭和23）年9月",
+    "ndc": "NDC 318",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-03-16",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001166/card46279.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001166/files/46279_ruby_25825.zip",
+    "textFileId": "46279_ruby_25825",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001166/files/46279_26145.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "論理とその実践――組織論から図書館像へ――",
+      "publisher": "てんびん社",
+      "firstPublishedAt": "1972（昭和47）年11月20日",
+      "inputEdition": "1976（昭和51）年3月20日第2刷"
+    },
+    "author": "中井正一",
+    "authors": [
+      {
+        "personId": "001166",
+        "name": "中井正一",
+        "kana": "なかいまさかず",
+        "roman": "Masakazu Nakai",
+        "role": "著者",
+        "birthDate": "1900-02-14",
+        "deathDate": "1952-05-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

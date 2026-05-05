@@ -118,5 +118,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060296",
+    "title": "オリンピック東京大会讃歌",
+    "titleKana": "オリンピックとうきょうたいかいさんか",
+    "sortKana": "おりんひつくとうきようたいかいさんか",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-10-10",
+    "updatedAt": "2020-09-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001763/card60296.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001763/files/60296_ruby_71867.zip",
+    "textFileId": "60296_ruby_71867",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001763/files/60296_71914.html",
+    "inputBy": "かな　とよみ",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "佐藤春夫全集　第一卷",
+      "publisher": "講談社",
+      "firstPublishedAt": "1966（昭和41）年4月25日",
+      "inputEdition": "1966（昭和41）年4月25日",
+      "proofreadEdition": "1966（昭和41）年4月25日"
+    },
+    "author": "佐藤春夫",
+    "authors": [
+      {
+        "personId": "001763",
+        "name": "佐藤春夫",
+        "kana": "さとうはるお",
+        "roman": "Haruo Sato",
+        "role": "著者",
+        "birthDate": "1892-04-09",
+        "deathDate": "1964-05-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

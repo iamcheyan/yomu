@@ -152,5 +152,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045188",
+    "title": "ダマスカスの賢者",
+    "titleKana": "ダマスカスのけんじゃ",
+    "sortKana": "たますかすのけんしや",
+    "firstAppearance": "「赤い鳥」1927（昭和2）年2月",
+    "ndc": "NDC K913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-04-02",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000107/card45188.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000107/files/45188_ruby_26071.zip",
+    "textFileId": "45188_ruby_26071",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000107/files/45188_26257.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "日本児童文学大系　第一〇巻",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1978（昭和53）年11月30日",
+      "inputEdition": "1978（昭和53）年11月30日初刷",
+      "proofreadEdition": "1978（昭和53）年11月30日初刷"
+    },
+    "author": "鈴木三重吉",
+    "authors": [
+      {
+        "personId": "000107",
+        "name": "鈴木三重吉",
+        "kana": "すずきみえきち",
+        "roman": "Miekichi Suzuki",
+        "role": "著者",
+        "birthDate": "1882-09-29",
+        "deathDate": "1936-06-27",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

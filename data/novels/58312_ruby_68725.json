@@ -162,5 +162,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058312",
+    "title": "青年僧と叡山の老爺",
+    "titleKana": "せいねんそうとえいざんのろうや",
+    "sortKana": "せいねんそうとえいさんのろうや",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-08-24",
+    "updatedAt": "2019-07-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000162/card58312.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000162/files/58312_ruby_68725.zip",
+    "textFileId": "58312_ruby_68725",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000162/files/58312_68774.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "仏教の名随筆　1",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "2006（平成18）年6月20日",
+      "inputEdition": "2006（平成18）年6月20日初版第1刷",
+      "proofreadEdition": "2006（平成18）年6月20日初版第1刷"
+    },
+    "author": "若山牧水",
+    "authors": [
+      {
+        "personId": "000162",
+        "name": "若山牧水",
+        "kana": "わかやまぼくすい",
+        "roman": "Bokusui Wakayama",
+        "role": "著者",
+        "birthDate": "1885-08-24",
+        "deathDate": "1928-09-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

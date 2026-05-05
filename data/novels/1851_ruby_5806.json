@@ -104,5 +104,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001851",
+    "title": "死のなかの風景",
+    "titleKana": "しのなかのふうけい",
+    "sortKana": "しのなかのふうけい",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-01-01",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000293/card1851.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000293/files/1851_ruby_5806.zip",
+    "textFileId": "1851_ruby_5806",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000293/files/1851_45772.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "夏の花・心願の国",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1973（昭和48）年7月30日"
+    },
+    "author": "原民喜",
+    "authors": [
+      {
+        "personId": "000293",
+        "name": "原民喜",
+        "kana": "はらたみき",
+        "roman": "Tamiki Hara",
+        "role": "著者",
+        "birthDate": "1905-11-15",
+        "deathDate": "1951-03-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

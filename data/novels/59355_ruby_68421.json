@@ -126,5 +126,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059355",
+    "title": "上海の絵本",
+    "titleKana": "シャンハイのえほん",
+    "sortKana": "しやんはいのえほん",
+    "firstAppearance": "「セレクト　第一巻第八号」セレクト社、1930（昭和5）年8月",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-07-01",
+    "updatedAt": "2019-06-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001997/card59355.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001997/files/59355_ruby_68421.zip",
+    "textFileId": "59355_ruby_68421",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001997/files/59355_68470.html",
+    "inputBy": "かな　とよみ",
+    "proofreadBy": "The Creative CAT",
+    "baseBook1": {
+      "title": "感情と表現",
+      "publisher": "中央公論美術出版",
+      "firstPublishedAt": "1983（昭和58）年7月1日",
+      "inputEdition": "1983（昭和58）年7月1日",
+      "proofreadEdition": "1983（昭和58）年7月1日"
+    },
+    "author": "三岸好太郎",
+    "authors": [
+      {
+        "personId": "001997",
+        "name": "三岸好太郎",
+        "kana": "みぎしこうたろう",
+        "roman": "Kotaro Migishi",
+        "role": "著者",
+        "birthDate": "1903-04-18",
+        "deathDate": "1934-07-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -80,5 +80,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002947",
+    "title": "文士としての兆民先生",
+    "titleKana": "ぶんしとしてのちょうみんせんせい",
+    "sortKana": "ふんしとしてのちようみんせんせい",
+    "ndc": "NDC 289 910",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-12-17",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000261/card2947.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000261/files/2947_ruby_5676.zip",
+    "textFileId": "2947_ruby_5676",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000261/files/2947_48809.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "日本プロレタリア文学大系（序）",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1955（昭和30）年3月31日",
+      "inputEdition": "1961（昭和36）年6月20日第2刷"
+    },
+    "author": "幸徳秋水",
+    "authors": [
+      {
+        "personId": "000261",
+        "name": "幸徳秋水",
+        "kana": "こうとくしゅうすい",
+        "roman": "Shusui Kotoku",
+        "role": "著者",
+        "birthDate": "1871-11-05",
+        "deathDate": "1911-01-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

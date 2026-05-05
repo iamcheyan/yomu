@@ -1750,5 +1750,48 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056934",
+    "title": "欧洲紀行",
+    "titleKana": "おうしゅうきこう",
+    "sortKana": "おうしゆうきこう",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-12-30",
+    "updatedAt": "2015-11-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card56934.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/56934_ruby_57562.zip",
+    "textFileId": "56934_ruby_57562",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/56934_57608.html",
+    "inputBy": "酒井裕二",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "欧洲紀行",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "2006（平成18）年12月10日",
+      "inputEdition": "2006（平成18）年12月10日第1刷",
+      "proofreadEdition": "2006（平成18）年12月10日第1刷"
+    },
+    "baseBook2": {
+      "title": "定本　横山利一全集　第一三巻",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "1982（昭和57）年7月"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

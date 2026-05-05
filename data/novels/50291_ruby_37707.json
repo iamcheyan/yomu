@@ -28,5 +28,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050291",
+    "title": "来青花",
+    "titleKana": "らいせいか",
+    "sortKana": "らいせいか",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-01-15",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001341/card50291.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001341/files/50291_ruby_37707.zip",
+    "textFileId": "50291_ruby_37707",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001341/files/50291_37759.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆1　花",
+      "publisher": "作品社",
+      "firstPublishedAt": "1983（昭和58）年2月25日",
+      "inputEdition": "2001（平成13）年3月20日第29刷",
+      "proofreadEdition": "2001（平成13）年3月20日第29刷"
+    },
+    "author": "永井荷風",
+    "authors": [
+      {
+        "personId": "001341",
+        "name": "永井荷風",
+        "kana": "ながいかふう",
+        "roman": "Kafu Nagai",
+        "role": "著者",
+        "birthDate": "1879-12-03",
+        "deathDate": "1959-04-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

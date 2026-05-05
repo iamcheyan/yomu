@@ -66,5 +66,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053864",
+    "title": "社会事情と科学的精神",
+    "titleKana": "しゃかいじじょうとかがくてきせいしん",
+    "sortKana": "しやかいししようとかかくてきせいしん",
+    "firstAppearance": "「科学ペン」1937（昭和12）年3月",
+    "ndc": "NDC 404",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-07-27",
+    "updatedAt": "2016-06-10",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001429/card53864.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001429/files/53864_ruby_59452.zip",
+    "textFileId": "53864_ruby_59452",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001429/files/53864_59492.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "高瀬竜一",
+    "baseBook1": {
+      "title": "現代日本思想大系　25　科学の思想Ⅰ",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1964（昭和39）年9月25日",
+      "inputEdition": "1964（昭和39）年9月25日",
+      "proofreadEdition": "1975（昭和50）年5月30日初版第10刷"
+    },
+    "author": "石原純",
+    "authors": [
+      {
+        "personId": "001429",
+        "name": "石原純",
+        "kana": "いしわらあつし",
+        "roman": "Atsushi Ishiwara",
+        "role": "著者",
+        "birthDate": "1881-1-15",
+        "deathDate": "1947-1-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

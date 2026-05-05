@@ -494,5 +494,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001083",
+    "title": "鰊漁場",
+    "titleKana": "にしんぎょじょう",
+    "sortKana": "にしんきよしよう",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-09-27",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000008/card1083.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000008/files/1083_ruby_3812.zip",
+    "textFileId": "1083_ruby_3812",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000008/files/1083_53475.html",
+    "inputBy": "林田清明",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "島木健作全集　第一巻",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "1976（昭和51）年2月20日"
+    },
+    "author": "島木健作",
+    "authors": [
+      {
+        "personId": "000008",
+        "name": "島木健作",
+        "kana": "しまきけんさく",
+        "roman": "Kensaku Shimaki",
+        "role": "著者",
+        "birthDate": "1903-09-07",
+        "deathDate": "1945-08-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

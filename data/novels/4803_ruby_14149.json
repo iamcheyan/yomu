@@ -1048,5 +1048,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004803",
+    "title": "風立ちぬ",
+    "titleKana": "かぜたちぬ",
+    "sortKana": "かせたちぬ",
+    "firstAppearance": "序曲、風立ちぬ「改造」1936（昭和11）年12月号、冬「文藝春秋」1937（昭和12）年1月号、春「新女苑」1937（昭和12）年4月号、死のかげの谷「新潮」1938（昭和13）年3月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-01-01",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001030/card4803.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001030/files/4803_ruby_14149.zip",
+    "textFileId": "4803_ruby_14149",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001030/files/4803_14204.html",
+    "inputBy": "kompass",
+    "proofreadBy": "浅原庸子",
+    "baseBook1": {
+      "title": "昭和文学全集　第6巻",
+      "publisher": "小学館",
+      "firstPublishedAt": "1988（昭和63）年6月1日",
+      "inputEdition": "1988（昭和63）年6月1日初版第1刷"
+    },
+    "author": "堀辰雄",
+    "authors": [
+      {
+        "personId": "001030",
+        "name": "堀辰雄",
+        "kana": "ほりたつお",
+        "roman": "Tatsuo Hori",
+        "role": "著者",
+        "birthDate": "1904-12-28",
+        "deathDate": "1953-05-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

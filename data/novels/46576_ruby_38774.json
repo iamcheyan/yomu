@@ -5064,5 +5064,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046576",
+    "title": "昭和遊撃隊",
+    "titleKana": "しょうわゆうげきたい",
+    "sortKana": "しようわゆうけきたい",
+    "firstAppearance": "「少年倶楽部」1934（昭和9）年1月号～12月号",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-08-17",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000748/card46576.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000748/files/46576_ruby_38774.zip",
+    "textFileId": "46576_ruby_38774",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000748/files/46576_40144.html",
+    "inputBy": "゛゜゛゜",
+    "proofreadBy": "宮城高志",
+    "baseBook1": {
+      "title": "少年小説大系　第17巻　平田晋策・蘭郁二郎集",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1994（平成6）年2月28日",
+      "inputEdition": "1994（平成6）年2月28日第1版第1刷",
+      "proofreadEdition": "1994（平成6）年2月28日第1版第1刷"
+    },
+    "author": "平田晋策",
+    "authors": [
+      {
+        "personId": "000748",
+        "name": "平田晋策",
+        "kana": "ひらたしんさく",
+        "roman": "Shinsaku Hirata",
+        "role": "著者",
+        "birthDate": "1904-03-06",
+        "deathDate": "1936-01-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

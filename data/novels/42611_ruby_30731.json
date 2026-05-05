@@ -40,5 +40,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042611",
+    "title": "死刑囚最後の日解説",
+    "titleKana": "しけいしゅうさいごのひかいせつ",
+    "sortKana": "しけいしゆうさいこのひかいせつ",
+    "ndc": "NDC 953 954",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-06-27",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000906/card42611.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000906/files/42611_ruby_30731.zip",
+    "textFileId": "42611_ruby_30731",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000906/files/42611_31518.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "死刑囚最後の日",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1950（昭和25）年1月30日、1982（昭和57）年6月16日改版",
+      "inputEdition": "1982（昭和57）年6月16日改版第30刷",
+      "proofreadEdition": "1983（昭和58）年1月20日第31刷"
+    },
+    "author": "豊島与志雄",
+    "authors": [
+      {
+        "personId": "000906",
+        "name": "豊島与志雄",
+        "kana": "とよしまよしお",
+        "roman": "Yoshio Toyoshima",
+        "role": "著者",
+        "birthDate": "1890-11-27",
+        "deathDate": "1955-06-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

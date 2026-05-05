@@ -40,5 +40,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052959",
+    "title": "失うた帳面を記憶力で書き復した人",
+    "titleKana": "うしのうたちょうめんをきおくりょくでかきもどしたひと",
+    "sortKana": "うしのうたちようめんをきおくりよくてかきもとしたひと",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-06-26",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000093/card52959.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000093/files/52959_ruby_42754.zip",
+    "textFileId": "52959_ruby_42754",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000093/files/52959_42912.html",
+    "inputBy": "向山きよみ",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻44　記憶",
+      "publisher": "作品社",
+      "firstPublishedAt": "1994（平成6）年10月25日",
+      "inputEdition": "1994（平成6）年10月25日第1刷",
+      "proofreadEdition": "1994（平成6）年10月25日第1刷"
+    },
+    "author": "南方熊楠",
+    "authors": [
+      {
+        "personId": "000093",
+        "name": "南方熊楠",
+        "kana": "みなかたくまぐす",
+        "roman": "Kumagusu Minakata",
+        "role": "著者",
+        "birthDate": "1867-05-18",
+        "deathDate": "1941-12-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

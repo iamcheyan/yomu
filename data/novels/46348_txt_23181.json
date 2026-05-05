@@ -362,5 +362,38 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046348",
+    "title": "シンデレラ",
+    "titleKana": "シンデレラ",
+    "sortKana": "しんてれら",
+    "subtitle": "―ガラスのくつのものがたり―",
+    "subtitleKana": "―ガラスのくつのものがたり―",
+    "originalTitle": "Cinderella, or the Little Glass Slipper",
+    "ndc": "NDC K933",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2006-05-18",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001239/card46348.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001239/files/46348_txt_23181.zip",
+    "textFileId": "46348_txt_23181",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001239/files/46348_23182.html",
+    "inputBy": "大久保ゆう",
+    "author": "ラングアンドルー",
+    "authors": [
+      {
+        "personId": "001239",
+        "name": "ラングアンドルー",
+        "kana": "ラングアンドルー",
+        "roman": "Andrew Lang",
+        "role": "著者",
+        "birthDate": "1844-03-31",
+        "deathDate": "1912-07-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

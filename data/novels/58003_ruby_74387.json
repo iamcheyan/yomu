@@ -7768,5 +7768,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058003",
+    "title": "嫁取婿取",
+    "titleKana": "よめとりむことり",
+    "sortKana": "よめとりむことり",
+    "firstAppearance": "「婦人倶楽部」1929（昭和4）年1月～12月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-11-20",
+    "updatedAt": "2021-10-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001750/card58003.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001750/files/58003_ruby_74387.zip",
+    "textFileId": "58003_ruby_74387",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001750/files/58003_74425.html",
+    "inputBy": "橋本泰平",
+    "proofreadBy": "芝裕久",
+    "baseBook1": {
+      "title": "佐々木邦全集7　求婚三銃士　嫁取婿取　家庭三代記　村の成功者",
+      "publisher": "講談社",
+      "firstPublishedAt": "1975（昭和50）年4月20日",
+      "inputEdition": "1975（昭和50）年4月20日第1刷",
+      "proofreadEdition": "1975（昭和50）年4月20日第1刷"
+    },
+    "author": "佐々木邦",
+    "authors": [
+      {
+        "personId": "001750",
+        "name": "佐々木邦",
+        "kana": "ささきくに",
+        "roman": "Kuni Sasaki",
+        "role": "著者",
+        "birthDate": "1883-05-04",
+        "deathDate": "1964-09-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

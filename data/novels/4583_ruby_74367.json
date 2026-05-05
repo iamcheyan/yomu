@@ -462,5 +462,54 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004583",
+    "title": "霰ふる",
+    "titleKana": "あられふる",
+    "sortKana": "あられふる",
+    "firstAppearance": "「太陽」1912（大正元）年11月号",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-11-04",
+    "updatedAt": "2021-10-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card4583.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/4583_ruby_74367.zip",
+    "textFileId": "4583_ruby_74367",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/4583_74405.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "室谷きわ",
+    "baseBook1": {
+      "title": "鏡花全集　巻十四",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1942（昭和17）年3月10日",
+      "inputEdition": "1987（昭和62）年10月2日第3刷",
+      "proofreadEdition": "1974（昭和49）年12月2日第2刷"
+    },
+    "author": "泉鏡花、泉鏡太郎",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      },
+      {
+        "personId": "000886",
+        "name": "泉鏡太郎",
+        "kana": "いずみきょうたろう",
+        "roman": "Kyotaro Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

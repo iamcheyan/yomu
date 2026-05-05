@@ -1532,5 +1532,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056081",
+    "title": "一本刀土俵入　二幕五場",
+    "titleKana": "いっぽんがたなどひょういり　にまくごば",
+    "sortKana": "いつほんかたなとひよういりにまくこは",
+    "firstAppearance": "「中央公論」1931（昭和6）年6月号",
+    "ndc": "NDC 912",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-03-15",
+    "updatedAt": "2018-11-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001726/card56081.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001726/files/56081_ruby_64032.zip",
+    "textFileId": "56081_ruby_64032",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001726/files/56081_64124.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "長谷川伸傑作選　瞼の母",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "2008（平成20）年5月15日",
+      "inputEdition": "2008（平成20）年5月15日初版第1刷",
+      "proofreadEdition": "2008（平成20）年5月15日初版第1刷"
+    },
+    "author": "長谷川伸",
+    "authors": [
+      {
+        "personId": "001726",
+        "name": "長谷川伸",
+        "kana": "はせがわしん",
+        "roman": "Shin Hasegawa",
+        "role": "著者",
+        "birthDate": "1884-03-15",
+        "deathDate": "1963-06-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

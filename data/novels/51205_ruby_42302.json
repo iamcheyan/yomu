@@ -60,5 +60,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051205",
+    "title": "いがみの権太",
+    "titleKana": "いがみのごんた",
+    "sortKana": "いかみのこんた",
+    "subtitle": "（明治二十九年一月、明治座）",
+    "subtitleKana": "（めいじにじゅうくねんいちがつ、めいじざ）",
+    "firstAppearance": "「めさまし草　巻一、二」1896（明治29）年1、2月",
+    "ndc": "NDC 774",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-04-17",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000792/card51205.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000792/files/51205_ruby_42302.zip",
+    "textFileId": "51205_ruby_42302",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000792/files/51205_42514.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "観劇偶評",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2004（平成16）年6月16日",
+      "inputEdition": "2004（平成16）年6月16日第1刷",
+      "proofreadEdition": "2004（平成16）年6月16日第1刷"
+    },
+    "author": "三木竹二",
+    "authors": [
+      {
+        "personId": "000792",
+        "name": "三木竹二",
+        "kana": "みきたけじ",
+        "roman": "Takeji Miki",
+        "role": "著者",
+        "birthDate": "1867-10-02",
+        "deathDate": "1908-01-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

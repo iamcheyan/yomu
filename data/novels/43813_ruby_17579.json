@@ -380,5 +380,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043813",
+    "title": "河馬",
+    "titleKana": "かば",
+    "sortKana": "かは",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-02-24",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000119/card43813.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000119/files/43813_ruby_17579.zip",
+    "textFileId": "43813_ruby_17579",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000119/files/43813_17593.html",
+    "inputBy": "桑田康正",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "中島敦全集2",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2001（平成13）年12月20日",
+      "inputEdition": "2001（平成13）年12月20日初版第1刷",
+      "proofreadEdition": "2001（平成13）年12月20日初版第1刷"
+    },
+    "author": "中島敦",
+    "authors": [
+      {
+        "personId": "000119",
+        "name": "中島敦",
+        "kana": "なかじまあつし",
+        "roman": "Atsushi Nakajima",
+        "role": "著者",
+        "birthDate": "1909-05-05",
+        "deathDate": "1942-12-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

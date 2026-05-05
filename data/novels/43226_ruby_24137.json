@@ -68,5 +68,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043226",
+    "title": "桂離宮",
+    "titleKana": "かつらりきゅう",
+    "sortKana": "かつらりきゆう",
+    "ndc": "NDC 521 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-11-02",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000963/card43226.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000963/files/43226_ruby_24137.zip",
+    "textFileId": "43226_ruby_24137",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000963/files/43226_24375.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "草衣集",
+      "publisher": "相模書房",
+      "firstPublishedAt": "1938（昭和13）年6月13日",
+      "inputEdition": "1938（昭和13）年6月13日",
+      "proofreadEdition": "1938（昭和13）年6月13日"
+    },
+    "author": "野上豊一郎",
+    "authors": [
+      {
+        "personId": "000963",
+        "name": "野上豊一郎",
+        "kana": "のがみとよいちろう",
+        "roman": "Toyoichiro Nogami",
+        "role": "著者",
+        "birthDate": "1883-09-14",
+        "deathDate": "1950-02-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -158,5 +158,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048686",
+    "title": "もゝはがき",
+    "titleKana": "ももはがき",
+    "sortKana": "ももはかき",
+    "firstAppearance": "「平民新聞　第2、4、5、6、8号」平民社、1903（明治36）年11月22日～1904（明治37）年1月3日",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-02-07",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000565/card48686.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000565/files/48686_ruby_37007.zip",
+    "textFileId": "48686_ruby_37007",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000565/files/48686_37897.html",
+    "inputBy": "Ｈ．ＹＡＭ",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "明治の文学　第15巻　斎藤緑雨",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2002（平成14）年7月25日",
+      "inputEdition": "2002（平成14）年7月25日初版第1刷",
+      "proofreadEdition": "2002（平成14）年7月25日初版第1刷"
+    },
+    "author": "斎藤緑雨",
+    "authors": [
+      {
+        "personId": "000565",
+        "name": "斎藤緑雨",
+        "kana": "さいとうりょくう",
+        "roman": "Ryokuu Saito",
+        "role": "著者",
+        "birthDate": "1868-01-24",
+        "deathDate": "1904-04-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

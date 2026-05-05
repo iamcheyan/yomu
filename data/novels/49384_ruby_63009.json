@@ -148,5 +148,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049384",
+    "title": "箱根の山",
+    "titleKana": "はこねのやま",
+    "sortKana": "はこねのやま",
+    "firstAppearance": "「文藝春秋　別冊2」1946（昭和21）年5月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-11-03",
+    "updatedAt": "2017-10-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000126/card49384.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000126/files/49384_ruby_63009.zip",
+    "textFileId": "49384_ruby_63009",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000126/files/49384_63057.html",
+    "inputBy": "富田晶子",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "田中英光全集　6",
+      "publisher": "芳賀書店",
+      "firstPublishedAt": "1965（昭和40）年8月14日",
+      "inputEdition": "1965（昭和40）年8月14日第1版",
+      "proofreadEdition": "1965（昭和40）年8月14日第1版"
+    },
+    "author": "田中英光",
+    "authors": [
+      {
+        "personId": "000126",
+        "name": "田中英光",
+        "kana": "たなかひでみつ",
+        "roman": "Hidemitsu Tanaka",
+        "role": "著者",
+        "birthDate": "1913-01-10",
+        "deathDate": "1949-11-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

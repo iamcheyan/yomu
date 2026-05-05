@@ -316,5 +316,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004661",
+    "title": "滑川畔にて",
+    "titleKana": "なめりがわほとりにて",
+    "sortKana": "なめりかわほとりにて",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-05-31",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000249/card4661.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000249/files/4661_ruby_15313.zip",
+    "textFileId": "4661_ruby_15313",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000249/files/4661_15552.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "現代日本紀行文学全集　東日本編",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1976（昭和51）年8月1日",
+      "inputEdition": "1976（昭和51）年8月1日"
+    },
+    "author": "嘉村礒多",
+    "authors": [
+      {
+        "personId": "000249",
+        "name": "嘉村礒多",
+        "kana": "かむらいそた",
+        "roman": "Isota Kamura",
+        "role": "著者",
+        "birthDate": "1897-12-15",
+        "deathDate": "1933-11-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

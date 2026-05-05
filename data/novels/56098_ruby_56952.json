@@ -656,5 +656,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056098",
+    "title": "天保の飛行術",
+    "titleKana": "てんぽうのひこうじゅつ",
+    "sortKana": "てんほうのひこうしゆつ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-08-22",
+    "updatedAt": "2015-07-19",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001670/card56098.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001670/files/56098_ruby_56952.zip",
+    "textFileId": "56098_ruby_56952",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001670/files/56098_56998.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "阿部哲也",
+    "baseBook1": {
+      "title": "野村胡堂伝奇幻想小説集成",
+      "publisher": "作品社",
+      "firstPublishedAt": "2009（平成21）年6月30日",
+      "inputEdition": "2009（平成21）年6月30日第1刷",
+      "proofreadEdition": "2009（平成21）年6月30日第1刷"
+    },
+    "author": "野村胡堂",
+    "authors": [
+      {
+        "personId": "001670",
+        "name": "野村胡堂",
+        "kana": "のむらこどう",
+        "roman": "Kodo Nomura",
+        "role": "著者",
+        "birthDate": "1882-10-15",
+        "deathDate": "1963-04-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

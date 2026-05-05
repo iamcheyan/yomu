@@ -3092,5 +3092,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049863",
+    "title": "審判",
+    "titleKana": "しんぱん",
+    "sortKana": "しんはん",
+    "ndc": "NDC 943",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-01-05",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001235/card49863.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001235/files/49863_ruby_41867.zip",
+    "textFileId": "49863_ruby_41867",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001235/files/49863_41911.html",
+    "inputBy": "kompass",
+    "proofreadBy": "米田",
+    "baseBook1": {
+      "title": "審判",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1971（昭和46）年7月30日",
+      "inputEdition": "1990（平成2）年9月5日37刷",
+      "proofreadEdition": "1991（平成3）年10月25日39刷"
+    },
+    "author": "カフカフランツ",
+    "authors": [
+      {
+        "personId": "001235",
+        "name": "カフカフランツ",
+        "kana": "カフカフランツ",
+        "roman": "Franz Kafka",
+        "role": "著者",
+        "birthDate": "1883-07-03",
+        "deathDate": "1924-06-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

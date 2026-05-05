@@ -56,5 +56,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043596",
+    "title": "博物誌あとがき",
+    "titleKana": "はくぶつしあとがき",
+    "sortKana": "はくふつしあとかき",
+    "ndc": "NDC 954",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-08-22",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001154/card43596.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001154/files/43596_ruby_50774.zip",
+    "textFileId": "43596_ruby_50774",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001154/files/43596_51035.html",
+    "inputBy": "大野晋、門田裕志",
+    "proofreadBy": "砂場清隆",
+    "baseBook1": {
+      "title": "博物誌",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1954（昭和29）年4月15日",
+      "inputEdition": "2002（平成14）年4月15日47刷",
+      "proofreadEdition": "2010（平成22）年3月5日50刷"
+    },
+    "author": "岸田国士",
+    "authors": [
+      {
+        "personId": "001154",
+        "name": "岸田国士",
+        "kana": "きしだくにお",
+        "roman": "Kunio Kishida",
+        "role": "著者",
+        "birthDate": "1890-11-02",
+        "deathDate": "1954-03-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

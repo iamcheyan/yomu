@@ -726,5 +726,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057674",
+    "title": "ちゃん",
+    "titleKana": "ちゃん",
+    "sortKana": "ちやん",
+    "firstAppearance": "「週刊朝日別冊陽春特別読物号」朝日新聞社、1958（昭和33）年2月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-02-14",
+    "updatedAt": "2021-01-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001869/card57674.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001869/files/57674_ruby_72610.zip",
+    "textFileId": "57674_ruby_72610",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001869/files/57674_72654.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "栗田美恵子",
+    "baseBook1": {
+      "title": "山本周五郎全集第二十八巻　ちいさこべ・落葉の隣り",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1982（昭和57）年10月25日",
+      "inputEdition": "1982（昭和57）年10月25日",
+      "proofreadEdition": "1988（昭和63）年3月25日3刷"
+    },
+    "author": "山本周五郎",
+    "authors": [
+      {
+        "personId": "001869",
+        "name": "山本周五郎",
+        "kana": "やまもとしゅうごろう",
+        "roman": "Shugoro Yamamoto",
+        "role": "著者",
+        "birthDate": "1903-06-22",
+        "deathDate": "1967-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

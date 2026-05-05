@@ -126,5 +126,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048128",
+    "title": "アッタレーア・プリンケプス",
+    "titleKana": "アッタレーア・プリンケプス",
+    "sortKana": "あつたれえあふりんけふす",
+    "originalTitle": "ATTALEA PRINCEPS",
+    "ndc": "NDC 983",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-03-29",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000340/card48128.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000340/files/48128_ruby_33834.zip",
+    "textFileId": "48128_ruby_33834",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000340/files/48128_34445.html",
+    "inputBy": "蒋龍",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "あかい花　他四篇",
+      "publisher": "岩波版ほるぷ図書館文庫、岩波書店",
+      "firstPublishedAt": "1975（昭和50）年9月1日",
+      "inputEdition": "1976（昭和51）年4月1日第2刷",
+      "proofreadEdition": "1976（昭和51）年4月1日第2刷"
+    },
+    "author": "ガールシンフセヴォロド・ミハイロヴィチ",
+    "authors": [
+      {
+        "personId": "000340",
+        "name": "ガールシンフセヴォロド・ミハイロヴィチ",
+        "kana": "ガールシンフセヴォロド・ミハイロヴィチ",
+        "roman": "Vsevolod Mikhailvich Garshin",
+        "role": "著者",
+        "birthDate": "1855-02-14",
+        "deathDate": "1888-04-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

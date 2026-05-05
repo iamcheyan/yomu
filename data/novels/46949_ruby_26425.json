@@ -138,5 +138,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046949",
+    "title": "折口といふ名字",
+    "titleKana": "おりくちといふみょうじ",
+    "sortKana": "おりくちといふみようし",
+    "firstAppearance": "「土俗と伝説　第一巻第二号」1918（大正7）年9月、「土俗と伝説　第一巻第四号」1919（大正8）年1月",
+    "ndc": "NDC 288",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-05-11",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card46949.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/46949_ruby_26425.zip",
+    "textFileId": "46949_ruby_26425",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/46949_26568.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "折口信夫全集　3",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1995（平成7）年4月10日",
+      "inputEdition": "1995（平成7）年4月10日初版",
+      "proofreadEdition": "1995（平成7）年4月10日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

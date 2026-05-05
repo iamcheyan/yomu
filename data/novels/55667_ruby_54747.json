@@ -46,5 +46,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055667",
+    "title": "うらむらさき",
+    "titleKana": "うらむらさき",
+    "sortKana": "うらむらさき",
+    "firstAppearance": "「新文壇　二號」1896（明治29）年2月5日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-11-29",
+    "updatedAt": "2014-10-23",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000064/card55667.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000064/files/55667_ruby_54747.zip",
+    "textFileId": "55667_ruby_54747",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000064/files/55667_54792.html",
+    "inputBy": "万波通彦",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "樋口一葉全集第二卷",
+      "publisher": "新世社",
+      "firstPublishedAt": "1941（昭和16）年7月18日",
+      "inputEdition": "1942（昭和17）年4月10日再版",
+      "proofreadEdition": "1941（昭和16）年7月18日初版"
+    },
+    "author": "樋口一葉",
+    "authors": [
+      {
+        "personId": "000064",
+        "name": "樋口一葉",
+        "kana": "ひぐちいちよう",
+        "roman": "Ichiyo Higuchi",
+        "role": "著者",
+        "birthDate": "1872-05-02",
+        "deathDate": "1896-11-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -270,5 +270,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "061236",
+    "title": "実験室",
+    "titleKana": "じっけんしつ",
+    "sortKana": "しつけんしつ",
+    "firstAppearance": "「中央公論　第三十二年第十號秋期大附録號」1917（大正6）年9月1日",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2023-03-04",
+    "updatedAt": "2023-02-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000025/card61236.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000025/files/61236_ruby_77094.zip",
+    "textFileId": "61236_ruby_77094",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000025/files/61236_77093.html",
+    "inputBy": "木村杏実",
+    "proofreadBy": "きりんの手紙",
+    "baseBook1": {
+      "title": "有島武郎全集第三卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1980（昭和55）年6月30日",
+      "inputEdition": "1980（昭和55）年6月30日初版",
+      "proofreadEdition": "1980（昭和55）年6月30日初版"
+    },
+    "author": "有島武郎",
+    "authors": [
+      {
+        "personId": "000025",
+        "name": "有島武郎",
+        "kana": "ありしまたけお",
+        "roman": "Takeo Arishima",
+        "role": "著者",
+        "birthDate": "1878-03-04",
+        "deathDate": "1923-06-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

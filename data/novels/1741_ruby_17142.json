@@ -192,5 +192,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001741",
+    "title": "斗南先生",
+    "titleKana": "となんせんせい",
+    "sortKana": "となんせんせい",
+    "firstAppearance": "「光と風と夢」1942（昭和17）年7月15日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-01-18",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000119/card1741.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000119/files/1741_ruby_17142.zip",
+    "textFileId": "1741_ruby_17142",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000119/files/1741_17364.html",
+    "inputBy": "川向直樹",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "山月記・李陵他九篇",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1994（平成6）年7月18日",
+      "inputEdition": "2003（平成15）年8月25日第16刷",
+      "proofreadEdition": "1995（平成7）年4月15日第2刷"
+    },
+    "author": "中島敦",
+    "authors": [
+      {
+        "personId": "000119",
+        "name": "中島敦",
+        "kana": "なかじまあつし",
+        "roman": "Atsushi Nakajima",
+        "role": "著者",
+        "birthDate": "1909-05-05",
+        "deathDate": "1942-12-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

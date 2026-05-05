@@ -38,5 +38,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050502",
+    "title": "北海道に就いての印象",
+    "titleKana": "ほっかいどうについてのいんしょう",
+    "sortKana": "ほつかいとうについてのいんしよう",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-04-04",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000025/card50502.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000025/files/50502_ruby_37492.zip",
+    "textFileId": "50502_ruby_37492",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000025/files/50502_38417.html",
+    "inputBy": "田中敬三",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "北海道文学全集　第3巻",
+      "publisher": "立風書房",
+      "firstPublishedAt": "1980（昭和55）年3月10日",
+      "inputEdition": "1980（昭和55）年3月10日初版第1刷",
+      "proofreadEdition": "1980（昭和55）年3月10日初版第1刷"
+    },
+    "author": "有島武郎",
+    "authors": [
+      {
+        "personId": "000025",
+        "name": "有島武郎",
+        "kana": "ありしまたけお",
+        "roman": "Takeo Arishima",
+        "role": "著者",
+        "birthDate": "1878-03-04",
+        "deathDate": "1923-06-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -66,5 +66,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004703",
+    "title": "山陰の風景",
+    "titleKana": "さんいんのふうけい",
+    "sortKana": "さんいんのふうけい",
+    "subtitle": "――歌になるところ――",
+    "subtitleKana": "――うたになるところ――",
+    "ndc": "NDC 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-09-21",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000526/card4703.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000526/files/4703_ruby_19306.zip",
+    "textFileId": "4703_ruby_19306",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000526/files/4703_19342.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "現代日本紀行文学全集　西日本編",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1976（昭和51）年8月1日",
+      "inputEdition": "1976（昭和51）年8月1日初版",
+      "proofreadEdition": "1976（昭和51）年8月1日初版"
+    },
+    "author": "木下利玄",
+    "authors": [
+      {
+        "personId": "000526",
+        "name": "木下利玄",
+        "kana": "きのしたりげん",
+        "roman": "Rigen Kinoshita",
+        "role": "著者",
+        "birthDate": "1886-01-01",
+        "deathDate": "1925-02-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

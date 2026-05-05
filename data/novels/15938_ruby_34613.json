@@ -38,5 +38,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "015938",
+    "title": "元禄時代小説第一巻「本朝二十不孝」ぬきほ（言文一致訳）",
+    "titleKana": "げんろくじだいしょうせつだいいっかん「ほんちょうにじゅうふこう」ぬきほ（げんぶんいっちやく）",
+    "sortKana": "けんろくしたいしようせつたいいつかんほんちようにしゆうふこうぬきほけんふんいつちやく",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-05-20",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001216/card15938.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001216/files/15938_ruby_34613.zip",
+    "textFileId": "15938_ruby_34613",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001216/files/15938_35056.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "宮本百合子全集　第二十八巻",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1981（昭和56）年11月25日",
+      "inputEdition": "1986（昭和61）年3月20日第6刷",
+      "proofreadEdition": "1986（昭和61）年3月20日第6刷"
+    },
+    "author": "井原西鶴",
+    "authors": [
+      {
+        "personId": "001216",
+        "name": "井原西鶴",
+        "kana": "いはらさいかく",
+        "roman": "Saikaku Ihara",
+        "role": "著者",
+        "birthDate": "1642",
+        "deathDate": "1693-09-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

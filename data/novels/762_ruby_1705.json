@@ -44,5 +44,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000762",
+    "title": "長谷川君と余",
+    "titleKana": "はせがわくんとよ",
+    "sortKana": "はせかわくんとよ",
+    "firstAppearance": "「朝日新聞」1909（明治42）年8月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-05-12",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000148/card762.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000148/files/762_ruby_1705.zip",
+    "textFileId": "762_ruby_1705",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000148/files/762_14960.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "大野晋",
+    "baseBook1": {
+      "title": "夏目漱石全集10",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1988（昭和63）年7月26日",
+      "inputEdition": "1988（昭和63）年7月26日第1刷"
+    },
+    "author": "夏目漱石",
+    "authors": [
+      {
+        "personId": "000148",
+        "name": "夏目漱石",
+        "kana": "なつめそうせき",
+        "roman": "Soseki Natsume",
+        "role": "著者",
+        "birthDate": "1867-02-09",
+        "deathDate": "1916-12-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

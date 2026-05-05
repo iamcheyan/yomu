@@ -402,5 +402,51 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055745",
+    "title": "青空文庫ものがたり",
+    "titleKana": "あおぞらぶんこものがたり",
+    "sortKana": "あおそらふんこものかたり",
+    "subtitle": "インターネット図書館の開設から今日まで",
+    "subtitleKana": "インターネットとしょかんのかいせつからこんにちまで",
+    "ndc": "NDC 010",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2012-12-25",
+    "updatedAt": "2016-02-12",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001739/card55745.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001739/files/55745_ruby_49421.zip",
+    "textFileId": "55745_ruby_49421",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001739/files/55745_58656.html",
+    "inputBy": "野口英司、宮川典子",
+    "proofreadBy": "八巻美恵、宮川典子",
+    "baseBook1": {
+      "title": "インターネット図書館　青空文庫",
+      "publisher": "はる書房",
+      "firstPublishedAt": "2005（平成17）年11月15日",
+      "inputEdition": "2005（平成17）年11月15日初版第1刷",
+      "proofreadEdition": "2005（平成17）年11月15日初版第1刷"
+    },
+    "author": "野口英司、宮川典子",
+    "authors": [
+      {
+        "personId": "001739",
+        "name": "野口英司",
+        "kana": "のぐちえいじ",
+        "roman": "Eiji Noguchi",
+        "role": "著者",
+        "copyright": "あり"
+      },
+      {
+        "personId": "001740",
+        "name": "宮川典子",
+        "kana": "みやかわふみこ",
+        "roman": "Fumiko Miyakawa",
+        "role": "著者",
+        "copyright": "あり"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -1040,5 +1040,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002391",
+    "title": "残されたる江戸",
+    "titleKana": "のこされたるえど",
+    "sortKana": "のこされたるえと",
+    "ndc": "NDC 213",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-06-28",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000342/card2391.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000342/files/2391_ruby_18576.zip",
+    "textFileId": "2391_ruby_18576",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000342/files/2391_18586.html",
+    "inputBy": "網迫、土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "残されたる江戸",
+      "publisher": "中公文庫、中央公論社",
+      "firstPublishedAt": "1990（平成2）年6月10日",
+      "inputEdition": "1990（平成2）年6月10日",
+      "proofreadEdition": "1990（平成2）年6月10日"
+    },
+    "author": "柴田流星",
+    "authors": [
+      {
+        "personId": "000342",
+        "name": "柴田流星",
+        "kana": "しばたりゅうせい",
+        "roman": "Ryusei Shibata",
+        "role": "著者",
+        "birthDate": "1879-02-28",
+        "deathDate": "1913-09-27",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

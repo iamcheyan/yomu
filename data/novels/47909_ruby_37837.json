@@ -52,5 +52,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047909",
+    "title": "心の仕事を",
+    "titleKana": "こころのしごとを",
+    "sortKana": "こころのしことを",
+    "subtitle": "或未知の友への手紙",
+    "subtitleKana": "あるみちのともへのてがみ",
+    "ndc": "NDC 914 950",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-04-29",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001030/card47909.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001030/files/47909_ruby_37837.zip",
+    "textFileId": "47909_ruby_37837",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001030/files/47909_38464.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "堀辰雄作品集第五卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1982（昭和57）年9月30日",
+      "inputEdition": "1982（昭和57）年9月30日初版第1刷",
+      "proofreadEdition": "1982（昭和57）年9月30日初版第1刷"
+    },
+    "author": "堀辰雄",
+    "authors": [
+      {
+        "personId": "001030",
+        "name": "堀辰雄",
+        "kana": "ほりたつお",
+        "roman": "Tatsuo Hori",
+        "role": "著者",
+        "birthDate": "1904-12-28",
+        "deathDate": "1953-05-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -54,5 +54,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050635",
+    "title": "美的生活論とニイチエ",
+    "titleKana": "びてきせいかつろんとニイチェ",
+    "sortKana": "ひてきせいかつろんとにいちえ",
+    "ndc": "NDC 134 701",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-12-12",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001455/card50635.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001455/files/50635_ruby_36882.zip",
+    "textFileId": "50635_ruby_36882",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001455/files/50635_37256.html",
+    "inputBy": "田中敬三",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "近代浪漫派文庫　14　登張竹風　生田長江",
+      "publisher": "新学社",
+      "firstPublishedAt": "2006（平成18）年3月12日",
+      "inputEdition": "2006（平成18）年3月12日第1刷",
+      "proofreadEdition": "2006（平成18）年3月12日第1刷"
+    },
+    "author": "登張竹風",
+    "authors": [
+      {
+        "personId": "001455",
+        "name": "登張竹風",
+        "kana": "とばりちくふう",
+        "roman": "Chikufu Tobari",
+        "role": "著者",
+        "birthDate": "1873-10-02",
+        "deathDate": "1955-01-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

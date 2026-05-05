@@ -126,5 +126,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046950",
+    "title": "古代生活に見えた恋愛",
+    "titleKana": "こだいせいかつにみえたれんあい",
+    "sortKana": "こたいせいかつにみえたれんあい",
+    "firstAppearance": "「人生創造　第二五号」1926（大正15）年6月",
+    "ndc": "NDC 384 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-10-14",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card46950.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/46950_ruby_27830.zip",
+    "textFileId": "46950_ruby_27830",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/46950_27949.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "折口信夫全集　1",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1995（平成7）年2月10日",
+      "inputEdition": "1995（平成7）年2月10日初版",
+      "proofreadEdition": "1995（平成7）年2月10日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

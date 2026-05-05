@@ -52,5 +52,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000438",
+    "title": "ある男の死",
+    "titleKana": "あるおとこのし",
+    "sortKana": "あるおとこのし",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-07-11",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000076/card438.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000076/files/438_ruby_23854.zip",
+    "textFileId": "438_ruby_23854",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000076/files/438_23855.html",
+    "inputBy": "渡邉つよし",
+    "proofreadBy": "菅野朋子",
+    "baseBook1": {
+      "title": "日本の名随筆69　男",
+      "publisher": "作品社",
+      "firstPublishedAt": "1988（昭和63）年7月25日",
+      "inputEdition": "1991（平成3）年10月20日第7刷"
+    },
+    "author": "岡本かの子",
+    "authors": [
+      {
+        "personId": "000076",
+        "name": "岡本かの子",
+        "kana": "おかもとかのこ",
+        "roman": "Kanoko Okamoto",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1939-02-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

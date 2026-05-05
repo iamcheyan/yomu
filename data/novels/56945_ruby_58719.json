@@ -996,5 +996,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056945",
+    "title": "聞書抄",
+    "titleKana": "ききがきしょう",
+    "sortKana": "ききかきしよう",
+    "subtitle": "第二盲目物語",
+    "subtitleKana": "だいにもうもくものがたり",
+    "firstAppearance": "「大阪毎日新聞」「東京日日新聞」1935（昭和10）年1月5日～6月15日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-04-24",
+    "updatedAt": "2016-03-04",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001383/card56945.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001383/files/56945_ruby_58719.zip",
+    "textFileId": "56945_ruby_58719",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001383/files/56945_58757.html",
+    "inputBy": "kompass",
+    "proofreadBy": "酒井裕二",
+    "baseBook1": {
+      "title": "聞書抄",
+      "publisher": "中公文庫、中央公論新社",
+      "firstPublishedAt": "1984（昭和59）年7月10日",
+      "inputEdition": "2005（平成17）年9月25日改版",
+      "proofreadEdition": "2005（平成17）年9月25日改版"
+    },
+    "author": "谷崎潤一郎",
+    "authors": [
+      {
+        "personId": "001383",
+        "name": "谷崎潤一郎",
+        "kana": "たにざきじゅんいちろう",
+        "roman": "Jun'ichiro Tanizaki",
+        "role": "著者",
+        "birthDate": "1886-07-24",
+        "deathDate": "1965-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

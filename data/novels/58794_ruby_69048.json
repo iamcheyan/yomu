@@ -36,5 +36,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058794",
+    "title": "宇野浩二君を思う",
+    "titleKana": "うのこうじくんをおもう",
+    "sortKana": "うのこうしくんをおもう",
+    "firstAppearance": "「河北新報」1961（昭和36）年9月25日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-09-21",
+    "updatedAt": "2019-08-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001763/card58794.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001763/files/58794_ruby_69048.zip",
+    "textFileId": "58794_ruby_69048",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001763/files/58794_69139.html",
+    "inputBy": "えんどう豆",
+    "proofreadBy": "きりんの手紙",
+    "baseBook1": {
+      "title": "定本　佐藤春夫全集　第26巻",
+      "publisher": "臨川書店",
+      "firstPublishedAt": "2000（平成12）年9月10日",
+      "inputEdition": "2000（平成12）年9月10日初版",
+      "proofreadEdition": "2000（平成12）年9月10日初版"
+    },
+    "author": "佐藤春夫",
+    "authors": [
+      {
+        "personId": "001763",
+        "name": "佐藤春夫",
+        "kana": "さとうはるお",
+        "roman": "Haruo Sato",
+        "role": "著者",
+        "birthDate": "1892-04-09",
+        "deathDate": "1964-05-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

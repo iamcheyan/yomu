@@ -2280,5 +2280,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056892",
+    "title": "小桜姫物語",
+    "titleKana": "こざくらひめものがたり",
+    "sortKana": "こさくらひめものかたり",
+    "subtitle": "02 序",
+    "subtitleKana": "02 じょ",
+    "ndc": "NDC 147",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-10-09",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001081/card56892.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001081/files/56892_txt_53716.zip",
+    "textFileId": "56892_txt_53716",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001081/files/56892_53717.html",
+    "inputBy": "浅野和三郎・著作保存会",
+    "proofreadBy": "POKEPEEK2011",
+    "baseBook1": {
+      "title": "霊界通信　小桜姫物語",
+      "publisher": "潮文社",
+      "firstPublishedAt": "1985（昭和60）年7月31日",
+      "inputEdition": "1998（平成10）年7月31日第9刷"
+    },
+    "author": "土井晩翠",
+    "authors": [
+      {
+        "personId": "001081",
+        "name": "土井晩翠",
+        "kana": "どいばんすい",
+        "roman": "Bansui Doi",
+        "role": "著者",
+        "birthDate": "1871-12-05",
+        "deathDate": "1952-10-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -34,5 +34,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043654",
+    "title": "アブセンス・オブ・マインド",
+    "titleKana": "アブセンス・オブ・マインド",
+    "sortKana": "あふせんすおふまいんと",
+    "firstAppearance": "「新風土」1939（昭和14）年1月",
+    "ndc": "NDC 121",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-04-09",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000182/card43654.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000182/files/43654_ruby_21728.zip",
+    "textFileId": "43654_ruby_21728",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000182/files/43654_22316.html",
+    "inputBy": "nns",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "続思索と体験『続思索と体験』以後",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1980（昭和55）年10月16日",
+      "inputEdition": "1980（昭和55）年10月16日第1刷",
+      "proofreadEdition": "1980（昭和55）年10月16日第1刷"
+    },
+    "author": "西田幾多郎",
+    "authors": [
+      {
+        "personId": "000182",
+        "name": "西田幾多郎",
+        "kana": "にしだきたろう",
+        "roman": "Kitaro Nishida",
+        "role": "著者",
+        "birthDate": "1870-06-17",
+        "deathDate": "1945-06-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

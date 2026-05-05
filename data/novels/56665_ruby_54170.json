@@ -44,5 +44,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056665",
+    "title": "梯梧の花",
+    "titleKana": "でいごのはな",
+    "sortKana": "ていこのはな",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-09-14",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001693/card56665.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001693/files/56665_ruby_54170.zip",
+    "textFileId": "56665_ruby_54170",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001693/files/56665_54209.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "花の名随筆5　五月の花",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年4月10日",
+      "inputEdition": "1999（平成11）年4月10日初版第1刷",
+      "proofreadEdition": "1999（平成11）年4月10日初版第1刷"
+    },
+    "author": "山之口貘",
+    "authors": [
+      {
+        "personId": "001693",
+        "name": "山之口貘",
+        "kana": "やまのくちばく",
+        "roman": "Baku Yamanokuchi",
+        "role": "著者",
+        "birthDate": "1903-09-11",
+        "deathDate": "1963-07-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

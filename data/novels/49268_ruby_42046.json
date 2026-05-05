@@ -72,5 +72,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049268",
+    "title": "甲州郡内妖怪事件取り調べ報告",
+    "titleKana": "こうしゅうぐんないようかいじけんとりしらべほうこく",
+    "sortKana": "こうしゆうくんないようかいしけんとりしらへほうこく",
+    "firstAppearance": "「東京朝日新聞」1894（明治27）年5月8、9、11、12日",
+    "ndc": "NDC 147",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-03-29",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001021/card49268.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001021/files/49268_ruby_42046.zip",
+    "textFileId": "49268_ruby_42046",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001021/files/49268_42258.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "井上円了　妖怪学全集　第6巻",
+      "publisher": "柏書房",
+      "firstPublishedAt": "2001（平成13）年6月5日",
+      "inputEdition": "2001（平成13）年6月5日第1刷",
+      "proofreadEdition": "2001（平成13）年6月5日第1刷"
+    },
+    "author": "井上円了",
+    "authors": [
+      {
+        "personId": "001021",
+        "name": "井上円了",
+        "kana": "いのうええんりょう",
+        "roman": "Enryo Inoue",
+        "role": "著者",
+        "birthDate": "1858-03-18",
+        "deathDate": "1919-06-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

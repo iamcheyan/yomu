@@ -154,5 +154,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053970",
+    "title": "赤兵の歌",
+    "titleKana": "せきへいのうた",
+    "sortKana": "せきへいのうた",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-03-05",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001612/card53970.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001612/files/53970_ruby_45596.zip",
+    "textFileId": "53970_ruby_45596",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001612/files/53970_49628.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "石津大介",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・38　プロレタリア詩集（一）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年5月25日",
+      "inputEdition": "1987（昭和62）年5月25日初版",
+      "proofreadEdition": "1987（昭和62）年5月25日初版"
+    },
+    "author": "江森盛弥",
+    "authors": [
+      {
+        "personId": "001612",
+        "name": "江森盛弥",
+        "kana": "えもりもりや",
+        "roman": "Moriya Emori",
+        "role": "著者",
+        "birthDate": "1903-08-18",
+        "deathDate": "1960-04-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

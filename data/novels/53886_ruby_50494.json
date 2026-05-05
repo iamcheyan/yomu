@@ -502,5 +502,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053886",
+    "title": "あの世の入口",
+    "titleKana": "あのよのいりぐち",
+    "sortKana": "あのよのいりくち",
+    "subtitle": "――いわゆる地獄穴について――",
+    "subtitleKana": "――いわゆるじごくあなについて――",
+    "firstAppearance": "「北方文化研究報告　第十一輯」1956（昭和31）年3月",
+    "ndc": "NDC 387",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-07-05",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001540/card53886.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001540/files/53886_ruby_50494.zip",
+    "textFileId": "53886_ruby_50494",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001540/files/53886_50777.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "和人は舟を食う",
+      "publisher": "北海道出版企画センター",
+      "firstPublishedAt": "2000（平成12）年6月9日",
+      "inputEdition": "2000（平成12）年6月9日",
+      "proofreadEdition": "2000（平成12）年6月9日"
+    },
+    "author": "知里真志保",
+    "authors": [
+      {
+        "personId": "001540",
+        "name": "知里真志保",
+        "kana": "ちりましほ",
+        "roman": "Mashiho Chiri",
+        "role": "著者",
+        "birthDate": "1909-02-24",
+        "deathDate": "1961-06-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

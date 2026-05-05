@@ -134,5 +134,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046923",
+    "title": "褐色の求道",
+    "titleKana": "かっしょくのぐどう",
+    "sortKana": "かつしよくのくとう",
+    "firstAppearance": "「宗教公論」1935（昭和10）年2、3月号",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-11-05",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000076/card46923.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000076/files/46923_ruby_33244.zip",
+    "textFileId": "46923_ruby_33244",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000076/files/46923_33263.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "オサムラヒロ",
+    "baseBook1": {
+      "title": "岡本かの子全集2",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1994（平成6）年2月24日",
+      "inputEdition": "1994（平成6）年2月24日第1刷",
+      "proofreadEdition": "1994（平成6）年2月24日第1刷"
+    },
+    "author": "岡本かの子",
+    "authors": [
+      {
+        "personId": "000076",
+        "name": "岡本かの子",
+        "kana": "おかもとかのこ",
+        "roman": "Kanoko Okamoto",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1939-02-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

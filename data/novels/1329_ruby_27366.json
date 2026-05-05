@@ -72,5 +72,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001329",
+    "title": "臨終まで",
+    "titleKana": "りんじゅうまで",
+    "sortKana": "りんしゆうまて",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-08-07",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000244/card1329.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000244/files/1329_ruby_27366.zip",
+    "textFileId": "1329_ruby_27366",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000244/files/1329_27721.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆8　死",
+      "publisher": "作品社",
+      "firstPublishedAt": "1983（昭和58）年3月25日",
+      "inputEdition": "1985（昭和60）年9月30日第5刷",
+      "proofreadEdition": "1999（平成11）年11月20日第23刷"
+    },
+    "author": "梶井久",
+    "authors": [
+      {
+        "personId": "000244",
+        "name": "梶井久",
+        "kana": "かじいひさ",
+        "roman": "Hisa Kajii",
+        "role": "著者",
+        "birthDate": "1870",
+        "deathDate": "1946",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

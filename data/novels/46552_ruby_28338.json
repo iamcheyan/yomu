@@ -32,5 +32,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046552",
+    "title": "兆民居士安くにかある",
+    "titleKana": "ちょうみんこじいずくにかある",
+    "sortKana": "ちようみんこしいすくにかある",
+    "firstAppearance": "「評論　十三號」女學雜誌社、1893（明治26）年9月23日",
+    "ndc": "NDC 121",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-12-28",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000157/card46552.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000157/files/46552_ruby_28338.zip",
+    "textFileId": "46552_ruby_28338",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000157/files/46552_28822.html",
+    "inputBy": "kamille",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "現代日本文學大系　6　北村透谷・山路愛山集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1969（昭和44）年6月5日",
+      "inputEdition": "1985（昭和60）年11月10日初版第15刷",
+      "proofreadEdition": "1988（昭和63）年7月25日初版第15刷"
+    },
+    "author": "北村透谷",
+    "authors": [
+      {
+        "personId": "000157",
+        "name": "北村透谷",
+        "kana": "きたむらとうこく",
+        "roman": "Tokoku Kitamura",
+        "role": "著者",
+        "birthDate": "1868-12-29",
+        "deathDate": "1894-05-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

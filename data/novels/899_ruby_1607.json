@@ -806,5 +806,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000899",
+    "title": "優しき歌　Ⅰ・Ⅱ",
+    "titleKana": "やさしきうた　いち・に",
+    "sortKana": "やさしきうたいちに",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-03-09",
+    "updatedAt": "2019-09-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000011/card899.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000011/files/899_ruby_1607.zip",
+    "textFileId": "899_ruby_1607",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000011/files/899_27483.html",
+    "inputBy": "山口美佐",
+    "baseBook1": {
+      "title": "立原道造詩集",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1988（昭和63）年3月16日",
+      "inputEdition": "1997（平成9）年9月5日第14刷"
+    },
+    "author": "立原道造",
+    "authors": [
+      {
+        "personId": "000011",
+        "name": "立原道造",
+        "kana": "たちはらみちぞう",
+        "roman": "Michizo Tachihara",
+        "role": "著者",
+        "birthDate": "1914-07-30",
+        "deathDate": "1939-03-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

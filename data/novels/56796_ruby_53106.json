@@ -6320,5 +6320,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056796",
+    "title": "道順は彼女に訊く",
+    "titleKana": "みちじゅんはかのじょにきく",
+    "sortKana": "みちしゆんはかのしよにきく",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2014-04-07",
+    "updatedAt": "2018-06-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001506/card56796.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001506/files/56796_ruby_53106.zip",
+    "textFileId": "56796_ruby_53106",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001506/files/56796_53241.html",
+    "inputBy": "八巻美恵",
+    "proofreadBy": "高橋雅康",
+    "baseBook1": {
+      "title": "道順は彼女に訊く",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "2001（平成13）年11月25日",
+      "inputEdition": "2001（平成13）年11月25日初版",
+      "proofreadEdition": "2001（平成13）年11月25日初版"
+    },
+    "author": "片岡義男",
+    "authors": [
+      {
+        "personId": "001506",
+        "name": "片岡義男",
+        "kana": "かたおかよしお",
+        "roman": "Yoshio Kataoka",
+        "role": "著者",
+        "birthDate": "1939-03-20",
+        "copyright": "あり"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

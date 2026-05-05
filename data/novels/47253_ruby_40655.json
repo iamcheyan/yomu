@@ -86,5 +86,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047253",
+    "title": "支那の思出",
+    "titleKana": "しなのおもいで",
+    "sortKana": "しなのおもいて",
+    "firstAppearance": "「東方公論」1939（昭和14）年12月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-12-22",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card47253.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/47253_ruby_40655.zip",
+    "textFileId": "47253_ruby_40655",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/47253_41493.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "阿和泉拓",
+    "baseBook1": {
+      "title": "国枝史郎歴史小説傑作選",
+      "publisher": "作品社",
+      "firstPublishedAt": "2006（平成18）年3月30日",
+      "inputEdition": "2006（平成18）年3月30日第1刷",
+      "proofreadEdition": "2006（平成18）年3月30日第1刷"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -4780,5 +4780,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055718",
+    "title": "少女時代",
+    "titleKana": "しょうじょじだい",
+    "sortKana": "しようしよしたい",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2012-12-01",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001506/card55718.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001506/files/55718_ruby_49155.zip",
+    "textFileId": "55718_ruby_49155",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001506/files/55718_49156.html",
+    "inputBy": "八巻美恵",
+    "proofreadBy": "高橋雅康",
+    "baseBook1": {
+      "title": "少女時代",
+      "publisher": "双葉文庫、双葉社",
+      "firstPublishedAt": "1993（平成5）年5月15日",
+      "inputEdition": "1993（平成5）年5月15日第1刷",
+      "proofreadEdition": "1993（平成5）年5月15日第1刷"
+    },
+    "author": "片岡義男",
+    "authors": [
+      {
+        "personId": "001506",
+        "name": "片岡義男",
+        "kana": "かたおかよしお",
+        "roman": "Yoshio Kataoka",
+        "role": "著者",
+        "birthDate": "1939-03-20",
+        "copyright": "あり"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

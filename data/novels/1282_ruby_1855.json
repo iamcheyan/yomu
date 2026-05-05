@@ -1758,5 +1758,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001282",
+    "title": "母子叙情",
+    "titleKana": "ぼしじょじょう",
+    "sortKana": "ほししよしよう",
+    "firstAppearance": "「文学界」1937（昭和12）年3月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-05-07",
+    "updatedAt": "2017-06-04",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000076/card1282.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000076/files/1282_ruby_1855.zip",
+    "textFileId": "1282_ruby_1855",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000076/files/1282_47203.html",
+    "inputBy": "阿部良子",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "昭和文学全集　第5巻",
+      "publisher": "小学館",
+      "firstPublishedAt": "1986（昭和61）年12月1日"
+    },
+    "author": "岡本かの子",
+    "authors": [
+      {
+        "personId": "000076",
+        "name": "岡本かの子",
+        "kana": "おかもとかのこ",
+        "roman": "Kanoko Okamoto",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1939-02-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

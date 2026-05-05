@@ -58,5 +58,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060727",
+    "title": "金銀の衣裳",
+    "titleKana": "きんぎんのいしょう",
+    "sortKana": "きんきんのいしよう",
+    "firstAppearance": "「九州日報」1919（大正8）年6月30日",
+    "ndc": "NDC K913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-01-04",
+    "updatedAt": "2021-12-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000096/card60727.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000096/files/60727_ruby_74755.zip",
+    "textFileId": "60727_ruby_74755",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000096/files/60727_74789.html",
+    "inputBy": "佐藤すだれ",
+    "proofreadBy": "木村杏実",
+    "baseBook1": {
+      "title": "定本　夢野久作全集　全8巻　6",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "2019（令和元）年5月24日",
+      "inputEdition": "2019（令和元）年5月24日初版第1刷",
+      "proofreadEdition": "2019（令和元）年5月24日初版第1刷"
+    },
+    "author": "夢野久作",
+    "authors": [
+      {
+        "personId": "000096",
+        "name": "夢野久作",
+        "kana": "ゆめのきゅうさく",
+        "roman": "Kyusaku Yumeno",
+        "role": "著者",
+        "birthDate": "1889-01-04",
+        "deathDate": "1936-03-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -54,5 +54,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060612",
+    "title": "亜米利加の思出",
+    "titleKana": "あめりかのおもいで",
+    "sortKana": "あめりかのおもいて",
+    "firstAppearance": "「新生　第一巻第二号」新生社、1945（昭和20）年12月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-11-12",
+    "updatedAt": "2022-02-11",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001341/card60612.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001341/files/60612_ruby_74376.zip",
+    "textFileId": "60612_ruby_74376",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001341/files/60612_74414.html",
+    "inputBy": "入江幹夫",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "問はずがたり・吾妻橋　他十六篇",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2019（令和元）年8月20日",
+      "inputEdition": "2019（令和元）年8月20日第1刷",
+      "proofreadEdition": "2019（令和元）年8月20日第1刷"
+    },
+    "author": "永井荷風",
+    "authors": [
+      {
+        "personId": "001341",
+        "name": "永井荷風",
+        "kana": "ながいかふう",
+        "roman": "Kafu Nagai",
+        "role": "著者",
+        "birthDate": "1879-12-03",
+        "deathDate": "1959-04-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

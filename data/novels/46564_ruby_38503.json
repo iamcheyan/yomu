@@ -70,5 +70,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046564",
+    "title": "東京湾怪物譚",
+    "titleKana": "とうきょうわんかいぶつたん",
+    "sortKana": "とうきようわんかいふつたん",
+    "ndc": "NDC 787 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-07-03",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001248/card46564.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001248/files/46564_ruby_38503.zip",
+    "textFileId": "46564_ruby_38503",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001248/files/46564_39450.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "山本弘子",
+    "baseBook1": {
+      "title": "集成　日本の釣り文学　第九巻　釣り話　魚話",
+      "publisher": "作品社",
+      "firstPublishedAt": "1996（平成8）年10月10日",
+      "inputEdition": "1996（平成8）年10月10日第1刷",
+      "proofreadEdition": "1996（平成8）年10月10日第1刷"
+    },
+    "author": "佐藤垢石",
+    "authors": [
+      {
+        "personId": "001248",
+        "name": "佐藤垢石",
+        "kana": "さとうこうせき",
+        "roman": "Koseki Sato",
+        "role": "著者",
+        "birthDate": "1888-06-18",
+        "deathDate": "1956-07-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

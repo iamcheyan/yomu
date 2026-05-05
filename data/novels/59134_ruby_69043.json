@@ -276,5 +276,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059134",
+    "title": "紅葉",
+    "titleKana": "もみじ",
+    "sortKana": "もみし",
+    "ndc": "NDC 911 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-09-18",
+    "updatedAt": "2019-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000058/card59134.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000058/files/59134_ruby_69043.zip",
+    "textFileId": "59134_ruby_69043",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000058/files/59134_69134.html",
+    "inputBy": "高瀬竜一",
+    "proofreadBy": "きりんの手紙",
+    "baseBook1": {
+      "title": "左千夫全集　第二卷",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1976（昭和51）年11月25日",
+      "inputEdition": "1976（昭和51）年11月25日",
+      "proofreadEdition": "1976（昭和51）年11月25日"
+    },
+    "author": "伊藤左千夫",
+    "authors": [
+      {
+        "personId": "000058",
+        "name": "伊藤左千夫",
+        "kana": "いとうさちお",
+        "roman": "Sachio Ito",
+        "role": "著者",
+        "birthDate": "1864-09-18",
+        "deathDate": "1913-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

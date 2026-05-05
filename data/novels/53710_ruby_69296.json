@@ -40,5 +40,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053710",
+    "title": "二人‥‥１‥‥",
+    "titleKana": "ふたり１",
+    "sortKana": "ふたり１",
+    "firstAppearance": "「朝鮮と建築　第十集第八号」朝鮮建築会、1931（昭和6）年8月",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-10-25",
+    "updatedAt": "2019-09-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001597/card53710.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001597/files/53710_ruby_69296.zip",
+    "textFileId": "53710_ruby_69296",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001597/files/53710_69348.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "きゅうり",
+    "baseBook1": {
+      "title": "李箱作品集成",
+      "publisher": "作品社",
+      "firstPublishedAt": "2006（平成18）年9月15日",
+      "inputEdition": "2006（平成18）年9月15日第1刷",
+      "proofreadEdition": "2006（平成18）年9月15日第1刷"
+    },
+    "author": "李箱",
+    "authors": [
+      {
+        "personId": "001597",
+        "name": "李箱",
+        "kana": "いさん",
+        "roman": "Sang I",
+        "role": "著者",
+        "birthDate": "1910-09-23",
+        "deathDate": "1937-04-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

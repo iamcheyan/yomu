@@ -182,5 +182,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053969",
+    "title": "プロパガンダ",
+    "titleKana": "プロパガンダ",
+    "sortKana": "ふろはかんた",
+    "firstAppearance": "「労働文学」1919（大正8）年3月創刊号",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-01-28",
+    "updatedAt": "2015-12-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000919/card53969.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000919/files/53969_ruby_57886.zip",
+    "textFileId": "53969_ruby_57886",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000919/files/53969_57935.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・38　プロレタリア詩集（一）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年5月25日",
+      "inputEdition": "1987（昭和62）年5月25日初版",
+      "proofreadEdition": "1987（昭和62）年5月25日初版"
+    },
+    "author": "加藤一夫",
+    "authors": [
+      {
+        "personId": "000919",
+        "name": "加藤一夫",
+        "kana": "かとうかずお",
+        "roman": "Kazuo Kato",
+        "role": "著者",
+        "birthDate": "1887-02-28",
+        "deathDate": "1951-01-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

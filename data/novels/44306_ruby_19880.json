@@ -58,5 +58,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "044306",
+    "title": "訳者より著者へ",
+    "titleKana": "やくしゃよりちょしゃへ",
+    "sortKana": "やくしやよりちよしやへ",
+    "subtitle": "――「葡萄畑の葡萄作り」――序",
+    "subtitleKana": "――「ぶどうばたけのぶどうづくり」――じょ",
+    "firstAppearance": "「葡萄畑の葡萄作り」春陽堂、1924（大正13）年4月8日",
+    "ndc": "NDC 953 954",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-04-06",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001154/card44306.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001154/files/44306_ruby_19880.zip",
+    "textFileId": "44306_ruby_19880",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001154/files/44306_21824.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "岸田國士全集19",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1989（平成元）年12月8日",
+      "inputEdition": "1989（平成元）年12月8日",
+      "proofreadEdition": "1989（平成元）年12月8日"
+    },
+    "author": "岸田国士",
+    "authors": [
+      {
+        "personId": "001154",
+        "name": "岸田国士",
+        "kana": "きしだくにお",
+        "roman": "Kunio Kishida",
+        "role": "著者",
+        "birthDate": "1890-11-02",
+        "deathDate": "1954-03-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

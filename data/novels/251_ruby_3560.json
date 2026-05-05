@@ -126,5 +126,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000251",
+    "title": "誰",
+    "titleKana": "だれ",
+    "sortKana": "たれ",
+    "firstAppearance": "「知性」1941（昭和16）年12月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-03-27",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card251.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/251_ruby_3560.zip",
+    "textFileId": "251_ruby_3560",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/251_15072.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "もりみつじゅんじ",
+    "baseBook1": {
+      "title": "太宰治全集4",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1988（昭和63）年12月1日",
+      "inputEdition": "1988（昭和63）年12月1日第1刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

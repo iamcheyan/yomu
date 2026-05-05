@@ -46,5 +46,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043049",
+    "title": "お住の霊",
+    "titleKana": "おすみのれい",
+    "sortKana": "おすみのれい",
+    "firstAppearance": "「文藝倶楽部」1902（明治35）年4月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-08-22",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000082/card43049.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000082/files/43049_ruby_16390.zip",
+    "textFileId": "43049_ruby_16390",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000082/files/43049_16279.html",
+    "inputBy": "hongming",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "文藝別冊［総特集］岡本綺堂",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "2004（平成16）年1月30日",
+      "inputEdition": "2004（平成16）年1月30日",
+      "proofreadEdition": "2004（平成16）年1月30日"
+    },
+    "author": "岡本綺堂",
+    "authors": [
+      {
+        "personId": "000082",
+        "name": "岡本綺堂",
+        "kana": "おかもときどう",
+        "roman": "Kido Okamoto",
+        "role": "著者",
+        "birthDate": "1872-11-15",
+        "deathDate": "1939-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

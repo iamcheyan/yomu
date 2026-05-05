@@ -122,5 +122,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004873",
+    "title": "虚弱",
+    "titleKana": "きょじゃく",
+    "sortKana": "きよしやく",
+    "firstAppearance": "「新生」1908（明治41）年2月1日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-12-22",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000022/card4873.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000022/files/4873_ruby_13475.zip",
+    "textFileId": "4873_ruby_13475",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000022/files/4873_14006.html",
+    "inputBy": "小林徹",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "三島霜川選集（中巻）",
+      "publisher": "三島霜川選集刊行会",
+      "firstPublishedAt": "1979（昭和54）年11月20日",
+      "inputEdition": "1979（昭和54）年11月20日"
+    },
+    "author": "三島霜川",
+    "authors": [
+      {
+        "personId": "000022",
+        "name": "三島霜川",
+        "kana": "みしまそうせん",
+        "roman": "Sosen Mishima",
+        "role": "著者",
+        "birthDate": "1876-07-30",
+        "deathDate": "1934-03-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

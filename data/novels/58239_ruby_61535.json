@@ -64,5 +64,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058239",
+    "title": "蝶が飛ぶ　葉っぱが飛ぶ",
+    "titleKana": "ちょうがとぶ　はっぱがとぶ",
+    "sortKana": "ちようかとふはつはかとふ",
+    "firstAppearance": "「PHP」1949（昭和24）年",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-06-04",
+    "updatedAt": "2017-04-03",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001906/card58239.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001906/files/58239_ruby_61535.zip",
+    "textFileId": "58239_ruby_61535",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001906/files/58239_61574.html",
+    "inputBy": "中井道子",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "蝶が飛ぶ　葉っぱが飛ぶ",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "2006（平成18）年1月10日",
+      "inputEdition": "2016（平成28）年3月14日第9刷",
+      "proofreadEdition": "2016（平成28）年3月14日第9刷"
+    },
+    "author": "河井寛次郎",
+    "authors": [
+      {
+        "personId": "001906",
+        "name": "河井寛次郎",
+        "kana": "かわいかんじろう",
+        "roman": "Kanjiro Kawai",
+        "role": "著者",
+        "birthDate": "1890-08-24",
+        "deathDate": "1966-11-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

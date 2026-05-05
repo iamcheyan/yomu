@@ -78,5 +78,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052187",
+    "title": "京都の朝市",
+    "titleKana": "きょうとのあさいち",
+    "sortKana": "きようとのあさいち",
+    "ndc": "NDC 750",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-01-06",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001520/card52187.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001520/files/52187_ruby_46214.zip",
+    "textFileId": "52187_ruby_46214",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001520/files/52187_46258.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆5　陶",
+      "publisher": "作品社",
+      "firstPublishedAt": "1982（昭和57）年10月25日",
+      "inputEdition": "1999（平成11）年4月30日第25刷",
+      "proofreadEdition": "1999（平成11）年4月30日第25刷"
+    },
+    "author": "柳宗悦",
+    "authors": [
+      {
+        "personId": "001520",
+        "name": "柳宗悦",
+        "kana": "やなぎむねよし",
+        "roman": "Muneyoshi Yanagi",
+        "role": "著者",
+        "birthDate": "1889-03-21",
+        "deathDate": "1961-05-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -540,5 +540,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057319",
+    "title": "入江のほとり",
+    "titleKana": "いりえのほとり",
+    "sortKana": "いりえのほとり",
+    "firstAppearance": "「太陽　第二十一巻第四号」博文館、1915（大正4）年4月1日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-10-28",
+    "updatedAt": "2018-10-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001581/card57319.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001581/files/57319_ruby_65964.zip",
+    "textFileId": "57319_ruby_65964",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001581/files/57319_66116.html",
+    "inputBy": "山村信一郎",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "正宗白鳥全集第五卷",
+      "publisher": "福武書店",
+      "firstPublishedAt": "1983（昭和58）年12月25日",
+      "inputEdition": "1983（昭和58）年12月25日",
+      "proofreadEdition": "1983（昭和58）年12月25日"
+    },
+    "author": "正宗白鳥",
+    "authors": [
+      {
+        "personId": "001581",
+        "name": "正宗白鳥",
+        "kana": "まさむねはくちょう",
+        "roman": "Hakucho Masamune",
+        "role": "著者",
+        "birthDate": "1879-03-03",
+        "deathDate": "1962-10-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

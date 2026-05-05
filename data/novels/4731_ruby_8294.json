@@ -212,5 +212,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004731",
+    "title": "酔ひたる商人",
+    "titleKana": "よいたるしょうにん",
+    "sortKana": "よいたるしようにん",
+    "firstAppearance": "「文章世界」1919（大正8）年7月",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-01-23",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000112/card4731.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000112/files/4731_ruby_8294.zip",
+    "textFileId": "4731_ruby_8294",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000112/files/4731_8295.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "小林徹",
+    "baseBook1": {
+      "title": "水野仙子集　叢書『青鞜の女たち』第10巻",
+      "publisher": "不二出版",
+      "firstPublishedAt": "1986（昭和61）年4月25日復刻版",
+      "inputEdition": "1986（昭和61）年4月25日復刻版第1刷"
+    },
+    "author": "水野仙子",
+    "authors": [
+      {
+        "personId": "000112",
+        "name": "水野仙子",
+        "kana": "みずのせんこ",
+        "roman": "Senko Mizuno",
+        "role": "著者",
+        "birthDate": "1888-12-03",
+        "deathDate": "1919-05-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

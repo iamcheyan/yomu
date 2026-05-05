@@ -1078,5 +1078,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003203",
+    "title": "夏蚕時",
+    "titleKana": "なつこどき",
+    "sortKana": "なつことき",
+    "firstAppearance": "「つばさ　第二巻第四号」つばさ発行所、1931（昭和6）年4月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-04-14",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000873/card3203.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000873/files/3203_ruby_34283.zip",
+    "textFileId": "3203_ruby_34283",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000873/files/3203_34764.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "定本金田千鶴全集",
+      "publisher": "短歌新聞社",
+      "firstPublishedAt": "1991（平成3）年8月20日",
+      "inputEdition": "1991（平成3）年8月20日",
+      "proofreadEdition": "1991（平成3）年8月20日"
+    },
+    "author": "金田千鶴",
+    "authors": [
+      {
+        "personId": "000873",
+        "name": "金田千鶴",
+        "kana": "かなだちづ",
+        "roman": "Chizu Kanada",
+        "role": "著者",
+        "birthDate": "1902-11-19",
+        "deathDate": "1934-08-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

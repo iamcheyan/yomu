@@ -168,5 +168,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046907",
+    "title": "続重病室日誌",
+    "titleKana": "ぞくじゅうびょうしつにっし",
+    "sortKana": "そくしゆうひようしつにつし",
+    "firstAppearance": "「文學界」1937（昭和12）年12月号",
+    "ndc": "NDC 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-09-22",
+    "updatedAt": "2016-06-10",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000997/card46907.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000997/files/46907_ruby_59605.zip",
+    "textFileId": "46907_ruby_59605",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000997/files/46907_59647.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "富田晶子",
+    "baseBook1": {
+      "title": "定本　北條民雄全集　下巻",
+      "publisher": "東京創元社",
+      "firstPublishedAt": "1980（昭和55）年12月20日",
+      "inputEdition": "1980（昭和55）年12月20日初版",
+      "proofreadEdition": "1983（昭和58）年11月25日再版"
+    },
+    "author": "北条民雄",
+    "authors": [
+      {
+        "personId": "000997",
+        "name": "北条民雄",
+        "kana": "ほうじょうたみお",
+        "roman": "Tamio Hojo",
+        "role": "著者",
+        "birthDate": "1914-09-22",
+        "deathDate": "1937-12-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

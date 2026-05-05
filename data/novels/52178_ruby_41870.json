@@ -90,5 +90,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052178",
+    "title": "蝸牛の角",
+    "titleKana": "かたつむりのつの",
+    "sortKana": "かたつむりのつの",
+    "ndc": "NDC 121",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-01-08",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001395/card52178.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001395/files/52178_ruby_41870.zip",
+    "textFileId": "52178_ruby_41870",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001395/files/52178_41914.html",
+    "inputBy": "橋本泰平",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "黄道",
+      "publisher": "角川書店",
+      "firstPublishedAt": "1965（昭和40）年9月15日",
+      "inputEdition": "1965（昭和40）年9月15日初版",
+      "proofreadEdition": "1965（昭和40）年9月15日初版"
+    },
+    "author": "和辻哲郎",
+    "authors": [
+      {
+        "personId": "001395",
+        "name": "和辻哲郎",
+        "kana": "わつじてつろう",
+        "roman": "Tetsuro Watsuji",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1960-12-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

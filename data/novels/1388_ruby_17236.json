@@ -80,5 +80,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001388",
+    "title": "志賀直哉氏の作品",
+    "titleKana": "しがなおやしのさくひん",
+    "sortKana": "しかなおやしのさくひん",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-01-28",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000083/card1388.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000083/files/1388_ruby_17236.zip",
+    "textFileId": "1388_ruby_17236",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000083/files/1388_17405.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "半自叙伝",
+      "publisher": "講談社学術文庫、講談社",
+      "firstPublishedAt": "1987（昭和62）年7月10日",
+      "inputEdition": "1987（昭和62）年7月10日第1刷",
+      "proofreadEdition": "1988（昭和63）年6月20日第3刷"
+    },
+    "author": "菊池寛",
+    "authors": [
+      {
+        "personId": "000083",
+        "name": "菊池寛",
+        "kana": "きくちかん",
+        "roman": "Kan Kikuchi",
+        "role": "著者",
+        "birthDate": "1888-12-26",
+        "deathDate": "1948-03-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -100,5 +100,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "044670",
+    "title": "日本人のたしなみ",
+    "titleKana": "にほんじんのたしなみ",
+    "sortKana": "にほんしんのたしなみ",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-03-15",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001154/card44670.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001154/files/44670_ruby_37404.zip",
+    "textFileId": "44670_ruby_37404",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001154/files/44670_37990.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "岸田國士全集25",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1991（平成3）年8月8日",
+      "inputEdition": "1991（平成3）年8月8日",
+      "proofreadEdition": "1991（平成3）年8月8日"
+    },
+    "author": "岸田国士",
+    "authors": [
+      {
+        "personId": "001154",
+        "name": "岸田国士",
+        "kana": "きしだくにお",
+        "roman": "Kunio Kishida",
+        "role": "著者",
+        "birthDate": "1890-11-02",
+        "deathDate": "1954-03-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

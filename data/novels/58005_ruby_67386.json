@@ -58,5 +58,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058005",
+    "title": "アインシュタイン教授をわが国に迎えて",
+    "titleKana": "アインシュタインきょうじゅをわがくににむかえて",
+    "sortKana": "あいんしゆたいんきようしゆをわかくににむかえて",
+    "ndc": "NDC 289",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-03-14",
+    "updatedAt": "2019-02-22",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001429/card58005.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001429/files/58005_ruby_67386.zip",
+    "textFileId": "58005_ruby_67386",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001429/files/58005_67335.html",
+    "inputBy": "高瀬竜一",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "随想全集　第九巻",
+      "publisher": "尚学図書",
+      "firstPublishedAt": "1969（昭和44）年11月5日",
+      "inputEdition": "1969（昭和44）年11月5日",
+      "proofreadEdition": "1969（昭和44）年11月5日"
+    },
+    "author": "石原純",
+    "authors": [
+      {
+        "personId": "001429",
+        "name": "石原純",
+        "kana": "いしわらあつし",
+        "roman": "Atsushi Ishiwara",
+        "role": "著者",
+        "birthDate": "1881-1-15",
+        "deathDate": "1947-1-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

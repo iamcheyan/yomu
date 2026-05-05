@@ -110,5 +110,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001218",
+    "title": "聖書の読方",
+    "titleKana": "せいしょのよみかた",
+    "sortKana": "せいしよのよみかた",
+    "subtitle": "来世を背景として読むべし",
+    "subtitleKana": "らいせをはいけいとしてよむべし",
+    "ndc": "NDC 193",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-05-13",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000034/card1218.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000034/files/1218_ruby_18266.zip",
+    "textFileId": "1218_ruby_18266",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000034/files/1218_18404.html",
+    "inputBy": "加藤恭子",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻100　聖書",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年6月25日",
+      "inputEdition": "1999（平成11）年6月25日第1刷"
+    },
+    "author": "内村鑑三",
+    "authors": [
+      {
+        "personId": "000034",
+        "name": "内村鑑三",
+        "kana": "うちむらかんぞう",
+        "roman": "Kanzo Uchimura",
+        "role": "著者",
+        "birthDate": "1861-03-26",
+        "deathDate": "1930-03-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

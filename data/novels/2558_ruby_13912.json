@@ -9200,5 +9200,50 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002558",
+    "title": "晶子詩篇全集拾遺",
+    "titleKana": "あきこしへんぜんしゅうしゅうい",
+    "sortKana": "あきこしへんせんしゆうしゆうい",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-07-26",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000885/card2558.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000885/files/2558_ruby_13912.zip",
+    "textFileId": "2558_ruby_13912",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000885/files/2558_15785.html",
+    "inputBy": "武田秀男",
+    "proofreadBy": "kazuishi",
+    "baseBook1": {
+      "title": "定本　與謝野晶子全集　第九巻　詩集一",
+      "publisher": "講談社",
+      "firstPublishedAt": "1980（昭和55）年8月10日",
+      "inputEdition": "1980（昭和55）年8月10日第1刷",
+      "proofreadEdition": "1980（昭和55）年8月10日第1刷"
+    },
+    "baseBook2": {
+      "title": "定本　與謝野晶子全集　第十巻　詩集二",
+      "publisher": "講談社",
+      "firstPublishedAt": "1980（昭和55）年12月10日",
+      "inputEdition": "1980（昭和55）年12月10日第1刷",
+      "proofreadEdition": "1980（昭和55）年12月10日第1刷"
+    },
+    "author": "与謝野晶子",
+    "authors": [
+      {
+        "personId": "000885",
+        "name": "与謝野晶子",
+        "kana": "よさのあきこ",
+        "roman": "Akiko Yosano",
+        "role": "著者",
+        "birthDate": "1878-12-07",
+        "deathDate": "1942-05-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

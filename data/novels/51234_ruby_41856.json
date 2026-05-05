@@ -66,5 +66,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051234",
+    "title": "ゲテ魚好き",
+    "titleKana": "ゲテうおずき",
+    "sortKana": "けてうおすき",
+    "ndc": "NDC 787 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-01-01",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001488/card51234.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001488/files/51234_ruby_41856.zip",
+    "textFileId": "51234_ruby_41856",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001488/files/51234_41900.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆4　釣",
+      "publisher": "作品社",
+      "firstPublishedAt": "1982（昭和57）年10月25日",
+      "inputEdition": "1998（平成10）年1月30日第26刷",
+      "proofreadEdition": "1998（平成10）年1月30日第26刷"
+    },
+    "author": "火野葦平",
+    "authors": [
+      {
+        "personId": "001488",
+        "name": "火野葦平",
+        "kana": "ひのあしへい",
+        "roman": "Ashihei Hino",
+        "role": "著者",
+        "birthDate": "1907-01-25",
+        "deathDate": "1960-01-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -144,5 +144,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047953",
+    "title": "エトランジェ",
+    "titleKana": "エトランジェ",
+    "sortKana": "えとらんしえ",
+    "firstAppearance": "「婦人サロン　第四巻第十号」1932（昭和7）年10月号",
+    "ndc": "NDC 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-04-08",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001030/card47953.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001030/files/47953_ruby_42237.zip",
+    "textFileId": "47953_ruby_42237",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001030/files/47953_42522.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "堀辰雄作品集第四卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1982（昭和57）年8月30日",
+      "inputEdition": "1982（昭和57）年8月30日初版第1刷",
+      "proofreadEdition": "1982（昭和57）年8月30日初版第1刷"
+    },
+    "author": "堀辰雄",
+    "authors": [
+      {
+        "personId": "001030",
+        "name": "堀辰雄",
+        "kana": "ほりたつお",
+        "roman": "Tatsuo Hori",
+        "role": "著者",
+        "birthDate": "1904-12-28",
+        "deathDate": "1953-05-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

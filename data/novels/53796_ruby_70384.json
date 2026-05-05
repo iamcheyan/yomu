@@ -88,5 +88,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053796",
+    "title": "愛か",
+    "titleKana": "あいか",
+    "sortKana": "あいか",
+    "firstAppearance": "「白金学報　第一九号」1909（明治42）年12月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-03-05",
+    "updatedAt": "2020-02-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001601/card53796.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001601/files/53796_ruby_70384.zip",
+    "textFileId": "53796_ruby_70384",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001601/files/53796_70442.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "hitsuji",
+    "baseBook1": {
+      "title": "〈外地〉の日本語文学選3　朝鮮",
+      "publisher": "新宿書房",
+      "firstPublishedAt": "1996（平成8）年3月31日",
+      "inputEdition": "1996（平成8）年3月31日第1刷",
+      "proofreadEdition": "1996（平成8）年3月31日第1刷"
+    },
+    "author": "李光洙",
+    "authors": [
+      {
+        "personId": "001601",
+        "name": "李光洙",
+        "kana": "いぐわんす",
+        "roman": "Kwang-su Lee",
+        "role": "著者",
+        "birthDate": "1892-03-05",
+        "deathDate": "1950-10-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

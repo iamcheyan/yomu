@@ -80,5 +80,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047271",
+    "title": "妖異むだ言",
+    "titleKana": "よういむだごと",
+    "sortKana": "よういむたこと",
+    "firstAppearance": "「探偵趣味」1928（昭和3）年3月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-10-04",
+    "updatedAt": "2018-09-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card47271.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/47271_ruby_65925.zip",
+    "textFileId": "47271_ruby_65925",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/47271_66077.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "きゅうり",
+    "baseBook1": {
+      "title": "国枝史郎探偵小説全集　全一巻",
+      "publisher": "作品社",
+      "firstPublishedAt": "2005（平成17）年9月15日",
+      "inputEdition": "2005（平成17）年9月15日第1刷",
+      "proofreadEdition": "2005（平成17）年9月15日第1刷"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

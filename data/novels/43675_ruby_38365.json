@@ -2936,5 +2936,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043675",
+    "title": "自警録",
+    "titleKana": "じけいろく",
+    "sortKana": "しけいろく",
+    "ndc": "NDC 159",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-07-16",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000718/card43675.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000718/files/43675_ruby_38365.zip",
+    "textFileId": "43675_ruby_38365",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000718/files/43675_39655.html",
+    "inputBy": "ゆうき",
+    "proofreadBy": "田中哲郎",
+    "baseBook1": {
+      "title": "自警録――心のもちかた――",
+      "publisher": "講談社学術文庫、講談社",
+      "firstPublishedAt": "1982（昭和57）年8月10日",
+      "inputEdition": "2002（平成14）年8月20日第31刷",
+      "proofreadEdition": "1982（昭和57）年8月10日第1刷"
+    },
+    "author": "新渡戸稲造",
+    "authors": [
+      {
+        "personId": "000718",
+        "name": "新渡戸稲造",
+        "kana": "にとべいなぞう",
+        "roman": "Inazo Nitobe",
+        "role": "著者",
+        "birthDate": "1862-09-01",
+        "deathDate": "1933-10-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

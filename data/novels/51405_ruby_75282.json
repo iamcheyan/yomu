@@ -150,5 +150,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051405",
+    "title": "禾花媒助法之説",
+    "titleKana": "かかばいじょほうのせつ",
+    "sortKana": "かかはいしよほうのせつ",
+    "firstAppearance": "「明六雜誌　第四十一號」明六社、1875（明治8）年9月5日",
+    "ndc": "NDC 616",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-04-24",
+    "updatedAt": "2022-03-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001509/card51405.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001509/files/51405_ruby_75282.zip",
+    "textFileId": "51405_ruby_75282",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001509/files/51405_75314.html",
+    "inputBy": "田中哲郎",
+    "proofreadBy": "officeshema",
+    "baseBook1": {
+      "title": "明六雑誌（下）〔全3冊〕",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2009（平成21）年8月18日",
+      "inputEdition": "2009（平成21）年8月18日第1刷",
+      "proofreadEdition": "2009（平成21）年8月18日第1刷"
+    },
+    "author": "津田仙",
+    "authors": [
+      {
+        "personId": "001509",
+        "name": "津田仙",
+        "kana": "つだせん",
+        "roman": "Sen Tsuda",
+        "role": "著者",
+        "birthDate": "1837-08-06",
+        "deathDate": "1908-04-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

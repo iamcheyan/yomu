@@ -8124,5 +8124,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "033227",
+    "title": "松のや露八",
+    "titleKana": "まつのやろはち",
+    "sortKana": "まつのやろはち",
+    "firstAppearance": "「サンデー毎日」1934（昭和9）年6月3日～10月28日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-04-02",
+    "updatedAt": "2017-03-22",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001562/card33227.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001562/files/33227_ruby_61173.zip",
+    "textFileId": "33227_ruby_61173",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001562/files/33227_61216.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "トレンドイースト",
+    "baseBook1": {
+      "title": "松のや露八",
+      "publisher": "吉川英治歴史時代文庫、講談社",
+      "firstPublishedAt": "1990（平成2）年7月11日",
+      "inputEdition": "2004（平成16）年12月3日第8刷",
+      "proofreadEdition": "2011（平成23）年5月6日第10刷"
+    },
+    "author": "吉川英治",
+    "authors": [
+      {
+        "personId": "001562",
+        "name": "吉川英治",
+        "kana": "よしかわえいじ",
+        "roman": "Eiji Yoshikawa",
+        "role": "著者",
+        "birthDate": "1892-08-11",
+        "deathDate": "1962-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

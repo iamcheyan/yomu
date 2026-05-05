@@ -60,5 +60,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049203",
+    "title": "夜釣の怪",
+    "titleKana": "よづりのかい",
+    "sortKana": "よつりのかい",
+    "firstAppearance": "「新小説　明治四十四年十二月号」春陽堂、1911（明治44）年12月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-10-23",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001352/card49203.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001352/files/49203_ruby_32153.zip",
+    "textFileId": "49203_ruby_32153",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001352/files/49203_33043.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "文豪怪談傑作選・特別篇　百物語怪談会",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2007（平成19）年7月10日",
+      "inputEdition": "2007（平成19）年7月10日第1刷",
+      "proofreadEdition": "2007（平成19）年7月10日第1刷"
+    },
+    "author": "池田輝方",
+    "authors": [
+      {
+        "personId": "001352",
+        "name": "池田輝方",
+        "kana": "いけだてるかた",
+        "roman": "Terukata Ikeda",
+        "role": "著者",
+        "birthDate": "1833-01-04",
+        "deathDate": "1921-05-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

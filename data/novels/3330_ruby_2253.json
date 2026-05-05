@@ -178,5 +178,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003330",
+    "title": "囲碁雑考",
+    "titleKana": "いござっこう",
+    "sortKana": "いこさつこう",
+    "ndc": "NDC 795",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-07-26",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000051/card3330.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000051/files/3330_ruby_2253.zip",
+    "textFileId": "3330_ruby_2253",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000051/files/3330_34610.html",
+    "inputBy": "渡邉つよし",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻1　囲碁",
+      "publisher": "作品社",
+      "firstPublishedAt": "1991（平成3）年3月25日",
+      "inputEdition": "1992（平成4）年4月20日第5刷"
+    },
+    "author": "幸田露伴",
+    "authors": [
+      {
+        "personId": "000051",
+        "name": "幸田露伴",
+        "kana": "こうだろはん",
+        "roman": "Rohan Koda",
+        "role": "著者",
+        "birthDate": "1867-08-20",
+        "deathDate": "1947-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

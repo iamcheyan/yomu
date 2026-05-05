@@ -310,5 +310,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059216",
+    "title": "のんしやらん記録",
+    "titleKana": "のんしゃらんきろく",
+    "sortKana": "のんしやらんきろく",
+    "firstAppearance": "「改造　第一一巻第一号」改造社、1929（昭和4）年1月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-04-09",
+    "updatedAt": "2020-03-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001763/card59216.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001763/files/59216_ruby_70691.zip",
+    "textFileId": "59216_ruby_70691",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001763/files/59216_70743.html",
+    "inputBy": "朱",
+    "proofreadBy": "水底藻",
+    "baseBook1": {
+      "title": "定本　佐藤春夫全集　第7巻",
+      "publisher": "臨川書店",
+      "firstPublishedAt": "1998（平成10）年9月10日",
+      "inputEdition": "1998（平成10）年9月10日初版",
+      "proofreadEdition": "1998（平成10）年9月10日初版"
+    },
+    "author": "佐藤春夫",
+    "authors": [
+      {
+        "personId": "001763",
+        "name": "佐藤春夫",
+        "kana": "さとうはるお",
+        "roman": "Haruo Sato",
+        "role": "著者",
+        "birthDate": "1892-04-09",
+        "deathDate": "1964-05-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -88,5 +88,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004093",
+    "title": "五大堂",
+    "titleKana": "ごだいどう",
+    "sortKana": "こたいとう",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-02-04",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000904/card4093.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000904/files/4093_ruby_21321.zip",
+    "textFileId": "4093_ruby_21321",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000904/files/4093_21322.html",
+    "inputBy": "もりみつじゅんじ",
+    "proofreadBy": "しだひろし",
+    "baseBook1": {
+      "title": "田澤いなぶね作品集",
+      "publisher": "無明舎出版",
+      "firstPublishedAt": "1996(平成8)年9月10日",
+      "inputEdition": "1996(平成8)年9月10日初版"
+    },
+    "author": "田沢稲舟",
+    "authors": [
+      {
+        "personId": "000904",
+        "name": "田沢稲舟",
+        "kana": "たざわいなぶね",
+        "roman": "Inabune Tazawa",
+        "role": "著者",
+        "birthDate": "1874-12-28",
+        "deathDate": "1896-09-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

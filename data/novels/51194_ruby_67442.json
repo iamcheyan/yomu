@@ -3248,5 +3248,38 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051194",
+    "title": "偉大な医師たち",
+    "titleKana": "いだいないしたち",
+    "sortKana": "いたいないしたち",
+    "subtitle": "伝記による医学史",
+    "subtitleKana": "でんきによるいがくし",
+    "originalTitle": "THE GREAT DOCTORS:A BIOGRAPHICAL HISTORY OF MEDICINE",
+    "ndc": "NDC 490",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2010-02-21",
+    "updatedAt": "2019-03-03",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001492/card51194.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001492/files/51194_ruby_67442.zip",
+    "textFileId": "51194_ruby_67442",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001492/files/51194_67460.html",
+    "proofreadBy": "The Creative CAT",
+    "author": "シゲリストヘンリー・Ｅ",
+    "authors": [
+      {
+        "personId": "001492",
+        "name": "シゲリストヘンリー・Ｅ",
+        "kana": "シゲリストヘンリー・イー",
+        "roman": "Henry E. Sigerist",
+        "role": "著者",
+        "birthDate": "1891",
+        "deathDate": "1957",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -576,5 +576,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048409",
+    "title": "二世の契",
+    "titleKana": "にせのちぎり",
+    "sortKana": "にせのちきり",
+    "firstAppearance": "「新小説」1903（明治36）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-05-31",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card48409.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/48409_ruby_34598.zip",
+    "textFileId": "48409_ruby_34598",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/48409_35159.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "日本幻想文学集成1　泉鏡花",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "1991（平成3）年3月25日",
+      "inputEdition": "1995（平成7）年10月9日初版第5刷",
+      "proofreadEdition": "1991（平成3）年3月25日初版第1刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

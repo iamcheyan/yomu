@@ -58,5 +58,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059443",
+    "title": "魯迅の「故郷」や「孤独者」を訳したころ",
+    "titleKana": "ろじんの「こきょう」や「こどくしゃ」をやくしたころ",
+    "sortKana": "ろしんのこきようやことくしやをやくしたころ",
+    "firstAppearance": "「魯迅案内」岩波書店、1956（昭和31）年10月22日",
+    "ndc": "NDC 920",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-10-19",
+    "updatedAt": "2021-09-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001763/card59443.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001763/files/59443_ruby_74183.zip",
+    "textFileId": "59443_ruby_74183",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001763/files/59443_74220.html",
+    "inputBy": "大久保ゆう",
+    "proofreadBy": "きりんの手紙",
+    "baseBook1": {
+      "title": "定本　佐藤春夫全集　第25巻",
+      "publisher": "臨川書店",
+      "firstPublishedAt": "2000（平成12）年6月10日",
+      "inputEdition": "2000（平成12）年6月10日初版",
+      "proofreadEdition": "2000（平成12）年6月10日初版"
+    },
+    "author": "佐藤春夫",
+    "authors": [
+      {
+        "personId": "001763",
+        "name": "佐藤春夫",
+        "kana": "さとうはるお",
+        "roman": "Haruo Sato",
+        "role": "著者",
+        "birthDate": "1892-04-09",
+        "deathDate": "1964-05-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

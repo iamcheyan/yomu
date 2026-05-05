@@ -228,5 +228,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059185",
+    "title": "道程",
+    "titleKana": "どうてい",
+    "sortKana": "とうてい",
+    "firstAppearance": "「美の廢墟第六號」美の廢墟社、1914（大正3）年3月5日",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-03-13",
+    "updatedAt": "2022-02-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001168/card59185.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001168/files/59185_ruby_75130.zip",
+    "textFileId": "59185_ruby_75130",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001168/files/59185_75168.html",
+    "inputBy": "フクポー",
+    "proofreadBy": "The Creative CAT",
+    "baseBook1": {
+      "title": "美の廢墟第六號",
+      "publisher": "美の廢墟社",
+      "firstPublishedAt": "1914（大正3）年3月5日",
+      "inputEdition": "1914（大正3）年3月5日",
+      "proofreadEdition": "1914（大正3）年3月5日"
+    },
+    "author": "高村光太郎",
+    "authors": [
+      {
+        "personId": "001168",
+        "name": "高村光太郎",
+        "kana": "たかむらこうたろう",
+        "roman": "Kotaro Takamura",
+        "role": "著者",
+        "birthDate": "1883-03-13",
+        "deathDate": "1956-04-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -80,5 +80,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003311",
+    "title": "遺言状・遺族善後策",
+    "titleKana": "ゆいごんじょう・いぞくぜんごさく",
+    "sortKana": "ゆいこんしよういそくせんこさく",
+    "ndc": "NDC 916",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-10-12",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000006/card3311.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000006/files/3311_ruby_7023.zip",
+    "textFileId": "3311_ruby_7023",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000006/files/3311_7024.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "平凡・私は懐疑派だ",
+      "publisher": "講談社　講談社文芸文庫",
+      "firstPublishedAt": "1997（平成9）年12月10日第1刷発行",
+      "inputEdition": "1997（平成9）年12月10日第1刷発行"
+    },
+    "author": "二葉亭四迷",
+    "authors": [
+      {
+        "personId": "000006",
+        "name": "二葉亭四迷",
+        "kana": "ふたばていしめい",
+        "roman": "Shimei Futabatei",
+        "role": "著者",
+        "birthDate": "1864-04-04",
+        "deathDate": "1909-05-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -696,5 +696,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052505",
+    "title": "山の人生",
+    "titleKana": "やまのじんせい",
+    "sortKana": "やまのしんせい",
+    "firstAppearance": "山の人生「アサヒグラフ　第四巻第二号～第五巻第七号」朝日新聞社、1925（大正14）年1月7日～8月12日<br>山人考「大正六年日本歴史地理学会大会講演手稿」1917（大正6）年11月18日",
+    "ndc": "NDC 388",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-05-23",
+    "updatedAt": "2016-07-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001566/card52505.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001566/files/52505_ruby_50193.zip",
+    "textFileId": "52505_ruby_50193",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001566/files/52505_50610.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "遠野物語　山の人生",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1976（昭和51）年4月16日",
+      "inputEdition": "2010（平成22）年3月5日第50刷",
+      "proofreadEdition": "1988（昭和63）年10月5日第18刷"
+    },
+    "author": "柳田国男",
+    "authors": [
+      {
+        "personId": "001566",
+        "name": "柳田国男",
+        "kana": "やなぎたくにお",
+        "roman": "Kunio Yanagita",
+        "role": "著者",
+        "birthDate": "1875-07-31",
+        "deathDate": "1962-08-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

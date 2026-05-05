@@ -430,5 +430,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058620",
+    "title": "早稲田大学",
+    "titleKana": "わせだだいがく",
+    "sortKana": "わせたたいかく",
+    "firstAppearance": "「早稻田大學」文藝春秋新社、1953（昭和28）年10月20日",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-10-21",
+    "updatedAt": "2022-09-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001753/card58620.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001753/files/58620_ruby_76380.zip",
+    "textFileId": "58620_ruby_76380",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001753/files/58620_76415.html",
+    "inputBy": "フクポー",
+    "proofreadBy": "孝奈花",
+    "baseBook1": {
+      "title": "早稲田大学",
+      "publisher": "岩波現代文庫、岩波書店",
+      "firstPublishedAt": "2015（平成27）年1月16日",
+      "inputEdition": "2015（平成27）年1月16日第1刷",
+      "proofreadEdition": "2015（平成27）年1月16日第1刷"
+    },
+    "author": "尾崎士郎",
+    "authors": [
+      {
+        "personId": "001753",
+        "name": "尾崎士郎",
+        "kana": "おざきしろう",
+        "roman": "Shiro Ozaki",
+        "role": "著者",
+        "birthDate": "1898-02-05",
+        "deathDate": "1964-02-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

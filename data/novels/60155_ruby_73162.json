@@ -56,5 +56,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060155",
+    "title": "酒に就いて",
+    "titleKana": "さけについて",
+    "sortKana": "さけについて",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-05-11",
+    "updatedAt": "2021-04-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000067/card60155.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000067/files/60155_ruby_73162.zip",
+    "textFileId": "60155_ruby_73162",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000067/files/60155_73202.html",
+    "inputBy": "岡村和彦",
+    "proofreadBy": "きりんの手紙",
+    "baseBook1": {
+      "title": "萩原朔太郎全集　第九卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1976（昭和51）年5月25日",
+      "inputEdition": "1976（昭和51）年5月25日初版",
+      "proofreadEdition": "1976（昭和51）年5月25日初版"
+    },
+    "author": "萩原朔太郎",
+    "authors": [
+      {
+        "personId": "000067",
+        "name": "萩原朔太郎",
+        "kana": "はぎわらさくたろう",
+        "roman": "Sakutaro Hagiwara",
+        "role": "著者",
+        "birthDate": "1886-11-01",
+        "deathDate": "1942-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -100,5 +100,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045738",
+    "title": "枯淡の風格を排す",
+    "titleKana": "こたんのふうかくをはいす",
+    "sortKana": "こたんのふうかくをはいす",
+    "firstAppearance": "「作品　第六巻第五号」1935（昭和10）年5月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-11-25",
+    "updatedAt": "2016-09-09",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card45738.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/45738_ruby_60095.zip",
+    "textFileId": "45738_ruby_60095",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/45738_60141.html",
+    "inputBy": "高田農業高校生産技術科流通経済コース",
+    "proofreadBy": "富田晶子",
+    "baseBook1": {
+      "title": "坂口安吾選集　第十巻エッセイ1",
+      "publisher": "講談社",
+      "firstPublishedAt": "1982（昭和57）年8月12日",
+      "inputEdition": "1982（昭和57）年8月12日第1刷",
+      "proofreadEdition": "1982（昭和57）年8月12日第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

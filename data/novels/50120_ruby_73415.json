@@ -46,5 +46,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050120",
+    "title": "妖怪学講義",
+    "titleKana": "ようかいがくこうぎ",
+    "sortKana": "ようかいかくこうき",
+    "subtitle": "02 緒言",
+    "subtitleKana": "02 しょげん",
+    "firstAppearance": "「妖怪學講義緒言」1893（明治26）年8月24日",
+    "ndc": "NDC 147",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-06-06",
+    "updatedAt": "2021-05-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001021/card50120.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001021/files/50120_ruby_73415.zip",
+    "textFileId": "50120_ruby_73415",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001021/files/50120_73454.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "井上円了　妖怪学全集　第1巻",
+      "publisher": "柏書房",
+      "firstPublishedAt": "1999（平成11）年3月31日",
+      "inputEdition": "1999（平成11）年3月31日第1刷",
+      "proofreadEdition": "1999（平成11）年3月31日第1刷"
+    },
+    "author": "井上円了",
+    "authors": [
+      {
+        "personId": "001021",
+        "name": "井上円了",
+        "kana": "いのうええんりょう",
+        "roman": "Enryo Inoue",
+        "role": "著者",
+        "birthDate": "1858-03-18",
+        "deathDate": "1919-06-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

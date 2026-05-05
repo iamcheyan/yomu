@@ -142,5 +142,40 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000948",
+    "title": "絶望",
+    "titleKana": "ぜつぼう",
+    "sortKana": "せつほう",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-02-12",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000023/card948.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000023/files/948_ruby_21312.zip",
+    "textFileId": "948_ruby_21312",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000023/files/948_21313.html",
+    "inputBy": "網迫",
+    "proofreadBy": "awatase",
+    "baseBook1": {
+      "title": "明治文學全集68　徳田秋聲集",
+      "publisher": "筑摩書房"
+    },
+    "author": "徳田秋声",
+    "authors": [
+      {
+        "personId": "000023",
+        "name": "徳田秋声",
+        "kana": "とくだしゅうせい",
+        "roman": "Shusei Tokuda",
+        "role": "著者",
+        "birthDate": "1872-02-01",
+        "deathDate": "1943-11-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

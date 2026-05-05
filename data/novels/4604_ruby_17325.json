@@ -914,5 +914,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004604",
+    "title": "百姓弥之助の話",
+    "titleKana": "ひゃくしょうやのすけのはなし",
+    "sortKana": "ひやくしようやのすけのはなし",
+    "subtitle": "01 第一冊 植民地の巻",
+    "subtitleKana": "01 だいいっさつ しょくみんちのまき",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-02-01",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000283/card4604.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000283/files/4604_ruby_17325.zip",
+    "textFileId": "4604_ruby_17325",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000283/files/4604_17419.html",
+    "inputBy": "隣人館",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "中里介山全集第十九巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1972（昭和47）年1月30日",
+      "inputEdition": "1972（昭和47）年1月30日",
+      "proofreadEdition": "1972（昭和47）年1月30日"
+    },
+    "author": "中里介山",
+    "authors": [
+      {
+        "personId": "000283",
+        "name": "中里介山",
+        "kana": "なかざとかいざん",
+        "roman": "Kaizan Nakazato",
+        "role": "著者",
+        "birthDate": "1885-04-04",
+        "deathDate": "1944-04-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

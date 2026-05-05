@@ -604,5 +604,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054421",
+    "title": "小曲二十篇",
+    "titleKana": "しょうきょくにじっぺん",
+    "sortKana": "しようきよくにしつへん",
+    "firstAppearance": "落葉のなげき「琉球新報」1909（明治42）年3月4日<br>物の哀れ「琉球新報」1909（明治42）年3月4日<br>まぼろし「琉球新報」1909（明治42）年3月4日<br>春「琉球新報」1909（明治42）年3月6日<br>朝「琉球新報」1909（明治42）年3月6日<br>望郷「琉球新報」1909（明治42）年3月6日<br>小曲「琉球新報」1909（明治42）年3月8日<br>海のさち「琉球新報」1909（明治42）年3月8日<br>北半島「琉球新報」1909（明治42）年3月8日<br>秋「琉球新報」1909（明治42）年3月10日<br>口笛「琉球新報」1909（明治42）年3月10日<br>片葉貝「琉球新報」1909（明治42）年3月12日<br>哀音「琉球新報」1909（明治42）年3月12日<br>夜「琉球新報」1909（明治42）年3月15日<br>影「琉球新報」1909（明治42）年3月15日<br>白明「琉球新報」1909（明治42）年3月15日<br>漁夫「琉球新報」1909（明治42）年3月19日<br>人ふたり「琉球新報」1909（明治42）年3月19日<br>森「琉球新報」1909（明治42）年3月28日<br>海「琉球新報」1909（明治42）年3月28日<br>星「琉球新報」1909（明治42）年3月28日",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-09-29",
+    "updatedAt": "2017-08-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001666/card54421.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001666/files/54421_ruby_62540.zip",
+    "textFileId": "54421_ruby_62540",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001666/files/54421_62582.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "良本典代",
+    "baseBook1": {
+      "title": "沖縄文学全集　第1巻　詩Ⅰ",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "1991（平成3）年6月6日",
+      "inputEdition": "1991（平成3）年6月6日第1刷",
+      "proofreadEdition": "1991（平成3）年6月6日第1刷"
+    },
+    "author": "漢那浪笛",
+    "authors": [
+      {
+        "personId": "001666",
+        "name": "漢那浪笛",
+        "kana": "かんなろうてき",
+        "roman": "Roteki Kanna",
+        "role": "著者",
+        "birthDate": "1887",
+        "deathDate": "1939",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

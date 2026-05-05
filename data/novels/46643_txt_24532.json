@@ -66,5 +66,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046643",
+    "title": "蛙",
+    "titleKana": "かえる",
+    "sortKana": "かえる",
+    "firstAppearance": "「赤い鳥　8月号（終刊号）」1936（昭和11）年8月",
+    "ndc": "NDC K913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-01-31",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000291/card46643.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000291/files/46643_txt_24532.zip",
+    "textFileId": "46643_txt_24532",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000291/files/46643_25537.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "林芙美子全集　第十五巻",
+      "publisher": "文泉堂出版",
+      "firstPublishedAt": "1977（昭和52）年4月20日",
+      "inputEdition": "1977（昭和52）年4月20日",
+      "proofreadEdition": "1977（昭和52）年4月20日"
+    },
+    "author": "林芙美子",
+    "authors": [
+      {
+        "personId": "000291",
+        "name": "林芙美子",
+        "kana": "はやしふみこ",
+        "roman": "Fumiko Hayashi",
+        "role": "著者",
+        "birthDate": "1903-12-31",
+        "deathDate": "1951-06-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

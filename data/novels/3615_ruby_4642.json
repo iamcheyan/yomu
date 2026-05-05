@@ -112,5 +112,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003615",
+    "title": "牛鍋",
+    "titleKana": "ぎゅうなべ",
+    "sortKana": "きゆうなへ",
+    "firstAppearance": "「心の花」1910（明治43）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-09-04",
+    "updatedAt": "2016-02-06",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card3615.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/3615_ruby_4642.zip",
+    "textFileId": "3615_ruby_4642",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/3615_12063.html",
+    "inputBy": "鈴木修一",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "普請中　青年　森鴎外全集2",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1995（平成7）年7月24日",
+      "inputEdition": "1995（平成7）年7月24日第1刷"
+    },
+    "author": "森鴎外",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

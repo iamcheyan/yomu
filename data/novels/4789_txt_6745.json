@@ -90,5 +90,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004789",
+    "title": "魔のひととき",
+    "titleKana": "まのひととき",
+    "sortKana": "まのひととき",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-10-14",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000293/card4789.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000293/files/4789_txt_6745.zip",
+    "textFileId": "4789_txt_6745",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000293/files/4789_6744.html",
+    "inputBy": "ジェラスガイ",
+    "proofreadBy": "砂場清隆",
+    "baseBook1": {
+      "title": "日本の原爆文学1　原民喜",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1983（昭和58）年8月1日",
+      "inputEdition": "1983（昭和58）年8月1日初版第1刷",
+      "proofreadEdition": "1983（昭和58）年9月1日初版第2刷"
+    },
+    "author": "原民喜",
+    "authors": [
+      {
+        "personId": "000293",
+        "name": "原民喜",
+        "kana": "はらたみき",
+        "roman": "Tamiki Hara",
+        "role": "著者",
+        "birthDate": "1905-11-15",
+        "deathDate": "1951-03-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

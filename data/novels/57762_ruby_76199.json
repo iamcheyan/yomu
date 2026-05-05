@@ -406,5 +406,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057762",
+    "title": "山椿",
+    "titleKana": "やまつばき",
+    "sortKana": "やまつはき",
+    "firstAppearance": "「講談雑誌」博文館、1948（昭和23）年3月号",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-09-08",
+    "updatedAt": "2022-08-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001869/card57762.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001869/files/57762_ruby_76199.zip",
+    "textFileId": "57762_ruby_76199",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001869/files/57762_76231.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "山本周五郎全集第二十一巻　花匂う・上野介正信",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1983（昭和58）年12月25日",
+      "inputEdition": "1983（昭和58）年12月25日",
+      "proofreadEdition": "1986（昭和61）年10月10日2刷"
+    },
+    "author": "山本周五郎",
+    "authors": [
+      {
+        "personId": "001869",
+        "name": "山本周五郎",
+        "kana": "やまもとしゅうごろう",
+        "roman": "Shugoro Yamamoto",
+        "role": "著者",
+        "birthDate": "1903-06-22",
+        "deathDate": "1967-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -116,5 +116,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001338",
+    "title": "随筆「断片」",
+    "titleKana": "ずいひつ「だんぺん」",
+    "sortKana": "すいひつたんへん",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-03-08",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000250/card1338.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000250/files/1338_ruby_17869.zip",
+    "textFileId": "1338_ruby_17869",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000250/files/1338_17876.html",
+    "inputBy": "加藤恭子",
+    "proofreadBy": "篠原陽子",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻96　大正",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年2月25日",
+      "inputEdition": "1999（平成11）年2月25日第1刷"
+    },
+    "author": "河上肇",
+    "authors": [
+      {
+        "personId": "000250",
+        "name": "河上肇",
+        "kana": "かわかみはじめ",
+        "roman": "Hajime Kawakami",
+        "role": "著者",
+        "birthDate": "1879-10-20",
+        "deathDate": "1946-01-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -48,5 +48,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053495",
+    "title": "老いたるえびのうた",
+    "titleKana": "おいたるえびのうた",
+    "sortKana": "おいたるえひのうた",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-03-26",
+    "updatedAt": "2017-01-12",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001579/card53495.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001579/files/53495_ruby_60869.zip",
+    "textFileId": "53495_ruby_60869",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001579/files/53495_60911.html",
+    "inputBy": "日根敏晶",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "蜜のあわれ・われはうたえども　やぶれかぶれ",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1993（平成5）年5月10日",
+      "inputEdition": "1993（平成5）年5月10日第1刷",
+      "proofreadEdition": "2016（平成28）年2月23日第30刷"
+    },
+    "author": "室生犀星",
+    "authors": [
+      {
+        "personId": "001579",
+        "name": "室生犀星",
+        "kana": "むろうさいせい",
+        "roman": "Saisei Murou",
+        "role": "著者",
+        "birthDate": "1889-08-01",
+        "deathDate": "1962-03-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

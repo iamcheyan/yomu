@@ -508,5 +508,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001248",
+    "title": "柿色の紙風船",
+    "titleKana": "かきいろのかみふうせん",
+    "sortKana": "かきいろのかみふうせん",
+    "firstAppearance": "「新青年」1934（昭和9）年2月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-07-10",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card1248.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/1248_ruby_18617.zip",
+    "textFileId": "1248_ruby_18617",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/1248_18624.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "花田泰治郎",
+    "baseBook1": {
+      "title": "海野十三全集　第2巻　俘囚",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1991（平成3）年2月28日",
+      "inputEdition": "1991（平成3）年2月28日第1版第1刷"
+    },
+    "author": "海野十三",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -184,5 +184,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000260",
+    "title": "逆行",
+    "titleKana": "ぎゃっこう",
+    "sortKana": "きやつこう",
+    "firstAppearance": "蝶蝶、決闘、くろんぼ「文藝」1935（昭和10）年2月号、盗賊「帝國大学新聞」1935（昭和10）年10月7日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-12-17",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card260.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/260_ruby_34636.zip",
+    "textFileId": "260_ruby_34636",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/260_34634.html",
+    "inputBy": "村田拓哉",
+    "proofreadBy": "青木直子",
+    "baseBook1": {
+      "title": "晩年",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1947（昭和22）年12月10日、1985（昭和60）年10月5日70刷改版",
+      "inputEdition": "1972（昭和47）年8月30日43刷",
+      "proofreadEdition": "1999（平成11）年6月25日105刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

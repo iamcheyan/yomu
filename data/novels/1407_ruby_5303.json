@@ -316,5 +316,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001407",
+    "title": "湯ヶ原ゆき",
+    "titleKana": "ゆがわらゆき",
+    "sortKana": "ゆかわらゆき",
+    "ndc": "NDC 914 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-11-07",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000038/card1407.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000038/files/1407_ruby_5303.zip",
+    "textFileId": "1407_ruby_5303",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000038/files/1407_16147.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "mayu",
+    "baseBook1": {
+      "title": "定本　国木田独歩全集　第四巻",
+      "publisher": "学習研究社",
+      "firstPublishedAt": "1971（昭和46）年2月10日、1978（昭和53）年3月1日増訂版",
+      "inputEdition": "1995（平成7）年7月3日増補版",
+      "proofreadEdition": "1995（平成7）年7月3日増補版"
+    },
+    "author": "国木田独歩",
+    "authors": [
+      {
+        "personId": "000038",
+        "name": "国木田独歩",
+        "kana": "くにきだどっぽ",
+        "roman": "Doppo Kunikida",
+        "role": "著者",
+        "birthDate": "1871-08-30",
+        "deathDate": "1908-06-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -206,5 +206,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001867",
+    "title": "四日間",
+    "titleKana": "よっかかん",
+    "sortKana": "よつかかん",
+    "ndc": "NDC 983",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-11-08",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000340/card1867.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000340/files/1867_ruby_20715.zip",
+    "textFileId": "1867_ruby_20715",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000340/files/1867_20716.html",
+    "inputBy": "長住由生",
+    "proofreadBy": "はやしだかずこ",
+    "baseBook1": {
+      "title": "平凡　私は懐疑派だ",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1997（平成9）年12月10日"
+    },
+    "author": "ガールシンフセヴォロド・ミハイロヴィチ",
+    "authors": [
+      {
+        "personId": "000340",
+        "name": "ガールシンフセヴォロド・ミハイロヴィチ",
+        "kana": "ガールシンフセヴォロド・ミハイロヴィチ",
+        "roman": "Vsevolod Mikhailvich Garshin",
+        "role": "著者",
+        "birthDate": "1855-02-14",
+        "deathDate": "1888-04-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

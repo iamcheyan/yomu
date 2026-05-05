@@ -286,5 +286,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059147",
+    "title": "火の点いた煙草",
+    "titleKana": "ひのついたたばこ",
+    "sortKana": "ひのついたたはこ",
+    "subtitle": "一名――煙草蒐集家の奇禍",
+    "subtitleKana": "いちめい――たばこしゅうしゅうかのきか",
+    "firstAppearance": "「婦人公論　第十二年第四號」1927（昭和2）年4月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-12-30",
+    "updatedAt": "2018-11-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card59147.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/59147_ruby_66502.zip",
+    "textFileId": "59147_ruby_66502",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/59147_66547.html",
+    "inputBy": "悠歩",
+    "proofreadBy": "mitocho",
+    "baseBook1": {
+      "title": "定本　横光利一全集　第二卷",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "1981（昭和56）年8月31日",
+      "inputEdition": "1999（平成11）年10月20日第2刷",
+      "proofreadEdition": "1981（昭和56）年8月31日初版"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

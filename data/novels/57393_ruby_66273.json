@@ -1126,5 +1126,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057393",
+    "title": "地下生活者の手記",
+    "titleKana": "ちかせいかつしゃのしゅき",
+    "sortKana": "ちかせいかつしやのしゆき",
+    "originalTitle": "ЗАПИСКИ　ИЗ　ПОДПОЛЬЯ",
+    "ndc": "NDC 983",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-11-11",
+    "updatedAt": "2021-05-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000363/card57393.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000363/files/57393_ruby_66273.zip",
+    "textFileId": "57393_ruby_66273",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000363/files/57393_66320.html",
+    "inputBy": "阿部哲也",
+    "proofreadBy": "荒木恵一",
+    "baseBook1": {
+      "title": "ドストエーフスキイ全集　5",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "1970（昭和45）年1月20日",
+      "inputEdition": "1979（昭和54）年4月20日13版",
+      "proofreadEdition": "1979（昭和54）年4月20日13版"
+    },
+    "author": "ドストエフスキーフィヨードル・ミハイロヴィチ",
+    "authors": [
+      {
+        "personId": "000363",
+        "name": "ドストエフスキーフィヨードル・ミハイロヴィチ",
+        "kana": "ドストエフスキーフィヨードル・ミハイロヴィチ",
+        "roman": "Fedor Mikhailovich Dostoevskii",
+        "role": "著者",
+        "birthDate": "1821-11-11",
+        "deathDate": "1881-02-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

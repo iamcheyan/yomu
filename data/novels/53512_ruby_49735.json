@@ -38,5 +38,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053512",
+    "title": "人真似鳥",
+    "titleKana": "ひとまねどり",
+    "sortKana": "ひとまねとり",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-01-18",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001579/card53512.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001579/files/53512_ruby_49735.zip",
+    "textFileId": "53512_ruby_49735",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001579/files/53512_49736.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "日本の名随筆2　鳥",
+      "publisher": "作品社",
+      "firstPublishedAt": "1983（昭和58）年4月25日",
+      "inputEdition": "1995（平成7）年10月30日第18刷",
+      "proofreadEdition": "1985（昭和60）年6月25日第3刷"
+    },
+    "author": "室生犀星",
+    "authors": [
+      {
+        "personId": "001579",
+        "name": "室生犀星",
+        "kana": "むろうさいせい",
+        "roman": "Saisei Murou",
+        "role": "著者",
+        "birthDate": "1889-08-01",
+        "deathDate": "1962-03-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

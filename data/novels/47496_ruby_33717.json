@@ -1064,5 +1064,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047496",
+    "title": "キャラコさん",
+    "titleKana": "キャラコさん",
+    "sortKana": "きやらこさん",
+    "subtitle": "11 新しき出発",
+    "subtitleKana": "11 あたらしきしゅっぱつ",
+    "firstAppearance": "「新青年」博文館、1939（昭和14）年12月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-01-30",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001224/card47496.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001224/files/47496_ruby_33717.zip",
+    "textFileId": "47496_ruby_33717",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001224/files/47496_33728.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "久生十蘭全集　Ⅶ",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1970（昭和45）年5月31日",
+      "inputEdition": "1978（昭和53）年1月31日第1版第3刷",
+      "proofreadEdition": "1993（平成5）年4月30日第1版第6刷"
+    },
+    "author": "久生十蘭",
+    "authors": [
+      {
+        "personId": "001224",
+        "name": "久生十蘭",
+        "kana": "ひさおじゅうらん",
+        "roman": "Juran Hisao",
+        "role": "著者",
+        "birthDate": "1902-04-06",
+        "deathDate": "1957-10-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

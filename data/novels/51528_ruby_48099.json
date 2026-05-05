@@ -92,5 +92,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051528",
+    "title": "秋が　きました",
+    "titleKana": "あきが　きました",
+    "sortKana": "あきかきました",
+    "firstAppearance": "「コドモノクニ」1938（昭和13）年10月",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-09-16",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001475/card51528.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001475/files/51528_ruby_48099.zip",
+    "textFileId": "51528_ruby_48099",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001475/files/51528_48265.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "定本小川未明童話全集　16",
+      "publisher": "講談社",
+      "firstPublishedAt": "1978（昭和53）年2月10日",
+      "inputEdition": "1982（昭和57）年9月10日第5刷",
+      "proofreadEdition": "1979（昭和54）年1月31日第2刷"
+    },
+    "author": "小川未明",
+    "authors": [
+      {
+        "personId": "001475",
+        "name": "小川未明",
+        "kana": "おがわみめい",
+        "roman": "Mimei Ogawa",
+        "role": "著者",
+        "birthDate": "1882-04-07",
+        "deathDate": "1961-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

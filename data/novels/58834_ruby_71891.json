@@ -2914,5 +2914,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058834",
+    "title": "江戸前の釣り",
+    "titleKana": "えどまえのつり",
+    "sortKana": "えとまえのつり",
+    "ndc": "NDC 787",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-10-25",
+    "updatedAt": "2020-09-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001805/card58834.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001805/files/58834_ruby_71891.zip",
+    "textFileId": "58834_ruby_71891",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001805/files/58834_71938.html",
+    "inputBy": "入江幹夫",
+    "proofreadBy": "栗田美恵子",
+    "baseBook1": {
+      "title": "江戸前の釣り",
+      "publisher": "中央公論新社",
+      "firstPublishedAt": "2013（平成25）年5月25日",
+      "inputEdition": "2013（平成25）年5月25日初版",
+      "proofreadEdition": "2013（平成25）年5月25日初版"
+    },
+    "author": "三遊亭金馬",
+    "authors": [
+      {
+        "personId": "001805",
+        "name": "三遊亭金馬",
+        "kana": "さんゆうていきんば",
+        "roman": "Kinba San'yutei",
+        "role": "著者",
+        "birthDate": "1894-10-25",
+        "deathDate": "1964-11-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

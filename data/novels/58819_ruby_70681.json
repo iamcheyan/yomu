@@ -88,5 +88,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058819",
+    "title": "露都雑記",
+    "titleKana": "ろとざっき",
+    "sortKana": "ろとさつき",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-04-04",
+    "updatedAt": "2020-03-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000006/card58819.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000006/files/58819_ruby_70681.zip",
+    "textFileId": "58819_ruby_70681",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000006/files/58819_70733.html",
+    "inputBy": "高崎隼",
+    "proofreadBy": "hitsuji",
+    "baseBook1": {
+      "title": "現代日本文學大系　1　政治小説・坪内逍遙・二葉亭四迷集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1971（昭和46）年2月5日",
+      "inputEdition": "1971（昭和46）年12月30日初版第2刷",
+      "proofreadEdition": "2010（平成22）年1月30日初版第18刷"
+    },
+    "author": "二葉亭四迷",
+    "authors": [
+      {
+        "personId": "000006",
+        "name": "二葉亭四迷",
+        "kana": "ふたばていしめい",
+        "roman": "Shimei Futabatei",
+        "role": "著者",
+        "birthDate": "1864-04-04",
+        "deathDate": "1909-05-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

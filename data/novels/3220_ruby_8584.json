@@ -1742,5 +1742,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003220",
+    "title": "泣虫小僧",
+    "titleKana": "なきむしこぞう",
+    "sortKana": "なきむしこそう",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-08-20",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000291/card3220.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000291/files/3220_ruby_8584.zip",
+    "textFileId": "3220_ruby_8584",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000291/files/3220_11977.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "日本文学全集20",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "1966（昭和41）年2月3日",
+      "inputEdition": "1966（昭和41）年2月3日",
+      "proofreadEdition": "1966（昭和41）年2月3日"
+    },
+    "author": "林芙美子",
+    "authors": [
+      {
+        "personId": "000291",
+        "name": "林芙美子",
+        "kana": "はやしふみこ",
+        "roman": "Fumiko Hayashi",
+        "role": "著者",
+        "birthDate": "1903-12-31",
+        "deathDate": "1951-06-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

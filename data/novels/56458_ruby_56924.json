@@ -250,5 +250,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056458",
+    "title": "花桐",
+    "titleKana": "はなぎり",
+    "sortKana": "はなきり",
+    "firstAppearance": "「ＰＨＰ」1947（昭和22）年4月創刊号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-08-01",
+    "updatedAt": "2015-07-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001579/card56458.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001579/files/56458_ruby_56924.zip",
+    "textFileId": "56458_ruby_56924",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001579/files/56458_56970.html",
+    "inputBy": "日根敏晶",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "犀星王朝小品集",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1984（昭和59）年3月16日",
+      "inputEdition": "2001（平成13）年1月16日第6刷",
+      "proofreadEdition": "2001（平成13）年1月16日第6刷"
+    },
+    "author": "室生犀星",
+    "authors": [
+      {
+        "personId": "001579",
+        "name": "室生犀星",
+        "kana": "むろうさいせい",
+        "roman": "Saisei Murou",
+        "role": "著者",
+        "birthDate": "1889-08-01",
+        "deathDate": "1962-03-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

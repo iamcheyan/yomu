@@ -240,5 +240,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042351",
+    "title": "寄席と芝居と",
+    "titleKana": "よせとしばいと",
+    "sortKana": "よせとしはいと",
+    "ndc": "NDC 772 779 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-06-09",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000082/card42351.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000082/files/42351_ruby_15590.zip",
+    "textFileId": "42351_ruby_15590",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000082/files/42351_15659.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "綺堂芝居ばなし",
+      "publisher": "旺文社文庫、旺文社",
+      "firstPublishedAt": "1979（昭和54）年1月20日",
+      "inputEdition": "1979（昭和54）年1月20日初版",
+      "proofreadEdition": "1979（昭和54）年1月20日初版"
+    },
+    "author": "岡本綺堂",
+    "authors": [
+      {
+        "personId": "000082",
+        "name": "岡本綺堂",
+        "kana": "おかもときどう",
+        "roman": "Kido Okamoto",
+        "role": "著者",
+        "birthDate": "1872-11-15",
+        "deathDate": "1939-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

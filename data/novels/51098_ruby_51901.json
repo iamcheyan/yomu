@@ -100,5 +100,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051098",
+    "title": "春になる前夜",
+    "titleKana": "はるになるぜんや",
+    "sortKana": "はるになるせんや",
+    "firstAppearance": "「東京日日新聞」1922（大正11）年1月7日～10日",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-01-13",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001475/card51098.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001475/files/51098_ruby_51901.zip",
+    "textFileId": "51098_ruby_51901",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001475/files/51098_51902.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "江村秀之",
+    "baseBook1": {
+      "title": "定本小川未明童話全集　3",
+      "publisher": "講談社",
+      "firstPublishedAt": "1977（昭和52）年1月10日",
+      "inputEdition": "1977（昭和52）年C第2刷",
+      "proofreadEdition": "1977（昭和52）年1月10日第1刷"
+    },
+    "author": "小川未明",
+    "authors": [
+      {
+        "personId": "001475",
+        "name": "小川未明",
+        "kana": "おがわみめい",
+        "roman": "Mimei Ogawa",
+        "role": "著者",
+        "birthDate": "1882-04-07",
+        "deathDate": "1961-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

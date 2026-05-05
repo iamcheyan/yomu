@@ -26,5 +26,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047939",
+    "title": "行く春の記",
+    "titleKana": "ゆくはるのき",
+    "sortKana": "ゆくはるのき",
+    "firstAppearance": "「婦人公論　第二十六巻第六号」1941（昭和16）年6月号",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-02-25",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001030/card47939.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001030/files/47939_ruby_33450.zip",
+    "textFileId": "47939_ruby_33450",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001030/files/47939_34297.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "堀辰雄作品集第四卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1982（昭和57）年8月30日",
+      "inputEdition": "1982（昭和57）年8月30日初版第1刷",
+      "proofreadEdition": "1982（昭和57）年8月30日初版第1刷"
+    },
+    "author": "堀辰雄",
+    "authors": [
+      {
+        "personId": "001030",
+        "name": "堀辰雄",
+        "kana": "ほりたつお",
+        "roman": "Tatsuo Hori",
+        "role": "著者",
+        "birthDate": "1904-12-28",
+        "deathDate": "1953-05-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

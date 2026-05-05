@@ -326,5 +326,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000718",
+    "title": "栗の花の咲くころ",
+    "titleKana": "くりのはなのさくころ",
+    "sortKana": "くりのはなのさくころ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-11-15",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000134/card718.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000134/files/718_ruby_20853.zip",
+    "textFileId": "718_ruby_20853",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000134/files/718_20854.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "しず",
+    "baseBook1": {
+      "title": "佐左木俊郎選集",
+      "publisher": "英宝社",
+      "firstPublishedAt": "1984（昭和59）年4月14日"
+    },
+    "author": "佐左木俊郎",
+    "authors": [
+      {
+        "personId": "000134",
+        "name": "佐左木俊郎",
+        "kana": "ささきとしろう",
+        "roman": "Toshiro Sasaki",
+        "role": "著者",
+        "birthDate": "1900-04-14",
+        "deathDate": "1933-03-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

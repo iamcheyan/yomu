@@ -252,5 +252,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046957",
+    "title": "日本文章の発想法の起り",
+    "titleKana": "にほんぶんしょうのはっそうほうのおこり",
+    "sortKana": "にほんふんしようのはつそうほうのおこり",
+    "ndc": "NDC 816",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-11-18",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card46957.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/46957_ruby_28189.zip",
+    "textFileId": "46957_ruby_28189",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/46957_28193.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "折口信夫全集　1",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1995（平成7）年2月10日",
+      "inputEdition": "1995（平成7）年2月10日初版",
+      "proofreadEdition": "1995（平成7）年2月10日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

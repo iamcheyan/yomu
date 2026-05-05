@@ -74,5 +74,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043105",
+    "title": "梅龍の話",
+    "titleKana": "うめりょうのはなし",
+    "sortKana": "うめりようのはなし",
+    "firstAppearance": "「中央公論」1911（明治44）年12月",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-08-17",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000479/card43105.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000479/files/43105_ruby_23359.zip",
+    "textFileId": "43105_ruby_23359",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000479/files/43105_23804.html",
+    "inputBy": "網迫、土屋隆",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "日本現代文學全集34　岡本綺堂・小山内薫・眞山青果集",
+      "publisher": "講談社",
+      "firstPublishedAt": "1968（昭和43）年6月19日",
+      "inputEdition": "1968（昭和43）年6月19日",
+      "proofreadEdition": "1968（昭和43）年6月19日"
+    },
+    "author": "小山内薫",
+    "authors": [
+      {
+        "personId": "000479",
+        "name": "小山内薫",
+        "kana": "おさないかおる",
+        "roman": "Kaoru Osanai",
+        "role": "著者",
+        "birthDate": "1881-07-26",
+        "deathDate": "1928-12-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

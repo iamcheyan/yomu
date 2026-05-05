@@ -2244,5 +2244,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051368",
+    "title": "植物記",
+    "titleKana": "しょくぶつき",
+    "sortKana": "しよくふつき",
+    "ndc": "NDC 470",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-03-25",
+    "updatedAt": "2022-04-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001266/card51368.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001266/files/51368_ruby_55968.zip",
+    "textFileId": "51368_ruby_55968",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001266/files/51368_56013.html",
+    "inputBy": "kompass",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "植物記",
+      "publisher": "ちくま学芸文庫、筑摩書房",
+      "firstPublishedAt": "2008（平成20）12月10日",
+      "inputEdition": "2008（平成20）12月10日第1刷",
+      "proofreadEdition": "2012（平成24）1月30日第2刷"
+    },
+    "author": "牧野富太郎",
+    "authors": [
+      {
+        "personId": "001266",
+        "name": "牧野富太郎",
+        "kana": "まきのとみたろう",
+        "roman": "Tomitaro Makino",
+        "role": "著者",
+        "birthDate": "1862-05-22",
+        "deathDate": "1957-01-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -44,5 +44,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001447",
+    "title": "夜の隅田川",
+    "titleKana": "よるのすみだがわ",
+    "sortKana": "よるのすみたかわ",
+    "ndc": "NDC 914 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-02-20",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000051/card1447.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000051/files/1447_ruby_17577.zip",
+    "textFileId": "1447_ruby_17577",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000051/files/1447_17578.html",
+    "inputBy": "地田尚",
+    "proofreadBy": "富田倫生",
+    "baseBook1": {
+      "title": "露伴全集　第29巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1954（昭和29）年12月4日",
+      "inputEdition": "1954（昭和29）年12月4日第1刷",
+      "proofreadEdition": "1954（昭和29）年12月4日第1刷"
+    },
+    "author": "幸田露伴",
+    "authors": [
+      {
+        "personId": "000051",
+        "name": "幸田露伴",
+        "kana": "こうだろはん",
+        "roman": "Rohan Koda",
+        "role": "著者",
+        "birthDate": "1867-08-20",
+        "deathDate": "1947-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

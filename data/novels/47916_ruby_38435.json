@@ -56,5 +56,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047916",
+    "title": "初秋の浅間",
+    "titleKana": "しょしゅうのあさま",
+    "sortKana": "しよしゆうのあさま",
+    "firstAppearance": "「帝国大学新聞　第七百三十三号」1938（昭和13）年9月26日",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-07-07",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001030/card47916.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001030/files/47916_ruby_38435.zip",
+    "textFileId": "47916_ruby_38435",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001030/files/47916_39427.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "堀辰雄作品集第四巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1982（昭和57）年8月30日",
+      "inputEdition": "1982（昭和57）年8月30日初版第1刷",
+      "proofreadEdition": "1982（昭和57）年8月30日初版第1刷"
+    },
+    "author": "堀辰雄",
+    "authors": [
+      {
+        "personId": "001030",
+        "name": "堀辰雄",
+        "kana": "ほりたつお",
+        "roman": "Tatsuo Hori",
+        "role": "著者",
+        "birthDate": "1904-12-28",
+        "deathDate": "1953-05-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

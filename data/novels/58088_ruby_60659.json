@@ -1232,5 +1232,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058088",
+    "title": "ユダヤ人のブナの木",
+    "titleKana": "ユダヤじんのブナのき",
+    "sortKana": "ゆたやしんのふなのき",
+    "subtitle": "山深きヴェストファーレンの風俗画",
+    "subtitleKana": "やまぶかきヴェストファーレンのふうぞくが",
+    "originalTitle": "DIE JUDENBUCHE",
+    "ndc": "NDC 943",
+    "orthography": "旧字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-01-01",
+    "updatedAt": "2017-01-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001900/card58088.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001900/files/58088_ruby_60659.zip",
+    "textFileId": "58088_ruby_60659",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001900/files/58088_60660.html",
+    "inputBy": "富田晶子",
+    "proofreadBy": "日野ととり",
+    "baseBook1": {
+      "title": "ユダヤ人のブナの木",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1953（昭和28）年8月25日",
+      "inputEdition": "1958（昭和33）年8月15日第5刷",
+      "proofreadEdition": "1958（昭和33）年8月15日第5刷"
+    },
+    "author": "ドロステ＝ヒュルスホフアネッテ・フォン",
+    "authors": [
+      {
+        "personId": "001900",
+        "name": "ドロステ＝ヒュルスホフアネッテ・フォン",
+        "kana": "ドロステ＝ヒュルスホフアネッテ・フォン",
+        "roman": "Annette von Droste-Hülshoff",
+        "role": "著者",
+        "birthDate": "1797-01-10",
+        "deathDate": "1848-05-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

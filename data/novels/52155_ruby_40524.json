@@ -50,5 +50,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052155",
+    "title": "船中八策",
+    "titleKana": "せんちゅうはっさく",
+    "sortKana": "せんちゆうはつさく",
+    "subtitle": "慶応三年六月十五日",
+    "subtitleKana": "けいおうさんねんろくがつじゅうごにち",
+    "ndc": "NDC 311",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-12-18",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000908/card52155.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000908/files/52155_ruby_40524.zip",
+    "textFileId": "52155_ruby_40524",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000908/files/52155_41464.html",
+    "inputBy": "Yanajin33",
+    "proofreadBy": "Hanren",
+    "baseBook1": {
+      "title": "龍馬の手紙、宮地佐一郎",
+      "publisher": "講談社学術文庫、講談社",
+      "firstPublishedAt": "2003（平成15）年12月10日",
+      "inputEdition": "2008（平成20）年9月19日第7刷",
+      "proofreadEdition": "2008（平成20）年9月19日第7刷"
+    },
+    "author": "坂本竜馬",
+    "authors": [
+      {
+        "personId": "000908",
+        "name": "坂本竜馬",
+        "kana": "さかもとりょうま",
+        "roman": "Ryoma Sakamoto",
+        "role": "著者",
+        "birthDate": "1836-01-03",
+        "deathDate": "1867-12-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

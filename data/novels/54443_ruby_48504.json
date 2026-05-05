@@ -1448,5 +1448,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054443",
+    "title": "恋と十手と巾着切",
+    "titleKana": "こいとじってときんちゃくきり",
+    "sortKana": "こいとしつてときんちやくきり",
+    "ndc": "NDC 912",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-11-05",
+    "updatedAt": "2014-11-12",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000072/card54443.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000072/files/54443_ruby_48504.zip",
+    "textFileId": "54443_ruby_48504",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000072/files/54443_48990.html",
+    "inputBy": "平川哲生",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "山中貞雄作品集　全一巻",
+      "publisher": "実業之日本社",
+      "firstPublishedAt": "1998（平成10）年10月28日",
+      "inputEdition": "1998（平成10）年10月28日初版",
+      "proofreadEdition": "1998（平成10）年10月28日初版"
+    },
+    "author": "山中貞雄",
+    "authors": [
+      {
+        "personId": "000072",
+        "name": "山中貞雄",
+        "kana": "やまなかさだお",
+        "roman": "Sadao Yamanaka",
+        "role": "著者",
+        "birthDate": "1909-11-07",
+        "deathDate": "1938-09-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -616,5 +616,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046490",
+    "title": "曙覧の歌",
+    "titleKana": "あけみのうた",
+    "sortKana": "あけみのうた",
+    "firstAppearance": "「日本」日本新聞社、1899（明治32）年3月22日～24日、26日、28日、30日、4月9日、22日～23日",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-03-28",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000305/card46490.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000305/files/46490_ruby_29410.zip",
+    "textFileId": "46490_ruby_29410",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000305/files/46490_30026.html",
+    "inputBy": "kompass",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "子規選集　第七巻　子規の短歌革新",
+      "publisher": "増進会出版社",
+      "firstPublishedAt": "2002（平成14）年4月12日",
+      "inputEdition": "2002（平成14）年4月12日初版第1刷",
+      "proofreadEdition": "2002（平成14）年4月12日初版第1刷"
+    },
+    "author": "正岡子規",
+    "authors": [
+      {
+        "personId": "000305",
+        "name": "正岡子規",
+        "kana": "まさおかしき",
+        "roman": "Shiki Masaoka",
+        "role": "著者",
+        "birthDate": "1867-10-14",
+        "deathDate": "1902-09-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

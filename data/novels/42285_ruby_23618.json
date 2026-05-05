@@ -2134,5 +2134,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042285",
+    "title": "歌時計",
+    "titleKana": "うたどけい",
+    "sortKana": "うたとけい",
+    "subtitle": "童謡集",
+    "subtitleKana": "どうようしゅう",
+    "ndc": "NDC K911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-09-08",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001074/card42285.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001074/files/42285_ruby_23618.zip",
+    "textFileId": "42285_ruby_23618",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001074/files/42285_23907.html",
+    "inputBy": "大久保ゆう",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "叢書　日本の童謡「歌時計　童謠集」",
+      "publisher": "大空社",
+      "firstPublishedAt": "1996（平成8）年9月28日",
+      "inputEdition": "1996（平成8）年9月28日"
+    },
+    "author": "水谷まさる",
+    "authors": [
+      {
+        "personId": "001074",
+        "name": "水谷まさる",
+        "kana": "みずたにまさる",
+        "roman": "Masaru Mizutani",
+        "role": "著者",
+        "birthDate": "1894-12-25",
+        "deathDate": "1950-05-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -384,5 +384,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049183",
+    "title": "牢獄の半日",
+    "titleKana": "ろうごくのはんにち",
+    "sortKana": "ろうこくのはんにち",
+    "firstAppearance": "「文芸戦線　第一巻五号」1924（大正13）年10月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-05-03",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000031/card49183.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000031/files/49183_ruby_34564.zip",
+    "textFileId": "49183_ruby_34564",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000031/files/49183_34778.html",
+    "inputBy": "A子",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "葉山嘉樹　短編小説選集",
+      "publisher": "郷土出版社",
+      "firstPublishedAt": "1997（平成9）年4月15日",
+      "inputEdition": "1997（平成9）年4月15日初版",
+      "proofreadEdition": "1997（平成9）年4月15日初版"
+    },
+    "author": "葉山嘉樹",
+    "authors": [
+      {
+        "personId": "000031",
+        "name": "葉山嘉樹",
+        "kana": "はやまよしき",
+        "roman": "Yoshiki Hayama",
+        "role": "著者",
+        "birthDate": "1894-03-12",
+        "deathDate": "1945-10-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -92,5 +92,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002609",
+    "title": "支那に於ける史の起源",
+    "titleKana": "しなにおけるしのきげん",
+    "sortKana": "しなにおけるしのきけん",
+    "firstAppearance": "中等学校地理歴史教員協議会講演、1915（大正4）年12月6日",
+    "ndc": "NDC 222",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-08-30",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000284/card2609.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000284/files/2609_ruby_4359.zip",
+    "textFileId": "2609_ruby_4359",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000284/files/2609_4360.html",
+    "inputBy": "はまなかひとし",
+    "proofreadBy": "菅野朋子",
+    "baseBook1": {
+      "title": "内藤湖南全集　第七巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1970（昭和45）年2月25日",
+      "inputEdition": "1976（昭和51）年10月10日第2刷"
+    },
+    "author": "内藤湖南",
+    "authors": [
+      {
+        "personId": "000284",
+        "name": "内藤湖南",
+        "kana": "ないとうこなん",
+        "roman": "Konan Naito",
+        "role": "著者",
+        "birthDate": "1866-08-26",
+        "deathDate": "1934-06-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

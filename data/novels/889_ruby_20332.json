@@ -372,5 +372,40 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000889",
+    "title": "萱草に寄す",
+    "titleKana": "わすれぐさによす",
+    "sortKana": "わすれくさによす",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1997-09-11",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000011/card889.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000011/files/889_ruby_20332.zip",
+    "textFileId": "889_ruby_20332",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000011/files/889_20333.html",
+    "inputBy": "八巻美恵",
+    "baseBook1": {
+      "title": "立原道造全集　第1卷　詩集Ⅰ",
+      "publisher": "角川書店",
+      "firstPublishedAt": "1971（昭和46）年6月20日"
+    },
+    "author": "立原道造",
+    "authors": [
+      {
+        "personId": "000011",
+        "name": "立原道造",
+        "kana": "たちはらみちぞう",
+        "roman": "Michizo Tachihara",
+        "role": "著者",
+        "birthDate": "1914-07-30",
+        "deathDate": "1939-03-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

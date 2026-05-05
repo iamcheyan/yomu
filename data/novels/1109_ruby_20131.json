@@ -32,5 +32,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001109",
+    "title": "東京だより",
+    "titleKana": "とうきょうだより",
+    "sortKana": "とうきようたより",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-09-19",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card1109.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/1109_ruby_20131.zip",
+    "textFileId": "1109_ruby_20131",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/1109_20132.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "山本奈津恵",
+    "baseBook1": {
+      "title": "太宰治全集6",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1989（平成元）年2月28日",
+      "proofreadEdition": "1996（平成8）年7月15日第2刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -42,5 +42,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054258",
+    "title": "漁村",
+    "titleKana": "ぎょそん",
+    "sortKana": "きよそん",
+    "firstAppearance": "「若草」1935（昭和10）年3月",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-02-21",
+    "updatedAt": "2019-01-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001652/card54258.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001652/files/54258_ruby_66938.zip",
+    "textFileId": "54258_ruby_66938",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001652/files/54258_66984.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "増補　森川義信詩集",
+      "publisher": "国文社",
+      "firstPublishedAt": "1991（平成3）年1月10日",
+      "inputEdition": "1991（平成3）年1月10日初版",
+      "proofreadEdition": "1991（平成3）年1月10日初版"
+    },
+    "author": "森川義信",
+    "authors": [
+      {
+        "personId": "001652",
+        "name": "森川義信",
+        "kana": "もりかわよしのぶ",
+        "roman": "Yoshinobu Morikawa",
+        "role": "著者",
+        "birthDate": "1918-10-11",
+        "deathDate": "1942-08-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

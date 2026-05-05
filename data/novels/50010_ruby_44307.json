@@ -424,5 +424,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050010",
+    "title": "骨",
+    "titleKana": "ほね",
+    "sortKana": "ほね",
+    "firstAppearance": "「泉」1923（大正12）年4月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-08-23",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000025/card50010.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000025/files/50010_ruby_44307.zip",
+    "textFileId": "50010_ruby_44307",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000025/files/50010_44330.html",
+    "inputBy": "ｍｏｎｏ",
+    "proofreadBy": "松永佳代",
+    "baseBook1": {
+      "title": "三代名作全集・有島武郎集",
+      "publisher": "河出書房",
+      "firstPublishedAt": "1942（昭和17）年12月15日",
+      "inputEdition": "1942（昭和17）年12月15日初版",
+      "proofreadEdition": "1942（昭和17）年12月15日初版"
+    },
+    "author": "有島武郎",
+    "authors": [
+      {
+        "personId": "000025",
+        "name": "有島武郎",
+        "kana": "ありしまたけお",
+        "roman": "Takeo Arishima",
+        "role": "著者",
+        "birthDate": "1878-03-04",
+        "deathDate": "1923-06-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

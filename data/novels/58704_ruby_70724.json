@@ -1684,5 +1684,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058704",
+    "title": "ある偃松の独白",
+    "titleKana": "あるはいまつのどくはく",
+    "sortKana": "あるはいまつのとくはく",
+    "firstAppearance": "春雪写山行「旅」1940（昭和15）年4月<br>黒部川峡谷の話「山岳　第十二年第一号」1918（大正7）年2月<br>枯木の美と怪「国立公園」1952（昭和27）年3月<br>雪山と廃道「山　二巻二号」1935（昭和10）年2月<br>七面山冬ごもりの記「山小屋」1947（昭和22）年<br>黒部川初遡行の追憶「山と渓谷」1939（昭和14）年7月<br>大雪山あれこれ「国立公園」1955（昭和30）年",
+    "ndc": "NDC 291",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-04-30",
+    "updatedAt": "2020-03-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001954/card58704.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001954/files/58704_ruby_70724.zip",
+    "textFileId": "58704_ruby_70724",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001954/files/58704_70776.html",
+    "inputBy": "富田晶子",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "ある偃松の独白",
+      "publisher": "コマクサ叢書、朋文堂",
+      "firstPublishedAt": "1960（昭和35）年5月15日",
+      "inputEdition": "1960（昭和35）年5月15日",
+      "proofreadEdition": "1960（昭和35）年5月15日"
+    },
+    "author": "中村清太郎",
+    "authors": [
+      {
+        "personId": "001954",
+        "name": "中村清太郎",
+        "kana": "なかむらせいたろう",
+        "roman": "Seitaro Nakamura",
+        "role": "著者",
+        "birthDate": "1888-04-30",
+        "deathDate": "1967-12-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

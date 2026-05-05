@@ -62,5 +62,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055344",
+    "title": "ダンセニーの脚本及短篇",
+    "titleKana": "だんせにーのきゃくほんおよびたんぺん",
+    "sortKana": "たんせにいのきやくほんおよひたんへん",
+    "firstAppearance": "「時事新報」1921（大正10）年6月8日～10日",
+    "ndc": "NDC 930",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-06-27",
+    "updatedAt": "2016-04-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001346/card55344.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001346/files/55344_ruby_58891.zip",
+    "textFileId": "55344_ruby_58891",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001346/files/55344_58933.html",
+    "inputBy": "匿名",
+    "proofreadBy": "館野浩美",
+    "baseBook1": {
+      "title": "時事新報",
+      "publisher": "時事新報社",
+      "firstPublishedAt": "1921（大正10）年6月8日～10日",
+      "inputEdition": "1921（大正10）年6月8日～10日"
+    },
+    "author": "片山広子",
+    "authors": [
+      {
+        "personId": "001346",
+        "name": "片山広子",
+        "kana": "かたやまひろこ",
+        "roman": "Hiroko Katayama",
+        "role": "著者",
+        "birthDate": "1878-02-10",
+        "deathDate": "1957-03-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

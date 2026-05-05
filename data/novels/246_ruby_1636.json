@@ -134,5 +134,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000246",
+    "title": "畜犬談",
+    "titleKana": "ちくけんだん",
+    "sortKana": "ちくけんたん",
+    "subtitle": "―伊馬鵜平君に与える―",
+    "subtitleKana": "―いまうへいくんにあたえる―",
+    "firstAppearance": "「文学者」1939（昭和14）年8月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-04-12",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card246.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/246_ruby_1636.zip",
+    "textFileId": "246_ruby_1636",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/246_34649.html",
+    "inputBy": "網迫",
+    "proofreadBy": "田尻幹二",
+    "baseBook1": {
+      "title": "日本文学全集70　太宰治集",
+      "publisher": "集英社",
+      "firstPublishedAt": "1972（昭和47）年3月"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

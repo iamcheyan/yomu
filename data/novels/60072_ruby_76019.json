@@ -780,5 +780,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060072",
+    "title": "日めくり",
+    "titleKana": "ひめくり",
+    "sortKana": "ひめくり",
+    "firstAppearance": "「群像」1963（昭和38）年11月",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-08-05",
+    "updatedAt": "2022-08-02",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001875/card60072.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001875/files/60072_ruby_76019.zip",
+    "textFileId": "60072_ruby_76019",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001875/files/60072_76055.html",
+    "inputBy": "芝裕久",
+    "proofreadBy": "入江幹夫",
+    "baseBook1": {
+      "title": "現代日本文學大系　59　前田河廣一郎　伊藤永之介　徳永直　壺井栄集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1973（昭和48）年5月21日",
+      "inputEdition": "1980（昭和55）年3月15日初版第9刷",
+      "proofreadEdition": "1973（昭和48）年5月21日初版第1刷"
+    },
+    "author": "壺井栄",
+    "authors": [
+      {
+        "personId": "001875",
+        "name": "壺井栄",
+        "kana": "つぼいさかえ",
+        "roman": "Sakae Tsuboi",
+        "role": "著者",
+        "birthDate": "1899-08-05",
+        "deathDate": "1967-06-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

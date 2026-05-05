@@ -72,5 +72,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051892",
+    "title": "寒い夜の自我像",
+    "titleKana": "さむいよるのじがぞう",
+    "sortKana": "さむいよるのしかそう",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-10-22",
+    "updatedAt": "2021-09-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000026/card51892.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000026/files/51892_txt_74189.zip",
+    "textFileId": "51892_txt_74189",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000026/files/51892_74226.html",
+    "inputBy": "きりんの手紙",
+    "proofreadBy": "hitsuji",
+    "baseBook1": {
+      "title": "新編中原中也全集　第二巻　詩Ⅱ",
+      "publisher": "角川書店",
+      "firstPublishedAt": "2001（平成13）年4月30日",
+      "inputEdition": "2001（平成13）年4月30日初版",
+      "proofreadEdition": "2001（平成13）年4月30日初版"
+    },
+    "author": "中原中也",
+    "authors": [
+      {
+        "personId": "000026",
+        "name": "中原中也",
+        "kana": "なかはらちゅうや",
+        "roman": "Chuya Nakahara",
+        "role": "著者",
+        "birthDate": "1907-04-29",
+        "deathDate": "1937-10-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

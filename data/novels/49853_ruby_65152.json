@@ -2338,5 +2338,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049853",
+    "title": "愛ちやんの夢物語",
+    "titleKana": "あいちゃんのゆめものがたり",
+    "sortKana": "あいちやんのゆめものかたり",
+    "originalTitle": "ALICE'S ADVENTURES IN WONDERLAND",
+    "ndc": "NDC K933",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-07-04",
+    "updatedAt": "2018-06-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001393/card49853.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001393/files/49853_ruby_65152.zip",
+    "textFileId": "49853_ruby_65152",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001393/files/49853_65195.html",
+    "inputBy": "田中哲郎",
+    "proofreadBy": "みきた",
+    "baseBook1": {
+      "title": "愛ちやんの夢物語",
+      "publisher": "内外出版協會",
+      "firstPublishedAt": "1910（明治43）年2月1日",
+      "inputEdition": "1910（明治43）年2月12日",
+      "proofreadEdition": "1910（明治43）年2月1日"
+    },
+    "author": "キャロルルイス",
+    "authors": [
+      {
+        "personId": "001393",
+        "name": "キャロルルイス",
+        "kana": "キャロルルイス",
+        "roman": "Lewis Carroll",
+        "role": "著者",
+        "birthDate": "1832-01-27",
+        "deathDate": "1898-01-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

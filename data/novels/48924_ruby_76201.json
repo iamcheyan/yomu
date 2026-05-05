@@ -78,5 +78,53 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048924",
+    "title": "中秋の頃",
+    "titleKana": "ちゅうしゅうのころ",
+    "sortKana": "ちゆうしゆうのころ",
+    "firstAppearance": "「文章世界　第十二巻第十号」1917（大正6）年10月1日",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-09-10",
+    "updatedAt": "2022-08-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000214/card48924.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000214/files/48924_ruby_76201.zip",
+    "textFileId": "48924_ruby_76201",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000214/files/48924_76233.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "hitsuji",
+    "baseBook1": {
+      "title": "定本　花袋全集　第二十四巻",
+      "publisher": "臨川書店",
+      "firstPublishedAt": "1995（平成7）年4月10日",
+      "inputEdition": "1995（平成7）年4月10日",
+      "proofreadEdition": "1995（平成7）年4月10日"
+    },
+    "author": "田山花袋、田山録弥",
+    "authors": [
+      {
+        "personId": "000214",
+        "name": "田山花袋",
+        "kana": "たやまかたい",
+        "roman": "Katai Tayama",
+        "role": "著者",
+        "birthDate": "1872-01-22",
+        "deathDate": "1930-05-13",
+        "copyright": "なし"
+      },
+      {
+        "personId": "001416",
+        "name": "田山録弥",
+        "kana": "たやまろくや",
+        "roman": "Rokuya Tayama",
+        "role": "著者",
+        "birthDate": "1872-01-22",
+        "deathDate": "1930-05-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

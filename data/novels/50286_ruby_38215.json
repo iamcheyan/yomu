@@ -76,5 +76,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050286",
+    "title": "虫の声",
+    "titleKana": "むしのこえ",
+    "sortKana": "むしのこえ",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-05-09",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001341/card50286.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001341/files/50286_ruby_38215.zip",
+    "textFileId": "50286_ruby_38215",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001341/files/50286_38965.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆19　虫",
+      "publisher": "作品社",
+      "firstPublishedAt": "1984（昭和59）年5月25日",
+      "inputEdition": "1997（平成9）年5月20日第18刷",
+      "proofreadEdition": "1997（平成9）年5月20日第18刷"
+    },
+    "author": "永井荷風",
+    "authors": [
+      {
+        "personId": "001341",
+        "name": "永井荷風",
+        "kana": "ながいかふう",
+        "roman": "Kafu Nagai",
+        "role": "著者",
+        "birthDate": "1879-12-03",
+        "deathDate": "1959-04-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

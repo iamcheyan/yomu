@@ -1996,5 +1996,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002421",
+    "title": "小熊秀雄全集-19",
+    "titleKana": "おぐまひでおぜんしゅう-19",
+    "sortKana": "おくまひておせんしゆう",
+    "subtitle": "美術論・画論",
+    "subtitleKana": "びじゅつろん・がろん",
+    "ndc": "NDC 720",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-04-15",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000124/card2421.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000124/files/2421_ruby_21875.zip",
+    "textFileId": "2421_ruby_21875",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000124/files/2421_21876.html",
+    "inputBy": "小林繁雄",
+    "proofreadBy": "瀬戸茂之",
+    "baseBook1": {
+      "title": "新版・小熊秀雄全集第五巻",
+      "publisher": "創樹社",
+      "firstPublishedAt": "1991（平成3）年11月30日",
+      "inputEdition": "1991（平成3）年11月30日新版第1刷",
+      "proofreadEdition": "1991（平成3）年11月30日新版第1刷"
+    },
+    "author": "小熊秀雄",
+    "authors": [
+      {
+        "personId": "000124",
+        "name": "小熊秀雄",
+        "kana": "おぐまひでお",
+        "roman": "Hideo Oguma",
+        "role": "著者",
+        "birthDate": "1901-09-09",
+        "deathDate": "1940-11-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -1200,5 +1200,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059827",
+    "title": "猫と庄造と二人のおんな",
+    "titleKana": "ねことしょうぞうとふたりのおんな",
+    "sortKana": "ねことしようそうとふたりのおんな",
+    "firstAppearance": "「改造　新年号　第十八巻第一号」1936（昭和11）年1月1日<br>「改造　七月特大号　第十八巻第七号」1936（昭和11）年7月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-05-03",
+    "updatedAt": "2021-04-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001383/card59827.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001383/files/59827_ruby_73151.zip",
+    "textFileId": "59827_ruby_73151",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001383/files/59827_73191.html",
+    "inputBy": "悠悠自炊",
+    "proofreadBy": "砂場清隆",
+    "baseBook1": {
+      "title": "猫と庄造と二人のおんな",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1951（昭和26）年8月25日",
+      "inputEdition": "2012（平成24）年6月25日74刷改版",
+      "proofreadEdition": "2012（平成24）年6月25日74刷改版、2015（平成27）年9月10日76刷"
+    },
+    "author": "谷崎潤一郎",
+    "authors": [
+      {
+        "personId": "001383",
+        "name": "谷崎潤一郎",
+        "kana": "たにざきじゅんいちろう",
+        "roman": "Jun'ichiro Tanizaki",
+        "role": "著者",
+        "birthDate": "1886-07-24",
+        "deathDate": "1965-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -442,5 +442,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004097",
+    "title": "雲は天才である",
+    "titleKana": "くもはてんさいである",
+    "sortKana": "くもはてんさいてある",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-03-26",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000153/card4097.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000153/files/4097_ruby_7978.zip",
+    "textFileId": "4097_ruby_7978",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000153/files/4097_9491.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "石川啄木作品集　第二巻",
+      "publisher": "昭和出版社",
+      "firstPublishedAt": "1970（昭和45）年11月20日",
+      "inputEdition": "1970（昭和45）年11月20日発行",
+      "proofreadEdition": "1972（昭和47）年6月20日発行"
+    },
+    "author": "石川啄木",
+    "authors": [
+      {
+        "personId": "000153",
+        "name": "石川啄木",
+        "kana": "いしかわたくぼく",
+        "roman": "Takuboku Ishikawa",
+        "role": "著者",
+        "birthDate": "1886-02-20",
+        "deathDate": "1912-04-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

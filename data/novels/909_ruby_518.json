@@ -42,5 +42,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000909",
+    "title": "鳥",
+    "titleKana": "とり",
+    "sortKana": "とり",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-09-05",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card909.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/909_ruby_518.zip",
+    "textFileId": "909_ruby_518",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/909_519.html",
+    "inputBy": "佐藤和人",
+    "proofreadBy": "野口英司",
+    "baseBook1": {
+      "title": "定本　横光利一全集　第三巻",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "1981（昭和56）年"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

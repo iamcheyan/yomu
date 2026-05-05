@@ -1224,5 +1224,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057653",
+    "title": "滝口",
+    "titleKana": "たきぐち",
+    "sortKana": "たきくち",
+    "firstAppearance": "「小説新潮」新潮社、1963（昭和38）年11月〜1964（昭和39）年2月",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-11-14",
+    "updatedAt": "2022-10-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001869/card57653.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001869/files/57653_ruby_76486.zip",
+    "textFileId": "57653_ruby_76486",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001869/files/57653_76522.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "北川松生",
+    "baseBook1": {
+      "title": "山本周五郎全集第二十九巻　おさん・あすなろう",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1982（昭和57）年6月25日",
+      "inputEdition": "1982（昭和57）年6月25日",
+      "proofreadEdition": "1982（昭和57）年6月25日"
+    },
+    "author": "山本周五郎",
+    "authors": [
+      {
+        "personId": "001869",
+        "name": "山本周五郎",
+        "kana": "やまもとしゅうごろう",
+        "roman": "Shugoro Yamamoto",
+        "role": "著者",
+        "birthDate": "1903-06-22",
+        "deathDate": "1967-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

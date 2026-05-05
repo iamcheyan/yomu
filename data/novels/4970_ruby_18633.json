@@ -220,5 +220,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004970",
+    "title": "幾度目かの最期",
+    "titleKana": "いくどめかのさいご",
+    "sortKana": "いくとめかのさいこ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-07-06",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001052/card4970.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001052/files/4970_ruby_18633.zip",
+    "textFileId": "4970_ruby_18633",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001052/files/4970_18639.html",
+    "inputBy": "kompass",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "久坂葉子作品集　女",
+      "publisher": "六興出版",
+      "firstPublishedAt": "1978（昭和53）年12月31日",
+      "inputEdition": "1981（昭和56）年6月30日6刷",
+      "proofreadEdition": "1979（昭和54）年2月20日2刷"
+    },
+    "author": "久坂葉子",
+    "authors": [
+      {
+        "personId": "001052",
+        "name": "久坂葉子",
+        "kana": "くさかようこ",
+        "roman": "Yoko Kusaka",
+        "role": "著者",
+        "birthDate": "1931-03-27",
+        "deathDate": "1952-12-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

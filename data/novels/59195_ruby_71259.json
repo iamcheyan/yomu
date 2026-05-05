@@ -128,5 +128,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059195",
+    "title": "心霊現象と科学",
+    "titleKana": "しんれいげんしょうとかがく",
+    "sortKana": "しんれいけんしようとかかく",
+    "subtitle": "――『心の領域』について――",
+    "subtitleKana": "――『こころのりょういき』について――",
+    "ndc": "NDC 147",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-07-29",
+    "updatedAt": "2020-06-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card59195.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/59195_ruby_71259.zip",
+    "textFileId": "59195_ruby_71259",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/59195_71308.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "中谷宇吉郎随筆選集第二巻",
+      "publisher": "朝日新聞社",
+      "firstPublishedAt": "1966（昭和41）年8月20日",
+      "inputEdition": "1966（昭和41）年9月30日第2刷",
+      "proofreadEdition": "1966（昭和41）年8月20日"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

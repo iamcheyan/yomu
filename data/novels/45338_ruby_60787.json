@@ -1802,5 +1802,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045338",
+    "title": "随筆　藪柑子",
+    "titleKana": "ずいひつ　やぶこうじ",
+    "sortKana": "すいひつやふこうし",
+    "subtitle": "02 随筆　藪柑子",
+    "subtitleKana": "02 ずいひつ　やぶこうじ",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-02-21",
+    "updatedAt": "2017-01-20",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001198/card45338.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001198/files/45338_ruby_60787.zip",
+    "textFileId": "45338_ruby_60787",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001198/files/45338_60822.html",
+    "inputBy": "岡山勝美",
+    "proofreadBy": "Juki、門田裕志",
+    "baseBook1": {
+      "title": "隨筆　藪柑子",
+      "publisher": "長崎書店",
+      "firstPublishedAt": "1940（昭和15）年12月30日",
+      "inputEdition": "1941（昭和16）年2月20日3刷",
+      "proofreadEdition": "1941（昭和16）年2月20日3刷"
+    },
+    "author": "土井八枝",
+    "authors": [
+      {
+        "personId": "001198",
+        "name": "土井八枝",
+        "kana": "どいやえ",
+        "roman": "Yae Doi",
+        "role": "著者",
+        "birthDate": "1879-02-21",
+        "deathDate": "1948-05-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

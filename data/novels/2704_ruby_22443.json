@@ -82,5 +82,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002704",
+    "title": "とも喰い",
+    "titleKana": "ともぐい",
+    "sortKana": "ともくい",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-12-04",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000303/card2704.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000303/files/2704_ruby_22443.zip",
+    "textFileId": "2704_ruby_22443",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000303/files/2704_22444.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・20　「戦旗」「ナップ」作家集7",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1985（昭和60）年3月25日",
+      "inputEdition": "1989（平成元）年3月25日第4刷",
+      "proofreadEdition": "1989（平成元）年3月25日第4刷"
+    },
+    "author": "本庄陸男",
+    "authors": [
+      {
+        "personId": "000303",
+        "name": "本庄陸男",
+        "kana": "ほんじょうむつお",
+        "roman": "Mutsuo Honjo",
+        "role": "著者",
+        "birthDate": "1905-02-20",
+        "deathDate": "1939-07-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

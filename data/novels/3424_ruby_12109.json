@@ -580,5 +580,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003424",
+    "title": "錦染滝白糸",
+    "titleKana": "もみじぞめたきのしらいと",
+    "sortKana": "もみしそめたきのしらいと",
+    "subtitle": "――其一幕――",
+    "subtitleKana": "――そのひとまく――",
+    "ndc": "NDC 912",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-09-08",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card3424.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/3424_ruby_12109.zip",
+    "textFileId": "3424_ruby_12109",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/3424_12110.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "今井忠夫",
+    "baseBook1": {
+      "title": "泉鏡花集成7",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1995（平成7）年12月4日",
+      "inputEdition": "1995（平成7）年12月4日第1刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

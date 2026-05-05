@@ -48,5 +48,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000217",
+    "title": "宣言一つ",
+    "titleKana": "せんげんひとつ",
+    "sortKana": "せんけんひとつ",
+    "firstAppearance": "「改造」1922（大正11）年1月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-06-22",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000025/card217.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000025/files/217_ruby_20458.zip",
+    "textFileId": "217_ruby_20458",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000025/files/217_20459.html",
+    "inputBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "惜しみなく愛は奪う",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1969（昭和44）年1月30日改版初版",
+      "inputEdition": "1979（昭和54）年4月30日発行改版14版"
+    },
+    "author": "有島武郎",
+    "authors": [
+      {
+        "personId": "000025",
+        "name": "有島武郎",
+        "kana": "ありしまたけお",
+        "roman": "Takeo Arishima",
+        "role": "著者",
+        "birthDate": "1878-03-04",
+        "deathDate": "1923-06-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

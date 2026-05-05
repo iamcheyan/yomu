@@ -76,5 +76,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046644",
+    "title": "序に代えて人生観上の自然主義を論ず",
+    "titleKana": "じょにかえてじんせいかんじょうのしぜんしゅぎをろんず",
+    "sortKana": "しよにかえてしんせいかんしようのしせんしゆきをろんす",
+    "firstAppearance": "「近代文芸之研究」1909（明治42）年6月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-04-22",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000599/card46644.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000599/files/46644_ruby_26375.zip",
+    "textFileId": "46644_ruby_26375",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000599/files/46644_26532.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "日本の文学　77　名作集（一）",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1970（昭和45）年7月5日",
+      "inputEdition": "1971（昭和46）年4月30日再版",
+      "proofreadEdition": "1970（昭和45）年7月5日初版"
+    },
+    "author": "島村抱月",
+    "authors": [
+      {
+        "personId": "000599",
+        "name": "島村抱月",
+        "kana": "しまむらほうげつ",
+        "roman": "Hogetsu Shimamura",
+        "role": "著者",
+        "birthDate": "1871-02-28",
+        "deathDate": "1918-11-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

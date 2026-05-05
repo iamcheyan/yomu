@@ -66,5 +66,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052192",
+    "title": "思ひ出すままに",
+    "titleKana": "おもいだすままに",
+    "sortKana": "おもいたすままに",
+    "subtitle": "「文藝春秋」と菊池と",
+    "subtitleKana": "「ぶんげいしゅんじゅう」ときくちと",
+    "ndc": "NDC 070 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-01-01",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001533/card52192.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001533/files/52192_ruby_46179.zip",
+    "textFileId": "52192_ruby_46179",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001533/files/52192_46223.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻96　大正",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年2月25日",
+      "inputEdition": "1999（平成11）年2月25日第1刷",
+      "proofreadEdition": "1999（平成11）年2月25日第1刷"
+    },
+    "author": "宇野浩二",
+    "authors": [
+      {
+        "personId": "001533",
+        "name": "宇野浩二",
+        "kana": "うのこうじ",
+        "roman": "Koji Uno",
+        "role": "著者",
+        "birthDate": "1891-07-26",
+        "deathDate": "1961-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -12946,5 +12946,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002246",
+    "title": "旅愁",
+    "titleKana": "りょしゅう",
+    "sortKana": "りよしゆう",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-09-13",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card2246.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/2246_ruby_3821.zip",
+    "textFileId": "2246_ruby_3821",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/2246_20011.html",
+    "inputBy": "kompass",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "旅愁　下",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1998（平成10）年12月10日"
+    },
+    "baseBook2": {
+      "title": "旅愁　上",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1998（平成10）年11月10日"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

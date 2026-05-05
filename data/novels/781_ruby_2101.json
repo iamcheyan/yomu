@@ -592,5 +592,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000781",
+    "title": "満韓ところどころ",
+    "titleKana": "まんかんところどころ",
+    "sortKana": "まんかんところところ",
+    "firstAppearance": "「朝日新聞」1909（明治42）年10～12月",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-06-20",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000148/card781.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000148/files/781_ruby_2101.zip",
+    "textFileId": "781_ruby_2101",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000148/files/781_14965.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "夏目漱石全集7",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1988（昭和63）年4月26日",
+      "inputEdition": "1988（昭和63）年4月26日第1刷",
+      "proofreadEdition": "1996（平成8）年3月1日第3刷"
+    },
+    "author": "夏目漱石",
+    "authors": [
+      {
+        "personId": "000148",
+        "name": "夏目漱石",
+        "kana": "なつめそうせき",
+        "roman": "Soseki Natsume",
+        "role": "著者",
+        "birthDate": "1867-02-09",
+        "deathDate": "1916-12-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -1470,5 +1470,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042405",
+    "title": "二つの途",
+    "titleKana": "ふたつのみち",
+    "sortKana": "ふたつのみち",
+    "firstAppearance": "「新小説」1920（大正9）年5月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-10-02",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000906/card42405.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000906/files/42405_ruby_32958.zip",
+    "textFileId": "42405_ruby_32958",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000906/files/42405_32976.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "豊島与志雄著作集　第一巻（小説Ⅰ）",
+      "publisher": "未来社",
+      "firstPublishedAt": "1967（昭和42）年6月20日",
+      "inputEdition": "1967（昭和42）年6月20日第1刷",
+      "proofreadEdition": "1967（昭和42）年6月20日第1刷"
+    },
+    "author": "豊島与志雄",
+    "authors": [
+      {
+        "personId": "000906",
+        "name": "豊島与志雄",
+        "kana": "とよしまよしお",
+        "roman": "Yoshio Toyoshima",
+        "role": "著者",
+        "birthDate": "1890-11-27",
+        "deathDate": "1955-06-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

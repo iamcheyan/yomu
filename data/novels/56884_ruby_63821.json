@@ -2390,5 +2390,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056884",
+    "title": "つゆじも",
+    "titleKana": "つゆじも",
+    "sortKana": "つゆしも",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-02-25",
+    "updatedAt": "2018-02-08",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001059/card56884.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001059/files/56884_ruby_63821.zip",
+    "textFileId": "56884_ruby_63821",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001059/files/56884_63901.html",
+    "inputBy": "光森裕樹",
+    "proofreadBy": "のぶい",
+    "baseBook1": {
+      "title": "歌集　つゆじも",
+      "publisher": "短歌新聞社文庫、短歌新聞社",
+      "firstPublishedAt": "2004（平成16）年7月6日",
+      "inputEdition": "2007（平成19）年9月10日再版",
+      "proofreadEdition": "2007（平成19）年9月10日再版"
+    },
+    "author": "斎藤茂吉",
+    "authors": [
+      {
+        "personId": "001059",
+        "name": "斎藤茂吉",
+        "kana": "さいとうもきち",
+        "roman": "Mokichi Saito",
+        "role": "著者",
+        "birthDate": "1882-5-14",
+        "deathDate": "1953-2-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

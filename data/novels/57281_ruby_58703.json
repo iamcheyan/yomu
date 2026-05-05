@@ -84,5 +84,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057281",
+    "title": "「もく星」号の謎",
+    "titleKana": "「もくせい」ごうのなぞ",
+    "sortKana": "もくせいこうのなそ",
+    "subtitle": "――白鳩号遭難事件を回顧して――",
+    "subtitleKana": "――しろはとごうそうなんじけんをかいきして――",
+    "firstAppearance": "「文藝春秋　第三十巻第八号」文藝春秋新社、1952（昭和27）年7月1日",
+    "ndc": "NDC 687",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-04-09",
+    "updatedAt": "2016-03-04",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card57281.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/57281_ruby_58703.zip",
+    "textFileId": "57281_ruby_58703",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/57281_58741.html",
+    "inputBy": "kompass",
+    "proofreadBy": "砂場清隆",
+    "baseBook1": {
+      "title": "中谷宇吉郎集　第六巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "2001（平成13）年3月5日",
+      "inputEdition": "2001（平成13）年3月5日第1刷",
+      "proofreadEdition": "2001（平成13）年3月5日第1刷"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

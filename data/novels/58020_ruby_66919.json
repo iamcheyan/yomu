@@ -66,5 +66,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058020",
+    "title": "チャールズ・ダーウィン",
+    "titleKana": "チャールズ・ダーウィン",
+    "sortKana": "ちやあるすたあういん",
+    "ndc": "NDC K289",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-02-12",
+    "updatedAt": "2019-01-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001429/card58020.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001429/files/58020_ruby_66919.zip",
+    "textFileId": "58020_ruby_66919",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001429/files/58020_66965.html",
+    "inputBy": "高瀬竜一",
+    "proofreadBy": "sogo",
+    "baseBook1": {
+      "title": "偉い科學者",
+      "publisher": "實業之日本社",
+      "firstPublishedAt": "1942（昭和17）年10月10日",
+      "inputEdition": "1942（昭和17）年10月10日",
+      "proofreadEdition": "1942（昭和17）年10月10日"
+    },
+    "author": "石原純",
+    "authors": [
+      {
+        "personId": "001429",
+        "name": "石原純",
+        "kana": "いしわらあつし",
+        "roman": "Atsushi Ishiwara",
+        "role": "著者",
+        "birthDate": "1881-1-15",
+        "deathDate": "1947-1-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

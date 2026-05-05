@@ -150,5 +150,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001903",
+    "title": "死後",
+    "titleKana": "しご",
+    "sortKana": "しこ",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-11-06",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000305/card1903.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000305/files/1903_ruby_4853.zip",
+    "textFileId": "1903_ruby_4853",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000305/files/1903_16150.html",
+    "inputBy": "渡邉つよし",
+    "proofreadBy": "もりみつじゅんじ",
+    "baseBook1": {
+      "title": "日本の名随筆8　死",
+      "publisher": "作品社",
+      "firstPublishedAt": "1983（昭和58）年3月25日",
+      "inputEdition": "1991（平成3）年9月1日第17刷"
+    },
+    "author": "正岡子規",
+    "authors": [
+      {
+        "personId": "000305",
+        "name": "正岡子規",
+        "kana": "まさおかしき",
+        "roman": "Shiki Masaoka",
+        "role": "著者",
+        "birthDate": "1867-10-14",
+        "deathDate": "1902-09-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

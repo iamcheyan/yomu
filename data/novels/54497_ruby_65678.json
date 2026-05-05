@@ -44,5 +44,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054497",
+    "title": "わが画",
+    "titleKana": "わがえ",
+    "sortKana": "わかえ",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-09-29",
+    "updatedAt": "2018-08-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001607/card54497.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001607/files/54497_ruby_65678.zip",
+    "textFileId": "54497_ruby_65678",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001607/files/54497_65773.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "沖縄文学全集　第1巻　詩Ⅰ",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "1991（平成3）年6月6日",
+      "inputEdition": "1991（平成3）年6月6日第1刷",
+      "proofreadEdition": "1991（平成3）年6月6日第1刷"
+    },
+    "author": "末吉安持",
+    "authors": [
+      {
+        "personId": "001607",
+        "name": "末吉安持",
+        "kana": "すえよしあんじ",
+        "roman": "Anji Sueyoshi",
+        "role": "著者",
+        "birthDate": "1887",
+        "deathDate": "1907",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

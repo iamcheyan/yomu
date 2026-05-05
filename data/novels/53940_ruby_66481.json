@@ -234,5 +234,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053940",
+    "title": "洪水のように",
+    "titleKana": "こうずいのように",
+    "sortKana": "こうすいのように",
+    "firstAppearance": "「近代思想」1913（大正2）年12月号",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-12-13",
+    "updatedAt": "2018-11-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001611/card53940.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001611/files/53940_ruby_66481.zip",
+    "textFileId": "53940_ruby_66481",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001611/files/53940_66526.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・38　プロレタリア詩集（一）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年5月25日",
+      "inputEdition": "1987（昭和62）年5月25日初版",
+      "proofreadEdition": "1989（平成元）年4月25日第3刷"
+    },
+    "author": "徳永保之助",
+    "authors": [
+      {
+        "personId": "001611",
+        "name": "徳永保之助",
+        "kana": "とくながやすのすけ",
+        "roman": "Yasunosuke Tokunaga",
+        "role": "著者",
+        "birthDate": "1889-08-10",
+        "deathDate": "1925-12-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

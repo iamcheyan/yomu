@@ -34,5 +34,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004152",
+    "title": "松翠深く蒼浪遥けき逗子より",
+    "titleKana": "しょうすいふかくせいろうはるけきずしより",
+    "sortKana": "しようすいふかくせいろうはるけきすしより",
+    "ndc": "NDC 914 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-05-20",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card4152.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/4152_ruby_6285.zip",
+    "textFileId": "4152_ruby_6285",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/4152_6477.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "米田進",
+    "baseBook1": {
+      "title": "鏡花全集　巻二十八",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1942（昭和17）年11月30日",
+      "inputEdition": "1988（昭和63）年12月2日第3刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

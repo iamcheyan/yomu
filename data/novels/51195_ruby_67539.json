@@ -3432,5 +3432,36 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051195",
+    "title": "文明と病気",
+    "titleKana": "ぶんめいとびょうき",
+    "sortKana": "ふんめいとひようき",
+    "originalTitle": "CIVILIZATION AND DISEASE",
+    "ndc": "NDC 490",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2010-02-21",
+    "updatedAt": "2019-03-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001492/card51195.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001492/files/51195_ruby_67539.zip",
+    "textFileId": "51195_ruby_67539",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001492/files/51195_67538.html",
+    "proofreadBy": "The Creative CAT",
+    "author": "シゲリストヘンリー・Ｅ",
+    "authors": [
+      {
+        "personId": "001492",
+        "name": "シゲリストヘンリー・Ｅ",
+        "kana": "シゲリストヘンリー・イー",
+        "roman": "Henry E. Sigerist",
+        "role": "著者",
+        "birthDate": "1891",
+        "deathDate": "1957",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

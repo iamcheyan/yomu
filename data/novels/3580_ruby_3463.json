@@ -50,5 +50,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003580",
+    "title": "白い下地",
+    "titleKana": "しろいしたじ",
+    "sortKana": "しろいしたし",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-12-13",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card3580.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/3580_ruby_3463.zip",
+    "textFileId": "3580_ruby_3463",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/3580_7929.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "日本の名随筆7　色",
+      "publisher": "作品社",
+      "firstPublishedAt": "1983（昭和58）年5月25日",
+      "inputEdition": "1999（平成11）年2月25日第20刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

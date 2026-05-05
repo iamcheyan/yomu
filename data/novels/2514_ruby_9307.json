@@ -74,5 +74,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002514",
+    "title": "物売りの声",
+    "titleKana": "ものうりのこえ",
+    "sortKana": "ものうりのこえ",
+    "firstAppearance": "「文学」1935（昭和10）年5月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-03-14",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000042/card2514.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000042/files/2514_ruby_9307.zip",
+    "textFileId": "2514_ruby_9307",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000042/files/2514_9317.html",
+    "inputBy": "（株）モモ",
+    "proofreadBy": "かとうかおり",
+    "baseBook1": {
+      "title": "寺田寅彦随筆集　第五巻",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1948（昭和23）年11月20日、1963（昭和38）年6月16日第20刷改版",
+      "inputEdition": "1997（平成9）年9月5日第65刷"
+    },
+    "author": "寺田寅彦",
+    "authors": [
+      {
+        "personId": "000042",
+        "name": "寺田寅彦",
+        "kana": "てらだとらひこ",
+        "roman": "Torahiko Terada",
+        "role": "著者",
+        "birthDate": "1878-11-28",
+        "deathDate": "1935-12-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

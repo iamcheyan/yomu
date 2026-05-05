@@ -1224,5 +1224,48 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003552",
+    "title": "楢重雑筆",
+    "titleKana": "ならしげざっぴつ",
+    "sortKana": "ならしけさつひつ",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-12-25",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000259/card3552.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000259/files/3552_ruby_1895.zip",
+    "textFileId": "3552_ruby_1895",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000259/files/3552_8139.html",
+    "inputBy": "小林繁雄",
+    "proofreadBy": "米田進",
+    "baseBook1": {
+      "title": "小出楢重随筆集",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1987（昭和62）年8月17日",
+      "inputEdition": "1987（昭和62）年8月17日発行"
+    },
+    "baseBook2": {
+      "title": "小出楢重全文集",
+      "publisher": "五月書房",
+      "firstPublishedAt": "1981（昭和56）年9月10日",
+      "inputEdition": "1981（昭和56）年9月10日発行"
+    },
+    "author": "小出楢重",
+    "authors": [
+      {
+        "personId": "000259",
+        "name": "小出楢重",
+        "kana": "こいでならしげ",
+        "roman": "Narashige Koide",
+        "role": "著者",
+        "birthDate": "1887-10-13",
+        "deathDate": "1931-02-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

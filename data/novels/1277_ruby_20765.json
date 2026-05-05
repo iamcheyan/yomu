@@ -52,5 +52,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001277",
+    "title": "非凡人と凡人の遺書",
+    "titleKana": "ひぼんじんとぼんじんのいしょ",
+    "sortKana": "ひほんしんとほんしんのいしよ",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-11-13",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000239/card1277.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000239/files/1277_ruby_20765.zip",
+    "textFileId": "1277_ruby_20765",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000239/files/1277_20766.html",
+    "inputBy": "渡邉つよし",
+    "proofreadBy": "菅野朋子",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻17　遺言",
+      "publisher": "作品社",
+      "firstPublishedAt": "1992（平成4）年7月25日"
+    },
+    "author": "岡本一平",
+    "authors": [
+      {
+        "personId": "000239",
+        "name": "岡本一平",
+        "kana": "おかもといっぺい",
+        "roman": "Ippei Okamoto",
+        "role": "著者",
+        "birthDate": "1886-06-11",
+        "deathDate": "1948-10-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

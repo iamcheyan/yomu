@@ -106,5 +106,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003223",
+    "title": "貧書生",
+    "titleKana": "ひんしょせい",
+    "sortKana": "ひんしよせい",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-09-20",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000165/card3223.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000165/files/3223_ruby_3884.zip",
+    "textFileId": "3223_ruby_3884",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000165/files/3223_23682.html",
+    "inputBy": "渡邉つよし",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆85　貧",
+      "publisher": "作品社",
+      "firstPublishedAt": "1989（平成元）年11月25日",
+      "inputEdition": "1991（平成3）年9月1日第3刷"
+    },
+    "author": "内田魯庵",
+    "authors": [
+      {
+        "personId": "000165",
+        "name": "内田魯庵",
+        "kana": "うちだろあん",
+        "roman": "Roan Uchida",
+        "role": "著者",
+        "birthDate": "1868-04-27",
+        "deathDate": "1929-06-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

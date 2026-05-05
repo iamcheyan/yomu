@@ -72,5 +72,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049856",
+    "title": "私有農場から共産農団へ",
+    "titleKana": "しゆうのうじょうからきょうさんのうだんへ",
+    "sortKana": "しゆうのうしようからきようさんのうたんへ",
+    "firstAppearance": "「解放　第五巻第三號（三月號）」1923（大正12）年3月1日",
+    "ndc": "NDC 611 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-09-20",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000025/card49856.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000025/files/49856_ruby_35700.zip",
+    "textFileId": "49856_ruby_35700",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000025/files/49856_35969.html",
+    "inputBy": "ｍｏｎｏ",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "有島武郎全集第九卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1981（昭和56）年4月30日",
+      "inputEdition": "2002（平成14）年2月10日初版第3刷",
+      "proofreadEdition": "1981（昭和56）年4月30日初版"
+    },
+    "author": "有島武郎",
+    "authors": [
+      {
+        "personId": "000025",
+        "name": "有島武郎",
+        "kana": "ありしまたけお",
+        "roman": "Takeo Arishima",
+        "role": "著者",
+        "birthDate": "1878-03-04",
+        "deathDate": "1923-06-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

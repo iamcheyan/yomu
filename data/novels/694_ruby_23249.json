@@ -140,5 +140,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000694",
+    "title": "うたかたの記",
+    "titleKana": "うたかたのき",
+    "sortKana": "うたかたのき",
+    "firstAppearance": "「柵草紙」1890（明治23）年8月",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-07-18",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card694.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/694_ruby_23249.zip",
+    "textFileId": "694_ruby_23249",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/694_23250.html",
+    "inputBy": "よしだひとみ",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "舞姫・うたかたの記　他三篇",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1981（昭和56）年1月16日",
+      "inputEdition": "1999（平成11）年7月15日第36刷"
+    },
+    "author": "森鴎外",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

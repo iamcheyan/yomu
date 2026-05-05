@@ -202,5 +202,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045035",
+    "title": "渚",
+    "titleKana": "なぎさ",
+    "sortKana": "なきさ",
+    "ndc": "NDC K911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-02-27",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000136/card45035.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000136/files/45035_ruby_41661.zip",
+    "textFileId": "45035_ruby_41661",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000136/files/45035_42038.html",
+    "inputBy": "菅野朋子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本児童文学大系　第一四巻",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1977（昭和52）年11月20日",
+      "inputEdition": "1977（昭和52）年11月20日初刷",
+      "proofreadEdition": "1977（昭和52）年11月20日初刷"
+    },
+    "author": "山村暮鳥",
+    "authors": [
+      {
+        "personId": "000136",
+        "name": "山村暮鳥",
+        "kana": "やまむらぼちょう",
+        "roman": "Bocho Yamamura",
+        "role": "著者",
+        "birthDate": "1884-01-10",
+        "deathDate": "1924-12-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

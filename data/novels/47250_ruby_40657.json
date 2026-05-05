@@ -428,5 +428,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047250",
+    "title": "今昔茶話",
+    "titleKana": "こんじゃくさわ",
+    "sortKana": "こんしやくさわ",
+    "firstAppearance": "「外交」1941（昭和16）年3月1日、3月11日、3月21日、4月1日、5月1日、5月21日、6月1日、6月21日、7月1日、7月11日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-12-22",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card47250.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/47250_ruby_40657.zip",
+    "textFileId": "47250_ruby_40657",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/47250_41492.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "阿和泉拓",
+    "baseBook1": {
+      "title": "国枝史郎歴史小説傑作選",
+      "publisher": "作品社",
+      "firstPublishedAt": "2006（平成18）年3月30日",
+      "inputEdition": "2006（平成18）年3月30日第1刷",
+      "proofreadEdition": "2006（平成18）年3月30日第1刷"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

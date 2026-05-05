@@ -86,5 +86,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000017",
+    "title": "あの頃の自分の事",
+    "titleKana": "あのころのじぶんのこと",
+    "sortKana": "あのころのしふんのこと",
+    "firstAppearance": "「中央公論」1919（大正8）年1月",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-06-22",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000879/card17.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000879/files/17_ruby_377.zip",
+    "textFileId": "17_ruby_377",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000879/files/17_14601.html",
+    "inputBy": "j.utiyama",
+    "proofreadBy": "小浜真由美",
+    "baseBook1": {
+      "title": "現代日本文學大系　43　芥川龍之介集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1968（昭和43）年8月25日",
+      "inputEdition": "1968（昭和43）年8月25日初版第1刷"
+    },
+    "author": "芥川竜之介",
+    "authors": [
+      {
+        "personId": "000879",
+        "name": "芥川竜之介",
+        "kana": "あくたがわりゅうのすけ",
+        "roman": "Ryunosuke Akutagawa",
+        "role": "著者",
+        "birthDate": "1892-03-01",
+        "deathDate": "1927-07-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

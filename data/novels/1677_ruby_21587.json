@@ -728,5 +728,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001677",
+    "title": "狂乱",
+    "titleKana": "きょうらん",
+    "sortKana": "きようらん",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-06-04",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000275/card1677.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000275/files/1677_ruby_21587.zip",
+    "textFileId": "1677_ruby_21587",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000275/files/1677_21588.html",
+    "inputBy": "久保あきら",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "日本の文学　8　田山花袋　岩野泡鳴　近松秋江",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1970（昭和45）年5月5日",
+      "inputEdition": "1970（昭和45）年5月5日初版",
+      "proofreadEdition": "1970（昭和45）年5月5日初版"
+    },
+    "author": "近松秋江",
+    "authors": [
+      {
+        "personId": "000275",
+        "name": "近松秋江",
+        "kana": "ちかまつしゅうこう",
+        "roman": "Shuko Chikamatsu",
+        "role": "著者",
+        "birthDate": "1876-05-04",
+        "deathDate": "1944-04-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -62,5 +62,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057870",
+    "title": "鼠の湯治",
+    "titleKana": "ねずみのとうじ",
+    "sortKana": "ねすみのとうし",
+    "firstAppearance": "「思想　第一九五号」岩波書店、1938（昭和13）年8月1日",
+    "ndc": "NDC 492",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-11-19",
+    "updatedAt": "2017-10-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card57870.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/57870_ruby_63033.zip",
+    "textFileId": "57870_ruby_63033",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/57870_63081.html",
+    "inputBy": "kompass",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "中谷宇吉郎集　第二巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "2000（平成12）年11月6日",
+      "inputEdition": "2000（平成12）年11月6日第1刷",
+      "proofreadEdition": "2000（平成12）年11月6日第1刷"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -44,5 +44,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048364",
+    "title": "江戸川氏と私",
+    "titleKana": "えどがわしとわたし",
+    "sortKana": "えとかわしとわたし",
+    "firstAppearance": "「大衆文藝」1927（昭和2）年6月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-06-24",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000262/card48364.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000262/files/48364_ruby_30852.zip",
+    "textFileId": "48364_ruby_30852",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000262/files/48364_31535.html",
+    "inputBy": "sogo",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "江戸川乱歩　日本探偵小説事典",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "1996（平成8）年10月25日",
+      "inputEdition": "1996（平成8）年10月25日初版",
+      "proofreadEdition": "1996（平成8）年10月25日初版"
+    },
+    "author": "小酒井不木",
+    "authors": [
+      {
+        "personId": "000262",
+        "name": "小酒井不木",
+        "kana": "こざかいふぼく",
+        "roman": "Fuboku Kosakai",
+        "role": "著者",
+        "birthDate": "1890-10-08",
+        "deathDate": "1929-04-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

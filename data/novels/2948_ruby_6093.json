@@ -372,5 +372,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002948",
+    "title": "獄中生活",
+    "titleKana": "ごくちゅうせいかつ",
+    "sortKana": "こくちゆうせいかつ",
+    "firstAppearance": "「楽天囚人」1911（明治44）年3月",
+    "ndc": "NDC 916",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-12-27",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000164/card2948.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000164/files/2948_ruby_6093.zip",
+    "textFileId": "2948_ruby_6093",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000164/files/2948_48824.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "日本プロレタリア文学大系（序）",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1955（昭和30）年3月31日",
+      "inputEdition": "1961（昭和36）年6月20日第2刷"
+    },
+    "author": "堺利彦",
+    "authors": [
+      {
+        "personId": "000164",
+        "name": "堺利彦",
+        "kana": "さかいとしひこ",
+        "roman": "Toshihiko Sakai",
+        "role": "著者",
+        "birthDate": "1871-01-15",
+        "deathDate": "1933-01-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

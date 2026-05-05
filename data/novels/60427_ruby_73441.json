@@ -40,5 +40,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060427",
+    "title": "先生と父兄の皆さまへ",
+    "titleKana": "せんせいとふけいのみなさまへ",
+    "sortKana": "せんせいとふけいのみなさまへ",
+    "ndc": "NDC K914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-06-25",
+    "updatedAt": "2021-05-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/002049/card60427.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/002049/files/60427_ruby_73441.zip",
+    "textFileId": "60427_ruby_73441",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/002049/files/60427_73480.html",
+    "inputBy": "sogo",
+    "proofreadBy": "The Creative CAT",
+    "baseBook1": {
+      "title": "一休さん",
+      "publisher": "日本書房",
+      "firstPublishedAt": "1954（昭和29）年11月1日",
+      "inputEdition": "1954（昭和29）年11月1日",
+      "proofreadEdition": "1954（昭和29）年11月1日"
+    },
+    "author": "五十公野清一",
+    "authors": [
+      {
+        "personId": "002049",
+        "name": "五十公野清一",
+        "kana": "いずみのせいいち",
+        "roman": "Seiichi Izumino",
+        "role": "著者",
+        "birthDate": "1902-02-26",
+        "deathDate": "1966-06-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

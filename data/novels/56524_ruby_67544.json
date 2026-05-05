@@ -896,5 +896,36 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056524",
+    "title": "ギリシャおよびローマ医学の概観",
+    "titleKana": "ギリシャおよびローマいがくのがいかん",
+    "sortKana": "きりしやおよひろおまの",
+    "originalTitle": "OUTLINES OF GREEK AND ROMAN MEDICINE",
+    "ndc": "NDC 490",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2013-11-02",
+    "updatedAt": "2019-03-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001783/card56524.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001783/files/56524_ruby_67544.zip",
+    "textFileId": "56524_ruby_67544",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001783/files/56524_67545.html",
+    "proofreadBy": "POKEPEEK2011",
+    "author": "エリオットジェイムズ・サンヅ",
+    "authors": [
+      {
+        "personId": "001783",
+        "name": "エリオットジェイムズ・サンヅ",
+        "kana": "エリオットジェイムズ・サンヅ",
+        "roman": "James Sands Elliott",
+        "role": "著者",
+        "birthDate": "1880-05-28",
+        "deathDate": "1959-10-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

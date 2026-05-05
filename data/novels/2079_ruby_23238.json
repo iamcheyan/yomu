@@ -108,5 +108,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002079",
+    "title": "余興",
+    "titleKana": "よきょう",
+    "sortKana": "よきよう",
+    "firstAppearance": "「アルス」1915（大正4）年8月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-08-13",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card2079.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/2079_ruby_23238.zip",
+    "textFileId": "2079_ruby_23238",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/2079_23239.html",
+    "inputBy": "j_sekikawa",
+    "proofreadBy": "しず",
+    "baseBook1": {
+      "title": "阿部一族・舞姫",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1968（昭和43）年4月20日",
+      "inputEdition": "1979（昭和54）年8月15日24刷",
+      "proofreadEdition": "1978（昭和53）年12月20日22刷"
+    },
+    "author": "森鴎外",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

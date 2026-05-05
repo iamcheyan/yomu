@@ -378,5 +378,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001908",
+    "title": "宝石の序曲",
+    "titleKana": "ほうせきのじょきょく",
+    "sortKana": "ほうせきのしよきよく",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-04-30",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000308/card1908.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000308/files/1908_ruby_22565.zip",
+    "textFileId": "1908_ruby_22565",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000308/files/1908_22566.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "ちはる",
+    "baseBook1": {
+      "title": "清風荘事件　他8編",
+      "publisher": "春陽文庫、春陽堂書店",
+      "firstPublishedAt": "1995（平成7）年7月10日",
+      "proofreadEdition": "1995（平成7）年7月10日初版"
+    },
+    "author": "松本泰",
+    "authors": [
+      {
+        "personId": "000308",
+        "name": "松本泰",
+        "kana": "まつもとたい",
+        "roman": "Tai Matsumoto",
+        "role": "著者",
+        "birthDate": "1887-02-22",
+        "deathDate": "1939-04-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -52,5 +52,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000813",
+    "title": "性急な思想",
+    "titleKana": "せっかちなしそう",
+    "sortKana": "せつかちなしそう",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-05-16",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000153/card813.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000153/files/813_ruby_19528.zip",
+    "textFileId": "813_ruby_19528",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000153/files/813_19529.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "石川啄木集（上）",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1950（昭和25）年5月10日、1970（昭和45）年6月15日30刷改版",
+      "inputEdition": "1991（平成3）年3月5日第58刷",
+      "proofreadEdition": "1991（平成3）年3月5日第58刷"
+    },
+    "author": "石川啄木",
+    "authors": [
+      {
+        "personId": "000153",
+        "name": "石川啄木",
+        "kana": "いしかわたくぼく",
+        "roman": "Takuboku Ishikawa",
+        "role": "著者",
+        "birthDate": "1886-02-20",
+        "deathDate": "1912-04-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

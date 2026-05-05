@@ -2316,5 +2316,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053049",
+    "title": "風隠集",
+    "titleKana": "ふういんしゅう",
+    "sortKana": "ふういんしゆう",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-01-25",
+    "updatedAt": "2017-12-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000106/card53049.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000106/files/53049_ruby_63513.zip",
+    "textFileId": "53049_ruby_63513",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000106/files/53049_63557.html",
+    "inputBy": "岡村和彦",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "白秋全集　9",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1986（昭和61）年2月5日",
+      "inputEdition": "1986（昭和61）年2月5日",
+      "proofreadEdition": "1986（昭和61）年2月5日"
+    },
+    "author": "北原白秋",
+    "authors": [
+      {
+        "personId": "000106",
+        "name": "北原白秋",
+        "kana": "きたはらはくしゅう",
+        "roman": "Hakushu Kitahara",
+        "role": "著者",
+        "birthDate": "1885-01-25",
+        "deathDate": "1942-11-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

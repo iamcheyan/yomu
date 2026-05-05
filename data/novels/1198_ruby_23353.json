@@ -118,5 +118,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001198",
+    "title": "河口湖",
+    "titleKana": "かわぐちこ",
+    "sortKana": "かわくちこ",
+    "ndc": "NDC 914 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-08-16",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000058/card1198.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000058/files/1198_ruby_23353.zip",
+    "textFileId": "1198_ruby_23353",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000058/files/1198_23802.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "野菊の墓他六篇",
+      "publisher": "新学社文庫、新学社",
+      "firstPublishedAt": "1968（昭和43）年6月15日",
+      "inputEdition": "1982（昭和57）年6月1日重版",
+      "proofreadEdition": "1969（昭和44）年6月15日第2刷"
+    },
+    "author": "伊藤左千夫",
+    "authors": [
+      {
+        "personId": "000058",
+        "name": "伊藤左千夫",
+        "kana": "いとうさちお",
+        "roman": "Sachio Ito",
+        "role": "著者",
+        "birthDate": "1864-09-18",
+        "deathDate": "1913-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

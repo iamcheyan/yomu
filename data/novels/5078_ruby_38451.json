@@ -64,5 +64,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "005078",
+    "title": "カフエ・ミネルワ",
+    "titleKana": "カフエ・ミネルワ",
+    "sortKana": "かふえみねるわ",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-07-13",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001059/card5078.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001059/files/5078_ruby_38451.zip",
+    "textFileId": "5078_ruby_38451",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001059/files/5078_39441.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻3　珈琲",
+      "publisher": "作品社",
+      "firstPublishedAt": "1991（平成3）年5月25日",
+      "inputEdition": "1997（平成9）年5月20日第6刷",
+      "proofreadEdition": "1997（平成9）年5月20日第6刷"
+    },
+    "author": "斎藤茂吉",
+    "authors": [
+      {
+        "personId": "001059",
+        "name": "斎藤茂吉",
+        "kana": "さいとうもきち",
+        "roman": "Mokichi Saito",
+        "role": "著者",
+        "birthDate": "1882-5-14",
+        "deathDate": "1953-2-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

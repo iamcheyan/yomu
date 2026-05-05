@@ -500,5 +500,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001281",
+    "title": "食魔",
+    "titleKana": "しょくま",
+    "sortKana": "しよくま",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-02-28",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000076/card1281.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000076/files/1281_ruby_13577.zip",
+    "textFileId": "1281_ruby_13577",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000076/files/1281_14477.html",
+    "inputBy": "阿部良子",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "昭和文学全集　第5巻",
+      "publisher": "小学館",
+      "firstPublishedAt": "1986（昭和61）年12月1日",
+      "inputEdition": "1986（昭和61）年12月1日初版第1刷",
+      "proofreadEdition": "1986（昭和61）年12月1日初版第1刷"
+    },
+    "author": "岡本かの子",
+    "authors": [
+      {
+        "personId": "000076",
+        "name": "岡本かの子",
+        "kana": "おかもとかのこ",
+        "roman": "Kanoko Okamoto",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1939-02-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

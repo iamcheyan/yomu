@@ -78,5 +78,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001423",
+    "title": "車室",
+    "titleKana": "しゃしつ",
+    "sortKana": "しやしつ",
+    "firstAppearance": "「沖縄毎日新聞」1911（明治44）年1月8日",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-01-05",
+    "updatedAt": "2016-12-09",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001666/card1423.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001666/files/1423_ruby_60421.zip",
+    "textFileId": "1423_ruby_60421",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001666/files/1423_60465.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "良本典代",
+    "baseBook1": {
+      "title": "沖縄文学全集　第1巻　詩Ⅰ",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "1991（平成3）年6月6日",
+      "inputEdition": "1991（平成3）年6月6日第1刷",
+      "proofreadEdition": "1991（平成3）年6月6日第1刷"
+    },
+    "author": "漢那浪笛",
+    "authors": [
+      {
+        "personId": "001666",
+        "name": "漢那浪笛",
+        "kana": "かんなろうてき",
+        "roman": "Roteki Kanna",
+        "role": "著者",
+        "birthDate": "1887",
+        "deathDate": "1939",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

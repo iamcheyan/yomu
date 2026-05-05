@@ -62,5 +62,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000945",
+    "title": "罪過論",
+    "titleKana": "ざいかろん",
+    "sortKana": "さいかろん",
+    "ndc": "NDC 910",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-03-24",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000102/card945.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000102/files/945_ruby_20590.zip",
+    "textFileId": "945_ruby_20590",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000102/files/945_20591.html",
+    "inputBy": "j.utiyama",
+    "proofreadBy": "八巻美恵",
+    "baseBook1": {
+      "title": "現代日本文學大系　96　文藝評論集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1973（昭和48）年7月10日",
+      "inputEdition": "1973（昭和48）年7月10日初版第1刷",
+      "proofreadEdition": "1989（平成元）年10月1日初版第13刷"
+    },
+    "author": "石橋忍月",
+    "authors": [
+      {
+        "personId": "000102",
+        "name": "石橋忍月",
+        "kana": "いしばしにんげつ",
+        "roman": "Ningetsu Ishibashi",
+        "role": "著者",
+        "birthDate": "1865-10-20",
+        "deathDate": "1926-02-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

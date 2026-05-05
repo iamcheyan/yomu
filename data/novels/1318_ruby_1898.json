@@ -476,5 +476,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001318",
+    "title": "聖アレキセイ寺院の惨劇",
+    "titleKana": "せいアレキセイじいんのさんげき",
+    "sortKana": "せいあれきせいしいんのさんけき",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-07-16",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000125/card1318.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000125/files/1318_ruby_1898.zip",
+    "textFileId": "1318_ruby_1898",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000125/files/1318_47204.html",
+    "inputBy": "南野輝",
+    "proofreadBy": "ちはる",
+    "baseBook1": {
+      "title": "新青年傑作選（１）推理小説編",
+      "publisher": "立風書房",
+      "firstPublishedAt": "1974（昭和49）年12月30日新装第1刷",
+      "inputEdition": "1974（昭和49）年12月30日新装第1刷"
+    },
+    "author": "小栗虫太郎",
+    "authors": [
+      {
+        "personId": "000125",
+        "name": "小栗虫太郎",
+        "kana": "おぐりむしたろう",
+        "roman": "Mushitaro Oguri",
+        "role": "著者",
+        "birthDate": "1901-03-14",
+        "deathDate": "1946-02-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

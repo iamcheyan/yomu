@@ -82,5 +82,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057862",
+    "title": "兎の耳",
+    "titleKana": "うさぎのみみ",
+    "sortKana": "うさきのみみ",
+    "firstAppearance": "附記以外「中央公論　第五十四年第二号」中央公論社、1939（昭和14）年2月1日<br>附記「続冬の華」甲鳥書林、1940（昭和15）年7月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-05-18",
+    "updatedAt": "2020-04-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card57862.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/57862_ruby_70940.zip",
+    "textFileId": "57862_ruby_70940",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/57862_70990.html",
+    "inputBy": "kompass",
+    "proofreadBy": "砂場清隆",
+    "baseBook1": {
+      "title": "中谷宇吉郎集　第二巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "2000（平成12）年11月6日",
+      "inputEdition": "2000（平成12）年11月6日第1刷",
+      "proofreadEdition": "2000（平成12）年11月6日第1刷"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

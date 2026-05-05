@@ -152,5 +152,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004487",
+    "title": "浪漫趣味者として",
+    "titleKana": "ロマンしゅみしゃとして",
+    "sortKana": "ろまんしゆみしやとして",
+    "subtitle": "―― Ibi omnis effusus labor ! ――",
+    "firstAppearance": "「新青年」博文館、1929（昭和4）年11月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-11-16",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000020/card4487.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000020/files/4487_ruby_32347.zip",
+    "textFileId": "4487_ruby_32347",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000020/files/4487_33318.html",
+    "inputBy": "森下祐行",
+    "proofreadBy": "もりみつじゅんじ、土屋隆",
+    "baseBook1": {
+      "title": "アンドロギュノスの裔",
+      "publisher": "薔薇十字社",
+      "firstPublishedAt": "1970（昭和45）年9月1日",
+      "inputEdition": "1970（昭和45）年9月1日初版",
+      "proofreadEdition": "1970（昭和45）年9月1日初版"
+    },
+    "author": "渡辺温",
+    "authors": [
+      {
+        "personId": "000020",
+        "name": "渡辺温",
+        "kana": "わたなべおん",
+        "roman": "On Watanabe",
+        "role": "著者",
+        "birthDate": "1902-08-26",
+        "deathDate": "1930-02-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

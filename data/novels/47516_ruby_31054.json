@@ -430,5 +430,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047516",
+    "title": "曲亭馬琴",
+    "titleKana": "きょくていばきん",
+    "sortKana": "きよくていはきん",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-07-22",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001261/card47516.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001261/files/47516_ruby_31054.zip",
+    "textFileId": "47516_ruby_31054",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001261/files/47516_31647.html",
+    "inputBy": "大野晋、網迫",
+    "proofreadBy": "山本弘子",
+    "baseBook1": {
+      "title": "昭和のエンタテインメント50篇（上）",
+      "publisher": "文春文庫、文芸春秋",
+      "firstPublishedAt": "1989（平成元）年6月10日",
+      "inputEdition": "1989（平成元）年6月10日第1刷",
+      "proofreadEdition": "1989（平成元）年6月10日第1刷"
+    },
+    "author": "邦枝完二",
+    "authors": [
+      {
+        "personId": "001261",
+        "name": "邦枝完二",
+        "kana": "くにえだかんじ",
+        "roman": "Kanji Kunieda",
+        "role": "著者",
+        "birthDate": "1892-12-28",
+        "deathDate": "1956-08-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

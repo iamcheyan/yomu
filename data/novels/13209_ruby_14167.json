@@ -74,5 +74,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "013209",
+    "title": "辞書",
+    "titleKana": "じしょ",
+    "sortKana": "ししよ",
+    "ndc": "NDC 813 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-01-20",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card13209.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/13209_ruby_14167.zip",
+    "textFileId": "13209_ruby_14167",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/13209_14222.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻74　辞書",
+      "publisher": "作品社",
+      "firstPublishedAt": "1997（平成9）年4月25日",
+      "inputEdition": "1997（平成9）年4月25日第1刷"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -134,5 +134,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049274",
+    "title": "妖怪報告",
+    "titleKana": "ようかいほうこく",
+    "sortKana": "ようかいほうこく",
+    "ndc": "NDC 147",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-09-25",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001021/card49274.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001021/files/49274_ruby_39348.zip",
+    "textFileId": "49274_ruby_39348",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001021/files/49274_40259.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "井上円了　妖怪学全集　第6巻",
+      "publisher": "柏書房",
+      "firstPublishedAt": "2001（平成13）年6月5日",
+      "inputEdition": "2001（平成13）年6月5日第1刷",
+      "proofreadEdition": "2001（平成13）年6月5日第1刷"
+    },
+    "author": "井上円了",
+    "authors": [
+      {
+        "personId": "001021",
+        "name": "井上円了",
+        "kana": "いのうええんりょう",
+        "roman": "Enryo Inoue",
+        "role": "著者",
+        "birthDate": "1858-03-18",
+        "deathDate": "1919-06-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

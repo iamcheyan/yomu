@@ -74,5 +74,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057313",
+    "title": "雪は資源である",
+    "titleKana": "ゆきはしげんである",
+    "sortKana": "ゆきはしけんてある",
+    "firstAppearance": "「国立公園　第二十九号」国立公園協会、1952（昭和27）年4月1日",
+    "ndc": "NDC 451",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-07-04",
+    "updatedAt": "2016-06-10",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card57313.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/57313_ruby_59423.zip",
+    "textFileId": "57313_ruby_59423",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/57313_59463.html",
+    "inputBy": "kompass",
+    "proofreadBy": "砂場清隆",
+    "baseBook1": {
+      "title": "中谷宇吉郎集　第五巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "2001（平成13）年2月5日",
+      "inputEdition": "2001（平成13）年2月5日第1刷",
+      "proofreadEdition": "2001（平成13）年2月5日第1刷発行"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

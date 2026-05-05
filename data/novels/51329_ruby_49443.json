@@ -46,5 +46,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051329",
+    "title": "干物",
+    "titleKana": "ひもの",
+    "sortKana": "ひもの",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-04-16",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000026/card51329.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000026/files/51329_ruby_49443.zip",
+    "textFileId": "51329_ruby_49443",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000026/files/51329_50069.html",
+    "inputBy": "ゆうき",
+    "proofreadBy": "木浦",
+    "baseBook1": {
+      "title": "中原中也詩集",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1968（昭和43）年12月10日改版",
+      "inputEdition": "1973（昭和48）年8月30日改版13版",
+      "proofreadEdition": "1987（昭和62）年4月30日改版15版"
+    },
+    "author": "中原中也",
+    "authors": [
+      {
+        "personId": "000026",
+        "name": "中原中也",
+        "kana": "なかはらちゅうや",
+        "roman": "Chuya Nakahara",
+        "role": "著者",
+        "birthDate": "1907-04-29",
+        "deathDate": "1937-10-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

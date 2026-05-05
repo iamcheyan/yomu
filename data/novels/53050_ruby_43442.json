@@ -240,5 +240,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053050",
+    "title": "空飛ぶ悪魔",
+    "titleKana": "そらとぶあくま",
+    "sortKana": "そらとふあくま",
+    "subtitle": "――機上から投下された手記――",
+    "subtitleKana": "――きじょうからとうかされたしゅき――",
+    "firstAppearance": "「新青年　17巻1号」1936（昭和11）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-08-06",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001142/card53050.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001142/files/53050_ruby_43442.zip",
+    "textFileId": "53050_ruby_43442",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001142/files/53050_44304.html",
+    "inputBy": "酒井　喬",
+    "proofreadBy": "北村タマ子",
+    "baseBook1": {
+      "title": "酒井嘉七探偵小説選　〔論創ミステリ叢書34〕",
+      "publisher": "論創社",
+      "firstPublishedAt": "2008（平成20）年4月30日",
+      "inputEdition": "2008（平成20）年4月30日初版第1刷",
+      "proofreadEdition": "2008（平成20）年4月30日初版第1刷"
+    },
+    "author": "酒井嘉七",
+    "authors": [
+      {
+        "personId": "001142",
+        "name": "酒井嘉七",
+        "kana": "さかいかしち",
+        "roman": "Kashichi Sakai",
+        "role": "著者",
+        "birthDate": "1903",
+        "deathDate": "1946",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

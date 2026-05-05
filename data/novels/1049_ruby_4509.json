@@ -38,5 +38,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001049",
+    "title": "フランス哲学についての感想",
+    "titleKana": "フランスてつがくについてのかんそう",
+    "sortKana": "ふらんすてつかくについてのかんそう",
+    "ndc": "NDC 135",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-08-29",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000182/card1049.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000182/files/1049_ruby_4509.zip",
+    "textFileId": "1049_ruby_4509",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000182/files/1049_40744.html",
+    "inputBy": "加藤恭子",
+    "proofreadBy": "nns",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻92　哲学",
+      "publisher": "作品社",
+      "firstPublishedAt": "1998（平成10）年10月25日"
+    },
+    "author": "西田幾多郎",
+    "authors": [
+      {
+        "personId": "000182",
+        "name": "西田幾多郎",
+        "kana": "にしだきたろう",
+        "roman": "Kitaro Nishida",
+        "role": "著者",
+        "birthDate": "1870-06-17",
+        "deathDate": "1945-06-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

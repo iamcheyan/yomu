@@ -452,5 +452,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043463",
+    "title": "生活と一枚の宗教",
+    "titleKana": "せいかつといちまいのしゅうきょう",
+    "sortKana": "せいかつといちまいのしゆうきよう",
+    "ndc": "NDC 180",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-04-24",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000256/card43463.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000256/files/43463_ruby_49890.zip",
+    "textFileId": "43463_ruby_49890",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000256/files/43463_50167.html",
+    "inputBy": "kamille",
+    "proofreadBy": "大野裕",
+    "baseBook1": {
+      "title": "世界教養全集　10",
+      "publisher": "平凡社",
+      "firstPublishedAt": "1963（昭和38）年5月31日",
+      "inputEdition": "1970（昭和45）年3月25日18版",
+      "proofreadEdition": "1969（昭和44）年12月5日22版"
+    },
+    "author": "倉田百三",
+    "authors": [
+      {
+        "personId": "000256",
+        "name": "倉田百三",
+        "kana": "くらたひゃくぞう",
+        "roman": "Hyakuzo Kurata",
+        "role": "著者",
+        "birthDate": "1891-02-23",
+        "deathDate": "1943-02-12",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

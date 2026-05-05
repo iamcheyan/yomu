@@ -90,5 +90,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058934",
+    "title": "鴨川を愛して",
+    "titleKana": "かもがわをあいして",
+    "sortKana": "かもかわをあいして",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-08-17",
+    "updatedAt": "2019-07-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001938/card58934.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001938/files/58934_ruby_68715.zip",
+    "textFileId": "58934_ruby_68715",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001938/files/58934_68764.html",
+    "inputBy": "大久保ゆう",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆33　水",
+      "publisher": "作品社",
+      "firstPublishedAt": "1985（昭和60）年7月25日",
+      "inputEdition": "1985（昭和60）年7月25日第1刷",
+      "proofreadEdition": "1985（昭和60）年7月25日第1刷"
+    },
+    "author": "新村出",
+    "authors": [
+      {
+        "personId": "001938",
+        "name": "新村出",
+        "kana": "しんむらいずる",
+        "roman": "Izuru Shinmura",
+        "role": "著者",
+        "birthDate": "1876-10-04",
+        "deathDate": "1967-08-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

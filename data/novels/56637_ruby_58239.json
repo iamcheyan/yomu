@@ -636,5 +636,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056637",
+    "title": "風宴",
+    "titleKana": "ふうえん",
+    "sortKana": "ふうえん",
+    "firstAppearance": "「早稲田文学　新人創作特輯号」1939（昭和14）年8月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-03-28",
+    "updatedAt": "2016-01-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001798/card56637.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001798/files/56637_ruby_58239.zip",
+    "textFileId": "56637_ruby_58239",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001798/files/56637_58253.html",
+    "inputBy": "kompass",
+    "proofreadBy": "酒井裕二",
+    "baseBook1": {
+      "title": "桜島・日の果て・幻化",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1989（平成元）年6月10日",
+      "inputEdition": "1989（平成元）年6月10日第1刷",
+      "proofreadEdition": "2014（平成26）年2月3日第20刷"
+    },
+    "author": "梅崎春生",
+    "authors": [
+      {
+        "personId": "001798",
+        "name": "梅崎春生",
+        "kana": "うめざきはるお",
+        "roman": "Haruo Umezaki",
+        "role": "著者",
+        "birthDate": "1915-02-15",
+        "deathDate": "1965-07-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

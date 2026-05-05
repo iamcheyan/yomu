@@ -68,5 +68,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000610",
+    "title": "虫干し",
+    "titleKana": "むしぼし",
+    "sortKana": "むしほし",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-07-28",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000116/card610.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000116/files/610_ruby_20956.zip",
+    "textFileId": "610_ruby_20956",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000116/files/610_20957.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "菅野朋子",
+    "baseBook1": {
+      "title": "日本の名随筆18　夏",
+      "publisher": "作品社",
+      "firstPublishedAt": "1984（昭和59）年4月25日"
+    },
+    "author": "鷹野つぎ",
+    "authors": [
+      {
+        "personId": "000116",
+        "name": "鷹野つぎ",
+        "kana": "たかのつぎ",
+        "roman": "Tsugi Takano",
+        "role": "著者",
+        "birthDate": "1890-08-15",
+        "deathDate": "1943-03-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

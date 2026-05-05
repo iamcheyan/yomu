@@ -3294,5 +3294,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000199",
+    "title": "あらくれ",
+    "titleKana": "あらくれ",
+    "sortKana": "あらくれ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-06-23",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000023/card199.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000023/files/199_ruby_4177.zip",
+    "textFileId": "199_ruby_4177",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000023/files/199_44926.html",
+    "inputBy": "久保あきら",
+    "proofreadBy": "湯地光弘",
+    "baseBook1": {
+      "title": "あらくれ",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1949（昭和24）年10月31日発行、1969（昭和44）年6月20日21刷改版",
+      "inputEdition": "1982（昭和57）年9月15日38刷"
+    },
+    "author": "徳田秋声",
+    "authors": [
+      {
+        "personId": "000023",
+        "name": "徳田秋声",
+        "kana": "とくだしゅうせい",
+        "roman": "Shusei Tokuda",
+        "role": "著者",
+        "birthDate": "1872-02-01",
+        "deathDate": "1943-11-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

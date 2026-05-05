@@ -96,5 +96,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055307",
+    "title": "ジェミイの冐険",
+    "titleKana": "じぇみいのぼうけん",
+    "sortKana": "しえみいのほうけん",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-03-19",
+    "updatedAt": "2018-03-10",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001346/card55307.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001346/files/55307_ruby_64038.zip",
+    "textFileId": "55307_ruby_64038",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001346/files/55307_64130.html",
+    "inputBy": "匿名",
+    "proofreadBy": "館野浩美",
+    "baseBook1": {
+      "title": "世界の子供",
+      "publisher": "世界文学社",
+      "firstPublishedAt": "1949（昭和24）年8月",
+      "inputEdition": "1949（昭和24）年8月",
+      "proofreadEdition": "1949（昭和24）年8月"
+    },
+    "author": "片山広子",
+    "authors": [
+      {
+        "personId": "001346",
+        "name": "片山広子",
+        "kana": "かたやまひろこ",
+        "roman": "Hiroko Katayama",
+        "role": "著者",
+        "birthDate": "1878-02-10",
+        "deathDate": "1957-03-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

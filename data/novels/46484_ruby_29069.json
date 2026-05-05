@@ -186,5 +186,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046484",
+    "title": "抱茗荷の説",
+    "titleKana": "だきみょうがのせつ",
+    "sortKana": "たきみようかのせつ",
+    "firstAppearance": "「ぷろふいる」1937（昭和12）年1月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-03-02",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000930/card46484.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000930/files/46484_ruby_29069.zip",
+    "textFileId": "46484_ruby_29069",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000930/files/46484_29570.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "山本弘子",
+    "baseBook1": {
+      "title": "怪奇探偵小説集❸",
+      "publisher": "ハルキ文庫、角川春樹事務所",
+      "firstPublishedAt": "1998（平成10）年7月18日",
+      "inputEdition": "1998（平成10）年7月18日第1刷",
+      "proofreadEdition": "1998（平成10）年7月18日第1刷"
+    },
+    "author": "山本禾太郎",
+    "authors": [
+      {
+        "personId": "000930",
+        "name": "山本禾太郎",
+        "kana": "やまもとのぎたろう",
+        "roman": "Nogitaro Yamamoto",
+        "role": "著者",
+        "birthDate": "1889-02-28",
+        "deathDate": "1951-03-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

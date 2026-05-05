@@ -174,5 +174,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049149",
+    "title": "クリティシズムと認識論との関係",
+    "titleKana": "クリティシズムとにんしきろんとのかんけい",
+    "sortKana": "くりていしすむとにんしきろんとのかんけい",
+    "firstAppearance": "「学芸」1938（昭和13）年10月",
+    "ndc": "NDC 121",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-11-24",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000281/card49149.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000281/files/49149_ruby_44989.zip",
+    "textFileId": "49149_ruby_44989",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000281/files/49149_45457.html",
+    "inputBy": "矢野正人",
+    "proofreadBy": "岩澤秀紀",
+    "baseBook1": {
+      "title": "戸坂潤全集　第三巻",
+      "publisher": "勁草書房",
+      "firstPublishedAt": "1966（昭和41）年10月10日",
+      "inputEdition": "1972（昭和47）年12月20日第6刷",
+      "proofreadEdition": "1979（昭和54）年4月25日第9刷"
+    },
+    "author": "戸坂潤",
+    "authors": [
+      {
+        "personId": "000281",
+        "name": "戸坂潤",
+        "kana": "とさかじゅん",
+        "roman": "Jun Tosaka",
+        "role": "著者",
+        "birthDate": "1900-09-27",
+        "deathDate": "1945-08-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

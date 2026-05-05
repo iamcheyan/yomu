@@ -13822,5 +13822,51 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001911",
+    "title": "雪之丞変化",
+    "titleKana": "ゆきのじょうへんげ",
+    "sortKana": "ゆきのしようへんけ",
+    "firstAppearance": "「朝日新聞」1934（昭和9）年11月～1935（昭和10）年8月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-05-20",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000310/card1911.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000310/files/1911_ruby_50235.zip",
+    "textFileId": "1911_ruby_50235",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000310/files/1911_50609.html",
+    "inputBy": "たまどん。",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "雪之丞変化【下】",
+      "publisher": "大衆文学館、講談社",
+      "firstPublishedAt": "1995（平成7）年7月20日",
+      "inputEdition": "1995（平成7）年7月20日第1刷",
+      "proofreadEdition": "1995（平成7）年7月20日第1刷"
+    },
+    "baseBook2": {
+      "title": "雪之丞変化【上】",
+      "publisher": "大衆文学館文庫、講談社",
+      "firstPublishedAt": "1995（平成7）年7月20日",
+      "inputEdition": "1995（平成7）年7月20日第1刷",
+      "proofreadEdition": "1995（平成7）年7月20日第1刷"
+    },
+    "author": "三上於菟吉",
+    "authors": [
+      {
+        "personId": "000310",
+        "name": "三上於菟吉",
+        "kana": "みかみおときち",
+        "roman": "Otokichi Mikami",
+        "role": "著者",
+        "birthDate": "1891-02-04",
+        "deathDate": "1944-02-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

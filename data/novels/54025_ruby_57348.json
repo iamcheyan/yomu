@@ -70,5 +70,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054025",
+    "title": "ガンジよ",
+    "titleKana": "ガンジよ",
+    "sortKana": "かんしよ",
+    "firstAppearance": "「熱風」1922（大正11）年5月号",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-10-09",
+    "updatedAt": "2015-09-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001622/card54025.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001622/files/54025_ruby_57348.zip",
+    "textFileId": "54025_ruby_57348",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001622/files/54025_57396.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・38　プロレタリア詩集（一）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年5月25日",
+      "inputEdition": "1987（昭和62）年5月25日初版",
+      "proofreadEdition": "1987（昭和62）年5月25日初版"
+    },
+    "author": "松本淳三",
+    "authors": [
+      {
+        "personId": "001622",
+        "name": "松本淳三",
+        "kana": "まつもとじゅんぞう",
+        "roman": "Junzo Matsumoto",
+        "role": "著者",
+        "birthDate": "1895-01-01",
+        "deathDate": "1950-10-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

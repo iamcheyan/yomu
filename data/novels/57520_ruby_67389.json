@@ -304,5 +304,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057520",
+    "title": "火縄銃",
+    "titleKana": "ひなわじゅう",
+    "sortKana": "ひなわしゆう",
+    "firstAppearance": "「江戸川乱歩全集　第十一巻」平凡社、1932（昭和7）年4月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-03-16",
+    "updatedAt": "2019-02-22",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001779/card57520.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001779/files/57520_ruby_67389.zip",
+    "textFileId": "57520_ruby_67389",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001779/files/57520_67338.html",
+    "inputBy": "金城学院大学　電子書籍制作",
+    "proofreadBy": "A.K.",
+    "baseBook1": {
+      "title": "江戸川乱歩全集　第8巻　目羅博士の不思議な犯罪",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2004（平成16）年6月20日",
+      "inputEdition": "2004（平成16）年6月20日初版1刷",
+      "proofreadEdition": "2004（平成16）年6月20日初版1刷"
+    },
+    "author": "江戸川乱歩",
+    "authors": [
+      {
+        "personId": "001779",
+        "name": "江戸川乱歩",
+        "kana": "えどがわらんぽ",
+        "roman": "Ranpo Edogawa",
+        "role": "著者",
+        "birthDate": "1894-10-21",
+        "deathDate": "1965-07-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

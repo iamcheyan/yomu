@@ -992,5 +992,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057619",
+    "title": "しじみ河岸",
+    "titleKana": "しじみがし",
+    "sortKana": "ししみかし",
+    "firstAppearance": "「オール読物」文藝春秋新社、1954（昭和29）年10月号",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-09-13",
+    "updatedAt": "2022-08-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001869/card57619.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001869/files/57619_ruby_76204.zip",
+    "textFileId": "57619_ruby_76204",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001869/files/57619_76236.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "栗田美恵子",
+    "baseBook1": {
+      "title": "山本周五郎全集第二十五巻　三十ふり袖・みずぐるま",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1983（昭和58）年1月25日",
+      "inputEdition": "1983（昭和58）年1月25日",
+      "proofreadEdition": "1985（昭和60）年1月30日2刷"
+    },
+    "author": "山本周五郎",
+    "authors": [
+      {
+        "personId": "001869",
+        "name": "山本周五郎",
+        "kana": "やまもとしゅうごろう",
+        "roman": "Shugoro Yamamoto",
+        "role": "著者",
+        "birthDate": "1903-06-22",
+        "deathDate": "1967-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

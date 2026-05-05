@@ -480,5 +480,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046449",
+    "title": "死剣と生縄",
+    "titleKana": "しけんといきなわ",
+    "sortKana": "しけんといきなわ",
+    "firstAppearance": "「講談倶楽部」1925（大正14）年11月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-11-19",
+    "updatedAt": "2016-07-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000448/card46449.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000448/files/46449_ruby_24267.zip",
+    "textFileId": "46449_ruby_24267",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000448/files/46449_24420.html",
+    "inputBy": "岡山勝美",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "怪奇・伝奇時代小説選集1　水鬼　他9編",
+      "publisher": "春陽文庫、春陽堂書店",
+      "firstPublishedAt": "1999(平成11)年10月20日",
+      "inputEdition": "1999(平成11)年10月20日第1刷",
+      "proofreadEdition": "1999(平成11)年10月20日第1刷"
+    },
+    "author": "江見水蔭",
+    "authors": [
+      {
+        "personId": "000448",
+        "name": "江見水蔭",
+        "kana": "えみすいいん",
+        "roman": "Suiin Emi",
+        "role": "著者",
+        "birthDate": "1869-09-17",
+        "deathDate": "1934-11-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

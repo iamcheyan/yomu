@@ -2842,5 +2842,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001703",
+    "title": "爛",
+    "titleKana": "ただれ",
+    "sortKana": "たたれ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-06-14",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000023/card1703.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000023/files/1703_ruby_10317.zip",
+    "textFileId": "1703_ruby_10317",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000023/files/1703_10320.html",
+    "inputBy": "田古嶋香利",
+    "proofreadBy": "久保あきら",
+    "baseBook1": {
+      "title": "日本の文学　9　徳田秋声（一）",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1967（昭和42）年9月5日",
+      "inputEdition": "1971（昭和46）年3月30日第5刷",
+      "proofreadEdition": "1974（昭和49）年6月30日第10刷"
+    },
+    "author": "徳田秋声",
+    "authors": [
+      {
+        "personId": "000023",
+        "name": "徳田秋声",
+        "kana": "とくだしゅうせい",
+        "roman": "Shusei Tokuda",
+        "role": "著者",
+        "birthDate": "1872-02-01",
+        "deathDate": "1943-11-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

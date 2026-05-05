@@ -76,5 +76,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003322",
+    "title": "三面一体の生活へ",
+    "titleKana": "さんめんいったいのせいかつへ",
+    "sortKana": "さんめんいつたいのせいかつへ",
+    "firstAppearance": "「太陽」1918（大正7）年1月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-06-14",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000885/card3322.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000885/files/3322_ruby_6459.zip",
+    "textFileId": "3322_ruby_6459",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000885/files/3322_6559.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "与謝野晶子評論集",
+      "publisher": "岩波書店　岩波文庫",
+      "firstPublishedAt": "1985（昭和60）年8月16日",
+      "inputEdition": "1994（平成6年）年6月6日10刷"
+    },
+    "author": "与謝野晶子",
+    "authors": [
+      {
+        "personId": "000885",
+        "name": "与謝野晶子",
+        "kana": "よさのあきこ",
+        "roman": "Akiko Yosano",
+        "role": "著者",
+        "birthDate": "1878-12-07",
+        "deathDate": "1942-05-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

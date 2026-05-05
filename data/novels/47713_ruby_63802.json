@@ -38,5 +38,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047713",
+    "title": "日本の郷土芸能の為に",
+    "titleKana": "にほんのきょうどげいのうのために",
+    "sortKana": "にほんのきようとけいのうのために",
+    "firstAppearance": "「文部省芸術祭第二回全国民俗芸能大会パンフレット」1951（昭和26）年11月1日",
+    "ndc": "NDC 386",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-02-11",
+    "updatedAt": "2018-01-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card47713.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/47713_ruby_63802.zip",
+    "textFileId": "47713_ruby_63802",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/47713_63882.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "折口信夫全集　21",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1996（平成8）年11月10日",
+      "inputEdition": "1996（平成8）年11月10日初版",
+      "proofreadEdition": "1996（平成8）年11月10日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

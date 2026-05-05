@@ -3756,5 +3756,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003042",
+    "title": "神秘昆虫館",
+    "titleKana": "しんぴこんちゅうかん",
+    "sortKana": "しんひこんちゆうかん",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-06-21",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card3042.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/3042_ruby_30591.zip",
+    "textFileId": "3042_ruby_30591",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/3042_31636.html",
+    "inputBy": "小林繁雄、門田裕志",
+    "proofreadBy": "六郷梧三郎",
+    "baseBook1": {
+      "title": "神秘昆虫館",
+      "publisher": "国枝史郎伝奇文庫、講談社",
+      "firstPublishedAt": "1976（昭和51）年3月12日",
+      "inputEdition": "1976（昭和51）年3月12日第1刷",
+      "proofreadEdition": "1976（昭和51）年3月12日第1刷"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

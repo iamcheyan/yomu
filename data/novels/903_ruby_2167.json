@@ -224,5 +224,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000903",
+    "title": "赤い着物",
+    "titleKana": "あかいきもの",
+    "sortKana": "あかいきもの",
+    "firstAppearance": "「文藝春秋」1924（大正13）年6月号",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-07-09",
+    "updatedAt": "2021-10-09",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card903.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/903_ruby_2167.zip",
+    "textFileId": "903_ruby_2167",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/903_13370.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "伊藤祥",
+    "baseBook1": {
+      "title": "日輪・春は馬車に乗って　他八篇",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1981（昭和56）年8月17日",
+      "inputEdition": "1997（平成9）年5月15日第23刷",
+      "proofreadEdition": "1989（平成元）年5月25日第11刷"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

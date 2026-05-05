@@ -36,5 +36,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001571",
+    "title": "きりぎりす",
+    "titleKana": "きりぎりす",
+    "sortKana": "きりきりす",
+    "firstAppearance": "「新潮」1940（昭和15）年11月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-01-14",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card1571.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/1571_ruby_20539.zip",
+    "textFileId": "1571_ruby_20539",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/1571_20655.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "きりぎりす",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1974（昭和49）年9月30日、1988（昭和63）年3月15日29刷改版",
+      "inputEdition": "2001（平成13）年5月5日53刷",
+      "proofreadEdition": "1986（昭和61）年3月15日25刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

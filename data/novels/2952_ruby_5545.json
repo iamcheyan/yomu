@@ -222,5 +222,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002952",
+    "title": "太十と其犬",
+    "titleKana": "たじゅうとそのいぬ",
+    "sortKana": "たしゆうとそのいぬ",
+    "firstAppearance": "「ホトトギス」1910（明治43）年2月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-11-30",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000118/card2952.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000118/files/2952_ruby_5545.zip",
+    "textFileId": "2952_ruby_5545",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000118/files/2952_48800.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "日本プロレタリア文学大系（序）",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1955（昭和30）年3月31日",
+      "inputEdition": "1961（昭和36）年6月20日第2刷"
+    },
+    "author": "長塚節",
+    "authors": [
+      {
+        "personId": "000118",
+        "name": "長塚節",
+        "kana": "ながつかたかし",
+        "roman": "Takashi Nagatsuka",
+        "role": "著者",
+        "birthDate": "1879-04-03",
+        "deathDate": "1915-02-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

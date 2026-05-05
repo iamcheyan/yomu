@@ -58,5 +58,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042964",
+    "title": "人の子の親となりて",
+    "titleKana": "ひとのこのおやとなりて",
+    "sortKana": "ひとのこのおやとなりて",
+    "firstAppearance": "「キング　第三〇巻第五号」1954（昭和29）年4月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-04-22",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card42964.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/42964_ruby_34468.zip",
+    "textFileId": "42964_ruby_34468",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/42964_34770.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "坂口安吾全集　14",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年6月20日",
+      "inputEdition": "1999（平成11）年6月20日初版第1刷",
+      "proofreadEdition": "1999（平成11）年6月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

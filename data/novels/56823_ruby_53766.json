@@ -2740,5 +2740,48 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056823",
+    "title": "エルヴィスから始まった",
+    "titleKana": "エルヴィスからはじまった",
+    "sortKana": "えるういすからはしまつた",
+    "firstAppearance": "「ぼくはプレスリーが大好き」三一書房、1971（昭和46）年1月31日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2014-07-07",
+    "updatedAt": "2018-07-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001506/card56823.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001506/files/56823_ruby_53766.zip",
+    "textFileId": "56823_ruby_53766",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001506/files/56823_53807.html",
+    "inputBy": "上原陽一",
+    "proofreadBy": "八巻美恵",
+    "baseBook1": {
+      "title": "ぼくはプレスリーが大好き",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1974（昭和49）年3月10日",
+      "inputEdition": "1980（昭和55）年1月30日4版"
+    },
+    "baseBook2": {
+      "title": "エルヴィスから始まった",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1994（平成6）年10月24日",
+      "inputEdition": "1994（平成6）年10月24日初版"
+    },
+    "author": "片岡義男",
+    "authors": [
+      {
+        "personId": "001506",
+        "name": "片岡義男",
+        "kana": "かたおかよしお",
+        "roman": "Yoshio Kataoka",
+        "role": "著者",
+        "birthDate": "1939-03-20",
+        "copyright": "あり"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

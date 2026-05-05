@@ -322,5 +322,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053949",
+    "title": "棺の後ろから",
+    "titleKana": "ひつぎのうしろから",
+    "sortKana": "ひつきのうしろから",
+    "firstAppearance": "「戦旗」1928（昭和3）年7月号",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-12-16",
+    "updatedAt": "2015-09-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001311/card53949.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001311/files/53949_ruby_57544.zip",
+    "textFileId": "53949_ruby_57544",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001311/files/53949_57590.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・38　プロレタリア詩集（一）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年5月25日",
+      "inputEdition": "1987（昭和62）年5月25日初版",
+      "proofreadEdition": "1987（昭和62）年5月25日初版"
+    },
+    "author": "三好十郎",
+    "authors": [
+      {
+        "personId": "001311",
+        "name": "三好十郎",
+        "kana": "みよしじゅうろう",
+        "roman": "Juro Miyoshi",
+        "role": "著者",
+        "birthDate": "1902-04-21",
+        "deathDate": "1958-12-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

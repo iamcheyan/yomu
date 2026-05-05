@@ -142,5 +142,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004415",
+    "title": "化物丁場",
+    "titleKana": "ばけものちょうば",
+    "sortKana": "はけものちようは",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-01-13",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card4415.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/4415_ruby_7717.zip",
+    "textFileId": "4415_ruby_7717",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/4415_8262.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "今井忠夫",
+    "baseBook1": {
+      "title": "新修宮沢賢治全集　第十四巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1980（昭和55）年5月15日",
+      "inputEdition": "1983（昭和58）年1月20日初版第4刷",
+      "proofreadEdition": "1984（昭和59）年7月30日初版第6刷"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

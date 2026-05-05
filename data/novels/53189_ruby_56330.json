@@ -160,5 +160,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053189",
+    "title": "生ける銃架",
+    "titleKana": "いけるじゅうか",
+    "sortKana": "いけるしゆうか",
+    "subtitle": "――満洲駐屯軍兵卒に――",
+    "subtitleKana": "――まんしゅうちゅうとんぐんへいそつに――",
+    "firstAppearance": "「大衆の友　創刊号」1932（昭和7）年2月5日",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-05-22",
+    "updatedAt": "2015-06-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001585/card53189.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001585/files/53189_ruby_56330.zip",
+    "textFileId": "53189_ruby_56330",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001585/files/53189_56651.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "槇村浩詩集",
+      "publisher": "平和資料館・草の家、飛鳥出版室",
+      "firstPublishedAt": "2003（平成15）年3月15日",
+      "inputEdition": "2003（平成15）年3月15日",
+      "proofreadEdition": "2003（平成15）年3月15日"
+    },
+    "author": "槙村浩",
+    "authors": [
+      {
+        "personId": "001585",
+        "name": "槙村浩",
+        "kana": "まきむらこう",
+        "roman": "Ko Makimura",
+        "role": "著者",
+        "birthDate": "1912-06-01",
+        "deathDate": "1938-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

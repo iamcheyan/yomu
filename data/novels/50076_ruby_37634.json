@@ -248,5 +248,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050076",
+    "title": "雷嫌いの話",
+    "titleKana": "かみなりぎらいのはなし",
+    "sortKana": "かみなりきらいのはなし",
+    "firstAppearance": "「旅」1952（昭和27）年8月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-01-01",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001397/card50076.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001397/files/50076_ruby_37634.zip",
+    "textFileId": "50076_ruby_37634",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001397/files/50076_37659.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "橘外男ワンダーランド　ユーモア小説篇",
+      "publisher": "中央書院",
+      "firstPublishedAt": "1995（平成7）年12月4日",
+      "inputEdition": "1995（平成7）年12月4日第1刷",
+      "proofreadEdition": "1995（平成7）年12月4日第1刷"
+    },
+    "author": "橘外男",
+    "authors": [
+      {
+        "personId": "001397",
+        "name": "橘外男",
+        "kana": "たちばなそとお",
+        "roman": "Sotoo Tachibana",
+        "role": "著者",
+        "birthDate": "1894-10-10",
+        "deathDate": "1959-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

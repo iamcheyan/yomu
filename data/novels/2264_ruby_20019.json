@@ -84,5 +84,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002264",
+    "title": "失敗園",
+    "titleKana": "しっぱいえん",
+    "sortKana": "しつはいえん",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-04-27",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card2264.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/2264_ruby_20019.zip",
+    "textFileId": "2264_ruby_20019",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/2264_20020.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "渥美浩子",
+    "baseBook1": {
+      "title": "太宰治全集3",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1988（昭和63）年10月25日",
+      "proofreadEdition": "1998（平成10）年6月15日第2刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

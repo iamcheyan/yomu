@@ -1030,5 +1030,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060440",
+    "title": "かげろふ断章",
+    "titleKana": "かげろうだんしょう",
+    "sortKana": "かけろうたんしよう",
+    "firstAppearance": "蟻「少年詩人　四号」1924（大正13）年11月<br>机「春鶯囀　二号」1926（大正15）年<br>冬「春鶯囀　二号」1926（大正15）年<br>春望「春鶯囀　創刊号」1926（大正15）年1月<br>山「春鶯囀　創刊号」1926（大正15）年1月<br>梢「春鶯囀　創刊号」1926（大正15）年1月<br>海「近代文学」1951（昭和26）年8月号<br>偶作「春鶯囀　三号」1926（大正15）年3月<br>春雨「春鶯囀　三号」1926（大正15）年3月<br>冬晴「春鶯囀　四号」1926（大正15）年5月<br>春の昼「春鶯囀　四号」1926（大正15）年5月<br>旅の雨「沈丁花　一号」1926（大正15）年9月<br>朝の闇「霹靂　一巻」1927（昭和2）年6月<br>なぜ怖いか「沈丁花　一号」1926（大正15）年9月<br>饗宴「詩稿」1937（昭和12）年1月号<br>散歩（「散文詩」の章中のもの）「詩稿」1937（昭和12）年1月号<br>朝昼晩「詩風土」1947（昭和22）年7月号<br>詠嘆二章「メッカ」1936（昭和11）年3月号<br>青葉の頃「メッカ」1936（昭和11）年5月号<br>（以上を除くすべて）「原民喜詩集」青木文庫、青木書店、1956（昭和31）年8月",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-03-13",
+    "updatedAt": "2021-02-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000293/card60440.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000293/files/60440_ruby_72769.zip",
+    "textFileId": "60440_ruby_72769",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000293/files/60440_72821.html",
+    "inputBy": "村並秀昭",
+    "proofreadBy": "竹井真",
+    "baseBook1": {
+      "title": "原民喜全詩集",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2015（平成27）年7月16日",
+      "inputEdition": "2015（平成27）年7月16日第1刷",
+      "proofreadEdition": "2018（平成30）年7月25日第3刷"
+    },
+    "author": "原民喜",
+    "authors": [
+      {
+        "personId": "000293",
+        "name": "原民喜",
+        "kana": "はらたみき",
+        "roman": "Tamiki Hara",
+        "role": "著者",
+        "birthDate": "1905-11-15",
+        "deathDate": "1951-03-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

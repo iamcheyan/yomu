@@ -404,5 +404,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000707",
+    "title": "或る嬰児殺しの動機",
+    "titleKana": "あるえいじごろしのどうき",
+    "sortKana": "あるえいしころしのとうき",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-06-06",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000134/card707.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000134/files/707_ruby_20896.zip",
+    "textFileId": "707_ruby_20896",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000134/files/707_20897.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "鈴木伸吾",
+    "baseBook1": {
+      "title": "恐怖城　他5編",
+      "publisher": "春陽文庫、春陽堂書店",
+      "firstPublishedAt": "1995（平成7）年8月10日",
+      "inputEdition": "1995（平成7）年8月10日初版",
+      "proofreadEdition": "1995（平成7）年8月10日初版"
+    },
+    "author": "佐左木俊郎",
+    "authors": [
+      {
+        "personId": "000134",
+        "name": "佐左木俊郎",
+        "kana": "ささきとしろう",
+        "roman": "Toshiro Sasaki",
+        "role": "著者",
+        "birthDate": "1900-04-14",
+        "deathDate": "1933-03-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

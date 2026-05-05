@@ -92,5 +92,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004900",
+    "title": "器用な言葉の洒落",
+    "titleKana": "きようなことばのしゃれ",
+    "sortKana": "きようなことはのしやれ",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-08-25",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000150/card4900.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000150/files/4900_ruby_54007.zip",
+    "textFileId": "4900_ruby_54007",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000150/files/4900_54049.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆70　語",
+      "publisher": "作品社",
+      "firstPublishedAt": "1988（昭和63）年8月25日",
+      "inputEdition": "1992（平成4）年4月10日第7刷",
+      "proofreadEdition": "1992（平成4）年9月20日第8刷"
+    },
+    "author": "薄田泣菫",
+    "authors": [
+      {
+        "personId": "000150",
+        "name": "薄田泣菫",
+        "kana": "すすきだきゅうきん",
+        "roman": "Kyukin Susukida",
+        "role": "著者",
+        "birthDate": "1877-05-19",
+        "deathDate": "1945-10-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

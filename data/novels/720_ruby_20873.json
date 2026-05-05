@@ -178,5 +178,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000720",
+    "title": "緑の芽",
+    "titleKana": "みどりのめ",
+    "sortKana": "みとりのめ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-10-18",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000134/card720.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000134/files/720_ruby_20873.zip",
+    "textFileId": "720_ruby_20873",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000134/files/720_20874.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "しず",
+    "baseBook1": {
+      "title": "佐左木俊郎選集",
+      "publisher": "英宝社",
+      "firstPublishedAt": "1984（昭和59）年4月14日"
+    },
+    "author": "佐左木俊郎",
+    "authors": [
+      {
+        "personId": "000134",
+        "name": "佐左木俊郎",
+        "kana": "ささきとしろう",
+        "roman": "Toshiro Sasaki",
+        "role": "著者",
+        "birthDate": "1900-04-14",
+        "deathDate": "1933-03-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

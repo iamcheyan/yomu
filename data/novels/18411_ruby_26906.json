@@ -558,5 +558,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "018411",
+    "title": "大嘗祭の本義",
+    "titleKana": "だいじょうさいのほんぎ",
+    "sortKana": "たいしようさいのほんき",
+    "ndc": "NDC 176 210 386",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-07-18",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card18411.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/18411_ruby_26906.zip",
+    "textFileId": "18411_ruby_26906",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/18411_27474.html",
+    "inputBy": "高柳典子",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "折口信夫全集　3",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1995年4月10日",
+      "inputEdition": "1995（平成7）年4月10日初版",
+      "proofreadEdition": "1995（平成7）年4月10日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

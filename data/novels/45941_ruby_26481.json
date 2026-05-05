@@ -804,5 +804,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045941",
+    "title": "多神教",
+    "titleKana": "たしんきょう",
+    "sortKana": "たしんきよう",
+    "firstAppearance": "「文藝春秋」1927（昭和2）年3月",
+    "ndc": "NDC 912",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-05-03",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card45941.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/45941_ruby_26481.zip",
+    "textFileId": "45941_ruby_26481",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/45941_26582.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "海神別荘　他二篇",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1994（平成6）年4月18日",
+      "inputEdition": "2001（平成13）年1月15日第4刷",
+      "proofreadEdition": "1994（平成6）年4月18日第1刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

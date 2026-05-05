@@ -1534,5 +1534,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050108",
+    "title": "貧民倶楽部",
+    "titleKana": "ひんみんくらぶ",
+    "sortKana": "ひんみんくらふ",
+    "firstAppearance": "「北海道毎日新聞」1895（明治28）年7月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-11-04",
+    "updatedAt": "2022-09-10",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card50108.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/50108_ruby_72063.zip",
+    "textFileId": "50108_ruby_72063",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/50108_72104.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "泉鏡花集成2",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1996（平成8）年4月24日",
+      "inputEdition": "1996（平成8）年4月24日第1刷",
+      "proofreadEdition": "1996（平成8）年4月24日第1刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

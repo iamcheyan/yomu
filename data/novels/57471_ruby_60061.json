@@ -360,5 +360,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057471",
+    "title": "竜潭譚",
+    "titleKana": "りゅうたんだん",
+    "sortKana": "りゆうたんたん",
+    "firstAppearance": "「文芸倶楽部」1896（明治29）年11月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-11-04",
+    "updatedAt": "2016-10-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card57471.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/57471_ruby_60061.zip",
+    "textFileId": "57471_ruby_60061",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/57471_60107.html",
+    "inputBy": "日根敏晶",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "泉鏡花集成3",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1996（平成8）年1月24日",
+      "inputEdition": "1996（平成8）年1月24日第1刷",
+      "proofreadEdition": "1996（平成8）年1月24日第1刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

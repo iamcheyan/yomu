@@ -140,5 +140,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045250",
+    "title": "桃花源記序",
+    "titleKana": "とうかげんきじょ",
+    "sortKana": "とうかけんきしよ",
+    "firstAppearance": "「東光　5号（狩野直喜先生永逝記念）」弘文堂、1948（昭和23）年8月",
+    "ndc": "NDC 924",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-02-16",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001127/card45250.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001127/files/45250_ruby_20804.zip",
+    "textFileId": "45250_ruby_20804",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001127/files/45250_21432.html",
+    "inputBy": "はまなかひとし",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "讀書籑餘",
+      "publisher": "みすず書房",
+      "firstPublishedAt": "1980（昭和55）年6月30日",
+      "inputEdition": "1980（昭和55）年6月30日",
+      "proofreadEdition": "1980（昭和55）年6月30日"
+    },
+    "author": "狩野直喜",
+    "authors": [
+      {
+        "personId": "001127",
+        "name": "狩野直喜",
+        "kana": "かのなおき",
+        "roman": "Naoki Kano",
+        "role": "著者",
+        "birthDate": "1868-02-11",
+        "deathDate": "1947-12-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

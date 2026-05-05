@@ -44,5 +44,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001906",
+    "title": "山想う心",
+    "titleKana": "やまおもうこころ",
+    "sortKana": "やまおもうこころ",
+    "ndc": "NDC 291 786",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-01-28",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000307/card1906.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000307/files/1906_ruby_8206.zip",
+    "textFileId": "1906_ruby_8206",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000307/files/1906_14037.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "日本の名随筆10　山",
+      "publisher": "作品社",
+      "firstPublishedAt": "1983（昭和58）年6月25日",
+      "inputEdition": "1998（平成10）年8月10日第26刷"
+    },
+    "author": "松濤明",
+    "authors": [
+      {
+        "personId": "000307",
+        "name": "松濤明",
+        "kana": "まつなみあきら",
+        "roman": "Akira Matsunami",
+        "role": "著者",
+        "birthDate": "1922-03-05",
+        "deathDate": "1949-01-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

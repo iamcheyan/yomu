@@ -1958,5 +1958,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052090",
+    "title": "独楽園",
+    "titleKana": "どくらくえん",
+    "sortKana": "とくらくえん",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-08-27",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000150/card52090.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000150/files/52090_ruby_43619.zip",
+    "textFileId": "52090_ruby_43619",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000150/files/52090_44478.html",
+    "inputBy": "kompass",
+    "proofreadBy": "美濃笠吾",
+    "baseBook1": {
+      "title": "独楽園",
+      "publisher": "ウェッジ文庫、ウェッジ",
+      "firstPublishedAt": "2009（平成21）12月28日",
+      "inputEdition": "2009（平成21）年12月28日第1刷",
+      "proofreadEdition": "2009（平成21）年12月28日第1刷"
+    },
+    "author": "薄田泣菫",
+    "authors": [
+      {
+        "personId": "000150",
+        "name": "薄田泣菫",
+        "kana": "すすきだきゅうきん",
+        "roman": "Kyukin Susukida",
+        "role": "著者",
+        "birthDate": "1877-05-19",
+        "deathDate": "1945-10-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -202,5 +202,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045711",
+    "title": "木枯の酒倉から",
+    "titleKana": "こがらしのさかぐらから",
+    "sortKana": "こからしのさかくらから",
+    "subtitle": "聖なる酔っ払いは神々の魔手に誘惑された話",
+    "subtitleKana": "せいなるよっぱらいはかみがみのましゅにゆうわくされたはなし",
+    "firstAppearance": "「言葉　第二号」1931（昭和6）年1月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-11-12",
+    "updatedAt": "2016-10-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card45711.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/45711_ruby_60074.zip",
+    "textFileId": "45711_ruby_60074",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/45711_60120.html",
+    "inputBy": "高田農業高校生産技術科流通経済コース",
+    "proofreadBy": "富田晶子",
+    "baseBook1": {
+      "title": "坂口安吾選集　第一巻小説1",
+      "publisher": "講談社",
+      "firstPublishedAt": "1982（昭和57）年7月12日",
+      "inputEdition": "1982（昭和57）年7月12日第1刷",
+      "proofreadEdition": "1982（昭和57）年7月12日第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

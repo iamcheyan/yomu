@@ -168,5 +168,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000782",
+    "title": "明暗",
+    "titleKana": "めいあん",
+    "sortKana": "めいあん",
+    "firstAppearance": "「朝日新聞」1916（大正5）年5月26日～12月14日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-08-12",
+    "updatedAt": "2018-02-02",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000148/card782.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000148/files/782_ruby_2315.zip",
+    "textFileId": "782_ruby_2315",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000148/files/782_14969.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "夏目漱石全集9",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1988（昭和63）年6月28日",
+      "inputEdition": "1988（昭和63）年6月28日第1刷",
+      "proofreadEdition": "1996（平成8）年7月15日第3刷"
+    },
+    "author": "夏目漱石",
+    "authors": [
+      {
+        "personId": "000148",
+        "name": "夏目漱石",
+        "kana": "なつめそうせき",
+        "roman": "Soseki Natsume",
+        "role": "著者",
+        "birthDate": "1867-02-09",
+        "deathDate": "1916-12-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -34,5 +34,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049727",
+    "title": "芙蓉の花にも似た美しい楊貴妃を",
+    "titleKana": "ふようのはなにもにたうつくしいようきひを",
+    "sortKana": "ふようのはなにもにたうつくしいようきひを",
+    "firstAppearance": "「京都日出新聞」1923（大正12）年9月9日",
+    "ndc": "NDC 721",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-03-26",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000355/card49727.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000355/files/49727_ruby_33815.zip",
+    "textFileId": "49727_ruby_33815",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000355/files/49727_34438.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "青帛の仙女",
+      "publisher": "同朋舎出版",
+      "firstPublishedAt": "1996（平成8）年4月5日",
+      "inputEdition": "1996（平成8）年4月5日第1版第1刷",
+      "proofreadEdition": "1996（平成8）年4月5日第1版第1刷"
+    },
+    "author": "上村松園",
+    "authors": [
+      {
+        "personId": "000355",
+        "name": "上村松園",
+        "kana": "うえむらしょうえん",
+        "roman": "Shoen Uemura",
+        "role": "著者",
+        "birthDate": "1875-04-23",
+        "deathDate": "1949-08-27",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

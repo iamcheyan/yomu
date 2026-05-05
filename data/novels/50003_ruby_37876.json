@@ -86,5 +86,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050003",
+    "title": "鮪の茶漬け",
+    "titleKana": "まぐろのちゃづけ",
+    "sortKana": "まくろのちやつけ",
+    "firstAppearance": "「星岡」1932（昭和7）年",
+    "ndc": "NDC 596",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-02-02",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001403/card50003.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001403/files/50003_ruby_37876.zip",
+    "textFileId": "50003_ruby_37876",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001403/files/50003_37877.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "魯山人の食卓",
+      "publisher": "グルメ文庫、角川春樹事務所",
+      "firstPublishedAt": "2004（平成16）年10月18日",
+      "inputEdition": "2008（平成20）年4月18日第5刷",
+      "proofreadEdition": "2008（平成20）年4月18日第5刷"
+    },
+    "author": "北大路魯山人",
+    "authors": [
+      {
+        "personId": "001403",
+        "name": "北大路魯山人",
+        "kana": "きたおおじろさんじん",
+        "roman": "Rosanjin Kitaoji",
+        "role": "著者",
+        "birthDate": "1883-03-23",
+        "deathDate": "1959-12-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

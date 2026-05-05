@@ -328,5 +328,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002933",
+    "title": "十姉妹",
+    "titleKana": "じゅうしまつ",
+    "sortKana": "しゆうしまつ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-03-13",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000870/card2933.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000870/files/2933_ruby_23265.zip",
+    "textFileId": "2933_ruby_23265",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000870/files/2933_23266.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "青野弘美",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・11　文芸戦線作家集（二）",
+      "publisher": "新日本出版",
+      "firstPublishedAt": "1985（昭和60）年12月25日",
+      "inputEdition": "1989（平成元）年3月25日第4刷"
+    },
+    "author": "山本勝治",
+    "authors": [
+      {
+        "personId": "000870",
+        "name": "山本勝治",
+        "kana": "やまもとかつじ",
+        "roman": "Katsuji Yamamoto",
+        "role": "著者",
+        "deathDate": "1929-03-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

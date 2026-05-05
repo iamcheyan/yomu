@@ -66,5 +66,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060599",
+    "title": "よしなし事",
+    "titleKana": "よしなしごと",
+    "sortKana": "よしなしこと",
+    "subtitle": "〔源内の手紙、原稿料のことなど〕",
+    "subtitleKana": "〔げんないのてがみ、げんこうりょうのことなど〕",
+    "firstAppearance": "「文藝春秋　第四年　第十號」文藝春秋社、1926（大正15）年10月1日",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-12-26",
+    "updatedAt": "2021-11-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000083/card60599.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000083/files/60599_ruby_74591.zip",
+    "textFileId": "60599_ruby_74591",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000083/files/60599_74628.html",
+    "inputBy": "sogo",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "文藝春秋　第四年　第十號",
+      "publisher": "文藝春秋社",
+      "firstPublishedAt": "1926（大正15）年10月1日",
+      "inputEdition": "1926（大正15）年10月1日",
+      "proofreadEdition": "1926（大正15）年10月1日"
+    },
+    "author": "菊池寛",
+    "authors": [
+      {
+        "personId": "000083",
+        "name": "菊池寛",
+        "kana": "きくちかん",
+        "roman": "Kan Kikuchi",
+        "role": "著者",
+        "birthDate": "1888-12-26",
+        "deathDate": "1948-03-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

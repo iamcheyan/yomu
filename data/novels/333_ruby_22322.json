@@ -220,5 +220,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000333",
+    "title": "空知川の岸辺",
+    "titleKana": "そらちがわのきしべ",
+    "sortKana": "そらちかわのきしへ",
+    "ndc": "NDC 914 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-06-27",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000038/card333.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000038/files/333_ruby_22322.zip",
+    "textFileId": "333_ruby_22322",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000038/files/333_22323.html",
+    "inputBy": "林田清明",
+    "proofreadBy": "大西敦子",
+    "baseBook1": {
+      "title": "現代日本文學大系　11　國木田獨歩・田山花袋集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1970（昭和45）年3月15日",
+      "inputEdition": "1973（昭和48）年9月1日初版第4刷"
+    },
+    "author": "国木田独歩",
+    "authors": [
+      {
+        "personId": "000038",
+        "name": "国木田独歩",
+        "kana": "くにきだどっぽ",
+        "roman": "Doppo Kunikida",
+        "role": "著者",
+        "birthDate": "1871-08-30",
+        "deathDate": "1908-06-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

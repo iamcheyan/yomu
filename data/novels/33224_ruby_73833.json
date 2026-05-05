@@ -472,5 +472,51 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "033224",
+    "title": "親鸞",
+    "titleKana": "しんらん",
+    "sortKana": "しんらん",
+    "firstAppearance": "「名古屋新聞」1934（昭和9）年9月28日～1935（昭和10）年8月9日、1936（昭和11）年1月19日～8月<br>「台湾日日新報　夕刊」1934（昭和9）年9月30日～1935（昭和10）年8月12日、1936（昭和11）年1月7日～8月4日<br>「京城日報」1934（昭和9）年9月～1935（昭和10）年8月、1936（昭和11）年1月10日～8月<br>「神戸新聞」1936（昭和11）年1月5日～8月6日<br>「福日新聞」「北海タイムス」1935（昭和10）年9月～1936（昭和11）年8月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-08-11",
+    "updatedAt": "2021-07-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001562/card33224.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001562/files/33224_ruby_73833.zip",
+    "textFileId": "33224_ruby_73833",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001562/files/33224_73869.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "トレンドイースト",
+    "baseBook1": {
+      "title": "親鸞（一）",
+      "publisher": "吉川英治歴史時代文庫、講談社",
+      "firstPublishedAt": "1990（平成2）年8月11日",
+      "inputEdition": "2010（平成22）年2月23日第34刷",
+      "proofreadEdition": "2019（平成31）年1月18日第48刷"
+    },
+    "baseBook2": {
+      "title": "親鸞（三）",
+      "publisher": "吉川英治歴史時代文庫、講談社",
+      "firstPublishedAt": "1990（平成2）年9月11日",
+      "inputEdition": "2009（平成21）年8月5日第31刷",
+      "proofreadEdition": "2016（平成28）年7月20日第40刷"
+    },
+    "author": "吉川英治",
+    "authors": [
+      {
+        "personId": "001562",
+        "name": "吉川英治",
+        "kana": "よしかわえいじ",
+        "roman": "Eiji Yoshikawa",
+        "role": "著者",
+        "birthDate": "1892-08-11",
+        "deathDate": "1962-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

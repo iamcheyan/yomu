@@ -50,5 +50,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058952",
+    "title": "再びこの人を見よ",
+    "titleKana": "ふたたびこのひとをみよ",
+    "sortKana": "ふたたひこのひとをみよ",
+    "subtitle": "――故梶井基次郎氏",
+    "subtitleKana": "――こかじいもとじろうし",
+    "firstAppearance": "「作品　第二十五號」作品社、1932（昭和7）年5月1日",
+    "ndc": "NDC 910",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-01-01",
+    "updatedAt": "2018-01-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001979/card58952.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001979/files/58952_ruby_63629.zip",
+    "textFileId": "58952_ruby_63629",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001979/files/58952_63630.html",
+    "inputBy": "大久保ゆう",
+    "proofreadBy": "富田晶子",
+    "baseBook1": {
+      "title": "梶井基次郎全集　別巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2000（平成12）年9月25日",
+      "inputEdition": "2000（平成12）年9月25日初版第1刷",
+      "proofreadEdition": "2000（平成12）年9月25日初版第1刷"
+    },
+    "author": "菱山修三",
+    "authors": [
+      {
+        "personId": "001979",
+        "name": "菱山修三",
+        "kana": "ひしやましゅうぞう",
+        "roman": "Shuzo Hishiyama",
+        "role": "著者",
+        "birthDate": "1909-08-28",
+        "deathDate": "1967-08-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

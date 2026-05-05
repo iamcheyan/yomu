@@ -150,5 +150,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047100",
+    "title": "法学とは何か",
+    "titleKana": "ほうがくとはなにか",
+    "sortKana": "ほうかくとはなにか",
+    "subtitle": "――特に入門者のために",
+    "subtitleKana": "――とくににゅうもんしゃのために",
+    "firstAppearance": "「法律時報　二十三巻四・五号」1951（昭和26）年4月、5月",
+    "ndc": "NDC 320",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-08-16",
+    "updatedAt": "2019-05-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000922/card47100.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000922/files/47100_ruby_32181.zip",
+    "textFileId": "47100_ruby_32181",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000922/files/47100_32182.html",
+    "inputBy": "sogo",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "役人学三則",
+      "publisher": "岩波現代文庫、岩波書店",
+      "firstPublishedAt": "2000（平成12）年2月16日",
+      "inputEdition": "2000（平成12）年2月16日第1刷",
+      "proofreadEdition": "2001（平成13）年1月10日第4刷"
+    },
+    "author": "末弘厳太郎",
+    "authors": [
+      {
+        "personId": "000922",
+        "name": "末弘厳太郎",
+        "kana": "すえひろいずたろう",
+        "roman": "Izutaro Suehiro",
+        "role": "著者",
+        "birthDate": "1888-11-30",
+        "deathDate": "1951-09-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -86,5 +86,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046801",
+    "title": "濁酒を恋う",
+    "titleKana": "どぶろくをこう",
+    "sortKana": "とふろくをこう",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-04-27",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001248/card46801.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001248/files/46801_ruby_26285.zip",
+    "textFileId": "46801_ruby_26285",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001248/files/46801_26521.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "完本　たぬき汁",
+      "publisher": "つり人ノベルズ、つり人社",
+      "firstPublishedAt": "1993（平成5）年2月10日",
+      "inputEdition": "1993（平成5）年2月10日第1刷"
+    },
+    "author": "佐藤垢石",
+    "authors": [
+      {
+        "personId": "001248",
+        "name": "佐藤垢石",
+        "kana": "さとうこうせき",
+        "roman": "Koseki Sato",
+        "role": "著者",
+        "birthDate": "1888-06-18",
+        "deathDate": "1956-07-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

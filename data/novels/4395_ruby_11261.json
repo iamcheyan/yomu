@@ -108,5 +108,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004395",
+    "title": "古い村",
+    "titleKana": "ふるいむら",
+    "sortKana": "ふるいむら",
+    "firstAppearance": "「新潮」1909（明治42）年6月号",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-02-19",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000162/card4395.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000162/files/4395_ruby_11261.zip",
+    "textFileId": "4395_ruby_11261",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000162/files/4395_14358.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "今井忠夫",
+    "baseBook1": {
+      "title": "若山牧水全集　第九卷",
+      "publisher": "雄鶏社",
+      "firstPublishedAt": "1958（昭和33）年12月30日",
+      "inputEdition": "1958（昭和33）年12月30日",
+      "proofreadEdition": "1958（昭和33）年12月30日"
+    },
+    "author": "若山牧水",
+    "authors": [
+      {
+        "personId": "000162",
+        "name": "若山牧水",
+        "kana": "わかやまぼくすい",
+        "roman": "Bokusui Wakayama",
+        "role": "著者",
+        "birthDate": "1885-08-24",
+        "deathDate": "1928-09-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

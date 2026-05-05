@@ -136,5 +136,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050375",
+    "title": "死の床",
+    "titleKana": "しのとこ",
+    "sortKana": "しのとこ",
+    "firstAppearance": "「文章世界」1912（明治45）年3月",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-08-22",
+    "updatedAt": "2018-08-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000158/card50375.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000158/files/50375_ruby_65444.zip",
+    "textFileId": "50375_ruby_65444",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000158/files/50375_65488.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "岩尾葵",
+    "baseBook1": {
+      "title": "筑摩全集類聚　島崎藤村全集第五巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1981（昭和56）年5月20日",
+      "inputEdition": "1981（昭和56）年5月20日初版第1刷",
+      "proofreadEdition": "1981（昭和56）年5月20日初版第1刷"
+    },
+    "author": "島崎藤村",
+    "authors": [
+      {
+        "personId": "000158",
+        "name": "島崎藤村",
+        "kana": "しまざきとうそん",
+        "roman": "Toson Shimazaki",
+        "role": "著者",
+        "birthDate": "1872-03-25",
+        "deathDate": "1943-08-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

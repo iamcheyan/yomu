@@ -174,5 +174,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043830",
+    "title": "リズムの構造",
+    "titleKana": "リズムのこうぞう",
+    "sortKana": "りすむのこうそう",
+    "firstAppearance": "「美・批評」1932（昭和7）年9月号",
+    "ndc": "NDC 701",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-03-16",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001166/card43830.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001166/files/43830_ruby_25824.zip",
+    "textFileId": "43830_ruby_25824",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001166/files/43830_26147.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "中井正一全集　第二巻　転換期の美学的課題",
+      "publisher": "美術出版社",
+      "firstPublishedAt": "1981（昭和56）年4月25日",
+      "inputEdition": "1981（昭和56）年4月25日新装第1刷"
+    },
+    "author": "中井正一",
+    "authors": [
+      {
+        "personId": "001166",
+        "name": "中井正一",
+        "kana": "なかいまさかず",
+        "roman": "Masakazu Nakai",
+        "role": "著者",
+        "birthDate": "1900-02-14",
+        "deathDate": "1952-05-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

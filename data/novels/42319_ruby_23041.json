@@ -830,5 +830,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042319",
+    "title": "蛇性の婬",
+    "titleKana": "じゃせいのいん",
+    "sortKana": "しやせいのいん",
+    "subtitle": "雷峰怪蹟",
+    "subtitleKana": "らいほうかいせき",
+    "ndc": "NDC 913 923",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-07-08",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000154/card42319.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000154/files/42319_ruby_23041.zip",
+    "textFileId": "42319_ruby_23041",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000154/files/42319_23554.html",
+    "inputBy": "Hiroshi_O",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "怪奇・伝奇時代小説選集14　累物語　他十篇",
+      "publisher": "春陽文庫、春陽堂書店",
+      "firstPublishedAt": "2000（平成12）年11月20日",
+      "inputEdition": "2000（平成12）年11月20日第1刷",
+      "proofreadEdition": "2000（平成12）年11月20日第1刷"
+    },
+    "author": "田中貢太郎",
+    "authors": [
+      {
+        "personId": "000154",
+        "name": "田中貢太郎",
+        "kana": "たなかこうたろう",
+        "roman": "Kotaro Tanaka",
+        "role": "著者",
+        "birthDate": "1880-03-02",
+        "deathDate": "1941-02-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

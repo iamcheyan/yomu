@@ -2868,5 +2868,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057108",
+    "title": "鉄人Ｑ",
+    "titleKana": "てつじんキュー",
+    "sortKana": "てつしんきゆう",
+    "firstAppearance": "「小学四年生」講談社、1958（昭和33）年4月号～1959（昭和34）年3月号<br>「小学五年生」講談社、1959（昭和34）年4月号～1960（昭和35）年3月号",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-03-16",
+    "updatedAt": "2017-03-06",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001779/card57108.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001779/files/57108_ruby_60855.zip",
+    "textFileId": "57108_ruby_60855",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001779/files/57108_60897.html",
+    "inputBy": "sogo",
+    "proofreadBy": "大久保ゆう",
+    "baseBook1": {
+      "title": "塔上の奇術師／鉄人Ｑ",
+      "publisher": "江戸川乱歩推理文庫、講談社",
+      "firstPublishedAt": "1988（昭和63）年7月8日",
+      "inputEdition": "1988（昭和63）年7月8日第1刷",
+      "proofreadEdition": "1988（昭和63）年7月8日第1刷"
+    },
+    "author": "江戸川乱歩",
+    "authors": [
+      {
+        "personId": "001779",
+        "name": "江戸川乱歩",
+        "kana": "えどがわらんぽ",
+        "roman": "Ranpo Edogawa",
+        "role": "著者",
+        "birthDate": "1894-10-21",
+        "deathDate": "1965-07-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

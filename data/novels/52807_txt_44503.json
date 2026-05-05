@@ -146,5 +146,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052807",
+    "title": "手紙",
+    "titleKana": "てがみ",
+    "sortKana": "てかみ",
+    "firstAppearance": "「セルパン　通巻第十四号（四月号）」第一書房、1932（昭和7）年4月1日",
+    "ndc": "NDC 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-09-30",
+    "updatedAt": "2016-05-09",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000183/card52807.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000183/files/52807_txt_44503.zip",
+    "textFileId": "52807_txt_44503",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000183/files/52807_44614.html",
+    "inputBy": "宮元淳一",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "牧野信一全集第四巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2002（平成14）年6月20日",
+      "inputEdition": "2002（平成14）年6月20日初版第1刷",
+      "proofreadEdition": "2002（平成14）年6月20日初版第1刷"
+    },
+    "author": "牧野信一",
+    "authors": [
+      {
+        "personId": "000183",
+        "name": "牧野信一",
+        "kana": "まきのしんいち",
+        "roman": "Shin'ichi Makino",
+        "role": "著者",
+        "birthDate": "1896-11-12",
+        "deathDate": "1936-03-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

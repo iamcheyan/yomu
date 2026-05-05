@@ -150,5 +150,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056245",
+    "title": "空気ポンプ",
+    "titleKana": "くうきぽんぷ",
+    "sortKana": "くうきほんふ",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-07-30",
+    "updatedAt": "2022-06-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000121/card56245.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000121/files/56245_ruby_75884.zip",
+    "textFileId": "56245_ruby_75884",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000121/files/56245_75919.html",
+    "inputBy": "江村秀之",
+    "proofreadBy": "持田和踏",
+    "baseBook1": {
+      "title": "新美南吉童話集　2　おじいさんのランプ",
+      "publisher": "大日本図書",
+      "firstPublishedAt": "1982（昭和57）年3月31日",
+      "inputEdition": "1996（平成8）年2月15日初版第7刷",
+      "proofreadEdition": "1989（平成元）年2月20日初版第4刷"
+    },
+    "author": "新美南吉",
+    "authors": [
+      {
+        "personId": "000121",
+        "name": "新美南吉",
+        "kana": "にいみなんきち",
+        "roman": "Nankichi Niimi",
+        "role": "著者",
+        "birthDate": "1913-07-30",
+        "deathDate": "1943-03-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -90,5 +90,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052208",
+    "title": "帝大聖書研究会終講の辞",
+    "titleKana": "ていだいせいしょけんきゅうかいしゅうこうのじ",
+    "sortKana": "ていたいせいしよけんきゆうかいしゆうこうのし",
+    "firstAppearance": "「嘉信　第一巻第三号」1938（昭和13）年3月",
+    "ndc": "NDC 193",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-01-01",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001538/card52208.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001538/files/52208_ruby_46191.zip",
+    "textFileId": "52208_ruby_46191",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001538/files/52208_46235.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻100　聖書",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年6月25日",
+      "inputEdition": "1999（平成11）年6月25日第1刷",
+      "proofreadEdition": "1999（平成11）年6月25日第1刷"
+    },
+    "author": "矢内原忠雄",
+    "authors": [
+      {
+        "personId": "001538",
+        "name": "矢内原忠雄",
+        "kana": "やないはらただお",
+        "roman": "Tadao Yanaihara",
+        "role": "著者",
+        "birthDate": "1893-01-27",
+        "deathDate": "1961-12-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

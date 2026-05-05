@@ -38,5 +38,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004527",
+    "title": "闇桜",
+    "titleKana": "やみざくら",
+    "sortKana": "やみさくら",
+    "firstAppearance": "「武蔵野　第一編」1892（明治25）年3月23日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-09-04",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000064/card4527.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000064/files/4527_ruby_27466.zip",
+    "textFileId": "4527_ruby_27466",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000064/files/4527_27840.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "新日本古典文学大系　明治編　24　樋口一葉集",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "2001（平成13）年10月15日",
+      "inputEdition": "2001（平成13）年10月15日第1刷",
+      "proofreadEdition": "2001（平成13）年10月15日第1刷"
+    },
+    "author": "樋口一葉",
+    "authors": [
+      {
+        "personId": "000064",
+        "name": "樋口一葉",
+        "kana": "ひぐちいちよう",
+        "roman": "Ichiyo Higuchi",
+        "role": "著者",
+        "birthDate": "1872-05-02",
+        "deathDate": "1896-11-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

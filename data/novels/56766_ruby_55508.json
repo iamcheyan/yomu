@@ -300,5 +300,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056766",
+    "title": "符牒の語源",
+    "titleKana": "ふちょうのごげん",
+    "sortKana": "ふちようのこけん",
+    "ndc": "NDC 779",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-01-01",
+    "updatedAt": "2015-01-07",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001805/card56766.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001805/files/56766_ruby_55508.zip",
+    "textFileId": "56766_ruby_55508",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001805/files/56766_55509.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆70　語",
+      "publisher": "作品社",
+      "firstPublishedAt": "1988（昭和63）年8月25日",
+      "inputEdition": "1988（昭和63）年8月25日第1刷",
+      "proofreadEdition": "1992（平成4）年9月20日第8刷"
+    },
+    "author": "三遊亭金馬",
+    "authors": [
+      {
+        "personId": "001805",
+        "name": "三遊亭金馬",
+        "kana": "さんゆうていきんば",
+        "roman": "Kinba San'yutei",
+        "role": "著者",
+        "birthDate": "1894-10-25",
+        "deathDate": "1964-11-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -88,5 +88,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054269",
+    "title": "レポーター",
+    "titleKana": "レポーター",
+    "sortKana": "れほおたあ",
+    "firstAppearance": "「プロレタリア詩」1931（昭和6）年11月号",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-01-27",
+    "updatedAt": "2015-12-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001655/card54269.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001655/files/54269_ruby_57884.zip",
+    "textFileId": "54269_ruby_57884",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001655/files/54269_57933.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・38　プロレタリア詩集（一）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年5月25日",
+      "inputEdition": "1987（昭和62）年5月25日初版",
+      "proofreadEdition": "1987（昭和62）年5月25日初版"
+    },
+    "author": "長沢佑",
+    "authors": [
+      {
+        "personId": "001655",
+        "name": "長沢佑",
+        "kana": "ながさわたすく",
+        "roman": "Tasuku Nagasawa",
+        "role": "著者",
+        "birthDate": "1910-02-17",
+        "deathDate": "1933-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

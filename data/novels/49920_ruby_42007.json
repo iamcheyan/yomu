@@ -76,5 +76,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049920",
+    "title": "「世界文学大系58　カフカ」解説",
+    "titleKana": "せかいぶんがくたいけい58　カフカかいせつ",
+    "sortKana": "せかいふんかくたいけい58　カフカかいせつ",
+    "ndc": "NDC 940",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-03-14",
+    "updatedAt": "2016-02-22",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001396/card49920.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001396/files/49920_ruby_42007.zip",
+    "textFileId": "49920_ruby_42007",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001396/files/49920_42208.html",
+    "inputBy": "kompass",
+    "proofreadBy": "米田",
+    "baseBook1": {
+      "title": "世界文学大系58　カフカ",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1960（昭和35）年4月10日",
+      "inputEdition": "1960（昭和35）年4月10日",
+      "proofreadEdition": "1960（昭和35）年4月10日"
+    },
+    "author": "原田義人",
+    "authors": [
+      {
+        "personId": "001396",
+        "name": "原田義人",
+        "kana": "はらだよしと",
+        "roman": "Yoshito Harada",
+        "role": "著者",
+        "birthDate": "1918-08-05",
+        "deathDate": "1960-08-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

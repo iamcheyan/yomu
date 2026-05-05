@@ -532,5 +532,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001177",
+    "title": "朱日記",
+    "titleKana": "しゅにっき",
+    "sortKana": "しゆにつき",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-12-29",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card1177.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/1177_ruby_20392.zip",
+    "textFileId": "1177_ruby_20392",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/1177_20567.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "泉鏡花集成4",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1995（平成7）年10月24日",
+      "inputEdition": "2004（平成16）年3月20日第2刷",
+      "proofreadEdition": "1995（平成7）年10月24日第1刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

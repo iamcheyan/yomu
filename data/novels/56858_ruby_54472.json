@@ -1592,5 +1592,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056858",
+    "title": "雲母集",
+    "titleKana": "きららしゅう",
+    "sortKana": "きららしゆう",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-10-11",
+    "updatedAt": "2014-09-15",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000106/card56858.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000106/files/56858_ruby_54472.zip",
+    "textFileId": "56858_ruby_54472",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000106/files/56858_54423.html",
+    "inputBy": "光森裕樹",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "白秋全集　7",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1985（昭和60）年3月5日",
+      "inputEdition": "1985（昭和60）年3月5日",
+      "proofreadEdition": "1985（昭和60）年3月5日"
+    },
+    "author": "北原白秋",
+    "authors": [
+      {
+        "personId": "000106",
+        "name": "北原白秋",
+        "kana": "きたはらはくしゅう",
+        "roman": "Hakushu Kitahara",
+        "role": "著者",
+        "birthDate": "1885-01-25",
+        "deathDate": "1942-11-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

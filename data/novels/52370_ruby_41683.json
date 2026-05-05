@@ -2824,5 +2824,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052370",
+    "title": "新頌",
+    "titleKana": "しんしょう",
+    "sortKana": "しんしよう",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-03-01",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000106/card52370.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000106/files/52370_ruby_41683.zip",
+    "textFileId": "52370_ruby_41683",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000106/files/52370_42293.html",
+    "inputBy": "岡村和彦",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "白秋詩歌集　第二卷",
+      "publisher": "河出書房",
+      "firstPublishedAt": "1941（昭和16）年2月19日",
+      "inputEdition": "1941（昭和16）年2月19日"
+    },
+    "author": "北原白秋",
+    "authors": [
+      {
+        "personId": "000106",
+        "name": "北原白秋",
+        "kana": "きたはらはくしゅう",
+        "roman": "Hakushu Kitahara",
+        "role": "著者",
+        "birthDate": "1885-01-25",
+        "deathDate": "1942-11-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

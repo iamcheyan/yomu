@@ -284,5 +284,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057505",
+    "title": "踊る一寸法師",
+    "titleKana": "おどるいっすんぼうし",
+    "sortKana": "おとるいつすんほうし",
+    "firstAppearance": "「新青年」博文館、1926（大正15）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-04-29",
+    "updatedAt": "2017-04-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001779/card57505.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001779/files/57505_ruby_61213.zip",
+    "textFileId": "57505_ruby_61213",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001779/files/57505_61256.html",
+    "inputBy": "金城学院大学　電子書籍制作",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "江戸川乱歩全集　第3巻　陰獣",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2005（平成17）年11月20日",
+      "inputEdition": "2005（平成17）年11月20日初版1刷",
+      "proofreadEdition": "2009（平成21）年7月20日2刷"
+    },
+    "author": "江戸川乱歩",
+    "authors": [
+      {
+        "personId": "001779",
+        "name": "江戸川乱歩",
+        "kana": "えどがわらんぽ",
+        "roman": "Ranpo Edogawa",
+        "role": "著者",
+        "birthDate": "1894-10-21",
+        "deathDate": "1965-07-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -164,5 +164,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002204",
+    "title": "鴉と正覚坊",
+    "titleKana": "からすとしょうがくぼう",
+    "sortKana": "からすとしようかくほう",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-02-08",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000162/card2204.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000162/files/2204_ruby_16515.zip",
+    "textFileId": "2204_ruby_16515",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000162/files/2204_16516.html",
+    "inputBy": "柴武志",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "若山牧水全集　第八巻",
+      "publisher": "雄鶏社",
+      "firstPublishedAt": "1958（昭和33）年9月30日",
+      "inputEdition": "1958（昭和33）年9月30日初版1刷"
+    },
+    "author": "若山牧水",
+    "authors": [
+      {
+        "personId": "000162",
+        "name": "若山牧水",
+        "kana": "わかやまぼくすい",
+        "roman": "Bokusui Wakayama",
+        "role": "著者",
+        "birthDate": "1885-08-24",
+        "deathDate": "1928-09-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

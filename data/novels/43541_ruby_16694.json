@@ -32,5 +32,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043541",
+    "title": "ドイルを宗とす",
+    "titleKana": "ドイルをそうとす",
+    "sortKana": "といるをそうとす",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-11-18",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000260/card43541.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000260/files/43541_ruby_16694.zip",
+    "textFileId": "43541_ruby_16694",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000260/files/43541_16868.html",
+    "inputBy": "網迫、土屋隆",
+    "proofreadBy": "大野晋",
+    "baseBook1": {
+      "title": "日本探偵小説全集1　黒岩涙香　小酒井不木　甲賀三郎集",
+      "publisher": "創元推理文庫、東京創元社",
+      "firstPublishedAt": "1984（昭和59）年12月21日",
+      "inputEdition": "1996（平成8）年8月2日8版"
+    },
+    "author": "甲賀三郎",
+    "authors": [
+      {
+        "personId": "000260",
+        "name": "甲賀三郎",
+        "kana": "こうがさぶろう",
+        "roman": "Saburo Koga",
+        "role": "著者",
+        "birthDate": "1893-10-05",
+        "deathDate": "1945-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -732,5 +732,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057766",
+    "title": "ゆうれい貸屋",
+    "titleKana": "ゆうれいかしや",
+    "sortKana": "ゆうれいかしや",
+    "firstAppearance": "「講談雑誌」博文館、1950（昭和25）年9月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-03-18",
+    "updatedAt": "2021-02-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001869/card57766.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001869/files/57766_ruby_72778.zip",
+    "textFileId": "57766_ruby_72778",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001869/files/57766_72830.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "北川松生",
+    "baseBook1": {
+      "title": "山本周五郎全集第二十三巻　雨あがる・竹柏記",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1983（昭和58）年11月25日",
+      "inputEdition": "1983（昭和58）年11月25日",
+      "proofreadEdition": "1983（昭和58）年11月25日"
+    },
+    "author": "山本周五郎",
+    "authors": [
+      {
+        "personId": "001869",
+        "name": "山本周五郎",
+        "kana": "やまもとしゅうごろう",
+        "roman": "Shugoro Yamamoto",
+        "role": "著者",
+        "birthDate": "1903-06-22",
+        "deathDate": "1967-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

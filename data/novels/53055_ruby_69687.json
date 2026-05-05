@@ -126,5 +126,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053055",
+    "title": "遠方の母",
+    "titleKana": "えんぽうのはは",
+    "sortKana": "えんほうのはは",
+    "firstAppearance": "「赤い鳥　第十九卷第六號」1927（昭和2）年12月1日",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-12-11",
+    "updatedAt": "2019-11-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001475/card53055.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001475/files/53055_ruby_69687.zip",
+    "textFileId": "53055_ruby_69687",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001475/files/53055_69732.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "くろべえ",
+    "baseBook1": {
+      "title": "定本小川未明童話全集　6",
+      "publisher": "講談社",
+      "firstPublishedAt": "1977（昭和52）年4月10日",
+      "inputEdition": "1977（昭和52）年4月10日第1刷",
+      "proofreadEdition": "1978（昭和53）年C第2刷"
+    },
+    "author": "小川未明",
+    "authors": [
+      {
+        "personId": "001475",
+        "name": "小川未明",
+        "kana": "おがわみめい",
+        "roman": "Mimei Ogawa",
+        "role": "著者",
+        "birthDate": "1882-04-07",
+        "deathDate": "1961-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

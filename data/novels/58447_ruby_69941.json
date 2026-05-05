@@ -62,5 +62,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058447",
+    "title": "大唐田または唐干田という地名",
+    "titleKana": "だいとうだまたはとうぼしだというちめい",
+    "sortKana": "たいとうたまたはとうほしたというちめい",
+    "firstAppearance": "「郷土研究二卷五號」郷土研究社、1914（大正3）年7月1日",
+    "ndc": "NDC 384",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-01-26",
+    "updatedAt": "2020-01-06",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001566/card58447.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001566/files/58447_ruby_69941.zip",
+    "textFileId": "58447_ruby_69941",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001566/files/58447_69994.html",
+    "inputBy": "フクポー",
+    "proofreadBy": "木下聡",
+    "baseBook1": {
+      "title": "柳田國男全集20",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1990（平成2）年7月31日",
+      "inputEdition": "1990（平成2）年7月31日第1刷",
+      "proofreadEdition": "1990（平成2）年7月31日第1刷"
+    },
+    "author": "柳田国男",
+    "authors": [
+      {
+        "personId": "001566",
+        "name": "柳田国男",
+        "kana": "やなぎたくにお",
+        "roman": "Kunio Yanagita",
+        "role": "著者",
+        "birthDate": "1875-07-31",
+        "deathDate": "1962-08-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

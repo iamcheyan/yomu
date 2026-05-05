@@ -124,5 +124,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000848",
+    "title": "惰眠洞妄語",
+    "titleKana": "だみんどうもうご",
+    "sortKana": "たみんとうもうこ",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-11-20",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000159/card848.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000159/files/848_ruby_21059.zip",
+    "textFileId": "848_ruby_21059",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000159/files/848_21060.html",
+    "inputBy": "et.vi.of nothing",
+    "proofreadBy": "かとうかおり",
+    "baseBook1": {
+      "title": "辻潤著作集2　癡人の独語",
+      "publisher": "オリオン出版社",
+      "firstPublishedAt": "1970（昭和45）年1月30日"
+    },
+    "author": "辻潤",
+    "authors": [
+      {
+        "personId": "000159",
+        "name": "辻潤",
+        "kana": "つじじゅん",
+        "roman": "Jun Tsuji",
+        "role": "著者",
+        "birthDate": "1884-10-04",
+        "deathDate": "1944-11-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

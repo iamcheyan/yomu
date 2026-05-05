@@ -800,5 +800,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055253",
+    "title": "今日",
+    "titleKana": "こんにち",
+    "sortKana": "こんにち",
+    "subtitle": "02 今日",
+    "subtitleKana": "02 こんにち",
+    "firstAppearance": "「天狼」1948（昭和23）年1月～1951（昭和26）年7月",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-04-01",
+    "updatedAt": "2018-03-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001668/card55253.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001668/files/55253_ruby_64284.zip",
+    "textFileId": "55253_ruby_64284",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001668/files/55253_64333.html",
+    "inputBy": "kompass",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "現代日本文學大系　95　現代句集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1973（昭和48）年9月25日",
+      "inputEdition": "1977（昭和52）年5月20日初版第5刷",
+      "proofreadEdition": "1977（昭和52）年5月20日初版第5刷"
+    },
+    "author": "西東三鬼",
+    "authors": [
+      {
+        "personId": "001668",
+        "name": "西東三鬼",
+        "kana": "さいとうさんき",
+        "roman": "Sanki Saito",
+        "role": "著者",
+        "birthDate": "1900-05-15",
+        "deathDate": "1962-04-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

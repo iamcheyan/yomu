@@ -102,5 +102,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058832",
+    "title": "父八雲を語る",
+    "titleKana": "ちちやくもをかたる",
+    "sortKana": "ちちやくもをかたる",
+    "firstAppearance": "「父八雲を語る」ラジオ放送、1934（昭和9）年11月15日",
+    "ndc": "NDC 930",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-09-26",
+    "updatedAt": "2018-09-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001961/card58832.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001961/files/58832_ruby_65673.zip",
+    "textFileId": "58832_ruby_65673",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001961/files/58832_65768.html",
+    "inputBy": "林田清明",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "ある英語教師の思い出　――小泉八雲の次男・稲垣巌の生涯",
+      "publisher": "恒文社",
+      "firstPublishedAt": "1992（平成4）年11月20日",
+      "inputEdition": "1992（平成4）年11月20日第1版第1刷",
+      "proofreadEdition": "1992（平成4）年11月20日第1版第1刷"
+    },
+    "author": "稲垣巌",
+    "authors": [
+      {
+        "personId": "001961",
+        "name": "稲垣巌",
+        "kana": "いながきいわお",
+        "roman": "Iwao Inagaki",
+        "role": "著者",
+        "birthDate": "1897-02-15",
+        "deathDate": "1937-08-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -98,5 +98,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049592",
+    "title": "一ノ倉沢正面の登攀",
+    "titleKana": "いちのくらさわしょうめんのとうはん",
+    "sortKana": "いちのくらさわしようめんのとうはん",
+    "firstAppearance": "「山岳　二六の三」1931（昭和6）年12月",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-08-04",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001379/card49592.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001379/files/49592_ruby_35240.zip",
+    "textFileId": "49592_ruby_35240",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001379/files/49592_35565.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "山の旅　大正・昭和篇",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2003（平成15）年11月14日",
+      "inputEdition": "2007（平成19）年8月6日第5刷",
+      "proofreadEdition": "2007（平成19）年8月6日第5刷"
+    },
+    "author": "小川登喜男",
+    "authors": [
+      {
+        "personId": "001379",
+        "name": "小川登喜男",
+        "kana": "おがわときお",
+        "roman": "Tokio Ogawa",
+        "role": "著者",
+        "birthDate": "1908",
+        "deathDate": "1949",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

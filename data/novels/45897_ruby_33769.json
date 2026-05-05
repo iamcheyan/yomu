@@ -62,5 +62,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045897",
+    "title": "わが工夫せるオジヤ",
+    "titleKana": "わがくふうせるオジヤ",
+    "sortKana": "わかくふうせるおしや",
+    "firstAppearance": "「美しい暮しの手帖　第一一号」1951（昭和26）年2月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-03-23",
+    "updatedAt": "2024-01-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card45897.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/45897_ruby_33769.zip",
+    "textFileId": "45897_ruby_33769",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/45897_34353.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "坂口安吾全集　11",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1998（平成10）年12月20日",
+      "inputEdition": "1998（平成10）年12月20日初版第1刷",
+      "proofreadEdition": "1998（平成10）年12月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -3592,5 +3592,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049078",
+    "title": "二十歳のエチュード",
+    "titleKana": "はたちのエチュード",
+    "sortKana": "はたちのえちゆうと",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-10-25",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000740/card49078.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000740/files/49078_ruby_39540.zip",
+    "textFileId": "49078_ruby_39540",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000740/files/49078_40582.html",
+    "inputBy": "蒋龍",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "二十歳のエチュード",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1952（昭和27）年6月30日",
+      "inputEdition": "1975（昭和50）年4月20日改版18版",
+      "proofreadEdition": "1970（昭和45）年5月30日改版再販"
+    },
+    "author": "原口統三",
+    "authors": [
+      {
+        "personId": "000740",
+        "name": "原口統三",
+        "kana": "はらぐちとうぞう",
+        "roman": "Tozo Haraguchi",
+        "role": "著者",
+        "birthDate": "1927-01-14",
+        "deathDate": "1946-10-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

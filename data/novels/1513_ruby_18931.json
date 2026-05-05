@@ -60,5 +60,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001513",
+    "title": "伊香保土産",
+    "titleKana": "いかほみやげ",
+    "sortKana": "いかほみやけ",
+    "ndc": "NDC 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-12-12",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000158/card1513.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000158/files/1513_ruby_18931.zip",
+    "textFileId": "1513_ruby_18931",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000158/files/1513_18932.html",
+    "inputBy": "菅野朋子",
+    "proofreadBy": "浦田伴俊",
+    "baseBook1": {
+      "title": "日本の名随筆67　宿",
+      "publisher": "作品社",
+      "firstPublishedAt": "1988（昭和63）年5月25日"
+    },
+    "author": "島崎藤村",
+    "authors": [
+      {
+        "personId": "000158",
+        "name": "島崎藤村",
+        "kana": "しまざきとうそん",
+        "roman": "Toson Shimazaki",
+        "role": "著者",
+        "birthDate": "1872-03-25",
+        "deathDate": "1943-08-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

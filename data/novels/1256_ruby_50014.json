@@ -3636,5 +3636,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001256",
+    "title": "海底大陸",
+    "titleKana": "かいていたいりく",
+    "sortKana": "かいていたいりく",
+    "firstAppearance": "「子供の科学」1937（昭和12）年4月～1938（昭和13）年12月",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-05-17",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card1256.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/1256_ruby_50014.zip",
+    "textFileId": "1256_ruby_50014",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/1256_50040.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "成宮佐知子",
+    "baseBook1": {
+      "title": "海野十三全集　第4巻　十八時の音楽浴",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1989（平成元）年7月15日",
+      "inputEdition": "1989（平成元）年7月15日第1版第1刷",
+      "proofreadEdition": "1989（平成元）年7月15日第1版第1刷"
+    },
+    "author": "海野十三",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

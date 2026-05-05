@@ -158,5 +158,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000446",
+    "title": "鯉魚",
+    "titleKana": "りぎょ",
+    "sortKana": "りきよ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-09-07",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000076/card446.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000076/files/446_ruby_20629.zip",
+    "textFileId": "446_ruby_20629",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000076/files/446_20630.html",
+    "inputBy": "ゆいみ",
+    "proofreadBy": "岩田とも子",
+    "baseBook1": {
+      "title": "ちくま日本文学全集　岡本かの子",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1992（平成4）年2月20日",
+      "proofreadEdition": "1992（平成4）年2月20日初版"
+    },
+    "author": "岡本かの子",
+    "authors": [
+      {
+        "personId": "000076",
+        "name": "岡本かの子",
+        "kana": "おかもとかのこ",
+        "roman": "Kanoko Okamoto",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1939-02-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

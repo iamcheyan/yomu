@@ -62,5 +62,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004876",
+    "title": "街の底",
+    "titleKana": "まちのそこ",
+    "sortKana": "まちのそこ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-08-01",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card4876.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/4876_ruby_15891.zip",
+    "textFileId": "4876_ruby_15891",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/4876_15962.html",
+    "inputBy": "栗田聡史",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "愛の挨拶・馬車・純粋小説論",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1993（平成5）年5月10日",
+      "inputEdition": "1999（平成11）年5月12日3刷",
+      "proofreadEdition": "1999（平成11）年5月12日3刷"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -138,5 +138,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060134",
+    "title": "春雨の夜",
+    "titleKana": "はるさめのよる",
+    "sortKana": "はるさめのよる",
+    "firstAppearance": "「明星　第一卷第七號」1922（大正11）年5月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-03-19",
+    "updatedAt": "2021-02-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001341/card60134.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001341/files/60134_ruby_72780.zip",
+    "textFileId": "60134_ruby_72780",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001341/files/60134_72832.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "入江幹夫",
+    "baseBook1": {
+      "title": "麻布襍記　――附・自選荷風百句",
+      "publisher": "中公文庫、中央公論新社",
+      "firstPublishedAt": "2018（平成30）年7月25日",
+      "inputEdition": "2018（平成30）年7月25日初版",
+      "proofreadEdition": "2018（平成30）年9月5日再販"
+    },
+    "author": "永井荷風",
+    "authors": [
+      {
+        "personId": "001341",
+        "name": "永井荷風",
+        "kana": "ながいかふう",
+        "roman": "Kafu Nagai",
+        "role": "著者",
+        "birthDate": "1879-12-03",
+        "deathDate": "1959-04-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

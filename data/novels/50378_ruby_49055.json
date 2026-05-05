@@ -150,5 +150,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050378",
+    "title": "突貫",
+    "titleKana": "とっかん",
+    "sortKana": "とつかん",
+    "firstAppearance": "「太陽」1913（大正2）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-12-15",
+    "updatedAt": "2022-12-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000158/card50378.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000158/files/50378_ruby_49055.zip",
+    "textFileId": "50378_ruby_49055",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000158/files/50378_49149.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "木浦",
+    "baseBook1": {
+      "title": "島崎藤村全集第五巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1981（昭和56）年5月20日",
+      "inputEdition": "1981（昭和56）年5月20日初版第1刷",
+      "proofreadEdition": "1981（昭和56）年5月20日初版第1刷"
+    },
+    "author": "島崎藤村",
+    "authors": [
+      {
+        "personId": "000158",
+        "name": "島崎藤村",
+        "kana": "しまざきとうそん",
+        "roman": "Toson Shimazaki",
+        "role": "著者",
+        "birthDate": "1872-03-25",
+        "deathDate": "1943-08-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

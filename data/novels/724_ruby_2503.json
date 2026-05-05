@@ -50,5 +50,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000724",
+    "title": "荒雄川のほとり",
+    "titleKana": "あらおがわのほとり",
+    "sortKana": "あらおかわのほとり",
+    "firstAppearance": "「新文藝日記　昭和六年版」1930（昭和5）年",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-09-24",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000134/card724.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000134/files/724_ruby_2503.zip",
+    "textFileId": "724_ruby_2503",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000134/files/724_13550.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "鈴木伸吾",
+    "baseBook1": {
+      "title": "佐左木俊郎選集",
+      "publisher": "英宝社",
+      "firstPublishedAt": "1984（昭和59）年4月14日",
+      "inputEdition": "1984（昭和59）年4月14日初版",
+      "proofreadEdition": "1984（昭和59）年4月14日初版"
+    },
+    "author": "佐左木俊郎",
+    "authors": [
+      {
+        "personId": "000134",
+        "name": "佐左木俊郎",
+        "kana": "ささきとしろう",
+        "roman": "Toshiro Sasaki",
+        "role": "著者",
+        "birthDate": "1900-04-14",
+        "deathDate": "1933-03-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -120,5 +120,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043824",
+    "title": "物理的集団的性格",
+    "titleKana": "ぶつりてきしゅうだんてきせいかく",
+    "sortKana": "ふつりてきしゆうたんてきせいかく",
+    "firstAppearance": "「美・批評」1931（昭和6）年5月号",
+    "ndc": "NDC 701",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-12-05",
+    "updatedAt": "2015-09-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001166/card43824.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001166/files/43824_ruby_57524.zip",
+    "textFileId": "43824_ruby_57524",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001166/files/43824_57570.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "中井正一全集　第三巻　現代芸術の空間",
+      "publisher": "美術出版社",
+      "firstPublishedAt": "1981（昭和56）年5月25日新装第1刷",
+      "inputEdition": "1981（昭和56）年5月25日新装第1刷",
+      "proofreadEdition": "1964年8月10日第1刷"
+    },
+    "author": "中井正一",
+    "authors": [
+      {
+        "personId": "001166",
+        "name": "中井正一",
+        "kana": "なかいまさかず",
+        "roman": "Masakazu Nakai",
+        "role": "著者",
+        "birthDate": "1900-02-14",
+        "deathDate": "1952-05-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

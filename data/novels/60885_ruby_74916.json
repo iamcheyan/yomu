@@ -54,5 +54,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060885",
+    "title": "斎藤茂吉の死を悲しむ",
+    "titleKana": "さいとうもきちのしをかなしむ",
+    "sortKana": "さいとうもきちのしをかなしむ",
+    "firstAppearance": "「短歌研究　第十卷第四號」日本短歌社、1953（昭和28）年4月1日",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-02-25",
+    "updatedAt": "2022-01-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001497/card60885.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001497/files/60885_ruby_74916.zip",
+    "textFileId": "60885_ruby_74916",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001497/files/60885_74951.html",
+    "inputBy": "ネコステ",
+    "proofreadBy": "きりんの手紙",
+    "baseBook1": {
+      "title": "近代作家追悼文集成　第三十四巻",
+      "publisher": "ゆまに書房",
+      "firstPublishedAt": "1997（平成9）年1月24日",
+      "inputEdition": "1997（平成9）年1月24日",
+      "proofreadEdition": "1997（平成9）年1月24日"
+    },
+    "author": "吉井勇",
+    "authors": [
+      {
+        "personId": "001497",
+        "name": "吉井勇",
+        "kana": "よしいいさむ",
+        "roman": "Isamu Yoshii",
+        "role": "著者",
+        "birthDate": "1886-10-08",
+        "deathDate": "1960-11-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

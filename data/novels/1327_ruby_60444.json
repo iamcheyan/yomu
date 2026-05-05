@@ -50,5 +50,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001327",
+    "title": "かの日の歌【四】",
+    "titleKana": "かのひのうた【四】",
+    "sortKana": "かのひのうた4",
+    "firstAppearance": "「琉球新報」1911（明治44）年12月10日",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-01-20",
+    "updatedAt": "2016-12-09",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001666/card1327.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001666/files/1327_ruby_60444.zip",
+    "textFileId": "1327_ruby_60444",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001666/files/1327_60488.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "良本典代",
+    "baseBook1": {
+      "title": "沖縄文学全集　第1巻　詩Ⅰ",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "1991（平成3）年6月6日",
+      "inputEdition": "1991（平成3）年6月6日第1刷",
+      "proofreadEdition": "1991（平成3）年6月6日第1刷"
+    },
+    "author": "漢那浪笛",
+    "authors": [
+      {
+        "personId": "001666",
+        "name": "漢那浪笛",
+        "kana": "かんなろうてき",
+        "roman": "Roteki Kanna",
+        "role": "著者",
+        "birthDate": "1887",
+        "deathDate": "1939",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

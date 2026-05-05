@@ -202,5 +202,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049635",
+    "title": "書かでもの記",
+    "titleKana": "かかでものき",
+    "sortKana": "かかてものき",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-10-06",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001341/card49635.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001341/files/49635_ruby_39468.zip",
+    "textFileId": "49635_ruby_39468",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001341/files/49635_40535.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "米田",
+    "baseBook1": {
+      "title": "荷風随筆集（下）",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1986（昭和61）年11月17日",
+      "inputEdition": "2007（平成19）年7月13日第23刷",
+      "proofreadEdition": "2008（平成20）年9月16日第24刷"
+    },
+    "author": "永井荷風",
+    "authors": [
+      {
+        "personId": "001341",
+        "name": "永井荷風",
+        "kana": "ながいかふう",
+        "roman": "Kafu Nagai",
+        "role": "著者",
+        "birthDate": "1879-12-03",
+        "deathDate": "1959-04-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

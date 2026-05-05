@@ -174,5 +174,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049951",
+    "title": "安吾新日本風土記",
+    "titleKana": "あんごしんにほんふどき",
+    "sortKana": "あんこしんにほんふとき",
+    "subtitle": "03 第二回　富山の薬と越後の毒消し≪富山県・新潟県の巻≫",
+    "subtitleKana": "03 だいにかい　とやまのくすりとえちごのどくけし≪とやまけんにいがたけんのまき≫",
+    "firstAppearance": "「中央公論　第七〇年第三号」中央公論社、1955（昭和30）年3月1日",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-12-07",
+    "updatedAt": "2014-11-14",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card49951.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/49951_ruby_54940.zip",
+    "textFileId": "49951_ruby_54940",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/49951_54981.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "塚本由紀",
+    "baseBook1": {
+      "title": "坂口安吾全集　15",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年10月20日",
+      "inputEdition": "1999（平成11）年10月20日初版第1刷",
+      "proofreadEdition": "1999（平成11）年10月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

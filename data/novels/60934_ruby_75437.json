@@ -70,5 +70,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060934",
+    "title": "麻雀インチキ物語",
+    "titleKana": "まあじゃんインチキものがたり",
+    "sortKana": "まあしやんいんちきものかたり",
+    "firstAppearance": "「新青年」1930（昭和5）年7月号",
+    "ndc": "NDC 797",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-05-17",
+    "updatedAt": "2022-04-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card60934.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/60934_ruby_75437.zip",
+    "textFileId": "60934_ruby_75437",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/60934_75469.html",
+    "inputBy": "sogo",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "ひりひり賭け事アンソロジー　わかっちゃいるけど、ギャンブル！",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2017（平成29）年10月10日",
+      "inputEdition": "2017（平成29）年10月10日第1刷",
+      "proofreadEdition": "2017（平成29）年10月10日第1刷"
+    },
+    "author": "海野十三",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

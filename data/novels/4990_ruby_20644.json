@@ -302,5 +302,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004990",
+    "title": "沖縄の旅",
+    "titleKana": "おきなわのたび",
+    "sortKana": "おきなわのたひ",
+    "firstAppearance": "「ドルメン　第二號～第九號」1932（昭和7）年5～12月",
+    "ndc": "NDC 291 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-02-20",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001054/card4990.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001054/files/4990_ruby_20644.zip",
+    "textFileId": "4990_ruby_20644",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001054/files/4990_21436.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "青陵隨筆",
+      "publisher": "座右寶刊行會",
+      "firstPublishedAt": "1947（昭和22）年11月20日",
+      "inputEdition": "1947（昭和22）年11月20日",
+      "proofreadEdition": "1947（昭和22）年11月20日"
+    },
+    "author": "浜田青陵",
+    "authors": [
+      {
+        "personId": "001054",
+        "name": "浜田青陵",
+        "kana": "はまだせいりょう",
+        "roman": "Seiryo Hamada",
+        "role": "著者",
+        "birthDate": "1881-02-22",
+        "deathDate": "1938-07-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

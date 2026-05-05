@@ -58,5 +58,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056872",
+    "title": "我が一九二二年",
+    "titleKana": "わがせんきゅうひゃくにじゅうにねん",
+    "sortKana": "わかせんきゆうひやくにしゆうにねん",
+    "subtitle": "02 我が一九二二年",
+    "subtitleKana": "02 わがせんきゅうひゃくにじゅうにねん",
+    "firstAppearance": "秋刀魚の歌「人間　第三巻第一一月号」1921（大正10）年11月1日発行<br> 秋衣の歌「中央公論　第三七年第一一号」1922（大正11）年10月1日発行<br> 憂たてさ「新潮　第三七巻第二号」1922（大正11）年8月1日発行<br> 浴泉消息「明星　第二巻第四号」1922（大正11）年9月1日発行<br> 或る人に「東京朝日新聞」1923（大正12）年1月3日発行<br> つみ草「蜘蛛　第三第五号」1921（大正10）年8月10日発行<br> 別離「明星　第二巻第六号」1922（大正11）年11月1日発行<br> 龍膽花「明星　第二巻第六号」1922（大正11）年11月1日発行",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-05-06",
+    "updatedAt": "2016-03-04",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001763/card56872.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001763/files/56872_ruby_58774.zip",
+    "textFileId": "56872_ruby_58774",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001763/files/56872_58817.html",
+    "inputBy": "阿部哲也",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "現代日本文學大系　42　佐藤春夫集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1969（昭和44）年6月25日",
+      "inputEdition": "2000（平成12）年1月30日初版第14刷",
+      "proofreadEdition": "2000（平成12）年1月30日初版第14刷"
+    },
+    "author": "佐藤春夫",
+    "authors": [
+      {
+        "personId": "001763",
+        "name": "佐藤春夫",
+        "kana": "さとうはるお",
+        "roman": "Haruo Sato",
+        "role": "著者",
+        "birthDate": "1892-04-09",
+        "deathDate": "1964-05-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

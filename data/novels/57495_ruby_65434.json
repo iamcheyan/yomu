@@ -3014,5 +3014,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057495",
+    "title": "青べか物語",
+    "titleKana": "あおべかものがたり",
+    "sortKana": "あおへかものかたり",
+    "firstAppearance": "「文藝春秋」1960（昭和35）年1月号～1961（昭和36）年1月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-08-16",
+    "updatedAt": "2018-07-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001869/card57495.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001869/files/57495_ruby_65434.zip",
+    "textFileId": "57495_ruby_65434",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001869/files/57495_65478.html",
+    "inputBy": "富田晶子",
+    "proofreadBy": "Juki、栗原もなこ",
+    "baseBook1": {
+      "title": "青べか物語",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1964（昭和39）年8月10日",
+      "inputEdition": "2006（平成18）年3月20日69刷",
+      "proofreadEdition": "2015（平成27）年6月25日80刷"
+    },
+    "author": "山本周五郎",
+    "authors": [
+      {
+        "personId": "001869",
+        "name": "山本周五郎",
+        "kana": "やまもとしゅうごろう",
+        "roman": "Shugoro Yamamoto",
+        "role": "著者",
+        "birthDate": "1903-06-22",
+        "deathDate": "1967-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

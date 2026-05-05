@@ -6460,5 +6460,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000350",
+    "title": "真景累ヶ淵",
+    "titleKana": "しんけいかさねがふち",
+    "sortKana": "しんけいかさねかふち",
+    "ndc": "NDC 779 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-04-18",
+    "updatedAt": "2016-04-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000989/card350.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000989/files/350_ruby_33175.zip",
+    "textFileId": "350_ruby_33175",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000989/files/350_33176.html",
+    "inputBy": "小林繁雄",
+    "proofreadBy": "かとうかおり",
+    "baseBook1": {
+      "title": "定本　圓朝全集　巻の一",
+      "publisher": "近代文芸・資料複刻叢書、世界文庫",
+      "firstPublishedAt": "1963（昭和38）年6月10日",
+      "inputEdition": "1963（昭和38）年6月10日",
+      "proofreadEdition": "1963（昭和38）年6月10日"
+    },
+    "author": "三遊亭円朝",
+    "authors": [
+      {
+        "personId": "000989",
+        "name": "三遊亭円朝",
+        "kana": "さんゆうていえんちょう",
+        "roman": "Encho San'yutei",
+        "role": "著者",
+        "birthDate": "1839-05-13",
+        "deathDate": "1900-08-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

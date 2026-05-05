@@ -7588,5 +7588,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003041",
+    "title": "八ヶ嶽の魔神",
+    "titleKana": "やつがたけのまじん",
+    "sortKana": "やつかたけのましん",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-09-09",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card3041.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/3041_ruby_32479.zip",
+    "textFileId": "3041_ruby_32479",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/3041_32480.html",
+    "inputBy": "小林繁雄、門田裕志",
+    "proofreadBy": "六郷梧三郎",
+    "baseBook1": {
+      "title": "八ヶ嶽の魔神",
+      "publisher": "大衆文学館、講談社",
+      "firstPublishedAt": "1996（平成8）年4月20日",
+      "inputEdition": "1996（平成8）年4月20日第1刷",
+      "proofreadEdition": "1996（平成8）年4月20日第1刷"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

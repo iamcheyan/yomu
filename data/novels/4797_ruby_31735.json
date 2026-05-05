@@ -2996,5 +2996,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004797",
+    "title": "人形の家",
+    "titleKana": "にんぎょうのいえ",
+    "sortKana": "にんきようのいえ",
+    "ndc": "NDC 949",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-07-01",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001028/card4797.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001028/files/4797_ruby_31735.zip",
+    "textFileId": "4797_ruby_31735",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001028/files/4797_31829.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "人形の家",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1952（昭和27）年8月15日",
+      "inputEdition": "1961（昭和36）年4月30日17版",
+      "proofreadEdition": "1957（昭和32）年6月20日10版"
+    },
+    "author": "イプセンヘンリック",
+    "authors": [
+      {
+        "personId": "001028",
+        "name": "イプセンヘンリック",
+        "kana": "イプセンヘンリック",
+        "roman": "Henrik Ibsen",
+        "role": "著者",
+        "birthDate": "1828-03-20",
+        "deathDate": "1906-05-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

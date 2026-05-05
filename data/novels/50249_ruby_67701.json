@@ -124,5 +124,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050249",
+    "title": "蜻蛉",
+    "titleKana": "とんぼ",
+    "sortKana": "とんほ",
+    "subtitle": "――飜弄さる",
+    "subtitleKana": "――ほんろうさる",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-04-29",
+    "updatedAt": "2019-03-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000026/card50249.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000026/files/50249_ruby_67701.zip",
+    "textFileId": "50249_ruby_67701",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000026/files/50249_67753.html",
+    "inputBy": "村松洋一",
+    "proofreadBy": "shiro",
+    "baseBook1": {
+      "title": "新編中原中也全集　第四巻　評論・小説",
+      "publisher": "角川書店",
+      "firstPublishedAt": "2003（平成15）年11月25日",
+      "inputEdition": "2003（平成15）年11月25日初版",
+      "proofreadEdition": "2003（平成15）年11月25日初版"
+    },
+    "author": "中原中也",
+    "authors": [
+      {
+        "personId": "000026",
+        "name": "中原中也",
+        "kana": "なかはらちゅうや",
+        "roman": "Chuya Nakahara",
+        "role": "著者",
+        "birthDate": "1907-04-29",
+        "deathDate": "1937-10-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

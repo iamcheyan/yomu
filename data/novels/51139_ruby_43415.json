@@ -102,5 +102,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051139",
+    "title": "初代谷風梶之助",
+    "titleKana": "しょだいたにかぜかじのすけ",
+    "sortKana": "しよたいたにかせかしのすけ",
+    "ndc": "NDC 788",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-08-04",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001481/card51139.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001481/files/51139_ruby_43415.zip",
+    "textFileId": "51139_ruby_43415",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001481/files/51139_44303.html",
+    "inputBy": "浦山敦子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻2　相撲",
+      "publisher": "作品社",
+      "firstPublishedAt": "1991（平成3）年4月25日",
+      "inputEdition": "1991（平成3）年4月25日第1刷",
+      "proofreadEdition": "1997（平成9）年5月20日第5刷"
+    },
+    "author": "三木貞一",
+    "authors": [
+      {
+        "personId": "001481",
+        "name": "三木貞一",
+        "kana": "みきていいち",
+        "roman": "Teiichi Miki",
+        "role": "著者",
+        "birthDate": "1861",
+        "deathDate": "1933",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

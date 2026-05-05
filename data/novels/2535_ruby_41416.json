@@ -496,5 +496,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002535",
+    "title": "花枕",
+    "titleKana": "はなまくら",
+    "sortKana": "はなまくら",
+    "firstAppearance": "「新小説」1897（明治30）年4月",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-02-11",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000305/card2535.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000305/files/2535_ruby_41416.zip",
+    "textFileId": "2535_ruby_41416",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000305/files/2535_42000.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "米田",
+    "baseBook1": {
+      "title": "花枕　他二篇",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1940（昭和15）年2月3日",
+      "inputEdition": "2003（平成15）年2月21日第7刷",
+      "proofreadEdition": "1993（平成5）年2月10日第6刷"
+    },
+    "author": "正岡子規",
+    "authors": [
+      {
+        "personId": "000305",
+        "name": "正岡子規",
+        "kana": "まさおかしき",
+        "roman": "Shiki Masaoka",
+        "role": "著者",
+        "birthDate": "1867-10-14",
+        "deathDate": "1902-09-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -54,5 +54,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042703",
+    "title": "物理学の応用について",
+    "titleKana": "ぶつりがくのおうようについて",
+    "sortKana": "ふつりかくのおうようについて",
+    "firstAppearance": "「理学界　第十巻第九号」1913（大正2）年3月1日",
+    "ndc": "NDC 420",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-09-01",
+    "updatedAt": "2016-02-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000042/card42703.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000042/files/42703_ruby_23738.zip",
+    "textFileId": "42703_ruby_23738",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000042/files/42703_23759.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "寺田寅彦全集　第五巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1997（平成9）年4月4日",
+      "inputEdition": "1997（平成9）年4月4日"
+    },
+    "author": "寺田寅彦",
+    "authors": [
+      {
+        "personId": "000042",
+        "name": "寺田寅彦",
+        "kana": "てらだとらひこ",
+        "roman": "Torahiko Terada",
+        "role": "著者",
+        "birthDate": "1878-11-28",
+        "deathDate": "1935-12-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

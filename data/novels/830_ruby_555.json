@@ -166,5 +166,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000830",
+    "title": "突貫紀行",
+    "titleKana": "とっかんきこう",
+    "sortKana": "とつかんきこう",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-09-16",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000051/card830.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000051/files/830_ruby_555.zip",
+    "textFileId": "830_ruby_555",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000051/files/830_14079.html",
+    "inputBy": "真先芳秋",
+    "proofreadBy": "丹羽倫子",
+    "baseBook1": {
+      "title": "ちくま日本文学全集　幸田露伴",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1992（平成4）年3月20日",
+      "proofreadEdition": "1992（平成4）年3月20日第1刷"
+    },
+    "author": "幸田露伴",
+    "authors": [
+      {
+        "personId": "000051",
+        "name": "幸田露伴",
+        "kana": "こうだろはん",
+        "roman": "Rohan Koda",
+        "role": "著者",
+        "birthDate": "1867-08-20",
+        "deathDate": "1947-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

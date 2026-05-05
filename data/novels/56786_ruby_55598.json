@@ -46,5 +46,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056786",
+    "title": "海辺の窓",
+    "titleKana": "うみべのまど",
+    "sortKana": "うみへのまと",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-02-19",
+    "updatedAt": "2015-01-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001749/card56786.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001749/files/56786_ruby_55598.zip",
+    "textFileId": "56786_ruby_55598",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001749/files/56786_55645.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆79　港",
+      "publisher": "作品社",
+      "firstPublishedAt": "1989（平成元）年5月25日",
+      "inputEdition": "1989（平成元）年5月25日第1刷",
+      "proofreadEdition": "1995（平成7）年8月20日第5刷"
+    },
+    "author": "三好達治",
+    "authors": [
+      {
+        "personId": "001749",
+        "name": "三好達治",
+        "kana": "みよしたつじ",
+        "roman": "Tatsuji Miyoshi",
+        "role": "著者",
+        "birthDate": "1900-08-23",
+        "deathDate": "1964-04-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

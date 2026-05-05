@@ -104,5 +104,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059490",
+    "title": "幻想",
+    "titleKana": "げんそう",
+    "sortKana": "けんそう",
+    "firstAppearance": "「新青年」1925（大正14）年1月増刊号",
+    "ndc": "NDC 953",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-04-15",
+    "updatedAt": "2020-03-31",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000326/card59490.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000326/files/59490_ruby_70700.zip",
+    "textFileId": "59490_ruby_70700",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000326/files/59490_70752.html",
+    "inputBy": "ノワール",
+    "proofreadBy": "栗田美恵子",
+    "baseBook1": {
+      "title": "夜鳥",
+      "publisher": "創元推理文庫、東京創元社",
+      "firstPublishedAt": "2003（平成15）年2月14日",
+      "inputEdition": "2003（平成15）年2月14日初版",
+      "proofreadEdition": "2003（平成15）年2月14日初版"
+    },
+    "author": "ルヴェルモーリス",
+    "authors": [
+      {
+        "personId": "000326",
+        "name": "ルヴェルモーリス",
+        "kana": "ルヴェルモーリス",
+        "roman": "Maurice Level",
+        "role": "著者",
+        "birthDate": "1875-08-29",
+        "deathDate": "1926-04-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

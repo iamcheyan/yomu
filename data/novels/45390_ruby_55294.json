@@ -32,5 +32,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045390",
+    "title": "八ガ岳大門沢",
+    "titleKana": "やつがだけだいもんさわ",
+    "sortKana": "やつかたけたいもんさわ",
+    "ndc": "NDC 291 786",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-01-27",
+    "updatedAt": "2014-12-15",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000307/card45390.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000307/files/45390_ruby_55294.zip",
+    "textFileId": "45390_ruby_55294",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000307/files/45390_55382.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "岡山勝美",
+    "baseBook1": {
+      "title": "新編　風雪のビヴァーク",
+      "publisher": "山と溪谷社",
+      "firstPublishedAt": "2000（平成12）年3月20日",
+      "inputEdition": "2000（平成12）年3月20日初版第1刷",
+      "proofreadEdition": "2000（平成12）年3月20日初版第一刷"
+    },
+    "author": "松濤明",
+    "authors": [
+      {
+        "personId": "000307",
+        "name": "松濤明",
+        "kana": "まつなみあきら",
+        "roman": "Akira Matsunami",
+        "role": "著者",
+        "birthDate": "1922-03-05",
+        "deathDate": "1949-01-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -626,5 +626,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043106",
+    "title": "近松半二の死",
+    "titleKana": "ちかまつはんじのし",
+    "sortKana": "ちかまつはんしのし",
+    "firstAppearance": "「文藝春秋」1928（昭和3）年10月",
+    "ndc": "NDC 912",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-08-09",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000082/card43106.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000082/files/43106_ruby_23358.zip",
+    "textFileId": "43106_ruby_23358",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000082/files/43106_23803.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "日本現代文學全集34　岡本綺堂・小山内薫・眞山青果集",
+      "publisher": "講談社",
+      "firstPublishedAt": "1968（昭和43）年6月19日",
+      "inputEdition": "1968（昭和43）年6月19日",
+      "proofreadEdition": "1968（昭和43）年6月19日"
+    },
+    "author": "岡本綺堂",
+    "authors": [
+      {
+        "personId": "000082",
+        "name": "岡本綺堂",
+        "kana": "おかもときどう",
+        "roman": "Kido Okamoto",
+        "role": "著者",
+        "birthDate": "1872-11-15",
+        "deathDate": "1939-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

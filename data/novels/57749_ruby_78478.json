@@ -40,5 +40,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057749",
+    "title": "蜜柑",
+    "titleKana": "みかん",
+    "sortKana": "みかん",
+    "firstAppearance": "「キング」大日本雄辯會講談社 、1941（昭和16）年8月号",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2025-11-03",
+    "updatedAt": "2025-11-03",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001869/card57749.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001869/files/57749_ruby_78478.zip",
+    "textFileId": "57749_ruby_78478",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001869/files/57749_78477.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "北川松生",
+    "baseBook1": {
+      "title": "山本周五郎全集第十九巻　蕭々十三年・水戸梅譜",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1983（昭和58）年10月25日",
+      "inputEdition": "1983（昭和58）年10月25日",
+      "proofreadEdition": "1983（昭和58）年10月25日"
+    },
+    "author": "山本周五郎",
+    "authors": [
+      {
+        "personId": "001869",
+        "name": "山本周五郎",
+        "kana": "やまもとしゅうごろう",
+        "roman": "Shugoro Yamamoto",
+        "role": "著者",
+        "birthDate": "1903-06-22",
+        "deathDate": "1967-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -68,5 +68,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047572",
+    "title": "「郭子儀」異変",
+    "titleKana": "「かくしぎ」いへん",
+    "sortKana": "かくしきいへん",
+    "firstAppearance": "「東陽　昭和十一年六月號」1936（昭和11）年6月",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-01-26",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000726/card47572.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000726/files/47572_ruby_33731.zip",
+    "textFileId": "47572_ruby_33731",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000726/files/47572_33743.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "桃",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1939（昭和14）年2月10日",
+      "inputEdition": "1939（昭和14）年2月10日",
+      "proofreadEdition": "1939（昭和14）年2月10日"
+    },
+    "author": "長谷川時雨",
+    "authors": [
+      {
+        "personId": "000726",
+        "name": "長谷川時雨",
+        "kana": "はせがわしぐれ",
+        "roman": "Shigure Hasegawa",
+        "role": "著者",
+        "birthDate": "1879-10-01",
+        "deathDate": "1941-08-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

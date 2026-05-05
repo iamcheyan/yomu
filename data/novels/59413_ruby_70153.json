@@ -68,5 +68,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059413",
+    "title": "富士登山",
+    "titleKana": "ふじとざん",
+    "sortKana": "ふしとさん",
+    "firstAppearance": "「ホトトギス　第十九卷第十二號」1916（大正5）年9月1日",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-02-22",
+    "updatedAt": "2020-01-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001310/card59413.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001310/files/59413_ruby_70153.zip",
+    "textFileId": "59413_ruby_70153",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001310/files/59413_70202.html",
+    "inputBy": "富田晶子",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "紀行とエッセーで読む　作家の山旅",
+      "publisher": "ヤマケイ文庫、山と渓谷社",
+      "firstPublishedAt": "2017（平成29）年3月1日",
+      "inputEdition": "2017（平成29）年3月1日初版第1刷",
+      "proofreadEdition": "2017（平成29）年3月1日初版第1刷"
+    },
+    "author": "高浜虚子",
+    "authors": [
+      {
+        "personId": "001310",
+        "name": "高浜虚子",
+        "kana": "たかはまきょし",
+        "roman": "Kyoshi Takahama",
+        "role": "著者",
+        "birthDate": "1874-02-22",
+        "deathDate": "1959-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -72,5 +72,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049496",
+    "title": "リラの手紙",
+    "titleKana": "リラのてがみ",
+    "sortKana": "りらのてかみ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-01-01",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001370/card49496.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001370/files/49496_ruby_37635.zip",
+    "textFileId": "49496_ruby_37635",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001370/files/49496_37660.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "行動　第二巻第二號",
+      "publisher": "紀伊国屋出版部",
+      "firstPublishedAt": "1934（昭和9）年2月1日",
+      "inputEdition": "1934（昭和9）年2月1日",
+      "proofreadEdition": "1934（昭和9）年2月1日"
+    },
+    "author": "豊田三郎",
+    "authors": [
+      {
+        "personId": "001370",
+        "name": "豊田三郎",
+        "kana": "とよださぶろう",
+        "roman": "Saburo Toyoda",
+        "role": "著者",
+        "birthDate": "1907-02-12",
+        "deathDate": "1959-11-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

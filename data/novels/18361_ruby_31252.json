@@ -550,5 +550,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "018361",
+    "title": "ベーシック英語",
+    "titleKana": "ベーシックえいご",
+    "sortKana": "へえしつくえいこ",
+    "ndc": "NDC 834",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-09-29",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001065/card18361.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001065/files/18361_ruby_31252.zip",
+    "textFileId": "18361_ruby_31252",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001065/files/18361_32671.html",
+    "inputBy": "田中敬三",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "ベーシック英語",
+      "publisher": "研究社",
+      "firstPublishedAt": "1941（昭和16）年4月20日",
+      "inputEdition": "1941（昭和16）年4月20日"
+    },
+    "author": "高田力",
+    "authors": [
+      {
+        "personId": "001065",
+        "name": "高田力",
+        "kana": "たかたつとむ",
+        "roman": "Tsutomu Takata",
+        "role": "著者",
+        "deathDate": "1950",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

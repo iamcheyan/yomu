@@ -156,5 +156,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001578",
+    "title": "愛と美について",
+    "titleKana": "あいとびについて",
+    "sortKana": "あいとひについて",
+    "firstAppearance": "「愛と美について」竹村書房、1939（昭和14）年5月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-11-01",
+    "updatedAt": "2016-02-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card1578.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/1578_ruby_5242.zip",
+    "textFileId": "1578_ruby_5242",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/1578_44923.html",
+    "inputBy": "田中久太郎",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "新樹の言葉",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1982（昭和57）年7月25日",
+      "inputEdition": "1992（平成4）年11月15日17刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

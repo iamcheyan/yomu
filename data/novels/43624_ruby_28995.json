@@ -1202,5 +1202,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043624",
+    "title": "明治人物月旦（抄）",
+    "titleKana": "めいじじんぶつげったん（しょう）",
+    "sortKana": "めいししんふつけつたんしよう",
+    "ndc": "NDC 281",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-02-21",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001161/card43624.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001161/files/43624_ruby_28995.zip",
+    "textFileId": "43624_ruby_28995",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001161/files/43624_29542.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "明治文学全集　92　明治人物論集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1970（昭和45）年5月30日",
+      "inputEdition": "1984（昭和59）年2月20日初版第4刷",
+      "proofreadEdition": "1983（昭和58）年10月1日初版第3刷"
+    },
+    "author": "鳥谷部春汀",
+    "authors": [
+      {
+        "personId": "001161",
+        "name": "鳥谷部春汀",
+        "kana": "とやべしゅんてい",
+        "roman": "Shuntei Toyabe",
+        "role": "著者",
+        "birthDate": "1865-03-29",
+        "deathDate": "1908-12-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

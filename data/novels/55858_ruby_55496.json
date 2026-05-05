@@ -14272,5 +14272,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055858",
+    "title": "苦心の学友",
+    "titleKana": "くしんのがくゆう",
+    "sortKana": "くしんのかくゆう",
+    "firstAppearance": "「少年倶楽部」1927（昭和2）年10月号～1929（昭和4）年12月号",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-01-01",
+    "updatedAt": "2015-01-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001750/card55858.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001750/files/55858_ruby_55496.zip",
+    "textFileId": "55858_ruby_55496",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001750/files/55858_55497.html",
+    "inputBy": "橋本泰平",
+    "proofreadBy": "POKEPEEK2011",
+    "baseBook1": {
+      "title": "苦心の学友",
+      "publisher": "少年倶楽部文庫、講談社",
+      "firstPublishedAt": "1975（昭和50）年10月16日",
+      "inputEdition": "1975（昭和50）年10月16日",
+      "proofreadEdition": "1975（昭和50）年10月16日"
+    },
+    "author": "佐々木邦",
+    "authors": [
+      {
+        "personId": "001750",
+        "name": "佐々木邦",
+        "kana": "ささきくに",
+        "roman": "Kuni Sasaki",
+        "role": "著者",
+        "birthDate": "1883-05-04",
+        "deathDate": "1964-09-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

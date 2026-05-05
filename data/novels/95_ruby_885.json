@@ -204,5 +204,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000095",
+    "title": "魔術",
+    "titleKana": "まじゅつ",
+    "sortKana": "ましゆつ",
+    "firstAppearance": "「赤い鳥」1920（大正9）年1月",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-12-08",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000879/card95.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000879/files/95_ruby_885.zip",
+    "textFileId": "95_ruby_885",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000879/files/95_15247.html",
+    "inputBy": "j.utiyama",
+    "proofreadBy": "かとうかおり",
+    "baseBook1": {
+      "title": "芥川龍之介全集3",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1986（昭和61）年12月1日",
+      "inputEdition": "1996（平成8）年4月1日第8刷",
+      "proofreadEdition": "1997（平成9）年4月15日第9刷"
+    },
+    "author": "芥川竜之介",
+    "authors": [
+      {
+        "personId": "000879",
+        "name": "芥川竜之介",
+        "kana": "あくたがわりゅうのすけ",
+        "roman": "Ryunosuke Akutagawa",
+        "role": "著者",
+        "birthDate": "1892-03-01",
+        "deathDate": "1927-07-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

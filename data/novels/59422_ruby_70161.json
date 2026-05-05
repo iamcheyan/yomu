@@ -86,5 +86,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059422",
+    "title": "登山は冒険なり",
+    "titleKana": "とざんはぼうけんなり",
+    "sortKana": "とさんはほうけんなり",
+    "firstAppearance": "「山　第一卷第三號」梓書房、1934（昭和9）年3月1日",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-02-26",
+    "updatedAt": "2020-01-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000510/card59422.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000510/files/59422_ruby_70161.zip",
+    "textFileId": "59422_ruby_70161",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000510/files/59422_70210.html",
+    "inputBy": "富田晶子",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "紀行とエッセーで読む　作家の山旅",
+      "publisher": "ヤマケイ文庫、山と渓谷社",
+      "firstPublishedAt": "2017（平成29）年3月1日",
+      "inputEdition": "2017（平成29）年3月1日初版第1刷",
+      "proofreadEdition": "2017（平成29）年3月1日初版第1刷"
+    },
+    "author": "河東碧梧桐",
+    "authors": [
+      {
+        "personId": "000510",
+        "name": "河東碧梧桐",
+        "kana": "かわひがしへきごとう",
+        "roman": "Hekigoto Kawahigashi",
+        "role": "著者",
+        "birthDate": "1873-02-26",
+        "deathDate": "1937-02-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

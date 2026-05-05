@@ -44,5 +44,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003006",
+    "title": "作家は戦争挑発とたたかう",
+    "titleKana": "さっかはせんそうちょうはつとたたかう",
+    "sortKana": "さつかはせんそうちようはつとたたかう",
+    "firstAppearance": "「文学新聞」1949（昭和24）年8月15日号",
+    "ndc": "NDC 319 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-05-22",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000311/card3006.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000311/files/3006_ruby_10128.zip",
+    "textFileId": "3006_ruby_10128",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000311/files/3006_10129.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "米田進",
+    "baseBook1": {
+      "title": "宮本百合子全集　第十三巻",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1979（昭和54）年11月20日",
+      "inputEdition": "1986（昭和61）年3月20日第5刷"
+    },
+    "author": "宮本百合子",
+    "authors": [
+      {
+        "personId": "000311",
+        "name": "宮本百合子",
+        "kana": "みやもとゆりこ",
+        "roman": "Yuriko Miyamoto",
+        "role": "著者",
+        "birthDate": "1899-02-13",
+        "deathDate": "1951-01-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

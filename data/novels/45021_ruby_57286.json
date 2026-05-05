@@ -40,5 +40,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045021",
+    "title": "「ヴェニスに死す」解説",
+    "titleKana": "「ヴェニスにしす」かいせつ",
+    "sortKana": "「うえにすにしす」かいせつ",
+    "ndc": "NDC 943 944",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-08-12",
+    "updatedAt": "2015-08-02",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001759/card45021.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001759/files/45021_ruby_57286.zip",
+    "textFileId": "45021_ruby_57286",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001759/files/45021_57287.html",
+    "inputBy": "kompass",
+    "proofreadBy": "荒木恵一",
+    "baseBook1": {
+      "title": "ヴェニスに死す",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1939（昭和14）年1月10日",
+      "inputEdition": "1988（昭和63）年7月5日第44刷",
+      "proofreadEdition": "1988（昭和63）年7月5日第44刷"
+    },
+    "author": "実吉捷郎",
+    "authors": [
+      {
+        "personId": "001759",
+        "name": "実吉捷郎",
+        "kana": "さねよしはやお",
+        "roman": "Hayao Saneyoshi",
+        "role": "著者",
+        "birthDate": "1895-01-20",
+        "deathDate": "1962-02-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

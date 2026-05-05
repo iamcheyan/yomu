@@ -472,5 +472,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004560",
+    "title": "化鳥",
+    "titleKana": "けちょう",
+    "sortKana": "けちよう",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-05-29",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card4560.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/4560_ruby_8595.zip",
+    "textFileId": "4560_ruby_8595",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/4560_9734.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "短篇小説名作選",
+      "publisher": "現代企画室",
+      "firstPublishedAt": "1982（昭和57）年4月15日",
+      "inputEdition": "1984（昭和59）年3月15日第2刷",
+      "proofreadEdition": "1984（昭和59）年3月15日第2刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -70,5 +70,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047118",
+    "title": "山の声",
+    "titleKana": "やまのこえ",
+    "sortKana": "やまのこえ",
+    "firstAppearance": "「水の変態」1956（昭和31）年8月1日",
+    "ndc": "NDC 768 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-09-22",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001288/card47118.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001288/files/47118_ruby_27518.zip",
+    "textFileId": "47118_ruby_27518",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001288/files/47118_27915.html",
+    "inputBy": "貝波明美",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "心の調べ",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "2006（平成18）年8月30日",
+      "inputEdition": "2006（平成18）年8月30日初版",
+      "proofreadEdition": "2006（平成18）年8月30日初版"
+    },
+    "author": "宮城道雄",
+    "authors": [
+      {
+        "personId": "001288",
+        "name": "宮城道雄",
+        "kana": "みやぎみちお",
+        "roman": "Michio Miyagi",
+        "role": "著者",
+        "birthDate": "1894-04-07",
+        "deathDate": "1956-06-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

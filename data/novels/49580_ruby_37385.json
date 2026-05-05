@@ -124,5 +124,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049580",
+    "title": "皇海山紀行",
+    "titleKana": "すかいさんきこう",
+    "sortKana": "すかいさんきこう",
+    "firstAppearance": "「山岳　一六の三」1923（大正12）年5月",
+    "ndc": "NDC 291 786",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-03-13",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001373/card49580.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001373/files/49580_ruby_37385.zip",
+    "textFileId": "49580_ruby_37385",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001373/files/49580_38158.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "山の旅　明治・大正篇",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2003（平成15）年9月17日",
+      "inputEdition": "2004（平成16）年2月14日第3刷",
+      "proofreadEdition": "2004（平成16）年2月14日第3刷"
+    },
+    "author": "木暮理太郎",
+    "authors": [
+      {
+        "personId": "001373",
+        "name": "木暮理太郎",
+        "kana": "こぐれりたろう",
+        "roman": "Ritaro Kogure",
+        "role": "著者",
+        "birthDate": "1873",
+        "deathDate": "1944-05-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

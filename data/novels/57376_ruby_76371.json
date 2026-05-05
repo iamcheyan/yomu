@@ -38,5 +38,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057376",
+    "title": "伊豆伊東",
+    "titleKana": "いずいとう",
+    "sortKana": "いすいとう",
+    "firstAppearance": "「サンデー毎日　第九年第三十五號（日本百景號）」1930（昭和5）年8月3日",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-10-15",
+    "updatedAt": "2022-09-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000120/card57376.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000120/files/57376_ruby_76371.zip",
+    "textFileId": "57376_ruby_76371",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000120/files/57376_76406.html",
+    "inputBy": "浦山敦子",
+    "proofreadBy": "円野",
+    "baseBook1": {
+      "title": "日本随筆紀行第一〇巻　静岡｜山梨　仰ぎ見る富士は永遠",
+      "publisher": "作品社",
+      "firstPublishedAt": "1988（昭和63）年10月10日",
+      "inputEdition": "1988（昭和63）年10月10日第1刷",
+      "proofreadEdition": "1988（昭和63）年10月10日第1刷"
+    },
+    "author": "木下杢太郎",
+    "authors": [
+      {
+        "personId": "000120",
+        "name": "木下杢太郎",
+        "kana": "きのしたもくたろう",
+        "roman": "Mokutaro Kinoshita",
+        "role": "著者",
+        "birthDate": "1885-08-01",
+        "deathDate": "1945-10-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

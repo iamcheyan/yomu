@@ -118,5 +118,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001411",
+    "title": "画の悲み",
+    "titleKana": "えのかなしみ",
+    "sortKana": "えのかなしみ",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-05-28",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000038/card1411.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000038/files/1411_ruby_46.zip",
+    "textFileId": "1411_ruby_46",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000038/files/1411_16038.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "mayu",
+    "baseBook1": {
+      "title": "日本児童文学名作集（上）　桑原三郎・千葉俊二編",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1994（平成6）年2月16日"
+    },
+    "author": "国木田独歩",
+    "authors": [
+      {
+        "personId": "000038",
+        "name": "国木田独歩",
+        "kana": "くにきだどっぽ",
+        "roman": "Doppo Kunikida",
+        "role": "著者",
+        "birthDate": "1871-08-30",
+        "deathDate": "1908-06-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

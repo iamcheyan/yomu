@@ -72,5 +72,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046588",
+    "title": "錬金詐欺",
+    "titleKana": "れんきんさぎ",
+    "sortKana": "れんきんさき",
+    "firstAppearance": "「探偵文藝　第2巻第1号」奎運社、1926（大正15）年1月号",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-12-18",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000262/card46588.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000262/files/46588_ruby_24665.zip",
+    "textFileId": "46588_ruby_24665",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000262/files/46588_25021.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "幻の探偵雑誌5　「探偵文藝」傑作選",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2001（平成13）年2月20日",
+      "inputEdition": "2001（平成13）年2月20日初版1刷",
+      "proofreadEdition": "2001（平成13）年2月20日初版1刷"
+    },
+    "author": "小酒井不木",
+    "authors": [
+      {
+        "personId": "000262",
+        "name": "小酒井不木",
+        "kana": "こざかいふぼく",
+        "roman": "Fuboku Kosakai",
+        "role": "著者",
+        "birthDate": "1890-10-08",
+        "deathDate": "1929-04-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

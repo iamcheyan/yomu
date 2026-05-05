@@ -906,5 +906,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058398",
+    "title": "阿難と呪術師の娘",
+    "titleKana": "あなんとじゅじゅつしのむすめ",
+    "sortKana": "あなんとしゆしゆつしのむすめ",
+    "firstAppearance": "「読売新聞」1928（昭和3）年5月6日～6月19日",
+    "ndc": "NDC 912",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-03-01",
+    "updatedAt": "2021-05-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000076/card58398.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000076/files/58398_ruby_72748.zip",
+    "textFileId": "58398_ruby_72748",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000076/files/58398_72800.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "いとうおちゃ",
+    "baseBook1": {
+      "title": "岡本かの子全集1",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1994（平成6）年1月24日",
+      "inputEdition": "1994（平成6）年1月24日第1刷",
+      "proofreadEdition": "1994（平成6）年1月24日第1刷"
+    },
+    "author": "岡本かの子",
+    "authors": [
+      {
+        "personId": "000076",
+        "name": "岡本かの子",
+        "kana": "おかもとかのこ",
+        "roman": "Kanoko Okamoto",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1939-02-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

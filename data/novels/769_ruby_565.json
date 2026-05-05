@@ -366,5 +366,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000769",
+    "title": "薤露行",
+    "titleKana": "かいろこう",
+    "sortKana": "かいろこう",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-09-20",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000148/card769.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000148/files/769_ruby_565.zip",
+    "textFileId": "769_ruby_565",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000148/files/769_14939.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "藤本篤子",
+    "baseBook1": {
+      "title": "倫敦塔・幻影の盾　他五篇",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1930（昭和5）年12月20日、1990（平成2）年4月16日第23刷改版",
+      "inputEdition": "1997（平成9）年1月16日第29刷"
+    },
+    "author": "夏目漱石",
+    "authors": [
+      {
+        "personId": "000148",
+        "name": "夏目漱石",
+        "kana": "なつめそうせき",
+        "roman": "Soseki Natsume",
+        "role": "著者",
+        "birthDate": "1867-02-09",
+        "deathDate": "1916-12-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

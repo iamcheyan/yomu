@@ -42,5 +42,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056826",
+    "title": "柘榴の花",
+    "titleKana": "ざくろのはな",
+    "sortKana": "さくろのはな",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-02-13",
+    "updatedAt": "2015-01-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001749/card56826.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001749/files/56826_ruby_55588.zip",
+    "textFileId": "56826_ruby_55588",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001749/files/56826_55635.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "花の名随筆7　七月の花",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年6月10日",
+      "inputEdition": "1999（平成11）年6月10日初版第1刷",
+      "proofreadEdition": "1999（平成11）年6月10日初版第1刷"
+    },
+    "author": "三好達治",
+    "authors": [
+      {
+        "personId": "001749",
+        "name": "三好達治",
+        "kana": "みよしたつじ",
+        "roman": "Tatsuji Miyoshi",
+        "role": "著者",
+        "birthDate": "1900-08-23",
+        "deathDate": "1964-04-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

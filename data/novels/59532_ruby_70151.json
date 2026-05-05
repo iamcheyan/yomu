@@ -170,5 +170,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059532",
+    "title": "夏の葬列",
+    "titleKana": "なつのそうれつ",
+    "sortKana": "なつのそうれつ",
+    "firstAppearance": "「ヒッチコック・マガジン　第四巻第九号」宝石社、1962（昭和37）年8月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-02-20",
+    "updatedAt": "2021-06-02",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001801/card59532.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001801/files/59532_ruby_70151.zip",
+    "textFileId": "59532_ruby_70151",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001801/files/59532_70200.html",
+    "inputBy": "kompass",
+    "proofreadBy": "きゅうり",
+    "baseBook1": {
+      "title": "夏の葬列",
+      "publisher": "集英社文庫、集英社",
+      "firstPublishedAt": "1991（平成3）年5月25日",
+      "inputEdition": "1991（平成3）年11月15日第3刷",
+      "proofreadEdition": "1993（平成5）年6月5日第5刷"
+    },
+    "author": "山川方夫",
+    "authors": [
+      {
+        "personId": "001801",
+        "name": "山川方夫",
+        "kana": "やまかわまさお",
+        "roman": "Masao Yamakawa",
+        "role": "著者",
+        "birthDate": "1930-02-25",
+        "deathDate": "1965-02-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

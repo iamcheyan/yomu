@@ -92,5 +92,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051824",
+    "title": "美の国と民芸",
+    "titleKana": "びのくにとみんげい",
+    "sortKana": "ひのくにとみんけい",
+    "ndc": "NDC 750",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-08-08",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001520/card51824.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001520/files/51824_ruby_48019.zip",
+    "textFileId": "51824_ruby_48019",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001520/files/51824_48108.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "民藝とは何か",
+      "publisher": "講談社学術文庫、講談社",
+      "firstPublishedAt": "2006（平成18）年9月10日",
+      "inputEdition": "2009（平成21）年10月27日第5刷",
+      "proofreadEdition": "2011（平成23）年6月20日第7刷"
+    },
+    "author": "柳宗悦",
+    "authors": [
+      {
+        "personId": "001520",
+        "name": "柳宗悦",
+        "kana": "やなぎむねよし",
+        "roman": "Muneyoshi Yanagi",
+        "role": "著者",
+        "birthDate": "1889-03-21",
+        "deathDate": "1961-05-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

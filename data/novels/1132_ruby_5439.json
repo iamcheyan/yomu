@@ -30,5 +30,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001132",
+    "title": "竜村平蔵氏の芸術",
+    "titleKana": "たつむらへいぞうしのげいじゅつ",
+    "sortKana": "たつむらへいそうしのけいしゆつ",
+    "firstAppearance": "「東京日日新聞」1919（大正8）年11月",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-10-05",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000879/card1132.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000879/files/1132_ruby_5439.zip",
+    "textFileId": "1132_ruby_5439",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000879/files/1132_6754.html",
+    "inputBy": "もりみつじゅんじ",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "芥川龍之介全集　第五巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1996（平成8）年3月8日発行",
+      "inputEdition": "1996（平成8）年3月8日発行"
+    },
+    "author": "芥川竜之介",
+    "authors": [
+      {
+        "personId": "000879",
+        "name": "芥川竜之介",
+        "kana": "あくたがわりゅうのすけ",
+        "roman": "Ryunosuke Akutagawa",
+        "role": "著者",
+        "birthDate": "1892-03-01",
+        "deathDate": "1927-07-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

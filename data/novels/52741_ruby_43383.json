@@ -48,5 +48,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052741",
+    "title": "松竹座を見て（延若のこと）",
+    "titleKana": "しょうちくざをみて（えんじゃくのこと）",
+    "sortKana": "しようちくさをみてえんしやくのこと",
+    "firstAppearance": "「新演藝　第九巻第十一号（十一月号）」玄文社、1924（大正13）年11月1日",
+    "ndc": "NDC 775",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-07-25",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000183/card52741.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000183/files/52741_ruby_43383.zip",
+    "textFileId": "52741_ruby_43383",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000183/files/52741_43476.html",
+    "inputBy": "宮元淳一",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "牧野信一全集第二巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2002（平成14）年3月24日",
+      "inputEdition": "2002（平成14）年3月24日初版第1刷"
+    },
+    "author": "牧野信一",
+    "authors": [
+      {
+        "personId": "000183",
+        "name": "牧野信一",
+        "kana": "まきのしんいち",
+        "roman": "Shin'ichi Makino",
+        "role": "著者",
+        "birthDate": "1896-11-12",
+        "deathDate": "1936-03-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

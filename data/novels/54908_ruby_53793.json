@@ -118,5 +118,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054908",
+    "title": "金解禁前後の経済事情",
+    "titleKana": "きんかいきんぜんごのけいざいじじょう",
+    "sortKana": "きんかいきんせんこのけいさいししよう",
+    "ndc": "NDC 337",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-07-26",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001595/card54908.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001595/files/54908_ruby_53793.zip",
+    "textFileId": "54908_ruby_53793",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001595/files/54908_53834.html",
+    "inputBy": "田辺浩昭",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "金解禁前後の経済事情",
+      "publisher": "不明",
+      "firstPublishedAt": "1930（昭和5）年1月11日",
+      "inputEdition": "1930（昭和5）年1月11日",
+      "proofreadEdition": "1930（昭和5）年1月11日"
+    },
+    "author": "井上準之助",
+    "authors": [
+      {
+        "personId": "001595",
+        "name": "井上準之助",
+        "kana": "いのうえじゅんのすけ",
+        "roman": "Junnosuke Inoue",
+        "role": "著者",
+        "birthDate": "1869-05-06",
+        "deathDate": "1932-02-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

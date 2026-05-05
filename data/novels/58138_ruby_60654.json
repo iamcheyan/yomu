@@ -104,5 +104,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058138",
+    "title": "枕物狂",
+    "titleKana": "まくらものぐるい",
+    "sortKana": "まくらものくるい",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-01-01",
+    "updatedAt": "2017-01-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001911/card58138.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001911/files/58138_ruby_60654.zip",
+    "textFileId": "58138_ruby_60654",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001911/files/58138_60655.html",
+    "inputBy": "富田晶子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻55　恋心",
+      "publisher": "作品社",
+      "firstPublishedAt": "1995（平成7）年9月25日",
+      "inputEdition": "1995（平成7）年9月25日第1刷",
+      "proofreadEdition": "1995（平成7）年9月25日第1刷"
+    },
+    "author": "川田順",
+    "authors": [
+      {
+        "personId": "001911",
+        "name": "川田順",
+        "kana": "かわだじゅん",
+        "roman": "Jun Kawada",
+        "role": "著者",
+        "birthDate": "1882-01-15",
+        "deathDate": "1966-01-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

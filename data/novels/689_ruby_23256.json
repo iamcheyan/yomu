@@ -472,5 +472,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000689",
+    "title": "山椒大夫",
+    "titleKana": "さんしょうだゆう",
+    "sortKana": "さんしようたゆう",
+    "firstAppearance": "「中央公論」1915（大正4）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-07-21",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card689.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/689_ruby_23256.zip",
+    "textFileId": "689_ruby_23256",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/689_23257.html",
+    "inputBy": "真先芳秋",
+    "proofreadBy": "野口英司",
+    "baseBook1": {
+      "title": "日本の文学　3　森鴎外（二）",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1972（昭和47）年10月20日"
+    },
+    "author": "森鴎外",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

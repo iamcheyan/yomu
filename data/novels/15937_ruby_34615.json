@@ -158,5 +158,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "015937",
+    "title": "「平家物語」ぬきほ（言文一致訳）",
+    "titleKana": "「へいけものがたり」ぬきほ（げんぶんいっちやく）",
+    "sortKana": "へいけものかたりぬきほけんふんいつちやく",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-05-20",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001529/card15937.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001529/files/15937_ruby_34615.zip",
+    "textFileId": "15937_ruby_34615",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001529/files/15937_35058.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "宮本百合子全集　第二十八巻",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1981（昭和56）年11月25日初版",
+      "inputEdition": "1986（昭和61）年3月20日第6刷",
+      "proofreadEdition": "1986（昭和61）年3月20日第6刷"
+    },
+    "author": "作者不詳",
+    "authors": [
+      {
+        "personId": "001529",
+        "name": "作者不詳",
+        "kana": "さくしゃふしょう",
+        "roman": "Sakushafusho",
+        "role": "著者",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

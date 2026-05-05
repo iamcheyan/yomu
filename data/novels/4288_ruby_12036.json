@@ -118,5 +118,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004288",
+    "title": "日本天変地異記",
+    "titleKana": "にほんてんぺんちいき",
+    "sortKana": "にほんてんへんちいき",
+    "ndc": "NDC 210 453",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-09-01",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000154/card4288.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000154/files/4288_ruby_12036.zip",
+    "textFileId": "4288_ruby_12036",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000154/files/4288_12095.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "貢太郎見聞録",
+      "publisher": "中公文庫、中央公論社",
+      "firstPublishedAt": "1982（昭和57）年6月10日",
+      "inputEdition": "1982（昭和57）年6月10日発行",
+      "proofreadEdition": "1982（昭和57）年6月10日発行"
+    },
+    "author": "田中貢太郎",
+    "authors": [
+      {
+        "personId": "000154",
+        "name": "田中貢太郎",
+        "kana": "たなかこうたろう",
+        "roman": "Kotaro Tanaka",
+        "role": "著者",
+        "birthDate": "1880-03-02",
+        "deathDate": "1941-02-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

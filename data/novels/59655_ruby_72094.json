@@ -76,5 +76,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059655",
+    "title": "河豚のこと",
+    "titleKana": "ふぐのこと",
+    "sortKana": "ふくのこと",
+    "firstAppearance": "「星岡　二十七号」星岡窯研究所、1933（昭和8）年2月",
+    "ndc": "NDC 596",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-11-27",
+    "updatedAt": "2020-10-31",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001403/card59655.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001403/files/59655_ruby_72094.zip",
+    "textFileId": "59655_ruby_72094",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001403/files/59655_72135.html",
+    "inputBy": "江村秀之",
+    "proofreadBy": "栗田美恵子",
+    "baseBook1": {
+      "title": "春夏秋冬　料理王国",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2010（平成22）年1月10日",
+      "inputEdition": "2010（平成22）年1月10日第1刷",
+      "proofreadEdition": "2010（平成22）年1月10日第1刷"
+    },
+    "author": "北大路魯山人",
+    "authors": [
+      {
+        "personId": "001403",
+        "name": "北大路魯山人",
+        "kana": "きたおおじろさんじん",
+        "roman": "Rosanjin Kitaoji",
+        "role": "著者",
+        "birthDate": "1883-03-23",
+        "deathDate": "1959-12-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

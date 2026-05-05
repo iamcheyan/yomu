@@ -128,5 +128,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "013206",
+    "title": "万葉集に現れた古代信仰",
+    "titleKana": "まんようしゅうにあらわれたこだいしんこう",
+    "sortKana": "まんようしゆうにあらわれたこたいしんこう",
+    "subtitle": "――たまの問題――",
+    "subtitleKana": "――たまのもんだい――",
+    "ndc": "NDC 901",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-01-29",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card13206.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/13206_ruby_14183.zip",
+    "textFileId": "13206_ruby_14183",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/13206_14238.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "日本の名随筆62　万葉（二）",
+      "publisher": "作品社",
+      "firstPublishedAt": "1987（昭和62）年12月25日",
+      "inputEdition": "1996（平成8）年10月30日第8刷"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

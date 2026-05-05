@@ -42,5 +42,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000901",
+    "title": "余が言文一致の由来",
+    "titleKana": "よがげんぶんいっちのゆらい",
+    "sortKana": "よかけんふんいつちのゆらい",
+    "ndc": "NDC 901",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1997-07-07",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000006/card901.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000006/files/901_ruby_16058.zip",
+    "textFileId": "901_ruby_16058",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000006/files/901_16059.html",
+    "inputBy": "岡島昭浩",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "二葉亭四迷全集第五卷",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1938（昭和13）年1月15日",
+      "inputEdition": "1938（昭和13）年1月15日",
+      "proofreadEdition": "1938（昭和13）年1月15日"
+    },
+    "author": "二葉亭四迷",
+    "authors": [
+      {
+        "personId": "000006",
+        "name": "二葉亭四迷",
+        "kana": "ふたばていしめい",
+        "roman": "Shimei Futabatei",
+        "role": "著者",
+        "birthDate": "1864-04-04",
+        "deathDate": "1909-05-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -34,5 +34,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045671",
+    "title": "無趣味",
+    "titleKana": "むしゅみ",
+    "sortKana": "むしゆみ",
+    "firstAppearance": "「新潮　第三十七年第三号」1940（昭和15）年3月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-02-18",
+    "updatedAt": "2016-07-12",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card45671.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/45671_ruby_20800.zip",
+    "textFileId": "45671_ruby_20800",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/45671_21430.html",
+    "inputBy": "増山一光",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "太宰治全集10",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1989（平成元）年6月27日",
+      "inputEdition": "1998（平成10）年6月15日第4刷",
+      "proofreadEdition": "1989（平成元）年6月27日第1刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

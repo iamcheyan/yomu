@@ -330,5 +330,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001919",
+    "title": "黄いろのトマト",
+    "titleKana": "きいろのトマト",
+    "sortKana": "きいろのとまと",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-04-19",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card1919.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/1919_ruby_17998.zip",
+    "textFileId": "1919_ruby_17998",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/1919_18095.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "新編　銀河鉄道の夜",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1989（平成元）年6月15日",
+      "inputEdition": "1994（平成6）年6月5日13刷",
+      "proofreadEdition": "2004（平成16）年5月20日第36刷"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -1178,5 +1178,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055329",
+    "title": "蒼白き巣窟",
+    "titleKana": "あおじろきそうくつ",
+    "sortKana": "あおしろきそうくつ",
+    "firstAppearance": "「雄辯　第十一巻第三号」講談社、1920（大正9）年3月号",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-08-15",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001579/card55329.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001579/files/55329_ruby_50746.zip",
+    "textFileId": "55329_ruby_50746",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001579/files/55329_50959.html",
+    "inputBy": "磯貝まこと",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "蒼白き巣窟",
+      "publisher": "冬樹社",
+      "firstPublishedAt": "1977（昭和52）年5月15日",
+      "inputEdition": "1977（昭和52）年5月15日",
+      "proofreadEdition": "1977（昭和52）年8月5日第2刷"
+    },
+    "author": "室生犀星",
+    "authors": [
+      {
+        "personId": "001579",
+        "name": "室生犀星",
+        "kana": "むろうさいせい",
+        "roman": "Saisei Murou",
+        "role": "著者",
+        "birthDate": "1889-08-01",
+        "deathDate": "1962-03-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

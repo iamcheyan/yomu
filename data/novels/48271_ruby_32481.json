@@ -40,5 +40,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048271",
+    "title": "川魚料理",
+    "titleKana": "かわうおりょうり",
+    "sortKana": "かわうおりようり",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-09-10",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000237/card48271.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000237/files/48271_ruby_32481.zip",
+    "textFileId": "48271_ruby_32481",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000237/files/48271_32482.html",
+    "inputBy": "Ｈ．ＹＡＭ",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "桂月全集　第二卷　紀行一",
+      "publisher": "興文社内桂月全集刊行會",
+      "firstPublishedAt": "1922（大正11）年7月9日",
+      "inputEdition": "1922（大正11）年7月9日",
+      "proofreadEdition": "1926（大正15）年2月27日第2版"
+    },
+    "author": "大町桂月",
+    "authors": [
+      {
+        "personId": "000237",
+        "name": "大町桂月",
+        "kana": "おおまちけいげつ",
+        "roman": "Keigetsu Omachi",
+        "role": "著者",
+        "birthDate": "1869-03-06",
+        "deathDate": "1925-06-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

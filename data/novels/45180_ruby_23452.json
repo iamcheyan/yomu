@@ -390,5 +390,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045180",
+    "title": "星の女",
+    "titleKana": "ほしのおんな",
+    "sortKana": "ほしのおんな",
+    "firstAppearance": "「星の女　世界童話集第三編」1917（大正6）年8月",
+    "ndc": "NDC K913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-08-29",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000107/card45180.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000107/files/45180_ruby_23452.zip",
+    "textFileId": "45180_ruby_23452",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000107/files/45180_23820.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "日本児童文学大系　第一〇巻",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1978（昭和53）年11月30日",
+      "inputEdition": "1978（昭和53）年11月30日初刷",
+      "proofreadEdition": "1978（昭和53）年11月30日初刷"
+    },
+    "author": "鈴木三重吉",
+    "authors": [
+      {
+        "personId": "000107",
+        "name": "鈴木三重吉",
+        "kana": "すずきみえきち",
+        "roman": "Miekichi Suzuki",
+        "role": "著者",
+        "birthDate": "1882-09-29",
+        "deathDate": "1936-06-27",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

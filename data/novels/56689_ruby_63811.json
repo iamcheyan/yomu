@@ -2764,5 +2764,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056689",
+    "title": "電人Ｍ",
+    "titleKana": "でんじんエム",
+    "sortKana": "てんしんえむ",
+    "firstAppearance": "「少年」光文社、1960（昭和35）年1月号～12月号",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-02-17",
+    "updatedAt": "2018-01-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001779/card56689.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001779/files/56689_ruby_63811.zip",
+    "textFileId": "56689_ruby_63811",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001779/files/56689_63891.html",
+    "inputBy": "sogo",
+    "proofreadBy": "茅宮君子",
+    "baseBook1": {
+      "title": "仮面の恐怖王／電人Ｍ",
+      "publisher": "江戸川乱歩推理文庫、講談社",
+      "firstPublishedAt": "1988（昭和63）年8月8日",
+      "inputEdition": "1988（昭和63）年8月8日第1刷",
+      "proofreadEdition": "1988（昭和63）年8月8日第1刷"
+    },
+    "author": "江戸川乱歩",
+    "authors": [
+      {
+        "personId": "001779",
+        "name": "江戸川乱歩",
+        "kana": "えどがわらんぽ",
+        "roman": "Ranpo Edogawa",
+        "role": "著者",
+        "birthDate": "1894-10-21",
+        "deathDate": "1965-07-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

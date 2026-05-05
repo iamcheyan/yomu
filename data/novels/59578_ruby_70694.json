@@ -60,5 +60,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059578",
+    "title": "郭公のおとずれ",
+    "titleKana": "かっこうのおとずれ",
+    "sortKana": "かつこうのおとすれ",
+    "firstAppearance": "「婦人公論」1940（昭和15）年6月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-04-11",
+    "updatedAt": "2020-03-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card59578.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/59578_ruby_70694.zip",
+    "textFileId": "59578_ruby_70694",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/59578_70746.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "室瀬皆実",
+    "baseBook1": {
+      "title": "中谷宇吉郎随筆選集第一巻",
+      "publisher": "朝日新聞社",
+      "firstPublishedAt": "1966（昭和41）年6月20日",
+      "inputEdition": "1966（昭和41）年6月20日",
+      "proofreadEdition": "1966（昭和41）年6月20日"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

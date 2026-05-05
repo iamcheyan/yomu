@@ -488,5 +488,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001459",
+    "title": "闘争",
+    "titleKana": "とうそう",
+    "sortKana": "とうそう",
+    "firstAppearance": "「新青年」1929（昭和4）年5月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-12-22",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000262/card1459.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000262/files/1459_ruby_19474.zip",
+    "textFileId": "1459_ruby_19474",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000262/files/1459_20558.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "日本探偵小説全集1　黒岩涙香　小酒井不木　甲賀三郎集",
+      "publisher": "創元推理文庫、東京創元社",
+      "firstPublishedAt": "1984（昭和59）年12月21日",
+      "inputEdition": "1996（平成8）年8月2日8版",
+      "proofreadEdition": "1994（平成6）年3月4日7版"
+    },
+    "author": "小酒井不木",
+    "authors": [
+      {
+        "personId": "000262",
+        "name": "小酒井不木",
+        "kana": "こざかいふぼく",
+        "roman": "Fuboku Kosakai",
+        "role": "著者",
+        "birthDate": "1890-10-08",
+        "deathDate": "1929-04-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

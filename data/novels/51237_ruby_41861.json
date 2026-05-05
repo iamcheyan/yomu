@@ -34,5 +34,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051237",
+    "title": "黒足袋",
+    "titleKana": "くろたび",
+    "sortKana": "くろたひ",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-01-03",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001497/card51237.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001497/files/51237_ruby_41861.zip",
+    "textFileId": "51237_ruby_41861",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001497/files/51237_41905.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆38　装",
+      "publisher": "作品社",
+      "firstPublishedAt": "1985（昭和60）年12月25日",
+      "inputEdition": "1999（平成11）年10月20日第13刷",
+      "proofreadEdition": "1999（平成11）年10月20日第13刷"
+    },
+    "author": "吉井勇",
+    "authors": [
+      {
+        "personId": "001497",
+        "name": "吉井勇",
+        "kana": "よしいいさむ",
+        "roman": "Isamu Yoshii",
+        "role": "著者",
+        "birthDate": "1886-10-08",
+        "deathDate": "1960-11-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

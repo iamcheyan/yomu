@@ -160,5 +160,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047353",
+    "title": "養生の心得",
+    "titleKana": "ようじょうのこころえ",
+    "sortKana": "ようしようのこころえ",
+    "ndc": "NDC 498",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-06-07",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000296/card47353.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000296/files/47353_ruby_42675.zip",
+    "textFileId": "47353_ruby_42675",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000296/files/47353_42899.html",
+    "inputBy": "田中哲郎",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "福澤諭吉全集　第20卷",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1963（昭和38）年6月5日",
+      "inputEdition": "1971（昭和46）年5月13日再版",
+      "proofreadEdition": "1963（昭和38）年6月5日"
+    },
+    "author": "福沢諭吉",
+    "authors": [
+      {
+        "personId": "000296",
+        "name": "福沢諭吉",
+        "kana": "ふくざわゆきち",
+        "roman": "Yukichi Fukuzawa",
+        "role": "著者",
+        "birthDate": "1835-01-10",
+        "deathDate": "1901-02-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

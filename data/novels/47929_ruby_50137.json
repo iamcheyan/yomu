@@ -78,5 +78,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047929",
+    "title": "日時計の天使",
+    "titleKana": "ひどけいのてんし",
+    "sortKana": "ひとけいのてんし",
+    "firstAppearance": "「文藝　第三巻第四号」1935（昭和10）年4月号",
+    "ndc": "NDC 945",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-05-22",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001030/card47929.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001030/files/47929_ruby_50137.zip",
+    "textFileId": "47929_ruby_50137",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001030/files/47929_50596.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "堀辰雄作品集第五卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1982（昭和57）年9月30日",
+      "inputEdition": "1982（昭和57）年9月30日初版第1刷",
+      "proofreadEdition": "1982（昭和57）年9月30日初版第1刷"
+    },
+    "author": "堀辰雄",
+    "authors": [
+      {
+        "personId": "001030",
+        "name": "堀辰雄",
+        "kana": "ほりたつお",
+        "roman": "Tatsuo Hori",
+        "role": "著者",
+        "birthDate": "1904-12-28",
+        "deathDate": "1953-05-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -238,5 +238,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000683",
+    "title": "妄想",
+    "titleKana": "もうそう",
+    "sortKana": "もうそう",
+    "firstAppearance": "「三田文学」1911（明治44）年3月、4月",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-05-16",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card683.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/683_ruby_23193.zip",
+    "textFileId": "683_ruby_23193",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/683_23194.html",
+    "inputBy": "伊藤弘道",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "日本文学全集4　森鴎外集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1970（昭和45）年11月1日"
+    },
+    "author": "森鴎外",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

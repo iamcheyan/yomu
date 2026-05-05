@@ -64,5 +64,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058006",
+    "title": "触覚について",
+    "titleKana": "しょっかくについて",
+    "sortKana": "しよつかくについて",
+    "firstAppearance": "「水の変態」宝文館、1956（昭和31）年",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-06-25",
+    "updatedAt": "2017-04-03",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001288/card58006.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001288/files/58006_ruby_61563.zip",
+    "textFileId": "58006_ruby_61563",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001288/files/58006_61602.html",
+    "inputBy": "法川利夫",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "日本近代随筆選　1出会いの時〔全3冊〕",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2016（平成28）年4月15日",
+      "inputEdition": "2016（平成28）年4月15日第1刷",
+      "proofreadEdition": "2016（平成28）年6月15日第2刷"
+    },
+    "author": "宮城道雄",
+    "authors": [
+      {
+        "personId": "001288",
+        "name": "宮城道雄",
+        "kana": "みやぎみちお",
+        "roman": "Michio Miyagi",
+        "role": "著者",
+        "birthDate": "1894-04-07",
+        "deathDate": "1956-06-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

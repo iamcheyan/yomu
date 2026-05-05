@@ -272,5 +272,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002118",
+    "title": "継子",
+    "titleKana": "ままこ",
+    "sortKana": "ままこ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-12-29",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000096/card2118.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000096/files/2118_ruby_21865.zip",
+    "textFileId": "2118_ruby_21865",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000096/files/2118_21866.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "mineko",
+    "baseBook1": {
+      "title": "夢野久作全集10",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1992（平成4）年10月22日",
+      "proofreadEdition": "1998（平成10）年1月20日第2刷"
+    },
+    "author": "夢野久作",
+    "authors": [
+      {
+        "personId": "000096",
+        "name": "夢野久作",
+        "kana": "ゆめのきゅうさく",
+        "roman": "Kyusaku Yumeno",
+        "role": "著者",
+        "birthDate": "1889-01-04",
+        "deathDate": "1936-03-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -106,5 +106,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057440",
+    "title": "正岡子規君",
+    "titleKana": "まさおかしきくん",
+    "sortKana": "まさおかしきくん",
+    "firstAppearance": "「日本」日本新聞社、1902（明治35）年9月27日、10月3日、10月4日",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-10-14",
+    "updatedAt": "2019-09-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000058/card57440.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000058/files/57440_ruby_69279.zip",
+    "textFileId": "57440_ruby_69279",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000058/files/57440_69331.html",
+    "inputBy": "高瀬竜一",
+    "proofreadBy": "きりんの手紙",
+    "baseBook1": {
+      "title": "正岡子規",
+      "publisher": "KAWADE道の手帖、河出書房新社",
+      "firstPublishedAt": "2010（平成22）年10月30日",
+      "inputEdition": "2010（平成22）年10月30日初版",
+      "proofreadEdition": "2010（平成22）年10月30日初版"
+    },
+    "author": "伊藤左千夫",
+    "authors": [
+      {
+        "personId": "000058",
+        "name": "伊藤左千夫",
+        "kana": "いとうさちお",
+        "roman": "Sachio Ito",
+        "role": "著者",
+        "birthDate": "1864-09-18",
+        "deathDate": "1913-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

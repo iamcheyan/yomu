@@ -40,5 +40,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001194",
+    "title": "一つの世界",
+    "titleKana": "ひとつのせかい",
+    "sortKana": "ひとつのせかい",
+    "subtitle": "――私信――",
+    "subtitleKana": "――ししん――",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-05-27",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000231/card1194.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000231/files/1194_ruby_29780.zip",
+    "textFileId": "1194_ruby_29780",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000231/files/1194_31197.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "現代日本思想大系　14　芸術の思想",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1964（昭和39）年8月15日",
+      "inputEdition": "1964（昭和39）年8月15日",
+      "proofreadEdition": "1964（昭和39）年8月15日"
+    },
+    "author": "伊丹万作",
+    "authors": [
+      {
+        "personId": "000231",
+        "name": "伊丹万作",
+        "kana": "いたみまんさく",
+        "roman": "Mansaku Itami",
+        "role": "著者",
+        "birthDate": "1900-01-02",
+        "deathDate": "1946-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

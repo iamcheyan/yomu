@@ -52,5 +52,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049908",
+    "title": "文楽座の人形芝居",
+    "titleKana": "ぶんらくざのにんぎょうしばい",
+    "sortKana": "ふんらくさのにんきようしはい",
+    "firstAppearance": "「思想」1935（昭和10）年8月号",
+    "ndc": "NDC 121 777",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-01-12",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001395/card49908.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001395/files/49908_ruby_41881.zip",
+    "textFileId": "49908_ruby_41881",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001395/files/49908_41925.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "米田",
+    "baseBook1": {
+      "title": "和辻哲郎随筆集",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1995（平成7）年9月18日",
+      "inputEdition": "2006（平成18）年11月22日第6刷",
+      "proofreadEdition": "1995（平成7）年9月18日第1刷"
+    },
+    "author": "和辻哲郎",
+    "authors": [
+      {
+        "personId": "001395",
+        "name": "和辻哲郎",
+        "kana": "わつじてつろう",
+        "roman": "Tetsuro Watsuji",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1960-12-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

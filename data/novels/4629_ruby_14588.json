@@ -38,5 +38,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004629",
+    "title": "霧ヶ峰から鷲ヶ峰へ",
+    "titleKana": "きりがみねからわしがみねへ",
+    "sortKana": "きりかみねからわしかみねへ",
+    "firstAppearance": "「東京日日新聞」1934（昭和9）年9月26～27日",
+    "ndc": "NDC 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-03-31",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000023/card4629.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000023/files/4629_ruby_14588.zip",
+    "textFileId": "4629_ruby_14588",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000023/files/4629_14863.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "現代日本紀行文学全集　中部日本編",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1976（昭和51）年8月1日",
+      "inputEdition": "1976（昭和51）年8月1日初版",
+      "proofreadEdition": "1983（昭和58）年12月1日第4刷"
+    },
+    "author": "徳田秋声",
+    "authors": [
+      {
+        "personId": "000023",
+        "name": "徳田秋声",
+        "kana": "とくだしゅうせい",
+        "roman": "Shusei Tokuda",
+        "role": "著者",
+        "birthDate": "1872-02-01",
+        "deathDate": "1943-11-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

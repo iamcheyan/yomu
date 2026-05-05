@@ -144,5 +144,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004855",
+    "title": "幼き日",
+    "titleKana": "おさなきひ",
+    "sortKana": "おさなきひ",
+    "subtitle": "（ある婦人に与ふる手紙）",
+    "subtitleKana": "（あるふじんにあたうるてがみ）",
+    "firstAppearance": "「婦人畫報」1912（明治45）年5月～1913（大正2）年4月",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-09-05",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000158/card4855.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000158/files/4855_ruby_16253.zip",
+    "textFileId": "4855_ruby_16253",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000158/files/4855_16309.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "藤村全集第五卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1967（昭和42）年3月10日",
+      "inputEdition": "1978（昭和53）年8月30日愛蔵版"
+    },
+    "author": "島崎藤村",
+    "authors": [
+      {
+        "personId": "000158",
+        "name": "島崎藤村",
+        "kana": "しまざきとうそん",
+        "roman": "Toson Shimazaki",
+        "role": "著者",
+        "birthDate": "1872-03-25",
+        "deathDate": "1943-08-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

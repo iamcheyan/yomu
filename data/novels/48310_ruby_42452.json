@@ -582,5 +582,43 @@
       }
     ]
   ],
-  "desc": "日本最古の物語。かぐや姫の伝説。"
+  "desc": "日本最古の物語。かぐや姫の伝説。",
+  "aozora_info": {
+    "workId": "048310",
+    "title": "竹取物語",
+    "titleKana": "たけとりものがたり",
+    "sortKana": "たけとりものかたり",
+    "ndc": "NDC K913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-05-08",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001072/card48310.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001072/files/48310_ruby_42452.zip",
+    "textFileId": "48310_ruby_42452",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001072/files/48310_42692.html",
+    "inputBy": "しだひろし",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "竹取物語・今昔物語・謠曲物語",
+      "publisher": "復刻版日本兒童文庫、名著普及会",
+      "firstPublishedAt": "1981（昭和56）年8月20日",
+      "inputEdition": "1981（昭和56）年8月20日",
+      "proofreadEdition": "1981（昭和56）年8月20日"
+    },
+    "author": "和田万吉",
+    "authors": [
+      {
+        "personId": "001072",
+        "name": "和田万吉",
+        "kana": "わだまんきち",
+        "roman": "Mankichi Wada",
+        "role": "著者",
+        "birthDate": "1865-10-07",
+        "deathDate": "1934-11-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

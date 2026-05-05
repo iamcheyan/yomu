@@ -2690,5 +2690,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059083",
+    "title": "駱駝の瘤にまたがつて",
+    "titleKana": "らくだのこぶにまたがって",
+    "sortKana": "らくたのこふにまたかつて",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-08-23",
+    "updatedAt": "2020-07-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001749/card59083.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001749/files/59083_ruby_71421.zip",
+    "textFileId": "59083_ruby_71421",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001749/files/59083_71470.html",
+    "inputBy": "榎木",
+    "proofreadBy": "尚乃",
+    "baseBook1": {
+      "title": "三好達治全集第三卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1965（昭和40）年12月10日",
+      "inputEdition": "1965（昭和40）年12月10日",
+      "proofreadEdition": "1976（昭和51）年10月10日第2刷"
+    },
+    "author": "三好達治",
+    "authors": [
+      {
+        "personId": "001749",
+        "name": "三好達治",
+        "kana": "みよしたつじ",
+        "roman": "Tatsuji Miyoshi",
+        "role": "著者",
+        "birthDate": "1900-08-23",
+        "deathDate": "1964-04-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

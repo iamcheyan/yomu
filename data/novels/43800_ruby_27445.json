@@ -286,5 +286,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043800",
+    "title": "石塀幽霊",
+    "titleKana": "いしべいゆうれい",
+    "sortKana": "いしへいゆうれい",
+    "firstAppearance": "「新青年」1935（昭和10）年7月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-08-31",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000236/card43800.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000236/files/43800_ruby_27445.zip",
+    "textFileId": "43800_ruby_27445",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000236/files/43800_27757.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "大阪のたねまろ",
+    "baseBook1": {
+      "title": "とむらい機関車",
+      "publisher": "創元推理文庫、東京創元社",
+      "firstPublishedAt": "2001（平成13）年10月26日",
+      "inputEdition": "2001（平成13）年10月26日初版",
+      "proofreadEdition": "2001（平成13）年10月26日初版"
+    },
+    "author": "大阪圭吉",
+    "authors": [
+      {
+        "personId": "000236",
+        "name": "大阪圭吉",
+        "kana": "おおさかけいきち",
+        "roman": "Keikichi Osaka",
+        "role": "著者",
+        "birthDate": "1912-03-20",
+        "deathDate": "1945-07-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

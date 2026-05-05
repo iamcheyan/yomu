@@ -784,5 +784,36 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057321",
+    "title": "朝に想い、夜に省みる",
+    "titleKana": "あさにおもい、よるにかえりみる",
+    "sortKana": "あさにおもいよるにかえりみる",
+    "originalTitle": "MORNING AND EVENING THOUGHTS",
+    "ndc": "NDC 159",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2015-11-28",
+    "updatedAt": "2015-11-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001842/card57321.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001842/files/57321_ruby_57758.zip",
+    "textFileId": "57321_ruby_57758",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001842/files/57321_57759.html",
+    "inputBy": "大久保ゆう",
+    "author": "アレンジェームズ",
+    "authors": [
+      {
+        "personId": "001842",
+        "name": "アレンジェームズ",
+        "kana": "アレンジェームズ",
+        "roman": "James Allen",
+        "role": "著者",
+        "birthDate": "1864-11-28",
+        "deathDate": "1912-01-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

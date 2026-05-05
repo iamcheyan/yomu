@@ -42,5 +42,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054367",
+    "title": "知的作用と感情と",
+    "titleKana": "ちてきさようとかんじょうと",
+    "sortKana": "ちてきさようとかんしようと",
+    "firstAppearance": "「井上先生喜壽記念文集」冨山房、1931（昭和6）年12月15日",
+    "ndc": "NDC 141",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-08-06",
+    "updatedAt": "2019-07-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001661/card54367.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001661/files/54367_ruby_68698.zip",
+    "textFileId": "54367_ruby_68698",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001661/files/54367_68747.html",
+    "inputBy": "岩澤秀紀",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "井上先生喜壽記念文集",
+      "publisher": "冨山房",
+      "firstPublishedAt": "1931（昭和6）年12月15日",
+      "inputEdition": "1931（昭和6）年12月15日",
+      "proofreadEdition": "1931（昭和6）年12月15日"
+    },
+    "author": "増田惟茂",
+    "authors": [
+      {
+        "personId": "001661",
+        "name": "増田惟茂",
+        "kana": "ますだこれしげ",
+        "roman": "Koreshige Masuda",
+        "role": "著者",
+        "birthDate": "1883-12-29",
+        "deathDate": "1933-08-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

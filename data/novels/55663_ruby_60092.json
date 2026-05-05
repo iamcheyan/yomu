@@ -84,5 +84,51 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055663",
+    "title": "花ごもり",
+    "titleKana": "はなごもり",
+    "sortKana": "はなこもり",
+    "firstAppearance": "其一～其四「文學界　第十四號」文學界社雜誌社、1894（明治27）年2月28日<br>其五～其七「文學界　第十六號」文學界社雜誌社、1894（明治27）年4月30日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-11-23",
+    "updatedAt": "2016-11-23",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000064/card55663.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000064/files/55663_ruby_60092.zip",
+    "textFileId": "55663_ruby_60092",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000064/files/55663_60138.html",
+    "inputBy": "万波通彦",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "文學界　第十四號",
+      "publisher": "文學界社雜誌社",
+      "firstPublishedAt": "1894（明治27）年2月28日",
+      "inputEdition": "1894（明治27）年2月28日",
+      "proofreadEdition": "1894（明治27）年2月28日"
+    },
+    "baseBook2": {
+      "title": "文學界　第十六號",
+      "publisher": "文學界社雜誌社",
+      "firstPublishedAt": "1894（明治27）年4月30日",
+      "inputEdition": "1894（明治27）年4月30日",
+      "proofreadEdition": "1894（明治27）年4月30日"
+    },
+    "author": "樋口一葉",
+    "authors": [
+      {
+        "personId": "000064",
+        "name": "樋口一葉",
+        "kana": "ひぐちいちよう",
+        "roman": "Ichiyo Higuchi",
+        "role": "著者",
+        "birthDate": "1872-05-02",
+        "deathDate": "1896-11-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

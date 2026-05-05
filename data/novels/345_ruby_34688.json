@@ -72,5 +72,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000345",
+    "title": "新種族ノラ",
+    "titleKana": "しんしゅぞくノラ",
+    "sortKana": "しんしゆそくのら",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-06-07",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000043/card345.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000043/files/345_ruby_34688.zip",
+    "textFileId": "345_ruby_34688",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000043/files/345_34689.html",
+    "inputBy": "霊鷲類子、宮脇叔恵",
+    "proofreadBy": "大野晋",
+    "baseBook1": {
+      "title": "吉行エイスケ作品集",
+      "publisher": "文園社",
+      "firstPublishedAt": "1997（平成9）年7月10日",
+      "inputEdition": "1997（平成9）年7月18日第2刷"
+    },
+    "author": "吉行エイスケ",
+    "authors": [
+      {
+        "personId": "000043",
+        "name": "吉行エイスケ",
+        "kana": "よしゆきえいすけ",
+        "roman": "Eisuke Yoshiyuki",
+        "role": "著者",
+        "birthDate": "1906-05-10",
+        "deathDate": "1940-07-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

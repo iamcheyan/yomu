@@ -266,5 +266,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000270",
+    "title": "富嶽百景",
+    "titleKana": "ふがくひゃっけい",
+    "sortKana": "ふかくひやつけい",
+    "firstAppearance": "「文体」1939（昭和14）年2、3月",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-01-09",
+    "updatedAt": "2020-12-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card270.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/270_ruby_1164.zip",
+    "textFileId": "270_ruby_1164",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/270_14914.html",
+    "inputBy": "網迫",
+    "proofreadBy": "割子田数哉",
+    "baseBook1": {
+      "title": "筑摩現代文学大系　59　太宰治集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1975（昭和50）年9月20日"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -430,5 +430,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059830",
+    "title": "赤いステッキ",
+    "titleKana": "あかいステッキ",
+    "sortKana": "あかいすてつき",
+    "firstAppearance": "「中央公論」1940（昭和15）年2月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-08-05",
+    "updatedAt": "2020-07-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001875/card59830.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001875/files/59830_ruby_71393.zip",
+    "textFileId": "59830_ruby_71393",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001875/files/59830_71442.html",
+    "inputBy": "芝裕久",
+    "proofreadBy": "koharubiyori",
+    "baseBook1": {
+      "title": "日本文学全集76　壺井栄　芝木好子集",
+      "publisher": "集英社",
+      "firstPublishedAt": "1973（昭和48）年11月8日",
+      "inputEdition": "1973（昭和48）年11月8日",
+      "proofreadEdition": "1976（昭和51）年10月15日第3版"
+    },
+    "author": "壺井栄",
+    "authors": [
+      {
+        "personId": "001875",
+        "name": "壺井栄",
+        "kana": "つぼいさかえ",
+        "roman": "Sakae Tsuboi",
+        "role": "著者",
+        "birthDate": "1899-08-05",
+        "deathDate": "1967-06-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

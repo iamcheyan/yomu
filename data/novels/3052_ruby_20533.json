@@ -2646,5 +2646,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003052",
+    "title": "地獄の使者",
+    "titleKana": "じごくのししゃ",
+    "sortKana": "しこくのししや",
+    "firstAppearance": "「自警」1947（昭和22）年1月～1948（昭和23）年1月（5、6、11月は欠）",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-01-22",
+    "updatedAt": "2019-01-14",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card3052.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/3052_ruby_20533.zip",
+    "textFileId": "3052_ruby_20533",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/3052_20670.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "kazuishi",
+    "baseBook1": {
+      "title": "海野十三全集　第11巻　四次元漂流",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1988（昭和63）年12月15日",
+      "inputEdition": "1988（昭和63）年12月15日第1版第1刷",
+      "proofreadEdition": "1988（昭和63）年12月15日第1版第1刷"
+    },
+    "author": "海野十三",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

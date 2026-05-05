@@ -208,5 +208,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000212",
+    "title": "火事とポチ",
+    "titleKana": "かじとポチ",
+    "sortKana": "かしとほち",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-05-25",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000025/card212.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000025/files/212_ruby_19526.zip",
+    "textFileId": "212_ruby_19526",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000025/files/212_19527.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "八木正三",
+    "baseBook1": {
+      "title": "一房の葡萄",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1952（昭和27）年3月10日、1968（昭和43）年5月10日改版初版",
+      "inputEdition": "1990（平成2）年5月30日改版37版"
+    },
+    "author": "有島武郎",
+    "authors": [
+      {
+        "personId": "000025",
+        "name": "有島武郎",
+        "kana": "ありしまたけお",
+        "roman": "Takeo Arishima",
+        "role": "著者",
+        "birthDate": "1878-03-04",
+        "deathDate": "1923-06-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

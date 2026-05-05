@@ -44,5 +44,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058311",
+    "title": "現代と浄土宗",
+    "titleKana": "げんだいとじょうどしゅう",
+    "sortKana": "けんたいとしようとしゆう",
+    "firstAppearance": "「浄土　第九巻第一号」1943（昭和18）年1月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-02-08",
+    "updatedAt": "2018-01-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001763/card58311.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001763/files/58311_ruby_63798.zip",
+    "textFileId": "58311_ruby_63798",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001763/files/58311_63878.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "仏教の名随筆　2",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "2006（平成18）年7月10日",
+      "inputEdition": "2006（平成18）年7月10日初版第1刷発行",
+      "proofreadEdition": "2006（平成18）年7月10日初版第1刷発行"
+    },
+    "author": "佐藤春夫",
+    "authors": [
+      {
+        "personId": "001763",
+        "name": "佐藤春夫",
+        "kana": "さとうはるお",
+        "roman": "Haruo Sato",
+        "role": "著者",
+        "birthDate": "1892-04-09",
+        "deathDate": "1964-05-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

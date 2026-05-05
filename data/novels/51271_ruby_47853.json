@@ -892,5 +892,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051271",
+    "title": "彼が殺したか",
+    "titleKana": "かれがころしたか",
+    "sortKana": "かれかころしたか",
+    "firstAppearance": "「新青年」1929（昭和4）年1～2月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-07-22",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000289/card51271.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000289/files/51271_ruby_47853.zip",
+    "textFileId": "51271_ruby_47853",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000289/files/51271_47964.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本探偵小説全集5　浜尾四郎集",
+      "publisher": "創元推理文庫、東京創元社",
+      "firstPublishedAt": "1985（昭和60）年3月29日",
+      "inputEdition": "1993（平成5）年3月5日4刷",
+      "proofreadEdition": "2010（平成22）年8月20日6刷"
+    },
+    "author": "浜尾四郎",
+    "authors": [
+      {
+        "personId": "000289",
+        "name": "浜尾四郎",
+        "kana": "はまおしろう",
+        "roman": "Shiro Hamao",
+        "role": "著者",
+        "birthDate": "1896-04-24",
+        "deathDate": "1935-10-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

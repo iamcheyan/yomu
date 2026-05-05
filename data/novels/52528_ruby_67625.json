@@ -304,5 +304,36 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052528",
+    "title": "簡約医学史",
+    "titleKana": "かんやくいがくし",
+    "sortKana": "かんやくいかくし",
+    "originalTitle": "A CONCISE HISTORY OF MEDICINE",
+    "ndc": "NDC 490",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2011-07-03",
+    "updatedAt": "2019-03-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001574/card52528.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001574/files/52528_ruby_67625.zip",
+    "textFileId": "52528_ruby_67625",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001574/files/52528_67626.html",
+    "proofreadBy": "POKEPEEK2011",
+    "author": "オスラーウイリアム",
+    "authors": [
+      {
+        "personId": "001574",
+        "name": "オスラーウイリアム",
+        "kana": "オスラーウイリアム",
+        "roman": "William Osler",
+        "role": "著者",
+        "birthDate": "1849-07-12",
+        "deathDate": "1919-12-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

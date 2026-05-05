@@ -528,5 +528,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057905",
+    "title": "全都覚醒賦",
+    "titleKana": "ぜんとかくせいふ",
+    "sortKana": "せんとかくせいふ",
+    "firstAppearance": "「早稻田學報 第百拾貮號」早稻田學會、1905（明治38）年1月1日",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-11-02",
+    "updatedAt": "2016-11-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000106/card57905.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000106/files/57905_ruby_60056.zip",
+    "textFileId": "57905_ruby_60056",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000106/files/57905_60102.html",
+    "inputBy": "フクポー",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "白秋全集　1",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1984（昭和59）年12月5日",
+      "inputEdition": "1984（昭和59）年12月5日",
+      "proofreadEdition": "1984（昭和59）年12月5日"
+    },
+    "author": "北原白秋",
+    "authors": [
+      {
+        "personId": "000106",
+        "name": "北原白秋",
+        "kana": "きたはらはくしゅう",
+        "roman": "Hakushu Kitahara",
+        "role": "著者",
+        "birthDate": "1885-01-25",
+        "deathDate": "1942-11-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

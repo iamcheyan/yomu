@@ -226,5 +226,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058130",
+    "title": "妹の死",
+    "titleKana": "いもうとのし",
+    "sortKana": "いもうとのし",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-11-26",
+    "updatedAt": "2017-10-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001799/card58130.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001799/files/58130_ruby_63046.zip",
+    "textFileId": "58130_ruby_63046",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001799/files/58130_63094.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆99　哀",
+      "publisher": "作品社",
+      "firstPublishedAt": "1991（平成3）年1月25日",
+      "inputEdition": "1991（平成3）年1月25日第1刷",
+      "proofreadEdition": "1991（平成3）年1月25日第1刷"
+    },
+    "author": "中勘助",
+    "authors": [
+      {
+        "personId": "001799",
+        "name": "中勘助",
+        "kana": "なかかんすけ",
+        "roman": "Kansuke Naka",
+        "role": "著者",
+        "birthDate": "1885-05-22",
+        "deathDate": "1965-05-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

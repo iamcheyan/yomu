@@ -44,5 +44,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046174",
+    "title": "諏訪湖畔冬の生活",
+    "titleKana": "すわこはんふゆのせいかつ",
+    "sortKana": "すわこはんふゆのせいかつ",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-12-17",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000265/card46174.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000265/files/46174_ruby_24569.zip",
+    "textFileId": "46174_ruby_24569",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000265/files/46174_24886.html",
+    "inputBy": "浦山敦子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "心にふるさとがある3　川に遊び　湖をめぐる",
+      "publisher": "作品社",
+      "firstPublishedAt": "1998（平成10）年4月25日",
+      "inputEdition": "1998（平成10）年4月25日第1刷",
+      "proofreadEdition": "1998（平成10）年4月25日第1刷"
+    },
+    "author": "島木赤彦",
+    "authors": [
+      {
+        "personId": "000265",
+        "name": "島木赤彦",
+        "kana": "しまぎあかひこ",
+        "roman": "Akahiko Shimagi",
+        "role": "著者",
+        "birthDate": "1876-12-17",
+        "deathDate": "1926-03-27",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

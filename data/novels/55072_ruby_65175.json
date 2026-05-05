@@ -78,5 +78,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055072",
+    "title": "乾山の陶器",
+    "titleKana": "けんざんのとうき",
+    "sortKana": "けんさんのとうき",
+    "ndc": "NDC 751",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-07-22",
+    "updatedAt": "2018-06-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001403/card55072.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001403/files/55072_ruby_65175.zip",
+    "textFileId": "55072_ruby_65175",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001403/files/55072_65218.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "木下聡",
+    "baseBook1": {
+      "title": "魯山人陶説",
+      "publisher": "中公文庫、中央公論新社",
+      "firstPublishedAt": "1992（平成4）年5月10日",
+      "inputEdition": "2008（平成20）年11月25日12刷",
+      "proofreadEdition": "2008（平成20）年11月25日12刷"
+    },
+    "author": "北大路魯山人",
+    "authors": [
+      {
+        "personId": "001403",
+        "name": "北大路魯山人",
+        "kana": "きたおおじろさんじん",
+        "roman": "Rosanjin Kitaoji",
+        "role": "著者",
+        "birthDate": "1883-03-23",
+        "deathDate": "1959-12-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

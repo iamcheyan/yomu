@@ -76,5 +76,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054983",
+    "title": "味覚の美と芸術の美",
+    "titleKana": "みかくのびとげいじゅつのび",
+    "sortKana": "みかくのひとけいしゆつのひ",
+    "ndc": "NDC 596",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-07-17",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001403/card54983.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001403/files/54983_ruby_50430.zip",
+    "textFileId": "54983_ruby_50430",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001403/files/54983_50783.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "魯山人味道",
+      "publisher": "中公文庫、中央公論社",
+      "firstPublishedAt": "1980（昭和55）年4月10日",
+      "inputEdition": "2008（平成20）年5月15日改版14刷",
+      "proofreadEdition": "2008（平成20）年5月15日改版14刷"
+    },
+    "author": "北大路魯山人",
+    "authors": [
+      {
+        "personId": "001403",
+        "name": "北大路魯山人",
+        "kana": "きたおおじろさんじん",
+        "roman": "Rosanjin Kitaoji",
+        "role": "著者",
+        "birthDate": "1883-03-23",
+        "deathDate": "1959-12-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

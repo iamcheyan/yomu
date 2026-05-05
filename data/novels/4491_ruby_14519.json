@@ -404,5 +404,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004491",
+    "title": "北国の人",
+    "titleKana": "きたぐにのひと",
+    "sortKana": "きたくにのひと",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-03-29",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000941/card4491.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000941/files/4491_ruby_14519.zip",
+    "textFileId": "4491_ruby_14519",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000941/files/4491_14849.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "今井忠夫",
+    "baseBook1": {
+      "title": "遠野へ",
+      "publisher": "葉舟会",
+      "firstPublishedAt": "1987（昭和62）年4月25日",
+      "inputEdition": "1987（昭和62）年4月25日"
+    },
+    "author": "水野葉舟",
+    "authors": [
+      {
+        "personId": "000941",
+        "name": "水野葉舟",
+        "kana": "みずのようしゅう",
+        "roman": "Yoshu Mizuno",
+        "role": "著者",
+        "birthDate": "1883-04-09",
+        "deathDate": "1947-02-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

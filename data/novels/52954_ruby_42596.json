@@ -32,5 +32,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052954",
+    "title": "阿房山賦",
+    "titleKana": "おぼうさんのふ",
+    "sortKana": "おほうさんのふ",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-05-27",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000712/card52954.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000712/files/52954_ruby_42596.zip",
+    "textFileId": "52954_ruby_42596",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000712/files/52954_42690.html",
+    "inputBy": "塩見謙太",
+    "proofreadBy": "宮川真弥",
+    "baseBook1": {
+      "title": "柳北全集",
+      "publisher": "文藝倶楽部、博文館",
+      "firstPublishedAt": "1897（明治30）年7月9日",
+      "inputEdition": "1897（明治30）年7月9日",
+      "proofreadEdition": "1897（明治30）年7月9日"
+    },
+    "author": "成島柳北",
+    "authors": [
+      {
+        "personId": "000712",
+        "name": "成島柳北",
+        "kana": "なるしまりゅうほく",
+        "roman": "Ryuhoku Narushima",
+        "role": "著者",
+        "birthDate": "1837-03-22",
+        "deathDate": "1884-11-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

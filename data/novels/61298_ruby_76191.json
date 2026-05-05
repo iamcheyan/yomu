@@ -30,5 +30,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "061298",
+    "title": "サーベル礼讃",
+    "titleKana": "サーベルらいさん",
+    "sortKana": "さあへるらいさん",
+    "firstAppearance": "「改造　第五卷第十號」改造社、1923（大正12）年10月1日",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-09-01",
+    "updatedAt": "2022-08-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001763/card61298.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001763/files/61298_ruby_76191.zip",
+    "textFileId": "61298_ruby_76191",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001763/files/61298_76223.html",
+    "inputBy": "持田和踏",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "天変動く　大震災と作家たち",
+      "publisher": "インパクト出版会",
+      "firstPublishedAt": "2011（平成23）年9月11日",
+      "inputEdition": "2011（平成23）年9月11日第1刷",
+      "proofreadEdition": "2011（平成23）年9月11日第1刷"
+    },
+    "author": "佐藤春夫",
+    "authors": [
+      {
+        "personId": "001763",
+        "name": "佐藤春夫",
+        "kana": "さとうはるお",
+        "roman": "Haruo Sato",
+        "role": "著者",
+        "birthDate": "1892-04-09",
+        "deathDate": "1964-05-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

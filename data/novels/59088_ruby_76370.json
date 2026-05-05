@@ -108,5 +108,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059088",
+    "title": "牡丹句録",
+    "titleKana": "ぼたんくろく",
+    "sortKana": "ほたんくろく",
+    "subtitle": "子規病中記",
+    "subtitleKana": "しきびょうちゅうき",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-10-14",
+    "updatedAt": "2022-09-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000305/card59088.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000305/files/59088_ruby_76370.zip",
+    "textFileId": "59088_ruby_76370",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000305/files/59088_76405.html",
+    "inputBy": "浦山敦子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "花の名随筆5　五月の花",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年4月10日",
+      "inputEdition": "1999（平成11）年4月10日初版第1刷",
+      "proofreadEdition": "1999（平成11）年4月10日初版第1刷"
+    },
+    "author": "正岡子規",
+    "authors": [
+      {
+        "personId": "000305",
+        "name": "正岡子規",
+        "kana": "まさおかしき",
+        "roman": "Shiki Masaoka",
+        "role": "著者",
+        "birthDate": "1867-10-14",
+        "deathDate": "1902-09-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

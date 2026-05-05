@@ -866,5 +866,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048055",
+    "title": "墓地の殺人",
+    "titleKana": "ぼちのさつじん",
+    "sortKana": "ほちのさつしん",
+    "firstAppearance": "「子供の科学　七巻一～六号」1928（昭和3）年7～12月",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-09-30",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000262/card48055.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000262/files/48055_ruby_39269.zip",
+    "textFileId": "48055_ruby_39269",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000262/files/48055_40214.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "小酒井不木探偵小説選　〔論創ミステリ叢書8〕",
+      "publisher": "論創社",
+      "firstPublishedAt": "2004（平成16）年7月25日",
+      "inputEdition": "2004（平成16）年7月25日初版第1刷",
+      "proofreadEdition": "2004（平成16）年7月25日初版第1刷"
+    },
+    "author": "小酒井不木",
+    "authors": [
+      {
+        "personId": "000262",
+        "name": "小酒井不木",
+        "kana": "こざかいふぼく",
+        "roman": "Fuboku Kosakai",
+        "role": "著者",
+        "birthDate": "1890-10-08",
+        "deathDate": "1929-04-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

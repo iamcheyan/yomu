@@ -150,5 +150,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045296",
+    "title": "サンニー・サイド・ハウス",
+    "titleKana": "サンニー・サイド・ハウス",
+    "sortKana": "さんにいさいとはうす",
+    "firstAppearance": "「若草　第六巻第五号」宝文館、1930（昭和5）年5月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-08-26",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000183/card45296.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000183/files/45296_ruby_39773.zip",
+    "textFileId": "45296_ruby_39773",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000183/files/45296_39803.html",
+    "inputBy": "宮元淳一",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "牧野信一全集第三巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2002（平成14）年5月20日",
+      "inputEdition": "2002（平成14）年5月20日初版第1刷",
+      "proofreadEdition": "2002（平成14）年5月20日初版第1刷"
+    },
+    "author": "牧野信一",
+    "authors": [
+      {
+        "personId": "000183",
+        "name": "牧野信一",
+        "kana": "まきのしんいち",
+        "roman": "Shin'ichi Makino",
+        "role": "著者",
+        "birthDate": "1896-11-12",
+        "deathDate": "1936-03-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

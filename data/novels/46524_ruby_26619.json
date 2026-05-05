@@ -42,5 +42,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046524",
+    "title": "朝顔日記の深雪と淀君",
+    "titleKana": "あさがおにっきのみゆきとよどぎみ",
+    "sortKana": "あさかおにつきのみゆきとよときみ",
+    "firstAppearance": "「大毎美術　第三巻第四号」1924（大正13）年4月",
+    "ndc": "NDC 721",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-06-03",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000355/card46524.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000355/files/46524_ruby_26619.zip",
+    "textFileId": "46524_ruby_26619",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000355/files/46524_26658.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "青眉抄・青眉抄拾遺",
+      "publisher": "講談社",
+      "firstPublishedAt": "1976（昭和51）年11月10日",
+      "inputEdition": "1976（昭和51）年11月10日",
+      "proofreadEdition": "1977（昭和52）年5月31日第2刷"
+    },
+    "author": "上村松園",
+    "authors": [
+      {
+        "personId": "000355",
+        "name": "上村松園",
+        "kana": "うえむらしょうえん",
+        "roman": "Shoen Uemura",
+        "role": "著者",
+        "birthDate": "1875-04-23",
+        "deathDate": "1949-08-27",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

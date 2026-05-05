@@ -82,5 +82,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003216",
+    "title": "デカルト哲学について",
+    "titleKana": "デカルトてつがくについて",
+    "sortKana": "てかるとてつかくについて",
+    "ndc": "NDC 135",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-09-23",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000182/card3216.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000182/files/3216_ruby_16385.zip",
+    "textFileId": "3216_ruby_16385",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000182/files/3216_16432.html",
+    "inputBy": "nns",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "西田幾多郎哲学論集Ⅲ　自覚について",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1989（平成元）年12月18日",
+      "proofreadEdition": "1989（平成元）年12月18日第1刷"
+    },
+    "author": "西田幾多郎",
+    "authors": [
+      {
+        "personId": "000182",
+        "name": "西田幾多郎",
+        "kana": "にしだきたろう",
+        "roman": "Kitaro Nishida",
+        "role": "著者",
+        "birthDate": "1870-06-17",
+        "deathDate": "1945-06-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

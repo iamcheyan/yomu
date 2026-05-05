@@ -120,5 +120,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056785",
+    "title": "池のほとりに柿の木あり",
+    "titleKana": "いけのほとりにかきのきあり",
+    "sortKana": "いけのほとりにかきのきあり",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-02-16",
+    "updatedAt": "2015-01-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001749/card56785.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001749/files/56785_ruby_55592.zip",
+    "textFileId": "56785_ruby_55592",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001749/files/56785_55639.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻52　学校",
+      "publisher": "作品社",
+      "firstPublishedAt": "1995（平成7）年6月25日",
+      "inputEdition": "1995（平成7）年6月25日第1刷",
+      "proofreadEdition": "1995（平成7）年6月25日第1刷"
+    },
+    "author": "三好達治",
+    "authors": [
+      {
+        "personId": "001749",
+        "name": "三好達治",
+        "kana": "みよしたつじ",
+        "roman": "Tatsuji Miyoshi",
+        "role": "著者",
+        "birthDate": "1900-08-23",
+        "deathDate": "1964-04-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -100,5 +100,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004906",
+    "title": "武州喜多院",
+    "titleKana": "ぶしゅうきたいん",
+    "sortKana": "ふしゆうきたいん",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-06-30",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000283/card4906.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000283/files/4906_ruby_15906.zip",
+    "textFileId": "4906_ruby_15906",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000283/files/4906_15909.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "日本随筆紀行第五巻　関東　風吹き騒ぐ平原で",
+      "publisher": "作品社",
+      "firstPublishedAt": "1987（昭和62）年10月10日",
+      "inputEdition": "1987（昭和62）年10月10日第1刷",
+      "proofreadEdition": "1987（昭和62）年10月10日第1刷"
+    },
+    "author": "中里介山",
+    "authors": [
+      {
+        "personId": "000283",
+        "name": "中里介山",
+        "kana": "なかざとかいざん",
+        "roman": "Kaizan Nakazato",
+        "role": "著者",
+        "birthDate": "1885-04-04",
+        "deathDate": "1944-04-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

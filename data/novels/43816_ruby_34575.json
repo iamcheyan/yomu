@@ -90,5 +90,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043816",
+    "title": "生きている空間",
+    "titleKana": "いきているくうかん",
+    "sortKana": "いきているくうかん",
+    "subtitle": "――映画空間論への序曲",
+    "subtitleKana": "――えいがくうかんろんへのじょきょく",
+    "firstAppearance": "「シナリオ」1951（昭和26）年1月",
+    "ndc": "NDC 701",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-05-15",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001166/card43816.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001166/files/43816_ruby_34575.zip",
+    "textFileId": "43816_ruby_34575",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001166/files/43816_34954.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "増補　美学的空間",
+      "publisher": "叢書名著の復興14、新泉社",
+      "firstPublishedAt": "1977（昭和52）年11月16日",
+      "inputEdition": "1977（昭和52）年11月16日増補第1刷"
+    },
+    "author": "中井正一",
+    "authors": [
+      {
+        "personId": "001166",
+        "name": "中井正一",
+        "kana": "なかいまさかず",
+        "roman": "Masakazu Nakai",
+        "role": "著者",
+        "birthDate": "1900-02-14",
+        "deathDate": "1952-05-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

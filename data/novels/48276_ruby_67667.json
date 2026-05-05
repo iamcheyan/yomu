@@ -10862,5 +10862,51 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048276",
+    "title": "血煙天明陣",
+    "titleKana": "ちけむりてんめいじん",
+    "sortKana": "ちけむりてんめいしん",
+    "firstAppearance": "「東京日日新聞」1933（昭和8）年11月7日～1934（昭和9）年4月20日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-04-08",
+    "updatedAt": "2019-03-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card48276.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/48276_ruby_67667.zip",
+    "textFileId": "48276_ruby_67667",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/48276_67719.html",
+    "inputBy": "阿和泉拓",
+    "proofreadBy": "酒井裕二",
+    "baseBook1": {
+      "title": "血煙天明陣（下）",
+      "publisher": "国枝史郎伝奇文庫、講談社",
+      "firstPublishedAt": "1976（昭和51）年7月12日",
+      "inputEdition": "1976（昭和51）年7月12日第1刷",
+      "proofreadEdition": "1976（昭和51）年7月12日第1刷"
+    },
+    "baseBook2": {
+      "title": "血煙天明陣（上）",
+      "publisher": "国枝史郎伝奇文庫、講談社",
+      "firstPublishedAt": "1976（昭和51）年7月12日",
+      "inputEdition": "1976（昭和51）年7月12日第1刷",
+      "proofreadEdition": "1976（昭和51）年7月12日第1刷"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -392,5 +392,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049630",
+    "title": "椿子物語",
+    "titleKana": "つばきこものがたり",
+    "sortKana": "つはきこものかたり",
+    "firstAppearance": "「中央公論」中央公論社、1951（昭和26）年6月",
+    "ndc": "NDC 911 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-04-08",
+    "updatedAt": "2017-03-19",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001310/card49630.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001310/files/49630_ruby_61182.zip",
+    "textFileId": "49630_ruby_61182",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001310/files/49630_61225.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "高瀬竜一",
+    "baseBook1": {
+      "title": "近代浪漫派文庫　7　正岡子規　高浜虚子",
+      "publisher": "新学社",
+      "firstPublishedAt": "2006（平成18）年9月11日",
+      "inputEdition": "2006（平成18）年9月11日第1刷",
+      "proofreadEdition": "2006（平成18）年9月11日第1刷"
+    },
+    "author": "高浜虚子",
+    "authors": [
+      {
+        "personId": "001310",
+        "name": "高浜虚子",
+        "kana": "たかはまきょし",
+        "roman": "Kyoshi Takahama",
+        "role": "著者",
+        "birthDate": "1874-02-22",
+        "deathDate": "1959-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

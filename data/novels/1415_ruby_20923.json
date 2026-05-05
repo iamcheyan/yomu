@@ -100,5 +100,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001415",
+    "title": "無惨",
+    "titleKana": "むざん",
+    "sortKana": "むさん",
+    "firstAppearance": "「小説叢」1889（明治22）年9月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-02-28",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000179/card1415.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000179/files/1415_ruby_20923.zip",
+    "textFileId": "1415_ruby_20923",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000179/files/1415_21458.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "日本探偵小説全集1　黒岩涙香　小酒井不木　甲賀三郎集",
+      "publisher": "創元推理文庫、創元社",
+      "firstPublishedAt": "1984（昭和59）年12月21日",
+      "inputEdition": "1996（平成8）年8月2日8版",
+      "proofreadEdition": "1994（平成6）年3月4日7版"
+    },
+    "author": "黒岩涙香",
+    "authors": [
+      {
+        "personId": "000179",
+        "name": "黒岩涙香",
+        "kana": "くろいわるいこう",
+        "roman": "Ruiko Kuroiwa",
+        "role": "著者",
+        "birthDate": "1862-11-20",
+        "deathDate": "1920-10-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

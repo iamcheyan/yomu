@@ -52,5 +52,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002149",
+    "title": "微笑",
+    "titleKana": "びしょう",
+    "sortKana": "ひしよう",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-07-04",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card2149.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/2149_ruby_10216.zip",
+    "textFileId": "2149_ruby_10216",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/2149_11036.html",
+    "inputBy": "阿部良子",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "昭和文学全集　第5巻",
+      "publisher": "小学館",
+      "firstPublishedAt": "1986（昭和61）年12月1日",
+      "inputEdition": "1986（昭和61）年12月1日初版第1刷",
+      "proofreadEdition": "1986（昭和61）年12月1日初版第1刷"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

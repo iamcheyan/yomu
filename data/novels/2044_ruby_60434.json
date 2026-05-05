@@ -46,5 +46,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002044",
+    "title": "かの日",
+    "titleKana": "かのひ",
+    "sortKana": "かのひ",
+    "firstAppearance": "「沖縄毎日新聞」1911（明治44）年6月12日",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-01-14",
+    "updatedAt": "2016-12-09",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001666/card2044.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001666/files/2044_ruby_60434.zip",
+    "textFileId": "2044_ruby_60434",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001666/files/2044_60478.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "良本典代",
+    "baseBook1": {
+      "title": "沖縄文学全集　第1巻　詩Ⅰ",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "1991（平成3）年6月6日",
+      "inputEdition": "1991（平成3）年6月6日第1刷",
+      "proofreadEdition": "1991（平成3）年6月6日第1刷"
+    },
+    "author": "漢那浪笛",
+    "authors": [
+      {
+        "personId": "001666",
+        "name": "漢那浪笛",
+        "kana": "かんなろうてき",
+        "roman": "Roteki Kanna",
+        "role": "著者",
+        "birthDate": "1887",
+        "deathDate": "1939",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

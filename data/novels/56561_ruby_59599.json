@@ -354,5 +354,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056561",
+    "title": "箸",
+    "titleKana": "はし",
+    "sortKana": "はし",
+    "firstAppearance": "「ホトヽギス　第十三卷第一號」1909（明治42）年10月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-09-18",
+    "updatedAt": "2016-09-02",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000058/card56561.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000058/files/56561_ruby_59599.zip",
+    "textFileId": "56561_ruby_59599",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000058/files/56561_59641.html",
+    "inputBy": "高瀬竜一",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "野菊の墓",
+      "publisher": "ジュニア版日本文学名作選、偕成社",
+      "firstPublishedAt": "1964（昭和39）年10月",
+      "inputEdition": "1984（昭和59）年10月44刷",
+      "proofreadEdition": "1981（昭和56）年10月40刷"
+    },
+    "author": "伊藤左千夫",
+    "authors": [
+      {
+        "personId": "000058",
+        "name": "伊藤左千夫",
+        "kana": "いとうさちお",
+        "roman": "Sachio Ito",
+        "role": "著者",
+        "birthDate": "1864-09-18",
+        "deathDate": "1913-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

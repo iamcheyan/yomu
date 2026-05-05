@@ -56,5 +56,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000369",
+    "title": "母となる",
+    "titleKana": "ははとなる",
+    "sortKana": "ははとなる",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-06-01",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000057/card369.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000057/files/369_ruby_18840.zip",
+    "textFileId": "369_ruby_18840",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000057/files/369_18841.html",
+    "inputBy": "もりみつじゅんじ",
+    "proofreadBy": "菅野朋子",
+    "baseBook1": {
+      "title": "日本の名随筆42　母",
+      "publisher": "作品社",
+      "firstPublishedAt": "1986（昭和61）年4月25日",
+      "inputEdition": "1988（昭和63）年1月20日第5刷"
+    },
+    "author": "福田英子",
+    "authors": [
+      {
+        "personId": "000057",
+        "name": "福田英子",
+        "kana": "ふくだひでこ",
+        "roman": "Hideko Fukuda",
+        "role": "著者",
+        "birthDate": "1865-11-22",
+        "deathDate": "1927-05-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

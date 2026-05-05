@@ -1904,5 +1904,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050071",
+    "title": "墓が呼んでいる",
+    "titleKana": "はかがよんでいる",
+    "sortKana": "はかかよんている",
+    "firstAppearance": "「小説春秋」1956（昭和31）年4～5月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-01-16",
+    "updatedAt": "2020-01-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001397/card50071.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001397/files/50071_ruby_70104.zip",
+    "textFileId": "50071_ruby_70104",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001397/files/50071_70105.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "橘外男ワンダーランド　怪談・心霊篇",
+      "publisher": "中央書院",
+      "firstPublishedAt": "1996（平成8）年6月10日",
+      "inputEdition": "1996（平成8）年6月10日第1刷",
+      "proofreadEdition": "1996（平成8）年6月10日第1刷"
+    },
+    "author": "橘外男",
+    "authors": [
+      {
+        "personId": "001397",
+        "name": "橘外男",
+        "kana": "たちばなそとお",
+        "roman": "Sotoo Tachibana",
+        "role": "著者",
+        "birthDate": "1894-10-10",
+        "deathDate": "1959-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

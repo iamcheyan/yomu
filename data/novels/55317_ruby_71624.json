@@ -4706,5 +4706,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055317",
+    "title": "鮪に鰯",
+    "titleKana": "まぐろにいわし",
+    "sortKana": "まくろにいわし",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-09-11",
+    "updatedAt": "2020-08-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001693/card55317.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001693/files/55317_ruby_71624.zip",
+    "textFileId": "55317_ruby_71624",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001693/files/55317_71670.html",
+    "inputBy": "kompass",
+    "proofreadBy": "いとうおちゃ",
+    "baseBook1": {
+      "title": "山之口貘詩集　鮪に鰯",
+      "publisher": "原書房",
+      "firstPublishedAt": "1964（昭和39）年12月10日",
+      "inputEdition": "2010（平成22）年12月27日新装版",
+      "proofreadEdition": "2010（平成22）年12月27日新装版"
+    },
+    "author": "山之口貘",
+    "authors": [
+      {
+        "personId": "001693",
+        "name": "山之口貘",
+        "kana": "やまのくちばく",
+        "roman": "Baku Yamanokuchi",
+        "role": "著者",
+        "birthDate": "1903-09-11",
+        "deathDate": "1963-07-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

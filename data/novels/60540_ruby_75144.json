@@ -60,5 +60,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060540",
+    "title": "ヒッポドロム",
+    "titleKana": "ヒッポドロム",
+    "sortKana": "ひつほとろむ",
+    "firstAppearance": "「新小説　第廿七年第十號　九月號」春陽堂、1922（大正11）年9月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-03-26",
+    "updatedAt": "2022-02-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001579/card60540.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001579/files/60540_ruby_75144.zip",
+    "textFileId": "60540_ruby_75144",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001579/files/60540_75182.html",
+    "inputBy": "hitsuji",
+    "proofreadBy": "きりんの手紙",
+    "baseBook1": {
+      "title": "性に眼覚める頃",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1957（昭和32）年3月25日",
+      "inputEdition": "1978（昭和53）年11月30日30刷",
+      "proofreadEdition": "1977（昭和52）年12月15日29刷"
+    },
+    "author": "室生犀星",
+    "authors": [
+      {
+        "personId": "001579",
+        "name": "室生犀星",
+        "kana": "むろうさいせい",
+        "roman": "Saisei Murou",
+        "role": "著者",
+        "birthDate": "1889-08-01",
+        "deathDate": "1962-03-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

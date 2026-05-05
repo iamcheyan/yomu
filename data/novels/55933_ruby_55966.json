@@ -40,5 +40,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055933",
+    "title": "山間秘話",
+    "titleKana": "さんかんひわ",
+    "sortKana": "さんかんひわ",
+    "ndc": "NDC K913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-03-23",
+    "updatedAt": "2015-02-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000026/card55933.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000026/files/55933_ruby_55966.zip",
+    "textFileId": "55933_ruby_55966",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000026/files/55933_56011.html",
+    "inputBy": "村松洋一",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "新編中原中也全集　第四巻　評論・小説",
+      "publisher": "角川書店",
+      "firstPublishedAt": "2003（平成15）年11月25日",
+      "inputEdition": "2003（平成15）年11月25日初版",
+      "proofreadEdition": "2003（平成15）年11月25日初版"
+    },
+    "author": "中原中也",
+    "authors": [
+      {
+        "personId": "000026",
+        "name": "中原中也",
+        "kana": "なかはらちゅうや",
+        "roman": "Chuya Nakahara",
+        "role": "著者",
+        "birthDate": "1907-04-29",
+        "deathDate": "1937-10-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

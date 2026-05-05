@@ -312,5 +312,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059816",
+    "title": "犬がなくとガラスがこわれるか",
+    "titleKana": "いぬがなくとガラスがこわれるか",
+    "sortKana": "いぬかなくとからすかこわれるか",
+    "firstAppearance": "「暮しの手帖　昭和36年第3号」暮しの手帖社、1961（昭和36）年7月5日",
+    "ndc": "NDC 404",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-09-11",
+    "updatedAt": "2021-08-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card59816.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/59816_ruby_74015.zip",
+    "textFileId": "59816_ruby_74015",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/59816_74053.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "kompass",
+    "baseBook1": {
+      "title": "極北の氷の下の町",
+      "publisher": "暮しの手帖社",
+      "firstPublishedAt": "1966（昭和41）年7月1日",
+      "inputEdition": "1966（昭和41）年7月1日",
+      "proofreadEdition": "1966（昭和41）年7月1日"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -358,5 +358,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000673",
+    "title": "阿部一族",
+    "titleKana": "あべいちぞく",
+    "sortKana": "あへいちそく",
+    "firstAppearance": "「中央公論」1913（大正2）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-02-14",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card673.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/673_ruby_23254.zip",
+    "textFileId": "673_ruby_23254",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/673_23255.html",
+    "inputBy": "真先芳秋",
+    "proofreadBy": "進恵子",
+    "baseBook1": {
+      "title": "日本の文学　3　森鴎外（二）",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1972（昭和47）年10月20日"
+    },
+    "author": "森鴎外",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

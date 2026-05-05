@@ -1820,5 +1820,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003603",
+    "title": "社会時評",
+    "titleKana": "しゃかいじひょう",
+    "sortKana": "しやかいしひよう",
+    "firstAppearance": "「文藝春秋」1933（昭和8年）年6月～1937（昭和12）年5月",
+    "ndc": "NDC 304",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-06-02",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000281/card3603.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000281/files/3603_ruby_34729.zip",
+    "textFileId": "3603_ruby_34729",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000281/files/3603_35152.html",
+    "inputBy": "矢野正人",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "戸坂潤全集別巻",
+      "publisher": "勁草書房",
+      "firstPublishedAt": "1979（昭和54）年11月20日",
+      "inputEdition": "1979（昭和54）年11月20日第1刷",
+      "proofreadEdition": "1979（昭和54）年11月20日第1刷"
+    },
+    "author": "戸坂潤",
+    "authors": [
+      {
+        "personId": "000281",
+        "name": "戸坂潤",
+        "kana": "とさかじゅん",
+        "roman": "Jun Tosaka",
+        "role": "著者",
+        "birthDate": "1900-09-27",
+        "deathDate": "1945-08-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

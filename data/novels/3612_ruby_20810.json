@@ -44,5 +44,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003612",
+    "title": "言いたい事と言わねばならない事と",
+    "titleKana": "いいたいことといわねばならないことと",
+    "sortKana": "いいたいことといわねはならないことと",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-09-27",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000535/card3612.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000535/files/3612_ruby_20810.zip",
+    "textFileId": "3612_ruby_20810",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000535/files/3612_20811.html",
+    "inputBy": "渡邉つよし",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻76　常識",
+      "publisher": "作品社",
+      "firstPublishedAt": "1997（平成9）年6月25日"
+    },
+    "author": "桐生悠々",
+    "authors": [
+      {
+        "personId": "000535",
+        "name": "桐生悠々",
+        "kana": "きりゅうゆうゆう",
+        "roman": "Yuyu Kiryu",
+        "role": "著者",
+        "birthDate": "1873-05-20",
+        "deathDate": "1941-09-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

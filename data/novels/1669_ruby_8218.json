@@ -424,5 +424,43 @@
     [],
     []
   ],
-  "desc": "日本自然主義文学の出発点となった私小説。"
+  "desc": "日本自然主義文学の出発点となった私小説。",
+  "aozora_info": {
+    "workId": "001669",
+    "title": "蒲団",
+    "titleKana": "ふとん",
+    "sortKana": "ふとん",
+    "firstAppearance": "「新小説」春陽堂書店、1909（明治40）年9月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-01-11",
+    "updatedAt": "2022-10-31",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000214/card1669.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000214/files/1669_ruby_8218.zip",
+    "textFileId": "1669_ruby_8218",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000214/files/1669_8259.html",
+    "inputBy": "細渕真弓",
+    "proofreadBy": "細渕紀子",
+    "baseBook1": {
+      "title": "蒲団・重右衛門の最後",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1952（昭和27）年3月15日",
+      "inputEdition": "1997（平成9）年5月25日72刷"
+    },
+    "author": "田山花袋",
+    "authors": [
+      {
+        "personId": "000214",
+        "name": "田山花袋",
+        "kana": "たやまかたい",
+        "roman": "Katai Tayama",
+        "role": "著者",
+        "birthDate": "1872-01-22",
+        "deathDate": "1930-05-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

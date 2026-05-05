@@ -54,5 +54,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046214",
+    "title": "危機における理論的意識",
+    "titleKana": "ききにおけるりろんてきいしき",
+    "sortKana": "ききにおけるりろんてきいしき",
+    "firstAppearance": "「改造」1929（昭和4）年1月号",
+    "ndc": "NDC 121",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-02-12",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000218/card46214.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000218/files/46214_ruby_28987.zip",
+    "textFileId": "46214_ruby_28987",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000218/files/46214_29521.html",
+    "inputBy": "文子",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "現代日本思想大系　33",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1966（昭和41）年5月30日",
+      "inputEdition": "1975（昭和50）年5月30日初版第14刷",
+      "proofreadEdition": "1966（昭和41）年5月30日初版"
+    },
+    "author": "三木清",
+    "authors": [
+      {
+        "personId": "000218",
+        "name": "三木清",
+        "kana": "みききよし",
+        "roman": "Kiyoshi Miki",
+        "role": "著者",
+        "birthDate": "1897-01-05",
+        "deathDate": "1945-09-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

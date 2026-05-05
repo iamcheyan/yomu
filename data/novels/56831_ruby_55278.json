@@ -182,5 +182,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056831",
+    "title": "安吾史譚",
+    "titleKana": "あんごしたん",
+    "sortKana": "あんこしたん",
+    "subtitle": "05 勝夢酔",
+    "subtitleKana": "05 かつむすい",
+    "firstAppearance": "「オール読物　第七巻第五号」1952（昭和27）年5月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-01-17",
+    "updatedAt": "2014-12-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card56831.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/56831_ruby_55278.zip",
+    "textFileId": "56831_ruby_55278",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/56831_55366.html",
+    "inputBy": "辻賢晃",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "坂口安吾全集17",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1990（平成2）年12月4日",
+      "inputEdition": "1990（平成2）年12月4日第1刷",
+      "proofreadEdition": "1990（平成2）年12月4日第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

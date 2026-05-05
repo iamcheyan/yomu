@@ -270,5 +270,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002423",
+    "title": "お月さまいくつ",
+    "titleKana": "おつきさまいくつ",
+    "sortKana": "おつきさまいくつ",
+    "ndc": "NDC K911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-11-11",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000106/card2423.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000106/files/2423_ruby_24157.zip",
+    "textFileId": "2423_ruby_24157",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000106/files/2423_24397.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆58　月",
+      "publisher": "作品社",
+      "firstPublishedAt": "1987（昭和62）年8月25日",
+      "inputEdition": "1987（昭和62）年8月25日第1刷",
+      "proofreadEdition": "1999（平成11）年4月30日第10刷"
+    },
+    "author": "北原白秋",
+    "authors": [
+      {
+        "personId": "000106",
+        "name": "北原白秋",
+        "kana": "きたはらはくしゅう",
+        "roman": "Hakushu Kitahara",
+        "role": "著者",
+        "birthDate": "1885-01-25",
+        "deathDate": "1942-11-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

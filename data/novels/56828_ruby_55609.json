@@ -174,5 +174,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056828",
+    "title": "英米笑話秀逸",
+    "titleKana": "えいべいしょうわしゅういつ",
+    "sortKana": "えいへいしようわしゆういつ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-02-26",
+    "updatedAt": "2015-01-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001750/card56828.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001750/files/56828_ruby_55609.zip",
+    "textFileId": "56828_ruby_55609",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001750/files/56828_55656.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻47　冗談",
+      "publisher": "作品社",
+      "firstPublishedAt": "1995（平成7）年1月25日",
+      "inputEdition": "1995（平成7）年1月25日第1刷",
+      "proofreadEdition": "1995（平成7）年1月25日第1刷"
+    },
+    "author": "佐々木邦",
+    "authors": [
+      {
+        "personId": "001750",
+        "name": "佐々木邦",
+        "kana": "ささきくに",
+        "roman": "Kuni Sasaki",
+        "role": "著者",
+        "birthDate": "1883-05-04",
+        "deathDate": "1964-09-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

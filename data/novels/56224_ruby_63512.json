@@ -17362,5 +17362,51 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056224",
+    "title": "花と龍",
+    "titleKana": "はなとりゅう",
+    "sortKana": "はなとりゆう",
+    "firstAppearance": "花と龍「読売新聞」読売新聞社、1952（昭和27）年6月20日～1953（昭和28）年5月11日<br>あとがき「花と龍（下巻）」新潮社、1953（昭和28）年7月31日<br>解説「火野葦平選集　第五巻」東京創元社、1958（昭和33）年",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-01-24",
+    "updatedAt": "2018-01-07",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001488/card56224.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001488/files/56224_ruby_63512.zip",
+    "textFileId": "56224_ruby_63512",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001488/files/56224_63556.html",
+    "inputBy": "Juki、kompass",
+    "proofreadBy": "りゅうぞう",
+    "baseBook1": {
+      "title": "花と龍（下）",
+      "publisher": "岩波現代文庫、岩波書店",
+      "firstPublishedAt": "2006（平成18）年3月16日",
+      "inputEdition": "2006（平成18）年3月16日初版第1刷",
+      "proofreadEdition": "2006（平成18）年3月16日初版第1刷"
+    },
+    "baseBook2": {
+      "title": "花と龍（上）",
+      "publisher": "岩波現代文庫、岩波書店",
+      "firstPublishedAt": "2006（平成18）年2月6日",
+      "inputEdition": "2006（平成18）年2月6日初版第1刷",
+      "proofreadEdition": "2006（平成18）年2月6日初版第1刷"
+    },
+    "author": "火野葦平",
+    "authors": [
+      {
+        "personId": "001488",
+        "name": "火野葦平",
+        "kana": "ひのあしへい",
+        "roman": "Ashihei Hino",
+        "role": "著者",
+        "birthDate": "1907-01-25",
+        "deathDate": "1960-01-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

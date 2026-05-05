@@ -116,5 +116,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045333",
+    "title": "老猾抄",
+    "titleKana": "ろうかつしょう",
+    "sortKana": "ろうかつしよう",
+    "firstAppearance": "「東京朝日新聞　第一七八四六号」東京朝日新聞社、1935（昭和10）年12月22日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-12-09",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000183/card45333.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000183/files/45333_ruby_40415.zip",
+    "textFileId": "45333_ruby_40415",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000183/files/45333_41332.html",
+    "inputBy": "宮元淳一",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "牧野信一全集第六巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2003（平成15）年5月10日",
+      "inputEdition": "2003（平成15）年5月10日初版第1刷",
+      "proofreadEdition": "2003（平成15）年5月10日初版第1刷"
+    },
+    "author": "牧野信一",
+    "authors": [
+      {
+        "personId": "000183",
+        "name": "牧野信一",
+        "kana": "まきのしんいち",
+        "roman": "Shin'ichi Makino",
+        "role": "著者",
+        "birthDate": "1896-11-12",
+        "deathDate": "1936-03-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

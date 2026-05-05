@@ -132,5 +132,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056256",
+    "title": "小夜の中山夜啼石",
+    "titleKana": "さよのなかやまよなきいし",
+    "sortKana": "さよのなかやまよなきいし",
+    "firstAppearance": "「婦人倶楽部」1923（大正12）年7月号",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-10-15",
+    "updatedAt": "2020-09-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000082/card56256.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000082/files/56256_ruby_71874.zip",
+    "textFileId": "56256_ruby_71874",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000082/files/56256_71921.html",
+    "inputBy": "江村秀之",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "青蛙堂奇談　――岡本綺堂読物集二",
+      "publisher": "中公文庫、中央公論新社",
+      "firstPublishedAt": "2012（平成24）年10月25日",
+      "inputEdition": "2012（平成24）年10月25日初版",
+      "proofreadEdition": "2012（平成24）年10月25日初版"
+    },
+    "author": "岡本綺堂",
+    "authors": [
+      {
+        "personId": "000082",
+        "name": "岡本綺堂",
+        "kana": "おかもときどう",
+        "roman": "Kido Okamoto",
+        "role": "著者",
+        "birthDate": "1872-11-15",
+        "deathDate": "1939-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

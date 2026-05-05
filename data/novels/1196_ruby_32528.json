@@ -524,5 +524,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001196",
+    "title": "隣の嫁",
+    "titleKana": "となりのよめ",
+    "sortKana": "となりのよめ",
+    "firstAppearance": "「ホトトギス」1908（明治41）年2月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-11-08",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000058/card1196.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000058/files/1196_ruby_32528.zip",
+    "textFileId": "1196_ruby_32528",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000058/files/1196_33297.html",
+    "inputBy": "大野晋、網迫",
+    "proofreadBy": "富田倫生、林幸雄",
+    "baseBook1": {
+      "title": "野菊の墓",
+      "publisher": "集英社文庫、集英社",
+      "firstPublishedAt": "1977（昭和52）年9月20日",
+      "inputEdition": "1981（昭和56）年6月15日第6刷",
+      "proofreadEdition": "1981（昭和56）年6月15日第6刷"
+    },
+    "author": "伊藤左千夫",
+    "authors": [
+      {
+        "personId": "000058",
+        "name": "伊藤左千夫",
+        "kana": "いとうさちお",
+        "roman": "Sachio Ito",
+        "role": "著者",
+        "birthDate": "1864-09-18",
+        "deathDate": "1913-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -52,5 +52,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053572",
+    "title": "麦",
+    "titleKana": "むぎ",
+    "sortKana": "むき",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-08-07",
+    "updatedAt": "2018-12-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000067/card53572.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000067/files/53572_txt_44101.zip",
+    "textFileId": "53572_txt_44101",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000067/files/53572_44215.html",
+    "inputBy": "kompass",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "萩原朔太郎全集　第三卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1977（昭和52）年5月30日",
+      "inputEdition": "1986（昭和61）年12月10日補訂版1刷",
+      "proofreadEdition": "1986（昭和61）年12月10日補訂版1刷"
+    },
+    "author": "萩原朔太郎",
+    "authors": [
+      {
+        "personId": "000067",
+        "name": "萩原朔太郎",
+        "kana": "はぎわらさくたろう",
+        "roman": "Sakutaro Hagiwara",
+        "role": "著者",
+        "birthDate": "1886-11-01",
+        "deathDate": "1942-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

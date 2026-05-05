@@ -360,5 +360,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050633",
+    "title": "押しかけ女房",
+    "titleKana": "おしかけにょうぼう",
+    "sortKana": "おしかけにようほう",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-01-01",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001454/card50633.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001454/files/50633_ruby_37631.zip",
+    "textFileId": "50633_ruby_37631",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001454/files/50633_37656.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "賣春婦",
+      "publisher": "村山書店",
+      "firstPublishedAt": "1956（昭和31）年11月10日",
+      "inputEdition": "1956（昭和31）年11月10日",
+      "proofreadEdition": "1956（昭和31）年11月10日"
+    },
+    "author": "伊藤永之介",
+    "authors": [
+      {
+        "personId": "001454",
+        "name": "伊藤永之介",
+        "kana": "いとうえいのすけ",
+        "roman": "Einosuke Ito",
+        "role": "著者",
+        "birthDate": "1903-11-21",
+        "deathDate": "1959-07-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

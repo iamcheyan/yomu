@@ -2596,5 +2596,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055053",
+    "title": "山之口貘詩集",
+    "titleKana": "やまのくちばくししゅう",
+    "sortKana": "やまのくちはくししゆう",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-07-19",
+    "updatedAt": "2020-06-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001693/card55053.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001693/files/55053_ruby_71241.zip",
+    "textFileId": "55053_ruby_71241",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001693/files/55053_71290.html",
+    "inputBy": "kompass",
+    "proofreadBy": "いとうおちゃ",
+    "baseBook1": {
+      "title": "山之口貘詩集",
+      "publisher": "原書房",
+      "firstPublishedAt": "1958（昭和33）年7月15日",
+      "inputEdition": "1972（昭和47）年7月15日新装第2版",
+      "proofreadEdition": "2010（平成22）年12月27日新装版"
+    },
+    "author": "山之口貘",
+    "authors": [
+      {
+        "personId": "001693",
+        "name": "山之口貘",
+        "kana": "やまのくちばく",
+        "roman": "Baku Yamanokuchi",
+        "role": "著者",
+        "birthDate": "1903-09-11",
+        "deathDate": "1963-07-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

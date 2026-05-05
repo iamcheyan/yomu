@@ -134,5 +134,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047875",
+    "title": "七つの手紙",
+    "titleKana": "ななつのてがみ",
+    "sortKana": "ななつのてかみ",
+    "subtitle": "或女友達に",
+    "subtitleKana": "あるおんなともだちに",
+    "firstAppearance": "「新潮　第三十五巻第八号」1938（昭和13）年8月号",
+    "ndc": "NDC 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-05-28",
+    "updatedAt": "2020-05-03",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001030/card47875.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001030/files/47875_ruby_70955.zip",
+    "textFileId": "47875_ruby_70955",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001030/files/47875_71005.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "杉浦鳥見",
+    "baseBook1": {
+      "title": "堀辰雄作品集第四卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1982（昭和57）年8月30日",
+      "inputEdition": "1982（昭和57）年8月30日初版第1刷",
+      "proofreadEdition": "1982（昭和57）年8月30日初版第1刷"
+    },
+    "author": "堀辰雄",
+    "authors": [
+      {
+        "personId": "001030",
+        "name": "堀辰雄",
+        "kana": "ほりたつお",
+        "roman": "Tatsuo Hori",
+        "role": "著者",
+        "birthDate": "1904-12-28",
+        "deathDate": "1953-05-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

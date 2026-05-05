@@ -86,5 +86,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053042",
+    "title": "死児を産む",
+    "titleKana": "しじをうむ",
+    "sortKana": "ししをうむ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-12-09",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000984/card53042.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000984/files/53042_ruby_45436.zip",
+    "textFileId": "53042_ruby_45436",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000984/files/53042_45580.html",
+    "inputBy": "住吉",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "日本文学全集31　葛西善蔵・嘉村礒多集",
+      "publisher": "集英社",
+      "firstPublishedAt": "1969（昭和44）年7月12日",
+      "inputEdition": "1969（昭和44）年7月12日",
+      "proofreadEdition": "1975（昭和50）年1月8日"
+    },
+    "author": "葛西善蔵",
+    "authors": [
+      {
+        "personId": "000984",
+        "name": "葛西善蔵",
+        "kana": "かさいぜんぞう",
+        "roman": "Zenzo Kasai",
+        "role": "著者",
+        "birthDate": "1887-01-16",
+        "deathDate": "1928-07-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

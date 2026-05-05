@@ -1076,5 +1076,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000833",
+    "title": "党生活者",
+    "titleKana": "とうせいかつしゃ",
+    "sortKana": "とうせいかつしや",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-11-10",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000156/card833.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000156/files/833_ruby_28259.zip",
+    "textFileId": "833_ruby_28259",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000156/files/833_28260.html",
+    "inputBy": "細見祐司",
+    "proofreadBy": "浜野智",
+    "baseBook1": {
+      "title": "党生活者",
+      "publisher": "新日本文庫",
+      "firstPublishedAt": "1974（昭和49）年12月20日",
+      "inputEdition": "1974（昭和49）年12月20日初版",
+      "proofreadEdition": "1974（昭和49）年12月20日初版"
+    },
+    "author": "小林多喜二",
+    "authors": [
+      {
+        "personId": "000156",
+        "name": "小林多喜二",
+        "kana": "こばやしたきじ",
+        "roman": "Takiji Kobayashi",
+        "role": "著者",
+        "birthDate": "1903-10-13",
+        "deathDate": "1933-02-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

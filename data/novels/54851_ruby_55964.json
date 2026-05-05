@@ -102,5 +102,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054851",
+    "title": "実験室の記憶",
+    "titleKana": "じっけんしつのきおく",
+    "sortKana": "しつけんしつのきおく",
+    "firstAppearance": "「図解科学」朝日新聞社、1942（昭和17）年11月",
+    "ndc": "NDC 404",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-03-22",
+    "updatedAt": "2015-02-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card54851.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/54851_ruby_55964.zip",
+    "textFileId": "54851_ruby_55964",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/54851_56009.html",
+    "inputBy": "橋本泰平",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "機械のある世界〈ちくま文学の森11〉",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1988（昭和63）年11月29日",
+      "inputEdition": "1988（昭和63）年11月29日第1刷",
+      "proofreadEdition": "1988（昭和63）年11月29日第1刷"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

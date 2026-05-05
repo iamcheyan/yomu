@@ -132,5 +132,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058276",
+    "title": "鬼哭寺の一夜",
+    "titleKana": "きこくじのいちや",
+    "sortKana": "きこくしのいちや",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-12-09",
+    "updatedAt": "2017-11-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000148/card58276.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000148/files/58276_ruby_63197.zip",
+    "textFileId": "58276_ruby_63197",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000148/files/58276_63339.html",
+    "inputBy": "フクポー",
+    "proofreadBy": "きゅうり",
+    "baseBook1": {
+      "title": "漱石全集　第十二卷　初期の文章及詩歌俳句",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1967（昭和42）年3月30日",
+      "inputEdition": "1967（昭和42）年3月30日",
+      "proofreadEdition": "1975（昭和50）年11月10日第2刷"
+    },
+    "author": "夏目漱石",
+    "authors": [
+      {
+        "personId": "000148",
+        "name": "夏目漱石",
+        "kana": "なつめそうせき",
+        "roman": "Soseki Natsume",
+        "role": "著者",
+        "birthDate": "1867-02-09",
+        "deathDate": "1916-12-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

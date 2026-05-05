@@ -222,5 +222,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000322",
+    "title": "源おじ",
+    "titleKana": "げんおじ",
+    "sortKana": "けんおし",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-10-21",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000038/card322.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000038/files/322_ruby_646.zip",
+    "textFileId": "322_ruby_646",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000038/files/322_15794.html",
+    "inputBy": "j.utiyama",
+    "proofreadBy": "八巻美恵",
+    "baseBook1": {
+      "title": "日本文学全集12　国木田独歩　石川啄木集",
+      "publisher": "集英社",
+      "firstPublishedAt": "1967（昭和42）年9月7日",
+      "inputEdition": "1972（昭和47）年9月10日9版",
+      "proofreadEdition": "1972（昭和47）年10月7日"
+    },
+    "author": "国木田独歩",
+    "authors": [
+      {
+        "personId": "000038",
+        "name": "国木田独歩",
+        "kana": "くにきだどっぽ",
+        "roman": "Doppo Kunikida",
+        "role": "著者",
+        "birthDate": "1871-08-30",
+        "deathDate": "1908-06-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

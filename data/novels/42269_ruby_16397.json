@@ -38,5 +38,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042269",
+    "title": "鬼火を追う武士",
+    "titleKana": "おにびをおうぶし",
+    "sortKana": "おにひをおうふし",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-09-25",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000154/card42269.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000154/files/42269_ruby_16397.zip",
+    "textFileId": "42269_ruby_16397",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000154/files/42269_16438.html",
+    "inputBy": "Hiroshi_O",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "怪奇・伝奇時代小説選集3　新怪談集",
+      "publisher": "春陽文庫、春陽堂書店",
+      "firstPublishedAt": "1999（平成11）年12月20日",
+      "inputEdition": "1999（平成11）年12月20日第1刷",
+      "proofreadEdition": "1999（平成11）年12月20日第1刷"
+    },
+    "author": "田中貢太郎",
+    "authors": [
+      {
+        "personId": "000154",
+        "name": "田中貢太郎",
+        "kana": "たなかこうたろう",
+        "roman": "Kotaro Tanaka",
+        "role": "著者",
+        "birthDate": "1880-03-02",
+        "deathDate": "1941-02-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

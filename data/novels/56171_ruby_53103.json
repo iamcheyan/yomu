@@ -480,5 +480,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056171",
+    "title": "希臘十字",
+    "titleKana": "ぎりしゃじゅうじ",
+    "sortKana": "きりしやしゆうし",
+    "firstAppearance": "「希臘十字」椎の木社、1933（昭和8）年8月",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-03-16",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001774/card56171.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001774/files/56171_ruby_53103.zip",
+    "textFileId": "56171_ruby_53103",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001774/files/56171_53104.html",
+    "inputBy": "八巻美恵",
+    "proofreadBy": "浜野智",
+    "baseBook1": {
+      "title": "高祖保詩集",
+      "publisher": "現代詩文庫、思潮社",
+      "firstPublishedAt": "1988（昭和63）年12月20日",
+      "inputEdition": "1988（昭和63）年12月20日初版第1刷"
+    },
+    "author": "高祖保",
+    "authors": [
+      {
+        "personId": "001774",
+        "name": "高祖保",
+        "kana": "こうそたもつ",
+        "roman": "Tamotsu Koso",
+        "role": "著者",
+        "birthDate": "1910-05-04",
+        "deathDate": "1945-01-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

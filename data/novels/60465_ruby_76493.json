@@ -68,5 +68,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060465",
+    "title": "ゴンドラの唄",
+    "titleKana": "ゴンドラのうた",
+    "sortKana": "こんとらのうた",
+    "firstAppearance": "「新日本　第五卷第四號」冨山房、1915（大正4）年4月1日",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-11-19",
+    "updatedAt": "2022-10-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001497/card60465.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001497/files/60465_ruby_76493.zip",
+    "textFileId": "60465_ruby_76493",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001497/files/60465_76529.html",
+    "inputBy": "大久保ゆう",
+    "proofreadBy": "The Creative CAT",
+    "baseBook1": {
+      "title": "脚本その前夜",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1915（大正4）年4月24日",
+      "inputEdition": "1915（大正4）年4月24日",
+      "proofreadEdition": "1915（大正4）年4月24日"
+    },
+    "author": "吉井勇",
+    "authors": [
+      {
+        "personId": "001497",
+        "name": "吉井勇",
+        "kana": "よしいいさむ",
+        "roman": "Isamu Yoshii",
+        "role": "著者",
+        "birthDate": "1886-10-08",
+        "deathDate": "1960-11-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

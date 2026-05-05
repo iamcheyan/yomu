@@ -132,5 +132,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059446",
+    "title": "続スウィス日記（千九百二十三年稿）",
+    "titleKana": "ぞくスウィスにっき（せんきゅうひゃくにじゅうさんねんこう）",
+    "sortKana": "そくすういすにつきせんきゆうひやくにじゆうさんねんこう",
+    "ndc": "NDC 293",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-04-22",
+    "updatedAt": "2022-03-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000277/card59446.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000277/files/59446_ruby_75280.zip",
+    "textFileId": "59446_ruby_75280",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000277/files/59446_75312.html",
+    "inputBy": "富田晶子",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "スウィス日記",
+      "publisher": "平凡社ライブラリー、平凡社",
+      "firstPublishedAt": "1998（平成10）年2月15日",
+      "inputEdition": "1998（平成10）年2月15日初版第1刷",
+      "proofreadEdition": "1998（平成10）年2月15日初版第1刷"
+    },
+    "author": "辻村伊助",
+    "authors": [
+      {
+        "personId": "000277",
+        "name": "辻村伊助",
+        "kana": "つじむらいすけ",
+        "roman": "Isuke Tsujimura",
+        "role": "著者",
+        "birthDate": "1886-04-22",
+        "deathDate": "1923-09-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

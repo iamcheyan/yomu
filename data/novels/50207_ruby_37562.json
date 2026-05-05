@@ -50,5 +50,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050207",
+    "title": "父の墓",
+    "titleKana": "ちちのはか",
+    "sortKana": "ちちのはか",
+    "firstAppearance": "「趣味　第4巻第4号」易風社、1909（明治42）年",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-04-09",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000214/card50207.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000214/files/50207_ruby_37562.zip",
+    "textFileId": "50207_ruby_37562",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000214/files/50207_38445.html",
+    "inputBy": "林田清明",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "ふるさと文学館　第五〇巻　【熊本】",
+      "publisher": "ぎょうせい",
+      "firstPublishedAt": "1993（平成5）年9月15日",
+      "inputEdition": "1993（平成5）年9月15日初版",
+      "proofreadEdition": "1993（平成5）年9月15日初版"
+    },
+    "author": "田山花袋",
+    "authors": [
+      {
+        "personId": "000214",
+        "name": "田山花袋",
+        "kana": "たやまかたい",
+        "roman": "Katai Tayama",
+        "role": "著者",
+        "birthDate": "1872-01-22",
+        "deathDate": "1930-05-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

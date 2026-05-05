@@ -180,5 +180,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000716",
+    "title": "汽笛",
+    "titleKana": "きてき",
+    "sortKana": "きてき",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-02-04",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000134/card716.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000134/files/716_ruby_20819.zip",
+    "textFileId": "716_ruby_20819",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000134/files/716_20820.html",
+    "inputBy": "奥本潔",
+    "proofreadBy": "田尻幹二",
+    "baseBook1": {
+      "title": "見えない機関車　鮎川哲也編",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "1986（昭和61）年10月20日"
+    },
+    "author": "佐左木俊郎",
+    "authors": [
+      {
+        "personId": "000134",
+        "name": "佐左木俊郎",
+        "kana": "ささきとしろう",
+        "roman": "Toshiro Sasaki",
+        "role": "著者",
+        "birthDate": "1900-04-14",
+        "deathDate": "1933-03-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

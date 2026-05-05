@@ -86,5 +86,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001214",
+    "title": "楽しき生涯",
+    "titleKana": "たのしきしょうがい",
+    "sortKana": "たのしきしようかい",
+    "subtitle": "韻なき紀律なき一片の真情",
+    "subtitleKana": "いんなききりつなきいっぺんのしんじょう",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-11-02",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000034/card1214.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000034/files/1214_ruby_19589.zip",
+    "textFileId": "1214_ruby_19589",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000034/files/1214_19590.html",
+    "inputBy": "ゆうき",
+    "proofreadBy": "ちはる",
+    "baseBook1": {
+      "title": "内村鑑三全集3　1894-1896",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1982（昭和57）年12月20日",
+      "inputEdition": "1982（昭和57）年12月20日"
+    },
+    "author": "内村鑑三",
+    "authors": [
+      {
+        "personId": "000034",
+        "name": "内村鑑三",
+        "kana": "うちむらかんぞう",
+        "roman": "Kanzo Uchimura",
+        "role": "著者",
+        "birthDate": "1861-03-26",
+        "deathDate": "1930-03-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

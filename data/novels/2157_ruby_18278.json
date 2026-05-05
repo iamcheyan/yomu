@@ -88,5 +88,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002157",
+    "title": "詩集『花電車』序",
+    "titleKana": "ししゅう『はなでんしゃ』じょ",
+    "sortKana": "ししゆうはなてんしやしよ",
+    "ndc": "NDC 911 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-05-17",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card2157.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/2157_ruby_18278.zip",
+    "textFileId": "2157_ruby_18278",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/2157_18414.html",
+    "inputBy": "加藤恭子",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆23　画",
+      "publisher": "作品社",
+      "firstPublishedAt": "1984（昭和59）年9月25日",
+      "inputEdition": "1991（平成3）年10月20日第12刷"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

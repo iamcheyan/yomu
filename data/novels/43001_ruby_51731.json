@@ -3458,5 +3458,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043001",
+    "title": "吹雪物語",
+    "titleKana": "ふぶきものがたり",
+    "sortKana": "ふふきものかたり",
+    "subtitle": "――夢と知性――",
+    "subtitleKana": "――ゆめとちせい――",
+    "firstAppearance": "「吹雪物語」竹村書房、1938（昭和13）年7月20日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-12-13",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card43001.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/43001_ruby_51731.zip",
+    "textFileId": "43001_ruby_51731",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/43001_51771.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "大沢たかお",
+    "baseBook1": {
+      "title": "坂口安吾全集　02",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年4月20日",
+      "inputEdition": "1999（平成11）年4月20日初版第1刷",
+      "proofreadEdition": "1999（平成11）年4月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

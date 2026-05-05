@@ -106,5 +106,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002307",
+    "title": "喫煙癖",
+    "titleKana": "きつえんへき",
+    "sortKana": "きつえんへき",
+    "firstAppearance": "「北海タイムス」1931（昭和6年）9月、「河北新報」1931（昭和6年）10月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-09-24",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000134/card2307.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000134/files/2307_ruby_2506.zip",
+    "textFileId": "2307_ruby_2506",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000134/files/2307_13551.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "鈴木伸吾",
+    "baseBook1": {
+      "title": "佐左木俊郎選集",
+      "publisher": "英宝社",
+      "firstPublishedAt": "1984（昭和59）年4月14日",
+      "inputEdition": "1984（昭和59）年4月14日初版",
+      "proofreadEdition": "1984（昭和59）年4月14日初版"
+    },
+    "author": "佐左木俊郎",
+    "authors": [
+      {
+        "personId": "000134",
+        "name": "佐左木俊郎",
+        "kana": "ささきとしろう",
+        "roman": "Toshiro Sasaki",
+        "role": "著者",
+        "birthDate": "1900-04-14",
+        "deathDate": "1933-03-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

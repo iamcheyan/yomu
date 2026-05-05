@@ -44,5 +44,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055950",
+    "title": "車中も亦愉し",
+    "titleKana": "しゃちゅうもまたうれし",
+    "sortKana": "しやちゆうもまたうれし",
+    "firstAppearance": "「話」1937（昭和12）年4月号",
+    "ndc": "NDC 778 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-01-03",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001761/card55950.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001761/files/55950_ruby_51986.zip",
+    "textFileId": "55950_ruby_51986",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001761/files/55950_51987.html",
+    "inputBy": "sogo",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "小津安二郎映畫讀本　［東京］そして［家族］",
+      "publisher": "フィルムアート社",
+      "firstPublishedAt": "1993（平成5）年9月25日",
+      "inputEdition": "1993（平成5）年11月12日第2刷",
+      "proofreadEdition": "1993（平成5）年9月25日初版"
+    },
+    "author": "小津安二郎",
+    "authors": [
+      {
+        "personId": "001761",
+        "name": "小津安二郎",
+        "kana": "おづやすじろう",
+        "roman": "Yasujiro Ozu",
+        "role": "著者",
+        "birthDate": "1903-12-12",
+        "deathDate": "1963-12-12",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

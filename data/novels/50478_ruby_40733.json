@@ -64,5 +64,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050478",
+    "title": "「額の男」を読む",
+    "titleKana": "「ひたいのおとこ」をよむ",
+    "sortKana": "ひたいのおとこをよむ",
+    "firstAppearance": "「大阪朝日新聞」1909（明治42）年9月5日",
+    "ndc": "NDC 910",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-01-18",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000148/card50478.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000148/files/50478_ruby_40733.zip",
+    "textFileId": "50478_ruby_40733",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000148/files/50478_41578.html",
+    "inputBy": "ちゃお",
+    "proofreadBy": "笹平健一",
+    "baseBook1": {
+      "title": "漱石全集　第十一卷　評論　雜篇",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1966（昭和41）年 10月24日",
+      "inputEdition": "1975（昭和50）年 10月9日第2刷",
+      "proofreadEdition": "1966（昭和41）年 10月24日第1刷"
+    },
+    "author": "夏目漱石",
+    "authors": [
+      {
+        "personId": "000148",
+        "name": "夏目漱石",
+        "kana": "なつめそうせき",
+        "roman": "Soseki Natsume",
+        "role": "著者",
+        "birthDate": "1867-02-09",
+        "deathDate": "1916-12-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

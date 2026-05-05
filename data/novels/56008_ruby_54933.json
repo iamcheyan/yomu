@@ -48,5 +48,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056008",
+    "title": "わかれ道",
+    "titleKana": "わかれみち",
+    "sortKana": "わかれみち",
+    "firstAppearance": "「国民之友　二七七号」1896（明治29）年1月4日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-12-02",
+    "updatedAt": "2014-11-14",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000064/card56008.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000064/files/56008_ruby_54933.zip",
+    "textFileId": "56008_ruby_54933",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000064/files/56008_54974.html",
+    "inputBy": "万波通彦",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "樋口一葉全集第二卷",
+      "publisher": "新世社",
+      "firstPublishedAt": "1941（昭和16）年7月18日",
+      "inputEdition": "1942（昭和17）年4月10日再版",
+      "proofreadEdition": "1941（昭和16）年7月18日"
+    },
+    "author": "樋口一葉",
+    "authors": [
+      {
+        "personId": "000064",
+        "name": "樋口一葉",
+        "kana": "ひぐちいちよう",
+        "roman": "Ichiyo Higuchi",
+        "role": "著者",
+        "birthDate": "1872-05-02",
+        "deathDate": "1896-11-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

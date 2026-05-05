@@ -82,5 +82,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046671",
+    "title": "山遊び",
+    "titleKana": "やまあそび",
+    "sortKana": "やまあそひ",
+    "firstAppearance": "「白樺」1911（明治44）年11月",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-08-19",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000526/card46671.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000526/files/46671_ruby_39114.zip",
+    "textFileId": "46671_ruby_39114",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000526/files/46671_39934.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "定本　木下利玄全集　散文篇",
+      "publisher": "臨川書店",
+      "firstPublishedAt": "1977（昭和52）年9月10日",
+      "inputEdition": "1977（昭和52）年9月10日第1刷",
+      "proofreadEdition": "1977（昭和52）年9月10日第1刷"
+    },
+    "author": "木下利玄",
+    "authors": [
+      {
+        "personId": "000526",
+        "name": "木下利玄",
+        "kana": "きのしたりげん",
+        "roman": "Rigen Kinoshita",
+        "role": "著者",
+        "birthDate": "1886-01-01",
+        "deathDate": "1925-02-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

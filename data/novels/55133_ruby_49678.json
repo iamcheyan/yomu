@@ -104,5 +104,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055133",
+    "title": "薄暮の貌",
+    "titleKana": "はくぼのかお",
+    "sortKana": "はくほのかお",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-01-04",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001695/card55133.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001695/files/55133_ruby_49678.zip",
+    "textFileId": "55133_ruby_49678",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001695/files/55133_49679.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻25　俳句",
+      "publisher": "作品社",
+      "firstPublishedAt": "1993（平成5）年3月25日",
+      "inputEdition": "1999（平成11）年11月20日第6刷",
+      "proofreadEdition": "1999（平成11）年11月20日第6刷"
+    },
+    "author": "飯田蛇笏",
+    "authors": [
+      {
+        "personId": "001695",
+        "name": "飯田蛇笏",
+        "kana": "いいだだこつ",
+        "roman": "Dakotsu Iida",
+        "role": "著者",
+        "birthDate": "1885-04-26",
+        "deathDate": "1962-10-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

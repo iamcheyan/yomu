@@ -202,5 +202,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059477",
+    "title": "水車のある教会",
+    "titleKana": "すいしゃのあるきょうかい",
+    "sortKana": "すいしやのあるきようかい",
+    "ndc": "NDC 933",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-06-05",
+    "updatedAt": "2020-05-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000097/card59477.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000097/files/59477_ruby_71081.zip",
+    "textFileId": "59477_ruby_71081",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000097/files/59477_71126.html",
+    "inputBy": "sogo",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "世界文學全集（36）近代短篇小説集",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1929（昭和4）年7月25日",
+      "inputEdition": "1929（昭和4）年7月25日",
+      "proofreadEdition": "1929（昭和4）年7月25日"
+    },
+    "author": "オー・ヘンリー",
+    "authors": [
+      {
+        "personId": "000097",
+        "name": "オー・ヘンリー",
+        "kana": "オー・ヘンリー",
+        "roman": "O. Henry",
+        "role": "著者",
+        "birthDate": "1862-09-11",
+        "deathDate": "1910-06-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

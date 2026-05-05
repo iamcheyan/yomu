@@ -5440,5 +5440,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001574",
+    "title": "思ひ出",
+    "titleKana": "おもいで",
+    "sortKana": "おもいて",
+    "firstAppearance": "一章「海豹　第一巻第二号」1933（昭和8）年4月1日<br>二章「海豹　第一巻第四号」1933（昭和8）年6月1日<br>三章「海豹　第一巻第五号」1933（昭和8）年7月1日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-04-22",
+    "updatedAt": "2016-02-23",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card1574.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/1574_ruby_15426.zip",
+    "textFileId": "1574_ruby_15426",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/1574_15508.html",
+    "inputBy": "赤木孝之",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "太宰治全集2",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1998（平成10）年5月25日",
+      "inputEdition": "1998（平成10）年5月25日初版第1刷",
+      "proofreadEdition": "1998（平成10）年5月25日初版第1刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

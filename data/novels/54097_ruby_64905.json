@@ -64,5 +64,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054097",
+    "title": "保護職工",
+    "titleKana": "ほごしょっこう",
+    "sortKana": "ほこしよつこう",
+    "firstAppearance": "「学校詩集」学校詩集発行所、1929（昭和4）年12月",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-06-21",
+    "updatedAt": "2018-05-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001640/card54097.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001640/files/54097_ruby_64905.zip",
+    "textFileId": "54097_ruby_64905",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001640/files/54097_64951.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・39　プロレタリア詩集（二）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年6月30日",
+      "inputEdition": "1987（昭和62）年6月30日初版",
+      "proofreadEdition": "1989（平成元）年5月15日第3刷"
+    },
+    "author": "森竹夫",
+    "authors": [
+      {
+        "personId": "001640",
+        "name": "森竹夫",
+        "kana": "もりたけお",
+        "roman": "Takeo Mori",
+        "role": "著者",
+        "birthDate": "1905",
+        "deathDate": "1946",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

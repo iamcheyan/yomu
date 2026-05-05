@@ -416,5 +416,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043266",
+    "title": "空間概念の分析",
+    "titleKana": "くうかんがいねんのぶんせき",
+    "sortKana": "くうかんかいねんのふんせき",
+    "firstAppearance": "「思想　第八〇号、第八二号」",
+    "ndc": "NDC 121",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-08-01",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000281/card43266.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000281/files/43266_ruby_34902.zip",
+    "textFileId": "43266_ruby_34902",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000281/files/43266_35637.html",
+    "inputBy": "矢野正人",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "戸坂潤全集　第一巻",
+      "publisher": "勁草書房",
+      "firstPublishedAt": "1966（昭和41）年5月25日",
+      "inputEdition": "1967（昭和42）年5月15日第3刷",
+      "proofreadEdition": "1966（昭和41）年5月25日第1刷"
+    },
+    "author": "戸坂潤",
+    "authors": [
+      {
+        "personId": "000281",
+        "name": "戸坂潤",
+        "kana": "とさかじゅん",
+        "roman": "Jun Tosaka",
+        "role": "著者",
+        "birthDate": "1900-09-27",
+        "deathDate": "1945-08-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

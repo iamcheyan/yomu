@@ -360,5 +360,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047762",
+    "title": "殺人狂の話",
+    "titleKana": "さつじんきょうのはなし",
+    "sortKana": "さつしんきようのはなし",
+    "subtitle": "（欧米犯罪実話）",
+    "subtitleKana": "（おうべいはんざいじつわ）",
+    "firstAppearance": "「探偵」1931（昭和6）年5月号",
+    "ndc": "NDC 368",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-11-30",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000289/card47762.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000289/files/47762_ruby_32677.zip",
+    "textFileId": "47762_ruby_32677",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000289/files/47762_33348.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "「探偵」傑作選　幻の探偵雑誌9",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2002（平成14）年1月20日",
+      "inputEdition": "2002（平成14）年1月20日初版1刷",
+      "proofreadEdition": "2002（平成14）年1月20日初版1刷"
+    },
+    "author": "浜尾四郎",
+    "authors": [
+      {
+        "personId": "000289",
+        "name": "浜尾四郎",
+        "kana": "はまおしろう",
+        "roman": "Shiro Hamao",
+        "role": "著者",
+        "birthDate": "1896-04-24",
+        "deathDate": "1935-10-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

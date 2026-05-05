@@ -174,5 +174,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059949",
+    "title": "おるすばん",
+    "titleKana": "おるすばん",
+    "sortKana": "おるすはん",
+    "firstAppearance": "「少女の友」実業之日本社、1943（昭和18）年6月",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-12-17",
+    "updatedAt": "2021-11-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001875/card59949.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001875/files/59949_ruby_74578.zip",
+    "textFileId": "59949_ruby_74578",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001875/files/59949_74615.html",
+    "inputBy": "芝裕久",
+    "proofreadBy": "入江幹夫",
+    "baseBook1": {
+      "title": "日本児童文学大系　第二二巻　北川千代　壺井栄集",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1977（昭和52）年11月20日",
+      "inputEdition": "1983（昭和58）年12月20日5刷",
+      "proofreadEdition": "1991（平成3）年12月10日6刷"
+    },
+    "author": "壺井栄",
+    "authors": [
+      {
+        "personId": "001875",
+        "name": "壺井栄",
+        "kana": "つぼいさかえ",
+        "roman": "Sakae Tsuboi",
+        "role": "著者",
+        "birthDate": "1899-08-05",
+        "deathDate": "1967-06-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

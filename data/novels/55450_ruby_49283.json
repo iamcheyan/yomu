@@ -44,5 +44,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055450",
+    "title": "港",
+    "titleKana": "みなと",
+    "sortKana": "みなと",
+    "ndc": "NDC 951",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-04-13",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001732/card55450.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001732/files/55450_ruby_49283.zip",
+    "textFileId": "55450_ruby_49283",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001732/files/55450_50087.html",
+    "inputBy": "村松洋一",
+    "proofreadBy": "岩澤秀紀",
+    "baseBook1": {
+      "title": "富永太郎詩集",
+      "publisher": "現代詩文庫、思潮社",
+      "firstPublishedAt": "1975（昭和50）年7月10日",
+      "inputEdition": "1984（昭和59）年10月1日第6刷",
+      "proofreadEdition": "1984（昭和59）年10月1日第6刷"
+    },
+    "author": "ボードレールシャルル・ピエール",
+    "authors": [
+      {
+        "personId": "001732",
+        "name": "ボードレールシャルル・ピエール",
+        "kana": "ボードレールシャルル・ピエール",
+        "roman": "Charles Pierre Baudelaire",
+        "role": "著者",
+        "birthDate": "1821-04-09",
+        "deathDate": "1867-08-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

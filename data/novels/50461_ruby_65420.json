@@ -1312,5 +1312,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050461",
+    "title": "山を思う",
+    "titleKana": "やまをおもう",
+    "sortKana": "やまをおもう",
+    "ndc": "NDC 291",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-08-04",
+    "updatedAt": "2018-07-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001380/card50461.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001380/files/50461_ruby_65420.zip",
+    "textFileId": "50461_ruby_65420",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001380/files/50461_65464.html",
+    "inputBy": "富田晶子",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "山を思う",
+      "publisher": "山渓山岳新書、山と渓谷社",
+      "firstPublishedAt": "1955（昭和30）年5月20日",
+      "inputEdition": "1955（昭和30）年5月20日",
+      "proofreadEdition": "1955（昭和30）年5月20日"
+    },
+    "author": "石川欣一",
+    "authors": [
+      {
+        "personId": "001380",
+        "name": "石川欣一",
+        "kana": "いしかわきんいち",
+        "roman": "Kinichi Ishikawa",
+        "role": "著者",
+        "birthDate": "1895-03-17",
+        "deathDate": "1959-08-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

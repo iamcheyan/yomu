@@ -1826,5 +1826,49 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049905",
+    "title": "日本精神史研究",
+    "titleKana": "にほんせいしんしけんきゅう",
+    "sortKana": "にほんせいしんしけんきゆう",
+    "firstAppearance": "推古時代における仏教受容の仕方について「思想」1922（大正11）年7月<br>仏像の相好についての一考察「思想」1922（大正11）年5月<br>『万葉集』の歌と『古今集』の歌との相違について「思想」1922（大正11）年8月<br>お伽噺としての『竹取物語』「思想」1922（大正11）年11月<br>『枕草紙』について「思想」1922（大正11）年9月<br>『枕草紙』の原典批評についての提案「思想」1922（大正11）年9月<br>『源氏物語』について「思想」1922（大正11）年12月<br>「もののあはれ」について「思想」1922（大正11）年10月<br>歌舞伎劇についての一考察「思想」1922（大正11）年4月",
+    "ndc": "NDC 121",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-12-26",
+    "updatedAt": "2017-12-10",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001395/card49905.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001395/files/49905_ruby_63224.zip",
+    "textFileId": "49905_ruby_63224",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001395/files/49905_63366.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "荒木恵一",
+    "baseBook1": {
+      "title": "日本精神史研究",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1992（平成4）年11月16日",
+      "inputEdition": "2007（平成19）年1月25日第16刷",
+      "proofreadEdition": "2012（平成24）年5月25日第20刷"
+    },
+    "baseBook2": {
+      "title": "和辻哲郎全集　第四巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1989（平成元）年"
+    },
+    "author": "和辻哲郎",
+    "authors": [
+      {
+        "personId": "001395",
+        "name": "和辻哲郎",
+        "kana": "わつじてつろう",
+        "roman": "Tetsuro Watsuji",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1960-12-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

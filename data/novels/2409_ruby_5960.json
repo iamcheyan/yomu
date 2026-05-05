@@ -34,5 +34,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002409",
+    "title": "新橋",
+    "titleKana": "しんばし",
+    "sortKana": "しんはし",
+    "ndc": "NDC 914 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-01-11",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000106/card2409.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000106/files/2409_ruby_5960.zip",
+    "textFileId": "2409_ruby_5960",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000106/files/2409_20771.html",
+    "inputBy": "ふろっぎぃ",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻95　明治",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年1月25日",
+      "inputEdition": "1999（平成11）年1月25日第1刷"
+    },
+    "author": "北原白秋",
+    "authors": [
+      {
+        "personId": "000106",
+        "name": "北原白秋",
+        "kana": "きたはらはくしゅう",
+        "roman": "Hakushu Kitahara",
+        "role": "著者",
+        "birthDate": "1885-01-25",
+        "deathDate": "1942-11-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

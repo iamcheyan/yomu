@@ -70,5 +70,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052238",
+    "title": "『火星兵団』の作者の言葉",
+    "titleKana": "『かせいへいだん』のさくしゃのことば",
+    "sortKana": "かせいへいたんのさくしやのことは",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-02-09",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card52238.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/52238_ruby_41385.zip",
+    "textFileId": "52238_ruby_41385",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/52238_41721.html",
+    "inputBy": "ハチミツ",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "海野十三傑作集3　火星兵団",
+      "publisher": "桃源社",
+      "firstPublishedAt": "1971（昭和46）年9月25日",
+      "inputEdition": "1971（昭和46）年9月25日",
+      "proofreadEdition": "1970（昭和45）年1月30日"
+    },
+    "author": "海野十三",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

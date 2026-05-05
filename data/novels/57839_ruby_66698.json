@@ -590,5 +590,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057839",
+    "title": "赤ひげ診療譚",
+    "titleKana": "あかひげしんりょうたん",
+    "sortKana": "あかひけしんりようたん",
+    "subtitle": "08 氷の下の芽",
+    "subtitleKana": "08 こおりのしたのめ",
+    "firstAppearance": "「オール読物」1958（昭和33）年12月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-01-23",
+    "updatedAt": "2018-12-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001869/card57839.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001869/files/57839_ruby_66698.zip",
+    "textFileId": "57839_ruby_66698",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001869/files/57839_66749.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "北川松生",
+    "baseBook1": {
+      "title": "山本周五郎全集第十一巻　赤ひげ診療譚・五瓣の椿",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1981（昭和56）年10月25日",
+      "inputEdition": "1981（昭和56）年10月25日",
+      "proofreadEdition": "1981（昭和56）年10月25日"
+    },
+    "author": "山本周五郎",
+    "authors": [
+      {
+        "personId": "001869",
+        "name": "山本周五郎",
+        "kana": "やまもとしゅうごろう",
+        "roman": "Shugoro Yamamoto",
+        "role": "著者",
+        "birthDate": "1903-06-22",
+        "deathDate": "1967-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

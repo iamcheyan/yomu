@@ -98,5 +98,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "044461",
+    "title": "旅の苦労",
+    "titleKana": "たびのくろう",
+    "sortKana": "たひのくろう",
+    "firstAppearance": "「専売　第二九八号」1937（昭和12）年6月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-12-14",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001154/card44461.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001154/files/44461_ruby_37187.zip",
+    "textFileId": "44461_ruby_37187",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001154/files/44461_37229.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "岸田國士全集23",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1990（平成2）年12月7日",
+      "inputEdition": "1990（平成2）年12月7日",
+      "proofreadEdition": "1990（平成2）年12月7日"
+    },
+    "author": "岸田国士",
+    "authors": [
+      {
+        "personId": "001154",
+        "name": "岸田国士",
+        "kana": "きしだくにお",
+        "roman": "Kunio Kishida",
+        "role": "著者",
+        "birthDate": "1890-11-02",
+        "deathDate": "1954-03-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

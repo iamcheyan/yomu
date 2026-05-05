@@ -44,5 +44,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059813",
+    "title": "十勝の朝",
+    "titleKana": "とかちのあさ",
+    "sortKana": "とかちのあさ",
+    "firstAppearance": "「新風土」1938（昭和13）年2月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-05-07",
+    "updatedAt": "2022-04-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card59813.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/59813_ruby_75423.zip",
+    "textFileId": "59813_ruby_75423",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/59813_75455.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "安野千歳",
+    "baseBook1": {
+      "title": "科学以前の心",
+      "publisher": "河出文庫、河出書房新社",
+      "firstPublishedAt": "2013（平成25）年4月20日",
+      "inputEdition": "2013（平成25）年4月20日初版",
+      "proofreadEdition": "2017（平成29）年12月20日第2刷"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

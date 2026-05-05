@@ -116,5 +116,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001124",
+    "title": "三つのなぜ",
+    "titleKana": "みっつのなぜ",
+    "sortKana": "みつつのなせ",
+    "firstAppearance": "「サンデー毎日　第六年第十五号」1927（昭和2）年4月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-01-30",
+    "updatedAt": "2016-02-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000879/card1124.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000879/files/1124_ruby_14121.zip",
+    "textFileId": "1124_ruby_14121",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000879/files/1124_14252.html",
+    "inputBy": "j.utiyama",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "昭和文学全集　第1巻",
+      "publisher": "小学館",
+      "firstPublishedAt": "1987（昭和62）年5月1日",
+      "inputEdition": "1987（昭和62）年5月1日初版第1刷",
+      "proofreadEdition": "1987（昭和62）年5月1日初版第1刷"
+    },
+    "author": "芥川竜之介",
+    "authors": [
+      {
+        "personId": "000879",
+        "name": "芥川竜之介",
+        "kana": "あくたがわりゅうのすけ",
+        "roman": "Ryunosuke Akutagawa",
+        "role": "著者",
+        "birthDate": "1892-03-01",
+        "deathDate": "1927-07-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

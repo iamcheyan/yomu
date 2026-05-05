@@ -104,5 +104,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059785",
+    "title": "西洋の浜焼",
+    "titleKana": "せいようのはまやき",
+    "sortKana": "せいようのはまやき",
+    "firstAppearance": "本文「あまカラ　第五十二号」甘辛社、1955（昭和30）年12月5日<br>付記「あまカラ　第五十八号」甘辛社、1956（昭和31）年6月5日",
+    "ndc": "NDC 596",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-04-25",
+    "updatedAt": "2022-03-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card59785.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/59785_ruby_75283.zip",
+    "textFileId": "59785_ruby_75283",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/59785_75315.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "木下聡",
+    "baseBook1": {
+      "title": "中谷宇吉郎随筆選集第三巻",
+      "publisher": "朝日新聞社",
+      "firstPublishedAt": "1966（昭和41）年10月20日",
+      "inputEdition": "1966（昭和41）年10月30日第2刷",
+      "proofreadEdition": "1972（昭和47）年2月20日第9刷"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

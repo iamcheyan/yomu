@@ -1012,5 +1012,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042756",
+    "title": "四十八人目",
+    "titleKana": "よんじゅうはちにんめ",
+    "sortKana": "よんしゆうはちにんめ",
+    "firstAppearance": "「改造」1929（昭和4）年10月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-11-22",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000826/card42756.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000826/files/42756_ruby_24294.zip",
+    "textFileId": "42756_ruby_24294",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000826/files/42756_24581.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "浅原庸子",
+    "baseBook1": {
+      "title": "日本文学全集18　鈴木三重吉　森田草平集",
+      "publisher": "集英社",
+      "firstPublishedAt": "1969（昭和44）年9月12日",
+      "inputEdition": "1969（昭和44）年9月12日"
+    },
+    "author": "森田草平",
+    "authors": [
+      {
+        "personId": "000826",
+        "name": "森田草平",
+        "kana": "もりたそうへい",
+        "roman": "Sohei Morita",
+        "role": "著者",
+        "birthDate": "1881-03-19",
+        "deathDate": "1949-12-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

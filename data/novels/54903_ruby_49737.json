@@ -72,5 +72,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054903",
+    "title": "家を持つといふこと",
+    "titleKana": "いえをもつということ",
+    "sortKana": "いえをもつということ",
+    "ndc": "NDC 380",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-01-19",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001566/card54903.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001566/files/54903_ruby_49737.zip",
+    "textFileId": "54903_ruby_49737",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001566/files/54903_49738.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "阿部哲也",
+    "baseBook1": {
+      "title": "日本の名随筆83　家",
+      "publisher": "作品社",
+      "firstPublishedAt": "1989（平成元）年9月25日",
+      "inputEdition": "1993（平成5）年8月30日第4刷",
+      "proofreadEdition": "1989（平成1）年9月25日第1刷"
+    },
+    "author": "柳田国男",
+    "authors": [
+      {
+        "personId": "001566",
+        "name": "柳田国男",
+        "kana": "やなぎたくにお",
+        "roman": "Kunio Yanagita",
+        "role": "著者",
+        "birthDate": "1875-07-31",
+        "deathDate": "1962-08-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

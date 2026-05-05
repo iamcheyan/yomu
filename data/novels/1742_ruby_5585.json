@@ -70,5 +70,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001742",
+    "title": "牛人",
+    "titleKana": "ぎゅうじん",
+    "sortKana": "きゆうしん",
+    "firstAppearance": "「政界往来」1942（昭和17）年7月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-01-20",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000119/card1742.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000119/files/1742_ruby_5585.zip",
+    "textFileId": "1742_ruby_5585",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000119/files/1742_14529.html",
+    "inputBy": "小林克彦",
+    "proofreadBy": "今井忠夫",
+    "baseBook1": {
+      "title": "山月記・李陵　他九篇",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1994（平成6）年7月18日",
+      "inputEdition": "1998（平成10）年12月25日第7刷"
+    },
+    "author": "中島敦",
+    "authors": [
+      {
+        "personId": "000119",
+        "name": "中島敦",
+        "kana": "なかじまあつし",
+        "roman": "Atsushi Nakajima",
+        "role": "著者",
+        "birthDate": "1909-05-05",
+        "deathDate": "1942-12-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

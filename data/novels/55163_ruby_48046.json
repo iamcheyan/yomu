@@ -282,5 +282,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055163",
+    "title": "墓場",
+    "titleKana": "はかば",
+    "sortKana": "はかは",
+    "firstAppearance": "「真珠」探偵公論社、1947（昭和22）年11・12月合併号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-08-20",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001143/card55163.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001143/files/55163_ruby_48046.zip",
+    "textFileId": "55163_ruby_48046",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001143/files/55163_48138.html",
+    "inputBy": "匿名",
+    "proofreadBy": "菊池真",
+    "baseBook1": {
+      "title": "西尾正探偵小説選Ⅱ",
+      "publisher": "論創社",
+      "firstPublishedAt": "2007（平成19）年3月20日",
+      "inputEdition": "2007（平成19）年3月20日初版第1刷",
+      "proofreadEdition": "2007（平成19）年3月20日初版第1刷"
+    },
+    "author": "西尾正",
+    "authors": [
+      {
+        "personId": "001143",
+        "name": "西尾正",
+        "kana": "にしおただし",
+        "roman": "Tadashi Nishio",
+        "role": "著者",
+        "birthDate": "1907-12-12",
+        "deathDate": "1949-03-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

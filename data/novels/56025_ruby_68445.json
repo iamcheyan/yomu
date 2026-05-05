@@ -34,5 +34,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056025",
+    "title": "うもれ木",
+    "titleKana": "うもれぎ",
+    "sortKana": "うもれき",
+    "subtitle": "01 序",
+    "subtitleKana": "01 じょ",
+    "firstAppearance": "「都の花　第九十五號」金港堂、1892（明治25）年11月20日",
+    "ndc": "NDC 913 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-07-18",
+    "updatedAt": "2019-06-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001765/card56025.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001765/files/56025_ruby_68445.zip",
+    "textFileId": "56025_ruby_68445",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001765/files/56025_68494.html",
+    "inputBy": "万波通彦",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "都の花　第九十五號",
+      "publisher": "金港堂",
+      "firstPublishedAt": "1892（明治25）年11月20日",
+      "inputEdition": "1892（明治25）年11月20日",
+      "proofreadEdition": "1892（明治25）年11月20日"
+    },
+    "author": "田辺竜子",
+    "authors": [
+      {
+        "personId": "001765",
+        "name": "田辺竜子",
+        "kana": "たなべたつこ",
+        "roman": "Tatsuko Tanabe",
+        "role": "著者",
+        "birthDate": "1869-02-04",
+        "deathDate": "1943-07-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

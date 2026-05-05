@@ -560,5 +560,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047137",
+    "title": "黄金機会",
+    "titleKana": "おうごんきかい",
+    "sortKana": "おうこんきかい",
+    "firstAppearance": "「女学雑誌　通巻三四二号、三四四号、三四五号、三四八号」女学雑誌社、1893（明治26）年4月29日、5月13日、5月27日、7月28日",
+    "ndc": "NDC K913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-03-09",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000163/card47137.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000163/files/47137_ruby_41947.zip",
+    "textFileId": "47137_ruby_41947",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000163/files/47137_42190.html",
+    "inputBy": "広橋はやみ",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本児童文学大系　第二巻",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1977（昭和52）年11月20日",
+      "inputEdition": "1983（昭和58）年12月20日5刷",
+      "proofreadEdition": "1983（昭和58）年12月20日5刷"
+    },
+    "author": "若松賤子",
+    "authors": [
+      {
+        "personId": "000163",
+        "name": "若松賤子",
+        "kana": "わかまつしずこ",
+        "roman": "Shizuko Wakamatsu",
+        "role": "著者",
+        "birthDate": "1864-04-06",
+        "deathDate": "1896-02-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

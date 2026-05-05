@@ -72,5 +72,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057391",
+    "title": "鎌倉",
+    "titleKana": "かまくら",
+    "sortKana": "かまくら",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-06-16",
+    "updatedAt": "2022-05-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000723/card57391.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000723/files/57391_ruby_75629.zip",
+    "textFileId": "57391_ruby_75629",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000723/files/57391_75659.html",
+    "inputBy": "浦山敦子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本随筆紀行第九巻　鎌倉　くれないの武者の祈り",
+      "publisher": "作品社",
+      "firstPublishedAt": "1986（昭和61）年8月10日",
+      "inputEdition": "1986（昭和61）年8月10日第1刷",
+      "proofreadEdition": "1986（昭和61）年8月10日第1刷"
+    },
+    "author": "芳賀矢一",
+    "authors": [
+      {
+        "personId": "000723",
+        "name": "芳賀矢一",
+        "kana": "はがやいち",
+        "roman": "Yaichi Haga",
+        "role": "著者",
+        "birthDate": "1867-06-16",
+        "deathDate": "1927-02-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

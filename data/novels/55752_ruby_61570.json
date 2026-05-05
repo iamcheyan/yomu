@@ -510,5 +510,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055752",
+    "title": "緑の種子",
+    "titleKana": "みどりのたね",
+    "sortKana": "みとりのたね",
+    "firstAppearance": "緑の種子「朱欒　2巻9号」1912（大正元）年9月1日<br>棗の樹「白樺　3巻10号」1912（大正元）年10月1日<br>人食ふひと「朱欒　3巻4号」1913（大正2）年4月1日<br>ペンギン「朱欒　2巻6号」1912（明治45）年6月1日<br>悲みの奥「朱欒　2巻6号」1912（明治45）年6月1日<br>夕とどろき「朱欒　2巻6号」1912（明治45）年6月1日<br>石竹「朱欒　2巻6号」1912（明治45）年6月1日<br>屋根の風見「朱欒　1巻2号」1911（明治44）年12月1日<br>初冬のわかれ「朱欒　1巻2号」1911（明治44）年12月1日<br>春を待つ間に「朱欒　1巻2号」1911（明治44）年12月1日",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-06-30",
+    "updatedAt": "2017-04-03",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000106/card55752.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000106/files/55752_ruby_61570.zip",
+    "textFileId": "55752_ruby_61570",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000106/files/55752_61609.html",
+    "inputBy": "岡村和彦",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "白秋全集　3",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1985（昭和60）年5月7日",
+      "inputEdition": "1985（昭和60）年5月7日",
+      "proofreadEdition": "1985（昭和60）年5月7日"
+    },
+    "author": "北原白秋",
+    "authors": [
+      {
+        "personId": "000106",
+        "name": "北原白秋",
+        "kana": "きたはらはくしゅう",
+        "roman": "Hakushu Kitahara",
+        "role": "著者",
+        "birthDate": "1885-01-25",
+        "deathDate": "1942-11-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

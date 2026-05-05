@@ -140,5 +140,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001820",
+    "title": "獄中の女より男に",
+    "titleKana": "ごくちゅうのおんなよりおとこに",
+    "sortKana": "こくちゆうのおんなよりおとこに",
+    "ndc": "NDC 914 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-10-31",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000292/card1820.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000292/files/1820_ruby_23726.zip",
+    "textFileId": "1820_ruby_23726",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000292/files/1820_24299.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆77　産",
+      "publisher": "作品社",
+      "firstPublishedAt": "1989（平成元）年3月25日",
+      "inputEdition": "1989（平成元）年3月25日第1刷",
+      "proofreadEdition": "1989（平成元）年3月25日第1刷"
+    },
+    "author": "原田皐月",
+    "authors": [
+      {
+        "personId": "000292",
+        "name": "原田皐月",
+        "kana": "はらださつき",
+        "roman": "Satsuki Harada",
+        "role": "著者",
+        "birthDate": "1887",
+        "deathDate": "1933",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

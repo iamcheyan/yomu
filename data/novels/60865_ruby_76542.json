@@ -38,5 +38,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060865",
+    "title": "太平洋食堂",
+    "titleKana": "たいへいようしょくどう",
+    "sortKana": "たいへいようしよくとう",
+    "firstAppearance": "「家庭雑誌　第二巻第一〇号」由分社、1904（明治37）年10月2日",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-11-04",
+    "updatedAt": "2022-10-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001998/card60865.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001998/files/60865_ruby_76542.zip",
+    "textFileId": "60865_ruby_76542",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001998/files/60865_76511.html",
+    "inputBy": "神無月",
+    "proofreadBy": "持田和踏",
+    "baseBook1": {
+      "title": "大石誠之助全集1",
+      "publisher": "弘隆社",
+      "firstPublishedAt": "1982（昭和57）年8月5日",
+      "inputEdition": "1982（昭和57）年8月5日",
+      "proofreadEdition": "1982（昭和57）年8月5日"
+    },
+    "author": "大石誠之助",
+    "authors": [
+      {
+        "personId": "001998",
+        "name": "大石誠之助",
+        "kana": "おおいしせいのすけ",
+        "roman": "Seinosuke Oishi",
+        "role": "著者",
+        "birthDate": "1867-11-29",
+        "deathDate": "1911-01-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

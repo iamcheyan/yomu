@@ -106,5 +106,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045806",
+    "title": "傲慢な眼",
+    "titleKana": "ごうまんなめ",
+    "sortKana": "こうまんなめ",
+    "firstAppearance": "「都新聞　第一六二一二～一六二一三号」1933（昭和8）年1月8日～1月9日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-06-07",
+    "updatedAt": "2016-04-04",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card45806.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/45806_ruby_34568.zip",
+    "textFileId": "45806_ruby_34568",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/45806_34990.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "坂口安吾全集　01",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年5月20日",
+      "inputEdition": "1999（平成11）年5月20日初版第1刷",
+      "proofreadEdition": "1999（平成11）年5月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

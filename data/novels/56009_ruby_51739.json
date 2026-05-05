@@ -56,5 +56,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056009",
+    "title": "琴の音",
+    "titleKana": "ことのね",
+    "sortKana": "ことのね",
+    "firstAppearance": "「文學界　第十二號」文學界雜誌社、1893（明治26）年12月30日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-12-19",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000064/card56009.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000064/files/56009_ruby_51739.zip",
+    "textFileId": "56009_ruby_51739",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000064/files/56009_51779.html",
+    "inputBy": "万波通彦",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "文學界　第十二號",
+      "firstPublishedAt": "1893（明治26）年12月",
+      "inputEdition": "1893（明治26）年12月",
+      "proofreadEdition": "1893（明治26）年12月"
+    },
+    "author": "樋口一葉",
+    "authors": [
+      {
+        "personId": "000064",
+        "name": "樋口一葉",
+        "kana": "ひぐちいちよう",
+        "roman": "Ichiyo Higuchi",
+        "role": "著者",
+        "birthDate": "1872-05-02",
+        "deathDate": "1896-11-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

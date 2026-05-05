@@ -28,5 +28,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "044917",
+    "title": "今後の寺院生活に対する私考",
+    "titleKana": "こんごのじいんせいかつにたいするしこう",
+    "sortKana": "こんこのしいんせいかつにたいするしこう",
+    "firstAppearance": "「涅槃」1927（昭和2）年3月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-08-19",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card44917.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/44917_ruby_23127.zip",
+    "textFileId": "44917_ruby_23127",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/44917_23668.html",
+    "inputBy": "うてな",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "堕落論",
+      "publisher": "新潮社",
+      "firstPublishedAt": "2000（平成12）年6月1日",
+      "inputEdition": "2004（平成16）年4月20日5刷",
+      "proofreadEdition": "2005（平成17）年2月10日6刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

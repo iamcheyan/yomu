@@ -102,5 +102,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060714",
+    "title": "マスク",
+    "titleKana": "マスク",
+    "sortKana": "ますく",
+    "firstAppearance": "「改造」1920（大正9）年7月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-12-26",
+    "updatedAt": "2021-11-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000083/card60714.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000083/files/60714_ruby_74590.zip",
+    "textFileId": "60714_ruby_74590",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000083/files/60714_74627.html",
+    "inputBy": "卯月",
+    "proofreadBy": "友理",
+    "baseBook1": {
+      "title": "菊池寛文學全集　第三巻",
+      "publisher": "文藝春秋新社",
+      "firstPublishedAt": "1960（昭和35）年05月20日",
+      "inputEdition": "1960（昭和35）年05月20日",
+      "proofreadEdition": "1960（昭和35）年05月20日"
+    },
+    "author": "菊池寛",
+    "authors": [
+      {
+        "personId": "000083",
+        "name": "菊池寛",
+        "kana": "きくちかん",
+        "roman": "Kan Kikuchi",
+        "role": "著者",
+        "birthDate": "1888-12-26",
+        "deathDate": "1948-03-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

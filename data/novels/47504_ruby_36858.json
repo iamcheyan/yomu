@@ -248,5 +248,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047504",
+    "title": "ノンシャラン道中記",
+    "titleKana": "ノンシャランどうちゅうき",
+    "sortKana": "のんしやらんとうちゆうき",
+    "subtitle": "08 燕尾服の自殺　――ブルゴオニュの葡萄祭り――",
+    "subtitleKana": "08 えんびふくのじさつ　――ブルゴオニュのぶどうまつり――",
+    "firstAppearance": "「新青年」1934（昭和9）年8月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-12-26",
+    "updatedAt": "2020-09-06",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001224/card47504.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001224/files/47504_ruby_36858.zip",
+    "textFileId": "47504_ruby_36858",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001224/files/47504_37034.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "久生十蘭全集　Ⅵ",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1970（昭和45）年4月30日",
+      "inputEdition": "1974（昭和49）年6月30日第1版第2刷",
+      "proofreadEdition": "1974（昭和49）年6月30日第1版第2刷"
+    },
+    "author": "久生十蘭",
+    "authors": [
+      {
+        "personId": "001224",
+        "name": "久生十蘭",
+        "kana": "ひさおじゅうらん",
+        "roman": "Juran Hisao",
+        "role": "著者",
+        "birthDate": "1902-04-06",
+        "deathDate": "1957-10-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

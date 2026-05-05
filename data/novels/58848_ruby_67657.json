@@ -404,5 +404,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058848",
+    "title": "人魚の姫",
+    "titleKana": "にんぎょのひめ",
+    "sortKana": "にんきよのひめ",
+    "ndc": "NDC K949",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-04-02",
+    "updatedAt": "2019-03-31",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000019/card58848.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000019/files/58848_ruby_67657.zip",
+    "textFileId": "58848_ruby_67657",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000019/files/58848_67709.html",
+    "inputBy": "チエコ",
+    "proofreadBy": "木下聡",
+    "baseBook1": {
+      "title": "人魚の姫　アンデルセン童話集Ⅰ",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1967（昭和42）年12月10日",
+      "inputEdition": "2011（平成23）年9月5日48刷",
+      "proofreadEdition": "2011（平成23）年9月5日48刷"
+    },
+    "author": "アンデルセンハンス・クリスチャン",
+    "authors": [
+      {
+        "personId": "000019",
+        "name": "アンデルセンハンス・クリスチャン",
+        "kana": "アンデルセンハンス・クリスチャン",
+        "roman": "Hans Christian Andersen",
+        "role": "著者",
+        "birthDate": "1805-04-02",
+        "deathDate": "1875-08-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

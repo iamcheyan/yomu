@@ -96,5 +96,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043003",
+    "title": "探偵の巻",
+    "titleKana": "たんていのまき",
+    "sortKana": "たんていのまき",
+    "firstAppearance": "「都新聞　第一八三四二～一八三四四」1938（昭和13）年11月24～26日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-12-14",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card43003.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/43003_ruby_32734.zip",
+    "textFileId": "43003_ruby_32734",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/43003_33442.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "坂口安吾全集　02",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年4月20日",
+      "inputEdition": "1999（平成11）年4月20日初版第1刷",
+      "proofreadEdition": "1999（平成11）年4月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

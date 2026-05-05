@@ -134,5 +134,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045256",
+    "title": "文づかい",
+    "titleKana": "ふみづかい",
+    "sortKana": "ふみつかい",
+    "firstAppearance": "「新著百種　第12号」吉岡書籍店、1891（明治24）年1月28日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-11-06",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card45256.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/45256_ruby_19720.zip",
+    "textFileId": "45256_ruby_19720",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/45256_19787.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "日本の文学　2　森鴎外（一）",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1966（昭和41）年1月5日",
+      "inputEdition": "1972（昭和47）年3月25日19版",
+      "proofreadEdition": "1974（昭和49）年2月1日22版"
+    },
+    "author": "森鴎外",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

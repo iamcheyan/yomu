@@ -48,5 +48,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002505",
+    "title": "小泉八雲秘稿画本「妖魔詩話」",
+    "titleKana": "こいずみやくもひこうがほん「ようましわ」",
+    "sortKana": "こいすみやくもひこうかほんようましわ",
+    "firstAppearance": "「帝国大学新聞」1934（昭和9）年10月",
+    "ndc": "NDC 914 930",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-03-22",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000042/card2505.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000042/files/2505_ruby_9331.zip",
+    "textFileId": "2505_ruby_9331",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000042/files/2505_9345.html",
+    "inputBy": "加藤恭子",
+    "proofreadBy": "かとうかおり",
+    "baseBook1": {
+      "title": "寺田寅彦全集　第十七巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1962（昭和37）年2月7日",
+      "inputEdition": "1962（昭和37）年2月7日第1刷"
+    },
+    "author": "寺田寅彦",
+    "authors": [
+      {
+        "personId": "000042",
+        "name": "寺田寅彦",
+        "kana": "てらだとらひこ",
+        "roman": "Torahiko Terada",
+        "role": "著者",
+        "birthDate": "1878-11-28",
+        "deathDate": "1935-12-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

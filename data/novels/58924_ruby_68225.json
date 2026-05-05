@@ -98,5 +98,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058924",
+    "title": "トラピスト天使園の童貞",
+    "titleKana": "トラピストてんしえんのどうてい",
+    "sortKana": "とらひすとてんしえんのとうてい",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-06-23",
+    "updatedAt": "2019-05-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001976/card58924.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001976/files/58924_ruby_68225.zip",
+    "textFileId": "58924_ruby_68225",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001976/files/58924_68270.html",
+    "inputBy": "大久保ゆう",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本随筆紀行第二巻　札幌｜小樽｜函館　北の街はリラの香り",
+      "publisher": "作品社",
+      "firstPublishedAt": "1986（昭和61）年4月25日",
+      "inputEdition": "1986（昭和61）年4月25日第1刷",
+      "proofreadEdition": "1986（昭和61）年4月25日第1刷"
+    },
+    "author": "三木露風",
+    "authors": [
+      {
+        "personId": "001976",
+        "name": "三木露風",
+        "kana": "みきろふう",
+        "roman": "Rofu Miki",
+        "role": "著者",
+        "birthDate": "1889-06-23",
+        "deathDate": "1964-12-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

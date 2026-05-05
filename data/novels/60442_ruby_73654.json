@@ -42,5 +42,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060442",
+    "title": "海の小品",
+    "titleKana": "うみのしょうひん",
+    "sortKana": "うみのしようひん",
+    "firstAppearance": "「野性」1950（昭和25）年9月",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-07-20",
+    "updatedAt": "2021-07-08",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000293/card60442.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000293/files/60442_ruby_73654.zip",
+    "textFileId": "60442_ruby_73654",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000293/files/60442_73693.html",
+    "inputBy": "村並秀昭",
+    "proofreadBy": "竹井真",
+    "baseBook1": {
+      "title": "原民喜全詩集",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2015（平成27）年7月16日",
+      "inputEdition": "2015（平成27）年7月16日第1刷",
+      "proofreadEdition": "2018（平成30）年7月25日第3刷"
+    },
+    "author": "原民喜",
+    "authors": [
+      {
+        "personId": "000293",
+        "name": "原民喜",
+        "kana": "はらたみき",
+        "roman": "Tamiki Hara",
+        "role": "著者",
+        "birthDate": "1905-11-15",
+        "deathDate": "1951-03-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

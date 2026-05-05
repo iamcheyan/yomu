@@ -112,5 +112,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052907",
+    "title": "香水の虹",
+    "titleKana": "こうすいのにじ",
+    "sortKana": "こうすいのにし",
+    "firstAppearance": "「少女　第一〇九号（新年号）」時事新報社、1921（大正10）年12月8日",
+    "ndc": "NDC K913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-06-10",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000183/card52907.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000183/files/52907_ruby_42857.zip",
+    "textFileId": "52907_ruby_42857",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000183/files/52907_42880.html",
+    "inputBy": "宮元淳一",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "牧野信一全集第一巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2002（平成14）年8月20日",
+      "inputEdition": "2002（平成14）年8月20日初版第1刷"
+    },
+    "author": "牧野信一",
+    "authors": [
+      {
+        "personId": "000183",
+        "name": "牧野信一",
+        "kana": "まきのしんいち",
+        "roman": "Shin'ichi Makino",
+        "role": "著者",
+        "birthDate": "1896-11-12",
+        "deathDate": "1936-03-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

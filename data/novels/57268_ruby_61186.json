@@ -216,5 +216,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057268",
+    "title": "北国の春",
+    "titleKana": "きたぐにのはる",
+    "sortKana": "きたくにのはる",
+    "firstAppearance": "ウィネッカの早春「北海タイムス」1953（昭和28）年5月19日<br>北海道の山うど「北海タイムス」1953（昭和28）年6月7日<br>鰊「北海タイムス」1953（昭和28）年5月9日<br>バターの洪水「北海タイムス」1953（昭和28）年6月16日<br>弾丸道路「北海タイムス」1953（昭和28）年8月8日<br>バチラーさんの話「北海タイムス」1953（昭和28）年8月22日<br>エスキモーの生活「北海タイムス」1953（昭和28）年8月16日<br>北海道の位置「北海タイムス」1953（昭和28）年7月11日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-04-11",
+    "updatedAt": "2017-03-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card57268.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/57268_ruby_61186.zip",
+    "textFileId": "57268_ruby_61186",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/57268_61229.html",
+    "inputBy": "kompass",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "中谷宇吉郎集　第八巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "2001（平成13）年5月7日",
+      "inputEdition": "2001（平成13）年5月7日第1刷",
+      "proofreadEdition": "2001（平成13）年5月7日第1刷"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -7480,5 +7480,43 @@
     [],
     []
   ],
-  "desc": "地方出身の大学生が東京で揺れ動く青春。"
+  "desc": "地方出身の大学生が東京で揺れ動く青春。",
+  "aozora_info": {
+    "workId": "000794",
+    "title": "三四郎",
+    "titleKana": "さんしろう",
+    "sortKana": "さんしろう",
+    "firstAppearance": "「朝日新聞」1908（明治41）年9月1日～12月29日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-07-01",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000148/card794.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000148/files/794_ruby_4237.zip",
+    "textFileId": "794_ruby_4237",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000148/files/794_14946.html",
+    "inputBy": "古村充",
+    "proofreadBy": "かとうかおり",
+    "baseBook1": {
+      "title": "三四郎",
+      "publisher": "角川文庫クラシックス、角川書店",
+      "firstPublishedAt": "1951（昭和26）年10月20日",
+      "inputEdition": "1997（平成9）年6月10日第127刷"
+    },
+    "author": "夏目漱石",
+    "authors": [
+      {
+        "personId": "000148",
+        "name": "夏目漱石",
+        "kana": "なつめそうせき",
+        "roman": "Soseki Natsume",
+        "role": "著者",
+        "birthDate": "1867-02-09",
+        "deathDate": "1916-12-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

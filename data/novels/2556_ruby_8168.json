@@ -308,5 +308,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002556",
+    "title": "女が来て",
+    "titleKana": "おんながきて",
+    "sortKana": "おんなかきて",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-02-26",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000885/card2556.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000885/files/2556_ruby_8168.zip",
+    "textFileId": "2556_ruby_8168",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000885/files/2556_8747.html",
+    "inputBy": "武田秀男",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "我等",
+      "publisher": "我等発行所",
+      "firstPublishedAt": "1914（大正3）年6月号",
+      "inputEdition": "1914（大正3）年6月号",
+      "proofreadEdition": "1914（大正3）年6月号"
+    },
+    "author": "与謝野晶子",
+    "authors": [
+      {
+        "personId": "000885",
+        "name": "与謝野晶子",
+        "kana": "よさのあきこ",
+        "roman": "Akiko Yosano",
+        "role": "著者",
+        "birthDate": "1878-12-07",
+        "deathDate": "1942-05-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

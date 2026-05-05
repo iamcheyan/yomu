@@ -2580,5 +2580,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050201",
+    "title": "其中日記",
+    "titleKana": "ごちゅうにっき",
+    "sortKana": "こちゆうにつき",
+    "subtitle": "16 （十五）",
+    "subtitleKana": "16 （じゅうご）",
+    "ndc": "NDC 911 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-07-28",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000146/card50201.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000146/files/50201_ruby_38725.zip",
+    "textFileId": "50201_ruby_38725",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000146/files/50201_39689.html",
+    "inputBy": "小林繁雄",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "山頭火全集　第九巻",
+      "publisher": "春陽堂書店",
+      "firstPublishedAt": "1987（昭和62）年9月25日",
+      "inputEdition": "1987（昭和62）年9月25日第1刷",
+      "proofreadEdition": "1987（昭和62）年9月25日第1刷"
+    },
+    "author": "種田山頭火",
+    "authors": [
+      {
+        "personId": "000146",
+        "name": "種田山頭火",
+        "kana": "たねださんとうか",
+        "roman": "Santoka Taneda",
+        "role": "著者",
+        "birthDate": "1882-12-03",
+        "deathDate": "1940-10-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

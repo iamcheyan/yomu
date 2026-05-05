@@ -54,5 +54,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047680",
+    "title": "桜と狆と愛国心",
+    "titleKana": "さくらとちんとあいこくしん",
+    "sortKana": "さくらとちんとあいこくしん",
+    "subtitle": "コスモポリタンの心理",
+    "subtitleKana": "コスモポリタンのしんり",
+    "ndc": "NDC 309",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-06-04",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000164/card47680.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000164/files/47680_ruby_42618.zip",
+    "textFileId": "47680_ruby_42618",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000164/files/47680_42831.html",
+    "inputBy": "Juki",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "現代ユウモア全集　第二卷　堺利彦集",
+      "publisher": "現代ユウモア全集刊行會",
+      "firstPublishedAt": "1928（昭和3）年10月20日",
+      "inputEdition": "1928（昭和3）年10月20日",
+      "proofreadEdition": "1928（昭和3）年10月20日"
+    },
+    "author": "堺利彦",
+    "authors": [
+      {
+        "personId": "000164",
+        "name": "堺利彦",
+        "kana": "さかいとしひこ",
+        "roman": "Toshihiko Sakai",
+        "role": "著者",
+        "birthDate": "1871-01-15",
+        "deathDate": "1933-01-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

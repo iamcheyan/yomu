@@ -624,5 +624,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045627",
+    "title": "北斗帖",
+    "titleKana": "ほくとちょう",
+    "sortKana": "ほくとちよう",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-09-15",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001210/card45627.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001210/files/45627_ruby_23612.zip",
+    "textFileId": "45627_ruby_23612",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001210/files/45627_23861.html",
+    "inputBy": "田中敬三",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "北海道文学全集　第11巻",
+      "publisher": "立風書房",
+      "firstPublishedAt": "1980（昭和55）年11月10日",
+      "inputEdition": "1980（昭和55）年11月10日初版第1刷",
+      "proofreadEdition": "1980（昭和55）年11月10日初版第1刷"
+    },
+    "author": "違星北斗",
+    "authors": [
+      {
+        "personId": "001210",
+        "name": "違星北斗",
+        "kana": "いぼしほくと",
+        "roman": "Hokuto Iboshi",
+        "role": "著者",
+        "birthDate": "1902-01-01",
+        "deathDate": "1929-01-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

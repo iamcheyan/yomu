@@ -56,5 +56,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045396",
+    "title": "「罪と罰」の殺人罪",
+    "titleKana": "「つみとばつ」のさつじんざい",
+    "sortKana": "つみとはつのさつしんさい",
+    "firstAppearance": "「女學雜誌」1893（明治26）年1月14日",
+    "ndc": "NDC 984",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-09-25",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000157/card45396.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000157/files/45396_ruby_19313.zip",
+    "textFileId": "45396_ruby_19313",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000157/files/45396_19346.html",
+    "inputBy": "石波峻一",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "明治文學全集　29　北村透谷集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1976（昭和51）年10月30日",
+      "inputEdition": "1976（昭和51）年10月30日初版第1刷",
+      "proofreadEdition": "1976（昭和51）年10月30日初版第1刷"
+    },
+    "author": "北村透谷",
+    "authors": [
+      {
+        "personId": "000157",
+        "name": "北村透谷",
+        "kana": "きたむらとうこく",
+        "roman": "Tokoku Kitamura",
+        "role": "著者",
+        "birthDate": "1868-12-29",
+        "deathDate": "1894-05-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

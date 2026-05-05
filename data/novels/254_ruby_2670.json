@@ -86,5 +86,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000254",
+    "title": "デカダン抗議",
+    "titleKana": "デカダンこうぎ",
+    "sortKana": "てかたんこうき",
+    "firstAppearance": "「文芸世紀」1939（昭和14）年11月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-10-26",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card254.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/254_ruby_2670.zip",
+    "textFileId": "254_ruby_2670",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/254_15075.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "太宰治全集3",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1988（昭和63）年10月25日",
+      "inputEdition": "1988（昭和63）年10月25日第1刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

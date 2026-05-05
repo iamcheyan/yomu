@@ -44,5 +44,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "024354",
+    "title": "玄関の手帖",
+    "titleKana": "げんかんのてちょう",
+    "sortKana": "けんかんのてちよう",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-08-22",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000291/card24354.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000291/files/24354_ruby_12054.zip",
+    "textFileId": "24354_ruby_12054",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000291/files/24354_18912.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "花田泰治郎",
+    "baseBook1": {
+      "title": "惡鬪",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1940（昭和15）年4月17日",
+      "inputEdition": "1940（昭和15）年4月17日",
+      "proofreadEdition": "1940（昭和15）年4月17日"
+    },
+    "author": "林芙美子",
+    "authors": [
+      {
+        "personId": "000291",
+        "name": "林芙美子",
+        "kana": "はやしふみこ",
+        "roman": "Fumiko Hayashi",
+        "role": "著者",
+        "birthDate": "1903-12-31",
+        "deathDate": "1951-06-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

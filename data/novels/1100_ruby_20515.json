@@ -46,5 +46,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001100",
+    "title": "醜婦を呵す",
+    "titleKana": "しゅうふをかす",
+    "sortKana": "しゆうふをかす",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-09-14",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card1100.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/1100_ruby_20515.zip",
+    "textFileId": "1100_ruby_20515",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/1100_20516.html",
+    "inputBy": "小林徹",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "現代日本文學大系　5　樋口一葉・明治女流文學・泉鏡花集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1972（昭和47）年5月15日",
+      "inputEdition": "1987（昭和62）年2月10日初版第13刷",
+      "proofreadEdition": "1987（昭和62）年2月10日初版第13刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

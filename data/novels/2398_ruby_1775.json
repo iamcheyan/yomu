@@ -50,5 +50,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002398",
+    "title": "趣味としての読書",
+    "titleKana": "しゅみとしてのどくしょ",
+    "sortKana": "しゆみとしてのとくしよ",
+    "ndc": "NDC 019",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-07-02",
+    "updatedAt": "2016-01-19",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000343/card2398.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000343/files/2398_ruby_1775.zip",
+    "textFileId": "2398_ruby_1775",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000343/files/2398_22455.html",
+    "inputBy": "ふろっぎぃ",
+    "proofreadBy": "浅原庸子",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻6　書斎",
+      "publisher": "作品社",
+      "firstPublishedAt": "1991（平成3）年8月25日",
+      "inputEdition": "1998（平成10）年1月30日第7刷",
+      "proofreadEdition": "1991（平成3）年8月25日第1刷"
+    },
+    "author": "平田禿木",
+    "authors": [
+      {
+        "personId": "000343",
+        "name": "平田禿木",
+        "kana": "ひらたとくぼく",
+        "roman": "Tokuboku Hirata",
+        "role": "著者",
+        "birthDate": "1873-02-10",
+        "deathDate": "1943-03-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

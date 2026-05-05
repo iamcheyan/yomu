@@ -42,5 +42,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059326",
+    "title": "芥川君との交際について",
+    "titleKana": "あくたがわくんとのこうさいについて",
+    "sortKana": "あくたかわくんとのこうさいについて",
+    "firstAppearance": "「芥川龍之介全集　月報第六號」1935（昭和10）年4月",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-07-24",
+    "updatedAt": "2019-06-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000067/card59326.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000067/files/59326_ruby_68453.zip",
+    "textFileId": "59326_ruby_68453",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000067/files/59326_68502.html",
+    "inputBy": "きりんの手紙",
+    "proofreadBy": "ニオブ",
+    "baseBook1": {
+      "title": "萩原朔太郎全集　第九卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1976（昭和51）年5月25日",
+      "inputEdition": "1976（昭和51）年5月25日初版",
+      "proofreadEdition": "1976（昭和51）年5月25日初版"
+    },
+    "author": "萩原朔太郎",
+    "authors": [
+      {
+        "personId": "000067",
+        "name": "萩原朔太郎",
+        "kana": "はぎわらさくたろう",
+        "roman": "Sakutaro Hagiwara",
+        "role": "著者",
+        "birthDate": "1886-11-01",
+        "deathDate": "1942-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

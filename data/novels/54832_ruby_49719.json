@@ -220,5 +220,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054832",
+    "title": "ザボンの実る木のもとに",
+    "titleKana": "ザボンのみのるきのもとに",
+    "sortKana": "さほんのみのるきのもとに",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-01-12",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001579/card54832.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001579/files/54832_ruby_49719.zip",
+    "textFileId": "54832_ruby_49719",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001579/files/54832_49720.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻59　感動",
+      "publisher": "作品社",
+      "firstPublishedAt": "1996（平成8）年1月25日",
+      "inputEdition": "1996（平成8）年1月25日第1刷",
+      "proofreadEdition": "1996（平成8）年1月25日第1刷"
+    },
+    "author": "室生犀星",
+    "authors": [
+      {
+        "personId": "001579",
+        "name": "室生犀星",
+        "kana": "むろうさいせい",
+        "roman": "Saisei Murou",
+        "role": "著者",
+        "birthDate": "1889-08-01",
+        "deathDate": "1962-03-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

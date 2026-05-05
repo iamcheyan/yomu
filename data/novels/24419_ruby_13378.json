@@ -52,5 +52,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "024419",
+    "title": "子規自筆の根岸地図",
+    "titleKana": "しきじひつのねぎしちず",
+    "sortKana": "しきしひつのねきしちす",
+    "firstAppearance": "「東炎　第三巻第八号」1934（昭和9）年8月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-04-12",
+    "updatedAt": "2016-02-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000042/card24419.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000042/files/24419_ruby_13378.zip",
+    "textFileId": "24419_ruby_13378",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000042/files/24419_15369.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "寺田寅彦全集　第一巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1996（平成8）年12月5日",
+      "inputEdition": "1996（平成8）年12月5日"
+    },
+    "author": "寺田寅彦",
+    "authors": [
+      {
+        "personId": "000042",
+        "name": "寺田寅彦",
+        "kana": "てらだとらひこ",
+        "roman": "Torahiko Terada",
+        "role": "著者",
+        "birthDate": "1878-11-28",
+        "deathDate": "1935-12-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

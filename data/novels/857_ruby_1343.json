@@ -124,5 +124,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000857",
+    "title": "Tada-Dada of Alangri-Gloriban",
+    "titleKana": "タダ－ダダ　オブ　アラングリ－グロリバン",
+    "sortKana": "たたたたおふあらんくりくろりはん",
+    "ndc": "NDC 914",
+    "orthography": "その他",
+    "workCopyright": "なし",
+    "publishedAt": "1999-01-24",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000159/card857.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000159/files/857_ruby_1343.zip",
+    "textFileId": "857_ruby_1343",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000159/files/857_34611.html",
+    "inputBy": "et.vi.of nothing",
+    "proofreadBy": "et.vi.of nothing",
+    "baseBook1": {
+      "title": "辻潤著作集3　浮浪漫語",
+      "publisher": "オリオン出版社",
+      "firstPublishedAt": "1970（昭和45）年3月30日"
+    },
+    "author": "辻潤",
+    "authors": [
+      {
+        "personId": "000159",
+        "name": "辻潤",
+        "kana": "つじじゅん",
+        "roman": "Jun Tsuji",
+        "role": "著者",
+        "birthDate": "1884-10-04",
+        "deathDate": "1944-11-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

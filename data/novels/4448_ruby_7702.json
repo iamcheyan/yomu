@@ -86,5 +86,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004448",
+    "title": "岬の端",
+    "titleKana": "みさきのはし",
+    "sortKana": "みさきのはし",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-12-06",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000162/card4448.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000162/files/4448_ruby_7702.zip",
+    "textFileId": "4448_ruby_7702",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000162/files/4448_7703.html",
+    "inputBy": "渡邉つよし",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆92　岬",
+      "publisher": "作品社",
+      "firstPublishedAt": "1990（平成2）年6月25日",
+      "inputEdition": "1990（平成2）年6月25日第1刷"
+    },
+    "author": "若山牧水",
+    "authors": [
+      {
+        "personId": "000162",
+        "name": "若山牧水",
+        "kana": "わかやまぼくすい",
+        "roman": "Bokusui Wakayama",
+        "role": "著者",
+        "birthDate": "1885-08-24",
+        "deathDate": "1928-09-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

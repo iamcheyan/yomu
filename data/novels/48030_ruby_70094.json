@@ -186,5 +186,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048030",
+    "title": "黄八丈の小袖",
+    "titleKana": "きはちじょうのこそで",
+    "sortKana": "きはちしようのこそて",
+    "firstAppearance": "「婦人公論」1917（大正6）年6月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-06-02",
+    "updatedAt": "2020-01-15",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000082/card48030.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000082/files/48030_ruby_70094.zip",
+    "textFileId": "48030_ruby_70094",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000082/files/48030_70095.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "文藝別冊［総特集］岡本綺堂",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "2004（平成16）年1月30日",
+      "inputEdition": "2004（平成16）年1月30日",
+      "proofreadEdition": "2004（平成16）年1月30日"
+    },
+    "author": "岡本綺堂",
+    "authors": [
+      {
+        "personId": "000082",
+        "name": "岡本綺堂",
+        "kana": "おかもときどう",
+        "roman": "Kido Okamoto",
+        "role": "著者",
+        "birthDate": "1872-11-15",
+        "deathDate": "1939-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

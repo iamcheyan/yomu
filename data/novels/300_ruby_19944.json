@@ -604,5 +604,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000300",
+    "title": "彼は昔の彼ならず",
+    "titleKana": "かれはむかしのかれならず",
+    "sortKana": "かれはむかしのかれならす",
+    "firstAppearance": "「世紀」1934（昭和9）年10月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-09-12",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card300.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/300_ruby_19944.zip",
+    "textFileId": "300_ruby_19944",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/300_19945.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "丹羽倫子",
+    "baseBook1": {
+      "title": "太宰治全集1",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1988（昭和63）年8月30日",
+      "proofreadEdition": "1998（平成10）年6月15日第5刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

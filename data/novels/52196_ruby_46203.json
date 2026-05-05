@@ -34,5 +34,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052196",
+    "title": "雨の宿",
+    "titleKana": "あめのやど",
+    "sortKana": "あめのやと",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-01-03",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001534/card52196.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001534/files/52196_ruby_46203.zip",
+    "textFileId": "52196_ruby_46203",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001534/files/52196_46247.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆43　雨",
+      "publisher": "作品社",
+      "firstPublishedAt": "1986（昭和61）年5月25日",
+      "inputEdition": "1995（平成7）年3月30日第14刷",
+      "proofreadEdition": "1997（平成9）年5月20日第15刷"
+    },
+    "author": "岩本素白",
+    "authors": [
+      {
+        "personId": "001534",
+        "name": "岩本素白",
+        "kana": "いわもとそはく",
+        "roman": "Sohaku Iwamoto",
+        "role": "著者",
+        "birthDate": "1883-08-17",
+        "deathDate": "1961-10-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -66,5 +66,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055947",
+    "title": "横山",
+    "titleKana": "よこやま",
+    "sortKana": "よこやま",
+    "firstAppearance": "「ホトトギス」1948（昭和23）年9月号",
+    "ndc": "NDC 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-02-22",
+    "updatedAt": "2019-01-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001310/card55947.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001310/files/55947_ruby_66940.zip",
+    "textFileId": "55947_ruby_66940",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001310/files/55947_66986.html",
+    "inputBy": "岡村和彦",
+    "proofreadBy": "高瀬竜一",
+    "baseBook1": {
+      "title": "現代紀行文學全集　第四卷　西日本篇",
+      "publisher": "修道社",
+      "firstPublishedAt": "1958（昭和33）年4月15日",
+      "inputEdition": "1958（昭和33）年4月15日",
+      "proofreadEdition": "1958（昭和33）年4月15日"
+    },
+    "author": "高浜虚子",
+    "authors": [
+      {
+        "personId": "001310",
+        "name": "高浜虚子",
+        "kana": "たかはまきょし",
+        "roman": "Kyoshi Takahama",
+        "role": "著者",
+        "birthDate": "1874-02-22",
+        "deathDate": "1959-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

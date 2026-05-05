@@ -28,5 +28,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048680",
+    "title": "日月喩",
+    "titleKana": "にちげつゆ",
+    "sortKana": "にちけつゆ",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-02-05",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000237/card48680.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000237/files/48680_ruby_33206.zip",
+    "textFileId": "48680_ruby_33206",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000237/files/48680_34156.html",
+    "inputBy": "Ｈ．ＹＡＭ",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "桂月全集　第一卷　美文韻文",
+      "publisher": "興文社内桂月全集刊行會",
+      "firstPublishedAt": "1922（大正11）年5月28日",
+      "inputEdition": "1922（大正11）年5月28日",
+      "proofreadEdition": "1922（大正11）年5月28日"
+    },
+    "author": "大町桂月",
+    "authors": [
+      {
+        "personId": "000237",
+        "name": "大町桂月",
+        "kana": "おおまちけいげつ",
+        "roman": "Keigetsu Omachi",
+        "role": "著者",
+        "birthDate": "1869-03-06",
+        "deathDate": "1925-06-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

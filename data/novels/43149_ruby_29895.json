@@ -86,5 +86,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043149",
+    "title": "「刺青殺人事件」を評す",
+    "titleKana": "「しせいさつじんじけん」をひょうす",
+    "sortKana": "しせいさつしんしけんをひようす",
+    "firstAppearance": "「宝石　第四巻第一号」1949（昭和24）年1月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-06-08",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card43149.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/43149_ruby_29895.zip",
+    "textFileId": "43149_ruby_29895",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/43149_31428.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "砂場清隆",
+    "baseBook1": {
+      "title": "坂口安吾全集　07",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1998（平成10）年8月20日",
+      "inputEdition": "1998（平成10）年8月20日初版第1刷",
+      "proofreadEdition": "1998（平成10）年8月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

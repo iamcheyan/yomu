@@ -66,5 +66,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048239",
+    "title": "鎖ペンを握って",
+    "titleKana": "くさりペンをにぎって",
+    "sortKana": "くさりへんをにきつて",
+    "subtitle": "――三月十九日　夜――　　山頭火",
+    "subtitleKana": "――さんがつじゅうくにち　よる――　　さんとうか",
+    "firstAppearance": "「歌集『四十女の恋』」1913（大正2）年",
+    "ndc": "NDC 911 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-07-10",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000146/card48239.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000146/files/48239_ruby_31394.zip",
+    "textFileId": "48239_ruby_31394",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000146/files/48239_31556.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "山頭火随筆集",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "2002（平成14）年7月10日",
+      "inputEdition": "2007（平成19）年2月5日第9刷",
+      "proofreadEdition": "2007（平成19）年2月5日第9刷"
+    },
+    "author": "種田山頭火",
+    "authors": [
+      {
+        "personId": "000146",
+        "name": "種田山頭火",
+        "kana": "たねださんとうか",
+        "roman": "Santoka Taneda",
+        "role": "著者",
+        "birthDate": "1882-12-03",
+        "deathDate": "1940-10-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -118,5 +118,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046610",
+    "title": "馬上三日の記",
+    "titleKana": "ばじょうみっかのき",
+    "sortKana": "はしようみつかのき",
+    "subtitle": "エルサレムよりナザレへ",
+    "subtitleKana": "エルサレムよりナザレへ",
+    "ndc": "NDC 292 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-02-08",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000280/card46610.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000280/files/46610_ruby_25013.zip",
+    "textFileId": "46610_ruby_25013",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000280/files/46610_25713.html",
+    "inputBy": "斎藤由布子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻21　巡礼",
+      "publisher": "作品社",
+      "firstPublishedAt": "1992（平成4）年11月25日",
+      "inputEdition": "1992（平成4）年11月25日第1刷",
+      "proofreadEdition": "1992（平成4）年11月25日第1刷"
+    },
+    "author": "徳冨蘆花",
+    "authors": [
+      {
+        "personId": "000280",
+        "name": "徳冨蘆花",
+        "kana": "とくとみろか",
+        "roman": "Roka Tokutomi",
+        "role": "著者",
+        "birthDate": "1868-12-08",
+        "deathDate": "1927-09-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

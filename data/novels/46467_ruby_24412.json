@@ -36,5 +36,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046467",
+    "title": "最上川",
+    "titleKana": "もがみがわ",
+    "sortKana": "もかみかわ",
+    "firstAppearance": "「東京日日新聞」1938（昭和13）年6月28日",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-11-29",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001059/card46467.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001059/files/46467_ruby_24412.zip",
+    "textFileId": "46467_ruby_24412",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001059/files/46467_24607.html",
+    "inputBy": "しだひろし",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "斎藤茂吉選集　第十一巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1981（昭和56）年11月27日",
+      "inputEdition": "1981（昭和56）年11月27日第1刷",
+      "proofreadEdition": "1981（昭和56）年11月27日第1刷"
+    },
+    "author": "斎藤茂吉",
+    "authors": [
+      {
+        "personId": "001059",
+        "name": "斎藤茂吉",
+        "kana": "さいとうもきち",
+        "roman": "Mokichi Saito",
+        "role": "著者",
+        "birthDate": "1882-5-14",
+        "deathDate": "1953-2-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

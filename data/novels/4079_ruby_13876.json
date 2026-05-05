@@ -626,5 +626,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004079",
+    "title": "大利根八十里を溯る",
+    "titleKana": "おおとねはちじゅうりをさかのぼる",
+    "sortKana": "おおとねはちしゆうりをさかのほる",
+    "firstAppearance": "「東京日日新聞」1926（大正15）年7月29日、8月3日、8月4日",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-12-10",
+    "updatedAt": "2016-02-07",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000286/card4079.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000286/files/4079_ruby_13876.zip",
+    "textFileId": "4079_ruby_13876",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000286/files/4079_13920.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "今井忠夫",
+    "baseBook1": {
+      "title": "定本　野口雨情　第六巻",
+      "publisher": "未來社",
+      "firstPublishedAt": "1986（昭和61）年9月25日",
+      "inputEdition": "1986（昭和61）年9月25日第1版第1刷",
+      "proofreadEdition": "1986（昭和61）年9月25日第1版第1刷"
+    },
+    "author": "野口雨情",
+    "authors": [
+      {
+        "personId": "000286",
+        "name": "野口雨情",
+        "kana": "のぐちうじょう",
+        "roman": "Ujo Noguchi",
+        "role": "著者",
+        "birthDate": "1882-05-29",
+        "deathDate": "1945-01-27",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

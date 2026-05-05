@@ -28,5 +28,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049242",
+    "title": "頭上の響",
+    "titleKana": "ずじょうのひびき",
+    "sortKana": "すしようのひひき",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-10-07",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001357/card49242.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001357/files/49242_ruby_32163.zip",
+    "textFileId": "49242_ruby_32163",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001357/files/49242_33006.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "文豪怪談傑作選・特別篇　百物語怪談会",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2007（平成19）年7月10日",
+      "inputEdition": "2007（平成19）年7月10日第1刷",
+      "proofreadEdition": "2007（平成19）年7月10日第1刷"
+    },
+    "author": "北村四海",
+    "authors": [
+      {
+        "personId": "001357",
+        "name": "北村四海",
+        "kana": "きたむらしかい",
+        "roman": "Shikai Kitamura",
+        "role": "著者",
+        "birthDate": "1871-04-03",
+        "deathDate": "1927-11-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

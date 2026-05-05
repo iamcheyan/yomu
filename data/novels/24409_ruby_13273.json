@@ -52,5 +52,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "024409",
+    "title": "追憶の医師達",
+    "titleKana": "ついおくのいしたち",
+    "sortKana": "ついおくのいしたち",
+    "firstAppearance": "「実験治療　第一五六号」1935（昭和10）年1月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-04-14",
+    "updatedAt": "2016-02-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000042/card24409.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000042/files/24409_ruby_13273.zip",
+    "textFileId": "24409_ruby_13273",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000042/files/24409_15377.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "寺田寅彦全集　第一巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1996（平成8）年12月5日",
+      "inputEdition": "1996（平成8）年12月5日"
+    },
+    "author": "寺田寅彦",
+    "authors": [
+      {
+        "personId": "000042",
+        "name": "寺田寅彦",
+        "kana": "てらだとらひこ",
+        "roman": "Torahiko Terada",
+        "role": "著者",
+        "birthDate": "1878-11-28",
+        "deathDate": "1935-12-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

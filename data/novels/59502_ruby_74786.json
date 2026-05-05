@@ -30,5 +30,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059502",
+    "title": "美容院にのぞむこと",
+    "titleKana": "びよういんにのぞむこと",
+    "sortKana": "ひよういんにのそむこと",
+    "ndc": "NDC 595",
+    "orthography": "旧字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-01-31",
+    "updatedAt": "2021-12-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001990/card59502.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001990/files/59502_ruby_74786.zip",
+    "textFileId": "59502_ruby_74786",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001990/files/59502_74820.html",
+    "inputBy": "かな　とよみ",
+    "proofreadBy": "The Creative CAT",
+    "baseBook1": {
+      "title": "婦人之友　50巻1号",
+      "publisher": "婦人之友社",
+      "firstPublishedAt": "1956（昭和31）年1月",
+      "inputEdition": "1956（昭和31）年1月",
+      "proofreadEdition": "1956（昭和31）年1月"
+    },
+    "author": "芥川紗織",
+    "authors": [
+      {
+        "personId": "001990",
+        "name": "芥川紗織",
+        "kana": "あくたがわさおり",
+        "roman": "Saori Akutagawa",
+        "role": "著者",
+        "birthDate": "1924-05-24",
+        "deathDate": "1966-01-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

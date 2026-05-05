@@ -76,5 +76,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049678",
+    "title": "渋民村より",
+    "titleKana": "しぶたみむらより",
+    "sortKana": "しふたみむらより",
+    "firstAppearance": "「岩手日報」1904（明治37）年4月28日～5月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-06-04",
+    "updatedAt": "2018-07-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000153/card49678.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000153/files/49678_ruby_38267.zip",
+    "textFileId": "49678_ruby_38267",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000153/files/49678_39285.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "石川啄木全集第四巻　評論・感想",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1980（昭和55）年3月10日",
+      "inputEdition": "1982（昭和57）年11月30日初版第3刷",
+      "proofreadEdition": "1988（昭和63）年2月1日初版第5刷"
+    },
+    "author": "石川啄木",
+    "authors": [
+      {
+        "personId": "000153",
+        "name": "石川啄木",
+        "kana": "いしかわたくぼく",
+        "roman": "Takuboku Ishikawa",
+        "role": "著者",
+        "birthDate": "1886-02-20",
+        "deathDate": "1912-04-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

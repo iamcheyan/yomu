@@ -102,5 +102,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002665",
+    "title": "爾雅の新研究",
+    "titleKana": "じがのしんけんきゅう",
+    "sortKana": "しかのしんけんきゆう",
+    "firstAppearance": "「支那學」1921（大正10）年9、10月発行、第二巻第一号、第二号",
+    "ndc": "NDC 222 821",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-09-21",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000284/card2665.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000284/files/2665_ruby_4368.zip",
+    "textFileId": "2665_ruby_4368",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000284/files/2665_21487.html",
+    "inputBy": "はまなかひとし",
+    "proofreadBy": "菅野朋子",
+    "baseBook1": {
+      "title": "内藤湖南全集　第七巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1970（昭和45）年2月25日",
+      "inputEdition": "1976（昭和51）年10月10日第2刷"
+    },
+    "author": "内藤湖南",
+    "authors": [
+      {
+        "personId": "000284",
+        "name": "内藤湖南",
+        "kana": "ないとうこなん",
+        "roman": "Konan Naito",
+        "role": "著者",
+        "birthDate": "1866-08-26",
+        "deathDate": "1934-06-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -32,5 +32,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "044916",
+    "title": "芸道地に堕つ",
+    "titleKana": "げいどうちにおつ",
+    "sortKana": "けいとうちにおつ",
+    "firstAppearance": "「東京新聞　第七百五十九号」1944（昭和19）年11月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-08-19",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card44916.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/44916_ruby_23126.zip",
+    "textFileId": "44916_ruby_23126",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/44916_23667.html",
+    "inputBy": "うてな",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "堕落論",
+      "publisher": "新潮社",
+      "firstPublishedAt": "2000（平成12）年6月1日",
+      "inputEdition": "2004（平成16）年4月20日5刷",
+      "proofreadEdition": "2005（平成17）年2月10日6刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

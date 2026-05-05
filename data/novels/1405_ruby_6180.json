@@ -1638,5 +1638,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001405",
+    "title": "天主閣の音",
+    "titleKana": "てんしゅかくのおと",
+    "sortKana": "てんしゆかくのおと",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-02-18",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card1405.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/1405_ruby_6180.zip",
+    "textFileId": "1405_ruby_6180",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/1405_47211.html",
+    "inputBy": "地田尚",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "妖異全集",
+      "publisher": "桃源社",
+      "firstPublishedAt": "1975（昭和50）年9月25日"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -92,5 +92,54 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048955",
+    "title": "文壇一夕話",
+    "titleKana": "ぶんだんいっせきわ",
+    "sortKana": "ふんたんいつせきわ",
+    "firstAppearance": "「文章世界　第四巻第十四号「秋風号」」博文館、1909（明治42）年11月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-07-07",
+    "updatedAt": "2020-12-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000214/card48955.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000214/files/48955_ruby_71224.zip",
+    "textFileId": "48955_ruby_71224",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000214/files/48955_71273.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "hitsuji",
+    "baseBook1": {
+      "title": "定本　花袋全集　第二十四巻",
+      "publisher": "臨川書店",
+      "firstPublishedAt": "1995（平成7）年4月10日",
+      "inputEdition": "1995（平成7）年4月10日",
+      "proofreadEdition": "1995（平成7）年4月10日"
+    },
+    "author": "田山花袋、田山録弥",
+    "authors": [
+      {
+        "personId": "000214",
+        "name": "田山花袋",
+        "kana": "たやまかたい",
+        "roman": "Katai Tayama",
+        "role": "著者",
+        "birthDate": "1872-01-22",
+        "deathDate": "1930-05-13",
+        "copyright": "なし"
+      },
+      {
+        "personId": "001416",
+        "name": "田山録弥",
+        "kana": "たやまろくや",
+        "roman": "Rokuya Tayama",
+        "role": "著者",
+        "birthDate": "1872-01-22",
+        "deathDate": "1930-05-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

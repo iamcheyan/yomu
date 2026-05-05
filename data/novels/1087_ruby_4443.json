@@ -7336,5 +7336,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001087",
+    "title": "婦系図",
+    "titleKana": "おんなけいず",
+    "sortKana": "おんなけいす",
+    "firstAppearance": "「やまと新聞」1907（明治40）年1～4月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-08-17",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card1087.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/1087_ruby_4443.zip",
+    "textFileId": "1087_ruby_4443",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/1087_34456.html",
+    "inputBy": "真先芳秋",
+    "proofreadBy": "かとうかおり",
+    "baseBook1": {
+      "title": "泉鏡花集成12",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1997（平成9）年1月23日",
+      "inputEdition": "1997（平成9）年1月23日第1刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

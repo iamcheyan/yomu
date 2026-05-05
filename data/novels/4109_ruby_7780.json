@@ -322,5 +322,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004109",
+    "title": "鵞鳥",
+    "titleKana": "がちょう",
+    "sortKana": "かちよう",
+    "firstAppearance": "「日本評論」1929（昭和14）年12月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-12-21",
+    "updatedAt": "2022-05-13",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000051/card4109.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000051/files/4109_ruby_7780.zip",
+    "textFileId": "4109_ruby_7780",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000051/files/4109_7964.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "ちくま日本文学全集　幸田露伴",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1992（平成4）年3月20日",
+      "inputEdition": "1992（平成4）年3月20日第1刷"
+    },
+    "author": "幸田露伴",
+    "authors": [
+      {
+        "personId": "000051",
+        "name": "幸田露伴",
+        "kana": "こうだろはん",
+        "roman": "Rohan Koda",
+        "role": "著者",
+        "birthDate": "1867-08-20",
+        "deathDate": "1947-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

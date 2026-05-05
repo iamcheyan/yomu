@@ -288,5 +288,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001584",
+    "title": "帰去来",
+    "titleKana": "ききょらい",
+    "sortKana": "ききよらい",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-12-04",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card1584.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/1584_ruby_13914.zip",
+    "textFileId": "1584_ruby_13914",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/1584_13915.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "ふるかわゆか",
+    "baseBook1": {
+      "title": "太宰治全集5",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1989（昭和64）年1月31日",
+      "inputEdition": "1989（昭和64）年1月31日第1刷",
+      "proofreadEdition": "1989（昭和64）年1月31日第1刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

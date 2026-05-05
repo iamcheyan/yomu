@@ -350,5 +350,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000646",
+    "title": "二銭銅貨",
+    "titleKana": "にせんどうか",
+    "sortKana": "にせんとうか",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-07-24",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000037/card646.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000037/files/646_ruby_4385.zip",
+    "textFileId": "646_ruby_4385",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000037/files/646_22355.html",
+    "inputBy": "大野裕",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "筑摩現代文学大系 38　小林多喜二　黒島伝治　徳永直集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1978（昭和53）年12月20日",
+      "inputEdition": "1978（昭和53）年12月20日初版第1刷"
+    },
+    "author": "黒島伝治",
+    "authors": [
+      {
+        "personId": "000037",
+        "name": "黒島伝治",
+        "kana": "くろしまでんじ",
+        "roman": "Denji Kuroshima",
+        "role": "著者",
+        "birthDate": "1898-12-12",
+        "deathDate": "1943-10-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

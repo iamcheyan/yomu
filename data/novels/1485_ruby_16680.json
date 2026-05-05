@@ -774,5 +774,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001485",
+    "title": "流行暗殺節",
+    "titleKana": "りゅうこうあんさつぶし",
+    "sortKana": "りゆうこうあんさつふし",
+    "firstAppearance": "「中央公論　十月号」1932（昭和7）年",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-11-17",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000111/card1485.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000111/files/1485_ruby_16680.zip",
+    "textFileId": "1485_ruby_16680",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000111/files/1485_16865.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "小笠原壱岐守",
+      "publisher": "講談社大衆文学館文庫、講談社",
+      "firstPublishedAt": "1997（平成9）年2月20日",
+      "inputEdition": "1997（平成9）年2月20日第1刷",
+      "proofreadEdition": "1997（平成9）年2月20日第1刷"
+    },
+    "author": "佐々木味津三",
+    "authors": [
+      {
+        "personId": "000111",
+        "name": "佐々木味津三",
+        "kana": "ささきみつぞう",
+        "roman": "Mitsuzo Sasaki",
+        "role": "著者",
+        "birthDate": "1896-03-18",
+        "deathDate": "1934-02-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

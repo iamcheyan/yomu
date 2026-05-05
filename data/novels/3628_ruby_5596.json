@@ -72,5 +72,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003628",
+    "title": "一条の詭弁",
+    "titleKana": "いちじょうのきべん",
+    "sortKana": "いちしようのきへん",
+    "firstAppearance": "「文藝時代」1925（大正14）年4月1日発行、第1巻第1号",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-12-10",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card3628.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/3628_ruby_5596.zip",
+    "textFileId": "3628_ruby_5596",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/3628_5595.html",
+    "inputBy": "高寺康仁",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "定本横光利一全集　第二巻",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "1981（昭和56）年8月31日"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -1656,5 +1656,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043656",
+    "title": "潜航艇「鷹の城」",
+    "titleKana": "せんこうてい「ハビヒツブルグ」",
+    "sortKana": "せんこうていはひひつふるく",
+    "firstAppearance": "「新青年」博文館、1935（昭和10）年4～5月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-04-03",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000125/card43656.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000125/files/43656_ruby_24010.zip",
+    "textFileId": "43656_ruby_24010",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000125/files/43656_26294.html",
+    "inputBy": "ロクス・ソルス",
+    "proofreadBy": "A子",
+    "baseBook1": {
+      "title": "潜航艇「鷹の城」",
+      "publisher": "現代教養文庫、社会思想社",
+      "firstPublishedAt": "1977（昭和52）年12月15日",
+      "inputEdition": "1977（昭和52）年12月15日初版第1刷",
+      "proofreadEdition": "1977（昭和52）年12月15日初版第1刷"
+    },
+    "author": "小栗虫太郎",
+    "authors": [
+      {
+        "personId": "000125",
+        "name": "小栗虫太郎",
+        "kana": "おぐりむしたろう",
+        "roman": "Mushitaro Oguri",
+        "role": "著者",
+        "birthDate": "1901-03-14",
+        "deathDate": "1946-02-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

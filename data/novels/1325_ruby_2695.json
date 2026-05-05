@@ -1136,5 +1136,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001325",
+    "title": "猿飛佐助",
+    "titleKana": "さるとびさすけ",
+    "sortKana": "さるとひさすけ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-08-02",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000040/card1325.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000040/files/1325_ruby_2695.zip",
+    "textFileId": "1325_ruby_2695",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000040/files/1325_19602.html",
+    "inputBy": "生野一路",
+    "proofreadBy": "浅原庸子",
+    "baseBook1": {
+      "title": "織田作之助　名作選集4",
+      "publisher": "現代社",
+      "firstPublishedAt": "1956（昭和31）年5月20日",
+      "inputEdition": "1956（昭和31）年5月20日初版"
+    },
+    "author": "織田作之助",
+    "authors": [
+      {
+        "personId": "000040",
+        "name": "織田作之助",
+        "kana": "おださくのすけ",
+        "roman": "Sakunosuke Oda",
+        "role": "著者",
+        "birthDate": "1913-10-26",
+        "deathDate": "1947-01-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -78,5 +78,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003579",
+    "title": "逗子より",
+    "titleKana": "ずしより",
+    "sortKana": "すしより",
+    "ndc": "NDC 914 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-12-02",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card3579.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/3579_ruby_13852.zip",
+    "textFileId": "3579_ruby_13852",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/3579_13853.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "日本随筆紀行第五巻　関東　風吹き騒ぐ平原で",
+      "publisher": "作品社",
+      "firstPublishedAt": "1987（昭和62）年10月10日",
+      "inputEdition": "1987（昭和62）年10月10日第1刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

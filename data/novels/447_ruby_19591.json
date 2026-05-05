@@ -418,5 +418,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000447",
+    "title": "老妓抄",
+    "titleKana": "ろうぎしょう",
+    "sortKana": "ろうきしよう",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-05-05",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000076/card447.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000076/files/447_ruby_19591.zip",
+    "textFileId": "447_ruby_19591",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000076/files/447_19592.html",
+    "inputBy": "佐藤律子",
+    "proofreadBy": "大野晋",
+    "baseBook1": {
+      "title": "老妓抄",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1950（昭和25）年4月30日、1968（昭和43）年3月20日17刷改版",
+      "inputEdition": "1998（平成10）年1月15日第52刷"
+    },
+    "author": "岡本かの子",
+    "authors": [
+      {
+        "personId": "000076",
+        "name": "岡本かの子",
+        "kana": "おかもとかのこ",
+        "roman": "Kanoko Okamoto",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1939-02-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -222,5 +222,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002640",
+    "title": "山と雪の日記",
+    "titleKana": "やまとゆきのにっき",
+    "sortKana": "やまとゆきのにつき",
+    "ndc": "NDC 291",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-12-08",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000864/card2640.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000864/files/2640_ruby_20575.zip",
+    "textFileId": "2640_ruby_20575",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000864/files/2640_20576.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "田口彩子",
+    "baseBook1": {
+      "title": "山と雪の日記",
+      "publisher": "中公文庫、中央公論社",
+      "firstPublishedAt": "1977（昭和52）年4月10日",
+      "inputEdition": "1992（平成4）年12月15日6版"
+    },
+    "author": "板倉勝宣",
+    "authors": [
+      {
+        "personId": "000864",
+        "name": "板倉勝宣",
+        "kana": "いたくらかつのぶ",
+        "roman": "Katsunobu Itakura",
+        "role": "著者",
+        "birthDate": "1898-02-12",
+        "deathDate": "1923-01-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

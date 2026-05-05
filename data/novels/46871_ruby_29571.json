@@ -310,5 +310,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046871",
+    "title": "序文",
+    "titleKana": "じょぶん",
+    "sortKana": "しよふん",
+    "firstAppearance": "「中央公論　第四十六年第二号」1931（昭和6）年2月1日",
+    "ndc": "NDC 912",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-04-16",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001154/card46871.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001154/files/46871_ruby_29571.zip",
+    "textFileId": "46871_ruby_29571",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001154/files/46871_30570.html",
+    "inputBy": "kompass",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "岸田國士全集5",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1991（平成3）年1月9日",
+      "inputEdition": "1991（平成3）年1月9日",
+      "proofreadEdition": "1991（平成3）年1月9日"
+    },
+    "author": "岸田国士",
+    "authors": [
+      {
+        "personId": "001154",
+        "name": "岸田国士",
+        "kana": "きしだくにお",
+        "roman": "Kunio Kishida",
+        "role": "著者",
+        "birthDate": "1890-11-02",
+        "deathDate": "1954-03-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

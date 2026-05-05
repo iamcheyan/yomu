@@ -19544,5 +19544,49 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002012",
+    "title": "道標",
+    "titleKana": "どうひょう",
+    "sortKana": "とうひよう",
+    "firstAppearance": "第一部「展望」筑摩書房、1947（昭和22）年10月号～1948（昭和23）年8月号<br> 第二部「展望」筑摩書房、1948（昭和23）年9月号～1949（昭和24）年5月号<br> 第三部「展望」筑摩書房、1949（昭和24）年10月号～1950（昭和25）年2月号、1950（昭和25）年4月～12月号<br> 資料「展望」筑摩書房、1949（昭和24）年8、9月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-12-31",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000311/card2012.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000311/files/2012_ruby_7800.zip",
+    "textFileId": "2012_ruby_7800",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000311/files/2012_7798.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "宮本百合子全集　第七巻",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1980（昭和55）年10月20日",
+      "inputEdition": "1986（昭和61）年3月20日第4刷"
+    },
+    "baseBook2": {
+      "title": "宮本百合子全集　第八巻",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1980（昭和55）年11月20日",
+      "inputEdition": "1986（昭和61）年3月20日第4刷"
+    },
+    "author": "宮本百合子",
+    "authors": [
+      {
+        "personId": "000311",
+        "name": "宮本百合子",
+        "kana": "みやもとゆりこ",
+        "roman": "Yuriko Miyamoto",
+        "role": "著者",
+        "birthDate": "1899-02-13",
+        "deathDate": "1951-01-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

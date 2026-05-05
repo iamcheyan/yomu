@@ -50,5 +50,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043057",
+    "title": "「小学生全集」について",
+    "titleKana": "しょうがくせいぜんしゅうについて",
+    "sortKana": "しようかくせいせんしゆうについて",
+    "firstAppearance": "「文藝春秋」1927（昭和2）年5月号",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-06-13",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000083/card43057.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000083/files/43057_ruby_15488.zip",
+    "textFileId": "43057_ruby_15488",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000083/files/43057_15656.html",
+    "inputBy": "大久保ゆう",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "菊池寛全集　第二十四巻",
+      "publisher": "高松市菊池寛記念館、文藝春秋",
+      "firstPublishedAt": "1995（平成7）年8月30日",
+      "inputEdition": "1995（平成7）年8月30日",
+      "proofreadEdition": "1995（平成7）年8月30日"
+    },
+    "author": "菊池寛",
+    "authors": [
+      {
+        "personId": "000083",
+        "name": "菊池寛",
+        "kana": "きくちかん",
+        "roman": "Kan Kikuchi",
+        "role": "著者",
+        "birthDate": "1888-12-26",
+        "deathDate": "1948-03-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -126,5 +126,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004656",
+    "title": "鎌倉一見の記",
+    "titleKana": "かまくらいっけんのき",
+    "sortKana": "かまくらいつけんのき",
+    "ndc": "NDC 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-06-29",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000305/card4656.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000305/files/4656_ruby_10313.zip",
+    "textFileId": "4656_ruby_10313",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000305/files/4656_10324.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "浅原庸子",
+    "baseBook1": {
+      "title": "現代日本紀行文学全集　東日本編",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1976（昭和51）年8月1日",
+      "inputEdition": "1976（昭和51）年8月1日初版"
+    },
+    "author": "正岡子規",
+    "authors": [
+      {
+        "personId": "000305",
+        "name": "正岡子規",
+        "kana": "まさおかしき",
+        "roman": "Shiki Masaoka",
+        "role": "著者",
+        "birthDate": "1867-10-14",
+        "deathDate": "1902-09-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

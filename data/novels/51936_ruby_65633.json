@@ -580,5 +580,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051936",
+    "title": "茗荷畠",
+    "titleKana": "みょうがばたけ",
+    "sortKana": "みようかはたけ",
+    "firstAppearance": "「中央公論」1907（明治40）年11月",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-09-01",
+    "updatedAt": "2018-08-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000309/card51936.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000309/files/51936_ruby_65633.zip",
+    "textFileId": "51936_ruby_65633",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000309/files/51936_65728.html",
+    "inputBy": "伊藤時也",
+    "proofreadBy": "荒木恵一",
+    "baseBook1": {
+      "title": "現代日本文學大系　21　岩野泡鳴・上司小劍・眞山青果・近松秋江集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1970（昭和45）年10月5日",
+      "inputEdition": "1970（昭和45）年10月5日初版第1刷",
+      "proofreadEdition": "1972（昭和47）年6月30日初版第2刷"
+    },
+    "author": "真山青果",
+    "authors": [
+      {
+        "personId": "000309",
+        "name": "真山青果",
+        "kana": "まやませいか",
+        "roman": "Seika Mayama",
+        "role": "著者",
+        "birthDate": "1878-09-01",
+        "deathDate": "1948-03-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

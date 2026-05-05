@@ -124,5 +124,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059302",
+    "title": "谷崎潤一郎氏の作品",
+    "titleKana": "たにざきじゅんいちろうしのさくひん",
+    "sortKana": "たにさきしゆんいちろうしのさくひん",
+    "firstAppearance": "「三田文学」1911（明治44）年11月1日",
+    "ndc": "NDC 910",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-07-30",
+    "updatedAt": "2021-06-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001341/card59302.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001341/files/59302_ruby_73671.zip",
+    "textFileId": "59302_ruby_73671",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001341/files/59302_73710.html",
+    "inputBy": "きりんの手紙",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "明治の文学　第25巻　永井荷風・谷崎潤一郎",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2001（平成13）年11月20日",
+      "inputEdition": "2001（平成13）年11月20日初版第1刷",
+      "proofreadEdition": "2001（平成13）年11月20日初版第1刷"
+    },
+    "author": "永井荷風",
+    "authors": [
+      {
+        "personId": "001341",
+        "name": "永井荷風",
+        "kana": "ながいかふう",
+        "roman": "Kafu Nagai",
+        "role": "著者",
+        "birthDate": "1879-12-03",
+        "deathDate": "1959-04-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

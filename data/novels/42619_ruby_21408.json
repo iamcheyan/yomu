@@ -100,5 +100,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042619",
+    "title": "続堕落論",
+    "titleKana": "ぞくだらくろん",
+    "sortKana": "そくたらくろん",
+    "firstAppearance": "「文学季刊　第二号（冬季号）」1946（昭和21）年12月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-03-01",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card42619.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/42619_ruby_21408.zip",
+    "textFileId": "42619_ruby_21408",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/42619_21409.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "宮元淳一",
+    "baseBook1": {
+      "title": "坂口安吾全集14",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1990（平成2）年6月26日",
+      "inputEdition": "1990（平成2）年6月26日第1刷",
+      "proofreadEdition": "1990（平成2）年6月26日第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

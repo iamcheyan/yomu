@@ -366,5 +366,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "012624",
+    "title": "死者の書　続編（草稿）",
+    "titleKana": "ししゃのしょ　ぞくへん（そうこう）",
+    "sortKana": "ししやのしよそくへんそうこう",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-01-05",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card12624.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/12624_ruby_14166.zip",
+    "textFileId": "12624_ruby_14166",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/12624_14221.html",
+    "inputBy": "高柳典子",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "折口信夫全集　第廿四巻",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1955（昭和30）年6月5日、1967（昭和42）年10月25日新訂版",
+      "inputEdition": "1974（昭和49）年4月20日新訂再発行"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

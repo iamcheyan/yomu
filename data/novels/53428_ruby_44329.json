@@ -32,5 +32,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053428",
+    "title": "県道",
+    "titleKana": "けんどう",
+    "sortKana": "けんとう",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-07-30",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card53428.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/53428_ruby_44329.zip",
+    "textFileId": "53428_ruby_44329",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/53428_43269.html",
+    "inputBy": "junk",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "新修宮沢賢治全集　第六巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1980（昭和55）年2月15日",
+      "inputEdition": "1980（昭和55）年2月15日初版第1刷",
+      "proofreadEdition": "1985（昭和60）年2月25日初版第4刷"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -344,5 +344,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055989",
+    "title": "世評（一幕二場）",
+    "titleKana": "せひょう（いちまくにば）",
+    "sortKana": "せひよういちまくには",
+    "subtitle": "A morality",
+    "subtitleKana": "ア　モラリティ",
+    "ndc": "NDC 912",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-02-08",
+    "updatedAt": "2015-01-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000083/card55989.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000083/files/55989_ruby_55579.zip",
+    "textFileId": "55989_ruby_55579",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000083/files/55989_55626.html",
+    "inputBy": "sogo",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本掌編小説秀作選　下　花・暦篇",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "1987（昭和62）年12月20日",
+      "inputEdition": "1987（昭和62）年12月20日初版1刷",
+      "proofreadEdition": "1987（昭和62）年12月20日初版1刷"
+    },
+    "author": "菊池寛",
+    "authors": [
+      {
+        "personId": "000083",
+        "name": "菊池寛",
+        "kana": "きくちかん",
+        "roman": "Kan Kikuchi",
+        "role": "著者",
+        "birthDate": "1888-12-26",
+        "deathDate": "1948-03-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

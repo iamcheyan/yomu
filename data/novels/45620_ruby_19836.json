@@ -162,5 +162,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045620",
+    "title": "泉鏡花作『外科室』",
+    "titleKana": "いずみきょうかさく『げかしつ』",
+    "sortKana": "いすみきようかさくけかしつ",
+    "firstAppearance": "「國民之友」1895（明治28）年7月23日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-11-22",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000805/card45620.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000805/files/45620_ruby_19836.zip",
+    "textFileId": "45620_ruby_19836",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000805/files/45620_20054.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "鏡花全集　卷二　月報2",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1942（昭和17）年9月30日",
+      "inputEdition": "1973（昭和48）年12月3日第2刷",
+      "proofreadEdition": "1986（昭和61）年10月3日第3刷"
+    },
+    "author": "宮崎湖処子",
+    "authors": [
+      {
+        "personId": "000805",
+        "name": "宮崎湖処子",
+        "kana": "みやざきこしょし",
+        "roman": "Koshoshi Miyazaki",
+        "role": "著者",
+        "birthDate": "1864-09-20",
+        "deathDate": "1922-08-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

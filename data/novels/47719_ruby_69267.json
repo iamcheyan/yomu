@@ -52,5 +52,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047719",
+    "title": "無頼の徒の芸術",
+    "titleKana": "ぶらいのととげいじゅつ",
+    "sortKana": "ふらいのととけいしゆつ",
+    "firstAppearance": "「水甕　第二十三巻第六号」1936（昭和11）年6月1日",
+    "ndc": "NDC 386",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-10-09",
+    "updatedAt": "2019-09-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card47719.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/47719_ruby_69267.zip",
+    "textFileId": "47719_ruby_69267",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/47719_69319.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "植松健伍",
+    "baseBook1": {
+      "title": "折口信夫全集　21",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1996（平成8）年11月10日",
+      "inputEdition": "1996（平成8）年11月10日初版",
+      "proofreadEdition": "1996（平成8）年11月10日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

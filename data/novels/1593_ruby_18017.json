@@ -42,5 +42,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001593",
+    "title": "一歩前進二歩退却",
+    "titleKana": "いっぽぜんしんにほたいきゃく",
+    "sortKana": "いつほせんしんにほたいきやく",
+    "firstAppearance": "「文筆」1938（昭和13）年8月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-04-22",
+    "updatedAt": "2016-07-12",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card1593.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/1593_ruby_18017.zip",
+    "textFileId": "1593_ruby_18017",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/1593_18101.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "太宰治全集10",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1989（平成元）年6月27日",
+      "inputEdition": "1989（平成元）年6月27日第1刷",
+      "proofreadEdition": "1996（平成8）年7月15日第3刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

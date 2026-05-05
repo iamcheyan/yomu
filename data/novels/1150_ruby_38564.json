@@ -1714,5 +1714,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001150",
+    "title": "宇宙の始まり",
+    "titleKana": "うちゅうのはじまり",
+    "sortKana": "うちゆうのはしまり",
+    "ndc": "NDC 440",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-08-16",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000226/card1150.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000226/files/1150_ruby_38564.zip",
+    "textFileId": "1150_ruby_38564",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000226/files/1150_40143.html",
+    "inputBy": "手嶋善成",
+    "proofreadBy": "トレンドイースト",
+    "baseBook1": {
+      "title": "宇宙の始まり",
+      "publisher": "第三書館",
+      "firstPublishedAt": "1992（平成4）年11月1日",
+      "inputEdition": "1992（平成4）年11月1日初版",
+      "proofreadEdition": "1992（平成4）年11月1日初版"
+    },
+    "author": "アレニウススヴァンテ",
+    "authors": [
+      {
+        "personId": "000226",
+        "name": "アレニウススヴァンテ",
+        "kana": "アレニウススヴァンテ",
+        "roman": "Svante Arrhenius",
+        "role": "著者",
+        "birthDate": "1859-02-19",
+        "deathDate": "1927-10-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

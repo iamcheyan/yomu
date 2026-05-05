@@ -244,5 +244,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055324",
+    "title": "フアイヤ・ガン",
+    "titleKana": "ファイヤ・ガン",
+    "sortKana": "ふあいやかん",
+    "firstAppearance": "「中央公論　第三十八年第十二号」中央公論社、1923（大正12）年11月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-12-23",
+    "updatedAt": "2019-11-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000023/card55324.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000023/files/55324_ruby_69706.zip",
+    "textFileId": "55324_ruby_69706",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000023/files/55324_69751.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "えにしだ",
+    "baseBook1": {
+      "title": "徳田秋聲全集　第14巻",
+      "publisher": "八木書店",
+      "firstPublishedAt": "2000（平成12）年7月18日",
+      "inputEdition": "2000（平成12）年7月18日初版",
+      "proofreadEdition": "2000（平成12）年7月18日初版"
+    },
+    "author": "徳田秋声",
+    "authors": [
+      {
+        "personId": "000023",
+        "name": "徳田秋声",
+        "kana": "とくだしゅうせい",
+        "roman": "Shusei Tokuda",
+        "role": "著者",
+        "birthDate": "1872-02-01",
+        "deathDate": "1943-11-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

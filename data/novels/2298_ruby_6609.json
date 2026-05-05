@@ -934,5 +934,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002298",
+    "title": "大塩平八郎",
+    "titleKana": "おおしおへいはちろう",
+    "sortKana": "おおしおへいはちろう",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-12-13",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card2298.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/2298_ruby_6609.zip",
+    "textFileId": "2298_ruby_6609",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/2298_16910.html",
+    "inputBy": "kompass",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "鴎外歴史文学集　第二巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "2000（平成12）年10月10日",
+      "inputEdition": "2000（平成12）年10月10日"
+    },
+    "author": "森鴎外",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

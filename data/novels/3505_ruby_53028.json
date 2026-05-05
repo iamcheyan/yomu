@@ -40,5 +40,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003505",
+    "title": "読書",
+    "titleKana": "どくしょ",
+    "sortKana": "とくしよ",
+    "firstAppearance": "「改造　第二十巻第十一号」1938（昭和13）年11月",
+    "ndc": "NDC 121",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-03-31",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000182/card3505.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000182/files/3505_ruby_53028.zip",
+    "textFileId": "3505_ruby_53028",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000182/files/3505_53075.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "荒木恵一",
+    "baseBook1": {
+      "title": "続思索と体験『続思索と体験』以後",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1980（昭和55）年10月16日",
+      "inputEdition": "1980（昭和55）年10月16日第1刷",
+      "proofreadEdition": "1980（昭和55）年10月16日第1刷"
+    },
+    "author": "西田幾多郎",
+    "authors": [
+      {
+        "personId": "000182",
+        "name": "西田幾多郎",
+        "kana": "にしだきたろう",
+        "roman": "Kitaro Nishida",
+        "role": "著者",
+        "birthDate": "1870-06-17",
+        "deathDate": "1945-06-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

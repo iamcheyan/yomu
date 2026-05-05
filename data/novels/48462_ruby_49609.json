@@ -60,5 +60,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048462",
+    "title": "四五ニズム述懐",
+    "titleKana": "しごニズムじゅっかい",
+    "sortKana": "しこにすむしゆつかい",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-04-17",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000293/card48462.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000293/files/48462_ruby_49609.zip",
+    "textFileId": "48462_ruby_49609",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000293/files/48462_50105.html",
+    "inputBy": "蒋龍",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "普及版　原民喜全集第一巻",
+      "publisher": "芳賀書店",
+      "firstPublishedAt": "1966（昭和41）年2月15日",
+      "inputEdition": "1966（昭和41）年2月15日",
+      "proofreadEdition": "1969（昭和44）年9月15日新装版"
+    },
+    "author": "原民喜",
+    "authors": [
+      {
+        "personId": "000293",
+        "name": "原民喜",
+        "kana": "はらたみき",
+        "roman": "Tamiki Hara",
+        "role": "著者",
+        "birthDate": "1905-11-15",
+        "deathDate": "1951-03-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

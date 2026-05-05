@@ -1354,5 +1354,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000476",
+    "title": "籠釣瓶",
+    "titleKana": "かごつるべ",
+    "sortKana": "かこつるへ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-06-12",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000082/card476.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000082/files/476_ruby_33083.zip",
+    "textFileId": "476_ruby_33083",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000082/files/476_33084.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "かとうかおり",
+    "baseBook1": {
+      "title": "江戸情話集",
+      "publisher": "光文社時代小説文庫、光文社",
+      "firstPublishedAt": "1993（平成5）年12月20日"
+    },
+    "author": "岡本綺堂",
+    "authors": [
+      {
+        "personId": "000082",
+        "name": "岡本綺堂",
+        "kana": "おかもときどう",
+        "roman": "Kido Okamoto",
+        "role": "著者",
+        "birthDate": "1872-11-15",
+        "deathDate": "1939-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

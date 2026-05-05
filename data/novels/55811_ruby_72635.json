@@ -476,5 +476,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055811",
+    "title": "首切り問答",
+    "titleKana": "くびきりもんどう",
+    "sortKana": "くひきりもんとう",
+    "firstAppearance": "「日の出」新潮社、1935（昭和10）年4月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-02-28",
+    "updatedAt": "2021-01-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001750/card55811.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001750/files/55811_ruby_72635.zip",
+    "textFileId": "55811_ruby_72635",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001750/files/55811_72679.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "芝裕久",
+    "baseBook1": {
+      "title": "佐々木邦全集　補巻5　王将連盟　短篇",
+      "publisher": "講談社",
+      "firstPublishedAt": "1975（昭和50）年12月20日",
+      "inputEdition": "1975（昭和50）年12月20日第1刷",
+      "proofreadEdition": "1975（昭和50）年12月20日第1刷"
+    },
+    "author": "佐々木邦",
+    "authors": [
+      {
+        "personId": "001750",
+        "name": "佐々木邦",
+        "kana": "ささきくに",
+        "roman": "Kuni Sasaki",
+        "role": "著者",
+        "birthDate": "1883-05-04",
+        "deathDate": "1964-09-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

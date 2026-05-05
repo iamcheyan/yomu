@@ -1484,5 +1484,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050413",
+    "title": "一草庵日記",
+    "titleKana": "いっそうあんにっき",
+    "sortKana": "いつそうあんにつき",
+    "ndc": "NDC 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-10-11",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000146/card50413.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000146/files/50413_ruby_40424.zip",
+    "textFileId": "50413_ruby_40424",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000146/files/50413_40526.html",
+    "inputBy": "小林繁雄",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "山頭火全集　第十巻",
+      "publisher": "春陽堂書店",
+      "firstPublishedAt": "1987（昭和62）年11月30日",
+      "inputEdition": "1991（平成3）年3月20日第4刷",
+      "proofreadEdition": "1991（平成3）年3月20日第4刷"
+    },
+    "author": "種田山頭火",
+    "authors": [
+      {
+        "personId": "000146",
+        "name": "種田山頭火",
+        "kana": "たねださんとうか",
+        "roman": "Santoka Taneda",
+        "role": "著者",
+        "birthDate": "1882-12-03",
+        "deathDate": "1940-10-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

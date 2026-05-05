@@ -2238,5 +2238,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046831",
+    "title": "鴎外の思い出",
+    "titleKana": "おうがいのおもいで",
+    "sortKana": "おうかいのおもいて",
+    "ndc": "NDC 910 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-12-15",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001247/card46831.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001247/files/46831_ruby_28523.zip",
+    "textFileId": "46831_ruby_28523",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001247/files/46831_28793.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "鴎外の思い出",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1999（平成11）年11月16日",
+      "inputEdition": "1999（平成11）年11月16日第1刷",
+      "proofreadEdition": "1999（平成11）年11月16日第1刷"
+    },
+    "author": "小金井喜美子",
+    "authors": [
+      {
+        "personId": "001247",
+        "name": "小金井喜美子",
+        "kana": "こがねいきみこ",
+        "roman": "Kimiko Koganei",
+        "role": "著者",
+        "birthDate": "1871-01-19",
+        "deathDate": "1956-01-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

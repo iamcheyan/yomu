@@ -302,5 +302,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004069",
+    "title": "計略二重戦",
+    "titleKana": "けいりゃくにじゅうせん",
+    "sortKana": "けいりやくにしゆうせん",
+    "subtitle": "少年密偵",
+    "subtitleKana": "しょうねんみってい",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-11-18",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000260/card4069.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000260/files/4069_ruby_16755.zip",
+    "textFileId": "4069_ruby_16755",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000260/files/4069_16913.html",
+    "inputBy": "阿部良子",
+    "proofreadBy": "大野晋",
+    "baseBook1": {
+      "title": "少年小説大系　第7巻　少年探偵小説集",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1986（昭和61）年6月30日",
+      "inputEdition": "1986（昭和61）年6月30日第1版第1刷"
+    },
+    "author": "甲賀三郎",
+    "authors": [
+      {
+        "personId": "000260",
+        "name": "甲賀三郎",
+        "kana": "こうがさぶろう",
+        "roman": "Saburo Koga",
+        "role": "著者",
+        "birthDate": "1893-10-05",
+        "deathDate": "1945-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

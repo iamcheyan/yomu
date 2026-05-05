@@ -210,5 +210,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057857",
+    "title": "海からきた卵",
+    "titleKana": "うみからきたたまご",
+    "sortKana": "うみからきたたまこ",
+    "firstAppearance": "「赤い鳥　第二十一巻第五号」赤い鳥社、1928（昭和3）年11月号",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-08-07",
+    "updatedAt": "2017-07-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001876/card57857.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001876/files/57857_ruby_62109.zip",
+    "textFileId": "57857_ruby_62109",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001876/files/57857_62110.html",
+    "inputBy": "sogo",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "赤い鳥傑作集",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1955（昭和30）年6月25日",
+      "inputEdition": "1981（昭和56）年3月10日39刷",
+      "proofreadEdition": "1981（昭和56）年3月10日39刷"
+    },
+    "author": "塚原健二郎",
+    "authors": [
+      {
+        "personId": "001876",
+        "name": "塚原健二郎",
+        "kana": "つかはらけんじろう",
+        "roman": "Kenjiro Tsukahara",
+        "role": "著者",
+        "birthDate": "1895-02-16",
+        "deathDate": "1965-08-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

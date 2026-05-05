@@ -48,5 +48,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055055",
+    "title": "一茶の書",
+    "titleKana": "いっさのしょ",
+    "sortKana": "いつさのしよ",
+    "ndc": "NDC 728",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-11-19",
+    "updatedAt": "2018-10-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001403/card55055.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001403/files/55055_ruby_66285.zip",
+    "textFileId": "55055_ruby_66285",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001403/files/55055_66332.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "きゅうり",
+    "baseBook1": {
+      "title": "魯山人書論",
+      "publisher": "中公文庫、中央公論社",
+      "firstPublishedAt": "1996（平成8）年9月18日",
+      "inputEdition": "2007（平成19）年9月25日3刷",
+      "proofreadEdition": "1996（平成8）年9月18日"
+    },
+    "author": "北大路魯山人",
+    "authors": [
+      {
+        "personId": "001403",
+        "name": "北大路魯山人",
+        "kana": "きたおおじろさんじん",
+        "roman": "Rosanjin Kitaoji",
+        "role": "著者",
+        "birthDate": "1883-03-23",
+        "deathDate": "1959-12-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

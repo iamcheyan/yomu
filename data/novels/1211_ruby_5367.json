@@ -64,5 +64,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001211",
+    "title": "温情の裕かな夏目さん",
+    "titleKana": "おんじょうのゆたかななつめさん",
+    "sortKana": "おんしようのゆたかななつめさん",
+    "firstAppearance": "「新小説　文豪夏目漱石号」1917（大正6）年1月号",
+    "ndc": "NDC 910 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-04-06",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000165/card1211.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000165/files/1211_ruby_5367.zip",
+    "textFileId": "1211_ruby_5367",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000165/files/1211_20725.html",
+    "inputBy": "葵",
+    "proofreadBy": "小林徹",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻75　紳士",
+      "publisher": "作品社",
+      "firstPublishedAt": "1997（平成9）年5月25日"
+    },
+    "author": "内田魯庵",
+    "authors": [
+      {
+        "personId": "000165",
+        "name": "内田魯庵",
+        "kana": "うちだろあん",
+        "roman": "Roan Uchida",
+        "role": "著者",
+        "birthDate": "1868-04-27",
+        "deathDate": "1929-06-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

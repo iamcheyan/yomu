@@ -106,5 +106,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046151",
+    "title": "月夜",
+    "titleKana": "つきよ",
+    "sortKana": "つきよ",
+    "firstAppearance": "「少女の友」実業之日本社、1918（大正7）年10月",
+    "ndc": "NDC K913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-10-06",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000885/card46151.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000885/files/46151_ruby_23789.zip",
+    "textFileId": "46151_ruby_23789",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000885/files/46151_24282.html",
+    "inputBy": "田中敬三",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "日本児童文学大系　第六巻",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1978（昭和53）年11月30日",
+      "inputEdition": "1979（昭和54）年4月1日2刷",
+      "proofreadEdition": "1978（昭和53）年11月30日初刷"
+    },
+    "author": "与謝野晶子",
+    "authors": [
+      {
+        "personId": "000885",
+        "name": "与謝野晶子",
+        "kana": "よさのあきこ",
+        "roman": "Akiko Yosano",
+        "role": "著者",
+        "birthDate": "1878-12-07",
+        "deathDate": "1942-05-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

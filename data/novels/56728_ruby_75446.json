@@ -112,5 +112,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056728",
+    "title": "満洲通信",
+    "titleKana": "まんしゅうつうしん",
+    "sortKana": "まんしゆうつうしん",
+    "firstAppearance": "「東京朝日新聞」1940（昭和15）年10月13日～16日",
+    "ndc": "NDC 451",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-05-26",
+    "updatedAt": "2022-04-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card56728.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/56728_ruby_75446.zip",
+    "textFileId": "56728_ruby_75446",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/56728_75478.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "najuful",
+    "baseBook1": {
+      "title": "中谷宇吉郎紀行集　アラスカの氷河",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2002（平成14）年12月13日",
+      "inputEdition": "2011（平成23）年12月16日第3刷",
+      "proofreadEdition": "2002（平成14）年12月13日第1刷"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

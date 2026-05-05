@@ -494,5 +494,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002162",
+    "title": "碑文",
+    "titleKana": "ひぶん",
+    "sortKana": "ひふん",
+    "firstAppearance": "「新思潮」1923（大正12）年7月10日発行、第6次の2第1号",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-12-11",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card2162.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/2162_ruby_5611.zip",
+    "textFileId": "2162_ruby_5611",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/2162_5610.html",
+    "inputBy": "高寺康仁",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "定本横光利一全集　第一巻",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "1981（昭和56）年6月30日"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

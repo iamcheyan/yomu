@@ -46,5 +46,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047261",
+    "title": "探偵小説を作って貰い度い人々",
+    "titleKana": "たんていしょうせつをつくってもらいたいひとびと",
+    "sortKana": "たんていしようせつをつくつてもらいたいひとひと",
+    "firstAppearance": "「探偵趣味」1926（大正15）年1月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-03-20",
+    "updatedAt": "2019-02-22",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card47261.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/47261_ruby_67396.zip",
+    "textFileId": "47261_ruby_67396",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/47261_67345.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "きゅうり",
+    "baseBook1": {
+      "title": "国枝史郎探偵小説全集　全一巻",
+      "publisher": "作品社",
+      "firstPublishedAt": "2005（平成17）年9月15日",
+      "inputEdition": "2005（平成17）年9月15日第1刷",
+      "proofreadEdition": "2005（平成17）年9月15日第1刷"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

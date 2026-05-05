@@ -300,5 +300,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004645",
+    "title": "鳥羽家の子供",
+    "titleKana": "とばけのこども",
+    "sortKana": "とはけのことも",
+    "firstAppearance": "「文科」第4輯、1932（昭和7）年3月",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-08-27",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000273/card4645.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000273/files/4645_ruby_19027.zip",
+    "textFileId": "4645_ruby_19027",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000273/files/4645_19216.html",
+    "inputBy": "kompass",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "筑摩現代文学大系　60　田畑修一郎　木山捷平　小沼丹集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1978（昭和53）年4月15日",
+      "inputEdition": "1980（昭和55）年7月30日初版第2刷",
+      "proofreadEdition": "1984（昭和59）年11月1日初版第3刷"
+    },
+    "author": "田畑修一郎",
+    "authors": [
+      {
+        "personId": "000273",
+        "name": "田畑修一郎",
+        "kana": "たばたしゅういちろう",
+        "roman": "Shuichiro Tabata",
+        "role": "著者",
+        "birthDate": "1903-09-02",
+        "deathDate": "1943-07-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

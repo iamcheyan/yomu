@@ -184,5 +184,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047823",
+    "title": "実川延若讃",
+    "titleKana": "じつかわえんじゃくさん",
+    "sortKana": "しつかわえんしやくさん",
+    "firstAppearance": "第一部分「苦楽　第四巻第五号」1949（昭和24）年5月<br>第二部分「演劇界　第七巻第四号」1949（昭和24）年4月<br>第三部分「かぶき讃」創元社、1953（昭和28）年2月20日",
+    "ndc": "NDC 774",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-12-11",
+    "updatedAt": "2018-12-07",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card47823.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/47823_ruby_66478.zip",
+    "textFileId": "47823_ruby_66478",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/47823_66523.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "酒井和郎",
+    "baseBook1": {
+      "title": "折口信夫全集　22",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1996（平成8）年12月10日",
+      "inputEdition": "1996（平成8）年12月10日初版",
+      "proofreadEdition": "1996（平成8）年12月10日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

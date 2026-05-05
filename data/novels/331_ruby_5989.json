@@ -84,5 +84,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000331",
+    "title": "石清虚",
+    "titleKana": "せきせいきょ",
+    "sortKana": "せきせいきよ",
+    "firstAppearance": "『東洋畫報』第一巻第五號、1903（明治36）年7月3日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-06-22",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000038/card331.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000038/files/331_ruby_5989.zip",
+    "textFileId": "331_ruby_5989",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000038/files/331_15986.html",
+    "inputBy": "小林徹",
+    "proofreadBy": "しず",
+    "baseBook1": {
+      "title": "國木田獨歩全集　第四巻",
+      "publisher": "学習研究社",
+      "firstPublishedAt": "1966（昭和41）年2月10日"
+    },
+    "author": "国木田独歩",
+    "authors": [
+      {
+        "personId": "000038",
+        "name": "国木田独歩",
+        "kana": "くにきだどっぽ",
+        "roman": "Doppo Kunikida",
+        "role": "著者",
+        "birthDate": "1871-08-30",
+        "deathDate": "1908-06-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

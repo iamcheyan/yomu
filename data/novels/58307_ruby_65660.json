@@ -32,5 +32,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058307",
+    "title": "地蔵尊",
+    "titleKana": "じぞうそん",
+    "sortKana": "しそうそん",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-09-18",
+    "updatedAt": "2018-08-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000280/card58307.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000280/files/58307_ruby_65660.zip",
+    "textFileId": "58307_ruby_65660",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000280/files/58307_65755.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "仏教の名随筆　2",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "2006（平成18）年7月10日",
+      "inputEdition": "2006（平成18）年7月10日初版第1刷",
+      "proofreadEdition": "2006（平成18）年7月10日初版第1刷"
+    },
+    "author": "徳冨蘆花",
+    "authors": [
+      {
+        "personId": "000280",
+        "name": "徳冨蘆花",
+        "kana": "とくとみろか",
+        "roman": "Roka Tokutomi",
+        "role": "著者",
+        "birthDate": "1868-12-08",
+        "deathDate": "1927-09-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

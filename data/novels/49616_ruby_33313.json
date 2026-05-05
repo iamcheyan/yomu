@@ -206,5 +206,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049616",
+    "title": "東洋文化史における仏教の地位",
+    "titleKana": "とうようぶんかしにおけるぶっきょうのちい",
+    "sortKana": "とうようふんかしにおけるふつきようのちい",
+    "firstAppearance": "外務省文化事業部に於ける講演、1930（昭和5）年2月15日",
+    "ndc": "NDC 180",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-02-07",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001222/card49616.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001222/files/49616_ruby_33313.zip",
+    "textFileId": "49616_ruby_33313",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001222/files/49616_34171.html",
+    "inputBy": "大橋重紀",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "高楠順次郎全集　第一巻",
+      "publisher": "教育新潮社",
+      "firstPublishedAt": "1977（昭和52）年2月25日",
+      "inputEdition": "1977（昭和52）年2月25日第1刷",
+      "proofreadEdition": "1977（昭和52）年2月25日第1刷"
+    },
+    "author": "高楠順次郎",
+    "authors": [
+      {
+        "personId": "001222",
+        "name": "高楠順次郎",
+        "kana": "たかくすじゅんじろう",
+        "roman": "Junjiro Takakusu",
+        "role": "著者",
+        "birthDate": "1866-06-29",
+        "deathDate": "1945-06-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

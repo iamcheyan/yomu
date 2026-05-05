@@ -1032,5 +1032,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042810",
+    "title": "支那人間に於ける食人肉の風習",
+    "titleKana": "しなじんかんにおけるしょくじんにくのふうしゅう",
+    "sortKana": "しなしんかんにおけるしよくしんにくのふうしゆう",
+    "firstAppearance": "「東洋学報　第十四卷第一號」1924（大正13）年7月",
+    "ndc": "NDC 222",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-09-28",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000372/card42810.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000372/files/42810_ruby_15455.zip",
+    "textFileId": "42810_ruby_15455",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000372/files/42810_23981.html",
+    "inputBy": "はまなかひとし",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "桑原隲藏全集　第二卷",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1968（昭和43）年3月13日",
+      "inputEdition": "1968（昭和43）年3月13日",
+      "proofreadEdition": "1968（昭和43）年3月13日"
+    },
+    "author": "桑原隲蔵",
+    "authors": [
+      {
+        "personId": "000372",
+        "name": "桑原隲蔵",
+        "kana": "くわばらじつぞう",
+        "roman": "Jitsuzo Kuwabara",
+        "role": "著者",
+        "birthDate": "1871-01-27",
+        "deathDate": "1931-05-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

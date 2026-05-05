@@ -290,5 +290,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058573",
+    "title": "蛾はどこにでもゐる",
+    "titleKana": "がはどこにでもいる",
+    "sortKana": "かはとこにてもいる",
+    "firstAppearance": "「文藝春秋　第四年第十號」1926（大正15）年10月1日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-09-12",
+    "updatedAt": "2017-08-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card58573.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/58573_ruby_62517.zip",
+    "textFileId": "58573_ruby_62517",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/58573_62559.html",
+    "inputBy": "姉十文",
+    "proofreadBy": "mitocho",
+    "baseBook1": {
+      "title": "定本　横光利一全集　第二巻",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "1981（昭和56）年8月31日",
+      "inputEdition": "1981（昭和56）年8月31日初版",
+      "proofreadEdition": "1981（昭和56）年8月31日初版"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -76,5 +76,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050252",
+    "title": "桐の花とカステラ",
+    "titleKana": "きりのはなとカステラ",
+    "sortKana": "きりのはなとかすてら",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-04-06",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000106/card50252.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000106/files/50252_ruby_37546.zip",
+    "textFileId": "50252_ruby_37546",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000106/files/50252_38425.html",
+    "inputBy": "浦山敦子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻30　短歌",
+      "publisher": "作品社",
+      "firstPublishedAt": "1993（平成5）年8月25日",
+      "inputEdition": "1993（平成5）年8月25日第1刷",
+      "proofreadEdition": "1993（平成5）年8月25日第1刷"
+    },
+    "author": "北原白秋",
+    "authors": [
+      {
+        "personId": "000106",
+        "name": "北原白秋",
+        "kana": "きたはらはくしゅう",
+        "roman": "Hakushu Kitahara",
+        "role": "著者",
+        "birthDate": "1885-01-25",
+        "deathDate": "1942-11-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -52,5 +52,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060382",
+    "title": "国民性の問題",
+    "titleKana": "こくみんせいのもんだい",
+    "sortKana": "こくみんせいのもんたい",
+    "firstAppearance": "「新演藝」1922（大正11）年9月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-05-30",
+    "updatedAt": "2022-04-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001341/card60382.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001341/files/60382_ruby_75449.zip",
+    "textFileId": "60382_ruby_75449",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001341/files/60382_75481.html",
+    "inputBy": "入江幹夫",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "21世紀の日本人へ　永井荷風",
+      "publisher": "晶文社",
+      "firstPublishedAt": "1999（平成11）年 1月30日",
+      "inputEdition": "1999（平成11）年 1月30日初版",
+      "proofreadEdition": "1999（平成11）年 1月30日初版"
+    },
+    "author": "永井荷風",
+    "authors": [
+      {
+        "personId": "001341",
+        "name": "永井荷風",
+        "kana": "ながいかふう",
+        "roman": "Kafu Nagai",
+        "role": "著者",
+        "birthDate": "1879-12-03",
+        "deathDate": "1959-04-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

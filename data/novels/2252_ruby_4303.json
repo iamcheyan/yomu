@@ -96,5 +96,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002252",
+    "title": "弘法大師の文芸",
+    "titleKana": "こうぼうだいしのぶんげい",
+    "sortKana": "こうほうたいしのふんけい",
+    "firstAppearance": "弘法大師降誕會講演、1912（明治45）年6月15日",
+    "ndc": "NDC 188",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-10-17",
+    "updatedAt": "2016-04-20",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000284/card2252.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000284/files/2252_ruby_4303.zip",
+    "textFileId": "2252_ruby_4303",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000284/files/2252_21483.html",
+    "inputBy": "はまなかひとし",
+    "proofreadBy": "菅野朋子",
+    "baseBook1": {
+      "title": "内藤湖南全集　第九卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1969（昭和44）年4月10日",
+      "inputEdition": "1976（昭和51）年10月10日初版第3刷"
+    },
+    "author": "内藤湖南",
+    "authors": [
+      {
+        "personId": "000284",
+        "name": "内藤湖南",
+        "kana": "ないとうこなん",
+        "roman": "Konan Naito",
+        "role": "著者",
+        "birthDate": "1866-08-26",
+        "deathDate": "1934-06-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

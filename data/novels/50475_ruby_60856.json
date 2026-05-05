@@ -604,5 +604,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050475",
+    "title": "比島投降記",
+    "titleKana": "ひとうとうこうき",
+    "sortKana": "ひとうとうこうき",
+    "subtitle": "ある新聞記者の見た敗戦",
+    "subtitleKana": "あるしんぶんきしゃのみたはいせん",
+    "firstAppearance": "「比島投降記」大地書房、1946（昭和21）年11月",
+    "ndc": "NDC 916",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-03-17",
+    "updatedAt": "2017-01-12",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001380/card50475.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001380/files/50475_ruby_60856.zip",
+    "textFileId": "50475_ruby_60856",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001380/files/50475_60898.html",
+    "inputBy": "富田晶子",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "比島投降記　ある新聞記者の見た敗戦",
+      "publisher": "中公文庫、中央公論社",
+      "firstPublishedAt": "1995（平成7）年2月18日",
+      "inputEdition": "1995（平成7）年2月18日",
+      "proofreadEdition": "1995（平成7）年2月18日"
+    },
+    "author": "石川欣一",
+    "authors": [
+      {
+        "personId": "001380",
+        "name": "石川欣一",
+        "kana": "いしかわきんいち",
+        "roman": "Kinichi Ishikawa",
+        "role": "著者",
+        "birthDate": "1895-03-17",
+        "deathDate": "1959-08-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -1448,5 +1448,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049830",
+    "title": "彦六大いに笑ふ",
+    "titleKana": "ひころくおおいにわらう",
+    "sortKana": "ひころくおおいにわらう",
+    "firstAppearance": "「新演劇」1936（昭和11）年12月号",
+    "ndc": "NDC 912",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-05-25",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001311/card49830.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001311/files/49830_ruby_34698.zip",
+    "textFileId": "49830_ruby_34698",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001311/files/49830_38859.html",
+    "inputBy": "伊藤時也",
+    "proofreadBy": "伊藤時也、及川　雅",
+    "baseBook1": {
+      "title": "三好十郎の仕事　第一巻",
+      "publisher": "學藝書林",
+      "firstPublishedAt": "1968（昭和43）年7月1日",
+      "inputEdition": "1968（昭和43）年7月1日第1刷",
+      "proofreadEdition": "1968（昭和43）年7月1日第1刷"
+    },
+    "author": "三好十郎",
+    "authors": [
+      {
+        "personId": "001311",
+        "name": "三好十郎",
+        "kana": "みよしじゅうろう",
+        "roman": "Juro Miyoshi",
+        "role": "著者",
+        "birthDate": "1902-04-21",
+        "deathDate": "1958-12-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

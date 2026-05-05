@@ -40,5 +40,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056765",
+    "title": "啄木とデカルト命題",
+    "titleKana": "たくぼくとデカルトめいだい",
+    "sortKana": "たくほくとてかるとめいたい",
+    "ndc": "NDC 121",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-10-15",
+    "updatedAt": "2014-09-15",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001804/card56765.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001804/files/56765_ruby_54477.zip",
+    "textFileId": "56765_ruby_54477",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001804/files/56765_54428.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻92　哲学",
+      "publisher": "作品社",
+      "firstPublishedAt": "1998（平成10）年10月25日",
+      "inputEdition": "1998（平成10）年10月25日第1刷発行",
+      "proofreadEdition": "1998（平成10）年10月25日第1刷発行"
+    },
+    "author": "三枝博音",
+    "authors": [
+      {
+        "personId": "001804",
+        "name": "三枝博音",
+        "kana": "さいぐさひろと",
+        "roman": "Hiroto Saigusa",
+        "role": "著者",
+        "birthDate": "1892-05-20",
+        "deathDate": "1963-11-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

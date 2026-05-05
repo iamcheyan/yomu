@@ -162,5 +162,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059173",
+    "title": "海の中にて",
+    "titleKana": "うみのなかにて",
+    "sortKana": "うみのなかにて",
+    "firstAppearance": "「大觀」1918（大正7）年7月号",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-03-06",
+    "updatedAt": "2019-02-22",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000083/card59173.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000083/files/59173_ruby_67375.zip",
+    "textFileId": "59173_ruby_67375",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000083/files/59173_67324.html",
+    "inputBy": "卯月",
+    "proofreadBy": "hitsuji",
+    "baseBook1": {
+      "title": "菊池寛全集　第二巻",
+      "publisher": "高松市菊池寛記念館",
+      "firstPublishedAt": "1993（平成5）年12月10日",
+      "inputEdition": "1993（平成5）年12月10日",
+      "proofreadEdition": "1993（平成5）年12月10日"
+    },
+    "author": "菊池寛",
+    "authors": [
+      {
+        "personId": "000083",
+        "name": "菊池寛",
+        "kana": "きくちかん",
+        "roman": "Kan Kikuchi",
+        "role": "著者",
+        "birthDate": "1888-12-26",
+        "deathDate": "1948-03-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

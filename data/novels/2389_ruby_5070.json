@@ -182,5 +182,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002389",
+    "title": "彼女こゝに眠る",
+    "titleKana": "かのじょここにねむる",
+    "sortKana": "かのしよここにねむる",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-01-17",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000331/card2389.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000331/files/2389_ruby_5070.zip",
+    "textFileId": "2389_ruby_5070",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000331/files/2389_51610.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "大野裕",
+    "baseBook1": {
+      "title": "若草6巻2号",
+      "publisher": "宝文館",
+      "firstPublishedAt": "1930（昭和5）年2月1日"
+    },
+    "author": "若杉鳥子",
+    "authors": [
+      {
+        "personId": "000331",
+        "name": "若杉鳥子",
+        "kana": "わかすぎとりこ",
+        "roman": "Toriko Wakasugi",
+        "role": "著者",
+        "birthDate": "1892-12-21",
+        "deathDate": "1937-12-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

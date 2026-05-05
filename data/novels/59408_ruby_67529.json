@@ -86,5 +86,36 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059408",
+    "title": "詩とマイクロホン",
+    "titleKana": "しとマイクロホン",
+    "sortKana": "しとまいくろほん",
+    "originalTitle": "POETRY AND THE MICROPHONE",
+    "ndc": "NDC 931",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2019-04-23",
+    "updatedAt": "2019-11-22",
+    "cardUrl": "https://www.aozora.gr.jp/cards/002035/card59408.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/002035/files/59408_ruby_67529.zip",
+    "textFileId": "59408_ruby_67529",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/002035/files/59408_67530.html",
+    "inputBy": "The Creative CAT",
+    "author": "オーウェルジョージ",
+    "authors": [
+      {
+        "personId": "002035",
+        "name": "オーウェルジョージ",
+        "kana": "オーウェルジョージ",
+        "roman": "George Orwell",
+        "role": "著者",
+        "birthDate": "1903-06-25",
+        "deathDate": "1950-01-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

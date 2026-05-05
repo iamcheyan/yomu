@@ -82,5 +82,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042300",
+    "title": "花をうめる",
+    "titleKana": "はなをうめる",
+    "sortKana": "はなをうめる",
+    "firstAppearance": "「哈爾賓日日新聞」1939（昭和14）年10月15日～10月31日",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-03-01",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000121/card42300.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000121/files/42300_ruby_14523.zip",
+    "textFileId": "42300_ruby_14523",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000121/files/42300_14833.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "佳代子",
+    "baseBook1": {
+      "title": "花をうめる　新美南吉童話作品集5",
+      "publisher": "てのり文庫、大日本図書",
+      "firstPublishedAt": "1989（平成1）年4月26日",
+      "inputEdition": "1989（平成1）年4月26日第1刷"
+    },
+    "author": "新美南吉",
+    "authors": [
+      {
+        "personId": "000121",
+        "name": "新美南吉",
+        "kana": "にいみなんきち",
+        "roman": "Nankichi Niimi",
+        "role": "著者",
+        "birthDate": "1913-07-30",
+        "deathDate": "1943-03-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

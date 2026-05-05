@@ -1134,5 +1134,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052454",
+    "title": "遠野物語",
+    "titleKana": "とおのものがたり",
+    "sortKana": "とおのものかたり",
+    "firstAppearance": "「遠野物語」柳田國男、1910（明治43）年6月14日",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2023-08-08",
+    "updatedAt": "2023-08-04",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001566/card52454.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001566/files/52454_ruby_77358.zip",
+    "textFileId": "52454_ruby_77358",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001566/files/52454_77357.html",
+    "inputBy": "kompass",
+    "proofreadBy": "木下聡",
+    "baseBook1": {
+      "title": "新版　遠野物語　付・遠野物語拾遺",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1955（昭和30）年10月5日",
+      "inputEdition": "2009（平成21）年12月5日新版17版",
+      "proofreadEdition": "2011（平成23）年5月30日新版24版"
+    },
+    "author": "柳田国男",
+    "authors": [
+      {
+        "personId": "001566",
+        "name": "柳田国男",
+        "kana": "やなぎたくにお",
+        "roman": "Kunio Yanagita",
+        "role": "著者",
+        "birthDate": "1875-07-31",
+        "deathDate": "1962-08-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

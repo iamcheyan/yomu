@@ -530,5 +530,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056986",
+    "title": "足跡",
+    "titleKana": "あしあと",
+    "sortKana": "あしあと",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-03-20",
+    "updatedAt": "2016-01-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001821/card56986.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001821/files/56986_txt_58235.zip",
+    "textFileId": "56986_txt_58235",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001821/files/56986_58249.html",
+    "inputBy": "kompass",
+    "proofreadBy": "大久保ゆう",
+    "baseBook1": {
+      "title": "近代浪漫派文庫　29　大木惇夫　蔵原伸二郎",
+      "publisher": "新学社",
+      "firstPublishedAt": "2005（平成17）年10月12日",
+      "inputEdition": "2005（平成17）年10月12日第1刷",
+      "proofreadEdition": "2005（平成17）年10月12日第1刷"
+    },
+    "author": "蔵原伸二郎",
+    "authors": [
+      {
+        "personId": "001821",
+        "name": "蔵原伸二郎",
+        "kana": "くらはらしんじろう",
+        "roman": "Shinjiro Kurahara",
+        "role": "著者",
+        "birthDate": "1899-09-04",
+        "deathDate": "1965-03-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

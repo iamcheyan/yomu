@@ -34,5 +34,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059437",
+    "title": "徹した個人主義",
+    "titleKana": "てっしたこじんしゅぎ",
+    "sortKana": "てつしたこしんしゆき",
+    "firstAppearance": "「神港新聞」神港新聞社、1959（昭和34）年5月4日",
+    "ndc": "NDC 910",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-04-30",
+    "updatedAt": "2022-03-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001763/card59437.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001763/files/59437_ruby_75288.zip",
+    "textFileId": "59437_ruby_75288",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001763/files/59437_75320.html",
+    "inputBy": "朱",
+    "proofreadBy": "持田和踏",
+    "baseBook1": {
+      "title": "定本　佐藤春夫全集　第26巻",
+      "publisher": "臨川書店",
+      "firstPublishedAt": "2000（平成12）年9月10日",
+      "inputEdition": "2000（平成12）年9月10日初版",
+      "proofreadEdition": "2000（平成12）年9月10日初版"
+    },
+    "author": "佐藤春夫",
+    "authors": [
+      {
+        "personId": "001763",
+        "name": "佐藤春夫",
+        "kana": "さとうはるお",
+        "roman": "Haruo Sato",
+        "role": "著者",
+        "birthDate": "1892-04-09",
+        "deathDate": "1964-05-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

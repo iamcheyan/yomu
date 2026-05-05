@@ -150,5 +150,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050622",
+    "title": "とと屋禅譚",
+    "titleKana": "ととやぜんたん",
+    "sortKana": "ととやせんたん",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-03-23",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000076/card50622.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000076/files/50622_ruby_37416.zip",
+    "textFileId": "50622_ruby_37416",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000076/files/50622_38177.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "岡本かの子全集5",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1993（平成5）年8月24日",
+      "inputEdition": "1993（平成5）年8月24日第1刷",
+      "proofreadEdition": "1993（平成5）年8月24日第1刷"
+    },
+    "author": "岡本かの子",
+    "authors": [
+      {
+        "personId": "000076",
+        "name": "岡本かの子",
+        "kana": "おかもとかのこ",
+        "roman": "Kanoko Okamoto",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1939-02-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -88,5 +88,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000007",
+    "title": "赤蛙",
+    "titleKana": "あかがえる",
+    "sortKana": "あかかえる",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-08-26",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000008/card7.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000008/files/7_ruby_20893.zip",
+    "textFileId": "7_ruby_20893",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000008/files/7_20894.html",
+    "inputBy": "j.utiyama",
+    "proofreadBy": "かとうかおり",
+    "baseBook1": {
+      "title": "現代日本文學大系　70　武田麟太郎・島木健作・織田作之助・檀一雄集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1970（昭和45）年6月25日"
+    },
+    "author": "島木健作",
+    "authors": [
+      {
+        "personId": "000008",
+        "name": "島木健作",
+        "kana": "しまきけんさく",
+        "roman": "Kensaku Shimaki",
+        "role": "著者",
+        "birthDate": "1903-09-07",
+        "deathDate": "1945-08-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -230,5 +230,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002572",
+    "title": "赤い煙突",
+    "titleKana": "あかいえんとつ",
+    "sortKana": "あかいえんとつ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-11-16",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000020/card2572.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000020/files/2572_ruby_28293.zip",
+    "textFileId": "2572_ruby_28293",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000020/files/2572_28294.html",
+    "inputBy": "森下祐行",
+    "proofreadBy": "もりみつじゅんじ",
+    "baseBook1": {
+      "title": "アンドロギュノスの裔",
+      "publisher": "薔薇十字社",
+      "firstPublishedAt": "1970（昭和45）年9月1日"
+    },
+    "author": "渡辺温",
+    "authors": [
+      {
+        "personId": "000020",
+        "name": "渡辺温",
+        "kana": "わたなべおん",
+        "roman": "On Watanabe",
+        "role": "著者",
+        "birthDate": "1902-08-26",
+        "deathDate": "1930-02-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

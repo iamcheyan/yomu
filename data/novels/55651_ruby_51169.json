@@ -216,5 +216,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055651",
+    "title": "芝、麻布",
+    "titleKana": "しば、あざぶ",
+    "sortKana": "しはあさふ",
+    "firstAppearance": "「東京日日新聞」1927（昭和2）年10月25日～30日",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-09-26",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000479/card55651.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000479/files/55651_ruby_51169.zip",
+    "textFileId": "55651_ruby_51169",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000479/files/55651_51170.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "大東京繁昌記",
+      "publisher": "毎日新聞社",
+      "firstPublishedAt": "1999（平成11）年5月15日",
+      "inputEdition": "1999（平成11）年5月15日",
+      "proofreadEdition": "1999（平成11）年5月15日"
+    },
+    "author": "小山内薫",
+    "authors": [
+      {
+        "personId": "000479",
+        "name": "小山内薫",
+        "kana": "おさないかおる",
+        "roman": "Kaoru Osanai",
+        "role": "著者",
+        "birthDate": "1881-07-26",
+        "deathDate": "1928-12-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

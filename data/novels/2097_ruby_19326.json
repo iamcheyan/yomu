@@ -288,5 +288,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002097",
+    "title": "涙のアリバイ",
+    "titleKana": "なみだのアリバイ",
+    "sortKana": "なみたのありはい",
+    "subtitle": "――手先表情映画――",
+    "subtitleKana": "――てさきひょうじょうえいが――",
+    "firstAppearance": "「猟奇」1928（昭和3）年11月号",
+    "ndc": "NDC 912",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-09-29",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000096/card2097.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000096/files/2097_ruby_19326.zip",
+    "textFileId": "2097_ruby_19326",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000096/files/2097_19351.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "夢野久作全集3",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1992（平成4）年8月24日",
+      "inputEdition": "1992（平成4）年8月24日第1刷",
+      "proofreadEdition": "1992（平成4）年8月24日第1刷"
+    },
+    "author": "夢野久作",
+    "authors": [
+      {
+        "personId": "000096",
+        "name": "夢野久作",
+        "kana": "ゆめのきゅうさく",
+        "roman": "Kyusaku Yumeno",
+        "role": "著者",
+        "birthDate": "1889-01-04",
+        "deathDate": "1936-03-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

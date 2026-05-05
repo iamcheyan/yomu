@@ -36,5 +36,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046903",
+    "title": "孤独のことなど",
+    "titleKana": "こどくのことなど",
+    "sortKana": "ことくのことなと",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-10-22",
+    "updatedAt": "2016-02-02",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000997/card46903.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000997/files/46903_ruby_39724.zip",
+    "textFileId": "46903_ruby_39724",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000997/files/46903_40629.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "定本　北條民雄全集　下巻",
+      "publisher": "東京創元社",
+      "firstPublishedAt": "1980（昭和55）年12月20日",
+      "inputEdition": "1980（昭和55）年12月20日初版",
+      "proofreadEdition": "1980（昭和55）年12月20日初版"
+    },
+    "author": "北条民雄",
+    "authors": [
+      {
+        "personId": "000997",
+        "name": "北条民雄",
+        "kana": "ほうじょうたみお",
+        "roman": "Tamio Hojo",
+        "role": "著者",
+        "birthDate": "1914-09-22",
+        "deathDate": "1937-12-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -926,5 +926,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049370",
+    "title": "通俗講義　霊魂不滅論",
+    "titleKana": "つうぞくこうぎ　れいこんふめつろん",
+    "sortKana": "つうそくこうきれいこんふめつろん",
+    "ndc": "NDC 147",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-06-06",
+    "updatedAt": "2017-04-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001021/card49370.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001021/files/49370_ruby_61537.zip",
+    "textFileId": "49370_ruby_61537",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001021/files/49370_61576.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "井上円了　妖怪学全集　第4巻",
+      "publisher": "柏書房",
+      "firstPublishedAt": "2000（平成12）年3月20日",
+      "inputEdition": "2000（平成12）年3月20日第1刷",
+      "proofreadEdition": "2000（平成12）年3月20日第1刷"
+    },
+    "author": "井上円了",
+    "authors": [
+      {
+        "personId": "001021",
+        "name": "井上円了",
+        "kana": "いのうええんりょう",
+        "roman": "Enryo Inoue",
+        "role": "著者",
+        "birthDate": "1858-03-18",
+        "deathDate": "1919-06-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

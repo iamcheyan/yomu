@@ -166,5 +166,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049798",
+    "title": "八坂瓊之曲玉考",
+    "titleKana": "やさかにのまがたまこう",
+    "sortKana": "やさかにのまかたまこう",
+    "firstAppearance": "「歴史地理　第六一巻第一号」1933（昭和8）年1月",
+    "ndc": "NDC 210",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-07-11",
+    "updatedAt": "2020-06-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001344/card49798.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001344/files/49798_ruby_71231.zip",
+    "textFileId": "49798_ruby_71231",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001344/files/49798_71280.html",
+    "inputBy": "しだひろし",
+    "proofreadBy": "杉浦鳥見",
+    "baseBook1": {
+      "title": "喜田貞吉著作集　第一巻　石器時代と考古学",
+      "publisher": "平凡社",
+      "firstPublishedAt": "1981（昭和56）年7月30日",
+      "inputEdition": "1981（昭和56）年7月30日初版第1刷",
+      "proofreadEdition": "1981（昭和56）年7月30日初版第1刷"
+    },
+    "author": "喜田貞吉",
+    "authors": [
+      {
+        "personId": "001344",
+        "name": "喜田貞吉",
+        "kana": "きたさだきち",
+        "roman": "Sadakichi Kita",
+        "role": "著者",
+        "birthDate": "1871-07-11",
+        "deathDate": "1939-07-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

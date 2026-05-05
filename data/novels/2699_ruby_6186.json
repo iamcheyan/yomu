@@ -64,5 +64,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002699",
+    "title": "テガミ",
+    "titleKana": "テガミ",
+    "sortKana": "てかみ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-02-19",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000156/card2699.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000156/files/2699_ruby_6186.zip",
+    "textFileId": "2699_ruby_6186",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000156/files/2699_20747.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "山根生也",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・20　「戦旗」「ナップ」作家集7",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1985（昭和60）年3月25日",
+      "inputEdition": "1989（平成元）年3月25日第4刷"
+    },
+    "author": "小林多喜二",
+    "authors": [
+      {
+        "personId": "000156",
+        "name": "小林多喜二",
+        "kana": "こばやしたきじ",
+        "roman": "Takiji Kobayashi",
+        "role": "著者",
+        "birthDate": "1903-10-13",
+        "deathDate": "1933-02-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

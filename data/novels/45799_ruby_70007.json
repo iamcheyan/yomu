@@ -1540,5 +1540,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045799",
+    "title": "竹藪の家",
+    "titleKana": "たけやぶのいえ",
+    "sortKana": "たけやふのいえ",
+    "firstAppearance": "一～三「文科　第一輯」春陽堂、1931（昭和6）年10月1日<br>四「文科　第二輯」春陽堂、1931（昭和6）年11月1日<br>五「文科　第三輯」春陽堂、1931（昭和6）年12月25日<br>六「文科　第四輯」春陽堂、1932（昭和7）年3月3日<br>七～九「黒谷村」、1935（昭和10）年6月25日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-06-29",
+    "updatedAt": "2019-12-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card45799.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/45799_ruby_70007.zip",
+    "textFileId": "45799_ruby_70007",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/45799_70008.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "坂口安吾全集　01",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年5月20日",
+      "inputEdition": "1999（平成11）年5月20日初版第1刷",
+      "proofreadEdition": "1999（平成11）年5月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

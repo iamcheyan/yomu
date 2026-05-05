@@ -148,5 +148,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055003",
+    "title": "深山の秋",
+    "titleKana": "しんざんのあき",
+    "sortKana": "しんさんのあき",
+    "firstAppearance": "「真理」1935（昭和10）年12月",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-10-24",
+    "updatedAt": "2016-09-09",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001475/card55003.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001475/files/55003_ruby_59996.zip",
+    "textFileId": "55003_ruby_59996",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001475/files/55003_60041.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "酒井裕二",
+    "baseBook1": {
+      "title": "定本小川未明童話全集　11",
+      "publisher": "講談社",
+      "firstPublishedAt": "1977（昭和52）年9月10日",
+      "inputEdition": "1983（昭和58）年1月19日第5刷",
+      "proofreadEdition": "1977（昭和52）年9月10日第1刷"
+    },
+    "author": "小川未明",
+    "authors": [
+      {
+        "personId": "001475",
+        "name": "小川未明",
+        "kana": "おがわみめい",
+        "roman": "Mimei Ogawa",
+        "role": "著者",
+        "birthDate": "1882-04-07",
+        "deathDate": "1961-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

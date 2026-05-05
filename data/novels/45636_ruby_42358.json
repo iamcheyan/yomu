@@ -76,5 +76,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045636",
+    "title": "キフホイザー",
+    "titleKana": "キフホイザー",
+    "sortKana": "きふほいさあ",
+    "ndc": "NDC 293 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-04-28",
+    "updatedAt": "2022-09-02",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000963/card45636.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000963/files/45636_ruby_42358.zip",
+    "textFileId": "45636_ruby_42358",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000963/files/45636_42548.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "西洋見學",
+      "publisher": "日本評論社",
+      "firstPublishedAt": "1941（昭和16）年9月20日",
+      "inputEdition": "1941（昭和16）年12月10日10版",
+      "proofreadEdition": "1941（昭和16）年12月10日10版"
+    },
+    "author": "野上豊一郎",
+    "authors": [
+      {
+        "personId": "000963",
+        "name": "野上豊一郎",
+        "kana": "のがみとよいちろう",
+        "roman": "Toyoichiro Nogami",
+        "role": "著者",
+        "birthDate": "1883-09-14",
+        "deathDate": "1950-02-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

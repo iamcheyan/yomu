@@ -128,5 +128,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046972",
+    "title": "鬼神",
+    "titleKana": "きじん",
+    "sortKana": "きしん",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-01-08",
+    "updatedAt": "2016-12-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000997/card46972.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000997/files/46972_ruby_60426.zip",
+    "textFileId": "46972_ruby_60426",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000997/files/46972_60470.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "富田晶子",
+    "baseBook1": {
+      "title": "定本　北條民雄全集　上巻",
+      "publisher": "東京創元社",
+      "firstPublishedAt": "1980（昭和55）年10月20日",
+      "inputEdition": "1980（昭和55）年10月20日初版",
+      "proofreadEdition": "1990（平成2）年8月30日4版"
+    },
+    "author": "北条民雄",
+    "authors": [
+      {
+        "personId": "000997",
+        "name": "北条民雄",
+        "kana": "ほうじょうたみお",
+        "roman": "Tamio Hojo",
+        "role": "著者",
+        "birthDate": "1914-09-22",
+        "deathDate": "1937-12-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

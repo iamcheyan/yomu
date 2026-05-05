@@ -46,5 +46,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050028",
+    "title": "碓氷峠",
+    "titleKana": "うすいとうげ",
+    "sortKana": "うすいとうけ",
+    "ndc": "NDC 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-05-29",
+    "updatedAt": "2018-04-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000237/card50028.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000237/files/50028_ruby_64588.zip",
+    "textFileId": "50028_ruby_64588",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000237/files/50028_64640.html",
+    "inputBy": "Ｈ．ＹＡＭ",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "桂月全集　第二卷　紀行一",
+      "publisher": "興文社内桂月全集刊行會",
+      "firstPublishedAt": "1922（大正11）年7月9日",
+      "inputEdition": "1922（大正11）年7月9日",
+      "proofreadEdition": "1922（大正11）年7月9日"
+    },
+    "author": "大町桂月",
+    "authors": [
+      {
+        "personId": "000237",
+        "name": "大町桂月",
+        "kana": "おおまちけいげつ",
+        "roman": "Keigetsu Omachi",
+        "role": "著者",
+        "birthDate": "1869-03-06",
+        "deathDate": "1925-06-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -4222,5 +4222,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057240",
+    "title": "悪魔の紋章",
+    "titleKana": "あくまのもんしょう",
+    "sortKana": "あくまのもんしよう",
+    "firstAppearance": "「日の出」新潮社、1937（昭和12）年10月～1938（昭和13）年10月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-03-31",
+    "updatedAt": "2017-01-12",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001779/card57240.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001779/files/57240_ruby_60876.zip",
+    "textFileId": "57240_ruby_60876",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001779/files/57240_60918.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "北川松生",
+    "baseBook1": {
+      "title": "江戸川乱歩全集　第12巻　悪魔の紋章",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2003（平成15）年12月20日",
+      "inputEdition": "2003（平成15）年12月20日初版1刷",
+      "proofreadEdition": "2003（平成15）年12月20日初版1刷"
+    },
+    "author": "江戸川乱歩",
+    "authors": [
+      {
+        "personId": "001779",
+        "name": "江戸川乱歩",
+        "kana": "えどがわらんぽ",
+        "roman": "Ranpo Edogawa",
+        "role": "著者",
+        "birthDate": "1894-10-21",
+        "deathDate": "1965-07-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -1426,5 +1426,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000541",
+    "title": "職工と微笑",
+    "titleKana": "しょっこうとびしょう",
+    "sortKana": "しよつこうとひしよう",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-03-09",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000104/card541.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000104/files/541_ruby_22552.zip",
+    "textFileId": "541_ruby_22552",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000104/files/541_22553.html",
+    "inputBy": "山根鋭二",
+    "proofreadBy": "野口英司",
+    "baseBook1": {
+      "title": "全集・現代文学の発見　第一巻　最初の衝撃",
+      "publisher": "学芸書林",
+      "firstPublishedAt": "1968（昭和43）年9月10日"
+    },
+    "author": "松永延造",
+    "authors": [
+      {
+        "personId": "000104",
+        "name": "松永延造",
+        "kana": "まつながえんぞう",
+        "roman": "Enzo Matsunaga",
+        "role": "著者",
+        "birthDate": "1895-04-26",
+        "deathDate": "1938-11-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

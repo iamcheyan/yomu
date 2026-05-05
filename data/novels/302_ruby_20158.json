@@ -80,5 +80,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000302",
+    "title": "庭",
+    "titleKana": "にわ",
+    "sortKana": "にわ",
+    "firstAppearance": "「新小説」1946（昭和21）年1月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-02-01",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card302.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/302_ruby_20158.zip",
+    "textFileId": "302_ruby_20158",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/302_20159.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "もりみつじゅんじ",
+    "baseBook1": {
+      "title": "太宰治全集8",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1989（平成元）年4月25日"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

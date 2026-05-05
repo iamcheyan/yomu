@@ -136,5 +136,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "044755",
+    "title": "人間カザノヴァの輪郭",
+    "titleKana": "にんげんカサノヴァのりんかく",
+    "sortKana": "にんけんかさのうあのりんかく",
+    "firstAppearance": "「人間　第四巻第二号」1949（昭和24）年2月1日",
+    "ndc": "NDC 950",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-07-25",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001154/card44755.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001154/files/44755_ruby_39623.zip",
+    "textFileId": "44755_ruby_39623",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001154/files/44755_39642.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "岸田國士全集27",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1991（平成3）年12月9日",
+      "inputEdition": "1991（平成3）年12月9日",
+      "proofreadEdition": "1991（平成3）年12月9日"
+    },
+    "author": "岸田国士",
+    "authors": [
+      {
+        "personId": "001154",
+        "name": "岸田国士",
+        "kana": "きしだくにお",
+        "roman": "Kunio Kishida",
+        "role": "著者",
+        "birthDate": "1890-11-02",
+        "deathDate": "1954-03-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

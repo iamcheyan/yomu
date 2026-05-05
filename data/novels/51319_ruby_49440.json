@@ -52,5 +52,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051319",
+    "title": "死別の翌日",
+    "titleKana": "しべつのよくじつ",
+    "sortKana": "しへつのよくしつ",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-04-04",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000026/card51319.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000026/files/51319_ruby_49440.zip",
+    "textFileId": "51319_ruby_49440",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000026/files/51319_50062.html",
+    "inputBy": "ゆうき",
+    "proofreadBy": "木浦",
+    "baseBook1": {
+      "title": "中原中也詩集",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1968（昭和43）年12月10日改版",
+      "inputEdition": "1973（昭和48）年8月30日改版13版",
+      "proofreadEdition": "1987（昭和62）年4月30日改版15版"
+    },
+    "author": "中原中也",
+    "authors": [
+      {
+        "personId": "000026",
+        "name": "中原中也",
+        "kana": "なかはらちゅうや",
+        "roman": "Chuya Nakahara",
+        "role": "著者",
+        "birthDate": "1907-04-29",
+        "deathDate": "1937-10-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

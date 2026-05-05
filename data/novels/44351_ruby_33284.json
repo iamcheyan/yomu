@@ -90,5 +90,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "044351",
+    "title": "独断三幅対",
+    "titleKana": "どくだんさんぷくつい",
+    "sortKana": "とくたんさんふくつい",
+    "firstAppearance": "「時事新報」1925（大正14）年5月14、15日",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-02-03",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001154/card44351.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001154/files/44351_ruby_33284.zip",
+    "textFileId": "44351_ruby_33284",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001154/files/44351_34162.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "岸田國士全集19",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1989（平成元）年12月8日",
+      "inputEdition": "1989（平成元）年12月8日",
+      "proofreadEdition": "1989（平成元）年12月8日"
+    },
+    "author": "岸田国士",
+    "authors": [
+      {
+        "personId": "001154",
+        "name": "岸田国士",
+        "kana": "きしだくにお",
+        "roman": "Kunio Kishida",
+        "role": "著者",
+        "birthDate": "1890-11-02",
+        "deathDate": "1954-03-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

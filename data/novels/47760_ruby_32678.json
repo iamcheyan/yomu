@@ -188,5 +188,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047760",
+    "title": "仲々死なぬ彼奴",
+    "titleKana": "なかなかしなぬあいつ",
+    "sortKana": "なかなかしなぬあいつ",
+    "firstAppearance": "「探偵」駿南社、1931（昭和6）年7月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-12-06",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card47760.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/47760_ruby_32678.zip",
+    "textFileId": "47760_ruby_32678",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/47760_33423.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "「探偵」傑作選　幻の探偵雑誌9",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2002（平成14）年1月20日",
+      "inputEdition": "2002（平成14）年1月20日初版1刷",
+      "proofreadEdition": "2002（平成14）年1月20日初版1刷"
+    },
+    "author": "海野十三",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

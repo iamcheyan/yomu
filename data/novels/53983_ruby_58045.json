@@ -222,5 +222,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053983",
+    "title": "夕がたの人々",
+    "titleKana": "ゆうがたのひとびと",
+    "sortKana": "ゆうかたのひとひと",
+    "firstAppearance": "「生活と芸術」1915（大正4）年9月号",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-03-22",
+    "updatedAt": "2015-12-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001617/card53983.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001617/files/53983_ruby_58045.zip",
+    "textFileId": "53983_ruby_58045",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001617/files/53983_58076.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・38　プロレタリア詩集（一）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年5月25日",
+      "inputEdition": "1987（昭和62）年5月25日初版",
+      "proofreadEdition": "1987（昭和62）年5月25日初版"
+    },
+    "author": "西村陽吉",
+    "authors": [
+      {
+        "personId": "001617",
+        "name": "西村陽吉",
+        "kana": "にしむらようきち",
+        "roman": "Yokichi Nishimura",
+        "role": "著者",
+        "birthDate": "1892-04-09",
+        "deathDate": "1959-03-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

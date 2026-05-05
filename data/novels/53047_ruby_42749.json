@@ -64,5 +64,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053047",
+    "title": "罪・苦痛・希望・及び真実の道についての考察",
+    "titleKana": "つみ・くつう・きぼう・およびしんじつのみちについてのこうさつ",
+    "sortKana": "つみくのうきほうおよひしんしつのみちについてのこうさつ",
+    "ndc": "NDC 947",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-06-15",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001235/card53047.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001235/files/53047_ruby_42749.zip",
+    "textFileId": "53047_ruby_42749",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001235/files/53047_42901.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "米田",
+    "baseBook1": {
+      "title": "中島敦全集　第三卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1975（昭和50）年9月30日",
+      "inputEdition": "1975（昭和50）年9月30日初版第1刷",
+      "proofreadEdition": "1976（昭和51）年12月20日初版第2刷"
+    },
+    "author": "カフカフランツ",
+    "authors": [
+      {
+        "personId": "001235",
+        "name": "カフカフランツ",
+        "kana": "カフカフランツ",
+        "roman": "Franz Kafka",
+        "role": "著者",
+        "birthDate": "1883-07-03",
+        "deathDate": "1924-06-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

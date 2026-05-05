@@ -90,5 +90,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050907",
+    "title": "回顧と展望",
+    "titleKana": "かいことてんぼう",
+    "sortKana": "かいことてんほう",
+    "firstAppearance": "「改造」1941（昭和16）年",
+    "ndc": "NDC 289",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-01-01",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001398/card50907.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001398/files/50907_ruby_41855.zip",
+    "textFileId": "50907_ruby_41855",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001398/files/50907_41899.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "田中哲郎",
+    "baseBook1": {
+      "title": "近世数学史談",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1995（平成7）年8月18日",
+      "inputEdition": "1995（平成7）年8月18日第1刷",
+      "proofreadEdition": "1995（平成7）年8月18日第1刷"
+    },
+    "author": "高木貞治",
+    "authors": [
+      {
+        "personId": "001398",
+        "name": "高木貞治",
+        "kana": "たかぎていじ",
+        "roman": "Teiji Takagi",
+        "role": "著者",
+        "birthDate": "1875-04-21",
+        "deathDate": "1960-02-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

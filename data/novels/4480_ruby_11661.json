@@ -226,5 +226,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004480",
+    "title": "餅を喫う",
+    "titleKana": "もちをくう",
+    "sortKana": "もちをくう",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-08-16",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000154/card4480.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000154/files/4480_ruby_11661.zip",
+    "textFileId": "4480_ruby_11661",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000154/files/4480_11830.html",
+    "inputBy": "Hiroshi_O",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "日本の怪談（二）",
+      "publisher": "河出文庫、河出書房新社",
+      "firstPublishedAt": "1986（昭和61）年12月4日",
+      "inputEdition": "1986（昭和61）年12月4日初版"
+    },
+    "author": "田中貢太郎",
+    "authors": [
+      {
+        "personId": "000154",
+        "name": "田中貢太郎",
+        "kana": "たなかこうたろう",
+        "roman": "Kotaro Tanaka",
+        "role": "著者",
+        "birthDate": "1880-03-02",
+        "deathDate": "1941-02-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

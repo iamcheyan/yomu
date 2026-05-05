@@ -856,5 +856,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003544",
+    "title": "みさごの鮨",
+    "titleKana": "みさごのすし",
+    "sortKana": "みさこのすし",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-09-10",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card3544.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/3544_ruby_12123.zip",
+    "textFileId": "3544_ruby_12123",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/3544_12124.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "今井忠夫",
+    "baseBook1": {
+      "title": "泉鏡花集成7",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1995（平成7）年12月4日",
+      "inputEdition": "1995（平成7）年12月4日第1刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

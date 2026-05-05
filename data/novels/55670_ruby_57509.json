@@ -240,5 +240,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055670",
+    "title": "十三夜",
+    "titleKana": "じゅうさんや",
+    "sortKana": "しゆうさんや",
+    "firstAppearance": "「文藝倶樂部　閨秀小説號」博文館、1895（明治28）年12月10日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-11-23",
+    "updatedAt": "2015-09-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000064/card55670.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000064/files/55670_ruby_57509.zip",
+    "textFileId": "55670_ruby_57509",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000064/files/55670_57510.html",
+    "inputBy": "万波通彦",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "文藝倶樂部　閨秀小説號",
+      "publisher": "博文館",
+      "firstPublishedAt": "1895（明治28）年12月10日",
+      "inputEdition": "1895（明治28）年12月10日",
+      "proofreadEdition": "1895（明治28）年12月10日"
+    },
+    "author": "樋口一葉",
+    "authors": [
+      {
+        "personId": "000064",
+        "name": "樋口一葉",
+        "kana": "ひぐちいちよう",
+        "roman": "Ichiyo Higuchi",
+        "role": "著者",
+        "birthDate": "1872-05-02",
+        "deathDate": "1896-11-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

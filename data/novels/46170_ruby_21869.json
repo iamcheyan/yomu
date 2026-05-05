@@ -76,5 +76,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046170",
+    "title": "可能性の文学",
+    "titleKana": "かのうせいのぶんがく",
+    "sortKana": "かのうせいのふんかく",
+    "firstAppearance": "「改造」1946（昭和21）年12月号",
+    "ndc": "NDC 796 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-04-17",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000040/card46170.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000040/files/46170_ruby_21869.zip",
+    "textFileId": "46170_ruby_21869",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000040/files/46170_22339.html",
+    "inputBy": "桃沢まり",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "夫婦善哉",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1999（平成11）年5月10日",
+      "inputEdition": "2002（平成14）年10月25日第3刷",
+      "proofreadEdition": "2005（平成17）年5月23日第5刷"
+    },
+    "author": "織田作之助",
+    "authors": [
+      {
+        "personId": "000040",
+        "name": "織田作之助",
+        "kana": "おださくのすけ",
+        "roman": "Sakunosuke Oda",
+        "role": "著者",
+        "birthDate": "1913-10-26",
+        "deathDate": "1947-01-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

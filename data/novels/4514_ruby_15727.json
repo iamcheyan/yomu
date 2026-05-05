@@ -442,5 +442,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004514",
+    "title": "富岡先生",
+    "titleKana": "とみおかせんせい",
+    "sortKana": "とみおかせんせい",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-07-01",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000038/card4514.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000038/files/4514_ruby_15727.zip",
+    "textFileId": "4514_ruby_15727",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000038/files/4514_15757.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "牛肉と馬鈴薯",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1970（昭和45）年5月30日",
+      "inputEdition": "1983（昭和58）年7月30日第22刷",
+      "proofreadEdition": "2001（平成13）年9月25日第34刷"
+    },
+    "author": "国木田独歩",
+    "authors": [
+      {
+        "personId": "000038",
+        "name": "国木田独歩",
+        "kana": "くにきだどっぽ",
+        "roman": "Doppo Kunikida",
+        "role": "著者",
+        "birthDate": "1871-08-30",
+        "deathDate": "1908-06-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

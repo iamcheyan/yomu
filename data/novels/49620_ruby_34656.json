@@ -496,5 +496,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049620",
+    "title": "小さな鶯",
+    "titleKana": "ちいさなうぐいす",
+    "sortKana": "ちいさなうくいす",
+    "firstAppearance": "「小さな鶯」弘文館、1924（大正13）年5月",
+    "ndc": "NDC K911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-05-21",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000162/card49620.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000162/files/49620_ruby_34656.zip",
+    "textFileId": "49620_ruby_34656",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000162/files/49620_35019.html",
+    "inputBy": "小川幸子",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "若山牧水全集　第九巻",
+      "publisher": "雄鶏社",
+      "firstPublishedAt": "1958（昭和33）年12月30日",
+      "inputEdition": "1958（昭和33）年12月30日",
+      "proofreadEdition": "1959（昭和34）年2月5日"
+    },
+    "author": "若山牧水",
+    "authors": [
+      {
+        "personId": "000162",
+        "name": "若山牧水",
+        "kana": "わかやまぼくすい",
+        "roman": "Bokusui Wakayama",
+        "role": "著者",
+        "birthDate": "1885-08-24",
+        "deathDate": "1928-09-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

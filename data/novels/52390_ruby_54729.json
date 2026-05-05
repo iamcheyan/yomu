@@ -2998,5 +2998,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052390",
+    "title": "雀の卵",
+    "titleKana": "すずめのたまご",
+    "sortKana": "すすめのたまこ",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-11-17",
+    "updatedAt": "2014-10-13",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000106/card52390.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000106/files/52390_ruby_54729.zip",
+    "textFileId": "52390_ruby_54729",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000106/files/52390_54774.html",
+    "inputBy": "岡村和彦",
+    "proofreadBy": "光森裕樹",
+    "baseBook1": {
+      "title": "白秋全集　7",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1985（昭和60）年3月5日",
+      "inputEdition": "1985（昭和60）年3月5日",
+      "proofreadEdition": "1985（昭和60）年3月5日"
+    },
+    "author": "北原白秋",
+    "authors": [
+      {
+        "personId": "000106",
+        "name": "北原白秋",
+        "kana": "きたはらはくしゅう",
+        "roman": "Hakushu Kitahara",
+        "role": "著者",
+        "birthDate": "1885-01-25",
+        "deathDate": "1942-11-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

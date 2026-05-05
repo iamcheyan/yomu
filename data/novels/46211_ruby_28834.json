@@ -116,5 +116,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046211",
+    "title": "米国巡回文庫起源及び発達",
+    "titleKana": "べいこくじゅんかいぶんこきげんおよびはったつ",
+    "sortKana": "へいこくしゆんかいふんこきけんおよひはつたつ",
+    "firstAppearance": "「秋田県教育会雑誌　第一一五号」1902（明治35）年2月",
+    "ndc": "NDC 010",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-12-31",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001227/card46211.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001227/files/46211_ruby_28834.zip",
+    "textFileId": "46211_ruby_28834",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001227/files/46211_28886.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "個人別図書館論選集　佐野友三郎",
+      "publisher": "日本図書館協会",
+      "firstPublishedAt": "1981（昭和56）年9月7日",
+      "inputEdition": "1981（昭和56）年9月7日第1刷",
+      "proofreadEdition": "1981（昭和56）年9月7日第1刷"
+    },
+    "author": "佐野友三郎",
+    "authors": [
+      {
+        "personId": "001227",
+        "name": "佐野友三郎",
+        "kana": "さのともさぶろう",
+        "roman": "Tomosaburo Sano",
+        "role": "著者",
+        "birthDate": "1864-03-10",
+        "deathDate": "1920-05-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -384,5 +384,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002193",
+    "title": "火星の魔術師",
+    "titleKana": "かせいのまじゅつし",
+    "sortKana": "かせいのましゆつし",
+    "firstAppearance": "「ユーモアクラブ」1941（昭和16）年5月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-01-16",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000325/card2193.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000325/files/2193_ruby_24728.zip",
+    "textFileId": "2193_ruby_24728",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000325/files/2193_25514.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "火星の魔術師",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "1993（平成5）年7月20日",
+      "inputEdition": "1993（平成5）年7月20日初版第1刷",
+      "proofreadEdition": "1993（平成5）年7月20日初版第1刷"
+    },
+    "author": "蘭郁二郎",
+    "authors": [
+      {
+        "personId": "000325",
+        "name": "蘭郁二郎",
+        "kana": "らんいくじろう",
+        "roman": "Ikujiro Ran",
+        "role": "著者",
+        "birthDate": "1913-09-02",
+        "deathDate": "1944-01-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

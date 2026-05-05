@@ -2458,5 +2458,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000765",
+    "title": "彼岸過迄",
+    "titleKana": "ひがんすぎまで",
+    "sortKana": "ひかんすきまて",
+    "firstAppearance": "「朝日新聞」1912（明治45）年1～4月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-09-18",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000148/card765.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000148/files/765_ruby_2469.zip",
+    "textFileId": "765_ruby_2469",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000148/files/765_14961.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "夏目漱石全集6",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1988（昭和63）年3月29日",
+      "inputEdition": "1988（昭和63）年3月29日第1刷",
+      "proofreadEdition": "1993（平成5）年2月25日第2刷"
+    },
+    "author": "夏目漱石",
+    "authors": [
+      {
+        "personId": "000148",
+        "name": "夏目漱石",
+        "kana": "なつめそうせき",
+        "roman": "Soseki Natsume",
+        "role": "著者",
+        "birthDate": "1867-02-09",
+        "deathDate": "1916-12-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -94,5 +94,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054104",
+    "title": "メーデーを待つ",
+    "titleKana": "メーデーをまつ",
+    "sortKana": "めえてえをまつ",
+    "firstAppearance": "「働く婦人」1932（昭和7）年5月号",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-10-24",
+    "updatedAt": "2015-09-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001643/card54104.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001643/files/54104_ruby_57373.zip",
+    "textFileId": "54104_ruby_57373",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001643/files/54104_57421.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・39　プロレタリア詩集（二）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年6月30日",
+      "inputEdition": "1987（昭和62）年6月30日初版",
+      "proofreadEdition": "1987（昭和62）年6月30日初版"
+    },
+    "author": "木村好子",
+    "authors": [
+      {
+        "personId": "001643",
+        "name": "木村好子",
+        "kana": "きむらよしこ",
+        "roman": "Yoshiko Kimura",
+        "role": "著者",
+        "birthDate": "1904-01-10",
+        "deathDate": "1959-10-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

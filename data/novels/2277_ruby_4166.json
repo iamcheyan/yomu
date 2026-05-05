@@ -834,5 +834,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002277",
+    "title": "惜別",
+    "titleKana": "せきべつ",
+    "sortKana": "せきへつ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-06-20",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card2277.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/2277_ruby_4166.zip",
+    "textFileId": "2277_ruby_4166",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/2277_15069.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "青木直子",
+    "baseBook1": {
+      "title": "太宰治全集7",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1989（平成元）年3月28日",
+      "inputEdition": "1989（平成元）年3月28日第1刷",
+      "proofreadEdition": "1998（平成10）年6月15日第3刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

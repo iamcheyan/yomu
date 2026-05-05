@@ -314,5 +314,38 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058064",
+    "title": "千里眼の村",
+    "titleKana": "せんりがんのむら",
+    "sortKana": "せんりかんのむら",
+    "subtitle": "クリスマス・ストーリー",
+    "subtitleKana": "クリスマス・ストーリー",
+    "originalTitle": "A VILLAGE OF SEERS",
+    "ndc": "NDC 933",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2017-02-22",
+    "updatedAt": "2019-11-22",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001882/card58064.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001882/files/58064_ruby_60608.zip",
+    "textFileId": "58064_ruby_60608",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001882/files/58064_60609.html",
+    "inputBy": "The Creative CAT",
+    "author": "キングスフォードアンナ",
+    "authors": [
+      {
+        "personId": "001882",
+        "name": "キングスフォードアンナ",
+        "kana": "キングスフォードアンナ",
+        "roman": "Anna Kingsford",
+        "role": "著者",
+        "birthDate": "1846-09-16",
+        "deathDate": "1888-02-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

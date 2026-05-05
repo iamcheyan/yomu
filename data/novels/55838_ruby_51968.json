@@ -42,5 +42,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055838",
+    "title": "椎の実",
+    "titleKana": "しいのみ",
+    "sortKana": "しいのみ",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-01-01",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001752/card55838.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001752/files/55838_ruby_51968.zip",
+    "textFileId": "55838_ruby_51968",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001752/files/55838_51969.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "花の名随筆11　十一月の花",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年10月10日",
+      "inputEdition": "1999（平成11）年10月10日初版第1刷",
+      "proofreadEdition": "1999（平成11）年10月10日初版第1刷"
+    },
+    "author": "橋本多佳子",
+    "authors": [
+      {
+        "personId": "001752",
+        "name": "橋本多佳子",
+        "kana": "はしもとたかこ",
+        "roman": "Takako Hashimoto",
+        "role": "著者",
+        "birthDate": "1898-01-05",
+        "deathDate": "1963-05-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

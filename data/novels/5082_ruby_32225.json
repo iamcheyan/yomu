@@ -4610,5 +4610,48 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "005082",
+    "title": "万葉秀歌",
+    "titleKana": "まんようしゅうか",
+    "sortKana": "まんようしゆうか",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-08-04",
+    "updatedAt": "2020-09-12",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001059/card5082.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001059/files/5082_ruby_32225.zip",
+    "textFileId": "5082_ruby_32225",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001059/files/5082_32224.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "万葉秀歌　下巻",
+      "publisher": "岩波新書、岩波書店",
+      "firstPublishedAt": "1938（昭和13）年11月20日、1948（昭和23）年1月20日第10刷改版、1954（昭和29）年1月7日第23刷改版、1968（昭和43）年12月25日第41刷改版",
+      "inputEdition": "2002（平成14）年9月5日第87刷"
+    },
+    "baseBook2": {
+      "title": "万葉秀歌　上巻",
+      "publisher": "岩波新書、岩波書店",
+      "firstPublishedAt": "1938（昭和13）年11月20日第1刷、1953（昭和28）年7月23日第22刷改版、1968（昭和43）年11月25日第44刷改版",
+      "inputEdition": "2002（平成14）年8月26日第92刷"
+    },
+    "author": "斎藤茂吉",
+    "authors": [
+      {
+        "personId": "001059",
+        "name": "斎藤茂吉",
+        "kana": "さいとうもきち",
+        "roman": "Mokichi Saito",
+        "role": "著者",
+        "birthDate": "1882-5-14",
+        "deathDate": "1953-2-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -42,5 +42,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003207",
+    "title": "女性と庭",
+    "titleKana": "じょせいとにわ",
+    "sortKana": "しよせいとにわ",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-09-27",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000076/card3207.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000076/files/3207_ruby_3998.zip",
+    "textFileId": "3207_ruby_3998",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000076/files/3207_3999.html",
+    "inputBy": "渡邉つよし",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻14　園芸",
+      "publisher": "作品社",
+      "firstPublishedAt": "1992（平成4）年4月25日"
+    },
+    "author": "岡本かの子",
+    "authors": [
+      {
+        "personId": "000076",
+        "name": "岡本かの子",
+        "kana": "おかもとかのこ",
+        "roman": "Kanoko Okamoto",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1939-02-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

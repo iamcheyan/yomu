@@ -106,5 +106,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004720",
+    "title": "子どものすきな神さま",
+    "titleKana": "こどものすきなかみさま",
+    "sortKana": "ことものすきなかみさま",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-11-04",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000121/card4720.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000121/files/4720_ruby_13216.zip",
+    "textFileId": "4720_ruby_13216",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000121/files/4720_13217.html",
+    "inputBy": "めいこ",
+    "proofreadBy": "もりみつじゅんじ、鈴木厚司",
+    "baseBook1": {
+      "title": "ごんぎつね　新美南吉童話作品集1",
+      "publisher": "てのり文庫、大日本図書",
+      "firstPublishedAt": "1988（昭和63）年7月8日",
+      "inputEdition": "1988（昭和63）年7月8日第1刷"
+    },
+    "author": "新美南吉",
+    "authors": [
+      {
+        "personId": "000121",
+        "name": "新美南吉",
+        "kana": "にいみなんきち",
+        "roman": "Nankichi Niimi",
+        "role": "著者",
+        "birthDate": "1913-07-30",
+        "deathDate": "1943-03-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

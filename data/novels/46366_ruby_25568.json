@@ -30,5 +30,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046366",
+    "title": "九代目団十郎の首",
+    "titleKana": "くだいめだんじゅうろうのくび",
+    "sortKana": "くたいめたんしゆうろうのくひ",
+    "ndc": "NDC 710 774 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-01-10",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001168/card46366.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001168/files/46366_ruby_25568.zip",
+    "textFileId": "46366_ruby_25568",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001168/files/46366_25620.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "昭和文学全集第4巻",
+      "publisher": "小学館",
+      "firstPublishedAt": "1989（平成元）年4月1日",
+      "inputEdition": "1993（平成5）年9月10日初版第2刷発行",
+      "proofreadEdition": "1993（平成5）年9月10日初版第2刷発行"
+    },
+    "author": "高村光太郎",
+    "authors": [
+      {
+        "personId": "001168",
+        "name": "高村光太郎",
+        "kana": "たかむらこうたろう",
+        "roman": "Kotaro Takamura",
+        "role": "著者",
+        "birthDate": "1883-03-13",
+        "deathDate": "1956-04-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

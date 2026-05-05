@@ -56,5 +56,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058490",
+    "title": "デモクラシーのいろいろ",
+    "titleKana": "デモクラシーのいろいろ",
+    "sortKana": "てもくらしいのいろいろ",
+    "firstAppearance": "「文藝春秋　昭和二十三年十月號」文藝春秋新社、1948（昭和23）年10月1日",
+    "ndc": "NDC 310",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-01-01",
+    "updatedAt": "2018-01-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001937/card58490.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001937/files/58490_ruby_63619.zip",
+    "textFileId": "58490_ruby_63619",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001937/files/58490_63620.html",
+    "inputBy": "sogo",
+    "proofreadBy": "富田晶子",
+    "baseBook1": {
+      "title": "文藝春秋　昭和二十三年十月號",
+      "publisher": "文藝春秋新社",
+      "firstPublishedAt": "1948（昭和23）年10月1日",
+      "inputEdition": "1948（昭和23）年10月1日",
+      "proofreadEdition": "1948（昭和23）年10月1日"
+    },
+    "author": "笠信太郎",
+    "authors": [
+      {
+        "personId": "001937",
+        "name": "笠信太郎",
+        "kana": "りゅうしんたろう",
+        "roman": "Shintaro Ryu",
+        "role": "著者",
+        "birthDate": "1900-12-11",
+        "deathDate": "1967-12-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

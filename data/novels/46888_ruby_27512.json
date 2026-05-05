@@ -110,5 +110,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046888",
+    "title": "私の社交ダンス",
+    "titleKana": "わたしのしゃこうダンス",
+    "sortKana": "わたしのしやこうたんす",
+    "ndc": "NDC 799 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-09-13",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001151/card46888.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001151/files/46888_ruby_27512.zip",
+    "textFileId": "46888_ruby_27512",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001151/files/46888_27866.html",
+    "inputBy": "浦山敦子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻96　大正",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年2月25日",
+      "inputEdition": "1999（平成11）年2月25日第1刷",
+      "proofreadEdition": "1999（平成11）年2月25日第1刷"
+    },
+    "author": "久米正雄",
+    "authors": [
+      {
+        "personId": "001151",
+        "name": "久米正雄",
+        "kana": "くめまさお",
+        "roman": "Masao Kume",
+        "role": "著者",
+        "birthDate": "1891-11-23",
+        "deathDate": "1952-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

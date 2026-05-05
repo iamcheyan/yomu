@@ -104,5 +104,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046511",
+    "title": "一片の石",
+    "titleKana": "いっぺんのいし",
+    "sortKana": "いつへんのいし",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-01-03",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001245/card46511.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001245/files/46511_ruby_25555.zip",
+    "textFileId": "46511_ruby_25555",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001245/files/46511_25607.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "日本の名随筆88　石",
+      "publisher": "作品社",
+      "firstPublishedAt": "1990（平成2）年2月25日",
+      "inputEdition": "1996（平成8）年8月25日第5刷"
+    },
+    "author": "会津八一",
+    "authors": [
+      {
+        "personId": "001245",
+        "name": "会津八一",
+        "kana": "あいづやいち",
+        "roman": "Yaichi Aizu",
+        "role": "著者",
+        "birthDate": "1881-08-01",
+        "deathDate": "1956-11-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

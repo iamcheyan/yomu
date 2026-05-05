@@ -320,5 +320,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055876",
+    "title": "京洛日記",
+    "titleKana": "けいらくにっき",
+    "sortKana": "けいらくにつき",
+    "firstAppearance": "「隨筆集　「文藝林泉」」中央公論社、1934（昭和9）年5月23日",
+    "ndc": "NDC 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-03-26",
+    "updatedAt": "2020-02-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001579/card55876.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001579/files/55876_ruby_70423.zip",
+    "textFileId": "55876_ruby_70423",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001579/files/55876_70481.html",
+    "inputBy": "岡村和彦",
+    "proofreadBy": "きりんの手紙",
+    "baseBook1": {
+      "title": "現代紀行文學全集　第四卷　西日本篇",
+      "publisher": "修道社",
+      "firstPublishedAt": "1958（昭和33）年4月15日",
+      "inputEdition": "1958（昭和33）年4月15日",
+      "proofreadEdition": "1959（昭和34）年4月10日"
+    },
+    "author": "室生犀星",
+    "authors": [
+      {
+        "personId": "001579",
+        "name": "室生犀星",
+        "kana": "むろうさいせい",
+        "roman": "Saisei Murou",
+        "role": "著者",
+        "birthDate": "1889-08-01",
+        "deathDate": "1962-03-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

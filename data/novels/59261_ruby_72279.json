@@ -570,5 +570,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059261",
+    "title": "雪の女王",
+    "titleKana": "ゆきのじょおう",
+    "sortKana": "ゆきのしよおう",
+    "subtitle": "――七つのお話からできている物語――",
+    "subtitleKana": "――ななつのおはなしからできているものがたり――",
+    "ndc": "NDC K949",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-12-25",
+    "updatedAt": "2020-11-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000019/card59261.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000019/files/59261_ruby_72279.zip",
+    "textFileId": "59261_ruby_72279",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000019/files/59261_72327.html",
+    "inputBy": "チエコ",
+    "proofreadBy": "木下聡",
+    "baseBook1": {
+      "title": "マッチ売りの少女　（アンデルセン童話集Ⅲ）",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1967（昭和42）年12月10日",
+      "inputEdition": "1981（昭和56）年5月30日21刷",
+      "proofreadEdition": "1982（昭和57）年3月5日22刷"
+    },
+    "author": "アンデルセンハンス・クリスチャン",
+    "authors": [
+      {
+        "personId": "000019",
+        "name": "アンデルセンハンス・クリスチャン",
+        "kana": "アンデルセンハンス・クリスチャン",
+        "roman": "Hans Christian Andersen",
+        "role": "著者",
+        "birthDate": "1805-04-02",
+        "deathDate": "1875-08-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

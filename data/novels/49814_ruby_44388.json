@@ -142,5 +142,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049814",
+    "title": "憑き物系統に関する民族的研究",
+    "titleKana": "つきものけいとうにかんするみんぞくてきけんきゅう",
+    "sortKana": "つきものけいとうにかんするみんそくてきけんきゆう",
+    "subtitle": "その一例として飛騨の牛蒡種",
+    "subtitleKana": "そのいちれいとしてひだのごんぼだね",
+    "firstAppearance": "「民族と歴史　第八巻第一号」1922（大正11）年7月号",
+    "ndc": "NDC 387",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-09-27",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001344/card49814.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001344/files/49814_ruby_44388.zip",
+    "textFileId": "49814_ruby_44388",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001344/files/49814_44670.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "先住民と差別　喜田貞吉歴史民俗学傑作選",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "2008（平成20）年1月30日",
+      "inputEdition": "2008（平成20）年1月30日初版",
+      "proofreadEdition": "2008（平成20）年1月30日初版"
+    },
+    "author": "喜田貞吉",
+    "authors": [
+      {
+        "personId": "001344",
+        "name": "喜田貞吉",
+        "kana": "きたさだきち",
+        "roman": "Sadakichi Kita",
+        "role": "著者",
+        "birthDate": "1871-07-11",
+        "deathDate": "1939-07-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

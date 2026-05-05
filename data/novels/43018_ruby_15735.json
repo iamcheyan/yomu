@@ -258,5 +258,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043018",
+    "title": "サレーダイン公爵の罪業",
+    "titleKana": "サレーダインこうしゃくのざいごう",
+    "sortKana": "されえたいんこうしやくのさいこう",
+    "originalTitle": "THE SINS OF PRINCE SARADINE",
+    "ndc": "NDC 933",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-07-04",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001123/card43018.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001123/files/43018_ruby_15735.zip",
+    "textFileId": "43018_ruby_15735",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001123/files/43018_15760.html",
+    "inputBy": "京都大学電子テクスト研究会入力班",
+    "proofreadBy": "京都大学電子テクスト研究会校正班",
+    "baseBook1": {
+      "title": "世界探偵小説全集　第九卷　ブラウン奇譚",
+      "publisher": "平凡社",
+      "firstPublishedAt": "1930（昭和5）年3月10日",
+      "inputEdition": "1930（昭和5）年3月10日"
+    },
+    "author": "チェスタートンギルバート・キース",
+    "authors": [
+      {
+        "personId": "001123",
+        "name": "チェスタートンギルバート・キース",
+        "kana": "チェスタートンギルバート・キース",
+        "roman": "Gilbert Keith Chesterton",
+        "role": "著者",
+        "birthDate": "1874-05-29",
+        "deathDate": "1936-06-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

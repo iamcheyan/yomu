@@ -42,5 +42,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001444",
+    "title": "旅行の今昔",
+    "titleKana": "りょこうのこんじゃく",
+    "sortKana": "りよこうのこんしやく",
+    "firstAppearance": "「新聲」1906（明治39）年8月号",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-06-18",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000051/card1444.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000051/files/1444_ruby_1072.zip",
+    "textFileId": "1444_ruby_1072",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000051/files/1444_47834.html",
+    "inputBy": "地田尚",
+    "proofreadBy": "今井忠夫",
+    "baseBook1": {
+      "title": "露伴全集　第29巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1954（昭和29）年12月4日",
+      "inputEdition": "1954（昭和29）年12月4日初版",
+      "proofreadEdition": "1954（昭和29）年12月4日初版"
+    },
+    "author": "幸田露伴",
+    "authors": [
+      {
+        "personId": "000051",
+        "name": "幸田露伴",
+        "kana": "こうだろはん",
+        "roman": "Rohan Koda",
+        "role": "著者",
+        "birthDate": "1867-08-20",
+        "deathDate": "1947-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

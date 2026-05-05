@@ -1146,5 +1146,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045280",
+    "title": "わがひとに与ふる哀歌",
+    "titleKana": "わがひとにあたうるあいか",
+    "sortKana": "わかひとにあたうるあいか",
+    "firstAppearance": "「わがひとに与ふる哀歌」1935（昭和10）年10月5日",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-06-20",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001197/card45280.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001197/files/45280_ruby_18469.zip",
+    "textFileId": "45280_ruby_18469",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001197/files/45280_18540.html",
+    "inputBy": "宮元淳一",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "詩集　わがひとに与ふる哀歌",
+      "publisher": "日本図書センター",
+      "firstPublishedAt": "2000（平成12）年2月25日",
+      "inputEdition": "2000（平成12）年2月25日初版第1刷",
+      "proofreadEdition": "2000（平成12）年2月25日初版第1刷"
+    },
+    "author": "伊東静雄",
+    "authors": [
+      {
+        "personId": "001197",
+        "name": "伊東静雄",
+        "kana": "いとうしずお",
+        "roman": "Shizuo Ito",
+        "role": "著者",
+        "birthDate": "1906-12-10",
+        "deathDate": "1953-03-12",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

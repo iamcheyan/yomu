@@ -200,5 +200,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003556",
+    "title": "連環記",
+    "titleKana": "れんかんき",
+    "sortKana": "れんかんき",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-06-17",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000051/card3556.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000051/files/3556_ruby_10306.zip",
+    "textFileId": "3556_ruby_10306",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000051/files/3556_10336.html",
+    "inputBy": "kompass",
+    "proofreadBy": "今井忠夫",
+    "baseBook1": {
+      "title": "昭和文学全集　第4巻",
+      "publisher": "小学館",
+      "firstPublishedAt": "1989（平成元）年4月1日",
+      "inputEdition": "1989（平成元）年4月1日初版第1刷"
+    },
+    "author": "幸田露伴",
+    "authors": [
+      {
+        "personId": "000051",
+        "name": "幸田露伴",
+        "kana": "こうだろはん",
+        "roman": "Rohan Koda",
+        "role": "著者",
+        "birthDate": "1867-08-20",
+        "deathDate": "1947-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

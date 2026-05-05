@@ -2164,5 +2164,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003595",
+    "title": "イデオロギー概論",
+    "titleKana": "イデオロギーがいろん",
+    "sortKana": "いておろきいかいろん",
+    "firstAppearance": "第四章　文化社会学の批判「文化社会学」同文館、1932（昭和7）年4月5日<br>第五章　知識社会学の批判「思想　第101～103号」1930（昭和5）年7月28日",
+    "ndc": "NDC 121",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-05-14",
+    "updatedAt": "2016-10-07",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000281/card3595.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000281/files/3595_ruby_38064.zip",
+    "textFileId": "3595_ruby_38064",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000281/files/3595_39048.html",
+    "inputBy": "矢野正人",
+    "proofreadBy": "トレンドイースト",
+    "baseBook1": {
+      "title": "戸坂潤全集　第二巻",
+      "publisher": "勁草書房",
+      "firstPublishedAt": "1966（昭和41）年2月15日",
+      "inputEdition": "1970（昭和45）年9月10日第7刷",
+      "proofreadEdition": "1975（昭和50）年12月20日第11刷"
+    },
+    "author": "戸坂潤",
+    "authors": [
+      {
+        "personId": "000281",
+        "name": "戸坂潤",
+        "kana": "とさかじゅん",
+        "roman": "Jun Tosaka",
+        "role": "著者",
+        "birthDate": "1900-09-27",
+        "deathDate": "1945-08-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

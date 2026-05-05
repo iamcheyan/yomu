@@ -40,5 +40,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057157",
+    "title": "サニンの態度",
+    "titleKana": "サニンのたいど",
+    "sortKana": "さにんのたいと",
+    "firstAppearance": "「中外　第一巻第一号」1917（大正6）年10月創刊号",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-01-21",
+    "updatedAt": "2018-12-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000416/card57157.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000416/files/57157_ruby_66695.zip",
+    "textFileId": "57157_ruby_66695",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000416/files/57157_66746.html",
+    "inputBy": "酒井裕二",
+    "proofreadBy": "きゅうり",
+    "baseBook1": {
+      "title": "定本　伊藤野枝全集　第二巻　評論・随筆・書簡１――『青鞜』の時代",
+      "publisher": "學藝書林",
+      "firstPublishedAt": "2000（平成12）年5月31日",
+      "inputEdition": "2000（平成12）年5月31日初版",
+      "proofreadEdition": "2000（平成12）年5月31日初版"
+    },
+    "author": "伊藤野枝",
+    "authors": [
+      {
+        "personId": "000416",
+        "name": "伊藤野枝",
+        "kana": "いとうのえ",
+        "roman": "Noe Ito",
+        "role": "著者",
+        "birthDate": "1895-01-21",
+        "deathDate": "1923-09-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

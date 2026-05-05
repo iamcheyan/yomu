@@ -144,5 +144,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060432",
+    "title": "ペンギン鳥の歌",
+    "titleKana": "ぺんぎんどりのうた",
+    "sortKana": "へんきんとりのうた",
+    "firstAppearance": "「近代文学　8月号」近代文学社、1951（昭和26）年8月1日",
+    "ndc": "NDC K911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-11-15",
+    "updatedAt": "2020-10-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000293/card60432.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000293/files/60432_ruby_72081.zip",
+    "textFileId": "60432_ruby_72081",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000293/files/60432_72122.html",
+    "inputBy": "竹井真",
+    "proofreadBy": "砂場清隆",
+    "baseBook1": {
+      "title": "原民喜童話集",
+      "publisher": "イニュニック",
+      "firstPublishedAt": "2017（平成29）年11月15日",
+      "inputEdition": "2017（平成29）年11月15日第1刷",
+      "proofreadEdition": "2017（平成29）年11月15日第1刷"
+    },
+    "author": "原民喜",
+    "authors": [
+      {
+        "personId": "000293",
+        "name": "原民喜",
+        "kana": "はらたみき",
+        "roman": "Tamiki Hara",
+        "role": "著者",
+        "birthDate": "1905-11-15",
+        "deathDate": "1951-03-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

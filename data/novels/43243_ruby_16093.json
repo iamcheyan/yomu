@@ -396,5 +396,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043243",
+    "title": "女難",
+    "titleKana": "じょなん",
+    "sortKana": "しよなん",
+    "firstAppearance": "「文藝界」1903（明治36）年12月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-08-17",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000038/card43243.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000038/files/43243_ruby_16093.zip",
+    "textFileId": "43243_ruby_16093",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000038/files/43243_16115.html",
+    "inputBy": "iritamago",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "日本の文学　5　樋口一葉　徳富蘆花　国木田独歩",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1968（昭和43）年12月5日",
+      "inputEdition": "1968（昭和43）年12月5日初版",
+      "proofreadEdition": "1968（昭和43）年12月5日初版"
+    },
+    "author": "国木田独歩",
+    "authors": [
+      {
+        "personId": "000038",
+        "name": "国木田独歩",
+        "kana": "くにきだどっぽ",
+        "roman": "Doppo Kunikida",
+        "role": "著者",
+        "birthDate": "1871-08-30",
+        "deathDate": "1908-06-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

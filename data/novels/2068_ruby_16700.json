@@ -906,5 +906,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002068",
+    "title": "樺太脱獄記",
+    "titleKana": "からふとだつごくき",
+    "sortKana": "からふとたつこくき",
+    "originalTitle": "DIE FLUCHTLINGE VON SACHALIN（独訳）",
+    "firstAppearance": "「文藝倶楽部　一八ノ一」1912（明治45）年1月1日",
+    "ndc": "NDC 983",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-11-09",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000362/card2068.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000362/files/2068_ruby_16700.zip",
+    "textFileId": "2068_ruby_16700",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000362/files/2068_16713.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "しず",
+    "baseBook1": {
+      "title": "鴎外選集　第15巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1980（昭和55）年1月22日",
+      "inputEdition": "1980（昭和55）年1月22日第1刷",
+      "proofreadEdition": "1980（昭和55）年1月22日第1刷"
+    },
+    "author": "コロレンコウラジミール・ガラクティオノヴィチ",
+    "authors": [
+      {
+        "personId": "000362",
+        "name": "コロレンコウラジミール・ガラクティオノヴィチ",
+        "kana": "コロレンコウラジミール・ガラクティオノヴィチ",
+        "roman": "Vladimir Galaktionovick Korolenko",
+        "role": "著者",
+        "birthDate": "1853-07-15",
+        "deathDate": "1921-12-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

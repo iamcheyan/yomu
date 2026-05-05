@@ -26,5 +26,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057411",
+    "title": "折紙",
+    "titleKana": "おりがみ",
+    "sortKana": "おりかみ",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-05-03",
+    "updatedAt": "2016-03-04",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001799/card57411.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001799/files/57411_ruby_58769.zip",
+    "textFileId": "57411_ruby_58769",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001799/files/57411_58812.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆68　紙",
+      "publisher": "作品社",
+      "firstPublishedAt": "1988（昭和63）年6月25日",
+      "inputEdition": "1988（昭和63）年6月25日第1刷",
+      "proofreadEdition": "1988（昭和63）年6月25日第1刷"
+    },
+    "author": "中勘助",
+    "authors": [
+      {
+        "personId": "001799",
+        "name": "中勘助",
+        "kana": "なかかんすけ",
+        "roman": "Kansuke Naka",
+        "role": "著者",
+        "birthDate": "1885-05-22",
+        "deathDate": "1965-05-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

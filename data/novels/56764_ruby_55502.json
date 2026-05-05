@@ -44,5 +44,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056764",
+    "title": "水墨",
+    "titleKana": "すいぼく",
+    "sortKana": "すいほく",
+    "ndc": "NDC 722",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-01-01",
+    "updatedAt": "2015-02-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001803/card56764.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001803/files/56764_ruby_55502.zip",
+    "textFileId": "56764_ruby_55502",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001803/files/56764_55503.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆27　墨",
+      "publisher": "作品社",
+      "firstPublishedAt": "1985（昭和60）年1月25日",
+      "inputEdition": "1985（昭和60）年1月25日第1刷",
+      "proofreadEdition": "1997（平成9）年5月20日第17刷"
+    },
+    "author": "小杉放庵",
+    "authors": [
+      {
+        "personId": "001803",
+        "name": "小杉放庵",
+        "kana": "こすぎほうあん",
+        "roman": "Hoan Kosugi",
+        "role": "著者",
+        "birthDate": "1881-12-30",
+        "deathDate": "1964-04-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

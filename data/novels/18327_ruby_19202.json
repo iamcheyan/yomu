@@ -86,5 +86,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "018327",
+    "title": "東旭川村にて",
+    "titleKana": "ひがしあさひかわむらにて",
+    "sortKana": "ひかしあさひかわむらにて",
+    "ndc": "NDC 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-09-08",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000008/card18327.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000008/files/18327_ruby_19202.zip",
+    "textFileId": "18327_ruby_19202",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000008/files/18327_19240.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "現代紀行文学全集　北日本編",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1976（昭和51）年8月1日",
+      "inputEdition": "1976（昭和51）年8月1日初版",
+      "proofreadEdition": "1976（昭和51）年8月1日初版"
+    },
+    "author": "島木健作",
+    "authors": [
+      {
+        "personId": "000008",
+        "name": "島木健作",
+        "kana": "しまきけんさく",
+        "roman": "Kensaku Shimaki",
+        "role": "著者",
+        "birthDate": "1903-09-07",
+        "deathDate": "1945-08-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

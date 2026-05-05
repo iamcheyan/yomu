@@ -204,5 +204,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059534",
+    "title": "待っている女",
+    "titleKana": "まっているおんな",
+    "sortKana": "まつているおんな",
+    "firstAppearance": "「ヒッチコック・マガジン　第四巻第三号」宝石社、1962（昭和37）年2月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-01-07",
+    "updatedAt": "2021-06-02",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001801/card59534.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001801/files/59534_ruby_72430.zip",
+    "textFileId": "59534_ruby_72430",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001801/files/59534_72470.html",
+    "inputBy": "kompass",
+    "proofreadBy": "かな　とよみ",
+    "baseBook1": {
+      "title": "夏の葬列",
+      "publisher": "集英社文庫、集英社",
+      "firstPublishedAt": "1991（平成3）年5月25日",
+      "inputEdition": "1991（平成3）年11月15日第3刷",
+      "proofreadEdition": "2012（平成24）年3月6日第13刷"
+    },
+    "author": "山川方夫",
+    "authors": [
+      {
+        "personId": "001801",
+        "name": "山川方夫",
+        "kana": "やまかわまさお",
+        "roman": "Masao Yamakawa",
+        "role": "著者",
+        "birthDate": "1930-02-25",
+        "deathDate": "1965-02-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

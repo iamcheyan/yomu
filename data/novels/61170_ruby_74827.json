@@ -316,5 +316,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "061170",
+    "title": "くじらようかん",
+    "titleKana": "くじらようかん",
+    "sortKana": "くしらようかん",
+    "firstAppearance": "「すばる　第41巻第6号」集英社、2019（令和元）年5月6日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2022-01-01",
+    "updatedAt": "2025-12-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001918/card61170.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001918/files/61170_ruby_74827.zip",
+    "textFileId": "61170_ruby_74827",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001918/files/61170_74828.html",
+    "inputBy": "澤西祐典",
+    "proofreadBy": "大久保ゆう",
+    "baseBook1": {
+      "title": "すばる　第41巻第6号",
+      "publisher": "集英社",
+      "firstPublishedAt": "2019（令和元）年5月6日",
+      "inputEdition": "2019（令和元）年5月6日",
+      "proofreadEdition": "2019（令和元）年5月6日"
+    },
+    "author": "澤西祐典",
+    "authors": [
+      {
+        "personId": "001918",
+        "name": "澤西祐典",
+        "kana": "さわにしゆうてん",
+        "roman": "Yuten Sawanishi",
+        "role": "著者",
+        "birthDate": "1986-07-12",
+        "copyright": "あり"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

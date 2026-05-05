@@ -60,5 +60,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052174",
+    "title": "坂本竜馬手記",
+    "titleKana": "さかもとりょうましゅき",
+    "sortKana": "さかもとりようましゆき",
+    "subtitle": "イロハ丸航海日記",
+    "subtitleKana": "イロハまるこうかいにっき",
+    "ndc": "NDC 289",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-12-18",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000908/card52174.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000908/files/52174_ruby_40617.zip",
+    "textFileId": "52174_ruby_40617",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000908/files/52174_41465.html",
+    "inputBy": "Yanajin33",
+    "proofreadBy": "Hanren",
+    "baseBook1": {
+      "title": "坂本龍馬といろは丸事件",
+      "publisher": "福山市鞆の浦歴史民俗資料館",
+      "firstPublishedAt": "2008（平成20）年10月17日",
+      "inputEdition": "2008（平成20）年10月17日",
+      "proofreadEdition": "2008（平成20）年10月17日"
+    },
+    "author": "坂本竜馬",
+    "authors": [
+      {
+        "personId": "000908",
+        "name": "坂本竜馬",
+        "kana": "さかもとりょうま",
+        "roman": "Ryoma Sakamoto",
+        "role": "著者",
+        "birthDate": "1836-01-03",
+        "deathDate": "1867-12-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

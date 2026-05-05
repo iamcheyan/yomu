@@ -114,5 +114,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049917",
+    "title": "エレオノラ・デュウゼ",
+    "titleKana": "エレオノラ・ジューゼ",
+    "sortKana": "えれおのらしゆうせ",
+    "firstAppearance": "「スバル」1911（明治44）年1月",
+    "ndc": "NDC 121 772",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-06-30",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001395/card49917.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001395/files/49917_ruby_42788.zip",
+    "textFileId": "49917_ruby_42788",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001395/files/49917_42906.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "偶像再興・面とペルソナ　和辻哲郎感想集",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "2007（平成19）年4月10日",
+      "inputEdition": "2007（平成19）年4月10日第1刷",
+      "proofreadEdition": "2007（平成19）年4月10日第1刷"
+    },
+    "author": "和辻哲郎",
+    "authors": [
+      {
+        "personId": "001395",
+        "name": "和辻哲郎",
+        "kana": "わつじてつろう",
+        "roman": "Tetsuro Watsuji",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1960-12-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

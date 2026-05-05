@@ -48,5 +48,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052207",
+    "title": "癖",
+    "titleKana": "くせ",
+    "sortKana": "くせ",
+    "ndc": "NDC 775",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-01-01",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001537/card52207.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001537/files/52207_ruby_46184.zip",
+    "textFileId": "52207_ruby_46184",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001537/files/52207_46228.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻10　芝居",
+      "publisher": "作品社",
+      "firstPublishedAt": "1991（平成3）年12月25日",
+      "inputEdition": "1997（平成9）年5月20日第4刷",
+      "proofreadEdition": "1997（平成9）年5月20日第4刷"
+    },
+    "author": "喜多村緑郎",
+    "authors": [
+      {
+        "personId": "001537",
+        "name": "喜多村緑郎",
+        "kana": "きたむらろくろう",
+        "roman": "Rokuro Kitamura",
+        "role": "著者",
+        "birthDate": "1871-09-07",
+        "deathDate": "1961-05-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

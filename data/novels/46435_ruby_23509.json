@@ -46,5 +46,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046435",
+    "title": "最初の悲哀",
+    "titleKana": "さいしょのひあい",
+    "sortKana": "さいしよのひあい",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-08-01",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000212/card46435.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000212/files/46435_ruby_23509.zip",
+    "textFileId": "46435_ruby_23509",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000212/files/46435_23632.html",
+    "inputBy": "noir",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "童話集　春",
+      "publisher": "小学館文庫、小学館",
+      "firstPublishedAt": "2004（平成16）年8月1日",
+      "inputEdition": "2004（平成16）年8月1日初版第1刷",
+      "proofreadEdition": "2004（平成16）年8月1日初版第1刷"
+    },
+    "author": "竹久夢二",
+    "authors": [
+      {
+        "personId": "000212",
+        "name": "竹久夢二",
+        "kana": "たけひさゆめじ",
+        "roman": "Yumeji Takehisa",
+        "role": "著者",
+        "birthDate": "1884-09-16",
+        "deathDate": "1934-09-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

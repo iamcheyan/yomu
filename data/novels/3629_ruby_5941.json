@@ -72,5 +72,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003629",
+    "title": "ひらきぶみ",
+    "titleKana": "ひらきぶみ",
+    "sortKana": "ひらきふみ",
+    "firstAppearance": "「明星」新詩社、1904（明治37）年11月号",
+    "ndc": "NDC 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-01-10",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000885/card3629.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000885/files/3629_ruby_5941.zip",
+    "textFileId": "3629_ruby_5941",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000885/files/3629_48834.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "与謝野晶子評論集",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1985（昭和60）年8月16日",
+      "inputEdition": "1994（平成6年）年6月6日10刷"
+    },
+    "author": "与謝野晶子",
+    "authors": [
+      {
+        "personId": "000885",
+        "name": "与謝野晶子",
+        "kana": "よさのあきこ",
+        "roman": "Akiko Yosano",
+        "role": "著者",
+        "birthDate": "1878-12-07",
+        "deathDate": "1942-05-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -172,5 +172,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046458",
+    "title": "太陽系統の滅亡",
+    "titleKana": "たいようけいとうのめつぼう",
+    "sortKana": "たいようけいとうのめつほう",
+    "firstAppearance": "「冒険世界」1907（明治40）5月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-11-30",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001243/card46458.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001243/files/46458_ruby_24425.zip",
+    "textFileId": "46458_ruby_24425",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001243/files/46458_24613.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "懐かしい未来――甦る明治・大正・昭和の未来小説",
+      "publisher": "中央公論新社",
+      "firstPublishedAt": "2001（平成13）年6月10日",
+      "inputEdition": "2001（平成13）年6月10日初版",
+      "proofreadEdition": "2001（平成13）年6月10日初版"
+    },
+    "author": "木村小舟",
+    "authors": [
+      {
+        "personId": "001243",
+        "name": "木村小舟",
+        "kana": "きむらしょうしゅう",
+        "roman": "Shoshu Kimura",
+        "role": "著者",
+        "birthDate": "1881-09-12",
+        "deathDate": "1955-04-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

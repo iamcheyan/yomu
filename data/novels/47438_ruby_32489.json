@@ -390,5 +390,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047438",
+    "title": "神楽坂",
+    "titleKana": "かぐらざか",
+    "sortKana": "かくらさか",
+    "firstAppearance": "「人民文庫」1936（昭和11）年3月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-09-11",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000317/card47438.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000317/files/47438_ruby_32489.zip",
+    "textFileId": "47438_ruby_32489",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000317/files/47438_32490.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "高柳典子",
+    "baseBook1": {
+      "title": "神楽坂・茶粥の記　矢田津世子作品集",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "2002（平成14）年4月10日",
+      "inputEdition": "2002（平成14）年4月10日第1刷",
+      "proofreadEdition": "2002（平成14）年4月10日第1刷"
+    },
+    "author": "矢田津世子",
+    "authors": [
+      {
+        "personId": "000317",
+        "name": "矢田津世子",
+        "kana": "やだつせこ",
+        "roman": "Tsuseko Yada",
+        "role": "著者",
+        "birthDate": "1907-06-19",
+        "deathDate": "1944-03-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

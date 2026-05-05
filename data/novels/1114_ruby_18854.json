@@ -34,5 +34,52 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001114",
+    "title": "若葉の雨",
+    "titleKana": "わかばのあめ",
+    "sortKana": "わかはのあめ",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-10-13",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000150/card1114.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000150/files/1114_ruby_18854.zip",
+    "textFileId": "1114_ruby_18854",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000150/files/1114_18855.html",
+    "inputBy": "加藤恭子",
+    "proofreadBy": "今井忠夫",
+    "baseBook1": {
+      "title": "日本の名随筆43　雨",
+      "publisher": "作品社",
+      "firstPublishedAt": "1986（昭和61）年5月25日",
+      "inputEdition": "1991（平成3）年10月20日第10刷"
+    },
+    "author": "薄田泣菫、薄田淳介",
+    "authors": [
+      {
+        "personId": "000150",
+        "name": "薄田泣菫",
+        "kana": "すすきだきゅうきん",
+        "roman": "Kyukin Susukida",
+        "role": "著者",
+        "birthDate": "1877-05-19",
+        "deathDate": "1945-10-09",
+        "copyright": "なし"
+      },
+      {
+        "personId": "000975",
+        "name": "薄田淳介",
+        "kana": "すすきだじゅんすけ",
+        "roman": "Junsuke Susukida",
+        "role": "著者",
+        "birthDate": "1877-05-19",
+        "deathDate": "1945-10-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

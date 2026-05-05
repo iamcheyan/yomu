@@ -528,5 +528,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060626",
+    "title": "近代美の研究",
+    "titleKana": "きんだいびのけんきゅう",
+    "sortKana": "きんたいひのけんきゆう",
+    "firstAppearance": "現代における美の諸性格「理想」理想社、1934（昭和9）年7月号<br>機械美の構造「思想」岩波書店、1929（昭和4）年4月号<br>スポーツ気分の構造「思想」岩波書店、1933（昭和8）年5月号<br>近代美と世界観「映画芸術」1946（昭和21）年12月号<br>思想的危機における芸術ならびにその動向「理想」理想社、1932（昭和7）年9月号",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2023-02-14",
+    "updatedAt": "2023-02-10",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001166/card60626.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001166/files/60626_ruby_76847.zip",
+    "textFileId": "60626_ruby_76847",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001166/files/60626_76848.html",
+    "inputBy": "kompass",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "日本の美",
+      "publisher": "中公文庫、中央公論新社",
+      "firstPublishedAt": "2019（令和元）年11月25日",
+      "inputEdition": "2019（令和元）年11月25日初版",
+      "proofreadEdition": "1979（昭和54）年11月20日新訂版"
+    },
+    "author": "中井正一",
+    "authors": [
+      {
+        "personId": "001166",
+        "name": "中井正一",
+        "kana": "なかいまさかず",
+        "roman": "Masakazu Nakai",
+        "role": "著者",
+        "birthDate": "1900-02-14",
+        "deathDate": "1952-05-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

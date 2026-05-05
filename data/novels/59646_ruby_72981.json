@@ -36,5 +36,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059646",
+    "title": "沢庵",
+    "titleKana": "たくあん",
+    "sortKana": "たくあん",
+    "firstAppearance": "「星岡　38号」星岡窯研究所、1934（昭和9）年1月",
+    "ndc": "NDC 596",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-04-13",
+    "updatedAt": "2021-03-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001403/card59646.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001403/files/59646_ruby_72981.zip",
+    "textFileId": "59646_ruby_72981",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001403/files/59646_73028.html",
+    "inputBy": "江村秀之",
+    "proofreadBy": "木下聡",
+    "baseBook1": {
+      "title": "魯山人著作集　第三巻",
+      "publisher": "五月書房",
+      "firstPublishedAt": "1980（昭和55）年12月30日",
+      "inputEdition": "1980（昭和55）年12月30日",
+      "proofreadEdition": "1980（昭和55）年12月30日"
+    },
+    "author": "北大路魯山人",
+    "authors": [
+      {
+        "personId": "001403",
+        "name": "北大路魯山人",
+        "kana": "きたおおじろさんじん",
+        "roman": "Rosanjin Kitaoji",
+        "role": "著者",
+        "birthDate": "1883-03-23",
+        "deathDate": "1959-12-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -202,5 +202,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055193",
+    "title": "新婚旅行",
+    "titleKana": "しんこんりょこう",
+    "sortKana": "しんこんりよこう",
+    "firstAppearance": "「中央公論　第四十一年第一号」中央公論新社、1926（大正15）年1月1日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-12-08",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001581/card55193.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001581/files/55193_ruby_51724.zip",
+    "textFileId": "55193_ruby_51724",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001581/files/55193_51764.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "山村信一郎",
+    "baseBook1": {
+      "title": "正宗白鳥全集第十二卷",
+      "publisher": "福武書店",
+      "firstPublishedAt": "1985（昭和60）年7月30日",
+      "inputEdition": "1985（昭和60）年7月30日",
+      "proofreadEdition": "1985（昭和60）年7月30日"
+    },
+    "author": "正宗白鳥",
+    "authors": [
+      {
+        "personId": "001581",
+        "name": "正宗白鳥",
+        "kana": "まさむねはくちょう",
+        "roman": "Hakucho Masamune",
+        "role": "著者",
+        "birthDate": "1879-03-03",
+        "deathDate": "1962-10-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

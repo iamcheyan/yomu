@@ -1358,5 +1358,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052016",
+    "title": "濹東綺譚",
+    "titleKana": "ぼくとうきだん",
+    "sortKana": "ほくとうきたん",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-03-06",
+    "updatedAt": "2025-06-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001341/card52016.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001341/files/52016_ruby_41727.zip",
+    "textFileId": "52016_ruby_41727",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001341/files/52016_42178.html",
+    "inputBy": "米田",
+    "proofreadBy": "阿部哲也",
+    "baseBook1": {
+      "title": "濹東綺譚",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1951（昭和26）年12月25日、1978（昭和53）年4月10日40刷改版",
+      "inputEdition": "2007（平成19）年1月15日79刷",
+      "proofreadEdition": "2010（平成22）年1月10日81刷"
+    },
+    "author": "永井荷風",
+    "authors": [
+      {
+        "personId": "001341",
+        "name": "永井荷風",
+        "kana": "ながいかふう",
+        "roman": "Kafu Nagai",
+        "role": "著者",
+        "birthDate": "1879-12-03",
+        "deathDate": "1959-04-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

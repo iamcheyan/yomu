@@ -1234,5 +1234,36 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054333",
+    "title": "食品の混ぜ物処理および調理の毒物（1820）",
+    "titleKana": "しょくひんのまぜものしょりおよびちょうりのどくぶつ（せんはっぴゃくにじゅう）",
+    "sortKana": "しよくひんのませものしよりおよひちようりのとくふつせんはつひやくにしゆう",
+    "originalTitle": "A TREATISE ON ADULTERATIONS OF FOOD, AND CULINARY POISONS (1820)",
+    "ndc": "NDC 588",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2011-11-21",
+    "updatedAt": "2019-03-11",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001657/card54333.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001657/files/54333_ruby_67471.zip",
+    "textFileId": "54333_ruby_67471",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001657/files/54333_67472.html",
+    "proofreadBy": "Juki",
+    "author": "アークムフレデリック",
+    "authors": [
+      {
+        "personId": "001657",
+        "name": "アークムフレデリック",
+        "kana": "アークムフレデリック",
+        "roman": "Friedrich Accum",
+        "role": "著者",
+        "birthDate": "1769-03-29",
+        "deathDate": "1838-06-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

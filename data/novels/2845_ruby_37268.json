@@ -372,5 +372,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002845",
+    "title": "乳色の靄",
+    "titleKana": "ちちいろのもや",
+    "sortKana": "ちちいろのもや",
+    "firstAppearance": "「新潮」1926（大正15）年12月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-02-24",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000031/card2845.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000031/files/2845_ruby_37268.zip",
+    "textFileId": "2845_ruby_37268",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000031/files/2845_38057.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・8　葉山嘉樹集",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1984（昭和59）年8月25日",
+      "inputEdition": "1989（平成元）年3月25日第5刷",
+      "proofreadEdition": "1984（昭和59）年 8月25日初版"
+    },
+    "author": "葉山嘉樹",
+    "authors": [
+      {
+        "personId": "000031",
+        "name": "葉山嘉樹",
+        "kana": "はやまよしき",
+        "roman": "Yoshiki Hayama",
+        "role": "著者",
+        "birthDate": "1894-03-12",
+        "deathDate": "1945-10-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

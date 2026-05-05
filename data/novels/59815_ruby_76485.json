@@ -46,5 +46,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059815",
+    "title": "日食記",
+    "titleKana": "にっしょくき",
+    "sortKana": "につしよくき",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-11-13",
+    "updatedAt": "2022-10-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card59815.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/59815_ruby_76485.zip",
+    "textFileId": "59815_ruby_76485",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/59815_76521.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "安野千歳",
+    "baseBook1": {
+      "title": "科学以前の心",
+      "publisher": "河出文庫、河出書房新社",
+      "firstPublishedAt": "2013（平成25）年4月20日",
+      "inputEdition": "2013（平成25）年4月20日初版",
+      "proofreadEdition": "2017（平成29）年12月20日第2刷"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

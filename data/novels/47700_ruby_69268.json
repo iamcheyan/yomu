@@ -52,5 +52,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047700",
+    "title": "薪能と呪師走の翁",
+    "titleKana": "たきぎのうとすしはしりのおきな",
+    "sortKana": "たききのうとすしはしりのおきな",
+    "firstAppearance": "「春日神社パンフレット」1950（昭和25）年2月",
+    "ndc": "NDC 773",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-10-09",
+    "updatedAt": "2019-09-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card47700.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/47700_ruby_69268.zip",
+    "textFileId": "47700_ruby_69268",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/47700_69320.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "折口信夫全集　21",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1996（平成8）年11月10日",
+      "inputEdition": "1996（平成8）年11月10日初版",
+      "proofreadEdition": "1996（平成8）年11月10日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

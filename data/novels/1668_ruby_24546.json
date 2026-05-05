@@ -3736,5 +3736,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001668",
+    "title": "田舎教師",
+    "titleKana": "いなかきょうし",
+    "sortKana": "いなかきようし",
+    "firstAppearance": "「田舎教師」佐久良書房、1909（明治42）年10月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-02-02",
+    "updatedAt": "2020-03-07",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000214/card1668.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000214/files/1668_ruby_24546.zip",
+    "textFileId": "1668_ruby_24546",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000214/files/1668_26031.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "田舎教師　他一編",
+      "publisher": "旺文社文庫、旺文社",
+      "firstPublishedAt": "1966（昭和41）年8月10日",
+      "inputEdition": "1985（昭和60）年重版",
+      "proofreadEdition": "1985（昭和60）年重版"
+    },
+    "author": "田山花袋",
+    "authors": [
+      {
+        "personId": "000214",
+        "name": "田山花袋",
+        "kana": "たやまかたい",
+        "roman": "Katai Tayama",
+        "role": "著者",
+        "birthDate": "1872-01-22",
+        "deathDate": "1930-05-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

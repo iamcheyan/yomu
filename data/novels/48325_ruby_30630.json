@@ -128,5 +128,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048325",
+    "title": "中宮寺の春",
+    "titleKana": "ちゅうぐうじのはる",
+    "sortKana": "ちゆうくうしのはる",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-06-18",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000150/card48325.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000150/files/48325_ruby_30630.zip",
+    "textFileId": "48325_ruby_30630",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000150/files/48325_31494.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "泣菫随筆",
+      "publisher": "冨山房百科文庫、冨山房",
+      "firstPublishedAt": "1993（平成5）年4月24日",
+      "inputEdition": "1994（平成6）年7月20日第2刷",
+      "proofreadEdition": "1994（平成6）年7月20日第2刷"
+    },
+    "author": "薄田泣菫",
+    "authors": [
+      {
+        "personId": "000150",
+        "name": "薄田泣菫",
+        "kana": "すすきだきゅうきん",
+        "roman": "Kyukin Susukida",
+        "role": "著者",
+        "birthDate": "1877-05-19",
+        "deathDate": "1945-10-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -264,5 +264,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003577",
+    "title": "ある男の堕落",
+    "titleKana": "あるおとこのだらく",
+    "sortKana": "あるおとこのたらく",
+    "firstAppearance": "「女性改造　第二巻第十一号」1923（大正12）年11月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-11-13",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000416/card3577.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000416/files/3577_ruby_7573.zip",
+    "textFileId": "3577_ruby_7573",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000416/files/3577_7574.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "ペガサス",
+    "baseBook1": {
+      "title": "伊藤野枝全集　上",
+      "publisher": "學藝書林",
+      "firstPublishedAt": "1970（昭和45）年3月31日",
+      "inputEdition": "1986（昭和61）年11月25日第4刷発行",
+      "proofreadEdition": "1970（昭和45）年3月31日第1刷発行"
+    },
+    "author": "伊藤野枝",
+    "authors": [
+      {
+        "personId": "000416",
+        "name": "伊藤野枝",
+        "kana": "いとうのえ",
+        "roman": "Noe Ito",
+        "role": "著者",
+        "birthDate": "1895-01-21",
+        "deathDate": "1923-09-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

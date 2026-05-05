@@ -216,5 +216,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046176",
+    "title": "或る部落の五つの話",
+    "titleKana": "あるむらのいつつのはなし",
+    "sortKana": "あるむらのいつつのはなし",
+    "firstAppearance": "「文学時代」1929（昭和4）年10月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-08-10",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000134/card46176.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000134/files/46176_ruby_27380.zip",
+    "textFileId": "46176_ruby_27380",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000134/files/46176_27723.html",
+    "inputBy": "田中敬三",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "佐左木俊郎選集",
+      "publisher": "英宝社",
+      "firstPublishedAt": "1984（昭和59）年4月14日",
+      "inputEdition": "1984（昭和59）年4月14日初版",
+      "proofreadEdition": "1984（昭和59）年4月14日初版"
+    },
+    "author": "佐左木俊郎",
+    "authors": [
+      {
+        "personId": "000134",
+        "name": "佐左木俊郎",
+        "kana": "ささきとしろう",
+        "roman": "Toshiro Sasaki",
+        "role": "著者",
+        "birthDate": "1900-04-14",
+        "deathDate": "1933-03-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -56,5 +56,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055960",
+    "title": "民族の感歎",
+    "titleKana": "みんぞくのかんたん",
+    "sortKana": "みんそくのかんたん",
+    "firstAppearance": "「図書」岩波書店、1952（昭和27）年4月",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-08-26",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card55960.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/55960_ruby_50808.zip",
+    "textFileId": "55960_ruby_50808",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/55960_50929.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "エッセイの贈りもの　1",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1999（平成11）年3月5日",
+      "inputEdition": "1999（平成11）年3月5日第1刷",
+      "proofreadEdition": "1999（平成11）年4月8日第2刷"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

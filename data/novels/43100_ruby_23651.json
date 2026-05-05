@@ -112,5 +112,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043100",
+    "title": "パラティーノ",
+    "titleKana": "パラティーノ",
+    "sortKana": "はらていいの",
+    "ndc": "NDC 293 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-09-22",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000963/card43100.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000963/files/43100_ruby_23651.zip",
+    "textFileId": "43100_ruby_23651",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000963/files/43100_23925.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "世界紀行文学全集　第六巻　イタリア、スイス編",
+      "publisher": "修道社",
+      "firstPublishedAt": "1959（昭和34）年10月20日",
+      "inputEdition": "1959（昭和34）年10月20日"
+    },
+    "author": "野上豊一郎",
+    "authors": [
+      {
+        "personId": "000963",
+        "name": "野上豊一郎",
+        "kana": "のがみとよいちろう",
+        "roman": "Toyoichiro Nogami",
+        "role": "著者",
+        "birthDate": "1883-09-14",
+        "deathDate": "1950-02-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

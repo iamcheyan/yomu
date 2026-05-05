@@ -1542,5 +1542,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053810",
+    "title": "日本の伝説",
+    "titleKana": "にほんのでんせつ",
+    "sortKana": "にほんのてんせつ",
+    "firstAppearance": "「日本神話伝説集」日本児童文庫、アルス、1929（昭和4）年5月",
+    "ndc": "NDC K388",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-05-15",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001566/card53810.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001566/files/53810_ruby_50179.zip",
+    "textFileId": "53810_ruby_50179",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001566/files/53810_50599.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "日本の伝説",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1977（昭和52）年1月15日",
+      "inputEdition": "2007（平成19）年9月10日第43刷"
+    },
+    "author": "柳田国男",
+    "authors": [
+      {
+        "personId": "001566",
+        "name": "柳田国男",
+        "kana": "やなぎたくにお",
+        "roman": "Kunio Yanagita",
+        "role": "著者",
+        "birthDate": "1875-07-31",
+        "deathDate": "1962-08-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

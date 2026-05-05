@@ -42,5 +42,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045677",
+    "title": "名前の話",
+    "titleKana": "なまえのはなし",
+    "sortKana": "なまえのはなし",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-02-12",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000067/card45677.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000067/files/45677_ruby_20634.zip",
+    "textFileId": "45677_ruby_20634",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000067/files/45677_21424.html",
+    "inputBy": "あい",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻26　名前",
+      "publisher": "作品社",
+      "firstPublishedAt": "1993（平成5）年4月25日",
+      "inputEdition": "1993（平成5）年4月25日第1刷",
+      "proofreadEdition": "1999（平成11）年9月30日第2刷"
+    },
+    "author": "萩原朔太郎",
+    "authors": [
+      {
+        "personId": "000067",
+        "name": "萩原朔太郎",
+        "kana": "はぎわらさくたろう",
+        "roman": "Sakutaro Hagiwara",
+        "role": "著者",
+        "birthDate": "1886-11-01",
+        "deathDate": "1942-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

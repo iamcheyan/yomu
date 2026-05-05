@@ -92,5 +92,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002257",
+    "title": "黄金風景",
+    "titleKana": "おうごんふうけい",
+    "sortKana": "おうこんふうけい",
+    "firstAppearance": "「国民新聞」1939（昭和14）年3月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-05-09",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card2257.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/2257_ruby_1691.zip",
+    "textFileId": "2257_ruby_1691",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/2257_15061.html",
+    "inputBy": "深水英一郎、加藤るみ",
+    "proofreadBy": "加藤るみ",
+    "baseBook1": {
+      "title": "きりぎりす",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1974（昭和49）年9月30日、1988（昭和63）年3月15日29刷改版",
+      "inputEdition": "1996（平成8）年9月25日第46刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

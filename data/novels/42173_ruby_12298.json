@@ -38,5 +38,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042173",
+    "title": "ラムプの影",
+    "titleKana": "ランプのかげ",
+    "sortKana": "らんふのかけ",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-09-19",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000305/card42173.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000305/files/42173_ruby_12298.zip",
+    "textFileId": "42173_ruby_12298",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000305/files/42173_12299.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "日本の名随筆73　火",
+      "publisher": "作品社",
+      "firstPublishedAt": "1988（昭和63）年11月25日",
+      "inputEdition": "1992（平成4）年9月20日第6刷",
+      "proofreadEdition": "1991（平成3）年9月1日第5刷"
+    },
+    "author": "正岡子規",
+    "authors": [
+      {
+        "personId": "000305",
+        "name": "正岡子規",
+        "kana": "まさおかしき",
+        "roman": "Shiki Masaoka",
+        "role": "著者",
+        "birthDate": "1867-10-14",
+        "deathDate": "1902-09-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

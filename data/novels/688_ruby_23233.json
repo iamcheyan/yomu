@@ -242,5 +242,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000688",
+    "title": "杯",
+    "titleKana": "さかずき",
+    "sortKana": "さかすき",
+    "firstAppearance": "「中央公論」1910（明治43）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-08-09",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card688.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/688_ruby_23233.zip",
+    "textFileId": "688_ruby_23233",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/688_23234.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "山椒大夫・高瀬舟",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1968（昭和43）年5月30日、1985（昭和60）年6月10日41刷改版",
+      "inputEdition": "1990（平成2）年5月30日第53刷"
+    },
+    "author": "森鴎外",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

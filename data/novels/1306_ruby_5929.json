@@ -2662,5 +2662,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001306",
+    "title": "綺堂むかし語り",
+    "titleKana": "きどうむかしがたり",
+    "sortKana": "きとうむかしかたり",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-10-15",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000082/card1306.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000082/files/1306_ruby_5929.zip",
+    "textFileId": "1306_ruby_5929",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000082/files/1306_14484.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "綺堂むかし語り",
+      "publisher": "光文社時代小説文庫、光文社",
+      "firstPublishedAt": "1995（平成7）年8月20日",
+      "inputEdition": "1995（平成7）年8月20日初版1刷"
+    },
+    "author": "岡本綺堂",
+    "authors": [
+      {
+        "personId": "000082",
+        "name": "岡本綺堂",
+        "kana": "おかもときどう",
+        "roman": "Kido Okamoto",
+        "role": "著者",
+        "birthDate": "1872-11-15",
+        "deathDate": "1939-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

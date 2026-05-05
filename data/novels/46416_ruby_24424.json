@@ -566,5 +566,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046416",
+    "title": "ロボットとベッドの重量",
+    "titleKana": "ロボットとベッドのじゅうりょう",
+    "sortKana": "ろほつととへつとのしゆうりよう",
+    "firstAppearance": "「新青年」博文館、1931（昭和6）年3月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-11-30",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000216/card46416.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000216/files/46416_ruby_24424.zip",
+    "textFileId": "46416_ruby_24424",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000216/files/46416_24612.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "懐かしい未来――甦る明治・大正・昭和の未来小説",
+      "publisher": "中央公論新社",
+      "firstPublishedAt": "2001（平成13）年6月10日",
+      "inputEdition": "2001（平成13）年6月10日初版",
+      "proofreadEdition": "2001（平成13）年6月10日初版"
+    },
+    "author": "直木三十五",
+    "authors": [
+      {
+        "personId": "000216",
+        "name": "直木三十五",
+        "kana": "なおきさんじゅうご",
+        "roman": "Sanjugo Naoki",
+        "role": "著者",
+        "birthDate": "1891-02-12",
+        "deathDate": "1934-02-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

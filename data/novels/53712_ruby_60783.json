@@ -46,5 +46,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053712",
+    "title": "横浜市歌",
+    "titleKana": "よこはましか",
+    "sortKana": "よこはましか",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-02-17",
+    "updatedAt": "2017-01-20",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000315/card53712.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000315/files/53712_ruby_60783.zip",
+    "textFileId": "53712_ruby_60783",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000315/files/53712_60818.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "高瀬竜一",
+    "baseBook1": {
+      "title": "横浜市歌",
+      "publisher": "横浜市",
+      "firstPublishedAt": "1959（昭和34）年6月",
+      "inputEdition": "1959（昭和34）年6月",
+      "proofreadEdition": "1959（昭和34）年6月"
+    },
+    "author": "森林太郎",
+    "authors": [
+      {
+        "personId": "000315",
+        "name": "森林太郎",
+        "kana": "もりりんたろう",
+        "roman": "Rintaro Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

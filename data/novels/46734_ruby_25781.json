@@ -86,5 +86,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046734",
+    "title": "教育の目的",
+    "titleKana": "きょういくのもくてき",
+    "sortKana": "きよういくのもくてき",
+    "firstAppearance": "「東京学士会員雑誌　第1号」1879（明治12）年6月",
+    "ndc": "NDC 371",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-04-12",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000296/card46734.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000296/files/46734_ruby_25781.zip",
+    "textFileId": "46734_ruby_25781",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000296/files/46734_26143.html",
+    "inputBy": "田中哲郎",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "福沢諭吉教育論集",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1991（平成3）年3月18日",
+      "inputEdition": "1991（平成3）年3月18日第1刷",
+      "proofreadEdition": "1991（平成3）年3月18日第1刷"
+    },
+    "author": "福沢諭吉",
+    "authors": [
+      {
+        "personId": "000296",
+        "name": "福沢諭吉",
+        "kana": "ふくざわゆきち",
+        "roman": "Yukichi Fukuzawa",
+        "role": "著者",
+        "birthDate": "1835-01-10",
+        "deathDate": "1901-02-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

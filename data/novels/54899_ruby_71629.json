@@ -5078,5 +5078,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054899",
+    "title": "鶴彬全川柳",
+    "titleKana": "つるあきらぜんせんりゅう",
+    "sortKana": "つるあきらせんせんりゆう",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-09-14",
+    "updatedAt": "2020-08-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001674/card54899.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001674/files/54899_ruby_71629.zip",
+    "textFileId": "54899_ruby_71629",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001674/files/54899_71675.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "石井彰文",
+    "baseBook1": {
+      "title": "鶴彬全集（増補改訂復刻版）",
+      "publisher": "有限会社久枝（ひさえ）",
+      "firstPublishedAt": "1998（平成10）年9月14日",
+      "inputEdition": "1998（平成10）年9月14日",
+      "proofreadEdition": "1998（平成10）年9月14日"
+    },
+    "author": "鶴彬",
+    "authors": [
+      {
+        "personId": "001674",
+        "name": "鶴彬",
+        "kana": "つるあきら",
+        "roman": "Akira Tsuru",
+        "role": "著者",
+        "birthDate": "1909-01-01",
+        "deathDate": "1938-09-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

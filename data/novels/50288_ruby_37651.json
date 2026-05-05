@@ -42,5 +42,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050288",
+    "title": "夕立",
+    "titleKana": "ゆうだち",
+    "sortKana": "ゆうたち",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-01-06",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001341/card50288.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001341/files/50288_ruby_37651.zip",
+    "textFileId": "50288_ruby_37651",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001341/files/50288_37676.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆18　夏",
+      "publisher": "作品社",
+      "firstPublishedAt": "1984（昭和59）年4月25日",
+      "inputEdition": "1999（平成11）年11月20日第20刷",
+      "proofreadEdition": "1999（平成11）年11月20日第20刷"
+    },
+    "author": "永井荷風",
+    "authors": [
+      {
+        "personId": "001341",
+        "name": "永井荷風",
+        "kana": "ながいかふう",
+        "roman": "Kafu Nagai",
+        "role": "著者",
+        "birthDate": "1879-12-03",
+        "deathDate": "1959-04-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

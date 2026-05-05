@@ -592,5 +592,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053488",
+    "title": "東光院",
+    "titleKana": "とうこういん",
+    "sortKana": "とうこういん",
+    "firstAppearance": "「文章世界」1914（大正3）年1月",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-02-05",
+    "updatedAt": "2016-01-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000248/card53488.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000248/files/53488_ruby_45615.zip",
+    "textFileId": "53488_ruby_45615",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000248/files/53488_46708.html",
+    "inputBy": "いとうたかし",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "明治文學全集　72　水野葉舟　中村星湖　三島霜川　上司小劍集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1969（昭和44）年5月25日",
+      "inputEdition": "1969（昭和44）年5月25日初版第1刷",
+      "proofreadEdition": "1969（昭和44）年5月25日初版第1刷"
+    },
+    "author": "上司小剣",
+    "authors": [
+      {
+        "personId": "000248",
+        "name": "上司小剣",
+        "kana": "かみつかさしょうけん",
+        "roman": "Shoken Kamitsukasa",
+        "role": "著者",
+        "birthDate": "1874-12-15",
+        "deathDate": "1947-09-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

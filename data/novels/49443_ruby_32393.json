@@ -1152,5 +1152,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049443",
+    "title": "青春の息の痕",
+    "titleKana": "せいしゅんのいきのあと",
+    "sortKana": "せいしゆんのいきのあと",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-09-05",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000256/card49443.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000256/files/49443_ruby_32393.zip",
+    "textFileId": "49443_ruby_32393",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000256/files/49443_32395.html",
+    "inputBy": "藤原隆行",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "青春の息の痕",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1951（昭和26）年4月30日、1965（昭和40）年10月30日31版",
+      "inputEdition": "1972（昭和47）年5月30日改版5版",
+      "proofreadEdition": "1974（昭和49）年3月30日改版7版"
+    },
+    "author": "倉田百三",
+    "authors": [
+      {
+        "personId": "000256",
+        "name": "倉田百三",
+        "kana": "くらたひゃくぞう",
+        "roman": "Hyakuzo Kurata",
+        "role": "著者",
+        "birthDate": "1891-02-23",
+        "deathDate": "1943-02-12",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

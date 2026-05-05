@@ -354,5 +354,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004800",
+    "title": "ほととぎす",
+    "titleKana": "ほととぎす",
+    "sortKana": "ほとときす",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-03-22",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001030/card4800.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001030/files/4800_ruby_14470.zip",
+    "textFileId": "4800_ruby_14470",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001030/files/4800_14949.html",
+    "inputBy": "kompass",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "昭和文学全集　第6巻",
+      "publisher": "小学館",
+      "firstPublishedAt": "1988（昭和63）年6月1日",
+      "inputEdition": "1988（昭和63）年6月1日初版第1刷",
+      "proofreadEdition": "1988（昭和63）年6月1日初版第1刷"
+    },
+    "author": "堀辰雄",
+    "authors": [
+      {
+        "personId": "001030",
+        "name": "堀辰雄",
+        "kana": "ほりたつお",
+        "roman": "Tatsuo Hori",
+        "role": "著者",
+        "birthDate": "1904-12-28",
+        "deathDate": "1953-05-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

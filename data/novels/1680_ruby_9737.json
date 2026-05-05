@@ -90,5 +90,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001680",
+    "title": "登山の朝",
+    "titleKana": "とざんのあさ",
+    "sortKana": "とさんのあさ",
+    "ndc": "NDC 293",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-06-05",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000277/card1680.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000277/files/1680_ruby_9737.zip",
+    "textFileId": "1680_ruby_9737",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000277/files/1680_10254.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "日本の名随筆10　山",
+      "publisher": "作品社",
+      "firstPublishedAt": "1983（昭和58）年6月25日",
+      "inputEdition": "1998（平成10）年8月10日第26刷"
+    },
+    "author": "辻村伊助",
+    "authors": [
+      {
+        "personId": "000277",
+        "name": "辻村伊助",
+        "kana": "つじむらいすけ",
+        "roman": "Isuke Tsujimura",
+        "role": "著者",
+        "birthDate": "1886-04-22",
+        "deathDate": "1923-09-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

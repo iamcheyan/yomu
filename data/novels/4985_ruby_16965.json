@@ -98,5 +98,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004985",
+    "title": "南予枇杷行",
+    "titleKana": "なんよびわこう",
+    "sortKana": "なんよひわこう",
+    "ndc": "NDC 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-12-19",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000510/card4985.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000510/files/4985_ruby_16965.zip",
+    "textFileId": "4985_ruby_16965",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000510/files/4985_17040.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "現代日本紀行文学全集　南日本編",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1976（昭和51）年8月1日",
+      "inputEdition": "1976（昭和51）年8月1日初版",
+      "proofreadEdition": "1983（昭和58）年12月1日第4刷"
+    },
+    "author": "河東碧梧桐",
+    "authors": [
+      {
+        "personId": "000510",
+        "name": "河東碧梧桐",
+        "kana": "かわひがしへきごとう",
+        "roman": "Hekigoto Kawahigashi",
+        "role": "著者",
+        "birthDate": "1873-02-26",
+        "deathDate": "1937-02-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -486,5 +486,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001267",
+    "title": "白妖",
+    "titleKana": "はくよう",
+    "sortKana": "はくよう",
+    "firstAppearance": "「新青年」博文館、1936（昭和11）年8月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-03-12",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000236/card1267.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000236/files/1267_ruby_33550.zip",
+    "textFileId": "1267_ruby_33550",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000236/files/1267_34388.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "とむらい機関車",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "1992（平成4）年5月25日",
+      "inputEdition": "1992（平成4）年5月25日初版第1刷",
+      "proofreadEdition": "1992（平成4）年5月25日初版第1刷"
+    },
+    "author": "大阪圭吉",
+    "authors": [
+      {
+        "personId": "000236",
+        "name": "大阪圭吉",
+        "kana": "おおさかけいきち",
+        "roman": "Keikichi Osaka",
+        "role": "著者",
+        "birthDate": "1912-03-20",
+        "deathDate": "1945-07-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

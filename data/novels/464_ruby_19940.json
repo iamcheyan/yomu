@@ -254,5 +254,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000464",
+    "title": "猫の事務所",
+    "titleKana": "ねこのじむしょ",
+    "sortKana": "ねこのしむしよ",
+    "subtitle": "……ある小さな官衙に関する幻想……",
+    "subtitleKana": "……あるちいさなかんがにかんするげんそう……",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-03-08",
+    "updatedAt": "2022-09-02",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card464.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/464_ruby_19940.zip",
+    "textFileId": "464_ruby_19940",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/464_19941.html",
+    "inputBy": "細川みづ穂",
+    "proofreadBy": "瀬戸さえ子",
+    "baseBook1": {
+      "title": "宮沢賢治全集8",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1986（昭和61）年1月28日",
+      "inputEdition": "1996（平成8）年5月15日第14刷",
+      "proofreadEdition": "1998（平成10）年4月1日第16刷"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

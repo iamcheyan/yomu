@@ -10818,5 +10818,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056762",
+    "title": "新書太閤記",
+    "titleKana": "しんしょたいこうき",
+    "sortKana": "しんしよたいこうき",
+    "subtitle": "11 第十一分冊",
+    "subtitleKana": "11 だいじゅういちぶんさつ",
+    "firstAppearance": "太閤記「読売新聞」1939（昭和14）年1月1日～1945（昭和20）年8月23日<br>続太閤記「中京新聞」他複数の地方紙1949（昭和24）年",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-08-11",
+    "updatedAt": "2016-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001562/card56762.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001562/files/56762_ruby_59510.zip",
+    "textFileId": "56762_ruby_59510",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001562/files/56762_59547.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "トレンドイースト",
+    "baseBook1": {
+      "title": "新書太閤記（十一）",
+      "publisher": "吉川英治歴史時代文庫、講談社",
+      "firstPublishedAt": "1990（平成2）年8月11日",
+      "inputEdition": "2007（平成19）年3月1日第19刷",
+      "proofreadEdition": "2015（平成27）年3月2日第23刷"
+    },
+    "author": "吉川英治",
+    "authors": [
+      {
+        "personId": "001562",
+        "name": "吉川英治",
+        "kana": "よしかわえいじ",
+        "roman": "Eiji Yoshikawa",
+        "role": "著者",
+        "birthDate": "1892-08-11",
+        "deathDate": "1962-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

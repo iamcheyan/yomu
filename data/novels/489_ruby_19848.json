@@ -86,5 +86,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000489",
+    "title": "身投げ救助業",
+    "titleKana": "みなげきゅうじょぎょう",
+    "sortKana": "みなけきゆうしよきよう",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-04-15",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000083/card489.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000083/files/489_ruby_19848.zip",
+    "textFileId": "489_ruby_19848",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000083/files/489_19849.html",
+    "inputBy": "真先芳秋",
+    "proofreadBy": "菅野朋子",
+    "baseBook1": {
+      "title": "菊池寛　短篇と戯曲",
+      "publisher": "文芸春秋",
+      "firstPublishedAt": "1988（昭和63）年3月25日",
+      "inputEdition": "1988（昭和63）年3月25日第1刷",
+      "proofreadEdition": "1988（昭和63）年3月25日第1刷"
+    },
+    "author": "菊池寛",
+    "authors": [
+      {
+        "personId": "000083",
+        "name": "菊池寛",
+        "kana": "きくちかん",
+        "roman": "Kan Kikuchi",
+        "role": "著者",
+        "birthDate": "1888-12-26",
+        "deathDate": "1948-03-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

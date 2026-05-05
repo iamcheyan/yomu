@@ -48,5 +48,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001400",
+    "title": "故郷を想う",
+    "titleKana": "こきょうをおもう",
+    "sortKana": "こきようをおもう",
+    "firstAppearance": "「知性」1941（昭和16）年5月号",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-01-01",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000252/card1400.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000252/files/1400_ruby_20806.zip",
+    "textFileId": "1400_ruby_20806",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000252/files/1400_20807.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "大野裕",
+    "baseBook1": {
+      "title": "光の中に　金史良作品集",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1999（平成11）年4月10日"
+    },
+    "author": "金史良",
+    "authors": [
+      {
+        "personId": "000252",
+        "name": "金史良",
+        "kana": "きむさりゃん",
+        "roman": "Sa-ryang Kim",
+        "role": "著者",
+        "birthDate": "1914-03-03",
+        "deathDate": "1950",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

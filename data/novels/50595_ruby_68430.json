@@ -48,5 +48,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050595",
+    "title": "戦場ヶ原の渓谷",
+    "titleKana": "せんじょうがはらのけいこく",
+    "sortKana": "せんしようかはらのけいこく",
+    "ndc": "NDC 787 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-07-07",
+    "updatedAt": "2019-06-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001248/card50595.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001248/files/50595_ruby_68430.zip",
+    "textFileId": "50595_ruby_68430",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001248/files/50595_68479.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "きゅうり",
+    "baseBook1": {
+      "title": "垢石釣游記",
+      "publisher": "二見書房",
+      "firstPublishedAt": "1977（昭和52）年7月20日",
+      "inputEdition": "1977（昭和52）年7月20日初版",
+      "proofreadEdition": "1977（昭和52）年7月20日初版"
+    },
+    "author": "佐藤垢石",
+    "authors": [
+      {
+        "personId": "001248",
+        "name": "佐藤垢石",
+        "kana": "さとうこうせき",
+        "roman": "Koseki Sato",
+        "role": "著者",
+        "birthDate": "1888-06-18",
+        "deathDate": "1956-07-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -2842,5 +2842,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060358",
+    "title": "イエス伝",
+    "titleKana": "イエスでん",
+    "sortKana": "いえすてん",
+    "subtitle": "マルコ伝による",
+    "subtitleKana": "マルコでんによる",
+    "firstAppearance": "「イエス伝講話」嘉信文庫、嘉信社、1940（昭和15）年6月",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-12-25",
+    "updatedAt": "2022-11-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001538/card60358.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001538/files/60358_ruby_76740.zip",
+    "textFileId": "60358_ruby_76740",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001538/files/60358_76776.html",
+    "inputBy": "kompass",
+    "proofreadBy": "officeshema",
+    "baseBook1": {
+      "title": "イエス伝　マルコ伝による",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1999（平成11）年8月25日",
+      "inputEdition": "1999（平成11）年8月25日初版",
+      "proofreadEdition": "1999（平成11）年8月25日初版"
+    },
+    "author": "矢内原忠雄",
+    "authors": [
+      {
+        "personId": "001538",
+        "name": "矢内原忠雄",
+        "kana": "やないはらただお",
+        "roman": "Tadao Yanaihara",
+        "role": "著者",
+        "birthDate": "1893-01-27",
+        "deathDate": "1961-12-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

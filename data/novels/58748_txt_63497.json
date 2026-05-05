@@ -96,5 +96,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058748",
+    "title": "旅人",
+    "titleKana": "たびびと",
+    "sortKana": "たひひと",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-01-13",
+    "updatedAt": "2017-12-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001749/card58748.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001749/files/58748_txt_63497.zip",
+    "textFileId": "58748_txt_63497",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001749/files/58748_63541.html",
+    "inputBy": "kompass",
+    "proofreadBy": "大久保　知美",
+    "baseBook1": {
+      "title": "三好達治全集第一卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1964（昭和39）年10月15日",
+      "inputEdition": "1964（昭和39）年10月15日",
+      "proofreadEdition": "1964（昭和39）年10月15日"
+    },
+    "author": "三好達治",
+    "authors": [
+      {
+        "personId": "001749",
+        "name": "三好達治",
+        "kana": "みよしたつじ",
+        "roman": "Tatsuji Miyoshi",
+        "role": "著者",
+        "birthDate": "1900-08-23",
+        "deathDate": "1964-04-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -194,5 +194,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046612",
+    "title": "予審調書",
+    "titleKana": "よしんちょうしょ",
+    "sortKana": "よしんちようしよ",
+    "firstAppearance": "「新青年」1926（大正15）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-10-17",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000221/card46612.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000221/files/46612_ruby_27965.zip",
+    "textFileId": "46612_ruby_27965",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000221/files/46612_27973.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "新青年傑作選第一巻（新装版）",
+      "publisher": "立風書房",
+      "firstPublishedAt": "1991（平成3）年6月10日",
+      "inputEdition": "1991（平成3）年6月10日第1刷",
+      "proofreadEdition": "1991（平成3）年6月10日第1刷"
+    },
+    "author": "平林初之輔",
+    "authors": [
+      {
+        "personId": "000221",
+        "name": "平林初之輔",
+        "kana": "ひらばやしはつのすけ",
+        "roman": "Hatsunosuke Hirabayashi",
+        "role": "著者",
+        "birthDate": "1892-11-08",
+        "deathDate": "1931-06-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

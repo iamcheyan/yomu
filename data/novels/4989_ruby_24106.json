@@ -224,5 +224,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004989",
+    "title": "屋久島紀行",
+    "titleKana": "やくしまきこう",
+    "sortKana": "やくしまきこう",
+    "firstAppearance": "「主婦之友」1950（昭和25）年7月",
+    "ndc": "NDC 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-10-29",
+    "updatedAt": "2016-02-03",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000291/card4989.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000291/files/4989_ruby_24106.zip",
+    "textFileId": "4989_ruby_24106",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000291/files/4989_24353.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "現代紀行文學全集　第五卷　南日本篇",
+      "publisher": "修道社",
+      "firstPublishedAt": "1958（昭和33）年9月15日",
+      "inputEdition": "1958（昭和33）年9月15日",
+      "proofreadEdition": "1958（昭和33）年9月15日"
+    },
+    "author": "林芙美子",
+    "authors": [
+      {
+        "personId": "000291",
+        "name": "林芙美子",
+        "kana": "はやしふみこ",
+        "roman": "Fumiko Hayashi",
+        "role": "著者",
+        "birthDate": "1903-12-31",
+        "deathDate": "1951-06-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -228,5 +228,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001428",
+    "title": "ニッケルの文鎮",
+    "titleKana": "ニッケルのぶんちん",
+    "sortKana": "につけるのふんちん",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-11-14",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000260/card1428.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000260/files/1428_ruby_20707.zip",
+    "textFileId": "1428_ruby_20707",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000260/files/1428_20708.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "kazuishi",
+    "baseBook1": {
+      "title": "本格推理展覧会　第三巻　凶器の蒐集家",
+      "publisher": "青樹社文庫、青樹社",
+      "firstPublishedAt": "1996（平成8）年3月10日"
+    },
+    "author": "甲賀三郎",
+    "authors": [
+      {
+        "personId": "000260",
+        "name": "甲賀三郎",
+        "kana": "こうがさぶろう",
+        "roman": "Saburo Koga",
+        "role": "著者",
+        "birthDate": "1893-10-05",
+        "deathDate": "1945-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

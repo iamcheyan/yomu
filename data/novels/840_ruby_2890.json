@@ -290,5 +290,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000840",
+    "title": "並木",
+    "titleKana": "なみき",
+    "sortKana": "なみき",
+    "firstAppearance": "「文芸倶楽部」1907（明治40）年6月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-12-11",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000158/card840.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000158/files/840_ruby_2890.zip",
+    "textFileId": "840_ruby_2890",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000158/files/840_13570.html",
+    "inputBy": "紅邪鬼",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "旧主人・芽生",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1969（昭和44）年2月15日",
+      "inputEdition": "1970（昭和45）年2月15日第2刷",
+      "proofreadEdition": "1973（昭和48）年12月10日第9刷"
+    },
+    "author": "島崎藤村",
+    "authors": [
+      {
+        "personId": "000158",
+        "name": "島崎藤村",
+        "kana": "しまざきとうそん",
+        "roman": "Toson Shimazaki",
+        "role": "著者",
+        "birthDate": "1872-03-25",
+        "deathDate": "1943-08-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

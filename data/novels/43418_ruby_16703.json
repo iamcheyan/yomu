@@ -154,5 +154,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043418",
+    "title": "絶景万国博覧会",
+    "titleKana": "ぜっけいばんこくはくらんかい",
+    "sortKana": "せつけいはんこくはくらんかい",
+    "firstAppearance": "「ぷろふいる」ぷろふいる社、1935（昭和10）年1月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-11-23",
+    "updatedAt": "2016-02-20",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000125/card43418.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000125/files/43418_ruby_16703.zip",
+    "textFileId": "43418_ruby_16703",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000125/files/43418_16875.html",
+    "inputBy": "網迫、土屋隆",
+    "proofreadBy": "大野晋",
+    "baseBook1": {
+      "title": "幻の探偵雑誌1　「ぷろふいる」傑作選",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2000（平成12）年3月20日",
+      "inputEdition": "2000（平成12）年3月20日初版1刷",
+      "proofreadEdition": "2000（平成12）年3月20日初版1刷"
+    },
+    "author": "小栗虫太郎",
+    "authors": [
+      {
+        "personId": "000125",
+        "name": "小栗虫太郎",
+        "kana": "おぐりむしたろう",
+        "roman": "Mushitaro Oguri",
+        "role": "著者",
+        "birthDate": "1901-03-14",
+        "deathDate": "1946-02-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

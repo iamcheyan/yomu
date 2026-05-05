@@ -132,5 +132,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043099",
+    "title": "七重文化の都市",
+    "titleKana": "ななじゅうぶんかのとし",
+    "sortKana": "ななしゆうふんかのとし",
+    "ndc": "NDC 294 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-09-02",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000963/card43099.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000963/files/43099_ruby_17726.zip",
+    "textFileId": "43099_ruby_17726",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000963/files/43099_27832.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "世界紀行文学全集　第十六巻　ギリシア、エジプト、アフリカ編",
+      "publisher": "修道社",
+      "firstPublishedAt": "1959（昭和34）年6月20日",
+      "inputEdition": "1959（昭和34）年6月20日",
+      "proofreadEdition": "1959（昭和34）年6月20日"
+    },
+    "author": "野上豊一郎",
+    "authors": [
+      {
+        "personId": "000963",
+        "name": "野上豊一郎",
+        "kana": "のがみとよいちろう",
+        "roman": "Toyoichiro Nogami",
+        "role": "著者",
+        "birthDate": "1883-09-14",
+        "deathDate": "1950-02-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

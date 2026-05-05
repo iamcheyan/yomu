@@ -60,5 +60,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059874",
+    "title": "瀬戸内の小魚たち",
+    "titleKana": "せとうちのこざかなたち",
+    "sortKana": "せとうちのこさかなたち",
+    "firstAppearance": "「あまカラ　3月号　第一五一号」甘辛社、1964（昭和39）年3月5日",
+    "ndc": "NDC 596 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-08-05",
+    "updatedAt": "2019-07-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001875/card59874.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001875/files/59874_ruby_68697.zip",
+    "textFileId": "59874_ruby_68697",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001875/files/59874_68746.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "芝裕久",
+    "baseBook1": {
+      "title": "「あまカラ」抄1",
+      "publisher": "冨山房百科文庫、冨山房",
+      "firstPublishedAt": "1995（平成7）年11月13日",
+      "inputEdition": "1995（平成7）年11月13日第1刷",
+      "proofreadEdition": "1995（平成7）年11月13日第1刷"
+    },
+    "author": "壺井栄",
+    "authors": [
+      {
+        "personId": "001875",
+        "name": "壺井栄",
+        "kana": "つぼいさかえ",
+        "roman": "Sakae Tsuboi",
+        "role": "著者",
+        "birthDate": "1899-08-05",
+        "deathDate": "1967-06-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

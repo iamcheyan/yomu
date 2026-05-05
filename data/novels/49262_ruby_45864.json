@@ -48,5 +48,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049262",
+    "title": "「黒死館殺人事件」著者之序",
+    "titleKana": "「こくしかんさつじんじけん」ちょしゃのじょ",
+    "sortKana": "こくしかんさつしんしけんちよしやのしよ",
+    "firstAppearance": "「黒死館殺人事件」新潮社、1935（昭和10）年5月",
+    "ndc": "NDC 913 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-02-14",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000125/card49262.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000125/files/49262_ruby_45864.zip",
+    "textFileId": "49262_ruby_45864",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000125/files/49262_46739.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "米田",
+    "baseBook1": {
+      "title": "日本探偵小説全集6　小栗虫太郎集",
+      "publisher": "創元推理文庫、東京創元社",
+      "firstPublishedAt": "1987（昭和62）年11月27日",
+      "inputEdition": "2003（平成15）年7月11日14版",
+      "proofreadEdition": "1994（平成6）年8月12日7版"
+    },
+    "author": "小栗虫太郎",
+    "authors": [
+      {
+        "personId": "000125",
+        "name": "小栗虫太郎",
+        "kana": "おぐりむしたろう",
+        "roman": "Mushitaro Oguri",
+        "role": "著者",
+        "birthDate": "1901-03-14",
+        "deathDate": "1946-02-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

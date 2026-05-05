@@ -68,5 +68,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056829",
+    "title": "旧友の死",
+    "titleKana": "きゅうゆうのし",
+    "sortKana": "きゆうゆうのし",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-02-22",
+    "updatedAt": "2015-01-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001796/card56829.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001796/files/56829_ruby_55603.zip",
+    "textFileId": "56829_ruby_55603",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001796/files/56829_55650.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆55　葬",
+      "publisher": "作品社",
+      "firstPublishedAt": "1987（昭和62）年5月25日",
+      "inputEdition": "1987（昭和62）年5月25日第1刷",
+      "proofreadEdition": "1997（平成9）年5月20日第8刷"
+    },
+    "author": "辰野隆",
+    "authors": [
+      {
+        "personId": "001796",
+        "name": "辰野隆",
+        "kana": "たつのゆたか",
+        "roman": "Yutaka Tatsuno",
+        "role": "著者",
+        "birthDate": "1888-03-01",
+        "deathDate": "1964-02-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -394,5 +394,40 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000701",
+    "title": "六白金星",
+    "titleKana": "ろっぱくきんせい",
+    "sortKana": "ろつはくきんせい",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-10-15",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000040/card701.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000040/files/701_ruby_19623.zip",
+    "textFileId": "701_ruby_19623",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000040/files/701_19624.html",
+    "inputBy": "山根鋭二",
+    "proofreadBy": "Ｔｏｍｏｋｏ．Ｉ",
+    "baseBook1": {
+      "title": "現代文学大系　44　武田麟太郎・島木健作・織田作之助集",
+      "publisher": "筑摩書房"
+    },
+    "author": "織田作之助",
+    "authors": [
+      {
+        "personId": "000040",
+        "name": "織田作之助",
+        "kana": "おださくのすけ",
+        "roman": "Sakunosuke Oda",
+        "role": "著者",
+        "birthDate": "1913-10-26",
+        "deathDate": "1947-01-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

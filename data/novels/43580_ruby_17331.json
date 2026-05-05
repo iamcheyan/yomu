@@ -198,5 +198,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043580",
+    "title": "舞台の言葉",
+    "titleKana": "ぶたいのことば",
+    "sortKana": "ふたいのことは",
+    "ndc": "NDC 770 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-01-03",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001154/card43580.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001154/files/43580_ruby_17331.zip",
+    "textFileId": "43580_ruby_17331",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001154/files/43580_17339.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "日本の名随筆70　語",
+      "publisher": "作品社",
+      "firstPublishedAt": "1988（昭和63）年8月20日",
+      "inputEdition": "1988（昭和63）年8月20日第1刷"
+    },
+    "author": "岸田国士",
+    "authors": [
+      {
+        "personId": "001154",
+        "name": "岸田国士",
+        "kana": "きしだくにお",
+        "roman": "Kunio Kishida",
+        "role": "著者",
+        "birthDate": "1890-11-02",
+        "deathDate": "1954-03-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

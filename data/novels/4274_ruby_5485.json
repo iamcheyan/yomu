@@ -44,5 +44,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004274",
+    "title": "岩野泡鳴氏",
+    "titleKana": "いわのほうめいし",
+    "sortKana": "いわのほうめいし",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-10-08",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000879/card4274.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000879/files/4274_ruby_5485.zip",
+    "textFileId": "4274_ruby_5485",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000879/files/4274_6766.html",
+    "inputBy": "もりみつじゅんじ",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "芥川龍之介全集　第九巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1996（平成8）年7月8日発行",
+      "inputEdition": "1996（平成8）年7月8日発行"
+    },
+    "author": "芥川竜之介",
+    "authors": [
+      {
+        "personId": "000879",
+        "name": "芥川竜之介",
+        "kana": "あくたがわりゅうのすけ",
+        "roman": "Ryunosuke Akutagawa",
+        "role": "著者",
+        "birthDate": "1892-03-01",
+        "deathDate": "1927-07-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

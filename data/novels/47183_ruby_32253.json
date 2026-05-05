@@ -100,5 +100,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047183",
+    "title": "古歌新釈",
+    "titleKana": "こかしんしゃく",
+    "sortKana": "こかしんしやく",
+    "firstAppearance": "「わか竹　第三巻第四号」1910（明治43）年4月",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-08-28",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card47183.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/47183_ruby_32253.zip",
+    "textFileId": "47183_ruby_32253",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/47183_32254.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "折口信夫全集　12",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1996（平成8）年3月25日",
+      "inputEdition": "1996（平成8）年3月25日初版",
+      "proofreadEdition": "1996（平成8）年3月25日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -390,5 +390,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043131",
+    "title": "学生と先哲",
+    "titleKana": "がくせいとせんてつ",
+    "sortKana": "かくせいとせんてつ",
+    "subtitle": "――予言僧日蓮――",
+    "subtitleKana": "――よげんそうにちれん――",
+    "ndc": "NDC 188",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-03-09",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000256/card43131.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000256/files/43131_ruby_20987.zip",
+    "textFileId": "43131_ruby_20987",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000256/files/43131_21546.html",
+    "inputBy": "ゆうき",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "青春をいかに生きるか",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1953（昭和28）年9月30日、1967（昭和42）年6月30日43版",
+      "inputEdition": "1981（昭和56）年7月30日改版25版",
+      "proofreadEdition": "1983（昭和58）年6月20日改版27版"
+    },
+    "author": "倉田百三",
+    "authors": [
+      {
+        "personId": "000256",
+        "name": "倉田百三",
+        "kana": "くらたひゃくぞう",
+        "roman": "Hyakuzo Kurata",
+        "role": "著者",
+        "birthDate": "1891-02-23",
+        "deathDate": "1943-02-12",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -50,5 +50,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000083",
+    "title": "孤独地獄",
+    "titleKana": "こどくじごく",
+    "sortKana": "ことくしこく",
+    "firstAppearance": "「新思潮」1916（大正5）年4月",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-03-16",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000879/card83.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000879/files/83_ruby_260.zip",
+    "textFileId": "83_ruby_260",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000879/files/83_15058.html",
+    "inputBy": "j.utiyama",
+    "proofreadBy": "野口英司",
+    "baseBook1": {
+      "title": "現代日本文学大系　43　芥川龍之介集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1968（昭和43）年8月25日",
+      "inputEdition": "1968（昭和43）年8月25日初版第1刷"
+    },
+    "author": "芥川竜之介",
+    "authors": [
+      {
+        "personId": "000879",
+        "name": "芥川竜之介",
+        "kana": "あくたがわりゅうのすけ",
+        "roman": "Ryunosuke Akutagawa",
+        "role": "著者",
+        "birthDate": "1892-03-01",
+        "deathDate": "1927-07-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -584,5 +584,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055043",
+    "title": "三の酉",
+    "titleKana": "さんのとり",
+    "sortKana": "さんのとり",
+    "firstAppearance": "「中央公論」中央公論社、1956（昭和31）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-01-06",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001692/card55043.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001692/files/55043_ruby_51996.zip",
+    "textFileId": "55043_ruby_51996",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001692/files/55043_51997.html",
+    "inputBy": "kompass",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "春泥・三の酉",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "2002（平成14）年8月10日",
+      "inputEdition": "2002（平成14）年8月10日第1刷",
+      "proofreadEdition": "2002（平成14）年8月10日第1刷"
+    },
+    "author": "久保田万太郎",
+    "authors": [
+      {
+        "personId": "001692",
+        "name": "久保田万太郎",
+        "kana": "くぼたまんたろう",
+        "roman": "Mantaro Kubota",
+        "role": "著者",
+        "birthDate": "1889-11-07",
+        "deathDate": "1963-05-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

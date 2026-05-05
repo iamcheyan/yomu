@@ -4258,5 +4258,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049617",
+    "title": "東京景物詩及其他",
+    "titleKana": "とうきょうけいぶつしそのた",
+    "sortKana": "とうきようけいふつしそのた",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-05-17",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000106/card49617.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000106/files/49617_ruby_34591.zip",
+    "textFileId": "49617_ruby_34591",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000106/files/49617_34958.html",
+    "inputBy": "飛鷹美緒",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "白秋全集　3",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1985（昭和60）年5月7日",
+      "inputEdition": "1985（昭和60）年5月7日",
+      "proofreadEdition": "1985（昭和60）年5月7日"
+    },
+    "author": "北原白秋",
+    "authors": [
+      {
+        "personId": "000106",
+        "name": "北原白秋",
+        "kana": "きたはらはくしゅう",
+        "roman": "Hakushu Kitahara",
+        "role": "著者",
+        "birthDate": "1885-01-25",
+        "deathDate": "1942-11-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

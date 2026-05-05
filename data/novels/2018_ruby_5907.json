@@ -416,5 +416,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002018",
+    "title": "宵（一幕）",
+    "titleKana": "よい（ひとまく）",
+    "sortKana": "よいひとまく",
+    "firstAppearance": "「女性日本人」1921（大正10）年9月号",
+    "ndc": "NDC 912",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-01-08",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000311/card2018.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000311/files/2018_ruby_5907.zip",
+    "textFileId": "2018_ruby_5907",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000311/files/2018_5908.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "宮本百合子全集　第二巻",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1979（昭和54）年6月20日",
+      "inputEdition": "1986（昭和61）年3月20日第5刷"
+    },
+    "author": "宮本百合子",
+    "authors": [
+      {
+        "personId": "000311",
+        "name": "宮本百合子",
+        "kana": "みやもとゆりこ",
+        "roman": "Yuriko Miyamoto",
+        "role": "著者",
+        "birthDate": "1899-02-13",
+        "deathDate": "1951-01-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

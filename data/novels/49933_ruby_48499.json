@@ -900,5 +900,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049933",
+    "title": "ウスナの家",
+    "titleKana": "ウスナのいえ",
+    "sortKana": "うすなのいえ",
+    "originalTitle": "THE HOUSE OF USNA",
+    "ndc": "NDC 993",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-11-04",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001399/card49933.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001399/files/49933_ruby_48499.zip",
+    "textFileId": "49933_ruby_48499",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001399/files/49933_48979.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "匿名",
+    "baseBook1": {
+      "title": "かなしき女王　ケルト幻想作品集",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2005（平成17）年11月10日",
+      "inputEdition": "2005（平成17）年11月10日第1刷",
+      "proofreadEdition": "2005（平成17）年11月10日第1刷"
+    },
+    "author": "マクラウドフィオナ",
+    "authors": [
+      {
+        "personId": "001399",
+        "name": "マクラウドフィオナ",
+        "kana": "マクラウドフィオナ",
+        "roman": "Fiona Macleod",
+        "role": "著者",
+        "birthDate": "1855-09-12",
+        "deathDate": "1905-12-12",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -380,5 +380,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056141",
+    "title": "名なし指物語",
+    "titleKana": "ななしゆびものがたり",
+    "sortKana": "ななしゆひものかたり",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-03-22",
+    "updatedAt": "2017-01-12",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000121/card56141.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000121/files/56141_ruby_60864.zip",
+    "textFileId": "56141_ruby_60864",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000121/files/56141_60906.html",
+    "inputBy": "江村秀之",
+    "proofreadBy": "疋田みどり",
+    "baseBook1": {
+      "title": "新美南吉童話全集　第一巻　ごんぎつね",
+      "publisher": "大日本図書",
+      "firstPublishedAt": "1960（昭和35）年6月20日",
+      "inputEdition": "1975（昭和50）年5月10日31版",
+      "proofreadEdition": "1976（昭和51）年7月5日32版"
+    },
+    "author": "新美南吉",
+    "authors": [
+      {
+        "personId": "000121",
+        "name": "新美南吉",
+        "kana": "にいみなんきち",
+        "roman": "Nankichi Niimi",
+        "role": "著者",
+        "birthDate": "1913-07-30",
+        "deathDate": "1943-03-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -70,5 +70,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002942",
+    "title": "易疑",
+    "titleKana": "えきぎ",
+    "sortKana": "えきき",
+    "firstAppearance": "「支那學」1923（大正12）年12月発行、第三巻第七号",
+    "ndc": "NDC 148",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-09-24",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000284/card2942.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000284/files/2942_ruby_4371.zip",
+    "textFileId": "2942_ruby_4371",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000284/files/2942_21329.html",
+    "inputBy": "はまなかひとし",
+    "proofreadBy": "菅野朋子",
+    "baseBook1": {
+      "title": "内藤湖南全集　第七巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1970（昭和45）年2月25日",
+      "inputEdition": "1976（昭和51）年10月10日第2刷"
+    },
+    "author": "内藤湖南",
+    "authors": [
+      {
+        "personId": "000284",
+        "name": "内藤湖南",
+        "kana": "ないとうこなん",
+        "roman": "Konan Naito",
+        "role": "著者",
+        "birthDate": "1866-08-26",
+        "deathDate": "1934-06-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

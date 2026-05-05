@@ -28,5 +28,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002548",
+    "title": "月二夜",
+    "titleKana": "つきふたよ",
+    "sortKana": "つきふたよ",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-11-11",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000885/card2548.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000885/files/2548_ruby_24159.zip",
+    "textFileId": "2548_ruby_24159",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000885/files/2548_24399.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆58　月",
+      "publisher": "作品社",
+      "firstPublishedAt": "1987（昭和62）年8月25日",
+      "inputEdition": "1987（昭和62）年8月25日第1刷",
+      "proofreadEdition": "1999（平成11）年4月30日第10刷"
+    },
+    "author": "与謝野晶子",
+    "authors": [
+      {
+        "personId": "000885",
+        "name": "与謝野晶子",
+        "kana": "よさのあきこ",
+        "roman": "Akiko Yosano",
+        "role": "著者",
+        "birthDate": "1878-12-07",
+        "deathDate": "1942-05-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -40,5 +40,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000811",
+    "title": "氷屋の旗",
+    "titleKana": "こおりやのはた",
+    "sortKana": "こおりやのはた",
+    "firstAppearance": "「東京毎日新聞」1909（明治42）年8月",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-06-03",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000153/card811.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000153/files/811_ruby_20503.zip",
+    "textFileId": "811_ruby_20503",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000153/files/811_20504.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "菅野朋子",
+    "baseBook1": {
+      "title": "日本の名随筆18　夏",
+      "publisher": "作品社",
+      "firstPublishedAt": "1984（昭和59）年4月25日"
+    },
+    "author": "石川啄木",
+    "authors": [
+      {
+        "personId": "000153",
+        "name": "石川啄木",
+        "kana": "いしかわたくぼく",
+        "roman": "Takuboku Ishikawa",
+        "role": "著者",
+        "birthDate": "1886-02-20",
+        "deathDate": "1912-04-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

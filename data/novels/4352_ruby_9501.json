@@ -296,5 +296,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004352",
+    "title": "小壺狩",
+    "titleKana": "こつぼがり",
+    "sortKana": "こつほかり",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-04-06",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000150/card4352.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000150/files/4352_ruby_9501.zip",
+    "textFileId": "4352_ruby_9501",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000150/files/4352_9545.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "泣菫随筆",
+      "publisher": "冨山房百科文庫43、冨山房",
+      "firstPublishedAt": "1993（平成5）年4月24日",
+      "inputEdition": "1994（平成6）年7月20日 第2刷"
+    },
+    "author": "薄田泣菫",
+    "authors": [
+      {
+        "personId": "000150",
+        "name": "薄田泣菫",
+        "kana": "すすきだきゅうきん",
+        "roman": "Kyukin Susukida",
+        "role": "著者",
+        "birthDate": "1877-05-19",
+        "deathDate": "1945-10-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

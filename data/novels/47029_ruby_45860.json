@@ -3870,5 +3870,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047029",
+    "title": "詩ノート",
+    "titleKana": "しノート",
+    "sortKana": "しのおと",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-02-19",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card47029.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/47029_ruby_45860.zip",
+    "textFileId": "47029_ruby_45860",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/47029_46743.html",
+    "inputBy": "伊藤雄介",
+    "proofreadBy": "米田",
+    "baseBook1": {
+      "title": "宮沢賢治集全集2",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1986（昭和61）年4月24日",
+      "inputEdition": "2005（平成17）年7月15日第12刷",
+      "proofreadEdition": "1993（平成5）年7月20日第6刷"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

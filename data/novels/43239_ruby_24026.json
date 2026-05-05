@@ -492,5 +492,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043239",
+    "title": "自由の使徒・島田三郎",
+    "titleKana": "じゆうのしと・しまださぶろう",
+    "sortKana": "しゆうのしとしまたさふろう",
+    "firstAppearance": "「中央公論」1933（昭和8）年9月号",
+    "ndc": "NDC 289",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-10-21",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000525/card43239.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000525/files/43239_ruby_24026.zip",
+    "textFileId": "43239_ruby_24026",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000525/files/43239_24363.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "近代日本思想大系10　木下尚江集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1975（昭和50）年7月20日",
+      "inputEdition": "1975（昭和50）年7月20日初版第1刷",
+      "proofreadEdition": "1975（昭和50）年7月20日初版第1刷"
+    },
+    "author": "木下尚江",
+    "authors": [
+      {
+        "personId": "000525",
+        "name": "木下尚江",
+        "kana": "きのしたなおえ",
+        "roman": "Naoe Kinoshita",
+        "role": "著者",
+        "birthDate": "1869-10-12",
+        "deathDate": "1937-11-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

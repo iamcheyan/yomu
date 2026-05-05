@@ -1700,5 +1700,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058055",
+    "title": "雲南守備兵",
+    "titleKana": "うんなんしゅびへい",
+    "sortKana": "うんなんしゆひへい",
+    "firstAppearance": "「新青年」1941（昭和16）年4月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-01-01",
+    "updatedAt": "2018-01-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001894/card58055.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001894/files/58055_ruby_63590.zip",
+    "textFileId": "58055_ruby_63590",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001894/files/58055_63591.html",
+    "inputBy": "結城宏",
+    "proofreadBy": "富田晶子",
+    "baseBook1": {
+      "title": "消えた受賞作　直木賞編",
+      "publisher": "メディアファクトリー",
+      "firstPublishedAt": "2004（平成16）年7月6日",
+      "inputEdition": "2004（平成16）年7月6日初版第1刷",
+      "proofreadEdition": "2004（平成16）年7月6日初版第1刷"
+    },
+    "author": "木村荘十",
+    "authors": [
+      {
+        "personId": "001894",
+        "name": "木村荘十",
+        "kana": "きむらそうじゅう",
+        "roman": "Soju Kimura",
+        "role": "著者",
+        "birthDate": "1897-01-12",
+        "deathDate": "1967-05-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

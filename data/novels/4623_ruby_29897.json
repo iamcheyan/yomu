@@ -738,5 +738,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004623",
+    "title": "ある女の生涯",
+    "titleKana": "あるおんなのしょうがい",
+    "sortKana": "あるおんなのしようかい",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-05-02",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000158/card4623.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000158/files/4623_ruby_29897.zip",
+    "textFileId": "4623_ruby_29897",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000158/files/4623_31218.html",
+    "inputBy": "岳野義男",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "嵐・ある女の生涯",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1969（昭和44）年2月10日",
+      "inputEdition": "1990（平成2）年11月15日30刷",
+      "proofreadEdition": "1975（昭和50）年 3月30日10刷"
+    },
+    "author": "島崎藤村",
+    "authors": [
+      {
+        "personId": "000158",
+        "name": "島崎藤村",
+        "kana": "しまざきとうそん",
+        "roman": "Toson Shimazaki",
+        "role": "著者",
+        "birthDate": "1872-03-25",
+        "deathDate": "1943-08-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -124,5 +124,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003031",
+    "title": "梨の実",
+    "titleKana": "なしのみ",
+    "sortKana": "なしのみ",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-05-01",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000479/card3031.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000479/files/3031_ruby_19530.zip",
+    "textFileId": "3031_ruby_19530",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000479/files/3031_19531.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "本山智子",
+    "baseBook1": {
+      "title": "赤い鳥傑作集",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1955（昭和30）年6月25日、1954（昭和29）年9月10日29版改版",
+      "inputEdition": "1989（平成元）年10月15日48刷"
+    },
+    "author": "小山内薫",
+    "authors": [
+      {
+        "personId": "000479",
+        "name": "小山内薫",
+        "kana": "おさないかおる",
+        "roman": "Kaoru Osanai",
+        "role": "著者",
+        "birthDate": "1881-07-26",
+        "deathDate": "1928-12-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

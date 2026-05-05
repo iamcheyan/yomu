@@ -50,5 +50,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053490",
+    "title": "楡の花",
+    "titleKana": "にれのはな",
+    "sortKana": "にれのはな",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-01-30",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card53490.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/53490_ruby_49765.zip",
+    "textFileId": "53490_ruby_49765",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/53490_49766.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "花の名随筆4　四月の花",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年3月10日",
+      "inputEdition": "1999（平成11）年3月10日初版第1刷",
+      "proofreadEdition": "1999（平成11）年3月10日初版第1刷"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

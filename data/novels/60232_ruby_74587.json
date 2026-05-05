@@ -156,5 +156,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060232",
+    "title": "クリスマス・イーヴ",
+    "titleKana": "クリスマス・イーヴ",
+    "sortKana": "くりすますいいう",
+    "ndc": "NDC 933",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-12-24",
+    "updatedAt": "2021-11-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001257/card60232.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001257/files/60232_ruby_74587.zip",
+    "textFileId": "60232_ruby_74587",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001257/files/60232_74624.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "スケッチ・ブック",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1957（昭和32）年5月20日",
+      "inputEdition": "2000（平成12）年2月20日33刷改版",
+      "proofreadEdition": "2000（平成12）年2月20日33刷改版"
+    },
+    "author": "アーヴィングワシントン",
+    "authors": [
+      {
+        "personId": "001257",
+        "name": "アーヴィングワシントン",
+        "kana": "アーヴィングワシントン",
+        "roman": "Washington Irving",
+        "role": "著者",
+        "birthDate": "1783-04-03",
+        "deathDate": "1859-11-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -1312,5 +1312,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043751",
+    "title": "侏儒の言葉",
+    "titleKana": "しゅじゅのことば",
+    "sortKana": "しゆしゆのことは",
+    "firstAppearance": "「文芸春秋　第一年第一号～第三年第一一号」1923（大正12）年1月1日～1925（大正14）年11月1日",
+    "ndc": "NDC 917",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-10-11",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000879/card43751.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000879/files/43751_ruby_27860.zip",
+    "textFileId": "43751_ruby_27860",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000879/files/43751_27955.html",
+    "inputBy": "五十嵐仁",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "芥川龍之介全集　第十三巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1996（平成8）年11月8日",
+      "inputEdition": "1996（平成8）年11月8日発行",
+      "proofreadEdition": "1996（平成8）年11月8日発行"
+    },
+    "author": "芥川竜之介",
+    "authors": [
+      {
+        "personId": "000879",
+        "name": "芥川竜之介",
+        "kana": "あくたがわりゅうのすけ",
+        "roman": "Ryunosuke Akutagawa",
+        "role": "著者",
+        "birthDate": "1892-03-01",
+        "deathDate": "1927-07-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

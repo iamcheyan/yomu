@@ -268,5 +268,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050589",
+    "title": "鯨を釣る",
+    "titleKana": "くじらをつる",
+    "sortKana": "くしらをつる",
+    "ndc": "NDC 664 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-09-14",
+    "updatedAt": "2015-05-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001248/card50589.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001248/files/50589_ruby_57036.zip",
+    "textFileId": "50589_ruby_57036",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001248/files/50589_57078.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "塚本由紀",
+    "baseBook1": {
+      "title": "垢石釣游記",
+      "publisher": "二見書房",
+      "firstPublishedAt": "1977（昭和52）年7月20日",
+      "inputEdition": "1977（昭和52）年7月20日初版",
+      "proofreadEdition": "1977（昭和52）年7月20日初版"
+    },
+    "author": "佐藤垢石",
+    "authors": [
+      {
+        "personId": "001248",
+        "name": "佐藤垢石",
+        "kana": "さとうこうせき",
+        "roman": "Koseki Sato",
+        "role": "著者",
+        "birthDate": "1888-06-18",
+        "deathDate": "1956-07-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

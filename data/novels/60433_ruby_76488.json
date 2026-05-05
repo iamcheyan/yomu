@@ -82,5 +82,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060433",
+    "title": "もぐらとコスモス",
+    "titleKana": "もぐらとコスモス",
+    "sortKana": "もくらとこすもす",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-11-15",
+    "updatedAt": "2022-10-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000293/card60433.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000293/files/60433_ruby_76488.zip",
+    "textFileId": "60433_ruby_76488",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000293/files/60433_76524.html",
+    "inputBy": "竹井真",
+    "proofreadBy": "砂場清隆",
+    "baseBook1": {
+      "title": "原民喜童話集",
+      "publisher": "イニュニック",
+      "firstPublishedAt": "2017（平成29）年11月15日",
+      "inputEdition": "2017（平成29）年11月15日第1刷",
+      "proofreadEdition": "2017（平成29）年11月15日第1刷"
+    },
+    "author": "原民喜",
+    "authors": [
+      {
+        "personId": "000293",
+        "name": "原民喜",
+        "kana": "はらたみき",
+        "roman": "Tamiki Hara",
+        "role": "著者",
+        "birthDate": "1905-11-15",
+        "deathDate": "1951-03-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

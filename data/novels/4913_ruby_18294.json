@@ -48,5 +48,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004913",
+    "title": "古松研",
+    "titleKana": "こしょうけん",
+    "sortKana": "こしようけん",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-05-20",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000150/card4913.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000150/files/4913_ruby_18294.zip",
+    "textFileId": "4913_ruby_18294",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000150/files/4913_18426.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "高柳典子",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻9　骨董",
+      "publisher": "作品社",
+      "firstPublishedAt": "1991（平成3）年11月25日",
+      "inputEdition": "1999（平成11）年8月25日第6刷",
+      "proofreadEdition": "1991（平成3）年11月25日第1刷"
+    },
+    "author": "薄田泣菫",
+    "authors": [
+      {
+        "personId": "000150",
+        "name": "薄田泣菫",
+        "kana": "すすきだきゅうきん",
+        "roman": "Kyukin Susukida",
+        "role": "著者",
+        "birthDate": "1877-05-19",
+        "deathDate": "1945-10-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -182,5 +182,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003646",
+    "title": "こがね丸",
+    "titleKana": "こがねまる",
+    "sortKana": "こかねまる",
+    "ndc": "NDC K913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-12-22",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000981/card3646.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000981/files/3646_ruby_5721.zip",
+    "textFileId": "3646_ruby_5721",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000981/files/3646_12287.html",
+    "inputBy": "hongming",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本児童文学名作集（上）",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1994（平成6）年2月16日",
+      "inputEdition": "1994（平成6）年2月16日第1刷"
+    },
+    "author": "巌谷小波",
+    "authors": [
+      {
+        "personId": "000981",
+        "name": "巌谷小波",
+        "kana": "いわやさざなみ",
+        "roman": "Sazanami Iwaya",
+        "role": "著者",
+        "birthDate": "1870-07-04",
+        "deathDate": "1933-09-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

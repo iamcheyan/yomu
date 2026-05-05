@@ -1946,5 +1946,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000943",
+    "title": "幽霊塔",
+    "titleKana": "ゆうれいとう",
+    "sortKana": "ゆうれいとう",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-11-05",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000179/card943.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000179/files/943_ruby_20711.zip",
+    "textFileId": "943_ruby_20711",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000179/files/943_20712.html",
+    "inputBy": "地田尚",
+    "proofreadBy": "かとうかおり",
+    "baseBook1": {
+      "title": "別冊・幻影城　黒岩涙香　幽霊塔・無惨・紳士のゆくえ",
+      "publisher": "幻影城",
+      "firstPublishedAt": "1977（昭和52）年12月25日"
+    },
+    "author": "黒岩涙香",
+    "authors": [
+      {
+        "personId": "000179",
+        "name": "黒岩涙香",
+        "kana": "くろいわるいこう",
+        "roman": "Ruiko Kuroiwa",
+        "role": "著者",
+        "birthDate": "1862-11-20",
+        "deathDate": "1920-10-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

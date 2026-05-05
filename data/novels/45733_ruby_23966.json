@@ -48,5 +48,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045733",
+    "title": "諦めている子供たち",
+    "titleKana": "あきらめているこどもたち",
+    "sortKana": "あきらめていることもたち",
+    "firstAppearance": "「暮らしの手帳」1955（昭和30）年3月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-10-19",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card45733.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/45733_ruby_23966.zip",
+    "textFileId": "45733_ruby_23966",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/45733_24337.html",
+    "inputBy": "高田農業高校生産技術科流通経済コース",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "坂口安吾選集　第十巻エッセイ1",
+      "publisher": "講談社",
+      "firstPublishedAt": "1982（昭和57）年8月12日",
+      "inputEdition": "1982（昭和57）年8月12日第1刷",
+      "proofreadEdition": "1982（昭和57）年8月12日第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -86,5 +86,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046927",
+    "title": "健康三題",
+    "titleKana": "けんこうさんだい",
+    "sortKana": "けんこうさんたい",
+    "firstAppearance": "はつ湯「レッェンゾ」1935（昭和10）年1月号、春の浜別荘「週刊朝日」1935（昭和10）年3月31日、ゆき子へ「令女界」1935（昭和10）年7月号",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-11-05",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000076/card46927.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000076/files/46927_ruby_33249.zip",
+    "textFileId": "46927_ruby_33249",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000076/files/46927_33268.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "オサムラヒロ",
+    "baseBook1": {
+      "title": "岡本かの子全集2",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1994（平成6）年2月24日",
+      "inputEdition": "1994（平成6）年2月24日第1刷",
+      "proofreadEdition": "1994（平成6）年2月24日第1刷"
+    },
+    "author": "岡本かの子",
+    "authors": [
+      {
+        "personId": "000076",
+        "name": "岡本かの子",
+        "kana": "おかもとかのこ",
+        "roman": "Kanoko Okamoto",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1939-02-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

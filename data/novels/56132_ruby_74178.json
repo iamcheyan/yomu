@@ -426,5 +426,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056132",
+    "title": "新奇談クラブ",
+    "titleKana": "しんきだんクラブ",
+    "sortKana": "しんきたんくらふ",
+    "subtitle": "08 第八夜　蛇使いの娘",
+    "subtitleKana": "08 だいはちや　へびつかいのむすめ",
+    "firstAppearance": "「朝日　第三巻第八号」博文館 、1931（昭和6）年8月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-10-15",
+    "updatedAt": "2021-09-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001670/card56132.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001670/files/56132_ruby_74178.zip",
+    "textFileId": "56132_ruby_74178",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001670/files/56132_74215.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "江村秀之",
+    "baseBook1": {
+      "title": "奇談クラブ（全）",
+      "publisher": "桃源社",
+      "firstPublishedAt": "1969（昭和44）年10月20日",
+      "inputEdition": "1969（昭和44）年10月20日",
+      "proofreadEdition": "1969（昭和44）年10月20日"
+    },
+    "author": "野村胡堂",
+    "authors": [
+      {
+        "personId": "001670",
+        "name": "野村胡堂",
+        "kana": "のむらこどう",
+        "roman": "Kodo Nomura",
+        "role": "著者",
+        "birthDate": "1882-10-15",
+        "deathDate": "1963-04-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

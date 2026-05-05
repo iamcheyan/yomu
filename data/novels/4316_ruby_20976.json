@@ -182,5 +182,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004316",
+    "title": "嫂",
+    "titleKana": "あね",
+    "sortKana": "あね",
+    "firstAppearance": "不明",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-12-14",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000012/card4316.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000012/files/4316_ruby_20976.zip",
+    "textFileId": "4316_ruby_20976",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000012/files/4316_20977.html",
+    "inputBy": "素樹文生",
+    "proofreadBy": "柳澤敦子",
+    "baseBook1": {
+      "title": "素木しづ作品集",
+      "publisher": "札幌・北書房",
+      "firstPublishedAt": "1970（昭和45）年6月15日"
+    },
+    "author": "素木しづ",
+    "authors": [
+      {
+        "personId": "000012",
+        "name": "素木しづ",
+        "kana": "しらきしづ",
+        "roman": "Shizu Shiraki",
+        "role": "著者",
+        "birthDate": "1895-03-26",
+        "deathDate": "1918-01-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

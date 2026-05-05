@@ -294,5 +294,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002051",
+    "title": "魚玄機",
+    "titleKana": "ぎょげんき",
+    "sortKana": "きよけんき",
+    "firstAppearance": "「中央公論」1915（大正4）年7月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-03-06",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card2051.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/2051_ruby_22885.zip",
+    "textFileId": "2051_ruby_22885",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/2051_22886.html",
+    "inputBy": "清角克由",
+    "proofreadBy": "ちはる",
+    "baseBook1": {
+      "title": "森鴎外全集5",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1995（平成7）年10月24日",
+      "proofreadEdition": "1995（平成7）年10月24日第1刷"
+    },
+    "author": "森鴎外",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

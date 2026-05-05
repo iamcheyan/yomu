@@ -1576,5 +1576,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003356",
+    "title": "英本土上陸戦の前夜",
+    "titleKana": "えいほんどじょうりくせんのぜんや",
+    "sortKana": "えいほんとしようりくせんのせんや",
+    "firstAppearance": "「新青年」1941（昭和16）年 2月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-12-26",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card3356.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/3356_ruby_13870.zip",
+    "textFileId": "3356_ruby_13870",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/3356_14010.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "海野十三全集　第10巻　宇宙戦隊",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1991（平成3）年5月31日",
+      "inputEdition": "1991（平成3）年5月31日第1版第1刷",
+      "proofreadEdition": "1991（平成3）年5月31日第1版第1刷"
+    },
+    "author": "海野十三",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

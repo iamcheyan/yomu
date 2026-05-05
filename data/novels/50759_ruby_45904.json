@@ -1022,5 +1022,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050759",
+    "title": "南北",
+    "titleKana": "なんぼく",
+    "sortKana": "なんほく",
+    "firstAppearance": "「人間」1921（大正10）年2月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-02-28",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card50759.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/50759_ruby_45904.zip",
+    "textFileId": "50759_ruby_45904",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/50759_46709.html",
+    "inputBy": "ウィルキンス賢侍",
+    "proofreadBy": "米田",
+    "baseBook1": {
+      "title": "日本文學全集　29　横光利一集",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1961（昭和36）年2月20日",
+      "inputEdition": "1966（昭和41）年12月30日15刷",
+      "proofreadEdition": "1961（昭和36）年2月20日"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

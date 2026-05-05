@@ -180,5 +180,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046652",
+    "title": "雪代山女魚",
+    "titleKana": "ゆきしろやまめ",
+    "sortKana": "ゆきしろやまめ",
+    "ndc": "NDC 787 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-09-25",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001248/card46652.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001248/files/46652_ruby_27769.zip",
+    "textFileId": "46652_ruby_27769",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001248/files/46652_27919.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "釣りにつられて",
+      "publisher": "福武文庫、福武書店",
+      "firstPublishedAt": "1994（平成6）年10月5日",
+      "inputEdition": "1994（平成6）年10月5日第1刷",
+      "proofreadEdition": "1994（平成6）年10月5日第1刷"
+    },
+    "author": "佐藤垢石",
+    "authors": [
+      {
+        "personId": "001248",
+        "name": "佐藤垢石",
+        "kana": "さとうこうせき",
+        "roman": "Koseki Sato",
+        "role": "著者",
+        "birthDate": "1888-06-18",
+        "deathDate": "1956-07-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

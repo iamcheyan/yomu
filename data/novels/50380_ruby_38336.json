@@ -46,5 +46,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050380",
+    "title": "画",
+    "titleKana": "え",
+    "sortKana": "え",
+    "firstAppearance": "「ホトトギス　第三巻第五号」1900（明治33）年3月10日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-06-26",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000305/card50380.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000305/files/50380_ruby_38336.zip",
+    "textFileId": "50380_ruby_38336",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000305/files/50380_39296.html",
+    "inputBy": "ゆうき",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "飯待つ間",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1985（昭和60）年3月18日",
+      "inputEdition": "2001（平成13）年11月7日第10刷",
+      "proofreadEdition": "2009（平成21）年11月11日第13刷"
+    },
+    "author": "正岡子規",
+    "authors": [
+      {
+        "personId": "000305",
+        "name": "正岡子規",
+        "kana": "まさおかしき",
+        "roman": "Shiki Masaoka",
+        "role": "著者",
+        "birthDate": "1867-10-14",
+        "deathDate": "1902-09-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

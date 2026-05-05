@@ -3424,5 +3424,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004298",
+    "title": "霧陰伊香保湯煙",
+    "titleKana": "きりがくれいかほのゆけぶり",
+    "sortKana": "きりかくれいかほのゆけふり",
+    "ndc": "NDC 779 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-08-10",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000989/card4298.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000989/files/4298_ruby_35276.zip",
+    "textFileId": "4298_ruby_35276",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000989/files/4298_35446.html",
+    "inputBy": "小林繁雄",
+    "proofreadBy": "門田裕志、仙酔ゑびす",
+    "baseBook1": {
+      "title": "圓朝全集　巻の三",
+      "publisher": "近代文芸資料複刻叢書、世界文庫",
+      "firstPublishedAt": "1963（昭和38）年8月10日",
+      "inputEdition": "1963（昭和38）年8月10日"
+    },
+    "author": "三遊亭円朝",
+    "authors": [
+      {
+        "personId": "000989",
+        "name": "三遊亭円朝",
+        "kana": "さんゆうていえんちょう",
+        "roman": "Encho San'yutei",
+        "role": "著者",
+        "birthDate": "1839-05-13",
+        "deathDate": "1900-08-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

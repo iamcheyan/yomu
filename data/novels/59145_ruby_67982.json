@@ -24,5 +24,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059145",
+    "title": "巌頭の感",
+    "titleKana": "がんとうのかん",
+    "sortKana": "かんとうのかん",
+    "ndc": "NDC 289",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-05-22",
+    "updatedAt": "2019-04-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/002003/card59145.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/002003/files/59145_ruby_67982.zip",
+    "textFileId": "59145_ruby_67982",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/002003/files/59145_68025.html",
+    "inputBy": "かな　とよみ",
+    "proofreadBy": "sogo",
+    "baseBook1": {
+      "title": "現代日本記録全集　16　青春の記録",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1968（昭和43）年11月25日",
+      "inputEdition": "1968（昭和43）年11月25日初版第1刷",
+      "proofreadEdition": "1968（昭和43）年11月25日初版第1刷"
+    },
+    "author": "藤村操",
+    "authors": [
+      {
+        "personId": "002003",
+        "name": "藤村操",
+        "kana": "ふじむらみさお",
+        "roman": "Misao Fujimura",
+        "role": "著者",
+        "birthDate": "1886-07-20",
+        "deathDate": "1903-05-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

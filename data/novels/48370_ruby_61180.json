@@ -316,5 +316,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048370",
+    "title": "女中訓",
+    "titleKana": "じょちゅうくん",
+    "sortKana": "しよちゆうくん",
+    "ndc": "NDC 159 366",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-04-07",
+    "updatedAt": "2017-03-11",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001338/card48370.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001338/files/48370_ruby_61180.zip",
+    "textFileId": "48370_ruby_61180",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001338/files/48370_61223.html",
+    "inputBy": "蒋龍",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "羽仁もと子著作集第九巻　家事家計篇",
+      "publisher": "婦人之友社",
+      "firstPublishedAt": "1927（昭和2）年7月20日、1966（昭和41）年7月1日新刷",
+      "inputEdition": "1996（平成8）年10月20日34刷",
+      "proofreadEdition": "1993（平成5）年10月1日32刷"
+    },
+    "author": "羽仁もと子",
+    "authors": [
+      {
+        "personId": "001338",
+        "name": "羽仁もと子",
+        "kana": "はにもとこ",
+        "roman": "Motoko Hani",
+        "role": "著者",
+        "birthDate": "1873-09-08",
+        "deathDate": "1957-04-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

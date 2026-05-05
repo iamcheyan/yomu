@@ -40,5 +40,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001314",
+    "title": "彫刻家の見たる美人",
+    "titleKana": "ちょうこくかのみたるびじん",
+    "sortKana": "ちようこくかのみたるひしん",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-12-15",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000240/card1314.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000240/files/1314_ruby_7771.zip",
+    "textFileId": "1314_ruby_7771",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000240/files/1314_7951.html",
+    "inputBy": "渡邉つよし",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆40　顏",
+      "publisher": "作品社",
+      "firstPublishedAt": "1986（昭和61）年2月25日",
+      "inputEdition": "1989（平成元）年10月31日第7刷"
+    },
+    "author": "荻原守衛",
+    "authors": [
+      {
+        "personId": "000240",
+        "name": "荻原守衛",
+        "kana": "おぎわらもりえ",
+        "roman": "Morie Ogiwara",
+        "role": "著者",
+        "birthDate": "1879-12-01",
+        "deathDate": "1910-04-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

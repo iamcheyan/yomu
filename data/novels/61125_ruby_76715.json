@@ -96,5 +96,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "061125",
+    "title": "「珊瑚集」解説",
+    "titleKana": "「さんごしゅう」かいせつ",
+    "sortKana": "さんこしゆうかいせつ",
+    "firstAppearance": "「珊瑚集」岩波文庫、岩波書店　1938（昭和13）年9月1日",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-12-03",
+    "updatedAt": "2022-11-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001763/card61125.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001763/files/61125_ruby_76715.zip",
+    "textFileId": "61125_ruby_76715",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001763/files/61125_76751.html",
+    "inputBy": "きりんの手紙",
+    "proofreadBy": "朱",
+    "baseBook1": {
+      "title": "珊瑚集",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1991（平成3）年11月18日",
+      "inputEdition": "1991（平成3）年11月18日改版第１刷",
+      "proofreadEdition": "1991（平成3）年11月18日改版第１刷"
+    },
+    "author": "佐藤春夫",
+    "authors": [
+      {
+        "personId": "001763",
+        "name": "佐藤春夫",
+        "kana": "さとうはるお",
+        "roman": "Haruo Sato",
+        "role": "著者",
+        "birthDate": "1892-04-09",
+        "deathDate": "1964-05-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

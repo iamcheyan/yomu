@@ -1098,5 +1098,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001576",
+    "title": "新ハムレット",
+    "titleKana": "しんハムレット",
+    "sortKana": "しんはむれつと",
+    "ndc": "NDC 912",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-02-06",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card1576.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/1576_ruby_8219.zip",
+    "textFileId": "1576_ruby_8219",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/1576_8585.html",
+    "inputBy": "細渕真弓",
+    "proofreadBy": "細渕紀子",
+    "baseBook1": {
+      "title": "新ハムレット",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1974（昭和49）年3月30日",
+      "inputEdition": "1998（平成10）年7月20日33刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

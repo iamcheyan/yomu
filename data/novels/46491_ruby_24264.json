@@ -512,5 +512,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046491",
+    "title": "怪異暗闇祭",
+    "titleKana": "かいいくらやみまつり",
+    "sortKana": "かいいくらやみまつり",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-11-19",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000448/card46491.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000448/files/46491_ruby_24264.zip",
+    "textFileId": "46491_ruby_24264",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000448/files/46491_24419.html",
+    "inputBy": "岡山勝美",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "怪奇・伝奇時代小説選集8　百物語他11編",
+      "publisher": "春陽文庫、春陽堂書店",
+      "firstPublishedAt": "2000（平成12）年5月20日",
+      "inputEdition": "2000（平成12）年5月20日第1刷",
+      "proofreadEdition": "2000（平成12）年5月20日第1刷"
+    },
+    "author": "江見水蔭",
+    "authors": [
+      {
+        "personId": "000448",
+        "name": "江見水蔭",
+        "kana": "えみすいいん",
+        "roman": "Suiin Emi",
+        "role": "著者",
+        "birthDate": "1869-09-17",
+        "deathDate": "1934-11-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

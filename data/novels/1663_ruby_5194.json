@@ -278,5 +278,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001663",
+    "title": "野狐",
+    "titleKana": "やこ",
+    "sortKana": "やこ",
+    "firstAppearance": "「知識人」1949（昭和24）年5月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-02-22",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000126/card1663.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000126/files/1663_ruby_5194.zip",
+    "textFileId": "1663_ruby_5194",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000126/files/1663_21034.html",
+    "inputBy": "kompass",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "昭和文学全集　第32巻",
+      "publisher": "小学館",
+      "firstPublishedAt": "1989（平成元）年8月1日",
+      "proofreadEdition": "1989（平成元）年8月1日初版"
+    },
+    "author": "田中英光",
+    "authors": [
+      {
+        "personId": "000126",
+        "name": "田中英光",
+        "kana": "たなかひでみつ",
+        "roman": "Hidemitsu Tanaka",
+        "role": "著者",
+        "birthDate": "1913-01-10",
+        "deathDate": "1949-11-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

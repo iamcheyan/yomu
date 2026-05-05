@@ -3718,5 +3718,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002615",
+    "title": "少年探偵長",
+    "titleKana": "しょうねんたんていちょう",
+    "sortKana": "しようねんたんていちよう",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-01-12",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card2615.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/2615_ruby_23958.zip",
+    "textFileId": "2615_ruby_23958",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/2615_23959.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "海野十三全集　第13巻　少年探偵長",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1992（平成4）年2月29日",
+      "inputEdition": "1992（平成4）年2月29日第1版第1刷",
+      "proofreadEdition": "1992（平成4）年2月29日第1版第1刷"
+    },
+    "author": "海野十三",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

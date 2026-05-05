@@ -198,5 +198,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004184",
+    "title": "夏の夜の夢",
+    "titleKana": "なつのよのゆめ",
+    "sortKana": "なつのよのゆめ",
+    "firstAppearance": "「新女苑」実業之日本社、1937（昭和12）年7月",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-03-24",
+    "updatedAt": "2025-08-12",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000076/card4184.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000076/files/4184_ruby_17893.zip",
+    "textFileId": "4184_ruby_17893",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000076/files/4184_17919.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "湯地光弘",
+    "baseBook1": {
+      "title": "日本幻想文学集成10　岡本かの子",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "1992（平成4）年1月23日",
+      "inputEdition": "1992（平成4）年1月23日初版第1刷",
+      "proofreadEdition": "1992（平成4）年1月23日初版第1刷"
+    },
+    "author": "岡本かの子",
+    "authors": [
+      {
+        "personId": "000076",
+        "name": "岡本かの子",
+        "kana": "おかもとかのこ",
+        "roman": "Kanoko Okamoto",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1939-02-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

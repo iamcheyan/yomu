@@ -130,5 +130,54 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "044722",
+    "title": "兵士と女優",
+    "titleKana": "へいしとじょゆう",
+    "sortKana": "へいしとしよゆう",
+    "firstAppearance": "「探偵趣味」1928（昭和3）年7月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-08-12",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000020/card44722.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000020/files/44722_ruby_18797.zip",
+    "textFileId": "44722_ruby_18797",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000020/files/44722_18859.html",
+    "inputBy": "網迫、土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "「探偵趣味」傑作選　幻の探偵雑誌2",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2000（平成12）年4月20日",
+      "inputEdition": "2000（平成12）年4月20日初版1刷",
+      "proofreadEdition": "2000（平成12）年4月20日初版1刷"
+    },
+    "author": "渡辺温、ワタナベオン",
+    "authors": [
+      {
+        "personId": "000020",
+        "name": "渡辺温",
+        "kana": "わたなべおん",
+        "roman": "On Watanabe",
+        "role": "著者",
+        "birthDate": "1902-08-26",
+        "deathDate": "1930-02-10",
+        "copyright": "なし"
+      },
+      {
+        "personId": "001203",
+        "name": "ワタナベオン",
+        "kana": "ワタナベオン",
+        "roman": "On Watanabe",
+        "role": "著者",
+        "birthDate": "1902-08-26",
+        "deathDate": "1930-02-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

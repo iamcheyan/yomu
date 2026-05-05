@@ -72,5 +72,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054189",
+    "title": "森の生活――ウォールデン――",
+    "titleKana": "もりのせいかつ",
+    "sortKana": "もりのせいかつ",
+    "subtitle": "02 森の生活――ウォールデン――",
+    "subtitleKana": "02 もりのせいかつ――ウォールデン――",
+    "originalTitle": "WALDEN, OR LIFE IN THE WOODS",
+    "ndc": "NDC 934",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-07-12",
+    "updatedAt": "2019-06-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001209/card54189.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001209/files/54189_ruby_68437.zip",
+    "textFileId": "54189_ruby_68437",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001209/files/54189_68486.html",
+    "inputBy": "Cavediver",
+    "proofreadBy": "砂場清隆",
+    "baseBook1": {
+      "title": "森の生活",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1979（昭和54）年5月16日改版",
+      "inputEdition": "1994（平成6）年11月15日第30刷",
+      "proofreadEdition": "1994（平成6）年11月15日第30刷"
+    },
+    "author": "ソローヘンリー・デイビッド",
+    "authors": [
+      {
+        "personId": "001209",
+        "name": "ソローヘンリー・デイビッド",
+        "kana": "ソローヘンリー・デイビッド",
+        "roman": "Henry David Thoreau",
+        "role": "著者",
+        "birthDate": "1817-07-12",
+        "deathDate": "1862-05-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

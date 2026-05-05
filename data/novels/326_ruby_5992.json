@@ -168,5 +168,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000326",
+    "title": "少年の悲哀",
+    "titleKana": "こどものかなしみ",
+    "sortKana": "ことものかなしみ",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-02-12",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000038/card326.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000038/files/326_ruby_5992.zip",
+    "textFileId": "326_ruby_5992",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000038/files/326_15713.html",
+    "inputBy": "網迫",
+    "proofreadBy": "丹羽倫子",
+    "baseBook1": {
+      "title": "日本文學全集4 　國木田獨歩",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1964（昭和39）年4月20日"
+    },
+    "author": "国木田独歩",
+    "authors": [
+      {
+        "personId": "000038",
+        "name": "国木田独歩",
+        "kana": "くにきだどっぽ",
+        "roman": "Doppo Kunikida",
+        "role": "著者",
+        "birthDate": "1871-08-30",
+        "deathDate": "1908-06-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -152,5 +152,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056600",
+    "title": "物貰ひの話",
+    "titleKana": "ものもらいのはなし",
+    "sortKana": "ものもらいのはなし",
+    "firstAppearance": "「江戸読本　3号」1938（昭和13）年8月",
+    "ndc": "NDC 210",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-01-20",
+    "updatedAt": "2014-12-15",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001133/card56600.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001133/files/56600_ruby_55283.zip",
+    "textFileId": "56600_ruby_55283",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001133/files/56600_55371.html",
+    "inputBy": "あたみ",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "江戸ばなし　其二",
+      "publisher": "大東出版社",
+      "firstPublishedAt": "1943（昭和18）年10月20日",
+      "inputEdition": "1943（昭和18）年10月20日初版",
+      "proofreadEdition": "1943（昭和18）年10月20日初版"
+    },
+    "author": "三田村鳶魚",
+    "authors": [
+      {
+        "personId": "001133",
+        "name": "三田村鳶魚",
+        "kana": "みたむらえんぎょ",
+        "roman": "Engyo Mitamura",
+        "role": "著者",
+        "birthDate": "1870-04-17",
+        "deathDate": "1952-05-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

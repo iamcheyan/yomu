@@ -238,5 +238,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000263",
+    "title": "薄明",
+    "titleKana": "はくめい",
+    "sortKana": "はくめい",
+    "firstAppearance": "新紀元社刊、1946（昭和21）年12月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-03-21",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card263.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/263_ruby_20160.zip",
+    "textFileId": "263_ruby_20160",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/263_20161.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "ゆうこ",
+    "baseBook1": {
+      "title": "太宰治全集8",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1989（平成元）年4月25日",
+      "proofreadEdition": "1998（平成10）年1月20日第2刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

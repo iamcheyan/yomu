@@ -212,5 +212,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057188",
+    "title": "算盤が恋を語る話",
+    "titleKana": "そろばんがこいをかたるはなし",
+    "sortKana": "そろはんかこいをかたるはなし",
+    "firstAppearance": "「写真報知」報知新聞社、1925（大正14）年3月15日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-07-28",
+    "updatedAt": "2016-06-10",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001779/card57188.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001779/files/57188_ruby_59453.zip",
+    "textFileId": "57188_ruby_59453",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001779/files/57188_59493.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "A.K.",
+    "baseBook1": {
+      "title": "江戸川乱歩全集　第1巻　屋根裏の散歩者",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2004（平成16）年7月20日",
+      "inputEdition": "2012（平成24）年8月15日7刷",
+      "proofreadEdition": "2004（平成16）年7月20日初版1刷"
+    },
+    "author": "江戸川乱歩",
+    "authors": [
+      {
+        "personId": "001779",
+        "name": "江戸川乱歩",
+        "kana": "えどがわらんぽ",
+        "roman": "Ranpo Edogawa",
+        "role": "著者",
+        "birthDate": "1894-10-21",
+        "deathDate": "1965-07-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

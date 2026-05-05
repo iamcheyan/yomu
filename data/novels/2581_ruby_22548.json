@@ -212,5 +212,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002581",
+    "title": "モルモット",
+    "titleKana": "モルモット",
+    "sortKana": "もるもつと",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-12-28",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000371/card2581.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000371/files/2581_ruby_22548.zip",
+    "textFileId": "2581_ruby_22548",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000371/files/2581_22549.html",
+    "inputBy": "大野裕",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・7　細井和喜蔵集",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1985（昭和60）年9月25日"
+    },
+    "author": "細井和喜蔵",
+    "authors": [
+      {
+        "personId": "000371",
+        "name": "細井和喜蔵",
+        "kana": "ほそいわきぞう",
+        "roman": "Wakizo Hosoi",
+        "role": "著者",
+        "birthDate": "1897-05-09",
+        "deathDate": "1925-08-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

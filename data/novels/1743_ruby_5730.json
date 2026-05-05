@@ -1094,5 +1094,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001743",
+    "title": "光と風と夢",
+    "titleKana": "ひかりとかぜとゆめ",
+    "sortKana": "ひかりとかせとゆめ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-08-03",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000119/card1743.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000119/files/1743_ruby_5730.zip",
+    "textFileId": "1743_ruby_5730",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000119/files/1743_14532.html",
+    "inputBy": "kompass",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "昭和文学全集　第7巻",
+      "publisher": "小学館",
+      "firstPublishedAt": "1989（平成元）年5月1日"
+    },
+    "author": "中島敦",
+    "authors": [
+      {
+        "personId": "000119",
+        "name": "中島敦",
+        "kana": "なかじまあつし",
+        "roman": "Atsushi Nakajima",
+        "role": "著者",
+        "birthDate": "1909-05-05",
+        "deathDate": "1942-12-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

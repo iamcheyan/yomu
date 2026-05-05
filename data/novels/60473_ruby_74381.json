@@ -100,5 +100,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060473",
+    "title": "警戒すべき日本",
+    "titleKana": "けいかいすべきにほん",
+    "sortKana": "けいかいすへきにほん",
+    "firstAppearance": "「冒険世界」博文館、1910（明治43）年12月号",
+    "ndc": "NDC 154",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-11-16",
+    "updatedAt": "2021-10-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000077/card60473.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000077/files/60473_ruby_74381.zip",
+    "textFileId": "60473_ruby_74381",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000077/files/60473_74419.html",
+    "inputBy": "sogo",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "《復録》日本大雑誌　明治篇",
+      "publisher": "流動出版",
+      "firstPublishedAt": "1979（昭和54）年12月10日改装初版",
+      "inputEdition": "1979（昭和54）年12月10日改装初版",
+      "proofreadEdition": "1979（昭和54）年12月10日改装初版"
+    },
+    "author": "押川春浪",
+    "authors": [
+      {
+        "personId": "000077",
+        "name": "押川春浪",
+        "kana": "おしかわしゅんろう",
+        "roman": "Shunro Oshikawa",
+        "role": "著者",
+        "birthDate": "1876-03-21",
+        "deathDate": "1914-11-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

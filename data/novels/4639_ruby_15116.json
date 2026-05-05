@@ -278,5 +278,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004639",
+    "title": "日本ライン",
+    "titleKana": "にほんライン",
+    "sortKana": "にほんらいん",
+    "ndc": "NDC 914 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-05-23",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000106/card4639.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000106/files/4639_ruby_15116.zip",
+    "textFileId": "4639_ruby_15116",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000106/files/4639_15645.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "浅原庸子",
+    "baseBook1": {
+      "title": "現代日本紀行文学全集　中部日本編",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1976（昭和51）年8月1日",
+      "inputEdition": "1976（昭和51）年8月1日初版"
+    },
+    "author": "北原白秋",
+    "authors": [
+      {
+        "personId": "000106",
+        "name": "北原白秋",
+        "kana": "きたはらはくしゅう",
+        "roman": "Hakushu Kitahara",
+        "role": "著者",
+        "birthDate": "1885-01-25",
+        "deathDate": "1942-11-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

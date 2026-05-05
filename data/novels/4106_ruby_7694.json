@@ -104,5 +104,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004106",
+    "title": "大阪発見",
+    "titleKana": "おおさかはっけん",
+    "sortKana": "おおさかはつけん",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-11-30",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000040/card4106.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000040/files/4106_ruby_7694.zip",
+    "textFileId": "4106_ruby_7694",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000040/files/4106_7695.html",
+    "inputBy": "渡邉つよし",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆9　町",
+      "publisher": "作品社",
+      "firstPublishedAt": "1983（昭和58）年7月25日",
+      "inputEdition": "1991（平成3）年9月1日第12刷"
+    },
+    "author": "織田作之助",
+    "authors": [
+      {
+        "personId": "000040",
+        "name": "織田作之助",
+        "kana": "おださくのすけ",
+        "roman": "Sakunosuke Oda",
+        "role": "著者",
+        "birthDate": "1913-10-26",
+        "deathDate": "1947-01-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

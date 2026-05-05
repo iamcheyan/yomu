@@ -270,5 +270,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004793",
+    "title": "マダム貞奴",
+    "titleKana": "マダムさだやっこ",
+    "sortKana": "またむさたやつこ",
+    "firstAppearance": "「婦人画報」1920（大正9）年2～4月",
+    "ndc": "NDC 281 772",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-10-10",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000726/card4793.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000726/files/4793_ruby_19507.zip",
+    "textFileId": "4793_ruby_19507",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000726/files/4793_19604.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "新編　近代美人伝（上）",
+      "publisher": "岩波文庫 、岩波書店",
+      "firstPublishedAt": "1985（昭和60）年11月18日",
+      "inputEdition": "1993（平成5）年8月18日第4刷",
+      "proofreadEdition": "2001（平成13）年7月9日第5刷"
+    },
+    "author": "長谷川時雨",
+    "authors": [
+      {
+        "personId": "000726",
+        "name": "長谷川時雨",
+        "kana": "はせがわしぐれ",
+        "roman": "Shigure Hasegawa",
+        "role": "著者",
+        "birthDate": "1879-10-01",
+        "deathDate": "1941-08-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

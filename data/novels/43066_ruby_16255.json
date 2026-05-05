@@ -674,5 +674,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043066",
+    "title": "甲州鎮撫隊",
+    "titleKana": "こうしゅうちんぶたい",
+    "sortKana": "こうしゆうちんふたい",
+    "firstAppearance": "「講談倶楽部」1938（昭和13）年7月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-09-07",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card43066.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/43066_ruby_16255.zip",
+    "textFileId": "43066_ruby_16255",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/43066_16329.html",
+    "inputBy": "大久保ゆう",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "新選組興亡録",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "2003（平成15）年10月25日",
+      "inputEdition": "2003（平成15）年10月25日初版",
+      "proofreadEdition": "2003（平成15）年10月25日初版"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

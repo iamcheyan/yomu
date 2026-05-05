@@ -172,5 +172,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000690",
+    "title": "心中",
+    "titleKana": "しんじゅう",
+    "sortKana": "しんしゆう",
+    "firstAppearance": "「中央公論」1911（明治44）年8月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-10-16",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card690.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/690_ruby_23034.zip",
+    "textFileId": "690_ruby_23034",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/690_23035.html",
+    "inputBy": "柿澤早苗",
+    "proofreadBy": "湯地光弘",
+    "baseBook1": {
+      "title": "森鴎外集　新潮日本文学1",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1971（昭和46）年8月12日"
+    },
+    "author": "森鴎外",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

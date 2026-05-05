@@ -260,5 +260,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002606",
+    "title": "カンカン虫殺人事件",
+    "titleKana": "カンカンむしさつじんじけん",
+    "sortKana": "かんかんむしさつしんしけん",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-12-21",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000236/card2606.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000236/files/2606_ruby_20607.zip",
+    "textFileId": "2606_ruby_20607",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000236/files/2606_20608.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "新青年　復刻版　昭和7年12月（13巻14号）",
+      "publisher": "本の友社",
+      "firstPublishedAt": "1990年10月"
+    },
+    "author": "大阪圭吉",
+    "authors": [
+      {
+        "personId": "000236",
+        "name": "大阪圭吉",
+        "kana": "おおさかけいきち",
+        "roman": "Keikichi Osaka",
+        "role": "著者",
+        "birthDate": "1912-03-20",
+        "deathDate": "1945-07-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

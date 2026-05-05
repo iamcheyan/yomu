@@ -98,5 +98,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058007",
+    "title": "春深く",
+    "titleKana": "はるふかく",
+    "sortKana": "はるふかく",
+    "firstAppearance": "「都新聞」1924（大正13）年5月2、3、6、7日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-05-06",
+    "updatedAt": "2017-03-11",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001692/card58007.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001692/files/58007_ruby_61295.zip",
+    "textFileId": "58007_ruby_61295",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001692/files/58007_61338.html",
+    "inputBy": "法川利夫",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "日本近代随筆選　1出会いの時〔全3冊〕",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2016（平成28）年4月15日",
+      "inputEdition": "2016（平成28）年4月15日第1刷",
+      "proofreadEdition": "2016（平成28）年6月15日第2刷"
+    },
+    "author": "久保田万太郎",
+    "authors": [
+      {
+        "personId": "001692",
+        "name": "久保田万太郎",
+        "kana": "くぼたまんたろう",
+        "roman": "Mantaro Kubota",
+        "role": "著者",
+        "birthDate": "1889-11-07",
+        "deathDate": "1963-05-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

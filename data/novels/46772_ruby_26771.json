@@ -48,5 +48,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046772",
+    "title": "鰍の卵について",
+    "titleKana": "かじかのたまごについて",
+    "sortKana": "かしかのたまこについて",
+    "firstAppearance": "「釣趣戯書」三省堂、1942（昭和17）年",
+    "ndc": "NDC 787 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-06-26",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001248/card46772.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001248/files/46772_ruby_26771.zip",
+    "textFileId": "46772_ruby_26771",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001248/files/46772_26792.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "垢石釣り随筆",
+      "publisher": "つり人ノベルズ、つり人社",
+      "firstPublishedAt": "1992（平成4）年9月10日",
+      "inputEdition": "1992（平成4）年9月10日第1刷",
+      "proofreadEdition": "1992（平成4）年9月10日第1刷"
+    },
+    "author": "佐藤垢石",
+    "authors": [
+      {
+        "personId": "001248",
+        "name": "佐藤垢石",
+        "kana": "さとうこうせき",
+        "roman": "Koseki Sato",
+        "role": "著者",
+        "birthDate": "1888-06-18",
+        "deathDate": "1956-07-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

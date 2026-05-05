@@ -56,5 +56,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000907",
+    "title": "機械",
+    "titleKana": "きかい",
+    "sortKana": "きかい",
+    "firstAppearance": "「改造　第十二卷第九號」1930（昭和5）年9月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-08-13",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card907.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/907_ruby_4907.zip",
+    "textFileId": "907_ruby_4907",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/907_54297.html",
+    "inputBy": "佐藤和人",
+    "proofreadBy": "かとうかおり",
+    "baseBook1": {
+      "title": "定本　横光利一全集　第三卷",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "1981（昭和56）年9月30日",
+      "inputEdition": "1981（昭和56）年9月30日初版"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

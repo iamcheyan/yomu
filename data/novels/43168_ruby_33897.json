@@ -310,5 +310,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043168",
+    "title": "わが精神の周囲",
+    "titleKana": "わがせいしんのしゅうい",
+    "sortKana": "わかせいしんのしゆうい",
+    "firstAppearance": "「群像　第四巻第一〇号」1949（昭和24）年10月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-04-03",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card43168.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/43168_ruby_33897.zip",
+    "textFileId": "43168_ruby_33897",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/43168_34363.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "坂口安吾全集　08",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1998（平成10）年9月20日",
+      "inputEdition": "1998（平成10）年9月20日初版第1刷",
+      "proofreadEdition": "1998（平成10）年9月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

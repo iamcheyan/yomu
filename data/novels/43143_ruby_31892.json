@@ -220,5 +220,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043143",
+    "title": "戦争論",
+    "titleKana": "せんそうろん",
+    "sortKana": "せんそうろん",
+    "firstAppearance": "「人間喜劇　第一一号」イヴニングスター社、1948（昭和23）年10月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-08-06",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card43143.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/43143_ruby_31892.zip",
+    "textFileId": "43143_ruby_31892",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/43143_31893.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "富田倫生",
+    "baseBook1": {
+      "title": "坂口安吾全集　07",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1998（平成10）年8月20日",
+      "inputEdition": "1998（平成10）年8月20日初版第1刷",
+      "proofreadEdition": "1998（平成10）年8月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

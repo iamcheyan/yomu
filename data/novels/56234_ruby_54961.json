@@ -36,5 +36,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056234",
+    "title": "寄贈書籍紹介",
+    "titleKana": "きぞうしょせきしょうかい",
+    "sortKana": "きそうしよせきしようかい",
+    "firstAppearance": "「青鞜　第三巻第一号」1913（大正2）年1月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-12-23",
+    "updatedAt": "2014-11-14",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000416/card56234.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000416/files/56234_ruby_54961.zip",
+    "textFileId": "56234_ruby_54961",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000416/files/56234_55002.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "定本　伊藤野枝全集　第二巻　評論・随筆・書簡1――『青鞜』の時代",
+      "publisher": "學藝書林",
+      "firstPublishedAt": "2000（平成12）年5月31日",
+      "inputEdition": "2000（平成12）年5月31日初版",
+      "proofreadEdition": "2000（平成12）年5月31日初版"
+    },
+    "author": "伊藤野枝",
+    "authors": [
+      {
+        "personId": "000416",
+        "name": "伊藤野枝",
+        "kana": "いとうのえ",
+        "roman": "Noe Ito",
+        "role": "著者",
+        "birthDate": "1895-01-21",
+        "deathDate": "1923-09-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

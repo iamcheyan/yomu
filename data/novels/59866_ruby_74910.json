@@ -182,5 +182,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059866",
+    "title": "親馬鹿入堂記",
+    "titleKana": "おやばかにゅうどうき",
+    "sortKana": "おやはかにゆうとうき",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-02-19",
+    "updatedAt": "2022-01-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001753/card59866.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001753/files/59866_ruby_74910.zip",
+    "textFileId": "59866_ruby_74910",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001753/files/59866_74945.html",
+    "inputBy": "sogo",
+    "proofreadBy": "持田和踏",
+    "baseBook1": {
+      "title": "親馬鹿読本",
+      "publisher": "鱒書房",
+      "firstPublishedAt": "1955（昭和30）年4月25日",
+      "inputEdition": "1955（昭和30）年4月25日初版",
+      "proofreadEdition": "1955（昭和30）年4月25日初版"
+    },
+    "author": "尾崎士郎",
+    "authors": [
+      {
+        "personId": "001753",
+        "name": "尾崎士郎",
+        "kana": "おざきしろう",
+        "roman": "Shiro Ozaki",
+        "role": "著者",
+        "birthDate": "1898-02-05",
+        "deathDate": "1964-02-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

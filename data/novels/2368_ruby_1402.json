@@ -92,5 +92,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002368",
+    "title": "僕は",
+    "titleKana": "ぼくは",
+    "sortKana": "ほくは",
+    "firstAppearance": "「驢馬」1927（昭和2）年2月",
+    "ndc": "NDC 913 917",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-01-27",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000879/card2368.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000879/files/2368_ruby_1402.zip",
+    "textFileId": "2368_ruby_1402",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000879/files/2368_13456.html",
+    "inputBy": "j.utiyama",
+    "proofreadBy": "かとうかおり",
+    "baseBook1": {
+      "title": "芥川龍之介作品集　第四巻",
+      "publisher": "昭和出版社",
+      "firstPublishedAt": "1965（昭和40）年12月20日"
+    },
+    "author": "芥川竜之介",
+    "authors": [
+      {
+        "personId": "000879",
+        "name": "芥川竜之介",
+        "kana": "あくたがわりゅうのすけ",
+        "roman": "Ryunosuke Akutagawa",
+        "role": "著者",
+        "birthDate": "1892-03-01",
+        "deathDate": "1927-07-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

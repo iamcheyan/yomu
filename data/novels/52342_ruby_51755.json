@@ -2372,5 +2372,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052342",
+    "title": "仏教人生読本",
+    "titleKana": "ぶっきょうじんせいとくほん",
+    "sortKana": "ふつきようしんせいとくほん",
+    "ndc": "NDC 180",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-12-31",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000076/card52342.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000076/files/52342_ruby_51755.zip",
+    "textFileId": "52342_ruby_51755",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000076/files/52342_51795.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "仏教人生読本",
+      "publisher": "中公文庫、中央公論新社",
+      "firstPublishedAt": "2001（平成13）年7月25日",
+      "inputEdition": "2001（平成13）年7月25日初版",
+      "proofreadEdition": "2001（平成13）年7月25日初版"
+    },
+    "author": "岡本かの子",
+    "authors": [
+      {
+        "personId": "000076",
+        "name": "岡本かの子",
+        "kana": "おかもとかのこ",
+        "roman": "Kanoko Okamoto",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1939-02-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

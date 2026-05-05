@@ -1132,5 +1132,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058706",
+    "title": "鷹の井戸（一幕）",
+    "titleKana": "たかのいど（ひとまく）",
+    "sortKana": "たかのいと（ひとまく）",
+    "originalTitle": "AT THE HAWK'S WELL",
+    "ndc": "NDC 932",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-01-28",
+    "updatedAt": "2019-01-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001085/card58706.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001085/files/58706_ruby_66708.zip",
+    "textFileId": "58706_ruby_66708",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001085/files/58706_66759.html",
+    "inputBy": "館野浩美",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "近代劇全集　第廿五卷愛蘭土篇",
+      "publisher": "第一書房",
+      "firstPublishedAt": "1927（昭和2）年11月10日",
+      "inputEdition": "1927（昭和2）年11月10日",
+      "proofreadEdition": "1927（昭和2）年11月10日"
+    },
+    "author": "イエイツウィリアム・バトラー",
+    "authors": [
+      {
+        "personId": "001085",
+        "name": "イエイツウィリアム・バトラー",
+        "kana": "イエイツウィリアム・バトラー",
+        "roman": "William Butler Yeats",
+        "role": "著者",
+        "birthDate": "1865-06-13",
+        "deathDate": "1939-01-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

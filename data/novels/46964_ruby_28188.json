@@ -120,5 +120,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046964",
+    "title": "万葉集のなり立ち",
+    "titleKana": "まんようしゅうのなりたち",
+    "sortKana": "まんようしゆうのなりたち",
+    "firstAppearance": "「皇国　第二七九号」1922（大正11）年2月",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-11-21",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card46964.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/46964_ruby_28188.zip",
+    "textFileId": "46964_ruby_28188",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/46964_28192.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "折口信夫全集　1",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1995（平成7）年2月10日",
+      "inputEdition": "1995（平成7）年2月10日初版",
+      "proofreadEdition": "1995（平成7）年2月10日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

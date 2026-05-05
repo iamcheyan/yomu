@@ -1836,5 +1836,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050918",
+    "title": "みれん",
+    "titleKana": "みれん",
+    "sortKana": "みれん",
+    "firstAppearance": "「東京日日新聞」1912（明治45）年1月1日～3月10日",
+    "ndc": "NDC 943",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-02-17",
+    "updatedAt": "2019-01-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000360/card50918.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000360/files/50918_ruby_66929.zip",
+    "textFileId": "50918_ruby_66929",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000360/files/50918_66975.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "館野浩美",
+    "baseBook1": {
+      "title": "於母影　冬の王　森鴎外全集12",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1996（平成8）年3月21日",
+      "inputEdition": "1996（平成8）年3月21日　第1刷発行",
+      "proofreadEdition": "1996（平成8）年3月21日　第1刷発行"
+    },
+    "author": "シュニッツレルアルツール",
+    "authors": [
+      {
+        "personId": "000360",
+        "name": "シュニッツレルアルツール",
+        "kana": "シュニッツレルアルツール",
+        "roman": "Arthur Schnitzler",
+        "role": "著者",
+        "birthDate": "1862",
+        "deathDate": "1931",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

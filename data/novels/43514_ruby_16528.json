@@ -46,5 +46,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043514",
+    "title": "小むすめ",
+    "titleKana": "こむすめ",
+    "sortKana": "こむすめ",
+    "firstAppearance": "「女学雑誌」1894（明治27）年1月6日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-10-02",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001146/card43514.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001146/files/43514_ruby_16528.zip",
+    "textFileId": "43514_ruby_16528",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001146/files/43514_16583.html",
+    "inputBy": "小林繁雄、門田裕志",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "紫琴全集　全一巻",
+      "publisher": "草土文化",
+      "firstPublishedAt": "1983（昭和58）年5月10日",
+      "inputEdition": "1983（昭和58）年5月10日第1刷"
+    },
+    "author": "清水紫琴",
+    "authors": [
+      {
+        "personId": "001146",
+        "name": "清水紫琴",
+        "kana": "しみずしきん",
+        "roman": "Shikin Shimizu",
+        "role": "著者",
+        "birthDate": "1868-01-25",
+        "deathDate": "1933-07-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

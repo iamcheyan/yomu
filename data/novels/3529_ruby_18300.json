@@ -1138,5 +1138,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003529",
+    "title": "流線間諜",
+    "titleKana": "りゅうせんスパイ",
+    "sortKana": "りゆうせんすはい",
+    "firstAppearance": "「つはもの」1934（昭和9）年～1935（昭和10）年頃",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-05-26",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card3529.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/3529_ruby_18300.zip",
+    "textFileId": "3529_ruby_18300",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/3529_18458.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "まや",
+    "baseBook1": {
+      "title": "海野十三全集　第4巻　十八時の音楽浴",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1989（平成元）年7月15日",
+      "inputEdition": "1989（平成元）年7月15日第1版第1刷",
+      "proofreadEdition": "1989（平成元）年7月15日第1版第1刷"
+    },
+    "author": "海野十三",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

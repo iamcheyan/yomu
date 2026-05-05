@@ -3038,5 +3038,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003510",
+    "title": "医師高間房一氏",
+    "titleKana": "いしたかまふさいちし",
+    "sortKana": "いしたかまふさいちし",
+    "firstAppearance": "「医師高間房一氏」砂子屋書房、1941（昭和16）年4月",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-05-11",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000273/card3510.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000273/files/3510_ruby_11352.zip",
+    "textFileId": "3510_ruby_11352",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000273/files/3510_18421.html",
+    "inputBy": "kompass",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "筑摩現代文学大系　60",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1978（昭和53）年4月15日",
+      "inputEdition": "1980（昭和55）年7月30日初版第2刷"
+    },
+    "author": "田畑修一郎",
+    "authors": [
+      {
+        "personId": "000273",
+        "name": "田畑修一郎",
+        "kana": "たばたしゅういちろう",
+        "roman": "Shuichiro Tabata",
+        "role": "著者",
+        "birthDate": "1903-09-02",
+        "deathDate": "1943-07-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

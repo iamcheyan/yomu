@@ -64,5 +64,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045829",
+    "title": "清太は百年語るべし",
+    "titleKana": "せいたはひゃくねんかたるべし",
+    "sortKana": "せいたはひやくねんかたるへし",
+    "firstAppearance": "「紀元　第三巻第三号」1935（昭和10）年3月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-05-26",
+    "updatedAt": "2016-04-04",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card45829.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/45829_ruby_34533.zip",
+    "textFileId": "45829_ruby_34533",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/45829_34971.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "坂口安吾全集　01",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年5月20日",
+      "inputEdition": "1999（平成11）年5月20日初版第1刷",
+      "proofreadEdition": "1999（平成11）年5月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

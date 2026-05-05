@@ -626,5 +626,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004562",
+    "title": "伊勢之巻",
+    "titleKana": "いせのまき",
+    "sortKana": "いせのまき",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-03-17",
+    "updatedAt": "2020-01-15",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card4562.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/4562_ruby_70098.zip",
+    "textFileId": "4562_ruby_70098",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/4562_70099.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "泉鏡花集成4",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1995（平成7）年10月24日",
+      "inputEdition": "1995（平成7）年10月24日第1刷",
+      "proofreadEdition": "2004（平成16）年3月20日第2刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

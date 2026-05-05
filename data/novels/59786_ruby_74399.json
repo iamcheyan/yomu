@@ -50,5 +50,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059786",
+    "title": "空飛ぶ円盤",
+    "titleKana": "そらとぶえんばん",
+    "sortKana": "そらとふえんはん",
+    "firstAppearance": "「西日本新聞」1955（昭和30）年8月",
+    "ndc": "NDC 440",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-11-30",
+    "updatedAt": "2021-10-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card59786.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/59786_ruby_74399.zip",
+    "textFileId": "59786_ruby_74399",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/59786_74437.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "木下聡",
+    "baseBook1": {
+      "title": "中谷宇吉郎随筆選集第三巻",
+      "publisher": "朝日新聞社",
+      "firstPublishedAt": "1966（昭和41）年10月20日",
+      "inputEdition": "1966（昭和41）年10月30日第2刷",
+      "proofreadEdition": "1972（昭和47）年2月20日第9刷"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

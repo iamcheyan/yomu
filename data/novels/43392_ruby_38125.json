@@ -166,5 +166,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043392",
+    "title": "ウマヤノ　ソバノ　ナタネ",
+    "titleKana": "ウマヤノ　ソバノ　ナタネ",
+    "sortKana": "うまやのそはのなたね",
+    "firstAppearance": "「がちょうの たんじょうび」羽田書店、1950（昭和25）年5月5日",
+    "ndc": "NDC K913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-05-17",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000121/card43392.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000121/files/43392_ruby_38125.zip",
+    "textFileId": "43392_ruby_38125",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000121/files/43392_39024.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "校定　新美南吉全集第四巻",
+      "publisher": "大日本図書",
+      "firstPublishedAt": "1980（昭和55）年9月30日",
+      "inputEdition": "1987（昭和62）年2月15日第3刷",
+      "proofreadEdition": "1995（平成7）年7月20日第4刷"
+    },
+    "author": "新美南吉",
+    "authors": [
+      {
+        "personId": "000121",
+        "name": "新美南吉",
+        "kana": "にいみなんきち",
+        "roman": "Nankichi Niimi",
+        "role": "著者",
+        "birthDate": "1913-07-30",
+        "deathDate": "1943-03-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -262,5 +262,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001737",
+    "title": "李陵",
+    "titleKana": "りりょう",
+    "sortKana": "りりよう",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-03-14",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000119/card1737.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000119/files/1737_ruby_5656.zip",
+    "textFileId": "1737_ruby_5656",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000119/files/1737_14534.html",
+    "inputBy": "佐野良二",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "李陵・山月記・弟子・名人伝",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1968（昭和43）年9月10日改版",
+      "inputEdition": "1998（平成10）年5月30日改版52版"
+    },
+    "author": "中島敦",
+    "authors": [
+      {
+        "personId": "000119",
+        "name": "中島敦",
+        "kana": "なかじまあつし",
+        "roman": "Atsushi Nakajima",
+        "role": "著者",
+        "birthDate": "1909-05-05",
+        "deathDate": "1942-12-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

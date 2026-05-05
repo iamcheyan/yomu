@@ -74,5 +74,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043607",
+    "title": "頭と足",
+    "titleKana": "あたまとあし",
+    "sortKana": "あたまとあし",
+    "firstAppearance": "「探偵趣味」1926（大正15）年2月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-12-27",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000221/card43607.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000221/files/43607_ruby_17005.zip",
+    "textFileId": "43607_ruby_17005",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000221/files/43607_17126.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "「探偵趣味」傑作選　幻の探偵雑誌2",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2000（平成12）年4月20日",
+      "inputEdition": "2000（平成12）年4月20日初版第1刷",
+      "proofreadEdition": "2000（平成12）年4月20日初版第1刷"
+    },
+    "author": "平林初之輔",
+    "authors": [
+      {
+        "personId": "000221",
+        "name": "平林初之輔",
+        "kana": "ひらばやしはつのすけ",
+        "roman": "Hatsunosuke Hirabayashi",
+        "role": "著者",
+        "birthDate": "1892-11-08",
+        "deathDate": "1931-06-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

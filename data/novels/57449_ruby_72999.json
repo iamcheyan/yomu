@@ -220,5 +220,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057449",
+    "title": "赤倉",
+    "titleKana": "あかくら",
+    "sortKana": "あかくら",
+    "firstAppearance": "「理学部会誌　第2号」1925（大正14）年5月21日",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-04-27",
+    "updatedAt": "2021-03-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card57449.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/57449_ruby_72999.zip",
+    "textFileId": "57449_ruby_72999",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/57449_73046.html",
+    "inputBy": "kompass",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "中谷宇吉郎集　第一巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "2000（平成12）年10月5日",
+      "inputEdition": "2000（平成12）年10月5日第1刷",
+      "proofreadEdition": "2000（平成12）年10月5日第1刷"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

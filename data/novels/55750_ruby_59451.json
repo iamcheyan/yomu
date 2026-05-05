@@ -48,5 +48,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055750",
+    "title": "日本文化と科学的思想",
+    "titleKana": "にほんぶんかとかがくてきしそう",
+    "sortKana": "にほんふんかとかかくてきしそう",
+    "ndc": "NDC 404",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-07-27",
+    "updatedAt": "2016-06-19",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001429/card55750.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001429/files/55750_ruby_59451.zip",
+    "textFileId": "55750_ruby_59451",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001429/files/55750_59491.html",
+    "inputBy": "sogo",
+    "proofreadBy": "高瀬竜一",
+    "baseBook1": {
+      "title": "現代日本記録全集9　科学と技術",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1970（昭和45）年2月28日",
+      "inputEdition": "1970（昭和45）年2月28日初版第1刷",
+      "proofreadEdition": "1970（昭和45）年2月28日初版第1刷"
+    },
+    "author": "石原純",
+    "authors": [
+      {
+        "personId": "001429",
+        "name": "石原純",
+        "kana": "いしわらあつし",
+        "roman": "Atsushi Ishiwara",
+        "role": "著者",
+        "birthDate": "1881-1-15",
+        "deathDate": "1947-1-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

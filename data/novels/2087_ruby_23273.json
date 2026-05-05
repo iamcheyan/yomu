@@ -64,5 +64,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002087",
+    "title": "婦人雑誌と猫",
+    "titleKana": "ふじんざっしとねこ",
+    "sortKana": "ふしんさつしとねこ",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-05-23",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000319/card2087.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000319/files/2087_ruby_23273.zip",
+    "textFileId": "2087_ruby_23273",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000319/files/2087_23274.html",
+    "inputBy": "加藤恭子",
+    "proofreadBy": "菅野朋子",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻96　大正",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年2月25日"
+    },
+    "author": "山本宣治",
+    "authors": [
+      {
+        "personId": "000319",
+        "name": "山本宣治",
+        "kana": "やまもとせんじ",
+        "roman": "Senji Yamamoto",
+        "role": "著者",
+        "birthDate": "1889-05-28",
+        "deathDate": "1929-03-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

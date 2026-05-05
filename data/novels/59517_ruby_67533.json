@@ -82,5 +82,36 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059517",
+    "title": "象を撃つ",
+    "titleKana": "ぞうをうつ",
+    "sortKana": "そうをうつ",
+    "originalTitle": "SHOOTING AN ELEPHANT",
+    "ndc": "NDC 934",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2019-06-25",
+    "updatedAt": "2019-11-22",
+    "cardUrl": "https://www.aozora.gr.jp/cards/002035/card59517.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/002035/files/59517_ruby_67533.zip",
+    "textFileId": "59517_ruby_67533",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/002035/files/59517_67534.html",
+    "inputBy": "The Creative CAT",
+    "author": "オーウェルジョージ",
+    "authors": [
+      {
+        "personId": "002035",
+        "name": "オーウェルジョージ",
+        "kana": "オーウェルジョージ",
+        "roman": "George Orwell",
+        "role": "著者",
+        "birthDate": "1903-06-25",
+        "deathDate": "1950-01-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

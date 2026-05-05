@@ -54,5 +54,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003611",
+    "title": "些細なやうで重大な事",
+    "titleKana": "ささいなようでじゅうだいなこと",
+    "sortKana": "ささいなようてしゆうたいなこと",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-09-28",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000051/card3611.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000051/files/3611_ruby_4010.zip",
+    "textFileId": "3611_ruby_4010",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000051/files/3611_47837.html",
+    "inputBy": "渡邉つよし",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻76　常識",
+      "publisher": "作品社",
+      "firstPublishedAt": "1997（平成9）年6月25日"
+    },
+    "author": "幸田露伴",
+    "authors": [
+      {
+        "personId": "000051",
+        "name": "幸田露伴",
+        "kana": "こうだろはん",
+        "roman": "Rohan Koda",
+        "role": "著者",
+        "birthDate": "1867-08-20",
+        "deathDate": "1947-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

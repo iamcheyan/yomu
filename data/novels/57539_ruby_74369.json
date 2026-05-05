@@ -800,5 +800,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057539",
+    "title": "いしが奢る",
+    "titleKana": "いしがおごる",
+    "sortKana": "いしかおこる",
+    "firstAppearance": "「サンデー毎日臨時増刊仲秋特別号」毎日新聞出版、1952（昭和27）年10月19日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-11-05",
+    "updatedAt": "2021-10-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001869/card57539.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001869/files/57539_ruby_74369.zip",
+    "textFileId": "57539_ruby_74369",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001869/files/57539_74407.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "北川松生",
+    "baseBook1": {
+      "title": "山本周五郎全集第二十四巻　よじょう・わたくしです物語",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1983（昭和58）年9月25日",
+      "inputEdition": "1983（昭和58）年9月25日",
+      "proofreadEdition": "1983（昭和58）年9月25日"
+    },
+    "author": "山本周五郎",
+    "authors": [
+      {
+        "personId": "001869",
+        "name": "山本周五郎",
+        "kana": "やまもとしゅうごろう",
+        "roman": "Shugoro Yamamoto",
+        "role": "著者",
+        "birthDate": "1903-06-22",
+        "deathDate": "1967-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

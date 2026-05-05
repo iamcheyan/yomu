@@ -108,5 +108,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043016",
+    "title": "トロッコ",
+    "titleKana": "トロッコ",
+    "sortKana": "とろつこ",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-11-16",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000879/card43016.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000879/files/43016_ruby_16663.zip",
+    "textFileId": "43016_ruby_16663",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000879/files/43016_16836.html",
+    "inputBy": "蒋龍",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "蜘蛛の糸・杜子春",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1968（昭和43）年11月15日、1984（昭和59）年12月25日38刷改版",
+      "inputEdition": "1989（平成元）年5月30日46刷",
+      "proofreadEdition": "1988（昭和63）年5月25日45刷"
+    },
+    "author": "芥川竜之介",
+    "authors": [
+      {
+        "personId": "000879",
+        "name": "芥川竜之介",
+        "kana": "あくたがわりゅうのすけ",
+        "roman": "Ryunosuke Akutagawa",
+        "role": "著者",
+        "birthDate": "1892-03-01",
+        "deathDate": "1927-07-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

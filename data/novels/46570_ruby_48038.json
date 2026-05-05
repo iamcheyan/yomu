@@ -84,5 +84,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046570",
+    "title": "夏と魚",
+    "titleKana": "なつとさかな",
+    "sortKana": "なつとさかな",
+    "ndc": "NDC 787",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-08-12",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000577/card46570.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000577/files/46570_ruby_48038.zip",
+    "textFileId": "46570_ruby_48038",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000577/files/46570_48118.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "岩澤秀紀",
+    "baseBook1": {
+      "title": "集成　日本の釣り文学　第二巻　夢に釣る",
+      "publisher": "作品社",
+      "firstPublishedAt": "1995（平成7）年8月10日",
+      "inputEdition": "1995（平成7）年8月10日第1刷",
+      "proofreadEdition": "1995（平成7）年8月10日第1刷"
+    },
+    "author": "佐藤惣之助",
+    "authors": [
+      {
+        "personId": "000577",
+        "name": "佐藤惣之助",
+        "kana": "さとうそうのすけ",
+        "roman": "Sonosuke Sato",
+        "role": "著者",
+        "birthDate": "1890-12-03",
+        "deathDate": "1942-05-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

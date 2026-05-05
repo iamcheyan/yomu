@@ -46,5 +46,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051404",
+    "title": "平仮名の説",
+    "titleKana": "ひらがなのせつ",
+    "sortKana": "ひらかなのせつ",
+    "firstAppearance": "「明六雜誌　第七號」明六社、1874（明治7）年5月17日",
+    "ndc": "NDC 811",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-01-20",
+    "updatedAt": "2021-08-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001508/card51404.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001508/files/51404_ruby_72445.zip",
+    "textFileId": "51404_ruby_72445",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001508/files/51404_72485.html",
+    "inputBy": "田中哲郎",
+    "proofreadBy": "hitsuji",
+    "baseBook1": {
+      "title": "明六雑誌（上）〔全3冊〕",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1999（平成11）年5月17日",
+      "inputEdition": "1999（平成11）年5月17日第1刷",
+      "proofreadEdition": "1999（平成11）年5月17日第1刷"
+    },
+    "author": "清水卯三郎",
+    "authors": [
+      {
+        "personId": "001508",
+        "name": "清水卯三郎",
+        "kana": "しみずうさぶろう",
+        "roman": "Usaburo Shimizu",
+        "role": "著者",
+        "birthDate": "1829-04-07",
+        "deathDate": "1910-01-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

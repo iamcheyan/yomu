@@ -436,5 +436,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000921",
+    "title": "怪夢",
+    "titleKana": "かいむ",
+    "sortKana": "かいむ",
+    "firstAppearance": "「文学時代」1931（昭和6）年10月、「探偵クラブ」1932（昭和7）年6月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-06-09",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000096/card921.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000096/files/921_ruby_21998.zip",
+    "textFileId": "921_ruby_21998",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000096/files/921_21999.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "しず",
+    "baseBook1": {
+      "title": "夢野久作全集3",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1992（平成4）年8月24日",
+      "proofreadEdition": "1997（平成9）年4月15日第2刷"
+    },
+    "author": "夢野久作",
+    "authors": [
+      {
+        "personId": "000096",
+        "name": "夢野久作",
+        "kana": "ゆめのきゅうさく",
+        "roman": "Kyusaku Yumeno",
+        "role": "著者",
+        "birthDate": "1889-01-04",
+        "deathDate": "1936-03-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

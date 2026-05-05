@@ -1512,5 +1512,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056686",
+    "title": "探偵少年",
+    "titleKana": "たんていしょうねん",
+    "sortKana": "たんていしようねん",
+    "firstAppearance": "「読売新聞」1955（昭和30）年9月12日～12月26日",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-08-12",
+    "updatedAt": "2018-07-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001779/card56686.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001779/files/56686_ruby_65429.zip",
+    "textFileId": "56686_ruby_65429",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001779/files/56686_65473.html",
+    "inputBy": "sogo",
+    "proofreadBy": "大久保ゆう",
+    "baseBook1": {
+      "title": "おれは二十面相だ／妖星人Ｒ",
+      "publisher": "江戸川乱歩推理文庫、講談社",
+      "firstPublishedAt": "1988（昭和63）年9月8日",
+      "inputEdition": "1988（昭和63）年9月8日第1刷",
+      "proofreadEdition": "1988（昭和63）年9月8日第1刷"
+    },
+    "author": "江戸川乱歩",
+    "authors": [
+      {
+        "personId": "001779",
+        "name": "江戸川乱歩",
+        "kana": "えどがわらんぽ",
+        "roman": "Ranpo Edogawa",
+        "role": "著者",
+        "birthDate": "1894-10-21",
+        "deathDate": "1965-07-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

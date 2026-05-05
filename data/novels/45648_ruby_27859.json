@@ -728,5 +728,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045648",
+    "title": "田舎医師の子",
+    "titleKana": "いなかいしのこ",
+    "sortKana": "いなかいしのこ",
+    "firstAppearance": "「早稲田文学」1914（大正3）年7月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-10-05",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001082/card45648.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001082/files/45648_ruby_27859.zip",
+    "textFileId": "45648_ruby_27859",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001082/files/45648_27947.html",
+    "inputBy": "kompass",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "日本短篇文学全集　第29巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1970（昭和45）年7月30日",
+      "inputEdition": "1970（昭和45）年7月30日第1刷",
+      "proofreadEdition": "1970（昭和45）年7月30日第1刷"
+    },
+    "author": "相馬泰三",
+    "authors": [
+      {
+        "personId": "001082",
+        "name": "相馬泰三",
+        "kana": "そうまたいぞう",
+        "roman": "Taizo Soma",
+        "role": "著者",
+        "birthDate": "1885-12-29",
+        "deathDate": "1952-05-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

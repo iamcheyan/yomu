@@ -40,5 +40,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049691",
+    "title": "将来の日本",
+    "titleKana": "しょうらいのにほん",
+    "sortKana": "しようらいのにほん",
+    "subtitle": "01 三版序",
+    "subtitleKana": "01 さんぱんじょ",
+    "firstAppearance": "「将来の日本」経済雑誌社、1887（明治20）年第3版",
+    "ndc": "NDC 304",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-04-18",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001388/card49691.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001388/files/49691_ruby_34382.zip",
+    "textFileId": "49691_ruby_34382",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001388/files/49691_34819.html",
+    "inputBy": "田部井　荘舟",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "日本の名著　40",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1971（昭和46）年8月10日",
+      "inputEdition": "1982（昭和57）年2月25日3版",
+      "proofreadEdition": "1971（昭和46）年8月10日初版"
+    },
+    "author": "新島襄",
+    "authors": [
+      {
+        "personId": "001388",
+        "name": "新島襄",
+        "kana": "にいじまじょう",
+        "roman": "Jo Niijima",
+        "role": "著者",
+        "birthDate": "1843-02-12",
+        "deathDate": "1890-01-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

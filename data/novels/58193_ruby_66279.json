@@ -200,5 +200,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058193",
+    "title": "遁走",
+    "titleKana": "とんそう",
+    "sortKana": "とんそう",
+    "firstAppearance": "「新潮　第五十一巻第一号」新潮社、1954（昭和29）年1月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-11-15",
+    "updatedAt": "2018-10-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001867/card58193.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001867/files/58193_ruby_66279.zip",
+    "textFileId": "58193_ruby_66279",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001867/files/58193_66326.html",
+    "inputBy": "kompass",
+    "proofreadBy": "酒井裕二",
+    "baseBook1": {
+      "title": "落穂拾い・犬の生活",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2013（平成25）年3月10日",
+      "inputEdition": "2013（平成25）年3月10日第1刷",
+      "proofreadEdition": "2013（平成25）年3月10日第1刷"
+    },
+    "author": "小山清",
+    "authors": [
+      {
+        "personId": "001867",
+        "name": "小山清",
+        "kana": "こやまきよし",
+        "roman": "Kiyoshi Koyama",
+        "role": "著者",
+        "birthDate": "1911-10-04",
+        "deathDate": "1965-03-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

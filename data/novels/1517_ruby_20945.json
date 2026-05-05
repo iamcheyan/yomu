@@ -58,5 +58,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001517",
+    "title": "装釘に就て",
+    "titleKana": "そうていについて",
+    "sortKana": "そうていについて",
+    "subtitle": "『春』と『家』及び其他",
+    "subtitleKana": "はるといえおよびそのほか",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-10-30",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000158/card1517.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000158/files/1517_ruby_20945.zip",
+    "textFileId": "1517_ruby_20945",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000158/files/1517_20946.html",
+    "inputBy": "加藤恭子",
+    "proofreadBy": "菅野朋子",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻87　装丁",
+      "publisher": "作品社",
+      "firstPublishedAt": "1998（平成10）年5月25日"
+    },
+    "author": "島崎藤村",
+    "authors": [
+      {
+        "personId": "000158",
+        "name": "島崎藤村",
+        "kana": "しまざきとうそん",
+        "roman": "Toson Shimazaki",
+        "role": "著者",
+        "birthDate": "1872-03-25",
+        "deathDate": "1943-08-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

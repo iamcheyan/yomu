@@ -52,5 +52,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045973",
+    "title": "日本の真の姿",
+    "titleKana": "にほんのしんのすがた",
+    "sortKana": "にほんのしんのすかた",
+    "ndc": "NDC 304",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-06-17",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000978/card45973.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000978/files/45973_ruby_38302.zip",
+    "textFileId": "45973_ruby_38302",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000978/files/45973_39393.html",
+    "inputBy": "kamille",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "日本の真の姿",
+      "publisher": "石井氏還暦記念講演会",
+      "firstPublishedAt": "1938（昭和13）年11月17日",
+      "inputEdition": "1938（昭和13）年11月17日",
+      "proofreadEdition": "1938（昭和13）年11月17日"
+    },
+    "author": "竹越与三郎",
+    "authors": [
+      {
+        "personId": "000978",
+        "name": "竹越与三郎",
+        "kana": "たけこしよさぶろう",
+        "roman": "Yosaburo Takekoshi",
+        "role": "著者",
+        "birthDate": "1865-11-22",
+        "deathDate": "1950-01-12",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -330,29 +330,167 @@
     "このファイルは、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。"
   ],
   "translations": [
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
+    [
+      {
+        "text": "小春日和《こはるびより》的睡意全无。在围绕白色墙壁的四方形房间中，摆放着一张桌子，她懒洋洋地把手肘搭在桌子上。已经这样坐了两个小时以上了。感觉身体都快发酵了。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "白色的天花板上，停着一只黑色的苍蝇。停着，却一动也不动。是活着呢，死了呢，还是变成木乃伊了呢？",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "那还真是，苍蝇好多啊。哇，竟然有七只。这个冬天，在这间干净的房间里，竟然有七只苍蝇从天花板垂下来，这难道就足够了吗？",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "刚这么想的时候，耳边好像传来了什么细微的声音。什么什么。听说苍蝇会叽叽喳喳说点什么给人听哦。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "那么就先等等吧。我现在去拿原稿纸和笔……。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "哎呀。这是怎么回事啊。没有印象带过来，可稿纸和笔就摆在眼前啊。这世上真是无奇不有啊。——",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "第一话　坦噶尼卡的蝇",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "那个、呃……老师。——",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "背后有人说话。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "クリシマ博士从显微镜《眼镜》里轻轻移开了眼睛。紧接着，深吸了一口气，依旧窝在椅子里，伸了个懒腰。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“那个，老师。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "唔。——",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“那颗蛋《らん》，是不是被送到哪里去了？”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "说到鸡蛋的话……",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“前几天，我从那边带回来了，有那么多蛋，多得就像那只鸵鸟的蛋一样……”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "「啊，那个啊」，博士第一次转过身看向身后。那里站着一位穿白色实验服的年轻理学士。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“那个——，那个是放在温室《こうおんしつ》里的哦。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "啊，恒温室……谢谢了。打扰您了……",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“怎么办啊？”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "好的。我打算从下午开始，终于要着手试试了",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“哎呀，原来如此，嗯嗯。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "博士一副非常满意的样子点了点头。助手的理学士恭恭敬敬地行了个礼，连脚步声都没发出就出去了。因为他穿着橡胶鞋……",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "于是克里希马博士再次转向显微镜《めがね》的方向。然后，他将载玻片稍微倾斜，再次将眼睛贴近接眼《せつがん》镜头。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
     [],
     [],
     [],
@@ -656,5 +794,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002302",
+    "title": "蠅",
+    "titleKana": "はえ",
+    "sortKana": "はえ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-07-09",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card2302.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/2302_ruby_2170.zip",
+    "textFileId": "2302_ruby_2170",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/2302_13371.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "瀬戸さえ子",
+    "baseBook1": {
+      "title": "日輪　春は馬車に乗って　他八篇",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1981（昭和56）年8月17日",
+      "inputEdition": "1997（平成9）年5月15日第23刷",
+      "proofreadEdition": "1989（平成元）年5月25日第11刷"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

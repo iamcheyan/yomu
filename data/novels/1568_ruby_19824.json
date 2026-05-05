@@ -66,5 +66,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001568",
+    "title": "灯籠",
+    "titleKana": "とうろう",
+    "sortKana": "とうろう",
+    "firstAppearance": "「若草」1937（昭和12）年10月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-11-11",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card1568.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/1568_ruby_19824.zip",
+    "textFileId": "1568_ruby_19824",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/1568_19909.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "きりぎりす",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1974（昭和49）年9月30日、1988（昭和63）年3月15日29刷改版",
+      "inputEdition": "2001（平成13）年5月5日53刷",
+      "proofreadEdition": "2004（平成16）年12月5日57刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

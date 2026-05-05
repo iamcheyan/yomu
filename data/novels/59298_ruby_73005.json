@@ -484,5 +484,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059298",
+    "title": "新帰朝者日記",
+    "titleKana": "しんきちょうしゃにっき",
+    "sortKana": "しんきちようしやにつき",
+    "firstAppearance": "「中央公論　第二十四年第十號」1909（明治42）年10月",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-04-30",
+    "updatedAt": "2021-03-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001341/card59298.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001341/files/59298_ruby_73005.zip",
+    "textFileId": "59298_ruby_73005",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001341/files/59298_73052.html",
+    "inputBy": "きりんの手紙",
+    "proofreadBy": "入江幹夫",
+    "baseBook1": {
+      "title": "荷風全集第四卷",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1964（昭和39）年8月12日",
+      "inputEdition": "1964（昭和39）年8月12日",
+      "proofreadEdition": "1964（昭和39）年8月12日"
+    },
+    "author": "永井荷風",
+    "authors": [
+      {
+        "personId": "001341",
+        "name": "永井荷風",
+        "kana": "ながいかふう",
+        "roman": "Kafu Nagai",
+        "role": "著者",
+        "birthDate": "1879-12-03",
+        "deathDate": "1959-04-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

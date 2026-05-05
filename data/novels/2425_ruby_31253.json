@@ -1258,5 +1258,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002425",
+    "title": "北村透谷詩集",
+    "titleKana": "きたむらとうこくししゅう",
+    "sortKana": "きたむらとうこくししゆう",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-08-01",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000157/card2425.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000157/files/2425_ruby_31253.zip",
+    "textFileId": "2425_ruby_31253",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000157/files/2425_31782.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "透谷全集　第一卷",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1950（昭和25）年7月15日",
+      "inputEdition": "1970（昭和45）年6月30日第13刷",
+      "proofreadEdition": "1956（昭和31）年2月25日第3刷"
+    },
+    "author": "北村透谷",
+    "authors": [
+      {
+        "personId": "000157",
+        "name": "北村透谷",
+        "kana": "きたむらとうこく",
+        "roman": "Tokoku Kitamura",
+        "role": "著者",
+        "birthDate": "1868-12-29",
+        "deathDate": "1894-05-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

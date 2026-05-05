@@ -196,5 +196,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004702",
+    "title": "京阪聞見録",
+    "titleKana": "けいはんぶんけんろく",
+    "sortKana": "けいはんふんけんろく",
+    "firstAppearance": "「三田文学」1910（明治43年）5月号",
+    "ndc": "NDC 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-09-22",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000120/card4702.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000120/files/4702_ruby_19305.zip",
+    "textFileId": "4702_ruby_19305",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000120/files/4702_19344.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "現代日本紀行文学全集　西日本編",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1976（昭和51）年8月1日",
+      "inputEdition": "1976（昭和51）年8月1日初版",
+      "proofreadEdition": "1976（昭和51）年8月1日初版"
+    },
+    "author": "木下杢太郎",
+    "authors": [
+      {
+        "personId": "000120",
+        "name": "木下杢太郎",
+        "kana": "きのしたもくたろう",
+        "roman": "Mokutaro Kinoshita",
+        "role": "著者",
+        "birthDate": "1885-08-01",
+        "deathDate": "1945-10-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

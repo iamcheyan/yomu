@@ -42,5 +42,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046557",
+    "title": "「婦人解放の悲劇」自序",
+    "titleKana": "「ふじんかいほうのひげき」じじょ",
+    "sortKana": "ふしんかいほうのひけきししよ",
+    "ndc": "NDC 367 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-01-12",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000416/card46557.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000416/files/46557_ruby_24718.zip",
+    "textFileId": "46557_ruby_24718",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000416/files/46557_25185.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "定本　伊藤野枝全集　第四巻　翻訳",
+      "publisher": "學藝書林",
+      "firstPublishedAt": "2000（平成12）年12月15日",
+      "inputEdition": "2000（平成12）年12月15日初版",
+      "proofreadEdition": "2000（平成12）年12月15日初版"
+    },
+    "author": "伊藤野枝",
+    "authors": [
+      {
+        "personId": "000416",
+        "name": "伊藤野枝",
+        "kana": "いとうのえ",
+        "roman": "Noe Ito",
+        "role": "著者",
+        "birthDate": "1895-01-21",
+        "deathDate": "1923-09-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

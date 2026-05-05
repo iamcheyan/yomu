@@ -72,5 +72,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057428",
+    "title": "堺へ帰らう",
+    "titleKana": "さかいへかえろう",
+    "sortKana": "さかいへかえろう",
+    "firstAppearance": "「明星」1949（昭和24）年10月",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-06-16",
+    "updatedAt": "2016-03-04",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001861/card57428.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001861/files/57428_ruby_58875.zip",
+    "textFileId": "57428_ruby_58875",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001861/files/57428_58917.html",
+    "inputBy": "大久保ゆう",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "ふるさと文学館　第三三巻　【大阪Ⅱ】",
+      "publisher": "ぎょうせい",
+      "firstPublishedAt": "1995（平成7）年8月15日",
+      "inputEdition": "1995（平成7）年8月15日初版",
+      "proofreadEdition": "1995（平成7）年8月15日初版"
+    },
+    "author": "河井酔茗",
+    "authors": [
+      {
+        "personId": "001861",
+        "name": "河井酔茗",
+        "kana": "かわいすいめい",
+        "roman": "Suimei Kawai",
+        "role": "著者",
+        "birthDate": "1874-05-07",
+        "deathDate": "1965-01-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

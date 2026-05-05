@@ -536,5 +536,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042346",
+    "title": "植物医師",
+    "titleKana": "しょくぶついし",
+    "sortKana": "しよくふついし",
+    "subtitle": "郷土喜劇",
+    "subtitleKana": "きょうどきげき",
+    "ndc": "NDC 912",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-07-30",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card42346.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/42346_ruby_15892.zip",
+    "textFileId": "42346_ruby_15892",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/42346_15979.html",
+    "inputBy": "蒋龍",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "銀河鉄道の夜",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1961(昭和36)年7月30日",
+      "inputEdition": "1979(昭和54)年6月5日40刷",
+      "proofreadEdition": "1984(昭和59)年11月20日50刷"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

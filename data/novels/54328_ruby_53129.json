@@ -52,5 +52,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054328",
+    "title": "アインシュタイン博士のこと",
+    "titleKana": "アインシュタインはかせのこと",
+    "sortKana": "あいんしゆたいんはかせのこと",
+    "firstAppearance": "「科學朝日」1948（昭和23）年1月",
+    "ndc": "NDC 289",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-04-18",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001153/card54328.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001153/files/54328_ruby_53129.zip",
+    "textFileId": "54328_ruby_53129",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001153/files/54328_53130.html",
+    "inputBy": "しだひろし",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "長岡半太郎隨筆集　原子力時代の曙",
+      "publisher": "朝日新聞社",
+      "firstPublishedAt": "1951（昭和26）年6月20日",
+      "inputEdition": "1951（昭和26）年6月20日",
+      "proofreadEdition": "1951（昭和26）年6月20日"
+    },
+    "author": "長岡半太郎",
+    "authors": [
+      {
+        "personId": "001153",
+        "name": "長岡半太郎",
+        "kana": "ながおかはんたろう",
+        "roman": "Hantaro Nagaoka",
+        "role": "著者",
+        "birthDate": "1865-08-19",
+        "deathDate": "1950-12-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

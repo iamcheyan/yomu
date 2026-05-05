@@ -794,5 +794,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046821",
+    "title": "植物知識",
+    "titleKana": "しょくぶつちしき",
+    "sortKana": "しよくふつちしき",
+    "ndc": "NDC 470",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-01-03",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001266/card46821.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001266/files/46821_ruby_29302.zip",
+    "textFileId": "46821_ruby_29302",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001266/files/46821_29301.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "植物知識",
+      "publisher": "講談社",
+      "firstPublishedAt": "1981（昭和56）年2月10日",
+      "inputEdition": "1993（平成5）年10月20日第22刷",
+      "proofreadEdition": "2005（平成17）年4月20日第37刷"
+    },
+    "author": "牧野富太郎",
+    "authors": [
+      {
+        "personId": "001266",
+        "name": "牧野富太郎",
+        "kana": "まきのとみたろう",
+        "roman": "Tomitaro Makino",
+        "role": "著者",
+        "birthDate": "1862-05-22",
+        "deathDate": "1957-01-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

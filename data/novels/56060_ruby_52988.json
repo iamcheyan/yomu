@@ -612,5 +612,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056060",
+    "title": "鍋島甲斐守",
+    "titleKana": "なべしまかいのかみ",
+    "sortKana": "なへしまかいのかみ",
+    "firstAppearance": "「オール讀物」文藝春秋、1936（昭和11）年9月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-03-04",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001562/card56060.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001562/files/56060_ruby_52988.zip",
+    "textFileId": "56060_ruby_52988",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001562/files/56060_53035.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "吉川英治全集・43　新・水滸傳（二）",
+      "publisher": "講談社",
+      "firstPublishedAt": "1967（昭和42）年6月20日",
+      "inputEdition": "1967（昭和42）年6月20日第1刷",
+      "proofreadEdition": "1967（昭和42）年6月20日第1刷"
+    },
+    "author": "吉川英治",
+    "authors": [
+      {
+        "personId": "001562",
+        "name": "吉川英治",
+        "kana": "よしかわえいじ",
+        "roman": "Eiji Yoshikawa",
+        "role": "著者",
+        "birthDate": "1892-08-11",
+        "deathDate": "1962-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

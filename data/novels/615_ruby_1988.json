@@ -3220,5 +3220,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000615",
+    "title": "長塚節歌集",
+    "titleKana": "ながつかたかしかしゅう",
+    "sortKana": "なかつかたかしかしゆう",
+    "subtitle": "3　下",
+    "subtitleKana": "3　げ",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-05-19",
+    "updatedAt": "2015-07-03",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000118/card615.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000118/files/615_ruby_1988.zip",
+    "textFileId": "615_ruby_1988",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000118/files/615_36033.html",
+    "inputBy": "町野修三",
+    "proofreadBy": "浜野智",
+    "baseBook1": {
+      "title": "長塚節名作選　三",
+      "publisher": "春陽堂書店",
+      "firstPublishedAt": "1987（昭和62）年8月20日",
+      "inputEdition": "1987（昭和62）年8月20日",
+      "proofreadEdition": "1987（昭和62）年8月20日"
+    },
+    "author": "長塚節",
+    "authors": [
+      {
+        "personId": "000118",
+        "name": "長塚節",
+        "kana": "ながつかたかし",
+        "roman": "Takashi Nagatsuka",
+        "role": "著者",
+        "birthDate": "1879-04-03",
+        "deathDate": "1915-02-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

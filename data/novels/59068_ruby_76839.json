@@ -50,5 +50,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059068",
+    "title": "外交の後援",
+    "titleKana": "がいこうのこうえん",
+    "sortKana": "かいこうのこうえん",
+    "subtitle": "（敵愾にあらず至誠にあり）",
+    "subtitleKana": "（てきがいにあらずしせいにあり）",
+    "firstAppearance": "「社会主義　第八年第七号」1904（明治37）年5月3日",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2023-01-24",
+    "updatedAt": "2023-01-22",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001998/card59068.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001998/files/59068_ruby_76839.zip",
+    "textFileId": "59068_ruby_76839",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001998/files/59068_76840.html",
+    "inputBy": "大野裕",
+    "proofreadBy": "持田和踏",
+    "baseBook1": {
+      "title": "大石誠之助全集1",
+      "publisher": "弘隆社",
+      "firstPublishedAt": "1982（昭和57）年8月5日",
+      "inputEdition": "1982（昭和57）年8月5日",
+      "proofreadEdition": "1982（昭和57）年8月5日"
+    },
+    "author": "大石誠之助",
+    "authors": [
+      {
+        "personId": "001998",
+        "name": "大石誠之助",
+        "kana": "おおいしせいのすけ",
+        "roman": "Seinosuke Oishi",
+        "role": "著者",
+        "birthDate": "1867-11-29",
+        "deathDate": "1911-01-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

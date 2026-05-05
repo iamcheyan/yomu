@@ -184,5 +184,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004994",
+    "title": "燕と王子",
+    "titleKana": "つばめとおうじ",
+    "sortKana": "つはめとおうし",
+    "firstAppearance": "「婦人の国」1926（大正15）年4月",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-07-07",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000025/card4994.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000025/files/4994_ruby_11022.zip",
+    "textFileId": "4994_ruby_11022",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000025/files/4994_11108.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "一房の葡萄",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1952（昭和27）年 3月10日",
+      "inputEdition": "1987（昭和62）年11月10日改版32刷",
+      "proofreadEdition": "1981（昭和56）年11月10日改版23刷"
+    },
+    "author": "有島武郎",
+    "authors": [
+      {
+        "personId": "000025",
+        "name": "有島武郎",
+        "kana": "ありしまたけお",
+        "roman": "Takeo Arishima",
+        "role": "著者",
+        "birthDate": "1878-03-04",
+        "deathDate": "1923-06-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

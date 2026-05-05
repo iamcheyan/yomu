@@ -608,5 +608,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000398",
+    "title": "いのちの初夜",
+    "titleKana": "いのちのしょや",
+    "sortKana": "いのちのしよや",
+    "firstAppearance": "「文学界」1936（昭和11）年2月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-05-28",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000997/card398.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000997/files/398_ruby_2016.zip",
+    "textFileId": "398_ruby_2016",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000997/files/398_42319.html",
+    "inputBy": "もりみつじゅんじ",
+    "proofreadBy": "大野晋",
+    "baseBook1": {
+      "title": "いのちの初夜",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1955（昭和30）年9月15日、1979（昭和54）年7月30日改版18版"
+    },
+    "author": "北条民雄",
+    "authors": [
+      {
+        "personId": "000997",
+        "name": "北条民雄",
+        "kana": "ほうじょうたみお",
+        "roman": "Tamio Hojo",
+        "role": "著者",
+        "birthDate": "1914-09-22",
+        "deathDate": "1937-12-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

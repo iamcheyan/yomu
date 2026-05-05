@@ -76,5 +76,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "024433",
+    "title": "貴種誕生と産湯の信仰と",
+    "titleKana": "きしゅたんじょうとうぶゆのしんこうと",
+    "sortKana": "きしゆたんしようとうふゆのしんこうと",
+    "firstAppearance": "「国学院雑誌　第三十三巻第十号」1927（昭和2）年10月",
+    "ndc": "NDC 380",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-01-11",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card24433.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/24433_ruby_14161.zip",
+    "textFileId": "24433_ruby_14161",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/24433_14216.html",
+    "inputBy": "小林繁雄",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "折口信夫全集　2",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1995（平成7）年3月10日",
+      "inputEdition": "1995（平成7）年3月10日初版",
+      "proofreadEdition": "1995（平成7）年3月10日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

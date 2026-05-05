@@ -56,5 +56,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046625",
+    "title": "茶話",
+    "titleKana": "ちゃばなし",
+    "sortKana": "ちやはなし",
+    "subtitle": "12　初出未詳",
+    "subtitleKana": "12　しょしゅつみしょう",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-11-13",
+    "updatedAt": "2014-10-13",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000150/card46625.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000150/files/46625_ruby_54723.zip",
+    "textFileId": "46625_ruby_54723",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000150/files/46625_54768.html",
+    "inputBy": "kompass",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "完本　茶話　下",
+      "publisher": "冨山房百科文庫、冨山房",
+      "firstPublishedAt": "1984（昭和59）年2月28日",
+      "inputEdition": "1988（昭和63）年7月25日第7刷",
+      "proofreadEdition": "1996（平成8）年 7月27日第9刷"
+    },
+    "author": "薄田泣菫",
+    "authors": [
+      {
+        "personId": "000150",
+        "name": "薄田泣菫",
+        "kana": "すすきだきゅうきん",
+        "roman": "Kyukin Susukida",
+        "role": "著者",
+        "birthDate": "1877-05-19",
+        "deathDate": "1945-10-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

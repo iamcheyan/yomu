@@ -46,5 +46,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051267",
+    "title": "徹底的な浜尾君",
+    "titleKana": "てっていてきなはまおくん",
+    "sortKana": "てつていてきなはまおくん",
+    "ndc": "NDC 910",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-04-05",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000260/card51267.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000260/files/51267_ruby_49476.zip",
+    "textFileId": "51267_ruby_49476",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000260/files/51267_50057.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本探偵小説全集　5　浜尾四郎集",
+      "publisher": "創元推理文庫、東京創元社",
+      "firstPublishedAt": "1985（昭和60）年3月29日",
+      "inputEdition": "1993（平成5）年3月5日4刷",
+      "proofreadEdition": "2010（平成22）年8月20日6刷"
+    },
+    "author": "甲賀三郎",
+    "authors": [
+      {
+        "personId": "000260",
+        "name": "甲賀三郎",
+        "kana": "こうがさぶろう",
+        "roman": "Saburo Koga",
+        "role": "著者",
+        "birthDate": "1893-10-05",
+        "deathDate": "1945-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

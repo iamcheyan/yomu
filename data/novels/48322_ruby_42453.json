@@ -24,23 +24,153 @@
   ],
   "translations": [
     [],
+    [
+      {
+        "text": "既然您据说是无所不知的，这您应该也会弹吧。请弹一首给我听听。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "他说道。匡衡《まさひら》啊，那就不必回信《へんじ》了。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
     [],
+    [
+      {
+        "text": "逢坂关的那边也还没见过吧",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "我连阿兹玛的事都不知道。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
     [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    []
+    [
+      {
+        "text": "读了这样一首和歌。女官们作不出它的返歌，连笑着刁难捉弄也做不到，先是默默一个人起身，接着两个人起身，最后全都逃到里面去了。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "这个匡衡（まさひら）在汉文和诗方面是顶级的名家，而且据说他还能很好地唱这首歌，传说是这样流传下来的。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "底本：《竹取物语·今昔物语·谣曲物语 No.33》 复刻版日本儿童文库、名著普及会",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "1981年（昭和56年）8月20日发行",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "底本的母本：《竹取物語·今昔物語·謠曲物語》日本兒童文庫、アルス",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "1928年（昭和3年）3月5日发行",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "输入：志田浩志",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "校对：西本杏子",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "2011年4月3日制作",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "青空文库制作文件：",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "本文件由互联网图书馆青空文库（http://www.aozora.gr.jp/）制作完成。承担录入、校对、制作工作的是志愿者朋友们。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ]
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048322",
+    "title": "今昔物語",
+    "titleKana": "こんじゃくものがたり",
+    "sortKana": "こんしやくものかたり",
+    "subtitle": "21 大江匡衡が歌をよむ話",
+    "subtitleKana": "21 おおえまさひらがうたをよむはなし",
+    "ndc": "NDC K913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-05-08",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001072/card48322.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001072/files/48322_ruby_42453.zip",
+    "textFileId": "48322_ruby_42453",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001072/files/48322_42691.html",
+    "inputBy": "しだひろし",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "竹取物語・今昔物語・謠曲物語",
+      "publisher": "復刻版日本兒童文庫、名著普及会",
+      "firstPublishedAt": "1981（昭和56）年8月20日",
+      "inputEdition": "1981（昭和56）年8月20日",
+      "proofreadEdition": "1981（昭和56）年8月20日"
+    },
+    "author": "和田万吉",
+    "authors": [
+      {
+        "personId": "001072",
+        "name": "和田万吉",
+        "kana": "わだまんきち",
+        "roman": "Mankichi Wada",
+        "role": "著者",
+        "birthDate": "1865-10-07",
+        "deathDate": "1934-11-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

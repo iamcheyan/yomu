@@ -336,5 +336,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058232",
+    "title": "うき草",
+    "titleKana": "うきくさ",
+    "sortKana": "うきくさ",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-06-28",
+    "updatedAt": "2018-05-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000291/card58232.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000291/files/58232_ruby_64915.zip",
+    "textFileId": "58232_ruby_64915",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000291/files/58232_64961.html",
+    "inputBy": "しんじ",
+    "proofreadBy": "阿部哲也",
+    "baseBook1": {
+      "title": "林芙美子全集　第五巻",
+      "publisher": "文泉堂出版",
+      "firstPublishedAt": "1977（昭和52）年4月20日",
+      "inputEdition": "1977（昭和52）年4月20日",
+      "proofreadEdition": "1958（昭和33）年5月20日発行"
+    },
+    "author": "林芙美子",
+    "authors": [
+      {
+        "personId": "000291",
+        "name": "林芙美子",
+        "kana": "はやしふみこ",
+        "roman": "Fumiko Hayashi",
+        "role": "著者",
+        "birthDate": "1903-12-31",
+        "deathDate": "1951-06-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

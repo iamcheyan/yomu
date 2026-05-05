@@ -1434,5 +1434,36 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056525",
+    "title": "医学の歴史",
+    "titleKana": "いがくのれきし",
+    "sortKana": "いかくのれきし",
+    "originalTitle": "HISTORY OF MEDICINE",
+    "ndc": "NDC 490",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2013-12-02",
+    "updatedAt": "2019-06-08",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001784/card56525.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001784/files/56525_ruby_68346.zip",
+    "textFileId": "56525_ruby_68346",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001784/files/56525_68347.html",
+    "proofreadBy": "POKEPEEK2011",
+    "author": "ノイバーガーマクス",
+    "authors": [
+      {
+        "personId": "001784",
+        "name": "ノイバーガーマクス",
+        "kana": "ノイバーガーマクス",
+        "roman": "Max Neuburger",
+        "role": "著者",
+        "birthDate": "1868-12-08",
+        "deathDate": "1955-05-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -56,5 +56,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054887",
+    "title": "古い暦",
+    "titleKana": "ふるいこよみ",
+    "sortKana": "ふるいこよみ",
+    "subtitle": "私と坪内先生",
+    "subtitleKana": "わたしとつぼうちせんせい",
+    "firstAppearance": "「報知新聞」1935（昭和10）年3月4日～5日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-08-09",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000726/card54887.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000726/files/54887_ruby_50836.zip",
+    "textFileId": "54887_ruby_50836",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000726/files/54887_51036.html",
+    "inputBy": "kompass",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "長谷川時雨作品集",
+      "publisher": "藤原書店",
+      "firstPublishedAt": "2009（平成21）年11月30日",
+      "inputEdition": "2009（平成21）年11月30日初版第1刷",
+      "proofreadEdition": "2009（平成21）年11月30日初版第1刷"
+    },
+    "author": "長谷川時雨",
+    "authors": [
+      {
+        "personId": "000726",
+        "name": "長谷川時雨",
+        "kana": "はせがわしぐれ",
+        "roman": "Shigure Hasegawa",
+        "role": "著者",
+        "birthDate": "1879-10-01",
+        "deathDate": "1941-08-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

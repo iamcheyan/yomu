@@ -78,5 +78,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051801",
+    "title": "書を愛して書を持たず",
+    "titleKana": "しょをあいしてしょをもたず",
+    "sortKana": "しよをあいしてしよをもたす",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-01-20",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001475/card51801.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001475/files/51801_ruby_46538.zip",
+    "textFileId": "51801_ruby_46538",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001475/files/51801_46583.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "芸術は生動す",
+      "publisher": "国文社",
+      "firstPublishedAt": "1982（昭和57）年3月30日",
+      "inputEdition": "1982（昭和57）年3月30日初版第1刷",
+      "proofreadEdition": "1982（昭和57）年3月30日初版第1刷"
+    },
+    "author": "小川未明",
+    "authors": [
+      {
+        "personId": "001475",
+        "name": "小川未明",
+        "kana": "おがわみめい",
+        "roman": "Mimei Ogawa",
+        "role": "著者",
+        "birthDate": "1882-04-07",
+        "deathDate": "1961-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

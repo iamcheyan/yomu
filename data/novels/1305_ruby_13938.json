@@ -2230,5 +2230,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001305",
+    "title": "権三と助十",
+    "titleKana": "ごんざとすけじゅう",
+    "sortKana": "こんさとすけしゆう",
+    "ndc": "NDC 912",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-01-10",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000082/card1305.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000082/files/1305_ruby_13938.zip",
+    "textFileId": "1305_ruby_13938",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000082/files/1305_14070.html",
+    "inputBy": "林田清明",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "現代日本文學全集56　小杉天外　小栗風葉　岡本綺堂　眞山青果集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1957（昭和32）年6月15日",
+      "inputEdition": "1957（昭和32）年6月15日第1刷"
+    },
+    "author": "岡本綺堂",
+    "authors": [
+      {
+        "personId": "000082",
+        "name": "岡本綺堂",
+        "kana": "おかもときどう",
+        "roman": "Kido Okamoto",
+        "role": "著者",
+        "birthDate": "1872-11-15",
+        "deathDate": "1939-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

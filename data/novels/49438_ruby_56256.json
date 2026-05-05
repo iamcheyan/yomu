@@ -86,5 +86,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049438",
+    "title": "斎藤緑雨と内田不知菴",
+    "titleKana": "さいとうりょくうとうちだふちあん",
+    "sortKana": "さいとうりよくうとうちたふちあん",
+    "ndc": "NDC 910",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-04-06",
+    "updatedAt": "2015-04-08",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000141/card49438.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000141/files/49438_ruby_56256.zip",
+    "textFileId": "49438_ruby_56256",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000141/files/49438_56067.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "明治文学遊学案内",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2000（平成12）年8月25日",
+      "inputEdition": "2000（平成12）年8月25日初版第1刷",
+      "proofreadEdition": "2000（平成12）年8月25日初版第1刷"
+    },
+    "author": "坪内逍遥",
+    "authors": [
+      {
+        "personId": "000141",
+        "name": "坪内逍遥",
+        "kana": "つぼうちしょうよう",
+        "roman": "Shoyo Tsubouchi",
+        "role": "著者",
+        "birthDate": "1859-06-22",
+        "deathDate": "1935-02-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

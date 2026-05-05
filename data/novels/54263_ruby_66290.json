@@ -70,5 +70,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054263",
+    "title": "かめ",
+    "titleKana": "かめ",
+    "sortKana": "かめ",
+    "firstAppearance": "「沖縄毎日新聞」1912（明治45）年1月23日",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-11-23",
+    "updatedAt": "2018-10-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001654/card54263.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001654/files/54263_ruby_66290.zip",
+    "textFileId": "54263_ruby_66290",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001654/files/54263_66337.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "きゅうり",
+    "baseBook1": {
+      "title": "沖縄文学全集　第1巻　詩Ⅰ",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "1991（平成3）年6月6日",
+      "inputEdition": "1991（平成3）年6月6日第1刷",
+      "proofreadEdition": "1991（平成3）年6月6日第1刷"
+    },
+    "author": "濤音",
+    "authors": [
+      {
+        "personId": "001654",
+        "name": "濤音",
+        "kana": "とうおん",
+        "roman": "Toon",
+        "role": "著者",
+        "birthDate": "1888-05-28",
+        "deathDate": "1953-11-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

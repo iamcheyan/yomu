@@ -2042,5 +2042,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043527",
+    "title": "私の小売商道",
+    "titleKana": "わたしのこうりしょうどう",
+    "sortKana": "わたしのこうりしようとう",
+    "ndc": "NDC 673",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-01-01",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001147/card43527.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001147/files/43527_ruby_17326.zip",
+    "textFileId": "43527_ruby_17326",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001147/files/43527_17334.html",
+    "inputBy": "小林繁雄、門田裕志",
+    "proofreadBy": "富田倫生",
+    "baseBook1": {
+      "title": "相馬愛蔵・黒光著作集4",
+      "publisher": "郷土出版社",
+      "firstPublishedAt": "1981（昭和56）年6月5日",
+      "inputEdition": "1981（昭和56）年6月5日初版",
+      "proofreadEdition": "1981（昭和56）年6月5日初版"
+    },
+    "author": "相馬愛蔵",
+    "authors": [
+      {
+        "personId": "001147",
+        "name": "相馬愛蔵",
+        "kana": "そうまあいぞう",
+        "roman": "Aizo Soma",
+        "role": "著者",
+        "birthDate": "1870-11-08",
+        "deathDate": "1954-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

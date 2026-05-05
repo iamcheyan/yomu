@@ -60,5 +60,53 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050775",
+    "title": "五月より",
+    "titleKana": "ごがつより",
+    "sortKana": "こかつより",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-09-14",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card50775.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/50775_ruby_44365.zip",
+    "textFileId": "50775_ruby_44365",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/50775_44656.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "鏡花全集　巻二十七",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1942（昭和17）年10月20日",
+      "inputEdition": "1988（昭和63）年11月2日第3刷",
+      "proofreadEdition": "1976（昭和51）年1月6日第2刷"
+    },
+    "author": "泉鏡花、泉鏡太郎",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      },
+      {
+        "personId": "000886",
+        "name": "泉鏡太郎",
+        "kana": "いずみきょうたろう",
+        "roman": "Kyotaro Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

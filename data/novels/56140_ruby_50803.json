@@ -204,5 +204,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056140",
+    "title": "丘の銅像",
+    "titleKana": "おかのどうぞう",
+    "sortKana": "おかのとうそう",
+    "firstAppearance": "「新美南吉童話全集第一巻　ごんぎつね」大日本図書、1960（昭和35）年6月20日初版発行",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-08-28",
+    "updatedAt": "2022-02-07",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000121/card56140.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000121/files/56140_ruby_50803.zip",
+    "textFileId": "56140_ruby_50803",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000121/files/56140_50926.html",
+    "inputBy": "江村秀之",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "新美南吉童話全集第一巻　ごんぎつね",
+      "publisher": "大日本図書",
+      "firstPublishedAt": "1960（昭和35）年6月20日",
+      "inputEdition": "1975（昭和50）年5月10日31版",
+      "proofreadEdition": "1979（昭和54）年9月15日35版"
+    },
+    "author": "新美南吉",
+    "authors": [
+      {
+        "personId": "000121",
+        "name": "新美南吉",
+        "kana": "にいみなんきち",
+        "roman": "Nankichi Niimi",
+        "role": "著者",
+        "birthDate": "1913-07-30",
+        "deathDate": "1943-03-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

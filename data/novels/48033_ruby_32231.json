@@ -46,5 +46,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048033",
+    "title": "怪談劇",
+    "titleKana": "かいだんげき",
+    "sortKana": "かいたんけき",
+    "ndc": "NDC 775",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-10-12",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000082/card48033.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000082/files/48033_ruby_32231.zip",
+    "textFileId": "48033_ruby_32231",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000082/files/48033_33011.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "伝奇ノ匣2　岡本綺堂妖術伝奇集",
+      "publisher": "学研Ｍ文庫、学習研究社",
+      "firstPublishedAt": "2002（平成14）年3月29日",
+      "inputEdition": "2002（平成14）年3月29日初版",
+      "proofreadEdition": "2002（平成14）年3月29日初版"
+    },
+    "author": "岡本綺堂",
+    "authors": [
+      {
+        "personId": "000082",
+        "name": "岡本綺堂",
+        "kana": "おかもときどう",
+        "roman": "Kido Okamoto",
+        "role": "著者",
+        "birthDate": "1872-11-15",
+        "deathDate": "1939-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

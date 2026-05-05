@@ -40,5 +40,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054994",
+    "title": "奉悼歌",
+    "titleKana": "ほうとうか",
+    "sortKana": "ほうとうか",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-02-06",
+    "updatedAt": "2019-01-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000723/card54994.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000723/files/54994_ruby_66911.zip",
+    "textFileId": "54994_ruby_66911",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000723/files/54994_66957.html",
+    "inputBy": "岩澤秀紀",
+    "proofreadBy": "きゅうり",
+    "baseBook1": {
+      "title": "近代作家追悼文集成　第二十一巻",
+      "publisher": "ゆまに書房",
+      "firstPublishedAt": "1992（平成4）年12月8日",
+      "inputEdition": "1992（平成4）年12月8日",
+      "proofreadEdition": "1992（平成4）年12月8日"
+    },
+    "author": "芳賀矢一",
+    "authors": [
+      {
+        "personId": "000723",
+        "name": "芳賀矢一",
+        "kana": "はがやいち",
+        "roman": "Yaichi Haga",
+        "role": "著者",
+        "birthDate": "1867-06-16",
+        "deathDate": "1927-02-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

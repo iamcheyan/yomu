@@ -224,5 +224,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053188",
+    "title": "明日はメーデー",
+    "titleKana": "あしたはメーデー",
+    "sortKana": "あしたはめえてえ",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-10-01",
+    "updatedAt": "2015-03-14",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001585/card53188.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001585/files/53188_ruby_54459.zip",
+    "textFileId": "53188_ruby_54459",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001585/files/53188_54410.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "槇村浩詩集",
+      "publisher": "平和資料館・草の家、飛鳥出版室",
+      "firstPublishedAt": "2003（平成15）年3月15日",
+      "inputEdition": "2003（平成15）年3月15日",
+      "proofreadEdition": "2003（平成15）年3月15日"
+    },
+    "author": "槙村浩",
+    "authors": [
+      {
+        "personId": "001585",
+        "name": "槙村浩",
+        "kana": "まきむらこう",
+        "roman": "Ko Makimura",
+        "role": "著者",
+        "birthDate": "1912-06-01",
+        "deathDate": "1938-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

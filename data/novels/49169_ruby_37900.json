@@ -2042,5 +2042,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049169",
+    "title": "極楽とんぼ",
+    "titleKana": "ごくらくとんぼ",
+    "sortKana": "こくらくとんほ",
+    "firstAppearance": "但馬山国「曠野」1924（大正13）年5月、暴風の夜「若き文化」1922（大正11）年5月、難波の鴎「婦人世界」1923（大正12）年6月、若葉の月「詩人倶楽部」1923（大正12）年6月、かなしい海「婦人世界」1923（大正12）年8月、ジプシーの歌（原題　ジプシーの唄）「かなりや」1922（大正11）年3月、芒の蔭（原題　迷ひ子さがしの唄）「現代」1921（大正10）年11月、すさみ心（原題　うんと飲みませうか）「かなりや」1922（大正11）年3月、黒のソフトさん「かなりや」1921（大正10）年12月、お三大星さま「婦人世界」1923（大正12）年11月、佐渡が島「金の星」1923（大正12）年9月、出船（原題　沖は時雨か）「雄弁」1923（大正12）年9月、鵯が来る「婦人倶楽部」1924（大正13）年1月、青い月夜「愛唱」1923（大正12）年6月、焦土の帝都「現代」1923（大正12）年10月",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-05-07",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000286/card49169.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000286/files/49169_ruby_37900.zip",
+    "textFileId": "49169_ruby_37900",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000286/files/49169_39003.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "定本　野口雨情　第一巻",
+      "publisher": "未来社",
+      "firstPublishedAt": "1985（昭和60）年11月20日",
+      "inputEdition": "1985（昭和60）年11月20日第1版第1刷",
+      "proofreadEdition": "1985（昭和60）年11月20日第1版第1刷"
+    },
+    "author": "野口雨情",
+    "authors": [
+      {
+        "personId": "000286",
+        "name": "野口雨情",
+        "kana": "のぐちうじょう",
+        "roman": "Ujo Noguchi",
+        "role": "著者",
+        "birthDate": "1882-05-29",
+        "deathDate": "1945-01-27",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

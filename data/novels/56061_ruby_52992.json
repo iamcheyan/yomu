@@ -1260,5 +1260,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056061",
+    "title": "夏虫行燈",
+    "titleKana": "なつむしあんどん",
+    "sortKana": "なつむしあんとん",
+    "firstAppearance": "「婦人倶楽部　別冊付録」大日本雄弁会講談社、1938（昭和13）年8月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-03-07",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001562/card56061.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001562/files/56061_ruby_52992.zip",
+    "textFileId": "56061_ruby_52992",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001562/files/56061_53039.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "吉川英治全集・43　新・水滸傳（二）",
+      "publisher": "講談社",
+      "firstPublishedAt": "1967（昭和42）年6月20日",
+      "inputEdition": "1967（昭和42）年6月20日第1刷",
+      "proofreadEdition": "1967（昭和42）年6月20日第1刷"
+    },
+    "author": "吉川英治",
+    "authors": [
+      {
+        "personId": "001562",
+        "name": "吉川英治",
+        "kana": "よしかわえいじ",
+        "roman": "Eiji Yoshikawa",
+        "role": "著者",
+        "birthDate": "1892-08-11",
+        "deathDate": "1962-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

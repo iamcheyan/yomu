@@ -26,5 +26,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054490",
+    "title": "上方者の啖呵",
+    "titleKana": "かみがたもんのたんか",
+    "sortKana": "かみかたもんのたんか",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-12-01",
+    "updatedAt": "2017-11-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000815/card54490.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000815/files/54490_ruby_63184.zip",
+    "textFileId": "54490_ruby_63184",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000815/files/54490_63326.html",
+    "inputBy": "浦山敦子",
+    "proofreadBy": "岩下恵介",
+    "baseBook1": {
+      "title": "日本随筆紀行第一七巻　大阪｜和歌山　声はずむ水の都",
+      "publisher": "作品社",
+      "firstPublishedAt": "1987（昭和62）年1月10日",
+      "inputEdition": "1987（昭和62）年1月10日第1刷",
+      "proofreadEdition": "1987（昭和62）年1月10日第1刷"
+    },
+    "author": "村上浪六",
+    "authors": [
+      {
+        "personId": "000815",
+        "name": "村上浪六",
+        "kana": "むらかみなみろく",
+        "roman": "Namiroku Murakami",
+        "role": "著者",
+        "birthDate": "1865-11-01",
+        "deathDate": "1944-12-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

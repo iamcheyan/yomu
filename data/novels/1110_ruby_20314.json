@@ -34,5 +34,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001110",
+    "title": "鵜飼",
+    "titleKana": "うかい",
+    "sortKana": "うかい",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-10-06",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card1110.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/1110_ruby_20314.zip",
+    "textFileId": "1110_ruby_20314",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/1110_20315.html",
+    "inputBy": "とみ～ばあ",
+    "proofreadBy": "もりみつじゅんじ",
+    "baseBook1": {
+      "title": "日本の名随筆2　鳥",
+      "publisher": "作品社",
+      "firstPublishedAt": "1983（昭和58）年4月25日",
+      "inputEdition": "1987（昭和62）年8月10日第6刷"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

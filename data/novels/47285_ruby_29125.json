@@ -174,5 +174,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047285",
+    "title": "ニュー・ヨーク　『青春の自画像』より",
+    "titleKana": "ニュー・ヨーク　『せいしゅんのじがぞう』より",
+    "sortKana": "にゆうよおくせいしゆんのしかそうより",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-01-01",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001297/card47285.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001297/files/47285_ruby_29125.zip",
+    "textFileId": "47285_ruby_29125",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001297/files/47285_29126.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻31　留学",
+      "publisher": "作品社",
+      "firstPublishedAt": "1993（平成5）年9月25日",
+      "inputEdition": "1993（平成5）年9月25日第1刷",
+      "proofreadEdition": "1993（平成5）年9月25日第1刷"
+    },
+    "author": "前田河広一郎",
+    "authors": [
+      {
+        "personId": "001297",
+        "name": "前田河広一郎",
+        "kana": "まえだこうひろいちろう",
+        "roman": "Hiroichiro Maedako",
+        "role": "著者",
+        "birthDate": "1888-11-13",
+        "deathDate": "1957-12-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

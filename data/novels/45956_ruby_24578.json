@@ -446,5 +446,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045956",
+    "title": "暗夜の格闘",
+    "titleKana": "あんやのかくとう",
+    "sortKana": "あんやのかくとう",
+    "firstAppearance": "「子供の科学　二巻三～五号」1925（大正14）年3～5月号",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-12-18",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000262/card45956.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000262/files/45956_ruby_24578.zip",
+    "textFileId": "45956_ruby_24578",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000262/files/45956_24891.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "小酒井不木探偵小説選　〔論創ミステリ叢書8〕",
+      "publisher": "論創社",
+      "firstPublishedAt": "2004（平成16）年7月25日",
+      "inputEdition": "2004（平成16）年7月25日初版第1刷",
+      "proofreadEdition": "2004（平成16）年7月25日初版第1刷"
+    },
+    "author": "小酒井不木",
+    "authors": [
+      {
+        "personId": "000262",
+        "name": "小酒井不木",
+        "kana": "こざかいふぼく",
+        "roman": "Fuboku Kosakai",
+        "role": "著者",
+        "birthDate": "1890-10-08",
+        "deathDate": "1929-04-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

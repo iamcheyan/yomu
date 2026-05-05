@@ -25,14 +25,59 @@ cd android
 ./gradlew clean assembleDebug
 cd ..
 
+human_size() {
+    if command -v numfmt >/dev/null 2>&1; then
+        numfmt --to=iec --suffix=B --format="%.1f" "$1"
+    else
+        awk -v bytes="$1" 'BEGIN {
+            split("B KiB MiB GiB", unit, " ");
+            size = bytes;
+            idx = 1;
+            while (size >= 1024 && idx < 4) {
+                size /= 1024;
+                idx++;
+            }
+            printf "%.1f%s", size, unit[idx];
+        }'
+    fi
+}
+
 # 生成产物路径
 APK_SRC="android/app/build/outputs/apk/debug/app-debug.apk"
 APK_NAME="yomu-debug.apk"
+APK_DST="./build_output/$APK_NAME"
 mkdir -p build_output
-cp $APK_SRC "./build_output/$APK_NAME"
+cp "$APK_SRC" "$APK_DST"
+
+APK_SIZE_BYTES=$(stat -c%s "$APK_DST")
+ASSETS_SIZE=$(du -sh android/app/src/main/assets 2>/dev/null | awk '{print $1}')
+NOVELS_DIR_SIZE=$(du -sh android/app/src/main/assets/data/novels 2>/dev/null | awk '{print $1}')
+DICT_SIZE=$(du -sh android/app/src/main/assets/libs/dict 2>/dev/null | awk '{print $1}')
+CATALOG_SIZE=$(du -ch android/app/src/main/assets/data/aozora_catalog_preview.json android/app/src/main/assets/data/aozora_catalog_compact.json 2>/dev/null | awk '/total$/ {print $1}')
+NOVEL_COUNT="N/A"
+NOVEL_RAW_SIZE="N/A"
+EXPECTED_NOVEL_COUNT="N/A"
+
+if command -v python3 >/dev/null 2>&1 && [ -f data/books.json ]; then
+    EXPECTED_NOVEL_COUNT=$(python3 -c 'import json; print(len(json.load(open("data/books.json", encoding="utf-8"))))')
+fi
+
+if command -v unzip >/dev/null 2>&1; then
+    read -r NOVEL_COUNT NOVEL_RAW_BYTES < <(
+        unzip -l "$APK_DST" | awk '$4 ~ /^assets\/data\/novels\// { count++; size += $1 } END { print count + 0, size + 0 }'
+    )
+    NOVEL_RAW_SIZE=$(human_size "$NOVEL_RAW_BYTES")
+fi
 
 echo "--------------------------------------------------"
 echo "✅ 编译成功！"
+echo "📦 APK 体积: $(human_size "$APK_SIZE_BYTES")"
+echo "📚 APK 内小说: $NOVEL_COUNT 个，原始大小 $NOVEL_RAW_SIZE（精选书目 $EXPECTED_NOVEL_COUNT 个）"
+echo "🧩 assets 目录: ${ASSETS_SIZE:-N/A}（小说 ${NOVELS_DIR_SIZE:-N/A} / 词典 ${DICT_SIZE:-N/A} / 目录 ${CATALOG_SIZE:-N/A}）"
+
+if [ "$EXPECTED_NOVEL_COUNT" != "N/A" ] && [ "$NOVEL_COUNT" != "N/A" ] && [ "$NOVEL_COUNT" != "$EXPECTED_NOVEL_COUNT" ]; then
+    echo "⚠️ 警告: APK 内小说数量与 data/books.json 不一致，请检查 android/app/build.gradle 的资源同步配置。"
+fi
 
 if [ "$DO_SYNC" = true ]; then
     echo ">>> 正在远程推送到 $REMOTE_HOST ..."

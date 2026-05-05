@@ -268,5 +268,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002563",
+    "title": "妄動",
+    "titleKana": "もうどう",
+    "sortKana": "もうとう",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-02-12",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000320/card2563.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000320/files/2563_ruby_8050.zip",
+    "textFileId": "2563_ruby_8050",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000320/files/2563_8614.html",
+    "inputBy": "武田秀男",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "三田文学",
+      "publisher": "三田文学会",
+      "firstPublishedAt": "1913（大正2）年5月号",
+      "inputEdition": "1913（大正2）年5月号"
+    },
+    "author": "与謝野寛",
+    "authors": [
+      {
+        "personId": "000320",
+        "name": "与謝野寛",
+        "kana": "よさのひろし",
+        "roman": "Hiroshi Yosano",
+        "role": "著者",
+        "birthDate": "1873-02-26",
+        "deathDate": "1935-03-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -538,5 +538,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042377",
+    "title": "歯車",
+    "titleKana": "はぐるま",
+    "sortKana": "はくるま",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-04-09",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000879/card42377.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000879/files/42377_ruby_34744.zip",
+    "textFileId": "42377_ruby_34744",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000879/files/42377_34745.html",
+    "inputBy": "蒋龍",
+    "proofreadBy": "田中敬三",
+    "baseBook1": {
+      "title": "河童・或阿呆の一生",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1968（昭和43）年12月15日",
+      "inputEdition": "1987（昭和62）年11月5日41刷",
+      "proofreadEdition": "1975（昭和50）年7月30日13刷"
+    },
+    "author": "芥川竜之介",
+    "authors": [
+      {
+        "personId": "000879",
+        "name": "芥川竜之介",
+        "kana": "あくたがわりゅうのすけ",
+        "roman": "Ryunosuke Akutagawa",
+        "role": "著者",
+        "birthDate": "1892-03-01",
+        "deathDate": "1927-07-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

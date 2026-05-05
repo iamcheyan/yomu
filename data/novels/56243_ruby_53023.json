@@ -72,5 +72,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056243",
+    "title": "妖氛録",
+    "titleKana": "ようふんろく",
+    "sortKana": "ようふんろく",
+    "firstAppearance": "「中島敦全集　第四巻」文治堂書店、1959（昭和34）年6月刊",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-03-28",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000119/card56243.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000119/files/56243_ruby_53023.zip",
+    "textFileId": "56243_ruby_53023",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000119/files/56243_53070.html",
+    "inputBy": "小池健太",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "中島敦全集3",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1993（平成5）年5月24日",
+      "inputEdition": "1993（平成5）年5月24日第1刷",
+      "proofreadEdition": "2003（平成15）年3月20日第5刷"
+    },
+    "author": "中島敦",
+    "authors": [
+      {
+        "personId": "000119",
+        "name": "中島敦",
+        "kana": "なかじまあつし",
+        "roman": "Atsushi Nakajima",
+        "role": "著者",
+        "birthDate": "1909-05-05",
+        "deathDate": "1942-12-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

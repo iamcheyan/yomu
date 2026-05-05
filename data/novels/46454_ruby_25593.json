@@ -126,5 +126,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046454",
+    "title": "社会的分業論",
+    "titleKana": "しゃかいてきぶんぎょうろん",
+    "sortKana": "しやかいてきふんきようろん",
+    "firstAppearance": "「ディナミック」1931（昭和6）年3月1日",
+    "ndc": "NDC 309",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-01-11",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001170/card46454.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001170/files/46454_ruby_25593.zip",
+    "textFileId": "46454_ruby_25593",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001170/files/46454_25645.html",
+    "inputBy": "田中敬三",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "石川三四郎著作集第三巻",
+      "publisher": "青土社",
+      "firstPublishedAt": "1978（昭和53）年8月10日",
+      "inputEdition": "1978（昭和53）年8月10日",
+      "proofreadEdition": "1978（昭和53）年8月10日"
+    },
+    "author": "石川三四郎",
+    "authors": [
+      {
+        "personId": "001170",
+        "name": "石川三四郎",
+        "kana": "いしかわさんしろう",
+        "roman": "Sanshiro Ishikawa",
+        "role": "著者",
+        "birthDate": "1876-05-23",
+        "deathDate": "1956-11-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

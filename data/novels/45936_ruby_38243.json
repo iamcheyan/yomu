@@ -214,5 +214,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045936",
+    "title": "屋根裏の犯人",
+    "titleKana": "やねうらのはんにん",
+    "sortKana": "やねうらのはんにん",
+    "subtitle": "――『鼠の文づかい』より――",
+    "subtitleKana": "――『ねずみのふみづかい』より――",
+    "firstAppearance": "「キング　第二九巻第二号」1953（昭和28）年1月15日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-06-11",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card45936.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/45936_ruby_38243.zip",
+    "textFileId": "45936_ruby_38243",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/45936_39308.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "坂口安吾全集　13",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年2月20日",
+      "inputEdition": "1999（平成11）年2月20日初版第1刷",
+      "proofreadEdition": "1999（平成11）年2月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

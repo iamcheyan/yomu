@@ -44,5 +44,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002517",
+    "title": "水汲み",
+    "titleKana": "みずくみ",
+    "sortKana": "みすくみ",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-09-12",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000280/card2517.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000280/files/2517_ruby_21316.zip",
+    "textFileId": "2517_ruby_21316",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000280/files/2517_21317.html",
+    "inputBy": "とみ～ばあ",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆33　水",
+      "publisher": "作品社",
+      "firstPublishedAt": "1985（昭和60）年7月25日",
+      "inputEdition": "1987（昭和62）年8月10日第3刷"
+    },
+    "author": "徳冨蘆花",
+    "authors": [
+      {
+        "personId": "000280",
+        "name": "徳冨蘆花",
+        "kana": "とくとみろか",
+        "roman": "Roka Tokutomi",
+        "role": "著者",
+        "birthDate": "1868-12-08",
+        "deathDate": "1927-09-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -2826,5 +2826,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056874",
+    "title": "蓼喰う虫",
+    "titleKana": "たでくうむし",
+    "sortKana": "たてくうむし",
+    "firstAppearance": "「大阪毎日新聞　夕刊」1928（昭和3）年12月3日～1929（昭和4）6月17日<br>「東京日日新聞　夕刊」1928（昭和3）年12月3日～1929（昭和4）6月18日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-07-24",
+    "updatedAt": "2019-06-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001383/card56874.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001383/files/56874_ruby_68455.zip",
+    "textFileId": "56874_ruby_68455",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001383/files/56874_68504.html",
+    "inputBy": "kompass",
+    "proofreadBy": "しんじ",
+    "baseBook1": {
+      "title": "蓼喰う虫",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1951（昭和26）年10月31日",
+      "inputEdition": "1987（昭和62）年11月30日第53刷",
+      "proofreadEdition": "1987（昭和62）年11月30日第53刷"
+    },
+    "author": "谷崎潤一郎",
+    "authors": [
+      {
+        "personId": "001383",
+        "name": "谷崎潤一郎",
+        "kana": "たにざきじゅんいちろう",
+        "roman": "Jun'ichiro Tanizaki",
+        "role": "著者",
+        "birthDate": "1886-07-24",
+        "deathDate": "1965-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

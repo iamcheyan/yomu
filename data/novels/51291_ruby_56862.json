@@ -164,5 +164,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051291",
+    "title": "虎",
+    "titleKana": "とら",
+    "sortKana": "とら",
+    "firstAppearance": "「文章世界　第十三巻第五号」1918（大正7）年5月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-07-22",
+    "updatedAt": "2015-06-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001151/card51291.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001151/files/51291_ruby_56862.zip",
+    "textFileId": "51291_ruby_56862",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001151/files/51291_56910.html",
+    "inputBy": "Ｈ．ＹＡＭ",
+    "proofreadBy": "荒木恵一",
+    "baseBook1": {
+      "title": "編年体大正文学全集　第七巻　大正七年",
+      "publisher": "ゆまに書房",
+      "firstPublishedAt": "2001（平成13）年5月25日",
+      "inputEdition": "2001（平成13）年5月25日第1版第1刷",
+      "proofreadEdition": "2001（平成13）年5月25日第1版第1刷"
+    },
+    "author": "久米正雄",
+    "authors": [
+      {
+        "personId": "001151",
+        "name": "久米正雄",
+        "kana": "くめまさお",
+        "roman": "Masao Kume",
+        "role": "著者",
+        "birthDate": "1891-11-23",
+        "deathDate": "1952-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -1300,5 +1300,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045646",
+    "title": "世の中へ",
+    "titleKana": "よのなかへ",
+    "sortKana": "よのなかへ",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-11-13",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000247/card45646.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000247/files/45646_ruby_48569.zip",
+    "textFileId": "45646_ruby_48569",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000247/files/45646_48982.html",
+    "inputBy": "kompass",
+    "proofreadBy": "大沢たかお",
+    "baseBook1": {
+      "title": "現代日本文学全集　34",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1955（昭和30）年9月5日",
+      "inputEdition": "1955（昭和30）年9月5日",
+      "proofreadEdition": "1955（昭和30）年9月5日"
+    },
+    "author": "加能作次郎",
+    "authors": [
+      {
+        "personId": "000247",
+        "name": "加能作次郎",
+        "kana": "かのうさくじろう",
+        "roman": "Sakujiro Kano",
+        "role": "著者",
+        "birthDate": "1885-01-10",
+        "deathDate": "1941-08-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

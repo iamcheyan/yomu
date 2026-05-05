@@ -248,5 +248,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059003",
+    "title": "母の死",
+    "titleKana": "ははのし",
+    "sortKana": "ははのし",
+    "firstAppearance": "「思想　一五一」1934年（昭和9）年12月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-05-22",
+    "updatedAt": "2018-04-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001799/card59003.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001799/files/59003_ruby_64574.zip",
+    "textFileId": "59003_ruby_64574",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001799/files/59003_64626.html",
+    "inputBy": "呑天",
+    "proofreadBy": "小山優子",
+    "baseBook1": {
+      "title": "中勘助随筆集",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1985（昭和60）年6月17日",
+      "inputEdition": "1985（昭和60）年6月17日第1刷",
+      "proofreadEdition": "1985（昭和60）年6月17日第1刷"
+    },
+    "author": "中勘助",
+    "authors": [
+      {
+        "personId": "001799",
+        "name": "中勘助",
+        "kana": "なかかんすけ",
+        "roman": "Kansuke Naka",
+        "role": "著者",
+        "birthDate": "1885-05-22",
+        "deathDate": "1965-05-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

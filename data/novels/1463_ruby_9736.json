@@ -86,5 +86,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001463",
+    "title": "槍ヶ岳第三回登山",
+    "titleKana": "やりがたけだいさんかいとざん",
+    "sortKana": "やりかたけたいさんかいとさん",
+    "ndc": "NDC 291 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-06-05",
+    "updatedAt": "2016-01-19",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000027/card1463.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000027/files/1463_ruby_9736.zip",
+    "textFileId": "1463_ruby_9736",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000027/files/1463_10255.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "日本の名随筆10　山",
+      "publisher": "作品社",
+      "firstPublishedAt": "1983（昭和58）年6月25日",
+      "inputEdition": "1998（平成10）年8月10日第26刷"
+    },
+    "author": "小島烏水",
+    "authors": [
+      {
+        "personId": "000027",
+        "name": "小島烏水",
+        "kana": "こじまうすい",
+        "roman": "Usui Kojima",
+        "role": "著者",
+        "birthDate": "1873-12-29",
+        "deathDate": "1948-12-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

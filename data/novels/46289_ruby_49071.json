@@ -1282,5 +1282,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046289",
+    "title": "二千六百年史抄",
+    "titleKana": "にせんろっぴゃくねんししょう",
+    "sortKana": "にせんろつひやくねんししよう",
+    "ndc": "NDC 210",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-02-05",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000083/card46289.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000083/files/46289_ruby_49071.zip",
+    "textFileId": "46289_ruby_49071",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000083/files/46289_49775.html",
+    "inputBy": "kamille",
+    "proofreadBy": "成宮佐知子",
+    "baseBook1": {
+      "title": "菊池寛全集　第十八巻",
+      "publisher": "高松市菊池寛記念館、文藝春秋",
+      "firstPublishedAt": "1995（平成7）年4月15日",
+      "inputEdition": "1995（平成7）年4月15日",
+      "proofreadEdition": "1995（平成7）年4月15日"
+    },
+    "author": "菊池寛",
+    "authors": [
+      {
+        "personId": "000083",
+        "name": "菊池寛",
+        "kana": "きくちかん",
+        "roman": "Kan Kikuchi",
+        "role": "著者",
+        "birthDate": "1888-12-26",
+        "deathDate": "1948-03-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

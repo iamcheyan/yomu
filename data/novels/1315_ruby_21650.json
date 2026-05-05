@@ -5638,5 +5638,52 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001315",
+    "title": "小熊秀雄全集-13",
+    "titleKana": "おぐまひでおぜんしゅう-13",
+    "sortKana": "おくまひておせんしゆう",
+    "subtitle": "詩集（12）その他の詩篇",
+    "subtitleKana": "ししゅう（12）そのたのしへん",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-04-01",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000124/card1315.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000124/files/1315_ruby_21650.zip",
+    "textFileId": "1315_ruby_21650",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000124/files/1315_21651.html",
+    "inputBy": "八巻美恵",
+    "proofreadBy": "浜野智",
+    "baseBook1": {
+      "title": "新版・小熊秀雄全集第五巻",
+      "publisher": "創樹社",
+      "firstPublishedAt": "1991（平成3）年11月30日",
+      "inputEdition": "1991（平成3）年11月30日第1刷",
+      "proofreadEdition": "1991（平成3）年11月30日第1刷"
+    },
+    "baseBook2": {
+      "title": "新版・小熊秀雄全集第四巻",
+      "publisher": "創樹社",
+      "firstPublishedAt": "1991（平成3）年4月10日",
+      "inputEdition": "1991（平成3）年4月10日第1刷",
+      "proofreadEdition": "1991（平成3）年4月10日第1刷"
+    },
+    "author": "小熊秀雄",
+    "authors": [
+      {
+        "personId": "000124",
+        "name": "小熊秀雄",
+        "kana": "おぐまひでお",
+        "roman": "Hideo Oguma",
+        "role": "著者",
+        "birthDate": "1901-09-09",
+        "deathDate": "1940-11-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -246,5 +246,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001715",
+    "title": "巌流島",
+    "titleKana": "がんりゅうじま",
+    "sortKana": "かんりゆうしま",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-05-12",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000216/card1715.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000216/files/1715_ruby_2640.zip",
+    "textFileId": "1715_ruby_2640",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000216/files/1715_14596.html",
+    "inputBy": "atom",
+    "proofreadBy": "柳沢成雄",
+    "baseBook1": {
+      "title": "仇討二十一話",
+      "publisher": "大衆文学館、講談社",
+      "firstPublishedAt": "1995（平成7）年3月17日",
+      "inputEdition": "1995（平成7）年5月20日2刷",
+      "proofreadEdition": "1995（平成7）年3月17日1刷"
+    },
+    "author": "直木三十五",
+    "authors": [
+      {
+        "personId": "000216",
+        "name": "直木三十五",
+        "kana": "なおきさんじゅうご",
+        "roman": "Sanjugo Naoki",
+        "role": "著者",
+        "birthDate": "1891-02-12",
+        "deathDate": "1934-02-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

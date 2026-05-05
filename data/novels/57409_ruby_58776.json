@@ -64,5 +64,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057409",
+    "title": "山の宿海の宿",
+    "titleKana": "やまのやどうみのやど",
+    "sortKana": "やまのやとうみのやと",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-05-07",
+    "updatedAt": "2016-03-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001861/card57409.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001861/files/57409_ruby_58776.zip",
+    "textFileId": "57409_ruby_58776",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001861/files/57409_58819.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "日本の名随筆67　宿",
+      "publisher": "作品社",
+      "firstPublishedAt": "1988（昭和63）年5月25日",
+      "inputEdition": "1988（昭和63）年5月25日第1刷",
+      "proofreadEdition": "1988（昭和63）年5月25日第1刷"
+    },
+    "author": "河井酔茗",
+    "authors": [
+      {
+        "personId": "001861",
+        "name": "河井酔茗",
+        "kana": "かわいすいめい",
+        "roman": "Suimei Kawai",
+        "role": "著者",
+        "birthDate": "1874-05-07",
+        "deathDate": "1965-01-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

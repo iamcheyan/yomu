@@ -954,5 +954,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053539",
+    "title": "天満宮",
+    "titleKana": "てんまんぐう",
+    "sortKana": "てんまんくう",
+    "firstAppearance": "「中央公論」1914（大正3）年9月",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-07-19",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000248/card53539.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000248/files/53539_ruby_47858.zip",
+    "textFileId": "53539_ruby_47858",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000248/files/53539_47967.html",
+    "inputBy": "いとうたかし",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "現代日本文學全集　53　齋藤緑雨　内田魯庵　木下尚江　上司小劍集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1957（昭和32）年10月8日",
+      "inputEdition": "1969（昭和32）年10月8日",
+      "proofreadEdition": "1969（昭和32）年10月8日"
+    },
+    "author": "上司小剣",
+    "authors": [
+      {
+        "personId": "000248",
+        "name": "上司小剣",
+        "kana": "かみつかさしょうけん",
+        "roman": "Shoken Kamitsukasa",
+        "role": "著者",
+        "birthDate": "1874-12-15",
+        "deathDate": "1947-09-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

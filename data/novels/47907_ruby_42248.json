@@ -80,5 +80,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047907",
+    "title": "黒髪山",
+    "titleKana": "くろかみやま",
+    "sortKana": "くろかみやま",
+    "firstAppearance": "「改造　第二十三巻第十三号」1941（昭和16）年7月号",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-04-12",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001030/card47907.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001030/files/47907_ruby_42248.zip",
+    "textFileId": "47907_ruby_42248",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001030/files/47907_42527.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "堀辰雄作品集第五卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1982（昭和57）年9月30日",
+      "inputEdition": "1982（昭和57）年9月30日初版第1刷",
+      "proofreadEdition": "1982（昭和57）年9月30日初版第1刷"
+    },
+    "author": "堀辰雄",
+    "authors": [
+      {
+        "personId": "001030",
+        "name": "堀辰雄",
+        "kana": "ほりたつお",
+        "roman": "Tatsuo Hori",
+        "role": "著者",
+        "birthDate": "1904-12-28",
+        "deathDate": "1953-05-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

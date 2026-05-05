@@ -148,5 +148,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047688",
+    "title": "春日若宮御祭の研究",
+    "titleKana": "かすがわかみやおんまつりのけんきゅう",
+    "sortKana": "かすかわかみやおんまつりのけんきゆう",
+    "firstAppearance": "「能楽画報　第三十五巻第四号」1940（昭和15）年4月",
+    "ndc": "NDC 386 773",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-03-26",
+    "updatedAt": "2016-04-14",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card47688.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/47688_ruby_42224.zip",
+    "textFileId": "47688_ruby_42224",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/47688_42280.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "しだひろし",
+    "baseBook1": {
+      "title": "折口信夫全集　21",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1996（平成8）年11月10日",
+      "inputEdition": "1996（平成8）年11月10日初版",
+      "proofreadEdition": "1996（平成8）年11月10日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

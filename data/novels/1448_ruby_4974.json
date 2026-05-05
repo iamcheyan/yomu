@@ -44,5 +44,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001448",
+    "title": "侠客の種類",
+    "titleKana": "きょうかくのしゅるい",
+    "sortKana": "きようかくのしゆるい",
+    "ndc": "NDC 384",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-12-12",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000051/card1448.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000051/files/1448_ruby_4974.zip",
+    "textFileId": "1448_ruby_4974",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000051/files/1448_47840.html",
+    "inputBy": "加藤恭子",
+    "proofreadBy": "浦田伴俊",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻94　江戸",
+      "publisher": "作品社",
+      "firstPublishedAt": "1998（平成10）年12月25日"
+    },
+    "author": "幸田露伴",
+    "authors": [
+      {
+        "personId": "000051",
+        "name": "幸田露伴",
+        "kana": "こうだろはん",
+        "roman": "Rohan Koda",
+        "role": "著者",
+        "birthDate": "1867-08-20",
+        "deathDate": "1947-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

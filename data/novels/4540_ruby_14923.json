@@ -38,5 +38,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004540",
+    "title": "時代色",
+    "titleKana": "じだいしょく",
+    "sortKana": "したいしよく",
+    "subtitle": "――歪んだポーズ",
+    "subtitleKana": "――ゆがんだポーズ",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-04-27",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000076/card4540.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000076/files/4540_ruby_14923.zip",
+    "textFileId": "4540_ruby_14923",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000076/files/4540_15435.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "愛よ、愛",
+      "publisher": "パサージュ叢書、メタローグ",
+      "firstPublishedAt": "1999（平成11）年5月8日",
+      "inputEdition": "1999（平成11）年5月8日第1刷",
+      "proofreadEdition": "1999（平成11）年5月8日第1刷"
+    },
+    "author": "岡本かの子",
+    "authors": [
+      {
+        "personId": "000076",
+        "name": "岡本かの子",
+        "kana": "おかもとかのこ",
+        "roman": "Kanoko Okamoto",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1939-02-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -44,5 +44,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058578",
+    "title": "最初の訪問",
+    "titleKana": "さいしょのほうもん",
+    "sortKana": "さいしよのほうもん",
+    "firstAppearance": "「浪漫古典　第一巻第二号」昭和書房、1934（昭和9）年5月1日",
+    "ndc": "NDC 910",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-03-01",
+    "updatedAt": "2019-02-22",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001763/card58578.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001763/files/58578_ruby_67365.zip",
+    "textFileId": "58578_ruby_67365",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001763/files/58578_67314.html",
+    "inputBy": "佐伯伊織",
+    "proofreadBy": "きりんの手紙",
+    "baseBook1": {
+      "title": "わが龍之介像",
+      "publisher": "有信堂",
+      "firstPublishedAt": "1959（昭和34）年9月15日",
+      "inputEdition": "1960（昭和35）年6月15日第2刷",
+      "proofreadEdition": "1959（昭和34）年9月15日"
+    },
+    "author": "佐藤春夫",
+    "authors": [
+      {
+        "personId": "001763",
+        "name": "佐藤春夫",
+        "kana": "さとうはるお",
+        "roman": "Haruo Sato",
+        "role": "著者",
+        "birthDate": "1892-04-09",
+        "deathDate": "1964-05-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -210,5 +210,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052771",
+    "title": "エハガキの激賞文",
+    "titleKana": "エハガキのげきしょうぶん",
+    "sortKana": "えはかきのけきしようふん",
+    "firstAppearance": "「時事新報　第一六五五六、一六五五八～一六五六〇号」時事新報社、1929（昭和4）年7月19、21～23日",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-08-17",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000183/card52771.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000183/files/52771_ruby_43552.zip",
+    "textFileId": "52771_ruby_43552",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000183/files/52771_44442.html",
+    "inputBy": "宮元淳一",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "牧野信一全集第三巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2002（平成14）年5月20日",
+      "inputEdition": "2002（平成14）年5月20日初版第1刷"
+    },
+    "author": "牧野信一",
+    "authors": [
+      {
+        "personId": "000183",
+        "name": "牧野信一",
+        "kana": "まきのしんいち",
+        "roman": "Shin'ichi Makino",
+        "role": "著者",
+        "birthDate": "1896-11-12",
+        "deathDate": "1936-03-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

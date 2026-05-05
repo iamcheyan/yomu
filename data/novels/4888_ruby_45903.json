@@ -56,5 +56,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004888",
+    "title": "新感覚論",
+    "titleKana": "しんかんかくろん",
+    "sortKana": "しんかんかくろん",
+    "subtitle": "感覚活動と感覚的作物に対する非難への逆説",
+    "subtitleKana": "かんかくかつどうとかんかくてきさくもつにたいするひなんへのぎゃくせつ",
+    "ndc": "NDC 901",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-02-17",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card4888.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/4888_ruby_45903.zip",
+    "textFileId": "4888_ruby_45903",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/4888_46710.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "米田",
+    "baseBook1": {
+      "title": "愛の挨拶・馬車・純粋小説論",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1993（平成5）年5月10日",
+      "inputEdition": "1999（平成11）年5月12日第3刷",
+      "proofreadEdition": "1997（平成9）年4月1日第1刷"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

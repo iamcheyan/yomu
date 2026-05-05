@@ -42,5 +42,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046515",
+    "title": "書籍の風俗",
+    "titleKana": "しょせきのふうぞく",
+    "sortKana": "しよせきのふうそく",
+    "ndc": "NDC 022 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-03-01",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001246/card46515.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001246/files/46515_ruby_24694.zip",
+    "textFileId": "46515_ruby_24694",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001246/files/46515_25783.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻87　装丁",
+      "publisher": "作品社",
+      "firstPublishedAt": "1998（平成10）年5月25日",
+      "inputEdition": "1998（平成10）年5月25日第1刷"
+    },
+    "author": "恩地孝四郎",
+    "authors": [
+      {
+        "personId": "001246",
+        "name": "恩地孝四郎",
+        "kana": "おんちこうしろう",
+        "roman": "Koshiro Onchi",
+        "role": "著者",
+        "birthDate": "1891-07-02",
+        "deathDate": "1955-06-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -780,5 +780,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003655",
+    "title": "第二菎蒻本",
+    "titleKana": "だいにこんにゃくぼん",
+    "sortKana": "たいにこんにやくほん",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-03-28",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card3655.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/3655_ruby_26024.zip",
+    "textFileId": "3655_ruby_26024",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/3655_26093.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "高柳典子",
+    "baseBook1": {
+      "title": "泉鏡花集成6",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1996（平成8）年3月21日",
+      "inputEdition": "1996（平成8）年3月21日第1刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

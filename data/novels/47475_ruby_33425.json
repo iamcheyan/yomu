@@ -194,5 +194,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047475",
+    "title": "偽刑事",
+    "titleKana": "にせけいじ",
+    "sortKana": "にせけいし",
+    "firstAppearance": "「新青年」1926（大正15）年2月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-02-23",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001306/card47475.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001306/files/47475_ruby_33425.zip",
+    "textFileId": "47475_ruby_33425",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001306/files/47475_34292.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "「新青年」傑作選　幻の探偵雑誌10",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2002（平成14）年2月20日",
+      "inputEdition": "2002（平成14）年2月20日初版1刷",
+      "proofreadEdition": "2002（平成14）年2月20日初版1刷"
+    },
+    "author": "川田功",
+    "authors": [
+      {
+        "personId": "001306",
+        "name": "川田功",
+        "kana": "かわだいさお",
+        "roman": "Isao Kawada",
+        "role": "著者",
+        "birthDate": "1882",
+        "deathDate": "1931",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -104,5 +104,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049076",
+    "title": "プロレタリア童謡の活用に関する覚書",
+    "titleKana": "プロレタリアどうようのかつようにかんするおぼえがき",
+    "sortKana": "ふろれたりあとうようのかつようにかんするおほえかき",
+    "subtitle": "――児童の指導者・保護者達に――",
+    "subtitleKana": "――じどうのしどうしゃ・ほごしゃたちに――",
+    "firstAppearance": "「童話運動　第一卷第十二號」",
+    "ndc": "NDC 309",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-02-24",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001175/card49076.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001175/files/49076_ruby_41612.zip",
+    "textFileId": "49076_ruby_41612",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001175/files/49076_42031.html",
+    "inputBy": "蒋龍",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "赤い旗",
+      "publisher": "名著復刻　日本児童文学館　25、ほるぷ出版",
+      "firstPublishedAt": "1971（昭和46）年5月1日",
+      "inputEdition": "1971（昭和46）年5月1日"
+    },
+    "author": "槙本楠郎",
+    "authors": [
+      {
+        "personId": "001175",
+        "name": "槙本楠郎",
+        "kana": "まきもとくすろう",
+        "roman": "Kusuro Makimoto",
+        "role": "著者",
+        "birthDate": "1898-08-01",
+        "deathDate": "1956-09-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

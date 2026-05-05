@@ -62,5 +62,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049176",
+    "title": "万葉の手古奈とうなひ処女",
+    "titleKana": "まんようのてこなとうないおとめ",
+    "sortKana": "まんようのてこなとうないおとめ",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-05-25",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000606/card49176.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000606/files/49176_ruby_34657.zip",
+    "textFileId": "49176_ruby_34657",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000606/files/49176_35059.html",
+    "inputBy": "Ｈ．ＹＡＭ",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "杉田久女全集第二巻",
+      "publisher": "立風書房",
+      "firstPublishedAt": "1989（平成元）年8月1日",
+      "inputEdition": "1989（平成元）年8月1日",
+      "proofreadEdition": "1989（平成元）年8月1日"
+    },
+    "author": "杉田久女",
+    "authors": [
+      {
+        "personId": "000606",
+        "name": "杉田久女",
+        "kana": "すぎたひさじょ",
+        "roman": "Hisajo Sugita",
+        "role": "著者",
+        "birthDate": "1890-05-30",
+        "deathDate": "1946-01-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

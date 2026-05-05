@@ -2224,5 +2224,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001577",
+    "title": "正義と微笑",
+    "titleKana": "せいぎとびしょう",
+    "sortKana": "せいきとひしよう",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-02-04",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card1577.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/1577_ruby_8221.zip",
+    "textFileId": "1577_ruby_8221",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/1577_8581.html",
+    "inputBy": "SAME SIDE",
+    "proofreadBy": "細渕紀子",
+    "baseBook1": {
+      "title": "パンドラの匣",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1973（昭和48）年10月20日",
+      "inputEdition": "1997（平成9）年12月20日46刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

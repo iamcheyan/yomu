@@ -36,5 +36,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052197",
+    "title": "鰯",
+    "titleKana": "いわし",
+    "sortKana": "いわし",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-01-03",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001534/card52197.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001534/files/52197_ruby_46204.zip",
+    "textFileId": "52197_ruby_46204",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001534/files/52197_46248.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆32　魚",
+      "publisher": "作品社",
+      "firstPublishedAt": "1985（昭和60）年6月25日",
+      "inputEdition": "1999（平成11）年2月25日第15刷",
+      "proofreadEdition": "1999（平成11）年2月25日第15刷"
+    },
+    "author": "岩本素白",
+    "authors": [
+      {
+        "personId": "001534",
+        "name": "岩本素白",
+        "kana": "いわもとそはく",
+        "roman": "Sohaku Iwamoto",
+        "role": "著者",
+        "birthDate": "1883-08-17",
+        "deathDate": "1961-10-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

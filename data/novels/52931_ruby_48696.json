@@ -894,5 +894,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052931",
+    "title": "日本改造法案大綱",
+    "titleKana": "にほんかいぞうほうあんたいこう",
+    "sortKana": "にほんかいそうほうあんたいこう",
+    "firstAppearance": "「日本改造法案大綱」1923（大正12）年5月9日",
+    "ndc": "NDC 311",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-11-10",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000089/card52931.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000089/files/52931_ruby_48696.zip",
+    "textFileId": "52931_ruby_48696",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000089/files/52931_49104.html",
+    "inputBy": "iwaji",
+    "proofreadBy": "木浦",
+    "baseBook1": {
+      "title": "北一輝著作集　Ⅱ",
+      "publisher": "みすず書房",
+      "firstPublishedAt": "1959（昭和34）年7月10日",
+      "inputEdition": "1972（昭和47）年8月30日第9刷",
+      "proofreadEdition": "1993（平成5）年10月10日第14刷"
+    },
+    "author": "北一輝",
+    "authors": [
+      {
+        "personId": "000089",
+        "name": "北一輝",
+        "kana": "きたいっき",
+        "roman": "Ikki Kita",
+        "role": "著者",
+        "birthDate": "1883-04-03",
+        "deathDate": "1937-08-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

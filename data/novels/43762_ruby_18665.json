@@ -56,5 +56,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043762",
+    "title": "成層圏飛行と私のメモ",
+    "titleKana": "せいそうけんひこうとわたしのメモ",
+    "sortKana": "せいそうけんひこうとわたしのめも",
+    "firstAppearance": "「航空朝日」1941（昭和16）年6月号",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-07-25",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card43762.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/43762_ruby_18665.zip",
+    "textFileId": "43762_ruby_18665",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/43762_18748.html",
+    "inputBy": "田中哲郎",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "海野十三全集　別巻1　評論・ノンフィクション",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1991（平成3）年10月15日",
+      "inputEdition": "1991（平成3）年10月15日第1版第1刷",
+      "proofreadEdition": "1991（平成3）年10月15日第1版第1刷"
+    },
+    "author": "海野十三",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

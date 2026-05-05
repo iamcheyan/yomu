@@ -674,5 +674,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058860",
+    "title": "川端茅舎句集",
+    "titleKana": "かわばたぼうしゃくしゅう",
+    "sortKana": "かわはたほうしやくしゆう",
+    "subtitle": "01 序",
+    "subtitleKana": "01 じょ",
+    "ndc": "NDC 911 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-07-17",
+    "updatedAt": "2018-06-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001310/card58860.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001310/files/58860_txt_65170.zip",
+    "textFileId": "58860_txt_65170",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001310/files/58860_65213.html",
+    "inputBy": "kompass",
+    "proofreadBy": "鴨川佳一郎",
+    "baseBook1": {
+      "title": "現代日本文學大系　95　現代句集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1973（昭和48）年9月25日",
+      "inputEdition": "1977（昭和52）年5月20日初版第5刷",
+      "proofreadEdition": "1979（昭和54）年8月30日初版第8刷"
+    },
+    "author": "高浜虚子",
+    "authors": [
+      {
+        "personId": "001310",
+        "name": "高浜虚子",
+        "kana": "たかはまきょし",
+        "roman": "Kyoshi Takahama",
+        "role": "著者",
+        "birthDate": "1874-02-22",
+        "deathDate": "1959-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

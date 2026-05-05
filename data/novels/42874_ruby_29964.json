@@ -132,5 +132,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042874",
+    "title": "推理小説について",
+    "titleKana": "すいりしょうせつについて",
+    "sortKana": "すいりしようせつについて",
+    "firstAppearance": "「東京新聞　第一七八一号、一七八二号」1947（昭和22）年8月25日、26日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-06-04",
+    "updatedAt": "2016-04-15",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card42874.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/42874_ruby_29964.zip",
+    "textFileId": "42874_ruby_29964",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/42874_31420.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "藤原朔也",
+    "baseBook1": {
+      "title": "坂口安吾全集　05",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1998（平成10）年6月20日",
+      "inputEdition": "1998（平成10）年6月20日初版第1刷",
+      "proofreadEdition": "1998（平成10）年6月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -34,5 +34,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046501",
+    "title": "木彫ウソを作った時",
+    "titleKana": "きぼりウソをつくったとき",
+    "sortKana": "きほりうそをつくつたとき",
+    "ndc": "NDC 713 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-01-14",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001168/card46501.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001168/files/46501_ruby_25567.zip",
+    "textFileId": "46501_ruby_25567",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001168/files/46501_25619.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "日本の名随筆2　鳥",
+      "publisher": "作品社",
+      "firstPublishedAt": "1983（昭和58）年4月25日",
+      "inputEdition": "1995（平成7）年10月30日第18刷"
+    },
+    "author": "高村光太郎",
+    "authors": [
+      {
+        "personId": "001168",
+        "name": "高村光太郎",
+        "kana": "たかむらこうたろう",
+        "roman": "Kotaro Takamura",
+        "role": "著者",
+        "birthDate": "1883-03-13",
+        "deathDate": "1956-04-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

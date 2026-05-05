@@ -280,5 +280,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047407",
+    "title": "火つけ彦七",
+    "titleKana": "ひつけひこしち",
+    "sortKana": "ひつけひこしち",
+    "firstAppearance": "「改造　第三巻第八号」1921（大正10）年7月15日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-07-23",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000416/card47407.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000416/files/47407_ruby_50569.zip",
+    "textFileId": "47407_ruby_50569",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000416/files/47407_50759.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "定本　伊藤野枝全集　第一巻　創作",
+      "publisher": "學藝書林",
+      "firstPublishedAt": "2000（平成12）年3月15日",
+      "inputEdition": "2000（平成12）年3月15日初版",
+      "proofreadEdition": "2000（平成12）年3月15日初版"
+    },
+    "author": "伊藤野枝",
+    "authors": [
+      {
+        "personId": "000416",
+        "name": "伊藤野枝",
+        "kana": "いとうのえ",
+        "roman": "Noe Ito",
+        "role": "著者",
+        "birthDate": "1895-01-21",
+        "deathDate": "1923-09-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

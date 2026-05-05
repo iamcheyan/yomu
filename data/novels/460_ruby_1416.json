@@ -152,5 +152,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000460",
+    "title": "インドラの網",
+    "titleKana": "インドラのあみ",
+    "sortKana": "いんとらのあみ",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-01-31",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card460.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/460_ruby_1416.zip",
+    "textFileId": "460_ruby_1416",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/460_42328.html",
+    "inputBy": "浜野智",
+    "proofreadBy": "浜野智",
+    "baseBook1": {
+      "title": "インドラの網",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1996（平成8）年4月25日",
+      "inputEdition": "1996（平成8）年6月20日再版",
+      "proofreadEdition": "1996（平成8）年6月20日再版"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

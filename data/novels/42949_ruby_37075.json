@@ -456,5 +456,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042949",
+    "title": "中庸",
+    "titleKana": "ちゅうよう",
+    "sortKana": "ちゆうよう",
+    "firstAppearance": "「群像　第八巻第六号」1953（昭和28）年6月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-03-09",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card42949.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/42949_ruby_37075.zip",
+    "textFileId": "42949_ruby_37075",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/42949_38172.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "狩野宏樹",
+    "baseBook1": {
+      "title": "坂口安吾全集　14",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年6月20日",
+      "inputEdition": "1999（平成11）年6月20日初版第1刷",
+      "proofreadEdition": "1999（平成11）年6月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

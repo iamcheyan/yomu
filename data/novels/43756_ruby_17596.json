@@ -250,5 +250,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043756",
+    "title": "月夜のでんしんばしら",
+    "titleKana": "つきよのでんしんばしら",
+    "sortKana": "つきよのてんしんはしら",
+    "firstAppearance": "「イーハトヴ童話　注文の多い料理店」盛岡市杜陵出版部・東京光原社、1924（大正13）年12月1日",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-02-27",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card43756.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/43756_ruby_17596.zip",
+    "textFileId": "43756_ruby_17596",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/43756_17661.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "注文の多い料理店",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1990（平成2）年5月25日",
+      "inputEdition": "1997（平成9）年5月10日17刷",
+      "proofreadEdition": "2004（平成16）年5月20日第29刷"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

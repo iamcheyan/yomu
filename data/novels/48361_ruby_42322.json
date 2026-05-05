@@ -260,5 +260,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048361",
+    "title": "真間名所",
+    "titleKana": "ままめいしょ",
+    "sortKana": "ままめいしよ",
+    "firstAppearance": "「趣好」1934（昭和9）年9月号",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-04-24",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001337/card48361.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001337/files/48361_ruby_42322.zip",
+    "textFileId": "48361_ruby_42322",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001337/files/48361_42537.html",
+    "inputBy": "Ｈ．ＹＡＭ",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "川柳久良伎全集　第五卷",
+      "publisher": "川柳久良伎全集刊行會",
+      "firstPublishedAt": "1937（昭和12）年1月25日",
+      "inputEdition": "1937（昭和12）年1月25日初版",
+      "proofreadEdition": "1937（昭和12）年1月25日初版"
+    },
+    "author": "阪井久良伎",
+    "authors": [
+      {
+        "personId": "001337",
+        "name": "阪井久良伎",
+        "kana": "さかいくらき",
+        "roman": "Kuraki sakai",
+        "role": "著者",
+        "birthDate": "1869",
+        "deathDate": "1945",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

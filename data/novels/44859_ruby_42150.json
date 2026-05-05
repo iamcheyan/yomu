@@ -40,5 +40,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "044859",
+    "title": "純粋戯曲への道",
+    "titleKana": "じゅんすいぎきょくへのみち",
+    "sortKana": "しゆんすいききよくへのみち",
+    "firstAppearance": "「文学座あとりえ　第十四号」1954（昭和29）年2月8日",
+    "ndc": "NDC 775",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-04-10",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001154/card44859.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001154/files/44859_ruby_42150.zip",
+    "textFileId": "44859_ruby_42150",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001154/files/44859_42347.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "岸田國士全集28",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1992（平成4）年6月17日",
+      "inputEdition": "1992（平成4）年6月17日",
+      "proofreadEdition": "1992（平成4）年6月17日"
+    },
+    "author": "岸田国士",
+    "authors": [
+      {
+        "personId": "001154",
+        "name": "岸田国士",
+        "kana": "きしだくにお",
+        "roman": "Kunio Kishida",
+        "role": "著者",
+        "birthDate": "1890-11-02",
+        "deathDate": "1954-03-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

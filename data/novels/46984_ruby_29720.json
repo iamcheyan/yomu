@@ -140,5 +140,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046984",
+    "title": "清造と沼",
+    "titleKana": "せいぞうとぬま",
+    "sortKana": "せいそうとぬま",
+    "firstAppearance": "「赤い鳥」赤い鳥社、1928（昭和3）年1月号",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-05-18",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000929/card46984.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000929/files/46984_ruby_29720.zip",
+    "textFileId": "46984_ruby_29720",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000929/files/46984_30974.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "赤い鳥代表作集　2",
+      "publisher": "小峰書店",
+      "firstPublishedAt": "1958（昭和33）年11月15日",
+      "inputEdition": "1982（昭和57）年2月15日第21刷",
+      "proofreadEdition": "1980（昭和55）年3月5日第20刷"
+    },
+    "author": "宮島資夫",
+    "authors": [
+      {
+        "personId": "000929",
+        "name": "宮島資夫",
+        "kana": "みやじますけお",
+        "roman": "Sukeo Miyajima",
+        "role": "著者",
+        "birthDate": "1886-08-01",
+        "deathDate": "1951-02-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

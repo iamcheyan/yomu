@@ -758,5 +758,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057756",
+    "title": "めおと蝶",
+    "titleKana": "めおとちょう",
+    "sortKana": "めおとちよう",
+    "firstAppearance": "「講談倶楽部　春の臨時増刊号」大日本雄弁会講談社、1950（昭和25）年4月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-12-29",
+    "updatedAt": "2020-11-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001869/card57756.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001869/files/57756_ruby_72285.zip",
+    "textFileId": "57756_ruby_72285",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001869/files/57756_72333.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "北川松生",
+    "baseBook1": {
+      "title": "山本周五郎全集第二十二巻　契りきぬ・落ち梅記",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1983（昭和58）年4月25日",
+      "inputEdition": "1983（昭和58）年4月25日",
+      "proofreadEdition": "1983（昭和58）年4月25日"
+    },
+    "author": "山本周五郎",
+    "authors": [
+      {
+        "personId": "001869",
+        "name": "山本周五郎",
+        "kana": "やまもとしゅうごろう",
+        "roman": "Shugoro Yamamoto",
+        "role": "著者",
+        "birthDate": "1903-06-22",
+        "deathDate": "1967-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

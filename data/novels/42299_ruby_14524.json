@@ -218,5 +218,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042299",
+    "title": "のら犬",
+    "titleKana": "のらいぬ",
+    "sortKana": "のらいぬ",
+    "firstAppearance": "「赤い鳥」1932（昭和7）年5月号",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-03-01",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000121/card42299.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000121/files/42299_ruby_14524.zip",
+    "textFileId": "42299_ruby_14524",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000121/files/42299_14834.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "佳代子",
+    "baseBook1": {
+      "title": "新美南吉童話全集　第一巻　ごんぎつね",
+      "publisher": "大日本図書",
+      "firstPublishedAt": "1960（昭和35）年6月20日",
+      "inputEdition": "1978（昭和53）年7月31日34版"
+    },
+    "author": "新美南吉",
+    "authors": [
+      {
+        "personId": "000121",
+        "name": "新美南吉",
+        "kana": "にいみなんきち",
+        "roman": "Nankichi Niimi",
+        "role": "著者",
+        "birthDate": "1913-07-30",
+        "deathDate": "1943-03-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

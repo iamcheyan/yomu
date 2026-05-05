@@ -136,5 +136,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051156",
+    "title": "いちょうの実",
+    "titleKana": "いちょうのみ",
+    "sortKana": "いちようのみ",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-05-29",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card51156.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/51156_ruby_42518.zip",
+    "textFileId": "51156_ruby_42518",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/51156_42678.html",
+    "inputBy": "劉斗",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "注文の多い料理店――宮沢賢治童話集　1",
+      "publisher": "青い鳥文庫、講談社",
+      "firstPublishedAt": "1985（昭和60）年1月24日",
+      "inputEdition": "2004（平成16）年6月7日第52刷",
+      "proofreadEdition": "2004（平成16）年2月23日第51刷"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

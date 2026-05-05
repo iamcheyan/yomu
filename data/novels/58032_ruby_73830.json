@@ -420,5 +420,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058032",
+    "title": "食料名彙",
+    "titleKana": "しょくりょうめいい",
+    "sortKana": "しよくりようめいい",
+    "firstAppearance": "「民間傳承八卷二號～八號」1942（昭和17）年6月～12月",
+    "ndc": "NDC 383",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-08-08",
+    "updatedAt": "2021-12-08",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001566/card58032.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001566/files/58032_ruby_73830.zip",
+    "textFileId": "58032_ruby_73830",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001566/files/58032_73866.html",
+    "inputBy": "フクポー",
+    "proofreadBy": "津村田悟",
+    "baseBook1": {
+      "title": "定本柳田國男集　第二十九巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1964（昭和39）年5月25日",
+      "inputEdition": "1964（昭和39）年5月25日",
+      "proofreadEdition": "1964（昭和39）年5月25日"
+    },
+    "author": "柳田国男",
+    "authors": [
+      {
+        "personId": "001566",
+        "name": "柳田国男",
+        "kana": "やなぎたくにお",
+        "roman": "Kunio Yanagita",
+        "role": "著者",
+        "birthDate": "1875-07-31",
+        "deathDate": "1962-08-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

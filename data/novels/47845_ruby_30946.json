@@ -60,5 +60,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047845",
+    "title": "懐疑思潮に付て",
+    "titleKana": "かいぎしちょうについて",
+    "sortKana": "かいきしちようについて",
+    "firstAppearance": "「教育學術界　第一七卷三號」1908（明治41）年6月",
+    "ndc": "NDC 121",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-07-13",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000923/card47845.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000923/files/47845_ruby_30946.zip",
+    "textFileId": "47845_ruby_30946",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000923/files/47845_31637.html",
+    "inputBy": "岩澤秀紀",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "明治文學全集　80　明治哲學思想集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1974（昭和49）年6月15日",
+      "inputEdition": "1989（平成元）年2月20日初版第5刷",
+      "proofreadEdition": "1983（昭和58）年10月1日第3刷"
+    },
+    "author": "朝永三十郎",
+    "authors": [
+      {
+        "personId": "000923",
+        "name": "朝永三十郎",
+        "kana": "ともながさんじゅうろう",
+        "roman": "Sanjuro Tomonaga",
+        "role": "著者",
+        "birthDate": "1871-02-05",
+        "deathDate": "1951-09-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

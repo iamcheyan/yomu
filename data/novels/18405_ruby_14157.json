@@ -130,5 +130,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "018405",
+    "title": "小栗外伝",
+    "titleKana": "おぐりがいでん",
+    "sortKana": "おくりかいてん",
+    "subtitle": "（餓鬼阿弥蘇生譚の二）魂と姿との関係",
+    "subtitleKana": "がきあみそせいたんのに たましいとすがたとのかんけい",
+    "firstAppearance": "「民族　第二巻第一号」1926（大正15）年11月",
+    "ndc": "NDC 388",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-01-23",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card18405.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/18405_ruby_14157.zip",
+    "textFileId": "18405_ruby_14157",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/18405_14212.html",
+    "inputBy": "高柳典子",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "折口信夫全集　2",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1995（平成7）年3月10日",
+      "inputEdition": "1995（平成7）年3月10日初版",
+      "proofreadEdition": "1995（平成7）年3月10日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

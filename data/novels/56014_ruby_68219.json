@@ -192,5 +192,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056014",
+    "title": "木曽道中記",
+    "titleKana": "きそどうちゅうき",
+    "sortKana": "きそとうちゆうき",
+    "firstAppearance": "「東京朝日新聞」1890（明治23）年5月3日～7月3日",
+    "ndc": "NDC 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-06-20",
+    "updatedAt": "2019-05-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000374/card56014.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000374/files/56014_ruby_68219.zip",
+    "textFileId": "56014_ruby_68219",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000374/files/56014_68264.html",
+    "inputBy": "古山惠一郎",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "明治文學全集　94　明治紀行文學集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1974（昭和49）年1月30日",
+      "inputEdition": "1974（昭和49）年1月30日第1刷",
+      "proofreadEdition": "1974（昭和49）年1月30日第1刷"
+    },
+    "author": "饗庭篁村",
+    "authors": [
+      {
+        "personId": "000374",
+        "name": "饗庭篁村",
+        "kana": "あえばこうそん",
+        "roman": "Koson Aeba",
+        "role": "著者",
+        "birthDate": "1855-09-25",
+        "deathDate": "1922-06-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

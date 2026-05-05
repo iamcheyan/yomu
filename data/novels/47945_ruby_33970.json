@@ -4432,5 +4432,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047945",
+    "title": "殺意（ストリップショウ）",
+    "titleKana": "さつい（ストリップショウ）",
+    "sortKana": "さついすとりつふしよう",
+    "firstAppearance": "「群像」1950（昭和25）年7月号",
+    "ndc": "NDC 912",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-01-03",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001311/card47945.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001311/files/47945_ruby_33970.zip",
+    "textFileId": "47945_ruby_33970",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001311/files/47945_33998.html",
+    "inputBy": "伊藤時也",
+    "proofreadBy": "伊藤時也、及川　雅",
+    "baseBook1": {
+      "title": "三好十郎の仕事　別巻",
+      "publisher": "學藝書林",
+      "firstPublishedAt": "1968（昭和43）年11月28日",
+      "inputEdition": "1968（昭和43）年11月28日第1刷",
+      "proofreadEdition": "1968（昭和43）年11月28日第1刷"
+    },
+    "author": "三好十郎",
+    "authors": [
+      {
+        "personId": "001311",
+        "name": "三好十郎",
+        "kana": "みよしじゅうろう",
+        "roman": "Juro Miyoshi",
+        "role": "著者",
+        "birthDate": "1902-04-21",
+        "deathDate": "1958-12-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

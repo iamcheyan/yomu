@@ -34,5 +34,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004518",
+    "title": "弥彦山",
+    "titleKana": "やひこやま",
+    "sortKana": "やひこやま",
+    "ndc": "NDC 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-05-29",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000118/card4518.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000118/files/4518_ruby_15120.zip",
+    "textFileId": "4518_ruby_15120",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000118/files/4518_15641.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "今井忠夫",
+    "baseBook1": {
+      "title": "長塚節全集　第二巻",
+      "publisher": "春陽堂書店",
+      "firstPublishedAt": "1977（昭和52）年1月31日",
+      "inputEdition": "1977（昭和52）年1月31日"
+    },
+    "author": "長塚節",
+    "authors": [
+      {
+        "personId": "000118",
+        "name": "長塚節",
+        "kana": "ながつかたかし",
+        "roman": "Takashi Nagatsuka",
+        "role": "著者",
+        "birthDate": "1879-04-03",
+        "deathDate": "1915-02-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

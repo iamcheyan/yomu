@@ -72,5 +72,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060857",
+    "title": "日本に於けるクリップン事件",
+    "titleKana": "にほんにおけるくりっぷんじけん",
+    "sortKana": "にほんにおけるくりつふんしけん",
+    "firstAppearance": "「文藝春秋」1927（昭和2）年1月号",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-07-30",
+    "updatedAt": "2022-06-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001383/card60857.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001383/files/60857_ruby_75885.zip",
+    "textFileId": "60857_ruby_75885",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001383/files/60857_75920.html",
+    "inputBy": "hitsuji",
+    "proofreadBy": "きりんの手紙",
+    "baseBook1": {
+      "title": "谷崎潤一郎マゾヒズム小説集",
+      "publisher": "集英社文庫、集英社",
+      "firstPublishedAt": "2010（平成22）年9月25日",
+      "inputEdition": "2013（平成25）年1月26日第3刷",
+      "proofreadEdition": "2010（平成22）年9月25日第1刷"
+    },
+    "author": "谷崎潤一郎",
+    "authors": [
+      {
+        "personId": "001383",
+        "name": "谷崎潤一郎",
+        "kana": "たにざきじゅんいちろう",
+        "roman": "Jun'ichiro Tanizaki",
+        "role": "著者",
+        "birthDate": "1886-07-24",
+        "deathDate": "1965-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

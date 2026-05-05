@@ -3272,5 +3272,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051173",
+    "title": "牧羊神",
+    "titleKana": "ぼくようしん",
+    "sortKana": "ほくようしん",
+    "firstAppearance": "「牧羊神」金尾文淵堂、1920（大正9）年10月5日",
+    "ndc": "NDC 908 911 951",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-02-20",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000235/card51173.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000235/files/51173_ruby_41630.zip",
+    "textFileId": "51173_ruby_41630",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000235/files/51173_42027.html",
+    "inputBy": "阿部哲也",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "明治文學全集　31　上田敏集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1966（昭和41）年4月10日",
+      "inputEdition": "1983（昭和58）年10月1日初版第4刷",
+      "proofreadEdition": "1983（昭和58）年10月1日初版第4刷"
+    },
+    "author": "上田敏",
+    "authors": [
+      {
+        "personId": "000235",
+        "name": "上田敏",
+        "kana": "うえだびん",
+        "roman": "Bin Ueda",
+        "role": "著者",
+        "birthDate": "1874-10-30",
+        "deathDate": "1916-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -44,5 +44,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056614",
+    "title": "新憲法に関する演説草稿",
+    "titleKana": "しんけんぽうにかんするえんぜつそうこう",
+    "sortKana": "しんけんほうにかんするえんせつそうこう",
+    "firstAppearance": "「幣原喜重郎」幣原平和財団、1955（昭和30）年",
+    "ndc": "NDC 323",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-11-03",
+    "updatedAt": "2015-09-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001794/card56614.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001794/files/56614_ruby_57436.zip",
+    "textFileId": "56614_ruby_57436",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001794/files/56614_57473.html",
+    "inputBy": "しだひろし",
+    "proofreadBy": "荒木恵一",
+    "baseBook1": {
+      "title": "戦後日本思想大系1　戦後思想の出発",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1968（昭和43）年7月1日",
+      "inputEdition": "1976（昭和51）年7月1日初版第10刷",
+      "proofreadEdition": "1968（昭和43）年11月10日初版第3刷"
+    },
+    "author": "幣原喜重郎",
+    "authors": [
+      {
+        "personId": "001794",
+        "name": "幣原喜重郎",
+        "kana": "しではらきじゅうろう",
+        "roman": "Kijuro Shidehara",
+        "role": "著者",
+        "birthDate": "1872-09-13",
+        "deathDate": "1951-03-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

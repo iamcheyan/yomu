@@ -198,5 +198,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060567",
+    "title": "幽香嬰女伝",
+    "titleKana": "ゆうこうえいじょでん",
+    "sortKana": "ゆうこうえいしよてん",
+    "firstAppearance": "「群像　第十五巻第三号」講談社、1960（昭和35）年3月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-05-06",
+    "updatedAt": "2022-04-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001763/card60567.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001763/files/60567_ruby_75422.zip",
+    "textFileId": "60567_ruby_75422",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001763/files/60567_75454.html",
+    "inputBy": "佐伯伊織",
+    "proofreadBy": "持田和踏",
+    "baseBook1": {
+      "title": "たそがれの人間　佐藤春夫怪異小品集",
+      "publisher": "平凡社ライブラリー、平凡社",
+      "firstPublishedAt": "2015（平成27）年7月10日",
+      "inputEdition": "2015（平成27）年7月10日初版第1刷",
+      "proofreadEdition": "2015（平成27）年7月10日初版第1刷"
+    },
+    "author": "佐藤春夫",
+    "authors": [
+      {
+        "personId": "001763",
+        "name": "佐藤春夫",
+        "kana": "さとうはるお",
+        "roman": "Haruo Sato",
+        "role": "著者",
+        "birthDate": "1892-04-09",
+        "deathDate": "1964-05-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -946,5 +946,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001197",
+    "title": "春の潮",
+    "titleKana": "はるのうしお",
+    "sortKana": "はるのうしお",
+    "firstAppearance": "「ホトトギス」1908（明治41）年4月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-11-08",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000058/card1197.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000058/files/1197_ruby_32554.zip",
+    "textFileId": "1197_ruby_32554",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000058/files/1197_33298.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "野菊の墓",
+      "publisher": "集英社文庫、集英社",
+      "firstPublishedAt": "1991（平成3）年",
+      "inputEdition": "2007（平成19）年3月25日第4刷",
+      "proofreadEdition": "1991（平成3）年6月25日第1刷"
+    },
+    "author": "伊藤左千夫",
+    "authors": [
+      {
+        "personId": "000058",
+        "name": "伊藤左千夫",
+        "kana": "いとうさちお",
+        "roman": "Sachio Ito",
+        "role": "著者",
+        "birthDate": "1864-09-18",
+        "deathDate": "1913-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

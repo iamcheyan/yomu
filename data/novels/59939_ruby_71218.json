@@ -248,5 +248,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059939",
+    "title": "花火",
+    "titleKana": "はなび",
+    "sortKana": "はなひ",
+    "firstAppearance": "「改造　第一卷第九號」改造社、1919（大正8）年12月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-07-01",
+    "updatedAt": "2020-06-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001341/card59939.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001341/files/59939_ruby_71218.zip",
+    "textFileId": "59939_ruby_71218",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001341/files/59939_71267.html",
+    "inputBy": "きりんの手紙",
+    "proofreadBy": "砂場清隆",
+    "baseBook1": {
+      "title": "麻布襍記　――附・自選荷風百句",
+      "publisher": "中公文庫、中央公論新社",
+      "firstPublishedAt": "2018（平成30）年7月25日",
+      "inputEdition": "2018（平成30）年7月25日初版",
+      "proofreadEdition": "2018（平成30）年7月25日初版"
+    },
+    "author": "永井荷風",
+    "authors": [
+      {
+        "personId": "001341",
+        "name": "永井荷風",
+        "kana": "ながいかふう",
+        "roman": "Kafu Nagai",
+        "role": "著者",
+        "birthDate": "1879-12-03",
+        "deathDate": "1959-04-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

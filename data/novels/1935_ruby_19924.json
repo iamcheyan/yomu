@@ -1854,5 +1854,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001935",
+    "title": "ポラーノの広場",
+    "titleKana": "ポラーノのひろば",
+    "sortKana": "ほらあののひろは",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-01-04",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card1935.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/1935_ruby_19924.zip",
+    "textFileId": "1935_ruby_19924",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/1935_19925.html",
+    "inputBy": "白川由紀子",
+    "proofreadBy": "須藤",
+    "baseBook1": {
+      "title": "銀河鉄道の夜・風の又三郎・ポラーノの広場　ほか３編",
+      "publisher": "講談社文庫、講談社",
+      "firstPublishedAt": "1971（昭和46）年7月1日",
+      "inputEdition": "1979（昭和54）年8月15日第16刷",
+      "proofreadEdition": "1979（昭和54）年8月15日第16刷"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -30,5 +30,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047274",
+    "title": "マイクロフォン",
+    "titleKana": "マイクロフォン",
+    "sortKana": "まいくろふおん",
+    "subtitle": "「新青年」一九二六年二月",
+    "subtitleKana": "「しんせいねん」せんきゅうひゃくにじゅうろくねんにがつ",
+    "firstAppearance": "「新青年」1926（大正15）年2月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-05-01",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card47274.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/47274_ruby_53284.zip",
+    "textFileId": "47274_ruby_53284",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/47274_53328.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "国枝史郎探偵小説全集　全一巻",
+      "publisher": "作品社",
+      "firstPublishedAt": "2005（平成17）年9月15日",
+      "inputEdition": "2005（平成17）年9月15日第1刷",
+      "proofreadEdition": "2005（平成17）年9月15日第1刷"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

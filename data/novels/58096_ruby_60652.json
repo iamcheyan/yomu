@@ -50,5 +50,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058096",
+    "title": "馬鈴薯の花",
+    "titleKana": "ばれいしょのはな",
+    "sortKana": "はれいしよのはな",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-01-01",
+    "updatedAt": "2017-01-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001870/card58096.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001870/files/58096_ruby_60652.zip",
+    "textFileId": "58096_ruby_60652",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001870/files/58096_60653.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆1　花",
+      "publisher": "作品社",
+      "firstPublishedAt": "1983（昭和58）年2月25日",
+      "inputEdition": "1983（昭和58）年2月25日第1刷",
+      "proofreadEdition": "1983（昭和58）年2月25日第1刷"
+    },
+    "author": "亀井勝一郎",
+    "authors": [
+      {
+        "personId": "001870",
+        "name": "亀井勝一郎",
+        "kana": "かめいかついちろう",
+        "roman": "Katsuichiro Kamei",
+        "role": "著者",
+        "birthDate": "1907-02-06",
+        "deathDate": "1966-11-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

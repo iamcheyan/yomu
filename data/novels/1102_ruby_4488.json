@@ -154,5 +154,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001102",
+    "title": "創作家の態度",
+    "titleKana": "そうさくかのたいど",
+    "sortKana": "そうさくかのたいと",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-08-24",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000148/card1102.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000148/files/1102_ruby_4488.zip",
+    "textFileId": "1102_ruby_4488",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000148/files/1102_14956.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "大野晋",
+    "baseBook1": {
+      "title": "夏目漱石全集10",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1988（昭和63）年7月26日",
+      "inputEdition": "1988（昭和63）年7月26日第1刷"
+    },
+    "author": "夏目漱石",
+    "authors": [
+      {
+        "personId": "000148",
+        "name": "夏目漱石",
+        "kana": "なつめそうせき",
+        "roman": "Soseki Natsume",
+        "role": "著者",
+        "birthDate": "1867-02-09",
+        "deathDate": "1916-12-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

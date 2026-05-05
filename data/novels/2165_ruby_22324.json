@@ -58,5 +58,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002165",
+    "title": "舞姫",
+    "titleKana": "まいひめ",
+    "sortKana": "まいひめ",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-11-30",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000885/card2165.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000885/files/2165_ruby_22324.zip",
+    "textFileId": "2165_ruby_22324",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000885/files/2165_22325.html",
+    "inputBy": "福岡茂雄",
+    "proofreadBy": "ちはる",
+    "baseBook1": {
+      "title": "現代日本文學大系　25　與謝野寛・與謝野晶子・上田敏・木下杢太郎・吉井勇・小山内薫・長田秀雄・平出修集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1971（昭和46）年4月5日",
+      "proofreadEdition": "1980（昭和55）年10月30日第11刷"
+    },
+    "author": "与謝野晶子",
+    "authors": [
+      {
+        "personId": "000885",
+        "name": "与謝野晶子",
+        "kana": "よさのあきこ",
+        "roman": "Akiko Yosano",
+        "role": "著者",
+        "birthDate": "1878-12-07",
+        "deathDate": "1942-05-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

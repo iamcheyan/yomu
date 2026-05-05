@@ -76,5 +76,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049848",
+    "title": "母たち",
+    "titleKana": "ははたち",
+    "sortKana": "ははたち",
+    "firstAppearance": "「文學界」1936（昭和11）年9月号",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-01-24",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001157/card49848.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001157/files/49848_ruby_45578.zip",
+    "textFileId": "49848_ruby_45578",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001157/files/49848_45845.html",
+    "inputBy": "kompass",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "雪の宿り　神西清小説セレクション",
+      "publisher": "港の人",
+      "firstPublishedAt": "2008（平成20）年10月5日",
+      "inputEdition": "2008（平成20）年10月5日初版第1刷",
+      "proofreadEdition": "2008（平成20）年10月5日初版第1刷"
+    },
+    "author": "神西清",
+    "authors": [
+      {
+        "personId": "001157",
+        "name": "神西清",
+        "kana": "じんざいきよし",
+        "roman": "Kiyoshi Jinzai",
+        "role": "著者",
+        "birthDate": "1903-11-15",
+        "deathDate": "1957-03-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

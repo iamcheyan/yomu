@@ -90,5 +90,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052106",
+    "title": "一粒の真珠",
+    "titleKana": "ひとつぶのしんじゅ",
+    "sortKana": "ひとつふのしんしゆ",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-01-31",
+    "updatedAt": "2016-12-09",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001475/card52106.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001475/files/52106_ruby_60461.zip",
+    "textFileId": "52106_ruby_60461",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001475/files/52106_60505.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "酒井裕二",
+    "baseBook1": {
+      "title": "定本小川未明童話全集　11",
+      "publisher": "講談社",
+      "firstPublishedAt": "1977（昭和52）年9月10日",
+      "inputEdition": "1983（昭和58）年1月19日第5刷",
+      "proofreadEdition": "1977（昭和52）年9月10日第1刷"
+    },
+    "author": "小川未明",
+    "authors": [
+      {
+        "personId": "001475",
+        "name": "小川未明",
+        "kana": "おがわみめい",
+        "roman": "Mimei Ogawa",
+        "role": "著者",
+        "birthDate": "1882-04-07",
+        "deathDate": "1961-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

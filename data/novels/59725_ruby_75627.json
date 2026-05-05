@@ -266,5 +266,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059725",
+    "title": "共産主義者の犯罪",
+    "titleKana": "きょうさんしゅぎしゃのはんざい",
+    "sortKana": "きようさんしゆきしやのはんさい",
+    "originalTitle": "THE CRIME OF THE COMMUNIST",
+    "ndc": "NDC 933",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-06-14",
+    "updatedAt": "2022-05-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001123/card59725.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001123/files/59725_ruby_75627.zip",
+    "textFileId": "59725_ruby_75627",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001123/files/59725_75657.html",
+    "inputBy": "時雨",
+    "proofreadBy": "sogo",
+    "baseBook1": {
+      "title": "〔ブラウン神父の醜聞〕",
+      "publisher": "HAYAKAWA POCKET MYSTERY BOOKS、早川書房",
+      "firstPublishedAt": "1957（昭和32）年3月15日",
+      "inputEdition": "1957（昭和32）年3月15日",
+      "proofreadEdition": "1957（昭和32）年3月15日"
+    },
+    "author": "チェスタートンギルバート・キース",
+    "authors": [
+      {
+        "personId": "001123",
+        "name": "チェスタートンギルバート・キース",
+        "kana": "チェスタートンギルバート・キース",
+        "roman": "Gilbert Keith Chesterton",
+        "role": "著者",
+        "birthDate": "1874-05-29",
+        "deathDate": "1936-06-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

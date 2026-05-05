@@ -380,5 +380,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047059",
+    "title": "子をつれて",
+    "titleKana": "こをつれて",
+    "sortKana": "こをつれて",
+    "firstAppearance": "「早稲田文学」1918（大正7）年3月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-04-11",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000984/card47059.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000984/files/47059_ruby_29517.zip",
+    "textFileId": "47059_ruby_29517",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000984/files/47059_30421.html",
+    "inputBy": "任天堂株式会社",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "哀しき父・椎の若葉",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1994（平成6）年12月10日",
+      "inputEdition": "1994（平成6）年12月10日第1刷",
+      "proofreadEdition": "1994（平成6）年12月10日第1刷"
+    },
+    "author": "葛西善蔵",
+    "authors": [
+      {
+        "personId": "000984",
+        "name": "葛西善蔵",
+        "kana": "かさいぜんぞう",
+        "roman": "Zenzo Kasai",
+        "role": "著者",
+        "birthDate": "1887-01-16",
+        "deathDate": "1928-07-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

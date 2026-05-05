@@ -124,5 +124,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "024454",
+    "title": "藪の中",
+    "titleKana": "やぶのなか",
+    "sortKana": "やふのなか",
+    "firstAppearance": "「新潮」1922（大正11）年1月1日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-03-25",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000879/card24454.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000879/files/24454_ruby_46815.zip",
+    "textFileId": "24454_ruby_46815",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000879/files/24454_47036.html",
+    "inputBy": "高柳典子",
+    "proofreadBy": "岡山勝美",
+    "baseBook1": {
+      "title": "現代日本文學全集　第三〇篇　芥川龍之介集",
+      "publisher": "改造社",
+      "firstPublishedAt": "1928（昭和3）年1月9日",
+      "inputEdition": "1928（昭和3）年1月9日",
+      "proofreadEdition": "1928（昭和3）年1月9日"
+    },
+    "author": "芥川竜之介",
+    "authors": [
+      {
+        "personId": "000879",
+        "name": "芥川竜之介",
+        "kana": "あくたがわりゅうのすけ",
+        "roman": "Ryunosuke Akutagawa",
+        "role": "著者",
+        "birthDate": "1892-03-01",
+        "deathDate": "1927-07-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

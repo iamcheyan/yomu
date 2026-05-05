@@ -362,5 +362,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "061139",
+    "title": "童貞",
+    "titleKana": "どうてい",
+    "sortKana": "とうてい",
+    "firstAppearance": "「新青年　第11巻第10号」1930（昭和5）年8月",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2023-03-11",
+    "updatedAt": "2023-02-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000096/card61139.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000096/files/61139_ruby_77098.zip",
+    "textFileId": "61139_ruby_77098",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000096/files/61139_77097.html",
+    "inputBy": "持田和踏",
+    "proofreadBy": "The Creative CAT",
+    "baseBook1": {
+      "title": "夢野久作怪奇幻想傑作選　人間腸詰",
+      "publisher": "角川ホラー文庫、角川書店",
+      "firstPublishedAt": "2001（平成13）年3月10日",
+      "inputEdition": "2001（平成13）年3月10日初版",
+      "proofreadEdition": "2001（平成13）年3月10日初版"
+    },
+    "author": "夢野久作",
+    "authors": [
+      {
+        "personId": "000096",
+        "name": "夢野久作",
+        "kana": "ゆめのきゅうさく",
+        "roman": "Kyusaku Yumeno",
+        "role": "著者",
+        "birthDate": "1889-01-04",
+        "deathDate": "1936-03-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

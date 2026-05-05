@@ -54,5 +54,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046402",
+    "title": "短夜の頃",
+    "titleKana": "たんやのころ",
+    "sortKana": "たんやのころ",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-07-09",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000158/card46402.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000158/files/46402_ruby_26870.zip",
+    "textFileId": "46402_ruby_26870",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000158/files/46402_27009.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "日本の名随筆18　夏",
+      "publisher": "作品社",
+      "firstPublishedAt": "1984（昭和59）年4月25日",
+      "inputEdition": "1986（昭和61）年5月30日第4刷",
+      "proofreadEdition": "1984（昭和59）年4月25日第1刷"
+    },
+    "author": "島崎藤村",
+    "authors": [
+      {
+        "personId": "000158",
+        "name": "島崎藤村",
+        "kana": "しまざきとうそん",
+        "roman": "Toson Shimazaki",
+        "role": "著者",
+        "birthDate": "1872-03-25",
+        "deathDate": "1943-08-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

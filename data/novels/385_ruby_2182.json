@@ -488,5 +488,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000385",
+    "title": "一円本流行の害毒と其裏面談",
+    "titleKana": "いちえんぼんりゅうこうのがいどくとそのりめんだん",
+    "sortKana": "いちえんほんりゆうこうのかいとくとそのりめんたん",
+    "ndc": "NDC 023 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-07-10",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000063/card385.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000063/files/385_ruby_2182.zip",
+    "textFileId": "385_ruby_2182",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000063/files/385_47978.html",
+    "inputBy": "河上進",
+    "proofreadBy": "八巻美恵",
+    "baseBook1": {
+      "title": "一円本流行の害毒と其裏面談",
+      "publisher": "有限社",
+      "firstPublishedAt": "1928（昭和3）年11月1日形式発行",
+      "inputEdition": "1928（昭和3）年11月1日",
+      "proofreadEdition": "1928（昭和3）年11月1日"
+    },
+    "author": "宮武外骨",
+    "authors": [
+      {
+        "personId": "000063",
+        "name": "宮武外骨",
+        "kana": "みやたけがいこつ",
+        "roman": "Gaikotsu Miyatake",
+        "role": "著者",
+        "birthDate": "1867-02-22",
+        "deathDate": "1955-07-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

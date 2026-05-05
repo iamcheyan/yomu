@@ -60,5 +60,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001692",
+    "title": "野球時代",
+    "titleKana": "やきゅうじだい",
+    "sortKana": "やきゆうしたい",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-04-13",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000042/card1692.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000042/files/1692_ruby_9560.zip",
+    "textFileId": "1692_ruby_9560",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000042/files/1692_9662.html",
+    "inputBy": "もりみつじゅんじ",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻73　野球",
+      "publisher": "作品社",
+      "firstPublishedAt": "1997（平成9）年3月25日",
+      "inputEdition": "1997（平成9）年3月25日第1刷"
+    },
+    "author": "寺田寅彦",
+    "authors": [
+      {
+        "personId": "000042",
+        "name": "寺田寅彦",
+        "kana": "てらだとらひこ",
+        "roman": "Torahiko Terada",
+        "role": "著者",
+        "birthDate": "1878-11-28",
+        "deathDate": "1935-12-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

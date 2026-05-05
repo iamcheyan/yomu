@@ -590,5 +590,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056868",
+    "title": "盲目物語",
+    "titleKana": "もうもくものがたり",
+    "sortKana": "もうもくものかたり",
+    "firstAppearance": "「中央公論」1931（昭和6）年9月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-04-13",
+    "updatedAt": "2016-03-20",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001383/card56868.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001383/files/56868_ruby_58707.zip",
+    "textFileId": "56868_ruby_58707",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001383/files/56868_58745.html",
+    "inputBy": "kompass",
+    "proofreadBy": "酒井裕二",
+    "baseBook1": {
+      "title": "盲目物語",
+      "publisher": "中公文庫、中央公論新社",
+      "firstPublishedAt": "1993（平成5）年5月10日",
+      "inputEdition": "1993（平成5）年5月10日初版",
+      "proofreadEdition": "2007（平成19）年1月25日3刷"
+    },
+    "author": "谷崎潤一郎",
+    "authors": [
+      {
+        "personId": "001383",
+        "name": "谷崎潤一郎",
+        "kana": "たにざきじゅんいちろう",
+        "roman": "Jun'ichiro Tanizaki",
+        "role": "著者",
+        "birthDate": "1886-07-24",
+        "deathDate": "1965-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

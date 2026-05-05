@@ -2130,5 +2130,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043722",
+    "title": "南蛮秘話森右近丸",
+    "titleKana": "なんばんひわもりうこんまる",
+    "sortKana": "なんはんひわもりうこんまる",
+    "firstAppearance": "「少女倶楽部」1927（昭和2）年4月～10月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-04-05",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card43722.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/43722_ruby_18013.zip",
+    "textFileId": "43722_ruby_18013",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/43722_18059.html",
+    "inputBy": "阿和泉拓",
+    "proofreadBy": "湯地光弘",
+    "baseBook1": {
+      "title": "国枝史郎伝奇全集　巻三",
+      "publisher": "未知谷",
+      "firstPublishedAt": "1993（平成5）年3月20日",
+      "inputEdition": "1993（平成5）年3月20日初版"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

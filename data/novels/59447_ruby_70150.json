@@ -84,5 +84,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059447",
+    "title": "朝のヨット",
+    "titleKana": "あさのヨット",
+    "sortKana": "あさのよつと",
+    "firstAppearance": "「美術手帖」1963（昭和38）年7月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-02-20",
+    "updatedAt": "2020-01-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001801/card59447.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001801/files/59447_ruby_70150.zip",
+    "textFileId": "59447_ruby_70150",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001801/files/59447_70199.html",
+    "inputBy": "かな　とよみ",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "夏の葬列",
+      "publisher": "集英社文庫、集英社",
+      "firstPublishedAt": "1991（平成3）年5月25日",
+      "inputEdition": "2012（平成24）年3月6日第13刷",
+      "proofreadEdition": "2014（平成26）年6月17日第14刷"
+    },
+    "author": "山川方夫",
+    "authors": [
+      {
+        "personId": "001801",
+        "name": "山川方夫",
+        "kana": "やまかわまさお",
+        "roman": "Masao Yamakawa",
+        "role": "著者",
+        "birthDate": "1930-02-25",
+        "deathDate": "1965-02-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

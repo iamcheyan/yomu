@@ -236,5 +236,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043029",
+    "title": "女大学評論",
+    "titleKana": "おんなだいがくひょうろん",
+    "sortKana": "おんなたいかくひようろん",
+    "firstAppearance": "「時事新報」1899（明治32）年連載",
+    "ndc": "NDC 159",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-07-20",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000296/card43029.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000296/files/43029_ruby_23223.zip",
+    "textFileId": "43029_ruby_23223",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000296/files/43029_23560.html",
+    "inputBy": "片瀬しろ",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "女大学評論・新女大学",
+      "publisher": "講談社学術文庫、講談社",
+      "firstPublishedAt": "2001（平成13）年1月10日",
+      "inputEdition": "2001（平成13）年1月10日第1刷",
+      "proofreadEdition": "2001（平成13）年1月10日第1刷"
+    },
+    "author": "福沢諭吉",
+    "authors": [
+      {
+        "personId": "000296",
+        "name": "福沢諭吉",
+        "kana": "ふくざわゆきち",
+        "roman": "Yukichi Fukuzawa",
+        "role": "著者",
+        "birthDate": "1835-01-10",
+        "deathDate": "1901-02-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -30,5 +30,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046497",
+    "title": "青年実業家",
+    "titleKana": "せいねんじつぎょうか",
+    "sortKana": "せいねんしつきようか",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-11-26",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000165/card46497.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000165/files/46497_ruby_24380.zip",
+    "textFileId": "46497_ruby_24380",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000165/files/46497_24600.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆75　商",
+      "publisher": "作品社",
+      "firstPublishedAt": "1989（平成元）年1月25日",
+      "inputEdition": "1989（平成元）年1月25日第1刷",
+      "proofreadEdition": "1989（平成元）年1月25日第1刷"
+    },
+    "author": "内田魯庵",
+    "authors": [
+      {
+        "personId": "000165",
+        "name": "内田魯庵",
+        "kana": "うちだろあん",
+        "roman": "Roan Uchida",
+        "role": "著者",
+        "birthDate": "1868-04-27",
+        "deathDate": "1929-06-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

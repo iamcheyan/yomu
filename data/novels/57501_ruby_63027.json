@@ -176,5 +176,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057501",
+    "title": "乱歩分析",
+    "titleKana": "らんぽぶんせき",
+    "sortKana": "らんほふんせき",
+    "firstAppearance": "「別冊宝石」1954（昭和29）年11月",
+    "ndc": "NDC 910",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-11-15",
+    "updatedAt": "2017-10-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001872/card57501.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001872/files/57501_ruby_63027.zip",
+    "textFileId": "57501_ruby_63027",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001872/files/57501_63075.html",
+    "inputBy": "sogo",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "江戸川乱歩　日本探偵小説事典",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "1996（平成8）年10月25日",
+      "inputEdition": "1996（平成8）年10月25日初版",
+      "proofreadEdition": "1996（平成8）年10月25日初版"
+    },
+    "author": "大下宇陀児",
+    "authors": [
+      {
+        "personId": "001872",
+        "name": "大下宇陀児",
+        "kana": "おおしたうだる",
+        "roman": "Udaru Oshita",
+        "role": "著者",
+        "birthDate": "1896-11-15",
+        "deathDate": "1966-08-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

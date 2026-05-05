@@ -80,5 +80,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003467",
+    "title": "現代史の蝶つがい",
+    "titleKana": "げんだいしのちょうつがい",
+    "sortKana": "けんたいしのちようつかい",
+    "subtitle": "大統領選挙の感想",
+    "subtitleKana": "だいとうりょうせんきょのかんそう",
+    "firstAppearance": "「日本評論」1949（昭和24）年1月特大号",
+    "ndc": "NDC 314",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-10-24",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000311/card3467.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000311/files/3467_ruby_7628.zip",
+    "textFileId": "3467_ruby_7628",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000311/files/3467_12373.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "磐余彦",
+    "baseBook1": {
+      "title": "宮本百合子全集　第十六巻",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1980（昭和55）年6月20日",
+      "inputEdition": "1986（昭和61）年3月20日第4刷"
+    },
+    "author": "宮本百合子",
+    "authors": [
+      {
+        "personId": "000311",
+        "name": "宮本百合子",
+        "kana": "みやもとゆりこ",
+        "roman": "Yuriko Miyamoto",
+        "role": "著者",
+        "birthDate": "1899-02-13",
+        "deathDate": "1951-01-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

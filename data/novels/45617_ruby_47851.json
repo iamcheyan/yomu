@@ -850,5 +850,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045617",
+    "title": "番町皿屋敷",
+    "titleKana": "ばんちょうさらやしき",
+    "sortKana": "はんちようさらやしき",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-07-18",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000082/card45617.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000082/files/45617_ruby_47851.zip",
+    "textFileId": "45617_ruby_47851",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000082/files/45617_47969.html",
+    "inputBy": "Hiroshi_O",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "怪奇・伝奇時代小説選集13　四谷怪談　他８編",
+      "publisher": "春陽文庫、春陽堂書店",
+      "firstPublishedAt": "2000（平成12）年10月20日",
+      "inputEdition": "2000（平成12）年10月20日第1刷",
+      "proofreadEdition": "2000（平成12）年10月20日第1刷"
+    },
+    "author": "岡本綺堂",
+    "authors": [
+      {
+        "personId": "000082",
+        "name": "岡本綺堂",
+        "kana": "おかもときどう",
+        "roman": "Kido Okamoto",
+        "role": "著者",
+        "birthDate": "1872-11-15",
+        "deathDate": "1939-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

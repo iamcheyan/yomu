@@ -382,5 +382,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002561",
+    "title": "蓬生",
+    "titleKana": "よもぎう",
+    "sortKana": "よもきう",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-02-08",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000320/card2561.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000320/files/2561_ruby_8069.zip",
+    "textFileId": "2561_ruby_8069",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000320/files/2561_8599.html",
+    "inputBy": "武田秀男",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "新声",
+      "publisher": "新声社",
+      "firstPublishedAt": "1909（明治42）年3月号",
+      "inputEdition": "1909（明治42）年3月号"
+    },
+    "author": "与謝野寛",
+    "authors": [
+      {
+        "personId": "000320",
+        "name": "与謝野寛",
+        "kana": "よさのひろし",
+        "roman": "Hiroshi Yosano",
+        "role": "著者",
+        "birthDate": "1873-02-26",
+        "deathDate": "1935-03-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

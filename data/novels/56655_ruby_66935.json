@@ -134,5 +134,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056655",
+    "title": "箱の中のあなた",
+    "titleKana": "はこのなかのあなた",
+    "sortKana": "はこのなかのあなた",
+    "firstAppearance": "「ヒッチコック・マガジン　第3巻　第2号」宝石社、1961（昭和36）年2月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-02-20",
+    "updatedAt": "2019-01-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001801/card56655.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001801/files/56655_ruby_66935.zip",
+    "textFileId": "56655_ruby_66935",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001801/files/56655_66981.html",
+    "inputBy": "sogo",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "恐怖特急",
+      "publisher": "集英社文庫、集英社",
+      "firstPublishedAt": "1985（昭和60）年4月25日",
+      "inputEdition": "1985（昭和60）年4月25日第1刷",
+      "proofreadEdition": "1985（昭和60）年4月25日第1刷"
+    },
+    "author": "山川方夫",
+    "authors": [
+      {
+        "personId": "001801",
+        "name": "山川方夫",
+        "kana": "やまかわまさお",
+        "roman": "Masao Yamakawa",
+        "role": "著者",
+        "birthDate": "1930-02-25",
+        "deathDate": "1965-02-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

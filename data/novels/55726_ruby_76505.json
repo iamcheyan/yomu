@@ -52,5 +52,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055726",
+    "title": "故郷に帰りゆくこころ",
+    "titleKana": "こきょうにかえりゆくこころ",
+    "sortKana": "こきようにかえりゆくこころ",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-11-30",
+    "updatedAt": "2022-10-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000249/card55726.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000249/files/55726_ruby_76505.zip",
+    "textFileId": "55726_ruby_76505",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000249/files/55726_76541.html",
+    "inputBy": "浦山敦子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻41　望郷",
+      "publisher": "作品社",
+      "firstPublishedAt": "1994（平成6）年7月25日",
+      "inputEdition": "1994（平成6）年7月25日第1刷",
+      "proofreadEdition": "1994（平成6）年7月25日第1刷"
+    },
+    "author": "嘉村礒多",
+    "authors": [
+      {
+        "personId": "000249",
+        "name": "嘉村礒多",
+        "kana": "かむらいそた",
+        "roman": "Isota Kamura",
+        "role": "著者",
+        "birthDate": "1897-12-15",
+        "deathDate": "1933-11-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

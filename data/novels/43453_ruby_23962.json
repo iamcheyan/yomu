@@ -72,5 +72,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043453",
+    "title": "支那近世の国粋主義",
+    "titleKana": "しなきんせいのこくすいしゅぎ",
+    "sortKana": "しなきんせいのこくすいしゆき",
+    "firstAppearance": "「藝文　第貳年第拾號」1911（明治44）年7月、「藝文　第參年第壹號」1912（明治45）年1月",
+    "ndc": "NDC 222",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-10-15",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001127/card43453.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001127/files/43453_ruby_23962.zip",
+    "textFileId": "43453_ruby_23962",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001127/files/43453_24302.html",
+    "inputBy": "はまなかひとし",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "支那學文藪",
+      "publisher": "みすず書房",
+      "firstPublishedAt": "1973（昭和48）年4月2日",
+      "inputEdition": "1973（昭和48）年4月2日",
+      "proofreadEdition": "1973（昭和48）年4月2日"
+    },
+    "author": "狩野直喜",
+    "authors": [
+      {
+        "personId": "001127",
+        "name": "狩野直喜",
+        "kana": "かのなおき",
+        "roman": "Naoki Kano",
+        "role": "著者",
+        "birthDate": "1868-02-11",
+        "deathDate": "1947-12-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

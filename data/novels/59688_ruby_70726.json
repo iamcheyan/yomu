@@ -354,5 +354,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059688",
+    "title": "自選　荷風百句",
+    "titleKana": "じせんかふうひゃっく",
+    "sortKana": "しせんかふうひやつく",
+    "firstAppearance": "「おもかげ」岩波書店、1938（昭和13）年7月10日",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-04-30",
+    "updatedAt": "2020-04-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001341/card59688.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001341/files/59688_ruby_70726.zip",
+    "textFileId": "59688_ruby_70726",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001341/files/59688_70778.html",
+    "inputBy": "kompass",
+    "proofreadBy": "砂場清隆",
+    "baseBook1": {
+      "title": "麻布襍記　――附・自選荷風百句",
+      "publisher": "中公文庫、中央公論新社",
+      "firstPublishedAt": "2018（平成30）年7月25日",
+      "inputEdition": "2018（平成30）年7月25日初版",
+      "proofreadEdition": "2018（平成30）年7月25日初版"
+    },
+    "author": "永井荷風",
+    "authors": [
+      {
+        "personId": "001341",
+        "name": "永井荷風",
+        "kana": "ながいかふう",
+        "roman": "Kafu Nagai",
+        "role": "著者",
+        "birthDate": "1879-12-03",
+        "deathDate": "1959-04-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

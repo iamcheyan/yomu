@@ -40,5 +40,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059412",
+    "title": "登山趣味",
+    "titleKana": "とざんしゅみ",
+    "sortKana": "とさんしゆみ",
+    "firstAppearance": "「読売新聞」1935（昭和10）年2月2日夕刊",
+    "ndc": "NDC 786",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-10-28",
+    "updatedAt": "2020-10-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001581/card59412.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001581/files/59412_ruby_71895.zip",
+    "textFileId": "59412_ruby_71895",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001581/files/59412_71942.html",
+    "inputBy": "富田晶子",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "紀行とエッセーで読む　作家の山旅",
+      "publisher": "ヤマケイ文庫、山と溪谷社",
+      "firstPublishedAt": "2017（平成29）年3月1日",
+      "inputEdition": "2017（平成29）年3月1日初版第1刷",
+      "proofreadEdition": "2017（平成29）年3月1日初版第1刷"
+    },
+    "author": "正宗白鳥",
+    "authors": [
+      {
+        "personId": "001581",
+        "name": "正宗白鳥",
+        "kana": "まさむねはくちょう",
+        "roman": "Hakucho Masamune",
+        "role": "著者",
+        "birthDate": "1879-03-03",
+        "deathDate": "1962-10-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

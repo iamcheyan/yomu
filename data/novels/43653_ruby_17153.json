@@ -632,5 +632,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043653",
+    "title": "紅毛傾城",
+    "titleKana": "こうもうけいせい",
+    "sortKana": "こうもうけいせい",
+    "firstAppearance": "「新青年」1935（昭和10）年10月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-01-19",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000125/card43653.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000125/files/43653_ruby_17153.zip",
+    "textFileId": "43653_ruby_17153",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000125/files/43653_17366.html",
+    "inputBy": "網迫、土屋隆",
+    "proofreadBy": "ロクス・ソルス",
+    "baseBook1": {
+      "title": "ひとりで夜読むな",
+      "publisher": "角川ホラー文庫、角川書店",
+      "firstPublishedAt": "1977（昭和52）年10月15日",
+      "inputEdition": "2001（平成13）年1月10日改版初版",
+      "proofreadEdition": "2001（平成13）年1月10日改版初版"
+    },
+    "author": "小栗虫太郎",
+    "authors": [
+      {
+        "personId": "000125",
+        "name": "小栗虫太郎",
+        "kana": "おぐりむしたろう",
+        "roman": "Mushitaro Oguri",
+        "role": "著者",
+        "birthDate": "1901-03-14",
+        "deathDate": "1946-02-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

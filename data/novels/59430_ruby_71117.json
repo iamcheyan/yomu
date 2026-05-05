@@ -76,5 +76,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059430",
+    "title": "忠五郎のはなし",
+    "titleKana": "ちゅうごろうのはなし",
+    "sortKana": "ちゆうころうのはなし",
+    "originalTitle": "THE STORY OF CHUGORO",
+    "ndc": "NDC 933",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-06-27",
+    "updatedAt": "2020-05-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000258/card59430.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000258/files/59430_ruby_71117.zip",
+    "textFileId": "59430_ruby_71117",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000258/files/59430_71162.html",
+    "inputBy": "館野浩美",
+    "proofreadBy": "大久保ゆう",
+    "baseBook1": {
+      "title": "小泉八雲全集第八卷　家庭版",
+      "publisher": "第一書房",
+      "firstPublishedAt": "1937（昭和12）年1月15日",
+      "inputEdition": "1937（昭和12）年1月15日",
+      "proofreadEdition": "1937（昭和12）年1月15日"
+    },
+    "author": "小泉八雲",
+    "authors": [
+      {
+        "personId": "000258",
+        "name": "小泉八雲",
+        "kana": "こいずみやくも",
+        "roman": "Yakumo Koizumi",
+        "role": "著者",
+        "birthDate": "1850-06-27",
+        "deathDate": "1904-09-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

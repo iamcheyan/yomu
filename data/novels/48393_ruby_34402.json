@@ -446,5 +446,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048393",
+    "title": "清心庵",
+    "titleKana": "せいしんあん",
+    "sortKana": "せいしんあん",
+    "firstAppearance": "「新著月刊」1897（明治30）年7月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-04-19",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card48393.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/48393_ruby_34402.zip",
+    "textFileId": "48393_ruby_34402",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/48393_34760.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "泉鏡花集成3",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1996（平成8）年1月24日",
+      "inputEdition": "1996（平成8）年1月24日第1刷",
+      "proofreadEdition": "1996（平成8）年1月24日第1刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

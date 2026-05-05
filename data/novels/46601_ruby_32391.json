@@ -208,5 +208,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046601",
+    "title": "虔十公園林",
+    "titleKana": "けんじゅうこうえんりん",
+    "sortKana": "けんしゆうこうえんりん",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-11-20",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card46601.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/46601_ruby_32391.zip",
+    "textFileId": "46601_ruby_32391",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/46601_33328.html",
+    "inputBy": "蒋龍",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "新編風の又三郎",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1989（平成元）年2月25日",
+      "inputEdition": "1989（平成元）年6月10日2刷",
+      "proofreadEdition": "2005（平成17）年2月5日第22刷"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

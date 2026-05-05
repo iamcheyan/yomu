@@ -76,5 +76,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057339",
+    "title": "この頃の皇太子殿下",
+    "titleKana": "このころのこうたいしでんか",
+    "sortKana": "このころのこうたいしてんか",
+    "firstAppearance": "「文藝春秋」文藝春秋新社、1959（昭和34）年1月号",
+    "ndc": "NDC 288",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-01-01",
+    "updatedAt": "2017-01-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001846/card57339.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001846/files/57339_ruby_60633.zip",
+    "textFileId": "57339_ruby_60633",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001846/files/57339_60634.html",
+    "inputBy": "sogo",
+    "proofreadBy": "富田晶子",
+    "baseBook1": {
+      "title": "「文藝春秋」にみる昭和史　第二巻",
+      "publisher": "文藝春秋",
+      "firstPublishedAt": "1988（昭和63）年2月25日",
+      "inputEdition": "1988（昭和63）年3月15日第3刷",
+      "proofreadEdition": "1988（昭和63）年3月15日第3刷"
+    },
+    "author": "小泉信三",
+    "authors": [
+      {
+        "personId": "001846",
+        "name": "小泉信三",
+        "kana": "こいずみしんぞう",
+        "roman": "Shinzo Koizumi",
+        "role": "著者",
+        "birthDate": "1888-05-04",
+        "deathDate": "1966-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

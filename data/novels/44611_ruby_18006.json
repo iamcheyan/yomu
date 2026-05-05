@@ -38,5 +38,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "044611",
+    "title": "文学座第二回試演に際して",
+    "titleKana": "ぶんがくざだいにかいしえんにさいして",
+    "sortKana": "ふんかくさたいにかいしえんにさいして",
+    "firstAppearance": "「文学座第2回試演　パンフレット」1938（昭和13）年6月6日",
+    "ndc": "NDC 775 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-04-21",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001154/card44611.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001154/files/44611_ruby_18006.zip",
+    "textFileId": "44611_ruby_18006",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001154/files/44611_18087.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "岸田國士全集24",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1991（平成3）年3月8日",
+      "inputEdition": "1991（平成3）年3月8日",
+      "proofreadEdition": "1991（平成3）年3月8日"
+    },
+    "author": "岸田国士",
+    "authors": [
+      {
+        "personId": "001154",
+        "name": "岸田国士",
+        "kana": "きしだくにお",
+        "roman": "Kunio Kishida",
+        "role": "著者",
+        "birthDate": "1890-11-02",
+        "deathDate": "1954-03-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

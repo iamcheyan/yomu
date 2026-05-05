@@ -118,5 +118,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048023",
+    "title": "父の怪談",
+    "titleKana": "ちちのかいだん",
+    "sortKana": "ちちのかいたん",
+    "firstAppearance": "「新小説」1924（大正13）年4月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-05-28",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000082/card48023.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000082/files/48023_ruby_29786.zip",
+    "textFileId": "48023_ruby_29786",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000082/files/48023_31198.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "文藝別冊［総特集］岡本綺堂",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "2004（平成16）年1月30日",
+      "inputEdition": "2004（平成16）年1月30日",
+      "proofreadEdition": "2004（平成16）年1月30日"
+    },
+    "author": "岡本綺堂",
+    "authors": [
+      {
+        "personId": "000082",
+        "name": "岡本綺堂",
+        "kana": "おかもときどう",
+        "roman": "Kido Okamoto",
+        "role": "著者",
+        "birthDate": "1872-11-15",
+        "deathDate": "1939-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

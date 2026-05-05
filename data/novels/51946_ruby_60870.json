@@ -78,5 +78,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051946",
+    "title": "空手道の起原と其の沿革",
+    "titleKana": "からてどうのきげんとそのえんかく",
+    "sortKana": "からてとうのきけんとそのえんかく",
+    "ndc": "NDC 789",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-03-27",
+    "updatedAt": "2017-01-12",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001526/card51946.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001526/files/51946_ruby_60870.zip",
+    "textFileId": "51946_ruby_60870",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001526/files/51946_60912.html",
+    "inputBy": "向山きよみ",
+    "proofreadBy": "sogo",
+    "baseBook1": {
+      "title": "日本随筆紀行第二四巻　宮崎｜鹿児島｜沖縄　光り溢れる南の海よ",
+      "publisher": "作品社",
+      "firstPublishedAt": "1988（昭和63）年6月10日",
+      "inputEdition": "1988（昭和63）年6月10日第1刷",
+      "proofreadEdition": "1988（昭和63）年6月10日第1刷"
+    },
+    "author": "島袋源一郎",
+    "authors": [
+      {
+        "personId": "001526",
+        "name": "島袋源一郎",
+        "kana": "しまぶくろげんいちろう",
+        "roman": "Gen'ichiro Shimabukuro",
+        "role": "著者",
+        "birthDate": "1885-10-05",
+        "deathDate": "1942-03-27",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

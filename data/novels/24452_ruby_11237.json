@@ -36,5 +36,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "024452",
+    "title": "しるこ",
+    "titleKana": "しるこ",
+    "sortKana": "しるこ",
+    "firstAppearance": "「スヰート　第二巻第三号」明治製菓株式会社、1927（昭和2）年6月15日",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-07-24",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000879/card24452.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000879/files/24452_ruby_11237.zip",
+    "textFileId": "24452_ruby_11237",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000879/files/24452_11251.html",
+    "inputBy": "高柳典子",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "芥川龍之介全集　第九巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1978（昭和53）年4月20日",
+      "inputEdition": "1983（昭和58）年1月20日第2刷"
+    },
+    "author": "芥川竜之介",
+    "authors": [
+      {
+        "personId": "000879",
+        "name": "芥川竜之介",
+        "kana": "あくたがわりゅうのすけ",
+        "roman": "Ryunosuke Akutagawa",
+        "role": "著者",
+        "birthDate": "1892-03-01",
+        "deathDate": "1927-07-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

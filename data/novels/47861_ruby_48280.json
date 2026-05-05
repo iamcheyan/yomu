@@ -172,5 +172,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047861",
+    "title": "水族館",
+    "titleKana": "すいぞくかん",
+    "sortKana": "すいそくかん",
+    "firstAppearance": "「モダン　ＴＯＫＩＯ　圓舞曲」世界大都會尖端ジャズ文學1、春陽堂、1930（昭和5）年5月8日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-09-27",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001030/card47861.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001030/files/47861_ruby_48280.zip",
+    "textFileId": "47861_ruby_48280",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001030/files/47861_48371.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "大沢たかお",
+    "baseBook1": {
+      "title": "堀辰雄作品集第一卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1982（昭和57）年5月28日",
+      "inputEdition": "1982（昭和57）年5月28日初版第1刷",
+      "proofreadEdition": "1982（昭和57）年5月28日初版第1刷"
+    },
+    "author": "堀辰雄",
+    "authors": [
+      {
+        "personId": "001030",
+        "name": "堀辰雄",
+        "kana": "ほりたつお",
+        "roman": "Tatsuo Hori",
+        "role": "著者",
+        "birthDate": "1904-12-28",
+        "deathDate": "1953-05-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

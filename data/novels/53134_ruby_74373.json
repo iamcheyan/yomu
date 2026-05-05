@@ -132,5 +132,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053134",
+    "title": "般若の面",
+    "titleKana": "はんにゃのめん",
+    "sortKana": "はんにやのめん",
+    "firstAppearance": "「赤い鳥」1928（昭和3）年11月",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-11-09",
+    "updatedAt": "2021-10-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001475/card53134.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001475/files/53134_ruby_74373.zip",
+    "textFileId": "53134_ruby_74373",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001475/files/53134_74411.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "へくしん",
+    "baseBook1": {
+      "title": "定本小川未明童話全集　6",
+      "publisher": "講談社",
+      "firstPublishedAt": "1977（昭和52）年4月10日",
+      "inputEdition": "1977（昭和52）年4月10日第1刷",
+      "proofreadEdition": "1977（昭和52）年4月10日第1刷"
+    },
+    "author": "小川未明",
+    "authors": [
+      {
+        "personId": "001475",
+        "name": "小川未明",
+        "kana": "おがわみめい",
+        "roman": "Mimei Ogawa",
+        "role": "著者",
+        "birthDate": "1882-04-07",
+        "deathDate": "1961-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

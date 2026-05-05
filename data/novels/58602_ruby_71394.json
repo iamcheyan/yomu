@@ -466,5 +466,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058602",
+    "title": "柿の木のある家",
+    "titleKana": "かきのきのあるいえ",
+    "sortKana": "かきのきのあるいえ",
+    "firstAppearance": "「柿の木のある家」山の木書店、1949（昭和24）年4月20日<br>「海のたましひ」大日本雄辯會講談社、1944（昭和19）年6月14日",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-08-05",
+    "updatedAt": "2020-07-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001875/card58602.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001875/files/58602_ruby_71394.zip",
+    "textFileId": "58602_ruby_71394",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001875/files/58602_71443.html",
+    "inputBy": "諸富千英子",
+    "proofreadBy": "芝裕久",
+    "baseBook1": {
+      "title": "壺井栄童話集",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1958（昭和33）年3月20日",
+      "inputEdition": "1983（昭和58）年7月30日39刷",
+      "proofreadEdition": "1983（昭和58）年7月30日39刷"
+    },
+    "author": "壺井栄",
+    "authors": [
+      {
+        "personId": "001875",
+        "name": "壺井栄",
+        "kana": "つぼいさかえ",
+        "roman": "Sakae Tsuboi",
+        "role": "著者",
+        "birthDate": "1899-08-05",
+        "deathDate": "1967-06-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

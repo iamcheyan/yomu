@@ -1034,5 +1034,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000542",
+    "title": "貧しき信徒",
+    "titleKana": "まずしきしんと",
+    "sortKana": "ますしきしんと",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-08-20",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000013/card542.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000013/files/542_ruby_471.zip",
+    "textFileId": "542_ruby_471",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000013/files/542_42320.html",
+    "inputBy": "j.utiyama",
+    "proofreadBy": "丹羽倫子",
+    "baseBook1": {
+      "title": "八木重吉詩集",
+      "publisher": "白凰社",
+      "firstPublishedAt": "1969（昭和44）年9月20日",
+      "inputEdition": "1969（昭和44）年9月20日第1刷",
+      "proofreadEdition": "1969（昭和44）年9月20日第1刷"
+    },
+    "author": "八木重吉",
+    "authors": [
+      {
+        "personId": "000013",
+        "name": "八木重吉",
+        "kana": "やぎじゅうきち",
+        "roman": "Jukichi Yagi",
+        "role": "著者",
+        "birthDate": "1898-02-09",
+        "deathDate": "1927-10-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

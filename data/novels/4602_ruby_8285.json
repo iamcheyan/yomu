@@ -404,5 +404,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004602",
+    "title": "蜘蛛となめくじと狸",
+    "titleKana": "くもとなめくじとたぬき",
+    "sortKana": "くもとなめくしとたぬき",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-08-23",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card4602.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/4602_ruby_8285.zip",
+    "textFileId": "4602_ruby_8285",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/4602_11979.html",
+    "inputBy": "久保格",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "新編　風の又三郎",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1989（平成元）年2月25日",
+      "inputEdition": "2001（平成13）年4月25日14刷"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

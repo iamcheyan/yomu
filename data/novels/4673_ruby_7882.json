@@ -2154,5 +2154,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004673",
+    "title": "ガリバー旅行記",
+    "titleKana": "ガリバーりょこうき",
+    "sortKana": "かりはありよこうき",
+    "ndc": "NDC K933",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-05-05",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000912/card4673.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000912/files/4673_ruby_7882.zip",
+    "textFileId": "4673_ruby_7882",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000912/files/4673_9768.html",
+    "inputBy": "kompass",
+    "proofreadBy": "浅原庸子",
+    "baseBook1": {
+      "title": "ガリバー旅行記",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1995（平成7）年6月10日",
+      "inputEdition": "1995（平成7）年6月10日第1刷",
+      "proofreadEdition": "1995（平成7）年6月10日第1刷"
+    },
+    "author": "スウィフトジョナサン",
+    "authors": [
+      {
+        "personId": "000912",
+        "name": "スウィフトジョナサン",
+        "kana": "スウィフトジョナサン",
+        "roman": "Jonathan Swift",
+        "role": "著者",
+        "birthDate": "1667-11-30",
+        "deathDate": "1745-10-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

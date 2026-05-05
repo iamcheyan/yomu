@@ -64,5 +64,54 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060400",
+    "title": "出版屋惣まくり",
+    "titleKana": "しゅっぱんやそうまくり",
+    "sortKana": "しゆつはんやそうまくり",
+    "firstAppearance": "「文藝春秋　第二十七巻第十一号」文藝春秋新社、1949（昭和24）年11月1日",
+    "ndc": "NDC 023 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-01-02",
+    "updatedAt": "2020-12-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001341/card60400.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001341/files/60400_ruby_72425.zip",
+    "textFileId": "60400_ruby_72425",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001341/files/60400_72465.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "きりんの手紙",
+    "baseBook1": {
+      "title": "荷風全集　第十九巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1994（平成6）年11月28日",
+      "inputEdition": "2010（平成22）年10月26日第2刷",
+      "proofreadEdition": "2010（平成22）年10月26日第2刷"
+    },
+    "author": "永井荷風、永井壮吉",
+    "authors": [
+      {
+        "personId": "001341",
+        "name": "永井荷風",
+        "kana": "ながいかふう",
+        "roman": "Kafu Nagai",
+        "role": "著者",
+        "birthDate": "1879-12-03",
+        "deathDate": "1959-04-30",
+        "copyright": "なし"
+      },
+      {
+        "personId": "002098",
+        "name": "永井壮吉",
+        "kana": "ながいそうきち",
+        "roman": "Soukichi Nagai",
+        "role": "著者",
+        "birthDate": "1879-12-03",
+        "deathDate": "1959-04-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

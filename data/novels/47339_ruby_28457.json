@@ -26,5 +26,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047339",
+    "title": "人魂火",
+    "titleKana": "ひとだま",
+    "sortKana": "ひとたま",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-12-11",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000726/card47339.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000726/files/47339_ruby_28457.zip",
+    "textFileId": "47339_ruby_28457",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000726/files/47339_28724.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "文豪怪談傑作選・特別篇　百物語怪談会",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2007（平成19）年7月10日",
+      "inputEdition": "2007（平成19）年7月10日第1刷",
+      "proofreadEdition": "2007（平成19）年7月10日第1刷"
+    },
+    "author": "長谷川時雨",
+    "authors": [
+      {
+        "personId": "000726",
+        "name": "長谷川時雨",
+        "kana": "はせがわしぐれ",
+        "roman": "Shigure Hasegawa",
+        "role": "著者",
+        "birthDate": "1879-10-01",
+        "deathDate": "1941-08-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

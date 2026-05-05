@@ -670,5 +670,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043245",
+    "title": "裏切り",
+    "titleKana": "うらぎり",
+    "sortKana": "うらきり",
+    "firstAppearance": "「新潮　第五一巻第九号」1954（昭和29）年9月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-11-20",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card43245.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/43245_ruby_24279.zip",
+    "textFileId": "43245_ruby_24279",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/43245_24428.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "坂口安吾全集　15",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年10月20日",
+      "inputEdition": "1999（平成11）年10月20日初版第1刷",
+      "proofreadEdition": "1999（平成11）年10月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

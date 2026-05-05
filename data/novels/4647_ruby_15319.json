@@ -256,5 +256,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004647",
+    "title": "大島行",
+    "titleKana": "おおしまゆき",
+    "sortKana": "おおしまゆき",
+    "ndc": "NDC 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-06-02",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000291/card4647.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000291/files/4647_ruby_15319.zip",
+    "textFileId": "4647_ruby_15319",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000291/files/4647_15558.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "現代日本紀行文学全集　東日本編",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1976（昭和51）年8月1日",
+      "inputEdition": "1976（昭和51）年8月1日初版"
+    },
+    "author": "林芙美子",
+    "authors": [
+      {
+        "personId": "000291",
+        "name": "林芙美子",
+        "kana": "はやしふみこ",
+        "roman": "Fumiko Hayashi",
+        "role": "著者",
+        "birthDate": "1903-12-31",
+        "deathDate": "1951-06-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

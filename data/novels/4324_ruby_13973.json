@@ -154,5 +154,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004324",
+    "title": "死刑の前",
+    "titleKana": "しけいのまえ",
+    "sortKana": "しけいのまえ",
+    "ndc": "NDC 309 916",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-01-24",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000261/card4324.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000261/files/4324_ruby_13973.zip",
+    "textFileId": "4324_ruby_13973",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000261/files/4324_14048.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "今井忠夫",
+    "baseBook1": {
+      "title": "日本の名著　44　幸徳秋水",
+      "publisher": "中公バックス、中央公論社",
+      "firstPublishedAt": "1984（昭和59）年10月20日",
+      "inputEdition": "1984（昭和59）年10月20日初版",
+      "proofreadEdition": "1984（昭和59）年10月20日初版"
+    },
+    "author": "幸徳秋水",
+    "authors": [
+      {
+        "personId": "000261",
+        "name": "幸徳秋水",
+        "kana": "こうとくしゅうすい",
+        "roman": "Shusui Kotoku",
+        "role": "著者",
+        "birthDate": "1871-11-05",
+        "deathDate": "1911-01-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

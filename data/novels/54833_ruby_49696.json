@@ -280,5 +280,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054833",
+    "title": "釣十二ヶ月",
+    "titleKana": "つりじゅうにかげつ",
+    "sortKana": "つりしゆうにかけつ",
+    "ndc": "NDC 787",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-01-10",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001676/card54833.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001676/files/54833_ruby_49696.zip",
+    "textFileId": "54833_ruby_49696",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001676/files/54833_49697.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "集成　日本の釣り文学　第四巻　釣りと旅と",
+      "publisher": "作品社",
+      "firstPublishedAt": "1995（平成7）年12月10日",
+      "inputEdition": "1995（平成7）年12月10日第1刷",
+      "proofreadEdition": "1995（平成7）年12月10日第1刷"
+    },
+    "author": "正木不如丘",
+    "authors": [
+      {
+        "personId": "001676",
+        "name": "正木不如丘",
+        "kana": "まさきふじょきゅう",
+        "roman": "Fujokyu Masaki",
+        "role": "著者",
+        "birthDate": "1887-02-26",
+        "deathDate": "1962-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

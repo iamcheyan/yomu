@@ -88,5 +88,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056248",
+    "title": "木乃伊",
+    "titleKana": "みいら",
+    "sortKana": "みいら",
+    "firstAppearance": "「光と風と夢」筑摩書房、1942（昭和17）年7月15日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-05-05",
+    "updatedAt": "2021-04-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000119/card56248.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000119/files/56248_ruby_73153.zip",
+    "textFileId": "56248_ruby_73153",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000119/files/56248_73193.html",
+    "inputBy": "小池健太",
+    "proofreadBy": "久木舜",
+    "baseBook1": {
+      "title": "ちくま日本文学012　中島敦",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2008（平成20）年3月10日",
+      "inputEdition": "2009（平成21）年6月20日第3刷",
+      "proofreadEdition": "2012（平成24）年9月25日第7刷"
+    },
+    "author": "中島敦",
+    "authors": [
+      {
+        "personId": "000119",
+        "name": "中島敦",
+        "kana": "なかじまあつし",
+        "roman": "Atsushi Nakajima",
+        "role": "著者",
+        "birthDate": "1909-05-05",
+        "deathDate": "1942-12-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

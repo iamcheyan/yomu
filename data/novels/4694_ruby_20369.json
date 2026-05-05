@@ -88,5 +88,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004694",
+    "title": "潮霧",
+    "titleKana": "ガス",
+    "sortKana": "かす",
+    "firstAppearance": "「時事新報　第11839號～第11841號」1916（大正5）年8月1日～3日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-12-11",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000025/card4694.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000025/files/4694_ruby_20369.zip",
+    "textFileId": "4694_ruby_20369",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000025/files/4694_20526.html",
+    "inputBy": "鈴木智子",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "有島武郎全集第二卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1980（昭和55）年2月20日",
+      "inputEdition": "2001（平成13）年7月10日初版第3刷",
+      "proofreadEdition": "1980（昭和55）年2月20日初版"
+    },
+    "author": "有島武郎",
+    "authors": [
+      {
+        "personId": "000025",
+        "name": "有島武郎",
+        "kana": "ありしまたけお",
+        "roman": "Takeo Arishima",
+        "role": "著者",
+        "birthDate": "1878-03-04",
+        "deathDate": "1923-06-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -52,5 +52,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060320",
+    "title": "おばけの声",
+    "titleKana": "おばけのこえ",
+    "sortKana": "おはけのこえ",
+    "firstAppearance": "「家庭朝日　第一巻第六号」東京朝日新聞社発行所、1931（昭和6）年8月1日",
+    "ndc": "NDC 387",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-06-02",
+    "updatedAt": "2022-05-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001566/card60320.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001566/files/60320_ruby_75615.zip",
+    "textFileId": "60320_ruby_75615",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001566/files/60320_75645.html",
+    "inputBy": "青井優佳",
+    "proofreadBy": "津村田悟",
+    "baseBook1": {
+      "title": "妖怪談義",
+      "publisher": "講談社学術文庫、講談社",
+      "firstPublishedAt": "1977（昭和52）年4月10日",
+      "inputEdition": "1978（昭和53）年9月10日第2刷",
+      "proofreadEdition": "1978（昭和53）年9月10日第2刷"
+    },
+    "author": "柳田国男",
+    "authors": [
+      {
+        "personId": "001566",
+        "name": "柳田国男",
+        "kana": "やなぎたくにお",
+        "roman": "Kunio Yanagita",
+        "role": "著者",
+        "birthDate": "1875-07-31",
+        "deathDate": "1962-08-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

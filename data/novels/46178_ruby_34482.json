@@ -108,5 +108,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046178",
+    "title": "狂馬",
+    "titleKana": "きょうば",
+    "sortKana": "きようは",
+    "firstAppearance": "「新青年」博文館、1931（昭和6）年7月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-04-24",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000134/card46178.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000134/files/46178_ruby_34482.zip",
+    "textFileId": "46178_ruby_34482",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000134/files/46178_34799.html",
+    "inputBy": "田中敬三",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "佐左木俊郎選集",
+      "publisher": "英宝社",
+      "firstPublishedAt": "1984（昭和59）年4月14日",
+      "inputEdition": "1984（昭和59）年4月14日初版",
+      "proofreadEdition": "1984（昭和59）年4月14日初版"
+    },
+    "author": "佐左木俊郎",
+    "authors": [
+      {
+        "personId": "000134",
+        "name": "佐左木俊郎",
+        "kana": "ささきとしろう",
+        "roman": "Toshiro Sasaki",
+        "role": "著者",
+        "birthDate": "1900-04-14",
+        "deathDate": "1933-03-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

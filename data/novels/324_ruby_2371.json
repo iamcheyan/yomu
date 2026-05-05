@@ -212,5 +212,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000324",
+    "title": "非凡なる凡人",
+    "titleKana": "ひぼんなるぼんじん",
+    "sortKana": "ひほんなるほんしん",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-09-01",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000038/card324.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000038/files/324_ruby_2371.zip",
+    "textFileId": "324_ruby_2371",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000038/files/324_15711.html",
+    "inputBy": "宮崎達郎",
+    "proofreadBy": "久保あきら",
+    "baseBook1": {
+      "title": "日本文学全集12　国木田独歩　石川啄木集",
+      "publisher": "集英社",
+      "firstPublishedAt": "1972（昭和47）年10月7日"
+    },
+    "author": "国木田独歩",
+    "authors": [
+      {
+        "personId": "000038",
+        "name": "国木田独歩",
+        "kana": "くにきだどっぽ",
+        "roman": "Doppo Kunikida",
+        "role": "著者",
+        "birthDate": "1871-08-30",
+        "deathDate": "1908-06-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

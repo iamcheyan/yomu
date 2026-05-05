@@ -46,5 +46,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049789",
+    "title": "「鐵」の字の古体と古代の文化",
+    "titleKana": "「てつ」のじのこたいとこだいのぶんか",
+    "sortKana": "てつのしのこたいとこたいのふんか",
+    "firstAppearance": "「民族と歴史　第一巻第三号」1919（大正8）年3月",
+    "ndc": "NDC 210",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-07-03",
+    "updatedAt": "2021-06-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001344/card49789.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001344/files/49789_ruby_73635.zip",
+    "textFileId": "49789_ruby_73635",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001344/files/49789_73674.html",
+    "inputBy": "しだひろし",
+    "proofreadBy": "杉浦鳥見",
+    "baseBook1": {
+      "title": "喜田貞吉著作集　第一巻　石器時代と考古学",
+      "publisher": "平凡社",
+      "firstPublishedAt": "1981（昭和56）年7月30日",
+      "inputEdition": "1981（昭和56）年7月30日初版第1刷",
+      "proofreadEdition": "1981（昭和56）年7月30日初版第1刷"
+    },
+    "author": "喜田貞吉",
+    "authors": [
+      {
+        "personId": "001344",
+        "name": "喜田貞吉",
+        "kana": "きたさだきち",
+        "roman": "Sadakichi Kita",
+        "role": "著者",
+        "birthDate": "1871-07-11",
+        "deathDate": "1939-07-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

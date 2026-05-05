@@ -368,5 +368,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051229",
+    "title": "父の婚礼",
+    "titleKana": "ちちのこんれい",
+    "sortKana": "ちちのこんれい",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-06-21",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000248/card51229.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000248/files/51229_ruby_42739.zip",
+    "textFileId": "51229_ruby_42739",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000248/files/51229_42909.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "鱧の皮",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1952（昭和27）年11月5日",
+      "inputEdition": "2009（平成21）年2月19日第4刷",
+      "proofreadEdition": "2009（平成21）年2月19日第4刷"
+    },
+    "author": "上司小剣",
+    "authors": [
+      {
+        "personId": "000248",
+        "name": "上司小剣",
+        "kana": "かみつかさしょうけん",
+        "roman": "Shoken Kamitsukasa",
+        "role": "著者",
+        "birthDate": "1874-12-15",
+        "deathDate": "1947-09-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

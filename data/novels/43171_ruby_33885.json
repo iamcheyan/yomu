@@ -102,5 +102,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043171",
+    "title": "スポーツ・文学・政治",
+    "titleKana": "スポーツ・ぶんがく・せいじ",
+    "sortKana": "すほおつふんかくせいし",
+    "firstAppearance": "「近代文学　第四巻第一一号」1949（昭和24）年11月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-04-01",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card43171.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/43171_ruby_33885.zip",
+    "textFileId": "43171_ruby_33885",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/43171_34359.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "坂口安吾全集　08",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1998（平成10）年9月20日",
+      "inputEdition": "1998（平成10）年9月20日初版第1刷",
+      "proofreadEdition": "1998（平成10）年9月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

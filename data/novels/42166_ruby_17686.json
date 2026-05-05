@@ -54,5 +54,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042166",
+    "title": "蜂が団子をこしらえる話",
+    "titleKana": "はちがだんごをこしらえるはなし",
+    "sortKana": "はちかたんこをこしらえるはなし",
+    "firstAppearance": "「解放」1921（大正10）年7月",
+    "ndc": "NDC 486",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-03-12",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000042/card42166.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000042/files/42166_ruby_17686.zip",
+    "textFileId": "42166_ruby_17686",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000042/files/42166_17940.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "寺田寅彦全集　第二巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1997（平成9）年1月9日",
+      "inputEdition": "1997（平成9）年1月9日",
+      "proofreadEdition": "1997（平成9）年1月9日"
+    },
+    "author": "寺田寅彦",
+    "authors": [
+      {
+        "personId": "000042",
+        "name": "寺田寅彦",
+        "kana": "てらだとらひこ",
+        "roman": "Torahiko Terada",
+        "role": "著者",
+        "birthDate": "1878-11-28",
+        "deathDate": "1935-12-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

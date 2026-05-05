@@ -4644,5 +4644,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056155",
+    "title": "かんかん虫は唄う",
+    "titleKana": "かんかんむしはうたう",
+    "sortKana": "かんかんむしはうたう",
+    "firstAppearance": "「週刊朝日」1930（昭和5）年10月号～1931（昭和6）年2月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-06-01",
+    "updatedAt": "2017-05-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001562/card56155.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001562/files/56155_ruby_61532.zip",
+    "textFileId": "56155_ruby_61532",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001562/files/56155_61815.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "トレンドイースト",
+    "baseBook1": {
+      "title": "かんかん虫は唄う",
+      "publisher": "吉川英治歴史時代文庫、講談社",
+      "firstPublishedAt": "1990（平成2）年9月11日",
+      "inputEdition": "2009（平成21）年3月2日第10刷",
+      "proofreadEdition": "2012（平成24）年7月2日第11刷"
+    },
+    "author": "吉川英治",
+    "authors": [
+      {
+        "personId": "001562",
+        "name": "吉川英治",
+        "kana": "よしかわえいじ",
+        "roman": "Eiji Yoshikawa",
+        "role": "著者",
+        "birthDate": "1892-08-11",
+        "deathDate": "1962-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -330,5 +330,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042565",
+    "title": "文学以前",
+    "titleKana": "ぶんがくいぜん",
+    "sortKana": "ふんかくいせん",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-06-27",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000906/card42565.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000906/files/42565_ruby_22863.zip",
+    "textFileId": "42565_ruby_22863",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000906/files/42565_22873.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "豊島与志雄著作集　第六巻（随筆・評論・他）",
+      "publisher": "未来社",
+      "firstPublishedAt": "1967（昭和42）年11月10日",
+      "inputEdition": "1967（昭和42）年11月10日第1刷",
+      "proofreadEdition": "1967（昭和42）年11月10日第1刷"
+    },
+    "author": "豊島与志雄",
+    "authors": [
+      {
+        "personId": "000906",
+        "name": "豊島与志雄",
+        "kana": "とよしまよしお",
+        "roman": "Yoshio Toyoshima",
+        "role": "著者",
+        "birthDate": "1890-11-27",
+        "deathDate": "1955-06-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -1392,5 +1392,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056847",
+    "title": "少将滋幹の母",
+    "titleKana": "しょうしょうしげもとのはは",
+    "sortKana": "しようしようしけもとのはは",
+    "firstAppearance": "「毎日新聞」毎日新聞社、1949（昭和24）年11月16日～1950（昭和25）年2月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-03-09",
+    "updatedAt": "2017-04-19",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001383/card56847.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001383/files/56847_ruby_58228.zip",
+    "textFileId": "56847_ruby_58228",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001383/files/56847_58242.html",
+    "inputBy": "kompass",
+    "proofreadBy": "酒井裕二",
+    "baseBook1": {
+      "title": "少将滋幹の母",
+      "publisher": "中公文庫、中央公論社",
+      "firstPublishedAt": "2006（平成18）年3月25日",
+      "inputEdition": "2006（平成18）年3月25日初版",
+      "proofreadEdition": "2006（平成18）年3月25日初版"
+    },
+    "author": "谷崎潤一郎",
+    "authors": [
+      {
+        "personId": "001383",
+        "name": "谷崎潤一郎",
+        "kana": "たにざきじゅんいちろう",
+        "roman": "Jun'ichiro Tanizaki",
+        "role": "著者",
+        "birthDate": "1886-07-24",
+        "deathDate": "1965-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

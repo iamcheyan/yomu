@@ -306,5 +306,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001335",
+    "title": "業苦",
+    "titleKana": "ごうく",
+    "sortKana": "こうく",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-02-27",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000249/card1335.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000249/files/1335_ruby_20681.zip",
+    "textFileId": "1335_ruby_20681",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000249/files/1335_20682.html",
+    "inputBy": "伊藤時也",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "日本文學全集　34　梶井基次郎　嘉村礒多　中島敦集",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1962（昭和37）年4月20日"
+    },
+    "author": "嘉村礒多",
+    "authors": [
+      {
+        "personId": "000249",
+        "name": "嘉村礒多",
+        "kana": "かむらいそた",
+        "roman": "Isota Kamura",
+        "role": "著者",
+        "birthDate": "1897-12-15",
+        "deathDate": "1933-11-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

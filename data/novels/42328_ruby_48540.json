@@ -116,5 +116,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042328",
+    "title": "長者",
+    "titleKana": "ちょうじゃ",
+    "sortKana": "ちようしや",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-11-21",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000154/card42328.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000154/files/42328_ruby_48540.zip",
+    "textFileId": "42328_ruby_48540",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000154/files/42328_49001.html",
+    "inputBy": "Hiroshi_O",
+    "proofreadBy": "大野裕",
+    "baseBook1": {
+      "title": "日本怪談全集　Ⅱ",
+      "publisher": "桃源社",
+      "firstPublishedAt": "1974（昭和49）年7月5日",
+      "inputEdition": "1975（昭和50）年7月25日2刷",
+      "proofreadEdition": "1970（昭和45）年8月10日"
+    },
+    "author": "田中貢太郎",
+    "authors": [
+      {
+        "personId": "000154",
+        "name": "田中貢太郎",
+        "kana": "たなかこうたろう",
+        "roman": "Kotaro Tanaka",
+        "role": "著者",
+        "birthDate": "1880-03-02",
+        "deathDate": "1941-02-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -244,5 +244,54 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003357",
+    "title": "空気男",
+    "titleKana": "くうきおとこ",
+    "sortKana": "くうきおとこ",
+    "firstAppearance": "「モダン日本」1937（昭和12）年1月～8月、10月～12月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-02-17",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card3357.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/3357_ruby_17550.zip",
+    "textFileId": "3357_ruby_17550",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/3357_17552.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "海野十三全集　第6巻　太平洋魔城",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1989（平成元）年9月15日",
+      "inputEdition": "1989（平成元）年9月15日第1版第1刷",
+      "proofreadEdition": "1989（平成元）年9月15日第1版第1刷"
+    },
+    "author": "海野十三、丘丘十郎",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      },
+      {
+        "personId": "000965",
+        "name": "丘丘十郎",
+        "kana": "おかきゅうじゅうろう",
+        "roman": "Kyujuro Oka",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

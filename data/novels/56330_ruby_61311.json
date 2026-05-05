@@ -220,5 +220,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056330",
+    "title": "ジェンナー伝",
+    "titleKana": "ジェンナーでん",
+    "sortKana": "しえんなあてん",
+    "firstAppearance": "「少年倶楽部」講談社、1928（昭和3）年5月号",
+    "ndc": "NDC K289",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-05-17",
+    "updatedAt": "2017-03-11",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000262/card56330.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000262/files/56330_ruby_61311.zip",
+    "textFileId": "56330_ruby_61311",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000262/files/56330_61354.html",
+    "inputBy": "sogo",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "少年倶楽部名作選3　少年詩・童謡ほか",
+      "publisher": "講談社",
+      "firstPublishedAt": "1966（昭和41）年12月17日",
+      "inputEdition": "1966（昭和41）年12月17日",
+      "proofreadEdition": "1966（昭和41）年12月17日"
+    },
+    "author": "小酒井不木",
+    "authors": [
+      {
+        "personId": "000262",
+        "name": "小酒井不木",
+        "kana": "こざかいふぼく",
+        "roman": "Fuboku Kosakai",
+        "role": "著者",
+        "birthDate": "1890-10-08",
+        "deathDate": "1929-04-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

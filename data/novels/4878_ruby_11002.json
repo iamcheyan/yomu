@@ -66,5 +66,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004878",
+    "title": "瓢作り",
+    "titleKana": "ひさごづくり",
+    "sortKana": "ひさこつくり",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-08-01",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000606/card4878.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000606/files/4878_ruby_11002.zip",
+    "textFileId": "4878_ruby_11002",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000606/files/4878_11292.html",
+    "inputBy": "氷魚",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "花の名随筆8　八月の花",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年7月10日",
+      "inputEdition": "1999（平成11）年7月10日初版第1刷",
+      "proofreadEdition": "1999（平成11）年7月10日初版第1刷"
+    },
+    "author": "杉田久女",
+    "authors": [
+      {
+        "personId": "000606",
+        "name": "杉田久女",
+        "kana": "すぎたひさじょ",
+        "roman": "Hisajo Sugita",
+        "role": "著者",
+        "birthDate": "1890-05-30",
+        "deathDate": "1946-01-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

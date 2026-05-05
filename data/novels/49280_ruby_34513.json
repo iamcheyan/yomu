@@ -316,5 +316,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049280",
+    "title": "父の死",
+    "titleKana": "ちちのし",
+    "sortKana": "ちちのし",
+    "firstAppearance": "「新思潮」1916（大正5）年2月号",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-03-01",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001151/card49280.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001151/files/49280_ruby_34513.zip",
+    "textFileId": "49280_ruby_34513",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001151/files/49280_34317.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "ふるさと文学館　第二四巻　【長野】",
+      "publisher": "ぎょうせい",
+      "firstPublishedAt": "1993（平成５）年10月15日",
+      "inputEdition": "1993（平成５）年10月15日初版",
+      "proofreadEdition": "1993（平成5）年10月15日初版"
+    },
+    "author": "久米正雄",
+    "authors": [
+      {
+        "personId": "001151",
+        "name": "久米正雄",
+        "kana": "くめまさお",
+        "roman": "Masao Kume",
+        "role": "著者",
+        "birthDate": "1891-11-23",
+        "deathDate": "1952-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

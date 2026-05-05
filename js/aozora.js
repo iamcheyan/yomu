@@ -11,7 +11,7 @@ const YomuAozora = {
     async downloadBook(bookMeta) {
         // 由于我们已经将所有文件名重命名为标准的 ID (fileId)，
         // 现在的逻辑变得非常简单和可靠：直接使用 ID 拼接 URL。
-        const bookId = bookMeta.id || bookMeta.workId || bookMeta.fileId;
+        const bookId = bookMeta.id || bookMeta.fileId || bookMeta.workId;
         const url = `${this.GITHUB_RAW}${bookId}.json`;
 
         console.log(`Downloading book: ${bookId} from ${url}`);

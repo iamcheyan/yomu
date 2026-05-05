@@ -42,5 +42,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048376",
+    "title": "鸚鵡",
+    "titleKana": "おうむ",
+    "sortKana": "おうむ",
+    "subtitle": "（フランス）",
+    "subtitleKana": "（フランス）",
+    "firstAppearance": "「コドモノクニ」1928（昭和3）年10月号",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-09-17",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000754/card48376.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000754/files/48376_ruby_31929.zip",
+    "textFileId": "48376_ruby_31929",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000754/files/48376_32555.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "思い出の名作絵本　岡本帰一",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "2001（平成13）年8月30日",
+      "inputEdition": "2001（平成13）年8月30日初版",
+      "proofreadEdition": "2001（平成13）年8月30日初版"
+    },
+    "author": "福士幸次郎",
+    "authors": [
+      {
+        "personId": "000754",
+        "name": "福士幸次郎",
+        "kana": "ふくしこうじろう",
+        "roman": "Kojiro Fukushi",
+        "role": "著者",
+        "birthDate": "1889-11-05",
+        "deathDate": "1946-10-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -260,5 +260,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002661",
+    "title": "ある遊郭での出来事",
+    "titleKana": "あるゆうかくでのできごと",
+    "sortKana": "あるゆうかくてのてきこと",
+    "subtitle": "公娼存廃論者への参考資料としての実例",
+    "subtitleKana": "こうしょうそんぱいろんじゃへのさんこうしりょうとしてのじつれい",
+    "firstAppearance": "「婦人公論　第十年八号」中央公論社、1925（大正14）年8月1日",
+    "ndc": "NDC 916",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-03-19",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000331/card2661.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000331/files/2661_ruby_3551.zip",
+    "textFileId": "2661_ruby_3551",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000331/files/2661_47931.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "小林徹",
+    "baseBook1": {
+      "title": "空にむかひて",
+      "publisher": "武蔵野書房",
+      "firstPublishedAt": "2001（平成13）年1月21日"
+    },
+    "author": "若杉鳥子",
+    "authors": [
+      {
+        "personId": "000331",
+        "name": "若杉鳥子",
+        "kana": "わかすぎとりこ",
+        "roman": "Toriko Wakasugi",
+        "role": "著者",
+        "birthDate": "1892-12-21",
+        "deathDate": "1937-12-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

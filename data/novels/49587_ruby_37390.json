@@ -80,5 +80,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049587",
+    "title": "利尻山とその植物",
+    "titleKana": "りしりざんとそのしょくぶつ",
+    "sortKana": "りしりさんとそのしよくふつ",
+    "firstAppearance": "「山岳　一の二」1906（明治39）年6月",
+    "ndc": "NDC 470 786",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-03-22",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001266/card49587.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001266/files/49587_ruby_37390.zip",
+    "textFileId": "49587_ruby_37390",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001266/files/49587_38164.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "山の旅　明治・大正篇",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2003（平成15）年9月17日",
+      "inputEdition": "2004（平成16）年2月14日第3刷",
+      "proofreadEdition": "2004（平成16）年2月14日第3刷"
+    },
+    "author": "牧野富太郎",
+    "authors": [
+      {
+        "personId": "001266",
+        "name": "牧野富太郎",
+        "kana": "まきのとみたろう",
+        "roman": "Tomitaro Makino",
+        "role": "著者",
+        "birthDate": "1862-05-22",
+        "deathDate": "1957-01-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

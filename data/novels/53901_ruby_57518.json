@@ -34,5 +34,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053901",
+    "title": "ホッキ巻",
+    "titleKana": "ホッキまき",
+    "sortKana": "ほつきまき",
+    "firstAppearance": "「北海道風物誌」楡書房、1956（昭和31）年8月",
+    "ndc": "NDC 291",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-12-01",
+    "updatedAt": "2015-09-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001540/card53901.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001540/files/53901_ruby_57518.zip",
+    "textFileId": "53901_ruby_57518",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001540/files/53901_57564.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "和人は舟を食う",
+      "publisher": "北海道出版企画センター",
+      "firstPublishedAt": "2000（平成12）年6月9日",
+      "inputEdition": "2000（平成12）年6月9日発行",
+      "proofreadEdition": "2000（平成12）年6月9日発行"
+    },
+    "author": "知里真志保",
+    "authors": [
+      {
+        "personId": "001540",
+        "name": "知里真志保",
+        "kana": "ちりましほ",
+        "roman": "Mashiho Chiri",
+        "role": "著者",
+        "birthDate": "1909-02-24",
+        "deathDate": "1961-06-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

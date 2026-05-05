@@ -110,5 +110,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003419",
+    "title": "田舎の新春",
+    "titleKana": "いなかのしんしゅん",
+    "sortKana": "いなかのしんしゆん",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-08-11",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000370/card3419.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000370/files/3419_ruby_11283.zip",
+    "textFileId": "3419_ruby_11283",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000370/files/3419_11794.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "雪あかり",
+      "publisher": "書物展望社",
+      "firstPublishedAt": "1934（昭和9）年6月27日",
+      "inputEdition": "1934（昭和9）年6月27日上梓"
+    },
+    "author": "横瀬夜雨",
+    "authors": [
+      {
+        "personId": "000370",
+        "name": "横瀬夜雨",
+        "kana": "よこせやう",
+        "roman": "Yau Yokose",
+        "role": "著者",
+        "birthDate": "1878-01-01",
+        "deathDate": "1934-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

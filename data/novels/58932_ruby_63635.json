@@ -42,5 +42,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058932",
+    "title": "本因坊秀哉",
+    "titleKana": "ほんいんぼうしゅうさい",
+    "sortKana": "ほんいんほうしゆうさい",
+    "firstAppearance": "「囲碁世界」1950（昭和25）年1月号",
+    "ndc": "NDC 795",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-01-01",
+    "updatedAt": "2018-01-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001927/card58932.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001927/files/58932_ruby_63635.zip",
+    "textFileId": "58932_ruby_63635",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001927/files/58932_63636.html",
+    "inputBy": "大久保ゆう",
+    "proofreadBy": "富田晶子",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻11　囲碁Ⅱ",
+      "publisher": "作品社",
+      "firstPublishedAt": "1992（平成4）年1月25日",
+      "inputEdition": "1992（平成4）年1月25日第1刷",
+      "proofreadEdition": "1992（平成4）年1月25日第1刷"
+    },
+    "author": "野上彰",
+    "authors": [
+      {
+        "personId": "001927",
+        "name": "野上彰",
+        "kana": "のがみあきら",
+        "roman": "Akira Nogami",
+        "role": "著者",
+        "birthDate": "1909-02-15",
+        "deathDate": "1967-11-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

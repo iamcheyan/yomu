@@ -756,5 +756,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043561",
+    "title": "猿ヶ京片耳伝説",
+    "titleKana": "さるがきょうかたみみでんせつ",
+    "sortKana": "さるかきようかたみみてんせつ",
+    "firstAppearance": "「冨士」1937（昭和12）年10月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-12-21",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card43561.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/43561_ruby_16986.zip",
+    "textFileId": "43561_ruby_16986",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/43561_17046.html",
+    "inputBy": "阿和泉拓",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "怪しの館　短編",
+      "publisher": "国枝史郎伝奇文庫28、講談社",
+      "firstPublishedAt": "1976（昭和51）年11月12日",
+      "inputEdition": "1976（昭和51）年11月12日第1刷",
+      "proofreadEdition": "1976（昭和51）年11月12日第1刷"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

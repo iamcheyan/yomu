@@ -42,5 +42,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060918",
+    "title": "女中",
+    "titleKana": "じょちゅう",
+    "sortKana": "しよちゆう",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-05-16",
+    "updatedAt": "2022-04-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001787/card60918.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001787/files/60918_ruby_75436.zip",
+    "textFileId": "60918_ruby_75436",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001787/files/60918_75468.html",
+    "inputBy": "hitsuji",
+    "proofreadBy": "かな　とよみ",
+    "baseBook1": {
+      "title": "日本の詩歌　26　近代詩集",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1970（昭和45）年4月15日",
+      "inputEdition": "1979（昭和54）年11月20日新訂版",
+      "proofreadEdition": "1979（昭和54）年11月20日新訂版"
+    },
+    "author": "石川善助",
+    "authors": [
+      {
+        "personId": "001787",
+        "name": "石川善助",
+        "kana": "いしかわぜんすけ",
+        "roman": "Zensuke Ishikawa",
+        "role": "著者",
+        "birthDate": "1901-05-16",
+        "deathDate": "1932-06-27",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

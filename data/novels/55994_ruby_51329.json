@@ -634,5 +634,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055994",
+    "title": "黒部川奥の山旅",
+    "titleKana": "くろべがわおくのやまたび",
+    "sortKana": "くろへかわおくのやまたひ",
+    "firstAppearance": "片貝谷まで、南又を遡る、釜谷の奥、小黒部谷の入り・上（毛勝山及び猫又山）「山岳」1915（大正4）年12月<br> 小黒部谷の入り・中（赤谷山及び赤兀白兀）、小黒部谷の入り・下（大窓及び池の平）、劒岳「山岳」1916（大正5）年12月<br> 立山を越ゆ、黒部川の峡谷、附記「山の憶ひ出　上巻」龍星閣、1938（昭和13）年12月",
+    "ndc": "NDC 291 786",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-10-30",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001373/card55994.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001373/files/55994_ruby_51329.zip",
+    "textFileId": "55994_ruby_51329",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001373/files/55994_51330.html",
+    "inputBy": "栗原晶子",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "山の憶い出　上",
+      "publisher": "平凡社ライブラリー、平凡社",
+      "firstPublishedAt": "1999（平成11）年6月15日",
+      "inputEdition": "1999（平成11）年6月15日初版第1刷",
+      "proofreadEdition": "1999（平成11）年6月15日初版第1刷"
+    },
+    "author": "木暮理太郎",
+    "authors": [
+      {
+        "personId": "001373",
+        "name": "木暮理太郎",
+        "kana": "こぐれりたろう",
+        "roman": "Ritaro Kogure",
+        "role": "著者",
+        "birthDate": "1873",
+        "deathDate": "1944-05-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

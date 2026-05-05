@@ -48,5 +48,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060457",
+    "title": "古調月明集",
+    "titleKana": "こちょうげつめいしゅう",
+    "sortKana": "こちようけつめいしゆう",
+    "subtitle": "01 月明二章",
+    "subtitleKana": "01 げつめいにしょう",
+    "firstAppearance": "「古調月明集」昭森社、1940（昭和15）年9月10日",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-11-02",
+    "updatedAt": "2020-10-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000106/card60457.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000106/files/60457_ruby_72062.zip",
+    "textFileId": "60457_ruby_72062",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000106/files/60457_72103.html",
+    "inputBy": "竹井真",
+    "proofreadBy": "植松健伍",
+    "baseBook1": {
+      "title": "古調月明集",
+      "publisher": "昭森社",
+      "firstPublishedAt": "1940（昭和15）年9月10日",
+      "inputEdition": "1940（昭和15）年9月10日",
+      "proofreadEdition": "1940（昭和15）年9月10日"
+    },
+    "author": "北原白秋",
+    "authors": [
+      {
+        "personId": "000106",
+        "name": "北原白秋",
+        "kana": "きたはらはくしゅう",
+        "roman": "Hakushu Kitahara",
+        "role": "著者",
+        "birthDate": "1885-01-25",
+        "deathDate": "1942-11-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

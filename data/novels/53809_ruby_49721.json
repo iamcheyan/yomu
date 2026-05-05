@@ -1074,5 +1074,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053809",
+    "title": "こども風土記",
+    "titleKana": "こどもふどき",
+    "sortKana": "こともふとき",
+    "firstAppearance": "「朝日新聞」1941（昭和16）年4月1日～5月16日、鹿遊びの分布「民間伝承　六巻九号」1941（昭和16）年6月号",
+    "ndc": "NDC 384",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-01-13",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001566/card53809.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001566/files/53809_ruby_49721.zip",
+    "textFileId": "53809_ruby_49721",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001566/files/53809_49722.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "こども風土記・母の手毬歌",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1976（昭和51）年12月16日",
+      "inputEdition": "2009（平成21）年7月9日第12版",
+      "proofreadEdition": "2009（平成21）年7月9日第12刷"
+    },
+    "author": "柳田国男",
+    "authors": [
+      {
+        "personId": "001566",
+        "name": "柳田国男",
+        "kana": "やなぎたくにお",
+        "roman": "Kunio Yanagita",
+        "role": "著者",
+        "birthDate": "1875-07-31",
+        "deathDate": "1962-08-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

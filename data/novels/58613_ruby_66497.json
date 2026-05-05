@@ -66,5 +66,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058613",
+    "title": "探偵小説と犯罪事件",
+    "titleKana": "たんていしょうせつとはんざいじけん",
+    "sortKana": "たんていしようせつとはんさいしけん",
+    "firstAppearance": "「ぷろふぃる」1947（昭和22）年4月号",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-12-26",
+    "updatedAt": "2018-11-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card58613.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/58613_ruby_66497.zip",
+    "textFileId": "58613_ruby_66497",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/58613_66542.html",
+    "inputBy": "フクポー",
+    "proofreadBy": "高瀬竜一",
+    "baseBook1": {
+      "title": "海野十三全集　別巻2　日記・書簡・雑纂",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1993（平成5）年1月31日",
+      "inputEdition": "1993（平成5）年1月31日第1版第1刷",
+      "proofreadEdition": "1993（平成5）年1月31日第1版第1刷"
+    },
+    "author": "海野十三",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

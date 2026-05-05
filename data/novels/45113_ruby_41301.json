@@ -68,5 +68,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045113",
+    "title": "ちらちら光れ小い星",
+    "titleKana": "ちらちらひかれちいさいほし",
+    "sortKana": "ちらちらひかれちいさいほし",
+    "firstAppearance": "「チチノキ」1935（昭和10）年2月",
+    "ndc": "NDC K931",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-02-12",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001178/card45113.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001178/files/45113_ruby_41301.zip",
+    "textFileId": "45113_ruby_41301",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001178/files/45113_42004.html",
+    "inputBy": "菅野朋子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本児童文学大系　第二八巻",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1978（昭和53）年11月30日",
+      "inputEdition": "1978（昭和53）年11月30日初刷",
+      "proofreadEdition": "1978（昭和53）年11月30日初刷"
+    },
+    "author": "テーラージェーン",
+    "authors": [
+      {
+        "personId": "001178",
+        "name": "テーラージェーン",
+        "kana": "テーラージェーン",
+        "roman": "Jane Taylor",
+        "role": "著者",
+        "birthDate": "1783",
+        "deathDate": "1824",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

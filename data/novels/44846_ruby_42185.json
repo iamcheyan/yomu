@@ -80,5 +80,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "044846",
+    "title": "ラジオ・ドラマ私見",
+    "titleKana": "ラジオ・ドラマしけん",
+    "sortKana": "らしおとらましけん",
+    "firstAppearance": "「ラジオ・ドラマ講座第二巻」山根書店、1952（昭和27）年4月30日",
+    "ndc": "NDC 912",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-04-22",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001154/card44846.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001154/files/44846_ruby_42185.zip",
+    "textFileId": "44846_ruby_42185",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001154/files/44846_42369.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "岸田國士全集28",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1992（平成4）年6月17日",
+      "inputEdition": "1992（平成4）年6月17日",
+      "proofreadEdition": "1992（平成4）年6月17日"
+    },
+    "author": "岸田国士",
+    "authors": [
+      {
+        "personId": "001154",
+        "name": "岸田国士",
+        "kana": "きしだくにお",
+        "roman": "Kunio Kishida",
+        "role": "著者",
+        "birthDate": "1890-11-02",
+        "deathDate": "1954-03-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

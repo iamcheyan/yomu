@@ -4810,5 +4810,60 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001704",
+    "title": "みみずのたはこと",
+    "titleKana": "みみずのたわこと",
+    "sortKana": "みみすのたわこと",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-11-01",
+    "updatedAt": "2016-02-03",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000279/card1704.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000279/files/1704_ruby_6918.zip",
+    "textFileId": "1704_ruby_6918",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000279/files/1704_6917.html",
+    "inputBy": "小林繁雄、奥村正明",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "みみずのたはこと（下）",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1938（昭和13）年6月1日、1977（昭和52）年11月16日第20刷改版",
+      "inputEdition": "1996（平成8）年12月10日第25刷",
+      "proofreadEdition": "2001（平成13）年11月7日第27刷"
+    },
+    "baseBook2": {
+      "title": "みみずのたはこと（上）",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1938（昭和13）年4月15日、1977（昭和52）年8月16日第24刷改版",
+      "inputEdition": "1996（平成8）年12月10日第30刷",
+      "proofreadEdition": "2001（平成13）年11月7日第32刷"
+    },
+    "author": "徳冨健次郎、徳冨蘆花",
+    "authors": [
+      {
+        "personId": "000279",
+        "name": "徳冨健次郎",
+        "kana": "とくとみけんじろう",
+        "roman": "Kenjiro Tokutomi",
+        "role": "著者",
+        "birthDate": "1868-12-08",
+        "deathDate": "1927-09-18",
+        "copyright": "なし"
+      },
+      {
+        "personId": "000280",
+        "name": "徳冨蘆花",
+        "kana": "とくとみろか",
+        "roman": "Roka Tokutomi",
+        "role": "著者",
+        "birthDate": "1868-12-08",
+        "deathDate": "1927-09-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

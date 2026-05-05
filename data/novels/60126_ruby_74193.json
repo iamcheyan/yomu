@@ -126,5 +126,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060126",
+    "title": "蚊帳",
+    "titleKana": "かや",
+    "sortKana": "かや",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-10-26",
+    "updatedAt": "2021-09-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000040/card60126.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000040/files/60126_ruby_74193.zip",
+    "textFileId": "60126_ruby_74193",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000040/files/60126_74230.html",
+    "inputBy": "丹生乃まそほ",
+    "proofreadBy": "惣野",
+    "baseBook1": {
+      "title": "織田作之助全集　5",
+      "publisher": "講談社",
+      "firstPublishedAt": "1970（昭和45）年6月28日",
+      "inputEdition": "1970（昭和45）年6月28日第1刷",
+      "proofreadEdition": "1970（昭和45）年6月28日第1刷"
+    },
+    "author": "織田作之助",
+    "authors": [
+      {
+        "personId": "000040",
+        "name": "織田作之助",
+        "kana": "おださくのすけ",
+        "roman": "Sakunosuke Oda",
+        "role": "著者",
+        "birthDate": "1913-10-26",
+        "deathDate": "1947-01-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

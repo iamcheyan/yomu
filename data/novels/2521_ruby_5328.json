@@ -232,5 +232,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002521",
+    "title": "悟浄出世",
+    "titleKana": "ごじょうしゅっせ",
+    "sortKana": "こしようしゆつせ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-03-16",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000119/card2521.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000119/files/2521_ruby_5328.zip",
+    "textFileId": "2521_ruby_5328",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000119/files/2521_14527.html",
+    "inputBy": "佐野良二",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "李陵・山月記・弟子・名人伝",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1968（昭和43）年9月10日改版初版",
+      "inputEdition": "1998（平成10）年5月30日改版52版"
+    },
+    "author": "中島敦",
+    "authors": [
+      {
+        "personId": "000119",
+        "name": "中島敦",
+        "kana": "なかじまあつし",
+        "roman": "Atsushi Nakajima",
+        "role": "著者",
+        "birthDate": "1909-05-05",
+        "deathDate": "1942-12-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

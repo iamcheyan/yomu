@@ -68,5 +68,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042842",
+    "title": "探偵小説を截る",
+    "titleKana": "たんていしょうせつをきる",
+    "sortKana": "たんていしようせつをきる",
+    "firstAppearance": "「黒猫　第二巻第九号」1948（昭和23）年7月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-08-28",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card42842.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/42842_ruby_27442.zip",
+    "textFileId": "42842_ruby_27442",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/42842_27735.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "坂口安吾全集　06",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1998（平成10）年5月22日",
+      "inputEdition": "1998（平成10）年7月20日初版第1刷",
+      "proofreadEdition": "1998（平成10）年7月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

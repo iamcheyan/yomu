@@ -32,5 +32,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055748",
+    "title": "吉田松陰より某へ",
+    "titleKana": "よしだしょういんよりなにがしへ",
+    "sortKana": "よしたしよういんよりなにかしへ",
+    "subtitle": "安政六年正月十一日",
+    "subtitleKana": "あんせいろくねんしょうがつじゅういちにち",
+    "ndc": "NDC 289",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-10-27",
+    "updatedAt": "2017-10-22",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001741/card55748.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001741/files/55748_ruby_62786.zip",
+    "textFileId": "55748_ruby_62786",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001741/files/55748_62873.html",
+    "inputBy": "sogo",
+    "proofreadBy": "酒井和郎",
+    "baseBook1": {
+      "title": "現代日本記録全集　2　維新の風雲",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1968（昭和43）年9月25日",
+      "inputEdition": "1968（昭和43）年9月25日初版第1刷",
+      "proofreadEdition": "1968（昭和43）年9月25日初版第1刷"
+    },
+    "author": "吉田松陰",
+    "authors": [
+      {
+        "personId": "001741",
+        "name": "吉田松陰",
+        "kana": "よしだしょういん",
+        "roman": "Shoin Yoshida",
+        "role": "著者",
+        "birthDate": "1830-09-20",
+        "deathDate": "1859-11-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

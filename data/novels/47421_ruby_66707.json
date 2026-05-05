@@ -162,5 +162,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047421",
+    "title": "沙漠の歌",
+    "titleKana": "さばくのうた",
+    "sortKana": "さはくのうたすたんれえたんけんにつき",
+    "subtitle": "スタンレー探検日記",
+    "subtitleKana": "スタンレーたんけんにっき",
+    "firstAppearance": "「少年倶楽部」1921（大正10）年8月",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-01-28",
+    "updatedAt": "2018-12-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card47421.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/47421_ruby_66707.zip",
+    "textFileId": "47421_ruby_66707",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/47421_66758.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "阿和泉拓",
+    "baseBook1": {
+      "title": "国枝史郎探偵小説全集　全一巻",
+      "publisher": "作品社",
+      "firstPublishedAt": "2005（平成17）年9月15日",
+      "inputEdition": "2005（平成17）年9月15日第1刷",
+      "proofreadEdition": "2005（平成17）年9月15日第1刷"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

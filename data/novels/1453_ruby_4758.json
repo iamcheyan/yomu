@@ -146,5 +146,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001453",
+    "title": "死生",
+    "titleKana": "しせい",
+    "sortKana": "しせい",
+    "ndc": "NDC 309 916",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-10-27",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000261/card1453.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000261/files/1453_ruby_4758.zip",
+    "textFileId": "1453_ruby_4758",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000261/files/1453_16149.html",
+    "inputBy": "渡邉つよし",
+    "proofreadBy": "今井忠夫",
+    "baseBook1": {
+      "title": "日本の名随筆8　死",
+      "publisher": "作品社",
+      "firstPublishedAt": "1983（昭和58）年3月25日",
+      "inputEdition": "1991（平成3）年9月1日第17刷"
+    },
+    "author": "幸徳秋水",
+    "authors": [
+      {
+        "personId": "000261",
+        "name": "幸徳秋水",
+        "kana": "こうとくしゅうすい",
+        "roman": "Shusui Kotoku",
+        "role": "著者",
+        "birthDate": "1871-11-05",
+        "deathDate": "1911-01-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -36,5 +36,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001597",
+    "title": "食通",
+    "titleKana": "しょくつう",
+    "sortKana": "しよくつう",
+    "firstAppearance": "「博浪沙　第七巻第一号」1942（昭和17）年1月5日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-04-23",
+    "updatedAt": "2016-07-12",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card1597.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/1597_ruby_18021.zip",
+    "textFileId": "1597_ruby_18021",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/1597_18108.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "太宰治全集10",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1989（平成元）年6月27日",
+      "inputEdition": "1989（平成元）年6月27日第1刷",
+      "proofreadEdition": "1996（平成8）年7月15日第3刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

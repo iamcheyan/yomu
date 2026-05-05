@@ -56,5 +56,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057046",
+    "title": "書簡　木村荘太宛",
+    "titleKana": "しょかん　きむらそうたあて",
+    "sortKana": "しよかんきむらそうたあて",
+    "subtitle": "（一九一三年六月二四日）",
+    "subtitleKana": "（せんきゅうひゃくじゅうさんねんろくがつにじゅうよっか）",
+    "ndc": "NDC 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-09-16",
+    "updatedAt": "2016-08-31",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000416/card57046.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000416/files/57046_ruby_59597.zip",
+    "textFileId": "57046_ruby_59597",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000416/files/57046_59639.html",
+    "inputBy": "酒井裕二",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "定本　伊藤野枝全集　第二巻　評論・随筆・書簡1――『青鞜』の時代",
+      "publisher": "學藝書林",
+      "firstPublishedAt": "2000（平成12）年5月31日",
+      "inputEdition": "2000（平成12）年5月31日初版"
+    },
+    "author": "伊藤野枝",
+    "authors": [
+      {
+        "personId": "000416",
+        "name": "伊藤野枝",
+        "kana": "いとうのえ",
+        "roman": "Noe Ito",
+        "role": "著者",
+        "birthDate": "1895-01-21",
+        "deathDate": "1923-09-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

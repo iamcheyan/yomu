@@ -48,5 +48,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059479",
+    "title": "蛙料理",
+    "titleKana": "かえるりょうり",
+    "sortKana": "かえるりようり",
+    "firstAppearance": "「朝日新聞」朝日新聞大阪本社、1946（昭和21）年10月7日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-04-06",
+    "updatedAt": "2020-03-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001224/card59479.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001224/files/59479_ruby_70684.zip",
+    "textFileId": "59479_ruby_70684",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001224/files/59479_70736.html",
+    "inputBy": "かな　とよみ",
+    "proofreadBy": "きゅうり",
+    "baseBook1": {
+      "title": "定本　久生十蘭全集　6",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "2010（平成22）年3月25日",
+      "inputEdition": "2010（平成22）年3月25日初版第1刷",
+      "proofreadEdition": "2010（平成22）年3月25日初版第1刷"
+    },
+    "author": "久生十蘭",
+    "authors": [
+      {
+        "personId": "001224",
+        "name": "久生十蘭",
+        "kana": "ひさおじゅうらん",
+        "roman": "Juran Hisao",
+        "role": "著者",
+        "birthDate": "1902-04-06",
+        "deathDate": "1957-10-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -42,5 +42,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059873",
+    "title": "庶民の食物",
+    "titleKana": "しょみんのたべもの",
+    "sortKana": "しよみんのたへもの",
+    "firstAppearance": "「あまカラ　新年号　第六十五号」甘辛社、1957（昭和32）年1月5日",
+    "ndc": "NDC 596",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-05-04",
+    "updatedAt": "2020-04-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001846/card59873.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001846/files/59873_ruby_70915.zip",
+    "textFileId": "59873_ruby_70915",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001846/files/59873_70965.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "芝裕久",
+    "baseBook1": {
+      "title": "「あまカラ」抄2",
+      "publisher": "冨山房百科文庫、冨山房",
+      "firstPublishedAt": "1995（平成7）年12月6日",
+      "inputEdition": "1995（平成7）年12月6日第1刷",
+      "proofreadEdition": "1995（平成7）年12月6日第1刷"
+    },
+    "author": "小泉信三",
+    "authors": [
+      {
+        "personId": "001846",
+        "name": "小泉信三",
+        "kana": "こいずみしんぞう",
+        "roman": "Shinzo Koizumi",
+        "role": "著者",
+        "birthDate": "1888-05-04",
+        "deathDate": "1966-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

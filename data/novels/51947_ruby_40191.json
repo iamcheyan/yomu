@@ -110,5 +110,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051947",
+    "title": "津軽地方特有の俚諺",
+    "titleKana": "つがるちほうとくゆうのりげん",
+    "sortKana": "つかるちほうとくゆうのりけん",
+    "ndc": "NDC 388",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-11-10",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000754/card51947.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000754/files/51947_ruby_40191.zip",
+    "textFileId": "51947_ruby_40191",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000754/files/51947_41140.html",
+    "inputBy": "向山きよみ",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本随筆紀行第三巻　青森｜秋田｜山形　遊ぶ童子の紅き頬",
+      "publisher": "作品社",
+      "firstPublishedAt": "1988（昭和63）年2月10日",
+      "inputEdition": "1988（昭和63）年2月10日第1刷",
+      "proofreadEdition": "1988（昭和63）年2月10日第1刷"
+    },
+    "author": "福士幸次郎",
+    "authors": [
+      {
+        "personId": "000754",
+        "name": "福士幸次郎",
+        "kana": "ふくしこうじろう",
+        "roman": "Kojiro Fukushi",
+        "role": "著者",
+        "birthDate": "1889-11-05",
+        "deathDate": "1946-10-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

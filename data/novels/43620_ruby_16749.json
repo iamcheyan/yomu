@@ -360,5 +360,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043620",
+    "title": "方子と末起",
+    "titleKana": "まさことまき",
+    "sortKana": "まさことまき",
+    "firstAppearance": "「週刊朝日読物号」朝日新聞社、1938（昭和13）年5月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-02-20",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000125/card43620.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000125/files/43620_ruby_16749.zip",
+    "textFileId": "43620_ruby_16749",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000125/files/43620_25743.html",
+    "inputBy": "ロクス・ソルス",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "航続海底二万哩",
+      "publisher": "桃源社",
+      "firstPublishedAt": "1975（昭和50）年12月5日",
+      "inputEdition": "1975（昭和50）年12月5日",
+      "proofreadEdition": "1975（昭和50）年12月5日"
+    },
+    "author": "小栗虫太郎",
+    "authors": [
+      {
+        "personId": "000125",
+        "name": "小栗虫太郎",
+        "kana": "おぐりむしたろう",
+        "roman": "Mushitaro Oguri",
+        "role": "著者",
+        "birthDate": "1901-03-14",
+        "deathDate": "1946-02-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -1464,5 +1464,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045643",
+    "title": "沢氏の二人娘",
+    "titleKana": "さわしのふたりむすめ",
+    "sortKana": "さわしのふたりむすめ",
+    "firstAppearance": "「中央公論　第五十年第一号」1935（昭和10）年1月1日",
+    "ndc": "NDC 912",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-02-27",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001154/card45643.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001154/files/45643_ruby_25509.zip",
+    "textFileId": "45643_ruby_25509",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001154/files/45643_25762.html",
+    "inputBy": "kompass",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "岸田國士全集6",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1991（平成3）年5月10日",
+      "inputEdition": "1991（平成3）年5月10日初版",
+      "proofreadEdition": "1991（平成3）年5月10日初版"
+    },
+    "author": "岸田国士",
+    "authors": [
+      {
+        "personId": "001154",
+        "name": "岸田国士",
+        "kana": "きしだくにお",
+        "roman": "Kunio Kishida",
+        "role": "著者",
+        "birthDate": "1890-11-02",
+        "deathDate": "1954-03-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

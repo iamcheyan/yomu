@@ -144,5 +144,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055652",
+    "title": "四谷、赤坂",
+    "titleKana": "よつや、あかさか",
+    "sortKana": "よつやあかさか",
+    "firstAppearance": "「東京日日新聞」1927（昭和2）年10月4日～9日",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-09-30",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000929/card55652.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000929/files/55652_ruby_51175.zip",
+    "textFileId": "55652_ruby_51175",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000929/files/55652_51176.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "大東京繁昌記",
+      "publisher": "毎日新聞社",
+      "firstPublishedAt": "1999（平成11）年5月15日",
+      "inputEdition": "1999（平成11）年5月15日",
+      "proofreadEdition": "1999（平成11）年5月15日"
+    },
+    "author": "宮島資夫",
+    "authors": [
+      {
+        "personId": "000929",
+        "name": "宮島資夫",
+        "kana": "みやじますけお",
+        "roman": "Sukeo Miyajima",
+        "role": "著者",
+        "birthDate": "1886-08-01",
+        "deathDate": "1951-02-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

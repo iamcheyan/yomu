@@ -232,5 +232,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050626",
+    "title": "宝永噴火",
+    "titleKana": "ほうえいふんか",
+    "sortKana": "ほうえいふんか",
+    "firstAppearance": "「文学界」1940（昭和15）年7月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-07-29",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000076/card50626.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000076/files/50626_ruby_47976.zip",
+    "textFileId": "50626_ruby_47976",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000076/files/50626_47990.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "岩澤秀紀",
+    "baseBook1": {
+      "title": "岡本かの子全集6",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1993（平成5）年9月22日",
+      "inputEdition": "1993（平成5）年9月22日第1刷",
+      "proofreadEdition": "1993（平成5）年9月22日第1刷"
+    },
+    "author": "岡本かの子",
+    "authors": [
+      {
+        "personId": "000076",
+        "name": "岡本かの子",
+        "kana": "おかもとかのこ",
+        "roman": "Kanoko Okamoto",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1939-02-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

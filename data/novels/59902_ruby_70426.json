@@ -662,5 +662,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059902",
+    "title": "鋏と布と型",
+    "titleKana": "はさみとぬのとかたち",
+    "sortKana": "はさみとぬのとかたち",
+    "ndc": "NDC 912",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-03-27",
+    "updatedAt": "2020-02-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001052/card59902.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001052/files/59902_ruby_70426.zip",
+    "textFileId": "59902_ruby_70426",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001052/files/59902_70484.html",
+    "inputBy": "kompass",
+    "proofreadBy": "The Creative CAT",
+    "baseBook1": {
+      "title": "幾度目かの最期",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "2005（平成17）年12月10日",
+      "inputEdition": "2005（平成17）年12月10日第1刷",
+      "proofreadEdition": "2018（平成30）年4月12日第7刷"
+    },
+    "author": "久坂葉子",
+    "authors": [
+      {
+        "personId": "001052",
+        "name": "久坂葉子",
+        "kana": "くさかようこ",
+        "roman": "Yoko Kusaka",
+        "role": "著者",
+        "birthDate": "1931-03-27",
+        "deathDate": "1952-12-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

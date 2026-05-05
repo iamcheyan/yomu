@@ -84,5 +84,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001915",
+    "title": "消息一通",
+    "titleKana": "しょうそくいっつう",
+    "sortKana": "しようそくいつつう",
+    "subtitle": "一九二四年一月一日マールブルク",
+    "subtitleKana": "せんきゅうひゃくにじゅうよねんいちがつついたちマールブルク",
+    "ndc": "NDC 121 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-02-24",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000218/card1915.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000218/files/1915_ruby_22595.zip",
+    "textFileId": "1915_ruby_22595",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000218/files/1915_22596.html",
+    "inputBy": "加藤恭子",
+    "proofreadBy": "もりみつじゅんじ",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻92　哲学",
+      "publisher": "作品社",
+      "firstPublishedAt": "1998（平成10）年10月25日"
+    },
+    "author": "三木清",
+    "authors": [
+      {
+        "personId": "000218",
+        "name": "三木清",
+        "kana": "みききよし",
+        "roman": "Kiyoshi Miki",
+        "role": "著者",
+        "birthDate": "1897-01-05",
+        "deathDate": "1945-09-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

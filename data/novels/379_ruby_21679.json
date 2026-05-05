@@ -352,5 +352,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000379",
+    "title": "氷雨",
+    "titleKana": "ひさめ",
+    "sortKana": "ひさめ",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-10-04",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000031/card379.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000031/files/379_ruby_21679.zip",
+    "textFileId": "379_ruby_21679",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000031/files/379_21680.html",
+    "inputBy": "大野裕",
+    "proofreadBy": "高橋真也",
+    "baseBook1": {
+      "title": "筑摩現代文学大系　36　葉山嘉樹集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1979（昭和54）年2月25日"
+    },
+    "author": "葉山嘉樹",
+    "authors": [
+      {
+        "personId": "000031",
+        "name": "葉山嘉樹",
+        "kana": "はやまよしき",
+        "roman": "Yoshiki Hayama",
+        "role": "著者",
+        "birthDate": "1894-03-12",
+        "deathDate": "1945-10-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

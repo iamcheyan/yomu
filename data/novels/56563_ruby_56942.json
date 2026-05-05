@@ -752,5 +752,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056563",
+    "title": "木曾川",
+    "titleKana": "きそがわ",
+    "sortKana": "きそかわ",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-08-15",
+    "updatedAt": "2015-08-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000106/card56563.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000106/files/56563_ruby_56942.zip",
+    "textFileId": "56563_ruby_56942",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000106/files/56563_56988.html",
+    "inputBy": "sogo",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "日本八景　八大家執筆",
+      "publisher": "平凡社ライブラリー、平凡社",
+      "firstPublishedAt": "2005（平成17）年3月10日",
+      "inputEdition": "2005（平成17）年3月10日初版第1刷",
+      "proofreadEdition": "2005（平成17）年3月10日初版第1刷"
+    },
+    "author": "北原白秋",
+    "authors": [
+      {
+        "personId": "000106",
+        "name": "北原白秋",
+        "kana": "きたはらはくしゅう",
+        "roman": "Hakushu Kitahara",
+        "role": "著者",
+        "birthDate": "1885-01-25",
+        "deathDate": "1942-11-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

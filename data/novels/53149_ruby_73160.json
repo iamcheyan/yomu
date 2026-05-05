@@ -94,5 +94,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053149",
+    "title": "暗い空",
+    "titleKana": "くらいそら",
+    "sortKana": "くらいそら",
+    "firstAppearance": "「早稲田文學」1908（明治41）年10月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-05-11",
+    "updatedAt": "2021-04-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001475/card53149.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001475/files/53149_ruby_73160.zip",
+    "textFileId": "53149_ruby_73160",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001475/files/53149_73200.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "坂本真一",
+    "baseBook1": {
+      "title": "文豪怪談傑作選　小川未明集　幽霊船",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2008（平成20）年8月10日",
+      "inputEdition": "2010（平成22）年5月25日第2刷",
+      "proofreadEdition": "2010（平成22）年5月25日第2刷"
+    },
+    "author": "小川未明",
+    "authors": [
+      {
+        "personId": "001475",
+        "name": "小川未明",
+        "kana": "おがわみめい",
+        "roman": "Mimei Ogawa",
+        "role": "著者",
+        "birthDate": "1882-04-07",
+        "deathDate": "1961-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

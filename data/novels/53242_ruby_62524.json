@@ -650,5 +650,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053242",
+    "title": "観相の秋",
+    "titleKana": "かんそうのあき",
+    "sortKana": "かんそうのあき",
+    "firstAppearance": "ある人の庭「表現　2巻1号」1922（大正11）年1月1日<br>紅葉を焚いて「潮音　5巻1号」1919（大正8）年1月1日<br>山中消息「詩篇　3編1輯」1919（大正8）年1月1日<br>秋山の歌「大観　5巻2号」実業之日本社、1922（大正11）年2月1日<br>孟宗と月「大観　5巻2号」実業之日本社、1922（大正11）年2月1日<br>冬の山そば「大観　5巻2号」実業之日本社、1922（大正11）年2月1日<br>竹林の早春「大観　5巻2号」実業之日本社、1922（大正11）年2月1日<br>立枯並木の歌「大観　4巻7号」実業之日本社、1921（大正10）年7月1日<br>潮来の入江「大観　4巻7号」実業之日本社、1921（大正10）年7月1日<br>夜の雪「三田文学　8巻3号」1917（大正6）年3月1日<br>鳥の啼くこゑ「三田文学　8巻3号」1917（大正6）年3月1日<br>アツシジの聖の歌「大観　4巻7号」実業之日本社、1921（大正10）年7月1日<br>米の白玉「大観　4巻7号」実業之日本社、1921（大正10）年7月1日<br>犬と鴉「大観　4巻7号」実業之日本社、1921（大正10）年7月1日<br>童と母「潮音　3巻6号」1917（大正6）年6月1日<br>ほのかなるもの「ＡＲＳ　1巻2号」1915（大正4）年5月1日",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-09-19",
+    "updatedAt": "2017-08-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000106/card53242.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000106/files/53242_ruby_62524.zip",
+    "textFileId": "53242_ruby_62524",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000106/files/53242_62566.html",
+    "inputBy": "岡村和彦",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "白秋全集　8",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1985（昭和60）年7月5日",
+      "inputEdition": "1985（昭和60）年7月5日",
+      "proofreadEdition": "1985（昭和60）年7月5日"
+    },
+    "author": "北原白秋",
+    "authors": [
+      {
+        "personId": "000106",
+        "name": "北原白秋",
+        "kana": "きたはらはくしゅう",
+        "roman": "Hakushu Kitahara",
+        "role": "著者",
+        "birthDate": "1885-01-25",
+        "deathDate": "1942-11-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

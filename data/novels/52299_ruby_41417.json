@@ -108,5 +108,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052299",
+    "title": "日光の紅葉",
+    "titleKana": "にっこうのこうよう",
+    "sortKana": "につこうのこうよう",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-02-11",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000305/card52299.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000305/files/52299_ruby_41417.zip",
+    "textFileId": "52299_ruby_41417",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000305/files/52299_42001.html",
+    "inputBy": "岡村和彦",
+    "proofreadBy": "米田",
+    "baseBook1": {
+      "title": "花の名随筆11　十一月の花",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年10月10日",
+      "inputEdition": "1999（平成11）年10月10日初版第1刷",
+      "proofreadEdition": "1999（平成11）年10月10日初版第1刷"
+    },
+    "author": "正岡子規",
+    "authors": [
+      {
+        "personId": "000305",
+        "name": "正岡子規",
+        "kana": "まさおかしき",
+        "roman": "Shiki Masaoka",
+        "role": "著者",
+        "birthDate": "1867-10-14",
+        "deathDate": "1902-09-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

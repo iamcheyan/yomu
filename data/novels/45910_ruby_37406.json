@@ -150,5 +150,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045910",
+    "title": "安吾の新日本地理",
+    "titleKana": "あんごのしんにほんちり",
+    "sortKana": "あんこのしんにほんちり",
+    "subtitle": "10 高麗神社の祭の笛――武蔵野の巻――",
+    "subtitleKana": "10 コマじんじゃのまつりのふえ――むさしののまき――",
+    "firstAppearance": "「文藝春秋　第二九巻第一六号」1951（昭和26）年12月1日",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-03-05",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card45910.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/45910_ruby_37406.zip",
+    "textFileId": "45910_ruby_37406",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/45910_37866.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "深津辰男・美智子",
+    "baseBook1": {
+      "title": "坂口安吾全集　11",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1998（平成10）年12月20日",
+      "inputEdition": "1998（平成10）年12月20日初版第1刷",
+      "proofreadEdition": "1998（平成10）年12月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

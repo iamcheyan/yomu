@@ -62,5 +62,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001750",
+    "title": "僕の昔",
+    "titleKana": "ぼくのむかし",
+    "sortKana": "ほくのむかし",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-10-11",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000148/card1750.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000148/files/1750_ruby_19434.zip",
+    "textFileId": "1750_ruby_19434",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000148/files/1750_19607.html",
+    "inputBy": "もりみつじゅんじ",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "吾輩は猫である（他一編）",
+      "publisher": "旺文社文庫、旺文社",
+      "firstPublishedAt": "1965（昭和40）年7月10日",
+      "inputEdition": "1969（昭和44）年7月1日重版",
+      "proofreadEdition": "1974（昭和49）年第44刷"
+    },
+    "author": "夏目漱石",
+    "authors": [
+      {
+        "personId": "000148",
+        "name": "夏目漱石",
+        "kana": "なつめそうせき",
+        "roman": "Soseki Natsume",
+        "role": "著者",
+        "birthDate": "1867-02-09",
+        "deathDate": "1916-12-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

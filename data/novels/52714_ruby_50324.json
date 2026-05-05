@@ -50,5 +50,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052714",
+    "title": "韓非子解題",
+    "titleKana": "かんぴしかいだい",
+    "sortKana": "かんひしかいたい",
+    "ndc": "NDC 124",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-05-30",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000488/card52714.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000488/files/52714_ruby_50324.zip",
+    "textFileId": "52714_ruby_50324",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000488/files/52714_50556.html",
+    "inputBy": "齊藤正高",
+    "proofreadBy": "草野耀司",
+    "baseBook1": {
+      "title": "韓非子",
+      "publisher": "漢文叢書、有朋堂書店",
+      "firstPublishedAt": "1921（大正10）年8月7日",
+      "inputEdition": "1921（大正10）年8月7日",
+      "proofreadEdition": "1921（大正10）年8月7日"
+    },
+    "author": "小柳司気太",
+    "authors": [
+      {
+        "personId": "000488",
+        "name": "小柳司気太",
+        "kana": "おやなぎしげた",
+        "roman": "Shigeta Oyanagi",
+        "role": "著者",
+        "birthDate": "1870-12-24",
+        "deathDate": "1940-07-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

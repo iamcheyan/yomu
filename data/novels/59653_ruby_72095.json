@@ -58,5 +58,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059653",
+    "title": "「春夏秋冬　料理王国」序にかえて",
+    "titleKana": "しゅんかしゅうとうりょうりおうこくじょにかえて",
+    "sortKana": "しゆんかしゆうとうりようりおうこくしよにかえて",
+    "firstAppearance": "「春夏秋冬　料理王国」淡交新社、1960（昭和35）年2月25日",
+    "ndc": "NDC 596",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-11-27",
+    "updatedAt": "2020-10-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001403/card59653.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001403/files/59653_ruby_72095.zip",
+    "textFileId": "59653_ruby_72095",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001403/files/59653_72136.html",
+    "inputBy": "江村秀之",
+    "proofreadBy": "栗田美恵子",
+    "baseBook1": {
+      "title": "春夏秋冬　料理王国",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2010（平成22）年1月10日",
+      "inputEdition": "2010（平成22）年1月10日第1刷",
+      "proofreadEdition": "2010（平成22）年1月10日第1刷"
+    },
+    "author": "北大路魯山人",
+    "authors": [
+      {
+        "personId": "001403",
+        "name": "北大路魯山人",
+        "kana": "きたおおじろさんじん",
+        "roman": "Rosanjin Kitaoji",
+        "role": "著者",
+        "birthDate": "1883-03-23",
+        "deathDate": "1959-12-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

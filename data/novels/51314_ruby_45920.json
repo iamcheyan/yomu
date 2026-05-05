@@ -58,5 +58,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051314",
+    "title": "桑名の駅",
+    "titleKana": "くわなのえき",
+    "sortKana": "くわなのえき",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-03-01",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000026/card51314.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000026/files/51314_ruby_45920.zip",
+    "textFileId": "51314_ruby_45920",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000026/files/51314_47054.html",
+    "inputBy": "ゆうき",
+    "proofreadBy": "ばっちゃん",
+    "baseBook1": {
+      "title": "中原中也詩集",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1968（昭和43）年12月10日改版",
+      "inputEdition": "1973（昭和48）年8月30日改版13版",
+      "proofreadEdition": "1995（平成7）年 5月30日改版54版"
+    },
+    "author": "中原中也",
+    "authors": [
+      {
+        "personId": "000026",
+        "name": "中原中也",
+        "kana": "なかはらちゅうや",
+        "roman": "Chuya Nakahara",
+        "role": "著者",
+        "birthDate": "1907-04-29",
+        "deathDate": "1937-10-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

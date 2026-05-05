@@ -220,5 +220,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052933",
+    "title": "火山の話",
+    "titleKana": "かざんのはなし",
+    "sortKana": "かさんのはなし",
+    "ndc": "NDC K453",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-04-14",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001578/card52933.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001578/files/52933_ruby_45705.zip",
+    "textFileId": "52933_ruby_45705",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001578/files/52933_47127.html",
+    "inputBy": "しだひろし",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "星と雲・火山と地震",
+      "publisher": "日本児童文庫、復刻版、名著普及会",
+      "firstPublishedAt": "1982（昭和57）年6月20日",
+      "inputEdition": "1982（昭和57）年6月20日",
+      "proofreadEdition": "1982（昭和57）年6月20日"
+    },
+    "author": "今村明恒",
+    "authors": [
+      {
+        "personId": "001578",
+        "name": "今村明恒",
+        "kana": "いまむらあきつね",
+        "roman": "Akitsune Imamura",
+        "role": "著者",
+        "birthDate": "1870-06-14",
+        "deathDate": "1948-01-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

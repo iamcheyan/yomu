@@ -40,5 +40,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055771",
+    "title": "マルクス主義は科学にあらず",
+    "titleKana": "マルクスしゅぎはかがくにあらず",
+    "sortKana": "まるくすしゆきはかかくにあらす",
+    "ndc": "NDC 309",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-06-26",
+    "updatedAt": "2022-05-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001744/card55771.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001744/files/55771_ruby_75640.zip",
+    "textFileId": "55771_ruby_75640",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001744/files/55771_75670.html",
+    "inputBy": "sogo",
+    "proofreadBy": "持田和踏",
+    "baseBook1": {
+      "title": "現代日本記録全集　9　科学と技術",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1970（昭和45）年2月28日",
+      "inputEdition": "1970（昭和45）年2月28日初版第1刷",
+      "proofreadEdition": "1970（昭和45）年2月28日初版第1刷"
+    },
+    "author": "山川健次郎",
+    "authors": [
+      {
+        "personId": "001744",
+        "name": "山川健次郎",
+        "kana": "やまかわけんじろう",
+        "roman": "Kenjiro Yamakawa",
+        "role": "著者",
+        "birthDate": "1854-09-09",
+        "deathDate": "1931-06-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

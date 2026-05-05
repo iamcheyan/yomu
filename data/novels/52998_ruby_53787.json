@@ -320,5 +320,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052998",
+    "title": "仔猫の裁判",
+    "titleKana": "こねこのさいばん",
+    "sortKana": "こねこのさいはん",
+    "firstAppearance": "「教育論叢」1933（昭和8）年5月",
+    "ndc": "NDC K913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-07-22",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001175/card52998.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001175/files/52998_ruby_53787.zip",
+    "textFileId": "52998_ruby_53787",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001175/files/52998_53828.html",
+    "inputBy": "菅野朋子",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "日本児童文学大系　三〇巻",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1978（昭和53）年11月30日",
+      "inputEdition": "1978（昭和53）年11月30日初刷",
+      "proofreadEdition": "1991（平成3）年12月10日6刷"
+    },
+    "author": "槙本楠郎",
+    "authors": [
+      {
+        "personId": "001175",
+        "name": "槙本楠郎",
+        "kana": "まきもとくすろう",
+        "roman": "Kusuro Makimoto",
+        "role": "著者",
+        "birthDate": "1898-08-01",
+        "deathDate": "1956-09-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

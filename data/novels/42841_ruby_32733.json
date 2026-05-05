@@ -120,5 +120,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042841",
+    "title": "敬語論",
+    "titleKana": "けいごろん",
+    "sortKana": "けいころん",
+    "firstAppearance": "「文藝春秋　第二六巻第七号」1948（昭和23）年7月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-12-14",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card42841.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/42841_ruby_32733.zip",
+    "textFileId": "42841_ruby_32733",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/42841_33441.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "坂口安吾全集　06",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1998（平成10）年5月22日",
+      "inputEdition": "1998（平成10）年7月20日初版第1刷",
+      "proofreadEdition": "1998（平成10）年7月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

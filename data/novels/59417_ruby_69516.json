@@ -102,5 +102,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059417",
+    "title": "八※［＃小書き片仮名ガ］岳登山記",
+    "titleKana": "やつがたけとざんき",
+    "sortKana": "やつかたけとさんき",
+    "firstAppearance": "「旅　第三一巻第八号」日本交通公社、1957（昭和32）年8月1日",
+    "ndc": "NDC 291 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-11-14",
+    "updatedAt": "2019-10-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001870/card59417.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001870/files/59417_ruby_69516.zip",
+    "textFileId": "59417_ruby_69516",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001870/files/59417_69567.html",
+    "inputBy": "富田晶子",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "紀行とエッセーで読む　作家の山旅",
+      "publisher": "ヤマケイ文庫、山と渓谷社",
+      "firstPublishedAt": "2017（平成29）年3月1日",
+      "inputEdition": "2017（平成29）年3月1日初版第1刷",
+      "proofreadEdition": "2017（平成29）年3月1日初版第1刷"
+    },
+    "author": "亀井勝一郎",
+    "authors": [
+      {
+        "personId": "001870",
+        "name": "亀井勝一郎",
+        "kana": "かめいかついちろう",
+        "roman": "Katsuichiro Kamei",
+        "role": "著者",
+        "birthDate": "1907-02-06",
+        "deathDate": "1966-11-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

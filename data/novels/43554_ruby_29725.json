@@ -192,5 +192,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043554",
+    "title": "金剛智三蔵と将軍米准那",
+    "titleKana": "ヴァジラボードヒさんぞうとしょうぐんミールザーダ",
+    "sortKana": "うあしらほおとひさんそうとしようくんみいるさあた",
+    "firstAppearance": "「大乗　第二二卷第七號」1943（昭和18）年7～12月",
+    "ndc": "NDC 188",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-04-05",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001096/card43554.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001096/files/43554_ruby_29725.zip",
+    "textFileId": "43554_ruby_29725",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001096/files/43554_30446.html",
+    "inputBy": "はまなかひとし",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "榊亮三郎論集",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "1980（昭和55）年8月1日",
+      "inputEdition": "1980（昭和55）年8月1日",
+      "proofreadEdition": "1980（昭和55）年8月1日"
+    },
+    "author": "榊亮三郎",
+    "authors": [
+      {
+        "personId": "001096",
+        "name": "榊亮三郎",
+        "kana": "さかきりょうざぶろう",
+        "roman": "Ryozaburo Sakaki",
+        "role": "著者",
+        "birthDate": "1872-04-05",
+        "deathDate": "1946-08-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

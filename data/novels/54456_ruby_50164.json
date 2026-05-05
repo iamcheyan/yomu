@@ -48,5 +48,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054456",
+    "title": "冬の庭",
+    "titleKana": "ふゆのにわ",
+    "sortKana": "ふゆのにわ",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-04-27",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001579/card54456.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001579/files/54456_ruby_50164.zip",
+    "textFileId": "54456_ruby_50164",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001579/files/54456_50165.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "花の名随筆12　十二月の花",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年11月10日",
+      "inputEdition": "1999（平成11）年11月10日初版第1刷",
+      "proofreadEdition": "1999（平成11）年11月10日初版第1刷"
+    },
+    "author": "室生犀星",
+    "authors": [
+      {
+        "personId": "001579",
+        "name": "室生犀星",
+        "kana": "むろうさいせい",
+        "roman": "Saisei Murou",
+        "role": "著者",
+        "birthDate": "1889-08-01",
+        "deathDate": "1962-03-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

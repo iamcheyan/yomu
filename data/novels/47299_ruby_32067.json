@@ -56,5 +56,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047299",
+    "title": "浮世絵画家の肉筆",
+    "titleKana": "うきよえがかのにくひつ",
+    "sortKana": "うきよえかかのにくひつ",
+    "subtitle": "――花は霞を透してひとしおの風情があるもの――",
+    "subtitleKana": "――はなはかすみをとおしてひとしおのふぜいがあるもの――",
+    "firstAppearance": "「大毎美術　第十一巻第十二号」1932（昭和7）年12月",
+    "ndc": "NDC 721",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-08-08",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000355/card47299.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000355/files/47299_ruby_32067.zip",
+    "textFileId": "47299_ruby_32067",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000355/files/47299_32068.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "青眉抄・青眉抄拾遺",
+      "publisher": "講談社",
+      "firstPublishedAt": "1976（昭和51）年11月10日",
+      "inputEdition": "1977（昭和52）年5月31日第2刷",
+      "proofreadEdition": "1976（昭和51）年11月10日"
+    },
+    "author": "上村松園",
+    "authors": [
+      {
+        "personId": "000355",
+        "name": "上村松園",
+        "kana": "うえむらしょうえん",
+        "roman": "Shoen Uemura",
+        "role": "著者",
+        "birthDate": "1875-04-23",
+        "deathDate": "1949-08-27",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

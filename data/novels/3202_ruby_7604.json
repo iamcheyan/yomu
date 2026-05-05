@@ -100,5 +100,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003202",
+    "title": "川端康成第四短篇集「心中」を主題とせるヴァリエイシヨン",
+    "titleKana": "かわばたやすなりだいよんたんぺんしゅう「しんじゅう」をしゅだいとせるヴァリエイション",
+    "sortKana": "かわはたやすなりたいよんたんへんしゆうしんしゆうをしゆたいとせるうありえいしよん",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-11-28",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000074/card3202.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000074/files/3202_ruby_7604.zip",
+    "textFileId": "3202_ruby_7604",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000074/files/3202_7605.html",
+    "inputBy": "高柳典子",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "梶井基次郎全集　第一巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年11月10日",
+      "inputEdition": "1999（平成11）年11月10日初版第1刷"
+    },
+    "author": "梶井基次郎",
+    "authors": [
+      {
+        "personId": "000074",
+        "name": "梶井基次郎",
+        "kana": "かじいもとじろう",
+        "roman": "Motojiro Kajii",
+        "role": "著者",
+        "birthDate": "1901-02-17",
+        "deathDate": "1932-03-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

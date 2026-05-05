@@ -70,5 +70,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056938",
+    "title": "スフィンクス（覚書）",
+    "titleKana": "スフィンクス（おぼえがき）",
+    "sortKana": "すふいんくすおほえかき",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-09-06",
+    "updatedAt": "2015-08-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card56938.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/56938_ruby_57025.zip",
+    "textFileId": "56938_ruby_57025",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/56938_57067.html",
+    "inputBy": "酒井裕二",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "欧洲紀行",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "2006（平成18）年12月10日",
+      "inputEdition": "2006（平成18）年12月10日第1刷",
+      "proofreadEdition": "2006（平成18）年12月10日第1刷"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

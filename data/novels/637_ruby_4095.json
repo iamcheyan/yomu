@@ -138,5 +138,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000637",
+    "title": "手袋を買いに",
+    "titleKana": "てぶくろをかいに",
+    "sortKana": "てふくろをかいに",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-03-02",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000121/card637.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000121/files/637_ruby_4095.zip",
+    "textFileId": "637_ruby_4095",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000121/files/637_13341.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "伊藤祥",
+    "baseBook1": {
+      "title": "新美南吉童話集",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1996（平成8）年7月16日",
+      "inputEdition": "1997（平成9）年7月15日第2刷"
+    },
+    "author": "新美南吉",
+    "authors": [
+      {
+        "personId": "000121",
+        "name": "新美南吉",
+        "kana": "にいみなんきち",
+        "roman": "Nankichi Niimi",
+        "role": "著者",
+        "birthDate": "1913-07-30",
+        "deathDate": "1943-03-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

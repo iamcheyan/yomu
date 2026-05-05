@@ -2,6 +2,8 @@ plugins {
     id 'com.android.application'
 }
 
+import groovy.json.JsonSlurper
+
 android {
     namespace 'com.yomu.app'
     compileSdk 33
@@ -23,6 +25,9 @@ android {
 }
 
 def webAssetOutputDir = layout.projectDirectory.dir('src/main/assets')
+def bundledBookIds = new JsonSlurper()
+        .parse(file('../../data/books.json'))
+        .collect { it.id }
 
 // 编译前自动同步 Web 文件到 assets
 tasks.register('syncWebAssets', Copy) {
@@ -36,29 +41,13 @@ tasks.register('syncWebAssets', Copy) {
 
         // 核心数据文件
         include 'data/books.json'
-        include 'data/aozora_catalog.json'
+        include 'data/aozora_catalog_preview.json'
+        include 'data/aozora_catalog_compact.json'
 
-        // 打包 20 本精选名著
-        include 'data/novels/rashomon.json'
-        include 'data/novels/hashire_melos.json'
-        include 'data/novels/bocchan.json'
-        include 'data/novels/sangetsuki.json'
-        include 'data/novels/mai_hime.json'
-        include 'data/novels/ningen_shikkaku.json'
-        include 'data/novels/kokoro.json'
-        include 'data/novels/gingatetsudo.json'
-        include 'data/novels/kumo_no_ito.json'
-        include 'data/novels/kazetachinu.json'
-        include 'data/novels/lemon.json'
-        include 'data/novels/yodaka_no_hoshi.json'
-        include 'data/novels/takasebune.json'
-        include 'data/novels/gakumon_no_susume.json'
-        include 'data/novels/wagahai_neko.json'
-        include 'data/novels/sanshiro.json'
-        include 'data/novels/chumon_ryori.json'
-        include 'data/novels/taketori.json'
-        include 'data/novels/izunodori.json'
-        include 'data/novels/yuki_onna.json'
+        // 打包首页精选书目
+        bundledBookIds.each { bookId ->
+            include "data/novels/${bookId}.json"
+        }
     }
     into webAssetOutputDir
     doFirst {

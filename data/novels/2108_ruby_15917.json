@@ -648,5 +648,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002108",
+    "title": "戦場",
+    "titleKana": "せんじょう",
+    "sortKana": "せんしよう",
+    "firstAppearance": "「改造」改造社、1936（昭和11）年5月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-08-04",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000096/card2108.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000096/files/2108_ruby_15917.zip",
+    "textFileId": "2108_ruby_15917",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000096/files/2108_15948.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "kazuishi",
+    "baseBook1": {
+      "title": "夢野久作全集6",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1992（平成4）年3月24日",
+      "inputEdition": "1992（平成4）年3月24日第1刷"
+    },
+    "author": "夢野久作",
+    "authors": [
+      {
+        "personId": "000096",
+        "name": "夢野久作",
+        "kana": "ゆめのきゅうさく",
+        "roman": "Kyusaku Yumeno",
+        "role": "著者",
+        "birthDate": "1889-01-04",
+        "deathDate": "1936-03-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

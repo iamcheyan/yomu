@@ -122,5 +122,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001189",
+    "title": "妖怪年代記",
+    "titleKana": "ばけものねんだいき",
+    "sortKana": "はけものねんたいき",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-04-04",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card1189.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/1189_ruby_21706.zip",
+    "textFileId": "1189_ruby_21706",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/1189_22309.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻64　怪談",
+      "publisher": "作品社",
+      "firstPublishedAt": "1996（平成8）年6月25日",
+      "inputEdition": "1996（平成8）年6月25日第1刷",
+      "proofreadEdition": "1996（平成8）年6月25日第1刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

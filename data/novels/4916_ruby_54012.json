@@ -56,5 +56,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004916",
+    "title": "飲酒家",
+    "titleKana": "さけのみ",
+    "sortKana": "さけのみ",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-08-28",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000150/card4916.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000150/files/4916_ruby_54012.zip",
+    "textFileId": "4916_ruby_54012",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000150/files/4916_54054.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆66　酔",
+      "publisher": "作品社",
+      "firstPublishedAt": "1988（昭和63）年4月25日",
+      "inputEdition": "1996（平成8）年2月29日第11刷",
+      "proofreadEdition": "1996（平成8）年2月29日第11刷"
+    },
+    "author": "薄田泣菫",
+    "authors": [
+      {
+        "personId": "000150",
+        "name": "薄田泣菫",
+        "kana": "すすきだきゅうきん",
+        "roman": "Kyukin Susukida",
+        "role": "著者",
+        "birthDate": "1877-05-19",
+        "deathDate": "1945-10-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -84,5 +84,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049595",
+    "title": "涸沢の岩小屋のある夜のこと",
+    "titleKana": "からさわのいわごやのあるよのこと",
+    "sortKana": "からさわのいわこやのあるよのこと",
+    "firstAppearance": "「登高行　第五年」1924（大正13）年12月",
+    "ndc": "NDC 786",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-07-27",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000863/card49595.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000863/files/49595_ruby_35238.zip",
+    "textFileId": "49595_ruby_35238",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000863/files/49595_35558.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "山の旅　大正・昭和篇",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2003（平成15）年11月14日",
+      "inputEdition": "2007（平成19）年8月6日第5刷",
+      "proofreadEdition": "2007（平成19）年8月6日第5刷"
+    },
+    "author": "大島亮吉",
+    "authors": [
+      {
+        "personId": "000863",
+        "name": "大島亮吉",
+        "kana": "おおしまりょうきち",
+        "roman": "Ryokichi Oshima",
+        "role": "著者",
+        "birthDate": "1899-09-04",
+        "deathDate": "1928-03-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

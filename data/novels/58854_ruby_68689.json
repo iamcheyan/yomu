@@ -42,5 +42,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058854",
+    "title": "望ましい音楽",
+    "titleKana": "のぞましいおんがく",
+    "sortKana": "のそましいおんかく",
+    "firstAppearance": "「心　18巻3号」1965（昭和40）年3月号",
+    "ndc": "NDC 760",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-08-01",
+    "updatedAt": "2019-07-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001963/card58854.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001963/files/58854_ruby_68689.zip",
+    "textFileId": "58854_ruby_68689",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001963/files/58854_68738.html",
+    "inputBy": "The Creative CAT",
+    "proofreadBy": "POKEPEEK2011",
+    "baseBook1": {
+      "title": "信時潔音楽随想集　バッハに非ず",
+      "publisher": "叢書ビブリオムジカ、アルテスパブリッシング",
+      "firstPublishedAt": "2012（平成24）年12月5日",
+      "inputEdition": "2012（平成24）年12月5日初版第1刷"
+    },
+    "author": "信時潔",
+    "authors": [
+      {
+        "personId": "001963",
+        "name": "信時潔",
+        "kana": "のぶとききよし",
+        "roman": "Kiyoshi Nobutoki",
+        "role": "著者",
+        "birthDate": "1887-12-29",
+        "deathDate": "1965-08-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

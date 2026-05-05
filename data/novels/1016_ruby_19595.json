@@ -382,5 +382,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001016",
+    "title": "鮨",
+    "titleKana": "すし",
+    "sortKana": "すし",
+    "firstAppearance": "「文芸」1939（昭和14）年1月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-09-29",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000076/card1016.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000076/files/1016_ruby_19595.zip",
+    "textFileId": "1016_ruby_19595",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000076/files/1016_19596.html",
+    "inputBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "岡本かの子全集5",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1993（平成5）年8月24日",
+      "inputEdition": "1993（平成5）年8月24日第1刷",
+      "proofreadEdition": "1993（平成5）年8月24日第1刷"
+    },
+    "author": "岡本かの子",
+    "authors": [
+      {
+        "personId": "000076",
+        "name": "岡本かの子",
+        "kana": "おかもとかのこ",
+        "roman": "Kanoko Okamoto",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1939-02-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

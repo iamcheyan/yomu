@@ -82,5 +82,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001461",
+    "title": "紀行文家の群れ",
+    "titleKana": "きこうぶんかのむれ",
+    "sortKana": "きこうふんかのむれ",
+    "subtitle": "――田山花袋氏――",
+    "subtitleKana": "たやまかたいし",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-11-27",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000027/card1461.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000027/files/1461_ruby_4933.zip",
+    "textFileId": "1461_ruby_4933",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000027/files/1461_11100.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "アルピニストの手記",
+      "publisher": "平凡社ライブラリー、平凡社",
+      "firstPublishedAt": "1996（平成8）年12月15日"
+    },
+    "author": "小島烏水",
+    "authors": [
+      {
+        "personId": "000027",
+        "name": "小島烏水",
+        "kana": "こじまうすい",
+        "roman": "Usui Kojima",
+        "role": "著者",
+        "birthDate": "1873-12-29",
+        "deathDate": "1948-12-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

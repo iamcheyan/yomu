@@ -66,5 +66,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058930",
+    "title": "中村梅玉論",
+    "titleKana": "なかむらばいぎょくろん",
+    "sortKana": "なかむらはいきよくろん",
+    "subtitle": "大根か名優か",
+    "subtitleKana": "だいこんかめいゆうか",
+    "ndc": "NDC 774",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-01-01",
+    "updatedAt": "2018-01-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001871/card58930.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001871/files/58930_ruby_63621.zip",
+    "textFileId": "58930_ruby_63621",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001871/files/58930_63622.html",
+    "inputBy": "大久保ゆう",
+    "proofreadBy": "富田晶子",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻10　芝居",
+      "publisher": "作品社",
+      "firstPublishedAt": "1991（平成3）年12月25日",
+      "inputEdition": "1991（平成3）年12月25日第1刷",
+      "proofreadEdition": "1991（平成3）年12月25日第1刷"
+    },
+    "author": "三宅周太郎",
+    "authors": [
+      {
+        "personId": "001871",
+        "name": "三宅周太郎",
+        "kana": "みやけしゅうたろう",
+        "roman": "Shutaro Miyake",
+        "role": "著者",
+        "birthDate": "1892-07-22",
+        "deathDate": "1967-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

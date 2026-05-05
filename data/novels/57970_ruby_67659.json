@@ -60,5 +60,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057970",
+    "title": "八幡の森",
+    "titleKana": "やわたのもり",
+    "sortKana": "やわたのもり",
+    "firstAppearance": "「馬醉木　第三卷第一號」根岸短歌会、1906（明治39）年1月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-04-03",
+    "updatedAt": "2019-03-31",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000058/card57970.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000058/files/57970_ruby_67659.zip",
+    "textFileId": "57970_ruby_67659",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000058/files/57970_67711.html",
+    "inputBy": "高瀬竜一",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "左千夫全集　第二卷",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1976（昭和51）年11月25日",
+      "inputEdition": "1976（昭和51）年11月25日",
+      "proofreadEdition": "1976（昭和51）年11月25日"
+    },
+    "author": "伊藤左千夫",
+    "authors": [
+      {
+        "personId": "000058",
+        "name": "伊藤左千夫",
+        "kana": "いとうさちお",
+        "roman": "Sachio Ito",
+        "role": "著者",
+        "birthDate": "1864-09-18",
+        "deathDate": "1913-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

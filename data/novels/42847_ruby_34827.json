@@ -268,5 +268,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042847",
+    "title": "二十七歳",
+    "titleKana": "にじゅうしちさい",
+    "sortKana": "にしゆうしちさい",
+    "firstAppearance": "「新潮　第四四巻第三号」1947（昭和22）年3月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-06-27",
+    "updatedAt": "2016-04-15",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card42847.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/42847_ruby_34827.zip",
+    "textFileId": "42847_ruby_34827",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/42847_35005.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "深津辰男・美智子",
+    "baseBook1": {
+      "title": "坂口安吾全集　05",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1998（平成10）年6月20日",
+      "inputEdition": "1998（平成10）年6月20日初版第1刷",
+      "proofreadEdition": "1998（平成10）年6月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

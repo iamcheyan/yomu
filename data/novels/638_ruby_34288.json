@@ -396,5 +396,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000638",
+    "title": "牛をつないだ椿の木",
+    "titleKana": "うしをつないだつばきのき",
+    "sortKana": "うしをつないたつはきのき",
+    "firstAppearance": "「少國民文化」1943（昭和18）年6月",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-10-25",
+    "updatedAt": "2021-11-03",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000121/card638.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000121/files/638_ruby_34288.zip",
+    "textFileId": "638_ruby_34288",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000121/files/638_34289.html",
+    "inputBy": "田浦亜矢子",
+    "proofreadBy": "もりみつじゅんじ",
+    "baseBook1": {
+      "title": "少年少女日本文学館第十五巻　ごんぎつね・夕鶴",
+      "publisher": "講談社",
+      "firstPublishedAt": "1986（昭和61）年4月18日",
+      "inputEdition": "1993（平成5）年2月25日第13刷",
+      "proofreadEdition": "1993（平成5）年2月25日第13刷"
+    },
+    "author": "新美南吉",
+    "authors": [
+      {
+        "personId": "000121",
+        "name": "新美南吉",
+        "kana": "にいみなんきち",
+        "roman": "Nankichi Niimi",
+        "role": "著者",
+        "birthDate": "1913-07-30",
+        "deathDate": "1943-03-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

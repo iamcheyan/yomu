@@ -606,5 +606,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046450",
+    "title": "五右衛門と新左",
+    "titleKana": "ごえもんとしんざ",
+    "sortKana": "こえもんとしんさ",
+    "firstAppearance": "「大衆文芸　第一巻第一号」1926（大正15）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-04-30",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card46450.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/46450_ruby_26414.zip",
+    "textFileId": "46450_ruby_26414",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/46450_26538.html",
+    "inputBy": "伊藤時也",
+    "proofreadBy": "伊藤時也、小林繁雄",
+    "baseBook1": {
+      "title": "蔦葛木曾棧",
+      "publisher": "桃源社",
+      "firstPublishedAt": "1971（昭和46）年12月20日",
+      "inputEdition": "1971（昭和46）年12月20日",
+      "proofreadEdition": "1971（昭和46）年12月20日"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

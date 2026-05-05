@@ -94,5 +94,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047850",
+    "title": "学究漫録",
+    "titleKana": "がっきゅうまんろく",
+    "sortKana": "かつきゆうまんろく",
+    "firstAppearance": "「精神界　第二卷一一、一二號」1902（明治35）年11、12月",
+    "ndc": "NDC 121",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-07-13",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000923/card47850.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000923/files/47850_ruby_30945.zip",
+    "textFileId": "47850_ruby_30945",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000923/files/47850_31638.html",
+    "inputBy": "岩澤秀紀",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "明治文學全集　80　明治哲學思想集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1974（昭和49）年6月15日",
+      "inputEdition": "1989（平成元）年2月20日初版第5刷",
+      "proofreadEdition": "1983（昭和58）年10月1日第3刷"
+    },
+    "author": "朝永三十郎",
+    "authors": [
+      {
+        "personId": "000923",
+        "name": "朝永三十郎",
+        "kana": "ともながさんじゅうろう",
+        "roman": "Sanjuro Tomonaga",
+        "role": "著者",
+        "birthDate": "1871-02-05",
+        "deathDate": "1951-09-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

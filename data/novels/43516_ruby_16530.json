@@ -72,5 +72,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043516",
+    "title": "したゆく水",
+    "titleKana": "したゆくみず",
+    "sortKana": "したゆくみす",
+    "firstAppearance": "「文芸倶楽部」1897（明治30）年2月",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-10-17",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001146/card43516.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001146/files/43516_ruby_16530.zip",
+    "textFileId": "43516_ruby_16530",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001146/files/43516_16589.html",
+    "inputBy": "小林繁雄、門田裕志",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "紫琴全集　全一巻",
+      "publisher": "草土文化",
+      "firstPublishedAt": "1983（昭和58）年5月10日",
+      "inputEdition": "1983（昭和58）年5月10日第1刷"
+    },
+    "author": "清水紫琴",
+    "authors": [
+      {
+        "personId": "001146",
+        "name": "清水紫琴",
+        "kana": "しみずしきん",
+        "roman": "Shikin Shimizu",
+        "role": "著者",
+        "birthDate": "1868-01-25",
+        "deathDate": "1933-07-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

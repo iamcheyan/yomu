@@ -444,5 +444,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050534",
+    "title": "煤煙の匂ひ",
+    "titleKana": "ばいえんのにおい",
+    "sortKana": "はいえんのにおい",
+    "firstAppearance": "「中外」1918（大正7）年7月号",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-10-13",
+    "updatedAt": "2016-11-08",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001446/card50534.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001446/files/50534_ruby_39743.zip",
+    "textFileId": "50534_ruby_39743",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001446/files/50534_40584.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "現代日本文學大系　49　葛西善藏　嘉村礒多　相馬泰三　川崎長太郎　宮地嘉六　木山捷平　集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1973（昭和48）年2月5日",
+      "inputEdition": "1985（昭和60）年11月10日第12刷",
+      "proofreadEdition": "1973（昭和48）年2月5日初版第1刷"
+    },
+    "author": "宮地嘉六",
+    "authors": [
+      {
+        "personId": "001446",
+        "name": "宮地嘉六",
+        "kana": "みやちかろく",
+        "roman": "Karoku Miyachi",
+        "role": "著者",
+        "birthDate": "1884-06-11",
+        "deathDate": "1958-04-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -152,5 +152,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059504",
+    "title": "同居人荷風",
+    "titleKana": "どうきょにんかふう",
+    "sortKana": "とうきよにんかふう",
+    "firstAppearance": "「新潮　第四十九卷　第十二號」1952（昭和27）年12月1日",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-01-16",
+    "updatedAt": "2022-09-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/002048/card59504.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/002048/files/59504_ruby_69922.zip",
+    "textFileId": "59504_ruby_69922",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/002048/files/59504_69975.html",
+    "inputBy": "きりんの手紙",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "現代日本文學大系　24　永井荷風（二）",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1971（昭和46）年12月15日",
+      "inputEdition": "1971（昭和46）年12月15日初版第1刷",
+      "proofreadEdition": "2000（平成12）年1月30日初版第14刷"
+    },
+    "author": "小西茂也",
+    "authors": [
+      {
+        "personId": "002048",
+        "name": "小西茂也",
+        "kana": "こにししげや",
+        "roman": "Shigeya Konishi",
+        "role": "著者",
+        "birthDate": "1909-01-16",
+        "deathDate": "1955-04-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

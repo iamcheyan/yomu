@@ -102,5 +102,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004986",
+    "title": "水郷柳河",
+    "titleKana": "すいごうやながわ",
+    "sortKana": "すいこうやなかわ",
+    "ndc": "NDC 914 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-07-17",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000106/card4986.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000106/files/4986_ruby_15801.zip",
+    "textFileId": "4986_ruby_15801",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000106/files/4986_15850.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "浅原庸子",
+    "baseBook1": {
+      "title": "現代日本紀行文学全集　南日本編",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1976（昭和51）年8月1日",
+      "inputEdition": "1976（昭和51）年8月1日初版"
+    },
+    "author": "北原白秋",
+    "authors": [
+      {
+        "personId": "000106",
+        "name": "北原白秋",
+        "kana": "きたはらはくしゅう",
+        "roman": "Hakushu Kitahara",
+        "role": "著者",
+        "birthDate": "1885-01-25",
+        "deathDate": "1942-11-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

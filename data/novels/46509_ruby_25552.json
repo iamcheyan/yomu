@@ -82,5 +82,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046509",
+    "title": "八月の星座",
+    "titleKana": "はちがつのせいざ",
+    "sortKana": "はちかつのせいさ",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-01-01",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001177/card46509.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001177/files/46509_ruby_25552.zip",
+    "textFileId": "46509_ruby_25552",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001177/files/46509_25604.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻42　家族",
+      "publisher": "作品社",
+      "firstPublishedAt": "1994（平成6）年8月25日",
+      "inputEdition": "1994（平成6）年8月25日第1刷"
+    },
+    "author": "吉田絃二郎",
+    "authors": [
+      {
+        "personId": "001177",
+        "name": "吉田絃二郎",
+        "kana": "よしだげんじろう",
+        "roman": "Genjiro Yoshida",
+        "role": "著者",
+        "birthDate": "1886-11-24",
+        "deathDate": "1956-05-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

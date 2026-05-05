@@ -996,5 +996,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050114",
+    "title": "山谿に生くる人々",
+    "titleKana": "さんけいにいくるひとびと",
+    "sortKana": "さんけいにいくるひとひと",
+    "subtitle": "――生きる為に――",
+    "subtitleKana": "――いきるために――",
+    "firstAppearance": "「改造　第十六巻十一号」1934（昭和9）年10月1日<br>「改造　第十七巻一号」1935（昭和10）年1月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-10-18",
+    "updatedAt": "2018-09-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000031/card50114.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000031/files/50114_ruby_65946.zip",
+    "textFileId": "50114_ruby_65946",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000031/files/50114_66098.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "富田晶子",
+    "baseBook1": {
+      "title": "葉山嘉樹　短編小説選集",
+      "publisher": "郷土出版社",
+      "firstPublishedAt": "1997（平成9）年4月15日",
+      "inputEdition": "1997（平成9）年4月15日初版",
+      "proofreadEdition": "1997（平成9）年4月15日初版"
+    },
+    "author": "葉山嘉樹",
+    "authors": [
+      {
+        "personId": "000031",
+        "name": "葉山嘉樹",
+        "kana": "はやまよしき",
+        "roman": "Yoshiki Hayama",
+        "role": "著者",
+        "birthDate": "1894-03-12",
+        "deathDate": "1945-10-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

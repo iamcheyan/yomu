@@ -80,5 +80,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002064",
+    "title": "防火栓",
+    "titleKana": "ぼうかせん",
+    "sortKana": "ほうかせん",
+    "originalTitle": "DAS GROBE VERGNUGEN",
+    "firstAppearance": "「昴　五ノ一二」1913（大正2）年12月1日",
+    "ndc": "NDC 943",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-09-15",
+    "updatedAt": "2016-02-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000359/card2064.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000359/files/2064_ruby_22477.zip",
+    "textFileId": "2064_ruby_22477",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000359/files/2064_22478.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "浅原庸子",
+    "baseBook1": {
+      "title": "鴎外選集　第14巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1979（昭和54）年12月19日",
+      "inputEdition": "1979（昭和54）年12月19日第1刷",
+      "proofreadEdition": "1979（昭和54）年12月19日第1刷"
+    },
+    "author": "ヒルシュフェルドゲオルヒ",
+    "authors": [
+      {
+        "personId": "000359",
+        "name": "ヒルシュフェルドゲオルヒ",
+        "kana": "ヒルシュフェルドゲオルヒ",
+        "roman": "Georg Hirschfeld",
+        "role": "著者",
+        "birthDate": "1873-02-11",
+        "deathDate": "1943-01-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

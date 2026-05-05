@@ -42,5 +42,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052199",
+    "title": "こがらし",
+    "titleKana": "こがらし",
+    "sortKana": "こからし",
+    "subtitle": "――南駅余情――",
+    "subtitleKana": "――みなみえきよじょう――",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-01-09",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001534/card52199.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001534/files/52199_ruby_46360.zip",
+    "textFileId": "52199_ruby_46360",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001534/files/52199_46406.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆37　風",
+      "publisher": "作品社",
+      "firstPublishedAt": "1985（昭和60）年11月25日",
+      "inputEdition": "1997（平成9）年2月20日第13刷",
+      "proofreadEdition": "1997（平成9）年2月20日第13刷"
+    },
+    "author": "岩本素白",
+    "authors": [
+      {
+        "personId": "001534",
+        "name": "岩本素白",
+        "kana": "いわもとそはく",
+        "roman": "Sohaku Iwamoto",
+        "role": "著者",
+        "birthDate": "1883-08-17",
+        "deathDate": "1961-10-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

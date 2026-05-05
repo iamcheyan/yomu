@@ -1384,5 +1384,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043748",
+    "title": "血ぬられた懐刀",
+    "titleKana": "ちぬられたかいとう",
+    "sortKana": "ちぬられたかいとう",
+    "firstAppearance": "「講談倶楽部」1928（昭和3）年8月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-07-09",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card43748.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/43748_ruby_18687.zip",
+    "textFileId": "43748_ruby_18687",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/43748_18691.html",
+    "inputBy": "阿和泉拓",
+    "proofreadBy": "湯地光弘",
+    "baseBook1": {
+      "title": "国枝史郎伝奇全集　巻五",
+      "publisher": "未知谷",
+      "firstPublishedAt": "1993（平成5）年7月20日",
+      "inputEdition": "1993（平成5）年7月20日初版"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

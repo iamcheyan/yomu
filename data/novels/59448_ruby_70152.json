@@ -90,5 +90,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059448",
+    "title": "歪んだ窓",
+    "titleKana": "ゆがんだまど",
+    "sortKana": "ゆかんたまと",
+    "firstAppearance": "「龍生」1963（昭和38）年7月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-02-20",
+    "updatedAt": "2020-01-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001801/card59448.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001801/files/59448_ruby_70152.zip",
+    "textFileId": "59448_ruby_70152",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001801/files/59448_70201.html",
+    "inputBy": "かな　とよみ",
+    "proofreadBy": "The Creative CAT",
+    "baseBook1": {
+      "title": "山川方夫全集　第四巻",
+      "publisher": "冬樹社",
+      "firstPublishedAt": "1969（昭和44）年9月25日",
+      "inputEdition": "1969（昭和44）年9月25日第1刷",
+      "proofreadEdition": "1969（昭和44）年9月25日第1刷"
+    },
+    "author": "山川方夫",
+    "authors": [
+      {
+        "personId": "001801",
+        "name": "山川方夫",
+        "kana": "やまかわまさお",
+        "roman": "Masao Yamakawa",
+        "role": "著者",
+        "birthDate": "1930-02-25",
+        "deathDate": "1965-02-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

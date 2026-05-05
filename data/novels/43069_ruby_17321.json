@@ -42,5 +42,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043069",
+    "title": "一つの約束",
+    "titleKana": "ひとつのやくそく",
+    "sortKana": "ひとつのやくそく",
+    "firstAppearance": "青森県某誌、1944（昭和19）年頃",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-02-11",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card43069.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/43069_ruby_17321.zip",
+    "textFileId": "43069_ruby_17321",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/43069_17525.html",
+    "inputBy": "青空文庫",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "道化の精神",
+      "publisher": "大和出版",
+      "firstPublishedAt": "1992（平成4）年6月30日",
+      "inputEdition": "1992（平成4）年6月30日新装1刷",
+      "proofreadEdition": "1992（平成4）年6月30日新装1刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

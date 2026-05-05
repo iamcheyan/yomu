@@ -74,5 +74,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "013200",
+    "title": "『新新訳源氏物語』あとがき",
+    "titleKana": "『しんしんやくげんじものがたり』あとがき",
+    "sortKana": "しんしんやくけんしものかたりあとかき",
+    "ndc": "NDC 913 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-03-18",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000885/card13200.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000885/files/13200_ruby_9288.zip",
+    "textFileId": "13200_ruby_9288",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000885/files/13200_17872.html",
+    "inputBy": "めいこ",
+    "proofreadBy": "もりみつじゅんじ",
+    "baseBook1": {
+      "title": "源氏物語下巻　日本文学全集2",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "1965（昭和40）年7月3日",
+      "inputEdition": "1972（昭和47）年4月15日20版"
+    },
+    "author": "与謝野晶子",
+    "authors": [
+      {
+        "personId": "000885",
+        "name": "与謝野晶子",
+        "kana": "よさのあきこ",
+        "roman": "Akiko Yosano",
+        "role": "著者",
+        "birthDate": "1878-12-07",
+        "deathDate": "1942-05-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

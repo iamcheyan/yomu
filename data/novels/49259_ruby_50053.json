@@ -302,5 +302,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049259",
+    "title": "武士を夷ということの考",
+    "titleKana": "ぶしをえびすということのこう",
+    "sortKana": "ふしをえひすということのこう",
+    "firstAppearance": "「歴史地理　第二六巻第四号、第六号」1915（大正4）年10月、12月、「歴史地理　第二七巻第一号」1916（大正5）年1月",
+    "ndc": "NDC 210",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-05-03",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001344/card49259.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001344/files/49259_ruby_50053.zip",
+    "textFileId": "49259_ruby_50053",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001344/files/49259_50560.html",
+    "inputBy": "しだひろし",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "喜田貞吉著作集　第九巻　蝦夷の研究",
+      "publisher": "平凡社",
+      "firstPublishedAt": "1980（昭和55）年5月25日",
+      "inputEdition": "1980（昭和55）年5月25日初版第1刷",
+      "proofreadEdition": "1980（昭和55）年5月25日初版第1刷"
+    },
+    "author": "喜田貞吉",
+    "authors": [
+      {
+        "personId": "001344",
+        "name": "喜田貞吉",
+        "kana": "きたさだきち",
+        "roman": "Sadakichi Kita",
+        "role": "著者",
+        "birthDate": "1871-07-11",
+        "deathDate": "1939-07-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

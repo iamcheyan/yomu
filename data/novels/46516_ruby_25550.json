@@ -62,5 +62,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046516",
+    "title": "兄の帰朝",
+    "titleKana": "あにのきちょう",
+    "sortKana": "あにのきちよう",
+    "ndc": "NDC 910 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-01-01",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001247/card46516.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001247/files/46516_ruby_25550.zip",
+    "textFileId": "46516_ruby_25550",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001247/files/46516_25602.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻31　留学",
+      "publisher": "作品社",
+      "firstPublishedAt": "1993（平成5）年9月25日",
+      "inputEdition": "1993（平成5）年9月25日第1刷"
+    },
+    "author": "小金井喜美子",
+    "authors": [
+      {
+        "personId": "001247",
+        "name": "小金井喜美子",
+        "kana": "こがねいきみこ",
+        "roman": "Kimiko Koganei",
+        "role": "著者",
+        "birthDate": "1871-01-19",
+        "deathDate": "1956-01-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -104,5 +104,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054050",
+    "title": "奪われてなるものか",
+    "titleKana": "うばわれてなるものか",
+    "sortKana": "うはわれてなるものか",
+    "subtitle": "――施療病院にて――",
+    "subtitleKana": "――せりょうびょういんにて――",
+    "firstAppearance": "「文学新聞」1932（昭和7）年7月15日",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-06-09",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001471/card54050.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001471/files/54050_ruby_53537.zip",
+    "textFileId": "54050_ruby_53537",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001471/files/54050_53580.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・39　プロレタリア詩集（二）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年6月30日",
+      "inputEdition": "1987（昭和62）年6月30日初版",
+      "proofreadEdition": "1987（昭和62）年6月30日初版"
+    },
+    "author": "今野大力",
+    "authors": [
+      {
+        "personId": "001471",
+        "name": "今野大力",
+        "kana": "こんのだいりき",
+        "roman": "Dairiki Konno",
+        "role": "著者",
+        "birthDate": "1904-02-05",
+        "deathDate": "1935-06-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -142,5 +142,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053979",
+    "title": "彼はいない",
+    "titleKana": "かれはいない",
+    "sortKana": "かれはいない",
+    "subtitle": "――静岡市議会議員松田辰雄兄へ――",
+    "subtitleKana": "――しずおかしぎかいぎいんまつだたつおあにへ――",
+    "firstAppearance": "「戦旗」1929（昭和4）年5月号",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-02-06",
+    "updatedAt": "2015-12-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001615/card53979.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001615/files/53979_ruby_57973.zip",
+    "textFileId": "53979_ruby_57973",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001615/files/53979_58000.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・38　プロレタリア詩集（一）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年5月25日",
+      "inputEdition": "1987（昭和62）年5月25日初版",
+      "proofreadEdition": "1987（昭和62）年5月25日初版"
+    },
+    "author": "下川儀太郎",
+    "authors": [
+      {
+        "personId": "001615",
+        "name": "下川儀太郎",
+        "kana": "しもかわぎたろう",
+        "roman": "Gitaro Shimokawa",
+        "role": "著者",
+        "birthDate": "1904",
+        "deathDate": "1961",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

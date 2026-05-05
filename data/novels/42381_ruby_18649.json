@@ -242,5 +242,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042381",
+    "title": "小夜啼鳥",
+    "titleKana": "さよなきどり",
+    "sortKana": "さよなきとり",
+    "originalTitle": "NATTERGALEN",
+    "ndc": "NDC K949",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-07-28",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000019/card42381.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000019/files/42381_ruby_18649.zip",
+    "textFileId": "42381_ruby_18649",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000019/files/42381_18753.html",
+    "inputBy": "大久保ゆう",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "新訳アンデルセン童話集　第二巻",
+      "publisher": "同和春秋社",
+      "firstPublishedAt": "1955（昭和30）年7月15日",
+      "inputEdition": "1955（昭和30）年7月15日初版"
+    },
+    "author": "アンデルセンハンス・クリスチャン",
+    "authors": [
+      {
+        "personId": "000019",
+        "name": "アンデルセンハンス・クリスチャン",
+        "kana": "アンデルセンハンス・クリスチャン",
+        "roman": "Hans Christian Andersen",
+        "role": "著者",
+        "birthDate": "1805-04-02",
+        "deathDate": "1875-08-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

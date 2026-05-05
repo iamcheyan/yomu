@@ -5002,5 +5002,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "044426",
+    "title": "名人地獄",
+    "titleKana": "めいじんじごく",
+    "sortKana": "めいしんしこく",
+    "firstAppearance": "「サンデー毎日」1925（大正14）年7月5日～10月25日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-03-30",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card44426.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/44426_ruby_21700.zip",
+    "textFileId": "44426_ruby_21700",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/44426_21842.html",
+    "inputBy": "阿和泉拓",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "名人地獄",
+      "publisher": "国枝史郎伝奇文庫（七）、講談社",
+      "firstPublishedAt": "1976（昭和51）年5月20日",
+      "inputEdition": "1976（昭和51）年5月20日第1刷",
+      "proofreadEdition": "1976（昭和51）年5月20日第1刷"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

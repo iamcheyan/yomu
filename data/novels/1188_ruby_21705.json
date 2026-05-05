@@ -92,5 +92,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001188",
+    "title": "星あかり",
+    "titleKana": "ほしあかり",
+    "sortKana": "ほしあかり",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-04-04",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card1188.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/1188_ruby_21705.zip",
+    "textFileId": "1188_ruby_21705",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/1188_22308.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "書物の王国11　分身",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "1999（平成11）年1月22日",
+      "inputEdition": "1999（平成11）年1月22日初版第1刷",
+      "proofreadEdition": "1999（平成11）年1月22日初版第1刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -196,5 +196,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049442",
+    "title": "言文一致",
+    "titleKana": "げんぶんいっち",
+    "sortKana": "けんふんいつち",
+    "ndc": "NDC 910",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-11-24",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000941/card49442.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000941/files/49442_ruby_40423.zip",
+    "textFileId": "49442_ruby_40423",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000941/files/49442_41262.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "Ｒ",
+    "baseBook1": {
+      "title": "明治文学遊学案内",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2000（平成12）年8月25日",
+      "inputEdition": "2000（平成12）年8月25日初版第1刷",
+      "proofreadEdition": "2000（平成12）年11月15日初版第3刷"
+    },
+    "author": "水野葉舟",
+    "authors": [
+      {
+        "personId": "000941",
+        "name": "水野葉舟",
+        "kana": "みずのようしゅう",
+        "roman": "Yoshu Mizuno",
+        "role": "著者",
+        "birthDate": "1883-04-09",
+        "deathDate": "1947-02-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

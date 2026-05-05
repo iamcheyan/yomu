@@ -134,5 +134,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057147",
+    "title": "嫁泥棒譚",
+    "titleKana": "よめどろぼうたん",
+    "sortKana": "よめとろほうたん",
+    "firstAppearance": "「女の世界　第三巻第一二号」1917（大正6）年12月号",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-01-21",
+    "updatedAt": "2019-12-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000416/card57147.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000416/files/57147_ruby_69930.zip",
+    "textFileId": "57147_ruby_69930",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000416/files/57147_69983.html",
+    "inputBy": "酒井裕二",
+    "proofreadBy": "Butami",
+    "baseBook1": {
+      "title": "定本　伊藤野枝全集　第二巻　評論・随筆・書簡1――『青鞜』の時代",
+      "publisher": "學藝書林",
+      "firstPublishedAt": "2000（平成12）年5月31日",
+      "inputEdition": "2000（平成12）年5月31日初版",
+      "proofreadEdition": "2000（平成12）年5月31日初版"
+    },
+    "author": "伊藤野枝",
+    "authors": [
+      {
+        "personId": "000416",
+        "name": "伊藤野枝",
+        "kana": "いとうのえ",
+        "roman": "Noe Ito",
+        "role": "著者",
+        "birthDate": "1895-01-21",
+        "deathDate": "1923-09-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

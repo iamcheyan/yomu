@@ -62,5 +62,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058136",
+    "title": "初旅の残像",
+    "titleKana": "はつたびのざんぞう",
+    "sortKana": "はつたひのさんそう",
+    "firstAppearance": "「中外商業新報」1937（昭和12）年1月8日〜10日",
+    "ndc": "NDC 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-01-01",
+    "updatedAt": "2017-01-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001909/card58136.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001909/files/58136_ruby_60649.zip",
+    "textFileId": "58136_ruby_60649",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001909/files/58136_60651.html",
+    "inputBy": "Juki",
+    "proofreadBy": "日野ととり",
+    "baseBook1": {
+      "title": "ふるさと文学館　第四四巻　【愛媛】",
+      "publisher": "ぎょうせい",
+      "firstPublishedAt": "1993（平成5）年10月15日",
+      "inputEdition": "1993（平成5）年10月15日初版",
+      "proofreadEdition": "1993（平成5）年10月15日初版"
+    },
+    "author": "安倍能成",
+    "authors": [
+      {
+        "personId": "001909",
+        "name": "安倍能成",
+        "kana": "あべよししげ",
+        "roman": "Yoshishige Abe",
+        "role": "著者",
+        "birthDate": "1883-12-23",
+        "deathDate": "1966-06-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -264,5 +264,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055650",
+    "title": "早稲田神楽坂",
+    "titleKana": "わせだかぐらざか",
+    "sortKana": "わせたかくらさか",
+    "firstAppearance": "「東京日日新聞」1927（昭和2）年6月11日～29日",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-09-27",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000247/card55650.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000247/files/55650_ruby_51171.zip",
+    "textFileId": "55650_ruby_51171",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000247/files/55650_51172.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "大東京繁昌記",
+      "publisher": "毎日新聞社",
+      "firstPublishedAt": "1999（平成11）年5月15日",
+      "inputEdition": "1999（平成11）年5月15日",
+      "proofreadEdition": "1999（平成11）年5月15日"
+    },
+    "author": "加能作次郎",
+    "authors": [
+      {
+        "personId": "000247",
+        "name": "加能作次郎",
+        "kana": "かのうさくじろう",
+        "roman": "Sakujiro Kano",
+        "role": "著者",
+        "birthDate": "1885-01-10",
+        "deathDate": "1941-08-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -30,5 +30,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053927",
+    "title": "〔金魚は青空を食べてふくらみ〕",
+    "titleKana": "〔きんぎょはあおぞらをたべてふくらみ〕",
+    "sortKana": "きんきよはあおそらをたへてふくらみ",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-12-14",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001604/card53927.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001604/files/53927_ruby_45240.zip",
+    "textFileId": "53927_ruby_45240",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001604/files/53927_45306.html",
+    "inputBy": "Y.S.",
+    "proofreadBy": "富田倫生",
+    "baseBook1": {
+      "title": "日光浴室　櫻間中庸遺稿集",
+      "publisher": "ボン書店",
+      "firstPublishedAt": "1936（昭和11）年7月28日",
+      "inputEdition": "1936（昭和11）年7月28日",
+      "proofreadEdition": "1936（昭和11）年7月28日"
+    },
+    "author": "桜間中庸",
+    "authors": [
+      {
+        "personId": "001604",
+        "name": "桜間中庸",
+        "kana": "さくらまちゅうよう",
+        "roman": "Chuyo Sakurama",
+        "role": "著者",
+        "birthDate": "1911-07-06",
+        "deathDate": "1934-04-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

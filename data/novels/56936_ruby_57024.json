@@ -56,5 +56,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056936",
+    "title": "北京と巴里（覚書）",
+    "titleKana": "ぺきんとぱり（おぼえがき）",
+    "sortKana": "へきんとはりおほえかき",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-09-06",
+    "updatedAt": "2015-05-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card56936.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/56936_ruby_57024.zip",
+    "textFileId": "56936_ruby_57024",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/56936_57066.html",
+    "inputBy": "酒井裕二",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "欧洲紀行",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "2006（平成18）年12月10日",
+      "inputEdition": "2006（平成18）年12月10日第1刷",
+      "proofreadEdition": "2006（平成18）年12月10日第1刷"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

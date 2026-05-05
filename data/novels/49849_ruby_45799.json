@@ -534,5 +534,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049849",
+    "title": "水と砂",
+    "titleKana": "みずとすな",
+    "sortKana": "みすとすな",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-02-13",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001157/card49849.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001157/files/49849_ruby_45799.zip",
+    "textFileId": "49849_ruby_45799",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001157/files/49849_46687.html",
+    "inputBy": "kompass",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "雪の宿り　神西清小説セレクション",
+      "publisher": "港の人",
+      "firstPublishedAt": "2008（平成20）年10月5日",
+      "inputEdition": "2008（平成20）年10月5日初版第1刷",
+      "proofreadEdition": "2008（平成20）年10月5日初版第1刷"
+    },
+    "author": "神西清",
+    "authors": [
+      {
+        "personId": "001157",
+        "name": "神西清",
+        "kana": "じんざいきよし",
+        "roman": "Kiyoshi Jinzai",
+        "role": "著者",
+        "birthDate": "1903-11-15",
+        "deathDate": "1957-03-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

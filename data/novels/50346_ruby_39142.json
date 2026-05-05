@@ -3042,5 +3042,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050346",
+    "title": "透明人間",
+    "titleKana": "とうめいにんげん",
+    "sortKana": "とうめいにんけん",
+    "ndc": "NDC K933",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-08-22",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001430/card50346.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001430/files/50346_ruby_39142.zip",
+    "textFileId": "50346_ruby_39142",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001430/files/50346_40111.html",
+    "inputBy": "京都大学電子テクスト研究会入力班",
+    "proofreadBy": "京都大学電子テクスト研究会校正班",
+    "baseBook1": {
+      "title": "透明人間",
+      "publisher": "ポプラ社文庫、ポプラ社",
+      "firstPublishedAt": "1982（昭和57）年7月",
+      "inputEdition": "1984（昭和59）年9月第5刷",
+      "proofreadEdition": "1984（昭和59）年9月第5刷"
+    },
+    "author": "ウェルズハーバート・ジョージ",
+    "authors": [
+      {
+        "personId": "001430",
+        "name": "ウェルズハーバート・ジョージ",
+        "kana": "ウェルズハーバート・ジョージ",
+        "roman": "Herbert George Wells",
+        "role": "著者",
+        "birthDate": "1866-09-21",
+        "deathDate": "1946-08-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

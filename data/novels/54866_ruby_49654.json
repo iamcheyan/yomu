@@ -114,5 +114,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054866",
+    "title": "黒板は何処から来たのか",
+    "titleKana": "こくばんはどこからきたのか",
+    "sortKana": "こくはんはとこからきたのか",
+    "firstAppearance": "「別冊文芸春秋」1947（昭和22）年10月号",
+    "ndc": "NDC 372",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-01-01",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001570/card54866.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001570/files/54866_ruby_49654.zip",
+    "textFileId": "54866_ruby_49654",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001570/files/54866_49655.html",
+    "inputBy": "sogo",
+    "proofreadBy": "富田倫生",
+    "baseBook1": {
+      "title": "世界教養全集　別巻1　日本随筆・随想集",
+      "publisher": "平凡社",
+      "firstPublishedAt": "1962（昭和37）年11月20日",
+      "inputEdition": "1963（昭和38）年8月15日再版",
+      "proofreadEdition": "1962（昭和37）年11月20日初版"
+    },
+    "author": "小倉金之助",
+    "authors": [
+      {
+        "personId": "001570",
+        "name": "小倉金之助",
+        "kana": "おぐらきんのすけ",
+        "roman": "kinnosuke ogura",
+        "role": "著者",
+        "birthDate": "1885-03-14",
+        "deathDate": "1962-10-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

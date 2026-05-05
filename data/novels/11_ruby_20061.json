@@ -1600,5 +1600,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000011",
+    "title": "秋の瞳",
+    "titleKana": "あきのひとみ",
+    "sortKana": "あきのひとみ",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-05-01",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000013/card11.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000013/files/11_ruby_20061.zip",
+    "textFileId": "11_ruby_20061",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000013/files/11_20062.html",
+    "inputBy": "j.utiyama",
+    "proofreadBy": "富田倫生",
+    "baseBook1": {
+      "title": "八木重吉全詩集1",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1988（昭和63）年8月30日",
+      "inputEdition": "1997（平成9）年6月25日第4刷"
+    },
+    "author": "八木重吉",
+    "authors": [
+      {
+        "personId": "000013",
+        "name": "八木重吉",
+        "kana": "やぎじゅうきち",
+        "roman": "Jukichi Yagi",
+        "role": "著者",
+        "birthDate": "1898-02-09",
+        "deathDate": "1927-10-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

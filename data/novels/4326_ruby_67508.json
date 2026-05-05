@@ -7658,5 +7658,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004326",
+    "title": "45回転の夏",
+    "titleKana": "よんじゅうごかいてんのなつ",
+    "sortKana": "よんしゆうこかいてんのなつ",
+    "subtitle": "第２章　メリーゴーラウンド、1967年",
+    "subtitleKana": "だいにしょう　メリーゴーラウンド、せんきゅうひゃくろくじゅうななねん",
+    "firstAppearance": "「45回転の夏」新潮社、1994（平成6）年7月20日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2001-12-12",
+    "updatedAt": "2019-08-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000113/card4326.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000113/files/4326_ruby_67508.zip",
+    "textFileId": "4326_ruby_67508",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000113/files/4326_67524.html",
+    "inputBy": "鶴岡雄二",
+    "proofreadBy": "Y.N.",
+    "baseBook1": {
+      "title": "45回転の夏",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1994（平成6）年7月20日"
+    },
+    "author": "鶴岡雄二",
+    "authors": [
+      {
+        "personId": "000113",
+        "name": "鶴岡雄二",
+        "kana": "つるおかゆうじ",
+        "roman": "Yuji Tsuruoka",
+        "role": "著者",
+        "birthDate": "1953",
+        "copyright": "あり"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

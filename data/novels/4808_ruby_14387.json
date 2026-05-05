@@ -92,5 +92,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004808",
+    "title": "三つの挿話",
+    "titleKana": "みっつのそうわ",
+    "sortKana": "みつつのそうわ",
+    "firstAppearance": "三つの挿話は「暮畔の家」「昼顔」「秋」の三篇から成る。暮畔の家：「時事新報」（夕刊連載の「東京新風景」第10回目に「本所」の表題で。）1931（昭和6）年3月21日、22日、24日、25日、26日、27日、加筆訂正後、「墓畔の家」の表題で「作品」に。1932（昭和7）年4月号、昼顔：「若草」1934（昭和9）年2月号、秋：「文藝」（「挿話」の表題で。）1934（昭和9）年2月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-03-02",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001030/card4808.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001030/files/4808_ruby_14387.zip",
+    "textFileId": "4808_ruby_14387",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001030/files/4808_14388.html",
+    "inputBy": "kompass",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "幼年時代・晩夏",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1955（昭和30）年8月5日発行、1970（昭和45）年1月30日16刷改版",
+      "inputEdition": "1987（昭和62）年9月15日38刷"
+    },
+    "author": "堀辰雄",
+    "authors": [
+      {
+        "personId": "001030",
+        "name": "堀辰雄",
+        "kana": "ほりたつお",
+        "roman": "Tatsuo Hori",
+        "role": "著者",
+        "birthDate": "1904-12-28",
+        "deathDate": "1953-05-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

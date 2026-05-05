@@ -40,5 +40,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043313",
+    "title": "校長三代",
+    "titleKana": "こうちょうさんだい",
+    "sortKana": "こうちようさんたい",
+    "firstAppearance": "「帝國大學新聞」1938（昭和13）年10月31日",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-02-04",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card43313.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/43313_ruby_17353.zip",
+    "textFileId": "43313_ruby_17353",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/43313_17422.html",
+    "inputBy": "向井樹里",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "太宰治全集11",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年3月25日",
+      "inputEdition": "1999（平成11）年3月25日初版第1刷",
+      "proofreadEdition": "1999（平成11）年3月25日初版第1刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -36,5 +36,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004378",
+    "title": "一葉女史の「たけくらべ」を読みて",
+    "titleKana": "いちようじょしのたけくらべをよみて",
+    "sortKana": "いちようしよしのたけくらへをよみて",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-06-25",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000271/card4378.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000271/files/4378_ruby_18569.zip",
+    "textFileId": "4378_ruby_18569",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000271/files/4378_18570.html",
+    "inputBy": "三州生桑",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "日本現代文學全集8",
+      "publisher": "講談社",
+      "firstPublishedAt": "1967（昭和42）年11月19日",
+      "inputEdition": "1967（昭和42）年11月19日"
+    },
+    "author": "高山樗牛",
+    "authors": [
+      {
+        "personId": "000271",
+        "name": "高山樗牛",
+        "kana": "たかやまちょぎゅう",
+        "roman": "Chogyu Takayama",
+        "role": "著者",
+        "birthDate": "1871-02-28",
+        "deathDate": "1902-12-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

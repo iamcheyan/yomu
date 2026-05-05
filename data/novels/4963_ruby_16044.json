@@ -3078,5 +3078,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004963",
+    "title": "原爆詩集",
+    "titleKana": "げんばくししゅう",
+    "sortKana": "けんはくししゆう",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-08-06",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001053/card4963.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001053/files/4963_ruby_16044.zip",
+    "textFileId": "4963_ruby_16044",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001053/files/4963_16055.html",
+    "inputBy": "広島に文学館を！　市民の会、福田真紀子",
+    "proofreadBy": "LUNA CAT",
+    "baseBook1": {
+      "title": "新編　原爆詩集",
+      "publisher": "青木書店",
+      "firstPublishedAt": "1995（平成7）年7月7日",
+      "inputEdition": "1995（平成7）年7月7日第1版第1刷",
+      "proofreadEdition": "1999（平成11）年7月10日第1版第3刷"
+    },
+    "author": "峠三吉",
+    "authors": [
+      {
+        "personId": "001053",
+        "name": "峠三吉",
+        "kana": "とうげさんきち",
+        "roman": "Sankichi Toge",
+        "role": "著者",
+        "birthDate": "1917-02-19",
+        "deathDate": "1953-03-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -80,5 +80,54 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049248",
+    "title": "当流比較言語学",
+    "titleKana": "とうりゅうひかくげんごがく",
+    "sortKana": "とうりゆうひかくけんこかく",
+    "firstAppearance": "「東亞の光　第四卷第七號」1909（明治42）年7月1日",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-11-26",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card49248.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/49248_ruby_36154.zip",
+    "textFileId": "49248_ruby_36154",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/49248_36951.html",
+    "inputBy": "岩澤秀紀",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "鴎外全集　第二十六卷",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1973（昭和48）年12月22日",
+      "inputEdition": "1973（昭和48）年12月22日",
+      "proofreadEdition": "1973（昭和48）年12月22日"
+    },
+    "author": "森鴎外、森林太郎",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      },
+      {
+        "personId": "000315",
+        "name": "森林太郎",
+        "kana": "もりりんたろう",
+        "roman": "Rintaro Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

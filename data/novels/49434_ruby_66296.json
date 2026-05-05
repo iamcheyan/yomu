@@ -68,5 +68,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049434",
+    "title": "神田界隈",
+    "titleKana": "かんだかいわい",
+    "sortKana": "かんたかいわい",
+    "ndc": "NDC 023",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-11-26",
+    "updatedAt": "2018-10-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000329/card49434.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000329/files/49434_ruby_66296.zip",
+    "textFileId": "49434_ruby_66296",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000329/files/49434_66343.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "hitsuji",
+    "baseBook1": {
+      "title": "出版人の遺文　冨山房　坂本嘉治馬",
+      "publisher": "栗田書店",
+      "firstPublishedAt": "1968（昭和43）年6月1日",
+      "inputEdition": "1969（昭和44）年2月11日第2刷",
+      "proofreadEdition": "1968（昭和43）年6月1日"
+    },
+    "author": "楠山正雄",
+    "authors": [
+      {
+        "personId": "000329",
+        "name": "楠山正雄",
+        "kana": "くすやままさお",
+        "roman": "Masao Kusuyama",
+        "role": "著者",
+        "birthDate": "1884-11-04",
+        "deathDate": "1950-11-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

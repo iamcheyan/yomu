@@ -444,5 +444,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055871",
+    "title": "霾",
+    "titleKana": "ばい",
+    "sortKana": "はい",
+    "firstAppearance": "霾「作品　三卷一號」1932（昭和7）年1月<br>鴉「改造」1931（昭和6）年5月<br>自畫像「セルパン　一二號」1932（昭和7）年2月<br>牛ぐるま「文學界　三卷一〇號」1936（昭和11）年10月<br>金星「文藝雜誌　一卷四號」1936（昭和11）年4月<br>大阿蘇「雜記帖」1937（昭和12）年6月<br>とある小徑「改造　二〇卷十一號」1938（昭和13）年11月<br>靜夜「改造　二〇卷十一號」1938（昭和13）年11月<br>烟子霞子「改造　二〇卷一一號」1938（昭和13）年11月",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-02-09",
+    "updatedAt": "2018-01-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001749/card55871.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001749/files/55871_ruby_63799.zip",
+    "textFileId": "55871_ruby_63799",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001749/files/55871_63879.html",
+    "inputBy": "kompass",
+    "proofreadBy": "榎木",
+    "baseBook1": {
+      "title": "三好達治全集第一卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1964（昭和39）年10月15日",
+      "inputEdition": "1964（昭和39）年10月15日",
+      "proofreadEdition": "1976（昭和51）年10月10日第2刷"
+    },
+    "author": "三好達治",
+    "authors": [
+      {
+        "personId": "001749",
+        "name": "三好達治",
+        "kana": "みよしたつじ",
+        "roman": "Tatsuji Miyoshi",
+        "role": "著者",
+        "birthDate": "1900-08-23",
+        "deathDate": "1964-04-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

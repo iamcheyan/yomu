@@ -430,5 +430,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002101",
+    "title": "支那米の袋",
+    "titleKana": "しなまいのふくろ",
+    "sortKana": "しなまいのふくろ",
+    "firstAppearance": "「新青年」1929（昭和4）年4月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-08-04",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000096/card2101.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000096/files/2101_ruby_18734.zip",
+    "textFileId": "2101_ruby_18734",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000096/files/2101_18783.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "夢野久作全集6",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1992（平成4）年3月24日",
+      "inputEdition": "1992（平成4）年3月24日第1刷",
+      "proofreadEdition": "2000（平成12）年6月15日第2刷"
+    },
+    "author": "夢野久作",
+    "authors": [
+      {
+        "personId": "000096",
+        "name": "夢野久作",
+        "kana": "ゆめのきゅうさく",
+        "roman": "Kyusaku Yumeno",
+        "role": "著者",
+        "birthDate": "1889-01-04",
+        "deathDate": "1936-03-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

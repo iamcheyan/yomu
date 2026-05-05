@@ -118,5 +118,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002059",
+    "title": "十三時",
+    "titleKana": "じゅうさんじ",
+    "sortKana": "しゆうさんし",
+    "originalTitle": "The Devil in the Belfry",
+    "firstAppearance": "「趣味」六ノ四、1912（大正元）年10月1日",
+    "ndc": "NDC 933",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-11-20",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000094/card2059.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000094/files/2059_ruby_22501.zip",
+    "textFileId": "2059_ruby_22501",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000094/files/2059_22502.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "もりみつじゅんじ",
+    "baseBook1": {
+      "title": "鴎外選集　第十五巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1980（昭和55）年1月22日"
+    },
+    "author": "ポーエドガー・アラン",
+    "authors": [
+      {
+        "personId": "000094",
+        "name": "ポーエドガー・アラン",
+        "kana": "ポーエドガー・アラン",
+        "roman": "Edgar Allan Poe",
+        "role": "著者",
+        "birthDate": "1809-01-19",
+        "deathDate": "1849-10-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

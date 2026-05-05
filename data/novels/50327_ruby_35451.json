@@ -106,5 +106,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050327",
+    "title": "ろくろ首",
+    "titleKana": "ろくろくび",
+    "sortKana": "ろくろくひ",
+    "originalTitle": "ROKURO-KUBI",
+    "ndc": "NDC 933",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-08-24",
+    "updatedAt": "2019-02-05",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000258/card50327.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000258/files/50327_ruby_35451.zip",
+    "textFileId": "50327_ruby_35451",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000258/files/50327_35773.html",
+    "inputBy": "京都大学電子テクスト研究会入力班",
+    "proofreadBy": "京都大学電子テクスト研究会校正班",
+    "baseBook1": {
+      "title": "小泉八雲全集第八卷　家庭版",
+      "publisher": "第一書房",
+      "firstPublishedAt": "1937（昭和12）年1月15日",
+      "inputEdition": "1937（昭和12）年1月15日"
+    },
+    "author": "小泉八雲",
+    "authors": [
+      {
+        "personId": "000258",
+        "name": "小泉八雲",
+        "kana": "こいずみやくも",
+        "roman": "Yakumo Koizumi",
+        "role": "著者",
+        "birthDate": "1850-06-27",
+        "deathDate": "1904-09-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

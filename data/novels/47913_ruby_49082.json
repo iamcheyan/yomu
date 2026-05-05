@@ -190,5 +190,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047913",
+    "title": "詩人も計算する",
+    "titleKana": "しじんもけいさんする",
+    "sortKana": "ししんもけいさんする",
+    "firstAppearance": "詩的精神「帝国大学新聞　第二百九十六号」1929（昭和4）年5月13日、芸術のための芸術について「新潮　第二十七巻第二号」1930（昭和5）年2月号、超現実主義「文学　第三号」第一書房、1929（昭和4）年12月1日、すこし独断的に――超現実主義は疑問だ「帝国大学新聞　第三百三十七号」1930（昭和5）年4月28日、小説の危機「時事新報」1930（昭和5）年5月20日",
+    "ndc": "NDC 901",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-02-14",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001030/card47913.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001030/files/47913_ruby_49082.zip",
+    "textFileId": "47913_ruby_49082",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001030/files/47913_49918.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "堀辰雄作品集第五卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1982（昭和57）年9月30日",
+      "inputEdition": "1982（昭和57）年9月30日初版第1刷",
+      "proofreadEdition": "1982（昭和57）年9月30日初版第1刷"
+    },
+    "author": "堀辰雄",
+    "authors": [
+      {
+        "personId": "001030",
+        "name": "堀辰雄",
+        "kana": "ほりたつお",
+        "roman": "Tatsuo Hori",
+        "role": "著者",
+        "birthDate": "1904-12-28",
+        "deathDate": "1953-05-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

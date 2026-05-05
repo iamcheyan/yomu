@@ -110,5 +110,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043070",
+    "title": "火星の芝居",
+    "titleKana": "かせいのしばい",
+    "sortKana": "かせいのしはい",
+    "firstAppearance": "「明星」1908（明治41）年7月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-09-11",
+    "updatedAt": "2016-04-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000153/card43070.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000153/files/43070_ruby_16276.zip",
+    "textFileId": "43070_ruby_16276",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000153/files/43070_16332.html",
+    "inputBy": "青空文庫",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "石川啄木集（下）",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1950（昭和25）年7月15日",
+      "inputEdition": "1991（平成3）年3月5日48刷",
+      "proofreadEdition": "1986（昭和61）年4月10日44刷"
+    },
+    "author": "石川啄木",
+    "authors": [
+      {
+        "personId": "000153",
+        "name": "石川啄木",
+        "kana": "いしかわたくぼく",
+        "roman": "Takuboku Ishikawa",
+        "role": "著者",
+        "birthDate": "1886-02-20",
+        "deathDate": "1912-04-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -46,5 +46,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043036",
+    "title": "家長制度",
+    "titleKana": "かちょうせいど",
+    "sortKana": "かちようせいと",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-04-01",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card43036.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/43036_ruby_17948.zip",
+    "textFileId": "43036_ruby_17948",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/43036_17949.html",
+    "inputBy": "こここす",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "宮沢賢治全集8",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1986（昭和61年）1月28日",
+      "inputEdition": "1998（平成10）年4月1日第16刷",
+      "proofreadEdition": "2004（平成16）年4月25日第20刷"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

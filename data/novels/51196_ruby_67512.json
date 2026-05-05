@@ -1488,5 +1488,37 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051196",
+    "title": "ネズミ、シラミ、歴史",
+    "titleKana": "ネズミ、シラミ、れきし",
+    "sortKana": "ねすみしらみれきし",
+    "subtitle": "専門家でない読者に必要な12章を含む発疹チフス一生の伝記",
+    "subtitleKana": "せんもんかでないどくしゃにひつようなじゅうにしょうをふくむはっしんチフスいっしょうのでんき",
+    "ndc": "NDC 498",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2010-02-21",
+    "updatedAt": "2019-03-11",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001493/card51196.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001493/files/51196_ruby_67512.zip",
+    "textFileId": "51196_ruby_67512",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001493/files/51196_67513.html",
+    "proofreadBy": "吾桑",
+    "author": "ジンサーハンス",
+    "authors": [
+      {
+        "personId": "001493",
+        "name": "ジンサーハンス",
+        "kana": "ジンサーハンス",
+        "roman": "Hans Zinsser",
+        "role": "著者",
+        "birthDate": "1878-11-17",
+        "deathDate": "1940-09-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

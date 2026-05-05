@@ -36,5 +36,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "061045",
+    "title": "酒に死せる押川春浪",
+    "titleKana": "さけにしせるおしかわしゅんろう",
+    "sortKana": "さけにしせるおしかわしゆんろう",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-11-16",
+    "updatedAt": "2022-10-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000237/card61045.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000237/files/61045_ruby_76489.zip",
+    "textFileId": "61045_ruby_76489",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000237/files/61045_76525.html",
+    "inputBy": "sogo",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "明治文學全集　95　明治少年文學集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1970（昭和45）年2月20日",
+      "inputEdition": "1977（昭和52）年3月1日初版第2刷",
+      "proofreadEdition": "1977（昭和52）年3月1日初版第2刷"
+    },
+    "author": "大町桂月",
+    "authors": [
+      {
+        "personId": "000237",
+        "name": "大町桂月",
+        "kana": "おおまちけいげつ",
+        "roman": "Keigetsu Omachi",
+        "role": "著者",
+        "birthDate": "1869-03-06",
+        "deathDate": "1925-06-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

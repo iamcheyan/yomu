@@ -1140,5 +1140,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004713",
+    "title": "別れたる妻に送る手紙",
+    "titleKana": "わかれたるつまにおくるてがみ",
+    "sortKana": "わかれたるつまにおくるてかみ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-09-08",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000275/card4713.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000275/files/4713_ruby_16267.zip",
+    "textFileId": "4713_ruby_16267",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000275/files/4713_16330.html",
+    "inputBy": "kompass",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "黒髪・別れたる妻に送る手紙",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1997（平成9）年6月10日",
+      "inputEdition": "1997（平成9）年6月10日第1刷",
+      "proofreadEdition": "1997（平成9）年6月10日第1刷"
+    },
+    "author": "近松秋江",
+    "authors": [
+      {
+        "personId": "000275",
+        "name": "近松秋江",
+        "kana": "ちかまつしゅうこう",
+        "roman": "Shuko Chikamatsu",
+        "role": "著者",
+        "birthDate": "1876-05-04",
+        "deathDate": "1944-04-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

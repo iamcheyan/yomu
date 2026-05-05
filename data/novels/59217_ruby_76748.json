@@ -56,5 +56,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059217",
+    "title": "「寺田寅彦の追想」後書",
+    "titleKana": "「てらだとらひこのついそう」あとがき",
+    "sortKana": "てらたとらひこのついそうあとかき",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-12-31",
+    "updatedAt": "2022-11-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card59217.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/59217_ruby_76748.zip",
+    "textFileId": "59217_ruby_76748",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/59217_76784.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "津村田悟",
+    "baseBook1": {
+      "title": "寺田寅彦　わが師の追想",
+      "publisher": "講談社学術文庫、講談社",
+      "firstPublishedAt": "2014（平成26）年11月10日",
+      "inputEdition": "2014（平成26）年11月10日第1刷",
+      "proofreadEdition": "2014（平成26）年11月10日第1刷"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

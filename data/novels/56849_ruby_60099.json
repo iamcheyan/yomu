@@ -264,5 +264,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056849",
+    "title": "途上",
+    "titleKana": "とじょう",
+    "sortKana": "としよう",
+    "firstAppearance": "「改造」1920（大正9）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-11-29",
+    "updatedAt": "2016-09-09",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001383/card56849.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001383/files/56849_ruby_60099.zip",
+    "textFileId": "56849_ruby_60099",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001383/files/56849_60145.html",
+    "inputBy": "sogo",
+    "proofreadBy": "まつもこ",
+    "baseBook1": {
+      "title": "文豪の探偵小説",
+      "publisher": "集英社文庫、集英社",
+      "firstPublishedAt": "2006（平成18）年11月25日",
+      "inputEdition": "2006（平成18）年11月25日第1刷",
+      "proofreadEdition": "2006（平成18）年11月25日第1刷"
+    },
+    "author": "谷崎潤一郎",
+    "authors": [
+      {
+        "personId": "001383",
+        "name": "谷崎潤一郎",
+        "kana": "たにざきじゅんいちろう",
+        "roman": "Jun'ichiro Tanizaki",
+        "role": "著者",
+        "birthDate": "1886-07-24",
+        "deathDate": "1965-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

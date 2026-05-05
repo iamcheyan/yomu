@@ -30,5 +30,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052935",
+    "title": "塩に関する迷信",
+    "titleKana": "しおにかんするめいしん",
+    "sortKana": "しおにかんするめいしん",
+    "firstAppearance": "「人類學雜誌　第貳拾八卷第八號」1912（大正元）年8月10日",
+    "ndc": "NDC 387",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-05-18",
+    "updatedAt": "2017-03-11",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000093/card52935.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000093/files/52935_ruby_61312.zip",
+    "textFileId": "52935_ruby_61312",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000093/files/52935_61355.html",
+    "inputBy": "小林繁雄",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "南方熊楠全集第六卷　〔文集Ⅱ〕",
+      "publisher": "乾元社",
+      "firstPublishedAt": "1952（昭和27）年4月30日",
+      "inputEdition": "1952（昭和27）年4月30日",
+      "proofreadEdition": "1952（昭和27）年4月30日"
+    },
+    "author": "南方熊楠",
+    "authors": [
+      {
+        "personId": "000093",
+        "name": "南方熊楠",
+        "kana": "みなかたくまぐす",
+        "roman": "Kumagusu Minakata",
+        "role": "著者",
+        "birthDate": "1867-05-18",
+        "deathDate": "1941-12-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

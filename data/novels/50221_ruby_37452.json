@@ -58,5 +58,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050221",
+    "title": "石段上りの街",
+    "titleKana": "いしだんあがりのまち",
+    "sortKana": "いしたんあかりのまち",
+    "firstAppearance": "1919（大正8）年",
+    "ndc": "NDC 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-03-27",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000067/card50221.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000067/files/50221_ruby_37452.zip",
+    "textFileId": "50221_ruby_37452",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000067/files/50221_38270.html",
+    "inputBy": "向山きよみ",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "日本随筆紀行第五巻　関東　風吹き騒ぐ平原で",
+      "publisher": "作品社",
+      "firstPublishedAt": "1987（昭和62）年10月10日",
+      "inputEdition": "1987（昭和62）年10月10日第1刷",
+      "proofreadEdition": "1987（昭和62）年10月10日第1刷"
+    },
+    "author": "萩原朔太郎",
+    "authors": [
+      {
+        "personId": "000067",
+        "name": "萩原朔太郎",
+        "kana": "はぎわらさくたろう",
+        "roman": "Sakutaro Hagiwara",
+        "role": "著者",
+        "birthDate": "1886-11-01",
+        "deathDate": "1942-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

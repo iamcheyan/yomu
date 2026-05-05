@@ -180,5 +180,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050543",
+    "title": "友人一家の死",
+    "titleKana": "ゆうじんいっかのし",
+    "sortKana": "ゆうしんいつかのし",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-05-18",
+    "updatedAt": "2018-04-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001447/card50543.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001447/files/50543_ruby_64567.zip",
+    "textFileId": "50543_ruby_64567",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001447/files/50543_64619.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "文豪怪談傑作選・特別篇　鏡花百物語集",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2009（平成21）年7月10日",
+      "inputEdition": "2009（平成21）年7月10日第1刷",
+      "proofreadEdition": "2009（平成21）年7月10日第1刷"
+    },
+    "author": "松崎天民",
+    "authors": [
+      {
+        "personId": "001447",
+        "name": "松崎天民",
+        "kana": "まつざきてんみん",
+        "roman": "Tenmin Matsuzaki",
+        "role": "著者",
+        "birthDate": "1878-05-18",
+        "deathDate": "1934-07-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

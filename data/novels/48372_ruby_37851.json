@@ -760,5 +760,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048372",
+    "title": "枯草",
+    "titleKana": "かれくさ",
+    "sortKana": "かれくさ",
+    "firstAppearance": "村の平和「労働世界」1902（明治35）年7月3日、鬼のお主「常総新聞」1905（明治38）年1月1日、花壇の春「暗潮」1903（明治36）年9月",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-05-02",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000286/card48372.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000286/files/48372_ruby_37851.zip",
+    "textFileId": "48372_ruby_37851",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000286/files/48372_38769.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "定本　野口雨情　第一巻",
+      "publisher": "未来社",
+      "firstPublishedAt": "1985（昭和60）年11月20日",
+      "inputEdition": "1985（昭和60）年11月20日第1版第1刷",
+      "proofreadEdition": "1985（昭和60）年11月20日第1版第1刷"
+    },
+    "author": "野口雨情",
+    "authors": [
+      {
+        "personId": "000286",
+        "name": "野口雨情",
+        "kana": "のぐちうじょう",
+        "roman": "Ujo Noguchi",
+        "role": "著者",
+        "birthDate": "1882-05-29",
+        "deathDate": "1945-01-27",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

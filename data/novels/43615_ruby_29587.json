@@ -116,5 +116,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043615",
+    "title": "鷲の巣",
+    "titleKana": "わしのす",
+    "sortKana": "わしのす",
+    "ndc": "NDC 949",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-04-19",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001158/card43615.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001158/files/43615_ruby_29587.zip",
+    "textFileId": "43615_ruby_29587",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001158/files/43615_30594.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "北歐近代短篇集",
+      "publisher": "白水社",
+      "firstPublishedAt": "1939（昭和14）年6月30日",
+      "inputEdition": "1939（昭和14）年6月30日",
+      "proofreadEdition": "1939（昭和14）年6月30日"
+    },
+    "author": "ビョルンソンビョルンステェルネ",
+    "authors": [
+      {
+        "personId": "001158",
+        "name": "ビョルンソンビョルンステェルネ",
+        "kana": "ビョルンソンビョルンステェルネ",
+        "roman": "Bjornstjerne Bjornson",
+        "role": "著者",
+        "birthDate": "1832-12-08",
+        "deathDate": "1910-04-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

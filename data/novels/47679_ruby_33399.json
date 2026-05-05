@@ -40,5 +40,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047679",
+    "title": "私の顔",
+    "titleKana": "わたしのかお",
+    "sortKana": "わたしのかお",
+    "firstAppearance": "「アサヒカメラ」1938（昭和13）7月1日",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-02-17",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000726/card47679.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000726/files/47679_ruby_33399.zip",
+    "textFileId": "47679_ruby_33399",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000726/files/47679_34262.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "随筆　きもの",
+      "publisher": "実業之日本社",
+      "firstPublishedAt": "1939（昭和14）年10月20日",
+      "inputEdition": "1939（昭和14）年11月7日5版",
+      "proofreadEdition": "1939（昭和14）年11月7日5版"
+    },
+    "author": "長谷川時雨",
+    "authors": [
+      {
+        "personId": "000726",
+        "name": "長谷川時雨",
+        "kana": "はせがわしぐれ",
+        "roman": "Shigure Hasegawa",
+        "role": "著者",
+        "birthDate": "1879-10-01",
+        "deathDate": "1941-08-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

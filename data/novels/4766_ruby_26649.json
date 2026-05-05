@@ -476,5 +476,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004766",
+    "title": "チビの魂",
+    "titleKana": "チビのたましい",
+    "sortKana": "ちひのたましい",
+    "firstAppearance": "「改造」1935（昭和10）年6月",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-06-05",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000023/card4766.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000023/files/4766_ruby_26649.zip",
+    "textFileId": "4766_ruby_26649",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000023/files/4766_26669.html",
+    "inputBy": "高柳典子",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "現代文学大系　11　徳田秋声集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1965（昭和40）年5月10日",
+      "inputEdition": "1965（昭和40）年5月10日",
+      "proofreadEdition": "1965（昭和40）年5月10日"
+    },
+    "author": "徳田秋声",
+    "authors": [
+      {
+        "personId": "000023",
+        "name": "徳田秋声",
+        "kana": "とくだしゅうせい",
+        "roman": "Shusei Tokuda",
+        "role": "著者",
+        "birthDate": "1872-02-01",
+        "deathDate": "1943-11-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -52,5 +52,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004634",
+    "title": "北信早春譜",
+    "titleKana": "ほくしんそうしゅんふ",
+    "sortKana": "ほくしんそうしゆんふ",
+    "firstAppearance": "「草衣集」相模書房、1938（昭和13）年6月",
+    "ndc": "NDC 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-10-11",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000963/card4634.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000963/files/4634_ruby_12237.zip",
+    "textFileId": "4634_ruby_12237",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000963/files/4634_12238.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "現代日本紀行文学全集　中部日本編",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1976（昭和51）年8月1日",
+      "inputEdition": "1976（昭和51）年8月1日初版"
+    },
+    "author": "野上豊一郎",
+    "authors": [
+      {
+        "personId": "000963",
+        "name": "野上豊一郎",
+        "kana": "のがみとよいちろう",
+        "roman": "Toyoichiro Nogami",
+        "role": "著者",
+        "birthDate": "1883-09-14",
+        "deathDate": "1950-02-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

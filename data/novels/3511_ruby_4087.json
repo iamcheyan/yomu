@@ -2140,5 +2140,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003511",
+    "title": "夜の靴",
+    "titleKana": "よるのくつ",
+    "sortKana": "よるのくつ",
+    "subtitle": "――木人夜穿靴去、石女暁冠帽帰（指月禅師）",
+    "subtitleKana": "――ぼくじんよるくつをはいてさる、せきじょあかつきにぼうしをかぶりてかえる（しげつぜんし）",
+    "firstAppearance": "「思索　第二號」1946（昭和21）年7月15日<br> 「新潮　第四十三卷第七號」1946（昭和21）年7月1日<br> 「新潮　第四十三卷第十二號」1946（昭和21）年12月1日<br> 「人間　第二卷第五號」1947（昭和22）年5月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-07-01",
+    "updatedAt": "2016-03-09",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card3511.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/3511_ruby_4087.zip",
+    "textFileId": "3511_ruby_4087",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/3511_11037.html",
+    "inputBy": "kompass",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "夜の靴・微笑",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1995（平成7）年1月10日",
+      "inputEdition": "1995（平成7）年1月10日第1刷",
+      "proofreadEdition": "2003（平成15）年3月20日第3刷"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

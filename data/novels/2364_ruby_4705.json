@@ -64,5 +64,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002364",
+    "title": "数学と語学",
+    "titleKana": "すうがくとごがく",
+    "sortKana": "すうかくとこかく",
+    "firstAppearance": "「東京帝国大学新聞」1929（昭和4）年4月",
+    "ndc": "NDC 410",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-10-03",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000042/card2364.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000042/files/2364_ruby_4705.zip",
+    "textFileId": "2364_ruby_4705",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000042/files/2364_13805.html",
+    "inputBy": "富田倫生",
+    "proofreadBy": "かとうかおり",
+    "baseBook1": {
+      "title": "日本の名随筆89　数",
+      "publisher": "作品社",
+      "firstPublishedAt": "1990（平成2）年3月25日"
+    },
+    "author": "寺田寅彦",
+    "authors": [
+      {
+        "personId": "000042",
+        "name": "寺田寅彦",
+        "kana": "てらだとらひこ",
+        "roman": "Torahiko Terada",
+        "role": "著者",
+        "birthDate": "1878-11-28",
+        "deathDate": "1935-12-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

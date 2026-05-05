@@ -608,5 +608,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003525",
+    "title": "東京要塞",
+    "titleKana": "とうきょうようさい",
+    "sortKana": "とうきようようさい",
+    "firstAppearance": "「サンデー毎日」毎日新聞社、1938（昭和13）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-05-31",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card3525.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/3525_ruby_18322.zip",
+    "textFileId": "3525_ruby_18322",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/3525_18465.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "花田泰治郎",
+    "baseBook1": {
+      "title": "海野十三全集　第5巻　浮かぶ飛行島",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1989（平成元）年4月15日",
+      "inputEdition": "1989（平成元）年4月15日第1版第1刷"
+    },
+    "author": "海野十三",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

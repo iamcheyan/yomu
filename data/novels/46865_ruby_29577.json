@@ -796,5 +796,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046865",
+    "title": "運を主義にまかす男",
+    "titleKana": "うんをしゅぎにまかすおとこ",
+    "sortKana": "うんをしゆきにまかすおとこ",
+    "firstAppearance": "「現代　第十三巻第三号」1932（昭和7）年3月1日",
+    "ndc": "NDC 912",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-04-13",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001154/card46865.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001154/files/46865_ruby_29577.zip",
+    "textFileId": "46865_ruby_29577",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001154/files/46865_30566.html",
+    "inputBy": "kompass",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "岸田國士全集5",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1991（平成3）年1月9日",
+      "inputEdition": "1991（平成3）年1月9日",
+      "proofreadEdition": "1991（平成3）年1月9日"
+    },
+    "author": "岸田国士",
+    "authors": [
+      {
+        "personId": "001154",
+        "name": "岸田国士",
+        "kana": "きしだくにお",
+        "roman": "Kunio Kishida",
+        "role": "著者",
+        "birthDate": "1890-11-02",
+        "deathDate": "1954-03-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

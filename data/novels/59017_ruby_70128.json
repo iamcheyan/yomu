@@ -72,5 +72,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059017",
+    "title": "おはなし",
+    "titleKana": "おはなし",
+    "sortKana": "おはなし",
+    "firstAppearance": "「浅草文庫　第三十一号」東京高等工業学校「文芸部」、1914（大正3）年5月10日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-02-09",
+    "updatedAt": "2020-01-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000148/card59017.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000148/files/59017_ruby_70128.zip",
+    "textFileId": "59017_ruby_70128",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000148/files/59017_70177.html",
+    "inputBy": "西村おきな",
+    "proofreadBy": "きりんの手紙",
+    "baseBook1": {
+      "title": "21世紀の日本人へ　夏目漱石",
+      "publisher": "晶文社",
+      "firstPublishedAt": "1998（平成10）年12月25日",
+      "inputEdition": "1998（平成10）年12月25日初版",
+      "proofreadEdition": "1998（平成10）年12月25日初版"
+    },
+    "author": "夏目漱石",
+    "authors": [
+      {
+        "personId": "000148",
+        "name": "夏目漱石",
+        "kana": "なつめそうせき",
+        "roman": "Soseki Natsume",
+        "role": "著者",
+        "birthDate": "1867-02-09",
+        "deathDate": "1916-12-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

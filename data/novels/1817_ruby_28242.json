@@ -220,5 +220,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001817",
+    "title": "河沙魚",
+    "titleKana": "かわはぜ",
+    "sortKana": "かわはせ",
+    "firstAppearance": "「人間」1947（昭和22）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-11-28",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000291/card1817.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000291/files/1817_ruby_28242.zip",
+    "textFileId": "1817_ruby_28242",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000291/files/1817_28583.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "ちくま日本文学全集　林芙美子",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1992（平成4）年12月18日",
+      "inputEdition": "1992（平成4）年12月18日第1刷",
+      "proofreadEdition": "1992（平成4）年12月18日第1刷"
+    },
+    "author": "林芙美子",
+    "authors": [
+      {
+        "personId": "000291",
+        "name": "林芙美子",
+        "kana": "はやしふみこ",
+        "roman": "Fumiko Hayashi",
+        "role": "著者",
+        "birthDate": "1903-12-31",
+        "deathDate": "1951-06-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

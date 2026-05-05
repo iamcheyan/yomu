@@ -472,5 +472,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004735",
+    "title": "花園の思想",
+    "titleKana": "はなぞののしそう",
+    "sortKana": "はなそののしそう",
+    "firstAppearance": "「改造」1927（昭和2）年2月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-02-20",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card4735.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/4735_ruby_28942.zip",
+    "textFileId": "4735_ruby_28942",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/4735_29527.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日輪・春は馬車に乗って　他八篇",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1981（昭和56）年8月17日",
+      "inputEdition": "1981（昭和56）年8月17日第1刷",
+      "proofreadEdition": "1981（昭和56）年8月17日第1刷"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

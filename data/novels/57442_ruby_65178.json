@@ -372,5 +372,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057442",
+    "title": "金色の死",
+    "titleKana": "こんじきのし",
+    "sortKana": "こんしきのし",
+    "firstAppearance": "「東京朝日新聞」1914（大正3）年12月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-07-24",
+    "updatedAt": "2018-06-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001383/card57442.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001383/files/57442_ruby_65178.zip",
+    "textFileId": "57442_ruby_65178",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001383/files/57442_65221.html",
+    "inputBy": "HAR",
+    "proofreadBy": "悠悠自炊",
+    "baseBook1": {
+      "title": "お艶殺し",
+      "publisher": "中公文庫、中央公論社",
+      "firstPublishedAt": "1993（平成5）年6月10日",
+      "inputEdition": "1993（平成5）年6月10日",
+      "proofreadEdition": "1993（平成5）年6月10日"
+    },
+    "author": "谷崎潤一郎",
+    "authors": [
+      {
+        "personId": "001383",
+        "name": "谷崎潤一郎",
+        "kana": "たにざきじゅんいちろう",
+        "roman": "Jun'ichiro Tanizaki",
+        "role": "著者",
+        "birthDate": "1886-07-24",
+        "deathDate": "1965-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

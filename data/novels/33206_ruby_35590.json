@@ -40,5 +40,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "033206",
+    "title": "宝島",
+    "titleKana": "たからじま",
+    "sortKana": "たからしま",
+    "subtitle": "02 宝島",
+    "subtitleKana": "02 たからじま",
+    "ndc": "NDC K933",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-09-06",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000888/card33206.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000888/files/33206_ruby_35590.zip",
+    "textFileId": "33206_ruby_35590",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000888/files/33206_35955.html",
+    "inputBy": "kompass",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "宝島",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1935（昭和10）年10月30日",
+      "inputEdition": "1956（昭和31）年6月30日第17刷",
+      "proofreadEdition": "1950（昭和25）年9月20日第12刷"
+    },
+    "author": "スティーブンソンロバート・ルイス",
+    "authors": [
+      {
+        "personId": "000888",
+        "name": "スティーブンソンロバート・ルイス",
+        "kana": "スティーブンソンロバート・ルイス",
+        "roman": "Robert Louis Stevenson",
+        "role": "著者",
+        "birthDate": "1850-11-13",
+        "deathDate": "1894-12-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -98,5 +98,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003251",
+    "title": "幸福のために",
+    "titleKana": "こうふくのために",
+    "sortKana": "こうふくのために",
+    "firstAppearance": "第一回総選挙、日本共産党政見放送（ＮＨＫラジオ）、1946（昭和21）年4月4日放送、「新しい婦人と生活」の再版に収録、文連文庫、日本民主主義文化連盟、1947（昭和22）年11月初版、1948（昭和23）年12月再版",
+    "ndc": "NDC 314",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-09-14",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000311/card3251.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000311/files/3251_ruby_10893.zip",
+    "textFileId": "3251_ruby_10893",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000311/files/3251_10892.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "米田進",
+    "baseBook1": {
+      "title": "宮本百合子全集　第十五巻",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1980（昭和55）年5月20日",
+      "inputEdition": "1986（昭和61）年3月20日第4刷"
+    },
+    "author": "宮本百合子",
+    "authors": [
+      {
+        "personId": "000311",
+        "name": "宮本百合子",
+        "kana": "みやもとゆりこ",
+        "roman": "Yuriko Miyamoto",
+        "role": "著者",
+        "birthDate": "1899-02-13",
+        "deathDate": "1951-01-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

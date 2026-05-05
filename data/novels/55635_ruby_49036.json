@@ -1738,5 +1738,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055635",
+    "title": "戦争史大観",
+    "titleKana": "せんそうしたいかん",
+    "sortKana": "せんそうしたいかん",
+    "ndc": "NDC 391",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-08-29",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000230/card55635.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000230/files/55635_ruby_49036.zip",
+    "textFileId": "55635_ruby_49036",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000230/files/55635_49037.html",
+    "inputBy": "林孝司",
+    "proofreadBy": "KOKODA",
+    "baseBook1": {
+      "title": "最終戦争論・戦争史大観",
+      "publisher": "中公文庫、中央公論社",
+      "firstPublishedAt": "1993（平成5）年7月10日",
+      "inputEdition": "1995（平成7）年6月10日5版"
+    },
+    "author": "石原莞爾",
+    "authors": [
+      {
+        "personId": "000230",
+        "name": "石原莞爾",
+        "kana": "いしわらかんじ",
+        "roman": "Kanji Ishiwara",
+        "role": "著者",
+        "birthDate": "1889-01-18",
+        "deathDate": "1949-08-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

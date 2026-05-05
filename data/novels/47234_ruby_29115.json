@@ -64,5 +64,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047234",
+    "title": "寒桜の話",
+    "titleKana": "かんざくらのはなし",
+    "sortKana": "かんさくらのはなし",
+    "ndc": "NDC 470",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-01-01",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001266/card47234.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001266/files/47234_ruby_29115.zip",
+    "textFileId": "47234_ruby_29115",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001266/files/47234_29116.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "花の名随筆1　一月の花",
+      "publisher": "作品社",
+      "firstPublishedAt": "1998（平成10）年11月30日",
+      "inputEdition": "1998（平成10）年11月30日初版第1刷",
+      "proofreadEdition": "1998（平成10）年11月30日初版第1刷"
+    },
+    "author": "牧野富太郎",
+    "authors": [
+      {
+        "personId": "001266",
+        "name": "牧野富太郎",
+        "kana": "まきのとみたろう",
+        "roman": "Tomitaro Makino",
+        "role": "著者",
+        "birthDate": "1862-05-22",
+        "deathDate": "1957-01-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -48,5 +48,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059608",
+    "title": "モンテーニュ随想録",
+    "titleKana": "モンテーニュずいそうろく",
+    "sortKana": "もんてえにゆすいそうろく",
+    "subtitle": "07 随想録　第三巻",
+    "subtitleKana": "07 ずいそうろく　だいさんかん",
+    "ndc": "NDC 954",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2020-02-28",
+    "updatedAt": "2023-12-20",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001848/card59608.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001848/files/59608_ruby_70312.zip",
+    "textFileId": "59608_ruby_70312",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001848/files/59608_70313.html",
+    "inputBy": "戸部松実",
+    "proofreadBy": "大久保ゆう、雪森、富田晶子",
+    "baseBook1": {
+      "title": "モンテーニュ随想録",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "2014（平成26）年2月28日",
+      "inputEdition": "2014（平成26）年2月28日初版第1刷",
+      "proofreadEdition": "2014（平成26）年2月28日初版第1刷"
+    },
+    "author": "モンテーニュミシェル・エケム・ド",
+    "authors": [
+      {
+        "personId": "001848",
+        "name": "モンテーニュミシェル・エケム・ド",
+        "kana": "モンテーニュミシェル・エケム・ド",
+        "roman": "Michel Eyquem de Montaigne",
+        "role": "著者",
+        "birthDate": "1533-02-28",
+        "deathDate": "1592-09-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

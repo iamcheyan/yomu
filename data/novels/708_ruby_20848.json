@@ -308,5 +308,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000708",
+    "title": "街底の熔鉱炉",
+    "titleKana": "がいていのようこうろ",
+    "sortKana": "かいていのようこうろ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-09-10",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000134/card708.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000134/files/708_ruby_20848.zip",
+    "textFileId": "708_ruby_20848",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000134/files/708_20849.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "柳沢成雄",
+    "baseBook1": {
+      "title": "佐左木俊郎選集",
+      "publisher": "英宝社",
+      "firstPublishedAt": "1984（昭和59）年4月14日"
+    },
+    "author": "佐左木俊郎",
+    "authors": [
+      {
+        "personId": "000134",
+        "name": "佐左木俊郎",
+        "kana": "ささきとしろう",
+        "roman": "Toshiro Sasaki",
+        "role": "著者",
+        "birthDate": "1900-04-14",
+        "deathDate": "1933-03-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

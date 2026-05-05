@@ -44,5 +44,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048365",
+    "title": "キビキビした青年紳士",
+    "titleKana": "キビキビしたせいねんしんし",
+    "sortKana": "きひきひしたせいねんしんし",
+    "firstAppearance": "「大衆文藝」1927（昭和2）年6月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-07-03",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000260/card48365.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000260/files/48365_ruby_30851.zip",
+    "textFileId": "48365_ruby_30851",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000260/files/48365_31536.html",
+    "inputBy": "sogo",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "江戸川乱歩　日本探偵小説事典",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "1996（平成8）年10月25日",
+      "inputEdition": "1996（平成8）年10月25日初版",
+      "proofreadEdition": "1996（平成8）年10月25日初版"
+    },
+    "author": "甲賀三郎",
+    "authors": [
+      {
+        "personId": "000260",
+        "name": "甲賀三郎",
+        "kana": "こうがさぶろう",
+        "roman": "Saburo Koga",
+        "role": "著者",
+        "birthDate": "1893-10-05",
+        "deathDate": "1945-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -100,5 +100,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "044724",
+    "title": "夜汽車",
+    "titleKana": "よぎしゃ",
+    "sortKana": "よきしや",
+    "firstAppearance": "「探偵文藝」1925（大正14）年5月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-08-19",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000304/card44724.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000304/files/44724_ruby_18796.zip",
+    "textFileId": "44724_ruby_18796",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000304/files/44724_18861.html",
+    "inputBy": "網迫、土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "「探偵文藝」傑作選　幻の探偵雑誌5",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2001（平成13）年2月20日",
+      "inputEdition": "2001（平成13）年2月20日初版1刷",
+      "proofreadEdition": "2001（平成13）年2月20日初版1刷"
+    },
+    "author": "牧逸馬",
+    "authors": [
+      {
+        "personId": "000304",
+        "name": "牧逸馬",
+        "kana": "まきいつま",
+        "roman": "Itsuma Maki",
+        "role": "著者",
+        "birthDate": "1900-01-17",
+        "deathDate": "1935-06-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

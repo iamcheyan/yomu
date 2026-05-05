@@ -240,5 +240,54 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043630",
+    "title": "南太平洋科学風土記",
+    "titleKana": "みなみたいへいようかがくふどき",
+    "sortKana": "みなみたいへいようかかくふとき",
+    "firstAppearance": "「科学知識」1943（昭和18）年4月号～5月号",
+    "ndc": "NDC 404 915 916",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-01-27",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card43630.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/43630_ruby_16787.zip",
+    "textFileId": "43630_ruby_16787",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/43630_17442.html",
+    "inputBy": "田中哲郎",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "海野十三メモリアル・ブック",
+      "publisher": "海野十三の会",
+      "firstPublishedAt": "2000（平成12）年5月17日",
+      "inputEdition": "2000（平成12）年5月17日第1刷",
+      "proofreadEdition": "2000（平成12）年5月17日第1刷"
+    },
+    "author": "海野十三、佐野昌一",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      },
+      {
+        "personId": "001159",
+        "name": "佐野昌一",
+        "kana": "さのしょういち",
+        "roman": "Shoichi Sano",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

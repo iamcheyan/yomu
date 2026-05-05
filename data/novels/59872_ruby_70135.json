@@ -44,5 +44,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059872",
+    "title": "猫料理",
+    "titleKana": "ねこりょうり",
+    "sortKana": "ねこりようり",
+    "firstAppearance": "「あまカラ　10月号　第八十六号」甘辛社、1958（昭和33）年10月5日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-02-13",
+    "updatedAt": "2020-01-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001808/card59872.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001808/files/59872_ruby_70135.zip",
+    "textFileId": "59872_ruby_70135",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001808/files/59872_70184.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "芝裕久",
+    "baseBook1": {
+      "title": "「あまカラ」抄1",
+      "publisher": "冨山房百科文庫、冨山房",
+      "firstPublishedAt": "1995（平成7）年11月13日",
+      "inputEdition": "1995（平成7）年11月13日第1刷",
+      "proofreadEdition": "1995（平成7）年11月13日第1刷"
+    },
+    "author": "村松梢風",
+    "authors": [
+      {
+        "personId": "001808",
+        "name": "村松梢風",
+        "kana": "むらまつしょうふう",
+        "roman": "Shoufuu Muramatsu",
+        "role": "著者",
+        "birthDate": "1889-09-21",
+        "deathDate": "1961-02-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

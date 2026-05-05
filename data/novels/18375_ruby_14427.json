@@ -166,5 +166,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "018375",
+    "title": "やどなし犬",
+    "titleKana": "やどなしいぬ",
+    "sortKana": "やとなしいぬ",
+    "firstAppearance": "「赤い鳥」1924（大正13）年1月",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-03-06",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000107/card18375.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000107/files/18375_ruby_14427.zip",
+    "textFileId": "18375_ruby_14427",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000107/files/18375_14450.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "佳代子",
+    "baseBook1": {
+      "title": "鈴木三重吉童話集",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1996（平成8）年11月18日",
+      "inputEdition": "1996（平成8）年11月18日第1刷"
+    },
+    "author": "鈴木三重吉",
+    "authors": [
+      {
+        "personId": "000107",
+        "name": "鈴木三重吉",
+        "kana": "すずきみえきち",
+        "roman": "Miekichi Suzuki",
+        "role": "著者",
+        "birthDate": "1882-09-29",
+        "deathDate": "1936-06-27",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

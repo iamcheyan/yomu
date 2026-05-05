@@ -1694,5 +1694,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051243",
+    "title": "陰獣トリステサ",
+    "titleKana": "いんじゅうトリステサ",
+    "sortKana": "いんしゆうとりすてさ",
+    "firstAppearance": "「ホープ」1946（昭和21）年10月〜1948（昭和23）年9月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-10-10",
+    "updatedAt": "2018-09-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001397/card51243.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001397/files/51243_ruby_65932.zip",
+    "textFileId": "51243_ruby_65932",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001397/files/51243_66084.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "江村秀之",
+    "baseBook1": {
+      "title": "橘外男ワンダーランド　人獣妖婚譚篇",
+      "publisher": "中央書院",
+      "firstPublishedAt": "1994（平成6）年11月28日",
+      "inputEdition": "1994（平成6）年11月28日第1刷",
+      "proofreadEdition": "1994（平成6）年11月28日第1刷"
+    },
+    "author": "橘外男",
+    "authors": [
+      {
+        "personId": "001397",
+        "name": "橘外男",
+        "kana": "たちばなそとお",
+        "roman": "Sotoo Tachibana",
+        "role": "著者",
+        "birthDate": "1894-10-10",
+        "deathDate": "1959-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

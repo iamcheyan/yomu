@@ -132,5 +132,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004632",
+    "title": "霧の旅",
+    "titleKana": "きりのたび",
+    "sortKana": "きりのたひ",
+    "ndc": "NDC 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-08-23",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000220/card4632.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000220/files/4632_ruby_16127.zip",
+    "textFileId": "4632_ruby_16127",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000220/files/4632_16280.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "現代日本紀行文学全集　中部日本編",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1976（昭和51）年8月1日",
+      "inputEdition": "1976（昭和51）年8月1日初版",
+      "proofreadEdition": "1983（昭和58）年12月1日第4刷"
+    },
+    "author": "吉江喬松",
+    "authors": [
+      {
+        "personId": "000220",
+        "name": "吉江喬松",
+        "kana": "よしえたかまつ",
+        "roman": "Takamatsu Yoshie",
+        "role": "著者",
+        "birthDate": "1880-09-05",
+        "deathDate": "1940-03-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

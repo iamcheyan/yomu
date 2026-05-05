@@ -326,5 +326,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046306",
+    "title": "道なき道",
+    "titleKana": "みちなきみち",
+    "sortKana": "みちなきみち",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-09-30",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000040/card46306.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000040/files/46306_ruby_23883.zip",
+    "textFileId": "46306_ruby_23883",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000040/files/46306_23892.html",
+    "inputBy": "桃沢まり",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "聴雨・螢　織田作之助短篇集",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2000（平成12）年4月10日",
+      "inputEdition": "2000（平成12）年4月10日第1刷",
+      "proofreadEdition": "2000（平成12）年4月10日第1刷"
+    },
+    "author": "織田作之助",
+    "authors": [
+      {
+        "personId": "000040",
+        "name": "織田作之助",
+        "kana": "おださくのすけ",
+        "roman": "Sakunosuke Oda",
+        "role": "著者",
+        "birthDate": "1913-10-26",
+        "deathDate": "1947-01-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

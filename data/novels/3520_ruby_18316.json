@@ -132,5 +132,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003520",
+    "title": "一九五〇年の殺人",
+    "titleKana": "せんきゅうひゃくごじゅうねんのさつじん",
+    "sortKana": "せんきゆうひやくこしゆうねんのさつしん",
+    "firstAppearance": "「モダン日本」1934（昭和9）年7月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-05-25",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card3520.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/3520_ruby_18316.zip",
+    "textFileId": "3520_ruby_18316",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/3520_18453.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "田中哲郎",
+    "baseBook1": {
+      "title": "海野十三全集　第5巻　浮かぶ飛行島",
+      "publisher": "三一書房",
+      "inputEdition": "1989（平成元）年4月15日",
+      "proofreadEdition": "1989（平成元）年4月15日第1版第1刷"
+    },
+    "author": "海野十三",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

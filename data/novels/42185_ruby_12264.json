@@ -92,5 +92,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042185",
+    "title": "科学的精神とは何か",
+    "titleKana": "かがくてきせいしんとはなにか",
+    "sortKana": "かかくてきせいしんとはなにか",
+    "subtitle": "――日本文化論に及ぶ――",
+    "subtitleKana": "――にほんぶんかろんにおよぶ――",
+    "firstAppearance": "「唯物論研究　第五四号」",
+    "ndc": "NDC 401",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-10-14",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000281/card42185.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000281/files/42185_ruby_12264.zip",
+    "textFileId": "42185_ruby_12264",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000281/files/42185_12265.html",
+    "inputBy": "矢野正人",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "戸坂潤全集　第一巻",
+      "publisher": "勁草書房",
+      "firstPublishedAt": "1966（昭和41）年5月25日",
+      "inputEdition": "1967（昭和42）年5月15日第3刷"
+    },
+    "author": "戸坂潤",
+    "authors": [
+      {
+        "personId": "000281",
+        "name": "戸坂潤",
+        "kana": "とさかじゅん",
+        "roman": "Jun Tosaka",
+        "role": "著者",
+        "birthDate": "1900-09-27",
+        "deathDate": "1945-08-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

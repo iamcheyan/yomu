@@ -962,5 +962,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057243",
+    "title": "何者",
+    "titleKana": "なにもの",
+    "sortKana": "なにもの",
+    "firstAppearance": "「時事新報　夕刊」時事新報社、1929（昭和4）年11月28日～12月29日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-07-28",
+    "updatedAt": "2020-06-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001779/card57243.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001779/files/57243_ruby_71258.zip",
+    "textFileId": "57243_ruby_71258",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001779/files/57243_71307.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "入江幹夫",
+    "baseBook1": {
+      "title": "江戸川乱歩全集　第7巻　黄金仮面",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2003（平成15）年9月20日",
+      "inputEdition": "2013（平成25）年11月15日3刷",
+      "proofreadEdition": "2003（平成15）年9月20日初版1刷"
+    },
+    "author": "江戸川乱歩",
+    "authors": [
+      {
+        "personId": "001779",
+        "name": "江戸川乱歩",
+        "kana": "えどがわらんぽ",
+        "roman": "Ranpo Edogawa",
+        "role": "著者",
+        "birthDate": "1894-10-21",
+        "deathDate": "1965-07-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -222,5 +222,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056564",
+    "title": "秘められたる挿話",
+    "titleKana": "ひめられたるそうわ",
+    "sortKana": "ひめられたるそうわ",
+    "firstAppearance": "「苦楽」プラトン社、1926（大正15）年10月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-04-19",
+    "updatedAt": "2018-03-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000308/card56564.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000308/files/56564_ruby_64313.zip",
+    "textFileId": "56564_ruby_64313",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000308/files/56564_64362.html",
+    "inputBy": "sogo",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "探偵小説の風景　トラフィック・コレクション（上）",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2009（平成21）年5月20日",
+      "inputEdition": "2009（平成21）年5月20日",
+      "proofreadEdition": "2009（平成21）年5月20日初版1刷"
+    },
+    "author": "松本泰",
+    "authors": [
+      {
+        "personId": "000308",
+        "name": "松本泰",
+        "kana": "まつもとたい",
+        "roman": "Tai Matsumoto",
+        "role": "著者",
+        "birthDate": "1887-02-22",
+        "deathDate": "1939-04-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

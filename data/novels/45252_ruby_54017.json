@@ -3118,5 +3118,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045252",
+    "title": "有明集",
+    "titleKana": "ありあけしゅう",
+    "sortKana": "ありあけしゆう",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-08-31",
+    "updatedAt": "2015-10-20",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001055/card45252.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001055/files/45252_ruby_54017.zip",
+    "textFileId": "45252_ruby_54017",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001055/files/45252_54059.html",
+    "inputBy": "広橋はやみ",
+    "proofreadBy": "荒木恵一",
+    "baseBook1": {
+      "title": "日本現代文學全集　22　土井晩翠・薄田泣菫・蒲原有明・伊良子清白・横瀬夜雨集",
+      "publisher": "講談社",
+      "firstPublishedAt": "1968（昭和43）年5月19日",
+      "inputEdition": "1969（昭和44）年10月1日第2刷",
+      "proofreadEdition": "1980（昭和55）年5月26日増補改訂版第1刷"
+    },
+    "author": "蒲原有明",
+    "authors": [
+      {
+        "personId": "001055",
+        "name": "蒲原有明",
+        "kana": "かんばらありあけ",
+        "roman": "Ariake Kanbara",
+        "role": "著者",
+        "birthDate": "1875-03-15",
+        "deathDate": "1952-02-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

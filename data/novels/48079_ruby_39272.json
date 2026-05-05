@@ -366,5 +366,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048079",
+    "title": "現場の写真",
+    "titleKana": "げんばのしゃしん",
+    "sortKana": "けんはのしやしん",
+    "firstAppearance": "「少年倶楽部　一四巻八号」1927（昭和2）年8月号",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-09-17",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000262/card48079.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000262/files/48079_ruby_39272.zip",
+    "textFileId": "48079_ruby_39272",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000262/files/48079_40194.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "小酒井不木探偵小説選　〔論創ミステリ叢書8〕",
+      "publisher": "論創社",
+      "firstPublishedAt": "2004（平成16）年7月25日",
+      "inputEdition": "2004（平成16）年7月25日初版第1刷",
+      "proofreadEdition": "2004（平成16）年7月25日初版第1刷"
+    },
+    "author": "小酒井不木",
+    "authors": [
+      {
+        "personId": "000262",
+        "name": "小酒井不木",
+        "kana": "こざかいふぼく",
+        "roman": "Fuboku Kosakai",
+        "role": "著者",
+        "birthDate": "1890-10-08",
+        "deathDate": "1929-04-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

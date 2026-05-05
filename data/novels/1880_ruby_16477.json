@@ -322,5 +322,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001880",
+    "title": "舞馬",
+    "titleKana": "ぶま",
+    "sortKana": "ふま",
+    "firstAppearance": "「新青年」1927（昭和2）年10月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-08-01",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000304/card1880.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000304/files/1880_ruby_16477.zip",
+    "textFileId": "1880_ruby_16477",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000304/files/1880_18781.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本探偵小説全集11　名作集1",
+      "publisher": "創元推理文庫、東京創元社",
+      "firstPublishedAt": "1996（平成8）年6月21日",
+      "inputEdition": "1998（平成10）年8月21日再版",
+      "proofreadEdition": "2004（平成16）年9月3日3版"
+    },
+    "author": "牧逸馬",
+    "authors": [
+      {
+        "personId": "000304",
+        "name": "牧逸馬",
+        "kana": "まきいつま",
+        "roman": "Itsuma Maki",
+        "role": "著者",
+        "birthDate": "1900-01-17",
+        "deathDate": "1935-06-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

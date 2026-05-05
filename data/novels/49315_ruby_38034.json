@@ -438,5 +438,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049315",
+    "title": "新訂雲母阪",
+    "titleKana": "しんていきららざか",
+    "sortKana": "しんていきららさか",
+    "firstAppearance": "「文藝春秋」文藝春秋、1926（大正15）年10月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-05-06",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000216/card49315.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000216/files/49315_ruby_38034.zip",
+    "textFileId": "49315_ruby_38034",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000216/files/49315_38939.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "山本弘子",
+    "baseBook1": {
+      "title": "昭和のエンタテインメント50篇（上）",
+      "publisher": "文春文庫、文藝春秋",
+      "firstPublishedAt": "1989（平成元）年6月10日",
+      "inputEdition": "1989（平成元）年6月10日第1刷",
+      "proofreadEdition": "1989（平成元）年6月10日第1刷"
+    },
+    "author": "直木三十五",
+    "authors": [
+      {
+        "personId": "000216",
+        "name": "直木三十五",
+        "kana": "なおきさんじゅうご",
+        "roman": "Sanjugo Naoki",
+        "role": "著者",
+        "birthDate": "1891-02-12",
+        "deathDate": "1934-02-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

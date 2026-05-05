@@ -22,5 +22,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "024456",
+    "title": "棄老伝説に就て",
+    "titleKana": "きろうでんせつについて",
+    "sortKana": "きろうてんせつについて",
+    "ndc": "NDC 388",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-08-17",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000093/card24456.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000093/files/24456_ruby_11349.zip",
+    "textFileId": "24456_ruby_11349",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000093/files/24456_11814.html",
+    "inputBy": "高柳典子",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "土俗と傳説",
+      "publisher": "文武堂店",
+      "firstPublishedAt": "1918（大正7）年8月",
+      "inputEdition": "1918（大正7）年8月第壹卷第壹號"
+    },
+    "author": "南方熊楠",
+    "authors": [
+      {
+        "personId": "000093",
+        "name": "南方熊楠",
+        "kana": "みなかたくまぐす",
+        "roman": "Kumagusu Minakata",
+        "role": "著者",
+        "birthDate": "1867-05-18",
+        "deathDate": "1941-12-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

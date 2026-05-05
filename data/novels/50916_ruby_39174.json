@@ -88,5 +88,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050916",
+    "title": "鴉",
+    "titleKana": "からす",
+    "sortKana": "からす",
+    "ndc": "NDC 943",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-08-27",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001194/card50916.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001194/files/50916_ruby_39174.zip",
+    "textFileId": "50916_ruby_39174",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001194/files/50916_40114.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "米田",
+    "baseBook1": {
+      "title": "於母影　冬の王　森鴎外全集12",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1996（平成8）年3月21日",
+      "inputEdition": "1996（平成8）年3月21日第1刷",
+      "proofreadEdition": "1996（平成8）年3月21日第1刷"
+    },
+    "author": "シュミットボンウィルヘルム",
+    "authors": [
+      {
+        "personId": "001194",
+        "name": "シュミットボンウィルヘルム",
+        "kana": "シュミットボンウィルヘルム",
+        "roman": "Wilhelm Schmidtbonn",
+        "role": "著者",
+        "birthDate": "1876",
+        "deathDate": "1952",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

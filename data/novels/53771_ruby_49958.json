@@ -48,5 +48,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053771",
+    "title": "書物を愛する道",
+    "titleKana": "しょもつをあいするみち",
+    "sortKana": "しよもつをあいするみち",
+    "firstAppearance": "「書物新潮」1940（昭和15）年4月",
+    "ndc": "NDC 020",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-03-07",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001566/card53771.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001566/files/53771_ruby_49958.zip",
+    "textFileId": "53771_ruby_49958",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001566/files/53771_49959.html",
+    "inputBy": "sogo",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "世界教養全集　別巻1",
+      "publisher": "平凡社",
+      "firstPublishedAt": "1962（昭和37）年11月20日",
+      "inputEdition": "1963（昭和38）年8月15日再版",
+      "proofreadEdition": "1964（昭和39）年6月5日5版"
+    },
+    "author": "柳田国男",
+    "authors": [
+      {
+        "personId": "001566",
+        "name": "柳田国男",
+        "kana": "やなぎたくにお",
+        "roman": "Kunio Yanagita",
+        "role": "著者",
+        "birthDate": "1875-07-31",
+        "deathDate": "1962-08-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

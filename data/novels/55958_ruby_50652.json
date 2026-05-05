@@ -46,5 +46,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055958",
+    "title": "雪の障子",
+    "titleKana": "ゆきのしょうじ",
+    "sortKana": "ゆきのしようし",
+    "firstAppearance": "「図書」岩波書店、1940（昭和15）年3月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-08-13",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000158/card55958.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000158/files/55958_ruby_50652.zip",
+    "textFileId": "55958_ruby_50652",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000158/files/55958_50957.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "エッセイの贈りもの　1",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1999（平成11）年3月5日",
+      "inputEdition": "1999（平成11）年3月5日第1刷",
+      "proofreadEdition": "1999（平成11）年4月8日第2刷"
+    },
+    "author": "島崎藤村",
+    "authors": [
+      {
+        "personId": "000158",
+        "name": "島崎藤村",
+        "kana": "しまざきとうそん",
+        "roman": "Toson Shimazaki",
+        "role": "著者",
+        "birthDate": "1872-03-25",
+        "deathDate": "1943-08-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

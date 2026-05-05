@@ -54,5 +54,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050443",
+    "title": "赤い鳥",
+    "titleKana": "あかいとり",
+    "sortKana": "あかいとり",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-02-23",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000107/card50443.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000107/files/50443_ruby_49420.zip",
+    "textFileId": "50443_ruby_49420",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000107/files/50443_49960.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "木浦",
+    "baseBook1": {
+      "title": "鈴木三重吉全集　第二巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1938（昭和13）年5月15日",
+      "inputEdition": "1982（昭和57）年2月8日第2刷",
+      "proofreadEdition": "1982（昭和57）年2月8日第2刷"
+    },
+    "author": "鈴木三重吉",
+    "authors": [
+      {
+        "personId": "000107",
+        "name": "鈴木三重吉",
+        "kana": "すずきみえきち",
+        "roman": "Miekichi Suzuki",
+        "role": "著者",
+        "birthDate": "1882-09-29",
+        "deathDate": "1936-06-27",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

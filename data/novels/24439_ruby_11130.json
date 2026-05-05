@@ -162,5 +162,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "024439",
+    "title": "虎狩",
+    "titleKana": "とらがり",
+    "sortKana": "とらかり",
+    "firstAppearance": "「光と風と夢」1942（昭和17）年7月15日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-07-20",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000119/card24439.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000119/files/24439_ruby_11130.zip",
+    "textFileId": "24439_ruby_11130",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000119/files/24439_11321.html",
+    "inputBy": "小林繁雄",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "中島敦全集　1",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1993（平成5）年1月21日",
+      "inputEdition": "2000（平成12）年4月5日第7刷",
+      "proofreadEdition": "2002（平成14）年11月30日第8刷"
+    },
+    "author": "中島敦",
+    "authors": [
+      {
+        "personId": "000119",
+        "name": "中島敦",
+        "kana": "なかじまあつし",
+        "roman": "Atsushi Nakajima",
+        "role": "著者",
+        "birthDate": "1909-05-05",
+        "deathDate": "1942-12-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

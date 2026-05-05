@@ -472,5 +472,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000449",
+    "title": "本州横断　癇癪徒歩旅行",
+    "titleKana": "ほんしゅうおうだん　かんしゃくとほりょこう",
+    "sortKana": "ほんしゆうおうたんかんしやくとほりよこう",
+    "firstAppearance": "「冐險世界　第四卷第拾貳號」博文館、1911（明治44）年9月1日",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-11-30",
+    "updatedAt": "2017-12-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000077/card449.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000077/files/449_ruby_2853.zip",
+    "textFileId": "449_ruby_2853",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000077/files/449_20631.html",
+    "inputBy": "H.KoBaYaShi",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "〔天狗倶楽部〕快傑伝　――元気と正義の男たち――",
+      "publisher": "朝日ソノラマ",
+      "firstPublishedAt": "1993（平成5）年8月30日",
+      "inputEdition": "1993（平成5）年8月30日第1刷"
+    },
+    "author": "押川春浪",
+    "authors": [
+      {
+        "personId": "000077",
+        "name": "押川春浪",
+        "kana": "おしかわしゅんろう",
+        "roman": "Shunro Oshikawa",
+        "role": "著者",
+        "birthDate": "1876-03-21",
+        "deathDate": "1914-11-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -1434,5 +1434,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048374",
+    "title": "都会と田園",
+    "titleKana": "とかいとでんえん",
+    "sortKana": "とかいとてんえん",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-06-03",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000286/card48374.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000286/files/48374_ruby_37852.zip",
+    "textFileId": "48374_ruby_37852",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000286/files/48374_38770.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "定本　野口雨情　第一巻",
+      "publisher": "未来社",
+      "firstPublishedAt": "1985（昭和60）年11月20日",
+      "inputEdition": "1985（昭和60）年11月20日第1版第1刷",
+      "proofreadEdition": "1985（昭和60）年11月20日第1版第1刷"
+    },
+    "author": "野口雨情",
+    "authors": [
+      {
+        "personId": "000286",
+        "name": "野口雨情",
+        "kana": "のぐちうじょう",
+        "roman": "Ujo Noguchi",
+        "role": "著者",
+        "birthDate": "1882-05-29",
+        "deathDate": "1945-01-27",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

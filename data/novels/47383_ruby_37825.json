@@ -358,5 +358,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047383",
+    "title": "癩",
+    "titleKana": "らい",
+    "sortKana": "らい",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-04-25",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000008/card47383.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000008/files/47383_ruby_37825.zip",
+    "textFileId": "47383_ruby_37825",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000008/files/47383_38530.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "島木健作作品集　第四卷",
+      "publisher": "創元社",
+      "firstPublishedAt": "1953（昭和28）年9月15日",
+      "inputEdition": "1953（昭和28）年9月15日初版",
+      "proofreadEdition": "1953（昭和28）年9月15日初版"
+    },
+    "author": "島木健作",
+    "authors": [
+      {
+        "personId": "000008",
+        "name": "島木健作",
+        "kana": "しまきけんさく",
+        "roman": "Kensaku Shimaki",
+        "role": "著者",
+        "birthDate": "1903-09-07",
+        "deathDate": "1945-08-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

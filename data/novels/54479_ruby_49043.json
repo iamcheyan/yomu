@@ -434,5 +434,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054479",
+    "title": "鷺娘",
+    "titleKana": "さぎむすめ",
+    "sortKana": "さきむすめ",
+    "firstAppearance": "「宝石　一巻四号」1946（昭和21）年7月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-02-06",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001669/card54479.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001669/files/54479_ruby_49043.zip",
+    "textFileId": "54479_ruby_49043",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001669/files/54479_49796.html",
+    "inputBy": "kompass",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "大倉燁子探偵小説選",
+      "publisher": "論創社",
+      "firstPublishedAt": "2011（平成23）年4月30日",
+      "inputEdition": "2011（平成23）年4月30日初版第1刷",
+      "proofreadEdition": "2011（平成23）年4月30日初版第1刷"
+    },
+    "author": "大倉燁子",
+    "authors": [
+      {
+        "personId": "001669",
+        "name": "大倉燁子",
+        "kana": "おおくらてるこ",
+        "roman": "Teruko Okura",
+        "role": "著者",
+        "birthDate": "1886-04-12",
+        "deathDate": "1960-07-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

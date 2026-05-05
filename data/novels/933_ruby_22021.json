@@ -1724,5 +1724,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000933",
+    "title": "猟奇歌",
+    "titleKana": "りょうきうた",
+    "sortKana": "りようきうた",
+    "firstAppearance": "「探偵趣味」1927（昭和2）年8月、「猟奇」1928（昭和3）～1932（昭和7）年、「ぷろふいる」1933（昭和8）～1935（昭和10）年",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-05-06",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000096/card933.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000096/files/933_ruby_22021.zip",
+    "textFileId": "933_ruby_22021",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000096/files/933_22022.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "久保あきら",
+    "baseBook1": {
+      "title": "夢野久作全集3",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1992（平成4）年8月24日"
+    },
+    "author": "夢野久作",
+    "authors": [
+      {
+        "personId": "000096",
+        "name": "夢野久作",
+        "kana": "ゆめのきゅうさく",
+        "roman": "Kyusaku Yumeno",
+        "role": "著者",
+        "birthDate": "1889-01-04",
+        "deathDate": "1936-03-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

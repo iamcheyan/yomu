@@ -176,5 +176,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054041",
+    "title": "手をさし延べよう！",
+    "titleKana": "てをさしのべよう！",
+    "sortKana": "てをさしのへよう",
+    "firstAppearance": "「鎖」1923（大正12）年7月号",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-01-09",
+    "updatedAt": "2016-01-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001624/card54041.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001624/files/54041_ruby_57853.zip",
+    "textFileId": "54041_ruby_57853",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001624/files/54041_57902.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・38　プロレタリア詩集（一）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年5月25日",
+      "inputEdition": "1987（昭和62）年5月25日初版",
+      "proofreadEdition": "1987（昭和62）年5月25日初版"
+    },
+    "author": "陀田勘助",
+    "authors": [
+      {
+        "personId": "001624",
+        "name": "陀田勘助",
+        "kana": "だだかんすけ",
+        "roman": "Kansuke Dada",
+        "role": "著者",
+        "birthDate": "1902-01-15",
+        "deathDate": "1931-08-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

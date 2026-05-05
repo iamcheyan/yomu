@@ -92,5 +92,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060855",
+    "title": "スザナの物語",
+    "titleKana": "スザナのものがたり",
+    "sortKana": "すさなのものかたり",
+    "subtitle": "――経典外聖書――",
+    "subtitleKana": "――けいてんがいせいしょ――",
+    "originalTitle": "THE HISTORY OF SUSANNA",
+    "ndc": "NDC 193",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-01-06",
+    "updatedAt": "2021-12-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001529/card60855.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001529/files/60855_ruby_74758.zip",
+    "textFileId": "60855_ruby_74758",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001529/files/60855_74792.html",
+    "inputBy": "sogo",
+    "proofreadBy": "かな　とよみ",
+    "baseBook1": {
+      "title": "〔名探偵登場Ⅰ〕",
+      "publisher": "HAYAKAWA POCKET MYSTERY BOOKS、早川書房",
+      "firstPublishedAt": "1956（昭和31）年2月28日",
+      "inputEdition": "1993（平成5）年9月15日3版",
+      "proofreadEdition": "1993（平成5）年9月15日3版"
+    },
+    "author": "作者不詳",
+    "authors": [
+      {
+        "personId": "001529",
+        "name": "作者不詳",
+        "kana": "さくしゃふしょう",
+        "roman": "Sakushafusho",
+        "role": "著者",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

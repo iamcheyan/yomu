@@ -362,5 +362,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001339",
+    "title": "島原心中",
+    "titleKana": "しまばらしんじゅう",
+    "sortKana": "しまはらしんしゆう",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-11-28",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000083/card1339.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000083/files/1339_ruby_20036.zip",
+    "textFileId": "1339_ruby_20036",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000083/files/1339_20140.html",
+    "inputBy": "真先芳秋",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "菊池寛　短篇と戯曲",
+      "publisher": "文藝春秋",
+      "firstPublishedAt": "1988（昭和63）年3月25日",
+      "inputEdition": "1988（昭和63）年3月25日第1刷",
+      "proofreadEdition": "1988（昭和63）年3月25日第1刷"
+    },
+    "author": "菊池寛",
+    "authors": [
+      {
+        "personId": "000083",
+        "name": "菊池寛",
+        "kana": "きくちかん",
+        "roman": "Kan Kikuchi",
+        "role": "著者",
+        "birthDate": "1888-12-26",
+        "deathDate": "1948-03-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

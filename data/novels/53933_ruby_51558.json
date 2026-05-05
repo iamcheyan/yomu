@@ -128,5 +128,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053933",
+    "title": "仏法僧鳥",
+    "titleKana": "ぶっぽうそうちょう",
+    "sortKana": "ふつほうそうちよう",
+    "firstAppearance": "「時事新報」1928（昭和3）年1月4日、5日",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-11-25",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001059/card53933.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001059/files/53933_ruby_51558.zip",
+    "textFileId": "53933_ruby_51558",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001059/files/53933_51599.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆2　鳥",
+      "publisher": "作品社",
+      "firstPublishedAt": "1983（昭和58）年4月25日",
+      "inputEdition": "1985（昭和60）年6月25日第3刷",
+      "proofreadEdition": "1995（平成7）年10月30日第18刷"
+    },
+    "author": "斎藤茂吉",
+    "authors": [
+      {
+        "personId": "001059",
+        "name": "斎藤茂吉",
+        "kana": "さいとうもきち",
+        "roman": "Mokichi Saito",
+        "role": "著者",
+        "birthDate": "1882-5-14",
+        "deathDate": "1953-2-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

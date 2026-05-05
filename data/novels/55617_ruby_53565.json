@@ -292,5 +292,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055617",
+    "title": "はるあはれ",
+    "titleKana": "はるあわれ",
+    "sortKana": "はるあわれ",
+    "firstAppearance": "「新潮」1961（昭和36）年7月1日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-06-29",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001579/card55617.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001579/files/55617_ruby_53565.zip",
+    "textFileId": "55617_ruby_53565",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001579/files/55617_53608.html",
+    "inputBy": "磯貝まこと",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "はるあはれ",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1962（昭和37）年2月15日",
+      "inputEdition": "1962（昭和37）年2月15日",
+      "proofreadEdition": "1962（昭和37）年2月15日"
+    },
+    "author": "室生犀星",
+    "authors": [
+      {
+        "personId": "001579",
+        "name": "室生犀星",
+        "kana": "むろうさいせい",
+        "roman": "Saisei Murou",
+        "role": "著者",
+        "birthDate": "1889-08-01",
+        "deathDate": "1962-03-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

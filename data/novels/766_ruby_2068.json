@@ -44,5 +44,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000766",
+    "title": "コンラッドの描きたる自然について",
+    "titleKana": "コンラッドのえがきたるしぜんについて",
+    "sortKana": "こんらつとのえかきたるしせんについて",
+    "ndc": "NDC 930",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-06-14",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000148/card766.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000148/files/766_ruby_2068.zip",
+    "textFileId": "766_ruby_2068",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000148/files/766_13942.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "大野晋",
+    "baseBook1": {
+      "title": "夏目漱石全集10",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1988（昭和63）年7月26日",
+      "inputEdition": "1988（昭和63）年7月26日第1刷"
+    },
+    "author": "夏目漱石",
+    "authors": [
+      {
+        "personId": "000148",
+        "name": "夏目漱石",
+        "kana": "なつめそうせき",
+        "roman": "Soseki Natsume",
+        "role": "著者",
+        "birthDate": "1867-02-09",
+        "deathDate": "1916-12-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -1000,5 +1000,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060663",
+    "title": "島の便り",
+    "titleKana": "しまのたより",
+    "sortKana": "しまのたより",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2023-02-17",
+    "updatedAt": "2023-02-10",
+    "cardUrl": "https://www.aozora.gr.jp/cards/002177/card60663.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/002177/files/60663_ruby_76851.zip",
+    "textFileId": "60663_ruby_76851",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/002177/files/60663_76852.html",
+    "inputBy": "和田幸子",
+    "proofreadBy": "ミツボシ",
+    "baseBook1": {
+      "title": "鵠が音",
+      "publisher": "中公文庫、中央公論社",
+      "firstPublishedAt": "1978（昭和53）年8月10日",
+      "inputEdition": "1978（昭和53）年8月10日",
+      "proofreadEdition": "1978（昭和53）年8月10日"
+    },
+    "author": "折口春洋",
+    "authors": [
+      {
+        "personId": "002177",
+        "name": "折口春洋",
+        "kana": "おりくちはるみ",
+        "roman": "Harumi Orikuchi",
+        "role": "著者",
+        "birthDate": "1907-2-28",
+        "deathDate": "1945-3-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

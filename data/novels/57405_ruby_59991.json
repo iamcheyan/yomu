@@ -3306,5 +3306,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057405",
+    "title": "黒蜥蜴",
+    "titleKana": "くろとかげ",
+    "sortKana": "くろとかけ",
+    "firstAppearance": "「日の出　第三巻第一号―第十二号」1934（昭和9）年1月号～12月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-10-21",
+    "updatedAt": "2016-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001779/card57405.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001779/files/57405_ruby_59991.zip",
+    "textFileId": "57405_ruby_59991",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001779/files/57405_60036.html",
+    "inputBy": "sogo",
+    "proofreadBy": "大久保ゆう",
+    "baseBook1": {
+      "title": "黒蜥蜴",
+      "publisher": "江戸川乱歩推理文庫、講談社",
+      "firstPublishedAt": "1987（昭和62）年9月25日",
+      "inputEdition": "1987（昭和62）年9月25日第1刷",
+      "proofreadEdition": "1987（昭和62）年9月25日第1刷"
+    },
+    "author": "江戸川乱歩",
+    "authors": [
+      {
+        "personId": "001779",
+        "name": "江戸川乱歩",
+        "kana": "えどがわらんぽ",
+        "roman": "Ranpo Edogawa",
+        "role": "著者",
+        "birthDate": "1894-10-21",
+        "deathDate": "1965-07-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

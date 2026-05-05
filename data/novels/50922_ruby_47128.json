@@ -196,5 +196,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050922",
+    "title": "帯広まで",
+    "titleKana": "おびひろまで",
+    "sortKana": "おひひろまて",
+    "firstAppearance": "「文藝春秋」1936（昭和11）年11月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-04-16",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000291/card50922.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000291/files/50922_ruby_47128.zip",
+    "textFileId": "50922_ruby_47128",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000291/files/50922_47275.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "岩澤秀紀",
+    "baseBook1": {
+      "title": "北海道文学全集　第12巻",
+      "publisher": "立風書房",
+      "firstPublishedAt": "1980(昭和55）年12月10日",
+      "inputEdition": "1980(昭和55）年12月10日初版第1刷",
+      "proofreadEdition": "1980(昭和55）年12月10日初版第1刷"
+    },
+    "author": "林芙美子",
+    "authors": [
+      {
+        "personId": "000291",
+        "name": "林芙美子",
+        "kana": "はやしふみこ",
+        "roman": "Fumiko Hayashi",
+        "role": "著者",
+        "birthDate": "1903-12-31",
+        "deathDate": "1951-06-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

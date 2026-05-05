@@ -410,5 +410,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000327",
+    "title": "恋を恋する人",
+    "titleKana": "こいをこいするひと",
+    "sortKana": "こいをこいするひと",
+    "firstAppearance": "「中央公論」1907（明治40）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-05-16",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000038/card327.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000038/files/327_ruby_1970.zip",
+    "textFileId": "327_ruby_1970",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000038/files/327_43413.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "日本の短編小説［明治・大正］",
+      "publisher": "潮文庫、潮出版社",
+      "firstPublishedAt": "1973（昭和48）年5月20日",
+      "inputEdition": "1988（昭和63）年11月30日第9刷"
+    },
+    "author": "国木田独歩",
+    "authors": [
+      {
+        "personId": "000038",
+        "name": "国木田独歩",
+        "kana": "くにきだどっぽ",
+        "roman": "Doppo Kunikida",
+        "role": "著者",
+        "birthDate": "1871-08-30",
+        "deathDate": "1908-06-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

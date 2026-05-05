@@ -1730,5 +1730,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043537",
+    "title": "病牀六尺",
+    "titleKana": "びょうしょうろくしゃく",
+    "sortKana": "ひようしようろくしやく",
+    "firstAppearance": "「日本」1902（明治35）年5月5日～9月17日（「病牀六尺未定稿」の初出は「子規全集 第十四巻」アルス1926（大正15）年8月）",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-12-25",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000305/card43537.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000305/files/43537_ruby_40743.zip",
+    "textFileId": "43537_ruby_40743",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000305/files/43537_41508.html",
+    "inputBy": "川向直樹",
+    "proofreadBy": "米田",
+    "baseBook1": {
+      "title": "病牀六尺",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1927（昭和2）年7月10日、1984（昭和59）年7月16日改版",
+      "inputEdition": "2004（平成16）年7月15日第57刷",
+      "proofreadEdition": "1998（平成10）年5月6日第49刷"
+    },
+    "author": "正岡子規",
+    "authors": [
+      {
+        "personId": "000305",
+        "name": "正岡子規",
+        "kana": "まさおかしき",
+        "roman": "Shiki Masaoka",
+        "role": "著者",
+        "birthDate": "1867-10-14",
+        "deathDate": "1902-09-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

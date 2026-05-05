@@ -116,5 +116,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "005009",
+    "title": "山の湯雑記",
+    "titleKana": "やまのゆざっき",
+    "sortKana": "やまのゆさつき",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-01-20",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card5009.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/5009_ruby_14188.zip",
+    "textFileId": "5009_ruby_14188",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/5009_14243.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "日本の名随筆10　山",
+      "publisher": "作品社",
+      "firstPublishedAt": "1983（昭和58）年6月25日",
+      "inputEdition": "1998（平成10）年8月10日第26刷"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

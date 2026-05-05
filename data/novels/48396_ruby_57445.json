@@ -372,5 +372,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048396",
+    "title": "菊あわせ",
+    "titleKana": "きくあわせ",
+    "sortKana": "きくあわせ",
+    "firstAppearance": "「文藝春秋」1932（昭和7）年1月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-11-10",
+    "updatedAt": "2015-10-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card48396.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/48396_ruby_57445.zip",
+    "textFileId": "48396_ruby_57445",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/48396_57482.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "坂本真一",
+    "baseBook1": {
+      "title": "文豪怪談傑作選　泉鏡花集　黒壁",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2006（平成18）年10月10日",
+      "inputEdition": "2006（平成18）年10月10日第1刷",
+      "proofreadEdition": "2006（平成18）年10月10日第1刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

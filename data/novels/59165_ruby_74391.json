@@ -154,5 +154,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059165",
+    "title": "「私」小説と「心境」小説",
+    "titleKana": "「し」しょうせつと「しんきょう」しょうせつ",
+    "sortKana": "ししようせつとしんきようしようせつ",
+    "firstAppearance": "一「文藝講座　第七號」文藝春秋社、1925（大正14）年1月15日<br>二「文藝講座　第十四號」文藝春秋社、1925（大正14）年5月15日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-11-23",
+    "updatedAt": "2021-10-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001151/card59165.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001151/files/59165_ruby_74391.zip",
+    "textFileId": "59165_ruby_74391",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001151/files/59165_74429.html",
+    "inputBy": "希色",
+    "proofreadBy": "友理",
+    "baseBook1": {
+      "title": "編年体　大正文学全集　第十四巻　大正十四年",
+      "publisher": "ゆまに書房",
+      "firstPublishedAt": "2003（平成15）年3月25日",
+      "inputEdition": "2003（平成15）年3月25日第1版第1刷",
+      "proofreadEdition": "2003（平成15）年3月25日第1版第1刷"
+    },
+    "author": "久米正雄",
+    "authors": [
+      {
+        "personId": "001151",
+        "name": "久米正雄",
+        "kana": "くめまさお",
+        "roman": "Masao Kume",
+        "role": "著者",
+        "birthDate": "1891-11-23",
+        "deathDate": "1952-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -1624,5 +1624,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004376",
+    "title": "即興詩人",
+    "titleKana": "そっきょうしじん",
+    "sortKana": "そつきようししん",
+    "ndc": "NDC 949",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-09-18",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000019/card4376.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000019/files/4376_ruby_18828.zip",
+    "textFileId": "4376_ruby_18828",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000019/files/4376_19283.html",
+    "inputBy": "三州生桑",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "定本限定版　現代日本文學全集　13　森鴎外集（二）",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1967（昭和42）年11月20日",
+      "inputEdition": "1967（昭和42）年11月20日"
+    },
+    "author": "アンデルセンハンス・クリスチャン",
+    "authors": [
+      {
+        "personId": "000019",
+        "name": "アンデルセンハンス・クリスチャン",
+        "kana": "アンデルセンハンス・クリスチャン",
+        "roman": "Hans Christian Andersen",
+        "role": "著者",
+        "birthDate": "1805-04-02",
+        "deathDate": "1875-08-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

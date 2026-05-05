@@ -240,5 +240,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049288",
+    "title": "こんにゃく売り",
+    "titleKana": "こんにゃくうり",
+    "sortKana": "こんにやくうり",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-01-01",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001308/card49288.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001308/files/49288_ruby_33965.zip",
+    "textFileId": "49288_ruby_33965",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001308/files/49288_33993.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "徳永直文学選集",
+      "publisher": "熊本出版文化会館",
+      "firstPublishedAt": "2008（平成20）年5月15日",
+      "inputEdition": "2008（平成20）年5月15日初版",
+      "proofreadEdition": "2008（平成20）年5月15日初版"
+    },
+    "author": "徳永直",
+    "authors": [
+      {
+        "personId": "001308",
+        "name": "徳永直",
+        "kana": "とくながすなお",
+        "roman": "Sunao Tokunaga",
+        "role": "著者",
+        "birthDate": "1899-01-20",
+        "deathDate": "1958-02-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

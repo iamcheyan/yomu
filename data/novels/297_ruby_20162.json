@@ -272,5 +272,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000297",
+    "title": "未帰還の友に",
+    "titleKana": "みきかんのともに",
+    "sortKana": "みきかんのともに",
+    "firstAppearance": "「潮流」1946（昭和21）年5月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-04-07",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card297.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/297_ruby_20162.zip",
+    "textFileId": "297_ruby_20162",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/297_20163.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "miyako",
+    "baseBook1": {
+      "title": "太宰治全集8",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1989（平成元）年4月25日",
+      "proofreadEdition": "1998（平成10）年1月20日第2刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

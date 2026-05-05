@@ -292,5 +292,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054137",
+    "title": "ユタの歴史的研究",
+    "titleKana": "ユタのれきしてきけんきゅう",
+    "sortKana": "ゆたのれきしてきけんきゆう",
+    "firstAppearance": "「琉球新報」1913（大正2）年3月11日～20日",
+    "ndc": "NDC 387",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-05-06",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000232/card54137.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000232/files/54137_ruby_53290.zip",
+    "textFileId": "54137_ruby_53290",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000232/files/54137_53334.html",
+    "inputBy": "しだひろし",
+    "proofreadBy": "成宮佐知子",
+    "baseBook1": {
+      "title": "沖縄女性史",
+      "publisher": "平凡社ライブラリー、平凡社",
+      "firstPublishedAt": "2000年（平成12）11月10日",
+      "inputEdition": "2000（平成12）年11月10日初版第1刷",
+      "proofreadEdition": "2000（平成12）年11月10日初版第1刷"
+    },
+    "author": "伊波普猷",
+    "authors": [
+      {
+        "personId": "000232",
+        "name": "伊波普猷",
+        "kana": "いはふゆう",
+        "roman": "Fuyu Iha",
+        "role": "著者",
+        "birthDate": "1876-03-15",
+        "deathDate": "1947-08-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

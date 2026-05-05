@@ -184,5 +184,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048278",
+    "title": "真間の手古奈",
+    "titleKana": "ままのてこな",
+    "sortKana": "ままのてこな",
+    "firstAppearance": "「サンデー毎日」1929（昭和4）年1月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-06-11",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card48278.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/48278_ruby_30113.zip",
+    "textFileId": "48278_ruby_30113",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/48278_31471.html",
+    "inputBy": "Ｈ．ＹＡＭ",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "国枝史郎伝奇短篇小説集成　第二巻　昭和三年～昭和十二年",
+      "publisher": "作品社",
+      "firstPublishedAt": "2006（平成18）年12月15日",
+      "inputEdition": "2006（平成18）年12月15日第1刷発行",
+      "proofreadEdition": "2006（平成18）年12月15日第1刷発行"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

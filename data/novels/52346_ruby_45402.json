@@ -36,5 +36,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052346",
+    "title": "人物に就いて",
+    "titleKana": "じんぶつについて",
+    "sortKana": "しんふつについて",
+    "firstAppearance": "「東奥日報　第一五五八七号」1936（昭和11）年1月1日",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-12-12",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card52346.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/52346_ruby_45402.zip",
+    "textFileId": "52346_ruby_45402",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/52346_45482.html",
+    "inputBy": "小林繁雄",
+    "proofreadBy": "阿部哲也",
+    "baseBook1": {
+      "title": "太宰治全集11",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年3月25日",
+      "inputEdition": "1999（平成11）年3月25日初版第1刷",
+      "proofreadEdition": "2001（平成13）年11月10日初版第2刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

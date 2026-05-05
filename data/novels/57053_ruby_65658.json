@@ -36,5 +36,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057053",
+    "title": "女教員の縊死",
+    "titleKana": "じょきょういんのいし",
+    "sortKana": "しよきよういんのいし",
+    "subtitle": "（三面記事評論）",
+    "subtitleKana": "（さんめんきじひょうろん）",
+    "firstAppearance": "「新公論　第三〇巻第七号」1915（大正4）年7月号",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-09-16",
+    "updatedAt": "2018-08-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000416/card57053.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000416/files/57053_ruby_65658.zip",
+    "textFileId": "57053_ruby_65658",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000416/files/57053_65753.html",
+    "inputBy": "酒井裕二",
+    "proofreadBy": "きゅうり",
+    "baseBook1": {
+      "title": "定本　伊藤野枝全集　第二巻　評論・随筆・書簡1――『青鞜』の時代",
+      "publisher": "學藝書林",
+      "firstPublishedAt": "2000（平成12）年5月31日",
+      "inputEdition": "2000（平成12）年5月31日初版",
+      "proofreadEdition": "2000（平成12）年5月31日初版"
+    },
+    "author": "伊藤野枝",
+    "authors": [
+      {
+        "personId": "000416",
+        "name": "伊藤野枝",
+        "kana": "いとうのえ",
+        "roman": "Noe Ito",
+        "role": "著者",
+        "birthDate": "1895-01-21",
+        "deathDate": "1923-09-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -54,5 +54,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056601",
+    "title": "カン",
+    "titleKana": "カン",
+    "sortKana": "かん",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-01-01",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001726/card56601.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001726/files/56601_ruby_51964.zip",
+    "textFileId": "56601_ruby_51964",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001726/files/56601_51965.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻25　俳句",
+      "publisher": "作品社",
+      "firstPublishedAt": "1993（平成5）年3月25日",
+      "inputEdition": "1999（平成11）年11月20日第6刷",
+      "proofreadEdition": "1999（平成11）年11月20日第6刷"
+    },
+    "author": "長谷川伸",
+    "authors": [
+      {
+        "personId": "001726",
+        "name": "長谷川伸",
+        "kana": "はせがわしん",
+        "roman": "Shin Hasegawa",
+        "role": "著者",
+        "birthDate": "1884-03-15",
+        "deathDate": "1963-06-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

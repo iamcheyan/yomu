@@ -32,5 +32,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045278",
+    "title": "三作家に就ての感想",
+    "titleKana": "さんさっかについてのかんそう",
+    "sortKana": "さんさつかについてのかんそう",
+    "firstAppearance": "「文章倶樂部」新潮社、1920（大正9）年3月1日",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-12-08",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000048/card45278.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000048/files/45278_ruby_28453.zip",
+    "textFileId": "45278_ruby_28453",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000048/files/45278_28596.html",
+    "inputBy": "小林徹",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "文章倶樂部",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1920（大正9）年3月1日",
+      "inputEdition": "1920（大正9）年3月1日",
+      "proofreadEdition": "1920（大正9）年3月1日"
+    },
+    "author": "南部修太郎",
+    "authors": [
+      {
+        "personId": "000048",
+        "name": "南部修太郎",
+        "kana": "なんぶしゅうたろう",
+        "roman": "Shutaro Nanbu",
+        "role": "著者",
+        "birthDate": "1892-10-12",
+        "deathDate": "1936-06-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

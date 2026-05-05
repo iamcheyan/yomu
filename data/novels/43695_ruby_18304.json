@@ -54,5 +54,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043695",
+    "title": "青空同人印象記（大正十五年六月号）",
+    "titleKana": "あおぞらどうじんいんしょうき（たいしょうじゅうごねんろくがつごう）",
+    "sortKana": "あおそらとうしんいんしようきたいしようしゆうこねんろくかつこう",
+    "subtitle": "『青空』記事",
+    "subtitleKana": "『あおぞら』きじ",
+    "firstAppearance": "「青空」1926（大正15）年6月号",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-05-21",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000074/card43695.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000074/files/43695_ruby_18304.zip",
+    "textFileId": "43695_ruby_18304",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000074/files/43695_18438.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "高柳典子",
+    "baseBook1": {
+      "title": "梶井基次郎全集　第一卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年11月10日",
+      "inputEdition": "1999（平成11）年11月10日初版第1刷",
+      "proofreadEdition": "1999（平成11）年11月10日初版第1刷"
+    },
+    "author": "梶井基次郎",
+    "authors": [
+      {
+        "personId": "000074",
+        "name": "梶井基次郎",
+        "kana": "かじいもとじろう",
+        "roman": "Motojiro Kajii",
+        "role": "著者",
+        "birthDate": "1901-02-17",
+        "deathDate": "1932-03-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

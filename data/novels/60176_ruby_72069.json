@@ -86,5 +86,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060176",
+    "title": "青い眼",
+    "titleKana": "あおいめ",
+    "sortKana": "あおいめ",
+    "ndc": "NDC 953",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-11-09",
+    "updatedAt": "2020-11-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/002135/card60176.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/002135/files/60176_ruby_72069.zip",
+    "textFileId": "60176_ruby_72069",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/002135/files/60176_72110.html",
+    "inputBy": "かな　とよみ",
+    "proofreadBy": "The Creative CAT",
+    "baseBook1": {
+      "title": "繪はがき",
+      "publisher": "角川書店",
+      "firstPublishedAt": "1946（昭和21）年7月20日",
+      "inputEdition": "1946（昭和21）年7月20日初版",
+      "proofreadEdition": "1946（昭和21）年7月20日初版"
+    },
+    "author": "アポリネールギヨーム",
+    "authors": [
+      {
+        "personId": "002135",
+        "name": "アポリネールギヨーム",
+        "kana": "アポリネールギヨーム",
+        "roman": "Guillaume Apollinaire",
+        "role": "著者",
+        "birthDate": "1880-08-26",
+        "deathDate": "1918-11-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -52,5 +52,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "044871",
+    "title": "「浅間山」の序に代へて",
+    "titleKana": "「あさまやま」のじょにかえて",
+    "sortKana": "あさまやまのしよにかえて",
+    "firstAppearance": "「劇作　第一巻第一号」1932（昭和7）年3月1日",
+    "ndc": "NDC 912 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-10-15",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001154/card44871.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001154/files/44871_ruby_44641.zip",
+    "textFileId": "44871_ruby_44641",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001154/files/44871_44743.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "岸田國士全集28",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1992（平成4）年6月17日",
+      "inputEdition": "1992（平成4）年6月17日",
+      "proofreadEdition": "1992（平成4）年6月17日"
+    },
+    "author": "岸田国士",
+    "authors": [
+      {
+        "personId": "001154",
+        "name": "岸田国士",
+        "kana": "きしだくにお",
+        "roman": "Kunio Kishida",
+        "role": "著者",
+        "birthDate": "1890-11-02",
+        "deathDate": "1954-03-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -54,5 +54,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047604",
+    "title": "夢の如く出現した彼",
+    "titleKana": "ゆめのごとくしゅつげんしたかれ",
+    "sortKana": "ゆめのことくしゆつけんしたかれ",
+    "firstAppearance": "「月刊探偵」黒白書房、1936（昭和11）年5月号",
+    "ndc": "NDC 910",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-12-09",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001314/card47604.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001314/files/47604_ruby_32681.zip",
+    "textFileId": "47604_ruby_32681",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001314/files/47604_33427.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "「探偵」傑作選　幻の探偵雑誌9",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2002（平成14）年1月20日",
+      "inputEdition": "2002（平成14）年1月20日初版1刷",
+      "proofreadEdition": "2002（平成14）年1月20日初版1刷"
+    },
+    "author": "青柳喜兵衛",
+    "authors": [
+      {
+        "personId": "001314",
+        "name": "青柳喜兵衛",
+        "kana": "あおやぎきへい",
+        "roman": "Kihei Aoyagi",
+        "role": "著者",
+        "birthDate": "1904-01-01",
+        "deathDate": "1938-08-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -4256,5 +4256,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052391",
+    "title": "白南風",
+    "titleKana": "しらはえ",
+    "sortKana": "しらはえ",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-01-25",
+    "updatedAt": "2014-12-15",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000106/card52391.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000106/files/52391_ruby_55290.zip",
+    "textFileId": "52391_ruby_55290",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000106/files/52391_55378.html",
+    "inputBy": "岡村和彦",
+    "proofreadBy": "光森裕樹",
+    "baseBook1": {
+      "title": "白南風",
+      "publisher": "アルス",
+      "firstPublishedAt": "1934（昭和9）年4月20日",
+      "inputEdition": "1934（昭和9）年4月20日",
+      "proofreadEdition": "1934（昭和9）年4月20日"
+    },
+    "author": "北原白秋",
+    "authors": [
+      {
+        "personId": "000106",
+        "name": "北原白秋",
+        "kana": "きたはらはくしゅう",
+        "roman": "Hakushu Kitahara",
+        "role": "著者",
+        "birthDate": "1885-01-25",
+        "deathDate": "1942-11-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -358,5 +358,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047221",
+    "title": "青いポアン",
+    "titleKana": "あおいポアン",
+    "sortKana": "あおいほあん",
+    "firstAppearance": "「作品」1930（昭和5）年12月",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-01-18",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001157/card47221.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001157/files/47221_ruby_29314.zip",
+    "textFileId": "47221_ruby_29314",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001157/files/47221_29329.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "Juki、小林繁雄、川山隆",
+    "baseBook1": {
+      "title": "日本幻想文学集成19　神西清",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "1993（平成5）年5月20日",
+      "inputEdition": "1993（平成5）年5月20日初版第1刷",
+      "proofreadEdition": "1993（平成5）年5月20日初版第1刷"
+    },
+    "author": "神西清",
+    "authors": [
+      {
+        "personId": "001157",
+        "name": "神西清",
+        "kana": "じんざいきよし",
+        "roman": "Kiyoshi Jinzai",
+        "role": "著者",
+        "birthDate": "1903-11-15",
+        "deathDate": "1957-03-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

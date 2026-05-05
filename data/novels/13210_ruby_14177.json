@@ -68,5 +68,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "013210",
+    "title": "人形の話",
+    "titleKana": "にんぎょうのはなし",
+    "sortKana": "にんきようのはなし",
+    "ndc": "NDC 380",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-01-11",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card13210.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/13210_ruby_14177.zip",
+    "textFileId": "13210_ruby_14177",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/13210_14232.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻81　人形",
+      "publisher": "作品社",
+      "firstPublishedAt": "1997（平成9）年11月25日",
+      "inputEdition": "1997（平成9）年11月25日第1刷"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

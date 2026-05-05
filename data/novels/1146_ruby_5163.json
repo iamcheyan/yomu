@@ -224,5 +224,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001146",
+    "title": "クララの出家",
+    "titleKana": "クララのしゅっけ",
+    "sortKana": "くららのしゆつけ",
+    "firstAppearance": "「太陽」1917（大正6）年9月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-02-14",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000025/card1146.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000025/files/1146_ruby_5163.zip",
+    "textFileId": "1146_ruby_5163",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000025/files/1146_19525.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "カインの末裔　クララの出家",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1940（昭和15）年9月10日、1980（昭和55）年5月16日第25刷改版",
+      "inputEdition": "1990（平成2）年4月15日第35刷"
+    },
+    "author": "有島武郎",
+    "authors": [
+      {
+        "personId": "000025",
+        "name": "有島武郎",
+        "kana": "ありしまたけお",
+        "roman": "Takeo Arishima",
+        "role": "著者",
+        "birthDate": "1878-03-04",
+        "deathDate": "1923-06-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

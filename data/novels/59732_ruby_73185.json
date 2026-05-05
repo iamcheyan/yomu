@@ -190,5 +190,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059732",
+    "title": "ブラウン神父の醜聞",
+    "titleKana": "ブラウンしんぷのしゅうぶん",
+    "sortKana": "ふらうんしんふのしゆうふん",
+    "originalTitle": "THE SCANDAL OF FATHER BROWN",
+    "ndc": "NDC 933",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-05-29",
+    "updatedAt": "2021-04-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001123/card59732.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001123/files/59732_ruby_73185.zip",
+    "textFileId": "59732_ruby_73185",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001123/files/59732_73225.html",
+    "inputBy": "時雨",
+    "proofreadBy": "sogo",
+    "baseBook1": {
+      "title": "〔ブラウン神父の醜聞〕",
+      "publisher": "HAYAKAWA POCKET MYSTERY BOOKS、早川書房",
+      "firstPublishedAt": "1957（昭和32）年3月15日",
+      "inputEdition": "1957（昭和32）年3月15日",
+      "proofreadEdition": "1957（昭和32）年3月15日"
+    },
+    "author": "チェスタートンギルバート・キース",
+    "authors": [
+      {
+        "personId": "001123",
+        "name": "チェスタートンギルバート・キース",
+        "kana": "チェスタートンギルバート・キース",
+        "roman": "Gilbert Keith Chesterton",
+        "role": "著者",
+        "birthDate": "1874-05-29",
+        "deathDate": "1936-06-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

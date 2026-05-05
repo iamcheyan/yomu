@@ -212,5 +212,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058030",
+    "title": "小指一本の大試合",
+    "titleKana": "こゆびいっぽんのおおじあい",
+    "sortKana": "こゆひいつほんのおおしあい",
+    "firstAppearance": "「少年倶楽部」講談社、1931（昭和6）年1月号",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-01-01",
+    "updatedAt": "2017-01-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001889/card58030.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001889/files/58030_ruby_60635.zip",
+    "textFileId": "58030_ruby_60635",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001889/files/58030_60636.html",
+    "inputBy": "sogo",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "少年倶楽部名作選3　少年詩・童謡ほか",
+      "publisher": "講談社",
+      "firstPublishedAt": "1966（昭和41）年12月17日",
+      "inputEdition": "1966（昭和41）年12月17日",
+      "proofreadEdition": "1966（昭和41）年12月17日"
+    },
+    "author": "山中峯太郎",
+    "authors": [
+      {
+        "personId": "001889",
+        "name": "山中峯太郎",
+        "kana": "やまなかみねたろう",
+        "roman": "Minetaro Yamanaka",
+        "role": "著者",
+        "birthDate": "1885-12-15",
+        "deathDate": "1966-04-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

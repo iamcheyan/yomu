@@ -156,5 +156,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055180",
+    "title": "野宿",
+    "titleKana": "のじゅく",
+    "sortKana": "のしゆく",
+    "firstAppearance": "「群像」講談社、1950（昭和25）年9月号",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-02-11",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001693/card55180.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001693/files/55180_ruby_52720.zip",
+    "textFileId": "55180_ruby_52720",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001693/files/55180_52763.html",
+    "inputBy": "kompass",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "山之口貘詩文集",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1999（平成11）年5月10日",
+      "inputEdition": "1999（平成11）年5月10日第1刷",
+      "proofreadEdition": "2011（平成23）年12月1日第14刷"
+    },
+    "author": "山之口貘",
+    "authors": [
+      {
+        "personId": "001693",
+        "name": "山之口貘",
+        "kana": "やまのくちばく",
+        "roman": "Baku Yamanokuchi",
+        "role": "著者",
+        "birthDate": "1903-09-11",
+        "deathDate": "1963-07-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -56,5 +56,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057433",
+    "title": "大阪の朝",
+    "titleKana": "おおさかのあさ",
+    "sortKana": "おおさかのあさ",
+    "firstAppearance": "「サンデー毎日」1952（昭和27）年8月",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-06-02",
+    "updatedAt": "2016-03-04",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001863/card57433.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001863/files/57433_ruby_58855.zip",
+    "textFileId": "57433_ruby_58855",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001863/files/57433_58897.html",
+    "inputBy": "大久保ゆう",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "ふるさと文学館　第三三巻　【大阪Ⅱ】",
+      "publisher": "ぎょうせい",
+      "firstPublishedAt": "1995（平成7）年8月15日",
+      "inputEdition": "1995（平成7）年8月15日初版",
+      "proofreadEdition": "1995（平成7）年8月15日初版"
+    },
+    "author": "安西冬衛",
+    "authors": [
+      {
+        "personId": "001863",
+        "name": "安西冬衛",
+        "kana": "あんざいふゆえ",
+        "roman": "Huyue Anzai",
+        "role": "著者",
+        "birthDate": "1898-03-09",
+        "deathDate": "1965-08-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

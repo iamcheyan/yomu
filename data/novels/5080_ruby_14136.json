@@ -56,5 +56,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "005080",
+    "title": "呉秀三先生",
+    "titleKana": "くれしゅうぞうせんせい",
+    "sortKana": "くれしゆうそうせんせい",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-01-18",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001059/card5080.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001059/files/5080_ruby_14136.zip",
+    "textFileId": "5080_ruby_14136",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001059/files/5080_14191.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "氷魚、多羅尾伴内",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻43　名医",
+      "publisher": "作品社",
+      "firstPublishedAt": "1994（平成6）年9月25日",
+      "inputEdition": "1999（平成11）年8月25日第2刷"
+    },
+    "author": "斎藤茂吉",
+    "authors": [
+      {
+        "personId": "001059",
+        "name": "斎藤茂吉",
+        "kana": "さいとうもきち",
+        "roman": "Mokichi Saito",
+        "role": "著者",
+        "birthDate": "1882-5-14",
+        "deathDate": "1953-2-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

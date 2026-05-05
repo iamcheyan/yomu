@@ -52,5 +52,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "044987",
+    "title": "二階の窓までのびたチユーリツプ",
+    "titleKana": "にかいのまどまでのびたチューリップ",
+    "sortKana": "にかいのまとまてのひたちゆうりつふ",
+    "firstAppearance": "「コドモノクニ」東京社、1937（昭和12）年4月",
+    "ndc": "NDC K913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-08-29",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001172/card44987.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001172/files/44987_ruby_43577.zip",
+    "textFileId": "44987_ruby_43577",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001172/files/44987_44466.html",
+    "inputBy": "菅野朋子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本児童文学大系　第二六巻",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1978（昭和53）年11月30日",
+      "inputEdition": "1978（昭和53）年11月30日初刷",
+      "proofreadEdition": "1978（昭和53）年11月30日初刷"
+    },
+    "author": "村山籌子",
+    "authors": [
+      {
+        "personId": "001172",
+        "name": "村山籌子",
+        "kana": "むらやまかずこ",
+        "roman": "Kazuko Murayama",
+        "role": "著者",
+        "birthDate": "1903-11-07",
+        "deathDate": "1946-08-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

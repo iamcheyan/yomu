@@ -152,5 +152,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047808",
+    "title": "玉手御前の恋",
+    "titleKana": "たまてごぜんのこい",
+    "sortKana": "たまてこせんのこい",
+    "firstAppearance": "「慶応義塾歌舞妓研究会講演」1947（昭和22）年6月12日<br>「演劇評論　第二巻第四号」1954（昭和29）年4月",
+    "ndc": "NDC 912",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-09-03",
+    "updatedAt": "2021-08-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card47808.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/47808_ruby_74006.zip",
+    "textFileId": "47808_ruby_74006",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/47808_74044.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "酒井和郎",
+    "baseBook1": {
+      "title": "折口信夫全集　22",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1996（平成8）年12月10日",
+      "inputEdition": "1996（平成8）年12月10日初版",
+      "proofreadEdition": "1996（平成8）年12月10日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

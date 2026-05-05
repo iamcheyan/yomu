@@ -180,5 +180,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043272",
+    "title": "節操",
+    "titleKana": "みさを",
+    "sortKana": "みさを",
+    "firstAppearance": "「太陽」1907（明治40）年9月",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-08-16",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000038/card43272.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000038/files/43272_ruby_16092.zip",
+    "textFileId": "43272_ruby_16092",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000038/files/43272_16114.html",
+    "inputBy": "iritamago",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "明治の文学　第22巻　国木田独歩",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2001（平成13）年1月15日",
+      "inputEdition": "2001（平成13）年1月15日初版第1刷",
+      "proofreadEdition": "2001（平成13）年1月15日初版第1刷"
+    },
+    "author": "国木田独歩",
+    "authors": [
+      {
+        "personId": "000038",
+        "name": "国木田独歩",
+        "kana": "くにきだどっぽ",
+        "roman": "Doppo Kunikida",
+        "role": "著者",
+        "birthDate": "1871-08-30",
+        "deathDate": "1908-06-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

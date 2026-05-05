@@ -96,5 +96,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051028",
+    "title": "一本の釣りざお",
+    "titleKana": "いっぽんのつりざお",
+    "sortKana": "いつほんのつりさお",
+    "firstAppearance": "「読売新聞」1921（大正10）年4月30日、5月2日～4日",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-05-16",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001475/card51028.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001475/files/51028_ruby_49970.zip",
+    "textFileId": "51028_ruby_49970",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001475/files/51028_50580.html",
+    "inputBy": "ぷろぼの青空工作員チーム入力班",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "定本小川未明童話全集　2",
+      "publisher": "講談社",
+      "firstPublishedAt": "1976（昭和51）年12月10日",
+      "inputEdition": "1982（昭和57）年9月10日第7刷",
+      "proofreadEdition": "1979（昭和54）年7月1日第5刷"
+    },
+    "author": "小川未明",
+    "authors": [
+      {
+        "personId": "001475",
+        "name": "小川未明",
+        "kana": "おがわみめい",
+        "roman": "Mimei Ogawa",
+        "role": "著者",
+        "birthDate": "1882-04-07",
+        "deathDate": "1961-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

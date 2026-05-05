@@ -38,5 +38,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054179",
+    "title": "『老ハイデルベルヒ』序",
+    "titleKana": "『アルトハイデルベルヒ』じょ",
+    "sortKana": "あるとはいてるへるひしよ",
+    "firstAppearance": "「老ハイデルベルヒ」竹村書房、1942（昭和17）年5月20日",
+    "ndc": "NDC 913 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-02-11",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card54179.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/54179_ruby_45788.zip",
+    "textFileId": "54179_ruby_45788",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/54179_46724.html",
+    "inputBy": "小林繁雄",
+    "proofreadBy": "阿部哲也",
+    "baseBook1": {
+      "title": "太宰治全集11",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年3月25日",
+      "inputEdition": "1999（平成11）年3月25日初版第1刷",
+      "proofreadEdition": "2001（平成13）年11月10日初版第2刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

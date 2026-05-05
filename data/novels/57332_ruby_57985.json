@@ -186,5 +186,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057332",
+    "title": "かろきねたみ",
+    "titleKana": "かろきねたみ",
+    "sortKana": "かろきねたみ",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-02-18",
+    "updatedAt": "2015-12-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000076/card57332.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000076/files/57332_ruby_57985.zip",
+    "textFileId": "57332_ruby_57985",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000076/files/57332_58012.html",
+    "inputBy": "光森裕樹",
+    "proofreadBy": "大森静佳",
+    "baseBook1": {
+      "title": "岡本かの子全集9",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1994（平成6）年3月24日",
+      "inputEdition": "1994（平成6）年3月24日第1刷",
+      "proofreadEdition": "1994（平成6）年3月24日第1刷"
+    },
+    "author": "岡本かの子",
+    "authors": [
+      {
+        "personId": "000076",
+        "name": "岡本かの子",
+        "kana": "おかもとかのこ",
+        "roman": "Kanoko Okamoto",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1939-02-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

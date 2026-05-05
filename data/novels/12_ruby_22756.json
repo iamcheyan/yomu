@@ -80,5 +80,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000012",
+    "title": "悪魔の舌",
+    "titleKana": "あくまのした",
+    "sortKana": "あくまのした",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-01-23",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000014/card12.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000014/files/12_ruby_22756.zip",
+    "textFileId": "12_ruby_22756",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000014/files/12_22757.html",
+    "inputBy": "小林徹",
+    "proofreadBy": "山本奈津恵",
+    "baseBook1": {
+      "title": "村山槐多全集",
+      "publisher": "彌生書房",
+      "inputEdition": "1997（平成9）年3月10日増補2版"
+    },
+    "author": "村山槐多",
+    "authors": [
+      {
+        "personId": "000014",
+        "name": "村山槐多",
+        "kana": "むらやまかいた",
+        "roman": "Kaita Murayama",
+        "role": "著者",
+        "birthDate": "1896-09-15",
+        "deathDate": "1919-02-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

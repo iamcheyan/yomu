@@ -42,5 +42,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004895",
+    "title": "茸の香",
+    "titleKana": "きのこのかおり",
+    "sortKana": "きのこのかおり",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-08-25",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000150/card4895.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000150/files/4895_ruby_54008.zip",
+    "textFileId": "4895_ruby_54008",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000150/files/4895_54050.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆48　香",
+      "publisher": "作品社",
+      "firstPublishedAt": "1986（昭和61）年10月25日",
+      "inputEdition": "1995（平成7）年8月20日第14刷",
+      "proofreadEdition": "2000（平成12）年2月20日第15刷"
+    },
+    "author": "薄田泣菫",
+    "authors": [
+      {
+        "personId": "000150",
+        "name": "薄田泣菫",
+        "kana": "すすきだきゅうきん",
+        "roman": "Kyukin Susukida",
+        "role": "著者",
+        "birthDate": "1877-05-19",
+        "deathDate": "1945-10-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

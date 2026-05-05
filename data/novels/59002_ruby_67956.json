@@ -60,5 +60,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059002",
+    "title": "小品四つ",
+    "titleKana": "しょうひんよっつ",
+    "sortKana": "しようひんよつつ",
+    "firstAppearance": "「母の死」岩波書店、1935年（昭和10）年4月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-05-03",
+    "updatedAt": "2019-04-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001799/card59002.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001799/files/59002_ruby_67956.zip",
+    "textFileId": "59002_ruby_67956",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001799/files/59002_67999.html",
+    "inputBy": "呑天",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "中勘助随筆集",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1985（昭和60）年6月17日",
+      "inputEdition": "1985（昭和60）年6月17日第1刷",
+      "proofreadEdition": "1985（昭和60）年6月17日第1刷"
+    },
+    "author": "中勘助",
+    "authors": [
+      {
+        "personId": "001799",
+        "name": "中勘助",
+        "kana": "なかかんすけ",
+        "roman": "Kansuke Naka",
+        "role": "著者",
+        "birthDate": "1885-05-22",
+        "deathDate": "1965-05-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

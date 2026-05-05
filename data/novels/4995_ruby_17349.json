@@ -214,5 +214,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004995",
+    "title": "東山時代における一縉紳の生活",
+    "titleKana": "ひがしやまじだいにおけるいちしんしんのせいかつ",
+    "sortKana": "ひかしやましたいにおけるいちしんしんのせいかつ",
+    "firstAppearance": "「藝文」京都大学文学部、1917（大正6）年8月号～12月号",
+    "ndc": "NDC 210",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-01-17",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001037/card4995.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001037/files/4995_ruby_17349.zip",
+    "textFileId": "4995_ruby_17349",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001037/files/4995_17362.html",
+    "inputBy": "はまなかひとし",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "現代日本思想大系27　歴史の思想",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1965（昭和40）年1月15日",
+      "inputEdition": "1965（昭和40）年1月15日",
+      "proofreadEdition": "1966（昭和41）年5月25日3版"
+    },
+    "author": "原勝郎",
+    "authors": [
+      {
+        "personId": "001037",
+        "name": "原勝郎",
+        "kana": "はらかつろう",
+        "roman": "Katsuro Hara",
+        "role": "著者",
+        "birthDate": "1871-04-15",
+        "deathDate": "1924-01-12",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

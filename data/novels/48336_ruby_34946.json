@@ -46,5 +46,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048336",
+    "title": "烈婦",
+    "titleKana": "れっぷ",
+    "sortKana": "れつふ",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-06-18",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001073/card48336.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001073/files/48336_ruby_34946.zip",
+    "textFileId": "48336_ruby_34946",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001073/files/48336_35091.html",
+    "inputBy": "浦山敦子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻53　川柳",
+      "publisher": "作品社",
+      "firstPublishedAt": "1995（平成7）年7月25日",
+      "inputEdition": "1995（平成7）年7月25日第1刷",
+      "proofreadEdition": "1995（平成7）年7月25日第1刷"
+    },
+    "author": "高田保",
+    "authors": [
+      {
+        "personId": "001073",
+        "name": "高田保",
+        "kana": "たかだたもつ",
+        "roman": "Tamotsu Takada",
+        "role": "著者",
+        "birthDate": "1895-03-28",
+        "deathDate": "1952-02-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

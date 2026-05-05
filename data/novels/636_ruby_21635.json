@@ -172,5 +172,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000636",
+    "title": "正坊とクロ",
+    "titleKana": "しょうぼうとクロ",
+    "sortKana": "しようほうとくろ",
+    "firstAppearance": "「赤い鳥　復刊第二巻第二号」1931（昭和6）年8月号",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-07-04",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000121/card636.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000121/files/636_ruby_21635.zip",
+    "textFileId": "636_ruby_21635",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000121/files/636_21636.html",
+    "inputBy": "もりみつじゅんじ",
+    "proofreadBy": "渥美浩子",
+    "baseBook1": {
+      "title": "牛をつないだ椿の木",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1968（昭和43）年2月20日",
+      "inputEdition": "1974（昭和49）年1月30日第12版",
+      "proofreadEdition": "1981（昭和56）年7月30日第22版"
+    },
+    "author": "新美南吉",
+    "authors": [
+      {
+        "personId": "000121",
+        "name": "新美南吉",
+        "kana": "にいみなんきち",
+        "roman": "Nankichi Niimi",
+        "role": "著者",
+        "birthDate": "1913-07-30",
+        "deathDate": "1943-03-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

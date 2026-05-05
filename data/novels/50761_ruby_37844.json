@@ -38,5 +38,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050761",
+    "title": "忘れ難きことども",
+    "titleKana": "わすれがたきことども",
+    "sortKana": "わすれかたきこととも",
+    "firstAppearance": "「演芸画報」1918（大正7）年12月",
+    "ndc": "NDC 775",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-04-30",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001472/card50761.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001472/files/50761_ruby_37844.zip",
+    "textFileId": "50761_ruby_37844",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001472/files/50761_38446.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "「弔辞」集成　鎮魂の賦",
+      "publisher": "青銅社",
+      "firstPublishedAt": "1986（昭和61）年10月15日",
+      "inputEdition": "1987（昭和62）年2月10日新装改訂版第7刷",
+      "proofreadEdition": "1986（昭和61）年10月15日新装改訂版第1刷"
+    },
+    "author": "松井須磨子",
+    "authors": [
+      {
+        "personId": "001472",
+        "name": "松井須磨子",
+        "kana": "まついすまこ",
+        "roman": "Sumako Matsui",
+        "role": "著者",
+        "birthDate": "1886-03-08",
+        "deathDate": "1919-01-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

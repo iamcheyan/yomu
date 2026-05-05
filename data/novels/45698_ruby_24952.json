@@ -404,5 +404,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045698",
+    "title": "活人形",
+    "titleKana": "いきにんぎょう",
+    "sortKana": "いきにんきよう",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-02-03",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000906/card45698.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000906/files/45698_ruby_24952.zip",
+    "textFileId": "45698_ruby_24952",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000906/files/45698_25543.html",
+    "inputBy": "田中敬三",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "天狗笑い",
+      "publisher": "晶文社",
+      "firstPublishedAt": "1978（昭和53）年4月15日",
+      "inputEdition": "1978（昭和53）年4月15日",
+      "proofreadEdition": "1978（昭和53）年4月15日"
+    },
+    "author": "豊島与志雄",
+    "authors": [
+      {
+        "personId": "000906",
+        "name": "豊島与志雄",
+        "kana": "とよしまよしお",
+        "roman": "Yoshio Toyoshima",
+        "role": "著者",
+        "birthDate": "1890-11-27",
+        "deathDate": "1955-06-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

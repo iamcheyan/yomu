@@ -312,5 +312,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060174",
+    "title": "薔薇夫人",
+    "titleKana": "ばらふじん",
+    "sortKana": "はらふしん",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-07-28",
+    "updatedAt": "2022-06-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001779/card60174.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001779/files/60174_ruby_75881.zip",
+    "textFileId": "60174_ruby_75881",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001779/files/60174_75916.html",
+    "inputBy": "宇間比利央",
+    "proofreadBy": "持田和踏",
+    "baseBook1": {
+      "title": "江戸川乱歩と13の宝石",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2007（平成19）年5月20日",
+      "inputEdition": "2007（平成19）年5月20日初版1刷",
+      "proofreadEdition": "2007（平成19）年5月20日初版1刷"
+    },
+    "author": "江戸川乱歩",
+    "authors": [
+      {
+        "personId": "001779",
+        "name": "江戸川乱歩",
+        "kana": "えどがわらんぽ",
+        "roman": "Ranpo Edogawa",
+        "role": "著者",
+        "birthDate": "1894-10-21",
+        "deathDate": "1965-07-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

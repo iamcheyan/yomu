@@ -42,5 +42,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043155",
+    "title": "碁にも名人戦つくれ",
+    "titleKana": "ごにもめいじんせんつくれ",
+    "sortKana": "こにもめいしんせんつくれ",
+    "firstAppearance": "「毎日新聞　大阪版　第二三七九〇号」1949（昭和24）年5月29日",
+    "ndc": "NDC 795",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-04-29",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card43155.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/43155_ruby_29674.zip",
+    "textFileId": "43155_ruby_29674",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/43155_30637.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "砂場清隆",
+    "baseBook1": {
+      "title": "坂口安吾全集　07",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1998（平成10）年8月20日",
+      "inputEdition": "1998（平成10）年8月20日初版第1刷",
+      "proofreadEdition": "1998（平成10）年8月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -84,5 +84,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046165",
+    "title": "名古屋スケッチ",
+    "titleKana": "なごやすけっち",
+    "sortKana": "なこやすけつち",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-12-18",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000262/card46165.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000262/files/46165_ruby_24568.zip",
+    "textFileId": "46165_ruby_24568",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000262/files/46165_24892.html",
+    "inputBy": "浦山敦子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "心にふるさとがある18　わが町わが村（西日本）",
+      "publisher": "作品社",
+      "firstPublishedAt": "1998（平成10）年4月25日",
+      "inputEdition": "1998（平成10）年4月25日第1刷",
+      "proofreadEdition": "1998（平成10）年4月25日第1刷"
+    },
+    "author": "小酒井不木",
+    "authors": [
+      {
+        "personId": "000262",
+        "name": "小酒井不木",
+        "kana": "こざかいふぼく",
+        "roman": "Fuboku Kosakai",
+        "role": "著者",
+        "birthDate": "1890-10-08",
+        "deathDate": "1929-04-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

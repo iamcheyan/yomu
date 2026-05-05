@@ -74,5 +74,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053164",
+    "title": "森の妖姫",
+    "titleKana": "もりのようき",
+    "sortKana": "もりのようき",
+    "firstAppearance": "「趣味」1906（明治39）年7月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-04-07",
+    "updatedAt": "2019-03-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001475/card53164.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001475/files/53164_ruby_67666.zip",
+    "textFileId": "53164_ruby_67666",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001475/files/53164_67718.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "坂本真一",
+    "baseBook1": {
+      "title": "文豪怪談傑作選　小川未明集　幽霊船",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2008（平成20）年8月10日",
+      "inputEdition": "2010（平成22）年5月25日第2刷",
+      "proofreadEdition": "2010（平成22）年5月25日第2刷"
+    },
+    "author": "小川未明",
+    "authors": [
+      {
+        "personId": "001475",
+        "name": "小川未明",
+        "kana": "おがわみめい",
+        "roman": "Mimei Ogawa",
+        "role": "著者",
+        "birthDate": "1882-04-07",
+        "deathDate": "1961-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

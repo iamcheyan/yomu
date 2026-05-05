@@ -912,5 +912,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045060",
+    "title": "エミリアンの旅",
+    "titleKana": "エミリアンのたび",
+    "sortKana": "えみりあんのたひ",
+    "firstAppearance": "「少年倶楽部」講談社、1932（昭和7）年7月～12月",
+    "ndc": "NDC K913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-04-29",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000906/card45060.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000906/files/45060_ruby_49630.zip",
+    "textFileId": "45060_ruby_49630",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000906/files/45060_50147.html",
+    "inputBy": "菅野朋子",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本児童文学大系　第十六巻",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1977（昭和52）年11月20日",
+      "inputEdition": "1977（昭和52）年11月20日初刷",
+      "proofreadEdition": "1977（昭和52）年11月20日初刷"
+    },
+    "author": "豊島与志雄",
+    "authors": [
+      {
+        "personId": "000906",
+        "name": "豊島与志雄",
+        "kana": "とよしまよしお",
+        "roman": "Yoshio Toyoshima",
+        "role": "著者",
+        "birthDate": "1890-11-27",
+        "deathDate": "1955-06-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

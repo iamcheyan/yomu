@@ -44,5 +44,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060993",
+    "title": "ピアノ",
+    "titleKana": "ピアノ",
+    "sortKana": "ひあの",
+    "firstAppearance": "「文章世界　第五卷第五號」博文館、1910（明治43）年4月15日",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-08-02",
+    "updatedAt": "2022-07-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000799/card60993.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000799/files/60993_ruby_76016.zip",
+    "textFileId": "60993_ruby_76016",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000799/files/60993_76052.html",
+    "inputBy": "hitsuji",
+    "proofreadBy": "きりんの手紙",
+    "baseBook1": {
+      "title": "日本の詩歌　26　近代詩集",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1970（昭和45）年4月15日",
+      "inputEdition": "1979（昭和54）年11月20日新訂版",
+      "proofreadEdition": "1979（昭和54）年11月20日新訂版"
+    },
+    "author": "三富朽葉",
+    "authors": [
+      {
+        "personId": "000799",
+        "name": "三富朽葉",
+        "kana": "みとみくちは",
+        "roman": "Kuchiha Mitomi",
+        "role": "著者",
+        "birthDate": "1889-08-14",
+        "deathDate": "1917-08-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

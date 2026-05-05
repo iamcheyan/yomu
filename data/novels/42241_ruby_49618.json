@@ -6192,5 +6192,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042241",
+    "title": "泣菫詩抄",
+    "titleKana": "きゅうきんししょう",
+    "sortKana": "きゆうきんししよう",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-08-03",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000150/card42241.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000150/files/42241_ruby_49618.zip",
+    "textFileId": "42241_ruby_49618",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000150/files/42241_50948.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "Y.S.",
+    "baseBook1": {
+      "title": "泣菫詩抄",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1928（昭和3）年5月5日",
+      "inputEdition": "1999（平成11）年2月9日第25刷",
+      "proofreadEdition": "1999（平成11）年2月9日第25刷"
+    },
+    "author": "薄田泣菫",
+    "authors": [
+      {
+        "personId": "000150",
+        "name": "薄田泣菫",
+        "kana": "すすきだきゅうきん",
+        "roman": "Kyukin Susukida",
+        "role": "著者",
+        "birthDate": "1877-05-19",
+        "deathDate": "1945-10-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

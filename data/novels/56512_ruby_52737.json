@@ -36,5 +36,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056512",
+    "title": "四谷怪談異説",
+    "titleKana": "よつやかいだんいせつ",
+    "sortKana": "よつやかいたんいせつ",
+    "firstAppearance": "「演劇画報」1925（大正14）年5月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-02-20",
+    "updatedAt": "2016-01-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000082/card56512.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000082/files/56512_ruby_52737.zip",
+    "textFileId": "56512_ruby_52737",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000082/files/56512_52780.html",
+    "inputBy": "江村秀之",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "綺堂随筆　江戸の思い出",
+      "publisher": "河出文庫、河出書房新社",
+      "firstPublishedAt": "2002（平成14）年10月20日",
+      "inputEdition": "2002（平成14）年10月20日初版",
+      "proofreadEdition": "2002（平成14）年10月20日初版"
+    },
+    "author": "岡本綺堂",
+    "authors": [
+      {
+        "personId": "000082",
+        "name": "岡本綺堂",
+        "kana": "おかもときどう",
+        "roman": "Kido Okamoto",
+        "role": "著者",
+        "birthDate": "1872-11-15",
+        "deathDate": "1939-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

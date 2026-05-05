@@ -304,5 +304,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058091",
+    "title": "ある死、次の死",
+    "titleKana": "あるし、つぎのし",
+    "sortKana": "あるしつきのし",
+    "firstAppearance": "「新潮　第三十四巻第五号」新潮社、1921（大正10）年5月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-01-01",
+    "updatedAt": "2018-01-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001904/card58091.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001904/files/58091_ruby_60620.zip",
+    "textFileId": "58091_ruby_60620",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001904/files/58091_60621.html",
+    "inputBy": "富田晶子",
+    "proofreadBy": "日野ととり",
+    "baseBook1": {
+      "title": "編年体　大正文学全集　第十巻　大正十年",
+      "publisher": "ゆまに書房",
+      "firstPublishedAt": "2002年（平成14）年3月25日",
+      "inputEdition": "2002年（平成14）年3月25日第1版第1刷",
+      "proofreadEdition": "2002年（平成14）年3月25日第1版第1刷"
+    },
+    "author": "佐佐木茂索",
+    "authors": [
+      {
+        "personId": "001904",
+        "name": "佐佐木茂索",
+        "kana": "ささきもさく",
+        "roman": "Mosaku Sasaki",
+        "role": "著者",
+        "birthDate": "1894-11-11",
+        "deathDate": "1966-12-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

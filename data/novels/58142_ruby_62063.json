@@ -2474,5 +2474,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058142",
+    "title": "二つの絵",
+    "titleKana": "ふたつのえ",
+    "sortKana": "ふたつのえ",
+    "subtitle": "芥川竜之介の回想",
+    "subtitleKana": "あくたがわりゅうのすけのかいそう",
+    "firstAppearance": "二つの繪「中央公論」1932（昭和7）年12月号、1933（昭和8）年1月号",
+    "ndc": "NDC 910",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-07-24",
+    "updatedAt": "2019-02-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001908/card58142.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001908/files/58142_ruby_62063.zip",
+    "textFileId": "58142_ruby_62063",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001908/files/58142_62062.html",
+    "inputBy": "富田晶子",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "二つの絵　芥川龍之介の囘想",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1956（昭和31）年1月30日",
+      "inputEdition": "1956（昭和31）年1月30日",
+      "proofreadEdition": "1956（昭和31）年1月30日"
+    },
+    "author": "小穴隆一",
+    "authors": [
+      {
+        "personId": "001908",
+        "name": "小穴隆一",
+        "kana": "おあなりゅういち",
+        "roman": "Ryuichi Oana",
+        "role": "著者",
+        "birthDate": "1894-11-28",
+        "deathDate": "1966-04-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

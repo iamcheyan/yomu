@@ -580,5 +580,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056772",
+    "title": "Ｓの背中",
+    "titleKana": "えすのせなか",
+    "sortKana": "えすのせなか",
+    "firstAppearance": "「群像」講談社、1952（昭和27）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-04-27",
+    "updatedAt": "2016-03-04",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001798/card56772.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001798/files/56772_ruby_58723.zip",
+    "textFileId": "56772_ruby_58723",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001798/files/56772_58761.html",
+    "inputBy": "kompass",
+    "proofreadBy": "酒井裕二",
+    "baseBook1": {
+      "title": "ボロ家の春秋",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "2000（平成12）年1月10日",
+      "inputEdition": "2000（平成12）年1月10日第1刷",
+      "proofreadEdition": "2015（平成27）年5月8日第4刷"
+    },
+    "author": "梅崎春生",
+    "authors": [
+      {
+        "personId": "001798",
+        "name": "梅崎春生",
+        "kana": "うめざきはるお",
+        "roman": "Haruo Umezaki",
+        "role": "著者",
+        "birthDate": "1915-02-15",
+        "deathDate": "1965-07-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

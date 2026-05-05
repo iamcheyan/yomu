@@ -692,5 +692,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045757",
+    "title": "あたまでっかち",
+    "titleKana": "あたまでっかち",
+    "sortKana": "あたまてつかち",
+    "firstAppearance": "「赤い鳥」1935（昭和10）年2～4月",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-04-24",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001205/card45757.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001205/files/45757_ruby_47134.zip",
+    "textFileId": "45757_ruby_47134",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001205/files/45757_47146.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "富田倫生",
+    "baseBook1": {
+      "title": "赤い鳥代表作集　3",
+      "publisher": "小峰書店",
+      "firstPublishedAt": "1958（昭和33）年11月25日第1刷",
+      "inputEdition": "1978（昭和53）年4月15日第19刷",
+      "proofreadEdition": "1978（昭和53）年4月15日第19刷"
+    },
+    "author": "下村千秋",
+    "authors": [
+      {
+        "personId": "001205",
+        "name": "下村千秋",
+        "kana": "しもむらちあき",
+        "roman": "Chiaki Shimomura",
+        "role": "著者",
+        "birthDate": "1893-09-04",
+        "deathDate": "1955-01-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

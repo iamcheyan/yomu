@@ -1804,5 +1804,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "018330",
+    "title": "ワンダ・ブック――少年・少女のために――",
+    "titleKana": "ワンダ・ブック――しょうねん・しょうじょのために――",
+    "sortKana": "わんたふつくしようねんしようしよのために",
+    "originalTitle": "A WONDER BOOK FOR BOYS AND GIRLS",
+    "ndc": "NDC K933",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-01-13",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000905/card18330.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000905/files/18330_ruby_14073.zip",
+    "textFileId": "18330_ruby_14073",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000905/files/18330_14267.html",
+    "inputBy": "山本洋一",
+    "proofreadBy": "大久保ゆう",
+    "baseBook1": {
+      "title": "ワンダ・ブック",
+      "publisher": "岩波書店、岩波文庫",
+      "firstPublishedAt": "1937（昭和12）年9月1日発行",
+      "inputEdition": "1950（昭和25）年7月10日第6刷",
+      "proofreadEdition": "1950（昭和25）年12月20日第8刷"
+    },
+    "author": "ホーソーンナサニエル",
+    "authors": [
+      {
+        "personId": "000905",
+        "name": "ホーソーンナサニエル",
+        "kana": "ホーソーンナサニエル",
+        "roman": "Nathaniel Hawthorne",
+        "role": "著者",
+        "birthDate": "1804-07-04",
+        "deathDate": "1864-05-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

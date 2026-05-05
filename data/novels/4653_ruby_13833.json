@@ -118,5 +118,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004653",
+    "title": "伊香保",
+    "titleKana": "いかほ",
+    "sortKana": "いかほ",
+    "firstAppearance": "「中央公論」1933（昭和8）年12月",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-11-28",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000042/card4653.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000042/files/4653_ruby_13833.zip",
+    "textFileId": "4653_ruby_13833",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000042/files/4653_13834.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "現代日本紀行文学全集　東日本編",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1976（昭和51）年8月1日",
+      "inputEdition": "1976（昭和51）年8月1日",
+      "proofreadEdition": "1976（昭和51）年8月1日"
+    },
+    "author": "寺田寅彦",
+    "authors": [
+      {
+        "personId": "000042",
+        "name": "寺田寅彦",
+        "kana": "てらだとらひこ",
+        "roman": "Torahiko Terada",
+        "role": "著者",
+        "birthDate": "1878-11-28",
+        "deathDate": "1935-12-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

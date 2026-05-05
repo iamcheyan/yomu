@@ -134,5 +134,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043777",
+    "title": "入庵雑記",
+    "titleKana": "にゅうあんざっき",
+    "sortKana": "にゆうあんさつき",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-02-04",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000195/card43777.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000195/files/43777_ruby_24961.zip",
+    "textFileId": "43777_ruby_24961",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000195/files/43777_25705.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "高柳典子",
+    "baseBook1": {
+      "title": "尾崎放哉全集　増補改訂版",
+      "publisher": "彌生書房",
+      "firstPublishedAt": "1972（昭和47）年6月10日、1980（昭和55）年6月10日増補改訂版",
+      "inputEdition": "1988（昭和63）年10月20日増補改訂二版"
+    },
+    "author": "尾崎放哉",
+    "authors": [
+      {
+        "personId": "000195",
+        "name": "尾崎放哉",
+        "kana": "おざきほうさい",
+        "roman": "Hosai Ozaki",
+        "role": "著者",
+        "birthDate": "1885-01-20",
+        "deathDate": "1926-04-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

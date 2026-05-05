@@ -40,5 +40,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059334",
+    "title": "本質的な文学者",
+    "titleKana": "ほんしつてきなぶんがくしゃ",
+    "sortKana": "ほんしつてきなふんかくしや",
+    "firstAppearance": "「評論　第十六號」1935（昭和10）年9月号",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-02-17",
+    "updatedAt": "2020-01-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000067/card59334.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000067/files/59334_ruby_70143.zip",
+    "textFileId": "59334_ruby_70143",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000067/files/59334_70192.html",
+    "inputBy": "きりんの手紙",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "萩原朔太郎全集　第九卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1976（昭和51）年5月25日",
+      "inputEdition": "1976（昭和51）年5月25日初版",
+      "proofreadEdition": "1976（昭和51）年5月25日初版"
+    },
+    "author": "萩原朔太郎",
+    "authors": [
+      {
+        "personId": "000067",
+        "name": "萩原朔太郎",
+        "kana": "はぎわらさくたろう",
+        "roman": "Sakutaro Hagiwara",
+        "role": "著者",
+        "birthDate": "1886-11-01",
+        "deathDate": "1942-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

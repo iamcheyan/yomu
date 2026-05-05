@@ -56,5 +56,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060964",
+    "title": "滅亡の喜び",
+    "titleKana": "めつぼうのよろこび",
+    "sortKana": "めつほうのよろこひ",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2023-03-12",
+    "updatedAt": "2023-02-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000227/card60964.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000227/files/60964_ruby_77100.zip",
+    "textFileId": "60964_ruby_77100",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000227/files/60964_77099.html",
+    "inputBy": "hitsuji",
+    "proofreadBy": "The Creative CAT",
+    "baseBook1": {
+      "title": "日本の詩歌　26　近代詩集",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1970（昭和45）年4月15日",
+      "inputEdition": "1979（昭和54）年11月20日新訂版",
+      "proofreadEdition": "1979（昭和54）年11月20日新訂版"
+    },
+    "author": "生田春月",
+    "authors": [
+      {
+        "personId": "000227",
+        "name": "生田春月",
+        "kana": "いくたしゅんげつ",
+        "roman": "Shungetsu Ikuta",
+        "role": "著者",
+        "birthDate": "1892-03-12",
+        "deathDate": "1930-05-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

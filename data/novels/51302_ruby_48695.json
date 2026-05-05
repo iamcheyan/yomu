@@ -946,5 +946,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051302",
+    "title": "荷風戦後日歴　第一",
+    "titleKana": "かふうせんごにちれき　だいいち",
+    "sortKana": "かふうせんこにちれきたいいち",
+    "ndc": "NDC 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-11-19",
+    "updatedAt": "2016-02-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001341/card51302.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001341/files/51302_ruby_48695.zip",
+    "textFileId": "51302_ruby_48695",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001341/files/51302_49053.html",
+    "inputBy": "Ｈ．ＹＡＭ",
+    "proofreadBy": "米田",
+    "baseBook1": {
+      "title": "葛飾こよみ",
+      "publisher": "毎日新聞社",
+      "firstPublishedAt": "1956（昭和31）年8月25日",
+      "inputEdition": "1956（昭和31）年8月25日初版",
+      "proofreadEdition": "1956（昭和31）年8月25日初版"
+    },
+    "author": "永井荷風",
+    "authors": [
+      {
+        "personId": "001341",
+        "name": "永井荷風",
+        "kana": "ながいかふう",
+        "roman": "Kafu Nagai",
+        "role": "著者",
+        "birthDate": "1879-12-03",
+        "deathDate": "1959-04-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -388,5 +388,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058851",
+    "title": "芥川竜之介を憶ふ",
+    "titleKana": "あくたがわりゅうのすけをおもう",
+    "sortKana": "あくたかわりゆうのすけをおもう",
+    "firstAppearance": "「改造　第十卷第七號」1928（昭和3）年7月1日",
+    "ndc": "NDC 910",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-07-24",
+    "updatedAt": "2018-06-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001763/card58851.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001763/files/58851_ruby_65177.zip",
+    "textFileId": "58851_ruby_65177",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001763/files/58851_65220.html",
+    "inputBy": "夏生ぐみ",
+    "proofreadBy": "津村田悟",
+    "baseBook1": {
+      "title": "定本　佐藤春夫全集　第20巻",
+      "publisher": "臨川書店",
+      "firstPublishedAt": "1999（平成11）年1月10日",
+      "inputEdition": "1999（平成11）年1月10日初版",
+      "proofreadEdition": "1999（平成11）年1月10日初版"
+    },
+    "author": "佐藤春夫",
+    "authors": [
+      {
+        "personId": "001763",
+        "name": "佐藤春夫",
+        "kana": "さとうはるお",
+        "roman": "Haruo Sato",
+        "role": "著者",
+        "birthDate": "1892-04-09",
+        "deathDate": "1964-05-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

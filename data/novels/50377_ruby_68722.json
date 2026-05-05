@@ -224,5 +224,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050377",
+    "title": "灯火",
+    "titleKana": "あかり",
+    "sortKana": "あかり",
+    "firstAppearance": "「太陽」1912（明治45）年6月",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-08-22",
+    "updatedAt": "2019-07-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000158/card50377.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000158/files/50377_ruby_68722.zip",
+    "textFileId": "50377_ruby_68722",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000158/files/50377_68771.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "岩尾葵",
+    "baseBook1": {
+      "title": "筑摩全集類聚　島崎藤村全集第五巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1981（昭和56）年5月20日",
+      "inputEdition": "1981（昭和56）年5月20日初版第1刷",
+      "proofreadEdition": "1981（昭和56）年5月20日初版第1刷"
+    },
+    "author": "島崎藤村",
+    "authors": [
+      {
+        "personId": "000158",
+        "name": "島崎藤村",
+        "kana": "しまざきとうそん",
+        "roman": "Toson Shimazaki",
+        "role": "著者",
+        "birthDate": "1872-03-25",
+        "deathDate": "1943-08-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

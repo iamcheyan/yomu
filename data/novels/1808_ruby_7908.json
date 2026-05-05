@@ -1102,5 +1102,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001808",
+    "title": "元禄十三年",
+    "titleKana": "げんろくじゅうさんねん",
+    "sortKana": "けんろくしゆうさんねん",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-12-22",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000290/card1808.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000290/files/1808_ruby_7908.zip",
+    "textFileId": "1808_ruby_7908",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000290/files/1808_7909.html",
+    "inputBy": "奥村正明",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "一人三人全集Ⅱ時代小説丹下左膳",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "1970（昭和45）年4月15日",
+      "inputEdition": "1970（昭和45）年4月15日初版",
+      "proofreadEdition": "1970（昭和45）年4月15日初版"
+    },
+    "author": "林不忘",
+    "authors": [
+      {
+        "personId": "000290",
+        "name": "林不忘",
+        "kana": "はやしふぼう",
+        "roman": "Fubo Hayashi",
+        "role": "著者",
+        "birthDate": "1900-01-17",
+        "deathDate": "1935-06-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

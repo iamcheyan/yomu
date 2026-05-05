@@ -102,5 +102,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002677",
+    "title": "私の経過した学生時代",
+    "titleKana": "わたしのけいかしたがくせいじだい",
+    "sortKana": "わたしのけいかしたかくせいしたい",
+    "firstAppearance": "「中学世界」1909（明治42）年1月1日",
+    "ndc": "NDC 916",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-05-27",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000148/card2677.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000148/files/2677_ruby_6351.zip",
+    "textFileId": "2677_ruby_6351",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000148/files/2677_6506.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "米田進",
+    "baseBook1": {
+      "title": "筑摩全集類聚版　夏目漱石全集　10",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1972（昭和47）年1月10日",
+      "inputEdition": "1972（昭和47）年1月10日第1刷"
+    },
+    "author": "夏目漱石",
+    "authors": [
+      {
+        "personId": "000148",
+        "name": "夏目漱石",
+        "kana": "なつめそうせき",
+        "roman": "Soseki Natsume",
+        "role": "著者",
+        "birthDate": "1867-02-09",
+        "deathDate": "1916-12-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -160,5 +160,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056514",
+    "title": "青バスの女",
+    "titleKana": "あおバスのおんな",
+    "sortKana": "あおはすのおんな",
+    "firstAppearance": "「新青年」1929（昭和4）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-07-16",
+    "updatedAt": "2018-06-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001782/card56514.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001782/files/56514_ruby_65168.zip",
+    "textFileId": "56514_ruby_65168",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001782/files/56514_65211.html",
+    "inputBy": "sogo",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "探偵小説の風景　トラフィック・コレクション（上）",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2009（平成21）年5月20日",
+      "inputEdition": "2009（平成21）年5月20日初版1刷",
+      "proofreadEdition": "2009（平成21）年5月20日初版1刷"
+    },
+    "author": "辰野九紫",
+    "authors": [
+      {
+        "personId": "001782",
+        "name": "辰野九紫",
+        "kana": "たつのきゅうし",
+        "roman": "Kyushi Tatsuno",
+        "role": "著者",
+        "birthDate": "1892-07-16",
+        "deathDate": "1962-08-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

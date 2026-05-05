@@ -170,5 +170,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052937",
+    "title": "蓮の花開く音を聴く事",
+    "titleKana": "はすのはなひらくおとをきくこと",
+    "sortKana": "はすのはなひらくおとをきくこと",
+    "firstAppearance": "「ドルメン　第四卷第一號」1935（昭和10）年1月",
+    "ndc": "NDC 380",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-12-29",
+    "updatedAt": "2017-11-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000093/card52937.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000093/files/52937_ruby_63228.zip",
+    "textFileId": "52937_ruby_63228",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000093/files/52937_63370.html",
+    "inputBy": "小林繁雄",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "南方熊楠全集第六卷　〔文集Ⅱ〕",
+      "publisher": "乾元社",
+      "firstPublishedAt": "1952（昭和27）年4月30日",
+      "inputEdition": "1952（昭和27）年4月30日",
+      "proofreadEdition": "1952（昭和27）年4月30日"
+    },
+    "author": "南方熊楠",
+    "authors": [
+      {
+        "personId": "000093",
+        "name": "南方熊楠",
+        "kana": "みなかたくまぐす",
+        "roman": "Kumagusu Minakata",
+        "role": "著者",
+        "birthDate": "1867-05-18",
+        "deathDate": "1941-12-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

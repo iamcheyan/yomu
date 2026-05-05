@@ -90,5 +90,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054138",
+    "title": "呪咀",
+    "titleKana": "じゅそ",
+    "sortKana": "しゆそ",
+    "firstAppearance": "「詩精神」1935（昭和10）年4月号",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-01-01",
+    "updatedAt": "2015-08-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001648/card54138.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001648/files/54138_ruby_49662.zip",
+    "textFileId": "54138_ruby_49662",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001648/files/54138_49663.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "富田倫生",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・39　プロレタリア詩集（二）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年6月30日",
+      "inputEdition": "1987（昭和62）年6月30日初版",
+      "proofreadEdition": "1987（昭和62）年6月30日初版"
+    },
+    "author": "土谷麓",
+    "authors": [
+      {
+        "personId": "001648",
+        "name": "土谷麓",
+        "kana": "つちやふもと",
+        "roman": "Fumoto Tsuchiya",
+        "role": "著者",
+        "birthDate": "1914-03-30",
+        "deathDate": "1962-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

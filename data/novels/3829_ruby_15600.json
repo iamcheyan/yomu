@@ -374,5 +374,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003829",
+    "title": "地図にない街",
+    "titleKana": "ちずにないまち",
+    "sortKana": "ちすにないまち",
+    "firstAppearance": "「新青年」1930（昭和5）年4月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-06-07",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000900/card3829.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000900/files/3829_ruby_15600.zip",
+    "textFileId": "3829_ruby_15600",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000900/files/3829_15671.html",
+    "inputBy": "藤真新一",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "怪奇探偵小説集1",
+      "publisher": "ハルキ文庫、角川春樹事務所",
+      "firstPublishedAt": "1998（平成10）年5月18日",
+      "inputEdition": "1998（平成10）年5月18日第1刷"
+    },
+    "author": "橋本五郎",
+    "authors": [
+      {
+        "personId": "000900",
+        "name": "橋本五郎",
+        "kana": "はしもとごろう",
+        "roman": "Goro Hashimoto",
+        "role": "著者",
+        "birthDate": "1903-05-01",
+        "deathDate": "1948-05-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -78,5 +78,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054083",
+    "title": "育て力づよく",
+    "titleKana": "そだてちからづよく",
+    "sortKana": "そたてちからつよく",
+    "firstAppearance": "「田園の花　第2号」1932（昭和7）年4月",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-12-10",
+    "updatedAt": "2017-11-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001634/card54083.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001634/files/54083_ruby_63198.zip",
+    "textFileId": "54083_ruby_63198",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001634/files/54083_63340.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・39　プロレタリア詩集（二）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年6月30日",
+      "inputEdition": "1987（昭和62）年6月30日初版",
+      "proofreadEdition": "1989（平成元）年5月15日第3刷"
+    },
+    "author": "田村乙彦",
+    "authors": [
+      {
+        "personId": "001634",
+        "name": "田村乙彦",
+        "kana": "たむらおとひこ",
+        "roman": "Otohiko Tamura",
+        "role": "著者",
+        "birthDate": "1911-12-10",
+        "deathDate": "1945-04-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

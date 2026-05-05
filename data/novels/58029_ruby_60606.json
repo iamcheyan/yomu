@@ -416,5 +416,36 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058029",
+    "title": "犬酸漿",
+    "titleKana": "いぬほおずき",
+    "sortKana": "いぬほおすき",
+    "originalTitle": "THE NIGHTSHADE",
+    "ndc": "NDC 933",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2017-02-22",
+    "updatedAt": "2019-11-22",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001882/card58029.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001882/files/58029_ruby_60606.zip",
+    "textFileId": "58029_ruby_60606",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001882/files/58029_60607.html",
+    "inputBy": "The Creative CAT",
+    "author": "キングスフォードアンナ",
+    "authors": [
+      {
+        "personId": "001882",
+        "name": "キングスフォードアンナ",
+        "kana": "キングスフォードアンナ",
+        "roman": "Anna Kingsford",
+        "role": "著者",
+        "birthDate": "1846-09-16",
+        "deathDate": "1888-02-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

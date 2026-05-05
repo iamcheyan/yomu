@@ -82,5 +82,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052839",
+    "title": "城ヶ島の春",
+    "titleKana": "じょうがしまのはる",
+    "sortKana": "しようかしまのはる",
+    "firstAppearance": "「東京朝日新聞　第一七五七四号、第一七五七五号、第一七五七七号」東京朝日新聞社、1935（昭和10）年3月23日、24日、26日",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-10-10",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000183/card52839.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000183/files/52839_ruby_44539.zip",
+    "textFileId": "52839_ruby_44539",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000183/files/52839_44701.html",
+    "inputBy": "宮元淳一",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "牧野信一全集第五巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2002（平成14）年7月20日",
+      "inputEdition": "2002（平成14）年7月20日初版第1刷"
+    },
+    "author": "牧野信一",
+    "authors": [
+      {
+        "personId": "000183",
+        "name": "牧野信一",
+        "kana": "まきのしんいち",
+        "roman": "Shin'ichi Makino",
+        "role": "著者",
+        "birthDate": "1896-11-12",
+        "deathDate": "1936-03-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

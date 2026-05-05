@@ -170,5 +170,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002176",
+    "title": "孟買挿話",
+    "titleKana": "ボンベイそうわ",
+    "sortKana": "ほんへいそうわ",
+    "firstAppearance": "「文芸都市」昭和4年6月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-02-19",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000043/card2176.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000043/files/2176_ruby_23279.zip",
+    "textFileId": "2176_ruby_23279",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000043/files/2176_23280.html",
+    "inputBy": "田辺浩昭",
+    "proofreadBy": "地田尚",
+    "baseBook1": {
+      "title": "吉行エイスケ作品集",
+      "publisher": "文園社",
+      "firstPublishedAt": "1997（平成9）年7月10日",
+      "inputEdition": "1997（平成9）年7月10日初版",
+      "proofreadEdition": "1997（平成9）年7月10日初版"
+    },
+    "author": "吉行エイスケ",
+    "authors": [
+      {
+        "personId": "000043",
+        "name": "吉行エイスケ",
+        "kana": "よしゆきえいすけ",
+        "roman": "Eisuke Yoshiyuki",
+        "role": "著者",
+        "birthDate": "1906-05-10",
+        "deathDate": "1940-07-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

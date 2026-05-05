@@ -8048,5 +8048,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056928",
+    "title": "凡人伝",
+    "titleKana": "ぼんじんでん",
+    "sortKana": "ほんしんてん",
+    "firstAppearance": "「雄辯」大日本雄辯會講談社、1929（昭和4）年4月号～1930（昭和5）年4月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-09-22",
+    "updatedAt": "2019-08-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001750/card56928.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001750/files/56928_ruby_69050.zip",
+    "textFileId": "56928_ruby_69050",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001750/files/56928_69141.html",
+    "inputBy": "kompass",
+    "proofreadBy": "芝裕久",
+    "baseBook1": {
+      "title": "凡人伝",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "2014（平成26）年8月8日",
+      "inputEdition": "2014（平成26）年8月8日第1刷",
+      "proofreadEdition": "2014（平成26）年8月8日第1刷"
+    },
+    "author": "佐々木邦",
+    "authors": [
+      {
+        "personId": "001750",
+        "name": "佐々木邦",
+        "kana": "ささきくに",
+        "roman": "Kuni Sasaki",
+        "role": "著者",
+        "birthDate": "1883-05-04",
+        "deathDate": "1964-09-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

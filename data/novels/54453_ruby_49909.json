@@ -74,5 +74,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054453",
+    "title": "螽蟖の記",
+    "titleKana": "きりぎりすのき",
+    "sortKana": "きりきりすのき",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-02-09",
+    "updatedAt": "2025-06-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001579/card54453.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001579/files/54453_ruby_49909.zip",
+    "textFileId": "54453_ruby_49909",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001579/files/54453_49910.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "日本の名随筆19　秋",
+      "publisher": "作品社",
+      "firstPublishedAt": "1984（昭和59）年5月25日",
+      "inputEdition": "1997（平成9）年5月20日第18刷",
+      "proofreadEdition": "1997（平成9）年5月20日第18刷"
+    },
+    "author": "室生犀星",
+    "authors": [
+      {
+        "personId": "001579",
+        "name": "室生犀星",
+        "kana": "むろうさいせい",
+        "roman": "Saisei Murou",
+        "role": "著者",
+        "birthDate": "1889-08-01",
+        "deathDate": "1962-03-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

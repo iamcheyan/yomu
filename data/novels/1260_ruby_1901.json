@@ -154,5 +154,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001260",
+    "title": "幽霊妻",
+    "titleKana": "ゆうれいづま",
+    "sortKana": "ゆうれいつま",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-12-14",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000236/card1260.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000236/files/1260_ruby_1901.zip",
+    "textFileId": "1260_ruby_1901",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000236/files/1260_42458.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "はやしだかずこ",
+    "baseBook1": {
+      "title": "怪奇探偵小説集1",
+      "publisher": "ハルキ文庫、角川春樹事務所",
+      "firstPublishedAt": "1998（平成10）年5月18日",
+      "inputEdition": "1998（平成10）年5月18日第1刷"
+    },
+    "author": "大阪圭吉",
+    "authors": [
+      {
+        "personId": "000236",
+        "name": "大阪圭吉",
+        "kana": "おおさかけいきち",
+        "roman": "Keikichi Osaka",
+        "role": "著者",
+        "birthDate": "1912-03-20",
+        "deathDate": "1945-07-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

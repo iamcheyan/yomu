@@ -312,5 +312,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056799",
+    "title": "いずこへ",
+    "titleKana": "いずこへ",
+    "sortKana": "いすこへ",
+    "firstAppearance": "「新小説　第一巻第七号」1946（昭和21）年10月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-07-06",
+    "updatedAt": "2015-05-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card56799.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/56799_ruby_56834.zip",
+    "textFileId": "56799_ruby_56834",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/56799_56882.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "酒井裕二",
+    "baseBook1": {
+      "title": "風と光と二十の私と・いずこへ　他十六篇",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2008（平成20）年11月14日",
+      "inputEdition": "2013（平成25）年1月25日第3刷",
+      "proofreadEdition": "2013（平成25）年1月25日第3刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

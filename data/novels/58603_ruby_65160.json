@@ -32,5 +32,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058603",
+    "title": "鴎外先生",
+    "titleKana": "おうがいせんせい",
+    "sortKana": "おうかいせんせい",
+    "firstAppearance": "「中央公論　第二十四年第九號」1909（明治42）年9月1日",
+    "ndc": "NDC 910",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-07-09",
+    "updatedAt": "2022-03-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001341/card58603.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001341/files/58603_ruby_65160.zip",
+    "textFileId": "58603_ruby_65160",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001341/files/58603_65203.html",
+    "inputBy": "菜夏",
+    "proofreadBy": "津村田悟",
+    "baseBook1": {
+      "title": "荷風全集第十五卷",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1963（昭和38）年11月12日",
+      "inputEdition": "1963（昭和38）年11月12日",
+      "proofreadEdition": "1963（昭和38）年11月12日"
+    },
+    "author": "永井荷風",
+    "authors": [
+      {
+        "personId": "001341",
+        "name": "永井荷風",
+        "kana": "ながいかふう",
+        "roman": "Kafu Nagai",
+        "role": "著者",
+        "birthDate": "1879-12-03",
+        "deathDate": "1959-04-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

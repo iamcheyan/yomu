@@ -944,5 +944,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057541",
+    "title": "おごそかな渇き",
+    "titleKana": "おごそかなかわき",
+    "sortKana": "おこそかなかわき",
+    "firstAppearance": "「朝日新聞日曜版」 1967（昭和42）年1月8日～2月26日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-02-14",
+    "updatedAt": "2022-01-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001869/card57541.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001869/files/57541_ruby_74901.zip",
+    "textFileId": "57541_ruby_74901",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001869/files/57541_74936.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "北川松生",
+    "baseBook1": {
+      "title": "山本周五郎全集第十六巻　さぶ・おごそかな渇き",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1981（昭和56）年12月25日",
+      "inputEdition": "1981（昭和56）年12月25日",
+      "proofreadEdition": "1981（昭和56）年12月25日"
+    },
+    "author": "山本周五郎",
+    "authors": [
+      {
+        "personId": "001869",
+        "name": "山本周五郎",
+        "kana": "やまもとしゅうごろう",
+        "roman": "Shugoro Yamamoto",
+        "role": "著者",
+        "birthDate": "1903-06-22",
+        "deathDate": "1967-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -8684,5 +8684,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056076",
+    "title": "平の将門",
+    "titleKana": "たいらのまさかど",
+    "sortKana": "たいらのまさかと",
+    "firstAppearance": "「小説公園」六興出版社、1950（昭和25）年新春号～1952（昭和27）年2月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-05-15",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001562/card56076.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001562/files/56076_ruby_53303.zip",
+    "textFileId": "56076_ruby_53303",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001562/files/56076_53347.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "トレンドイースト",
+    "baseBook1": {
+      "title": "平の将門",
+      "publisher": "吉川英治歴史時代文庫、講談社",
+      "firstPublishedAt": "1989（平成元）年5月15日",
+      "inputEdition": "1989（平成元）年7月20日第3刷",
+      "proofreadEdition": "2011（平成23）年12月14日第34刷"
+    },
+    "author": "吉川英治",
+    "authors": [
+      {
+        "personId": "001562",
+        "name": "吉川英治",
+        "kana": "よしかわえいじ",
+        "roman": "Eiji Yoshikawa",
+        "role": "著者",
+        "birthDate": "1892-08-11",
+        "deathDate": "1962-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

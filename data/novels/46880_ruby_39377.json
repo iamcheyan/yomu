@@ -98,5 +98,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046880",
+    "title": "愛国百人一首評釈",
+    "titleKana": "あいこくひゃくにんいっしゅひょうしゃく",
+    "sortKana": "あいこくひやくにんいつしゆひようしやく",
+    "firstAppearance": "「東京日日新聞」1942（昭和17）年11月22日、25日、27日、12月1日、4日、6日、10日、11日、12日夕刊",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-10-02",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001059/card46880.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001059/files/46880_ruby_39377.zip",
+    "textFileId": "46880_ruby_39377",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001059/files/46880_40531.html",
+    "inputBy": "しだひろし",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "齋藤茂吉全集　第十四卷",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1975（昭和50）年7月18日",
+      "inputEdition": "1975（昭和50）年7月18日",
+      "proofreadEdition": "1975（昭和50）年7月18日"
+    },
+    "author": "斎藤茂吉",
+    "authors": [
+      {
+        "personId": "001059",
+        "name": "斎藤茂吉",
+        "kana": "さいとうもきち",
+        "roman": "Mokichi Saito",
+        "role": "著者",
+        "birthDate": "1882-5-14",
+        "deathDate": "1953-2-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -180,5 +180,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045825",
+    "title": "意慾的創作文章の形式と方法",
+    "titleKana": "いよくてきそうさくぶんしょうのけいしきとほうほう",
+    "sortKana": "いよくてきそうさくふんしようのけいしきとほうほう",
+    "firstAppearance": "「日本現代文章講座　Ⅱ―方法篇」厚生閣、1934（昭和9）年10月13日",
+    "ndc": "NDC 816 901",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-06-29",
+    "updatedAt": "2016-04-04",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card45825.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/45825_ruby_38352.zip",
+    "textFileId": "45825_ruby_38352",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/45825_39314.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "坂口安吾全集　01",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年5月20日",
+      "inputEdition": "1999（平成11）年5月20日初版第1刷",
+      "proofreadEdition": "1999（平成11）年5月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

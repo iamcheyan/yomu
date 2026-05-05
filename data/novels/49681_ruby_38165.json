@@ -48,5 +48,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049681",
+    "title": "画工と幽霊",
+    "titleKana": "がこうとゆうれい",
+    "sortKana": "かこうとゆうれい",
+    "firstAppearance": "「文藝倶楽部」1902（明治35）年8月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-05-19",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000082/card49681.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000082/files/49681_ruby_38165.zip",
+    "textFileId": "49681_ruby_38165",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000082/files/49681_39029.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "山本弘子",
+    "baseBook1": {
+      "title": "飛騨の怪談　新編　綺堂怪奇名作選",
+      "publisher": "メディアファクトリー",
+      "firstPublishedAt": "2008（平成20）年3月5日",
+      "inputEdition": "2008（平成20）年3月5日初版第1刷",
+      "proofreadEdition": "2008（平成20）年3月5日初版第1刷"
+    },
+    "author": "岡本綺堂",
+    "authors": [
+      {
+        "personId": "000082",
+        "name": "岡本綺堂",
+        "kana": "おかもときどう",
+        "roman": "Kido Okamoto",
+        "role": "著者",
+        "birthDate": "1872-11-15",
+        "deathDate": "1939-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

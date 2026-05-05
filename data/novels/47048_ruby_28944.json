@@ -156,5 +156,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047048",
+    "title": "神童の死",
+    "titleKana": "しんどうのし",
+    "sortKana": "しんとうのし",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-02-17",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000106/card47048.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000106/files/47048_ruby_28944.zip",
+    "textFileId": "47048_ruby_28944",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000106/files/47048_29526.html",
+    "inputBy": "浦山敦子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻85　少年",
+      "publisher": "作品社",
+      "firstPublishedAt": "1998（平成10）年3月25日",
+      "inputEdition": "1998（平成10）年3月25日第1刷",
+      "proofreadEdition": "1998（平成10）年3月25日第1刷"
+    },
+    "author": "北原白秋",
+    "authors": [
+      {
+        "personId": "000106",
+        "name": "北原白秋",
+        "kana": "きたはらはくしゅう",
+        "roman": "Hakushu Kitahara",
+        "role": "著者",
+        "birthDate": "1885-01-25",
+        "deathDate": "1942-11-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

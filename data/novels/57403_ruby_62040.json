@@ -48,5 +48,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057403",
+    "title": "人類の生存競争",
+    "titleKana": "じんるいのせいぞんきょうそう",
+    "sortKana": "しんるいのせいそんきようそう",
+    "firstAppearance": "「中央公論」1905（明治38）年10月",
+    "ndc": "NDC 460",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-07-26",
+    "updatedAt": "2017-07-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001474/card57403.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001474/files/57403_ruby_62040.zip",
+    "textFileId": "57403_ruby_62040",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001474/files/57403_62041.html",
+    "inputBy": "矢野重藤",
+    "proofreadBy": "y-star",
+    "baseBook1": {
+      "title": "進化と人生（上）",
+      "publisher": "講談社学術文庫、講談社",
+      "firstPublishedAt": "1976（昭和51）年11月10日",
+      "inputEdition": "1976（昭和51）年11月10日第1刷",
+      "proofreadEdition": "1976（昭和51）年11月10日第1刷"
+    },
+    "author": "丘浅次郎",
+    "authors": [
+      {
+        "personId": "001474",
+        "name": "丘浅次郎",
+        "kana": "おかあさじろう",
+        "roman": "Asajiro Oka",
+        "role": "著者",
+        "birthDate": "1868-12-31",
+        "deathDate": "1944-05-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

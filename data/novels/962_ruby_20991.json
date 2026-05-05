@@ -340,5 +340,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000962",
+    "title": "大凶の籤",
+    "titleKana": "だいきょうのくじ",
+    "sortKana": "たいきようのくし",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-10-19",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000189/card962.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000189/files/962_ruby_20991.zip",
+    "textFileId": "962_ruby_20991",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000189/files/962_20992.html",
+    "inputBy": "山根鋭二",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "現代文学大系　44　武田麟太郎・島木健作・織田作之助集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1967（昭和42）年"
+    },
+    "author": "武田麟太郎",
+    "authors": [
+      {
+        "personId": "000189",
+        "name": "武田麟太郎",
+        "kana": "たけだりんたろう",
+        "roman": "Rintaro Takeda",
+        "role": "著者",
+        "birthDate": "1904-05-09",
+        "deathDate": "1946-03-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

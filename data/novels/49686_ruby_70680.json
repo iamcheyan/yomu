@@ -54,5 +54,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049686",
+    "title": "北京「可園」のスケッチ",
+    "titleKana": "ぺきん「かえん」のスケッチ",
+    "sortKana": "へきんかえんのすけつち",
+    "firstAppearance": "「座右寶　第十六・十七合併號」座右寶刊行會、1948（昭和23）年3月1日",
+    "ndc": "NDC 721",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-04-03",
+    "updatedAt": "2020-03-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001385/card49686.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001385/files/49686_ruby_70680.zip",
+    "textFileId": "49686_ruby_70680",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001385/files/49686_70732.html",
+    "inputBy": "蒋龍",
+    "proofreadBy": "かな　とよみ",
+    "baseBook1": {
+      "title": "座右寶　第十六・十七合併號",
+      "publisher": "座右寶刊行會",
+      "firstPublishedAt": "1948（昭和23）年3月1日",
+      "inputEdition": "1948（昭和23）年3月1日",
+      "proofreadEdition": "1948（昭和23）年3月1日"
+    },
+    "author": "小林古径",
+    "authors": [
+      {
+        "personId": "001385",
+        "name": "小林古径",
+        "kana": "こばやしこけい",
+        "roman": "Kokei Kobayashi",
+        "role": "著者",
+        "birthDate": "1883-02-11",
+        "deathDate": "1957-04-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

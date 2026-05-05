@@ -340,5 +340,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057731",
+    "title": "評釈勘忍記",
+    "titleKana": "ひょうしゃくかんにんき",
+    "sortKana": "ひようしやくかんにんき",
+    "firstAppearance": "「新読物」公友社、1947（昭和22）年12月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-04-12",
+    "updatedAt": "2022-03-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001869/card57731.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001869/files/57731_ruby_75270.zip",
+    "textFileId": "57731_ruby_75270",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001869/files/57731_75302.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "栗田美恵子",
+    "baseBook1": {
+      "title": "山本周五郎全集第二十巻　晩秋・野分",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1983（昭和58）年8月25日",
+      "inputEdition": "1983（昭和58）年8月25日",
+      "proofreadEdition": "1988（昭和63）年4月25日3刷"
+    },
+    "author": "山本周五郎",
+    "authors": [
+      {
+        "personId": "001869",
+        "name": "山本周五郎",
+        "kana": "やまもとしゅうごろう",
+        "roman": "Shugoro Yamamoto",
+        "role": "著者",
+        "birthDate": "1903-06-22",
+        "deathDate": "1967-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

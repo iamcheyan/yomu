@@ -32,5 +32,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050297",
+    "title": "人生の楽事",
+    "titleKana": "じんせいのらくじ",
+    "sortKana": "しんせいのらくし",
+    "firstAppearance": "「時事新報」1893（明治26）年11月14日",
+    "ndc": "NDC 370",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-02-03",
+    "updatedAt": "2020-01-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000296/card50297.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000296/files/50297_ruby_70120.zip",
+    "textFileId": "50297_ruby_70120",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000296/files/50297_70169.html",
+    "inputBy": "田中哲郎",
+    "proofreadBy": "hitsuji",
+    "baseBook1": {
+      "title": "福澤諭吉著作集　第5巻　学問之独立　慶應義塾之記",
+      "publisher": "慶應義塾大学出版会",
+      "firstPublishedAt": "2002（平成14）年11月15日",
+      "inputEdition": "2002（平成14）年11月15日初版第1刷",
+      "proofreadEdition": "2004（平成16）年11月15日初版第2刷"
+    },
+    "author": "福沢諭吉",
+    "authors": [
+      {
+        "personId": "000296",
+        "name": "福沢諭吉",
+        "kana": "ふくざわゆきち",
+        "roman": "Yukichi Fukuzawa",
+        "role": "著者",
+        "birthDate": "1835-01-10",
+        "deathDate": "1901-02-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

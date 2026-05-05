@@ -42,5 +42,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045657",
+    "title": "手紙　四",
+    "titleKana": "てがみ　よん",
+    "sortKana": "てかみよん",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-08-13",
+    "updatedAt": "2023-07-07",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card45657.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/45657_ruby_35394.zip",
+    "textFileId": "45657_ruby_35394",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/45657_35656.html",
+    "inputBy": "ゆうき",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "ポラーノの広場",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1996（平成8）年6月25日",
+      "inputEdition": "1996（平成8）年6月25日初版",
+      "proofreadEdition": "1996（平成8）年7月10日再版"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

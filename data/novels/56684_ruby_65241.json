@@ -2550,5 +2550,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056684",
+    "title": "夜光人間",
+    "titleKana": "やこうにんげん",
+    "sortKana": "やこうにんけん",
+    "firstAppearance": "「少年」1958（昭和33）年1月号～12月号",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-07-15",
+    "updatedAt": "2018-06-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001779/card56684.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001779/files/56684_ruby_65241.zip",
+    "textFileId": "56684_ruby_65241",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001779/files/56684_65242.html",
+    "inputBy": "sogo",
+    "proofreadBy": "大久保ゆう",
+    "baseBook1": {
+      "title": "奇面城の秘密／夜光人間",
+      "publisher": "江戸川乱歩推理文庫、講談社",
+      "firstPublishedAt": "1988（昭和63）年6月8日",
+      "inputEdition": "1988（昭和63）年6月8日第1刷",
+      "proofreadEdition": "1988（昭和63）年6月8日第1刷"
+    },
+    "author": "江戸川乱歩",
+    "authors": [
+      {
+        "personId": "001779",
+        "name": "江戸川乱歩",
+        "kana": "えどがわらんぽ",
+        "roman": "Ranpo Edogawa",
+        "role": "著者",
+        "birthDate": "1894-10-21",
+        "deathDate": "1965-07-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

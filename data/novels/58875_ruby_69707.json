@@ -216,5 +216,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058875",
+    "title": "みにくいアヒルの子",
+    "titleKana": "みにくいアヒルのこ",
+    "sortKana": "みにくいあひるのこ",
+    "ndc": "NDC K949",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-12-24",
+    "updatedAt": "2019-11-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000019/card58875.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000019/files/58875_ruby_69707.zip",
+    "textFileId": "58875_ruby_69707",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000019/files/58875_69752.html",
+    "inputBy": "チエコ",
+    "proofreadBy": "木下聡",
+    "baseBook1": {
+      "title": "マッチ売りの少女　（アンデルセン童話集Ⅲ）",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1967（昭和42）年12月10日",
+      "inputEdition": "1981（昭和56）年5月30日21刷",
+      "proofreadEdition": "1982（昭和57）年3月5日22刷"
+    },
+    "author": "アンデルセンハンス・クリスチャン",
+    "authors": [
+      {
+        "personId": "000019",
+        "name": "アンデルセンハンス・クリスチャン",
+        "kana": "アンデルセンハンス・クリスチャン",
+        "roman": "Hans Christian Andersen",
+        "role": "著者",
+        "birthDate": "1805-04-02",
+        "deathDate": "1875-08-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

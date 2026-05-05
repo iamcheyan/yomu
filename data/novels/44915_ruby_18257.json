@@ -376,5 +376,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "044915",
+    "title": "女坑主",
+    "titleKana": "おんなこうしゅ",
+    "sortKana": "おんなこうしゆ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-06-01",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000096/card44915.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000096/files/44915_ruby_18257.zip",
+    "textFileId": "44915_ruby_18257",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000096/files/44915_18413.html",
+    "inputBy": "うてな",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "少女地獄",
+      "publisher": "角川書店",
+      "firstPublishedAt": "1976（昭和51）年11月30日",
+      "inputEdition": "2000（平成12）年12月30日41版",
+      "proofreadEdition": "2003（平成15）年2月20日45版"
+    },
+    "author": "夢野久作",
+    "authors": [
+      {
+        "personId": "000096",
+        "name": "夢野久作",
+        "kana": "ゆめのきゅうさく",
+        "roman": "Kyusaku Yumeno",
+        "role": "著者",
+        "birthDate": "1889-01-04",
+        "deathDate": "1936-03-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

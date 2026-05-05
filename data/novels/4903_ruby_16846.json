@@ -92,5 +92,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004903",
+    "title": "質屋の通帳",
+    "titleKana": "しちやのつうちょう",
+    "sortKana": "しちやのつうちよう",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-12-08",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000150/card4903.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000150/files/4903_ruby_16846.zip",
+    "textFileId": "4903_ruby_16846",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000150/files/4903_16925.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "大野晋",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻18　質屋",
+      "publisher": "作品社",
+      "firstPublishedAt": "1992（平成4）年8月25日",
+      "inputEdition": "1997（平成9）年5月20日第3刷",
+      "proofreadEdition": "1992（平成4）年8月25日第1刷"
+    },
+    "author": "薄田泣菫",
+    "authors": [
+      {
+        "personId": "000150",
+        "name": "薄田泣菫",
+        "kana": "すすきだきゅうきん",
+        "roman": "Kyukin Susukida",
+        "role": "著者",
+        "birthDate": "1877-05-19",
+        "deathDate": "1945-10-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

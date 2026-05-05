@@ -2314,5 +2314,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057229",
+    "title": "透明怪人",
+    "titleKana": "とうめいかいじん",
+    "sortKana": "とうめいかいしん",
+    "firstAppearance": "「少年」光文社、1951（昭和26）年1月号～12月号",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-05-14",
+    "updatedAt": "2017-03-11",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001779/card57229.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001779/files/57229_ruby_61307.zip",
+    "textFileId": "57229_ruby_61307",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001779/files/57229_61350.html",
+    "inputBy": "sogo",
+    "proofreadBy": "大久保ゆう",
+    "baseBook1": {
+      "title": "虎の牙／透明怪人",
+      "publisher": "江戸川乱歩推理文庫、講談社",
+      "firstPublishedAt": "1987（昭和62）年12月8日",
+      "inputEdition": "1987（昭和62）年12月8日第1刷",
+      "proofreadEdition": "1987（昭和62）年12月8日第1刷"
+    },
+    "author": "江戸川乱歩",
+    "authors": [
+      {
+        "personId": "001779",
+        "name": "江戸川乱歩",
+        "kana": "えどがわらんぽ",
+        "roman": "Ranpo Edogawa",
+        "role": "著者",
+        "birthDate": "1894-10-21",
+        "deathDate": "1965-07-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

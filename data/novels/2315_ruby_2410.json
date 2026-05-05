@@ -28,5 +28,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002315",
+    "title": "戦争からきた行き違い",
+    "titleKana": "せんそうからきたいきちがい",
+    "sortKana": "せんそうからきたいきちかい",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-09-09",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000148/card2315.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000148/files/2315_ruby_2410.zip",
+    "textFileId": "2315_ruby_2410",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000148/files/2315_13906.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "しず",
+    "baseBook1": {
+      "title": "硝子戸の中",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1954（昭和29）年6月10日",
+      "inputEdition": "1994（平成6）年3月10日改版21版",
+      "proofreadEdition": "1988（昭和63）年5月30日改版19版"
+    },
+    "author": "夏目漱石",
+    "authors": [
+      {
+        "personId": "000148",
+        "name": "夏目漱石",
+        "kana": "なつめそうせき",
+        "roman": "Soseki Natsume",
+        "role": "著者",
+        "birthDate": "1867-02-09",
+        "deathDate": "1916-12-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

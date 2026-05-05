@@ -50,5 +50,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002396",
+    "title": "文芸の主義",
+    "titleKana": "ぶんげいのしゅぎ",
+    "sortKana": "ふんけいのしゆき",
+    "ndc": "NDC 701 901 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-10-20",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card2396.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/2396_ruby_3993.zip",
+    "textFileId": "2396_ruby_3993",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/2396_7058.html",
+    "inputBy": "関和広",
+    "proofreadBy": "柳沢成雄",
+    "baseBook1": {
+      "title": "日本の名著42　夏目漱石　森鴎外",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1974（昭和49）年9月20日"
+    },
+    "author": "森鴎外",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

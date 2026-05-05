@@ -466,5 +466,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003512",
+    "title": "和解",
+    "titleKana": "わかい",
+    "sortKana": "わかい",
+    "firstAppearance": "「新潮」1933（昭和8）年6月",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-11-14",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000023/card3512.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000023/files/3512_ruby_13336.zip",
+    "textFileId": "3512_ruby_13336",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000023/files/3512_13503.html",
+    "inputBy": "kompass",
+    "proofreadBy": "高柳典子",
+    "baseBook1": {
+      "title": "徳田秋声全集　第十七巻",
+      "publisher": "八木書店",
+      "firstPublishedAt": "1999(平成11)年1月18日",
+      "inputEdition": "1999(平成11)年1月18日初版",
+      "proofreadEdition": "1999(平成11)年1月18日初版"
+    },
+    "author": "徳田秋声",
+    "authors": [
+      {
+        "personId": "000023",
+        "name": "徳田秋声",
+        "kana": "とくだしゅうせい",
+        "roman": "Shusei Tokuda",
+        "role": "著者",
+        "birthDate": "1872-02-01",
+        "deathDate": "1943-11-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

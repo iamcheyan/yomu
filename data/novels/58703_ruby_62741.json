@@ -84,5 +84,36 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058703",
+    "title": "日本の全ての方々へ",
+    "titleKana": "にほんのすべてのかたがたへ",
+    "sortKana": "にほんのすへてのかたかたへ",
+    "originalTitle": "TO EVERY JAPANESE",
+    "ndc": "NDC 312",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2017-10-02",
+    "updatedAt": "2019-11-22",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001277/card58703.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001277/files/58703_ruby_62741.zip",
+    "textFileId": "58703_ruby_62741",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001277/files/58703_62742.html",
+    "inputBy": "The Creative CAT",
+    "author": "ガンジーマハトマ",
+    "authors": [
+      {
+        "personId": "001277",
+        "name": "ガンジーマハトマ",
+        "kana": "ガンジーマハトマ",
+        "roman": "Mahatma Gandhi",
+        "role": "著者",
+        "birthDate": "1869-10-02",
+        "deathDate": "1948-01-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

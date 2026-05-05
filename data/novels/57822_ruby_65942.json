@@ -4228,5 +4228,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057822",
+    "title": "季節のない街",
+    "titleKana": "きせつのないまち",
+    "sortKana": "きせつのないまち",
+    "firstAppearance": "「朝日新聞　夕刊」1962（昭和37）年4月1日～10月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-10-16",
+    "updatedAt": "2018-09-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001869/card57822.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001869/files/57822_ruby_65942.zip",
+    "textFileId": "57822_ruby_65942",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001869/files/57822_66094.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "富田晶子",
+    "baseBook1": {
+      "title": "山本周五郎全集第十四巻　青べか物語・季節のない街",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1981（昭和56）年11月25日",
+      "inputEdition": "1981（昭和56）年11月25日",
+      "proofreadEdition": "1981（昭和56）年11月25日"
+    },
+    "author": "山本周五郎",
+    "authors": [
+      {
+        "personId": "001869",
+        "name": "山本周五郎",
+        "kana": "やまもとしゅうごろう",
+        "roman": "Shugoro Yamamoto",
+        "role": "著者",
+        "birthDate": "1903-06-22",
+        "deathDate": "1967-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

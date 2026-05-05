@@ -66,5 +66,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047699",
+    "title": "鷹狩りと操り芝居と",
+    "titleKana": "たかがりとあやつりしばいと",
+    "sortKana": "たかかりとあやつりしはいと",
+    "firstAppearance": "「国文学者一夕話」六文館、1932（昭和7）年7月",
+    "ndc": "NDC 380",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-06-15",
+    "updatedAt": "2019-05-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card47699.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/47699_ruby_68215.zip",
+    "textFileId": "47699_ruby_68215",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/47699_68260.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "折口信夫全集　21",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1996（平成8）年11月10日",
+      "inputEdition": "1996（平成8）年11月10日初版",
+      "proofreadEdition": "1996（平成8）年11月10日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

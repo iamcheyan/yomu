@@ -150,5 +150,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058328",
+    "title": "日日の麺麭",
+    "titleKana": "ひびのパン",
+    "sortKana": "ひひのはん",
+    "firstAppearance": "「新女苑　第二十巻第四号」実業之日本社、1956（昭和31）年4月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-03-06",
+    "updatedAt": "2020-02-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001867/card58328.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001867/files/58328_ruby_70386.zip",
+    "textFileId": "58328_ruby_70386",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001867/files/58328_70444.html",
+    "inputBy": "kompass",
+    "proofreadBy": "酒井裕二",
+    "baseBook1": {
+      "title": "日日の麺麭・風貌　小山清作品集",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "2005（平成17）年11月10日",
+      "inputEdition": "2005（平成17）年11月10日第1刷",
+      "proofreadEdition": "2005（平成17）年11月10日第1刷"
+    },
+    "author": "小山清",
+    "authors": [
+      {
+        "personId": "001867",
+        "name": "小山清",
+        "kana": "こやまきよし",
+        "roman": "Kiyoshi Koyama",
+        "role": "著者",
+        "birthDate": "1911-10-04",
+        "deathDate": "1965-03-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

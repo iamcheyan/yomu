@@ -886,5 +886,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004317",
+    "title": "人外魔境",
+    "titleKana": "じんがいまきょう",
+    "sortKana": "しんかいまきよう",
+    "subtitle": "10 地軸二万哩",
+    "subtitleKana": "10 カラ・ジルナガン",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-04-25",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000125/card4317.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000125/files/4317_ruby_9651.zip",
+    "textFileId": "4317_ruby_9651",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000125/files/4317_9673.html",
+    "inputBy": "笠原正純",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "人外魔境",
+      "publisher": "角川ホラー文庫、角川書店",
+      "firstPublishedAt": "1995（平成7）年1月10日",
+      "inputEdition": "1995（平成7）年1月10日初版"
+    },
+    "author": "小栗虫太郎",
+    "authors": [
+      {
+        "personId": "000125",
+        "name": "小栗虫太郎",
+        "kana": "おぐりむしたろう",
+        "roman": "Mushitaro Oguri",
+        "role": "著者",
+        "birthDate": "1901-03-14",
+        "deathDate": "1946-02-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

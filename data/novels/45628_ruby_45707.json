@@ -1150,5 +1150,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045628",
+    "title": "狂歌師赤猪口兵衛",
+    "titleKana": "きょうかしあかちょこべえ",
+    "sortKana": "きようかしあかちよこへえ",
+    "subtitle": "博多名物非人探偵",
+    "subtitleKana": "はかためいぶつひにんたんてい",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-01-31",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000096/card45628.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000096/files/45628_ruby_45707.zip",
+    "textFileId": "45628_ruby_45707",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000096/files/45628_45855.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "米田",
+    "baseBook1": {
+      "title": "夢野久作全集6",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1969（昭和44）年12月31日",
+      "inputEdition": "1993（平成5）年4月30日第1版第12刷",
+      "proofreadEdition": "1993（平成5）年4月30日第1版第12刷"
+    },
+    "author": "夢野久作",
+    "authors": [
+      {
+        "personId": "000096",
+        "name": "夢野久作",
+        "kana": "ゆめのきゅうさく",
+        "roman": "Kyusaku Yumeno",
+        "role": "著者",
+        "birthDate": "1889-01-04",
+        "deathDate": "1936-03-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

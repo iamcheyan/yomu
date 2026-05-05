@@ -340,5 +340,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001072",
+    "title": "語られざる哲学",
+    "titleKana": "かたられざるてつがく",
+    "sortKana": "かたられさるてつかく",
+    "ndc": "NDC 121 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-10-02",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000218/card1072.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000218/files/1072_ruby_22574.zip",
+    "textFileId": "1072_ruby_22574",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000218/files/1072_22575.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "語られざる哲学",
+      "publisher": "講談社学術文庫、講談社",
+      "firstPublishedAt": "1977（昭和52）年6月10日",
+      "inputEdition": "1978（昭和53）年2月10日第2刷",
+      "proofreadEdition": "1978（昭和53）年2月10日第2刷"
+    },
+    "author": "三木清",
+    "authors": [
+      {
+        "personId": "000218",
+        "name": "三木清",
+        "kana": "みききよし",
+        "roman": "Kiyoshi Miki",
+        "role": "著者",
+        "birthDate": "1897-01-05",
+        "deathDate": "1945-09-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

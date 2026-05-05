@@ -858,5 +858,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056172",
+    "title": "独楽",
+    "titleKana": "こま",
+    "sortKana": "こま",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-06-08",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001774/card56172.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001774/files/56172_ruby_53532.zip",
+    "textFileId": "56172_ruby_53532",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001774/files/56172_53575.html",
+    "inputBy": "浜野智",
+    "proofreadBy": "八巻美恵",
+    "baseBook1": {
+      "title": "高祖保詩集",
+      "publisher": "現代詩文庫、思潮社",
+      "firstPublishedAt": "1988（昭和63）年12月20日",
+      "inputEdition": "1988（昭和63）年12月20日初版第1刷",
+      "proofreadEdition": "1988（昭和63）年12月20日初版第1刷"
+    },
+    "author": "高祖保",
+    "authors": [
+      {
+        "personId": "001774",
+        "name": "高祖保",
+        "kana": "こうそたもつ",
+        "roman": "Tamotsu Koso",
+        "role": "著者",
+        "birthDate": "1910-05-04",
+        "deathDate": "1945-01-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

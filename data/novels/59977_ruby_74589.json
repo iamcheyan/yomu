@@ -220,5 +220,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059977",
+    "title": "メリイ・クリスマス",
+    "titleKana": "メリイ・クリスマス",
+    "sortKana": "めりいくりすます",
+    "firstAppearance": "「ヒッチコック・マガジン　第四巻第一三号」宝石社、1962（昭和37）年12月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-12-25",
+    "updatedAt": "2021-11-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001801/card59977.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001801/files/59977_ruby_74589.zip",
+    "textFileId": "59977_ruby_74589",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001801/files/59977_74626.html",
+    "inputBy": "toko",
+    "proofreadBy": "かな　とよみ",
+    "baseBook1": {
+      "title": "親しい友人たち　山川方夫ミステリ傑作選",
+      "publisher": "創元推理文庫、東京創元社",
+      "firstPublishedAt": "2015（平成27）年9月30日",
+      "inputEdition": "2015（平成27）年9月30日初版",
+      "proofreadEdition": "2015（平成27）年11月6日再版"
+    },
+    "author": "山川方夫",
+    "authors": [
+      {
+        "personId": "001801",
+        "name": "山川方夫",
+        "kana": "やまかわまさお",
+        "roman": "Masao Yamakawa",
+        "role": "著者",
+        "birthDate": "1930-02-25",
+        "deathDate": "1965-02-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

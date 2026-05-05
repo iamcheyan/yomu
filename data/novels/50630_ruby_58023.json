@@ -74,5 +74,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050630",
+    "title": "真夏の幻覚",
+    "titleKana": "まなつのげんかく",
+    "sortKana": "まなつのけんかく",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-03-01",
+    "updatedAt": "2015-12-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000076/card50630.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000076/files/50630_ruby_58023.zip",
+    "textFileId": "50630_ruby_58023",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000076/files/50630_58054.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "石井一成",
+    "baseBook1": {
+      "title": "岡本かの子全集6",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1993（平成5）年9月22日",
+      "inputEdition": "1993（平成5）年9月22日第1刷",
+      "proofreadEdition": "1993（平成5）年9月22日第1刷"
+    },
+    "author": "岡本かの子",
+    "authors": [
+      {
+        "personId": "000076",
+        "name": "岡本かの子",
+        "kana": "おかもとかのこ",
+        "roman": "Kanoko Okamoto",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1939-02-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

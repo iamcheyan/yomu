@@ -94,5 +94,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002081",
+    "title": "椙原品",
+    "titleKana": "すぎのはらしな",
+    "sortKana": "すきのはらしな",
+    "firstAppearance": "「東京日日新聞」「大阪毎日新聞」1916（大正5）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-08-31",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card2081.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/2081_ruby_23047.zip",
+    "textFileId": "2081_ruby_23047",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/2081_23048.html",
+    "inputBy": "kompass",
+    "proofreadBy": "しず",
+    "baseBook1": {
+      "title": "鴎外歴史文学集　第三巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1999（平成11）年11月25日"
+    },
+    "author": "森鴎外",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

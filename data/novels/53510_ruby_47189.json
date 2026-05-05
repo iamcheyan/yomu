@@ -64,5 +64,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053510",
+    "title": "ヴエスヴイオ山",
+    "titleKana": "ヴェスヴィオさん",
+    "sortKana": "うえすういおさん",
+    "firstAppearance": "「思想」1929（昭和4）年5月",
+    "ndc": "NDC 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-05-13",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001059/card53510.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001059/files/53510_ruby_47189.zip",
+    "textFileId": "53510_ruby_47189",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001059/files/53510_47603.html",
+    "inputBy": "しだひろし",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "斎藤茂吉選集　第九巻　随筆",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1981（昭和56）2月27日",
+      "inputEdition": "1981（昭和56）2月27日第1刷",
+      "proofreadEdition": "1981（昭和56）2月27日第1刷"
+    },
+    "author": "斎藤茂吉",
+    "authors": [
+      {
+        "personId": "001059",
+        "name": "斎藤茂吉",
+        "kana": "さいとうもきち",
+        "roman": "Mokichi Saito",
+        "role": "著者",
+        "birthDate": "1882-5-14",
+        "deathDate": "1953-2-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

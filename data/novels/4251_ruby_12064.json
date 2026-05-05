@@ -100,5 +100,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004251",
+    "title": "犬",
+    "titleKana": "いぬ",
+    "sortKana": "いぬ",
+    "ndc": "NDC 983",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-09-04",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000907/card4251.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000907/files/4251_ruby_12064.zip",
+    "textFileId": "4251_ruby_12064",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000907/files/4251_12065.html",
+    "inputBy": "鈴木修一",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "於母影　冬の王　森鴎外全集12",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1996（平成8）年3月21日",
+      "inputEdition": "1996（平成8）年3月21日第1刷"
+    },
+    "author": "アンドレーエフレオニード・ニコラーエヴィチ",
+    "authors": [
+      {
+        "personId": "000907",
+        "name": "アンドレーエフレオニード・ニコラーエヴィチ",
+        "kana": "アンドレーエフレオニード・ニコラーエヴィチ",
+        "roman": "Leonid Nikolaevich Andreev",
+        "role": "著者",
+        "birthDate": "1871",
+        "deathDate": "1919",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

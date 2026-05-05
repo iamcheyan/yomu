@@ -1150,5 +1150,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042145",
+    "title": "今戸心中",
+    "titleKana": "いまどしんじゅう",
+    "sortKana": "いまとしんしゆう",
+    "firstAppearance": "「文芸倶楽部」1896（明治29）年7月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-05-10",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000295/card42145.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000295/files/42145_ruby_22356.zip",
+    "textFileId": "42145_ruby_22356",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000295/files/42145_53885.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "日本の文学　77　名作集（一）",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1970（昭和45）年7月5日",
+      "inputEdition": "1970（昭和45）年7月5日初版",
+      "proofreadEdition": "1970（昭和45）年7月5日初版"
+    },
+    "author": "広津柳浪",
+    "authors": [
+      {
+        "personId": "000295",
+        "name": "広津柳浪",
+        "kana": "ひろつりゅうろう",
+        "roman": "Ryuro Hirotsu",
+        "role": "著者",
+        "birthDate": "1861-07-15",
+        "deathDate": "1928-10-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -184,5 +184,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060847",
+    "title": "小さき影",
+    "titleKana": "ちいさきかげ",
+    "sortKana": "ちいさきかけ",
+    "firstAppearance": "「大阪毎日新聞　第一二七五四號～第一二七六一號」1919（大正8）年1月5日～12日<br>「東京日日新聞　第一五一六九號～第一五一七六號」1919（大正8）年1月6日～13日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-06-09",
+    "updatedAt": "2022-05-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000025/card60847.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000025/files/60847_ruby_75622.zip",
+    "textFileId": "60847_ruby_75622",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000025/files/60847_75652.html",
+    "inputBy": "木村杏実",
+    "proofreadBy": "きりんの手紙",
+    "baseBook1": {
+      "title": "有島武郎全集第三卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1980（昭和55）年6月30日",
+      "inputEdition": "1980（昭和55）年6月30日初版",
+      "proofreadEdition": "1980（昭和55）年6月30日初版"
+    },
+    "author": "有島武郎",
+    "authors": [
+      {
+        "personId": "000025",
+        "name": "有島武郎",
+        "kana": "ありしまたけお",
+        "roman": "Takeo Arishima",
+        "role": "著者",
+        "birthDate": "1878-03-04",
+        "deathDate": "1923-06-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

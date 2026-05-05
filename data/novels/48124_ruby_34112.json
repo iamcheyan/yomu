@@ -644,5 +644,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048124",
+    "title": "ぼたもち",
+    "titleKana": "ぼたもち",
+    "sortKana": "ほたもち",
+    "ndc": "NDC 912",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-01-18",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001311/card48124.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001311/files/48124_ruby_34112.zip",
+    "textFileId": "48124_ruby_34112",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001311/files/48124_34113.html",
+    "inputBy": "伊藤時也",
+    "proofreadBy": "伊藤時也、及川　雅",
+    "baseBook1": {
+      "title": "破れわらじ",
+      "publisher": "ラジオ・ドラマ新書、宝文館",
+      "firstPublishedAt": "1954（昭和29）年 12月25日",
+      "inputEdition": "1954（昭和29）年 12月25日第1刷",
+      "proofreadEdition": "1954（昭和29）年 12月25日第1刷"
+    },
+    "author": "三好十郎",
+    "authors": [
+      {
+        "personId": "001311",
+        "name": "三好十郎",
+        "kana": "みよしじゅうろう",
+        "roman": "Juro Miyoshi",
+        "role": "著者",
+        "birthDate": "1902-04-21",
+        "deathDate": "1958-12-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

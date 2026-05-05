@@ -56,5 +56,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047089",
+    "title": "『行く春』を読む",
+    "titleKana": "『ゆくはる』をよむ",
+    "sortKana": "ゆくはるをよむ",
+    "firstAppearance": "「明星　第拾八号」1901（明治34）年12月",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-01-27",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001055/card47089.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001055/files/47089_ruby_40799.zip",
+    "textFileId": "47089_ruby_40799",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001055/files/47089_41602.html",
+    "inputBy": "広橋はやみ",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "蒲原有明論考",
+      "publisher": "明治書院",
+      "firstPublishedAt": "1965（昭和40）年3月5日",
+      "inputEdition": "1965（昭和40）年3月5日初版",
+      "proofreadEdition": "1965（昭和40）年3月5日初版"
+    },
+    "author": "蒲原有明",
+    "authors": [
+      {
+        "personId": "001055",
+        "name": "蒲原有明",
+        "kana": "かんばらありあけ",
+        "roman": "Ariake Kanbara",
+        "role": "著者",
+        "birthDate": "1875-03-15",
+        "deathDate": "1952-02-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

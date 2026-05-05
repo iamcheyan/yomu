@@ -192,5 +192,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059768",
+    "title": "科学ブームへの苦言",
+    "titleKana": "かがくブームへのくげん",
+    "sortKana": "かかくふうむへのくけん",
+    "firstAppearance": "「文藝春秋」文藝春秋新社、1959（昭和34）年4月",
+    "ndc": "NDC 404",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-09-29",
+    "updatedAt": "2021-08-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card59768.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/59768_ruby_74038.zip",
+    "textFileId": "59768_ruby_74038",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/59768_74076.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "津村田悟",
+    "baseBook1": {
+      "title": "中谷宇吉郎随筆選集第三巻",
+      "publisher": "朝日新聞社",
+      "firstPublishedAt": "1966（昭和41）年10月20日",
+      "inputEdition": "1966（昭和41）年10月30日第2刷",
+      "proofreadEdition": "1966（昭和41）年10月30日第2刷"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

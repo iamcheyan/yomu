@@ -104,5 +104,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049877",
+    "title": "ある思想家の手紙",
+    "titleKana": "あるしそうかのてがみ",
+    "sortKana": "あるしそうかのてかみ",
+    "firstAppearance": "「新小説」1916（大正5）年11月",
+    "ndc": "NDC 121",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-06-11",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001395/card49877.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001395/files/49877_ruby_42707.zip",
+    "textFileId": "49877_ruby_42707",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001395/files/49877_42898.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "偶像再興・面とペルソナ　和辻哲郎感想集",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "2007（平成19）年4月10日",
+      "inputEdition": "2007（平成19）年4月10日第1刷",
+      "proofreadEdition": "2007（平成19）年4月10日第1刷"
+    },
+    "author": "和辻哲郎",
+    "authors": [
+      {
+        "personId": "001395",
+        "name": "和辻哲郎",
+        "kana": "わつじてつろう",
+        "roman": "Tetsuro Watsuji",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1960-12-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

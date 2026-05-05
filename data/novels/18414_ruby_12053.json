@@ -48,5 +48,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "018414",
+    "title": "「青白き夢」序",
+    "titleKana": "「あおじろきゆめ」じょ",
+    "sortKana": "あおしろきゆめしよ",
+    "firstAppearance": "「文章世界」1918（大正7）年7月3日",
+    "ndc": "NDC 913 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-12-17",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000826/card18414.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000826/files/18414_ruby_12053.zip",
+    "textFileId": "18414_ruby_12053",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000826/files/18414_14000.html",
+    "inputBy": "小林徹",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "青白き夢",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1918（大正7）年3月15日",
+      "inputEdition": "1918（大正7）年3月15日"
+    },
+    "author": "森田草平",
+    "authors": [
+      {
+        "personId": "000826",
+        "name": "森田草平",
+        "kana": "もりたそうへい",
+        "roman": "Sohei Morita",
+        "role": "著者",
+        "birthDate": "1881-03-19",
+        "deathDate": "1949-12-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -164,5 +164,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057191",
+    "title": "二癈人",
+    "titleKana": "にはいじん",
+    "sortKana": "にはいしん",
+    "firstAppearance": "「新青年」博文館、1924（大正13）年6月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-10-07",
+    "updatedAt": "2017-09-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001779/card57191.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001779/files/57191_ruby_62759.zip",
+    "textFileId": "57191_ruby_62759",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001779/files/57191_62846.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "江村秀之",
+    "baseBook1": {
+      "title": "江戸川乱歩全集　第1巻　屋根裏の散歩者",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2004（平成16）年7月20日",
+      "inputEdition": "2012（平成24）年8月15日7刷",
+      "proofreadEdition": "2007（平成19）年1月30日5刷"
+    },
+    "author": "江戸川乱歩",
+    "authors": [
+      {
+        "personId": "001779",
+        "name": "江戸川乱歩",
+        "kana": "えどがわらんぽ",
+        "roman": "Ranpo Edogawa",
+        "role": "著者",
+        "birthDate": "1894-10-21",
+        "deathDate": "1965-07-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

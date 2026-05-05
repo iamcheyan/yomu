@@ -60,5 +60,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042151",
+    "title": "シュリーマン夫人を憶ふ",
+    "titleKana": "シュリーマンふじんをおもう",
+    "sortKana": "しゆりいまんふしんをおもう",
+    "firstAppearance": "「ドルメン」1933（昭和8）年3月",
+    "ndc": "NDC 289 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-06-17",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001054/card42151.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001054/files/42151_ruby_15588.zip",
+    "textFileId": "42151_ruby_15588",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001054/files/42151_15665.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "青陵随筆",
+      "publisher": "座右寶刊行會",
+      "firstPublishedAt": "1947（昭和22）年11月20日",
+      "inputEdition": "1947（昭和22）年11月20日",
+      "proofreadEdition": "1947（昭和22）年11月20日"
+    },
+    "author": "浜田青陵",
+    "authors": [
+      {
+        "personId": "001054",
+        "name": "浜田青陵",
+        "kana": "はまだせいりょう",
+        "roman": "Seiryo Hamada",
+        "role": "著者",
+        "birthDate": "1881-02-22",
+        "deathDate": "1938-07-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -92,5 +92,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053487",
+    "title": "婚期はずれ",
+    "titleKana": "こんきはずれ",
+    "sortKana": "こんきはすれ",
+    "firstAppearance": "「会館芸術」1940（昭和15）年11月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-09-02",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000040/card53487.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000040/files/53487_ruby_44372.zip",
+    "textFileId": "53487_ruby_44372",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000040/files/53487_44505.html",
+    "inputBy": "いとうたかし",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "織田作之助全集　1",
+      "publisher": "講談社",
+      "firstPublishedAt": "1970（昭和45）年2月24日",
+      "inputEdition": "1970（昭和45）年2月24日第1刷",
+      "proofreadEdition": "1970（昭和45）年2月24日第1刷"
+    },
+    "author": "織田作之助",
+    "authors": [
+      {
+        "personId": "000040",
+        "name": "織田作之助",
+        "kana": "おださくのすけ",
+        "roman": "Sakunosuke Oda",
+        "role": "著者",
+        "birthDate": "1913-10-26",
+        "deathDate": "1947-01-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

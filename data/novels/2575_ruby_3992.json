@@ -282,5 +282,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002575",
+    "title": "鈴木三重吉宛書簡―明治三十九年",
+    "titleKana": "すずきみえきちあてしょかん―めいじさんじゅうくねん",
+    "sortKana": "すすきみえきちあてしよかんめいしさんしゆうくねん",
+    "ndc": "NDC 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-10-21",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000148/card2575.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000148/files/2575_ruby_3992.zip",
+    "textFileId": "2575_ruby_3992",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000148/files/2575_7069.html",
+    "inputBy": "石塚一郎",
+    "proofreadBy": "柳沢成雄",
+    "baseBook1": {
+      "title": "漱石全集　第十八卷",
+      "publisher": "漱石全集刊行会",
+      "firstPublishedAt": "1928（昭和3）年9月5日"
+    },
+    "author": "夏目漱石",
+    "authors": [
+      {
+        "personId": "000148",
+        "name": "夏目漱石",
+        "kana": "なつめそうせき",
+        "roman": "Soseki Natsume",
+        "role": "著者",
+        "birthDate": "1867-02-09",
+        "deathDate": "1916-12-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

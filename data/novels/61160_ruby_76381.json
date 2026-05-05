@@ -36,5 +36,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "061160",
+    "title": "神童でなかったラムボオの詩",
+    "titleKana": "しんどうでなかったラムボオのし",
+    "sortKana": "しんとうてなかつたらむほおのし",
+    "subtitle": "中原中也訳『学校時代の詩』に就て",
+    "subtitleKana": "なかはらちゅうややく『がっこうじだいのし』について",
+    "firstAppearance": "「椎の木」1934（昭和9）年3月1日",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-10-22",
+    "updatedAt": "2022-09-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card61160.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/61160_ruby_76381.zip",
+    "textFileId": "61160_ruby_76381",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/61160_76416.html",
+    "inputBy": "持田和踏",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本文化私観　坂口安吾エッセイ選",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1996（平成8）年1月10日",
+      "inputEdition": "1996（平成8）年1月10日第1刷",
+      "proofreadEdition": "2021（令和3）年7月26日第19刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

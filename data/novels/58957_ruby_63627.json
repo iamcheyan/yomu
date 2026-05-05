@@ -74,5 +74,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058957",
+    "title": "広島という名の由来",
+    "titleKana": "ひろしまというなのゆらい",
+    "sortKana": "ひろしまというなのゆらい",
+    "firstAppearance": "「中国新聞　夕刊」1953（昭和28）年1月11日",
+    "ndc": "NDC 217",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-01-01",
+    "updatedAt": "2018-01-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001985/card58957.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001985/files/58957_ruby_63627.zip",
+    "textFileId": "58957_ruby_63627",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001985/files/58957_63628.html",
+    "inputBy": "大久保ゆう",
+    "proofreadBy": "富田晶子",
+    "baseBook1": {
+      "title": "日本随筆紀行第二〇巻　岡山｜広島｜山口　暮れなずむ瀬戸は夕凪",
+      "publisher": "作品社",
+      "firstPublishedAt": "1988（昭和63）年12月10日",
+      "inputEdition": "1988（昭和63）年12月10日第1刷",
+      "proofreadEdition": "1988（昭和63）年12月10日第1刷"
+    },
+    "author": "薄田太郎",
+    "authors": [
+      {
+        "personId": "001985",
+        "name": "薄田太郎",
+        "kana": "すすきだたろう",
+        "roman": "Taro Susukida",
+        "role": "著者",
+        "birthDate": "1902-11-01",
+        "deathDate": "1967-04-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -5342,5 +5342,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003585",
+    "title": "ああ玉杯に花うけて",
+    "titleKana": "ああぎょくはいにはなうけて",
+    "sortKana": "ああきよくはいにはなうけて",
+    "firstAppearance": "「少年倶楽部」1927（昭和2）年5月号～1928（昭和3）年4月号",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-03-22",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000575/card3585.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000575/files/3585_ruby_20013.zip",
+    "textFileId": "3585_ruby_20013",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000575/files/3585_21718.html",
+    "inputBy": "kazuishi、林幸雄",
+    "proofreadBy": "花田泰治郎",
+    "baseBook1": {
+      "title": "ああ玉杯に花うけて／少年賛歌",
+      "publisher": "講談社大衆文学館文庫、講談社",
+      "firstPublishedAt": "1997（平成9）年10月20日",
+      "inputEdition": "1997（平成9）年10月20日第1刷"
+    },
+    "author": "佐藤紅緑",
+    "authors": [
+      {
+        "personId": "000575",
+        "name": "佐藤紅緑",
+        "kana": "さとうこうろく",
+        "roman": "Koroku Sato",
+        "role": "著者",
+        "birthDate": "1874-07-06",
+        "deathDate": "1949-06-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

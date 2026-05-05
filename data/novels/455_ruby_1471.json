@@ -20,5 +20,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000455",
+    "title": "ガドルフの百合",
+    "titleKana": "ガドルフのゆり",
+    "sortKana": "かとるふのゆり",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-02-05",
+    "updatedAt": "2023-07-08",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card455.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/455_ruby_1471.zip",
+    "textFileId": "455_ruby_1471",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/455_77350.html",
+    "inputBy": "浜野智",
+    "proofreadBy": "浜野智",
+    "baseBook1": {
+      "title": "風の又三郎",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1996（平成8）年6月25日改訂新版"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

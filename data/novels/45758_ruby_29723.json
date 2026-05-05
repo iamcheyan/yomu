@@ -186,5 +186,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045758",
+    "title": "壇ノ浦の鬼火",
+    "titleKana": "だんのうらのおにび",
+    "sortKana": "たんのうらのおにひ",
+    "firstAppearance": "「赤い鳥」赤い鳥社、1927（昭和2）年6月号",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-05-19",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001205/card45758.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001205/files/45758_ruby_29723.zip",
+    "textFileId": "45758_ruby_29723",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001205/files/45758_30973.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "赤い鳥代表作集　２",
+      "publisher": "小峰書店",
+      "firstPublishedAt": "1958年11月15日第1刷",
+      "inputEdition": "1982年2月15日第2刷",
+      "proofreadEdition": "1980（昭和55）年3月5日第20刷"
+    },
+    "author": "下村千秋",
+    "authors": [
+      {
+        "personId": "001205",
+        "name": "下村千秋",
+        "kana": "しもむらちあき",
+        "roman": "Chiaki Shimomura",
+        "role": "著者",
+        "birthDate": "1893-09-04",
+        "deathDate": "1955-01-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

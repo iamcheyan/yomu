@@ -92,5 +92,36 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059406",
+    "title": "ファシズムとは何か",
+    "titleKana": "ファシズムとはなにか",
+    "sortKana": "ふあしすむとはなにか",
+    "originalTitle": "WHAT IS FASCISM?",
+    "ndc": "NDC 934",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2019-01-21",
+    "updatedAt": "2019-11-22",
+    "cardUrl": "https://www.aozora.gr.jp/cards/002035/card59406.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/002035/files/59406_ruby_66605.zip",
+    "textFileId": "59406_ruby_66605",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/002035/files/59406_66606.html",
+    "inputBy": "The Creative CAT",
+    "author": "オーウェルジョージ",
+    "authors": [
+      {
+        "personId": "002035",
+        "name": "オーウェルジョージ",
+        "kana": "オーウェルジョージ",
+        "roman": "George Orwell",
+        "role": "著者",
+        "birthDate": "1903-06-25",
+        "deathDate": "1950-01-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -162,5 +162,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045142",
+    "title": "身代り",
+    "titleKana": "みがわり",
+    "sortKana": "みかわり",
+    "ndc": "NDC K913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-09-03",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001179/card45142.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001179/files/45142_ruby_51140.zip",
+    "textFileId": "45142_ruby_51140",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001179/files/45142_51141.html",
+    "inputBy": "菅野朋子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本児童文学大系　第九巻",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1977（昭和52）年11月20日",
+      "inputEdition": "1977（昭和52）年11月20日初刷",
+      "proofreadEdition": "1977（昭和52）年11月20日初刷"
+    },
+    "author": "土田耕平",
+    "authors": [
+      {
+        "personId": "001179",
+        "name": "土田耕平",
+        "kana": "つちだこうへい",
+        "roman": "Kohei Tsuchida",
+        "role": "著者",
+        "birthDate": "1895-01-25",
+        "deathDate": "1940-08-12",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

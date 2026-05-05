@@ -46,5 +46,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004685",
+    "title": "文芸とヒロイツク",
+    "titleKana": "ぶんげいとヒロイック",
+    "sortKana": "ふんけいとひろいつく",
+    "firstAppearance": "「東京朝日新聞　文芸欄」1910（明治43）年7月19日",
+    "ndc": "NDC 901",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-04-10",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000148/card4685.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000148/files/4685_ruby_9479.zip",
+    "textFileId": "4685_ruby_9479",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000148/files/4685_9480.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "漱石全集　第十六巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1995（平成7）年4月19日",
+      "inputEdition": "1995（平成7）年4月19日",
+      "proofreadEdition": "1995（平成7）年4月19日"
+    },
+    "author": "夏目漱石",
+    "authors": [
+      {
+        "personId": "000148",
+        "name": "夏目漱石",
+        "kana": "なつめそうせき",
+        "roman": "Soseki Natsume",
+        "role": "著者",
+        "birthDate": "1867-02-09",
+        "deathDate": "1916-12-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

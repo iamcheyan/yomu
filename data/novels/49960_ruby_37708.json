@@ -114,5 +114,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049960",
+    "title": "梅にうぐいす",
+    "titleKana": "うめにうぐいす",
+    "sortKana": "うめにうくいす",
+    "firstAppearance": "「独歩」1953（昭和28）年",
+    "ndc": "NDC 596",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-01-17",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001403/card49960.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001403/files/49960_ruby_37708.zip",
+    "textFileId": "49960_ruby_37708",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001403/files/49960_37760.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "魯山人の美食手帖",
+      "publisher": "グルメ文庫、角川春樹事務所",
+      "firstPublishedAt": "2008（平成20）年4月18日",
+      "inputEdition": "2008（平成20）年4月18日第1刷",
+      "proofreadEdition": "2008（平成20）年4月18日第1刷"
+    },
+    "author": "北大路魯山人",
+    "authors": [
+      {
+        "personId": "001403",
+        "name": "北大路魯山人",
+        "kana": "きたおおじろさんじん",
+        "roman": "Rosanjin Kitaoji",
+        "role": "著者",
+        "birthDate": "1883-03-23",
+        "deathDate": "1959-12-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

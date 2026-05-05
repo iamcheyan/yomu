@@ -28214,5 +28214,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057875",
+    "title": "江戸三国志",
+    "titleKana": "えどさんごくし",
+    "sortKana": "えとさんこくし",
+    "firstAppearance": "「報知新聞」報知社、1927（昭和2）年10月～終号未詳",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-02-03",
+    "updatedAt": "2021-10-09",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001562/card57875.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001562/files/57875_ruby_60767.zip",
+    "textFileId": "57875_ruby_60767",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001562/files/57875_60802.html",
+    "inputBy": "結城宏",
+    "proofreadBy": "北川松生",
+    "baseBook1": {
+      "title": "吉川英治全集　5　江戸三国志",
+      "publisher": "講談社",
+      "firstPublishedAt": "1982（昭和57）年6月21日",
+      "inputEdition": "1982（昭和57）年6月21日第1刷",
+      "proofreadEdition": "1982（昭和57）年6月21日第1刷"
+    },
+    "author": "吉川英治",
+    "authors": [
+      {
+        "personId": "001562",
+        "name": "吉川英治",
+        "kana": "よしかわえいじ",
+        "roman": "Eiji Yoshikawa",
+        "role": "著者",
+        "birthDate": "1892-08-11",
+        "deathDate": "1962-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

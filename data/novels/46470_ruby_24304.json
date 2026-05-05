@@ -192,5 +192,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046470",
+    "title": "放浪作家の冒険",
+    "titleKana": "ほうろうさっかのぼうけん",
+    "sortKana": "ほうろうさつかのほうけん",
+    "firstAppearance": "「探偵春秋　第一巻第三号」春秋社、1936（昭和11）年12月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-11-25",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001143/card46470.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001143/files/46470_ruby_24304.zip",
+    "textFileId": "46470_ruby_24304",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001143/files/46470_24599.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "幻の探偵雑誌4　「探偵春秋」傑作選",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2001（平成13）年1月20日",
+      "inputEdition": "2001（平成13）年1月20日初版1刷",
+      "proofreadEdition": "2001（平成13）年1月20日初版1刷"
+    },
+    "author": "西尾正",
+    "authors": [
+      {
+        "personId": "001143",
+        "name": "西尾正",
+        "kana": "にしおただし",
+        "roman": "Tadashi Nishio",
+        "role": "著者",
+        "birthDate": "1907-12-12",
+        "deathDate": "1949-03-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -44,5 +44,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053735",
+    "title": "日本上代史の研究に関する二、三の傾向について",
+    "titleKana": "にほんじょうだいしのけんきゅうにかんするに、さんのけいこうについて",
+    "sortKana": "にほんしようたいしのけんきゆうにかんするにさんのけいこうについて",
+    "firstAppearance": "「思想　一一〇」1931（昭和6）年7月",
+    "ndc": "NDC 210",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-09-25",
+    "updatedAt": "2017-08-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001535/card53735.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001535/files/53735_ruby_62534.zip",
+    "textFileId": "53735_ruby_62534",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001535/files/53735_62576.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "津田左右吉歴史論集",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "2006（平成18）年8月17日",
+      "inputEdition": "2006（平成18）年11月15日第2刷",
+      "proofreadEdition": "2006（平成18）年11月15日第2刷"
+    },
+    "author": "津田左右吉",
+    "authors": [
+      {
+        "personId": "001535",
+        "name": "津田左右吉",
+        "kana": "つだそうきち",
+        "roman": "Sokichi Tsuda",
+        "role": "著者",
+        "birthDate": "1873-10-03",
+        "deathDate": "1961-12-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -234,5 +234,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003050",
+    "title": "洪水大陸を呑む",
+    "titleKana": "こうずいたいりくをのむ",
+    "sortKana": "こうすいたいりくをのむ",
+    "firstAppearance": "「まひる」1947（昭和22）～1948（昭和23）年頃（掲載年月日不詳）",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-01-22",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card3050.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/3050_ruby_20532.zip",
+    "textFileId": "3050_ruby_20532",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/3050_20669.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "kazuishi",
+    "baseBook1": {
+      "title": "海野十三全集　第11巻　四次元漂流",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1988（昭和63）年12月15日",
+      "inputEdition": "1988（昭和63）年12月15日第1版第1刷",
+      "proofreadEdition": "1988（昭和63）年12月15日第1版第1刷"
+    },
+    "author": "海野十三",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -1342,5 +1342,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001558",
+    "title": "砂がき",
+    "titleKana": "すながき",
+    "sortKana": "すなかき",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-01-25",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000212/card1558.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000212/files/1558_ruby_8005.zip",
+    "textFileId": "1558_ruby_8005",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000212/files/1558_8296.html",
+    "inputBy": "皆森もなみ",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "砂がき",
+      "publisher": "ノーベル書房株式会社",
+      "firstPublishedAt": "1976（昭和51）年10月5日",
+      "inputEdition": "1976（昭和51）年10月5日初版",
+      "proofreadEdition": "1976（昭和51）年10月5日初版"
+    },
+    "author": "竹久夢二",
+    "authors": [
+      {
+        "personId": "000212",
+        "name": "竹久夢二",
+        "kana": "たけひさゆめじ",
+        "roman": "Yumeji Takehisa",
+        "role": "著者",
+        "birthDate": "1884-09-16",
+        "deathDate": "1934-09-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

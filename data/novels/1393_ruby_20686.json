@@ -128,5 +128,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001393",
+    "title": "すかんぽ",
+    "titleKana": "すかんぽ",
+    "sortKana": "すかんほ",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-01-24",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000120/card1393.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000120/files/1393_ruby_20686.zip",
+    "textFileId": "1393_ruby_20686",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000120/files/1393_20687.html",
+    "inputBy": "伊藤時也",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "現代日本文學全集　17　小山内薫　木下杢太郎　吉井勇集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1968（昭和43）年4月5日"
+    },
+    "author": "木下杢太郎",
+    "authors": [
+      {
+        "personId": "000120",
+        "name": "木下杢太郎",
+        "kana": "きのしたもくたろう",
+        "roman": "Mokutaro Kinoshita",
+        "role": "著者",
+        "birthDate": "1885-08-01",
+        "deathDate": "1945-10-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

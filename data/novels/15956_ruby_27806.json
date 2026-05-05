@@ -128,5 +128,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "015956",
+    "title": "唖娘スバー",
+    "titleKana": "おしむすめスバー",
+    "sortKana": "おしむすめすはあ",
+    "firstAppearance": "「少女倶楽部」1923（大正12）年2月号",
+    "ndc": "NDC 929",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-10-18",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001075/card15956.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001075/files/15956_ruby_27806.zip",
+    "textFileId": "15956_ruby_27806",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001075/files/15956_27932.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "宮本百合子全集　第三十巻",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1986（昭和61）年3月20日",
+      "inputEdition": "1986（昭和61）年3月20日初版",
+      "proofreadEdition": "1986（昭和61）年3月20日初版"
+    },
+    "author": "タゴールラビンドラナート",
+    "authors": [
+      {
+        "personId": "001075",
+        "name": "タゴールラビンドラナート",
+        "kana": "タゴールラビンドラナート",
+        "roman": "Rabindranath Tagore",
+        "role": "著者",
+        "birthDate": "1861-05-06",
+        "deathDate": "1941-08-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

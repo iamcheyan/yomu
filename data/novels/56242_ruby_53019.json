@@ -30,5 +30,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056242",
+    "title": "章魚木の下で",
+    "titleKana": "たこのきのしたで",
+    "sortKana": "たこのきのしたて",
+    "firstAppearance": "「新創作」1943（昭和18）年新年号",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-03-25",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000119/card56242.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000119/files/56242_ruby_53019.zip",
+    "textFileId": "56242_ruby_53019",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000119/files/56242_53066.html",
+    "inputBy": "小池健太",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "中島敦全集3",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1993（平成5）年5月24日",
+      "inputEdition": "1993（平成5）年5月24日第1刷",
+      "proofreadEdition": "2003（平成15）年3月20日第5刷"
+    },
+    "author": "中島敦",
+    "authors": [
+      {
+        "personId": "000119",
+        "name": "中島敦",
+        "kana": "なかじまあつし",
+        "roman": "Atsushi Nakajima",
+        "role": "著者",
+        "birthDate": "1909-05-05",
+        "deathDate": "1942-12-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

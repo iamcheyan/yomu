@@ -44,5 +44,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001526",
+    "title": "幽霊の芝居見",
+    "titleKana": "ゆうれいのしばいみ",
+    "sortKana": "ゆうれいのしはいみ",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-04-05",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000150/card1526.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000150/files/1526_ruby_21708.zip",
+    "textFileId": "1526_ruby_21708",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000150/files/1526_22311.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻64　怪談",
+      "publisher": "作品社",
+      "firstPublishedAt": "1996（平成8）年6月25日",
+      "inputEdition": "1996（平成8）年6月25日第1刷",
+      "proofreadEdition": "1996（平成8）年6月25日第1刷"
+    },
+    "author": "薄田泣菫",
+    "authors": [
+      {
+        "personId": "000150",
+        "name": "薄田泣菫",
+        "kana": "すすきだきゅうきん",
+        "roman": "Kyukin Susukida",
+        "role": "著者",
+        "birthDate": "1877-05-19",
+        "deathDate": "1945-10-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

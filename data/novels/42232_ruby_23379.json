@@ -218,5 +218,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042232",
+    "title": "新詩発生時代の思ひ出",
+    "titleKana": "しんしはっせいじだいのおもいで",
+    "sortKana": "しんしはつせいしたいのおもいて",
+    "firstAppearance": "「中央公論」中央公論社、1935（昭和10）年7月号",
+    "ndc": "NDC 914 911 902",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-08-04",
+    "updatedAt": "2015-10-20",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001081/card42232.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001081/files/42232_ruby_23379.zip",
+    "textFileId": "42232_ruby_23379",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001081/files/42232_23645.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "明治文學全集　58　土井晩翠　薄田泣菫　蒲原有明集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1967（昭和42）年4月15日",
+      "inputEdition": "1967（昭和42）年4月15日",
+      "proofreadEdition": "1967（昭和42）年4月15日"
+    },
+    "author": "土井晩翠",
+    "authors": [
+      {
+        "personId": "001081",
+        "name": "土井晩翠",
+        "kana": "どいばんすい",
+        "roman": "Bansui Doi",
+        "role": "著者",
+        "birthDate": "1871-12-05",
+        "deathDate": "1952-10-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -76,5 +76,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060466",
+    "title": "「続スウィス日記」発掘の始末",
+    "titleKana": "「ぞくスウィスにっき」はっくつのしまつ",
+    "sortKana": "そくすういすにつきはつくつのしまつ",
+    "subtitle": "附「スウィス日記」の由来",
+    "subtitleKana": "ふ「スウィスにっき」のゆらい",
+    "firstAppearance": "「スウィス日記」梓書房、1930（昭和5）年",
+    "ndc": "NDC 293",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-12-13",
+    "updatedAt": "2022-03-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000027/card60466.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000027/files/60466_ruby_74574.zip",
+    "textFileId": "60466_ruby_74574",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000027/files/60466_74611.html",
+    "inputBy": "富田晶子",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "スウィス日記",
+      "publisher": "平凡社ライブラリー、平凡社",
+      "firstPublishedAt": "1998（平成10）年2月15日",
+      "inputEdition": "1998（平成10）年2月15日初版第1刷",
+      "proofreadEdition": "1998（平成10）年2月15日初版第1刷"
+    },
+    "author": "小島烏水",
+    "authors": [
+      {
+        "personId": "000027",
+        "name": "小島烏水",
+        "kana": "こじまうすい",
+        "roman": "Usui Kojima",
+        "role": "著者",
+        "birthDate": "1873-12-29",
+        "deathDate": "1948-12-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

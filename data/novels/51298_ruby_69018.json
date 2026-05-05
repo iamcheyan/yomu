@@ -68,5 +68,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051298",
+    "title": "九月朔日",
+    "titleKana": "くがつさくじつ",
+    "sortKana": "くかつさくしつ",
+    "firstAppearance": "前半の（三一・九）「春燈　第十一巻第九号」春燈社、1956（昭和31）年9月1日",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-09-01",
+    "updatedAt": "2019-08-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001336/card51298.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001336/files/51298_ruby_69018.zip",
+    "textFileId": "51298_ruby_69018",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001336/files/51298_69109.html",
+    "inputBy": "Ｈ．ＹＡＭ",
+    "proofreadBy": "きりんの手紙",
+    "baseBook1": {
+      "title": "繪入墨東今昔　心猿第二隨筆集",
+      "publisher": "葛飾俳話会",
+      "firstPublishedAt": "1957（昭和32）年2月4日",
+      "inputEdition": "1957（昭和32）年2月4日",
+      "proofreadEdition": "1957（昭和32）年2月4日"
+    },
+    "author": "伊庭心猿",
+    "authors": [
+      {
+        "personId": "001336",
+        "name": "伊庭心猿",
+        "kana": "いばしんえん",
+        "roman": "Shinen Iba",
+        "role": "著者",
+        "birthDate": "1908",
+        "deathDate": "1957-02-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

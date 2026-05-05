@@ -80,5 +80,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055668",
+    "title": "大つごもり",
+    "titleKana": "おおつごもり",
+    "sortKana": "おおつこもり",
+    "firstAppearance": "「文學界　二十四號」文學界社雑誌社、1894（明治27）年12月30日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-11-23",
+    "updatedAt": "2020-10-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000064/card55668.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000064/files/55668_ruby_72089.zip",
+    "textFileId": "55668_ruby_72089",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000064/files/55668_72130.html",
+    "inputBy": "万波通彦",
+    "proofreadBy": "猫の手ぴい",
+    "baseBook1": {
+      "title": "太陽　第二卷三號",
+      "publisher": "博文館",
+      "firstPublishedAt": "1896（明治29）年2月5日",
+      "inputEdition": "1896（明治29）年2月5日",
+      "proofreadEdition": "1896（明治29）年2月5日"
+    },
+    "author": "樋口一葉",
+    "authors": [
+      {
+        "personId": "000064",
+        "name": "樋口一葉",
+        "kana": "ひぐちいちよう",
+        "roman": "Ichiyo Higuchi",
+        "role": "著者",
+        "birthDate": "1872-05-02",
+        "deathDate": "1896-11-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

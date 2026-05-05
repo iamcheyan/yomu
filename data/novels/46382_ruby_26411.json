@@ -170,5 +170,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046382",
+    "title": "歌の円寂する時",
+    "titleKana": "うたのえんじゃくするとき",
+    "sortKana": "うたのえんしやくするとき",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-04-18",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card46382.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/46382_ruby_26411.zip",
+    "textFileId": "46382_ruby_26411",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/46382_26540.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "昭和文学全集第4巻",
+      "publisher": "小学館",
+      "firstPublishedAt": "1989（平成元）年4月1日",
+      "inputEdition": "1993（平成5）年9月10日初版第2刷",
+      "proofreadEdition": "1993（平成5）年9月10日初版第2刷"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -70,5 +70,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048661",
+    "title": "おさなご",
+    "titleKana": "おさなご",
+    "sortKana": "おさなこ",
+    "firstAppearance": "「みどりごの心」1931（昭和6）年",
+    "ndc": "NDC 379",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-06-05",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001338/card48661.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001338/files/48661_ruby_47415.zip",
+    "textFileId": "48661_ruby_47415",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001338/files/48661_47780.html",
+    "inputBy": "蒋龍",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "羽仁もと子選集　おさなごを発見せよ",
+      "publisher": "婦人之友社",
+      "firstPublishedAt": "1965（昭和40）年11月1日、1995（平成7）年10月1日新刷",
+      "inputEdition": "1999（平成11）年11月1日5刷",
+      "proofreadEdition": "2011（平成23）年6月20日19刷"
+    },
+    "author": "羽仁もと子",
+    "authors": [
+      {
+        "personId": "001338",
+        "name": "羽仁もと子",
+        "kana": "はにもとこ",
+        "roman": "Motoko Hani",
+        "role": "著者",
+        "birthDate": "1873-09-08",
+        "deathDate": "1957-04-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

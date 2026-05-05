@@ -494,5 +494,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042465",
+    "title": "南さんの恋人",
+    "titleKana": "みなみさんのこいびと",
+    "sortKana": "みなみさんのこいひと",
+    "subtitle": "――「小悪魔の記録」――",
+    "subtitleKana": "――「こあくまのきろく」――",
+    "firstAppearance": "「中央公論」1936（昭和11）年4月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-05-30",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000906/card42465.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000906/files/42465_ruby_29809.zip",
+    "textFileId": "42465_ruby_29809",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000906/files/42465_31210.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "豊島与志雄著作集　第三巻（小説Ⅲ）",
+      "publisher": "未来社",
+      "firstPublishedAt": "1966（昭和41）年8月10日",
+      "inputEdition": "1966（昭和41）年8月10日第1刷",
+      "proofreadEdition": "1966（昭和41）年8月10日第1刷"
+    },
+    "author": "豊島与志雄",
+    "authors": [
+      {
+        "personId": "000906",
+        "name": "豊島与志雄",
+        "kana": "とよしまよしお",
+        "roman": "Yoshio Toyoshima",
+        "role": "著者",
+        "birthDate": "1890-11-27",
+        "deathDate": "1955-06-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

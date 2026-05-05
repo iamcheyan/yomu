@@ -448,5 +448,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058325",
+    "title": "おじさんの話",
+    "titleKana": "おじさんのはなし",
+    "sortKana": "おしさんのはなし",
+    "firstAppearance": "「新潮　第五十巻七号」新潮社、1953（昭和28）年7月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-12-10",
+    "updatedAt": "2019-11-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001867/card58325.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001867/files/58325_ruby_69685.zip",
+    "textFileId": "58325_ruby_69685",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001867/files/58325_69730.html",
+    "inputBy": "kompass",
+    "proofreadBy": "酒井裕二",
+    "baseBook1": {
+      "title": "日日の麺麭・風貌　小山清作品集",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "2005（平成17）年11月10日",
+      "inputEdition": "2005（平成17）年11月10日第1刷",
+      "proofreadEdition": "2005（平成17）年11月10日第1刷"
+    },
+    "author": "小山清",
+    "authors": [
+      {
+        "personId": "001867",
+        "name": "小山清",
+        "kana": "こやまきよし",
+        "roman": "Kiyoshi Koyama",
+        "role": "著者",
+        "birthDate": "1911-10-04",
+        "deathDate": "1965-03-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

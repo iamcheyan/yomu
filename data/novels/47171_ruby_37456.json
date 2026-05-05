@@ -44,5 +44,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047171",
+    "title": "ローマ字論者への質疑",
+    "titleKana": "ローマじろんしゃへのしつぎ",
+    "sortKana": "ろおましろんしやへのしつき",
+    "ndc": "NDC 811",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-03-27",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000067/card47171.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000067/files/47171_ruby_37456.zip",
+    "textFileId": "47171_ruby_37456",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000067/files/47171_38274.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "萩原朔太郎全集　第十一卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1977（昭和52）年8月25日",
+      "inputEdition": "1987（昭和62）年8月10日補訂版1刷",
+      "proofreadEdition": "1977（昭和52）年8月25日初版"
+    },
+    "author": "萩原朔太郎",
+    "authors": [
+      {
+        "personId": "000067",
+        "name": "萩原朔太郎",
+        "kana": "はぎわらさくたろう",
+        "roman": "Sakutaro Hagiwara",
+        "role": "著者",
+        "birthDate": "1886-11-01",
+        "deathDate": "1942-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

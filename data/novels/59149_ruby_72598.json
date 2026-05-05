@@ -46,5 +46,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059149",
+    "title": "二月堂の夕",
+    "titleKana": "にがつどうのゆう",
+    "sortKana": "にかつとうのゆう",
+    "firstAppearance": "「新小説　臨時増刊　天才泉鏡花」1925（大正14）年5月",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-02-06",
+    "updatedAt": "2021-01-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001383/card59149.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001383/files/59149_ruby_72598.zip",
+    "textFileId": "59149_ruby_72598",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001383/files/59149_72642.html",
+    "inputBy": "杉浦鳥見",
+    "proofreadBy": "芝裕久",
+    "baseBook1": {
+      "title": "谷崎潤一郎全集　第十卷",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1982（昭和57）年2月25日",
+      "inputEdition": "1982（昭和57）年2月25日初版",
+      "proofreadEdition": "1982（昭和57）年2月25日初版"
+    },
+    "author": "谷崎潤一郎",
+    "authors": [
+      {
+        "personId": "001383",
+        "name": "谷崎潤一郎",
+        "kana": "たにざきじゅんいちろう",
+        "roman": "Jun'ichiro Tanizaki",
+        "role": "著者",
+        "birthDate": "1886-07-24",
+        "deathDate": "1965-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

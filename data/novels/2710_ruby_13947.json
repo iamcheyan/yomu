@@ -180,5 +180,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002710",
+    "title": "風流仏",
+    "titleKana": "ふうりゅうぶつ",
+    "sortKana": "ふうりゆうふつ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-12-29",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000051/card2710.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000051/files/2710_ruby_13947.zip",
+    "textFileId": "2710_ruby_13947",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000051/files/2710_14020.html",
+    "inputBy": "kompass",
+    "proofreadBy": "今井忠夫",
+    "baseBook1": {
+      "title": "日本の文学　3　五重塔・運命",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1985（昭和60）年2月1日",
+      "inputEdition": "1985（昭和60）年2月1日初版第1刷",
+      "proofreadEdition": "1985（昭和60）年2月1日初版第1刷"
+    },
+    "author": "幸田露伴",
+    "authors": [
+      {
+        "personId": "000051",
+        "name": "幸田露伴",
+        "kana": "こうだろはん",
+        "roman": "Rohan Koda",
+        "role": "著者",
+        "birthDate": "1867-08-20",
+        "deathDate": "1947-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

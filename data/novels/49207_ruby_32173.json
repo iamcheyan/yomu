@@ -26,5 +26,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049207",
+    "title": "月夜峠",
+    "titleKana": "つきよとうげ",
+    "sortKana": "つきよとうけ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-10-23",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000941/card49207.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000941/files/49207_ruby_32173.zip",
+    "textFileId": "49207_ruby_32173",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000941/files/49207_33041.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "文豪怪談傑作選・特別篇　百物語怪談会",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2007（平成19）年7月10日",
+      "inputEdition": "2007（平成19）年7月10日第1刷",
+      "proofreadEdition": "2007（平成19）年7月10日第1刷"
+    },
+    "author": "水野葉舟",
+    "authors": [
+      {
+        "personId": "000941",
+        "name": "水野葉舟",
+        "kana": "みずのようしゅう",
+        "roman": "Yoshu Mizuno",
+        "role": "著者",
+        "birthDate": "1883-04-09",
+        "deathDate": "1947-02-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

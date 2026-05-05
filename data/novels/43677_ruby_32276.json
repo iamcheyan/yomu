@@ -352,5 +352,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043677",
+    "title": "一週一夜物語",
+    "titleKana": "いっしゅういちやものがたり",
+    "sortKana": "いつしゆういちやものかたり",
+    "firstAppearance": "「新青年」博文館、1938（昭和13）年8月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-11-03",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000125/card43677.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000125/files/43677_ruby_32276.zip",
+    "textFileId": "43677_ruby_32276",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000125/files/43677_33197.html",
+    "inputBy": "ロクス・ソルス",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "潜航艇「鷹の城」",
+      "publisher": "現代教養文庫、社会思想社",
+      "firstPublishedAt": "1977（昭和52）年12月15日",
+      "inputEdition": "1977（昭和52）年12月15日初版第1刷",
+      "proofreadEdition": "1977（昭和52）年12月15日初版第1刷"
+    },
+    "author": "小栗虫太郎",
+    "authors": [
+      {
+        "personId": "000125",
+        "name": "小栗虫太郎",
+        "kana": "おぐりむしたろう",
+        "roman": "Mushitaro Oguri",
+        "role": "著者",
+        "birthDate": "1901-03-14",
+        "deathDate": "1946-02-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

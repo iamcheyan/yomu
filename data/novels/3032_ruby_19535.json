@@ -164,5 +164,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003032",
+    "title": "少年と海",
+    "titleKana": "しょうねんとうみ",
+    "sortKana": "しようねんとうみ",
+    "firstAppearance": "「赤い鳥」1920（大正9）年8月号",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-08-27",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000247/card3032.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000247/files/3032_ruby_19535.zip",
+    "textFileId": "3032_ruby_19535",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000247/files/3032_19536.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "赤い鳥傑作集",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1955（昭和30）年6月25日、1974（昭和49）年9月10日29版改版",
+      "inputEdition": "1989（平成元）年10月15日48刷"
+    },
+    "author": "加能作次郎",
+    "authors": [
+      {
+        "personId": "000247",
+        "name": "加能作次郎",
+        "kana": "かのうさくじろう",
+        "roman": "Sakujiro Kano",
+        "role": "著者",
+        "birthDate": "1885-01-10",
+        "deathDate": "1941-08-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

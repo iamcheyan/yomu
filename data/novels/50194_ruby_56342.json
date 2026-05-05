@@ -1012,5 +1012,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050194",
+    "title": "歌の話",
+    "titleKana": "うたのはなし",
+    "sortKana": "うたのはなし",
+    "ndc": "NDC K911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-05-30",
+    "updatedAt": "2015-04-08",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card50194.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/50194_ruby_56342.zip",
+    "textFileId": "50194_ruby_56342",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/50194_56390.html",
+    "inputBy": "しだひろし",
+    "proofreadBy": "沼尻利通",
+    "baseBook1": {
+      "title": "歌・俳句・諺",
+      "publisher": "復刻版日本児童文庫、名著普及会",
+      "firstPublishedAt": "1982（昭和57）年10月20日",
+      "inputEdition": "1982（昭和57）年10月20日",
+      "proofreadEdition": "1982（昭和57）年10月20日"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

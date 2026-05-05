@@ -160,5 +160,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047418",
+    "title": "監獄部屋",
+    "titleKana": "かんごくべや",
+    "sortKana": "かんこくへや",
+    "firstAppearance": "「新青年」1926（大正15）年3月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-01-01",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001305/card47418.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001305/files/47418_ruby_29113.zip",
+    "textFileId": "47418_ruby_29113",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001305/files/47418_29114.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本探偵小説全集11　名作集１",
+      "publisher": "創元推理文庫、東京創元社",
+      "firstPublishedAt": "1996（平成8）年6月21日",
+      "inputEdition": "1998（平成10）年8月21日再版",
+      "proofreadEdition": "2004（平成16）年9月3日3版"
+    },
+    "author": "羽志主水",
+    "authors": [
+      {
+        "personId": "001305",
+        "name": "羽志主水",
+        "kana": "はしもんど",
+        "roman": "mondo hashi",
+        "role": "著者",
+        "birthDate": "1884-06-03",
+        "deathDate": "1957-02-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

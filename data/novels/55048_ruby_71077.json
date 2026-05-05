@@ -34,5 +34,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055048",
+    "title": "書道習学の道",
+    "titleKana": "しょどうしゅうがくのみち",
+    "sortKana": "しよとうしゆうかくのみち",
+    "ndc": "NDC 728",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-06-02",
+    "updatedAt": "2020-05-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001403/card55048.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001403/files/55048_ruby_71077.zip",
+    "textFileId": "55048_ruby_71077",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001403/files/55048_71122.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "木下聡",
+    "baseBook1": {
+      "title": "魯山人書論",
+      "publisher": "中公文庫、中央公論新社",
+      "firstPublishedAt": "1996（平成8）年9月18日",
+      "inputEdition": "2007（平成19）年9月25日3刷",
+      "proofreadEdition": "2007（平成19）年9月25日3刷"
+    },
+    "author": "北大路魯山人",
+    "authors": [
+      {
+        "personId": "001403",
+        "name": "北大路魯山人",
+        "kana": "きたおおじろさんじん",
+        "roman": "Rosanjin Kitaoji",
+        "role": "著者",
+        "birthDate": "1883-03-23",
+        "deathDate": "1959-12-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

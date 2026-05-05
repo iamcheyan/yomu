@@ -196,5 +196,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002953",
+    "title": "昇降場",
+    "titleKana": "プラットフォーム",
+    "sortKana": "ふらつとふおおむ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-12-27",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000295/card2953.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000295/files/2953_ruby_5754.zip",
+    "textFileId": "2953_ruby_5754",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000295/files/2953_48826.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "日本プロレタリア文学大系（序）",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1955（昭和30）年3月31日",
+      "inputEdition": "1961（昭和36）年6月20日第2刷"
+    },
+    "author": "広津柳浪",
+    "authors": [
+      {
+        "personId": "000295",
+        "name": "広津柳浪",
+        "kana": "ひろつりゅうろう",
+        "roman": "Ryuro Hirotsu",
+        "role": "著者",
+        "birthDate": "1861-07-15",
+        "deathDate": "1928-10-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

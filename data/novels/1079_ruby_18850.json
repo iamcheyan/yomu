@@ -168,5 +168,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001079",
+    "title": "なまけ者と雨",
+    "titleKana": "なまけものとあめ",
+    "sortKana": "なまけものとあめ",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-08-18",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000162/card1079.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000162/files/1079_ruby_18850.zip",
+    "textFileId": "1079_ruby_18850",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000162/files/1079_18851.html",
+    "inputBy": "加藤恭子",
+    "proofreadBy": "浦田伴俊",
+    "baseBook1": {
+      "title": "日本の名随筆43　雨",
+      "publisher": "作品社",
+      "firstPublishedAt": "1986（昭和61）年5月25日",
+      "inputEdition": "1991（平成3）年10月20日第10刷"
+    },
+    "author": "若山牧水",
+    "authors": [
+      {
+        "personId": "000162",
+        "name": "若山牧水",
+        "kana": "わかやまぼくすい",
+        "roman": "Bokusui Wakayama",
+        "role": "著者",
+        "birthDate": "1885-08-24",
+        "deathDate": "1928-09-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

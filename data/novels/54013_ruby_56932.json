@@ -202,5 +202,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054013",
+    "title": "動員令",
+    "titleKana": "どういんれい",
+    "sortKana": "とういんれい",
+    "firstAppearance": "「プロレタリア文学」1932（昭和7）年4月作品増刊号",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-08-07",
+    "updatedAt": "2015-08-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001620/card54013.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001620/files/54013_ruby_56932.zip",
+    "textFileId": "54013_ruby_56932",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001620/files/54013_57279.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・38　プロレタリア詩集（一）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年5月25日",
+      "inputEdition": "1987（昭和62）年5月25日初版",
+      "proofreadEdition": "1987（昭和62）年5月25日初版"
+    },
+    "author": "波立一",
+    "authors": [
+      {
+        "personId": "001620",
+        "name": "波立一",
+        "kana": "はりゅうはじめ",
+        "roman": "Hajime Haryu",
+        "role": "著者",
+        "birthDate": "1908",
+        "deathDate": "1937",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

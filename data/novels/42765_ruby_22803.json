@@ -104,5 +104,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042765",
+    "title": "鉱毒飛沫",
+    "titleKana": "こうどくひまつ",
+    "sortKana": "こうとくひまつ",
+    "firstAppearance": "「毎日新聞」1900（明治33）年2月19日",
+    "ndc": "NDC 312 368 071 561",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-06-19",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000525/card42765.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000525/files/42765_ruby_22803.zip",
+    "textFileId": "42765_ruby_22803",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000525/files/42765_23161.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "現代日本文學大系　9　徳冨蘆花・木下尚江集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1971（昭和46）年10月5日",
+      "inputEdition": "1985（昭和60）年11月10日初版第13刷",
+      "proofreadEdition": "1985（昭和60）年11月10日初版第13刷"
+    },
+    "author": "木下尚江",
+    "authors": [
+      {
+        "personId": "000525",
+        "name": "木下尚江",
+        "kana": "きのしたなおえ",
+        "roman": "Naoe Kinoshita",
+        "role": "著者",
+        "birthDate": "1869-10-12",
+        "deathDate": "1937-11-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

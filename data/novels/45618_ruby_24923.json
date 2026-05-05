@@ -148,5 +148,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045618",
+    "title": "鼠坂",
+    "titleKana": "ねずみざか",
+    "sortKana": "ねすみさか",
+    "firstAppearance": "「中央公論」1912（明治45）年4月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-01-25",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card45618.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/45618_ruby_24923.zip",
+    "textFileId": "45618_ruby_24923",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/45618_25532.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "灰燼　かのように　森鴎外全集3",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1995（平成7）年8月24日",
+      "inputEdition": "1995（平成7）年8月24日第1刷",
+      "proofreadEdition": "1995（平成7）年8月24日第1刷"
+    },
+    "author": "森鴎外",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

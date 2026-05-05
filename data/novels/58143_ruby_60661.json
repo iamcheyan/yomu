@@ -112,5 +112,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058143",
+    "title": "悦しき知識",
+    "titleKana": "よろこばしきちしき",
+    "sortKana": "よろこはしきちしき",
+    "subtitle": "――停年講義（昭和三十三年九月十六日）",
+    "subtitleKana": "――ていねんこうぎ（しょうわさんじゅうさんねんくがつじゅうろくにち）",
+    "firstAppearance": "「英文学評論　第六輯」京都大学教養学部英語教室、1959（昭和34）年3月20日発行",
+    "ndc": "NDC 930",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-01-01",
+    "updatedAt": "2017-01-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001913/card58143.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001913/files/58143_ruby_60661.zip",
+    "textFileId": "58143_ruby_60661",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001913/files/58143_60662.html",
+    "inputBy": "大久保ゆう",
+    "proofreadBy": "日野ととり",
+    "baseBook1": {
+      "title": "深瀬基寛集第一巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1968（昭和43）年9月25日",
+      "inputEdition": "1968（昭和43）年9月25日",
+      "proofreadEdition": "1968（昭和43）年9月25日"
+    },
+    "author": "深瀬基寛",
+    "authors": [
+      {
+        "personId": "001913",
+        "name": "深瀬基寛",
+        "kana": "ふかせもとひろ",
+        "roman": "Motohiro Fukase",
+        "role": "著者",
+        "birthDate": "1895-10-12",
+        "deathDate": "1966-08-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

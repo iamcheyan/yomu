@@ -204,5 +204,54 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048932",
+    "title": "波の音",
+    "titleKana": "なみのおと",
+    "sortKana": "なみのおと",
+    "firstAppearance": "「女性改造　第二巻第四号」1923（大正12）年4月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-07-20",
+    "updatedAt": "2019-06-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000214/card48932.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000214/files/48932_ruby_68448.zip",
+    "textFileId": "48932_ruby_68448",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000214/files/48932_68497.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "津村田悟",
+    "baseBook1": {
+      "title": "定本　花袋全集　第二十二巻",
+      "publisher": "臨川書店",
+      "firstPublishedAt": "1995（平成7）年2月10日",
+      "inputEdition": "1995（平成7）年2月10日",
+      "proofreadEdition": "1995（平成7）年2月10日"
+    },
+    "author": "田山花袋、田山録弥",
+    "authors": [
+      {
+        "personId": "000214",
+        "name": "田山花袋",
+        "kana": "たやまかたい",
+        "roman": "Katai Tayama",
+        "role": "著者",
+        "birthDate": "1872-01-22",
+        "deathDate": "1930-05-13",
+        "copyright": "なし"
+      },
+      {
+        "personId": "001416",
+        "name": "田山録弥",
+        "kana": "たやまろくや",
+        "roman": "Rokuya Tayama",
+        "role": "著者",
+        "birthDate": "1872-01-22",
+        "deathDate": "1930-05-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -66,5 +66,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053835",
+    "title": "首里城",
+    "titleKana": "しゅりじょう",
+    "sortKana": "しゆりしよう",
+    "firstAppearance": "「日本詩人　第三巻第三号」1923（大正12）年3月",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-01-23",
+    "updatedAt": "2017-01-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001606/card53835.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001606/files/53835_ruby_60448.zip",
+    "textFileId": "53835_ruby_60448",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001606/files/53835_60492.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "良本典代",
+    "baseBook1": {
+      "title": "沖縄文学選　日本のエッジからの問い",
+      "publisher": "勉誠出版",
+      "firstPublishedAt": "2003（平成15）年5月1日",
+      "inputEdition": "2003（平成15）年5月1日初版",
+      "proofreadEdition": "2003（平成15）年5月1日初版"
+    },
+    "author": "世礼国男",
+    "authors": [
+      {
+        "personId": "001606",
+        "name": "世礼国男",
+        "kana": "せれいくにお",
+        "roman": "Kunio Serei",
+        "role": "著者",
+        "birthDate": "1897-07-20",
+        "deathDate": "1950-01-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

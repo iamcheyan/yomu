@@ -3474,5 +3474,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056182",
+    "title": "夏と少年の短篇",
+    "titleKana": "なつとしょうねんのたんぺん",
+    "sortKana": "なつとしようねんのたんへん",
+    "firstAppearance": "私とキャッチ・ボールをしてください「野性時代　第19巻第6号」角川書店、1992（平成4）年6月号<br>あの雲を追跡する「野性時代　第18巻第10号」角川書店、1991（平成3）年10月号<br>which 以下のすべて「野性時代　第18巻第5号」角川書店、1991（平成3）年5月号<br>永遠に失われた「野性時代　第15巻第12号」角川書店、1988（昭和63）年12月号<br>エスプレッソを二杯に固ゆで卵をいくつ？「野性時代　第19巻第5号」角川書店、1992（平成4）年5月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2013-07-07",
+    "updatedAt": "2015-04-15",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001506/card56182.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001506/files/56182_ruby_50815.zip",
+    "textFileId": "56182_ruby_50815",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001506/files/56182_50816.html",
+    "inputBy": "高橋雅康",
+    "proofreadBy": "関戸詳子",
+    "baseBook1": {
+      "title": "夏と少年の短編",
+      "publisher": "東京書籍",
+      "firstPublishedAt": "1992（平成4）年10月7日",
+      "inputEdition": "1992（平成4）年10月7日第1刷",
+      "proofreadEdition": "1992（平成4）年10月7日第1刷"
+    },
+    "author": "片岡義男",
+    "authors": [
+      {
+        "personId": "001506",
+        "name": "片岡義男",
+        "kana": "かたおかよしお",
+        "roman": "Yoshio Kataoka",
+        "role": "著者",
+        "birthDate": "1939-03-20",
+        "copyright": "あり"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

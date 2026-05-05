@@ -6008,5 +6008,51 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047342",
+    "title": "剣侠受難",
+    "titleKana": "けんきょうじゅなん",
+    "sortKana": "けんきようしゆなん",
+    "firstAppearance": "「東京日日新聞」1926（大正15）年5月28日～11月14日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-04-08",
+    "updatedAt": "2020-03-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card47342.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/47342_ruby_70688.zip",
+    "textFileId": "47342_ruby_70688",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/47342_70740.html",
+    "inputBy": "阿和泉拓",
+    "proofreadBy": "酒井裕二",
+    "baseBook1": {
+      "title": "剣侠受難（下）",
+      "publisher": "国枝史郎伝奇文庫、講談社",
+      "firstPublishedAt": "1976（昭和51）年4月12日",
+      "inputEdition": "1976（昭和51）年4月12日第1刷",
+      "proofreadEdition": "1976（昭和51）年4月20日第2刷"
+    },
+    "baseBook2": {
+      "title": "剣侠受難（上）",
+      "publisher": "国枝史郎伝奇文庫、講談社",
+      "firstPublishedAt": "1976（昭和51）年4月12日",
+      "inputEdition": "1976（昭和51）年4月12日第1刷",
+      "proofreadEdition": "1976（昭和51）年4月20日第2刷"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

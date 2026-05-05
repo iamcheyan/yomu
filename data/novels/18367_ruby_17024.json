@@ -148,5 +148,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "018367",
+    "title": "淡路人形座訪問",
+    "titleKana": "あわじにんぎょうざほうもん",
+    "sortKana": "あわしにんきようさほうもん",
+    "subtitle": "其の現状と由来",
+    "subtitleKana": "そのげんじょうとゆらい",
+    "ndc": "NDC 777",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-01-10",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000636/card18367.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000636/files/18367_ruby_17024.zip",
+    "textFileId": "18367_ruby_17024",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000636/files/18367_17170.html",
+    "inputBy": "ブラン",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "芸術民俗学研究",
+      "publisher": "福村書店",
+      "firstPublishedAt": "1959（昭和34）年3月1日",
+      "inputEdition": "1959（昭和34）年3月1日",
+      "proofreadEdition": "1959（昭和34）年3月1日"
+    },
+    "author": "竹内勝太郎",
+    "authors": [
+      {
+        "personId": "000636",
+        "name": "竹内勝太郎",
+        "kana": "たけうちかつたろう",
+        "roman": "Katsutaro Takeuchi",
+        "role": "著者",
+        "birthDate": "1894-10-20",
+        "deathDate": "1935-06-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

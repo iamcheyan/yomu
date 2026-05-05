@@ -186,5 +186,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047736",
+    "title": "両国界隈",
+    "titleKana": "りょうごくかいわい",
+    "sortKana": "りようこくかいわい",
+    "ndc": "NDC 382",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-01-12",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001312/card47736.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001312/files/47736_ruby_33984.zip",
+    "textFileId": "47736_ruby_33984",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001312/files/47736_34012.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "東京の風俗",
+      "publisher": "冨山房百科文庫、冨山房",
+      "firstPublishedAt": "1978（昭和53）年3月29日",
+      "inputEdition": "1989（平成元）年8月12日第2刷",
+      "proofreadEdition": "1989（平成元）年8月12日第2刷"
+    },
+    "author": "木村荘八",
+    "authors": [
+      {
+        "personId": "001312",
+        "name": "木村荘八",
+        "kana": "きむらしょうはち",
+        "roman": "Shohachi Kimura",
+        "role": "著者",
+        "birthDate": "1893-08-21",
+        "deathDate": "1958-11-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

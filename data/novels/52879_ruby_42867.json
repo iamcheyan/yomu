@@ -416,5 +416,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052879",
+    "title": "嘆きの孔雀",
+    "titleKana": "なげきのくじゃく",
+    "sortKana": "なけきのくしやく",
+    "firstAppearance": "「少女　第八十六号（二月号）～第八十七号、第八十九号～第九十一号、第九十三号（九月号）」時事新報社、1920（大正9）年1月6日～2月、4月～6月、8月6日",
+    "ndc": "NDC K913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-06-20",
+    "updatedAt": "2016-01-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000183/card52879.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000183/files/52879_ruby_42867.zip",
+    "textFileId": "52879_ruby_42867",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000183/files/52879_42890.html",
+    "inputBy": "宮元淳一",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "牧野信一全集第一巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2002（平成14）年8月20日",
+      "inputEdition": "2002（平成14）年8月20日初版第1刷"
+    },
+    "author": "牧野信一",
+    "authors": [
+      {
+        "personId": "000183",
+        "name": "牧野信一",
+        "kana": "まきのしんいち",
+        "roman": "Shin'ichi Makino",
+        "role": "著者",
+        "birthDate": "1896-11-12",
+        "deathDate": "1936-03-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

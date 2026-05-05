@@ -3848,5 +3848,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042286",
+    "title": "カラマゾフの兄弟",
+    "titleKana": "カラマゾフのきょうだい",
+    "sortKana": "からまそふのきようたい",
+    "subtitle": "01 上",
+    "subtitleKana": "01 じょう",
+    "ndc": "NDC 983",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-12-30",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000363/card42286.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000363/files/42286_ruby_36920.zip",
+    "textFileId": "42286_ruby_36920",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000363/files/42286_37300.html",
+    "inputBy": "高柳典子",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "カラマゾフの兄弟　上巻",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1968（昭和43）年8月30日改版初版",
+      "inputEdition": "1975（昭和50）年10月30日改版11版",
+      "proofreadEdition": "1969（昭和44）年12月30日改版4版"
+    },
+    "author": "ドストエフスキーフィヨードル・ミハイロヴィチ",
+    "authors": [
+      {
+        "personId": "000363",
+        "name": "ドストエフスキーフィヨードル・ミハイロヴィチ",
+        "kana": "ドストエフスキーフィヨードル・ミハイロヴィチ",
+        "roman": "Fedor Mikhailovich Dostoevskii",
+        "role": "著者",
+        "birthDate": "1821-11-11",
+        "deathDate": "1881-02-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

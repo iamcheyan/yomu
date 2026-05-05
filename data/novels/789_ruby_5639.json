@@ -4666,5 +4666,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000789",
+    "title": "吾輩は猫である",
+    "titleKana": "わがはいはねこである",
+    "sortKana": "わかはいはねこてある",
+    "firstAppearance": "「ホトトギス」1905（明治38）年1月、2月、4月、6月、7月、10月、1906（明治39）年1月、3月、4月、8月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-09-21",
+    "updatedAt": "2018-02-05",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000148/card789.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000148/files/789_ruby_5639.zip",
+    "textFileId": "789_ruby_5639",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000148/files/789_14547.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "田尻幹二、高橋真也、しず、瀬戸さえ子、おのしげひこ、渡部峰子",
+    "baseBook1": {
+      "title": "夏目漱石全集1",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1987（昭和62）年9月29日",
+      "inputEdition": "1987（昭和62）年9月29日",
+      "proofreadEdition": "1994（平成6）年9月30日第4刷"
+    },
+    "author": "夏目漱石",
+    "authors": [
+      {
+        "personId": "000148",
+        "name": "夏目漱石",
+        "kana": "なつめそうせき",
+        "roman": "Soseki Natsume",
+        "role": "著者",
+        "birthDate": "1867-02-09",
+        "deathDate": "1916-12-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

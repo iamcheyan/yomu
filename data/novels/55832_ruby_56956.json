@@ -284,5 +284,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055832",
+    "title": "或る別れ",
+    "titleKana": "あるわかれ",
+    "sortKana": "あるわかれ",
+    "ndc": "NDC 912",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-08-25",
+    "updatedAt": "2015-05-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001751/card55832.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001751/files/55832_ruby_56956.zip",
+    "textFileId": "55832_ruby_56956",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001751/files/55832_57002.html",
+    "inputBy": "sogo",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本掌編小説秀作選　下　花・暦篇",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "1987（昭和62）年12月20日",
+      "inputEdition": "1987（昭和62）年12月20日初版1刷",
+      "proofreadEdition": "1987（昭和62）年12月20日初版1刷"
+    },
+    "author": "北尾亀男",
+    "authors": [
+      {
+        "personId": "001751",
+        "name": "北尾亀男",
+        "kana": "きたおかめお",
+        "roman": "Kameo Kitao",
+        "role": "著者",
+        "birthDate": "1892-08-25",
+        "deathDate": "1958-02-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

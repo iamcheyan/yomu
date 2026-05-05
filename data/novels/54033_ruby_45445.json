@@ -216,5 +216,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054033",
+    "title": "みみず先生の歌",
+    "titleKana": "みみずせんせいのうた",
+    "sortKana": "みみすせんせいのうた",
+    "firstAppearance": "「働く婦人」1932（昭和7）年4月号",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-11-13",
+    "updatedAt": "2015-08-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001172/card54033.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001172/files/54033_ruby_45445.zip",
+    "textFileId": "54033_ruby_45445",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001172/files/54033_45500.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "富田倫生",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・39　プロレタリア詩集（二）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年6月30日",
+      "inputEdition": "1987（昭和62）年6月30日初版"
+    },
+    "author": "村山籌子",
+    "authors": [
+      {
+        "personId": "001172",
+        "name": "村山籌子",
+        "kana": "むらやまかずこ",
+        "roman": "Kazuko Murayama",
+        "role": "著者",
+        "birthDate": "1903-11-07",
+        "deathDate": "1946-08-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

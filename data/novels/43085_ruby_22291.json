@@ -86,5 +86,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043085",
+    "title": "巴里の唄うたい",
+    "titleKana": "パリのうたうたい",
+    "sortKana": "はりのうたうたい",
+    "ndc": "NDC 915 293",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-04-30",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000076/card43085.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000076/files/43085_ruby_22291.zip",
+    "textFileId": "43085_ruby_22291",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000076/files/43085_22359.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "田中敬三",
+    "baseBook1": {
+      "title": "世界紀行文学全集　第二巻　フランス編Ⅱ",
+      "publisher": "修道社",
+      "firstPublishedAt": "1959（昭和34）年2月20日",
+      "inputEdition": "1959（昭和34）年2月20日",
+      "proofreadEdition": "1959（昭和34）年2月20日"
+    },
+    "author": "岡本かの子",
+    "authors": [
+      {
+        "personId": "000076",
+        "name": "岡本かの子",
+        "kana": "おかもとかのこ",
+        "roman": "Kanoko Okamoto",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1939-02-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

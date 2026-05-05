@@ -426,5 +426,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001429",
+    "title": "琥珀のパイプ",
+    "titleKana": "こはくのパイプ",
+    "sortKana": "こはくのはいふ",
+    "firstAppearance": "「新青年」1924（大正13）年6月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-11-20",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000260/card1429.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000260/files/1429_ruby_19868.zip",
+    "textFileId": "1429_ruby_19868",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000260/files/1429_20127.html",
+    "inputBy": "網迫、土屋隆",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "日本探偵小説全集1　黒岩涙香　小酒井不木　甲賀三郎集",
+      "publisher": "創元推理文庫、東京創元社",
+      "firstPublishedAt": "1984（昭和59）年12月21日",
+      "inputEdition": "1996（平成8）年8月2日8版",
+      "proofreadEdition": "2002（平成14）年6月14日9版"
+    },
+    "author": "甲賀三郎",
+    "authors": [
+      {
+        "personId": "000260",
+        "name": "甲賀三郎",
+        "kana": "こうがさぶろう",
+        "roman": "Saburo Koga",
+        "role": "著者",
+        "birthDate": "1893-10-05",
+        "deathDate": "1945-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

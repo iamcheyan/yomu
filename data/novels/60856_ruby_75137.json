@@ -100,5 +100,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060856",
+    "title": "ベルとドラゴン",
+    "titleKana": "ベルとドラゴン",
+    "sortKana": "へるととらこん",
+    "subtitle": "――経典外聖書――",
+    "subtitleKana": "――けいてんがいせいしょ――",
+    "originalTitle": "BEL AND THE DRAGON",
+    "ndc": "NDC 193",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-03-19",
+    "updatedAt": "2022-02-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001529/card60856.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001529/files/60856_ruby_75137.zip",
+    "textFileId": "60856_ruby_75137",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001529/files/60856_75175.html",
+    "inputBy": "sogo",
+    "proofreadBy": "かな　とよみ",
+    "baseBook1": {
+      "title": "〔名探偵登場Ⅰ〕",
+      "publisher": "HAYAKAWA POCKET MYSTERY BOOKS、早川書房",
+      "firstPublishedAt": "1956（昭和31）年2月28日",
+      "inputEdition": "1993（平成5）年9月15日3版",
+      "proofreadEdition": "1993（平成5）年9月15日3版"
+    },
+    "author": "作者不詳",
+    "authors": [
+      {
+        "personId": "001529",
+        "name": "作者不詳",
+        "kana": "さくしゃふしょう",
+        "roman": "Sakushafusho",
+        "role": "著者",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

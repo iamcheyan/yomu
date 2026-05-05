@@ -36,5 +36,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052942",
+    "title": "国語の自在性",
+    "titleKana": "こくごのじざいせい",
+    "sortKana": "こくこのしさいせい",
+    "firstAppearance": "「国語特報　第五号」1936（昭和11）年1月",
+    "ndc": "NDC 121 810",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-05-03",
+    "updatedAt": "2017-01-20",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000182/card52942.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000182/files/52942_ruby_42495.zip",
+    "textFileId": "52942_ruby_42495",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000182/files/52942_42620.html",
+    "inputBy": "桜",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "西田幾多郎随筆集",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1996（平成8）年10月16日",
+      "inputEdition": "1996（平成8）年10月16日第1刷",
+      "proofreadEdition": "1998（平成10）年9月16日第3刷"
+    },
+    "author": "西田幾多郎",
+    "authors": [
+      {
+        "personId": "000182",
+        "name": "西田幾多郎",
+        "kana": "にしだきたろう",
+        "roman": "Kitaro Nishida",
+        "role": "著者",
+        "birthDate": "1870-06-17",
+        "deathDate": "1945-06-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

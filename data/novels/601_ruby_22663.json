@@ -420,5 +420,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000601",
+    "title": "四十余日",
+    "titleKana": "しじゅうよにち",
+    "sortKana": "ししゆうよにち",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-06-16",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000112/card601.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000112/files/601_ruby_22663.zip",
+    "textFileId": "601_ruby_22663",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000112/files/601_22664.html",
+    "inputBy": "小林徹",
+    "proofreadBy": "田尻幹二",
+    "baseBook1": {
+      "title": "明治文學全集　82　明治女流文學集（二）",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1965（昭和40）年12月10日"
+    },
+    "author": "水野仙子",
+    "authors": [
+      {
+        "personId": "000112",
+        "name": "水野仙子",
+        "kana": "みずのせんこ",
+        "roman": "Senko Mizuno",
+        "role": "著者",
+        "birthDate": "1888-12-03",
+        "deathDate": "1919-05-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

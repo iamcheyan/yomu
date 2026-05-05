@@ -414,5 +414,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047200",
+    "title": "副詞表情の発生",
+    "titleKana": "ふくしひょうじょうのはっせい",
+    "sortKana": "ふくしひようしようのはつせい",
+    "firstAppearance": "「国文学論究」1934（昭和9）年7月",
+    "ndc": "NDC 815",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-12-19",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card47200.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/47200_ruby_32773.zip",
+    "textFileId": "47200_ruby_32773",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/47200_33642.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "折口信夫全集　12",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1996（平成8）年3月25日",
+      "inputEdition": "1996（平成8）年3月25日初版",
+      "proofreadEdition": "1996（平成8）年3月25日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

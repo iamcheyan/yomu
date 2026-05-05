@@ -1496,5 +1496,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050118",
+    "title": "西航日録",
+    "titleKana": "せいこうにちろく",
+    "sortKana": "せいこうにちろく",
+    "ndc": "NDC 290",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-12-31",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001021/card50118.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001021/files/50118_ruby_40759.zip",
+    "textFileId": "50118_ruby_40759",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001021/files/50118_41519.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "井上円了・世界旅行記",
+      "publisher": "柏書房",
+      "firstPublishedAt": "2003（平成15）年11月15日",
+      "inputEdition": "2003（平成15）年11月15日第1刷",
+      "proofreadEdition": "2003（平成15）年11月15日第1刷"
+    },
+    "author": "井上円了",
+    "authors": [
+      {
+        "personId": "001021",
+        "name": "井上円了",
+        "kana": "いのうええんりょう",
+        "roman": "Enryo Inoue",
+        "role": "著者",
+        "birthDate": "1858-03-18",
+        "deathDate": "1919-06-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

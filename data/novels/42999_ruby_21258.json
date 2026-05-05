@@ -50,5 +50,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042999",
+    "title": "本郷の並木道",
+    "titleKana": "ほんごうのなみきみち",
+    "sortKana": "ほんこうのなみきみち",
+    "firstAppearance": "「帝国大学新聞　第七二五号」1938（昭和13）年6月20日",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-01-21",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card42999.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/42999_ruby_21258.zip",
+    "textFileId": "42999_ruby_21258",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/42999_21286.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "今井忠夫",
+    "baseBook1": {
+      "title": "坂口安吾全集　02",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年4月20日",
+      "inputEdition": "1999（平成11）年4月20日初版第1刷",
+      "proofreadEdition": "1999（平成11）年4月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

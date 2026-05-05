@@ -542,5 +542,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000459",
+    "title": "双子の星",
+    "titleKana": "ふたごのほし",
+    "sortKana": "ふたこのほし",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1997-10-29",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card459.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/459_ruby_5441.zip",
+    "textFileId": "459_ruby_5441",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/459_15404.html",
+    "inputBy": "野口英司",
+    "baseBook1": {
+      "title": "新編　銀河鉄道の夜",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1989（平成元）年6月15日",
+      "inputEdition": "1994（平成6）年6月5日第13刷"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

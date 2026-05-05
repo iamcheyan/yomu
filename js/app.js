@@ -8,7 +8,18 @@ const Yomu = {
     _storeOpen: false,
     _storeBooks: [],
     _storePage: 0,
+    _storeCatalogLoaded: false,
+    _storeCatalogLoading: false,
+    _storeFilters: {
+        author: '',
+        category: '',
+        orthography: ''
+    },
     _homePage: 0,
+    _homeFilters: {
+        category: '',
+        translation: ''
+    },
     _pageSize: 10,
     _isReaderOpen: false,
 
@@ -18,9 +29,6 @@ const Yomu = {
             if (e.detail && e.detail.direction) {
                 this._scrollReader(e.detail.direction === 'down' ? 1 : -1);
             }
-        });
-        document.addEventListener('dblclick', () => {
-            this.toggleSettings();
         });
         document.addEventListener('click', (e) => this._handleGlobalClick(e));
 
@@ -81,12 +89,6 @@ const Yomu = {
             return;
         }
 
-        // 2. Handle Settings Overlay click
-        if (e.target.id === 'settings-overlay' && this._settingsOpen) {
-            this.toggleSettings();
-            return;
-        }
-
         if (!this._isReaderOpen) {
             return;
         }
@@ -103,14 +105,16 @@ const Yomu = {
             return;
         }
 
-        // Priority 2: If settings panel is open, close it
-        if (this._settingsOpen) {
-            this.toggleSettings();
-            return; 
-        }
-
-        // Priority 3: Toggle bottom bar
+        // Priority 2: Toggle bottom bar
         this.toggleBottomBar();
+    },
+
+    toggleSettingsFromButton(event) {
+        if (event) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
+        this.toggleSettings();
     },
 
     toggleBottomBar() {
@@ -142,22 +146,12 @@ const Yomu = {
     },
 
     _renderBookList() {
-        const bundledBooks = YomuReader.getBooks();
-        const downloadedBooks = YomuStorage.getDownloadedBooks();
-        
-        // Combined list
-        const allBooks = [];
-        for (const b of downloadedBooks) allBooks.push({ ...b, isDownloaded: true });
-        for (const b of bundledBooks) {
-            // Avoid duplicates if a bundled book is somehow in downloaded
-            if (!downloadedBooks.some(d => d.id === b.id)) {
-                allBooks.push({ ...b, isDownloaded: false });
-            }
-        }
+        const allBooks = this._getFilteredLibraryBooks();
 
         // Update counter
         const counter = document.getElementById('library-count');
         if (counter) counter.textContent = allBooks.length;
+        this._renderHomeFilters(allBooks.length);
         
         const grid = document.getElementById('book-grid');
         let html = '';
@@ -174,6 +168,11 @@ const Yomu = {
                         </div>
                         <div class="book-author">${this._escapeHtml(book.author)}</div>
                         <div class="book-desc">${this._escapeHtml(book.desc || '')}</div>
+                        <div class="book-tags">
+                            ${this._renderTag(this._categoryLabel(this._bookCategory(book)))}
+                            ${this._renderTag(book.ndc)}
+                            ${book.hasTrans ? this._renderTag('訳あり') : ''}
+                        </div>
                     </div>
                     <div class="book-meta">
                         <div class="book-progress-info">
@@ -208,9 +207,7 @@ const Yomu = {
     },
 
     nextHomePage() {
-        const bundledBooks = YomuReader.getBooks();
-        const downloadedBooks = YomuStorage.getDownloadedBooks();
-        const total = bundledBooks.length + downloadedBooks.length;
+        const total = this._getFilteredLibraryBooks().length;
         
         if ((this._homePage + 1) * this._pageSize < total) {
             this._homePage++;
@@ -224,6 +221,56 @@ const Yomu = {
             this._homePage--;
             this._renderBookList();
             window.scrollTo(0, 0);
+        }
+    },
+
+    setHomeFilter(type, value) {
+        if (!Object.prototype.hasOwnProperty.call(this._homeFilters, type)) return;
+        this._homeFilters[type] = value;
+        this._homePage = 0;
+        this._renderBookList();
+        window.scrollTo(0, 0);
+    },
+
+    _getLibraryBooks() {
+        const bundledBooks = YomuReader.getBooks();
+        const downloadedBooks = YomuStorage.getDownloadedBooks();
+        const allBooks = [];
+
+        for (const b of downloadedBooks) allBooks.push({ ...b, isDownloaded: true });
+        for (const b of bundledBooks) {
+            if (!downloadedBooks.some(d => d.id === b.id)) {
+                allBooks.push({ ...b, isDownloaded: false });
+            }
+        }
+
+        return allBooks;
+    },
+
+    _getFilteredLibraryBooks() {
+        return this._getLibraryBooks().filter(book => {
+            if (this._homeFilters.category && this._bookCategory(book) !== this._homeFilters.category) return false;
+            if (this._homeFilters.translation === 'translated' && !book.hasTrans) return false;
+            if (this._homeFilters.translation === 'untranslated' && book.hasTrans) return false;
+            return true;
+        });
+    },
+
+    _renderHomeFilters(resultCount) {
+        document.querySelectorAll('.filter-chip[data-home-filter-type]').forEach(btn => {
+            const type = btn.dataset.homeFilterType;
+            const value = btn.dataset.homeFilterValue || '';
+            btn.classList.toggle('active', this._homeFilters[type] === value);
+        });
+
+        const summary = document.getElementById('home-filter-summary');
+        if (summary) {
+            const active = [
+                this._categoryLabel(this._homeFilters.category),
+                this._homeFilters.translation === 'translated' ? '訳あり' : '',
+                this._homeFilters.translation === 'untranslated' ? '原文のみ' : ''
+            ].filter(Boolean);
+            summary.textContent = `${resultCount} 冊${active.length ? ' · ' + active.join(' / ') : ''}`;
         }
     },
 
@@ -292,24 +339,46 @@ const Yomu = {
         }
 
         if (this._storeBooks.length === 0) {
-            try {
-                const resp = await fetch('data/aozora_catalog.json?t=' + Date.now());
-                this._storeBooks = await resp.json();
-            } catch (e) {
-                console.error('Failed to load store catalog:', e);
-            }
+            await this._loadStorePreviewCatalog();
         }
 
         this._storePage = 0; // Reset page when opening store
         this._renderStore();
+        this._loadFullStoreCatalog();
+    },
+
+    async _loadStorePreviewCatalog() {
+        try {
+            const resp = await fetch('data/aozora_catalog_preview.json?t=' + Date.now());
+            this._storeBooks = await resp.json();
+        } catch (e) {
+            console.error('Failed to load store preview catalog:', e);
+            this._storeBooks = [];
+        }
+    },
+
+    async _loadFullStoreCatalog() {
+        if (this._storeCatalogLoaded || this._storeCatalogLoading) return;
+        this._storeCatalogLoading = true;
+        this._renderStoreFilters(this._getFilteredStoreBooks(document.getElementById('store-search-input')?.value || '').length);
+
+        try {
+            const resp = await fetch('data/aozora_catalog_compact.json?t=' + Date.now());
+            this._storeBooks = await resp.json();
+            this._storeCatalogLoaded = true;
+            this._storePage = 0;
+            this._renderStore(document.getElementById('store-search-input')?.value || '');
+        } catch (e) {
+            console.error('Failed to load full store catalog:', e);
+        } finally {
+            this._storeCatalogLoading = false;
+            this._renderStoreFilters(this._getFilteredStoreBooks(document.getElementById('store-search-input')?.value || '').length);
+        }
     },
 
     nextStorePage() {
         const query = document.getElementById('store-search-input').value.toLowerCase();
-        const filtered = this._storeBooks.filter(b => 
-            b.title.toLowerCase().includes(query) || 
-            b.author.toLowerCase().includes(query)
-        );
+        const filtered = this._getFilteredStoreBooks(query);
         
         if ((this._storePage + 1) * this._pageSize < filtered.length) {
             this._storePage++;
@@ -332,19 +401,8 @@ const Yomu = {
         const downloaded = YomuStorage.getDownloadedBooks();
         const query = filter.toLowerCase();
 
-        let filtered = this._storeBooks.filter(b => 
-            b.title.toLowerCase().includes(query) || 
-            b.author.toLowerCase().includes(query)
-        );
-
-        // 去重：避免相同标题和作者的作品重复出现
-        const seen = new Set();
-        filtered = filtered.filter(b => {
-            const key = `${b.title}|${b.author}|${b.authorId}`;
-            if (seen.has(key)) return false;
-            seen.add(key);
-            return true;
-        });
+        const filtered = this._getFilteredStoreBooks(query);
+        this._renderStoreFilters(filtered.length);
 
         // Slice for pagination
         const start = this._storePage * this._pageSize;
@@ -352,7 +410,7 @@ const Yomu = {
 
         let html = '';
         for (const book of paged) {
-            const id = book.workId || book.fileId; 
+            const id = book.fileId || book.workId; 
             const isDownloaded = downloaded.some(d => d.id === id);
             const authorText = book.author || `(著者ID: ${book.authorId})`;
             html += `
@@ -363,9 +421,14 @@ const Yomu = {
                             ${book.hasTrans ? '<span class="badge-e">訳</span>' : ''}
                         </div>
                         <div class="book-author">${this._escapeHtml(authorText)}</div>
-                        <div class="book-extra">
-                            <span>著者ID: ${this._escapeHtml(book.authorId)}</span>
-                            <span>作品ID: ${this._escapeHtml(book.workId || 'N/A')}</span>
+                        <div class="book-tags">
+                            ${this._renderTag(this._categoryLabel(this._bookCategory(book)))}
+                            ${this._renderTag(book.orthography)}
+                            ${this._renderTag(book.ndc)}
+                            ${this._renderTag(`著者ID: ${book.authorId || 'N/A'}`)}
+                            ${this._renderTag(`作品ID: ${book.workId || 'N/A'}`)}
+                            ${book.baseBook ? this._renderTag(`底本: ${book.baseBook}`) : ''}
+                            ${book.hasTrans ? this._renderTag('訳あり') : ''}
                         </div>
                     </div>
                     <div class="book-meta">
@@ -392,8 +455,126 @@ const Yomu = {
         this._renderStore(query);
     },
 
+    setStoreFilter(type, value) {
+        if (!Object.prototype.hasOwnProperty.call(this._storeFilters, type)) return;
+        this._storeFilters[type] = value;
+        this._storePage = 0;
+        this._renderStore(document.getElementById('store-search-input')?.value || '');
+    },
+
+    _getFilteredStoreBooks(query = '') {
+        const q = (query || '').trim().toLowerCase();
+        const seen = new Set();
+
+        return this._storeBooks.filter(book => {
+            const key = `${book.title}|${book.author}|${book.authorId}`;
+            if (seen.has(key)) return false;
+            seen.add(key);
+
+            if (q && !this._storeSearchText(book).includes(q)) return false;
+            if (this._storeFilters.author && book.author !== this._storeFilters.author) return false;
+            if (this._storeFilters.category && this._bookCategory(book) !== this._storeFilters.category) return false;
+            if (this._storeFilters.orthography && book.orthography !== this._storeFilters.orthography) return false;
+            return true;
+        });
+    },
+
+    _storeSearchText(book) {
+        return [
+            book.title,
+            book.titleKana,
+            book.author,
+            book.authorKana,
+            book.authorRoman,
+            book.authorId,
+            book.workId,
+            book.fileId,
+            book.ndc,
+            book.orthography,
+            book.baseBook,
+            book.baseBookTitle,
+            book.desc
+        ].filter(Boolean).join(' ').toLowerCase();
+    },
+
+    _renderStoreFilters(resultCount) {
+        const authorBox = document.getElementById('filter-authors');
+        if (authorBox) {
+            const counts = new Map();
+            for (const book of this._storeBooks) {
+                if (!book.author) continue;
+                counts.set(book.author, (counts.get(book.author) || 0) + 1);
+            }
+            const authors = Array.from(counts.entries())
+                .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+                .slice(0, 12);
+            authorBox.innerHTML = `
+                <div class="filter-label">著者</div>
+                ${this._filterButton('author', '', 'すべて')}
+                ${authors.map(([author, count]) => this._filterButton('author', author, `${author} ${count}`)).join('')}
+            `;
+        }
+
+        document.querySelectorAll('.filter-chip').forEach(btn => {
+            const type = btn.dataset.filterType;
+            const value = btn.dataset.filterValue || '';
+            btn.classList.toggle('active', this._storeFilters[type] === value);
+        });
+
+        const summary = document.getElementById('store-filter-summary');
+        if (summary) {
+            const active = [
+                this._storeFilters.author,
+                this._categoryLabel(this._storeFilters.category),
+                this._storeFilters.orthography
+            ].filter(Boolean);
+            const loading = this._storeCatalogLoading && !this._storeCatalogLoaded ? ' · 全書庫を読み込み中' : '';
+            summary.textContent = `${resultCount} 件${active.length ? ' · ' + active.join(' / ') : ''}${loading}`;
+        }
+    },
+
+    _filterButton(type, value, label) {
+        const active = this._storeFilters[type] === value ? ' active' : '';
+        const action = `Yomu.setStoreFilter(${JSON.stringify(type)}, ${JSON.stringify(value)})`;
+        return `<button class="filter-chip${active}" data-filter-type="${this._escapeAttr(type)}" data-filter-value="${this._escapeAttr(value)}" onclick="${this._escapeAttr(action)}">${this._escapeHtml(label)}</button>`;
+    },
+
+    _bookCategory(book) {
+        const ndc = book.ndc || '';
+        if (/NDC\s*K/.test(ndc)) return 'children';
+        if (/NDC\s*913/.test(ndc)) return 'fiction';
+        if (/NDC\s*911/.test(ndc)) return 'poetry';
+        if (/NDC\s*912/.test(ndc)) return 'drama';
+        if (/NDC\s*91[456]/.test(ndc)) return 'essay';
+        if (/NDC\s*9[2-9]/.test(ndc)) return 'foreign';
+
+        const id = book.id || book.fileId || '';
+        const title = book.title || '';
+        if (['gingatetsudo', 'kumo_no_ito', 'yodaka_no_hoshi', 'chumon_ryori', 'yuki_onna'].includes(id)) {
+            return 'children';
+        }
+        if (id === 'gakumon_no_susume') return 'essay';
+        if (title) return 'fiction';
+        return '';
+    },
+
+    _categoryLabel(category) {
+        return {
+            fiction: '小説',
+            children: '児童文学',
+            essay: '随筆・記録',
+            poetry: '詩歌',
+            drama: '戯曲',
+            foreign: '海外文学'
+        }[category] || '';
+    },
+
+    _renderTag(label) {
+        return label ? `<span class="book-tag">${this._escapeHtml(label)}</span>` : '';
+    },
+
     async downloadBook(bookId) {
-        const book = this._storeBooks.find(b => (b.workId || b.fileId) === bookId);
+        const book = this._storeBooks.find(b => (b.fileId || b.workId) === bookId);
         if (!book) return;
 
         // Check if already downloaded
@@ -430,6 +611,9 @@ const Yomu = {
         try {
             updateStatus('データを取得中...', 30);
             const processed = await YomuAozora.downloadBook(book);
+            if (processed && !processed.aozora_info) {
+                processed.aozora_info = this._catalogBookToAozoraInfo(book);
+            }
             
             updateStatus('解析・保存中...', 70);
             await YomuStorage.saveBookContent(bookId, processed);
@@ -440,7 +624,10 @@ const Yomu = {
                 title: book.title,
                 author: book.author || `(ID: ${book.authorId})`,
                 desc: book.desc || '',
-                year: book.year || ''
+                year: book.year || '',
+                ndc: book.ndc || '',
+                baseBook: book.baseBook || '',
+                orthography: book.orthography || ''
             });
 
             updateStatus('完了！', 100);
@@ -464,6 +651,32 @@ const Yomu = {
             okBtn.style.display = 'block';
             okBtn.onclick = () => overlay.classList.remove('active');
         }
+    },
+
+    _catalogBookToAozoraInfo(book) {
+        return {
+            workId: book.workId || '',
+            title: book.title || '',
+            titleKana: book.titleKana || '',
+            ndc: book.ndc || '',
+            orthography: book.orthography || '',
+            publishedAt: book.publishedAt || '',
+            cardUrl: book.cardUrl || '',
+            textFileId: book.fileId || '',
+            author: book.author || '',
+            authors: [{
+                personId: book.authorId || '',
+                name: book.author || '',
+                kana: book.authorKana || '',
+                roman: book.authorRoman || '',
+                role: '著者'
+            }],
+            baseBook1: {
+                title: book.baseBookTitle || '',
+                publisher: book.baseBook || ''
+            },
+            source: 'aozora_catalog'
+        };
     },
 
     // Furigana toggle

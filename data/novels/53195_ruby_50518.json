@@ -164,5 +164,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053195",
+    "title": "黒田如水",
+    "titleKana": "くろだじょすい",
+    "sortKana": "くろたしよすい",
+    "firstAppearance": "「週刊朝日」朝日新聞社、1943（昭和18）年1月～8月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-07-11",
+    "updatedAt": "2017-02-06",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001562/card53195.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001562/files/53195_ruby_50518.zip",
+    "textFileId": "53195_ruby_50518",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001562/files/53195_50708.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "黒田如水",
+      "publisher": "吉川英治歴史時代文庫、講談社",
+      "firstPublishedAt": "1989（平成元）年11月11日",
+      "inputEdition": "2007（平成19）年1月18日第25刷",
+      "proofreadEdition": "2007（平成19）年1月18日第25刷"
+    },
+    "author": "吉川英治",
+    "authors": [
+      {
+        "personId": "001562",
+        "name": "吉川英治",
+        "kana": "よしかわえいじ",
+        "roman": "Eiji Yoshikawa",
+        "role": "著者",
+        "birthDate": "1892-08-11",
+        "deathDate": "1962-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

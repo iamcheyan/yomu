@@ -522,5 +522,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043498",
+    "title": "グロリア・スコット号",
+    "titleKana": "グロリア・スコットごう",
+    "sortKana": "くろりあすこつとこう",
+    "originalTitle": "The \"Gloria Scott\"",
+    "ndc": "NDC K933",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-10-04",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000009/card43498.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000009/files/43498_ruby_16423.zip",
+    "textFileId": "43498_ruby_16423",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000009/files/43498_16595.html",
+    "inputBy": "京都大学電子テクスト研究会入力班",
+    "proofreadBy": "京都大学電子テクスト研究会校正班",
+    "baseBook1": {
+      "title": "世界探偵小説全集　第三卷　シヤーロツク・ホームズの記憶",
+      "publisher": "平凡社",
+      "firstPublishedAt": "1930（昭和5）年2月5日",
+      "inputEdition": "1930（昭和5）年2月5日"
+    },
+    "author": "ドイルアーサー・コナン",
+    "authors": [
+      {
+        "personId": "000009",
+        "name": "ドイルアーサー・コナン",
+        "kana": "ドイルアーサー・コナン",
+        "roman": "Arthur Conan Doyle",
+        "role": "著者",
+        "birthDate": "1859-05-22",
+        "deathDate": "1930-07-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -182,5 +182,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003245",
+    "title": "絵本の春",
+    "titleKana": "えほんのはる",
+    "sortKana": "えほんのはる",
+    "firstAppearance": "「文藝春秋　第四年第一號」1926（大正15）年1月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-06-25",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card3245.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/3245_ruby_19569.zip",
+    "textFileId": "3245_ruby_19569",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/3245_19570.html",
+    "inputBy": "本山智子",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "泉鏡花集成8",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1996（平成8）年5月23日",
+      "inputEdition": "1996（平成8）年5月23日第1刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

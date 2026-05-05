@@ -150,5 +150,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043068",
+    "title": "中里介山の『大菩薩峠』",
+    "titleKana": "なかざとかいざんの『だいぼさつとうげ』",
+    "sortKana": "なかさとかいさんのたいほさつとうけ",
+    "firstAppearance": "「日本及日本人」1932（昭和7）年10月15日号、11月1日号",
+    "ndc": "NDC 910",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-09-20",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001133/card43068.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001133/files/43068_ruby_23863.zip",
+    "textFileId": "43068_ruby_23863",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001133/files/43068_23915.html",
+    "inputBy": "網迫、門田裕志",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "三田村鳶魚全集　第廿四巻",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1976（昭和51）年12月25日",
+      "inputEdition": "1976（昭和51）年12月25日",
+      "proofreadEdition": "1976（昭和51）年12月25日"
+    },
+    "author": "三田村鳶魚",
+    "authors": [
+      {
+        "personId": "001133",
+        "name": "三田村鳶魚",
+        "kana": "みたむらえんぎょ",
+        "roman": "Engyo Mitamura",
+        "role": "著者",
+        "birthDate": "1870-04-17",
+        "deathDate": "1952-05-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

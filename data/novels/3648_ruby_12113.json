@@ -98,5 +98,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003648",
+    "title": "凱旋祭",
+    "titleKana": "がいせんまつり",
+    "sortKana": "かいせんまつり",
+    "firstAppearance": "「新小説」第二年第六巻、1897（明治30）年5月",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-09-09",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card3648.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/3648_ruby_12113.zip",
+    "textFileId": "3648_ruby_12113",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/3648_12114.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "外科室・海城発電",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1991（平成3）年9月17日",
+      "inputEdition": "2000（平成12）年9月5日第18刷",
+      "proofreadEdition": "1993（平成5）年11月5日第9刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

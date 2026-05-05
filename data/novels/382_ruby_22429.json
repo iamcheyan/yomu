@@ -52,5 +52,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000382",
+    "title": "私は懐疑派だ",
+    "titleKana": "わたしはかいぎはだ",
+    "sortKana": "わたしはかいきはた",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-05-04",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000006/card382.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000006/files/382_ruby_22429.zip",
+    "textFileId": "382_ruby_22429",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000006/files/382_22430.html",
+    "inputBy": "長住由生",
+    "proofreadBy": "もりみつじゅんじ",
+    "baseBook1": {
+      "title": "平凡・私は懐疑派だ",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1997（平成9）年12月10日"
+    },
+    "author": "二葉亭四迷",
+    "authors": [
+      {
+        "personId": "000006",
+        "name": "二葉亭四迷",
+        "kana": "ふたばていしめい",
+        "roman": "Shimei Futabatei",
+        "role": "著者",
+        "birthDate": "1864-04-04",
+        "deathDate": "1909-05-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

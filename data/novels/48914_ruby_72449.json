@@ -82,5 +82,53 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048914",
+    "title": "玉野川の渓谷",
+    "titleKana": "たまのがわのけいこく",
+    "sortKana": "たまのかわのけいこく",
+    "ndc": "NDC 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-01-22",
+    "updatedAt": "2020-12-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000214/card48914.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000214/files/48914_ruby_72449.zip",
+    "textFileId": "48914_ruby_72449",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000214/files/48914_72489.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "hitsuji",
+    "baseBook1": {
+      "title": "定本　花袋全集　第二十四巻",
+      "publisher": "臨川書店",
+      "firstPublishedAt": "1995（平成7）年4月10日",
+      "inputEdition": "1995（平成7）年4月10日",
+      "proofreadEdition": "1995（平成7）年4月10日"
+    },
+    "author": "田山花袋、田山録弥",
+    "authors": [
+      {
+        "personId": "000214",
+        "name": "田山花袋",
+        "kana": "たやまかたい",
+        "roman": "Katai Tayama",
+        "role": "著者",
+        "birthDate": "1872-01-22",
+        "deathDate": "1930-05-13",
+        "copyright": "なし"
+      },
+      {
+        "personId": "001416",
+        "name": "田山録弥",
+        "kana": "たやまろくや",
+        "roman": "Rokuya Tayama",
+        "role": "著者",
+        "birthDate": "1872-01-22",
+        "deathDate": "1930-05-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -54,5 +54,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053519",
+    "title": "ボデー意匠審査会　美術の粋を蒐め独特の形態美へ",
+    "titleKana": "ボデーいしょうしんさかい　びじゅつのすいをあつめどくとくのけいたいびへ",
+    "sortKana": "ほてえいしようしんさかいひしゆつのすいをあつめとくとくのけいたいひへ",
+    "subtitle": "――豊田常務の挨拶――",
+    "subtitleKana": "――とよだじょうむのあいさつ――",
+    "firstAppearance": "「トヨダニュース　第三号」1936（昭和11）年7月5日",
+    "ndc": "NDC 537",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-06-14",
+    "updatedAt": "2015-03-08",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001362/card53519.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001362/files/53519_ruby_56448.zip",
+    "textFileId": "53519_ruby_56448",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001362/files/53519_56492.html",
+    "inputBy": "sogo",
+    "proofreadBy": "塚本由紀",
+    "baseBook1": {
+      "title": "豊田喜一郎文書集成",
+      "publisher": "名古屋大学出版会",
+      "firstPublishedAt": "1999（平成11）年4月15日",
+      "inputEdition": "1999（平成11）年4月15日初版第1刷",
+      "proofreadEdition": "1999（平成11）年4月15日初版第1刷"
+    },
+    "author": "豊田喜一郎",
+    "authors": [
+      {
+        "personId": "001362",
+        "name": "豊田喜一郎",
+        "kana": "とよだきいちろう",
+        "roman": "Kiichiro Toyoda",
+        "role": "著者",
+        "birthDate": "1894-06-11",
+        "deathDate": "1952-03-27",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

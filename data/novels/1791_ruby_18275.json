@@ -68,5 +68,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001791",
+    "title": "月の詩情",
+    "titleKana": "つきのしじょう",
+    "sortKana": "つきのししよう",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-05-18",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000067/card1791.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000067/files/1791_ruby_18275.zip",
+    "textFileId": "1791_ruby_18275",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000067/files/1791_18420.html",
+    "inputBy": "とみ～ばあ",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆30　宙",
+      "publisher": "作品社",
+      "firstPublishedAt": "1985（昭和60）年4月25日",
+      "inputEdition": "1987（昭和62）年8月10日第2刷"
+    },
+    "author": "萩原朔太郎",
+    "authors": [
+      {
+        "personId": "000067",
+        "name": "萩原朔太郎",
+        "kana": "はぎわらさくたろう",
+        "roman": "Sakutaro Hagiwara",
+        "role": "著者",
+        "birthDate": "1886-11-01",
+        "deathDate": "1942-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

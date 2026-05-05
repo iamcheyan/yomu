@@ -136,5 +136,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001545",
+    "title": "佐竹の原へ大仏をこしらえたはなし",
+    "titleKana": "さたけのはらへだいぶつをこしらえたはなし",
+    "sortKana": "さたけのはらへたいふつをこしらえたはなし",
+    "ndc": "NDC 712 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-10-30",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000270/card1545.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000270/files/1545_ruby_18899.zip",
+    "textFileId": "1545_ruby_18899",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000270/files/1545_18900.html",
+    "inputBy": "加藤恭子",
+    "proofreadBy": "菅野朋子",
+    "baseBook1": {
+      "title": "日本の名随筆46　仏",
+      "publisher": "作品社",
+      "firstPublishedAt": "1986（昭和61）年8月25日",
+      "inputEdition": "1991（平成3）年4月25日第9刷"
+    },
+    "author": "高村光雲",
+    "authors": [
+      {
+        "personId": "000270",
+        "name": "高村光雲",
+        "kana": "たかむらこううん",
+        "roman": "Koun Takamura",
+        "role": "著者",
+        "birthDate": "1852-03-08",
+        "deathDate": "1934-10-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

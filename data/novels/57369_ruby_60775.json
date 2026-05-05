@@ -398,5 +398,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057369",
+    "title": "雪の町",
+    "titleKana": "ゆきのまち",
+    "sortKana": "ゆきのまち",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-02-10",
+    "updatedAt": "2017-01-20",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000291/card57369.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000291/files/57369_ruby_60775.zip",
+    "textFileId": "57369_ruby_60775",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000291/files/57369_60810.html",
+    "inputBy": "しんじ",
+    "proofreadBy": "阿部哲也",
+    "baseBook1": {
+      "title": "林芙美子全集　第六巻",
+      "publisher": "文泉堂出版",
+      "firstPublishedAt": "1977（昭和52）年4月20日",
+      "inputEdition": "1977（昭和52）年4月20日",
+      "proofreadEdition": "1977（昭和52）年4月20日"
+    },
+    "author": "林芙美子",
+    "authors": [
+      {
+        "personId": "000291",
+        "name": "林芙美子",
+        "kana": "はやしふみこ",
+        "roman": "Fumiko Hayashi",
+        "role": "著者",
+        "birthDate": "1903-12-31",
+        "deathDate": "1951-06-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

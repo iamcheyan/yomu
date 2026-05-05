@@ -186,5 +186,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054069",
+    "title": "横顔",
+    "titleKana": "シルーエット",
+    "sortKana": "しるうえつと",
+    "firstAppearance": "「戦旗」1930（昭和5）年6月号",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-02-24",
+    "updatedAt": "2018-01-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001628/card54069.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001628/files/54069_ruby_63820.zip",
+    "textFileId": "54069_ruby_63820",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001628/files/54069_63900.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・39　プロレタリア詩集（二）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年6月30日",
+      "inputEdition": "1987（昭和62）年6月30日初版",
+      "proofreadEdition": "1989（平成元）年5月15日第3刷"
+    },
+    "author": "上田進",
+    "authors": [
+      {
+        "personId": "001628",
+        "name": "上田進",
+        "kana": "うえだすすむ",
+        "roman": "Susumu Ueda",
+        "role": "著者",
+        "birthDate": "1907-10-24",
+        "deathDate": "1947-02-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

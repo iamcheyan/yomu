@@ -98,5 +98,54 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043627",
+    "title": "科学者と夜店商人",
+    "titleKana": "かがくしゃとよみせしょうにん",
+    "sortKana": "かかくしやとよみせしようにん",
+    "firstAppearance": "「科学画報」1929（昭和4）年8月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-01-26",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card43627.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/43627_ruby_16784.zip",
+    "textFileId": "43627_ruby_16784",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/43627_17434.html",
+    "inputBy": "田中哲郎",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "海野十三全集　別巻2　日記・書簡・雑纂",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1993（平成5）年1月31日",
+      "inputEdition": "1993（平成5）年1月31日第1版第1刷",
+      "proofreadEdition": "1993（平成5）年1月31日第1版第1刷"
+    },
+    "author": "海野十三、佐野昌一",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      },
+      {
+        "personId": "001159",
+        "name": "佐野昌一",
+        "kana": "さのしょういち",
+        "roman": "Shoichi Sano",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

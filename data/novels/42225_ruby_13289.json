@@ -126,5 +126,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042225",
+    "title": "「一握の砂」序",
+    "titleKana": "「いちあくのすな」じょ",
+    "sortKana": "いちあくのすなしよ",
+    "ndc": "NDC 911 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-06-06",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001080/card42225.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001080/files/42225_ruby_13289.zip",
+    "textFileId": "42225_ruby_13289",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001080/files/42225_13507.html",
+    "inputBy": "富田倫生",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "啄木全集　第一巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1967（昭和42）年6月30日",
+      "inputEdition": "1967（昭和42）年8月10日初版第2刷",
+      "proofreadEdition": "1970（昭和45）年5月20日初版第4刷"
+    },
+    "author": "藪野椋十",
+    "authors": [
+      {
+        "personId": "001080",
+        "name": "藪野椋十",
+        "kana": "やぶのむくじゅう",
+        "roman": "Mukuju Yabuno",
+        "role": "著者",
+        "birthDate": "1872-06-03",
+        "deathDate": "1926-04-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

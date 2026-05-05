@@ -152,5 +152,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049301",
+    "title": "ハイカラ考",
+    "titleKana": "ハイカラこう",
+    "sortKana": "はいからこう",
+    "ndc": "NDC 723",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-01-02",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001312/card49301.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001312/files/49301_ruby_33968.zip",
+    "textFileId": "49301_ruby_33968",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001312/files/49301_33996.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻95　明治",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年1月25日",
+      "inputEdition": "1999（平成11）年1月25日第1刷",
+      "proofreadEdition": "1999（平成11）年1月25日第1刷"
+    },
+    "author": "木村荘八",
+    "authors": [
+      {
+        "personId": "001312",
+        "name": "木村荘八",
+        "kana": "きむらしょうはち",
+        "roman": "Shohachi Kimura",
+        "role": "著者",
+        "birthDate": "1893-08-21",
+        "deathDate": "1958-11-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

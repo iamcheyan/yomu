@@ -262,5 +262,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045660",
+    "title": "若芽",
+    "titleKana": "わかめ",
+    "sortKana": "わかめ",
+    "firstAppearance": "「潮　第二巻第一号」1914（大正3）年12月",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-11-16",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000595/card45660.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000595/files/45660_ruby_19807.zip",
+    "textFileId": "45660_ruby_19807",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000595/files/45660_19948.html",
+    "inputBy": "岑村綱之",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "石川近代文学全集４",
+      "publisher": "石川近代文学館",
+      "firstPublishedAt": "1996（平成8）年3月1日",
+      "inputEdition": "1996（平成8）年3月1日初版第1刷",
+      "proofreadEdition": "1996（平成8）年3月1日初版第1刷"
+    },
+    "author": "島田清次郎",
+    "authors": [
+      {
+        "personId": "000595",
+        "name": "島田清次郎",
+        "kana": "しまだせいじろう",
+        "roman": "Seijiro Shimada",
+        "role": "著者",
+        "birthDate": "1899-02-26",
+        "deathDate": "1930-04-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

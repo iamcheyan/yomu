@@ -2702,5 +2702,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003369",
+    "title": "火薬船",
+    "titleKana": "かやくせん",
+    "sortKana": "かやくせん",
+    "firstAppearance": "「大日本青年」（「浪立つ極東航路」のタイトルで。）",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-04-07",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card3369.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/3369_ruby_14605.zip",
+    "textFileId": "3369_ruby_14605",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/3369_15092.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "原田頌子",
+    "baseBook1": {
+      "title": "海野十三全集　第9巻　怪鳥艇",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1988（昭和63）年10月30日",
+      "inputEdition": "1988（昭和63）年10月30日第1版第1刷"
+    },
+    "author": "海野十三",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

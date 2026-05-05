@@ -58,5 +58,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002400",
+    "title": "書斎",
+    "titleKana": "しょさい",
+    "sortKana": "しよさい",
+    "ndc": "NDC 019 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-07-12",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000159/card2400.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000159/files/2400_ruby_30894.zip",
+    "textFileId": "2400_ruby_30894",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000159/files/2400_31626.html",
+    "inputBy": "ふろっぎぃ",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻6　書斎",
+      "publisher": "作品社",
+      "firstPublishedAt": "1991（平成3）年8月25日",
+      "inputEdition": "1998（平成10）年1月30日第7刷",
+      "proofreadEdition": "1991（平成3）年8月25日第1刷"
+    },
+    "author": "辻潤",
+    "authors": [
+      {
+        "personId": "000159",
+        "name": "辻潤",
+        "kana": "つじじゅん",
+        "roman": "Jun Tsuji",
+        "role": "著者",
+        "birthDate": "1884-10-04",
+        "deathDate": "1944-11-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

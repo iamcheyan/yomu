@@ -1734,5 +1734,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003600",
+    "title": "思想としての文学",
+    "titleKana": "しそうとしてのぶんがく",
+    "sortKana": "しそうとしてのふんかく",
+    "firstAppearance": "「思想としての文学」三笠書房、1936（昭和11）年2月",
+    "ndc": "NDC 121 910",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-10-02",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000281/card3600.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000281/files/3600_ruby_47320.zip",
+    "textFileId": "3600_ruby_47320",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000281/files/3600_48333.html",
+    "inputBy": "矢野正人",
+    "proofreadBy": "青空文庫（校正支援）",
+    "baseBook1": {
+      "title": "戸坂潤全集第四巻",
+      "publisher": "勁草書房",
+      "firstPublishedAt": "1966（昭和41）年7月20日",
+      "inputEdition": "1975（昭和50）年9月20日第7刷"
+    },
+    "author": "戸坂潤",
+    "authors": [
+      {
+        "personId": "000281",
+        "name": "戸坂潤",
+        "kana": "とさかじゅん",
+        "roman": "Jun Tosaka",
+        "role": "著者",
+        "birthDate": "1900-09-27",
+        "deathDate": "1945-08-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -26,5 +26,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045270",
+    "title": "鴎外漁史とは誰ぞ",
+    "titleKana": "おうがいぎょしとはだれぞ",
+    "sortKana": "おうかいきよしとはたれそ",
+    "firstAppearance": "1900（明治33）年1月",
+    "ndc": "NDC 916",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-08-28",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card45270.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/45270_ruby_19021.zip",
+    "textFileId": "45270_ruby_19021",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/45270_19219.html",
+    "inputBy": "大田一",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "歴史其儘と歴史離れ　森鴎外全集14",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1996（平成8）年8月22日",
+      "inputEdition": "1996（平成8）年8月22日第1刷",
+      "proofreadEdition": "1996（平成8）年8月22日第1刷"
+    },
+    "author": "森鴎外",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

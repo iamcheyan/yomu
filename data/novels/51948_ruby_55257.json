@@ -452,5 +452,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051948",
+    "title": "老残",
+    "titleKana": "ろうざん",
+    "sortKana": "ろうさん",
+    "firstAppearance": "「中央公論」1952（昭和23）年3月号",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-01-02",
+    "updatedAt": "2014-12-15",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001446/card51948.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001446/files/51948_ruby_55257.zip",
+    "textFileId": "51948_ruby_55257",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001446/files/51948_55345.html",
+    "inputBy": "青空文庫",
+    "proofreadBy": "荒木恵一",
+    "baseBook1": {
+      "title": "現代日本文學大系　49　葛西善藏　嘉村礒多　相馬泰三　川崎長太郎　宮地嘉六　木山捷平集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1973（昭和48）年2月5日",
+      "inputEdition": "1973（昭和48）年2月5日初版第1刷",
+      "proofreadEdition": "1973（昭和48）年2月5日初版第1刷"
+    },
+    "author": "宮地嘉六",
+    "authors": [
+      {
+        "personId": "001446",
+        "name": "宮地嘉六",
+        "kana": "みやちかろく",
+        "roman": "Karoku Miyachi",
+        "role": "著者",
+        "birthDate": "1884-06-11",
+        "deathDate": "1958-04-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

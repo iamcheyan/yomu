@@ -150,5 +150,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045157",
+    "title": "竜宮の犬",
+    "titleKana": "りゅうぐうのいぬ",
+    "sortKana": "りゆうくうのいぬ",
+    "ndc": "NDC K913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-09-15",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000809/card45157.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000809/files/45157_ruby_18137.zip",
+    "textFileId": "45157_ruby_18137",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000809/files/45157_19263.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "日本児童文学大系　第一一巻",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1978（昭和53）年11月30日",
+      "inputEdition": "1978（昭和53）年11月30日初刷",
+      "proofreadEdition": "1978（昭和53）年11月30日初刷"
+    },
+    "author": "宮原晃一郎",
+    "authors": [
+      {
+        "personId": "000809",
+        "name": "宮原晃一郎",
+        "kana": "みやはらこういちろう",
+        "roman": "Koichiro Miyahara",
+        "role": "著者",
+        "birthDate": "1882-09-02",
+        "deathDate": "1945-06-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

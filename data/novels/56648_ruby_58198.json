@@ -212,5 +212,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056648",
+    "title": "人間椅子",
+    "titleKana": "にんげんいす",
+    "sortKana": "にんけんいす",
+    "firstAppearance": "「苦楽」プラトン社、1925（大正14）年10月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-02-09",
+    "updatedAt": "2016-11-12",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001779/card56648.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001779/files/56648_ruby_58198.zip",
+    "textFileId": "56648_ruby_58198",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001779/files/56648_58207.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "湖山ルル",
+    "baseBook1": {
+      "title": "江戸川乱歩全集　第1巻　屋根裏の散歩者",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2004（平成16）年7月20日",
+      "inputEdition": "2004（平成16）年7月20日初版1刷",
+      "proofreadEdition": "2004（平成16）年7月20日初版1刷"
+    },
+    "author": "江戸川乱歩",
+    "authors": [
+      {
+        "personId": "001779",
+        "name": "江戸川乱歩",
+        "kana": "えどがわらんぽ",
+        "roman": "Ranpo Edogawa",
+        "role": "著者",
+        "birthDate": "1894-10-21",
+        "deathDate": "1965-07-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

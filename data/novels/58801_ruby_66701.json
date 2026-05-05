@@ -82,5 +82,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058801",
+    "title": "途中で",
+    "titleKana": "とちゅうで",
+    "sortKana": "とちゆうて",
+    "firstAppearance": "「婦人戦旗　第一巻第二号」戦旗社、1931（昭和6）年8月1日",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-01-24",
+    "updatedAt": "2018-12-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001637/card58801.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001637/files/58801_ruby_66701.zip",
+    "textFileId": "58801_ruby_66701",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001637/files/58801_66752.html",
+    "inputBy": "津村田悟",
+    "proofreadBy": "夏生ぐみ",
+    "baseBook1": {
+      "title": "中野鈴子全詩集",
+      "publisher": "フェニックス出版",
+      "firstPublishedAt": "1980（昭和55）年4月30日",
+      "inputEdition": "1980（昭和55）年4月30日初版",
+      "proofreadEdition": "1980（昭和55）年4月30日初版"
+    },
+    "author": "中野鈴子",
+    "authors": [
+      {
+        "personId": "001637",
+        "name": "中野鈴子",
+        "kana": "なかのすずこ",
+        "roman": "Suzuko Nakano",
+        "role": "著者",
+        "birthDate": "1906-01-24",
+        "deathDate": "1958-01-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

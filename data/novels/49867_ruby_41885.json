@@ -266,5 +266,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049867",
+    "title": "流刑地で",
+    "titleKana": "るけいちで",
+    "sortKana": "るけいちて",
+    "originalTitle": "IN DER STRAFKOLONIE",
+    "ndc": "NDC 943",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-01-13",
+    "updatedAt": "2016-02-22",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001235/card49867.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001235/files/49867_ruby_41885.zip",
+    "textFileId": "49867_ruby_41885",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001235/files/49867_41929.html",
+    "inputBy": "kompass",
+    "proofreadBy": "青空文庫",
+    "baseBook1": {
+      "title": "世界文学大系58　カフカ",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1960（昭和35）年4月10日",
+      "inputEdition": "1960（昭和35）年4月10日",
+      "proofreadEdition": "1960（昭和35）年4月10日"
+    },
+    "author": "カフカフランツ",
+    "authors": [
+      {
+        "personId": "001235",
+        "name": "カフカフランツ",
+        "kana": "カフカフランツ",
+        "roman": "Franz Kafka",
+        "role": "著者",
+        "birthDate": "1883-07-03",
+        "deathDate": "1924-06-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -128,5 +128,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002388",
+    "title": "烈日",
+    "titleKana": "れつじつ",
+    "sortKana": "れつしつ",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-01-11",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000331/card2388.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000331/files/2388_ruby_5049.zip",
+    "textFileId": "2388_ruby_5049",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000331/files/2388_39176.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "大野裕",
+    "baseBook1": {
+      "title": "文藝戦線10月号",
+      "publisher": "文藝戦線社",
+      "firstPublishedAt": "1925（大正14）年10月1日"
+    },
+    "author": "若杉鳥子",
+    "authors": [
+      {
+        "personId": "000331",
+        "name": "若杉鳥子",
+        "kana": "わかすぎとりこ",
+        "roman": "Toriko Wakasugi",
+        "role": "著者",
+        "birthDate": "1892-12-21",
+        "deathDate": "1937-12-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

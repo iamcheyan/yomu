@@ -104,5 +104,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003043",
+    "title": "火を喰つた鴉",
+    "titleKana": "ひをくったからす",
+    "sortKana": "ひをくつたからす",
+    "ndc": "NDC K913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-07-08",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000765/card3043.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000765/files/3043_ruby_30893.zip",
+    "textFileId": "3043_ruby_30893",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000765/files/3043_31544.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "逸見猶吉の詩とエッセイと童話",
+      "publisher": "落合書店",
+      "firstPublishedAt": "1987（昭和62）年2月20日",
+      "inputEdition": "1987（昭和62）年2月20日",
+      "proofreadEdition": "1987（昭和62）年2月20日"
+    },
+    "author": "逸見猶吉",
+    "authors": [
+      {
+        "personId": "000765",
+        "name": "逸見猶吉",
+        "kana": "へんみゆうきち",
+        "roman": "Yukichi Henmi",
+        "role": "著者",
+        "birthDate": "1907-09-09",
+        "deathDate": "1946-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

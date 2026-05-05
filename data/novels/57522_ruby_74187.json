@@ -3518,5 +3518,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057522",
+    "title": "妖虫",
+    "titleKana": "ようちゅう",
+    "sortKana": "ようちゆう",
+    "firstAppearance": "「キング」大日本雄弁会講談社、1933（昭和8）年12月～1934（昭和9）年10月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-10-21",
+    "updatedAt": "2021-09-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001779/card57522.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001779/files/57522_ruby_74187.zip",
+    "textFileId": "57522_ruby_74187",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001779/files/57522_74224.html",
+    "inputBy": "金城学院大学　電子書籍制作",
+    "proofreadBy": "入江幹夫",
+    "baseBook1": {
+      "title": "江戸川乱歩全集　第8巻　目羅博士の不思議な犯罪",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2004（平成16）年6月20日",
+      "inputEdition": "2004（平成16）年6月20日初版1刷",
+      "proofreadEdition": "2004（平成16）年6月20日初版１刷"
+    },
+    "author": "江戸川乱歩",
+    "authors": [
+      {
+        "personId": "001779",
+        "name": "江戸川乱歩",
+        "kana": "えどがわらんぽ",
+        "roman": "Ranpo Edogawa",
+        "role": "著者",
+        "birthDate": "1894-10-21",
+        "deathDate": "1965-07-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

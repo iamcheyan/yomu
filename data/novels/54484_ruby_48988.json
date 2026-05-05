@@ -374,5 +374,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054484",
+    "title": "機密の魅惑",
+    "titleKana": "きみつのみわく",
+    "sortKana": "きみつのみわく",
+    "firstAppearance": "「踊る影絵」柳香書院、1935（昭和10）年2月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-12-28",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001669/card54484.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001669/files/54484_ruby_48988.zip",
+    "textFileId": "54484_ruby_48988",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001669/files/54484_49248.html",
+    "inputBy": "kompass",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "大倉燁子探偵小説選",
+      "publisher": "論創社",
+      "firstPublishedAt": "2011（平成23）年4月30日",
+      "inputEdition": "2011（平成23）年4月30日初版第1刷",
+      "proofreadEdition": "2011（平成23）年4月30日初版第1刷"
+    },
+    "author": "大倉燁子",
+    "authors": [
+      {
+        "personId": "001669",
+        "name": "大倉燁子",
+        "kana": "おおくらてるこ",
+        "roman": "Teruko Okura",
+        "role": "著者",
+        "birthDate": "1886-04-12",
+        "deathDate": "1960-07-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -40,5 +40,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048687",
+    "title": "小説　円朝　あとがき",
+    "titleKana": "しょうせつ　えんちょう　あとがき",
+    "sortKana": "しようせつえんちようあとかき",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-01-24",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001313/card48687.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001313/files/48687_ruby_34116.zip",
+    "textFileId": "48687_ruby_34116",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001313/files/48687_34117.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "小説　圓朝",
+      "publisher": "河出文庫、河出書房新社",
+      "firstPublishedAt": "2005（平成17）年7月20日",
+      "inputEdition": "2005（平成17）年7月20日初版",
+      "proofreadEdition": "2005（平成17）年7月20日初版"
+    },
+    "author": "正岡容",
+    "authors": [
+      {
+        "personId": "001313",
+        "name": "正岡容",
+        "kana": "まさおかいるる",
+        "roman": "Iruru Masaoka",
+        "role": "著者",
+        "birthDate": "1904-12-20",
+        "deathDate": "1958-12-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

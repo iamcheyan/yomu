@@ -2434,5 +2434,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043659",
+    "title": "大鵬のゆくえ",
+    "titleKana": "おおとりのゆくえ",
+    "sortKana": "おおとりのゆくえ",
+    "firstAppearance": "「サンデー毎日」1925（大正14）年1月11日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-03-21",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card43659.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/43659_ruby_17827.zip",
+    "textFileId": "43659_ruby_17827",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/43659_17897.html",
+    "inputBy": "阿和泉拓",
+    "proofreadBy": "湯地光弘",
+    "baseBook1": {
+      "title": "銅銭会事変　短編",
+      "publisher": "国枝史郎伝奇文庫27、講談社",
+      "firstPublishedAt": "1976（昭和51）年10月28日",
+      "inputEdition": "1976（昭和51）年10月28日第1刷"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

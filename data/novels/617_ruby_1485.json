@@ -112,5 +112,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000617",
+    "title": "悟浄歎異",
+    "titleKana": "ごじょうたんに",
+    "sortKana": "こしようたんに",
+    "subtitle": "―沙門悟浄の手記―",
+    "subtitleKana": "―さもんごじょうのしゅき―",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-02-09",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000119/card617.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000119/files/617_ruby_1485.zip",
+    "textFileId": "617_ruby_1485",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000119/files/617_14530.html",
+    "inputBy": "佐野良二",
+    "proofreadBy": "かとうかおり",
+    "baseBook1": {
+      "title": "李陵・山月記・弟子・名人伝",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1968（昭和43）年9月10日",
+      "inputEdition": "1983（昭和58）年9月30日改版24版",
+      "proofreadEdition": "1995（平成7）年5月30日改版48版"
+    },
+    "author": "中島敦",
+    "authors": [
+      {
+        "personId": "000119",
+        "name": "中島敦",
+        "kana": "なかじまあつし",
+        "roman": "Atsushi Nakajima",
+        "role": "著者",
+        "birthDate": "1909-05-05",
+        "deathDate": "1942-12-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

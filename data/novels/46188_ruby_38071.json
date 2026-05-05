@@ -804,5 +804,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046188",
+    "title": "人口論",
+    "titleKana": "じんこうろん",
+    "sortKana": "しんこうろん",
+    "subtitle": "03 第三篇　人口原理より生ずる害悪を除去する目的をもってかつて社会に提案または実施された種々の制度または方策について",
+    "subtitleKana": "03 だいさんぺん　じんこうげんりよりしょうずるがいあくをじょきょするもくてきをもってかつてしゃかいにていあんまたはじっしされたしゅじゅのせいどまたはほうさくについて",
+    "originalTitle": "AN ESSAY ON THE PRINCIPLE OF POPULATION",
+    "ndc": "NDC 331 334",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-06-22",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001149/card46188.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001149/files/46188_ruby_38071.zip",
+    "textFileId": "46188_ruby_38071",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001149/files/46188_39405.html",
+    "inputBy": "京都大学電子テクスト研究会入力班",
+    "proofreadBy": "京都大学電子テクスト研究会校正班",
+    "baseBook1": {
+      "title": "各版對照　マルサス　人口論3",
+      "publisher": "春秋社",
+      "firstPublishedAt": "1949（昭和24）年4月10日",
+      "inputEdition": "1950（昭和25）年4月30日重版",
+      "proofreadEdition": "1950（昭和25）年4月30日重版"
+    },
+    "author": "マルサストマス・ロバート",
+    "authors": [
+      {
+        "personId": "001149",
+        "name": "マルサストマス・ロバート",
+        "kana": "マルサストマス・ロバート",
+        "roman": "Thomas Robert Malthus",
+        "role": "著者",
+        "birthDate": "1766-02-13",
+        "deathDate": "1834-12-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

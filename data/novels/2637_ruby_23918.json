@@ -1010,5 +1010,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002637",
+    "title": "鞄らしくない鞄",
+    "titleKana": "かばんらしくないかばん",
+    "sortKana": "かはんらしくないかはん",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-07-21",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card2637.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/2637_ruby_23918.zip",
+    "textFileId": "2637_ruby_23918",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/2637_23919.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "原田頌子",
+    "baseBook1": {
+      "title": "海野十三全集　第13巻　少年探偵長",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1992（平成4）年2月29日"
+    },
+    "author": "海野十三",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

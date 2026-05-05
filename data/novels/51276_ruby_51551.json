@@ -708,5 +708,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051276",
+    "title": "日を愛しむ",
+    "titleKana": "ひをいとしむ",
+    "sortKana": "ひをいとしむ",
+    "firstAppearance": "「群像」1961（昭和36）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-11-20",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001499/card51276.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001499/files/51276_ruby_51551.zip",
+    "textFileId": "51276_ruby_51551",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001499/files/51276_51592.html",
+    "inputBy": "kompass",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "澪標・落日の光景",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1992（平成4年）6月10日",
+      "inputEdition": "1992（平成4年）6月10日第1刷",
+      "proofreadEdition": "1992（平成4年）6月10日第1刷"
+    },
+    "author": "外村繁",
+    "authors": [
+      {
+        "personId": "001499",
+        "name": "外村繁",
+        "kana": "とのむらしげる",
+        "roman": "Shigeru Tonomura",
+        "role": "著者",
+        "birthDate": "1902-12-23",
+        "deathDate": "1961-07-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

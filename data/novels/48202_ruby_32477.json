@@ -50,5 +50,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048202",
+    "title": "沼森",
+    "titleKana": "ぬまもり",
+    "sortKana": "ぬまもり",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-09-08",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card48202.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/48202_ruby_32477.zip",
+    "textFileId": "48202_ruby_32477",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/48202_32478.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "【新】校本宮澤賢治全集　第十二巻　童話Ⅴ・劇・その他　本文篇",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1995（平成7）年11月25日",
+      "inputEdition": "1995（平成7）年11月25日初版第1刷",
+      "proofreadEdition": "1995（平成7）年11月25日初版第1刷"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

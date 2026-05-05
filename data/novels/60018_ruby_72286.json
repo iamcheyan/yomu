@@ -148,5 +148,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060018",
+    "title": "草の中",
+    "titleKana": "くさのなか",
+    "sortKana": "くさのなか",
+    "firstAppearance": "「文壇　第一卷第一號」1924（大正13）年7月1日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-12-30",
+    "updatedAt": "2020-11-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card60018.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/60018_ruby_72286.zip",
+    "textFileId": "60018_ruby_72286",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/60018_72334.html",
+    "inputBy": "岡村和彦",
+    "proofreadBy": "きりんの手紙",
+    "baseBook1": {
+      "title": "定本　横光利一全集　第一卷",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "1981（昭和56）年6月30日",
+      "inputEdition": "1981（昭和56）年6月30日初版",
+      "proofreadEdition": "1981（昭和56）年6月30日初版"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

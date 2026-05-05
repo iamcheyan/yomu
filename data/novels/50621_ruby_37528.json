@@ -84,5 +84,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050621",
+    "title": "酋長",
+    "titleKana": "しゅうちょう",
+    "sortKana": "しゆうちよう",
+    "firstAppearance": "「旅」1938（昭和13）年2月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-04-05",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000076/card50621.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000076/files/50621_ruby_37528.zip",
+    "textFileId": "50621_ruby_37528",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000076/files/50621_38423.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "岡本かの子全集4",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1993（平成5）年7月22日",
+      "inputEdition": "1993（平成5）年7月22日第1刷",
+      "proofreadEdition": "1993（平成5）年7月22日第1刷"
+    },
+    "author": "岡本かの子",
+    "authors": [
+      {
+        "personId": "000076",
+        "name": "岡本かの子",
+        "kana": "おかもとかのこ",
+        "roman": "Kanoko Okamoto",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1939-02-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

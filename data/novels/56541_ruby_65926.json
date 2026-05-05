@@ -422,5 +422,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056541",
+    "title": "急行十三時間",
+    "titleKana": "きゅうこうじゅうさんじかん",
+    "sortKana": "きゆうこうしゆうさんしかん",
+    "firstAppearance": "「新青年」1926（大正15）年10月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-10-05",
+    "updatedAt": "2018-09-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000260/card56541.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000260/files/56541_ruby_65926.zip",
+    "textFileId": "56541_ruby_65926",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000260/files/56541_66078.html",
+    "inputBy": "sogo",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "探偵小説の風景　トラフィック・コレクション（上）",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2009（平成21）年5月20日初版1刷",
+      "inputEdition": "2009（平成21）年5月20日初版1刷",
+      "proofreadEdition": "2009（平成21）年5月20日初版1刷"
+    },
+    "author": "甲賀三郎",
+    "authors": [
+      {
+        "personId": "000260",
+        "name": "甲賀三郎",
+        "kana": "こうがさぶろう",
+        "roman": "Saburo Koga",
+        "role": "著者",
+        "birthDate": "1893-10-05",
+        "deathDate": "1945-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

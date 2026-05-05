@@ -2208,5 +2208,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048400",
+    "title": "三枚続",
+    "titleKana": "さんまいつづき",
+    "sortKana": "さんまいつつき",
+    "firstAppearance": "「大阪毎日新聞」1900（明治33）年8月9日～9月27日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-04-08",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card48400.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/48400_ruby_47126.zip",
+    "textFileId": "48400_ruby_47126",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/48400_47272.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "泉鏡花集成9",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1996（平成8）年6月24日",
+      "inputEdition": "1996（平成8）年6月24日第1刷",
+      "proofreadEdition": "1996（平成8）年6月24日第1刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

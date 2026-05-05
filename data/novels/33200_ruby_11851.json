@@ -176,5 +176,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "033200",
+    "title": "幸福への道",
+    "titleKana": "こうふくへのみち",
+    "sortKana": "こうふくへのみち",
+    "firstAppearance": "「新潮」1915（大正4）年1月",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-12-17",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000012/card33200.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000012/files/33200_ruby_11851.zip",
+    "textFileId": "33200_ruby_11851",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000012/files/33200_14001.html",
+    "inputBy": "小林徹",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "青白き夢",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1918（大正7）年3月15日",
+      "inputEdition": "1918（大正7）年3月15日"
+    },
+    "author": "素木しづ",
+    "authors": [
+      {
+        "personId": "000012",
+        "name": "素木しづ",
+        "kana": "しらきしづ",
+        "roman": "Shizu Shiraki",
+        "role": "著者",
+        "birthDate": "1895-03-26",
+        "deathDate": "1918-01-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

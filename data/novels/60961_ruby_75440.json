@@ -58,5 +58,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060961",
+    "title": "幸福が遅く来たなら",
+    "titleKana": "こうふくがおそくきたなら",
+    "sortKana": "こうふくかおそくきたなら",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-05-19",
+    "updatedAt": "2022-04-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000227/card60961.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000227/files/60961_ruby_75440.zip",
+    "textFileId": "60961_ruby_75440",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000227/files/60961_75472.html",
+    "inputBy": "hitsuji",
+    "proofreadBy": "The Creative CAT",
+    "baseBook1": {
+      "title": "日本の詩歌　26　近代詩集",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1970（昭和45）年4月15日",
+      "inputEdition": "1979（昭和54）年11月20日新訂版",
+      "proofreadEdition": "1979（昭和54）年11月20日新訂版"
+    },
+    "author": "生田春月",
+    "authors": [
+      {
+        "personId": "000227",
+        "name": "生田春月",
+        "kana": "いくたしゅんげつ",
+        "roman": "Shungetsu Ikuta",
+        "role": "著者",
+        "birthDate": "1892-03-12",
+        "deathDate": "1930-05-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

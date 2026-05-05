@@ -5578,5 +5578,52 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051732",
+    "title": "古事記",
+    "titleKana": "こじき",
+    "sortKana": "こしき",
+    "subtitle": "03 現代語訳　古事記",
+    "subtitleKana": "03 げんだいごやく　こじき",
+    "ndc": "NDC 210",
+    "orthography": "旧字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-10-11",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001518/card51732.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001518/files/51732_ruby_44617.zip",
+    "textFileId": "51732_ruby_44617",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001518/files/51732_44768.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "しだひろし",
+    "baseBook1": {
+      "title": "古事記",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1956（昭和31）年5月20日",
+      "inputEdition": "1965（昭和40）年9月20日20版",
+      "proofreadEdition": "1975（昭和50）年9月30日42版"
+    },
+    "author": "太安万侶、稗田阿礼",
+    "authors": [
+      {
+        "personId": "001518",
+        "name": "太安万侶",
+        "kana": "おおのやすまろ",
+        "roman": "yasumaro oono",
+        "role": "著者",
+        "deathDate": "723-08-15",
+        "copyright": "なし"
+      },
+      {
+        "personId": "001519",
+        "name": "稗田阿礼",
+        "kana": "ひえだのあれ",
+        "roman": "are hieda",
+        "role": "著者",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

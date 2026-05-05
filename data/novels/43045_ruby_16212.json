@@ -66,5 +66,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043045",
+    "title": "南島譚",
+    "titleKana": "なんとうたん",
+    "sortKana": "なんとうたん",
+    "subtitle": "03 雞",
+    "subtitleKana": "03 とり",
+    "firstAppearance": "「南島譚」問題社、1942（昭和17）年11月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-09-02",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000119/card43045.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000119/files/43045_ruby_16212.zip",
+    "textFileId": "43045_ruby_16212",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000119/files/43045_16307.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "中島敦全集2",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1993（平成5）年3月24日",
+      "inputEdition": "2003（平成15）年3月20日第6刷",
+      "proofreadEdition": "2003（平成15）年3月20日第6刷"
+    },
+    "author": "中島敦",
+    "authors": [
+      {
+        "personId": "000119",
+        "name": "中島敦",
+        "kana": "なかじまあつし",
+        "roman": "Atsushi Nakajima",
+        "role": "著者",
+        "birthDate": "1909-05-05",
+        "deathDate": "1942-12-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

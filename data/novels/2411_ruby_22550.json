@@ -336,5 +336,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002411",
+    "title": "人造人間",
+    "titleKana": "じんぞうにんげん",
+    "sortKana": "しんそうにんけん",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-01-21",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000221/card2411.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000221/files/2411_ruby_22550.zip",
+    "textFileId": "2411_ruby_22550",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000221/files/2411_22551.html",
+    "inputBy": "田中亨吾",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "世界ＳＦ全集　34　日本のＳＦ（短篇集）古典篇",
+      "publisher": "早川書房",
+      "firstPublishedAt": "1971（昭和46）年4月30日",
+      "inputEdition": "1976（昭和51）年7月15日再版"
+    },
+    "author": "平林初之輔",
+    "authors": [
+      {
+        "personId": "000221",
+        "name": "平林初之輔",
+        "kana": "ひらばやしはつのすけ",
+        "roman": "Hatsunosuke Hirabayashi",
+        "role": "著者",
+        "birthDate": "1892-11-08",
+        "deathDate": "1931-06-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

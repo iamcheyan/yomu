@@ -40,5 +40,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "013208",
+    "title": "春永話",
+    "titleKana": "はるながばなし",
+    "sortKana": "はるなかはなし",
+    "ndc": "NDC 773 774 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-01-20",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card13208.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/13208_ruby_14180.zip",
+    "textFileId": "13208_ruby_14180",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/13208_14235.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻10　芝居",
+      "publisher": "作品社",
+      "firstPublishedAt": "1991（平成3）年12月25日",
+      "inputEdition": "1997（平成9）年5月20日第4刷"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

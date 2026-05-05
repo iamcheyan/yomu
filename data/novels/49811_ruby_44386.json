@@ -138,5 +138,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049811",
+    "title": "周防石城山神籠石探検記",
+    "titleKana": "すおういわきやまこうごいしたんけんき",
+    "sortKana": "すおういわきやまこうこいしたんけんき",
+    "firstAppearance": "「歴史地理　第一五巻第三号」1910（明治43）年3月号",
+    "ndc": "NDC 217",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-09-11",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001344/card49811.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001344/files/49811_ruby_44386.zip",
+    "textFileId": "49811_ruby_44386",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001344/files/49811_44668.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "先住民と差別　喜田貞吉歴史民俗学傑作選",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "2008（平成20）年1月30日",
+      "inputEdition": "2008（平成20）年1月30日初版",
+      "proofreadEdition": "2008（平成20）年1月30日初版"
+    },
+    "author": "喜田貞吉",
+    "authors": [
+      {
+        "personId": "001344",
+        "name": "喜田貞吉",
+        "kana": "きたさだきち",
+        "roman": "Sadakichi Kita",
+        "role": "著者",
+        "birthDate": "1871-07-11",
+        "deathDate": "1939-07-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

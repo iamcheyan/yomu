@@ -462,5 +462,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045862",
+    "title": "波子",
+    "titleKana": "なみこ",
+    "sortKana": "なみこ",
+    "firstAppearance": "「現代文学　第四巻第七号」大観堂、1941（昭和16）年8月28日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-11-10",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card45862.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/45862_ruby_33223.zip",
+    "textFileId": "45862_ruby_33223",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/45862_33235.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "坂口安吾全集　03",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年3月20日",
+      "inputEdition": "1999（平成11）年3月20日初版第1刷",
+      "proofreadEdition": "1999（平成11）年3月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

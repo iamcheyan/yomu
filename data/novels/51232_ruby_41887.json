@@ -54,5 +54,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051232",
+    "title": "月夜の東大寺南大門",
+    "titleKana": "つきよのとうだいじなんだいもん",
+    "sortKana": "つきよのとうたいしなんたいもん",
+    "ndc": "NDC 121",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-01-16",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001395/card51232.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001395/files/51232_ruby_41887.zip",
+    "textFileId": "51232_ruby_41887",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001395/files/51232_41931.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆58　月",
+      "publisher": "作品社",
+      "firstPublishedAt": "1987（昭和62）年8月25日",
+      "inputEdition": "1999（平成11）年4月30日第10刷",
+      "proofreadEdition": "1999（平成11）年4月30日第10刷"
+    },
+    "author": "和辻哲郎",
+    "authors": [
+      {
+        "personId": "001395",
+        "name": "和辻哲郎",
+        "kana": "わつじてつろう",
+        "roman": "Tetsuro Watsuji",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1960-12-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

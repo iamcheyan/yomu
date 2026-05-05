@@ -78,5 +78,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051897",
+    "title": "怪物取組画譜",
+    "titleKana": "かいぶつとりくみがふ",
+    "sortKana": "かいふつとりくみかふ",
+    "subtitle": "出羽ヶ嶽その日その日",
+    "subtitleKana": "でわがたけそのひそのひ",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-10-11",
+    "updatedAt": "2022-09-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000239/card51897.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000239/files/51897_ruby_76366.zip",
+    "textFileId": "51897_ruby_76366",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000239/files/51897_76401.html",
+    "inputBy": "浦山敦子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻2　相撲",
+      "publisher": "作品社",
+      "firstPublishedAt": "1991（平成3）年4月25日",
+      "inputEdition": "1991（平成3）年4月25日第1刷",
+      "proofreadEdition": "1991（平成3）年4月25日第1刷"
+    },
+    "author": "岡本一平",
+    "authors": [
+      {
+        "personId": "000239",
+        "name": "岡本一平",
+        "kana": "おかもといっぺい",
+        "roman": "Ippei Okamoto",
+        "role": "著者",
+        "birthDate": "1886-06-11",
+        "deathDate": "1948-10-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

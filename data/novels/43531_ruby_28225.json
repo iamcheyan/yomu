@@ -30,5 +30,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043531",
+    "title": "山へ登った毬",
+    "titleKana": "やまへのぼったまり",
+    "sortKana": "やまへのほつたまり",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-11-15",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000293/card43531.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000293/files/43531_ruby_28225.zip",
+    "textFileId": "43531_ruby_28225",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000293/files/43531_28515.html",
+    "inputBy": "Juki",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "原民喜戦後全小説下",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1995（平成7）年8月10日",
+      "inputEdition": "1995（平成7）年8月10日第1刷",
+      "proofreadEdition": "2006（平成18）年6月5日第3刷"
+    },
+    "author": "原民喜",
+    "authors": [
+      {
+        "personId": "000293",
+        "name": "原民喜",
+        "kana": "はらたみき",
+        "roman": "Tamiki Hara",
+        "role": "著者",
+        "birthDate": "1905-11-15",
+        "deathDate": "1951-03-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

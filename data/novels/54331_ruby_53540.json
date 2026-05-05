@@ -2624,5 +2624,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054331",
+    "title": "海上の道",
+    "titleKana": "かいじょうのみち",
+    "sortKana": "かいしようのみち",
+    "firstAppearance": "まえがき「海上の道」筑摩書房<br> 1961（昭和36）年<br> 海上の道「心　第五巻第一〇号・第一一号・第一二号」酣燈社<br> 1952（昭和27）年10月～12月<br> 海神宮考「民族学研究　第一五巻第二号」日本民族学協会<br> 1950（昭和25年）11月<br> みろくの船「心　第四巻第七号」酣燈社<br> 1951（昭和26年）10月1日<br> 根の国の話「心　第八巻第九号」生成会<br> 1955（昭和30年）9月1日<br> 鼠の浄土「伝承文化　第一号」成城大学民俗学研究室<br> 1960（昭和35）年10月10日<br> 宝貝のこと「文化沖縄　第二巻第七号」沖縄文化協会<br> 1950（昭和25年）10月20日<br> 人とズズダマ「自然と文化　第三号」自然史学会<br> 1953（昭和28）年2月1日<br> 稲の産屋「新嘗の研究　第一輯」創元社<br> 1953（昭和28）年11月23日<br> 知りたいと思う事二、三「民間伝承　第一五第七号」日本民俗学会<br> 1951（昭和26年）11月5日",
+    "ndc": "NDC 380",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-06-12",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001566/card54331.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001566/files/54331_ruby_53540.zip",
+    "textFileId": "54331_ruby_53540",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001566/files/54331_53583.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "酔いどれ狸",
+    "baseBook1": {
+      "title": "海上の道",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1978（昭和53）年10月16日",
+      "inputEdition": "2010（平成22）年4月5日第34刷",
+      "proofreadEdition": "2010（平成22）年4月5日第34刷"
+    },
+    "author": "柳田国男",
+    "authors": [
+      {
+        "personId": "001566",
+        "name": "柳田国男",
+        "kana": "やなぎたくにお",
+        "roman": "Kunio Yanagita",
+        "role": "著者",
+        "birthDate": "1875-07-31",
+        "deathDate": "1962-08-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

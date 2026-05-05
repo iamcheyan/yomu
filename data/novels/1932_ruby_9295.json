@@ -490,5 +490,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001932",
+    "title": "かしはばやしの夜",
+    "titleKana": "かしわばやしのよる",
+    "sortKana": "かしわはやしのよる",
+    "firstAppearance": "「イーハトヴ童話　注文の多い料理店」盛岡市杜陵出版部・東京光原社、1924（大正13）年12月1日",
+    "ndc": "NDC K913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-05-15",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card1932.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/1932_ruby_9295.zip",
+    "textFileId": "1932_ruby_9295",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/1932_9726.html",
+    "inputBy": "あきら",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "宮沢賢治全集8",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1986（昭和61）年1月28日",
+      "inputEdition": "1986（昭和61）年1月28日第1刷",
+      "proofreadEdition": "1998（平成10）年4月1日第16刷"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

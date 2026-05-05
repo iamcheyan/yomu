@@ -84,5 +84,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055151",
+    "title": "牛込館",
+    "titleKana": "うしごめかん",
+    "sortKana": "うしこめかん",
+    "subtitle": "映画館めぐり(十)",
+    "subtitleKana": "えいがかんめぐりじゅう",
+    "firstAppearance": "「時事新報」時事新報社、1928（昭和3）年10月14日",
+    "ndc": "NDC 778 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-07-31",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000020/card55151.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000020/files/55151_ruby_47794.zip",
+    "textFileId": "55151_ruby_47794",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000020/files/55151_47996.html",
+    "inputBy": "匿名",
+    "proofreadBy": "富田倫生",
+    "baseBook1": {
+      "title": "時事新報",
+      "publisher": "時事新報社",
+      "firstPublishedAt": "1928（昭和3）年10月14日",
+      "inputEdition": "1928（昭和3）年10月14日"
+    },
+    "author": "渡辺温",
+    "authors": [
+      {
+        "personId": "000020",
+        "name": "渡辺温",
+        "kana": "わたなべおん",
+        "roman": "On Watanabe",
+        "role": "著者",
+        "birthDate": "1902-08-26",
+        "deathDate": "1930-02-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

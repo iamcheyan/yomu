@@ -74,5 +74,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002721",
+    "title": "名勝地帯",
+    "titleKana": "めいしょうちたい",
+    "sortKana": "めいしようちたい",
+    "firstAppearance": "「大衆の友」1932年3月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-12-04",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000037/card2721.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000037/files/2721_ruby_20696.zip",
+    "textFileId": "2721_ruby_20696",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000037/files/2721_20697.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・20　「戦旗」「ナップ」作家集（七）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1985（昭和60）年3月25日",
+      "inputEdition": "1989（平成元）年3月25日第4刷",
+      "proofreadEdition": "1989（平成元）年3月25日第4刷"
+    },
+    "author": "黒島伝治",
+    "authors": [
+      {
+        "personId": "000037",
+        "name": "黒島伝治",
+        "kana": "くろしまでんじ",
+        "roman": "Denji Kuroshima",
+        "role": "著者",
+        "birthDate": "1898-12-12",
+        "deathDate": "1943-10-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

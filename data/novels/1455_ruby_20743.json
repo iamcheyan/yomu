@@ -230,5 +230,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001455",
+    "title": "メデューサの首",
+    "titleKana": "メデューサのくび",
+    "sortKana": "めてゆうさのくひ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-11-28",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000262/card1455.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000262/files/1455_ruby_20743.zip",
+    "textFileId": "1455_ruby_20743",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000262/files/1455_20744.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "しず",
+    "baseBook1": {
+      "title": "大雷雨夜の殺人　他8編",
+      "publisher": "春陽文庫、春陽堂書店",
+      "firstPublishedAt": "1995（平成7）年2月25日"
+    },
+    "author": "小酒井不木",
+    "authors": [
+      {
+        "personId": "000262",
+        "name": "小酒井不木",
+        "kana": "こざかいふぼく",
+        "roman": "Fuboku Kosakai",
+        "role": "著者",
+        "birthDate": "1890-10-08",
+        "deathDate": "1929-04-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

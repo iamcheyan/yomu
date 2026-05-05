@@ -256,5 +256,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042349",
+    "title": "武蔵野",
+    "titleKana": "むさしの",
+    "sortKana": "むさしの",
+    "firstAppearance": "「読売新聞」1887（明治20）年11～12月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-07-29",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000843/card42349.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000843/files/42349_ruby_23258.zip",
+    "textFileId": "42349_ruby_23258",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000843/files/42349_23567.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "日本の文学　77　名作集（一）",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1970（昭和45）年7月5日",
+      "inputEdition": "1970（昭和45）年7月5日初版",
+      "proofreadEdition": "1970（昭和45）年7月5日初版"
+    },
+    "author": "山田美妙",
+    "authors": [
+      {
+        "personId": "000843",
+        "name": "山田美妙",
+        "kana": "やまだびみょう",
+        "roman": "Bimyo Yamada",
+        "role": "著者",
+        "birthDate": "1868-08-25",
+        "deathDate": "1910-10-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

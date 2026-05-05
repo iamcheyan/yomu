@@ -78,5 +78,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042242",
+    "title": "漱石さんのロンドンにおけるエピソード",
+    "titleKana": "そうせきさんのロンドンにおけるエピソード",
+    "sortKana": "そうせきさんのろんとんにおけるえひそおと",
+    "subtitle": "夏目夫人にまゐらす",
+    "subtitleKana": "なつめふじんにまいらす",
+    "ndc": "NDC 910",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-08-30",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001081/card42242.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001081/files/42242_ruby_16187.zip",
+    "textFileId": "42242_ruby_16187",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001081/files/42242_16287.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻31　留学",
+      "publisher": "作品社",
+      "firstPublishedAt": "1993（平成5）年9月25日",
+      "inputEdition": "1993（平成5）年9月25日第1刷",
+      "proofreadEdition": "1993（平成5）年9月25日第1刷"
+    },
+    "author": "土井晩翠",
+    "authors": [
+      {
+        "personId": "001081",
+        "name": "土井晩翠",
+        "kana": "どいばんすい",
+        "roman": "Bansui Doi",
+        "role": "著者",
+        "birthDate": "1871-12-05",
+        "deathDate": "1952-10-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

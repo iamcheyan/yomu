@@ -28,5 +28,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "033225",
+    "title": "作物の用意",
+    "titleKana": "さくもつのようい",
+    "sortKana": "さくもつのようい",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-09-12",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card33225.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/33225_ruby_12176.zip",
+    "textFileId": "33225_ruby_12176",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/33225_12177.html",
+    "inputBy": "高柳典子",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "鏡花全集　第二十八巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1942（昭和17）年11月30日",
+      "inputEdition": "1976（昭和51）年2月2日第2刷",
+      "proofreadEdition": "1988（昭和63）12月2日第3刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

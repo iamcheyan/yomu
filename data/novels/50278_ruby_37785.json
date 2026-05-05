@@ -104,5 +104,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050278",
+    "title": "海洋の旅",
+    "titleKana": "かいようのたび",
+    "sortKana": "かいようのたひ",
+    "ndc": "NDC 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-02-01",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001341/card50278.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001341/files/50278_ruby_37785.zip",
+    "textFileId": "50278_ruby_37785",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001341/files/50278_37786.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻51　異国",
+      "publisher": "作品社",
+      "firstPublishedAt": "1995（平成7）年5月25日",
+      "inputEdition": "1995（平成7）年5月25日第1刷",
+      "proofreadEdition": "1995（平成7）年5月25日第1刷"
+    },
+    "author": "永井荷風",
+    "authors": [
+      {
+        "personId": "001341",
+        "name": "永井荷風",
+        "kana": "ながいかふう",
+        "roman": "Kafu Nagai",
+        "role": "著者",
+        "birthDate": "1879-12-03",
+        "deathDate": "1959-04-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

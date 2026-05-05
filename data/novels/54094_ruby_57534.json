@@ -144,5 +144,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054094",
+    "title": "拡大されゆく国道前線",
+    "titleKana": "かくだいされゆくこくどうぜんせん",
+    "sortKana": "かくたいされゆくこくとうせんせん",
+    "firstAppearance": "「文学案内」1935（昭和10）年11月号",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-12-11",
+    "updatedAt": "2015-11-15",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001639/card54094.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001639/files/54094_ruby_57534.zip",
+    "textFileId": "54094_ruby_57534",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001639/files/54094_57580.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・39　プロレタリア詩集（二）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年6月30日",
+      "inputEdition": "1987（昭和62）年6月30日初版",
+      "proofreadEdition": "1987（昭和62）年6月30日初版"
+    },
+    "author": "広海大治",
+    "authors": [
+      {
+        "personId": "001639",
+        "name": "広海大治",
+        "kana": "ひろうみだいじ",
+        "roman": "Daiji Hiroumi",
+        "role": "著者",
+        "birthDate": "1910",
+        "deathDate": "1960-08-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

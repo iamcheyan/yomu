@@ -208,5 +208,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000410",
+    "title": "解剖室",
+    "titleKana": "かいぼうしつ",
+    "sortKana": "かいほうしつ",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-09-30",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000022/card410.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000022/files/410_ruby_22624.zip",
+    "textFileId": "410_ruby_22624",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000022/files/410_22625.html",
+    "inputBy": "小林徹",
+    "proofreadBy": "関延昌夫",
+    "baseBook1": {
+      "title": "現代日本文學全集　84　明治小説集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1957（昭和32）年7月25日"
+    },
+    "author": "三島霜川",
+    "authors": [
+      {
+        "personId": "000022",
+        "name": "三島霜川",
+        "kana": "みしまそうせん",
+        "roman": "Sosen Mishima",
+        "role": "著者",
+        "birthDate": "1876-07-30",
+        "deathDate": "1934-03-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

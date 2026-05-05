@@ -730,5 +730,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050705",
+    "title": "明治演劇年表",
+    "titleKana": "めいじえんげきねんぴょう",
+    "sortKana": "めいしえんけきねんひよう",
+    "ndc": "NDC 772",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-05-11",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000082/card50705.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000082/files/50705_ruby_42466.zip",
+    "textFileId": "50705_ruby_42466",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000082/files/50705_42624.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "明治劇談　ランプの下にて",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1993（平成5）年9月16日",
+      "inputEdition": "2008（平成20）年2月15日第3刷",
+      "proofreadEdition": "1993（平成5）年9月16日第1刷"
+    },
+    "author": "岡本綺堂",
+    "authors": [
+      {
+        "personId": "000082",
+        "name": "岡本綺堂",
+        "kana": "おかもときどう",
+        "roman": "Kido Okamoto",
+        "role": "著者",
+        "birthDate": "1872-11-15",
+        "deathDate": "1939-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

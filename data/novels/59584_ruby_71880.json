@@ -38,5 +38,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059584",
+    "title": "国防と科学",
+    "titleKana": "こくぼうとかがく",
+    "sortKana": "こくほうとかかく",
+    "firstAppearance": "「東京朝日」1937（昭和12）年10月",
+    "ndc": "NDC 404",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-10-18",
+    "updatedAt": "2020-09-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card59584.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/59584_ruby_71880.zip",
+    "textFileId": "59584_ruby_71880",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/59584_71927.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "きゅうり",
+    "baseBook1": {
+      "title": "中谷宇吉郎随筆選集第一巻",
+      "publisher": "朝日新聞社",
+      "firstPublishedAt": "1966（昭和41）年6月20日",
+      "inputEdition": "1966（昭和41）年6月20日",
+      "proofreadEdition": "1966（昭和41）年9月30日第4刷"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

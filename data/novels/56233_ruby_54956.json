@@ -162,5 +162,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056233",
+    "title": "内気な娘とお転婆娘",
+    "titleKana": "うちきなむすめとおてんばむすめ",
+    "sortKana": "うちきなむすめとおてんはむすめ",
+    "firstAppearance": "「改造　第七巻第八号」1925（大正14）年8月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-12-19",
+    "updatedAt": "2014-11-19",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000416/card56233.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000416/files/56233_ruby_54956.zip",
+    "textFileId": "56233_ruby_54956",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000416/files/56233_55046.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "定本　伊藤野枝全集　第三巻　評論・随筆・書簡2――『文明批評』以後",
+      "publisher": "學藝書林",
+      "firstPublishedAt": "2000（平成12）年9月30日",
+      "inputEdition": "2000（平成12）年9月30日初版",
+      "proofreadEdition": "2000（平成12）年5月31日初版"
+    },
+    "author": "伊藤野枝",
+    "authors": [
+      {
+        "personId": "000416",
+        "name": "伊藤野枝",
+        "kana": "いとうのえ",
+        "roman": "Noe Ito",
+        "role": "著者",
+        "birthDate": "1895-01-21",
+        "deathDate": "1923-09-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

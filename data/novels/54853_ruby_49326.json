@@ -170,5 +170,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054853",
+    "title": "牛捨場馬捨場",
+    "titleKana": "うしすてばうますてば",
+    "sortKana": "うしすてはうますては",
+    "firstAppearance": "「歴史地理　43-5号」1924（大正13）年5月",
+    "ndc": "NDC 361",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-03-25",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001344/card54853.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001344/files/54853_ruby_49326.zip",
+    "textFileId": "54853_ruby_49326",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001344/files/54853_50038.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "賤民とは何か",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "2008（平成20）年3月30日",
+      "inputEdition": "2008（平成20）年3月30日初版",
+      "proofreadEdition": "2008（平成20）年3月30日初版"
+    },
+    "author": "喜田貞吉",
+    "authors": [
+      {
+        "personId": "001344",
+        "name": "喜田貞吉",
+        "kana": "きたさだきち",
+        "roman": "Sadakichi Kita",
+        "role": "著者",
+        "birthDate": "1871-07-11",
+        "deathDate": "1939-07-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

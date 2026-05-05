@@ -40,5 +40,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003061",
+    "title": "名人上手に聴く",
+    "titleKana": "めいじんじょうずにきく",
+    "sortKana": "めいしんしようすにきく",
+    "firstAppearance": "「鉄塔」1933（昭和8）年3月号",
+    "ndc": "NDC 309",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-07-27",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000287/card3061.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000287/files/3061_ruby_15920.zip",
+    "textFileId": "3061_ruby_15920",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000287/files/3061_15952.html",
+    "inputBy": "山田剛",
+    "proofreadBy": "川向直樹",
+    "baseBook1": {
+      "title": "野呂栄太郎全集　下巻",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1994（平成6）年12月5日",
+      "inputEdition": "1994（平成6）年12月5日初版",
+      "proofreadEdition": "1994（平成6）年12月5日初版"
+    },
+    "author": "野呂栄太郎",
+    "authors": [
+      {
+        "personId": "000287",
+        "name": "野呂栄太郎",
+        "kana": "のろえいたろう",
+        "roman": "Eitaro Noro",
+        "role": "著者",
+        "birthDate": "1900-04-30",
+        "deathDate": "1934-02-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

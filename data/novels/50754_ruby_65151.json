@@ -258,5 +258,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050754",
+    "title": "蝦夷とコロボツクルとの異同を論ず",
+    "titleKana": "えみしとコロボックルとのいどうをろんず",
+    "sortKana": "えみしところほつくるとのいとうをろんす",
+    "firstAppearance": "「歴史地理　第九卷第三號」日本歴史地理學會、1907（明治40）年3月1日",
+    "ndc": "NDC 211",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-07-03",
+    "updatedAt": "2018-06-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001344/card50754.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001344/files/50754_ruby_65151.zip",
+    "textFileId": "50754_ruby_65151",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001344/files/50754_65194.html",
+    "inputBy": "しだひろし",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "歴史地理　第九巻第三号",
+      "publisher": "日本歴史地理学会",
+      "firstPublishedAt": "1907（明治40）3月1日",
+      "inputEdition": "1907（明治40）3月1日",
+      "proofreadEdition": "1907（明治40）3月1日"
+    },
+    "author": "喜田貞吉",
+    "authors": [
+      {
+        "personId": "001344",
+        "name": "喜田貞吉",
+        "kana": "きたさだきち",
+        "roman": "Sadakichi Kita",
+        "role": "著者",
+        "birthDate": "1871-07-11",
+        "deathDate": "1939-07-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

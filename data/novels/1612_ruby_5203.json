@@ -96,5 +96,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001612",
+    "title": "庭の怪",
+    "titleKana": "にわのかい",
+    "sortKana": "にわのかい",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-02-23",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000154/card1612.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000154/files/1612_ruby_5203.zip",
+    "textFileId": "1612_ruby_5203",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000154/files/1612_47321.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "日本の怪談",
+      "publisher": "河出文庫、河出書房新社",
+      "firstPublishedAt": "1985（昭和60）年12月4日"
+    },
+    "author": "田中貢太郎",
+    "authors": [
+      {
+        "personId": "000154",
+        "name": "田中貢太郎",
+        "kana": "たなかこうたろう",
+        "roman": "Kotaro Tanaka",
+        "role": "著者",
+        "birthDate": "1880-03-02",
+        "deathDate": "1941-02-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

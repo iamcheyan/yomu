@@ -480,5 +480,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003039",
+    "title": "天津教古文書の批判",
+    "titleKana": "あまつきょうこもんじょのひはん",
+    "sortKana": "あまつきようこもんしよのひはん",
+    "firstAppearance": "「思想」岩波書店、1936（昭和11）年6月",
+    "ndc": "NDC 178",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-09-26",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000866/card3039.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000866/files/3039_ruby_19888.zip",
+    "textFileId": "3039_ruby_19888",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000866/files/3039_23980.html",
+    "inputBy": "はまなかひとし",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "狩野亨吉遺文集",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1958（昭和33）年11月1日",
+      "inputEdition": "1958（昭和33）年11月1日第1刷",
+      "proofreadEdition": "1958（昭和33）年11月1日第1刷"
+    },
+    "author": "狩野亨吉",
+    "authors": [
+      {
+        "personId": "000866",
+        "name": "狩野亨吉",
+        "kana": "かのうこうきち",
+        "roman": "Kokichi Kano",
+        "role": "著者",
+        "birthDate": "1865-09-17",
+        "deathDate": "1942-12-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

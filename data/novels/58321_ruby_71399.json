@@ -40,5 +40,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058321",
+    "title": "瀬戸内海の島々",
+    "titleKana": "せとないかいのしまじま",
+    "sortKana": "せとないかいのしましま",
+    "firstAppearance": "「民族　第二巻第四号」民族発行所、1927（昭和2）年5月1日",
+    "ndc": "NDC 382",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-08-08",
+    "updatedAt": "2021-12-08",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001566/card58321.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001566/files/58321_ruby_71399.zip",
+    "textFileId": "58321_ruby_71399",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001566/files/58321_71448.html",
+    "inputBy": "フクポー",
+    "proofreadBy": "きゅうり",
+    "baseBook1": {
+      "title": "定本柳田國男集　第一巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1963（昭和38）年9月25日",
+      "inputEdition": "1963（昭和38）年9月25日",
+      "proofreadEdition": "1963（昭和38）年9月25日"
+    },
+    "author": "柳田国男",
+    "authors": [
+      {
+        "personId": "001566",
+        "name": "柳田国男",
+        "kana": "やなぎたくにお",
+        "roman": "Kunio Yanagita",
+        "role": "著者",
+        "birthDate": "1875-07-31",
+        "deathDate": "1962-08-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

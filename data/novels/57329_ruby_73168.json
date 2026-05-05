@@ -120,5 +120,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057329",
+    "title": "壁画摸写",
+    "titleKana": "へきがもしゃ",
+    "sortKana": "へきかもしや",
+    "firstAppearance": "「文藝春秋　第十九巻第一号」文藝春秋社、1941（昭和16）年1月1日",
+    "ndc": "NDC 721",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-05-15",
+    "updatedAt": "2021-04-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card57329.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/57329_ruby_73168.zip",
+    "textFileId": "57329_ruby_73168",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/57329_73208.html",
+    "inputBy": "kompass",
+    "proofreadBy": "砂場清隆",
+    "baseBook1": {
+      "title": "中谷宇吉郎集　第三巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "2000（平成12）年12月5日",
+      "inputEdition": "2000（平成12）年12月5日第1刷",
+      "proofreadEdition": "2000（平成12）年12月5日第1刷"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

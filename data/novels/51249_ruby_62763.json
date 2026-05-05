@@ -1828,5 +1828,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051249",
+    "title": "グリュックスブルグ王室異聞",
+    "titleKana": "グリュックスブルグおうしついぶん",
+    "sortKana": "くりゆつくすふるくおうしついふん",
+    "firstAppearance": "「小説新潮」1954（昭和29）年9月〜10月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-10-10",
+    "updatedAt": "2017-09-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001397/card51249.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001397/files/51249_ruby_62763.zip",
+    "textFileId": "51249_ruby_62763",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001397/files/51249_62850.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "荒木恵一",
+    "baseBook1": {
+      "title": "橘外男ワンダーランド　幻想・伝奇小説篇",
+      "publisher": "中央書院",
+      "firstPublishedAt": "1995（平成7）年4月3日",
+      "inputEdition": "1995（平成7）年4月3日第1刷",
+      "proofreadEdition": "1995（平成7）年4月3日第1刷"
+    },
+    "author": "橘外男",
+    "authors": [
+      {
+        "personId": "001397",
+        "name": "橘外男",
+        "kana": "たちばなそとお",
+        "roman": "Sotoo Tachibana",
+        "role": "著者",
+        "birthDate": "1894-10-10",
+        "deathDate": "1959-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

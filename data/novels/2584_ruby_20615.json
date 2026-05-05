@@ -534,5 +534,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002584",
+    "title": "続獄中記",
+    "titleKana": "ぞくごくちゅうき",
+    "sortKana": "そくこくちゆうき",
+    "ndc": "NDC 289 916",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-11-08",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000169/card2584.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000169/files/2584_ruby_20615.zip",
+    "textFileId": "2584_ruby_20615",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000169/files/2584_20616.html",
+    "inputBy": "kompass",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "大杉栄全集　第13巻",
+      "publisher": "現代思潮社",
+      "firstPublishedAt": "1965（昭和40）年1月31日",
+      "inputEdition": "1965（昭和40）年1月31日",
+      "proofreadEdition": "1965（昭和40）年1月31日"
+    },
+    "author": "大杉栄",
+    "authors": [
+      {
+        "personId": "000169",
+        "name": "大杉栄",
+        "kana": "おおすぎさかえ",
+        "roman": "Sakae Osugi",
+        "role": "著者",
+        "birthDate": "1885-01-17",
+        "deathDate": "1923-09-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

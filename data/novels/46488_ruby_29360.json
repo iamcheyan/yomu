@@ -5176,5 +5176,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046488",
+    "title": "少年連盟",
+    "titleKana": "しょうねんれんめい",
+    "sortKana": "しようねんれんめい",
+    "firstAppearance": "「少年倶楽部」1931（昭和6）年8月号～1932（昭和7）年6月号",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-03-06",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000575/card46488.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000575/files/46488_ruby_29360.zip",
+    "textFileId": "46488_ruby_29360",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000575/files/46488_29608.html",
+    "inputBy": "゛゜゛゜",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "少年連盟",
+      "publisher": "少年倶楽部文庫、講談社",
+      "firstPublishedAt": "1976（昭和51）年4月16日",
+      "inputEdition": "1976（昭和51）年4月16日第1刷",
+      "proofreadEdition": "1976（昭和51）年4月16日第1刷"
+    },
+    "author": "佐藤紅緑",
+    "authors": [
+      {
+        "personId": "000575",
+        "name": "佐藤紅緑",
+        "kana": "さとうこうろく",
+        "roman": "Koroku Sato",
+        "role": "著者",
+        "birthDate": "1874-07-06",
+        "deathDate": "1949-06-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

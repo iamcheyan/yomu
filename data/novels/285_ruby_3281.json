@@ -792,5 +792,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000285",
+    "title": "乞食学生",
+    "titleKana": "こじきがくせい",
+    "sortKana": "こしきかくせい",
+    "firstAppearance": "「若草」1940（昭和15）年7～12月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-02-10",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card285.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/285_ruby_3281.zip",
+    "textFileId": "285_ruby_3281",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/285_15065.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "太宰治全集3",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1988（昭和63）年10月25日",
+      "inputEdition": "1988（昭和63）年10月25日第1刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -76,5 +76,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046835",
+    "title": "養生心得草",
+    "titleKana": "ようじょうこころえぐさ",
+    "sortKana": "ようしようこころえくさ",
+    "firstAppearance": "「徳島新聞　第7号付録」1875（明治8）年4月",
+    "ndc": "NDC 498",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-07-23",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001026/card46835.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001026/files/46835_ruby_26980.zip",
+    "textFileId": "46835_ruby_26980",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001026/files/46835_27499.html",
+    "inputBy": "田中敬三",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "命の洗濯",
+      "publisher": "警醒社",
+      "firstPublishedAt": "1912（明治45）年3月23日",
+      "inputEdition": "1912（明治45）年3月23日",
+      "proofreadEdition": "1912（明治45）年3月23日"
+    },
+    "author": "関寛",
+    "authors": [
+      {
+        "personId": "001026",
+        "name": "関寛",
+        "kana": "せきかん",
+        "roman": "Kan Seki",
+        "role": "著者",
+        "birthDate": "1830",
+        "deathDate": "1912-10-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

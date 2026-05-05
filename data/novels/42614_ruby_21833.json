@@ -762,5 +762,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042614",
+    "title": "夜長姫と耳男",
+    "titleKana": "よながひめとみみお",
+    "sortKana": "よなかひめとみみお",
+    "firstAppearance": "「新潮　第四九巻第六号」1952（昭和27）年6月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-03-26",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card42614.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/42614_ruby_21833.zip",
+    "textFileId": "42614_ruby_21833",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/42614_21838.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "田中敬三",
+    "baseBook1": {
+      "title": "坂口安吾全集　12",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年1月20日",
+      "inputEdition": "1999（平成11）年1月20日初版第1刷",
+      "proofreadEdition": "1999（平成11）年1月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

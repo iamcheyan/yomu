@@ -942,5 +942,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "005006",
+    "title": "木乃伊の口紅",
+    "titleKana": "ミイラのくちべに",
+    "sortKana": "みいらのくちへに",
+    "firstAppearance": "「中央公論」1913（大正2）年4月",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-10-12",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000655/card5006.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000655/files/5006_ruby_23904.zip",
+    "textFileId": "5006_ruby_23904",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000655/files/5006_24301.html",
+    "inputBy": "小鍛冶茂子",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "田村俊子作品集・1",
+      "publisher": "オリジン出版センター",
+      "firstPublishedAt": "1987（昭和62）年12月10日",
+      "inputEdition": "1987（昭和62）年12月10日",
+      "proofreadEdition": "1987（昭和62）年12月10日"
+    },
+    "author": "田村俊子",
+    "authors": [
+      {
+        "personId": "000655",
+        "name": "田村俊子",
+        "kana": "たむらとしこ",
+        "roman": "Toshiko Tamura",
+        "role": "著者",
+        "birthDate": "1884-04-25",
+        "deathDate": "1945-04-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

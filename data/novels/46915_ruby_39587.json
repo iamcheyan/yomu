@@ -290,5 +290,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046915",
+    "title": "柊の垣のうちから",
+    "titleKana": "ひいらぎのかきのうちから",
+    "sortKana": "ひいらきのかきのうちから",
+    "firstAppearance": "「新女苑」1938（昭和13）年3月",
+    "ndc": "NDC 916",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-10-17",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000997/card46915.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000997/files/46915_ruby_39587.zip",
+    "textFileId": "46915_ruby_39587",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000997/files/46915_40621.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "定本　北條民雄全集　下巻",
+      "publisher": "東京創元社",
+      "firstPublishedAt": "1980（昭和55）年12月20日",
+      "inputEdition": "1980（昭和55）年12月20日初版",
+      "proofreadEdition": "1980（昭和55）年12月20日初版"
+    },
+    "author": "北条民雄",
+    "authors": [
+      {
+        "personId": "000997",
+        "name": "北条民雄",
+        "kana": "ほうじょうたみお",
+        "roman": "Tamio Hojo",
+        "role": "著者",
+        "birthDate": "1914-09-22",
+        "deathDate": "1937-12-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

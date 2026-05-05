@@ -1146,5 +1146,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059896",
+    "title": "暦",
+    "titleKana": "こよみ",
+    "sortKana": "こよみ",
+    "firstAppearance": "「新潮」1940（昭和15）年2月",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-08-05",
+    "updatedAt": "2022-08-02",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001875/card59896.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001875/files/59896_ruby_76020.zip",
+    "textFileId": "59896_ruby_76020",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001875/files/59896_76056.html",
+    "inputBy": "芝裕久",
+    "proofreadBy": "入江幹夫",
+    "baseBook1": {
+      "title": "日本文学全集76　壺井栄　芝木好子集",
+      "publisher": "集英社",
+      "firstPublishedAt": "1973（昭和48）年11月8日",
+      "inputEdition": "1973（昭和48）年11月8日",
+      "proofreadEdition": "1973（昭和48）年11月8日"
+    },
+    "author": "壺井栄",
+    "authors": [
+      {
+        "personId": "001875",
+        "name": "壺井栄",
+        "kana": "つぼいさかえ",
+        "roman": "Sakae Tsuboi",
+        "role": "著者",
+        "birthDate": "1899-08-05",
+        "deathDate": "1967-06-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

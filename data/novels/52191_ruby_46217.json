@@ -62,5 +62,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052191",
+    "title": "和紙の美",
+    "titleKana": "わしのび",
+    "sortKana": "わしのひ",
+    "ndc": "NDC 585",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-01-06",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001520/card52191.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001520/files/52191_ruby_46217.zip",
+    "textFileId": "52191_ruby_46217",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001520/files/52191_46261.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆68　紙",
+      "publisher": "作品社",
+      "firstPublishedAt": "1988（昭和63）年6月25日",
+      "inputEdition": "1996（平成8）年8月25日第7刷",
+      "proofreadEdition": "1996（平成8）年8月25日第7刷"
+    },
+    "author": "柳宗悦",
+    "authors": [
+      {
+        "personId": "001520",
+        "name": "柳宗悦",
+        "kana": "やなぎむねよし",
+        "roman": "Muneyoshi Yanagi",
+        "role": "著者",
+        "birthDate": "1889-03-21",
+        "deathDate": "1961-05-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

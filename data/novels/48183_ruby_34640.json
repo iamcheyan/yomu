@@ -222,5 +222,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048183",
+    "title": "相川おけさ",
+    "titleKana": "あいかわおけさ",
+    "sortKana": "あいかわおけさ",
+    "firstAppearance": "「明星」「明星」發行所、1926（大正15）年8月",
+    "ndc": "NDC 768",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-05-28",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001321/card48183.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001321/files/48183_ruby_34640.zip",
+    "textFileId": "48183_ruby_34640",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001321/files/48183_35085.html",
+    "inputBy": "江南長",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "明星",
+      "publisher": "「明星」發行所",
+      "firstPublishedAt": "1926（大正15）年8月",
+      "inputEdition": "1926（大正15）年8月",
+      "proofreadEdition": "1926（大正15）年8月"
+    },
+    "author": "江南文三",
+    "authors": [
+      {
+        "personId": "001321",
+        "name": "江南文三",
+        "kana": "えなみぶんぞう",
+        "roman": "Bunzo Enami",
+        "role": "著者",
+        "birthDate": "1887-12-26",
+        "deathDate": "1946-02-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -1826,5 +1826,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "018368",
+    "title": "防雪林",
+    "titleKana": "ぼうせつりん",
+    "sortKana": "ほうせつりん",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-09-02",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000156/card18368.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000156/files/18368_ruby_23228.zip",
+    "textFileId": "18368_ruby_23228",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000156/files/18368_23834.html",
+    "inputBy": "山本洋一",
+    "proofreadBy": "小林繁雄、林幸雄",
+    "baseBook1": {
+      "title": "防雪林・不在地主",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1953（昭和28）年6月25日",
+      "inputEdition": "1959（昭和34）年2月15日第5刷",
+      "proofreadEdition": "1959（昭和34）年2月15日第5刷"
+    },
+    "author": "小林多喜二",
+    "authors": [
+      {
+        "personId": "000156",
+        "name": "小林多喜二",
+        "kana": "こばやしたきじ",
+        "roman": "Takiji Kobayashi",
+        "role": "著者",
+        "birthDate": "1903-10-13",
+        "deathDate": "1933-02-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

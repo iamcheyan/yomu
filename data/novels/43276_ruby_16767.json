@@ -526,5 +526,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043276",
+    "title": "妾の半生涯",
+    "titleKana": "わらわのはんせいがい",
+    "sortKana": "わらわのはんせいかい",
+    "firstAppearance": "「妾の半生涯」東京堂、1904（明治37）年10月25日",
+    "ndc": "NDC 289",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-08-09",
+    "updatedAt": "2022-02-23",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000057/card43276.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000057/files/43276_ruby_16767.zip",
+    "textFileId": "43276_ruby_16767",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000057/files/43276_18829.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "妾の半生涯",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1958（昭和33）年4月25日",
+      "inputEdition": "1983（昭和58）年10月17日第25刷改版発行、2001（平成13）年11月7日第28刷発行",
+      "proofreadEdition": "1983（昭和58）年10月17日第25刷改版発行、2001（平成13）年11月7日第28刷発行"
+    },
+    "author": "福田英子",
+    "authors": [
+      {
+        "personId": "000057",
+        "name": "福田英子",
+        "kana": "ふくだひでこ",
+        "roman": "Hideko Fukuda",
+        "role": "著者",
+        "birthDate": "1865-11-22",
+        "deathDate": "1927-05-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

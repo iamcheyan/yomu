@@ -44,5 +44,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "033198",
+    "title": "ステッキ",
+    "titleKana": "ステッキ",
+    "sortKana": "すてつき",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-10-23",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000042/card33198.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000042/files/33198_ruby_13267.zip",
+    "textFileId": "33198_ruby_13267",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000042/files/33198_13268.html",
+    "inputBy": "Cyobirin",
+    "proofreadBy": "佳代子",
+    "baseBook1": {
+      "title": "寺田寅彦全集　第六巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1961（昭和36）年3月7日",
+      "inputEdition": "1961（昭和36）年3月7日 第1刷"
+    },
+    "author": "寺田寅彦",
+    "authors": [
+      {
+        "personId": "000042",
+        "name": "寺田寅彦",
+        "kana": "てらだとらひこ",
+        "roman": "Torahiko Terada",
+        "role": "著者",
+        "birthDate": "1878-11-28",
+        "deathDate": "1935-12-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

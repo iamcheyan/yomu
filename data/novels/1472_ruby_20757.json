@@ -34,5 +34,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001472",
+    "title": "面白き二個の広告",
+    "titleKana": "おもしろきにこのこうこく",
+    "sortKana": "おもしろきにこのこうこく",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-02-01",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000164/card1472.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000164/files/1472_ruby_20757.zip",
+    "textFileId": "1472_ruby_20757",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000164/files/1472_20758.html",
+    "inputBy": "もりみつじゅんじ",
+    "proofreadBy": "渥美浩子",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻23　広告",
+      "publisher": "作品社",
+      "firstPublishedAt": "1993（平成5）年1月25日"
+    },
+    "author": "堺利彦",
+    "authors": [
+      {
+        "personId": "000164",
+        "name": "堺利彦",
+        "kana": "さかいとしひこ",
+        "roman": "Toshihiko Sakai",
+        "role": "著者",
+        "birthDate": "1871-01-15",
+        "deathDate": "1933-01-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

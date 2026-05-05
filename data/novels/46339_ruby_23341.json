@@ -114,5 +114,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046339",
+    "title": "反逆の呂律",
+    "titleKana": "はんぎゃくのろれつ",
+    "sortKana": "はんきやくのろれつ",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-08-12",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000189/card46339.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000189/files/46339_ruby_23341.zip",
+    "textFileId": "46339_ruby_23341",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000189/files/46339_23658.html",
+    "inputBy": "ピコリン",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "日本文学全集44　武田麟太郎　島木健作　織田作之助　集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1970（昭和45）年11月1日",
+      "inputEdition": "1970（昭和45）年11月1日",
+      "proofreadEdition": "1970（昭和45）年11月1日"
+    },
+    "author": "武田麟太郎",
+    "authors": [
+      {
+        "personId": "000189",
+        "name": "武田麟太郎",
+        "kana": "たけだりんたろう",
+        "roman": "Rintaro Takeda",
+        "role": "著者",
+        "birthDate": "1904-05-09",
+        "deathDate": "1946-03-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

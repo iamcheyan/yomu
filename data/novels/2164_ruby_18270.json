@@ -34,5 +34,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002164",
+    "title": "黙示のページ",
+    "titleKana": "もくしのページ",
+    "sortKana": "もくしのへえし",
+    "firstAppearance": "「読売新聞」1924（大正13）年1月21日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-05-14",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card2164.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/2164_ruby_18270.zip",
+    "textFileId": "2164_ruby_18270",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/2164_18406.html",
+    "inputBy": "加藤恭子",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻100　聖書",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年6月25日",
+      "inputEdition": "1999（平成11）年6月25日第1刷"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

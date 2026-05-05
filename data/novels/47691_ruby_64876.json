@@ -44,5 +44,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047691",
+    "title": "草相撲の話",
+    "titleKana": "くさずもうのはなし",
+    "sortKana": "くさすもうのはなし",
+    "firstAppearance": "「郷土科学研究　第一号」1931（昭和6）年9月25日",
+    "ndc": "NDC 386",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-06-02",
+    "updatedAt": "2018-05-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card47691.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/47691_ruby_64876.zip",
+    "textFileId": "47691_ruby_64876",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/47691_64922.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "折口信夫全集　21",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1996（平成8）年11月10日",
+      "inputEdition": "1996（平成8）年11月10日初版",
+      "proofreadEdition": "1996（平成8）年11月10日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

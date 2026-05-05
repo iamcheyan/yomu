@@ -40,5 +40,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004278",
+    "title": "小説の戯曲化",
+    "titleKana": "しょうせつのぎきょくか",
+    "sortKana": "しようせつのききよくか",
+    "ndc": "NDC 901",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-10-06",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000879/card4278.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000879/files/4278_ruby_5490.zip",
+    "textFileId": "4278_ruby_5490",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000879/files/4278_6762.html",
+    "inputBy": "もりみつじゅんじ",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "芥川龍之介全集　第十一巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1996（平成8）年9月9日発行",
+      "inputEdition": "1996（平成8）年9月9日発行"
+    },
+    "author": "芥川竜之介",
+    "authors": [
+      {
+        "personId": "000879",
+        "name": "芥川竜之介",
+        "kana": "あくたがわりゅうのすけ",
+        "roman": "Ryunosuke Akutagawa",
+        "role": "著者",
+        "birthDate": "1892-03-01",
+        "deathDate": "1927-07-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -74,5 +74,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "024435",
+    "title": "高御座",
+    "titleKana": "たかみくら",
+    "sortKana": "たかみくら",
+    "firstAppearance": "「国学院雑誌　第三十四巻第三号」1928（昭和3）年3月",
+    "ndc": "NDC 386",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-01-11",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card24435.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/24435_ruby_14175.zip",
+    "textFileId": "24435_ruby_14175",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/24435_14230.html",
+    "inputBy": "小林繁雄",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "折口信夫全集　2",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1995（平成7）年3月10日",
+      "inputEdition": "1995（平成7）年3月10日初版",
+      "proofreadEdition": "1995（平成7）年3月10日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

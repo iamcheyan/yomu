@@ -200,5 +200,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047232",
+    "title": "負けない少年",
+    "titleKana": "まけないしょうねん",
+    "sortKana": "まけないしようねん",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-01-06",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001258/card47232.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001258/files/47232_ruby_29286.zip",
+    "textFileId": "47232_ruby_29286",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001258/files/47232_29285.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "富田倫生",
+    "baseBook1": {
+      "title": "少年小説大系　第10巻　戦時下少年小説集",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1990（平成2）年3月31日",
+      "inputEdition": "1990（平成2）年3月31日第1版第1刷"
+    },
+    "author": "吉田甲子太郎",
+    "authors": [
+      {
+        "personId": "001258",
+        "name": "吉田甲子太郎",
+        "kana": "よしだきねたろう",
+        "roman": "Kinetaro Yoshida",
+        "role": "著者",
+        "birthDate": "1894-03-23",
+        "deathDate": "1957-01-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

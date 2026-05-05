@@ -70,5 +70,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000415",
+    "title": "闇の絵巻",
+    "titleKana": "やみのえまき",
+    "sortKana": "やみのえまき",
+    "firstAppearance": "「詩・現実」1930（昭和5）年9月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-01-11",
+    "updatedAt": "2016-07-05",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000074/card415.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000074/files/415_ruby_19817.zip",
+    "textFileId": "415_ruby_19817",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000074/files/415_19818.html",
+    "inputBy": "j.utiyama",
+    "proofreadBy": "高橋美奈子",
+    "baseBook1": {
+      "title": "檸檬・ある心の風景　他二十編",
+      "publisher": "旺文社文庫、旺文社",
+      "firstPublishedAt": "1972（昭和47）年12月10日",
+      "inputEdition": "1974（昭和49）年第4刷",
+      "proofreadEdition": "1974（昭和49）年第4刷"
+    },
+    "author": "梶井基次郎",
+    "authors": [
+      {
+        "personId": "000074",
+        "name": "梶井基次郎",
+        "kana": "かじいもとじろう",
+        "roman": "Motojiro Kajii",
+        "role": "著者",
+        "birthDate": "1901-02-17",
+        "deathDate": "1932-03-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

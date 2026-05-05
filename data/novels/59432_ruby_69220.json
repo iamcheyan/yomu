@@ -50,5 +50,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059432",
+    "title": "幽霊滝の伝説",
+    "titleKana": "ゆうれいだきのでんせつ",
+    "sortKana": "ゆうれいたきのてんせつ",
+    "originalTitle": "THE LEGEND OF YUREI-DAKI",
+    "ndc": "NDC 933",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-09-26",
+    "updatedAt": "2019-09-13",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000258/card59432.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000258/files/59432_ruby_69220.zip",
+    "textFileId": "59432_ruby_69220",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000258/files/59432_69221.html",
+    "inputBy": "館野浩美",
+    "proofreadBy": "大久保ゆう",
+    "baseBook1": {
+      "title": "小泉八雲全集第八卷　家庭版",
+      "publisher": "第一書房",
+      "firstPublishedAt": "1937（昭和12）年1月15日",
+      "inputEdition": "1937（昭和12）年1月15日",
+      "proofreadEdition": "1937（昭和12）年1月15日"
+    },
+    "author": "小泉八雲",
+    "authors": [
+      {
+        "personId": "000258",
+        "name": "小泉八雲",
+        "kana": "こいずみやくも",
+        "roman": "Yakumo Koizumi",
+        "role": "著者",
+        "birthDate": "1850-06-27",
+        "deathDate": "1904-09-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

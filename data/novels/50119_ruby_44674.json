@@ -3960,5 +3960,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050119",
+    "title": "南半球五万哩",
+    "titleKana": "みなみはんきゅうごまんマイル",
+    "sortKana": "みなみはんきゆうこまんまいる",
+    "ndc": "NDC 290",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-10-25",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001021/card50119.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001021/files/50119_ruby_44674.zip",
+    "textFileId": "50119_ruby_44674",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001021/files/50119_44765.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "井上円了・世界旅行記",
+      "publisher": "柏書房",
+      "firstPublishedAt": "2003（平成15）年11月15日",
+      "inputEdition": "2003（平成15）年11月15日第1刷",
+      "proofreadEdition": "2003（平成15）年11月15日第1刷"
+    },
+    "author": "井上円了",
+    "authors": [
+      {
+        "personId": "001021",
+        "name": "井上円了",
+        "kana": "いのうええんりょう",
+        "roman": "Enryo Inoue",
+        "role": "著者",
+        "birthDate": "1858-03-18",
+        "deathDate": "1919-06-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -114,5 +114,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050290",
+    "title": "夜あるき",
+    "titleKana": "よあるき",
+    "sortKana": "よあるき",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-02-01",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001341/card50290.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001341/files/50290_ruby_37791.zip",
+    "textFileId": "50290_ruby_37791",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001341/files/50290_38009.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆72　夜",
+      "publisher": "作品社",
+      "firstPublishedAt": "1988（昭和63）年10月25日",
+      "inputEdition": "1999（平成11）年4月30日第7刷",
+      "proofreadEdition": "1999（平成11）年4月30日第7刷"
+    },
+    "author": "永井荷風",
+    "authors": [
+      {
+        "personId": "001341",
+        "name": "永井荷風",
+        "kana": "ながいかふう",
+        "roman": "Kafu Nagai",
+        "role": "著者",
+        "birthDate": "1879-12-03",
+        "deathDate": "1959-04-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -492,5 +492,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051822",
+    "title": "ハムレット",
+    "titleKana": "ハムレット",
+    "sortKana": "はむれつと",
+    "firstAppearance": "「新青年」1946（昭和21）年10月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-04-06",
+    "updatedAt": "2020-03-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001224/card51822.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001224/files/51822_ruby_70683.zip",
+    "textFileId": "51822_ruby_70683",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001224/files/51822_70735.html",
+    "inputBy": "冬木立",
+    "proofreadBy": "芝裕久",
+    "baseBook1": {
+      "title": "怪奇探偵小説傑作選3　久生十蘭集　ハムレット",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2001（平成13）年4月10日",
+      "inputEdition": "2001（平成13）年4月10日第1刷",
+      "proofreadEdition": "2001（平成13）年4月10日第1刷"
+    },
+    "author": "久生十蘭",
+    "authors": [
+      {
+        "personId": "001224",
+        "name": "久生十蘭",
+        "kana": "ひさおじゅうらん",
+        "roman": "Juran Hisao",
+        "role": "著者",
+        "birthDate": "1902-04-06",
+        "deathDate": "1957-10-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -54,5 +54,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050681",
+    "title": "「ゼエレン・キェルケゴオル」序",
+    "titleKana": "「ゼエレン・キェルケゴオル」じょ",
+    "sortKana": "せえれんきえるけこおるしよ",
+    "firstAppearance": "「時事新報」1915（大正4）年9月7、8日",
+    "ndc": "NDC 121 139",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-05-18",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001395/card50681.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001395/files/50681_ruby_42486.zip",
+    "textFileId": "50681_ruby_42486",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001395/files/50681_42652.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "偶像再興・面とペルソナ　和辻哲郎感想集",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "2007（平成19）年4月10日",
+      "inputEdition": "2007（平成19）年4月10日第1刷",
+      "proofreadEdition": "2007（平成19）年4月10日第1刷"
+    },
+    "author": "和辻哲郎",
+    "authors": [
+      {
+        "personId": "001395",
+        "name": "和辻哲郎",
+        "kana": "わつじてつろう",
+        "roman": "Tetsuro Watsuji",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1960-12-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

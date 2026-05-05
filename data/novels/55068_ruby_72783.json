@@ -52,5 +52,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055068",
+    "title": "柳宗悦氏の筆蹟を通じその人を見る",
+    "titleKana": "やなぎむねよししのひっせきをつうじそのひとをみる",
+    "sortKana": "やなきむねよししのひつせきをつうしそのひとをみる",
+    "subtitle": "――名論の逆を行く氏の書――",
+    "subtitleKana": "――めいろんのぎゃくをゆくしのしょ――",
+    "ndc": "NDC 750",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-03-21",
+    "updatedAt": "2021-02-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001403/card55068.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001403/files/55068_ruby_72783.zip",
+    "textFileId": "55068_ruby_72783",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001403/files/55068_72835.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "木下聡",
+    "baseBook1": {
+      "title": "魯山人書論",
+      "publisher": "中公文庫、中央公論新社",
+      "firstPublishedAt": "1996（平成8）年9月18日",
+      "inputEdition": "2007（平成19）年9月25日3刷",
+      "proofreadEdition": "2007（平成19）年9月25日3刷"
+    },
+    "author": "北大路魯山人",
+    "authors": [
+      {
+        "personId": "001403",
+        "name": "北大路魯山人",
+        "kana": "きたおおじろさんじん",
+        "roman": "Rosanjin Kitaoji",
+        "role": "著者",
+        "birthDate": "1883-03-23",
+        "deathDate": "1959-12-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

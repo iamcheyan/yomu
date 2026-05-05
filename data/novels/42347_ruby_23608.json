@@ -600,5 +600,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042347",
+    "title": "静物",
+    "titleKana": "せいぶつ",
+    "sortKana": "せいふつ",
+    "firstAppearance": "「東京朝日新聞」1922（大正11）年11月",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-09-12",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000601/card42347.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000601/files/42347_ruby_23608.zip",
+    "textFileId": "42347_ruby_23608",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000601/files/42347_23851.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "現代文学大系　64　現代名作集（二）",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1968（昭和43）年2月10日",
+      "inputEdition": "1968（昭和43）年2月10日第1刷",
+      "proofreadEdition": "1968（昭和43）年2月10日第1刷"
+    },
+    "author": "十一谷義三郎",
+    "authors": [
+      {
+        "personId": "000601",
+        "name": "十一谷義三郎",
+        "kana": "じゅういちやぎさぶろう",
+        "roman": "Gisaburo Juichiya",
+        "role": "著者",
+        "birthDate": "1897-10-14",
+        "deathDate": "1937-04-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

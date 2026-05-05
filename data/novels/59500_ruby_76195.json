@@ -70,5 +70,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059500",
+    "title": "海潮の響",
+    "titleKana": "かいちょうのひびき",
+    "sortKana": "かいちようのひひき",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-09-05",
+    "updatedAt": "2022-08-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000220/card59500.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000220/files/59500_ruby_76195.zip",
+    "textFileId": "59500_ruby_76195",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000220/files/59500_76227.html",
+    "inputBy": "浦山敦子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆56　海",
+      "publisher": "作品社",
+      "firstPublishedAt": "1987（昭和62）年6月25日",
+      "inputEdition": "1987（昭和62）年6月25日第1刷",
+      "proofreadEdition": "1991（平成3）年9月1日第5刷"
+    },
+    "author": "吉江喬松",
+    "authors": [
+      {
+        "personId": "000220",
+        "name": "吉江喬松",
+        "kana": "よしえたかまつ",
+        "roman": "Takamatsu Yoshie",
+        "role": "著者",
+        "birthDate": "1880-09-05",
+        "deathDate": "1940-03-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

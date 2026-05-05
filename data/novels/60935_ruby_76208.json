@@ -102,5 +102,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060935",
+    "title": "競馬の一日に就いて",
+    "titleKana": "けいばのいちにちについて",
+    "sortKana": "けいはのいちにちについて",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-09-16",
+    "updatedAt": "2022-08-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000083/card60935.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000083/files/60935_ruby_76208.zip",
+    "textFileId": "60935_ruby_76208",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000083/files/60935_76240.html",
+    "inputBy": "sogo",
+    "proofreadBy": "友理",
+    "baseBook1": {
+      "title": "ひりひり賭け事アンソロジー　わかっちゃいるけど、ギャンブル！",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2017（平成29）年10月10日",
+      "inputEdition": "2017（平成29）年10月10日第1刷",
+      "proofreadEdition": "2017（平成29）年10月10日第1刷"
+    },
+    "author": "菊池寛",
+    "authors": [
+      {
+        "personId": "000083",
+        "name": "菊池寛",
+        "kana": "きくちかん",
+        "roman": "Kan Kikuchi",
+        "role": "著者",
+        "birthDate": "1888-12-26",
+        "deathDate": "1948-03-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

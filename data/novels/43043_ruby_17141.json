@@ -262,5 +262,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043043",
+    "title": "和歌でない歌",
+    "titleKana": "うたでないうた",
+    "sortKana": "うたてないうた",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-01-18",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000119/card43043.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000119/files/43043_ruby_17141.zip",
+    "textFileId": "43043_ruby_17141",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000119/files/43043_17363.html",
+    "inputBy": "川向直樹",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "中島敦全集第二卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1976（昭和51）年5月25日",
+      "inputEdition": "1976（昭和51）年12月25日初版第3刷",
+      "proofreadEdition": "1991（平成3）年11月30日増補版第12刷"
+    },
+    "author": "中島敦",
+    "authors": [
+      {
+        "personId": "000119",
+        "name": "中島敦",
+        "kana": "なかじまあつし",
+        "roman": "Atsushi Nakajima",
+        "role": "著者",
+        "birthDate": "1909-05-05",
+        "deathDate": "1942-12-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

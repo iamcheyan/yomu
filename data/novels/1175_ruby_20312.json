@@ -48,5 +48,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001175",
+    "title": "草あやめ",
+    "titleKana": "くさあやめ",
+    "sortKana": "くさあやめ",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-03-03",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card1175.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/1175_ruby_20312.zip",
+    "textFileId": "1175_ruby_20312",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/1175_20313.html",
+    "inputBy": "真先芳秋",
+    "proofreadBy": "kazuishi",
+    "baseBook1": {
+      "title": "日本の名随筆1　花",
+      "publisher": "作品社",
+      "firstPublishedAt": "1983（昭和58）年2月25日",
+      "inputEdition": "1988（昭和63）年5月20日第13刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

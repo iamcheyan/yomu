@@ -64,5 +64,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045791",
+    "title": "〔翻訳〕ステファヌ・マラルメ",
+    "titleKana": "〔ほんやく〕ステファヌ・マラルメ",
+    "sortKana": "ほんやくすてふあぬまらるめ",
+    "firstAppearance": "「青い馬　創刊号」岩波書店、1931（昭和6）年5月1日",
+    "ndc": "NDC 951",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-11-28",
+    "updatedAt": "2016-04-04",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001217/card45791.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001217/files/45791_ruby_40452.zip",
+    "textFileId": "45791_ruby_40452",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001217/files/45791_41267.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "Ｒ",
+    "baseBook1": {
+      "title": "坂口安吾全集　01",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年5月20日",
+      "inputEdition": "1999（平成11）年5月20日初版第1刷",
+      "proofreadEdition": "1999（平成11）年5月20日初版第1刷"
+    },
+    "author": "ヴァレリーポール",
+    "authors": [
+      {
+        "personId": "001217",
+        "name": "ヴァレリーポール",
+        "kana": "ヴァレリーポール",
+        "roman": "Paul Valery",
+        "role": "著者",
+        "birthDate": "1871-10-30",
+        "deathDate": "1945-07-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

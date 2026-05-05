@@ -34,5 +34,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054777",
+    "title": "あきらめろと云うが",
+    "titleKana": "あきらめろというが",
+    "sortKana": "あきらめろというか",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-11-03",
+    "updatedAt": "2014-10-13",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001675/card54777.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001675/files/54777_ruby_54707.zip",
+    "textFileId": "54777_ruby_54707",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001675/files/54777_54752.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "竹内浩三全作品集　日本が見えない　全1巻",
+      "publisher": "藤原書店",
+      "firstPublishedAt": "2001（平成13）年11月30日",
+      "inputEdition": "2002（平成14）年8月30日初版第5刷",
+      "proofreadEdition": "2001（平成13）年11月30日初版第1刷"
+    },
+    "author": "竹内浩三",
+    "authors": [
+      {
+        "personId": "001675",
+        "name": "竹内浩三",
+        "kana": "たけうちこうぞう",
+        "roman": "Kozo Takeuchi",
+        "role": "著者",
+        "birthDate": "1921-05-12",
+        "deathDate": "1945-04-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

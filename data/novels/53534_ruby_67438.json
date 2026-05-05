@@ -404,5 +404,35 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053534",
+    "title": "イングランドの西部の諸州とくにグルスターシャーで見つかった病気で、 牛痘の名で知られているウシ天然痘の原因および効果についての研究",
+    "titleKana": "イングランドのせいぶのしょしゅうとくにグルスターシャーでみつかったびょうきで、 ぎゅうとうのなでしられているウシてんねんとうのげんいんおよびこうかについてのけんきゅう",
+    "sortKana": "いんくらんとのせいふのしよしゆうとくにくるすたあしやあてみつかつたひようきてきゆうとうのなてしられているうしてんねんとうのけんいんおよひこうかについてのけんきゆう",
+    "ndc": "NDC 493",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2011-08-01",
+    "updatedAt": "2019-03-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001591/card53534.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001591/files/53534_ruby_67438.zip",
+    "textFileId": "53534_ruby_67438",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001591/files/53534_67439.html",
+    "proofreadBy": "大久保ゆう",
+    "author": "ジェンナーエドワード",
+    "authors": [
+      {
+        "personId": "001591",
+        "name": "ジェンナーエドワード",
+        "kana": "ジェンナーエドワード",
+        "roman": "Edward Jenner",
+        "role": "著者",
+        "birthDate": "1749-05-17",
+        "deathDate": "1823-01-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

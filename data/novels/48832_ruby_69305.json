@@ -172,5 +172,54 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048832",
+    "title": "尾崎紅葉とその作品",
+    "titleKana": "おざきこうようとそのさくひん",
+    "sortKana": "おさきこうようとそのさくひん",
+    "firstAppearance": "「太陽　第十八巻第九号　「博文館創業二十五週年紀念」増刊号」博文館、1912（明治45）年6月13日",
+    "ndc": "NDC 910 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-10-30",
+    "updatedAt": "2019-09-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000214/card48832.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000214/files/48832_ruby_69305.zip",
+    "textFileId": "48832_ruby_69305",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000214/files/48832_69357.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "hitsuji",
+    "baseBook1": {
+      "title": "定本　花袋全集　第二十四巻",
+      "publisher": "臨川書店",
+      "firstPublishedAt": "1995（平成7）年4月10日",
+      "inputEdition": "1995（平成7）年4月10日",
+      "proofreadEdition": "1995（平成7）年4月10日"
+    },
+    "author": "田山花袋、田山録弥",
+    "authors": [
+      {
+        "personId": "000214",
+        "name": "田山花袋",
+        "kana": "たやまかたい",
+        "roman": "Katai Tayama",
+        "role": "著者",
+        "birthDate": "1872-01-22",
+        "deathDate": "1930-05-13",
+        "copyright": "なし"
+      },
+      {
+        "personId": "001416",
+        "name": "田山録弥",
+        "kana": "たやまろくや",
+        "roman": "Rokuya Tayama",
+        "role": "著者",
+        "birthDate": "1872-01-22",
+        "deathDate": "1930-05-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

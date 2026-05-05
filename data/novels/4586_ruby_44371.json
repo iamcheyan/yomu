@@ -544,5 +544,53 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004586",
+    "title": "魔法罎",
+    "titleKana": "まほうびん",
+    "sortKana": "まほうひん",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-10-09",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card4586.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/4586_ruby_44371.zip",
+    "textFileId": "4586_ruby_44371",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/4586_44687.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "鏡花全集　巻十五",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1940（昭和15）年9月20日",
+      "inputEdition": "1987（昭和62）年11月2日第3刷",
+      "proofreadEdition": "1975（昭和50）年 1月6日第2刷"
+    },
+    "author": "泉鏡花、泉鏡太郎",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      },
+      {
+        "personId": "000886",
+        "name": "泉鏡太郎",
+        "kana": "いずみきょうたろう",
+        "roman": "Kyotaro Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

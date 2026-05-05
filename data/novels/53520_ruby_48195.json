@@ -380,5 +380,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053520",
+    "title": "死刑",
+    "titleKana": "しけい",
+    "sortKana": "しけい",
+    "firstAppearance": "「ユウモレスク」中央堂、1924（大正13）年8月",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-09-08",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000248/card53520.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000248/files/53520_ruby_48195.zip",
+    "textFileId": "53520_ruby_48195",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000248/files/53520_48358.html",
+    "inputBy": "いとうたかし",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "現代日本文學全集　23　岩野泡鳴　上司小劍　小川未明集",
+      "publisher": "改造社",
+      "firstPublishedAt": "1930（昭和5）年4月13日",
+      "inputEdition": "1930（昭和5）年4月13日",
+      "proofreadEdition": "1930（昭和5）年4月13日"
+    },
+    "author": "上司小剣",
+    "authors": [
+      {
+        "personId": "000248",
+        "name": "上司小剣",
+        "kana": "かみつかさしょうけん",
+        "roman": "Shoken Kamitsukasa",
+        "role": "著者",
+        "birthDate": "1874-12-15",
+        "deathDate": "1947-09-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

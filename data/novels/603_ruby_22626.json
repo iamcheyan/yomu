@@ -258,5 +258,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000603",
+    "title": "嘘をつく日",
+    "titleKana": "うそをつくひ",
+    "sortKana": "うそをつくひ",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-07-09",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000112/card603.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000112/files/603_ruby_22626.zip",
+    "textFileId": "603_ruby_22626",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000112/files/603_22627.html",
+    "inputBy": "小林徹",
+    "proofreadBy": "野口英司",
+    "baseBook1": {
+      "title": "現代日本文學全集　85　大正小説集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1957（昭和32）年12月20日"
+    },
+    "author": "水野仙子",
+    "authors": [
+      {
+        "personId": "000112",
+        "name": "水野仙子",
+        "kana": "みずのせんこ",
+        "roman": "Senko Mizuno",
+        "role": "著者",
+        "birthDate": "1888-12-03",
+        "deathDate": "1919-05-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

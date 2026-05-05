@@ -52,5 +52,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060726",
+    "title": "お百度詣",
+    "titleKana": "おひゃくどもうで",
+    "sortKana": "おひやくともうて",
+    "firstAppearance": "「太陽」博文館、1905（明治38）年1月",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-08-09",
+    "updatedAt": "2021-07-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000456/card60726.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000456/files/60726_ruby_73831.zip",
+    "textFileId": "60726_ruby_73831",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000456/files/60726_73867.html",
+    "inputBy": "かな　とよみ",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "日本現代文學全集　10　樋口一葉集　附　明治女流文學",
+      "publisher": "講談社",
+      "firstPublishedAt": "1962（昭和37）年11月19日",
+      "inputEdition": "1966（昭和41）年10月1日第2刷",
+      "proofreadEdition": "1966（昭和41）年10月1日第2刷"
+    },
+    "author": "大塚楠緒子",
+    "authors": [
+      {
+        "personId": "000456",
+        "name": "大塚楠緒子",
+        "kana": "おおつかくすおこ",
+        "roman": "Kusuoko Otsuka",
+        "role": "著者",
+        "birthDate": "1875-08-09",
+        "deathDate": "1910-11-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

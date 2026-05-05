@@ -198,5 +198,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002944",
+    "title": "戦話",
+    "titleKana": "せんわ",
+    "sortKana": "せんわ",
+    "ndc": "NDC 913 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-12-27",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000137/card2944.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000137/files/2944_ruby_5748.zip",
+    "textFileId": "2944_ruby_5748",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000137/files/2944_48801.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "日本プロレタリア文学大系（序）",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1955（昭和30）年3月31日",
+      "inputEdition": "1961（昭和36）年6月20日第2刷"
+    },
+    "author": "岩野泡鳴",
+    "authors": [
+      {
+        "personId": "000137",
+        "name": "岩野泡鳴",
+        "kana": "いわのほうめい",
+        "roman": "Homei Iwano",
+        "role": "著者",
+        "birthDate": "1873-01-20",
+        "deathDate": "1920-05-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

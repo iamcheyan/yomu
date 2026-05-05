@@ -508,5 +508,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000458",
+    "title": "ひかりの素足",
+    "titleKana": "ひかりのすあし",
+    "sortKana": "ひかりのすあし",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-02-04",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card458.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/458_ruby_19934.zip",
+    "textFileId": "458_ruby_19934",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/458_19935.html",
+    "inputBy": "あきら",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "宮沢賢治全集5",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1986（昭和61）年3月25日",
+      "proofreadEdition": "1992（平成4）年3月10日第6刷"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

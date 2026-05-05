@@ -594,5 +594,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004559",
+    "title": "政談十二社",
+    "titleKana": "せいだんじゅうにそう",
+    "sortKana": "せいたんしゆうにそう",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-03-31",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card4559.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/4559_ruby_26032.zip",
+    "textFileId": "4559_ruby_26032",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/4559_26238.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "泉鏡花集成2",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1996（平成8）年4月24日",
+      "inputEdition": "1996（平成8）年4月24日第1刷",
+      "proofreadEdition": "1996（平成8）年4月24日第1刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -132,5 +132,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060685",
+    "title": "一九三一年度極東ビヂテリアン大会見聞録",
+    "titleKana": "せんきゅうひゃくさんじゅういちねんどきょくとうビジテリアンたいかいけんぶんろく",
+    "sortKana": "せんきゆうひやくさんしゆういちねんときよくとうひしてりあんたいかいけんふんろく",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-09-21",
+    "updatedAt": "2022-05-12",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card60685.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/60685_ruby_74028.zip",
+    "textFileId": "60685_ruby_74028",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/60685_74066.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "officeshema",
+    "baseBook1": {
+      "title": "【新】校本宮澤賢治全集　第十巻　童話Ⅲ　本文篇",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1995（平成7）年9月25日",
+      "inputEdition": "1995（平成7）年9月25日初版第1刷",
+      "proofreadEdition": "1995（平成7）年9月25日初版第1刷"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

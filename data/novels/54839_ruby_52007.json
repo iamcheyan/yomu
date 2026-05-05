@@ -50,5 +50,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054839",
+    "title": "捕物小説のむずかしさ",
+    "titleKana": "とりものしょうせつのむずかしさ",
+    "sortKana": "とりものしようせつのむすかしさ",
+    "firstAppearance": "「探偵作家クラブ会報　三〇号」1949（昭和24）年11月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-01-17",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001670/card54839.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001670/files/54839_ruby_52007.zip",
+    "textFileId": "54839_ruby_52007",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001670/files/54839_52032.html",
+    "inputBy": "ばっちゃん",
+    "proofreadBy": "阿部哲也",
+    "baseBook1": {
+      "title": "野村胡堂探偵小説全集",
+      "publisher": "作品社",
+      "firstPublishedAt": "2007（平成19）年4月15日",
+      "inputEdition": "2007（平成19）年4月15日第1刷",
+      "proofreadEdition": "2007（平成19）年4月15日第1刷"
+    },
+    "author": "野村胡堂",
+    "authors": [
+      {
+        "personId": "001670",
+        "name": "野村胡堂",
+        "kana": "のむらこどう",
+        "roman": "Kodo Nomura",
+        "role": "著者",
+        "birthDate": "1882-10-15",
+        "deathDate": "1963-04-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -390,5 +390,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047208",
+    "title": "二人の男",
+    "titleKana": "ふたりのおとこ",
+    "sortKana": "ふたりのおとこ",
+    "firstAppearance": "「新潮　第三十二巻第一号」新潮社、1920（大正9）年1月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-03-28",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000595/card47208.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000595/files/47208_ruby_46837.zip",
+    "textFileId": "47208_ruby_46837",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000595/files/47208_47034.html",
+    "inputBy": "西村達人",
+    "proofreadBy": "岩澤秀紀",
+    "baseBook1": {
+      "title": "編年体大正文学全集　第九巻　大正九年",
+      "publisher": "ゆまに書房",
+      "firstPublishedAt": "2001（平成13）年12月10日",
+      "inputEdition": "2001（平成13）年12月10日第1版第1刷",
+      "proofreadEdition": "2001（平成13）年12月10日第1版第1刷"
+    },
+    "author": "島田清次郎",
+    "authors": [
+      {
+        "personId": "000595",
+        "name": "島田清次郎",
+        "kana": "しまだせいじろう",
+        "roman": "Seijiro Shimada",
+        "role": "著者",
+        "birthDate": "1899-02-26",
+        "deathDate": "1930-04-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

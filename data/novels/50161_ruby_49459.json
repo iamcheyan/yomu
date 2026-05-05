@@ -270,5 +270,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050161",
+    "title": "他計甚麽（竹島）雑誌",
+    "titleKana": "たけしまざっし",
+    "sortKana": "たけしまさつし",
+    "firstAppearance": "「他計甚麽雑誌」配り物、1854（安政元）年10月",
+    "ndc": "NDC 291",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-12-21",
+    "updatedAt": "2025-06-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001408/card50161.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001408/files/50161_ruby_49459.zip",
+    "textFileId": "50161_ruby_49459",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001408/files/50161_49462.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "ばっちゃん",
+    "baseBook1": {
+      "title": "松浦武四郎紀行集（中）",
+      "publisher": "冨山房",
+      "firstPublishedAt": "1975（昭和50）年12月20日",
+      "inputEdition": "1975（昭和50）年12月20日第1刷",
+      "proofreadEdition": "1975（昭和50）年12月20日第1刷"
+    },
+    "author": "松浦武四郎",
+    "authors": [
+      {
+        "personId": "001408",
+        "name": "松浦武四郎",
+        "kana": "まつうらたけしろう",
+        "roman": "Takeshiro Matsuura",
+        "role": "著者",
+        "birthDate": "1818-03-12",
+        "deathDate": "1888-02-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

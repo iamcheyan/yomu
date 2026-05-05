@@ -62,5 +62,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042238",
+    "title": "茂吉への返事",
+    "titleKana": "もきちへのへんじ",
+    "sortKana": "もきちへのへんし",
+    "firstAppearance": "「アララギ　第十一卷第六號」1918（大正7）年6月",
+    "ndc": "NDC 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-03-13",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card42238.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/42238_ruby_14543.zip",
+    "textFileId": "42238_ruby_14543",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/42238_14859.html",
+    "inputBy": "高柳典子",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "折口信夫全集　 第廿七巻",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1968（昭和43）年1月25日",
+      "inputEdition": "1968（昭和43）年1月25日",
+      "proofreadEdition": "1968（昭和43）年1月25日"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -66,5 +66,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055485",
+    "title": "癲狂院外景",
+    "titleKana": "てんきょういんがいけい",
+    "sortKana": "てんきよういんかいけい",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-04-16",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000678/card55485.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000678/files/55485_ruby_53152.zip",
+    "textFileId": "55485_ruby_53152",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000678/files/55485_53190.html",
+    "inputBy": "村松洋一",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "富永太郎詩集",
+      "publisher": "現代詩文庫、思潮社",
+      "firstPublishedAt": "1975（昭和50）年7月10日",
+      "inputEdition": "1984（昭和59）年10月1日第6刷",
+      "proofreadEdition": "1984（昭和59）年10月1日第6刷"
+    },
+    "author": "富永太郎",
+    "authors": [
+      {
+        "personId": "000678",
+        "name": "富永太郎",
+        "kana": "とみながたろう",
+        "roman": "Taro Tominaga",
+        "role": "著者",
+        "birthDate": "1901-05-04",
+        "deathDate": "1925-11-12",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -1394,5 +1394,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001543",
+    "title": "般若心経講義",
+    "titleKana": "はんにゃしんぎょうこうぎ",
+    "sortKana": "はんにやしんきようこうき",
+    "ndc": "NDC 181 183",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-10-11",
+    "updatedAt": "2016-05-10",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000269/card1543.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000269/files/1543_ruby_23872.zip",
+    "textFileId": "1543_ruby_23872",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000269/files/1543_24303.html",
+    "inputBy": "多田克也",
+    "proofreadBy": "大野晋、Juki",
+    "baseBook1": {
+      "title": "般若心経講義",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1952（昭和27）年9月30日",
+      "inputEdition": "1967（昭和42）年5月30日改41版、1973（昭和48）年3月30日改版12版",
+      "proofreadEdition": "1979（昭和54）年7月30日改版22版"
+    },
+    "author": "高神覚昇",
+    "authors": [
+      {
+        "personId": "000269",
+        "name": "高神覚昇",
+        "kana": "たかがみかくしょう",
+        "roman": "Kakusho Takagami",
+        "role": "著者",
+        "birthDate": "1894",
+        "deathDate": "1948",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

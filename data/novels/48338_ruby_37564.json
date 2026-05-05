@@ -116,5 +116,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048338",
+    "title": "シベリヤの三等列車",
+    "titleKana": "シベリヤのさんとうれっしゃ",
+    "sortKana": "しへりやのさんとうれつしや",
+    "ndc": "NDC 914 293",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-04-13",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000291/card48338.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000291/files/48338_ruby_37564.zip",
+    "textFileId": "48338_ruby_37564",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000291/files/48338_38449.html",
+    "inputBy": "浦山敦子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻51　異国",
+      "publisher": "作品社",
+      "firstPublishedAt": "1995（平成7）年5月25日",
+      "inputEdition": "1995（平成7）年5月25日第1刷",
+      "proofreadEdition": "1995（平成7）年5月25日第1刷"
+    },
+    "author": "林芙美子",
+    "authors": [
+      {
+        "personId": "000291",
+        "name": "林芙美子",
+        "kana": "はやしふみこ",
+        "roman": "Fumiko Hayashi",
+        "role": "著者",
+        "birthDate": "1903-12-31",
+        "deathDate": "1951-06-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

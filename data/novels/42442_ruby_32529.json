@@ -1026,5 +1026,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042442",
+    "title": "古井戸",
+    "titleKana": "ふるいど",
+    "sortKana": "ふるいと",
+    "firstAppearance": "「中央公論」1925（大正14）年10月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-11-26",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000906/card42442.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000906/files/42442_ruby_32529.zip",
+    "textFileId": "42442_ruby_32529",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000906/files/42442_33345.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "豊島与志雄著作集　第二巻（小説Ⅱ）",
+      "publisher": "未来社",
+      "firstPublishedAt": "1965（昭和40）年12月15日",
+      "inputEdition": "1965（昭和40）年12月15日第1刷",
+      "proofreadEdition": "1965（昭和40）年12月15日第1刷"
+    },
+    "author": "豊島与志雄",
+    "authors": [
+      {
+        "personId": "000906",
+        "name": "豊島与志雄",
+        "kana": "とよしまよしお",
+        "roman": "Yoshio Toyoshima",
+        "role": "著者",
+        "birthDate": "1890-11-27",
+        "deathDate": "1955-06-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

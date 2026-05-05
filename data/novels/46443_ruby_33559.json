@@ -706,5 +706,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046443",
+    "title": "コロボックル風俗考",
+    "titleKana": "コロボックルふうぞくこう",
+    "sortKana": "ころほつくるふうそくこう",
+    "firstAppearance": "「風俗画報」1895（明治28）年4月～1896（明治29）年2月",
+    "ndc": "NDC 210",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-06-30",
+    "updatedAt": "2016-02-02",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001242/card46443.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001242/files/46443_ruby_33559.zip",
+    "textFileId": "46443_ruby_33559",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001242/files/46443_35194.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "しだひろし",
+    "baseBook1": {
+      "title": "日本考古学選集　2　坪井正五郎集―上巻",
+      "publisher": "築地書館",
+      "firstPublishedAt": "1971（昭和46）年7月20日",
+      "inputEdition": "1971（昭和46）年7月20日",
+      "proofreadEdition": "1974（昭和49）年8月20日2刷"
+    },
+    "author": "坪井正五郎",
+    "authors": [
+      {
+        "personId": "001242",
+        "name": "坪井正五郎",
+        "kana": "つぼいしょうごろう",
+        "roman": "Shogoro Tsuboi",
+        "role": "著者",
+        "birthDate": "1863-02-22",
+        "deathDate": "1913-05-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

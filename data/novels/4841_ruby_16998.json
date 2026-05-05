@@ -396,5 +396,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004841",
+    "title": "後光殺人事件",
+    "titleKana": "ごこうさつじんじけん",
+    "sortKana": "ここうさつしんしけん",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-12-26",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000125/card4841.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000125/files/4841_ruby_16998.zip",
+    "textFileId": "4841_ruby_16998",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000125/files/4841_17122.html",
+    "inputBy": "酔尻焼猿人",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "二十世紀鉄仮面",
+      "publisher": "桃源社",
+      "firstPublishedAt": "1969（昭和44）年5月10日",
+      "inputEdition": "1969（昭和44）年5月10日",
+      "proofreadEdition": "1969（昭和44）年5月10日"
+    },
+    "author": "小栗虫太郎",
+    "authors": [
+      {
+        "personId": "000125",
+        "name": "小栗虫太郎",
+        "kana": "おぐりむしたろう",
+        "roman": "Mushitaro Oguri",
+        "role": "著者",
+        "birthDate": "1901-03-14",
+        "deathDate": "1946-02-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

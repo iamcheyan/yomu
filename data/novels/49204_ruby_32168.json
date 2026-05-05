@@ -32,5 +32,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049204",
+    "title": "怪物屋敷",
+    "titleKana": "ばけものやしき",
+    "sortKana": "はけものやしき",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-10-27",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000831/card49204.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000831/files/49204_ruby_32168.zip",
+    "textFileId": "49204_ruby_32168",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000831/files/49204_33051.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "文豪怪談傑作選・特別篇　百物語怪談会",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2007（平成19）年7月10日",
+      "inputEdition": "2007（平成19）年7月10日第1刷",
+      "proofreadEdition": "2007（平成19）年7月10日第1刷"
+    },
+    "author": "柳川春葉",
+    "authors": [
+      {
+        "personId": "000831",
+        "name": "柳川春葉",
+        "kana": "やながわしゅんよう",
+        "roman": "Shun'yo Yanagawa",
+        "role": "著者",
+        "birthDate": "1877-03-05",
+        "deathDate": "1918-01-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

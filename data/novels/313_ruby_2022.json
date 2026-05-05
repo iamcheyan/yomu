@@ -66,5 +66,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000313",
+    "title": "列車",
+    "titleKana": "れっしゃ",
+    "sortKana": "れつしや",
+    "firstAppearance": "「サンデー東奧　二〇三号」1933（昭和8）年2月19日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-05-31",
+    "updatedAt": "2016-02-23",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card313.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/313_ruby_2022.zip",
+    "textFileId": "313_ruby_2022",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/313_15102.html",
+    "inputBy": "赤木孝之",
+    "proofreadBy": "田尻幹二",
+    "baseBook1": {
+      "title": "太宰治全集2",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1998（平成10）年5月25日",
+      "inputEdition": "1998（平成10）年5月25日初版第1刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

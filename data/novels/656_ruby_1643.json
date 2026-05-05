@@ -2804,5 +2804,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000656",
+    "title": "小熊秀雄全集-02",
+    "titleKana": "おぐまひでおぜんしゅう-02",
+    "sortKana": "おくまひておせんしゆう",
+    "subtitle": "詩集（１）初期詩篇",
+    "subtitleKana": "ししゅう（１）しょきしへん",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-04-14",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000124/card656.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000124/files/656_ruby_1643.zip",
+    "textFileId": "656_ruby_1643",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000124/files/656_49431.html",
+    "inputBy": "浜野智",
+    "proofreadBy": "八巻美恵",
+    "baseBook1": {
+      "title": "新版・小熊秀雄全集第1巻",
+      "publisher": "創樹社",
+      "firstPublishedAt": "1990（平成2）年11月15日"
+    },
+    "author": "小熊秀雄",
+    "authors": [
+      {
+        "personId": "000124",
+        "name": "小熊秀雄",
+        "kana": "おぐまひでお",
+        "roman": "Hideo Oguma",
+        "role": "著者",
+        "birthDate": "1901-09-09",
+        "deathDate": "1940-11-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

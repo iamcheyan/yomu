@@ -188,5 +188,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051583",
+    "title": "少年の日二景",
+    "titleKana": "しょうねんのひにけい",
+    "sortKana": "しようねんのひにけい",
+    "firstAppearance": "おどろき「台湾日日新報」1940（昭和15）年8月4日<br>伸びるもの「台湾日日新報」1940（昭和15）年8月6日",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-05-21",
+    "updatedAt": "2018-04-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001475/card51583.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001475/files/51583_ruby_64573.zip",
+    "textFileId": "51583_ruby_64573",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001475/files/51583_64625.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "酒井裕二",
+    "baseBook1": {
+      "title": "定本小川未明童話全集　13",
+      "publisher": "講談社",
+      "firstPublishedAt": "1977（昭和52）年11月10日",
+      "inputEdition": "1983（昭和58）年1月19日第5刷",
+      "proofreadEdition": "1977（昭和52）年11月10日第1刷"
+    },
+    "author": "小川未明",
+    "authors": [
+      {
+        "personId": "001475",
+        "name": "小川未明",
+        "kana": "おがわみめい",
+        "roman": "Mimei Ogawa",
+        "role": "著者",
+        "birthDate": "1882-04-07",
+        "deathDate": "1961-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

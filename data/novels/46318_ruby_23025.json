@@ -230,5 +230,35 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046318",
+    "title": "おやゆび姫",
+    "titleKana": "おやゆびひめ",
+    "sortKana": "おやゆひひめ",
+    "ndc": "NDC K949",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "1999-12-29",
+    "updatedAt": "2022-04-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000019/card46318.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000019/files/46318_ruby_23025.zip",
+    "textFileId": "46318_ruby_23025",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000019/files/46318_23027.html",
+    "inputBy": "大久保ゆう",
+    "author": "アンデルセンハンス・クリスチャン",
+    "authors": [
+      {
+        "personId": "000019",
+        "name": "アンデルセンハンス・クリスチャン",
+        "kana": "アンデルセンハンス・クリスチャン",
+        "roman": "Hans Christian Andersen",
+        "role": "著者",
+        "birthDate": "1805-04-02",
+        "deathDate": "1875-08-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

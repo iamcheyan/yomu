@@ -206,5 +206,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004108",
+    "title": "男女関係について",
+    "titleKana": "だんじょかんけいについて",
+    "sortKana": "たんしよかんけいについて",
+    "subtitle": "女房に与えて彼女に対する一情婦の心情を語る文",
+    "subtitleKana": "にょうぼうにあたえてかのじょにたいするいちじょうふのしんじょうをかたるぶん",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-11-23",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000169/card4108.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000169/files/4108_ruby_7688.zip",
+    "textFileId": "4108_ruby_7688",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000169/files/4108_7689.html",
+    "inputBy": "渡邉つよし",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆47　惑",
+      "publisher": "作品社",
+      "firstPublishedAt": "1986（昭和61）年9月25日",
+      "inputEdition": "1991（平成3）年4月25日第8刷"
+    },
+    "author": "大杉栄",
+    "authors": [
+      {
+        "personId": "000169",
+        "name": "大杉栄",
+        "kana": "おおすぎさかえ",
+        "roman": "Sakae Osugi",
+        "role": "著者",
+        "birthDate": "1885-01-17",
+        "deathDate": "1923-09-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

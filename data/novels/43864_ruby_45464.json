@@ -522,5 +522,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043864",
+    "title": "髪の毛と花びら",
+    "titleKana": "かみのけとはなびら",
+    "sortKana": "かみのけとはなひら",
+    "firstAppearance": "「オール読物　第七巻第四号」1952（昭和27）年4月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-12-13",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001154/card43864.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001154/files/43864_ruby_45464.zip",
+    "textFileId": "43864_ruby_45464",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001154/files/43864_45507.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "岸田國士全集18",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1992（平成4）年3月9日",
+      "inputEdition": "1992（平成4）年3月9日",
+      "proofreadEdition": "1992（平成4）年3月9日"
+    },
+    "author": "岸田国士",
+    "authors": [
+      {
+        "personId": "001154",
+        "name": "岸田国士",
+        "kana": "きしだくにお",
+        "roman": "Kunio Kishida",
+        "role": "著者",
+        "birthDate": "1890-11-02",
+        "deathDate": "1954-03-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

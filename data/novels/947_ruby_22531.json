@@ -206,5 +206,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000947",
+    "title": "ゼーロン",
+    "titleKana": "ゼーロン",
+    "sortKana": "せえろん",
+    "firstAppearance": "「改造」1931（昭和6）年10月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-09-04",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000183/card947.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000183/files/947_ruby_22531.zip",
+    "textFileId": "947_ruby_22531",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000183/files/947_22532.html",
+    "inputBy": "漆原友人",
+    "proofreadBy": "久保あきら",
+    "baseBook1": {
+      "title": "日本の短篇　下",
+      "publisher": "文藝春秋",
+      "firstPublishedAt": "1989（平成元）年3月25日"
+    },
+    "author": "牧野信一",
+    "authors": [
+      {
+        "personId": "000183",
+        "name": "牧野信一",
+        "kana": "まきのしんいち",
+        "roman": "Shin'ichi Makino",
+        "role": "著者",
+        "birthDate": "1896-11-12",
+        "deathDate": "1936-03-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

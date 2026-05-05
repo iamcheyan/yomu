@@ -9,7 +9,7 @@
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/svg+xml" href="assets/app_icon.svg">
     <link rel="apple-touch-icon" href="assets/app_icon.svg">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=5">
     <link rel="stylesheet" href="css/animations.css" id="animation-style">
 </head>
 
@@ -29,14 +29,30 @@
                 <button id="btn-show-store" onclick="Yomu.showStore()">書庫</button>
             </div>
         </div>
+        <div class="home-filter-panel" id="home-filter-panel">
+            <div class="filter-group">
+                <div class="filter-label">分類</div>
+                <button class="filter-chip active" data-home-filter-type="category" data-home-filter-value="" onclick="Yomu.setHomeFilter('category', '')">すべて</button>
+                <button class="filter-chip" data-home-filter-type="category" data-home-filter-value="fiction" onclick="Yomu.setHomeFilter('category', 'fiction')">小説</button>
+                <button class="filter-chip" data-home-filter-type="category" data-home-filter-value="children" onclick="Yomu.setHomeFilter('category', 'children')">児童文学</button>
+                <button class="filter-chip" data-home-filter-type="category" data-home-filter-value="essay" onclick="Yomu.setHomeFilter('category', 'essay')">随筆・記録</button>
+                <button class="filter-chip" data-home-filter-type="category" data-home-filter-value="poetry" onclick="Yomu.setHomeFilter('category', 'poetry')">詩歌</button>
+                <button class="filter-chip" data-home-filter-type="category" data-home-filter-value="drama" onclick="Yomu.setHomeFilter('category', 'drama')">戯曲</button>
+                <button class="filter-chip" data-home-filter-type="category" data-home-filter-value="foreign" onclick="Yomu.setHomeFilter('category', 'foreign')">海外文学</button>
+            </div>
+            <div class="filter-group">
+                <div class="filter-label">翻訳</div>
+                <button class="filter-chip active" data-home-filter-type="translation" data-home-filter-value="" onclick="Yomu.setHomeFilter('translation', '')">すべて</button>
+                <button class="filter-chip" data-home-filter-type="translation" data-home-filter-value="translated" onclick="Yomu.setHomeFilter('translation', 'translated')">訳あり</button>
+                <button class="filter-chip" data-home-filter-type="translation" data-home-filter-value="untranslated" onclick="Yomu.setHomeFilter('translation', 'untranslated')">原文のみ</button>
+            </div>
+            <div class="filter-summary" id="home-filter-summary"></div>
+        </div>
         <div id="book-grid" class="book-grid"></div>
         
         <div class="pagination-bar" id="home-pagination" style="margin-bottom: 20px;">
-            <button onclick="Yomu.prevHomePage()" id="btn-home-prev" class="page-btn">←</button>
-            <button onclick="Yomu.nextHomePage()" id="btn-home-next" class="page-btn">→</button>
-        </div>
-        <div class="library-footer">
-            <p>日本の古典文学を読む · <span id="library-count">0</span> 冊の蔵書</p>
+            <button onclick="Yomu.prevHomePage()" id="btn-home-prev" class="page-btn">前へ</button>
+            <button onclick="Yomu.nextHomePage()" id="btn-home-next" class="page-btn">次へ</button>
         </div>
     </div>
 
@@ -48,18 +64,39 @@
                 <p>所蔵作品から検索して読む</p>
             </div>
             <div class="header-actions">
-                <button onclick="Yomu.showBookList()" class="back-btn">← 戻る</button>
+                <button onclick="Yomu.showBookList()" class="back-btn">戻る</button>
             </div>
         </div>
         <div class="store-search">
             <input type="text" id="store-search-input" placeholder="作品名、著者名で検索..."
                 oninput="Yomu.filterStore(this.value)">
         </div>
+        <div class="store-filter-panel" id="store-filter-panel">
+            <div class="filter-group" id="filter-authors"></div>
+            <div class="filter-group">
+                <div class="filter-label">分類</div>
+                <button class="filter-chip active" data-filter-type="category" data-filter-value="" onclick="Yomu.setStoreFilter('category', '')">すべて</button>
+                <button class="filter-chip" data-filter-type="category" data-filter-value="fiction" onclick="Yomu.setStoreFilter('category', 'fiction')">小説</button>
+                <button class="filter-chip" data-filter-type="category" data-filter-value="children" onclick="Yomu.setStoreFilter('category', 'children')">児童文学</button>
+                <button class="filter-chip" data-filter-type="category" data-filter-value="essay" onclick="Yomu.setStoreFilter('category', 'essay')">随筆・記録</button>
+                <button class="filter-chip" data-filter-type="category" data-filter-value="poetry" onclick="Yomu.setStoreFilter('category', 'poetry')">詩歌</button>
+                <button class="filter-chip" data-filter-type="category" data-filter-value="drama" onclick="Yomu.setStoreFilter('category', 'drama')">戯曲</button>
+                <button class="filter-chip" data-filter-type="category" data-filter-value="foreign" onclick="Yomu.setStoreFilter('category', 'foreign')">海外文学</button>
+            </div>
+            <div class="filter-group">
+                <div class="filter-label">文字遣い</div>
+                <button class="filter-chip active" data-filter-type="orthography" data-filter-value="" onclick="Yomu.setStoreFilter('orthography', '')">すべて</button>
+                <button class="filter-chip" data-filter-type="orthography" data-filter-value="新字新仮名" onclick="Yomu.setStoreFilter('orthography', '新字新仮名')">新字新仮名</button>
+                <button class="filter-chip" data-filter-type="orthography" data-filter-value="新字旧仮名" onclick="Yomu.setStoreFilter('orthography', '新字旧仮名')">新字旧仮名</button>
+                <button class="filter-chip" data-filter-type="orthography" data-filter-value="旧字旧仮名" onclick="Yomu.setStoreFilter('orthography', '旧字旧仮名')">旧字旧仮名</button>
+            </div>
+            <div class="filter-summary" id="store-filter-summary"></div>
+        </div>
         <div id="store-grid" class="book-grid"></div>
         
         <div class="pagination-bar">
-            <button onclick="Yomu.prevStorePage()" id="btn-prev-page" class="page-btn">←</button>
-            <button onclick="Yomu.nextStorePage()" id="btn-next-page" class="page-btn">→</button>
+            <button onclick="Yomu.prevStorePage()" id="btn-prev-page" class="page-btn">前へ</button>
+            <button onclick="Yomu.nextStorePage()" id="btn-next-page" class="page-btn">次へ</button>
         </div>
     </div>
 
@@ -71,6 +108,7 @@
                 <div class="author" id="reader-author"></div>
             </div>
         </div>
+        <div id="book-frontmatter" class="book-frontmatter"></div>
         <div id="novel-content" class="novel-text"></div>
         
         <!-- Minimalist Status Bar -->
@@ -80,9 +118,11 @@
             </div>
             <div class="status-right">
                 <span id="status-progress">0%</span>
-                <svg class="status-settings-btn" onclick="Yomu.toggleSettings()" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 0c-1.3 0-2.3.9-2.7 2.1-.8.2-1.6.5-2.3 1-1.1-.7-2.6-.4-3.5.5-.9.9-1.2 2.4-.5 3.5-.5.7-.8 1.5-1 2.3-1.2.4-2.1 1.4-2.1 2.7s.9 2.3 2.1 2.7c.2.8.5 1.6 1 2.3-.7 1.1-.4 2.6.5 3.5.9.9 2.4 1.2 3.5.5.7.5 1.5.8 2.3 1 0.4 1.2 1.4 2.1 2.7 2.1s2.3-.9 2.7-2.1c.8-.2 1.6-.5 2.3-1 1.1.7 2.6.4 3.5-.5.9-.9 1.2-2.4.5-3.5.5-.7.8-1.5 1-2.3 1.2-.4 2.1-1.4 2.1-2.7s-.9-2.3-2.1-2.7c-.2-.8-.5-1.6-1-2.3.7-1.1.4-2.6-.5-3.5-.9-.9-2.4-1.2-3.5-.5-.7-.5-1.5-.8-2.3-1-.4-1.2-1.4-2.1-2.7-2.1zm0 7.5c2.5 0 4.5 2 4.5 4.5s-2 4.5-4.5 4.5-4.5-2-4.5-4.5 2-4.5 4.5-4.5z"/>
-                </svg>
+                <button class="status-settings-btn" onclick="Yomu.toggleSettingsFromButton(event)" title="設定" aria-label="設定">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M12 0c-1.3 0-2.3.9-2.7 2.1-.8.2-1.6.5-2.3 1-1.1-.7-2.6-.4-3.5.5-.9.9-1.2 2.4-.5 3.5-.5.7-.8 1.5-1 2.3-1.2.4-2.1 1.4-2.1 2.7s.9 2.3 2.1 2.7c.2.8.5 1.6 1 2.3-.7 1.1-.4 2.6.5 3.5.9.9 2.4 1.2 3.5.5.7.5 1.5.8 2.3 1 0.4 1.2 1.4 2.1 2.7 2.1s2.3-.9 2.7-2.1c.8-.2 1.6-.5 2.3-1 1.1.7 2.6.4 3.5-.5.9-.9 1.2-2.4.5-3.5.5-.7.8-1.5 1-2.3 1.2-.4 2.1-1.4 2.1-2.7s-.9-2.3-2.1-2.7c-.2-.8-.5-1.6-1-2.3.7-1.1.4-2.6-.5-3.5-.9-.9-2.4-1.2-3.5-.5-.7-.5-1.5-.8-2.3-1-.4-1.2-1.4-2.1-2.7-2.1zm0 7.5c2.5 0 4.5 2 4.5 4.5s-2 4.5-4.5 4.5-4.5-2-4.5-4.5 2-4.5 4.5-4.5z"></path>
+                    </svg>
+                </button>
             </div>
         </div>
     </div>
@@ -122,7 +162,7 @@
             <button id="btn-home" onclick="Yomu.showBookList()" title="ホーム">
                 <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
             </button>
-            <button id="btn-settings" onclick="Yomu.toggleSettings()" title="設定">
+            <button id="btn-settings" onclick="Yomu.toggleSettingsFromButton(event)" title="設定">
                 <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" id="circle12" r="3" /><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" id="path12" /></svg>
             </button>
         </div>
@@ -147,7 +187,7 @@
                 <button class="menu-btn" onclick="Yomu.showBookList()" title="ホーム">
                     <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
                 </button>
-                <button class="close-btn" onclick="Yomu.toggleSettings()">×</button>
+                <button class="close-btn" onclick="Yomu.toggleSettingsFromButton(event)">×</button>
             </div>
         </div>
 
@@ -216,16 +256,26 @@
             </div>
         </div>
     </div>
-
+    
+    <!-- Global Footer (Unified) -->
+    <div class="library-footer global-footer">
+        <p>日本の古典文学を読む · <span id="library-count">0</span> 冊の蔵書 · データ提供：青空文庫</p>
+        <a class="github-footer-link" href="https://github.com/iamcheyan/yomu" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 0.5C5.65 0.5 0.5 5.65 0.5 12c0 5.08 3.29 9.38 7.86 10.9.58.1.79-.25.79-.56v-2.02c-3.2.7-3.88-1.38-3.88-1.38-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.17 1.18.92-.26 1.9-.38 2.88-.39.98 0 1.96.13 2.88.39 2.2-1.49 3.16-1.18 3.16-1.18.63 1.58.23 2.75.11 3.04.74.81 1.19 1.83 1.19 3.09 0 4.42-2.7 5.39-5.27 5.68.42.36.79 1.07.79 2.16v3.02c0 .31.21.67.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35 0.5 12 0.5Z"></path>
+            </svg>
+            <span>GitHubで見る · ソースコードとフィードバック</span>
+        </a>
+    </div>
 
     <!-- JS Modules -->
     <script src="libs/kuromoji.js"></script>
     <script src="js/storage.js?v=2"></script>
     <script src="js/dictionary.js?v=2"></script>
     <script src="js/tokenizer.js?v=2"></script>
-    <script src="js/reader.js?v=3"></script>
-    <script src="js/aozora.js?v=2"></script>
-    <script src="js/app.js?v=3"></script>
+    <script src="js/reader.js?v=4"></script>
+    <script src="js/aozora.js?v=3"></script>
+    <script src="js/app.js?v=5"></script>
 </body>
 
 </html>

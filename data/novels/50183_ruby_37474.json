@@ -200,5 +200,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050183",
+    "title": "新らしき祖先",
+    "titleKana": "あたらしきそせん",
+    "sortKana": "あたらしきそせん",
+    "firstAppearance": "「新潮」1917（大正6）年10月号",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-03-31",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001082/card50183.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001082/files/50183_ruby_37474.zip",
+    "textFileId": "50183_ruby_37474",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001082/files/50183_38303.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "現代日本文學大系　49　葛西善藏　嘉村礒多　相馬泰三　川崎長太郎　宮路嘉六　木山捷平　集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1973（昭和48）年2月5日",
+      "inputEdition": "1985（昭和60）年11月10日初版第12刷",
+      "proofreadEdition": "1985（昭和60）年11月10日初版第12刷"
+    },
+    "author": "相馬泰三",
+    "authors": [
+      {
+        "personId": "001082",
+        "name": "相馬泰三",
+        "kana": "そうまたいぞう",
+        "roman": "Taizo Soma",
+        "role": "著者",
+        "birthDate": "1885-12-29",
+        "deathDate": "1952-05-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

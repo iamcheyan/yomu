@@ -518,5 +518,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000878",
+    "title": "特許多腕人間方式",
+    "titleKana": "とっきょたわんにんげんほうしき",
+    "sortKana": "とつきよたわんにんけんほうしき",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-03-08",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card878.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/878_ruby_23847.zip",
+    "textFileId": "878_ruby_23847",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/878_23848.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "福地博文",
+    "baseBook1": {
+      "title": "十八時の音楽浴",
+      "publisher": "早川文庫、早川書房",
+      "firstPublishedAt": "1976（昭和51）年1月15日",
+      "inputEdition": "1990（平成2）年4月30日第2刷"
+    },
+    "author": "海野十三",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

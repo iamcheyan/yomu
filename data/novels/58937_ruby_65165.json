@@ -42,5 +42,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058937",
+    "title": "長谷川等伯の「松林図屏風」",
+    "titleKana": "はせがわとうはくの「しょうりんずびょうぶ」",
+    "sortKana": "はせかわとうはくのしようりんすひようふ",
+    "firstAppearance": "「東京新聞」1964（昭和39）年11月28日",
+    "ndc": "NDC 721",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-07-13",
+    "updatedAt": "2018-06-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001974/card58937.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001974/files/58937_ruby_65165.zip",
+    "textFileId": "58937_ruby_65165",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001974/files/58937_65208.html",
+    "inputBy": "大久保ゆう",
+    "proofreadBy": "POKEPEEK2011",
+    "baseBook1": {
+      "title": "日本の名随筆27　墨",
+      "publisher": "作品社",
+      "firstPublishedAt": "1985（昭和60）年1月25日",
+      "inputEdition": "1985（昭和60）年1月25日第1刷",
+      "proofreadEdition": "1985（昭和60）年1月25日第1刷"
+    },
+    "author": "吉野秀雄",
+    "authors": [
+      {
+        "personId": "001974",
+        "name": "吉野秀雄",
+        "kana": "よしのひでお",
+        "roman": "Hideo Yoshino",
+        "role": "著者",
+        "birthDate": "1902-07-03",
+        "deathDate": "1967-07-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

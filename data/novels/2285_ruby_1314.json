@@ -190,5 +190,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002285",
+    "title": "トカトントン",
+    "titleKana": "トカトントン",
+    "sortKana": "とかとんとん",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-01-23",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card2285.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/2285_ruby_1314.zip",
+    "textFileId": "2285_ruby_1314",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/2285_15077.html",
+    "inputBy": "治",
+    "proofreadBy": "割子田数哉",
+    "baseBook1": {
+      "title": "ヴィヨンの妻",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1950（昭和25）年12月20日、1985（昭和60）年10月30日63刷改版",
+      "inputEdition": "1996（平成8）年6月20日第88刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

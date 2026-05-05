@@ -44,5 +44,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050726",
+    "title": "今世風の教育",
+    "titleKana": "こんせいふうのきょういく",
+    "sortKana": "こんせいふうのきよういく",
+    "firstAppearance": "「青年界　二巻一〇号」金港堂書籍、1903（明治36）年8月1日",
+    "ndc": "NDC 370",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-07-29",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000718/card50726.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000718/files/50726_ruby_38729.zip",
+    "textFileId": "50726_ruby_38729",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000718/files/50726_39693.html",
+    "inputBy": "田中哲郎",
+    "proofreadBy": "ゆうき",
+    "baseBook1": {
+      "title": "新渡戸稲造論集",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2007（平成19）年5月16日",
+      "inputEdition": "2007（平成19）年5月16日第1刷",
+      "proofreadEdition": "2007（平成19）年6月25日第2刷"
+    },
+    "author": "新渡戸稲造",
+    "authors": [
+      {
+        "personId": "000718",
+        "name": "新渡戸稲造",
+        "kana": "にとべいなぞう",
+        "roman": "Inazo Nitobe",
+        "role": "著者",
+        "birthDate": "1862-09-01",
+        "deathDate": "1933-10-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

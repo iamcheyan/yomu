@@ -82,5 +82,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046981",
+    "title": "日本趣味映画",
+    "titleKana": "にほんしゅみえいが",
+    "sortKana": "にほんしゆみえいか",
+    "firstAppearance": "「キネマ旬報」1929（昭和4）年1月1日号",
+    "ndc": "NDC 778",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-02-23",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001272/card46981.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001272/files/46981_ruby_41615.zip",
+    "textFileId": "46981_ruby_41615",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001272/files/46981_42016.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "溝口健二集成",
+      "publisher": "キネマ旬報社",
+      "firstPublishedAt": "1991（平成3）年9月1日",
+      "inputEdition": "1991（平成3）年9月1日初版第1刷",
+      "proofreadEdition": "1991（平成3）年9月1日初版第1刷"
+    },
+    "author": "溝口健二",
+    "authors": [
+      {
+        "personId": "001272",
+        "name": "溝口健二",
+        "kana": "みぞぐちけんじ",
+        "roman": "Kenji Mizoguchi",
+        "role": "著者",
+        "birthDate": "1898-05-16",
+        "deathDate": "1956-08-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

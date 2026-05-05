@@ -434,5 +434,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049287",
+    "title": "工場新聞",
+    "titleKana": "こうじょうしんぶん",
+    "sortKana": "こうしようしんふん",
+    "firstAppearance": "「新潮」1932（昭和7）年8月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-02-15",
+    "updatedAt": "2020-01-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001308/card49287.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001308/files/49287_ruby_70139.zip",
+    "textFileId": "49287_ruby_70139",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001308/files/49287_70188.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "津村田悟",
+    "baseBook1": {
+      "title": "徳永直文学選集",
+      "publisher": "熊本出版文化会館",
+      "firstPublishedAt": "2008（平成20）年5月15日",
+      "inputEdition": "2008（平成20）年5月15日初版",
+      "proofreadEdition": "2008（平成20）年5月15日初版"
+    },
+    "author": "徳永直",
+    "authors": [
+      {
+        "personId": "001308",
+        "name": "徳永直",
+        "kana": "とくながすなお",
+        "roman": "Sunao Tokunaga",
+        "role": "著者",
+        "birthDate": "1899-01-20",
+        "deathDate": "1958-02-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

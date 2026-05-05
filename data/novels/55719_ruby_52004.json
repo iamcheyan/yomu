@@ -218,5 +218,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055719",
+    "title": "雷門以北",
+    "titleKana": "かみなりもんいほく",
+    "sortKana": "かみなりもんいほく",
+    "firstAppearance": "「東京日日新聞」1927（昭和2）年6月30日～7月16日",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-01-15",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001692/card55719.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001692/files/55719_ruby_52004.zip",
+    "textFileId": "55719_ruby_52004",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001692/files/55719_52029.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "大東京繁昌記",
+      "publisher": "毎日新聞社",
+      "firstPublishedAt": "1999（平成11）年5月15日",
+      "inputEdition": "1999（平成11）年5月15日",
+      "proofreadEdition": "1999（平成11）年5月15日"
+    },
+    "author": "久保田万太郎",
+    "authors": [
+      {
+        "personId": "001692",
+        "name": "久保田万太郎",
+        "kana": "くぼたまんたろう",
+        "roman": "Mantaro Kubota",
+        "role": "著者",
+        "birthDate": "1889-11-07",
+        "deathDate": "1963-05-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

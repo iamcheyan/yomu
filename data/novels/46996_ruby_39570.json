@@ -190,5 +190,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046996",
+    "title": "イーリアス",
+    "titleKana": "イーリアス",
+    "sortKana": "いりあす",
+    "subtitle": "03 イーリアス",
+    "subtitleKana": "03 イーリアス",
+    "ndc": "NDC 991",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-10-15",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001099/card46996.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001099/files/46996_ruby_39570.zip",
+    "textFileId": "46996_ruby_39570",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001099/files/46996_40612.html",
+    "inputBy": "山本寛",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "イーリアス",
+      "publisher": "冨山房",
+      "firstPublishedAt": "1940（昭和15）年11月15日",
+      "inputEdition": "1940（昭和15）年11月15日",
+      "proofreadEdition": "1943（昭和18）年6月30日4版"
+    },
+    "author": "ホーマー",
+    "authors": [
+      {
+        "personId": "001099",
+        "name": "ホーマー",
+        "kana": "ホーマー",
+        "roman": "Homer",
+        "role": "著者",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

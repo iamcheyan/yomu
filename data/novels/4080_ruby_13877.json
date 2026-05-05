@@ -72,5 +72,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004080",
+    "title": "黄金の甕",
+    "titleKana": "こがねのかめ",
+    "sortKana": "こかねのかめ",
+    "firstAppearance": "「小学男生」1921（大正10）年8月号",
+    "ndc": "NDC K913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-12-11",
+    "updatedAt": "2016-02-07",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000286/card4080.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000286/files/4080_ruby_13877.zip",
+    "textFileId": "4080_ruby_13877",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000286/files/4080_13921.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "今井忠夫",
+    "baseBook1": {
+      "title": "定本　野口雨情　第六巻",
+      "publisher": "未來社",
+      "firstPublishedAt": "1986（昭和61）年9月25日",
+      "inputEdition": "1986（昭和61）年9月25日第1版第1刷",
+      "proofreadEdition": "1986（昭和61）年9月25日第1版第1刷"
+    },
+    "author": "野口雨情",
+    "authors": [
+      {
+        "personId": "000286",
+        "name": "野口雨情",
+        "kana": "のぐちうじょう",
+        "roman": "Ujo Noguchi",
+        "role": "著者",
+        "birthDate": "1882-05-29",
+        "deathDate": "1945-01-27",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

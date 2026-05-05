@@ -728,5 +728,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053817",
+    "title": "東奥異聞",
+    "titleKana": "とうおういぶん",
+    "sortKana": "とうおういふん",
+    "firstAppearance": "「東奥異聞」閑話叢書、坂本書店、1926（大正15）年3月",
+    "ndc": "NDC 388",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-06-26",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000263/card53817.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000263/files/53817_ruby_53561.zip",
+    "textFileId": "53817_ruby_53561",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000263/files/53817_53604.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "阿部哲也",
+    "baseBook1": {
+      "title": "世界教養全集　21",
+      "publisher": "平凡社",
+      "firstPublishedAt": "1961（昭和36）年12月23日",
+      "inputEdition": "1963（昭和38）年12月20日3版",
+      "proofreadEdition": "1974（昭和49）年4月20日第2版第1刷"
+    },
+    "author": "佐々木喜善",
+    "authors": [
+      {
+        "personId": "000263",
+        "name": "佐々木喜善",
+        "kana": "ささききよし",
+        "roman": "Kizen Sasaki",
+        "role": "著者",
+        "birthDate": "1886-10-05",
+        "deathDate": "1933-09-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -154,5 +154,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049995",
+    "title": "遠友夜学校校歌",
+    "titleKana": "えんゆうやがっこうこうか",
+    "sortKana": "えんゆうやかつこうこうか",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-04-04",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000025/card49995.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000025/files/49995_ruby_37491.zip",
+    "textFileId": "49995_ruby_37491",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000025/files/49995_38418.html",
+    "inputBy": "ｍｏｎｏ",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "有島武郎全集第一巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1980（昭和55）年8月30日",
+      "inputEdition": "2001（平成13）年6月10日初版第3刷",
+      "proofreadEdition": "2001（平成13）年6月10日初版第3刷"
+    },
+    "author": "有島武郎",
+    "authors": [
+      {
+        "personId": "000025",
+        "name": "有島武郎",
+        "kana": "ありしまたけお",
+        "roman": "Takeo Arishima",
+        "role": "著者",
+        "birthDate": "1878-03-04",
+        "deathDate": "1923-06-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -184,5 +184,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003046",
+    "title": "やんちゃオートバイ",
+    "titleKana": "やんちゃオートバイ",
+    "sortKana": "やんちやおおとはい",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-01-03",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000872/card3046.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000872/files/3046_ruby_19537.zip",
+    "textFileId": "3046_ruby_19537",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000872/files/3046_19538.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "赤い鳥傑作集",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1955（昭和30）年6月25日、1974（昭和49）年9月10日29刷改版",
+      "inputEdition": "1989（平成元）10月15日48刷"
+    },
+    "author": "木内高音",
+    "authors": [
+      {
+        "personId": "000872",
+        "name": "木内高音",
+        "kana": "きうちたかね",
+        "roman": "Takane Kiuchi",
+        "role": "著者",
+        "birthDate": "1896-02-28",
+        "deathDate": "1951-06-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -7180,5 +7180,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047027",
+    "title": "春と修羅　第二集",
+    "titleKana": "はるとしゅら　だいにしゅう",
+    "sortKana": "はるとしゆらたいにしゆう",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-02-09",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card47027.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/47027_ruby_37026.zip",
+    "textFileId": "47027_ruby_37026",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/47027_37961.html",
+    "inputBy": "伊藤雄介",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "宮沢賢治全集1",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1986（昭和61）年2月26日",
+      "inputEdition": "2006（平成18）年2月5日第21刷",
+      "proofreadEdition": "1996（平成8）年5月15日第15刷"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

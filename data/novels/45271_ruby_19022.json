@@ -64,5 +64,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045271",
+    "title": "夏目漱石論",
+    "titleKana": "なつめそうせきろん",
+    "sortKana": "なつめそうせきろん",
+    "firstAppearance": "1910（明治43）年7月",
+    "ndc": "NDC 910",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-08-28",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card45271.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/45271_ruby_19022.zip",
+    "textFileId": "45271_ruby_19022",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/45271_19218.html",
+    "inputBy": "大田一",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "歴史其儘と歴史離れ　森鴎外全集14",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1996（平成8）年8月22日",
+      "inputEdition": "1996（平成8）年8月22日第1刷",
+      "proofreadEdition": "1996（平成8）年8月22日第1刷"
+    },
+    "author": "森鴎外",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

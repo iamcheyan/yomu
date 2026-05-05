@@ -42,5 +42,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001425",
+    "title": "女の顔",
+    "titleKana": "おんなのかお",
+    "sortKana": "おんなのかお",
+    "subtitle": "私の好きな",
+    "subtitleKana": "わたしのすきな",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-12-15",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000257/card1425.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000257/files/1425_ruby_7772.zip",
+    "textFileId": "1425_ruby_7772",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000257/files/1425_7948.html",
+    "inputBy": "渡邉つよし",
+    "baseBook1": {
+      "title": "日本の名随筆40　顔",
+      "publisher": "作品社",
+      "firstPublishedAt": "1986（昭和61）年2月25日",
+      "inputEdition": "1989（平成元）年10月31日第7刷"
+    },
+    "author": "黒田清輝",
+    "authors": [
+      {
+        "personId": "000257",
+        "name": "黒田清輝",
+        "kana": "くろだせいき",
+        "roman": "Seiki Kuroda",
+        "role": "著者",
+        "birthDate": "1866-06-29",
+        "deathDate": "1924-07-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

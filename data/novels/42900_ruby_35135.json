@@ -320,5 +320,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042900",
+    "title": "戦争と一人の女",
+    "titleKana": "せんそうとひとりのおんな",
+    "sortKana": "せんそうとひとりのおんな",
+    "firstAppearance": "「新生　臨時増刊号第一輯」1946（昭和21）年10月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-07-11",
+    "updatedAt": "2021-10-14",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card42900.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/42900_ruby_35135.zip",
+    "textFileId": "42900_ruby_35135",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/42900_35405.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "深津辰男・美智子",
+    "baseBook1": {
+      "title": "坂口安吾全集　04",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1998（平成10）年5月22日",
+      "inputEdition": "1998（平成10）年5月22日",
+      "proofreadEdition": "1998（平成10）年5月22日"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

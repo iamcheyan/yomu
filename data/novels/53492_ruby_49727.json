@@ -76,5 +76,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053492",
+    "title": "ツーン湖のほとり",
+    "titleKana": "ツーンこのほとり",
+    "sortKana": "つうんこのほとり",
+    "firstAppearance": "「図書　第三年第三十二号」1938（昭和13）年8月5日",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-01-15",
+    "updatedAt": "2016-07-11",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card53492.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/53492_ruby_49727.zip",
+    "textFileId": "53492_ruby_49727",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/53492_49728.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "日本の名随筆67　宿",
+      "publisher": "作品社",
+      "firstPublishedAt": "1988（昭和63）年5月25日",
+      "inputEdition": "1999（平成11）年9月30日第9刷",
+      "proofreadEdition": "1988（昭和63）年5月25日第1刷"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

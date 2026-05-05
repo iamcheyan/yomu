@@ -3268,5 +3268,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050899",
+    "title": "上海",
+    "titleKana": "しゃんはい",
+    "sortKana": "しやんはい",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-06-08",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card50899.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/50899_ruby_42700.zip",
+    "textFileId": "50899_ruby_42700",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/50899_42798.html",
+    "inputBy": "野口英司",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "上海",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1956（昭和31）年1月9日、2008（平成20）年2月15日改版",
+      "inputEdition": "2008（平成20）8年5月15日第3刷",
+      "proofreadEdition": "2008（平成20）8年5月15日第3刷"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

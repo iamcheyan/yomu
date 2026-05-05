@@ -158,5 +158,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002653",
+    "title": "安藤昌益",
+    "titleKana": "あんどうしょうえき",
+    "sortKana": "あんとうしようえき",
+    "ndc": "NDC 121",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-05-14",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000866/card2653.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000866/files/2653_ruby_20665.zip",
+    "textFileId": "2653_ruby_20665",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000866/files/2653_20666.html",
+    "inputBy": "はまなかひとし",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "狩野亨吉遺文集",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1958（昭和33）年11月1日"
+    },
+    "author": "狩野亨吉",
+    "authors": [
+      {
+        "personId": "000866",
+        "name": "狩野亨吉",
+        "kana": "かのうこうきち",
+        "roman": "Kokichi Kano",
+        "role": "著者",
+        "birthDate": "1865-09-17",
+        "deathDate": "1942-12-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

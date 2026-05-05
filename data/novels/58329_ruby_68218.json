@@ -128,5 +128,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058329",
+    "title": "風貌",
+    "titleKana": "ふうぼう",
+    "sortKana": "ふうほう",
+    "subtitle": "――太宰治のこと",
+    "subtitleKana": "――だざいおさむのこと",
+    "firstAppearance": "「風雪　第四巻第七号」六興出版社、1950（昭和25）年7月1日",
+    "ndc": "NDC 910",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-06-19",
+    "updatedAt": "2019-05-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001867/card58329.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001867/files/58329_ruby_68218.zip",
+    "textFileId": "58329_ruby_68218",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001867/files/58329_68263.html",
+    "inputBy": "kompass",
+    "proofreadBy": "酒井裕二",
+    "baseBook1": {
+      "title": "日日の麺麭・風貌　小山清作品集",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "2005（平成17）年11月10日",
+      "inputEdition": "2005（平成17）年11月10日第1刷",
+      "proofreadEdition": "2005（平成17）年11月10日第1刷"
+    },
+    "author": "小山清",
+    "authors": [
+      {
+        "personId": "001867",
+        "name": "小山清",
+        "kana": "こやまきよし",
+        "roman": "Kiyoshi Koyama",
+        "role": "著者",
+        "birthDate": "1911-10-04",
+        "deathDate": "1965-03-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -64,5 +64,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050540",
+    "title": "怪談",
+    "titleKana": "かいだん",
+    "sortKana": "かいたん",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-04-18",
+    "updatedAt": "2018-03-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001132/card50540.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001132/files/50540_ruby_64310.zip",
+    "textFileId": "50540_ruby_64310",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001132/files/50540_64359.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "文豪怪談傑作選・特別篇　鏡花百物語集",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2009（平成21）年7月10日",
+      "inputEdition": "2009（平成21）年7月10日第1刷",
+      "proofreadEdition": "2009（平成21）年7月10日第1刷"
+    },
+    "author": "平山蘆江",
+    "authors": [
+      {
+        "personId": "001132",
+        "name": "平山蘆江",
+        "kana": "ひらやまろこう",
+        "roman": "Roko Hirayama",
+        "role": "著者",
+        "birthDate": "1882-11-15",
+        "deathDate": "1953-04-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

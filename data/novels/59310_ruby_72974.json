@@ -38,5 +38,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059310",
+    "title": "幸福のなかに",
+    "titleKana": "こうふくのなかに",
+    "sortKana": "こうふくのなかに",
+    "firstAppearance": "「読売新聞　夕刊」1964（昭和39）年1月13日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-04-09",
+    "updatedAt": "2021-03-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001763/card59310.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001763/files/59310_ruby_72974.zip",
+    "textFileId": "59310_ruby_72974",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001763/files/59310_73021.html",
+    "inputBy": "よしの",
+    "proofreadBy": "津村田悟",
+    "baseBook1": {
+      "title": "定本　佐藤春夫全集　第26巻",
+      "publisher": "臨川書店",
+      "firstPublishedAt": "2000（平成12）年9月10日",
+      "inputEdition": "2000（平成12）年9月10日初版",
+      "proofreadEdition": "2000（平成12）年9月10日初版"
+    },
+    "author": "佐藤春夫",
+    "authors": [
+      {
+        "personId": "001763",
+        "name": "佐藤春夫",
+        "kana": "さとうはるお",
+        "roman": "Haruo Sato",
+        "role": "著者",
+        "birthDate": "1892-04-09",
+        "deathDate": "1964-05-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

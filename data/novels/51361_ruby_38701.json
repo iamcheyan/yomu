@@ -184,5 +184,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051361",
+    "title": "大利根の大物釣",
+    "titleKana": "おおとねのおおものつり",
+    "sortKana": "おおとねのおおものつり",
+    "ndc": "NDC 787",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-07-27",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001252/card51361.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001252/files/51361_ruby_38701.zip",
+    "textFileId": "51361_ruby_38701",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001252/files/51361_39688.html",
+    "inputBy": "冬木立",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆4　釣",
+      "publisher": "作品社",
+      "firstPublishedAt": "1982（昭和57）年10月25日",
+      "inputEdition": "1990（平成2年）年10月31日第16刷",
+      "proofreadEdition": "1996（平成8年）年2月29日第25刷"
+    },
+    "author": "石井研堂",
+    "authors": [
+      {
+        "personId": "001252",
+        "name": "石井研堂",
+        "kana": "いしいけんどう",
+        "roman": "Kendo Ishii",
+        "role": "著者",
+        "birthDate": "1865",
+        "deathDate": "1943",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -472,5 +472,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059030",
+    "title": "菎蒻",
+    "titleKana": "こんにゃく",
+    "sortKana": "こんにやく",
+    "firstAppearance": "「中央公論」中央公論社、1937（昭和12）年4月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-02-19",
+    "updatedAt": "2021-01-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001753/card59030.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001753/files/59030_ruby_72619.zip",
+    "textFileId": "59030_ruby_72619",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001753/files/59030_72663.html",
+    "inputBy": "入江幹夫",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "尾崎士郎短篇集",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2016（平成28）年4月15日",
+      "inputEdition": "2016（平成28）年4月15日第1刷",
+      "proofreadEdition": "2016（平成28）年4月15日第1刷"
+    },
+    "author": "尾崎士郎",
+    "authors": [
+      {
+        "personId": "001753",
+        "name": "尾崎士郎",
+        "kana": "おざきしろう",
+        "roman": "Shiro Ozaki",
+        "role": "著者",
+        "birthDate": "1898-02-05",
+        "deathDate": "1964-02-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

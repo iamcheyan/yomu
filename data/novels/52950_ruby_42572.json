@@ -4642,5 +4642,37 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052950",
+    "title": "夜光虫",
+    "titleKana": "やこうちゅう",
+    "sortKana": "やこうちゆう",
+    "originalTitle": "NOCTILUCAE",
+    "ndc": "NDC 933",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2011-04-03",
+    "updatedAt": "2019-03-02",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000258/card52950.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000258/files/52950_ruby_42572.zip",
+    "textFileId": "52950_ruby_42572",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000258/files/52950_42573.html",
+    "inputBy": "林田清明",
+    "proofreadBy": "林田清明",
+    "author": "小泉八雲",
+    "authors": [
+      {
+        "personId": "000258",
+        "name": "小泉八雲",
+        "kana": "こいずみやくも",
+        "roman": "Yakumo Koizumi",
+        "role": "著者",
+        "birthDate": "1850-06-27",
+        "deathDate": "1904-09-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -326,5 +326,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057901",
+    "title": "金魚は死んでいた",
+    "titleKana": "きんぎょはしんでいた",
+    "sortKana": "きんきよはしんていた",
+    "firstAppearance": "「宝石九月号」岩谷書店、1954（昭和29）年9月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-08-11",
+    "updatedAt": "2017-07-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001872/card57901.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001872/files/57901_ruby_62115.zip",
+    "textFileId": "57901_ruby_62115",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001872/files/57901_62116.html",
+    "inputBy": "sogo",
+    "proofreadBy": "大野裕",
+    "baseBook1": {
+      "title": "宝石九月号",
+      "publisher": "岩谷書店",
+      "firstPublishedAt": "1954（昭和29）年9月1日",
+      "inputEdition": "1954（昭和29）年9月1日",
+      "proofreadEdition": "1954（昭和29）年9月1日"
+    },
+    "author": "大下宇陀児",
+    "authors": [
+      {
+        "personId": "001872",
+        "name": "大下宇陀児",
+        "kana": "おおしたうだる",
+        "roman": "Udaru Oshita",
+        "role": "著者",
+        "birthDate": "1896-11-15",
+        "deathDate": "1966-08-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

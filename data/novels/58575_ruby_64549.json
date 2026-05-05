@@ -158,5 +158,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058575",
+    "title": "プウルの傍で",
+    "titleKana": "プウルのかたわらで",
+    "sortKana": "ふうるのかたわらて",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-05-05",
+    "updatedAt": "2018-04-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000119/card58575.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000119/files/58575_ruby_64549.zip",
+    "textFileId": "58575_ruby_64549",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000119/files/58575_64601.html",
+    "inputBy": "渡辺奈穂美",
+    "proofreadBy": "坂本真一",
+    "baseBook1": {
+      "title": "中島敦全集　3",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1993（平成5）年5月24日",
+      "inputEdition": "2015（平成27）年4月10日第11刷",
+      "proofreadEdition": "1993（平成5）年5月24日 第1刷"
+    },
+    "author": "中島敦",
+    "authors": [
+      {
+        "personId": "000119",
+        "name": "中島敦",
+        "kana": "なかじまあつし",
+        "roman": "Atsushi Nakajima",
+        "role": "著者",
+        "birthDate": "1909-05-05",
+        "deathDate": "1942-12-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

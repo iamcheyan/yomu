@@ -412,5 +412,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048268",
+    "title": "遺稿",
+    "titleKana": "いこう",
+    "sortKana": "いこう",
+    "subtitle": "01 「遺稿」附記",
+    "subtitleKana": "01 「いこう」ふき",
+    "firstAppearance": "「文藝春秋」1939（昭和14）年11月号",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-03-23",
+    "updatedAt": "2017-01-12",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000800/card48268.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000800/files/48268_ruby_60865.zip",
+    "textFileId": "48268_ruby_60865",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000800/files/48268_60907.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "坂本真一",
+    "baseBook1": {
+      "title": "文豪怪談傑作選　泉鏡花集　黒壁",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2006（平成18）年10月10日",
+      "inputEdition": "2006（平成18）年10月10日第1刷",
+      "proofreadEdition": "2006（平成18）年10月10日第1刷"
+    },
+    "author": "水上滝太郎",
+    "authors": [
+      {
+        "personId": "000800",
+        "name": "水上滝太郎",
+        "kana": "みなかみたきたろう",
+        "roman": "Takitaro Minakami",
+        "role": "著者",
+        "birthDate": "1887-12-06",
+        "deathDate": "1940-03-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

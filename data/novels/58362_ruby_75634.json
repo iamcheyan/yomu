@@ -118,5 +118,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058362",
+    "title": "ひばりの子",
+    "titleKana": "ひばりのこ",
+    "sortKana": "ひはりのこ",
+    "firstAppearance": "「良友」コドモ社、1920（大正9）年4月号",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-06-21",
+    "updatedAt": "2022-05-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000076/card58362.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000076/files/58362_ruby_75634.zip",
+    "textFileId": "58362_ruby_75634",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000076/files/58362_75664.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "いとうおちゃ",
+    "baseBook1": {
+      "title": "岡本かの子全集1",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1994（平成6）年1月24日",
+      "inputEdition": "1994（平成6）年1月24日第1刷",
+      "proofreadEdition": "1994（平成6）年1月24日第1刷"
+    },
+    "author": "岡本かの子",
+    "authors": [
+      {
+        "personId": "000076",
+        "name": "岡本かの子",
+        "kana": "おかもとかのこ",
+        "roman": "Kanoko Okamoto",
+        "role": "著者",
+        "birthDate": "1889-03-01",
+        "deathDate": "1939-02-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

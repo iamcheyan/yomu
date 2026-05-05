@@ -34,5 +34,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002167",
+    "title": "隣の家",
+    "titleKana": "となりのいえ",
+    "sortKana": "となりのいえ",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-08-31",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000885/card2167.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000885/files/2167_ruby_16200.zip",
+    "textFileId": "2167_ruby_16200",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000885/files/2167_16291.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆83　家",
+      "publisher": "作品社",
+      "firstPublishedAt": "1989（平成元）年9月25日",
+      "inputEdition": "1989（平成元）年9月25日第1刷",
+      "proofreadEdition": "1989（平成元）年9月25日第1刷"
+    },
+    "author": "与謝野晶子",
+    "authors": [
+      {
+        "personId": "000885",
+        "name": "与謝野晶子",
+        "kana": "よさのあきこ",
+        "roman": "Akiko Yosano",
+        "role": "著者",
+        "birthDate": "1878-12-07",
+        "deathDate": "1942-05-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

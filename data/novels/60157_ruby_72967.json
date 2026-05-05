@@ -518,5 +518,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060157",
+    "title": "朝菜集",
+    "titleKana": "あさなしゅう",
+    "sortKana": "あさなしゆう",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-04-05",
+    "updatedAt": "2021-03-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001749/card60157.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001749/files/60157_ruby_72967.zip",
+    "textFileId": "60157_ruby_72967",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001749/files/60157_73014.html",
+    "inputBy": "榎木",
+    "proofreadBy": "杉浦鳥見",
+    "baseBook1": {
+      "title": "三好達治全集第二卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1965（昭和40）年2月15日",
+      "inputEdition": "1966（昭和41）年9月15日第2刷",
+      "proofreadEdition": "1976（昭和51）年10月10日第3刷"
+    },
+    "author": "三好達治",
+    "authors": [
+      {
+        "personId": "001749",
+        "name": "三好達治",
+        "kana": "みよしたつじ",
+        "roman": "Tatsuji Miyoshi",
+        "role": "著者",
+        "birthDate": "1900-08-23",
+        "deathDate": "1964-04-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

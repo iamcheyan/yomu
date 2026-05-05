@@ -8980,5 +8980,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057367",
+    "title": "ガラマサどん",
+    "titleKana": "ガラマサどん",
+    "sortKana": "からまさとん",
+    "firstAppearance": "「キング」1930（昭和5）年1月～12月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-05-04",
+    "updatedAt": "2021-04-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001750/card57367.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001750/files/57367_ruby_73152.zip",
+    "textFileId": "57367_ruby_73152",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001750/files/57367_73192.html",
+    "inputBy": "橋本泰平",
+    "proofreadBy": "芝裕久",
+    "baseBook1": {
+      "title": "佐々木邦全集5　ガラマサどん　使う人使われる人　ぐうたら道中記　豊分居雑筆　世間と人間",
+      "publisher": "講談社",
+      "firstPublishedAt": "1975（昭和50）年2月20日",
+      "inputEdition": "1980（昭和55）年3月3日第2刷",
+      "proofreadEdition": "1975（昭和50）年2月20日第1刷"
+    },
+    "author": "佐々木邦",
+    "authors": [
+      {
+        "personId": "001750",
+        "name": "佐々木邦",
+        "kana": "ささきくに",
+        "roman": "Kuni Sasaki",
+        "role": "著者",
+        "birthDate": "1883-05-04",
+        "deathDate": "1964-09-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

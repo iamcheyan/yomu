@@ -84,5 +84,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056879",
+    "title": "種紙の青む頃",
+    "titleKana": "たねがみのあおむころ",
+    "sortKana": "たねかみのあおむころ",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-11-23",
+    "updatedAt": "2014-10-13",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000928/card56879.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000928/files/56879_ruby_54739.zip",
+    "textFileId": "56879_ruby_54739",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000928/files/56879_54784.html",
+    "inputBy": "M.M.",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "日本の名随筆17　春",
+      "publisher": "作品社",
+      "firstPublishedAt": "1984（昭和59）年3月25日",
+      "inputEdition": "1989（平成元）年1月25日第9刷",
+      "proofreadEdition": "1985（昭和60）年5月25日第2刷"
+    },
+    "author": "前田夕暮",
+    "authors": [
+      {
+        "personId": "000928",
+        "name": "前田夕暮",
+        "kana": "まえだゆうぐれ",
+        "roman": "Yugure Maeda",
+        "role": "著者",
+        "birthDate": "1883-07-27",
+        "deathDate": "1951-04-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

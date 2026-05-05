@@ -188,5 +188,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059303",
+    "title": "小泉八雲の家庭生活",
+    "titleKana": "こいずみやくものかていせいかつ",
+    "sortKana": "こいすみやくものかていせいかつ",
+    "subtitle": "室生犀星と佐藤春夫の二詩友を偲びつつ",
+    "subtitleKana": "むろうさいせいとさとうはるおのにしゆうをしのびつつ",
+    "firstAppearance": "「日本女性」1941（昭和16）年9月号・10月号",
+    "ndc": "NDC 930",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-06-27",
+    "updatedAt": "2021-05-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000067/card59303.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000067/files/59303_ruby_73444.zip",
+    "textFileId": "59303_ruby_73444",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000067/files/59303_73483.html",
+    "inputBy": "きりんの手紙",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "ちくま日本文学全集　萩原朔太郎",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1991（平成3）年10月20日",
+      "inputEdition": "1991（平成3）年10月20日第1刷",
+      "proofreadEdition": "1991（平成3）年10月20日第1刷"
+    },
+    "author": "萩原朔太郎",
+    "authors": [
+      {
+        "personId": "000067",
+        "name": "萩原朔太郎",
+        "kana": "はぎわらさくたろう",
+        "roman": "Sakutaro Hagiwara",
+        "role": "著者",
+        "birthDate": "1886-11-01",
+        "deathDate": "1942-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

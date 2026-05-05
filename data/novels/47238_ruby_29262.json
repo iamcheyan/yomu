@@ -110,5 +110,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047238",
+    "title": "カキツバタ一家言",
+    "titleKana": "カキツバタいっかげん",
+    "sortKana": "かきつはたいつかけん",
+    "ndc": "NDC 470",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-01-17",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001266/card47238.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001266/files/47238_ruby_29262.zip",
+    "textFileId": "47238_ruby_29262",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001266/files/47238_29261.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "花の名随筆6　六月の花",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年5月10日",
+      "inputEdition": "1999（平成11）年5月10日初版第1刷",
+      "proofreadEdition": "1999（昭和74）年5月10日初版第1刷"
+    },
+    "author": "牧野富太郎",
+    "authors": [
+      {
+        "personId": "001266",
+        "name": "牧野富太郎",
+        "kana": "まきのとみたろう",
+        "roman": "Tomitaro Makino",
+        "role": "著者",
+        "birthDate": "1862-05-22",
+        "deathDate": "1957-01-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

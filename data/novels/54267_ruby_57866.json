@@ -157,60 +157,411 @@
         "model_name": "智谱AI"
       }
     ],
+    [
+      {
+        "text": "俺啊，果然是佃农啊",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "然后夏天来了。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "快煮沸似的田地里",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "我们充当除草机的角色。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "连续十天，指尖渗出血来",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "若有所求，尽管开口。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "可恶！",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "地主家的女儿路过。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "长着超级可爱脸蛋的小姑娘",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "我要去镇上的女子学校。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "是伞柄大、伞面圆滚滚的伞",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "这把遮阳伞看起来挺凉快的啊，我《おれ》也想要一个。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "妹妹那家伙跟老妈说了",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "马鹿野郎，安静点，去工作吧。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "我呶鳴了，这么一来大家都安静了",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "今年又只完成了半数啊。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "爸爸脸色阴沉地说了",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "地主那小子这会儿大概开着三个风扇呢吧。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "啊，热死了！",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "哎呀，果然我还是个小工匠啊。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "渡り鳥飞来，入秋了",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "然后，很快又迎来了冬天。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "老爸又说了",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "今年又只完成了半数啊……",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "然而我们不是从前的小作人了",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "村里自从去年以来",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "决定组建组合",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "下村的那些家伙说要成为同伴。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "但是 我们",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "最可靠的工会",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "成了全農的一员",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "全国农民组合新潟县联合会南部地区西南部小地区",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "是个可怕的长名字",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "哎呀，你已经说了好几次“凯可”了。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "还记不住",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "然后有了一场演讲会，我就去听了。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "新学了一句话：“这算什么矛盾啊”",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "我立刻回去，大声喊叫。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "劳动者会变穷！",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "这家地主竟如此会玩儿，真是个有钱人啊！",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "这是多么矛盾啊！",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
     [],
+    [
+      {
+        "text": "（1929年8月3日作　发表于同年10月的《战旗》）",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
     [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    []
+    [
+      {
+        "text": "底本：《日本普罗文学集·38 普罗诗集（一）》新日本出版社",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "1987年（昭和62年）5月25日 初版",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "首次发表：《战旗》",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "1929年（昭和4年）10月号",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "※标有×符号的文字，是底本编辑部所做的伏字复原。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "输入：坂本真一",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "校对：雪森",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "2015年12月12日制作",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "青空文库制作文件：",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "这个文件是在互联网图书馆、青空文库（http://www.aozora.gr.jp/）制作的。输入、校对、制作都是由志愿者们完成的。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ]
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054267",
+    "title": "貧農のうたえる詩",
+    "titleKana": "ひんのうのうたえるうた",
+    "sortKana": "ひんのうのうたえるうた",
+    "firstAppearance": "「戦旗」1929（昭和4）年10月号",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-01-17",
+    "updatedAt": "2015-12-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001655/card54267.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001655/files/54267_ruby_57866.zip",
+    "textFileId": "54267_ruby_57866",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001655/files/54267_57915.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・38　プロレタリア詩集（一）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年5月25日",
+      "inputEdition": "1987（昭和62）年5月25日初版",
+      "proofreadEdition": "1987（昭和62）年5月25日初版"
+    },
+    "author": "長沢佑",
+    "authors": [
+      {
+        "personId": "001655",
+        "name": "長沢佑",
+        "kana": "ながさわたすく",
+        "roman": "Tasuku Nagasawa",
+        "role": "著者",
+        "birthDate": "1910-02-17",
+        "deathDate": "1933-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

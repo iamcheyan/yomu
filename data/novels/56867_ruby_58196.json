@@ -344,5 +344,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056867",
+    "title": "吉野葛",
+    "titleKana": "よしのくず",
+    "sortKana": "よしのくす",
+    "firstAppearance": "「中央公論」1931（昭和6）年1月～2月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-02-04",
+    "updatedAt": "2016-01-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001383/card56867.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001383/files/56867_ruby_58196.zip",
+    "textFileId": "56867_ruby_58196",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001383/files/56867_58205.html",
+    "inputBy": "kompass",
+    "proofreadBy": "酒井裕二",
+    "baseBook1": {
+      "title": "ちくま日本文学014　谷崎潤一郎",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2008（平成20）年4月10日",
+      "inputEdition": "2008（平成20）年4月10日第1刷",
+      "proofreadEdition": "2008（平成20）年4月10日第1刷"
+    },
+    "author": "谷崎潤一郎",
+    "authors": [
+      {
+        "personId": "001383",
+        "name": "谷崎潤一郎",
+        "kana": "たにざきじゅんいちろう",
+        "roman": "Jun'ichiro Tanizaki",
+        "role": "著者",
+        "birthDate": "1886-07-24",
+        "deathDate": "1965-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

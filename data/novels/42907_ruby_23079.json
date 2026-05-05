@@ -62,5 +62,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042907",
+    "title": "エゴイズム小論",
+    "titleKana": "エゴイズムしょうろん",
+    "sortKana": "えこいすむしようろん",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-07-01",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card42907.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/42907_ruby_23079.zip",
+    "textFileId": "42907_ruby_23079",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/42907_23102.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "宮元淳一",
+    "baseBook1": {
+      "title": "坂口安吾全集　04",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1998（平成10）年5月22日",
+      "inputEdition": "1998（平成10）年5月22日初版第1刷",
+      "proofreadEdition": "1998（平成10）年5月22日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

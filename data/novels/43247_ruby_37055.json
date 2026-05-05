@@ -550,5 +550,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043247",
+    "title": "心霊殺人事件",
+    "titleKana": "しんれいさつじんじけん",
+    "sortKana": "しんれいさつしんしけん",
+    "firstAppearance": "「別冊小説新潮　第八巻第一四号（創作二十二人集）」1954（昭和29）年10月15日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-03-09",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card43247.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/43247_ruby_37055.zip",
+    "textFileId": "43247_ruby_37055",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/43247_38173.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "坂口安吾全集　15",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年10月20日",
+      "inputEdition": "1999（平成11）年10月20日初版第1刷",
+      "proofreadEdition": "1999（平成11）年 10月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

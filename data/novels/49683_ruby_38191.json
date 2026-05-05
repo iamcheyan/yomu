@@ -1128,5 +1128,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049683",
+    "title": "道中記",
+    "titleKana": "どうちゅうき",
+    "sortKana": "とうちゆうき",
+    "ndc": "NDC 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-05-24",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000146/card49683.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000146/files/49683_ruby_38191.zip",
+    "textFileId": "49683_ruby_38191",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000146/files/49683_39093.html",
+    "inputBy": "小林繁雄",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "山頭火全集　第八巻",
+      "publisher": "春陽堂書店",
+      "firstPublishedAt": "1987（昭和62）年7月25日",
+      "inputEdition": "1987（昭和62）年7月25日第1刷",
+      "proofreadEdition": "1987（昭和62）年7月25日第1刷"
+    },
+    "author": "種田山頭火",
+    "authors": [
+      {
+        "personId": "000146",
+        "name": "種田山頭火",
+        "kana": "たねださんとうか",
+        "roman": "Santoka Taneda",
+        "role": "著者",
+        "birthDate": "1882-12-03",
+        "deathDate": "1940-10-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -230,5 +230,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002380",
+    "title": "死後の恋",
+    "titleKana": "しごのこい",
+    "sortKana": "しこのこい",
+    "firstAppearance": "「新青年」1928（昭和3）年10月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-11-10",
+    "updatedAt": "2019-04-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000096/card2380.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000096/files/2380_ruby_730.zip",
+    "textFileId": "2380_ruby_730",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000096/files/2380_13349.html",
+    "inputBy": "林裕司",
+    "proofreadBy": "浜野智",
+    "baseBook1": {
+      "title": "夢野久作怪奇幻想傑作選　あやかしの鼓",
+      "publisher": "角川ホラー文庫、角川書店",
+      "firstPublishedAt": "1998（平成10）年4月10日"
+    },
+    "author": "夢野久作",
+    "authors": [
+      {
+        "personId": "000096",
+        "name": "夢野久作",
+        "kana": "ゆめのきゅうさく",
+        "roman": "Kyusaku Yumeno",
+        "role": "著者",
+        "birthDate": "1889-01-04",
+        "deathDate": "1936-03-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

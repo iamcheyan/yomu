@@ -140,5 +140,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042344",
+    "title": "南方",
+    "titleKana": "なんぽう",
+    "sortKana": "なんほう",
+    "firstAppearance": "「早稲田文學」1935（昭和10）年6月",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-06-24",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000273/card42344.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000273/files/42344_ruby_15715.zip",
+    "textFileId": "42344_ruby_15715",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000273/files/42344_15758.html",
+    "inputBy": "篠森",
+    "proofreadBy": "川向直樹",
+    "baseBook1": {
+      "title": "現代日本文學全集79　十一谷義三郎　北條民雄　田畑修一郎　中島敦集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1956(昭和31)年7月15日",
+      "inputEdition": "1956(昭和31)年7月15日",
+      "proofreadEdition": "1956(昭和31)年7月15日"
+    },
+    "author": "田畑修一郎",
+    "authors": [
+      {
+        "personId": "000273",
+        "name": "田畑修一郎",
+        "kana": "たばたしゅういちろう",
+        "roman": "Shuichiro Tabata",
+        "role": "著者",
+        "birthDate": "1903-09-02",
+        "deathDate": "1943-07-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

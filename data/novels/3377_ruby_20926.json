@@ -2568,5 +2568,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003377",
+    "title": "地底戦車の怪人",
+    "titleKana": "ちていせんしゃのかいじん",
+    "sortKana": "ちていせんしやのかいしん",
+    "firstAppearance": "「ラヂオ子供の時間」（「地底戦車兵の冒険」のタイトルで。）1940（昭和15）年2月～",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-03-05",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card3377.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/3377_ruby_20926.zip",
+    "textFileId": "3377_ruby_20926",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/3377_21542.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "海野十三全集　第6巻　太平洋魔城",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1989（平成元）年9月15日",
+      "inputEdition": "1989（平成元）年9月15日第1版第1刷",
+      "proofreadEdition": "1989（平成元）年9月15日第1版第1刷"
+    },
+    "author": "海野十三",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

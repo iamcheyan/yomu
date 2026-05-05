@@ -48,5 +48,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004299",
+    "title": "小国寡民",
+    "titleKana": "しょうこくかみん",
+    "sortKana": "しようこくかみん",
+    "firstAppearance": "1945（昭和20）年9月1日稿",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-02-01",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000250/card4299.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000250/files/4299_ruby_14334.zip",
+    "textFileId": "4299_ruby_14334",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000250/files/4299_14360.html",
+    "inputBy": "はまなかひとし",
+    "proofreadBy": "今井忠夫",
+    "baseBook1": {
+      "title": "河上肇著作集 　第九巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1964（昭和39）年12月15日",
+      "inputEdition": "1964（昭和39）年12月15日初版",
+      "proofreadEdition": "1964（昭和39）年12月15日初版"
+    },
+    "author": "河上肇",
+    "authors": [
+      {
+        "personId": "000250",
+        "name": "河上肇",
+        "kana": "かわかみはじめ",
+        "roman": "Hajime Kawakami",
+        "role": "著者",
+        "birthDate": "1879-10-20",
+        "deathDate": "1946-01-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

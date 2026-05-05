@@ -84,5 +84,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002695",
+    "title": "極楽",
+    "titleKana": "ごくらく",
+    "sortKana": "こくらく",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-12-05",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000083/card2695.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000083/files/2695_ruby_40483.zip",
+    "textFileId": "2695_ruby_40483",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000083/files/2695_41308.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "美濃笠吾",
+    "baseBook1": {
+      "title": "菊池寛文學全集　第三巻",
+      "publisher": "文藝春秋新社",
+      "firstPublishedAt": "1960（昭和35）年5月20日",
+      "inputEdition": "1960（昭和35）年5月20日",
+      "proofreadEdition": "1960（昭和35）年5月20日"
+    },
+    "author": "菊池寛",
+    "authors": [
+      {
+        "personId": "000083",
+        "name": "菊池寛",
+        "kana": "きくちかん",
+        "roman": "Kan Kikuchi",
+        "role": "著者",
+        "birthDate": "1888-12-26",
+        "deathDate": "1948-03-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

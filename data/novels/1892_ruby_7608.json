@@ -512,5 +512,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001892",
+    "title": "痴日",
+    "titleKana": "ちじつ",
+    "sortKana": "ちしつ",
+    "firstAppearance": "「經濟往來」1935（昭和10）年2月号",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-11-26",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000183/card1892.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000183/files/1892_ruby_7608.zip",
+    "textFileId": "1892_ruby_7608",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000183/files/1892_7609.html",
+    "inputBy": "地田尚",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "「鬼涙村」復刻版",
+      "publisher": "沖積舎",
+      "firstPublishedAt": "1990（平成2）年11月5日",
+      "inputEdition": "1990（平成2）年11月5日",
+      "proofreadEdition": "1990（平成2）年11月5日"
+    },
+    "author": "牧野信一",
+    "authors": [
+      {
+        "personId": "000183",
+        "name": "牧野信一",
+        "kana": "まきのしんいち",
+        "roman": "Shin'ichi Makino",
+        "role": "著者",
+        "birthDate": "1896-11-12",
+        "deathDate": "1936-03-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

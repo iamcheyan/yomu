@@ -648,5 +648,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058166",
+    "title": "絵のない絵本",
+    "titleKana": "えのないえほん",
+    "sortKana": "えのないえほん",
+    "subtitle": "02 解説",
+    "subtitleKana": "02 かいせつ",
+    "ndc": "NDC K949",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-01-01",
+    "updatedAt": "2019-11-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001891/card58166.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001891/files/58166_ruby_63592.zip",
+    "textFileId": "58166_ruby_63592",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001891/files/58166_63593.html",
+    "inputBy": "sogo",
+    "proofreadBy": "諸富千英子",
+    "baseBook1": {
+      "title": "絵のない絵本",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1952（昭和27）年8月15日",
+      "inputEdition": "2005（平成17）年8月10日99刷",
+      "proofreadEdition": "2008（平成20）年7月30日105刷"
+    },
+    "author": "矢崎源九郎",
+    "authors": [
+      {
+        "personId": "001891",
+        "name": "矢崎源九郎",
+        "kana": "やざきげんくろう",
+        "roman": "Genkuro Yazaki",
+        "role": "著者",
+        "birthDate": "1921-03-26",
+        "deathDate": "1967-02-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

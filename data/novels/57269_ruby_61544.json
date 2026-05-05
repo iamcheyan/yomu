@@ -46,5 +46,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057269",
+    "title": "金鱗湖",
+    "titleKana": "きんりんこ",
+    "sortKana": "きんりんこ",
+    "firstAppearance": "「夕刊　読売新聞」読売新聞社、1960（昭和35）年4月9日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-06-10",
+    "updatedAt": "2017-04-03",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card57269.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/57269_ruby_61544.zip",
+    "textFileId": "57269_ruby_61544",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/57269_61583.html",
+    "inputBy": "kompass",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "中谷宇吉郎集　第八巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "2001（平成13）年5月7日",
+      "inputEdition": "2001（平成13）年5月7日第1刷",
+      "proofreadEdition": "2001（平成13）年5月7日第1刷"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

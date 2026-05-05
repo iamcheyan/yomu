@@ -2396,5 +2396,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "033197",
+    "title": "探偵夜話",
+    "titleKana": "たんていやわ",
+    "sortKana": "たんていやわ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-08-17",
+    "updatedAt": "2014-10-02",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000082/card33197.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000082/files/33197_ruby_48031.zip",
+    "textFileId": "33197_ruby_48031",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000082/files/33197_48194.html",
+    "inputBy": "和井府清十郎",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "岡本綺堂読物選集　6　探偵編",
+      "publisher": "青蛙房",
+      "firstPublishedAt": "1969（昭和44）年10月10日",
+      "inputEdition": "1969（昭和44）年10月10日",
+      "proofreadEdition": "1969（昭和44）年10月10日"
+    },
+    "author": "岡本綺堂",
+    "authors": [
+      {
+        "personId": "000082",
+        "name": "岡本綺堂",
+        "kana": "おかもときどう",
+        "roman": "Kido Okamoto",
+        "role": "著者",
+        "birthDate": "1872-11-15",
+        "deathDate": "1939-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

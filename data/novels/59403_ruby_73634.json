@@ -118,5 +118,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059403",
+    "title": "黒岩山を探る",
+    "titleKana": "くろいわやまをさぐる",
+    "sortKana": "くろいわやまをさくる",
+    "firstAppearance": "「山岳　第十六年第三號」日本山岳會、1923（大正12）年5月31日",
+    "ndc": "NDC 291",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-07-02",
+    "updatedAt": "2021-06-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/002032/card59403.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/002032/files/59403_ruby_73634.zip",
+    "textFileId": "59403_ruby_73634",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/002032/files/59403_73673.html",
+    "inputBy": "富田晶子",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "〈復刻版〉尾瀬と檜枝岐",
+      "publisher": "木耳社",
+      "firstPublishedAt": "1978（昭和53）年11月15日",
+      "inputEdition": "1981（昭和56）年2月15日第2刷",
+      "proofreadEdition": "1981（昭和56）年2月15日第2刷"
+    },
+    "author": "沼井鉄太郎",
+    "authors": [
+      {
+        "personId": "002032",
+        "name": "沼井鉄太郎",
+        "kana": "ぬまいてつたろう",
+        "roman": "Tetsutaro Numai",
+        "role": "著者",
+        "birthDate": "1898",
+        "deathDate": "1959-07-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

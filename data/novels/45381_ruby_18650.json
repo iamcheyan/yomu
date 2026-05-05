@@ -574,5 +574,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045381",
+    "title": "母を尋ねて三千里",
+    "titleKana": "ははをたずねてさんぜんり",
+    "sortKana": "ははをたすねてさんせんり",
+    "originalTitle": "DAGLI APPENNINI ALLE ANDE",
+    "ndc": "NDC K973",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-07-26",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001048/card45381.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001048/files/45381_ruby_18650.zip",
+    "textFileId": "45381_ruby_18650",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001048/files/45381_18751.html",
+    "inputBy": "京都大学電子テクスト研究会入力班",
+    "proofreadBy": "京都大学電子テクスト研究会校正班",
+    "baseBook1": {
+      "title": "家なき子",
+      "publisher": "九段書房",
+      "firstPublishedAt": "1927（昭和2）年10月15日",
+      "inputEdition": "1927（昭和2）年10月15日"
+    },
+    "author": "アミーチスエドモンド・デ",
+    "authors": [
+      {
+        "personId": "001048",
+        "name": "アミーチスエドモンド・デ",
+        "kana": "アミーチスエドモンド・デ",
+        "roman": "Edmondo De Amicis",
+        "role": "著者",
+        "birthDate": "1846-10-31",
+        "deathDate": "1908-03-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

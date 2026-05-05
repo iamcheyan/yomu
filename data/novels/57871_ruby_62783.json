@@ -118,5 +118,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057871",
+    "title": "民族的記憶の名残",
+    "titleKana": "みんぞくてききおくのなごり",
+    "sortKana": "みんそくてききおくのなこり",
+    "firstAppearance": "「文藝春秋　第十七巻第十九号」1939（昭和14）年10月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-10-25",
+    "updatedAt": "2017-09-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card57871.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/57871_ruby_62783.zip",
+    "textFileId": "57871_ruby_62783",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/57871_62870.html",
+    "inputBy": "kompass",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "中谷宇吉郎集　第二巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "2000（平成12）年11月6日",
+      "inputEdition": "2000（平成12）年11月6日第1刷",
+      "proofreadEdition": "2000（平成12）年11月6日第1刷"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

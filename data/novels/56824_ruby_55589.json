@@ -188,5 +188,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056824",
+    "title": "噺家の着物",
+    "titleKana": "はなしかのきもの",
+    "sortKana": "はなしかのきもの",
+    "ndc": "NDC 779",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-02-14",
+    "updatedAt": "2015-01-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001805/card56824.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001805/files/56824_ruby_55589.zip",
+    "textFileId": "56824_ruby_55589",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001805/files/56824_55636.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻29　落語",
+      "publisher": "作品社",
+      "firstPublishedAt": "1993（平成5）年7月25日",
+      "inputEdition": "1993（平成5）年7月25日第1刷",
+      "proofreadEdition": "1993（平成5）年7月25日第1刷"
+    },
+    "author": "三遊亭金馬",
+    "authors": [
+      {
+        "personId": "001805",
+        "name": "三遊亭金馬",
+        "kana": "さんゆうていきんば",
+        "roman": "Kinba San'yutei",
+        "role": "著者",
+        "birthDate": "1894-10-25",
+        "deathDate": "1964-11-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

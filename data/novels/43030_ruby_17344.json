@@ -124,5 +124,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043030",
+    "title": "じいさんばあさん",
+    "titleKana": "じいさんばあさん",
+    "sortKana": "しいさんはあさん",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-02-03",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card43030.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/43030_ruby_17344.zip",
+    "textFileId": "43030_ruby_17344",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/43030_17421.html",
+    "inputBy": "蒋龍",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "阿部一族・舞姫",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1968（昭和43）年4月20日、1985（昭和60）年5月20日36刷改版",
+      "inputEdition": "1994（平成6）年12月15日54刷",
+      "proofreadEdition": "2004（平成16）年9月20日74刷"
+    },
+    "author": "森鴎外",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

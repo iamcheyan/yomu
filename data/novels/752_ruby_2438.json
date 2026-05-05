@@ -3958,5 +3958,44 @@
       }
     ]
   ],
-  "desc": "無鉄砲な教師が田舎の学校で騒動を巻き起こす。"
+  "desc": "無鉄砲な教師が田舎の学校で騒動を巻き起こす。",
+  "aozora_info": {
+    "workId": "000752",
+    "title": "坊っちゃん",
+    "titleKana": "ぼっちゃん",
+    "sortKana": "ほつちやん",
+    "firstAppearance": "「ホトトギス」1906（明治39）年4月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-09-13",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000148/card752.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000148/files/752_ruby_2438.zip",
+    "textFileId": "752_ruby_2438",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000148/files/752_14964.html",
+    "inputBy": "真先芳秋",
+    "proofreadBy": "柳沢成雄",
+    "baseBook1": {
+      "title": "ちくま日本文学全集　夏目漱石",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1992（平成4）年1月20日",
+      "inputEdition": "1992（平成4）年1月20日第1刷",
+      "proofreadEdition": "1998（平成10）年3月15日第2刷"
+    },
+    "author": "夏目漱石",
+    "authors": [
+      {
+        "personId": "000148",
+        "name": "夏目漱石",
+        "kana": "なつめそうせき",
+        "roman": "Soseki Natsume",
+        "role": "著者",
+        "birthDate": "1867-02-09",
+        "deathDate": "1916-12-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

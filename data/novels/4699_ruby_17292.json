@@ -894,5 +894,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004699",
+    "title": "我等の一団と彼",
+    "titleKana": "われらのいちだんとかれ",
+    "sortKana": "われらのいちたんとかれ",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-12-04",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000153/card4699.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000153/files/4699_ruby_17292.zip",
+    "textFileId": "4699_ruby_17292",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000153/files/4699_20514.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "石川啄木作品集　第三巻",
+      "publisher": "昭和出版社",
+      "firstPublishedAt": "1970（昭和45）年11月20日",
+      "inputEdition": "1970（昭和45）年11月20日",
+      "proofreadEdition": "1970（昭和45）年11月20日"
+    },
+    "author": "石川啄木",
+    "authors": [
+      {
+        "personId": "000153",
+        "name": "石川啄木",
+        "kana": "いしかわたくぼく",
+        "roman": "Takuboku Ishikawa",
+        "role": "著者",
+        "birthDate": "1886-02-20",
+        "deathDate": "1912-04-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

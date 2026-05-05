@@ -538,5 +538,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004644",
+    "title": "放翁鑑賞",
+    "titleKana": "ほうおうかんしょう",
+    "sortKana": "ほうおうかんしよう",
+    "subtitle": "07 その七　――放翁詩話三十章――",
+    "subtitleKana": "07 そのなな　――ほうおうしわさんじっしょう――",
+    "ndc": "NDC 921",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-06-12",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000250/card4644.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000250/files/4644_ruby_15596.zip",
+    "textFileId": "4644_ruby_15596",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000250/files/4644_15658.html",
+    "inputBy": "はまなかひとし",
+    "proofreadBy": "今井忠夫",
+    "baseBook1": {
+      "title": "河上肇全集　20",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1982（昭和57）年2月24日",
+      "inputEdition": "1982（昭和57）年2月24日",
+      "proofreadEdition": "1982（昭和57）年2月24日"
+    },
+    "author": "河上肇",
+    "authors": [
+      {
+        "personId": "000250",
+        "name": "河上肇",
+        "kana": "かわかみはじめ",
+        "roman": "Hajime Kawakami",
+        "role": "著者",
+        "birthDate": "1879-10-20",
+        "deathDate": "1946-01-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

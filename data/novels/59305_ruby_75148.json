@@ -282,5 +282,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059305",
+    "title": "女妖",
+    "titleKana": "じょよう",
+    "sortKana": "しよよう",
+    "subtitle": "01 前篇",
+    "subtitleKana": "01 ぜんぺん",
+    "firstAppearance": "「探偵実話」世文社、1954（昭和29）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-03-28",
+    "updatedAt": "2022-02-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001779/card59305.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001779/files/59305_ruby_75148.zip",
+    "textFileId": "59305_ruby_75148",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001779/files/59305_75186.html",
+    "inputBy": "きゅうり",
+    "proofreadBy": "入江幹夫",
+    "baseBook1": {
+      "title": "江戸川乱歩全集　第16巻　透明怪人",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2004（平成16）年4月20日",
+      "inputEdition": "2004（平成16）年4月20日初版1刷",
+      "proofreadEdition": "2004（平成16）年4月20日初版1刷"
+    },
+    "author": "江戸川乱歩",
+    "authors": [
+      {
+        "personId": "001779",
+        "name": "江戸川乱歩",
+        "kana": "えどがわらんぽ",
+        "roman": "Ranpo Edogawa",
+        "role": "著者",
+        "birthDate": "1894-10-21",
+        "deathDate": "1965-07-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

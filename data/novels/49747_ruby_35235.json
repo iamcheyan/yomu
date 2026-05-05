@@ -2940,5 +2940,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049747",
+    "title": "肌の匂い",
+    "titleKana": "はだのにおい",
+    "sortKana": "はたのにおい",
+    "firstAppearance": "「婦人公論」1949（昭和24）年8月～1950（昭和25）年7月号",
+    "ndc": "NDC 913",
+    "orthography": "旧字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-08-15",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001311/card49747.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001311/files/49747_ruby_35235.zip",
+    "textFileId": "49747_ruby_35235",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001311/files/49747_35250.html",
+    "inputBy": "伊藤時也",
+    "proofreadBy": "伊藤時也、及川　雅",
+    "baseBook1": {
+      "title": "肌の匂い",
+      "publisher": "早川書房",
+      "firstPublishedAt": "1950（昭和25）年11月10日",
+      "inputEdition": "1951（昭和26）年11月10日4版",
+      "proofreadEdition": "1951（昭和26）年11月10日4版"
+    },
+    "author": "三好十郎",
+    "authors": [
+      {
+        "personId": "001311",
+        "name": "三好十郎",
+        "kana": "みよしじゅうろう",
+        "roman": "Juro Miyoshi",
+        "role": "著者",
+        "birthDate": "1902-04-21",
+        "deathDate": "1958-12-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

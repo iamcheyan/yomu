@@ -48,5 +48,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057530",
+    "title": "府中のけやき",
+    "titleKana": "ふちゅうのけやき",
+    "sortKana": "ふちゆうのけやき",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-05-22",
+    "updatedAt": "2017-03-11",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001799/card57530.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001799/files/57530_ruby_61318.zip",
+    "textFileId": "57530_ruby_61318",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001799/files/57530_61361.html",
+    "inputBy": "岡村和彦",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "花の名随筆3　三月の花",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年2月10日",
+      "inputEdition": "1999（平成11）年2月10日初版第1刷",
+      "proofreadEdition": "1999（平成11）年2月10日初版第1刷"
+    },
+    "author": "中勘助",
+    "authors": [
+      {
+        "personId": "001799",
+        "name": "中勘助",
+        "kana": "なかかんすけ",
+        "roman": "Kansuke Naka",
+        "role": "著者",
+        "birthDate": "1885-05-22",
+        "deathDate": "1965-05-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

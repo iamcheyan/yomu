@@ -52,5 +52,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057156",
+    "title": "妾の会つた男の人々（野依秀一、中村弧月印象録）",
+    "titleKana": "わたしのあったおとこのひとびと（のよりしゅういち、なかむらこげついんしょうろく）",
+    "sortKana": "わたしのあつたおとこのひとひとのよりしゆういちなかむらこけついんしようろく",
+    "firstAppearance": "「中央公論　第三一年第三号」1916（大正5）年3月1日",
+    "ndc": "NDC 910",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-07-19",
+    "updatedAt": "2017-07-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000416/card57156.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000416/files/57156_ruby_62014.zip",
+    "textFileId": "57156_ruby_62014",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000416/files/57156_62015.html",
+    "inputBy": "酒井裕二",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "定本　伊藤野枝全集　第二巻　評論・随筆・書簡1――『青鞜』の時代",
+      "publisher": "學藝書林",
+      "firstPublishedAt": "2000（平成12）年5月31日",
+      "inputEdition": "2000（平成12）年5月31日初版",
+      "proofreadEdition": "2000（平成12）年5月31日初版"
+    },
+    "author": "伊藤野枝",
+    "authors": [
+      {
+        "personId": "000416",
+        "name": "伊藤野枝",
+        "kana": "いとうのえ",
+        "roman": "Noe Ito",
+        "role": "著者",
+        "birthDate": "1895-01-21",
+        "deathDate": "1923-09-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -762,5 +762,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004581",
+    "title": "浅茅生",
+    "titleKana": "あさじう",
+    "sortKana": "あさしう",
+    "firstAppearance": "「地球　第1巻第7号」1912（大正元）年10月",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-09-07",
+    "updatedAt": "2022-08-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card4581.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/4581_ruby_76197.zip",
+    "textFileId": "4581_ruby_76197",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/4581_76229.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "室谷きわ",
+    "baseBook1": {
+      "title": "鏡花全集　巻十四",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1942（昭和17）年3月10日",
+      "inputEdition": "1987（昭和62）年10月2日第3刷",
+      "proofreadEdition": "1972（昭和47）年12月2日第2刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

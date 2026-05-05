@@ -36,5 +36,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001902",
+    "title": "九月十四日の朝",
+    "titleKana": "くがつじゅうよっかのあさ",
+    "sortKana": "くかつしゆうよつかのあさ",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-12-12",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000305/card1902.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000305/files/1902_ruby_4971.zip",
+    "textFileId": "1902_ruby_4971",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000305/files/1902_17667.html",
+    "inputBy": "渡邉つよし",
+    "proofreadBy": "浦田伴俊",
+    "baseBook1": {
+      "title": "日本の名随筆19　秋",
+      "publisher": "作品社",
+      "firstPublishedAt": "1984（昭和59）年5月25日",
+      "inputEdition": "1991（平成3）年9月1日第12刷"
+    },
+    "author": "正岡子規",
+    "authors": [
+      {
+        "personId": "000305",
+        "name": "正岡子規",
+        "kana": "まさおかしき",
+        "roman": "Shiki Masaoka",
+        "role": "著者",
+        "birthDate": "1867-10-14",
+        "deathDate": "1902-09-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

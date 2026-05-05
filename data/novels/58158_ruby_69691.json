@@ -100,5 +100,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058158",
+    "title": "奥常念岳の絶巓に立つ記",
+    "titleKana": "おくじょうねんだけのぜってんにたつき",
+    "sortKana": "おくしようねんたけのせつてんにたつき",
+    "firstAppearance": "「中學世界　第十卷第七號」博文館、1907（明治40）年6月",
+    "ndc": "NDC 291 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-12-13",
+    "updatedAt": "2019-11-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000027/card58158.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000027/files/58158_ruby_69691.zip",
+    "textFileId": "58158_ruby_69691",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000027/files/58158_69736.html",
+    "inputBy": "岡村和彦",
+    "proofreadBy": "富田晶子",
+    "baseBook1": {
+      "title": "日本近代随筆選　1出会いの時〔全3冊〕",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2016（平成28）年4月15日",
+      "inputEdition": "2016（平成28）年6月15日第2刷",
+      "proofreadEdition": "2016（平成28）年4月15日第1刷"
+    },
+    "author": "小島烏水",
+    "authors": [
+      {
+        "personId": "000027",
+        "name": "小島烏水",
+        "kana": "こじまうすい",
+        "roman": "Usui Kojima",
+        "role": "著者",
+        "birthDate": "1873-12-29",
+        "deathDate": "1948-12-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

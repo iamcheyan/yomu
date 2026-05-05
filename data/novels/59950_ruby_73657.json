@@ -4630,5 +4630,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059950",
+    "title": "何が私をこうさせたか",
+    "titleKana": "なにがわたしをこうさせたか",
+    "sortKana": "なにかわたしをこうさせたか",
+    "subtitle": "――獄中手記――",
+    "subtitleKana": "――ごくちゅうしゅき――",
+    "ndc": "NDC 289",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-07-23",
+    "updatedAt": "2021-10-05",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000246/card59950.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000246/files/59950_ruby_73657.zip",
+    "textFileId": "59950_ruby_73657",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000246/files/59950_73696.html",
+    "inputBy": "富田晶子",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "何が私をこうさせたか――獄中手記",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2017（平成29）年12月15日",
+      "inputEdition": "2019（平成31）年3月15日第3刷",
+      "proofreadEdition": "2017（平成29）年12月15日第1刷"
+    },
+    "author": "金子ふみ子",
+    "authors": [
+      {
+        "personId": "000246",
+        "name": "金子ふみ子",
+        "kana": "かねこふみこ",
+        "roman": "Fumiko Kaneko",
+        "role": "著者",
+        "birthDate": "1903-01-25",
+        "deathDate": "1926-07-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

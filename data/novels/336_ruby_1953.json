@@ -452,5 +452,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000336",
+    "title": "運命論者",
+    "titleKana": "うんめいろんしゃ",
+    "sortKana": "うんめいろんしや",
+    "firstAppearance": "「山比古　第十號」1903（明治36）年3月5日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-05-13",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000038/card336.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000038/files/336_ruby_1953.zip",
+    "textFileId": "336_ruby_1953",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000038/files/336_15957.html",
+    "inputBy": "Mt.fuji",
+    "proofreadBy": "福地博文",
+    "baseBook1": {
+      "title": "小田切進二編　日本の文学6　武蔵野・春の鳥",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1985（昭和60）年8月1日",
+      "inputEdition": "1985（昭和60）年8月1日初版第1刷",
+      "proofreadEdition": "1985（昭和60）年8月1日初版第1刷"
+    },
+    "author": "国木田独歩",
+    "authors": [
+      {
+        "personId": "000038",
+        "name": "国木田独歩",
+        "kana": "くにきだどっぽ",
+        "roman": "Doppo Kunikida",
+        "role": "著者",
+        "birthDate": "1871-08-30",
+        "deathDate": "1908-06-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

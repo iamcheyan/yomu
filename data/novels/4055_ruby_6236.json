@@ -62,5 +62,52 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004055",
+    "title": "兵馬倥偬の人",
+    "titleKana": "へいばこうそうのひと",
+    "sortKana": "へいはこうそうのひと",
+    "firstAppearance": "「文章世界　第四巻第一一号」博文館、1909（明治42）年8月",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-03-11",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000660/card4055.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000660/files/4055_ruby_6236.zip",
+    "textFileId": "4055_ruby_6236",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000660/files/4055_43435.html",
+    "inputBy": "和井府清十郎",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "明治文學全集89巻　明治歴史文學集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1976（昭和51）年1月30日"
+    },
+    "author": "塚原渋柿園、塚原蓼洲",
+    "authors": [
+      {
+        "personId": "000660",
+        "name": "塚原渋柿園",
+        "kana": "つかはらじゅうしえん",
+        "roman": "Jushien Tsukahara",
+        "role": "著者",
+        "birthDate": "1848-04-04",
+        "deathDate": "1917-07-05",
+        "copyright": "なし"
+      },
+      {
+        "personId": "000934",
+        "name": "塚原蓼洲",
+        "kana": "つかはらりょうしゅう",
+        "roman": "Ryoshu Tsukahara",
+        "role": "著者",
+        "birthDate": "1848-03-01",
+        "deathDate": "1917-07-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

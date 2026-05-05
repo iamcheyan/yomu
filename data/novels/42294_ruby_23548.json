@@ -1870,5 +1870,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042294",
+    "title": "怪奇人造島",
+    "titleKana": "かいきじんぞうとう",
+    "sortKana": "かいきしんそうとう",
+    "firstAppearance": "「日本少年　付録」1937（昭和12）年8月号",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-09-06",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001084/card42294.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001084/files/42294_ruby_23548.zip",
+    "textFileId": "42294_ruby_23548",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001084/files/42294_23835.html",
+    "inputBy": "阿部良子",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "少年小説大系　第8巻　空想科学小説集",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1986（昭和61）年10月31日",
+      "inputEdition": "1986（昭和61）年10月31日第1版第1刷",
+      "proofreadEdition": "1986（昭和61）年10月31日第1版第1刷"
+    },
+    "author": "寺島柾史",
+    "authors": [
+      {
+        "personId": "001084",
+        "name": "寺島柾史",
+        "kana": "てらしままさし",
+        "roman": "Masashi Terashima",
+        "role": "著者",
+        "birthDate": "1893-10-24",
+        "deathDate": "1952",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

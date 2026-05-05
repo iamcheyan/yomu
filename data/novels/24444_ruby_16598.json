@@ -492,5 +492,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "024444",
+    "title": "環礁",
+    "titleKana": "かんしょう",
+    "sortKana": "かんしよう",
+    "subtitle": "――ミクロネシヤ巡島記抄――",
+    "subtitleKana": "――ミクロネシヤじゅんとうきしょう――",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-11-07",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000119/card24444.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000119/files/24444_ruby_16598.zip",
+    "textFileId": "24444_ruby_16598",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000119/files/24444_16659.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "中島敦全集第一卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1976（昭和51）年3月15日",
+      "inputEdition": "1976（昭和51）年3月15日初版",
+      "proofreadEdition": "1993（平成5）年6月20日初版第18刷"
+    },
+    "author": "中島敦",
+    "authors": [
+      {
+        "personId": "000119",
+        "name": "中島敦",
+        "kana": "なかじまあつし",
+        "roman": "Atsushi Nakajima",
+        "role": "著者",
+        "birthDate": "1909-05-05",
+        "deathDate": "1942-12-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

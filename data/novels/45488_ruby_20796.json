@@ -166,5 +166,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045488",
+    "title": "月の夜がたり",
+    "titleKana": "つきのよがたり",
+    "sortKana": "つきのよかたり",
+    "firstAppearance": "「写真報知」1924（大正13）年10月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-02-14",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000082/card45488.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000082/files/45488_ruby_20796.zip",
+    "textFileId": "45488_ruby_20796",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000082/files/45488_21426.html",
+    "inputBy": "小林繁雄、門田裕志",
+    "proofreadBy": "hongming",
+    "baseBook1": {
+      "title": "影を踏まれた女",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "1988（昭和63）年10月20日",
+      "inputEdition": "2001（平成13）年9月5日3刷",
+      "proofreadEdition": "2001（平成13）年9月5日3刷"
+    },
+    "author": "岡本綺堂",
+    "authors": [
+      {
+        "personId": "000082",
+        "name": "岡本綺堂",
+        "kana": "おかもときどう",
+        "roman": "Kido Okamoto",
+        "role": "著者",
+        "birthDate": "1872-11-15",
+        "deathDate": "1939-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

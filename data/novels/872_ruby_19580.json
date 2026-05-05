@@ -144,5 +144,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000872",
+    "title": "幸運の黒子",
+    "titleKana": "こううんのほくろ",
+    "sortKana": "こううんのほくろ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-02-26",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card872.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/872_ruby_19580.zip",
+    "textFileId": "872_ruby_19580",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/872_19581.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "しず",
+    "baseBook1": {
+      "title": "赤外線男　他6編",
+      "publisher": "春陽文庫、春陽堂書店",
+      "firstPublishedAt": "1996（平成8）年4月10日",
+      "inputEdition": "1996（平成8）年4月10日初版",
+      "proofreadEdition": "1996（平成8）年4月10日初版"
+    },
+    "author": "海野十三",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

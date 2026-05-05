@@ -62,5 +62,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054786",
+    "title": "南からの種子",
+    "titleKana": "みなみからのしゅし",
+    "sortKana": "みなみからのしゆし",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-12-30",
+    "updatedAt": "2014-11-14",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001675/card54786.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001675/files/54786_ruby_54970.zip",
+    "textFileId": "54786_ruby_54970",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001675/files/54786_55011.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "竹内浩三全作品集　日本が見えない　全1巻",
+      "publisher": "藤原書店",
+      "firstPublishedAt": "2001（平成13）年11月30日",
+      "inputEdition": "2002（平成14）年8月30日初版第5刷",
+      "proofreadEdition": "2001（平成13）年11月30日初版第1刷"
+    },
+    "author": "竹内浩三",
+    "authors": [
+      {
+        "personId": "001675",
+        "name": "竹内浩三",
+        "kana": "たけうちこうぞう",
+        "roman": "Kozo Takeuchi",
+        "role": "著者",
+        "birthDate": "1921-05-12",
+        "deathDate": "1945-04-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

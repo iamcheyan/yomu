@@ -60,5 +60,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057423",
+    "title": "戦争と平和",
+    "titleKana": "せんそうとへいわ",
+    "sortKana": "せんそうとへいわ",
+    "firstAppearance": "「青年界」1904（明治37）年4月",
+    "ndc": "NDC 460",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-01-09",
+    "updatedAt": "2016-12-09",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001474/card57423.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001474/files/57423_ruby_60428.zip",
+    "textFileId": "57423_ruby_60428",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001474/files/57423_60472.html",
+    "inputBy": "矢野重藤",
+    "proofreadBy": "y-star",
+    "baseBook1": {
+      "title": "進化と人生（上）",
+      "publisher": "講談社学術文庫、講談社",
+      "firstPublishedAt": "1976（昭和51）年11月10日",
+      "inputEdition": "1976（昭和51）年11月10日第1刷",
+      "proofreadEdition": "1976（昭和51）年11月10日第1刷"
+    },
+    "author": "丘浅次郎",
+    "authors": [
+      {
+        "personId": "001474",
+        "name": "丘浅次郎",
+        "kana": "おかあさじろう",
+        "roman": "Asajiro Oka",
+        "role": "著者",
+        "birthDate": "1868-12-31",
+        "deathDate": "1944-05-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

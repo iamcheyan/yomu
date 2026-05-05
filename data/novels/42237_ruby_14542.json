@@ -56,5 +56,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042237",
+    "title": "釈迢空に与ふ",
+    "titleKana": "しゃくちょうくうにあたふ",
+    "sortKana": "しやくちようくうにあたふ",
+    "firstAppearance": "「アララギ」1918（大正7）年5月",
+    "ndc": "NDC 911 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-03-13",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001059/card42237.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001059/files/42237_ruby_14542.zip",
+    "textFileId": "42237_ruby_14542",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001059/files/42237_14858.html",
+    "inputBy": "高柳典子",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "齋藤茂吉全集　第十四卷",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1952（昭和27）年7月10日",
+      "inputEdition": "1952（昭和27）年7月10日第1刷",
+      "proofreadEdition": "1952（昭和27）年7月10日第1刷"
+    },
+    "author": "斎藤茂吉",
+    "authors": [
+      {
+        "personId": "001059",
+        "name": "斎藤茂吉",
+        "kana": "さいとうもきち",
+        "roman": "Mokichi Saito",
+        "role": "著者",
+        "birthDate": "1882-5-14",
+        "deathDate": "1953-2-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

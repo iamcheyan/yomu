@@ -54,5 +54,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001397",
+    "title": "荷",
+    "titleKana": "に",
+    "sortKana": "に",
+    "firstAppearance": "「佐賀高等学校文科乙類卒業記念誌」1936（昭和11）年2月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-01-01",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000252/card1397.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000252/files/1397_ruby_20808.zip",
+    "textFileId": "1397_ruby_20808",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000252/files/1397_20809.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "大野裕",
+    "baseBook1": {
+      "title": "光の中に　金史良作品集",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1999（平成11）年4月10日"
+    },
+    "author": "金史良",
+    "authors": [
+      {
+        "personId": "000252",
+        "name": "金史良",
+        "kana": "きむさりゃん",
+        "roman": "Sa-ryang Kim",
+        "role": "著者",
+        "birthDate": "1914-03-03",
+        "deathDate": "1950",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

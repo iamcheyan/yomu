@@ -184,5 +184,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048366",
+    "title": "刑余の叔父",
+    "titleKana": "けいよのおじ",
+    "sortKana": "けいよのおし",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-11-07",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000153/card48366.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000153/files/48366_ruby_32321.zip",
+    "textFileId": "48366_ruby_32321",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000153/files/48366_33292.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "石川啄木全集　第三巻　小説",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1978（昭和53）年10月25日",
+      "inputEdition": "1986（昭和61）年12月15日初版第6刷",
+      "proofreadEdition": "1993（平成5年）年5月20日初版第7刷"
+    },
+    "author": "石川啄木",
+    "authors": [
+      {
+        "personId": "000153",
+        "name": "石川啄木",
+        "kana": "いしかわたくぼく",
+        "roman": "Takuboku Ishikawa",
+        "role": "著者",
+        "birthDate": "1886-02-20",
+        "deathDate": "1912-04-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -52,5 +52,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060957",
+    "title": "新秋の記",
+    "titleKana": "しんしゅうのき",
+    "sortKana": "しんしゆうのき",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-09-03",
+    "updatedAt": "2022-08-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/002088/card60957.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/002088/files/60957_ruby_76193.zip",
+    "textFileId": "60957_ruby_76193",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/002088/files/60957_76225.html",
+    "inputBy": "hitsuji",
+    "proofreadBy": "きりんの手紙",
+    "baseBook1": {
+      "title": "日本の詩歌　26　近代詩集",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1970（昭和45）年4月15日",
+      "inputEdition": "1979（昭和54）年11月20日新訂版",
+      "proofreadEdition": "1979（昭和54）年11月20日新訂版"
+    },
+    "author": "木下夕爾",
+    "authors": [
+      {
+        "personId": "002088",
+        "name": "木下夕爾",
+        "kana": "きのしたゆうじ",
+        "roman": "Yuji Kinoshita",
+        "role": "著者",
+        "birthDate": "1914-10-27",
+        "deathDate": "1965-08-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

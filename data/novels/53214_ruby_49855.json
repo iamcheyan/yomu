@@ -138,5 +138,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053214",
+    "title": "比較科学論",
+    "titleKana": "ひかくかがくろん",
+    "sortKana": "ひかくかかくろん",
+    "firstAppearance": "「寺田寅彦――比較科学論」新潮社、1959（昭和34）年4月25日",
+    "ndc": "NDC 401",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-03-29",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card53214.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/53214_ruby_49855.zip",
+    "textFileId": "53214_ruby_49855",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/53214_49856.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "中谷宇吉郎随筆集",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1988（昭和63）年9月16日",
+      "inputEdition": "2011（平成23）年1月6日第26刷",
+      "proofreadEdition": "2009（平成21）年1月6日第25刷"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

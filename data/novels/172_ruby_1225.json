@@ -50,5 +50,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000172",
+    "title": "樗牛の事",
+    "titleKana": "ちょぎゅうのこと",
+    "sortKana": "ちよきゆうのこと",
+    "firstAppearance": "「人文」1919（大正8）年1月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-01-12",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000879/card172.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000879/files/172_ruby_1225.zip",
+    "textFileId": "172_ruby_1225",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000879/files/172_15218.html",
+    "inputBy": "j.utiyama",
+    "proofreadBy": "かとうかおり",
+    "baseBook1": {
+      "title": "羅生門・鼻・芋粥",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1950（昭和25）年10月20日",
+      "inputEdition": "1985（昭和60）年11月10日改版38版",
+      "proofreadEdition": "1985（昭和60）年11月10日改版38版"
+    },
+    "author": "芥川竜之介",
+    "authors": [
+      {
+        "personId": "000879",
+        "name": "芥川竜之介",
+        "kana": "あくたがわりゅうのすけ",
+        "roman": "Ryunosuke Akutagawa",
+        "role": "著者",
+        "birthDate": "1892-03-01",
+        "deathDate": "1927-07-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

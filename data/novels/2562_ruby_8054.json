@@ -266,5 +266,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002562",
+    "title": "執達吏",
+    "titleKana": "しったつり",
+    "sortKana": "しつたつり",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-02-10",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000320/card2562.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000320/files/2562_ruby_8054.zip",
+    "textFileId": "2562_ruby_8054",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000320/files/2562_8601.html",
+    "inputBy": "武田秀男",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "読売新聞",
+      "publisher": "読売新聞東京本社",
+      "firstPublishedAt": "1909（明治42）年3月14日～17日連載",
+      "inputEdition": "1909（明治42）年3月14日～17日連載"
+    },
+    "author": "与謝野寛",
+    "authors": [
+      {
+        "personId": "000320",
+        "name": "与謝野寛",
+        "kana": "よさのひろし",
+        "roman": "Hiroshi Yosano",
+        "role": "著者",
+        "birthDate": "1873-02-26",
+        "deathDate": "1935-03-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

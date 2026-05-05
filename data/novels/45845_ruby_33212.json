@@ -112,5 +112,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045845",
+    "title": "長篇小説時評",
+    "titleKana": "ちょうへんしょうせつじひょう",
+    "sortKana": "ちようへんしようせつしひよう",
+    "firstAppearance": "「徳島毎日新聞　第一三五七五号、第一三五七九号～第一三五八一号」1939（昭和14）年3月25日、29日～31日",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-11-02",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card45845.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/45845_ruby_33212.zip",
+    "textFileId": "45845_ruby_33212",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/45845_33224.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "坂口安吾全集　03",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年3月20日",
+      "inputEdition": "1999（平成11）年3月20日初版第1刷",
+      "proofreadEdition": "1999（平成11）年3月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -1544,5 +1544,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004829",
+    "title": "鳴雪自叙伝",
+    "titleKana": "めいせつじじょでん",
+    "sortKana": "めいせつししよてん",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-06-05",
+    "updatedAt": "2016-02-07",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000684/card4829.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000684/files/4829_ruby_34858.zip",
+    "textFileId": "4829_ruby_34858",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000684/files/4829_35079.html",
+    "inputBy": "kazuishi",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "鳴雪自叙伝",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2002（平成14）年7月16日",
+      "inputEdition": "2002（平成14）年7月16日第1刷",
+      "proofreadEdition": "2002（平成14）年11月15日第2刷"
+    },
+    "author": "内藤鳴雪",
+    "authors": [
+      {
+        "personId": "000684",
+        "name": "内藤鳴雪",
+        "kana": "ないとうめいせつ",
+        "roman": "Meisetsu Naito",
+        "role": "著者",
+        "birthDate": "1847-05-29",
+        "deathDate": "1926-02-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

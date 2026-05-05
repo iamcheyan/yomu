@@ -2388,5 +2388,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059445",
+    "title": "スウィス日記",
+    "titleKana": "スウィスにっき",
+    "sortKana": "すういすにつき",
+    "firstAppearance": "序「スウイス日記」横山書店、1922（大正11）年8月12日<br>「リヨン——シェネーフ」から「ラゴ・マジョーレ」まで「山岳　第十年第一号」日本山岳会、1915（大正4）年9月<br>「コモの湖」から「オーベル・ピンツガウ」まで「山岳　第十年第二号」日本山岳会、1915（大正4）年12月<br> 「ベルン」から「シュピーツ」まで「山岳　第十年第三号、第十一年第二号」日本山岳会、1916（大正5）年5月、1916（大正5）年12月",
+    "ndc": "NDC 293",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-09-01",
+    "updatedAt": "2022-03-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000277/card59445.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000277/files/59445_ruby_74003.zip",
+    "textFileId": "59445_ruby_74003",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000277/files/59445_74041.html",
+    "inputBy": "富田晶子",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "スウィス日記",
+      "publisher": "平凡社ライブラリー、平凡社",
+      "firstPublishedAt": "1998（平成10）年2月15日",
+      "inputEdition": "1998（平成10）年2月15日初版第1刷",
+      "proofreadEdition": "1998（平成10）年2月15日初版第1刷"
+    },
+    "author": "辻村伊助",
+    "authors": [
+      {
+        "personId": "000277",
+        "name": "辻村伊助",
+        "kana": "つじむらいすけ",
+        "roman": "Isuke Tsujimura",
+        "role": "著者",
+        "birthDate": "1886-04-22",
+        "deathDate": "1923-09-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -58,5 +58,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057057",
+    "title": "宮崎の町",
+    "titleKana": "みやざきのまち",
+    "sortKana": "みやさきのまち",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-02-07",
+    "updatedAt": "2020-01-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001822/card57057.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001822/files/57057_ruby_70125.zip",
+    "textFileId": "57057_ruby_70125",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001822/files/57057_70174.html",
+    "inputBy": "日根敏晶",
+    "proofreadBy": "hitsuji",
+    "baseBook1": {
+      "title": "日本随筆紀行第二四巻　宮崎｜鹿児島｜沖縄　光溢れる南の海よ",
+      "publisher": "作品社",
+      "firstPublishedAt": "1988（昭和63）年6月10日",
+      "inputEdition": "1988（昭和63）年6月10日第1刷",
+      "proofreadEdition": "1988（昭和63）年6月10日第1刷"
+    },
+    "author": "中村地平",
+    "authors": [
+      {
+        "personId": "001822",
+        "name": "中村地平",
+        "kana": "なかむらちへい",
+        "roman": "Chihei Nakamura",
+        "role": "著者",
+        "birthDate": "1908-02-07",
+        "deathDate": "1963-02-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

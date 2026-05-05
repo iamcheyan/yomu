@@ -162,5 +162,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045176",
+    "title": "硯箱と時計",
+    "titleKana": "すずりばこととけい",
+    "sortKana": "すすりはこととけい",
+    "firstAppearance": "「金の星」金の星社、1926（大正15）年1月",
+    "ndc": "NDC K913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-04-11",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001180/card45176.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001180/files/45176_ruby_26189.zip",
+    "textFileId": "45176_ruby_26189",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001180/files/45176_26301.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "田中敬三",
+    "baseBook1": {
+      "title": "日本児童文学大系　第一一巻",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1978（昭和53）年11月30日",
+      "inputEdition": "1978（昭和53）年11月30日初刷",
+      "proofreadEdition": "1979（昭和54）年4月1日2刷"
+    },
+    "author": "沖野岩三郎",
+    "authors": [
+      {
+        "personId": "001180",
+        "name": "沖野岩三郎",
+        "kana": "おきのいわさぶろう",
+        "roman": "Iwasaburo Okino",
+        "role": "著者",
+        "birthDate": "1876-01-05",
+        "deathDate": "1956-01-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

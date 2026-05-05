@@ -1814,5 +1814,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001566",
+    "title": "パンドラの匣",
+    "titleKana": "パンドラのはこ",
+    "sortKana": "はんとらのはこ",
+    "firstAppearance": "「河北新報」河北新報社、1945（昭和20）年10月22日～1946（昭和21）年1月7日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-01-31",
+    "updatedAt": "2015-10-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card1566.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/1566_ruby_8222.zip",
+    "textFileId": "1566_ruby_8222",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/1566_8578.html",
+    "inputBy": "SAME SIDE",
+    "proofreadBy": "細渕紀子",
+    "baseBook1": {
+      "title": "パンドラの匣",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1973（昭和48）年10月30日",
+      "inputEdition": "1997（平成9）年12月20日46刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

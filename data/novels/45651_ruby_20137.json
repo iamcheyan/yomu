@@ -776,5 +776,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045651",
+    "title": "深夜の電話",
+    "titleKana": "しんやのでんわ",
+    "sortKana": "しんやのてんわ",
+    "firstAppearance": "「子供の科学」1928（昭和3）年1～5月号",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-12-07",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000262/card45651.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000262/files/45651_ruby_20137.zip",
+    "textFileId": "45651_ruby_20137",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000262/files/45651_20517.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "小酒井不木探偵小説選　〔論創ミステリ叢書8〕",
+      "publisher": "論創社",
+      "firstPublishedAt": "2004（平成16）年7月25日",
+      "inputEdition": "2004（平成16）年7月25日初版第1刷",
+      "proofreadEdition": "2004（平成16）年7月25日初版第1刷"
+    },
+    "author": "小酒井不木",
+    "authors": [
+      {
+        "personId": "000262",
+        "name": "小酒井不木",
+        "kana": "こざかいふぼく",
+        "roman": "Fuboku Kosakai",
+        "role": "著者",
+        "birthDate": "1890-10-08",
+        "deathDate": "1929-04-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

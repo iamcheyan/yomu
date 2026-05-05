@@ -268,5 +268,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "005071",
+    "title": "源氏物語",
+    "titleKana": "げんじものがたり",
+    "sortKana": "けんしものかたり",
+    "subtitle": "56 夢の浮橋",
+    "subtitleKana": "56 ゆめのうきはし",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-03-16",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000052/card5071.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000052/files/5071_ruby_15349.zip",
+    "textFileId": "5071_ruby_15349",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000052/files/5071_15350.html",
+    "inputBy": "上田英代",
+    "proofreadBy": "柳沢成雄",
+    "baseBook1": {
+      "title": "全訳源氏物語　下巻",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1972(昭和47)年2月25日改版",
+      "inputEdition": "1995（平成7）年5月30日40版",
+      "proofreadEdition": "2002（平成14）年4月10日44版"
+    },
+    "author": "紫式部",
+    "authors": [
+      {
+        "personId": "000052",
+        "name": "紫式部",
+        "kana": "むらさき しきぶ",
+        "roman": "Murasaki Shikibu",
+        "role": "著者",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -42,5 +42,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047235",
+    "title": "火の玉を見たこと",
+    "titleKana": "ひのたまをみたこと",
+    "sortKana": "ひのたまをみたこと",
+    "ndc": "NDC 147 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-01-11",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001266/card47235.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001266/files/47235_ruby_29254.zip",
+    "textFileId": "47235_ruby_29254",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001266/files/47235_29253.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆73　火",
+      "publisher": "作品社",
+      "firstPublishedAt": "1988（昭和63）年11月25日",
+      "inputEdition": "1992（平成4）年9月20日第6刷",
+      "proofreadEdition": "1992（平成4）年9月20日第6刷"
+    },
+    "author": "牧野富太郎",
+    "authors": [
+      {
+        "personId": "001266",
+        "name": "牧野富太郎",
+        "kana": "まきのとみたろう",
+        "roman": "Tomitaro Makino",
+        "role": "著者",
+        "birthDate": "1862-05-22",
+        "deathDate": "1957-01-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -98,5 +98,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000814",
+    "title": "時代閉塞の現状",
+    "titleKana": "じだいへいそくのげんじょう",
+    "sortKana": "したいへいそくのけんしよう",
+    "subtitle": "（強権、純粋自然主義の最後および明日の考察）",
+    "subtitleKana": "（きょうけん、じゅんすいしぜんしゅぎのさいごおよびあすのこうさつ）",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-08-01",
+    "updatedAt": "2016-04-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000153/card814.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000153/files/814_ruby_20611.zip",
+    "textFileId": "814_ruby_20611",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000153/files/814_20612.html",
+    "inputBy": "j.utiyama",
+    "proofreadBy": "浜野智",
+    "baseBook1": {
+      "title": "日本文学全集　12　国木田独歩　石川啄木集",
+      "publisher": "集英社",
+      "firstPublishedAt": "1967（昭和42）年9月7日",
+      "inputEdition": "1972（昭和47）年9月10日第9版",
+      "proofreadEdition": "1972（昭和47）年10月7日"
+    },
+    "author": "石川啄木",
+    "authors": [
+      {
+        "personId": "000153",
+        "name": "石川啄木",
+        "kana": "いしかわたくぼく",
+        "roman": "Takuboku Ishikawa",
+        "role": "著者",
+        "birthDate": "1886-02-20",
+        "deathDate": "1912-04-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

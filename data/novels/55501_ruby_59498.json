@@ -34,5 +34,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055501",
+    "title": "「鶴」と百間先生",
+    "titleKana": "つるとひゃっけんせんせい",
+    "sortKana": "つるとひやつけんせんせい",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-08-01",
+    "updatedAt": "2016-08-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001579/card55501.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001579/files/55501_ruby_59498.zip",
+    "textFileId": "55501_ruby_59498",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001579/files/55501_59535.html",
+    "inputBy": "磯貝まこと",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "囘想　内田百間",
+      "publisher": "津輕書房",
+      "firstPublishedAt": "1975（昭和50）年8月31日",
+      "inputEdition": "1975（昭和50）年8月31日初版",
+      "proofreadEdition": "1975（昭和50）年8月31日初版"
+    },
+    "author": "室生犀星",
+    "authors": [
+      {
+        "personId": "001579",
+        "name": "室生犀星",
+        "kana": "むろうさいせい",
+        "roman": "Saisei Murou",
+        "role": "著者",
+        "birthDate": "1889-08-01",
+        "deathDate": "1962-03-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -104,5 +104,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055348",
+    "title": "坂道",
+    "titleKana": "さかみち",
+    "sortKana": "さかみち",
+    "firstAppearance": "「哈爾賓日日新聞」1940（昭和15）年5月",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-11-20",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000121/card55348.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000121/files/55348_ruby_49143.zip",
+    "textFileId": "55348_ruby_49143",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000121/files/55348_49312.html",
+    "inputBy": "愛知大学文学部図書館情報学　時実ゼミ　青空文庫班",
+    "proofreadBy": "富田倫生",
+    "baseBook1": {
+      "title": "校定　新美南吉全集第三巻",
+      "publisher": "大日本図書",
+      "firstPublishedAt": "1980（昭和55）年7月31日",
+      "inputEdition": "1980（昭和55）年7月31日初版第1刷"
+    },
+    "author": "新美南吉",
+    "authors": [
+      {
+        "personId": "000121",
+        "name": "新美南吉",
+        "kana": "にいみなんきち",
+        "roman": "Nankichi Niimi",
+        "role": "著者",
+        "birthDate": "1913-07-30",
+        "deathDate": "1943-03-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

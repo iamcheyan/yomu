@@ -46,5 +46,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058313",
+    "title": "冬の法隆寺詣で",
+    "titleKana": "ふゆのほうりゅうじもうで",
+    "sortKana": "ふゆのほうりゆうしもうて",
+    "firstAppearance": "「読売新聞」1958（昭和33）年1月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-10-28",
+    "updatedAt": "2018-09-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001581/card58313.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001581/files/58313_ruby_65963.zip",
+    "textFileId": "58313_ruby_65963",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001581/files/58313_66115.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "杉浦鳥見",
+    "baseBook1": {
+      "title": "仏教の名随筆　1",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "2006（平成18）年6月20日",
+      "inputEdition": "2006（平成18）年6月20日初版第1刷",
+      "proofreadEdition": "2006（平成18）年6月20日初版第1刷"
+    },
+    "author": "正宗白鳥",
+    "authors": [
+      {
+        "personId": "001581",
+        "name": "正宗白鳥",
+        "kana": "まさむねはくちょう",
+        "roman": "Hakucho Masamune",
+        "role": "著者",
+        "birthDate": "1879-03-03",
+        "deathDate": "1962-10-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

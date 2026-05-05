@@ -166,5 +166,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001272",
+    "title": "三の字旅行会",
+    "titleKana": "さんのじりょこうかい",
+    "sortKana": "さんのしりよこうかい",
+    "firstAppearance": "「新青年」1939（昭和14）年1月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-11-06",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000236/card1272.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000236/files/1272_ruby_24138.zip",
+    "textFileId": "1272_ruby_24138",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000236/files/1272_24382.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "日本探偵小説全集12　名作集2",
+      "publisher": "創元推理文庫、東京創元社",
+      "firstPublishedAt": "1989（平成元）年2月3日",
+      "inputEdition": "1999（平成11）年11月19日3版",
+      "proofreadEdition": "1989（平成元）年2月3日初版"
+    },
+    "author": "大阪圭吉",
+    "authors": [
+      {
+        "personId": "000236",
+        "name": "大阪圭吉",
+        "kana": "おおさかけいきち",
+        "roman": "Keikichi Osaka",
+        "role": "著者",
+        "birthDate": "1912-03-20",
+        "deathDate": "1945-07-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

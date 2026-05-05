@@ -2636,5 +2636,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049329",
+    "title": "暗黒星",
+    "titleKana": "あんこくせい",
+    "sortKana": "あんこくせい",
+    "originalTitle": "THE END OF THE WORLD",
+    "firstAppearance": "「萬朝報」1904（明治37）年5月6日～5月25日",
+    "ndc": "NDC 933",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-06-27",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001364/card49329.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001364/files/49329_ruby_38360.zip",
+    "textFileId": "49329_ruby_38360",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001364/files/49329_39404.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "宮城高志",
+    "baseBook1": {
+      "title": "闇×幻想13［＃「13」は指数］＝黎明　幻想・怪奇名作選",
+      "publisher": "ペンギンカンパニー",
+      "firstPublishedAt": "1993（平成5）年7月20日",
+      "inputEdition": "1993（平成5）年7月20日第1刷",
+      "proofreadEdition": "1993（平成5）年7月20日第1刷"
+    },
+    "author": "ニューコムシモン",
+    "authors": [
+      {
+        "personId": "001364",
+        "name": "ニューコムシモン",
+        "kana": "ニューコムシモン",
+        "roman": "Simon Newcomb",
+        "role": "著者",
+        "birthDate": "1835",
+        "deathDate": "1909",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

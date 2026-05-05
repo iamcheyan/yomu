@@ -1666,5 +1666,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004252",
+    "title": "日輪",
+    "titleKana": "にちりん",
+    "sortKana": "にちりん",
+    "firstAppearance": "「新小説」1923（大正12）年5月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-06-22",
+    "updatedAt": "2019-06-14",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card4252.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/4252_ruby_35180.zip",
+    "textFileId": "4252_ruby_35180",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/4252_35181.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "日輪・春は馬車に乗って　他八篇",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1981（昭和56）年8月17日",
+      "inputEdition": "1981（昭和56）年8月17日第1刷",
+      "proofreadEdition": "1995（平成7）年10月5日第21刷"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

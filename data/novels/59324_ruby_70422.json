@@ -180,5 +180,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059324",
+    "title": "ブタ飼い",
+    "titleKana": "ブタかい",
+    "sortKana": "ふたかい",
+    "ndc": "NDC K949",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-03-26",
+    "updatedAt": "2020-02-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000019/card59324.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000019/files/59324_ruby_70422.zip",
+    "textFileId": "59324_ruby_70422",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000019/files/59324_70480.html",
+    "inputBy": "チエコ",
+    "proofreadBy": "木下聡",
+    "baseBook1": {
+      "title": "マッチ売りの少女　（アンデルセン童話集Ⅲ）",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1967（昭和42）年12月10日",
+      "inputEdition": "1981（昭和56）年5月30日21刷",
+      "proofreadEdition": "1982（昭和57）年3月5日22刷"
+    },
+    "author": "アンデルセンハンス・クリスチャン",
+    "authors": [
+      {
+        "personId": "000019",
+        "name": "アンデルセンハンス・クリスチャン",
+        "kana": "アンデルセンハンス・クリスチャン",
+        "roman": "Hans Christian Andersen",
+        "role": "著者",
+        "birthDate": "1805-04-02",
+        "deathDate": "1875-08-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -136,5 +136,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051191",
+    "title": "雪をんな",
+    "titleKana": "ゆきおんな",
+    "sortKana": "ゆきおんな",
+    "firstAppearance": "「處女文壇　第一卷三號」1917（大正6）年7月1日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-01-16",
+    "updatedAt": "2018-12-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000984/card51191.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000984/files/51191_ruby_66685.zip",
+    "textFileId": "51191_ruby_66685",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000984/files/51191_66736.html",
+    "inputBy": "林田清明",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "葛西善藏全集　第一卷",
+      "publisher": "津輕書房",
+      "firstPublishedAt": "1974（昭和49）年12月20日",
+      "inputEdition": "1974（昭和49）年12月20日",
+      "proofreadEdition": "1974（昭和49）年12月20日"
+    },
+    "author": "葛西善蔵",
+    "authors": [
+      {
+        "personId": "000984",
+        "name": "葛西善蔵",
+        "kana": "かさいぜんぞう",
+        "roman": "Zenzo Kasai",
+        "role": "著者",
+        "birthDate": "1887-01-16",
+        "deathDate": "1928-07-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

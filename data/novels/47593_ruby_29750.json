@@ -186,5 +186,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047593",
+    "title": "真珠塔の秘密",
+    "titleKana": "しんじゅとうのひみつ",
+    "sortKana": "しんしゆとうのひみつ",
+    "firstAppearance": "「新趣味」1923（大正12）年8月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-05-20",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000260/card47593.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000260/files/47593_ruby_29750.zip",
+    "textFileId": "47593_ruby_29750",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000260/files/47593_30978.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "「新趣味」傑作選　幻の探偵雑誌7",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2001（平成13）年11月20日",
+      "inputEdition": "2001（平成13）年11月20日",
+      "proofreadEdition": "2001（平成13）年11月20日"
+    },
+    "author": "甲賀三郎",
+    "authors": [
+      {
+        "personId": "000260",
+        "name": "甲賀三郎",
+        "kana": "こうがさぶろう",
+        "roman": "Saburo Koga",
+        "role": "著者",
+        "birthDate": "1893-10-05",
+        "deathDate": "1945-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

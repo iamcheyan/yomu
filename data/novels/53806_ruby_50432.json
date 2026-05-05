@@ -172,5 +172,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053806",
+    "title": "放浪",
+    "titleKana": "ほうろう",
+    "sortKana": "ほうろう",
+    "firstAppearance": "「文學界　第七年第五号」文藝春秋、1940（昭和15）年5月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-08-06",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000040/card53806.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000040/files/53806_ruby_50432.zip",
+    "textFileId": "53806_ruby_50432",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000040/files/53806_50930.html",
+    "inputBy": "kompass",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "俗臭　織田作之助［初出］作品集",
+      "publisher": "インパクト出版会",
+      "firstPublishedAt": "2011(平成23)年5月20日",
+      "inputEdition": "2011(平成23)年5月20日初版第1刷",
+      "proofreadEdition": "2011(平成23)年5月20日初版第1刷"
+    },
+    "author": "織田作之助",
+    "authors": [
+      {
+        "personId": "000040",
+        "name": "織田作之助",
+        "kana": "おださくのすけ",
+        "roman": "Sakunosuke Oda",
+        "role": "著者",
+        "birthDate": "1913-10-26",
+        "deathDate": "1947-01-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

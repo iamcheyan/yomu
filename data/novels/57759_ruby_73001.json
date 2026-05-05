@@ -202,5 +202,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057759",
+    "title": "藪落し",
+    "titleKana": "やぶおとし",
+    "sortKana": "やふおとし",
+    "firstAppearance": "「アサヒグラフ」1935（昭和10）年2月17日号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-04-28",
+    "updatedAt": "2021-03-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001869/card57759.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001869/files/57759_ruby_73001.zip",
+    "textFileId": "57759_ruby_73001",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001869/files/57759_73048.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "山本周五郎全集第十八巻　須磨寺附近・城中の霜",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1983（昭和58）年6月25日",
+      "inputEdition": "1983（昭和58）年6月25日",
+      "proofreadEdition": "1983（昭和58）年6月25日"
+    },
+    "author": "山本周五郎",
+    "authors": [
+      {
+        "personId": "001869",
+        "name": "山本周五郎",
+        "kana": "やまもとしゅうごろう",
+        "roman": "Shugoro Yamamoto",
+        "role": "著者",
+        "birthDate": "1903-06-22",
+        "deathDate": "1967-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

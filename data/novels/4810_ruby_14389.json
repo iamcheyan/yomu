@@ -218,5 +218,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004810",
+    "title": "朴の咲く頃",
+    "titleKana": "ほおのさくころ",
+    "sortKana": "ほおのさくころ",
+    "firstAppearance": "「文藝春秋」1941（昭和16）年1月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-03-11",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001030/card4810.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001030/files/4810_ruby_14389.zip",
+    "textFileId": "4810_ruby_14389",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001030/files/4810_14390.html",
+    "inputBy": "kompass",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "幼年時代・晩夏",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1955（昭和30）年8月5日発行、1970（昭和45）年1月30日16刷改版",
+      "inputEdition": "1987（昭和62）年9月15日38刷"
+    },
+    "author": "堀辰雄",
+    "authors": [
+      {
+        "personId": "001030",
+        "name": "堀辰雄",
+        "kana": "ほりたつお",
+        "roman": "Tatsuo Hori",
+        "role": "著者",
+        "birthDate": "1904-12-28",
+        "deathDate": "1953-05-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

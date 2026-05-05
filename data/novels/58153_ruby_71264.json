@@ -390,5 +390,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058153",
+    "title": "The Affair of Two Watches",
+    "titleKana": "ジ　アフェア　オブ　トゥー　ウォッチイズ",
+    "sortKana": "しあふえあおふとうううおつちいす",
+    "firstAppearance": "「新思潮」1910（明治43）年10月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-07-30",
+    "updatedAt": "2020-06-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001383/card58153.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001383/files/58153_ruby_71264.zip",
+    "textFileId": "58153_ruby_71264",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001383/files/58153_71313.html",
+    "inputBy": "黒潮",
+    "proofreadBy": "まりお",
+    "baseBook1": {
+      "title": "潤一郎ラビリンスⅢ――自画像",
+      "publisher": "中公文庫、中央公論新社",
+      "firstPublishedAt": "1998（平成10）年7月18日",
+      "inputEdition": "2014（平成26）年2月28日再版",
+      "proofreadEdition": "1998（平成10）年7月3日初版"
+    },
+    "author": "谷崎潤一郎",
+    "authors": [
+      {
+        "personId": "001383",
+        "name": "谷崎潤一郎",
+        "kana": "たにざきじゅんいちろう",
+        "roman": "Jun'ichiro Tanizaki",
+        "role": "著者",
+        "birthDate": "1886-07-24",
+        "deathDate": "1965-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

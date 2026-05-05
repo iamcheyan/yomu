@@ -44,5 +44,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045306",
+    "title": "あしびの花",
+    "titleKana": "あしびのはな",
+    "sortKana": "あしひのはな",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-06-19",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000344/card45306.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000344/files/45306_ruby_18452.zip",
+    "textFileId": "45306_ruby_18452",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000344/files/45306_18537.html",
+    "inputBy": "浅葱",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "花の名随筆2　二月の花",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年1月10日",
+      "inputEdition": "1999（平成11）年1月10日初版第1刷",
+      "proofreadEdition": "1999（平成11）年1月10日初版第1刷"
+    },
+    "author": "土田杏村",
+    "authors": [
+      {
+        "personId": "000344",
+        "name": "土田杏村",
+        "kana": "つちだきょうそん",
+        "roman": "Kyoson Tsuchida",
+        "role": "著者",
+        "birthDate": "1891-01-15",
+        "deathDate": "1934-04-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

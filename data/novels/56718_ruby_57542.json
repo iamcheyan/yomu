@@ -380,5 +380,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056718",
+    "title": "焔の中に歌う",
+    "titleKana": "ほのおのなかにうたう",
+    "sortKana": "ほのおのなかにうたう",
+    "firstAppearance": "「文芸倶楽部」1928（昭和3）年10月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-12-15",
+    "updatedAt": "2015-10-23",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001670/card56718.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001670/files/56718_ruby_57542.zip",
+    "textFileId": "56718_ruby_57542",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001670/files/56718_57588.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "阿部哲也",
+    "baseBook1": {
+      "title": "野村胡堂探偵小説全集",
+      "publisher": "作品社",
+      "firstPublishedAt": "2007（平成19）年4月15日",
+      "inputEdition": "2007（平成19）年4月15日第1刷",
+      "proofreadEdition": "2007（平成19）年4月15日第1刷"
+    },
+    "author": "野村胡堂",
+    "authors": [
+      {
+        "personId": "001670",
+        "name": "野村胡堂",
+        "kana": "のむらこどう",
+        "roman": "Kodo Nomura",
+        "role": "著者",
+        "birthDate": "1882-10-15",
+        "deathDate": "1963-04-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

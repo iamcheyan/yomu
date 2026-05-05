@@ -4034,5 +4034,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046361",
+    "title": "なよたけ",
+    "titleKana": "なよたけ",
+    "sortKana": "なよたけ",
+    "firstAppearance": "「三田文学　四・五月号、六月号、七・八月号、九月号、十・十一月号」1946（昭和21）年5月～10月",
+    "ndc": "NDC 912",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-01-07",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001240/card46361.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001240/files/46361_ruby_24692.zip",
+    "textFileId": "46361_ruby_24692",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001240/files/46361_25175.html",
+    "inputBy": "桃沢まり",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "美しい恋の物語〈ちくま文学の森1〉",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1988（昭和63）年2月29日",
+      "inputEdition": "1989（平成元）年2月10日第12刷",
+      "proofreadEdition": "1988（昭和63）年5月30日第8刷"
+    },
+    "author": "加藤道夫",
+    "authors": [
+      {
+        "personId": "001240",
+        "name": "加藤道夫",
+        "kana": "かとうみちお",
+        "roman": "Michio Kato",
+        "role": "著者",
+        "birthDate": "1918-10-17",
+        "deathDate": "1953-12-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

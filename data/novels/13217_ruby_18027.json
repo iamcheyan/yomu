@@ -7998,5 +7998,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "013217",
+    "title": "真珠夫人",
+    "titleKana": "しんじゅふじん",
+    "sortKana": "しんしゆふしん",
+    "firstAppearance": "「大阪毎日新聞」、「東京日々新聞」1920（大正9年）6月9日～12月22日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-04-03",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000083/card13217.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000083/files/13217_ruby_18027.zip",
+    "textFileId": "13217_ruby_18027",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000083/files/13217_18030.html",
+    "inputBy": "kompass",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "菊池寛全集　第五巻",
+      "publisher": "高松市菊池寛記念館刊行、文藝春秋社発売",
+      "firstPublishedAt": "1994（平成6）年3月15日",
+      "inputEdition": "1994（平成6）年3月15日",
+      "proofreadEdition": "1994（平成6）年3月15日"
+    },
+    "author": "菊池寛",
+    "authors": [
+      {
+        "personId": "000083",
+        "name": "菊池寛",
+        "kana": "きくちかん",
+        "roman": "Kan Kikuchi",
+        "role": "著者",
+        "birthDate": "1888-12-26",
+        "deathDate": "1948-03-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

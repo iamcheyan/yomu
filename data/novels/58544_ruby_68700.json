@@ -2412,5 +2412,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058544",
+    "title": "地名の研究",
+    "titleKana": "ちめいのけんきゅう",
+    "sortKana": "ちめいのけんきゆう",
+    "firstAppearance": "地名の話「地学雑誌　第二四年第二八六号～第二八八号」東京地学協会、1912（大正元）年10月15日、11月15日、12月15日<br>地名と地理「地理学評論　第八巻第五号～第六号」古今書院、1932（昭和7）年5月1日、6月1日<br>地名と歴史「愛知教育　第五五九号」愛知県教育会、1934（昭和9）年7月1日<br>地名考説　一～四、一九後半、三一後半「民族」民族発行所、1926（大正15）年5月～1927（昭和2）年3月<br>地名考説　五～一八、一九前半、二〇～二二、二五～二八、三一前半「歴史地理」三省堂書店、1910（明治43）年2月～1912（明治45）年8月<br>地名考説　四五～四八「土俗と伝説」文武堂書店、1918（大正7年）8月～1919（大正8）年1月<br>地名考説　五五「考古学雑誌」聚精堂、1911（明治44）年5月15日<br>地名考説　二三～二四、二九、三〇、三二～四四、四九～五四「郷土研究」郷土研究社、1913（大正2）年3月～1917（大正6）年3月",
+    "ndc": "NDC 291",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-08-08",
+    "updatedAt": "2019-07-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001566/card58544.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001566/files/58544_ruby_68700.zip",
+    "textFileId": "58544_ruby_68700",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001566/files/58544_68749.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "北川松生",
+    "baseBook1": {
+      "title": "柳田國男全集20",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1990（平成2）年7月31日",
+      "inputEdition": "1990（平成2）年7月31日第1刷",
+      "proofreadEdition": "1990（平成2）年7月31日第1刷"
+    },
+    "author": "柳田国男",
+    "authors": [
+      {
+        "personId": "001566",
+        "name": "柳田国男",
+        "kana": "やなぎたくにお",
+        "roman": "Kunio Yanagita",
+        "role": "著者",
+        "birthDate": "1875-07-31",
+        "deathDate": "1962-08-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

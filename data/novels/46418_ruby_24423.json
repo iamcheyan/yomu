@@ -42,5 +42,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046418",
+    "title": "ねじくり博士",
+    "titleKana": "ねじくりはかせ",
+    "sortKana": "ねしくりはかせ",
+    "firstAppearance": "「読売新聞」読売新聞社、1890（明治23）年4月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-11-30",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000051/card46418.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000051/files/46418_ruby_24423.zip",
+    "textFileId": "46418_ruby_24423",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000051/files/46418_24611.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "懐かしい未来――甦る明治・大正・昭和の未来小説",
+      "publisher": "中央公論新社",
+      "firstPublishedAt": "2001（平成13）年6月10日",
+      "inputEdition": "2001（平成13）年6月10日初版",
+      "proofreadEdition": "2001（平成13）年6月10日初版"
+    },
+    "author": "幸田露伴",
+    "authors": [
+      {
+        "personId": "000051",
+        "name": "幸田露伴",
+        "kana": "こうだろはん",
+        "roman": "Rohan Koda",
+        "role": "著者",
+        "birthDate": "1867-08-20",
+        "deathDate": "1947-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

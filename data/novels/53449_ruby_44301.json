@@ -188,5 +188,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053449",
+    "title": "ひとりすまう",
+    "titleKana": "ひとりすもう",
+    "sortKana": "ひとりすもう",
+    "firstAppearance": "「海風　第三号」1938（昭和13）年2月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-08-18",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000040/card53449.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000040/files/53449_ruby_44301.zip",
+    "textFileId": "53449_ruby_44301",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000040/files/53449_44457.html",
+    "inputBy": "いとうたかし",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "織田作之助全集　1",
+      "publisher": "講談社",
+      "firstPublishedAt": "1970（昭和45）年2月24日",
+      "inputEdition": "1970（昭和45）年2月24日第1刷",
+      "proofreadEdition": "1970（昭和45）年2月24日第1刷"
+    },
+    "author": "織田作之助",
+    "authors": [
+      {
+        "personId": "000040",
+        "name": "織田作之助",
+        "kana": "おださくのすけ",
+        "roman": "Sakunosuke Oda",
+        "role": "著者",
+        "birthDate": "1913-10-26",
+        "deathDate": "1947-01-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -54,5 +54,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001792",
+    "title": "僕の孤独癖について",
+    "titleKana": "ぼくのこどくへきについて",
+    "sortKana": "ほくのことくへきについて",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-05-18",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000067/card1792.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000067/files/1792_ruby_18273.zip",
+    "textFileId": "1792_ruby_18273",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000067/files/1792_18418.html",
+    "inputBy": "加藤恭子",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻35　七癖",
+      "publisher": "作品社",
+      "firstPublishedAt": "1994（平成6）年１月25日",
+      "inputEdition": "1994（平成6）年１月25日第1刷",
+      "proofreadEdition": "1994（平成6）年１月25日第1刷"
+    },
+    "author": "萩原朔太郎",
+    "authors": [
+      {
+        "personId": "000067",
+        "name": "萩原朔太郎",
+        "kana": "はぎわらさくたろう",
+        "roman": "Sakutaro Hagiwara",
+        "role": "著者",
+        "birthDate": "1886-11-01",
+        "deathDate": "1942-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

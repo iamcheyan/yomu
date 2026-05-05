@@ -86,5 +86,37 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050314",
+    "title": "停車場にて",
+    "titleKana": "ていしゃばにて",
+    "sortKana": "ていしやはにて",
+    "originalTitle": "AT A RAILWAY STATION",
+    "ndc": "NDC 933",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2009-05-19",
+    "updatedAt": "2019-03-02",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000258/card50314.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000258/files/50314_ruby_67453.zip",
+    "textFileId": "50314_ruby_67453",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000258/files/50314_35074.html",
+    "inputBy": "林田清明",
+    "proofreadBy": "百道百合",
+    "author": "小泉八雲",
+    "authors": [
+      {
+        "personId": "000258",
+        "name": "小泉八雲",
+        "kana": "こいずみやくも",
+        "roman": "Yakumo Koizumi",
+        "role": "著者",
+        "birthDate": "1850-06-27",
+        "deathDate": "1904-09-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

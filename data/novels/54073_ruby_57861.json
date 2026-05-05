@@ -108,5 +108,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054073",
+    "title": "天瓜粉",
+    "titleKana": "てんかふん",
+    "sortKana": "てんかふん",
+    "firstAppearance": "「詩精神」1934（昭和9）年9月号",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-01-14",
+    "updatedAt": "2015-12-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001630/card54073.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001630/files/54073_ruby_57861.zip",
+    "textFileId": "54073_ruby_57861",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001630/files/54073_57910.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・39　プロレタリア詩集（二）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年6月30日",
+      "inputEdition": "1987（昭和62）年6月30日初版",
+      "proofreadEdition": "1987（昭和62）年6月30日初版"
+    },
+    "author": "榎南謙一",
+    "authors": [
+      {
+        "personId": "001630",
+        "name": "榎南謙一",
+        "kana": "えなみけんいち",
+        "roman": "Kenichi Enami",
+        "role": "著者",
+        "birthDate": "1913",
+        "deathDate": "1945",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

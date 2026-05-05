@@ -1210,5 +1210,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "044914",
+    "title": "四国遍路日記",
+    "titleKana": "しこくへんろにっき",
+    "sortKana": "しこくへんろにつき",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-07-22",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000146/card44914.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000146/files/44914_ruby_18616.zip",
+    "textFileId": "44914_ruby_18616",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000146/files/44914_18742.html",
+    "inputBy": "さくらんぼ",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "人生遍路",
+      "publisher": "日本図書センター",
+      "firstPublishedAt": "2002（平成14）年11月25日",
+      "inputEdition": "2002（平成14）年11月25日第1刷",
+      "proofreadEdition": "2002（平成14）年11月25日第1刷"
+    },
+    "author": "種田山頭火",
+    "authors": [
+      {
+        "personId": "000146",
+        "name": "種田山頭火",
+        "kana": "たねださんとうか",
+        "roman": "Santoka Taneda",
+        "role": "著者",
+        "birthDate": "1882-12-03",
+        "deathDate": "1940-10-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

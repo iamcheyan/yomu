@@ -114,5 +114,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060441",
+    "title": "千葉海岸の詩",
+    "titleKana": "ちばかいがんのし",
+    "sortKana": "ちはかいかんのし",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-03-13",
+    "updatedAt": "2022-02-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000293/card60441.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000293/files/60441_ruby_75129.zip",
+    "textFileId": "60441_ruby_75129",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000293/files/60441_75167.html",
+    "inputBy": "村並秀昭",
+    "proofreadBy": "竹井真",
+    "baseBook1": {
+      "title": "原民喜全詩集",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2015（平成27）年7月16日",
+      "inputEdition": "2015（平成27）年7月16日第1刷",
+      "proofreadEdition": "2018（平成30）年7月25日第3刷"
+    },
+    "author": "原民喜",
+    "authors": [
+      {
+        "personId": "000293",
+        "name": "原民喜",
+        "kana": "はらたみき",
+        "roman": "Tamiki Hara",
+        "role": "著者",
+        "birthDate": "1905-11-15",
+        "deathDate": "1951-03-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

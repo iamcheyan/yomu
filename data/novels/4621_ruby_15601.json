@@ -38,5 +38,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004621",
+    "title": "関東防空大演習を嗤う",
+    "titleKana": "かんとうぼうくうだいえんしゅうをわらう",
+    "sortKana": "かんとうほうくうたいえんしゆうをわらう",
+    "firstAppearance": "「信濃毎日新聞」1933（昭和8）年8月11日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-08-09",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000535/card4621.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000535/files/4621_ruby_15601.zip",
+    "textFileId": "4621_ruby_15601",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000535/files/4621_15669.html",
+    "inputBy": "久保格",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "畜生道の地球",
+      "publisher": "中公文庫、中央公論社",
+      "firstPublishedAt": "1989（平成元）年10月10日",
+      "inputEdition": "1989（平成元）年10月10日"
+    },
+    "author": "桐生悠々",
+    "authors": [
+      {
+        "personId": "000535",
+        "name": "桐生悠々",
+        "kana": "きりゅうゆうゆう",
+        "roman": "Yuyu Kiryu",
+        "role": "著者",
+        "birthDate": "1873-05-20",
+        "deathDate": "1941-09-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -70,5 +70,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004879",
+    "title": "夾竹桃の家の女",
+    "titleKana": "きょうちくとうのいえのおんな",
+    "sortKana": "きようちくとうのいえのおんな",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-08-01",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000119/card4879.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000119/files/4879_ruby_11348.zip",
+    "textFileId": "4879_ruby_11348",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000119/files/4879_11813.html",
+    "inputBy": "氷魚",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "花の名随筆8　八月の花",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年7月10日",
+      "inputEdition": "1999（平成11）年7月10日初版第1刷"
+    },
+    "author": "中島敦",
+    "authors": [
+      {
+        "personId": "000119",
+        "name": "中島敦",
+        "kana": "なかじまあつし",
+        "roman": "Atsushi Nakajima",
+        "role": "著者",
+        "birthDate": "1909-05-05",
+        "deathDate": "1942-12-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

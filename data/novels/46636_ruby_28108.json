@@ -488,5 +488,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046636",
+    "title": "「太平洋漏水孔」漂流記",
+    "titleKana": "「ダブックウ」ひょうりゅうき",
+    "sortKana": "たふつくうひようりゆうき",
+    "firstAppearance": "「新青年」博文館、1940（昭和15）年2月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-11-07",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000125/card46636.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000125/files/46636_ruby_28108.zip",
+    "textFileId": "46636_ruby_28108",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000125/files/46636_28155.html",
+    "inputBy": "網迫、土屋隆",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "世界ＳＦ全集　34　日本のＳＦ（短篇集）古典篇",
+      "publisher": "早川書房",
+      "firstPublishedAt": "1976（昭和51）年7月15日",
+      "inputEdition": "1976（昭和51）年7月15日再版",
+      "proofreadEdition": "1976（昭和51）年7月15日再版"
+    },
+    "author": "小栗虫太郎",
+    "authors": [
+      {
+        "personId": "000125",
+        "name": "小栗虫太郎",
+        "kana": "おぐりむしたろう",
+        "roman": "Mushitaro Oguri",
+        "role": "著者",
+        "birthDate": "1901-03-14",
+        "deathDate": "1946-02-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

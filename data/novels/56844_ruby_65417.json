@@ -88,5 +88,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056844",
+    "title": "世界記録と私",
+    "titleKana": "せかいきろくとわたし",
+    "sortKana": "せかいきろくとわたし",
+    "firstAppearance": "「文藝春秋」文藝春秋社、1929（昭和4）年12月号",
+    "ndc": "NDC 782",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-08-02",
+    "updatedAt": "2018-07-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001809/card56844.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001809/files/56844_ruby_65417.zip",
+    "textFileId": "56844_ruby_65417",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001809/files/56844_65461.html",
+    "inputBy": "sogo",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "「文藝春秋」にみる昭和史　第一巻",
+      "publisher": "文藝春秋",
+      "firstPublishedAt": "1988（昭和63）年1月10日",
+      "inputEdition": "1988（昭和63）年3月15日第7刷",
+      "proofreadEdition": "1988（昭和63）年1月10日第1刷発行"
+    },
+    "author": "人見絹枝",
+    "authors": [
+      {
+        "personId": "001809",
+        "name": "人見絹枝",
+        "kana": "ひとみきぬえ",
+        "roman": "Kinue Hitomi",
+        "role": "著者",
+        "birthDate": "1907-01-01",
+        "deathDate": "1931-08-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

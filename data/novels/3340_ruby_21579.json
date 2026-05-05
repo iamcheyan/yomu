@@ -60,5 +60,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003340",
+    "title": "平安朝時代の漢文学",
+    "titleKana": "へいあんちょうじだいのかんぶんがく",
+    "sortKana": "へいあんちようしたいのかんふんかく",
+    "firstAppearance": "史學地理學同攻會夏季講演會講演、1920（大正9）年8月",
+    "ndc": "NDC 919",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-11-14",
+    "updatedAt": "2016-04-20",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000284/card3340.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000284/files/3340_ruby_21579.zip",
+    "textFileId": "3340_ruby_21579",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000284/files/3340_21580.html",
+    "inputBy": "はまなかひとし",
+    "proofreadBy": "菅野朋子",
+    "baseBook1": {
+      "title": "内藤湖南全集　第九卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1969（昭和44）年4月10日",
+      "inputEdition": "1976（昭和51）年10月10日初版第3刷"
+    },
+    "author": "内藤湖南",
+    "authors": [
+      {
+        "personId": "000284",
+        "name": "内藤湖南",
+        "kana": "ないとうこなん",
+        "roman": "Konan Naito",
+        "role": "著者",
+        "birthDate": "1866-08-26",
+        "deathDate": "1934-06-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

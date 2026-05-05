@@ -3838,5 +3838,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001803",
+    "title": "煩悩秘文書",
+    "titleKana": "ぼんのうひぶんしょ",
+    "sortKana": "ほんのうひふんしよ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-08-24",
+    "updatedAt": "2023-05-19",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000290/card1803.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000290/files/1803_ruby_31604.zip",
+    "textFileId": "1803_ruby_31604",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000290/files/1803_31624.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "一人三人全集Ⅰ時代捕物釘抜藤吉捕物覚書",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "1970（昭和45）年1月15日",
+      "inputEdition": "1970（昭和45）年1月15日初版",
+      "proofreadEdition": "1970（昭和45）年1月15日初版"
+    },
+    "author": "林不忘",
+    "authors": [
+      {
+        "personId": "000290",
+        "name": "林不忘",
+        "kana": "はやしふぼう",
+        "roman": "Fubo Hayashi",
+        "role": "著者",
+        "birthDate": "1900-01-17",
+        "deathDate": "1935-06-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

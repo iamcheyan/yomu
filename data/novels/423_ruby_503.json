@@ -68,5 +68,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000423",
+    "title": "交尾",
+    "titleKana": "こうび",
+    "sortKana": "こうひ",
+    "firstAppearance": "「作品」1931（昭和6）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-08-28",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000074/card423.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000074/files/423_ruby_503.zip",
+    "textFileId": "423_ruby_503",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000074/files/423_504.html",
+    "inputBy": "kaku",
+    "proofreadBy": "浜野智",
+    "baseBook1": {
+      "title": "日本文学全集別巻1　現代名作集",
+      "publisher": "河出書房"
+    },
+    "author": "梶井基次郎",
+    "authors": [
+      {
+        "personId": "000074",
+        "name": "梶井基次郎",
+        "kana": "かじいもとじろう",
+        "roman": "Motojiro Kajii",
+        "role": "著者",
+        "birthDate": "1901-02-17",
+        "deathDate": "1932-03-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

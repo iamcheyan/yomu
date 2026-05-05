@@ -4156,5 +4156,53 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050558",
+    "title": "白羊宮",
+    "titleKana": "はくようきゅう",
+    "sortKana": "はくようきゆう",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-05-19",
+    "updatedAt": "2017-05-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000150/card50558.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000150/files/50558_ruby_61314.zip",
+    "textFileId": "50558_ruby_61314",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000150/files/50558_61357.html",
+    "inputBy": "golconda",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "白羊宮",
+      "publisher": "金尾文淵堂",
+      "firstPublishedAt": "1906（明治39）年5月7日",
+      "inputEdition": "1906（明治39）年5月7日",
+      "proofreadEdition": "1906（明治39）年5月7日"
+    },
+    "author": "薄田泣菫、薄田淳介",
+    "authors": [
+      {
+        "personId": "000150",
+        "name": "薄田泣菫",
+        "kana": "すすきだきゅうきん",
+        "roman": "Kyukin Susukida",
+        "role": "著者",
+        "birthDate": "1877-05-19",
+        "deathDate": "1945-10-09",
+        "copyright": "なし"
+      },
+      {
+        "personId": "000975",
+        "name": "薄田淳介",
+        "kana": "すすきだじゅんすけ",
+        "roman": "Junsuke Susukida",
+        "role": "著者",
+        "birthDate": "1877-05-19",
+        "deathDate": "1945-10-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

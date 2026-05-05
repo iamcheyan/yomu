@@ -50,5 +50,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055763",
+    "title": "大和ぶり",
+    "titleKana": "やまとぶり",
+    "sortKana": "やまとふり",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-06-03",
+    "updatedAt": "2020-05-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001691/card55763.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001691/files/55763_ruby_71079.zip",
+    "textFileId": "55763_ruby_71079",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001691/files/55763_71124.html",
+    "inputBy": "岩澤秀紀",
+    "proofreadBy": "杉浦鳥見",
+    "baseBook1": {
+      "title": "大和の古文化",
+      "publisher": "近畿日本叢書、近畿日本鉄道",
+      "firstPublishedAt": "1960（昭和35）年9月16日",
+      "inputEdition": "1960（昭和35）年9月16日",
+      "proofreadEdition": "1960（昭和35）年9月16日"
+    },
+    "author": "佐佐木信綱",
+    "authors": [
+      {
+        "personId": "001691",
+        "name": "佐佐木信綱",
+        "kana": "ささきのぶつな",
+        "roman": "Nobutsuna Sasaki",
+        "role": "著者",
+        "birthDate": "1872-07-08",
+        "deathDate": "1963-12-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -74,5 +74,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "061429",
+    "title": "アラスカの氷河",
+    "titleKana": "アラスカのひょうが",
+    "sortKana": "あらすかのひようか",
+    "orthography": "旧字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2025-02-07",
+    "updatedAt": "2025-02-03",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card61429.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/61429_txt_78252.zip",
+    "textFileId": "61429_txt_78252",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/61429_78249.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "木下聡",
+    "baseBook1": {
+      "title": "百日物語",
+      "publisher": "文藝春秋新社",
+      "firstPublishedAt": "1956（昭和31）年5月20日",
+      "inputEdition": "1956（昭和31）年5月20日"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

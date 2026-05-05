@@ -48,5 +48,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051765",
+    "title": "囚われたる現文壇",
+    "titleKana": "とらわれたるげんぶんだん",
+    "sortKana": "とらわれたるけんふんたん",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-01-20",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001475/card51765.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001475/files/51765_ruby_46547.zip",
+    "textFileId": "51765_ruby_46547",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001475/files/51765_46592.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "芸術は生動す",
+      "publisher": "国文社",
+      "firstPublishedAt": "1982（昭和57）年3月30日",
+      "inputEdition": "1982（昭和57）年3月30日初版第1刷",
+      "proofreadEdition": "1982（昭和57）年3月30日初版第1刷"
+    },
+    "author": "小川未明",
+    "authors": [
+      {
+        "personId": "001475",
+        "name": "小川未明",
+        "kana": "おがわみめい",
+        "roman": "Mimei Ogawa",
+        "role": "著者",
+        "birthDate": "1882-04-07",
+        "deathDate": "1961-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -58,5 +58,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055553",
+    "title": "故郷断想",
+    "titleKana": "こきょうだんそう",
+    "sortKana": "こきようたんそう",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-02-21",
+    "updatedAt": "2015-01-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001471/card55553.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001471/files/55553_ruby_55600.zip",
+    "textFileId": "55553_ruby_55600",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001471/files/55553_55647.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "今野大力作品集",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1995（平成7）年6月30日",
+      "inputEdition": "1995（平成7）年6月30日初版",
+      "proofreadEdition": "1995（平成7）年6月30日初版"
+    },
+    "author": "今野大力",
+    "authors": [
+      {
+        "personId": "001471",
+        "name": "今野大力",
+        "kana": "こんのだいりき",
+        "roman": "Dairiki Konno",
+        "role": "著者",
+        "birthDate": "1904-02-05",
+        "deathDate": "1935-06-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

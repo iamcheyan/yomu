@@ -602,5 +602,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043684",
+    "title": "独房",
+    "titleKana": "どくぼう",
+    "sortKana": "とくほう",
+    "firstAppearance": "「中央公論　夏期特集号」中央公論社、1931（昭和6）年7月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-01-13",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000156/card43684.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000156/files/43684_ruby_24734.zip",
+    "textFileId": "43684_ruby_24734",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000156/files/43684_25187.html",
+    "inputBy": "細見祐司",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "工場細胞",
+      "publisher": "新日本文庫、新日本出版",
+      "firstPublishedAt": "1978（昭和53）年2月25日",
+      "inputEdition": "1978（昭和53）年2月25日初版",
+      "proofreadEdition": "1982（昭和57）年12月105日第2版"
+    },
+    "author": "小林多喜二",
+    "authors": [
+      {
+        "personId": "000156",
+        "name": "小林多喜二",
+        "kana": "こばやしたきじ",
+        "roman": "Takiji Kobayashi",
+        "role": "著者",
+        "birthDate": "1903-10-13",
+        "deathDate": "1933-02-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

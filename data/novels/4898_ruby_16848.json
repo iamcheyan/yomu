@@ -54,5 +54,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004898",
+    "title": "桜の花",
+    "titleKana": "さくらのはな",
+    "sortKana": "さくらのはな",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-12-08",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000150/card4898.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000150/files/4898_ruby_16848.zip",
+    "textFileId": "4898_ruby_16848",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000150/files/4898_16924.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "大野晋",
+    "baseBook1": {
+      "title": "日本の名随筆65　桜",
+      "publisher": "作品社",
+      "firstPublishedAt": "1988（昭和63）年3月25日",
+      "inputEdition": "1996（平成8）年3月30日第12刷",
+      "proofreadEdition": "1988（昭和63）年3月25日第1刷"
+    },
+    "author": "薄田泣菫",
+    "authors": [
+      {
+        "personId": "000150",
+        "name": "薄田泣菫",
+        "kana": "すすきだきゅうきん",
+        "roman": "Kyukin Susukida",
+        "role": "著者",
+        "birthDate": "1877-05-19",
+        "deathDate": "1945-10-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

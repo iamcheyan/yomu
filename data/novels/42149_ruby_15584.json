@@ -58,5 +58,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042149",
+    "title": "異国さかな雑談",
+    "titleKana": "いこくさかなざつだん",
+    "sortKana": "いこくさかなさつたん",
+    "firstAppearance": "「洛味」1937（昭和12）年6月",
+    "ndc": "NDC 596 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-06-15",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001054/card42149.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001054/files/42149_ruby_15584.zip",
+    "textFileId": "42149_ruby_15584",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001054/files/42149_15661.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "青陵随筆",
+      "publisher": "座右寶刊行會",
+      "firstPublishedAt": "1947（昭和22）年11月20日",
+      "inputEdition": "1947（昭和22）年11月20日",
+      "proofreadEdition": "1947（昭和22）年11月20日"
+    },
+    "author": "浜田青陵",
+    "authors": [
+      {
+        "personId": "001054",
+        "name": "浜田青陵",
+        "kana": "はまだせいりょう",
+        "roman": "Seiryo Hamada",
+        "role": "著者",
+        "birthDate": "1881-02-22",
+        "deathDate": "1938-07-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

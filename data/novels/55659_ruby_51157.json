@@ -82,5 +82,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055659",
+    "title": "暁月夜",
+    "titleKana": "あけづきよ",
+    "sortKana": "あけつきよ",
+    "firstAppearance": "「都の花　第百一號」金港堂、1893（明治26）年2月19日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-09-06",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000064/card55659.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000064/files/55659_ruby_51157.zip",
+    "textFileId": "55659_ruby_51157",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000064/files/55659_51158.html",
+    "inputBy": "万波通彦",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "都の花　第百一號",
+      "publisher": "金港堂",
+      "firstPublishedAt": "1893（明治26）年2月19日",
+      "inputEdition": "1893（明治26）年2月19日",
+      "proofreadEdition": "1893（明治26）年2月19日"
+    },
+    "author": "樋口一葉",
+    "authors": [
+      {
+        "personId": "000064",
+        "name": "樋口一葉",
+        "kana": "ひぐちいちよう",
+        "roman": "Ichiyo Higuchi",
+        "role": "著者",
+        "birthDate": "1872-05-02",
+        "deathDate": "1896-11-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

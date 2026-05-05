@@ -396,5 +396,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002073",
+    "title": "死",
+    "titleKana": "し",
+    "sortKana": "し",
+    "originalTitle": "Unterfahnrich Gololobow（独訳）",
+    "firstAppearance": "1910（明治43）年9月1日「学生文藝」一ノ二",
+    "ndc": "NDC 983",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-03-05",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000366/card2073.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000366/files/2073_ruby_20497.zip",
+    "textFileId": "2073_ruby_20497",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000366/files/2073_20498.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "ちはる",
+    "baseBook1": {
+      "title": "鴎外選集　第十五巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1980（昭和55）年1月22日"
+    },
+    "author": "アルチバシェッフミハイル・ペトローヴィチ",
+    "authors": [
+      {
+        "personId": "000366",
+        "name": "アルチバシェッフミハイル・ペトローヴィチ",
+        "kana": "アルチバシェッフミハイル・ペトローヴィチ",
+        "roman": "Mikhail Petrovich Artsybashev",
+        "role": "著者",
+        "birthDate": "1878-11-05",
+        "deathDate": "1927-03-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

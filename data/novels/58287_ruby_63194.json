@@ -48,5 +48,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058287",
+    "title": "既成宗教の外",
+    "titleKana": "きせいしゅうきょうのそと",
+    "sortKana": "きせいしゆうきようのそと",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-12-07",
+    "updatedAt": "2017-11-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000885/card58287.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000885/files/58287_ruby_63194.zip",
+    "textFileId": "58287_ruby_63194",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000885/files/58287_63336.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "仏教の名随筆　2",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "2006（平成18）年7月10日",
+      "inputEdition": "2006（平成18）年7月10日初版第1刷発行",
+      "proofreadEdition": "2006（平成18）年7月10日初版第1刷発行"
+    },
+    "author": "与謝野晶子",
+    "authors": [
+      {
+        "personId": "000885",
+        "name": "与謝野晶子",
+        "kana": "よさのあきこ",
+        "roman": "Akiko Yosano",
+        "role": "著者",
+        "birthDate": "1878-12-07",
+        "deathDate": "1942-05-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

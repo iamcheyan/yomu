@@ -86,5 +86,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055232",
+    "title": "さかほがひ",
+    "titleKana": "さかほがい",
+    "sortKana": "さかほかい",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-04-01",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000235/card55232.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000235/files/55232_ruby_49358.zip",
+    "textFileId": "55232_ruby_49358",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000235/files/55232_50054.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "上田敏詩集",
+      "publisher": "玄文社詩歌部",
+      "firstPublishedAt": "1923（大正12）年1月10日",
+      "inputEdition": "1923（大正12）年1月10日",
+      "proofreadEdition": "1923（大正12）年1月10日"
+    },
+    "author": "上田敏",
+    "authors": [
+      {
+        "personId": "000235",
+        "name": "上田敏",
+        "kana": "うえだびん",
+        "roman": "Bin Ueda",
+        "role": "著者",
+        "birthDate": "1874-10-30",
+        "deathDate": "1916-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

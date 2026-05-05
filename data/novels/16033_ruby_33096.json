@@ -202,5 +202,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "016033",
+    "title": "僻見",
+    "titleKana": "へきけん",
+    "sortKana": "へきけん",
+    "firstAppearance": "広告、斎藤茂吉「女性改造　第三巻第三号」1924（大正13）年3月1日、岩見重太郎「女性改造　第三巻第四号」1924（大正13）年4月1日、木村巽斎「女性改造　第三巻第八号、第三巻第九号」1924（大正13）年8月1日、9月1日",
+    "ndc": "NDC 910",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-01-21",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000879/card16033.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000879/files/16033_ruby_33096.zip",
+    "textFileId": "16033_ruby_33096",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000879/files/16033_33773.html",
+    "inputBy": "もりみつじゅんじ",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "芥川龍之介全集　第十一巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1996（平成8）年9月9日",
+      "inputEdition": "1996（平成8）年9月9日",
+      "proofreadEdition": "1996（平成8）年9月9日"
+    },
+    "author": "芥川竜之介",
+    "authors": [
+      {
+        "personId": "000879",
+        "name": "芥川竜之介",
+        "kana": "あくたがわりゅうのすけ",
+        "roman": "Ryunosuke Akutagawa",
+        "role": "著者",
+        "birthDate": "1892-03-01",
+        "deathDate": "1927-07-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

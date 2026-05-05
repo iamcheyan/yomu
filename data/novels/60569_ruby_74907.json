@@ -92,5 +92,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060569",
+    "title": "世に出るまで",
+    "titleKana": "よにでるまで",
+    "sortKana": "よにてるまて",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-02-17",
+    "updatedAt": "2022-01-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card60569.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/60569_ruby_74907.zip",
+    "textFileId": "60569_ruby_74907",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/60569_74942.html",
+    "inputBy": "toko",
+    "proofreadBy": "持田和踏",
+    "baseBook1": {
+      "title": "坂口安吾全集　15",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年10月20日",
+      "inputEdition": "1999（平成11）年10月20日初版第1刷",
+      "proofreadEdition": "1999（平成11）年10月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

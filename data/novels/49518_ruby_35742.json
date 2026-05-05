@@ -36,5 +36,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049518",
+    "title": "トイレット",
+    "titleKana": "トイレット",
+    "sortKana": "といれつと",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-10-05",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001346/card49518.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001346/files/49518_ruby_35742.zip",
+    "textFileId": "49518_ruby_35742",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001346/files/49518_36003.html",
+    "inputBy": "竹内美佐子",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "燈火節",
+      "publisher": "月曜社",
+      "firstPublishedAt": "2004（平成16）年11月30日",
+      "inputEdition": "2004（平成16）年11月30日第1刷",
+      "proofreadEdition": "2004（平成16）年11月30日第1刷"
+    },
+    "author": "片山広子",
+    "authors": [
+      {
+        "personId": "001346",
+        "name": "片山広子",
+        "kana": "かたやまひろこ",
+        "roman": "Hiroko Katayama",
+        "role": "著者",
+        "birthDate": "1878-02-10",
+        "deathDate": "1957-03-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -60,5 +60,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058927",
+    "title": "文房具漫談",
+    "titleKana": "ぶんぼうぐまんだん",
+    "sortKana": "ふんほうくまんたん",
+    "firstAppearance": "「文藝春秋」1933（昭和8）年10月号",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-04-27",
+    "updatedAt": "2020-03-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001383/card58927.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001383/files/58927_ruby_70719.zip",
+    "textFileId": "58927_ruby_70719",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001383/files/58927_70771.html",
+    "inputBy": "大久保ゆう",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆27　墨",
+      "publisher": "作品社",
+      "firstPublishedAt": "1985（昭和60）年1月25日",
+      "inputEdition": "1985（昭和60）年1月25日第1刷",
+      "proofreadEdition": "1985（昭和60）年1月25日第1刷"
+    },
+    "author": "谷崎潤一郎",
+    "authors": [
+      {
+        "personId": "001383",
+        "name": "谷崎潤一郎",
+        "kana": "たにざきじゅんいちろう",
+        "roman": "Jun'ichiro Tanizaki",
+        "role": "著者",
+        "birthDate": "1886-07-24",
+        "deathDate": "1965-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

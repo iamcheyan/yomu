@@ -1750,5 +1750,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001207",
+    "title": "耽溺",
+    "titleKana": "たんでき",
+    "sortKana": "たんてき",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-11-11",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000137/card1207.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000137/files/1207_ruby_21583.zip",
+    "textFileId": "1207_ruby_21583",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000137/files/1207_21584.html",
+    "inputBy": "久保あきら",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "日本の文学　8　田山花袋　岩野泡鳴　近松秋江",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1970（昭和45）年5月5日",
+      "inputEdition": "1970（昭和45）年5月5日初版"
+    },
+    "author": "岩野泡鳴",
+    "authors": [
+      {
+        "personId": "000137",
+        "name": "岩野泡鳴",
+        "kana": "いわのほうめい",
+        "roman": "Homei Iwano",
+        "role": "著者",
+        "birthDate": "1873-01-20",
+        "deathDate": "1920-05-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

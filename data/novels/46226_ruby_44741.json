@@ -192,5 +192,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046226",
+    "title": "マルクス主義と唯物論",
+    "titleKana": "マルクスしゅぎとゆいぶつろん",
+    "sortKana": "まるくすしゆきとゆいふつろん",
+    "firstAppearance": "「思想」1927（昭和2）年8月号",
+    "ndc": "NDC 309",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-11-16",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000218/card46226.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000218/files/46226_ruby_44741.zip",
+    "textFileId": "46226_ruby_44741",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000218/files/46226_45434.html",
+    "inputBy": "文子",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "現代日本思想大系33",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1966（昭和41）年5月30日",
+      "inputEdition": "1975（昭和50）年5月30日初版第14刷",
+      "proofreadEdition": "1966（昭和41）年5月30日"
+    },
+    "author": "三木清",
+    "authors": [
+      {
+        "personId": "000218",
+        "name": "三木清",
+        "kana": "みききよし",
+        "roman": "Kiyoshi Miki",
+        "role": "著者",
+        "birthDate": "1897-01-05",
+        "deathDate": "1945-09-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

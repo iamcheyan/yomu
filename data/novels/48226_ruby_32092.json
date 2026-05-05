@@ -206,5 +206,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048226",
+    "title": "遺篇",
+    "titleKana": "いへん",
+    "sortKana": "いへん",
+    "ndc": "NDC 289",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-08-11",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001320/card48226.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001320/files/48226_ruby_32092.zip",
+    "textFileId": "48226_ruby_32092",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001320/files/48226_32093.html",
+    "inputBy": "田中哲郎",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "西郷南洲遺訓",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1939（昭和14）年2月2日",
+      "inputEdition": "1985（昭和60）年2月20日第26刷",
+      "proofreadEdition": "1996（平成8）年4月15日第41刷"
+    },
+    "author": "西郷隆盛",
+    "authors": [
+      {
+        "personId": "001320",
+        "name": "西郷隆盛",
+        "kana": "さいごうたかもり",
+        "roman": "Takamori Saigo",
+        "role": "著者",
+        "birthDate": "1828-01-23",
+        "deathDate": "1877-09-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

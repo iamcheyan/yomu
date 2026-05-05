@@ -106,6 +106,7 @@ const YomuReader = {
         const statusAuthor = document.getElementById('status-author');
         if (statusTitle) statusTitle.textContent = book.title;
         if (statusAuthor) statusAuthor.textContent = book.author;
+        this._renderBookFrontmatter(book, bookData);
 
         // Flatten book content into paragraphs
         this._paragraphs = [];
@@ -165,6 +166,51 @@ const YomuReader = {
         this._startFuriganaProcessor();
 
         return true;
+    },
+
+    _renderBookFrontmatter(book, bookData) {
+        const container = document.getElementById('book-frontmatter');
+        if (!container) return;
+
+        const info = bookData.aozora_info || {};
+        const authors = info.authors || [];
+        const author = authors[0] || {};
+        const baseBook = info.baseBook1 || {};
+        const rows = [];
+
+        const addRow = (label, value) => {
+            if (!value) return;
+            rows.push(`
+                <div class="frontmatter-row">
+                    <div class="frontmatter-label">${this._escapeHtml(label)}</div>
+                    <div class="frontmatter-value">${this._escapeHtml(value)}</div>
+                </div>
+            `);
+        };
+
+        addRow('作品読み', info.titleKana);
+        addRow('分類', info.ndc);
+        addRow('文字遣い', info.orthography);
+        addRow('初出', info.firstAppearance);
+        addRow('公開日', info.publishedAt);
+        addRow('最終更新', info.updatedAt);
+        addRow('著者読み', [author.kana, author.roman].filter(Boolean).join(' / '));
+        addRow('生没年', [author.birthDate, author.deathDate].filter(Boolean).join(' - '));
+        addRow('底本', baseBook.title);
+        addRow('出版社', baseBook.publisher);
+        addRow('底本初版', baseBook.firstPublishedAt);
+        addRow('入力・校正', [info.inputBy, info.proofreadBy].filter(Boolean).join(' / '));
+
+        const desc = bookData.desc || book.desc || '';
+        const cardLink = info.cardUrl
+            ? `<a class="frontmatter-link" href="${this._escapeAttr(info.cardUrl)}" target="_blank" rel="noopener noreferrer">青空文庫 図書カード</a>`
+            : '';
+
+        container.innerHTML = `
+            ${desc ? `<p class="frontmatter-desc">${this._escapeHtml(desc)}</p>` : ''}
+            ${rows.length ? `<section class="frontmatter-section"><h2>作品情報</h2><div class="frontmatter-grid">${rows.join('')}</div>${cardLink}</section>` : ''}
+            <div class="frontmatter-start">本文</div>
+        `;
     },
 
     _renderNextChunk() {
@@ -415,6 +461,10 @@ const YomuReader = {
 
     getCurrentBook() {
         return this._currentBook;
+    },
+
+    getCurrentBookData() {
+        return this._currentBookData;
     },
 
     _escapeHtml(str) {

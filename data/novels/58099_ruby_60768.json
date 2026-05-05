@@ -52,5 +52,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058099",
+    "title": "立春開門",
+    "titleKana": "りっしゅんかいもん",
+    "sortKana": "りつしゆんかいもん",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-02-04",
+    "updatedAt": "2017-01-12",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001906/card58099.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001906/files/58099_ruby_60768.zip",
+    "textFileId": "58099_ruby_60768",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001906/files/58099_60803.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆17　春",
+      "publisher": "作品社",
+      "firstPublishedAt": "1984（昭和59）年3月25日",
+      "inputEdition": "1984（昭和59）年3月25日第1刷",
+      "proofreadEdition": "1984（昭和59）年3月25日第1刷"
+    },
+    "author": "河井寛次郎",
+    "authors": [
+      {
+        "personId": "001906",
+        "name": "河井寛次郎",
+        "kana": "かわいかんじろう",
+        "roman": "Kanjiro Kawai",
+        "role": "著者",
+        "birthDate": "1890-08-24",
+        "deathDate": "1966-11-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

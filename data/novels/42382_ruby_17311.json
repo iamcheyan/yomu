@@ -292,5 +292,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042382",
+    "title": "旅なかま",
+    "titleKana": "たびなかま",
+    "sortKana": "たひなかま",
+    "originalTitle": "REJSEKAMMERATEN",
+    "ndc": "NDC K949",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-03-04",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000019/card42382.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000019/files/42382_ruby_17311.zip",
+    "textFileId": "42382_ruby_17311",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000019/files/42382_21525.html",
+    "inputBy": "大久保ゆう",
+    "proofreadBy": "秋鹿",
+    "baseBook1": {
+      "title": "新訳アンデルセン童話集第一巻",
+      "publisher": "同和春秋社",
+      "firstPublishedAt": "1955（昭和30）年7月20日",
+      "inputEdition": "1955（昭和30）年7月20日初版",
+      "proofreadEdition": "1955（昭和30）年7月20日初版"
+    },
+    "author": "アンデルセンハンス・クリスチャン",
+    "authors": [
+      {
+        "personId": "000019",
+        "name": "アンデルセンハンス・クリスチャン",
+        "kana": "アンデルセンハンス・クリスチャン",
+        "roman": "Hans Christian Andersen",
+        "role": "著者",
+        "birthDate": "1805-04-02",
+        "deathDate": "1875-08-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

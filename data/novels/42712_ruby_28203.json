@@ -300,5 +300,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042712",
+    "title": "三つの悲憤",
+    "titleKana": "みっつのひふん",
+    "sortKana": "みつつのひふん",
+    "subtitle": "――近代伝説――",
+    "subtitleKana": "――きんだいでんせつ――",
+    "firstAppearance": "「知性」1940（昭和15）年10月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-11-23",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000906/card42712.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000906/files/42712_ruby_28203.zip",
+    "textFileId": "42712_ruby_28203",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000906/files/42712_28557.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "豊島与志雄著作集　第四巻（小説Ⅳ）",
+      "publisher": "未来社",
+      "firstPublishedAt": "1965（昭和40）年6月25日",
+      "inputEdition": "1965（昭和40）年6月25日第1刷",
+      "proofreadEdition": "1965（昭和40）年6月25日第1刷"
+    },
+    "author": "豊島与志雄",
+    "authors": [
+      {
+        "personId": "000906",
+        "name": "豊島与志雄",
+        "kana": "とよしまよしお",
+        "roman": "Yoshio Toyoshima",
+        "role": "著者",
+        "birthDate": "1890-11-27",
+        "deathDate": "1955-06-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

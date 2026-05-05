@@ -174,5 +174,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045797",
+    "title": "海の霧",
+    "titleKana": "うみのきり",
+    "sortKana": "うみのきり",
+    "firstAppearance": "「文藝春秋　第九年第九号」1931（昭和6）年9月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-05-04",
+    "updatedAt": "2016-04-04",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card45797.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/45797_ruby_38016.zip",
+    "textFileId": "45797_ruby_38016",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/45797_38829.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "坂口安吾全集　01",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年5月20日",
+      "inputEdition": "1999（平成11）年5月20日初版第1刷",
+      "proofreadEdition": "1999（平成11）年5月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

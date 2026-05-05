@@ -106,5 +106,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "005077",
+    "title": "リギ山上の一夜",
+    "titleKana": "リギさんじょうのいちや",
+    "sortKana": "りきさんしようのいちや",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-07-13",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001059/card5077.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001059/files/5077_ruby_38455.zip",
+    "textFileId": "5077_ruby_38455",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001059/files/5077_39446.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "日本の名随筆72　夜",
+      "publisher": "作品社",
+      "firstPublishedAt": "1988（昭和63）年10月25日",
+      "inputEdition": "1999（平成11）年4月30日第7刷",
+      "proofreadEdition": "1999（平成11）年4月30日第7刷"
+    },
+    "author": "斎藤茂吉",
+    "authors": [
+      {
+        "personId": "001059",
+        "name": "斎藤茂吉",
+        "kana": "さいとうもきち",
+        "roman": "Mokichi Saito",
+        "role": "著者",
+        "birthDate": "1882-5-14",
+        "deathDate": "1953-2-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

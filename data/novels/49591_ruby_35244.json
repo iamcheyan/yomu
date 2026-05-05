@@ -64,5 +64,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049591",
+    "title": "尾瀬沼の四季",
+    "titleKana": "おぜぬまのしき",
+    "sortKana": "おせぬまのしき",
+    "firstAppearance": "「山岳　第一九年第一号」1925（大正14）年5月",
+    "ndc": "NDC 786",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-07-26",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001378/card49591.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001378/files/49591_ruby_35244.zip",
+    "textFileId": "49591_ruby_35244",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001378/files/49591_35557.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "山の旅　大正・昭和篇",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2003（平成15）年11月14日",
+      "inputEdition": "2007（平成19）年8月6日第5刷",
+      "proofreadEdition": "2007（平成19）年8月6日第5刷"
+    },
+    "author": "平野長蔵",
+    "authors": [
+      {
+        "personId": "001378",
+        "name": "平野長蔵",
+        "kana": "ひらのちょうぞう",
+        "roman": "Chozo Hirano",
+        "role": "著者",
+        "birthDate": "1870-09-05",
+        "deathDate": "1930-08-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -88,5 +88,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043257",
+    "title": "徒然草の鑑賞",
+    "titleKana": "つれづれぐさのかんしょう",
+    "sortKana": "つれつれくさのかんしよう",
+    "firstAppearance": "「文学」1934（昭和9）年1月",
+    "ndc": "NDC 901",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-01-06",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000042/card43257.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000042/files/43257_ruby_17008.zip",
+    "textFileId": "43257_ruby_17008",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000042/files/43257_17197.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "寺田寅彦全集　第七巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1997（平成9）年6月5日",
+      "inputEdition": "1997（平成9）年6月5日",
+      "proofreadEdition": "1997（平成9）年6月5日"
+    },
+    "author": "寺田寅彦",
+    "authors": [
+      {
+        "personId": "000042",
+        "name": "寺田寅彦",
+        "kana": "てらだとらひこ",
+        "roman": "Torahiko Terada",
+        "role": "著者",
+        "birthDate": "1878-11-28",
+        "deathDate": "1935-12-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

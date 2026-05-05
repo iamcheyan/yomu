@@ -54,5 +54,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059331",
+    "title": "詩に告別した室生犀星君へ",
+    "titleKana": "しにこくべつしたむろおさいせいくんへ",
+    "sortKana": "しにこくへつしたむろおさいせいくんへ",
+    "firstAppearance": "「文藝　第二卷第十號」1934（昭和9）年10月号",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-08-01",
+    "updatedAt": "2020-07-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000067/card59331.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000067/files/59331_ruby_71389.zip",
+    "textFileId": "59331_ruby_71389",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000067/files/59331_71438.html",
+    "inputBy": "きりんの手紙",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "萩原朔太郎全集　第九卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1976（昭和51）年5月25日",
+      "inputEdition": "1976（昭和51）年5月25日初版",
+      "proofreadEdition": "1976（昭和51）年5月25日初版"
+    },
+    "author": "萩原朔太郎",
+    "authors": [
+      {
+        "personId": "000067",
+        "name": "萩原朔太郎",
+        "kana": "はぎわらさくたろう",
+        "roman": "Sakutaro Hagiwara",
+        "role": "著者",
+        "birthDate": "1886-11-01",
+        "deathDate": "1942-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

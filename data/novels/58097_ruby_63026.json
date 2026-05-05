@@ -124,5 +124,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058097",
+    "title": "物語の絵画化についてなど",
+    "titleKana": "ものがたりのかいがかについてなど",
+    "sortKana": "ものかたりのかいかかについてなと",
+    "ndc": "NDC 702",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-11-14",
+    "updatedAt": "2017-10-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001870/card58097.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001870/files/58097_ruby_63026.zip",
+    "textFileId": "58097_ruby_63026",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001870/files/58097_63074.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆23　画",
+      "publisher": "作品社",
+      "firstPublishedAt": "1984（昭和59）年9月25日",
+      "inputEdition": "1984（昭和59）年9月25日第1刷",
+      "proofreadEdition": "1984（昭和59）年9月25日第1刷"
+    },
+    "author": "亀井勝一郎",
+    "authors": [
+      {
+        "personId": "001870",
+        "name": "亀井勝一郎",
+        "kana": "かめいかついちろう",
+        "roman": "Katsuichiro Kamei",
+        "role": "著者",
+        "birthDate": "1907-02-06",
+        "deathDate": "1966-11-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

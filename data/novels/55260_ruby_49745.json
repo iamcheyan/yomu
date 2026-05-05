@@ -62,5 +62,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055260",
+    "title": "幼少の思ひ出",
+    "titleKana": "ようしょうのおもいで",
+    "sortKana": "ようしようのおもいて",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-01-22",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001581/card55260.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001581/files/55260_ruby_49745.zip",
+    "textFileId": "55260_ruby_49745",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001581/files/55260_49746.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻44　記憶",
+      "publisher": "作品社",
+      "firstPublishedAt": "1994（平成6）年10月25日",
+      "inputEdition": "1994（平成6）年10月25日第1刷",
+      "proofreadEdition": "1994（平成6）年10月25日第1刷"
+    },
+    "author": "正宗白鳥",
+    "authors": [
+      {
+        "personId": "001581",
+        "name": "正宗白鳥",
+        "kana": "まさむねはくちょう",
+        "roman": "Hakucho Masamune",
+        "role": "著者",
+        "birthDate": "1879-03-03",
+        "deathDate": "1962-10-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -28,5 +28,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049838",
+    "title": "『黒影集』の序詞",
+    "titleKana": "くろかげしゅうのじょし",
+    "sortKana": "くろかけしゆうのしよし",
+    "firstAppearance": "「黒影集」新生社、1921（大正10）年",
+    "ndc": "NDC 913 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-09-13",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000154/card49838.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000154/files/49838_ruby_35616.zip",
+    "textFileId": "49838_ruby_35616",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000154/files/49838_35948.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "伝奇ノ匣6　田中貢太郎日本怪談事典",
+      "publisher": "学研Ｍ文庫、学習研究社",
+      "firstPublishedAt": "2003（平成15）年10月22日",
+      "inputEdition": "2003（平成15）年10月22日初版",
+      "proofreadEdition": "2003（平成15）年10月22日初版"
+    },
+    "author": "田中貢太郎",
+    "authors": [
+      {
+        "personId": "000154",
+        "name": "田中貢太郎",
+        "kana": "たなかこうたろう",
+        "roman": "Kotaro Tanaka",
+        "role": "著者",
+        "birthDate": "1880-03-02",
+        "deathDate": "1941-02-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

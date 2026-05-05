@@ -170,5 +170,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054074",
+    "title": "農村から",
+    "titleKana": "のうそんから",
+    "sortKana": "のうそんから",
+    "subtitle": "――失業反対――",
+    "subtitleKana": "――しつぎょうはんたい――",
+    "firstAppearance": "「プロレタリア詩」1931（昭和6）年4月号",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-01-24",
+    "updatedAt": "2015-12-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001630/card54074.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001630/files/54074_ruby_57879.zip",
+    "textFileId": "54074_ruby_57879",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001630/files/54074_57928.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・39　プロレタリア詩集（二）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年6月30日",
+      "inputEdition": "1987（昭和62）年6月30日初版",
+      "proofreadEdition": "1987（昭和62）年6月30日初版"
+    },
+    "author": "榎南謙一",
+    "authors": [
+      {
+        "personId": "001630",
+        "name": "榎南謙一",
+        "kana": "えなみけんいち",
+        "roman": "Kenichi Enami",
+        "role": "著者",
+        "birthDate": "1913",
+        "deathDate": "1945",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

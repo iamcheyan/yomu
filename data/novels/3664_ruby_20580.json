@@ -802,5 +802,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003664",
+    "title": "縁結び",
+    "titleKana": "えんむすび",
+    "sortKana": "えんむすひ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-10-19",
+    "updatedAt": "2018-03-07",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card3664.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/3664_ruby_20580.zip",
+    "textFileId": "3664_ruby_20580",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/3664_20581.html",
+    "inputBy": "牡蠣右衛門",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "ちくま日本文学全集　泉鏡花",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1991（平成3年）10月20日",
+      "inputEdition": "1995（平成7年）8月15日第2刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

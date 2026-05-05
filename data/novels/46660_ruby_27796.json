@@ -222,5 +222,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046660",
+    "title": "緑衣の女",
+    "titleKana": "りょくいのおんな",
+    "sortKana": "りよくいのおんな",
+    "firstAppearance": "「秘密探偵雑誌」1923（大正12）年7月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-09-29",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000308/card46660.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000308/files/46660_ruby_27796.zip",
+    "textFileId": "46660_ruby_27796",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000308/files/46660_27920.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本ミステリーの一世紀　上巻",
+      "publisher": "廣済堂出版",
+      "firstPublishedAt": "1995（平成7）年5月15日",
+      "inputEdition": "1995（平成7）年5月15日初版",
+      "proofreadEdition": "1995（平成7）年5月15日初版"
+    },
+    "author": "松本泰",
+    "authors": [
+      {
+        "personId": "000308",
+        "name": "松本泰",
+        "kana": "まつもとたい",
+        "roman": "Tai Matsumoto",
+        "role": "著者",
+        "birthDate": "1887-02-22",
+        "deathDate": "1939-04-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

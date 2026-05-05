@@ -52,5 +52,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002426",
+    "title": "霧の不二、月の不二",
+    "titleKana": "きりのふじ、つきのふじ",
+    "sortKana": "きりのふしつきのふし",
+    "ndc": "NDC 291 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-11-10",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000027/card2426.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000027/files/2426_ruby_24153.zip",
+    "textFileId": "2426_ruby_24153",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000027/files/2426_24393.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆58　月",
+      "publisher": "作品社",
+      "firstPublishedAt": "1987（昭和62）年8月25日",
+      "inputEdition": "1987（昭和62）年8月25日第1刷",
+      "proofreadEdition": "1999（平成11）年4月30日第10刷"
+    },
+    "author": "小島烏水",
+    "authors": [
+      {
+        "personId": "000027",
+        "name": "小島烏水",
+        "kana": "こじまうすい",
+        "roman": "Usui Kojima",
+        "role": "著者",
+        "birthDate": "1873-12-29",
+        "deathDate": "1948-12-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

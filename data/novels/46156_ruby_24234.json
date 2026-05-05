@@ -54,5 +54,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046156",
+    "title": "幕末維新懐古談",
+    "titleKana": "ばくまついしんかいこだん",
+    "sortKana": "はくまついしんかいこたん",
+    "subtitle": "80 田村松魚の言葉",
+    "subtitleKana": "80 たむらしょうぎょのことば",
+    "ndc": "NDC 712 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-10-16",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001226/card46156.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001226/files/46156_ruby_24234.zip",
+    "textFileId": "46156_ruby_24234",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001226/files/46156_24262.html",
+    "inputBy": "しだひろし",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "幕末維新懐古談",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1995（平成7）年1月17日",
+      "inputEdition": "1995（平成7）年1月17日第1刷",
+      "proofreadEdition": "1995（平成7）年1月17日第1刷"
+    },
+    "author": "田村松魚",
+    "authors": [
+      {
+        "personId": "001226",
+        "name": "田村松魚",
+        "kana": "たむらしょうぎょ",
+        "roman": "Shogyo Tamura",
+        "role": "著者",
+        "birthDate": "1877",
+        "deathDate": "1948",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

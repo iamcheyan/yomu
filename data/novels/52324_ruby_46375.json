@@ -54,5 +54,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052324",
+    "title": "下司味礼賛",
+    "titleKana": "げすみらいさん",
+    "sortKana": "けすみらいさん",
+    "ndc": "NDC 596",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-01-13",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001558/card52324.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001558/files/52324_ruby_46375.zip",
+    "textFileId": "52324_ruby_46375",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001558/files/52324_46421.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "ロッパの悲食記",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1995（平成7）年8月24日",
+      "inputEdition": "2007（平成19）年9月5日第3刷",
+      "proofreadEdition": "2007（平成19）年9月5日第3刷"
+    },
+    "author": "古川緑波",
+    "authors": [
+      {
+        "personId": "001558",
+        "name": "古川緑波",
+        "kana": "ふるかわろっぱ",
+        "roman": "Roppa Furukawa",
+        "role": "著者",
+        "birthDate": "1903-08-13",
+        "deathDate": "1961-01-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

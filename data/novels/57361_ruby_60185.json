@@ -250,5 +250,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057361",
+    "title": "俳句上の京と江戸",
+    "titleKana": "はいくじょうのきょうとえど",
+    "sortKana": "はいくしようのきようとえと",
+    "firstAppearance": "「種ふくべ」1900（明治33）年4月",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-12-25",
+    "updatedAt": "2016-12-09",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000305/card57361.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000305/files/57361_ruby_60185.zip",
+    "textFileId": "57361_ruby_60185",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000305/files/57361_60229.html",
+    "inputBy": "酒井和郎",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "俳諧大要",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1955（昭和30）年5月5日",
+      "inputEdition": "1989（平成元）年11月5日第8刷",
+      "proofreadEdition": "1997（平成9）年4月1日第10刷"
+    },
+    "author": "正岡子規",
+    "authors": [
+      {
+        "personId": "000305",
+        "name": "正岡子規",
+        "kana": "まさおかしき",
+        "roman": "Shiki Masaoka",
+        "role": "著者",
+        "birthDate": "1867-10-14",
+        "deathDate": "1902-09-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -54,5 +54,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003948",
+    "title": "からたち",
+    "titleKana": "からたち",
+    "sortKana": "からたち",
+    "firstAppearance": "「文芸春秋」1939（昭和14）年6月号",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-12-09",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000311/card3948.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000311/files/3948_ruby_12507.zip",
+    "textFileId": "3948_ruby_12507",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000311/files/3948_12786.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "磐余彦",
+    "baseBook1": {
+      "title": "宮本百合子全集　第十七巻",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1981（昭和56）年3月20日",
+      "inputEdition": "1986（昭和61）年3月20日第4刷"
+    },
+    "author": "宮本百合子",
+    "authors": [
+      {
+        "personId": "000311",
+        "name": "宮本百合子",
+        "kana": "みやもとゆりこ",
+        "roman": "Yuriko Miyamoto",
+        "role": "著者",
+        "birthDate": "1899-02-13",
+        "deathDate": "1951-01-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

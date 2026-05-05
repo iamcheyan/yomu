@@ -354,5 +354,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050105",
+    "title": "金時計",
+    "titleKana": "きんどけい",
+    "sortKana": "きんとけい",
+    "firstAppearance": "「侠黒兒」少年文學、博文館、1893（明治26）年6月28日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-09-25",
+    "updatedAt": "2014-09-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card50105.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/50105_ruby_54181.zip",
+    "textFileId": "50105_ruby_54181",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/50105_54220.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "清角克由",
+    "baseBook1": {
+      "title": "泉鏡花集成1",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1996（平成8）年8月22日",
+      "inputEdition": "1996（平成8）年8月22日第1刷",
+      "proofreadEdition": "1996（平成8）年8月22日第1刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

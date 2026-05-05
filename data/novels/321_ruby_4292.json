@@ -202,5 +202,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000321",
+    "title": "二老人",
+    "titleKana": "にろうじん",
+    "sortKana": "にろうしん",
+    "firstAppearance": "「文章世界」1908（明治41）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-07-12",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000038/card321.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000038/files/321_ruby_4292.zip",
+    "textFileId": "321_ruby_4292",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000038/files/321_15946.html",
+    "inputBy": "紅邪鬼",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "号外・少年の悲哀　他六篇",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1939（昭和14）年4月17日、1960（昭和35）年1月25日　第14刷改版",
+      "inputEdition": "1981（昭和56）年4月10日第34刷",
+      "proofreadEdition": "2000（平成12）年7月14日第38刷"
+    },
+    "author": "国木田独歩",
+    "authors": [
+      {
+        "personId": "000038",
+        "name": "国木田独歩",
+        "kana": "くにきだどっぽ",
+        "roman": "Doppo Kunikida",
+        "role": "著者",
+        "birthDate": "1871-08-30",
+        "deathDate": "1908-06-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

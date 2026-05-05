@@ -102,5 +102,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001674",
+    "title": "燕枝芸談",
+    "titleKana": "えんしげいだん",
+    "sortKana": "えんしけいたん",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-11-20",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000274/card1674.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000274/files/1674_ruby_21035.zip",
+    "textFileId": "1674_ruby_21035",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000274/files/1674_21036.html",
+    "inputBy": "加藤恭子",
+    "proofreadBy": "菅野朋子",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻29　落語",
+      "publisher": "作品社",
+      "firstPublishedAt": "1993（平成5）年7月25日",
+      "inputEdition": "1995（平成7）年3月30日第2刷",
+      "proofreadEdition": "1993（平成5）年7月25日第1刷"
+    },
+    "author": "談洲楼燕枝　二代",
+    "authors": [
+      {
+        "personId": "000274",
+        "name": "談洲楼燕枝　二代",
+        "kana": "だんしゅうろうえんし　にだい",
+        "roman": "Enshi Nidai Danshuro",
+        "role": "著者",
+        "birthDate": "1879",
+        "deathDate": "1935",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

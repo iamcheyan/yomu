@@ -572,5 +572,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003517",
+    "title": "空襲下の日本",
+    "titleKana": "くうしゅうかのにほん",
+    "sortKana": "くうしゆうかのにほん",
+    "firstAppearance": "「日ノ出　付録　國難來る！　日本はどうなるか」1933（昭和8）年4月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-12-26",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card3517.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/3517_ruby_20402.zip",
+    "textFileId": "3517_ruby_20402",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/3517_20577.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "海野十三全集　第３巻　深夜の市長",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1988（昭和63）年6月30日",
+      "inputEdition": "1988（昭和63）年6月30日第1版第1刷",
+      "proofreadEdition": "1988（昭和63）年6月30日第1版第1刷"
+    },
+    "author": "海野十三",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

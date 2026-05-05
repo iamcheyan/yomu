@@ -50,5 +50,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049818",
+    "title": "人身御供と人柱",
+    "titleKana": "ひとみごくうとひとばしら",
+    "sortKana": "ひとみこくうとひとはしら",
+    "firstAppearance": "「中央史壇　第一一巻第二号生類犠牲研究」1925（大正14）年8月",
+    "ndc": "NDC 385",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-10-04",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001344/card49818.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001344/files/49818_ruby_39454.zip",
+    "textFileId": "49818_ruby_39454",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001344/files/49818_40533.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "しだひろし",
+    "baseBook1": {
+      "title": "先住民と差別　喜田貞吉歴史民俗学傑作選",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "2008（平成20）年1月30日",
+      "inputEdition": "2008（平成20）年1月30日初版",
+      "proofreadEdition": "2008（平成20）年1月30日初版"
+    },
+    "author": "喜田貞吉",
+    "authors": [
+      {
+        "personId": "001344",
+        "name": "喜田貞吉",
+        "kana": "きたさだきち",
+        "roman": "Sadakichi Kita",
+        "role": "著者",
+        "birthDate": "1871-07-11",
+        "deathDate": "1939-07-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

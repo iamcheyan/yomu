@@ -690,5 +690,36 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058275",
+    "title": "夢日記",
+    "titleKana": "ゆめにっき",
+    "sortKana": "ゆめにつき",
+    "originalTitle": "DREAMS",
+    "ndc": "NDC 933",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2017-09-16",
+    "updatedAt": "2019-11-22",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001882/card58275.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001882/files/58275_ruby_62237.zip",
+    "textFileId": "58275_ruby_62237",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001882/files/58275_62238.html",
+    "inputBy": "The Creative CAT",
+    "author": "キングスフォードアンナ",
+    "authors": [
+      {
+        "personId": "001882",
+        "name": "キングスフォードアンナ",
+        "kana": "キングスフォードアンナ",
+        "roman": "Anna Kingsford",
+        "role": "著者",
+        "birthDate": "1846-09-16",
+        "deathDate": "1888-02-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

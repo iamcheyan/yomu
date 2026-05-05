@@ -164,5 +164,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045249",
+    "title": "南極の怪事",
+    "titleKana": "なんきょくのかいじ",
+    "sortKana": "なんきよくのかいし",
+    "firstAppearance": "「中学世界」1905（明治38）年1月号",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-05-29",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000077/card45249.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000077/files/45249_ruby_34670.zip",
+    "textFileId": "45249_ruby_34670",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000077/files/45249_35068.html",
+    "inputBy": "田中哲郎",
+    "proofreadBy": "山本弘子",
+    "baseBook1": {
+      "title": "日本ＳＦ古典集成〔Ⅰ〕",
+      "publisher": "早川書房",
+      "firstPublishedAt": "1977（昭和52）年7月15日",
+      "inputEdition": "1977（昭和52）年7月15日",
+      "proofreadEdition": "1977（昭和52）年7月15日"
+    },
+    "author": "押川春浪",
+    "authors": [
+      {
+        "personId": "000077",
+        "name": "押川春浪",
+        "kana": "おしかわしゅんろう",
+        "roman": "Shunro Oshikawa",
+        "role": "著者",
+        "birthDate": "1876-03-21",
+        "deathDate": "1914-11-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

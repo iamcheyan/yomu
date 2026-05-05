@@ -506,5 +506,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001478",
+    "title": "旗本退屈男",
+    "titleKana": "はたもとたいくつおとこ",
+    "sortKana": "はたもとたいくつおとこ",
+    "subtitle": "11 第十一話　千代田城へ乗り込んだ退屈男",
+    "subtitleKana": "11 だいじゅういちわ　ちよだじょうへのりこんだたいくつおとこ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-12-18",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000111/card1478.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000111/files/1478_ruby_6087.zip",
+    "textFileId": "1478_ruby_6087",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000111/files/1478_53925.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "大野晋",
+    "baseBook1": {
+      "title": "旗本退屈男",
+      "publisher": "春陽文庫、春陽堂書店",
+      "firstPublishedAt": "1982（昭和57）年7月20日新装第1刷",
+      "inputEdition": "1982（昭和57）年7月20日新装第1刷"
+    },
+    "author": "佐々木味津三",
+    "authors": [
+      {
+        "personId": "000111",
+        "name": "佐々木味津三",
+        "kana": "ささきみつぞう",
+        "roman": "Mitsuzo Sasaki",
+        "role": "著者",
+        "birthDate": "1896-03-18",
+        "deathDate": "1934-02-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

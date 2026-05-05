@@ -48,5 +48,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058931",
+    "title": "吉右衛門の第一印象",
+    "titleKana": "きちえもんのだいいちいんしょう",
+    "sortKana": "きちえもんのたいいちいんしよう",
+    "ndc": "NDC 774",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-09-05",
+    "updatedAt": "2018-08-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001884/card58931.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001884/files/58931_ruby_65640.zip",
+    "textFileId": "58931_ruby_65640",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001884/files/58931_65735.html",
+    "inputBy": "大久保ゆう",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻10　芝居",
+      "publisher": "作品社",
+      "firstPublishedAt": "1991（平成3）年12月25日",
+      "inputEdition": "1991（平成3）年12月25日第1刷",
+      "proofreadEdition": "1991（平成3）年12月25日第1刷"
+    },
+    "author": "小宮豊隆",
+    "authors": [
+      {
+        "personId": "001884",
+        "name": "小宮豊隆",
+        "kana": "こみやとよたか",
+        "roman": "Toyotaka Komiya",
+        "role": "著者",
+        "birthDate": "1884-03-07",
+        "deathDate": "1966-05-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

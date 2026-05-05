@@ -1006,5 +1006,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059472",
+    "title": "純情小曲集",
+    "titleKana": "じゅんじょうしょうきょくしゅう",
+    "sortKana": "しゆんしようしようきよくしゆう",
+    "subtitle": "01 珍らしいものをかくしてゐる人への序文",
+    "subtitleKana": "01 めずらしいものをかくしているひとへのじょぶん",
+    "firstAppearance": "「純情小曲集」新潮社、1925（大正14）年8月12日",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-11-01",
+    "updatedAt": "2022-10-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001579/card59472.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001579/files/59472_txt_76470.zip",
+    "textFileId": "59472_txt_76470",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001579/files/59472_76506.html",
+    "inputBy": "きりんの手紙",
+    "proofreadBy": "友理",
+    "baseBook1": {
+      "title": "萩原朔太郎全集　第二卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1976（昭和51）年3月25日",
+      "inputEdition": "1976（昭和51）年3月25日初版",
+      "proofreadEdition": "1986（昭和61）年11月10日補訂版1刷"
+    },
+    "author": "室生犀星",
+    "authors": [
+      {
+        "personId": "001579",
+        "name": "室生犀星",
+        "kana": "むろうさいせい",
+        "roman": "Saisei Murou",
+        "role": "著者",
+        "birthDate": "1889-08-01",
+        "deathDate": "1962-03-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

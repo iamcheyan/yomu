@@ -108,5 +108,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043820",
+    "title": "レンズとフィルム",
+    "titleKana": "レンズとフィルム",
+    "sortKana": "れんすとふいるむ",
+    "subtitle": "――それも一つの性格である――",
+    "subtitleKana": "――それもひとつのせいかくである――",
+    "firstAppearance": "「シナリオ」1950（昭和25）年11月号",
+    "ndc": "NDC 778",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-04-28",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001166/card43820.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001166/files/43820_ruby_37848.zip",
+    "textFileId": "43820_ruby_37848",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001166/files/43820_38562.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "生きている空間――主体的映画芸術論――",
+      "publisher": "てんびん社",
+      "firstPublishedAt": "1971（昭和46）年12月7日",
+      "inputEdition": "1976（昭和51）年12月15日第6刷",
+      "proofreadEdition": "1973（昭和48）年3月20日第2刷"
+    },
+    "author": "中井正一",
+    "authors": [
+      {
+        "personId": "001166",
+        "name": "中井正一",
+        "kana": "なかいまさかず",
+        "roman": "Masakazu Nakai",
+        "role": "著者",
+        "birthDate": "1900-02-14",
+        "deathDate": "1952-05-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

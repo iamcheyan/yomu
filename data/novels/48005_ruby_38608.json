@@ -184,5 +184,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048005",
+    "title": "或る探訪記者の話",
+    "titleKana": "あるたんぼうきしゃのはなし",
+    "sortKana": "あるたんほうきしやのはなし",
+    "firstAppearance": "「新青年　一〇巻一四号」1929（昭和4）年12月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-07-17",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000221/card48005.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000221/files/48005_ruby_38608.zip",
+    "textFileId": "48005_ruby_38608",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000221/files/48005_39662.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "平林初之輔探偵小説選Ⅰ〔論創ミステリ叢書1〕",
+      "publisher": "論創社",
+      "firstPublishedAt": "2003（平成15）年10月10日",
+      "inputEdition": "2003（平成15）年10月10日初版第1刷",
+      "proofreadEdition": "2003（平成15）年10月10日初版第1刷"
+    },
+    "author": "平林初之輔",
+    "authors": [
+      {
+        "personId": "000221",
+        "name": "平林初之輔",
+        "kana": "ひらばやしはつのすけ",
+        "roman": "Hatsunosuke Hirabayashi",
+        "role": "著者",
+        "birthDate": "1892-11-08",
+        "deathDate": "1931-06-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

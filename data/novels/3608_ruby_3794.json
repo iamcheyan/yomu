@@ -72,5 +72,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003608",
+    "title": "読書弁",
+    "titleKana": "どくしょべん",
+    "sortKana": "とくしよへん",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-09-12",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000305/card3608.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000305/files/3608_ruby_3794.zip",
+    "textFileId": "3608_ruby_3794",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000305/files/3608_17700.html",
+    "inputBy": "渡邉つよし",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆36　読",
+      "publisher": "作品社",
+      "firstPublishedAt": "1985（昭和60）年10月25日",
+      "inputEdition": "1991（平成3）年9月1日第10刷"
+    },
+    "author": "正岡子規",
+    "authors": [
+      {
+        "personId": "000305",
+        "name": "正岡子規",
+        "kana": "まさおかしき",
+        "roman": "Shiki Masaoka",
+        "role": "著者",
+        "birthDate": "1867-10-14",
+        "deathDate": "1902-09-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

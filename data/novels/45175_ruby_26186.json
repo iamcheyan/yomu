@@ -258,5 +258,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045175",
+    "title": "愚助大和尚",
+    "titleKana": "ぐすけだいおしょう",
+    "sortKana": "くすけたいおしよう",
+    "firstAppearance": "「金の星」金の星社、1925（大正14）年4月",
+    "ndc": "NDC K913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-04-08",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001180/card45175.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001180/files/45175_ruby_26186.zip",
+    "textFileId": "45175_ruby_26186",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001180/files/45175_26298.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "田中敬三",
+    "baseBook1": {
+      "title": "日本児童文学大系　第一一巻",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1978（昭和53）年11月30日",
+      "inputEdition": "1978（昭和53）年11月30日初刷",
+      "proofreadEdition": "1979（昭和54）年4月1日2刷"
+    },
+    "author": "沖野岩三郎",
+    "authors": [
+      {
+        "personId": "001180",
+        "name": "沖野岩三郎",
+        "kana": "おきのいわさぶろう",
+        "roman": "Iwasaburo Okino",
+        "role": "著者",
+        "birthDate": "1876-01-05",
+        "deathDate": "1956-01-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

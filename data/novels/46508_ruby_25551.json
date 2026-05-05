@@ -88,5 +88,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046508",
+    "title": "沈黙の扉",
+    "titleKana": "ちんもくのとびら",
+    "sortKana": "ちんもくのとひら",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-01-01",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001177/card46508.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001177/files/46508_ruby_25551.zip",
+    "textFileId": "46508_ruby_25551",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001177/files/46508_25603.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻89　生命",
+      "publisher": "作品社",
+      "firstPublishedAt": "1998（平成10）年7月25日",
+      "inputEdition": "1998（平成10）年7月25日第1刷"
+    },
+    "author": "吉田絃二郎",
+    "authors": [
+      {
+        "personId": "001177",
+        "name": "吉田絃二郎",
+        "kana": "よしだげんじろう",
+        "roman": "Genjiro Yoshida",
+        "role": "著者",
+        "birthDate": "1886-11-24",
+        "deathDate": "1956-05-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

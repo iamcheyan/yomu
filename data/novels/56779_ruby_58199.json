@@ -758,5 +758,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056779",
+    "title": "ボロ家の春秋",
+    "titleKana": "ボロやのしゅんじゅう",
+    "sortKana": "ほろやのしゆんしゆう",
+    "firstAppearance": "「新潮」新潮社、1954（昭和29）年8月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-02-15",
+    "updatedAt": "2016-02-10",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001798/card56779.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001798/files/56779_ruby_58199.zip",
+    "textFileId": "56779_ruby_58199",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001798/files/56779_58208.html",
+    "inputBy": "kompass",
+    "proofreadBy": "酒井裕二",
+    "baseBook1": {
+      "title": "ボロ家の春秋",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "2000（平成12）年1月10日",
+      "inputEdition": "2000（平成12）年1月10日第1刷",
+      "proofreadEdition": "2015（平成27）年5月8日第4刷"
+    },
+    "author": "梅崎春生",
+    "authors": [
+      {
+        "personId": "001798",
+        "name": "梅崎春生",
+        "kana": "うめざきはるお",
+        "roman": "Haruo Umezaki",
+        "role": "著者",
+        "birthDate": "1915-02-15",
+        "deathDate": "1965-07-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

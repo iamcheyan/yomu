@@ -128,5 +128,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052963",
+    "title": "あるまりの一生",
+    "titleKana": "あるまりのいっしょう",
+    "sortKana": "あるまりのいつしよう",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-03-19",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001475/card52963.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001475/files/52963_ruby_46817.zip",
+    "textFileId": "52963_ruby_46817",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001475/files/52963_46831.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "富田倫生",
+    "baseBook1": {
+      "title": "定本小川未明童話全集　4",
+      "publisher": "講談社",
+      "firstPublishedAt": "1977（昭和52）年2月10日",
+      "inputEdition": "1977（昭和52）年C第2刷"
+    },
+    "author": "小川未明",
+    "authors": [
+      {
+        "personId": "001475",
+        "name": "小川未明",
+        "kana": "おがわみめい",
+        "roman": "Mimei Ogawa",
+        "role": "著者",
+        "birthDate": "1882-04-07",
+        "deathDate": "1961-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

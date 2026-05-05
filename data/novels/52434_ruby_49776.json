@@ -3812,5 +3812,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052434",
+    "title": "随筆　宮本武蔵",
+    "titleKana": "ずいひつ　みやもとむさし",
+    "sortKana": "すいひつみやもとむさし",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-03-06",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001562/card52434.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001562/files/52434_ruby_49776.zip",
+    "textFileId": "52434_ruby_49776",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001562/files/52434_49777.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "随筆　宮本武蔵／随筆　私本太平記",
+      "publisher": "吉川英治歴史時代文庫　補5、講談社",
+      "firstPublishedAt": "1990（平成2）年10月11日",
+      "inputEdition": "2003（平成15）年3月5日第9刷",
+      "proofreadEdition": "2003（平成15）年3月5日第9刷"
+    },
+    "author": "吉川英治",
+    "authors": [
+      {
+        "personId": "001562",
+        "name": "吉川英治",
+        "kana": "よしかわえいじ",
+        "roman": "Eiji Yoshikawa",
+        "role": "著者",
+        "birthDate": "1892-08-11",
+        "deathDate": "1962-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

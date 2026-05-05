@@ -96,5 +96,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058413",
+    "title": "私の思い出",
+    "titleKana": "わたしのおもいで",
+    "sortKana": "わたしのおもいて",
+    "firstAppearance": "「ことたま」日本出版広告社、1954（昭和29）年8月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-01-01",
+    "updatedAt": "2018-01-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001934/card58413.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001934/files/58413_ruby_63639.zip",
+    "textFileId": "58413_ruby_63639",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001934/files/58413_63640.html",
+    "inputBy": "雪森",
+    "proofreadBy": "富田晶子",
+    "baseBook1": {
+      "title": "柳原白蓮エッセイ集　ことたま",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "2015（平成27）年11月30日",
+      "inputEdition": "2015（平成27）年11月30日初版",
+      "proofreadEdition": "2015（平成27）年11月30日初版"
+    },
+    "author": "柳原白蓮",
+    "authors": [
+      {
+        "personId": "001934",
+        "name": "柳原白蓮",
+        "kana": "やなぎわらびゃくれん",
+        "roman": "Byakuren Yanagiwara",
+        "role": "著者",
+        "birthDate": "1885-10-15",
+        "deathDate": "1967-02-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

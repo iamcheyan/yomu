@@ -710,5 +710,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055429",
+    "title": "命",
+    "titleKana": "いのち",
+    "sortKana": "いのち",
+    "firstAppearance": "「改造　第35巻第3号」改造社、1954（昭和29）年3月1日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-08-01",
+    "updatedAt": "2021-07-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001579/card55429.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001579/files/55429_ruby_73821.zip",
+    "textFileId": "55429_ruby_73821",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001579/files/55429_73857.html",
+    "inputBy": "磯貝まこと",
+    "proofreadBy": "待田海",
+    "baseBook1": {
+      "title": "黒髮の書",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1955（昭和30）年2月28日",
+      "inputEdition": "1955（昭和30）年2月28日",
+      "proofreadEdition": "1955（昭和30）年2月28日"
+    },
+    "author": "室生犀星",
+    "authors": [
+      {
+        "personId": "001579",
+        "name": "室生犀星",
+        "kana": "むろうさいせい",
+        "roman": "Saisei Murou",
+        "role": "著者",
+        "birthDate": "1889-08-01",
+        "deathDate": "1962-03-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

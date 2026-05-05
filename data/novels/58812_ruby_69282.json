@@ -184,5 +184,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058812",
+    "title": "刺青",
+    "titleKana": "しせい",
+    "sortKana": "しせい",
+    "firstAppearance": "「オール讀物」文藝春秋新社、1947（昭和22）年12月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-10-16",
+    "updatedAt": "2019-09-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001958/card58812.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001958/files/58812_ruby_69282.zip",
+    "textFileId": "58812_ruby_69282",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001958/files/58812_69334.html",
+    "inputBy": "kompass",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "消えた受賞作　直木賞編",
+      "publisher": "メディアファクトリー",
+      "firstPublishedAt": "2004（平成16）年7月6日",
+      "inputEdition": "2004（平成16）年7月6日初版第1刷",
+      "proofreadEdition": "2004（平成16）年7月6日初版第1刷"
+    },
+    "author": "富田常雄",
+    "authors": [
+      {
+        "personId": "001958",
+        "name": "富田常雄",
+        "kana": "とみたつねお",
+        "roman": "Tsuneo Tomita",
+        "role": "著者",
+        "birthDate": "1904-01-01",
+        "deathDate": "1967-10-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

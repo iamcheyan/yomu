@@ -180,5 +180,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042789",
+    "title": "ジエィン・エア",
+    "titleKana": "ジエィン・エア",
+    "sortKana": "しえいんえあ",
+    "subtitle": "02 ジエィン・エア",
+    "subtitleKana": "02 ジエィン・エア",
+    "ndc": "NDC 933",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-03-31",
+    "updatedAt": "2018-03-10",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001111/card42789.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001111/files/42789_ruby_64055.zip",
+    "textFileId": "42789_ruby_64055",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001111/files/42789_64147.html",
+    "inputBy": "osawa",
+    "proofreadBy": "みきた",
+    "baseBook1": {
+      "title": "第二期　世界文學全集（5）　ジエィン・エア",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1931（昭和6）年8月30日",
+      "inputEdition": "1931（昭和6）年8月30日",
+      "proofreadEdition": "1931（昭和6）年8月30日"
+    },
+    "author": "ブロンテシャーロット",
+    "authors": [
+      {
+        "personId": "001111",
+        "name": "ブロンテシャーロット",
+        "kana": "ブロンテシャーロット",
+        "roman": "Charlotte Bronte",
+        "role": "著者",
+        "birthDate": "1816-04-21",
+        "deathDate": "1855-03-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

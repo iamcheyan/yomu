@@ -296,5 +296,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042892",
+    "title": "外套と青空",
+    "titleKana": "がいとうとあおぞら",
+    "sortKana": "かいとうとあおそら",
+    "firstAppearance": "「中央公論　第六一年第七号」中央公論社、1946（昭和21）年7月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-06-17",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card42892.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/42892_ruby_23068.zip",
+    "textFileId": "42892_ruby_23068",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/42892_23091.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "宮元淳一",
+    "baseBook1": {
+      "title": "坂口安吾全集　04",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1998（平成10）年5月22日",
+      "inputEdition": "1998（平成10）年5月22日初版第1刷",
+      "proofreadEdition": "1998（平成10）年5月22日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

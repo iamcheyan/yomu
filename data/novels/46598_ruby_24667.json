@@ -36,5 +36,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046598",
+    "title": "音に就いて",
+    "titleKana": "おとについて",
+    "sortKana": "おとについて",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-12-28",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card46598.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/46598_ruby_24667.zip",
+    "textFileId": "46598_ruby_24667",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/46598_24915.html",
+    "inputBy": "蒋龍",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "もの思う葦",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1980（昭和55）年9月25日",
+      "inputEdition": "1998（平成10）年10月15日39刷",
+      "proofreadEdition": "2002（平成14）年5月30日42刷改版"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

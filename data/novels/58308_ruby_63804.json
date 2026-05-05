@@ -56,5 +56,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058308",
+    "title": "念仏と生活",
+    "titleKana": "ねんぶつとせいかつ",
+    "sortKana": "ねんふつとせいかつ",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-02-12",
+    "updatedAt": "2018-01-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000256/card58308.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000256/files/58308_ruby_63804.zip",
+    "textFileId": "58308_ruby_63804",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000256/files/58308_63884.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "仏教の名随筆　2",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "2006（平成18）年7月10日",
+      "inputEdition": "2006（平成18）年7月10日初版第1刷発行",
+      "proofreadEdition": "2006（平成18）年7月10日初版第1刷発行"
+    },
+    "author": "倉田百三",
+    "authors": [
+      {
+        "personId": "000256",
+        "name": "倉田百三",
+        "kana": "くらたひゃくぞう",
+        "roman": "Hyakuzo Kurata",
+        "role": "著者",
+        "birthDate": "1891-02-23",
+        "deathDate": "1943-02-12",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

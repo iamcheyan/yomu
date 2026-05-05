@@ -192,5 +192,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056654",
+    "title": "身体検査",
+    "titleKana": "しんたいけんさ",
+    "sortKana": "しんたいけんさ",
+    "ndc": "NDC K983",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-01-01",
+    "updatedAt": "2016-01-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001199/card56654.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001199/files/56654_ruby_58180.zip",
+    "textFileId": "56654_ruby_58180",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001199/files/56654_58181.html",
+    "inputBy": "sogo",
+    "proofreadBy": "湖山ルル",
+    "baseBook1": {
+      "title": "日本少国民文庫　世界名作選（一）",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "2003（平成15）年1月1日",
+      "inputEdition": "2003（平成15）年1月1日",
+      "proofreadEdition": "2003（平成15）年1月1日"
+    },
+    "author": "ソログープフョードル",
+    "authors": [
+      {
+        "personId": "001199",
+        "name": "ソログープフョードル",
+        "kana": "ソログープフョードル",
+        "roman": "Fedor Sologub",
+        "role": "著者",
+        "birthDate": "1863-02-17",
+        "deathDate": "1927-12-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

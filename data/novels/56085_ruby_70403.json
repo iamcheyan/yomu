@@ -1360,5 +1360,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056085",
+    "title": "中山七里　二幕五場",
+    "titleKana": "なかやましちり　にまくごば",
+    "sortKana": "なかやましちりにまくこは",
+    "firstAppearance": "「舞台戯曲」1929（昭和4）年10月号",
+    "ndc": "NDC 912",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-03-15",
+    "updatedAt": "2020-02-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001726/card56085.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001726/files/56085_ruby_70403.zip",
+    "textFileId": "56085_ruby_70403",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001726/files/56085_70461.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "砂場清隆",
+    "baseBook1": {
+      "title": "長谷川伸傑作選　瞼の母",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "2008（平成20）年5月15日",
+      "inputEdition": "2008（平成20）年5月15日初版第1刷",
+      "proofreadEdition": "2008（平成20）年5月15日初版第1刷"
+    },
+    "author": "長谷川伸",
+    "authors": [
+      {
+        "personId": "001726",
+        "name": "長谷川伸",
+        "kana": "はせがわしん",
+        "roman": "Shin Hasegawa",
+        "role": "著者",
+        "birthDate": "1884-03-15",
+        "deathDate": "1963-06-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

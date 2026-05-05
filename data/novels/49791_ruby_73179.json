@@ -58,5 +58,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049791",
+    "title": "遺物・遺蹟と歴史研究",
+    "titleKana": "いぶつ・いせきとれきしけんきゅう",
+    "sortKana": "いふついせきとれきしけんきゆう",
+    "firstAppearance": "「民族と歴史　第一巻第四号」1919（大正8）年4月",
+    "ndc": "NDC 210",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-05-24",
+    "updatedAt": "2021-04-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001344/card49791.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001344/files/49791_ruby_73179.zip",
+    "textFileId": "49791_ruby_73179",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001344/files/49791_73219.html",
+    "inputBy": "しだひろし",
+    "proofreadBy": "杉浦鳥見",
+    "baseBook1": {
+      "title": "喜田貞吉著作集　第一巻　石器時代と考古学",
+      "publisher": "平凡社",
+      "firstPublishedAt": "1981（昭和56）年7月30日",
+      "inputEdition": "1981（昭和56）年7月30日初版第1刷",
+      "proofreadEdition": "1981（昭和56）年7月30日初版第1刷"
+    },
+    "author": "喜田貞吉",
+    "authors": [
+      {
+        "personId": "001344",
+        "name": "喜田貞吉",
+        "kana": "きたさだきち",
+        "roman": "Sadakichi Kita",
+        "role": "著者",
+        "birthDate": "1871-07-11",
+        "deathDate": "1939-07-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

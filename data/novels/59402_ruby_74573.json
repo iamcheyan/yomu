@@ -158,5 +158,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059402",
+    "title": "日光山の奥",
+    "titleKana": "にっこうさんのおく",
+    "sortKana": "につこうさんのおく",
+    "firstAppearance": "一「太陽　第二卷第一號」博文館、1896（明治29）年1月5日<br>二「太陽　第二卷第二號」博文館、1896（明治29）年1月20日<br>三、四、五「太陽　第二卷第三號」博文館、1896（明治29）年2月5日",
+    "ndc": "NDC 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-12-13",
+    "updatedAt": "2021-11-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000214/card59402.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000214/files/59402_ruby_74573.zip",
+    "textFileId": "59402_ruby_74573",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000214/files/59402_74610.html",
+    "inputBy": "富田晶子",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "〈復刻版〉尾瀬と檜枝岐",
+      "publisher": "木耳社",
+      "firstPublishedAt": "1978（昭和53）年11月15日",
+      "inputEdition": "1981（昭和56）年2月15日第2刷",
+      "proofreadEdition": "1981（昭和56）年2月15日第2刷"
+    },
+    "author": "田山花袋",
+    "authors": [
+      {
+        "personId": "000214",
+        "name": "田山花袋",
+        "kana": "たやまかたい",
+        "roman": "Katai Tayama",
+        "role": "著者",
+        "birthDate": "1872-01-22",
+        "deathDate": "1930-05-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

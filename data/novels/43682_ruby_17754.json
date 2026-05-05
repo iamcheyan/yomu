@@ -40,5 +40,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043682",
+    "title": "再び山へ",
+    "titleKana": "ふたたびやまへ",
+    "sortKana": "ふたたひやまへ",
+    "ndc": "NDC 291 786",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-03-15",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000307/card43682.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000307/files/43682_ruby_17754.zip",
+    "textFileId": "43682_ruby_17754",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000307/files/43682_17941.html",
+    "inputBy": "ゼファー生",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "風雪のビバーク",
+      "publisher": "二見書房",
+      "firstPublishedAt": "1971（昭和46）年1月12日",
+      "inputEdition": "1971（昭和46）年1月12日初版",
+      "proofreadEdition": "1971（昭和46）年1月12日初版"
+    },
+    "author": "松濤明",
+    "authors": [
+      {
+        "personId": "000307",
+        "name": "松濤明",
+        "kana": "まつなみあきら",
+        "roman": "Akira Matsunami",
+        "role": "著者",
+        "birthDate": "1922-03-05",
+        "deathDate": "1949-01-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -48,5 +48,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "016039",
+    "title": "旋風",
+    "titleKana": "せんぷう",
+    "sortKana": "せんふう",
+    "firstAppearance": "「新小説」1908（明治41）年10月",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-04-01",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000150/card16039.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000150/files/16039_ruby_9500.zip",
+    "textFileId": "16039_ruby_9500",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000150/files/16039_9547.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "現代日本紀行文学全集　西日本編",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1976（昭和51）年8月1日",
+      "inputEdition": "1976（昭和51）年8月1日初版"
+    },
+    "author": "薄田泣菫",
+    "authors": [
+      {
+        "personId": "000150",
+        "name": "薄田泣菫",
+        "kana": "すすきだきゅうきん",
+        "roman": "Kyukin Susukida",
+        "role": "著者",
+        "birthDate": "1877-05-19",
+        "deathDate": "1945-10-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

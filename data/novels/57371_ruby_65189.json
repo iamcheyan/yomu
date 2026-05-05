@@ -48,5 +48,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057371",
+    "title": "「細雪」回顧",
+    "titleKana": "ささめゆきかいこ",
+    "sortKana": "ささめゆきかいこ",
+    "firstAppearance": "「作品　第二號」創藝社、1948（昭和23）年11月15日",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-07-30",
+    "updatedAt": "2018-08-05",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001383/card57371.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001383/files/57371_ruby_65189.zip",
+    "textFileId": "57371_ruby_65189",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001383/files/57371_65232.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "きゅうり",
+    "baseBook1": {
+      "title": "谷崎潤一郎全集　第二十巻",
+      "publisher": "中央公論新社",
+      "firstPublishedAt": "2015（平成27）年7月10日",
+      "inputEdition": "2015（平成27）年7月10日初版",
+      "proofreadEdition": "2015（平成27）年7月10日初版"
+    },
+    "author": "谷崎潤一郎",
+    "authors": [
+      {
+        "personId": "001383",
+        "name": "谷崎潤一郎",
+        "kana": "たにざきじゅんいちろう",
+        "roman": "Jun'ichiro Tanizaki",
+        "role": "著者",
+        "birthDate": "1886-07-24",
+        "deathDate": "1965-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -202,5 +202,54 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049011",
+    "title": "紅葉山人訪問記",
+    "titleKana": "こうようさんじんほうもんき",
+    "sortKana": "こうようさんしんほうもんき",
+    "firstAppearance": "「文章世界　第七巻第十四号」1912（大正元）年10月15日",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-01-10",
+    "updatedAt": "2019-12-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000214/card49011.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000214/files/49011_ruby_69911.zip",
+    "textFileId": "49011_ruby_69911",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000214/files/49011_69964.html",
+    "inputBy": "岡村和彦",
+    "proofreadBy": "津村田悟",
+    "baseBook1": {
+      "title": "定本　花袋全集　第二十七巻",
+      "publisher": "臨川書店",
+      "firstPublishedAt": "1995（平成7）年7月10日",
+      "inputEdition": "1995（平成7）年7月10日",
+      "proofreadEdition": "1995（平成7）年7月10日"
+    },
+    "author": "田山花袋、田山録弥",
+    "authors": [
+      {
+        "personId": "000214",
+        "name": "田山花袋",
+        "kana": "たやまかたい",
+        "roman": "Katai Tayama",
+        "role": "著者",
+        "birthDate": "1872-01-22",
+        "deathDate": "1930-05-13",
+        "copyright": "なし"
+      },
+      {
+        "personId": "001416",
+        "name": "田山録弥",
+        "kana": "たやまろくや",
+        "roman": "Rokuya Tayama",
+        "role": "著者",
+        "birthDate": "1872-01-22",
+        "deathDate": "1930-05-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

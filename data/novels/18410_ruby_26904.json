@@ -196,5 +196,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "018410",
+    "title": "神道に現れた民族論理",
+    "titleKana": "しんとうにあらわれたみんぞくろんり",
+    "sortKana": "しんとうにあらわれたみんそくろんり",
+    "firstAppearance": "「神道学雑誌　第五号」1928（昭和3）年10月",
+    "ndc": "NDC 176 380",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-07-27",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card18410.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/18410_ruby_26904.zip",
+    "textFileId": "18410_ruby_26904",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/18410_27479.html",
+    "inputBy": "高柳典子",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "折口信夫全集　3",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1995年4月10日",
+      "inputEdition": "1995（平成7）年4月10日初版",
+      "proofreadEdition": "1995（平成7）年4月10日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -232,5 +232,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001796",
+    "title": "殺された天一坊",
+    "titleKana": "ころされたてんいちぼう",
+    "sortKana": "ころされたてんいちほう",
+    "firstAppearance": "「改造」1929（昭和4）年10月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-02-26",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000289/card1796.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000289/files/1796_ruby_22484.zip",
+    "textFileId": "1796_ruby_22484",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000289/files/1796_22485.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "はやしだかずこ",
+    "baseBook1": {
+      "title": "日本探偵小説全集5　浜尾四郎集",
+      "publisher": "創元推理文庫、東京創元社",
+      "firstPublishedAt": "1985（昭和60）年3月29日",
+      "inputEdition": "1997（平成9）年7月11日5刷"
+    },
+    "author": "浜尾四郎",
+    "authors": [
+      {
+        "personId": "000289",
+        "name": "浜尾四郎",
+        "kana": "はまおしろう",
+        "roman": "Shiro Hamao",
+        "role": "著者",
+        "birthDate": "1896-04-24",
+        "deathDate": "1935-10-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

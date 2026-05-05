@@ -174,5 +174,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000463",
+    "title": "マグノリアの木",
+    "titleKana": "マグノリアのき",
+    "sortKana": "まくのりあのき",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-01-31",
+    "updatedAt": "2023-07-08",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card463.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/463_ruby_32309.zip",
+    "textFileId": "463_ruby_32309",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/463_32310.html",
+    "inputBy": "浜野智",
+    "proofreadBy": "浜野智",
+    "baseBook1": {
+      "title": "風の又三郎",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1996（平成8）年6月25日",
+      "inputEdition": "1996（平成8）年6月25日改訂新版",
+      "proofreadEdition": "2007（平成19）年5月25日改訂11版"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

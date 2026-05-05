@@ -102,5 +102,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001765",
+    "title": "夏帽子",
+    "titleKana": "なつぼうし",
+    "sortKana": "なつほうし",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-10-27",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000067/card1765.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000067/files/1765_ruby_24103.zip",
+    "textFileId": "1765_ruby_24103",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000067/files/1765_24369.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆38　装",
+      "publisher": "作品社",
+      "firstPublishedAt": "1985（昭和60）年12月25日",
+      "inputEdition": "1985（昭和60）年12月25日第1刷",
+      "proofreadEdition": "1985（昭和60）年12月25日第1刷"
+    },
+    "author": "萩原朔太郎",
+    "authors": [
+      {
+        "personId": "000067",
+        "name": "萩原朔太郎",
+        "kana": "はぎわらさくたろう",
+        "roman": "Sakutaro Hagiwara",
+        "role": "著者",
+        "birthDate": "1886-11-01",
+        "deathDate": "1942-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

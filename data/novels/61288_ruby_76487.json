@@ -392,5 +392,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "061288",
+    "title": "偽悪病患者",
+    "titleKana": "ぎあくびょうかんじゃ",
+    "sortKana": "きあくひようかんしや",
+    "firstAppearance": "「新青年」博文館、1936（昭和11）年1月号",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-11-15",
+    "updatedAt": "2022-10-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001872/card61288.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001872/files/61288_ruby_76487.zip",
+    "textFileId": "61288_ruby_76487",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001872/files/61288_76523.html",
+    "inputBy": "羽田洋一",
+    "proofreadBy": "mt.battie",
+    "baseBook1": {
+      "title": "探偵クラブ　烙印",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "1994（平成6）年3月25日",
+      "inputEdition": "1994（平成6）年3月25日初版第1刷",
+      "proofreadEdition": "1994（平成6）年3月25日初版第1刷"
+    },
+    "author": "大下宇陀児",
+    "authors": [
+      {
+        "personId": "001872",
+        "name": "大下宇陀児",
+        "kana": "おおしたうだる",
+        "roman": "Udaru Oshita",
+        "role": "著者",
+        "birthDate": "1896-11-15",
+        "deathDate": "1966-08-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

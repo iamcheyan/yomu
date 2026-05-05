@@ -2754,5 +2754,56 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001805",
+    "title": "安重根",
+    "titleKana": "あんじゅうこん",
+    "sortKana": "あんしゆうこん",
+    "subtitle": "――十四の場面――",
+    "subtitleKana": "――じゅうよんのばめん――",
+    "firstAppearance": "「中央公論」中央公論社、1931（昭和6）年4月",
+    "ndc": "NDC 912",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-09-03",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000272/card1805.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000272/files/1805_ruby_11329.zip",
+    "textFileId": "1805_ruby_11329",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000272/files/1805_12060.html",
+    "inputBy": "奥村正明",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "一人三人全集Ⅰ時代捕物釘抜藤吉捕物覚書",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "1970（昭和45）年1月15日",
+      "inputEdition": "1970（昭和45）年1月15日初版",
+      "proofreadEdition": "1970（昭和45）年1月15日初版"
+    },
+    "author": "谷譲次、林不忘",
+    "authors": [
+      {
+        "personId": "000272",
+        "name": "谷譲次",
+        "kana": "たにじょうじ",
+        "roman": "Joji Tani",
+        "role": "著者",
+        "birthDate": "1900-01-17",
+        "deathDate": "1935-06-29",
+        "copyright": "なし"
+      },
+      {
+        "personId": "000290",
+        "name": "林不忘",
+        "kana": "はやしふぼう",
+        "roman": "Fubo Hayashi",
+        "role": "著者",
+        "birthDate": "1900-01-17",
+        "deathDate": "1935-06-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

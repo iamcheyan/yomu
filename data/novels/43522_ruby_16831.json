@@ -396,5 +396,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043522",
+    "title": "空家の冒険",
+    "titleKana": "あきやのぼうけん",
+    "sortKana": "あきやのほうけん",
+    "originalTitle": "The Adventure of the Empty House",
+    "ndc": "NDC K933",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-12-06",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000009/card43522.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000009/files/43522_ruby_16831.zip",
+    "textFileId": "43522_ruby_16831",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000009/files/43522_16919.html",
+    "inputBy": "京都大学電子テクスト研究会入力班",
+    "proofreadBy": "京都大学電子テクスト研究会校正班",
+    "baseBook1": {
+      "title": "世界探偵小説全集　第四卷　シヤーロツク・ホームズの歸還",
+      "publisher": "平凡社",
+      "firstPublishedAt": "1929（昭和4）年10月5日",
+      "inputEdition": "1929（昭和4）年10月5日"
+    },
+    "author": "ドイルアーサー・コナン",
+    "authors": [
+      {
+        "personId": "000009",
+        "name": "ドイルアーサー・コナン",
+        "kana": "ドイルアーサー・コナン",
+        "roman": "Arthur Conan Doyle",
+        "role": "著者",
+        "birthDate": "1859-05-22",
+        "deathDate": "1930-07-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

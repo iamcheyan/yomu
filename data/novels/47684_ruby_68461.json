@@ -78,5 +78,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047684",
+    "title": "沖縄を憶ふ",
+    "titleKana": "おきなわをおもう",
+    "sortKana": "おきなわをおもう",
+    "firstAppearance": "「時事新報」1946（昭和21）年8月29～31日",
+    "ndc": "NDC 382",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-07-29",
+    "updatedAt": "2019-06-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card47684.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/47684_ruby_68461.zip",
+    "textFileId": "47684_ruby_68461",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/47684_68510.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "折口信夫全集　21",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1996（平成8）年11月10日",
+      "inputEdition": "1996（平成8）年11月10日初版",
+      "proofreadEdition": "1996（平成8）年11月10日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

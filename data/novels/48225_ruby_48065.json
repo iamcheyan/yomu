@@ -280,5 +280,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048225",
+    "title": "教師",
+    "titleKana": "きょうし",
+    "sortKana": "きようし",
+    "firstAppearance": "「ホトトギス　第十三卷第一號」1909（明治42）年10月1日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-08-01",
+    "updatedAt": "2019-01-09",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000118/card48225.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000118/files/48225_ruby_48065.zip",
+    "textFileId": "48225_ruby_48065",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000118/files/48225_51029.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "A子",
+    "baseBook1": {
+      "title": "長塚節全集　第二巻",
+      "publisher": "春陽堂書店",
+      "firstPublishedAt": "1977（昭和52）年1月31日",
+      "inputEdition": "1977（昭和52）年1月31日",
+      "proofreadEdition": "1977（昭和52）年1月31日"
+    },
+    "author": "長塚節",
+    "authors": [
+      {
+        "personId": "000118",
+        "name": "長塚節",
+        "kana": "ながつかたかし",
+        "roman": "Takashi Nagatsuka",
+        "role": "著者",
+        "birthDate": "1879-04-03",
+        "deathDate": "1915-02-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

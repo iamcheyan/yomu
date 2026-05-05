@@ -164,5 +164,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002070",
+    "title": "センツアマニ",
+    "titleKana": "センツアマニ",
+    "sortKana": "せんつあまに",
+    "originalTitle": "Familie Ohnehand（独訳）",
+    "firstAppearance": "「三田文学」四ノ八、1913（大正2）年8月1日",
+    "ndc": "NDC 983",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-10-22",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000364/card2070.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000364/files/2070_ruby_23051.zip",
+    "textFileId": "2070_ruby_23051",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000364/files/2070_23052.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "山根生也",
+    "baseBook1": {
+      "title": "鴎外選集　第十五巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1980（昭和55）年1月22日"
+    },
+    "author": "ゴーリキーマクシム",
+    "authors": [
+      {
+        "personId": "000364",
+        "name": "ゴーリキーマクシム",
+        "kana": "ゴーリキーマクシム",
+        "roman": "Maksim Gorky",
+        "role": "著者",
+        "birthDate": "1868",
+        "deathDate": "1936",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -460,5 +460,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001328",
+    "title": "やきもの読本",
+    "titleKana": "やきものどくほん",
+    "sortKana": "やきものとくほん",
+    "ndc": "NDC 751",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-06-11",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000243/card1328.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000243/files/1328_ruby_506.zip",
+    "textFileId": "1328_ruby_506",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000243/files/1328_45856.html",
+    "inputBy": "小野岳史",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "増補やきもの読本",
+      "publisher": "宝雲舎",
+      "firstPublishedAt": "1932（昭和7）年7月10日",
+      "inputEdition": "1938（昭和13）年6月10日増補第11版",
+      "proofreadEdition": "1941（昭和16)年2月25日増補改版第25版"
+    },
+    "author": "小野賢一郎",
+    "authors": [
+      {
+        "personId": "000243",
+        "name": "小野賢一郎",
+        "kana": "おのけんいちろう",
+        "roman": "Ken'ichiro Ono",
+        "role": "著者",
+        "birthDate": "1888-07-01",
+        "deathDate": "1943-02-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

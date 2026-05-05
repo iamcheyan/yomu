@@ -602,5 +602,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057848",
+    "title": "袈裟の良人",
+    "titleKana": "けさのりょうじん",
+    "sortKana": "けさのりようしん",
+    "firstAppearance": "「婦女界　第二十七卷第一號」婦女界社、1923（大正12）年1月1日",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2023-03-06",
+    "updatedAt": "2023-03-03",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000083/card57848.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000083/files/57848_ruby_77096.zip",
+    "textFileId": "57848_ruby_77096",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000083/files/57848_77095.html",
+    "inputBy": "あまの",
+    "proofreadBy": "友理",
+    "baseBook1": {
+      "title": "袈裟の良人",
+      "publisher": "金星堂",
+      "firstPublishedAt": "1923（大正12）年2月25日",
+      "inputEdition": "1923（大正12）年2月25日",
+      "proofreadEdition": "1923（大正12）年11月20日10版"
+    },
+    "author": "菊池寛",
+    "authors": [
+      {
+        "personId": "000083",
+        "name": "菊池寛",
+        "kana": "きくちかん",
+        "roman": "Kan Kikuchi",
+        "role": "著者",
+        "birthDate": "1888-12-26",
+        "deathDate": "1948-03-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

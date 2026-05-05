@@ -252,5 +252,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043553",
+    "title": "良友悪友",
+    "titleKana": "りょうゆうあくゆう",
+    "sortKana": "りようゆうあくゆう",
+    "firstAppearance": "「文章世界」1919（大正8）年10月",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-10-18",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001151/card43553.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001151/files/43553_ruby_23982.zip",
+    "textFileId": "43553_ruby_23982",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001151/files/43553_24349.html",
+    "inputBy": "伊藤時也",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "現代日本文學大系　45　水上瀧太郎　豐島與志雄　久米正雄　小島政二郎　佐佐木茂索　集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1973（昭和48）8月30日",
+      "inputEdition": "1982（昭和57）9月5日初版第11刷",
+      "proofreadEdition": "1975（昭和50）年8月20日初版第3刷"
+    },
+    "author": "久米正雄",
+    "authors": [
+      {
+        "personId": "001151",
+        "name": "久米正雄",
+        "kana": "くめまさお",
+        "roman": "Masao Kume",
+        "role": "著者",
+        "birthDate": "1891-11-23",
+        "deathDate": "1952-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

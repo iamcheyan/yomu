@@ -340,5 +340,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043062",
+    "title": "生前身後の事",
+    "titleKana": "せいぜんしんごのこと",
+    "sortKana": "せいせんしんこのこと",
+    "ndc": "NDC 910 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-06-26",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000283/card43062.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000283/files/43062_ruby_15847.zip",
+    "textFileId": "43062_ruby_15847",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000283/files/43062_15848.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "中里介山全集第二十巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1972（昭和47）年7月30日",
+      "inputEdition": "1972（昭和47）年7月30日",
+      "proofreadEdition": "1972（昭和47）年7月30日"
+    },
+    "author": "中里介山",
+    "authors": [
+      {
+        "personId": "000283",
+        "name": "中里介山",
+        "kana": "なかざとかいざん",
+        "roman": "Kaizan Nakazato",
+        "role": "著者",
+        "birthDate": "1885-04-04",
+        "deathDate": "1944-04-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

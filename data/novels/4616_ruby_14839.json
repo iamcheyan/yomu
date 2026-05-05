@@ -152,5 +152,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004616",
+    "title": "商機",
+    "titleKana": "しょうき",
+    "sortKana": "しようき",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-04-08",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000118/card4616.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000118/files/4616_ruby_14839.zip",
+    "textFileId": "4616_ruby_14839",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000118/files/4616_14868.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "今井忠夫",
+    "baseBook1": {
+      "title": "長塚節全集　第二巻",
+      "publisher": "春陽堂書店",
+      "firstPublishedAt": "1977（昭和52）年1月31日",
+      "inputEdition": "1977（昭和52）年1月31日初版",
+      "proofreadEdition": "1977（昭和52）年1月31日初版"
+    },
+    "author": "長塚節",
+    "authors": [
+      {
+        "personId": "000118",
+        "name": "長塚節",
+        "kana": "ながつかたかし",
+        "roman": "Takashi Nagatsuka",
+        "role": "著者",
+        "birthDate": "1879-04-03",
+        "deathDate": "1915-02-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

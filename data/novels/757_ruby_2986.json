@@ -64,5 +64,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000757",
+    "title": "道楽と職業",
+    "titleKana": "どうらくとしょくぎょう",
+    "sortKana": "とうらくとしよくきよう",
+    "firstAppearance": "「朝日講演集」朝日新聞合資会社、1911（明治44）年11月10日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-01-06",
+    "updatedAt": "2023-08-15",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000148/card757.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000148/files/757_ruby_2986.zip",
+    "textFileId": "757_ruby_2986",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000148/files/757_14957.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "大野晋",
+    "baseBook1": {
+      "title": "夏目漱石全集10",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1988（昭和63）年7月26日",
+      "inputEdition": "1988（昭和63）年7月26日第1刷"
+    },
+    "author": "夏目漱石",
+    "authors": [
+      {
+        "personId": "000148",
+        "name": "夏目漱石",
+        "kana": "なつめそうせき",
+        "roman": "Soseki Natsume",
+        "role": "著者",
+        "birthDate": "1867-02-09",
+        "deathDate": "1916-12-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

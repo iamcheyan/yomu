@@ -42,5 +42,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042170",
+    "title": "小園の記",
+    "titleKana": "しょうえんのき",
+    "sortKana": "しようえんのき",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-09-17",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000305/card42170.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000305/files/42170_ruby_12290.zip",
+    "textFileId": "42170_ruby_12290",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000305/files/42170_12291.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "花の名随筆9　九月の花",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年8月10日",
+      "inputEdition": "1999（平成11）年8月10日初版第1刷"
+    },
+    "author": "正岡子規",
+    "authors": [
+      {
+        "personId": "000305",
+        "name": "正岡子規",
+        "kana": "まさおかしき",
+        "roman": "Shiki Masaoka",
+        "role": "著者",
+        "birthDate": "1867-10-14",
+        "deathDate": "1902-09-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -46,5 +46,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004309",
+    "title": "婦人の天職",
+    "titleKana": "ふじんのてんしょく",
+    "sortKana": "ふしんのてんしよく",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-11-03",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000164/card4309.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000164/files/4309_ruby_5760.zip",
+    "textFileId": "4309_ruby_5760",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000164/files/4309_20756.html",
+    "inputBy": "もりみつじゅんじ",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "堺利彦全集　第三巻",
+      "publisher": "法律文化社",
+      "firstPublishedAt": "1970（昭和45）年9月30日",
+      "inputEdition": "1970（昭和45）年9月30日"
+    },
+    "author": "堺利彦",
+    "authors": [
+      {
+        "personId": "000164",
+        "name": "堺利彦",
+        "kana": "さかいとしひこ",
+        "roman": "Toshihiko Sakai",
+        "role": "著者",
+        "birthDate": "1871-01-15",
+        "deathDate": "1933-01-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

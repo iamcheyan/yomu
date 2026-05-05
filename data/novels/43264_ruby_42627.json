@@ -178,5 +178,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043264",
+    "title": "範疇としての空間に就いて",
+    "titleKana": "はんちゅうとしてのくうかんについて",
+    "sortKana": "はんちゆうとしてのくうかんについて",
+    "subtitle": "――之は一つの習作である――",
+    "subtitleKana": "――これはひとつのしゅうさくである――",
+    "firstAppearance": "「哲学研究　第一一巻第一二七、一二九号」",
+    "ndc": "NDC 121",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-06-06",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000281/card43264.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000281/files/43264_ruby_42627.zip",
+    "textFileId": "43264_ruby_42627",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000281/files/43264_42839.html",
+    "inputBy": "矢野正人",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "戸坂潤全集　第一巻",
+      "publisher": "勁草書房",
+      "firstPublishedAt": "1966（昭和41）年5月25日",
+      "inputEdition": "1967（昭和42）年5月15日第3刷",
+      "proofreadEdition": "1970（昭和45）年7月20日第7刷"
+    },
+    "author": "戸坂潤",
+    "authors": [
+      {
+        "personId": "000281",
+        "name": "戸坂潤",
+        "kana": "とさかじゅん",
+        "roman": "Jun Tosaka",
+        "role": "著者",
+        "birthDate": "1900-09-27",
+        "deathDate": "1945-08-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

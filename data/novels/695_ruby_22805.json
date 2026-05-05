@@ -1126,5 +1126,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000695",
+    "title": "ヰタ・セクスアリス",
+    "titleKana": "ウィタ・セクスアリス",
+    "sortKana": "ういたせくすありす",
+    "firstAppearance": "「昴」1909（明治42）年7月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-10-12",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card695.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/695_ruby_22805.zip",
+    "textFileId": "695_ruby_22805",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/695_22806.html",
+    "inputBy": "真先芳秋",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "ヰタ・セクスアリス",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1949（昭和24）年11月30日、1967（昭和42）年11月10日27刷改版",
+      "inputEdition": "1989（平成元）年8月20日第69刷",
+      "proofreadEdition": "1979（昭和54）年12月25日第49刷"
+    },
+    "author": "森鴎外",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

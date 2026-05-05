@@ -40,5 +40,53 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049092",
+    "title": "北京の一夜",
+    "titleKana": "ぺきんのいちや",
+    "sortKana": "へきんのいちや",
+    "ndc": "NDC 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-04-22",
+    "updatedAt": "2020-03-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000214/card49092.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000214/files/49092_ruby_70712.zip",
+    "textFileId": "49092_ruby_70712",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000214/files/49092_70764.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "定本　花袋全集　第二十七巻",
+      "publisher": "臨川書店",
+      "firstPublishedAt": "1995（平成7）年7月10日",
+      "inputEdition": "1995（平成7）年7月10日",
+      "proofreadEdition": "1995（平成7）年7月10日"
+    },
+    "author": "田山花袋、田山録弥",
+    "authors": [
+      {
+        "personId": "000214",
+        "name": "田山花袋",
+        "kana": "たやまかたい",
+        "roman": "Katai Tayama",
+        "role": "著者",
+        "birthDate": "1872-01-22",
+        "deathDate": "1930-05-13",
+        "copyright": "なし"
+      },
+      {
+        "personId": "001416",
+        "name": "田山録弥",
+        "kana": "たやまろくや",
+        "roman": "Rokuya Tayama",
+        "role": "著者",
+        "birthDate": "1872-01-22",
+        "deathDate": "1930-05-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

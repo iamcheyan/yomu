@@ -134,5 +134,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060421",
+    "title": "「人間宣言」のうちそと",
+    "titleKana": "「にんげんせんげん」のうちそと",
+    "sortKana": "にんけんせんけんのうちそと",
+    "firstAppearance": "「文藝春秋」文藝春秋新社、1962（昭和37）年3月号",
+    "ndc": "NDC 210",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-06-04",
+    "updatedAt": "2021-05-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/002144/card60421.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/002144/files/60421_ruby_73411.zip",
+    "textFileId": "60421_ruby_73411",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/002144/files/60421_73450.html",
+    "inputBy": "sogo",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "「文藝春秋」にみる昭和史　第二巻",
+      "publisher": "文藝春秋",
+      "firstPublishedAt": "1988（昭和63）年2月25日",
+      "inputEdition": "1988（昭和63）年3月15日第3刷",
+      "proofreadEdition": "1988（昭和63）年3月15日第3刷"
+    },
+    "author": "前田多門",
+    "authors": [
+      {
+        "personId": "002144",
+        "name": "前田多門",
+        "kana": "まえだたもん",
+        "roman": "Tamon Maeda",
+        "role": "著者",
+        "birthDate": "1884-05-11",
+        "deathDate": "1962-06-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

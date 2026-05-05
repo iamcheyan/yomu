@@ -66,5 +66,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000684",
+    "title": "歴史其儘と歴史離れ",
+    "titleKana": "れきしそのままとれきしばなれ",
+    "sortKana": "れきしそのままとれきしはなれ",
+    "firstAppearance": "「心の花」1915（大正4）年1月",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-03-30",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card684.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/684_ruby_294.zip",
+    "textFileId": "684_ruby_294",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/684_18395.html",
+    "inputBy": "村上聡",
+    "proofreadBy": "野口英司",
+    "baseBook1": {
+      "title": "ザ・鴎外　―森鴎外全小説全一冊―",
+      "publisher": "第三書館",
+      "firstPublishedAt": "1985（昭和60）年5月1日",
+      "inputEdition": "1992（昭和67）年8月20日第2刷"
+    },
+    "author": "森鴎外",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -74,5 +74,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048126",
+    "title": "「あかい花　他四篇」あとがき",
+    "titleKana": "「あかいはな　ほかしへん」あとがき",
+    "sortKana": "あかいはなほかしへんあとかき",
+    "ndc": "NDC 983 984",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-03-11",
+    "updatedAt": "2020-02-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001157/card48126.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001157/files/48126_ruby_70395.zip",
+    "textFileId": "48126_ruby_70395",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001157/files/48126_70453.html",
+    "inputBy": "蒋龍",
+    "proofreadBy": "hitsuji",
+    "baseBook1": {
+      "title": "あかい花　他四篇",
+      "publisher": "岩波版ほるぷ図書館文庫、岩波書店",
+      "firstPublishedAt": "1975（昭和50）年9月1日",
+      "inputEdition": "1976（昭和51）年4月1日第2刷",
+      "proofreadEdition": "1975（昭和50）年9月1日第1刷"
+    },
+    "author": "神西清",
+    "authors": [
+      {
+        "personId": "001157",
+        "name": "神西清",
+        "kana": "じんざいきよし",
+        "roman": "Kiyoshi Jinzai",
+        "role": "著者",
+        "birthDate": "1903-11-15",
+        "deathDate": "1957-03-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

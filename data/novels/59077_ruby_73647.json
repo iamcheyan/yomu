@@ -38,5 +38,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059077",
+    "title": "滝しぶき",
+    "titleKana": "たきしぶき",
+    "sortKana": "たきしふき",
+    "firstAppearance": "「逓信協会雑誌」1963（昭和38）年8月号",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-07-13",
+    "updatedAt": "2021-06-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001974/card59077.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001974/files/59077_ruby_73647.zip",
+    "textFileId": "59077_ruby_73647",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001974/files/59077_73686.html",
+    "inputBy": "合田いぶき",
+    "proofreadBy": "kompass",
+    "baseBook1": {
+      "title": "日本の名随筆18　夏",
+      "publisher": "作品社",
+      "firstPublishedAt": "1984（昭和59）年4月25日",
+      "inputEdition": "1987（昭和62）年8月10日第5刷",
+      "proofreadEdition": "1987（昭和62）年8月10日第5刷"
+    },
+    "author": "吉野秀雄",
+    "authors": [
+      {
+        "personId": "001974",
+        "name": "吉野秀雄",
+        "kana": "よしのひでお",
+        "roman": "Hideo Yoshino",
+        "role": "著者",
+        "birthDate": "1902-07-03",
+        "deathDate": "1967-07-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

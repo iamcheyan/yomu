@@ -150,5 +150,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003210",
+    "title": "小川芋銭先生と私",
+    "titleKana": "おがわうせんせんせいとわたし",
+    "sortKana": "おかわうせんせんせいとわたし",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-10-22",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000286/card3210.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000286/files/3210_ruby_7207.zip",
+    "textFileId": "3210_ruby_7207",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000286/files/3210_7208.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "ふるさと文学館　第九巻【茨城】",
+      "publisher": "ぎょうせい",
+      "firstPublishedAt": "1995（平成7）3月15日",
+      "inputEdition": "1995（平成7）3月15日初版"
+    },
+    "author": "野口雨情",
+    "authors": [
+      {
+        "personId": "000286",
+        "name": "野口雨情",
+        "kana": "のぐちうじょう",
+        "roman": "Ujo Noguchi",
+        "role": "著者",
+        "birthDate": "1882-05-29",
+        "deathDate": "1945-01-27",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

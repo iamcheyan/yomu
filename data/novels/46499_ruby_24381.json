@@ -202,5 +202,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046499",
+    "title": "大阪の憂鬱",
+    "titleKana": "おおさかのゆううつ",
+    "sortKana": "おおさかのゆううつ",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-11-27",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000040/card46499.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000040/files/46499_ruby_24381.zip",
+    "textFileId": "46499_ruby_24381",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000040/files/46499_24602.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆75　商",
+      "publisher": "作品社",
+      "firstPublishedAt": "1989（平成元）年1月25日",
+      "inputEdition": "1989（平成元）年1月25日第1刷",
+      "proofreadEdition": "1989（平成元）年1月25日第1刷"
+    },
+    "author": "織田作之助",
+    "authors": [
+      {
+        "personId": "000040",
+        "name": "織田作之助",
+        "kana": "おださくのすけ",
+        "roman": "Sakunosuke Oda",
+        "role": "著者",
+        "birthDate": "1913-10-26",
+        "deathDate": "1947-01-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -22784,5 +22784,51 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056145",
+    "title": "神州天馬侠",
+    "titleKana": "しんしゅうてんまきょう",
+    "sortKana": "しんしゆうてんまきよう",
+    "firstAppearance": "「少年倶楽部」1925（大正14）年5月号～1928（昭和3）年12月号",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-12-31",
+    "updatedAt": "2017-11-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001562/card56145.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001562/files/56145_ruby_63231.zip",
+    "textFileId": "56145_ruby_63231",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001562/files/56145_63373.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "トレンドイースト",
+    "baseBook1": {
+      "title": "神州天馬侠（一）",
+      "publisher": "吉川英治歴史時代文庫、講談社",
+      "firstPublishedAt": "1989（平成元）年12月11日",
+      "inputEdition": "2012（平成24）年1月10日第16刷",
+      "proofreadEdition": "2012（平成24）年1月10日第16刷"
+    },
+    "baseBook2": {
+      "title": "神州天馬侠（三）",
+      "publisher": "吉川英治歴史時代文庫、講談社",
+      "firstPublishedAt": "1990（平成2）年1月11日",
+      "inputEdition": "2011（平成23）年5月6日第16刷",
+      "proofreadEdition": "2016（平成28）年5月13日第18刷"
+    },
+    "author": "吉川英治",
+    "authors": [
+      {
+        "personId": "001562",
+        "name": "吉川英治",
+        "kana": "よしかわえいじ",
+        "roman": "Eiji Yoshikawa",
+        "role": "著者",
+        "birthDate": "1892-08-11",
+        "deathDate": "1962-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

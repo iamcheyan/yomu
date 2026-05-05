@@ -3146,5 +3146,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045935",
+    "title": "明日は天気になれ",
+    "titleKana": "あすはてんきになれ",
+    "sortKana": "あすはてんきになれ",
+    "firstAppearance": "「西日本新聞　第二四九四六号～第二五〇四六号」1953（昭和28）年1月2日～4月13日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-08-16",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card45935.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/45935_ruby_50650.zip",
+    "textFileId": "45935_ruby_50650",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/45935_50960.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "成宮佐知子",
+    "baseBook1": {
+      "title": "坂口安吾全集　13",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年2月20日",
+      "inputEdition": "1999（平成11）年2月20日初版第1刷",
+      "proofreadEdition": "1999（平成11）年2月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

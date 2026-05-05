@@ -86,5 +86,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002605",
+    "title": "悔",
+    "titleKana": "くい",
+    "sortKana": "くい",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-05-15",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000112/card2605.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000112/files/2605_ruby_22638.zip",
+    "textFileId": "2605_ruby_22638",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000112/files/2605_22639.html",
+    "inputBy": "小林徹",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "淑女画報　大正四年九月号",
+      "publisher": "博文館",
+      "firstPublishedAt": "1915（大正4）年9月"
+    },
+    "author": "水野仙子",
+    "authors": [
+      {
+        "personId": "000112",
+        "name": "水野仙子",
+        "kana": "みずのせんこ",
+        "roman": "Senko Mizuno",
+        "role": "著者",
+        "birthDate": "1888-12-03",
+        "deathDate": "1919-05-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

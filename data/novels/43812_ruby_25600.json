@@ -106,5 +106,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043812",
+    "title": "百姓日記",
+    "titleKana": "ひゃくしょうにっき",
+    "sortKana": "ひやくしようにつき",
+    "firstAppearance": "「あをぞら」1926（大正15）年2月10日号、「農民自治　第2、3号」1926（大正15）年5月10日、6月25日",
+    "ndc": "NDC 610",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-01-05",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001170/card43812.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001170/files/43812_ruby_25600.zip",
+    "textFileId": "43812_ruby_25600",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001170/files/43812_25652.html",
+    "inputBy": "田中敬三",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "石川三四郎著作集第二巻",
+      "publisher": "青土社",
+      "firstPublishedAt": "1977（昭和52）年11月25日",
+      "inputEdition": "1977（昭和52）年11月25日",
+      "proofreadEdition": "1977（昭和52）年11月25日"
+    },
+    "author": "石川三四郎",
+    "authors": [
+      {
+        "personId": "001170",
+        "name": "石川三四郎",
+        "kana": "いしかわさんしろう",
+        "roman": "Sanshiro Ishikawa",
+        "role": "著者",
+        "birthDate": "1876-05-23",
+        "deathDate": "1956-11-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

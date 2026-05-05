@@ -54,5 +54,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056694",
+    "title": "ぼろぼろな駝鳥",
+    "titleKana": "ぼろぼろなだちょう",
+    "sortKana": "ほろほろなたちよう",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-01-30",
+    "updatedAt": "2014-12-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001168/card56694.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001168/files/56694_ruby_55299.zip",
+    "textFileId": "56694_ruby_55299",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001168/files/56694_55474.html",
+    "inputBy": "倉本理恵",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "近代詩の鑑賞",
+      "publisher": "さ・え・ら書房",
+      "firstPublishedAt": "1958（昭和33）年3月20日",
+      "inputEdition": "1971（昭和46）年4月10日第2刷",
+      "proofreadEdition": "1958（昭和33）年3月20日第1刷"
+    },
+    "author": "高村光太郎",
+    "authors": [
+      {
+        "personId": "001168",
+        "name": "高村光太郎",
+        "kana": "たかむらこうたろう",
+        "roman": "Kotaro Takamura",
+        "role": "著者",
+        "birthDate": "1883-03-13",
+        "deathDate": "1956-04-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

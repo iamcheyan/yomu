@@ -524,5 +524,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045644",
+    "title": "乳の匂ひ",
+    "titleKana": "ちちのにおい",
+    "sortKana": "ちちのにおい",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-07-20",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000247/card45644.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000247/files/45644_ruby_38703.zip",
+    "textFileId": "45644_ruby_38703",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000247/files/45644_39676.html",
+    "inputBy": "kompass",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "現代日本文學全集　34",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1955（昭和30）年9月5日",
+      "inputEdition": "1955（昭和30）年9月5日",
+      "proofreadEdition": "1955（昭和30）年9月5日"
+    },
+    "author": "加能作次郎",
+    "authors": [
+      {
+        "personId": "000247",
+        "name": "加能作次郎",
+        "kana": "かのうさくじろう",
+        "roman": "Sakujiro Kano",
+        "role": "著者",
+        "birthDate": "1885-01-10",
+        "deathDate": "1941-08-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

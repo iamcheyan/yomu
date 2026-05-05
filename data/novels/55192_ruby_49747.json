@@ -40,5 +40,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055192",
+    "title": "論語とバイブル",
+    "titleKana": "ろんごとバイブル",
+    "sortKana": "ろんことはいふる",
+    "firstAppearance": "「読売新聞」1904（明治37）年10月15日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-01-22",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001581/card55192.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001581/files/55192_ruby_49747.zip",
+    "textFileId": "55192_ruby_49747",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001581/files/55192_49748.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻100　聖書",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年6月25日",
+      "inputEdition": "1999（平成11）年6月25日第1刷",
+      "proofreadEdition": "1999（平成11）年6月25日第1刷"
+    },
+    "author": "正宗白鳥",
+    "authors": [
+      {
+        "personId": "001581",
+        "name": "正宗白鳥",
+        "kana": "まさむねはくちょう",
+        "roman": "Hakucho Masamune",
+        "role": "著者",
+        "birthDate": "1879-03-03",
+        "deathDate": "1962-10-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

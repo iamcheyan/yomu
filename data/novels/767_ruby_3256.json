@@ -36,5 +36,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000767",
+    "title": "人生",
+    "titleKana": "じんせい",
+    "sortKana": "しんせい",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-02-04",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000148/card767.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000148/files/767_ruby_3256.zip",
+    "textFileId": "767_ruby_3256",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000148/files/767_14955.html",
+    "inputBy": "柿澤早苗",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "現代日本文學大系　17　夏目漱石集（一）",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1968（昭和43）年10月25日"
+    },
+    "author": "夏目漱石",
+    "authors": [
+      {
+        "personId": "000148",
+        "name": "夏目漱石",
+        "kana": "なつめそうせき",
+        "roman": "Soseki Natsume",
+        "role": "著者",
+        "birthDate": "1867-02-09",
+        "deathDate": "1916-12-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

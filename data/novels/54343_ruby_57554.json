@@ -1720,5 +1720,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054343",
+    "title": "お蝶夫人",
+    "titleKana": "おちょうふじん",
+    "sortKana": "おちようふしん",
+    "ndc": "NDC 766",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-12-22",
+    "updatedAt": "2018-01-20",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000788/card54343.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000788/files/54343_ruby_57554.zip",
+    "textFileId": "54343_ruby_57554",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000788/files/54343_58389.html",
+    "inputBy": "荒木則子",
+    "proofreadBy": "小岩聖子",
+    "baseBook1": {
+      "title": "三浦環　「お蝶夫人」",
+      "publisher": "人間の記録、日本図書センター",
+      "firstPublishedAt": "1997（平成9）年6月25日",
+      "inputEdition": "1997（平成9）年6月25日第1刷",
+      "proofreadEdition": "1997（平成9）年6月25日第1刷"
+    },
+    "author": "三浦環",
+    "authors": [
+      {
+        "personId": "000788",
+        "name": "三浦環",
+        "kana": "みうらたまき",
+        "roman": "Tamaki Miura",
+        "role": "著者",
+        "birthDate": "1884-02-22",
+        "deathDate": "1946-05-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

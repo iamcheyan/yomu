@@ -274,5 +274,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059304",
+    "title": "青春物語",
+    "titleKana": "せいしゅんものがたり",
+    "sortKana": "せいしゆんものかたり",
+    "subtitle": "02 青春物語",
+    "subtitleKana": "02 せいしゅんものがたり",
+    "firstAppearance": "「中央公論　新秋特大号　第四十七年第十号」～「中央公論　三月号　第四十八年第三号」1932（昭和7）年9月1日～1933（昭和8）年3月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-10-30",
+    "updatedAt": "2022-01-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001383/card59304.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001383/files/59304_ruby_74197.zip",
+    "textFileId": "59304_ruby_74197",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001383/files/59304_74234.html",
+    "inputBy": "きりんの手紙",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "谷崎潤一郎全集　第十六巻",
+      "publisher": "中央公論新社",
+      "firstPublishedAt": "2016（平成28）年8月10日",
+      "inputEdition": "2016（平成28）年8月10日初版",
+      "proofreadEdition": "2016（平成28）年8月10日初版"
+    },
+    "author": "谷崎潤一郎",
+    "authors": [
+      {
+        "personId": "001383",
+        "name": "谷崎潤一郎",
+        "kana": "たにざきじゅんいちろう",
+        "roman": "Jun'ichiro Tanizaki",
+        "role": "著者",
+        "birthDate": "1886-07-24",
+        "deathDate": "1965-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

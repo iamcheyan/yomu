@@ -1022,5 +1022,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002269",
+    "title": "新釈諸国噺",
+    "titleKana": "しんしゃくしょこくばなし",
+    "sortKana": "しんしやくしよこくはなし",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-04-24",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card2269.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/2269_ruby_5649.zip",
+    "textFileId": "2269_ruby_5649",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/2269_15103.html",
+    "inputBy": "ａｋｉ",
+    "proofreadBy": "久保あきら",
+    "baseBook1": {
+      "title": "お伽草紙",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1972（昭和47）年3月21日、1991（平成3）年2月20日40刷改版",
+      "inputEdition": "1999（平成11）年3月10日第56刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

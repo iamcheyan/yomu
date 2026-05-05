@@ -374,5 +374,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045067",
+    "title": "アフリカのスタンレー",
+    "titleKana": "アフリカのスタンレー",
+    "sortKana": "あふりかのすたんれえ",
+    "firstAppearance": "「世界探検物語」新潮社、1941（昭和16）年10月",
+    "ndc": "NDC K294",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-04-29",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000906/card45067.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000906/files/45067_ruby_49629.zip",
+    "textFileId": "45067_ruby_49629",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000906/files/45067_50161.html",
+    "inputBy": "菅野朋子",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本児童文学大系　第十六巻",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1977（昭和52）年11月20日",
+      "inputEdition": "1977（昭和52）年11月20日初刷",
+      "proofreadEdition": "1977（昭和52）年11月20日初刷"
+    },
+    "author": "豊島与志雄",
+    "authors": [
+      {
+        "personId": "000906",
+        "name": "豊島与志雄",
+        "kana": "とよしまよしお",
+        "roman": "Yoshio Toyoshima",
+        "role": "著者",
+        "birthDate": "1890-11-27",
+        "deathDate": "1955-06-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

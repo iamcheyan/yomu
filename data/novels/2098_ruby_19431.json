@@ -238,5 +238,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002098",
+    "title": "眼を開く",
+    "titleKana": "めをひらく",
+    "sortKana": "めをひらく",
+    "firstAppearance": "「逓信協会雑誌」1935（昭和10）年10月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-10-20",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000096/card2098.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000096/files/2098_ruby_19431.zip",
+    "textFileId": "2098_ruby_19431",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000096/files/2098_19608.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "夢野久作全集4",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1992（平成4）年9月24日",
+      "inputEdition": "1992（平成4）年9月24日第1刷",
+      "proofreadEdition": "1992（平成4）年9月24日第1刷"
+    },
+    "author": "夢野久作",
+    "authors": [
+      {
+        "personId": "000096",
+        "name": "夢野久作",
+        "kana": "ゆめのきゅうさく",
+        "roman": "Kyusaku Yumeno",
+        "role": "著者",
+        "birthDate": "1889-01-04",
+        "deathDate": "1936-03-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

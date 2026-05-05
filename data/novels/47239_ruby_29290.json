@@ -62,5 +62,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047239",
+    "title": "ムジナモ発見物語り",
+    "titleKana": "ムジナモはっけんものがたり",
+    "sortKana": "むしなもはつけんものかたり",
+    "ndc": "NDC 470",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-01-11",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001266/card47239.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001266/files/47239_ruby_29290.zip",
+    "textFileId": "47239_ruby_29290",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001266/files/47239_29289.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆94　草",
+      "publisher": "作品社",
+      "firstPublishedAt": "1990（平成2）年8月25日",
+      "inputEdition": "2000（平成12）年4月20日第6刷",
+      "proofreadEdition": "2000（平成12）年4月20日第6刷"
+    },
+    "author": "牧野富太郎",
+    "authors": [
+      {
+        "personId": "001266",
+        "name": "牧野富太郎",
+        "kana": "まきのとみたろう",
+        "roman": "Tomitaro Makino",
+        "role": "著者",
+        "birthDate": "1862-05-22",
+        "deathDate": "1957-01-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

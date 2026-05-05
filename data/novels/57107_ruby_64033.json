@@ -2718,5 +2718,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057107",
+    "title": "超人ニコラ",
+    "titleKana": "ちょうじんニコラ",
+    "sortKana": "ちようしんにこら",
+    "firstAppearance": "「少年」光文社、1962（昭和37）年1月～12月",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-03-16",
+    "updatedAt": "2018-02-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001779/card57107.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001779/files/57107_ruby_64033.zip",
+    "textFileId": "57107_ruby_64033",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001779/files/57107_64125.html",
+    "inputBy": "sogo",
+    "proofreadBy": "茅宮君子",
+    "baseBook1": {
+      "title": "超人ニコラ／大金塊",
+      "publisher": "江戸川乱歩推理文庫、講談社",
+      "firstPublishedAt": "1988（昭和63）年10月8日",
+      "inputEdition": "1988（昭和63）年10月8日第1刷",
+      "proofreadEdition": "1988（昭和63）年10月8日第1刷"
+    },
+    "author": "江戸川乱歩",
+    "authors": [
+      {
+        "personId": "001779",
+        "name": "江戸川乱歩",
+        "kana": "えどがわらんぽ",
+        "roman": "Ranpo Edogawa",
+        "role": "著者",
+        "birthDate": "1894-10-21",
+        "deathDate": "1965-07-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

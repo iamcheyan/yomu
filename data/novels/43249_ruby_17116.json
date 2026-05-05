@@ -62,5 +62,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043249",
+    "title": "鸚鵡のイズム",
+    "titleKana": "おうむのイズム",
+    "sortKana": "おうむのいすむ",
+    "firstAppearance": "「改造」1920（大正9）年11月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-01-08",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000042/card43249.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000042/files/43249_ruby_17116.zip",
+    "textFileId": "43249_ruby_17116",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000042/files/43249_17204.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "浅原庸子",
+    "baseBook1": {
+      "title": "寺田寅彦全集　第七巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1997（平成9）年6月5日",
+      "inputEdition": "1997（平成9）年6月5日"
+    },
+    "author": "寺田寅彦",
+    "authors": [
+      {
+        "personId": "000042",
+        "name": "寺田寅彦",
+        "kana": "てらだとらひこ",
+        "roman": "Torahiko Terada",
+        "role": "著者",
+        "birthDate": "1878-11-28",
+        "deathDate": "1935-12-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

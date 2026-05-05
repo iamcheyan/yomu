@@ -1852,5 +1852,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055276",
+    "title": "比較神話学",
+    "titleKana": "ひかくしんわがく",
+    "sortKana": "ひかくしんわかく",
+    "ndc": "NDC 164",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-08-07",
+    "updatedAt": "2016-08-10",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001191/card55276.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001191/files/55276_ruby_59506.zip",
+    "textFileId": "55276_ruby_59506",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001191/files/55276_59543.html",
+    "inputBy": "幡野恵子",
+    "proofreadBy": "幡野光",
+    "baseBook1": {
+      "title": "比較神話学",
+      "publisher": "帝国百科全書、東京博文館",
+      "firstPublishedAt": "1904（明治37）年10月17日",
+      "inputEdition": "1905（明治38）年3月5日再版",
+      "proofreadEdition": "1905（明治38）年3月5日再版"
+    },
+    "author": "高木敏雄",
+    "authors": [
+      {
+        "personId": "001191",
+        "name": "高木敏雄",
+        "kana": "たかぎとしお",
+        "roman": "Toshio Takagi",
+        "role": "著者",
+        "birthDate": "1876",
+        "deathDate": "1922",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

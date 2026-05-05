@@ -464,5 +464,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046417",
+    "title": "月世界跋渉記",
+    "titleKana": "げっせかいばっしょうき",
+    "sortKana": "けつせかいはつしようき",
+    "firstAppearance": "「探検世界　秋季臨時増刊　月世界」成功雑誌社、1907（明治40）年10月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-11-30",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000448/card46417.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000448/files/46417_ruby_24422.zip",
+    "textFileId": "46417_ruby_24422",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000448/files/46417_24610.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "懐かしい未来――甦る明治・大正・昭和の未来小説",
+      "publisher": "中央公論新社",
+      "firstPublishedAt": "2001（平成13）年6月10日",
+      "inputEdition": "2001（平成13）年6月10日初版",
+      "proofreadEdition": "2001（平成13）年6月10日初版"
+    },
+    "author": "江見水蔭",
+    "authors": [
+      {
+        "personId": "000448",
+        "name": "江見水蔭",
+        "kana": "えみすいいん",
+        "roman": "Suiin Emi",
+        "role": "著者",
+        "birthDate": "1869-09-17",
+        "deathDate": "1934-11-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

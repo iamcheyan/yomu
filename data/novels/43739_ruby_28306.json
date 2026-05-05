@@ -1702,5 +1702,47 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043739",
+    "title": "夢は呼び交す",
+    "titleKana": "ゆめはよびかわす",
+    "sortKana": "ゆめはよひかわす",
+    "subtitle": "――黙子覚書――",
+    "subtitleKana": "――もくしおぼえがき――",
+    "originalTitle": "黙子覚書",
+    "firstAppearance": "「藝林間歩」1946（昭和21）年6月～1947（昭和22）年5月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-12-25",
+    "updatedAt": "2016-01-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001055/card43739.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001055/files/43739_ruby_28306.zip",
+    "textFileId": "43739_ruby_28306",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001055/files/43739_28818.html",
+    "inputBy": "広橋はやみ",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "夢は呼び交す",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1984（昭和59）年4月16日",
+      "inputEdition": "2000（平成12）年11月8日第2刷",
+      "proofreadEdition": "1984（昭和59）年4月16日第1刷"
+    },
+    "author": "蒲原有明",
+    "authors": [
+      {
+        "personId": "001055",
+        "name": "蒲原有明",
+        "kana": "かんばらありあけ",
+        "roman": "Ariake Kanbara",
+        "role": "著者",
+        "birthDate": "1875-03-15",
+        "deathDate": "1952-02-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

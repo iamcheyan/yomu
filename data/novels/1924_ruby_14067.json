@@ -584,5 +584,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001924",
+    "title": "グスコーブドリの伝記",
+    "titleKana": "グスコーブドリのでんき",
+    "sortKana": "くすこおふとりのてんき",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-01-31",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card1924.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/1924_ruby_14067.zip",
+    "textFileId": "1924_ruby_14067",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/1924_14254.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "童話集　風の又三郎",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1951（昭和26）年4月25日",
+      "inputEdition": "1997（平成9）年8月4日第70刷",
+      "proofreadEdition": "1977（昭和52）年5月10日第35刷"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -38,5 +38,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001917",
+    "title": "易の占いして金取り出したること",
+    "titleKana": "えきのうらないしてかねとりだしたること",
+    "sortKana": "えきのうらないしてかねとりたしたること",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-12-18",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000093/card1917.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000093/files/1917_ruby_7779.zip",
+    "textFileId": "1917_ruby_7779",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000093/files/1917_7947.html",
+    "inputBy": "前野さん",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆82　占",
+      "publisher": "作品社",
+      "firstPublishedAt": "1989（平成元）年8月25日",
+      "inputEdition": "1997（平成9）年5月20日第6刷"
+    },
+    "author": "南方熊楠",
+    "authors": [
+      {
+        "personId": "000093",
+        "name": "南方熊楠",
+        "kana": "みなかたくまぐす",
+        "roman": "Kumagusu Minakata",
+        "role": "著者",
+        "birthDate": "1867-05-18",
+        "deathDate": "1941-12-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

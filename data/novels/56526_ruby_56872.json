@@ -186,5 +186,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056526",
+    "title": "落穂",
+    "titleKana": "おちぼ",
+    "sortKana": "おちほ",
+    "firstAppearance": "「文章世界　第八卷第六號」1913（大正2）年5月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-07-30",
+    "updatedAt": "2015-07-31",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000058/card56526.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000058/files/56526_ruby_56872.zip",
+    "textFileId": "56526_ruby_56872",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000058/files/56526_56920.html",
+    "inputBy": "高瀬竜一",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "野菊の墓",
+      "publisher": "アイドル・ブックス、ポプラ社",
+      "firstPublishedAt": "1971（昭和46）年4月5日",
+      "inputEdition": "1977（昭和52）年3月30日11版",
+      "proofreadEdition": "1981（昭和56）年10月30日第23刷"
+    },
+    "author": "伊藤左千夫",
+    "authors": [
+      {
+        "personId": "000058",
+        "name": "伊藤左千夫",
+        "kana": "いとうさちお",
+        "roman": "Sachio Ito",
+        "role": "著者",
+        "birthDate": "1864-09-18",
+        "deathDate": "1913-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

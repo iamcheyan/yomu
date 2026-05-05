@@ -62,5 +62,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "018382",
+    "title": "田村将軍",
+    "titleKana": "たむらしょうぐん",
+    "sortKana": "たむらしようくん",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-02-08",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000329/card18382.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000329/files/18382_ruby_14097.zip",
+    "textFileId": "18382_ruby_14097",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000329/files/18382_14263.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "今井忠夫",
+    "baseBook1": {
+      "title": "日本の英雄伝説",
+      "publisher": "講談社学術文庫、講談社",
+      "firstPublishedAt": "1983（昭和58）年6月10日",
+      "inputEdition": "1983（昭和58）年6月10日第1刷",
+      "proofreadEdition": "1983（昭和58）年6月10日第1刷"
+    },
+    "author": "楠山正雄",
+    "authors": [
+      {
+        "personId": "000329",
+        "name": "楠山正雄",
+        "kana": "くすやままさお",
+        "roman": "Masao Kusuyama",
+        "role": "著者",
+        "birthDate": "1884-11-04",
+        "deathDate": "1950-11-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

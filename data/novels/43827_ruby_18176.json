@@ -86,5 +86,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043827",
+    "title": "大衆の知恵",
+    "titleKana": "たいしゅうのちえ",
+    "sortKana": "たいしゆうのちえ",
+    "firstAppearance": "「シナリオ」1951（昭和26）年9月号",
+    "ndc": "NDC 778",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-05-04",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001166/card43827.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001166/files/43827_ruby_18176.zip",
+    "textFileId": "43827_ruby_18176",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001166/files/43827_18209.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "宮元淳一",
+    "baseBook1": {
+      "title": "中井正一全集　第三巻　現代芸術の空間",
+      "publisher": "美術出版社",
+      "firstPublishedAt": "1981（昭和56）年5月25日",
+      "inputEdition": "1981（昭和56）年5月25日新装第1刷",
+      "proofreadEdition": "1981（昭和56）年5月25日新装第1刷"
+    },
+    "author": "中井正一",
+    "authors": [
+      {
+        "personId": "001166",
+        "name": "中井正一",
+        "kana": "なかいまさかず",
+        "roman": "Masakazu Nakai",
+        "role": "著者",
+        "birthDate": "1900-02-14",
+        "deathDate": "1952-05-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

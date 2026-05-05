@@ -9118,5 +9118,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056046",
+    "title": "牢獄の花嫁",
+    "titleKana": "ろうごくのはなよめ",
+    "sortKana": "ろうこくのはなよめ",
+    "firstAppearance": "「キング」大日本雄辯會講談社、1931（昭和6）年1月～12月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-01-03",
+    "updatedAt": "2016-12-09",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001562/card56046.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001562/files/56046_ruby_60418.zip",
+    "textFileId": "56046_ruby_60418",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001562/files/56046_60462.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "トレンドイースト",
+    "baseBook1": {
+      "title": "牢獄の花嫁",
+      "publisher": "吉川英治歴史時代文庫、講談社",
+      "firstPublishedAt": "1990（平成2）年6月11日第1刷",
+      "inputEdition": "1993（平成5）年11月19日第5刷",
+      "proofreadEdition": "1990（平成2）年6月11日第1刷"
+    },
+    "author": "吉川英治",
+    "authors": [
+      {
+        "personId": "001562",
+        "name": "吉川英治",
+        "kana": "よしかわえいじ",
+        "roman": "Eiji Yoshikawa",
+        "role": "著者",
+        "birthDate": "1892-08-11",
+        "deathDate": "1962-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -154,5 +154,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045458",
+    "title": "扉は語らず",
+    "titleKana": "とびらはかたらず",
+    "sortKana": "とひらはかたらす",
+    "subtitle": "（又は二直線の延長に就て）",
+    "subtitleKana": "（またはにちょくせんのえんちょうについて）",
+    "firstAppearance": "「猟奇」1930（昭和5）年4月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-09-01",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001201/card45458.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001201/files/45458_ruby_19145.zip",
+    "textFileId": "45458_ruby_19145",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001201/files/45458_19227.html",
+    "inputBy": "網迫、土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "「猟奇」傑作選　幻の探偵雑誌5",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2001（平成13）年3月20日",
+      "inputEdition": "2001（平成13）年3月20日初版1刷",
+      "proofreadEdition": "2001（平成13）年3月20日初版1刷"
+    },
+    "author": "小舟勝二",
+    "authors": [
+      {
+        "personId": "001201",
+        "name": "小舟勝二",
+        "kana": "こぶねかつじ",
+        "roman": "Katsuji Kobune",
+        "role": "著者",
+        "deathDate": "1931",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

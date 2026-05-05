@@ -156,5 +156,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057907",
+    "title": "“指揮権発動”を書かざるの記",
+    "titleKana": "“しきけんはつどう”をかかざるのき",
+    "sortKana": "しきけんはつとうをかかさるのき",
+    "firstAppearance": "「文藝春秋」文藝春秋新社、1960（昭和35）年5月号",
+    "ndc": "NDC 312",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-08-28",
+    "updatedAt": "2019-07-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001543/card57907.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001543/files/57907_ruby_65453.zip",
+    "textFileId": "57907_ruby_65453",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001543/files/57907_65497.html",
+    "inputBy": "sogo",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "「文藝春秋」にみる昭和史　第二巻",
+      "publisher": "文藝春秋",
+      "firstPublishedAt": "1988（昭和63）年2月25日",
+      "inputEdition": "1988（昭和63）年3月15日第3刷",
+      "proofreadEdition": "1988（昭和63）年2月25日第1刷発行"
+    },
+    "author": "犬養健",
+    "authors": [
+      {
+        "personId": "001543",
+        "name": "犬養健",
+        "kana": "いぬかいたける",
+        "roman": "Takeru Inukai",
+        "role": "著者",
+        "birthDate": "1896-07-28",
+        "deathDate": "1960-08-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

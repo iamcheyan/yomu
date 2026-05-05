@@ -48,5 +48,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052932",
+    "title": "あとがき",
+    "titleKana": "あとがき",
+    "sortKana": "あとかき",
+    "subtitle": "「夜の道づれ」",
+    "subtitleKana": "「よるのみちづれ」",
+    "firstAppearance": "「三好十郎作品集　第二卷」河出書房、1952（昭和27）年11月25日",
+    "ndc": "NDC 914",
+    "orthography": "旧字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-04-21",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001311/card52932.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001311/files/52932_txt_42228.zip",
+    "textFileId": "52932_txt_42228",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001311/files/52932_42229.html",
+    "inputBy": "青空文庫",
+    "proofreadBy": "青空文庫",
+    "baseBook1": {
+      "title": "三好十郎作品集　第二卷",
+      "publisher": "河出書房",
+      "firstPublishedAt": "1952（昭和27）年11月25日",
+      "inputEdition": "1952（昭和27）年11月25日初版",
+      "proofreadEdition": "1952（昭和27）年11月25日初版"
+    },
+    "author": "三好十郎",
+    "authors": [
+      {
+        "personId": "001311",
+        "name": "三好十郎",
+        "kana": "みよしじゅうろう",
+        "roman": "Juro Miyoshi",
+        "role": "著者",
+        "birthDate": "1902-04-21",
+        "deathDate": "1958-12-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -32,5 +32,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052814",
+    "title": "春の手紙",
+    "titleKana": "はるのてがみ",
+    "sortKana": "はるのてかみ",
+    "firstAppearance": "「雄辯　第二十四巻第一号（新年特大号）」大日本雄辯会講談社、1933（昭和8）年1月1日",
+    "ndc": "NDC 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-10-14",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000183/card52814.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000183/files/52814_ruby_44535.zip",
+    "textFileId": "52814_ruby_44535",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000183/files/52814_44704.html",
+    "inputBy": "宮元淳一",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "牧野信一全集第五巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2002（平成14）年7月20日",
+      "inputEdition": "2002（平成14）年7月20日初版第1刷"
+    },
+    "author": "牧野信一",
+    "authors": [
+      {
+        "personId": "000183",
+        "name": "牧野信一",
+        "kana": "まきのしんいち",
+        "roman": "Shin'ichi Makino",
+        "role": "著者",
+        "birthDate": "1896-11-12",
+        "deathDate": "1936-03-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

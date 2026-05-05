@@ -17762,5 +17762,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058019",
+    "title": "新編忠臣蔵",
+    "titleKana": "しんぺんちゅうしんぐら",
+    "sortKana": "しんへんちゆうしんくら",
+    "firstAppearance": "「日の出」1935（昭和10）年1月号～1937（昭和12）年1月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-08-11",
+    "updatedAt": "2018-07-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001562/card58019.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001562/files/58019_ruby_65428.zip",
+    "textFileId": "58019_ruby_65428",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001562/files/58019_65472.html",
+    "inputBy": "結城宏",
+    "proofreadBy": "北川松生",
+    "baseBook1": {
+      "title": "吉川英治全集・16　新編忠臣蔵　彩情記",
+      "publisher": "講談社",
+      "firstPublishedAt": "1968（昭和43）年12月20日",
+      "inputEdition": "1968（昭和43）年12月20日第1刷",
+      "proofreadEdition": "1968（昭和43）年12月20日第1刷"
+    },
+    "author": "吉川英治",
+    "authors": [
+      {
+        "personId": "001562",
+        "name": "吉川英治",
+        "kana": "よしかわえいじ",
+        "roman": "Eiji Yoshikawa",
+        "role": "著者",
+        "birthDate": "1892-08-11",
+        "deathDate": "1962-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

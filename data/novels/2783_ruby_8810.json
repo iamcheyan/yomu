@@ -46,5 +46,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002783",
+    "title": "数言の補足",
+    "titleKana": "すうことのほそく",
+    "sortKana": "すうことのほそく",
+    "subtitle": "七日附本欄伊藤整氏への答として",
+    "subtitleKana": "なのかづけほんらんいとうせいしへのこたえとして",
+    "firstAppearance": "「中外商業新報」1937（昭和12）年8月10、11日号",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-03-13",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000311/card2783.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000311/files/2783_ruby_8810.zip",
+    "textFileId": "2783_ruby_8810",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000311/files/2783_8811.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "米田進",
+    "baseBook1": {
+      "title": "宮本百合子全集　第十一巻",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1980（昭和55）年1月20日",
+      "inputEdition": "1986（昭和61）年3月20日第5刷"
+    },
+    "author": "宮本百合子",
+    "authors": [
+      {
+        "personId": "000311",
+        "name": "宮本百合子",
+        "kana": "みやもとゆりこ",
+        "roman": "Yuriko Miyamoto",
+        "role": "著者",
+        "birthDate": "1899-02-13",
+        "deathDate": "1951-01-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

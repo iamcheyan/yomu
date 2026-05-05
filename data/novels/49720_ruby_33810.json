@@ -38,5 +38,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049720",
+    "title": "能面と松園さんの絵",
+    "titleKana": "のうめんとしょうえんさんのえ",
+    "sortKana": "のうめんとしようえんさんのえ",
+    "firstAppearance": "「國画」1942（昭和17）年4月号",
+    "ndc": "NDC 721 773 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-03-25",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001390/card49720.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001390/files/49720_ruby_33810.zip",
+    "textFileId": "49720_ruby_33810",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001390/files/49720_34400.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "青帛の仙女",
+      "publisher": "同朋舎出版",
+      "firstPublishedAt": "1996（平成8）年4月5日",
+      "inputEdition": "1996（平成8）年4月5日第1版第1刷",
+      "proofreadEdition": "1996（平成8）年4月5日第1版第1刷"
+    },
+    "author": "金剛巌",
+    "authors": [
+      {
+        "personId": "001390",
+        "name": "金剛巌",
+        "kana": "こんごういわお",
+        "roman": "Iwao Kongo",
+        "role": "著者",
+        "birthDate": "1886",
+        "deathDate": "1951",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

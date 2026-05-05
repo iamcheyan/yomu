@@ -3702,5 +3702,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058486",
+    "title": "影男",
+    "titleKana": "かげおとこ",
+    "sortKana": "かけおとこ",
+    "firstAppearance": "「面白倶楽部」1955（昭和30）年1月号～12月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-07-28",
+    "updatedAt": "2019-07-09",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001779/card58486.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001779/files/58486_ruby_68458.zip",
+    "textFileId": "58486_ruby_68458",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001779/files/58486_68507.html",
+    "inputBy": "入江幹夫",
+    "proofreadBy": "高橋直樹",
+    "baseBook1": {
+      "title": "影男",
+      "publisher": "江戸川乱歩文庫、春陽堂書店",
+      "firstPublishedAt": "1988（昭和63）年3月10日",
+      "inputEdition": "1993（平成5）年11月20日新装第3刷",
+      "proofreadEdition": "1994（平成6）年8月20日新装第6刷"
+    },
+    "author": "江戸川乱歩",
+    "authors": [
+      {
+        "personId": "001779",
+        "name": "江戸川乱歩",
+        "kana": "えどがわらんぽ",
+        "roman": "Ranpo Edogawa",
+        "role": "著者",
+        "birthDate": "1894-10-21",
+        "deathDate": "1965-07-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

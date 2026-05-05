@@ -1692,5 +1692,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046162",
+    "title": "独絃哀歌",
+    "titleKana": "どくげんあいか",
+    "sortKana": "とくけんあいか",
+    "firstAppearance": "初出：例言「獨絃哀歌」白鳩社<br> 　　　1903（明治36）年5月<br> 　　　獨絃哀歌　（十五首）「明星」<br> 　　　1901（明治34）年8月<br> 　　　靈鳥のうた「獨絃哀歌」白鳩社<br> 　　　1903（明治36）年5月<br> 　　　佐太大神「明星」<br> 　　　1902（明治35）年<br> 　　　新鶯曲「新聲」<br> 　　　1902（明治35）年<br> 　　　星眸「新聲」<br> 　　　名珠餘影「明星」<br> 　　　1902（明治35）年",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-03-10",
+    "updatedAt": "2015-10-19",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001055/card46162.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001055/files/46162_ruby_55946.zip",
+    "textFileId": "46162_ruby_55946",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001055/files/46162_55991.html",
+    "inputBy": "広橋はやみ",
+    "proofreadBy": "荒木恵一",
+    "baseBook1": {
+      "title": "日本現代文學全集　22　土井晩翠・薄田泣菫・蒲原有明・伊良子清白・横瀬夜雨集",
+      "publisher": "講談社",
+      "firstPublishedAt": "1968（昭和43）年5月19日",
+      "inputEdition": "1969（昭和44）年10月1日第2刷",
+      "proofreadEdition": "1980（昭和55）年5月26日増補改訂版第1刷"
+    },
+    "author": "蒲原有明",
+    "authors": [
+      {
+        "personId": "001055",
+        "name": "蒲原有明",
+        "kana": "かんばらありあけ",
+        "roman": "Ariake Kanbara",
+        "role": "著者",
+        "birthDate": "1875-03-15",
+        "deathDate": "1952-02-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

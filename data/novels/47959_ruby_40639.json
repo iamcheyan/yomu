@@ -48,5 +48,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047959",
+    "title": "トレドの風景",
+    "titleKana": "トレドのふうけい",
+    "sortKana": "とれとのふうけい",
+    "firstAppearance": "「三十日　第二号」1938（昭和13）年2月1日",
+    "ndc": "NDC 945",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-12-19",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000075/card47959.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000075/files/47959_ruby_40639.zip",
+    "textFileId": "47959_ruby_40639",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000075/files/47959_41485.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "堀辰雄作品集第五卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1982（昭和57）年9月30日",
+      "inputEdition": "1982（昭和57）年9月30日初版第1刷",
+      "proofreadEdition": "1982（昭和57）年9月30日初版第1刷"
+    },
+    "author": "リルケライネル・マリア",
+    "authors": [
+      {
+        "personId": "000075",
+        "name": "リルケライネル・マリア",
+        "kana": "リルケライネル・マリア",
+        "roman": "Rainer Maria Rilke",
+        "role": "著者",
+        "birthDate": "1875-12-04",
+        "deathDate": "1926-12-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

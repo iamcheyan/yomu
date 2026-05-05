@@ -3206,5 +3206,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004627",
+    "title": "旅日記",
+    "titleKana": "たびにっき",
+    "sortKana": "たひにつき",
+    "subtitle": "東海道線",
+    "subtitleKana": "とうかいどうせん",
+    "firstAppearance": "「東京朝日新聞」1908（明治41）年7月8～14日",
+    "ndc": "NDC 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-12-28",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000006/card4627.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000006/files/4627_ruby_17006.zip",
+    "textFileId": "4627_ruby_17006",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000006/files/4627_17128.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "現代日本紀行文学全集　中部日本編",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1976（昭和51）年8月1日",
+      "inputEdition": "1976（昭和51）年8月1日初版",
+      "proofreadEdition": "1976（昭和51）年8月1日初版"
+    },
+    "author": "二葉亭四迷",
+    "authors": [
+      {
+        "personId": "000006",
+        "name": "二葉亭四迷",
+        "kana": "ふたばていしめい",
+        "roman": "Shimei Futabatei",
+        "role": "著者",
+        "birthDate": "1864-04-04",
+        "deathDate": "1909-05-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

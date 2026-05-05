@@ -570,5 +570,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001154",
+    "title": "最終戦争論",
+    "titleKana": "さいしゅうせんそうろん",
+    "sortKana": "さいしゆうせんそうろん",
+    "ndc": "NDC 391",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-08-29",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000230/card1154.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000230/files/1154_ruby_3529.zip",
+    "textFileId": "1154_ruby_3529",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000230/files/1154_23278.html",
+    "inputBy": "林孝司",
+    "proofreadBy": "KOKODA",
+    "baseBook1": {
+      "title": "最終戦争論・戦争史大観",
+      "publisher": "中公文庫、中央公論社",
+      "firstPublishedAt": "1993（平成5）年7月10日",
+      "inputEdition": "1995（平成7）年6月10日5版"
+    },
+    "author": "石原莞爾",
+    "authors": [
+      {
+        "personId": "000230",
+        "name": "石原莞爾",
+        "kana": "いしわらかんじ",
+        "roman": "Kanji Ishiwara",
+        "role": "著者",
+        "birthDate": "1889-01-18",
+        "deathDate": "1949-08-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

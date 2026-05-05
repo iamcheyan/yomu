@@ -126,5 +126,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056871",
+    "title": "ふしぎな岩",
+    "titleKana": "ふしぎないわ",
+    "sortKana": "ふしきないわ",
+    "firstAppearance": "「こども朝日」1948（昭和23）年3月",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-01-06",
+    "updatedAt": "2014-12-15",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000291/card56871.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000291/files/56871_ruby_55262.zip",
+    "textFileId": "56871_ruby_55262",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000291/files/56871_55350.html",
+    "inputBy": "神宮さち",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本児童文学大系　第二四巻",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1978（昭和53）年11月30日",
+      "inputEdition": "1978（昭和53）年11月30日",
+      "proofreadEdition": "1978（昭和53）年11月30日"
+    },
+    "author": "林芙美子",
+    "authors": [
+      {
+        "personId": "000291",
+        "name": "林芙美子",
+        "kana": "はやしふみこ",
+        "roman": "Fumiko Hayashi",
+        "role": "著者",
+        "birthDate": "1903-12-31",
+        "deathDate": "1951-06-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

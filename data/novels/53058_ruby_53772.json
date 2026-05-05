@@ -166,5 +166,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053058",
+    "title": "撮影所殺人事件",
+    "titleKana": "スタディオ・マーダー・ケース",
+    "sortKana": "すたていおまあたあけえす",
+    "firstAppearance": "「ぷろふいる　三巻十一号」1935（昭和10）年11月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-07-12",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001142/card53058.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001142/files/53058_ruby_53772.zip",
+    "textFileId": "53058_ruby_53772",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001142/files/53058_53813.html",
+    "inputBy": "酒井　喬",
+    "proofreadBy": "北村タマ子",
+    "baseBook1": {
+      "title": "酒井嘉七探偵小説選",
+      "publisher": "論創ミステリ叢書、論創社",
+      "firstPublishedAt": "2008（平成20）年4月30日",
+      "inputEdition": "2008（平成20）年4月30日初版第1刷",
+      "proofreadEdition": "2008（平成20）年4月30日初版第1刷"
+    },
+    "author": "酒井嘉七",
+    "authors": [
+      {
+        "personId": "001142",
+        "name": "酒井嘉七",
+        "kana": "さかいかしち",
+        "roman": "Kashichi Sakai",
+        "role": "著者",
+        "birthDate": "1903",
+        "deathDate": "1946",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

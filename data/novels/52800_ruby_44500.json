@@ -80,5 +80,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052800",
+    "title": "卓上演説",
+    "titleKana": "たくじょうえんぜつ",
+    "sortKana": "たくしようえんせつ",
+    "firstAppearance": "「作品　第二巻第八号（八月号）」作品社、1931（昭和6）年8月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-09-28",
+    "updatedAt": "2016-05-09",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000183/card52800.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000183/files/52800_ruby_44500.zip",
+    "textFileId": "52800_ruby_44500",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000183/files/52800_44613.html",
+    "inputBy": "宮元淳一",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "牧野信一全集第四巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2002（平成14）年6月20日",
+      "inputEdition": "2002（平成14）年6月20日初版第1刷",
+      "proofreadEdition": "2002（平成14）年6月20日初版第1刷"
+    },
+    "author": "牧野信一",
+    "authors": [
+      {
+        "personId": "000183",
+        "name": "牧野信一",
+        "kana": "まきのしんいち",
+        "roman": "Shin'ichi Makino",
+        "role": "著者",
+        "birthDate": "1896-11-12",
+        "deathDate": "1936-03-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

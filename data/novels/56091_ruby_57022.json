@@ -796,5 +796,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056091",
+    "title": "江戸の火術",
+    "titleKana": "えどのかじゅつ",
+    "sortKana": "えとのかしゆつ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-09-04",
+    "updatedAt": "2015-08-13",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001670/card56091.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001670/files/56091_ruby_57022.zip",
+    "textFileId": "56091_ruby_57022",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001670/files/56091_57064.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "阿部哲也",
+    "baseBook1": {
+      "title": "野村胡堂伝奇幻想小説集成",
+      "publisher": "作品社",
+      "firstPublishedAt": "2009（平成21）年6月30日",
+      "inputEdition": "2009（平成21）年6月30日第1刷",
+      "proofreadEdition": "2009（平成21）年6月30日第1刷"
+    },
+    "author": "野村胡堂",
+    "authors": [
+      {
+        "personId": "001670",
+        "name": "野村胡堂",
+        "kana": "のむらこどう",
+        "roman": "Kodo Nomura",
+        "role": "著者",
+        "birthDate": "1882-10-15",
+        "deathDate": "1963-04-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

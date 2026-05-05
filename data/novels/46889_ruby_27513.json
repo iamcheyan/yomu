@@ -144,5 +144,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046889",
+    "title": "市街を散歩する人の心持",
+    "titleKana": "しがいをさんぽするひとのこころもち",
+    "sortKana": "しかいをさんほするひとのこころもち",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-09-12",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000120/card46889.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000120/files/46889_ruby_27513.zip",
+    "textFileId": "46889_ruby_27513",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000120/files/46889_27867.html",
+    "inputBy": "浦山敦子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻95　明治",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年1月25日",
+      "inputEdition": "1999（平成11）年1月25日第1刷",
+      "proofreadEdition": "1999（平成11）年1月25日第1刷"
+    },
+    "author": "木下杢太郎",
+    "authors": [
+      {
+        "personId": "000120",
+        "name": "木下杢太郎",
+        "kana": "きのしたもくたろう",
+        "roman": "Mokutaro Kinoshita",
+        "role": "著者",
+        "birthDate": "1885-08-01",
+        "deathDate": "1945-10-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

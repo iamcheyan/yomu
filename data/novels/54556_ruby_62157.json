@@ -92,5 +92,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054556",
+    "title": "哀詩数篇",
+    "titleKana": "あいしすうへん",
+    "sortKana": "あいしすうへん",
+    "firstAppearance": "くらがり「琉球新報」1909（明治42）年5月6日<br>暮の鐘「琉球新報」1909（明治42）年5月6日",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-08-06",
+    "updatedAt": "2017-07-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001666/card54556.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001666/files/54556_ruby_62157.zip",
+    "textFileId": "54556_ruby_62157",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001666/files/54556_62158.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "良本典代",
+    "baseBook1": {
+      "title": "沖縄文学全集　第1巻　詩Ⅰ",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "1991（平成3）年6月6日",
+      "inputEdition": "1991（平成3）年6月6日第1刷",
+      "proofreadEdition": "1991（平成3）年6月6日第1刷"
+    },
+    "author": "漢那浪笛",
+    "authors": [
+      {
+        "personId": "001666",
+        "name": "漢那浪笛",
+        "kana": "かんなろうてき",
+        "roman": "Roteki Kanna",
+        "role": "著者",
+        "birthDate": "1887",
+        "deathDate": "1939",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

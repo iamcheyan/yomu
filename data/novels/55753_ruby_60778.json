@@ -170,5 +170,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055753",
+    "title": "雪と花火余言",
+    "titleKana": "ゆきとはなびよげん",
+    "sortKana": "ゆきとはなひよけん",
+    "subtitle": "東京景物詩改題に就て",
+    "subtitleKana": "とうきょうけいぶつしかいだいについて",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-02-12",
+    "updatedAt": "2017-01-12",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000106/card55753.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000106/files/55753_ruby_60778.zip",
+    "textFileId": "55753_ruby_60778",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000106/files/55753_60813.html",
+    "inputBy": "岡村和彦",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "白秋全集　3",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1985（昭和60）年5月7日",
+      "inputEdition": "1985（昭和60）年5月7日",
+      "proofreadEdition": "1985（昭和60）年5月7日"
+    },
+    "author": "北原白秋",
+    "authors": [
+      {
+        "personId": "000106",
+        "name": "北原白秋",
+        "kana": "きたはらはくしゅう",
+        "roman": "Hakushu Kitahara",
+        "role": "著者",
+        "birthDate": "1885-01-25",
+        "deathDate": "1942-11-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -188,5 +188,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004429",
+    "title": "万葉集を読む",
+    "titleKana": "まんようしゅうをよむ",
+    "sortKana": "まんようしゆうをよむ",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-06-30",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000305/card4429.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000305/files/4429_ruby_18491.zip",
+    "textFileId": "4429_ruby_18491",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000305/files/4429_18611.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "川向直樹",
+    "baseBook1": {
+      "title": "子規全集　第七卷　歌論　選歌",
+      "publisher": "講談社",
+      "firstPublishedAt": "1975（昭和50）年7月18日",
+      "inputEdition": "1975（昭和50）年7月18日第1刷",
+      "proofreadEdition": "1975（昭和50）年7月18日第1刷"
+    },
+    "author": "正岡子規",
+    "authors": [
+      {
+        "personId": "000305",
+        "name": "正岡子規",
+        "kana": "まさおかしき",
+        "roman": "Shiki Masaoka",
+        "role": "著者",
+        "birthDate": "1867-10-14",
+        "deathDate": "1902-09-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

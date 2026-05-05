@@ -52,5 +52,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045520",
+    "title": "うづみ火",
+    "titleKana": "うずみび",
+    "sortKana": "うすみひ",
+    "firstAppearance": "「女學世界第一卷第十五號定期増刊「磯ちどり」才媛詞藻冬の卷・小説」1910（明治43）年11月号",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-03-30",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000726/card45520.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000726/files/45520_ruby_37854.zip",
+    "textFileId": "45520_ruby_37854",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000726/files/45520_38305.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "野口英司",
+    "baseBook1": {
+      "title": "時代の娘",
+      "publisher": "興亞日本社",
+      "firstPublishedAt": "1941（昭和16）年10月22日",
+      "inputEdition": "1941（昭和16）年11月26日再版",
+      "proofreadEdition": "1941（昭和16）年11月26日再版"
+    },
+    "author": "長谷川時雨",
+    "authors": [
+      {
+        "personId": "000726",
+        "name": "長谷川時雨",
+        "kana": "はせがわしぐれ",
+        "roman": "Shigure Hasegawa",
+        "role": "著者",
+        "birthDate": "1879-10-01",
+        "deathDate": "1941-08-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

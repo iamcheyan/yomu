@@ -208,5 +208,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004433",
+    "title": "静かなる羅列",
+    "titleKana": "しずかなるられつ",
+    "sortKana": "しすかなるられつ",
+    "firstAppearance": "「文藝春秋」1925（大正14）年7月号",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-03-10",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card4433.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/4433_ruby_14434.zip",
+    "textFileId": "4433_ruby_14434",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/4433_14448.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "短篇小説名作選",
+      "publisher": "現代企画室",
+      "firstPublishedAt": "1981（昭和56）年4月15日",
+      "inputEdition": "1984（昭和59）年3月15日第2刷",
+      "proofreadEdition": "1981（昭和56）年4月15日第1刷"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

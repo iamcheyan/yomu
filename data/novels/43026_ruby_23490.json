@@ -60,5 +60,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043026",
+    "title": "雪中の日光より",
+    "titleKana": "せっちゅうのにっこうより",
+    "sortKana": "せつちゆうのにつこうより",
+    "firstAppearance": "「毎日新聞」1900（明治33）年2月22日",
+    "ndc": "NDC 312 368 071 561",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-08-30",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000525/card43026.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000525/files/43026_ruby_23490.zip",
+    "textFileId": "43026_ruby_23490",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000525/files/43026_23830.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "木下尚江著作集第1巻",
+      "publisher": "明治文献",
+      "firstPublishedAt": "1972（昭和47）年2月10日",
+      "inputEdition": "1972（昭和47）年2月10日第1刷",
+      "proofreadEdition": "1972（昭和47）年2月10日第1刷"
+    },
+    "author": "木下尚江",
+    "authors": [
+      {
+        "personId": "000525",
+        "name": "木下尚江",
+        "kana": "きのしたなおえ",
+        "roman": "Naoe Kinoshita",
+        "role": "著者",
+        "birthDate": "1869-10-12",
+        "deathDate": "1937-11-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

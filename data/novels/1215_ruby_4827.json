@@ -58,5 +58,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001215",
+    "title": "寒中の木の芽",
+    "titleKana": "かんちゅうのきのめ",
+    "sortKana": "かんちゆうのきのめ",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-11-02",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000034/card1215.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000034/files/1215_ruby_4827.zip",
+    "textFileId": "1215_ruby_4827",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000034/files/1215_9222.html",
+    "inputBy": "ゆうき",
+    "proofreadBy": "ちはる",
+    "baseBook1": {
+      "title": "内村鑑三全集3　1894-1896",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1982（昭和57）年12月20日"
+    },
+    "author": "内村鑑三",
+    "authors": [
+      {
+        "personId": "000034",
+        "name": "内村鑑三",
+        "kana": "うちむらかんぞう",
+        "roman": "Kanzo Uchimura",
+        "role": "著者",
+        "birthDate": "1861-03-26",
+        "deathDate": "1930-03-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

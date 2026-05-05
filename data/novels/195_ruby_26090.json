@@ -340,5 +340,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000195",
+    "title": "可哀相な姉",
+    "titleKana": "かわいそうなあね",
+    "sortKana": "かわいそうなあね",
+    "firstAppearance": "「新青年」1927（昭和2）年10月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-02-11",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000020/card195.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000020/files/195_ruby_26090.zip",
+    "textFileId": "195_ruby_26090",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000020/files/195_26091.html",
+    "inputBy": "森下祐行",
+    "proofreadBy": "もりみつじゅんじ",
+    "baseBook1": {
+      "title": "アンドロギュノスの裔",
+      "publisher": "薔薇十字社",
+      "firstPublishedAt": "1970（昭和45）年9月1日"
+    },
+    "author": "渡辺温",
+    "authors": [
+      {
+        "personId": "000020",
+        "name": "渡辺温",
+        "kana": "わたなべおん",
+        "roman": "On Watanabe",
+        "role": "著者",
+        "birthDate": "1902-08-26",
+        "deathDate": "1930-02-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

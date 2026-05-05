@@ -434,5 +434,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043121",
+    "title": "アラビヤンナイト",
+    "titleKana": "アラビヤンナイト",
+    "sortKana": "あらひやんないと",
+    "subtitle": "04 四、船乗シンドバッド",
+    "subtitleKana": "04 よん、ふなのりシンドバッド",
+    "originalTitle": "SINDBAD THE SAILOR",
+    "ndc": "NDC K929",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-11-22",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000083/card43121.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000083/files/43121_ruby_16691.zip",
+    "textFileId": "43121_ruby_16691",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000083/files/43121_16873.html",
+    "inputBy": "大久保ゆう",
+    "proofreadBy": "京都大学点訳サークル",
+    "baseBook1": {
+      "title": "アラビヤンナイト",
+      "publisher": "主婦之友社",
+      "firstPublishedAt": "1948（昭和23）年7月10日",
+      "inputEdition": "1948（昭和23）年7月10日初版",
+      "proofreadEdition": "1948（昭和23）年7月10日初版"
+    },
+    "author": "菊池寛",
+    "authors": [
+      {
+        "personId": "000083",
+        "name": "菊池寛",
+        "kana": "きくちかん",
+        "roman": "Kan Kikuchi",
+        "role": "著者",
+        "birthDate": "1888-12-26",
+        "deathDate": "1948-03-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

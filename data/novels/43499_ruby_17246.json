@@ -42,5 +42,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043499",
+    "title": "結核症",
+    "titleKana": "けっかくしょう",
+    "sortKana": "けつかくしよう",
+    "firstAppearance": "「随筆」1926（大正15）年10月",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-01-29",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001059/card43499.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001059/files/43499_ruby_17246.zip",
+    "textFileId": "43499_ruby_17246",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001059/files/43499_17413.html",
+    "inputBy": "kamille",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "斎藤茂吉選集　第八巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1981（昭和56）年5月27日",
+      "inputEdition": "1981（昭和56）年5月27日第1刷",
+      "proofreadEdition": "1998（平成10）年8月7日第2刷"
+    },
+    "author": "斎藤茂吉",
+    "authors": [
+      {
+        "personId": "001059",
+        "name": "斎藤茂吉",
+        "kana": "さいとうもきち",
+        "roman": "Mokichi Saito",
+        "role": "著者",
+        "birthDate": "1882-5-14",
+        "deathDate": "1953-2-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

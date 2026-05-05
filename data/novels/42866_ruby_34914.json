@@ -1458,5 +1458,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042866",
+    "title": "金銭無情",
+    "titleKana": "きんせんむじょう",
+    "sortKana": "きんせんむしよう",
+    "firstAppearance": "金銭無情「別冊文藝春秋　第二巻第三号」文藝春秋新社、1947（昭和22）年6月1日<br>失恋難「月刊読売　第五巻第八号」1947（昭和22）年8月1日<br>夜の王様「サロン　第二巻第八号」1947（昭和22）年9月1日<br>王様失脚「サロン　第二巻第一〇号」1947（昭和22）年11月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-07-02",
+    "updatedAt": "2016-04-15",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card42866.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/42866_ruby_34914.zip",
+    "textFileId": "42866_ruby_34914",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/42866_35367.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "深津辰男・美智子",
+    "baseBook1": {
+      "title": "坂口安吾全集　05",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1998（平成10）年6月20日",
+      "inputEdition": "1998（平成10）年6月20日初版第1刷",
+      "proofreadEdition": "1998（平成10）年6月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

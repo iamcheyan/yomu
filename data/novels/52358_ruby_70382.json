@@ -690,5 +690,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052358",
+    "title": "土城廊",
+    "titleKana": "トソンラン",
+    "sortKana": "とそんらん",
+    "firstAppearance": "「文芸首都」1940（昭和15）年2月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-03-03",
+    "updatedAt": "2020-02-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000252/card52358.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000252/files/52358_ruby_70382.zip",
+    "textFileId": "52358_ruby_70382",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000252/files/52358_70440.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "富田晶子",
+    "baseBook1": {
+      "title": "光の中に　金史良作品集",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1999（平成11）年4月10日",
+      "inputEdition": "2005（平成17）年8月10日第2刷",
+      "proofreadEdition": "1999（平成11）年4月10日第1刷"
+    },
+    "author": "金史良",
+    "authors": [
+      {
+        "personId": "000252",
+        "name": "金史良",
+        "kana": "きむさりゃん",
+        "roman": "Sa-ryang Kim",
+        "role": "著者",
+        "birthDate": "1914-03-03",
+        "deathDate": "1950",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

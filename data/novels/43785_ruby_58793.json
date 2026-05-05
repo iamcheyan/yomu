@@ -8794,5 +8794,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043785",
+    "title": "現代訳論語",
+    "titleKana": "げんだいやくろんご",
+    "sortKana": "けんたいやくろんこ",
+    "ndc": "NDC 123",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-05-20",
+    "updatedAt": "2021-10-11",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001097/card43785.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001097/files/43785_ruby_58793.zip",
+    "textFileId": "43785_ruby_58793",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001097/files/43785_58836.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "酒井和郎",
+    "baseBook1": {
+      "title": "下村湖人全集　第五巻",
+      "publisher": "池田書店",
+      "firstPublishedAt": "1965（昭和40）年5月15日",
+      "inputEdition": "1965（昭和40）年5月15日",
+      "proofreadEdition": "1965（昭和40）年5月15日"
+    },
+    "author": "下村湖人",
+    "authors": [
+      {
+        "personId": "001097",
+        "name": "下村湖人",
+        "kana": "しもむらこじん",
+        "roman": "Kojin Shimomura",
+        "role": "著者",
+        "birthDate": "1884-10-03",
+        "deathDate": "1955-04-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

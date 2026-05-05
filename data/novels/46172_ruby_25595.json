@@ -842,5 +842,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046172",
+    "title": "浪",
+    "titleKana": "なみ",
+    "sortKana": "なみ",
+    "firstAppearance": "「平民新聞　第73号～第102号」1948（昭和23）年5月24日～12月27日",
+    "ndc": "NDC 121 289",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-01-01",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001170/card46172.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001170/files/46172_ruby_25595.zip",
+    "textFileId": "46172_ruby_25595",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001170/files/46172_25647.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "日本現代文學全集　32　社會主義文學集",
+      "publisher": "講談社",
+      "firstPublishedAt": "1963（昭和38）年12月19日",
+      "inputEdition": "1963（昭和38）年12月19日",
+      "proofreadEdition": "1963（昭和38）年12月19日"
+    },
+    "author": "石川三四郎",
+    "authors": [
+      {
+        "personId": "001170",
+        "name": "石川三四郎",
+        "kana": "いしかわさんしろう",
+        "roman": "Sanshiro Ishikawa",
+        "role": "著者",
+        "birthDate": "1876-05-23",
+        "deathDate": "1956-11-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

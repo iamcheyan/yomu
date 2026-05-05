@@ -38,5 +38,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048212",
+    "title": "須磨明石",
+    "titleKana": "すまあかし",
+    "sortKana": "すまあかし",
+    "firstAppearance": "「馬醉木　第三卷第六號」1906（明治39）年10月12日",
+    "ndc": "NDC 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-08-03",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000118/card48212.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000118/files/48212_ruby_38820.zip",
+    "textFileId": "48212_ruby_38820",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000118/files/48212_39755.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "長塚節全集　第二巻",
+      "publisher": "春陽堂書店",
+      "firstPublishedAt": "1977（昭和52）年1月31日",
+      "inputEdition": "1977（昭和52）年1月31日",
+      "proofreadEdition": "1977（昭和52）年1月31日"
+    },
+    "author": "長塚節",
+    "authors": [
+      {
+        "personId": "000118",
+        "name": "長塚節",
+        "kana": "ながつかたかし",
+        "roman": "Takashi Nagatsuka",
+        "role": "著者",
+        "birthDate": "1879-04-03",
+        "deathDate": "1915-02-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

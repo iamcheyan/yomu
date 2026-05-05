@@ -3086,5 +3086,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042767",
+    "title": "無人島に生きる十六人",
+    "titleKana": "むじんとうにいきるじゅうろくにん",
+    "sortKana": "むしんとうにいきるしゆうろくにん",
+    "ndc": "NDC K290",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-06-08",
+    "updatedAt": "2016-01-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001120/card42767.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001120/files/42767_ruby_15339.zip",
+    "textFileId": "42767_ruby_15339",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001120/files/42767_15618.html",
+    "inputBy": "kompass",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "無人島に生きる十六人",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "2003（平成15）年7月1日",
+      "inputEdition": "2003（平成15）年10月15日4刷"
+    },
+    "author": "須川邦彦",
+    "authors": [
+      {
+        "personId": "001120",
+        "name": "須川邦彦",
+        "kana": "すがわくにひこ",
+        "roman": "Kunihiko Sugawa",
+        "role": "著者",
+        "birthDate": "1880",
+        "deathDate": "1949",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

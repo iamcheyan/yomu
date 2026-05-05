@@ -136,5 +136,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056328",
+    "title": "赤い杭",
+    "titleKana": "あかいくい",
+    "sortKana": "あかいくい",
+    "firstAppearance": "「夕刊大阪新聞」1929（昭和4）年9月1日（推定）",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-11-15",
+    "updatedAt": "2020-10-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000082/card56328.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000082/files/56328_ruby_72079.zip",
+    "textFileId": "56328_ruby_72079",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000082/files/56328_72120.html",
+    "inputBy": "江村秀之",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "近代異妖篇　――岡本綺堂読物集三",
+      "publisher": "中公文庫、中央公論新社",
+      "firstPublishedAt": "2013（平成25）年4月25日",
+      "inputEdition": "2013（平成25）年4月25日初版",
+      "proofreadEdition": "2013（平成25）年4月25日初版"
+    },
+    "author": "岡本綺堂",
+    "authors": [
+      {
+        "personId": "000082",
+        "name": "岡本綺堂",
+        "kana": "おかもときどう",
+        "roman": "Kido Okamoto",
+        "role": "著者",
+        "birthDate": "1872-11-15",
+        "deathDate": "1939-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

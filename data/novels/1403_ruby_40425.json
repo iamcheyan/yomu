@@ -8978,5 +8978,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001403",
+    "title": "神州纐纈城",
+    "titleKana": "しんしゅうこうけつじょう",
+    "sortKana": "しんしゆうこうけつしよう",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-11-18",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card1403.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/1403_ruby_40425.zip",
+    "textFileId": "1403_ruby_40425",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/1403_41259.html",
+    "inputBy": "小林繁雄、門田裕志",
+    "proofreadBy": "六郷梧三郎",
+    "baseBook1": {
+      "title": "神州纐纈城",
+      "publisher": "大衆文学館、講談社",
+      "firstPublishedAt": "1995（平成7）年3月17日",
+      "inputEdition": "1995（平成7）年4月20日第2刷",
+      "proofreadEdition": "1995（平成7）年3月17日第1刷"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

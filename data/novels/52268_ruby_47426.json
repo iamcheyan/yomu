@@ -108,5 +108,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052268",
+    "title": "指環",
+    "titleKana": "ゆびわ",
+    "sortKana": "ゆひわ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-07-25",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000154/card52268.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000154/files/52268_ruby_47426.zip",
+    "textFileId": "52268_ruby_47426",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000154/files/52268_47947.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本怪談大全　第二巻　幽霊の館",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "1995（平成7）年8月2日",
+      "inputEdition": "1995（平成7）年8月2日初版第1刷",
+      "proofreadEdition": "1995（平成7）年8月2日初版第1刷"
+    },
+    "author": "田中貢太郎",
+    "authors": [
+      {
+        "personId": "000154",
+        "name": "田中貢太郎",
+        "kana": "たなかこうたろう",
+        "roman": "Kotaro Tanaka",
+        "role": "著者",
+        "birthDate": "1880-03-02",
+        "deathDate": "1941-02-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

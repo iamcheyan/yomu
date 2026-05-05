@@ -74,5 +74,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049803",
+    "title": "「日本民族」とは何ぞや",
+    "titleKana": "「やまとみんぞく」とはなんぞや",
+    "sortKana": "やまとみんそくとはなんそや",
+    "subtitle": "日本民族の概念を論ず",
+    "subtitleKana": "やまとみんぞくのがいねんをろんず",
+    "firstAppearance": "「民族と歴史　第一巻第一号」1919（大正8）年1月",
+    "ndc": "NDC 210 380",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-10-09",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001344/card49803.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001344/files/49803_ruby_39593.zip",
+    "textFileId": "49803_ruby_39593",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001344/files/49803_40608.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "しだひろし",
+    "baseBook1": {
+      "title": "先住民と差別　喜田貞吉歴史民俗学傑作選",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "2008（平成20）年1月30日",
+      "inputEdition": "2008（平成20）年1月30日初版",
+      "proofreadEdition": "2008（平成20）年1月30日初版"
+    },
+    "author": "喜田貞吉",
+    "authors": [
+      {
+        "personId": "001344",
+        "name": "喜田貞吉",
+        "kana": "きたさだきち",
+        "roman": "Sadakichi Kita",
+        "role": "著者",
+        "birthDate": "1871-07-11",
+        "deathDate": "1939-07-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -52,5 +52,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055065",
+    "title": "墨蹟より見たる明治大正の文士",
+    "titleKana": "ぼくせきよりみたるめいじたいしょうのぶんし",
+    "sortKana": "ほくせきよりみたるめいしたいしようのふんし",
+    "ndc": "NDC 728 910",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-08-10",
+    "updatedAt": "2020-07-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001403/card55065.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001403/files/55065_ruby_71403.zip",
+    "textFileId": "55065_ruby_71403",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001403/files/55065_71452.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "木下聡",
+    "baseBook1": {
+      "title": "魯山人書論",
+      "publisher": "中公文庫、中央公論新社",
+      "firstPublishedAt": "1996（平成8）年9月18日",
+      "inputEdition": "2007（平成19）年9月25日3刷",
+      "proofreadEdition": "2007（平成19）年9月25日3刷"
+    },
+    "author": "北大路魯山人",
+    "authors": [
+      {
+        "personId": "001403",
+        "name": "北大路魯山人",
+        "kana": "きたおおじろさんじん",
+        "roman": "Rosanjin Kitaoji",
+        "role": "著者",
+        "birthDate": "1883-03-23",
+        "deathDate": "1959-12-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -9404,5 +9404,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057180",
+    "title": "負けない男",
+    "titleKana": "まけないおとこ",
+    "sortKana": "まけないおとこ",
+    "firstAppearance": "「講談倶楽部」大日本雄辯會講談社、1930（昭和5）年1月～12月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-11-10",
+    "updatedAt": "2020-10-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001750/card57180.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001750/files/57180_ruby_72070.zip",
+    "textFileId": "57180_ruby_72070",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001750/files/57180_72111.html",
+    "inputBy": "橋本泰平",
+    "proofreadBy": "芝裕久",
+    "baseBook1": {
+      "title": "佐々木邦全集2　次男坊　負けない男　凡人伝　短篇",
+      "publisher": "講談社",
+      "firstPublishedAt": "1974（昭和49）年11月20日",
+      "inputEdition": "1974（昭和49）年11月20日第1刷",
+      "proofreadEdition": "1974（昭和49）年11月20日第1刷"
+    },
+    "author": "佐々木邦",
+    "authors": [
+      {
+        "personId": "001750",
+        "name": "佐々木邦",
+        "kana": "ささきくに",
+        "roman": "Kuni Sasaki",
+        "role": "著者",
+        "birthDate": "1883-05-04",
+        "deathDate": "1964-09-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -1106,5 +1106,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004962",
+    "title": "獄中消息",
+    "titleKana": "ごくちゅうしょうそく",
+    "sortKana": "こくちゆうしようそく",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-04-20",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000169/card4962.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000169/files/4962_ruby_10881.zip",
+    "textFileId": "4962_ruby_10881",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000169/files/4962_15425.html",
+    "inputBy": "小鍛冶茂子",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "大杉栄選　日本脱出記・獄中記",
+      "publisher": "現代思潮社",
+      "firstPublishedAt": "1970（昭和45）年7月10日",
+      "inputEdition": "1970（昭和45）年7月10日初版",
+      "proofreadEdition": "1970（昭和45）年7月10日初版"
+    },
+    "author": "大杉栄",
+    "authors": [
+      {
+        "personId": "000169",
+        "name": "大杉栄",
+        "kana": "おおすぎさかえ",
+        "roman": "Sakae Osugi",
+        "role": "著者",
+        "birthDate": "1885-01-17",
+        "deathDate": "1923-09-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

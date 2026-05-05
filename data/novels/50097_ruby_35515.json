@@ -26,5 +26,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050097",
+    "title": "昔の大名の心意気",
+    "titleKana": "むかしのだいみょうのこころいき",
+    "sortKana": "むかしのたいみようのこころいき",
+    "ndc": "NDC 779 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-07-17",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000989/card50097.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000989/files/50097_ruby_35515.zip",
+    "textFileId": "50097_ruby_35515",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000989/files/50097_35534.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "明治の文学　第3巻　三遊亭円朝",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2001（平成13）年8月25日",
+      "inputEdition": "2001（平成13）年8月25日初版第1刷",
+      "proofreadEdition": "2001（平成13）年8月25日初版第1刷"
+    },
+    "author": "三遊亭円朝",
+    "authors": [
+      {
+        "personId": "000989",
+        "name": "三遊亭円朝",
+        "kana": "さんゆうていえんちょう",
+        "roman": "Encho San'yutei",
+        "role": "著者",
+        "birthDate": "1839-05-13",
+        "deathDate": "1900-08-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

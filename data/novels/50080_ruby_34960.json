@@ -2006,5 +2006,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050080",
+    "title": "胎内",
+    "titleKana": "たいない",
+    "sortKana": "たいない",
+    "firstAppearance": "「中央公論」1949（昭和24）年4、5月号",
+    "ndc": "NDC 912",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-04-01",
+    "updatedAt": "2019-01-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001311/card50080.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001311/files/50080_ruby_34960.zip",
+    "textFileId": "50080_ruby_34960",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001311/files/50080_42255.html",
+    "inputBy": "青空文庫",
+    "proofreadBy": "青空文庫",
+    "baseBook1": {
+      "title": "現代日本文學大系　58　村山知義　眞船豐　久保榮　三好十郎集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1972（昭和47年）8月31日",
+      "inputEdition": "1972（昭和47年）8月31日初版第1刷",
+      "proofreadEdition": "1972（昭和47年）8月31日初版第1刷"
+    },
+    "author": "三好十郎",
+    "authors": [
+      {
+        "personId": "001311",
+        "name": "三好十郎",
+        "kana": "みよしじゅうろう",
+        "roman": "Juro Miyoshi",
+        "role": "著者",
+        "birthDate": "1902-04-21",
+        "deathDate": "1958-12-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

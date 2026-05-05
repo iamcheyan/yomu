@@ -266,5 +266,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000678",
+    "title": "かのように",
+    "titleKana": "かのように",
+    "sortKana": "かのように",
+    "firstAppearance": "「中央公論」1912（明治45）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-09-23",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card678.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/678_ruby_22883.zip",
+    "textFileId": "678_ruby_22883",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/678_22884.html",
+    "inputBy": "高橋真也",
+    "proofreadBy": "湯地光弘",
+    "baseBook1": {
+      "title": "阿部一族・舞姫",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1968（昭和43）年4月20日、1985（昭和60）年5月20日36刷改版"
+    },
+    "author": "森鴎外",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

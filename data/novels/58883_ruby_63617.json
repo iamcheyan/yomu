@@ -504,5 +504,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058883",
+    "title": "政治学入門",
+    "titleKana": "せいじがくにゅうもん",
+    "sortKana": "せいしかくにゆうもん",
+    "firstAppearance": "「政治学入門」アテネ新書、弘文堂、1951（昭和26）年5月",
+    "ndc": "NDC 311",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-01-01",
+    "updatedAt": "2018-01-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001969/card58883.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001969/files/58883_ruby_63617.zip",
+    "textFileId": "58883_ruby_63617",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001969/files/58883_63618.html",
+    "inputBy": "フクポー",
+    "proofreadBy": "富田晶子",
+    "baseBook1": {
+      "title": "政治学入門",
+      "publisher": "講談社学術文庫、講談社",
+      "firstPublishedAt": "1977（昭和52）年10月10日",
+      "inputEdition": "1993（平成5）年12月20日第21刷",
+      "proofreadEdition": "1993（平成5）年12月20日第21刷"
+    },
+    "author": "矢部貞治",
+    "authors": [
+      {
+        "personId": "001969",
+        "name": "矢部貞治",
+        "kana": "やべていじ",
+        "roman": "Teiji Yabe",
+        "role": "著者",
+        "birthDate": "1902-11-09",
+        "deathDate": "1967-05-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

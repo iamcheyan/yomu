@@ -2800,5 +2800,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056771",
+    "title": "瘋癲老人日記",
+    "titleKana": "ふうてんろうじんにっき",
+    "sortKana": "ふうてんろうしんにつき",
+    "firstAppearance": "「中央公論」中央公論社、1961（昭和36）年11月～1962（昭和37）年5月",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-12-29",
+    "updatedAt": "2016-09-09",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001383/card56771.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001383/files/56771_ruby_60190.zip",
+    "textFileId": "56771_ruby_60190",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001383/files/56771_60234.html",
+    "inputBy": "kompass",
+    "proofreadBy": "酒井裕二",
+    "baseBook1": {
+      "title": "瘋癲老人日記　改版",
+      "publisher": "中公文庫、中央公論新社",
+      "firstPublishedAt": "1977（昭和52）年1月10日",
+      "inputEdition": "2001（平成13）年3月25日改版",
+      "proofreadEdition": "2013（平成25）年7月5日改版3刷"
+    },
+    "author": "谷崎潤一郎",
+    "authors": [
+      {
+        "personId": "001383",
+        "name": "谷崎潤一郎",
+        "kana": "たにざきじゅんいちろう",
+        "roman": "Jun'ichiro Tanizaki",
+        "role": "著者",
+        "birthDate": "1886-07-24",
+        "deathDate": "1965-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

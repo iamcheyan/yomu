@@ -262,5 +262,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058556",
+    "title": "蒲生鶴千代",
+    "titleKana": "がもうつるちよ",
+    "sortKana": "かもうつるちよ",
+    "firstAppearance": "「小學六年生」小学館 、1940（昭和15）年10月",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-12-21",
+    "updatedAt": "2022-11-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001869/card58556.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001869/files/58556_ruby_76735.zip",
+    "textFileId": "58556_ruby_76735",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001869/files/58556_76771.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "美少女一番乗り",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "2009（平成21）年3月25日",
+      "inputEdition": "2009（平成21）年3月25日初版",
+      "proofreadEdition": "2009（平成21）年3月25日初版"
+    },
+    "author": "山本周五郎",
+    "authors": [
+      {
+        "personId": "001869",
+        "name": "山本周五郎",
+        "kana": "やまもとしゅうごろう",
+        "roman": "Shugoro Yamamoto",
+        "role": "著者",
+        "birthDate": "1903-06-22",
+        "deathDate": "1967-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

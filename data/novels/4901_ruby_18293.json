@@ -84,5 +84,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004901",
+    "title": "石を愛するもの",
+    "titleKana": "いしをあいするもの",
+    "sortKana": "いしをあいするもの",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-05-19",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000150/card4901.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000150/files/4901_ruby_18293.zip",
+    "textFileId": "4901_ruby_18293",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000150/files/4901_18424.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "高柳典子",
+    "baseBook1": {
+      "title": "日本の名随筆88　石",
+      "publisher": "作品社",
+      "firstPublishedAt": "1990（平成2）年2月25日",
+      "inputEdition": "1996（平成8）年8月25日第5刷",
+      "proofreadEdition": "1990（平成2）年2月25日第1刷"
+    },
+    "author": "薄田泣菫",
+    "authors": [
+      {
+        "personId": "000150",
+        "name": "薄田泣菫",
+        "kana": "すすきだきゅうきん",
+        "roman": "Kyukin Susukida",
+        "role": "著者",
+        "birthDate": "1877-05-19",
+        "deathDate": "1945-10-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

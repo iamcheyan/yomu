@@ -670,5 +670,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042766",
+    "title": "政治の破産者・田中正造",
+    "titleKana": "せいじのはさんしゃ・たなかしょうぞう",
+    "sortKana": "せいしのはさんしやたなかしようそう",
+    "firstAppearance": "「中央公論　昭和八年四月号」1933（昭和8）年4月",
+    "ndc": "NDC 289 561",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-06-19",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000525/card42766.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000525/files/42766_ruby_22804.zip",
+    "textFileId": "42766_ruby_22804",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000525/files/42766_23160.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "現代日本文學大系　9　徳冨蘆花・木下尚江集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1971（昭和46）年10月5日",
+      "inputEdition": "1985（昭和60）年11月10日初版第13刷"
+    },
+    "author": "木下尚江",
+    "authors": [
+      {
+        "personId": "000525",
+        "name": "木下尚江",
+        "kana": "きのしたなおえ",
+        "roman": "Naoe Kinoshita",
+        "role": "著者",
+        "birthDate": "1869-10-12",
+        "deathDate": "1937-11-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

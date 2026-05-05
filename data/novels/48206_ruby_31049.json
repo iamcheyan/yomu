@@ -44,5 +44,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048206",
+    "title": "差押へられる話",
+    "titleKana": "さしおさえられるはなし",
+    "sortKana": "さしおさえられるはなし",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-07-23",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000083/card48206.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000083/files/48206_ruby_31049.zip",
+    "textFileId": "48206_ruby_31049",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000083/files/48206_31710.html",
+    "inputBy": "浦山敦子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻57　喧嘩",
+      "publisher": "作品社",
+      "firstPublishedAt": "1995（平成7）年11月25日",
+      "inputEdition": "1995（平成7）年11月25日第1刷",
+      "proofreadEdition": "1995（平成7）年11月25日第1刷"
+    },
+    "author": "菊池寛",
+    "authors": [
+      {
+        "personId": "000083",
+        "name": "菊池寛",
+        "kana": "きくちかん",
+        "roman": "Kan Kikuchi",
+        "role": "著者",
+        "birthDate": "1888-12-26",
+        "deathDate": "1948-03-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

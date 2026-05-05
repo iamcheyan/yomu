@@ -84,5 +84,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049177",
+    "title": "真間・蘆屋の昔がたり",
+    "titleKana": "まま・あしやのむかしがたり",
+    "sortKana": "ままあしやのむかしかたり",
+    "firstAppearance": "「国学院雑誌　第五十三巻第一号」1952（昭和27）年4月",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-10-28",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card49177.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/49177_ruby_32236.zip",
+    "textFileId": "49177_ruby_32236",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/49177_33055.html",
+    "inputBy": "Ｈ．ＹＡＭ",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "折口信夫全集　6",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1995（平成7）年7月10日",
+      "inputEdition": "1995（平成7）年7月10日初版",
+      "proofreadEdition": "1995（平成7）年7月10日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

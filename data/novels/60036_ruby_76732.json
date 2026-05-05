@@ -308,5 +308,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060036",
+    "title": "愉快な教室",
+    "titleKana": "ゆかいなきょうしつ",
+    "sortKana": "ゆかいなきようしつ",
+    "firstAppearance": "「マドモアゼル　第一巻第五号」小学館、1960（昭和35）年5月1日",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-12-18",
+    "updatedAt": "2022-11-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001763/card60036.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001763/files/60036_ruby_76732.zip",
+    "textFileId": "60036_ruby_76732",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001763/files/60036_76768.html",
+    "inputBy": "よしの",
+    "proofreadBy": "持田和踏",
+    "baseBook1": {
+      "title": "定本　佐藤春夫全集　第35巻",
+      "publisher": "臨川書店",
+      "firstPublishedAt": "2001（平成13）年4月9日",
+      "inputEdition": "2001（平成13）年4月9日初版",
+      "proofreadEdition": "2001（平成13）年4月9日初版"
+    },
+    "author": "佐藤春夫",
+    "authors": [
+      {
+        "personId": "001763",
+        "name": "佐藤春夫",
+        "kana": "さとうはるお",
+        "roman": "Haruo Sato",
+        "role": "著者",
+        "birthDate": "1892-04-09",
+        "deathDate": "1964-05-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

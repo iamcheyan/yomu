@@ -318,5 +318,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046655",
+    "title": "宝塚生い立ちの記",
+    "titleKana": "たからづかおいたちのき",
+    "sortKana": "たからつかおいたちのき",
+    "ndc": "NDC 775",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-01-01",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001256/card46655.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001256/files/46655_ruby_29119.zip",
+    "textFileId": "46655_ruby_29119",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001256/files/46655_29120.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "宝塚漫筆",
+      "publisher": "阪急電鉄",
+      "firstPublishedAt": "1980（昭和55）年2月15日",
+      "inputEdition": "1980（昭和55）年2月15日",
+      "proofreadEdition": "1980（昭和55）年2月15日"
+    },
+    "author": "小林一三",
+    "authors": [
+      {
+        "personId": "001256",
+        "name": "小林一三",
+        "kana": "こばやしいちぞう",
+        "roman": "Ichizo Kobayashi",
+        "role": "著者",
+        "birthDate": "1873-01-03",
+        "deathDate": "1957-01-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

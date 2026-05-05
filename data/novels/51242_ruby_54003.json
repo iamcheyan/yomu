@@ -96,5 +96,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051242",
+    "title": "或る日の小せん",
+    "titleKana": "あるひのこせん",
+    "sortKana": "あるひのこせん",
+    "ndc": "NDC 779 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-08-22",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001497/card51242.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001497/files/51242_ruby_54003.zip",
+    "textFileId": "51242_ruby_54003",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001497/files/51242_54045.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "POKEPEEK2011",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻29　落語",
+      "publisher": "作品社",
+      "firstPublishedAt": "1993（平成5）年7月25日",
+      "inputEdition": "1999（平成11）年7月10日第4刷",
+      "proofreadEdition": "1993（平成5）年7月25日第1刷"
+    },
+    "author": "吉井勇",
+    "authors": [
+      {
+        "personId": "001497",
+        "name": "吉井勇",
+        "kana": "よしいいさむ",
+        "roman": "Isamu Yoshii",
+        "role": "著者",
+        "birthDate": "1886-10-08",
+        "deathDate": "1960-11-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

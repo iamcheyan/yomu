@@ -202,5 +202,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001456",
+    "title": "死体蝋燭",
+    "titleKana": "したいろうそく",
+    "sortKana": "したいろうそく",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-11-07",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000262/card1456.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000262/files/1456_ruby_20737.zip",
+    "textFileId": "1456_ruby_20737",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000262/files/1456_20738.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "しず",
+    "baseBook1": {
+      "title": "怪奇探偵小説集1",
+      "publisher": "ハルキ文庫、角川春樹事務所",
+      "firstPublishedAt": "1998（平成10）年5月18日"
+    },
+    "author": "小酒井不木",
+    "authors": [
+      {
+        "personId": "000262",
+        "name": "小酒井不木",
+        "kana": "こざかいふぼく",
+        "roman": "Fuboku Kosakai",
+        "role": "著者",
+        "birthDate": "1890-10-08",
+        "deathDate": "1929-04-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

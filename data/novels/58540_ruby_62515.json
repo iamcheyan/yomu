@@ -70,5 +70,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058540",
+    "title": "西班牙犬の家",
+    "titleKana": "スペインけんのいえ",
+    "sortKana": "すへいんけんのいえ",
+    "subtitle": "（夢見心地になることの好きな人々の為めの短篇）",
+    "subtitleKana": "（ゆめみごこちになることのすきなひとびとのためのたんぺん）",
+    "firstAppearance": "「星座」1917（大正6）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-09-10",
+    "updatedAt": "2017-09-02",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001763/card58540.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001763/files/58540_ruby_62515.zip",
+    "textFileId": "58540_ruby_62515",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001763/files/58540_62557.html",
+    "inputBy": "琴屋　守",
+    "proofreadBy": "希色",
+    "baseBook1": {
+      "title": "美しき町・西班牙犬の家　他六篇",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1992（平成4）年8月18日",
+      "inputEdition": "1992（平成4）年8月18日第1刷",
+      "proofreadEdition": "1992（平成4）年8月18日第1刷"
+    },
+    "author": "佐藤春夫",
+    "authors": [
+      {
+        "personId": "001763",
+        "name": "佐藤春夫",
+        "kana": "さとうはるお",
+        "roman": "Haruo Sato",
+        "role": "著者",
+        "birthDate": "1892-04-09",
+        "deathDate": "1964-05-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

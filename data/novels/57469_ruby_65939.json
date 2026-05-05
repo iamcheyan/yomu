@@ -56,5 +56,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057469",
+    "title": "子規と和歌",
+    "titleKana": "しきとわか",
+    "sortKana": "しきとわか",
+    "firstAppearance": "「中央公論　第二十二卷第九號」1907（明治40）年9月1日",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-10-14",
+    "updatedAt": "2018-09-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000058/card57469.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000058/files/57469_ruby_65939.zip",
+    "textFileId": "57469_ruby_65939",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000058/files/57469_66091.html",
+    "inputBy": "高瀬竜一",
+    "proofreadBy": "きりんの手紙",
+    "baseBook1": {
+      "title": "子規選集　第十二巻　子規の思い出",
+      "publisher": "増進会出版社",
+      "firstPublishedAt": "2002（平成14）年11月5日",
+      "inputEdition": "2002（平成14）年11月5日初版第1刷",
+      "proofreadEdition": "2002（平成14）年11月5日初版第1刷"
+    },
+    "author": "伊藤左千夫",
+    "authors": [
+      {
+        "personId": "000058",
+        "name": "伊藤左千夫",
+        "kana": "いとうさちお",
+        "roman": "Sachio Ito",
+        "role": "著者",
+        "birthDate": "1864-09-18",
+        "deathDate": "1913-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

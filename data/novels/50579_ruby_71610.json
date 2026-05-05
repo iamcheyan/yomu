@@ -296,5 +296,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050579",
+    "title": "震災後記",
+    "titleKana": "しんさいこうき",
+    "sortKana": "しんさいこうき",
+    "firstAppearance": "「社会史研究　第一〇巻第四号」1923（大正12）年12月",
+    "ndc": "NDC 916",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-09-01",
+    "updatedAt": "2020-08-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001344/card50579.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001344/files/50579_ruby_71610.zip",
+    "textFileId": "50579_ruby_71610",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001344/files/50579_71656.html",
+    "inputBy": "しだひろし",
+    "proofreadBy": "富田晶子",
+    "baseBook1": {
+      "title": "喜田貞吉著作集　第一四巻　六十年の回顧・日誌",
+      "publisher": "平凡社",
+      "firstPublishedAt": "1982（昭和57）年11月25日",
+      "inputEdition": "1982（昭和57）年11月25日",
+      "proofreadEdition": "1982（昭和57）年11月25日"
+    },
+    "author": "喜田貞吉",
+    "authors": [
+      {
+        "personId": "001344",
+        "name": "喜田貞吉",
+        "kana": "きたさだきち",
+        "roman": "Sadakichi Kita",
+        "role": "著者",
+        "birthDate": "1871-07-11",
+        "deathDate": "1939-07-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

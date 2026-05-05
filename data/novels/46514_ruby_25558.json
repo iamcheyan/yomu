@@ -44,5 +44,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046514",
+    "title": "拓本の話",
+    "titleKana": "たくほんのはなし",
+    "sortKana": "たくほんのはなし",
+    "ndc": "NDC 728 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-01-01",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001245/card46514.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001245/files/46514_ruby_25558.zip",
+    "textFileId": "46514_ruby_25558",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001245/files/46514_25610.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "日本の名随筆27　墨",
+      "publisher": "作品社",
+      "firstPublishedAt": "1985（昭和60）年1月25日",
+      "inputEdition": "1997（平成9）年5月20日第17刷"
+    },
+    "author": "会津八一",
+    "authors": [
+      {
+        "personId": "001245",
+        "name": "会津八一",
+        "kana": "あいづやいち",
+        "roman": "Yaichi Aizu",
+        "role": "著者",
+        "birthDate": "1881-08-01",
+        "deathDate": "1956-11-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

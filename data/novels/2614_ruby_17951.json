@@ -3654,5 +3654,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002614",
+    "title": "敵討札所の霊験",
+    "titleKana": "かたきうちふだしょのれいげん",
+    "sortKana": "かたきうちふたしよのれいけん",
+    "ndc": "NDC 779 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-04-28",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000989/card2614.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000989/files/2614_ruby_17951.zip",
+    "textFileId": "2614_ruby_17951",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000989/files/2614_18139.html",
+    "inputBy": "小林繁雄",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "圓朝全集　巻の二",
+      "publisher": "近代文芸資料複刻叢書、世界文庫",
+      "firstPublishedAt": "1963（昭和38）年7月10日",
+      "inputEdition": "1963（昭和38）年7月10日"
+    },
+    "author": "三遊亭円朝",
+    "authors": [
+      {
+        "personId": "000989",
+        "name": "三遊亭円朝",
+        "kana": "さんゆうていえんちょう",
+        "roman": "Encho San'yutei",
+        "role": "著者",
+        "birthDate": "1839-05-13",
+        "deathDate": "1900-08-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

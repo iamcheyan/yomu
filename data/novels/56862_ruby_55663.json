@@ -56,5 +56,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056862",
+    "title": "汝自身を知れ",
+    "titleKana": "なんじじしんをしれ",
+    "sortKana": "なんしししんをしれ",
+    "subtitle": "ベルンにて",
+    "subtitleKana": "ベルンにて",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-02-17",
+    "updatedAt": "2015-01-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001796/card56862.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001796/files/56862_ruby_55663.zip",
+    "textFileId": "56862_ruby_55663",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001796/files/56862_55664.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻22　名言",
+      "publisher": "作品社",
+      "firstPublishedAt": "1992（平成4）年12月25日",
+      "inputEdition": "1992（平成4）年12月25日第1刷",
+      "proofreadEdition": "1992（平成4）年12月25日第1刷"
+    },
+    "author": "辰野隆",
+    "authors": [
+      {
+        "personId": "001796",
+        "name": "辰野隆",
+        "kana": "たつのゆたか",
+        "roman": "Yutaka Tatsuno",
+        "role": "著者",
+        "birthDate": "1888-03-01",
+        "deathDate": "1964-02-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

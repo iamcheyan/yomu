@@ -732,5 +732,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056705",
+    "title": "九つの鍵",
+    "titleKana": "ここのつのかぎ",
+    "sortKana": "ここのつのかき",
+    "firstAppearance": "「少年時代」1949（昭和24）年1月～4月",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-10-29",
+    "updatedAt": "2015-09-08",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001670/card56705.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001670/files/56705_ruby_57380.zip",
+    "textFileId": "56705_ruby_57380",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001670/files/56705_57428.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "阿部哲也",
+    "baseBook1": {
+      "title": "野村胡堂探偵小説全集",
+      "publisher": "作品社",
+      "firstPublishedAt": "2007（平成19）年4月15日",
+      "inputEdition": "2007（平成19）年4月15日第1刷",
+      "proofreadEdition": "2007（平成19）年4月15日第1刷"
+    },
+    "author": "野村胡堂",
+    "authors": [
+      {
+        "personId": "001670",
+        "name": "野村胡堂",
+        "kana": "のむらこどう",
+        "roman": "Kodo Nomura",
+        "role": "著者",
+        "birthDate": "1882-10-15",
+        "deathDate": "1963-04-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

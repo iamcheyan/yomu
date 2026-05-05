@@ -72,5 +72,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047268",
+    "title": "秀吉・家康二英雄の対南洋外交",
+    "titleKana": "ひでよし・いえやすにえいゆうのたいなんようがいこう",
+    "sortKana": "ひてよしいえやすにえいゆうのたいなんようかいこう",
+    "firstAppearance": "「外交」1940（昭和15）年8月19日、26日",
+    "ndc": "NDC 210 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-12-29",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card47268.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/47268_ruby_40662.zip",
+    "textFileId": "47268_ruby_40662",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/47268_41498.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "阿和泉拓",
+    "baseBook1": {
+      "title": "国枝史郎歴史小説傑作選",
+      "publisher": "作品社",
+      "firstPublishedAt": "2006（平成18）年3月30日",
+      "inputEdition": "2006（平成18）年3月30日第1刷",
+      "proofreadEdition": "2006（平成18）年3月30日第1刷"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

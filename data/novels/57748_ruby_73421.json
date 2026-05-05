@@ -684,5 +684,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057748",
+    "title": "松林蝙也",
+    "titleKana": "まつばやしへんや",
+    "sortKana": "まつはやしへんや",
+    "firstAppearance": "「キング」大日本雄弁会講談社、1938（昭和13）年1月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-06-11",
+    "updatedAt": "2021-05-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001869/card57748.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001869/files/57748_ruby_73421.zip",
+    "textFileId": "57748_ruby_73421",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001869/files/57748_73460.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "山本周五郎全集第十八巻　須磨寺附近・城中の霜",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1983（昭和58）年6月25日",
+      "inputEdition": "1983（昭和58）年6月25日",
+      "proofreadEdition": "1983（昭和58）年6月25日"
+    },
+    "author": "山本周五郎",
+    "authors": [
+      {
+        "personId": "001869",
+        "name": "山本周五郎",
+        "kana": "やまもとしゅうごろう",
+        "roman": "Shugoro Yamamoto",
+        "role": "著者",
+        "birthDate": "1903-06-22",
+        "deathDate": "1967-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

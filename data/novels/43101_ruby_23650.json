@@ -110,5 +110,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043101",
+    "title": "パリの地下牢",
+    "titleKana": "パリのちかろう",
+    "sortKana": "はりのちかろう",
+    "ndc": "NDC 293 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-09-22",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000963/card43101.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000963/files/43101_ruby_23650.zip",
+    "textFileId": "43101_ruby_23650",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000963/files/43101_23926.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "世界紀行文学全集　第二巻　フランス編Ⅱ",
+      "publisher": "修道社",
+      "firstPublishedAt": "1959（昭和34）年2月20日",
+      "inputEdition": "1959（昭和34）年2月20日"
+    },
+    "author": "野上豊一郎",
+    "authors": [
+      {
+        "personId": "000963",
+        "name": "野上豊一郎",
+        "kana": "のがみとよいちろう",
+        "roman": "Toyoichiro Nogami",
+        "role": "著者",
+        "birthDate": "1883-09-14",
+        "deathDate": "1950-02-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

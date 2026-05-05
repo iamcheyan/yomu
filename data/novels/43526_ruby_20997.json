@@ -1374,5 +1374,55 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043526",
+    "title": "一商人として",
+    "titleKana": "いちしょうにんとして",
+    "sortKana": "いちしようにんとして",
+    "subtitle": "――所信と体験――",
+    "subtitleKana": "――しょしんとたいけん――",
+    "ndc": "NDC 670",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-01-01",
+    "updatedAt": "2022-02-03",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001147/card43526.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001147/files/43526_ruby_20997.zip",
+    "textFileId": "43526_ruby_20997",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001147/files/43526_20998.html",
+    "inputBy": "小林繁雄、門田裕志",
+    "proofreadBy": "花田泰治郎",
+    "baseBook1": {
+      "title": "相馬愛蔵・黒光著作集2",
+      "publisher": "郷土出版社",
+      "firstPublishedAt": "1981（昭和56）年2月5日",
+      "inputEdition": "1981（昭和56）年2月5日初版",
+      "proofreadEdition": "1981（昭和56）年2月5日初版"
+    },
+    "author": "相馬愛蔵、相馬黒光",
+    "authors": [
+      {
+        "personId": "001147",
+        "name": "相馬愛蔵",
+        "kana": "そうまあいぞう",
+        "roman": "Aizo Soma",
+        "role": "著者",
+        "birthDate": "1870-11-08",
+        "deathDate": "1954-02-14",
+        "copyright": "なし"
+      },
+      {
+        "personId": "001148",
+        "name": "相馬黒光",
+        "kana": "そうまこっこう",
+        "roman": "Kokko Soma",
+        "role": "著者",
+        "birthDate": "1876-09-12",
+        "deathDate": "1955-03-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

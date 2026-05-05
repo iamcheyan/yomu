@@ -222,5 +222,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001261",
+    "title": "デパートの絞刑吏",
+    "titleKana": "デパートのこうけいり",
+    "sortKana": "てはあとのこうけいり",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-12-14",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000236/card1261.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000236/files/1261_ruby_20761.zip",
+    "textFileId": "1261_ruby_20761",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000236/files/1261_20762.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "はやしだかずこ",
+    "baseBook1": {
+      "title": "本格推理展覧会　第三巻　凶器の蒐集家",
+      "publisher": "青樹社文庫、青樹社",
+      "firstPublishedAt": "1996（平成8）年3月10日"
+    },
+    "author": "大阪圭吉",
+    "authors": [
+      {
+        "personId": "000236",
+        "name": "大阪圭吉",
+        "kana": "おおさかけいきち",
+        "roman": "Keikichi Osaka",
+        "role": "著者",
+        "birthDate": "1912-03-20",
+        "deathDate": "1945-07-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

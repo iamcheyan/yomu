@@ -54,5 +54,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055898",
+    "title": "自滅",
+    "titleKana": "じめつ",
+    "sortKana": "しめつ",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-07-17",
+    "updatedAt": "2019-06-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000026/card55898.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000026/files/55898_ruby_68443.zip",
+    "textFileId": "55898_ruby_68443",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000026/files/55898_68492.html",
+    "inputBy": "村松洋一",
+    "proofreadBy": "きゅうり",
+    "baseBook1": {
+      "title": "新編中原中也全集　第二巻　詩Ⅱ",
+      "publisher": "角川書店",
+      "firstPublishedAt": "2001（平成13）年4月30日",
+      "inputEdition": "2001（平成13）年4月30日初版",
+      "proofreadEdition": "2001（平成13）年4月30日初版"
+    },
+    "author": "中原中也",
+    "authors": [
+      {
+        "personId": "000026",
+        "name": "中原中也",
+        "kana": "なかはらちゅうや",
+        "roman": "Chuya Nakahara",
+        "role": "著者",
+        "birthDate": "1907-04-29",
+        "deathDate": "1937-10-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

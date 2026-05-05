@@ -82,5 +82,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055418",
+    "title": "あひびき",
+    "titleKana": "あいびき",
+    "sortKana": "あいひき",
+    "firstAppearance": "「文科　第参輯」春陽堂、1931（昭和6）年12月25日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-11-23",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001030/card55418.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001030/files/55418_ruby_48736.zip",
+    "textFileId": "55418_ruby_48736",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001030/files/55418_49022.html",
+    "inputBy": "大沢たかお",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "堀辰雄作品集第一卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1982（昭和57）年5月28日",
+      "inputEdition": "1982（昭和57）年5月28日初版第1刷",
+      "proofreadEdition": "1982（昭和57）年5月28日初版第1刷"
+    },
+    "author": "堀辰雄",
+    "authors": [
+      {
+        "personId": "001030",
+        "name": "堀辰雄",
+        "kana": "ほりたつお",
+        "roman": "Tatsuo Hori",
+        "role": "著者",
+        "birthDate": "1904-12-28",
+        "deathDate": "1953-05-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

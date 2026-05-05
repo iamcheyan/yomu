@@ -90,5 +90,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047267",
+    "title": "半七雑感",
+    "titleKana": "はんしちざっかん",
+    "sortKana": "はんしちさつかん",
+    "firstAppearance": "「新青年　新春増刊号」1926（大正15）年2月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-10-15",
+    "updatedAt": "2018-09-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card47267.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/47267_ruby_65940.zip",
+    "textFileId": "47267_ruby_65940",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/47267_66092.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "きゅうり",
+    "baseBook1": {
+      "title": "国枝史郎探偵小説全集　全一巻",
+      "publisher": "作品社",
+      "firstPublishedAt": "2005（平成17）年9月15日",
+      "inputEdition": "2005（平成17）年9月15日第1刷",
+      "proofreadEdition": "2005（平成17）年9月15日第1刷"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

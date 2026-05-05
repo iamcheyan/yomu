@@ -166,5 +166,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060229",
+    "title": "幽霊花婿",
+    "titleKana": "ゆうれいはなむこ",
+    "sortKana": "ゆうれいはなむこ",
+    "subtitle": "ある旅人の話",
+    "subtitleKana": "あるたびびとのはなし",
+    "ndc": "NDC 933",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-04-03",
+    "updatedAt": "2021-03-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001257/card60229.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001257/files/60229_ruby_72965.zip",
+    "textFileId": "60229_ruby_72965",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001257/files/60229_73012.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "スケッチ・ブック",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1957（昭和32）年5月20日",
+      "inputEdition": "2000（平成12）年2月20日33刷改版",
+      "proofreadEdition": "2000（平成12）年2月20日33刷改版"
+    },
+    "author": "アーヴィングワシントン",
+    "authors": [
+      {
+        "personId": "001257",
+        "name": "アーヴィングワシントン",
+        "kana": "アーヴィングワシントン",
+        "roman": "Washington Irving",
+        "role": "著者",
+        "birthDate": "1783-04-03",
+        "deathDate": "1859-11-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

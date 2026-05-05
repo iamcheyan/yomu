@@ -108,5 +108,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056535",
+    "title": "群集の人",
+    "titleKana": "ぐんしゅうのひと",
+    "sortKana": "くんしゆうのひと",
+    "originalTitle": "THE MAN OF THE CROWD",
+    "ndc": "NDC 933",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-01-19",
+    "updatedAt": "2020-01-06",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000094/card56535.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000094/files/56535_ruby_69925.zip",
+    "textFileId": "56535_ruby_69925",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000094/files/56535_69978.html",
+    "inputBy": "江村秀之",
+    "proofreadBy": "まつもこ",
+    "baseBook1": {
+      "title": "アッシャア家の崩壊",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1951（昭和26）年10月15日初版",
+      "inputEdition": "1974（昭和49）年4月30日改版13版",
+      "proofreadEdition": "1976（昭和51）年6月30日改版16版"
+    },
+    "author": "ポーエドガー・アラン",
+    "authors": [
+      {
+        "personId": "000094",
+        "name": "ポーエドガー・アラン",
+        "kana": "ポーエドガー・アラン",
+        "roman": "Edgar Allan Poe",
+        "role": "著者",
+        "birthDate": "1809-01-19",
+        "deathDate": "1849-10-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

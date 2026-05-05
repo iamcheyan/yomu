@@ -306,5 +306,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042348",
+    "title": "山の手の子",
+    "titleKana": "やまのてのこ",
+    "sortKana": "やまのてのこ",
+    "firstAppearance": "「三田文学」1911（明治44）年7月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-08-05",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000800/card42348.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000800/files/42348_ruby_23272.zip",
+    "textFileId": "42348_ruby_23272",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000800/files/42348_23649.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "日本の文学　78　名作集（二）",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1970（昭和45）年8月5日",
+      "inputEdition": "1970（昭和45）年8月5日初版",
+      "proofreadEdition": "1970（昭和45）年8月5日初版"
+    },
+    "author": "水上滝太郎",
+    "authors": [
+      {
+        "personId": "000800",
+        "name": "水上滝太郎",
+        "kana": "みなかみたきたろう",
+        "roman": "Takitaro Minakami",
+        "role": "著者",
+        "birthDate": "1887-12-06",
+        "deathDate": "1940-03-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

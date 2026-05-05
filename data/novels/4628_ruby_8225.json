@@ -150,5 +150,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004628",
+    "title": "槍ヶ岳紀行",
+    "titleKana": "やりがたけきこう",
+    "sortKana": "やりかたけきこう",
+    "firstAppearance": "「改造」1920（大正9）年7月",
+    "ndc": "NDC 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-03-24",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000879/card4628.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000879/files/4628_ruby_8225.zip",
+    "textFileId": "4628_ruby_8225",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000879/files/4628_9312.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "砂場清隆",
+    "baseBook1": {
+      "title": "現代日本紀行文学全集　中部日本編",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1976（昭和51）年8月1日",
+      "inputEdition": "1976（昭和51）年8月1日"
+    },
+    "author": "芥川竜之介",
+    "authors": [
+      {
+        "personId": "000879",
+        "name": "芥川竜之介",
+        "kana": "あくたがわりゅうのすけ",
+        "roman": "Ryunosuke Akutagawa",
+        "role": "著者",
+        "birthDate": "1892-03-01",
+        "deathDate": "1927-07-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

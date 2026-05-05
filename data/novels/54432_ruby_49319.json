@@ -42,5 +42,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054432",
+    "title": "特殊部落と細民部落・密集部落",
+    "titleKana": "とくしゅぶらくとさいみんぶらく・みっしゅうぶらく",
+    "sortKana": "とくしゆふらくとさいみんふらくみつしゆうふらく",
+    "firstAppearance": "「民族と歴史　第二巻第一号　特殊部落研究」1919（大正8）年7月",
+    "ndc": "NDC 361",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-03-13",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001344/card54432.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001344/files/54432_ruby_49319.zip",
+    "textFileId": "54432_ruby_49319",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001344/files/54432_49949.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "被差別部落とは何か",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "2008（平成20）年2月29日",
+      "inputEdition": "2008（平成20）年2月29日初版",
+      "proofreadEdition": "2008（平成20）年2月29日初版"
+    },
+    "author": "喜田貞吉",
+    "authors": [
+      {
+        "personId": "001344",
+        "name": "喜田貞吉",
+        "kana": "きたさだきち",
+        "roman": "Sadakichi Kita",
+        "role": "著者",
+        "birthDate": "1871-07-11",
+        "deathDate": "1939-07-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

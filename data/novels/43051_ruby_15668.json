@@ -40,5 +40,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043051",
+    "title": "あきまろに答ふ",
+    "titleKana": "あきまろにこたう",
+    "sortKana": "あきまろにこたう",
+    "firstAppearance": "「日本」日本新聞社、1898（明治31）年3月6日",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-07-19",
+    "updatedAt": "2016-04-03",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000305/card43051.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000305/files/43051_ruby_15668.zip",
+    "textFileId": "43051_ruby_15668",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000305/files/43051_15752.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "川向直樹",
+    "baseBook1": {
+      "title": "歌よみに与ふる書",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1955（昭和30）年2月25日、1983（昭和58）年3月16日第8刷改版",
+      "inputEdition": "2002（平成14）年11月15日第26刷",
+      "proofreadEdition": "2003（平成15）年9月5日第27刷"
+    },
+    "author": "正岡子規",
+    "authors": [
+      {
+        "personId": "000305",
+        "name": "正岡子規",
+        "kana": "まさおかしき",
+        "roman": "Shiki Masaoka",
+        "role": "著者",
+        "birthDate": "1867-10-14",
+        "deathDate": "1902-09-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

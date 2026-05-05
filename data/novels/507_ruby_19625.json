@@ -76,5 +76,40 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000507",
+    "title": "木の都",
+    "titleKana": "きのみやこ",
+    "sortKana": "きのみやこ",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-10-02",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000040/card507.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000040/files/507_ruby_19625.zip",
+    "textFileId": "507_ruby_19625",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000040/files/507_19626.html",
+    "inputBy": "山根鋭二",
+    "proofreadBy": "湯地光弘",
+    "baseBook1": {
+      "title": "現代文学大系　44　武田麟太郎・島木健作・織田作之助集",
+      "publisher": "筑摩書房"
+    },
+    "author": "織田作之助",
+    "authors": [
+      {
+        "personId": "000040",
+        "name": "織田作之助",
+        "kana": "おださくのすけ",
+        "roman": "Sakunosuke Oda",
+        "role": "著者",
+        "birthDate": "1913-10-26",
+        "deathDate": "1947-01-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

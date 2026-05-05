@@ -224,5 +224,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000597",
+    "title": "輝ける朝",
+    "titleKana": "かがやけるあさ",
+    "sortKana": "かかやけるあさ",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-10-28",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000112/card597.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000112/files/597_ruby_5510.zip",
+    "textFileId": "597_ruby_5510",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000112/files/597_22630.html",
+    "inputBy": "小林徹",
+    "proofreadBy": "丹羽倫子",
+    "baseBook1": {
+      "title": "叢書『青踏』の女たち　第10巻『水野仙子集』",
+      "publisher": "不二出版",
+      "firstPublishedAt": "1986（昭和61）年4月25日復刻版第1刷"
+    },
+    "author": "水野仙子",
+    "authors": [
+      {
+        "personId": "000112",
+        "name": "水野仙子",
+        "kana": "みずのせんこ",
+        "roman": "Senko Mizuno",
+        "role": "著者",
+        "birthDate": "1888-12-03",
+        "deathDate": "1919-05-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

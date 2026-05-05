@@ -6438,5 +6438,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045649",
+    "title": "放浪記（初出）",
+    "titleKana": "ほうろうき（しょしゅつ）",
+    "sortKana": "ほうろうきしよしゆつ",
+    "firstAppearance": "「女人藝術」1928（昭和3）年10月号～1930（昭和5）年10月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-05-13",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000291/card45649.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000291/files/45649_ruby_26492.zip",
+    "textFileId": "45649_ruby_26492",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000291/files/45649_26591.html",
+    "inputBy": "kompass",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "作家の自伝17　林芙美子",
+      "publisher": "日本図書センター",
+      "firstPublishedAt": "1994（平成6）年10月25日",
+      "inputEdition": "1994（平成6）年10月25日初版第1刷",
+      "proofreadEdition": "1994（平成6）年10月25日初版第1刷"
+    },
+    "author": "林芙美子",
+    "authors": [
+      {
+        "personId": "000291",
+        "name": "林芙美子",
+        "kana": "はやしふみこ",
+        "roman": "Fumiko Hayashi",
+        "role": "著者",
+        "birthDate": "1903-12-31",
+        "deathDate": "1951-06-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -790,5 +790,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051451",
+    "title": "ひとつの道",
+    "titleKana": "ひとつのみち",
+    "sortKana": "ひとつのみち",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-10-27",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001516/card51451.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001516/files/51451_ruby_40398.zip",
+    "textFileId": "51451_ruby_40398",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001516/files/51451_40674.html",
+    "inputBy": "大久保ゆう",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "定本　草野天平全詩集",
+      "publisher": "彌生書房",
+      "firstPublishedAt": "1969（昭和44）年4月25日",
+      "inputEdition": "1974（昭和49）年9月20日2版",
+      "proofreadEdition": "1974（昭和49）年9月20日2版"
+    },
+    "author": "草野天平",
+    "authors": [
+      {
+        "personId": "001516",
+        "name": "草野天平",
+        "kana": "くさのてんぺい",
+        "roman": "Tenpei Kusano",
+        "role": "著者",
+        "birthDate": "1910-02-28",
+        "deathDate": "1952-04-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

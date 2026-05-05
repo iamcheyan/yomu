@@ -104,5 +104,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000223",
+    "title": "晩餐",
+    "titleKana": "ばんさん",
+    "sortKana": "はんさん",
+    "firstAppearance": "「文章倶楽部」大正6年2月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-09-05",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000012/card223.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000012/files/223_ruby_2389.zip",
+    "textFileId": "223_ruby_2389",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000012/files/223_20974.html",
+    "inputBy": "小林徹",
+    "proofreadBy": "湯地光弘",
+    "baseBook1": {
+      "title": "素木しづ作品集",
+      "publisher": "札幌・北書房",
+      "firstPublishedAt": "1970（昭和45）年6月15日"
+    },
+    "author": "素木しづ",
+    "authors": [
+      {
+        "personId": "000012",
+        "name": "素木しづ",
+        "kana": "しらきしづ",
+        "roman": "Shizu Shiraki",
+        "role": "著者",
+        "birthDate": "1895-03-26",
+        "deathDate": "1918-01-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

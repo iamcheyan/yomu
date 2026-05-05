@@ -152,5 +152,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042333",
+    "title": "落合町山川記",
+    "titleKana": "おちあいまちさんせんき",
+    "sortKana": "おちあいまちさんせんき",
+    "firstAppearance": "「改造　昭和8年9月号」1933（昭和8）年9月1日",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-09-26",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000291/card42333.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000291/files/42333_ruby_16409.zip",
+    "textFileId": "42333_ruby_16409",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000291/files/42333_16449.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "林芙美子随筆集",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2003（平成15）年2月1日",
+      "inputEdition": "2003（平成15）年3月5日第2刷",
+      "proofreadEdition": "2003（平成15）年4月24日第3刷"
+    },
+    "author": "林芙美子",
+    "authors": [
+      {
+        "personId": "000291",
+        "name": "林芙美子",
+        "kana": "はやしふみこ",
+        "roman": "Fumiko Hayashi",
+        "role": "著者",
+        "birthDate": "1903-12-31",
+        "deathDate": "1951-06-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

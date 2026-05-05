@@ -344,5 +344,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001815",
+    "title": "魚の序文",
+    "titleKana": "さかなのじょぶん",
+    "sortKana": "さかなのしよふん",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-11-09",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000291/card1815.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000291/files/1815_ruby_24166.zip",
+    "textFileId": "1815_ruby_24166",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000291/files/1815_24392.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "ちくま日本文学全集　林芙美子",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1992（平成4）年12月18日",
+      "inputEdition": "1992（平成4）年12月18日第1刷",
+      "proofreadEdition": "1992（平成4）年12月18日第1刷"
+    },
+    "author": "林芙美子",
+    "authors": [
+      {
+        "personId": "000291",
+        "name": "林芙美子",
+        "kana": "はやしふみこ",
+        "roman": "Fumiko Hayashi",
+        "role": "著者",
+        "birthDate": "1903-12-31",
+        "deathDate": "1951-06-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -246,5 +246,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002689",
+    "title": "奥間巡査",
+    "titleKana": "うくまぬじゅんさ",
+    "sortKana": "うくまぬしゆんさ",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-01-03",
+    "updatedAt": "2024-01-20",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000868/card2689.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000868/files/2689_ruby_20501.zip",
+    "textFileId": "2689_ruby_20501",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000868/files/2689_20502.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "池宮城積宝作品集",
+      "publisher": "ニライ社",
+      "firstPublishedAt": "1988（昭和63）年4月1日"
+    },
+    "author": "池宮城積宝",
+    "authors": [
+      {
+        "personId": "000868",
+        "name": "池宮城積宝",
+        "kana": "いけみやぎせきほう",
+        "roman": "Sekiho Ikemiyagi",
+        "role": "著者",
+        "birthDate": "1893",
+        "deathDate": "1951",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

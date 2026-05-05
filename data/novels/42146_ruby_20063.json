@@ -580,5 +580,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042146",
+    "title": "道成寺（一幕劇）",
+    "titleKana": "どうじょうじ（ひとまくげき）",
+    "sortKana": "とうしようしひとまくけき",
+    "ndc": "NDC 912",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-12-09",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001077/card42146.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001077/files/42146_ruby_20063.zip",
+    "textFileId": "42146_ruby_20063",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001077/files/42146_20518.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "日本の文学　78　名作集（二）",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1970（昭和45）年8月5日",
+      "inputEdition": "1970（昭和45）年8月5日初版",
+      "proofreadEdition": "1970（昭和45）年8月5日初版"
+    },
+    "author": "郡虎彦",
+    "authors": [
+      {
+        "personId": "001077",
+        "name": "郡虎彦",
+        "kana": "こおりとらひこ",
+        "roman": "Torahiko Kori",
+        "role": "著者",
+        "birthDate": "1890-6-28",
+        "deathDate": "1924-10-6",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

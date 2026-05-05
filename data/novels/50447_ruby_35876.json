@@ -102,5 +102,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050447",
+    "title": "大力物語",
+    "titleKana": "だいりきものがたり",
+    "sortKana": "たいりきものかたり",
+    "firstAppearance": "「新大阪新聞」1947（昭和22）年",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-09-01",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000083/card50447.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000083/files/50447_ruby_35876.zip",
+    "textFileId": "50447_ruby_35876",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000083/files/50447_35888.html",
+    "inputBy": "内田いつみ",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "おかしい話〈ちくま文学の森5〉",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1988（昭和63）年4月29日",
+      "inputEdition": "1989（平成元）年2月10日第5刷",
+      "proofreadEdition": "1988（昭和63）年4月29日第1刷"
+    },
+    "author": "菊池寛",
+    "authors": [
+      {
+        "personId": "000083",
+        "name": "菊池寛",
+        "kana": "きくちかん",
+        "roman": "Kan Kikuchi",
+        "role": "著者",
+        "birthDate": "1888-12-26",
+        "deathDate": "1948-03-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

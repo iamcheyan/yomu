@@ -666,5 +666,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004070",
+    "title": "二黒の巳",
+    "titleKana": "じこくのみ",
+    "sortKana": "しこくのみ",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-06-26",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000080/card4070.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000080/files/4070_ruby_4215.zip",
+    "textFileId": "4070_ruby_4215",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000080/files/4070_10207.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "定本　平出修集",
+      "publisher": "春秋社",
+      "firstPublishedAt": "1965（昭和40）年6月15日",
+      "inputEdition": "1965（昭和40）年6月15日発行"
+    },
+    "author": "平出修",
+    "authors": [
+      {
+        "personId": "000080",
+        "name": "平出修",
+        "kana": "ひらいでしゅう",
+        "roman": "Shu Hiraide",
+        "role": "著者",
+        "birthDate": "1878-04-03",
+        "deathDate": "1914-03-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

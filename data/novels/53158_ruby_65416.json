@@ -196,5 +196,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053158",
+    "title": "日没の幻影",
+    "titleKana": "にちぼつのげんえい",
+    "sortKana": "にちほつのけんえい",
+    "firstAppearance": "「劇と詩」1911（明治44）年4月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-08-01",
+    "updatedAt": "2018-07-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001475/card53158.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001475/files/53158_ruby_65416.zip",
+    "textFileId": "53158_ruby_65416",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001475/files/53158_65460.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "坂本真一",
+    "baseBook1": {
+      "title": "文豪怪談傑作選　小川未明集　幽霊船",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2008（平成20）年8月10日",
+      "inputEdition": "2010（平成22）年5月25日第2刷",
+      "proofreadEdition": "2010（平成22）年5月25日第2刷"
+    },
+    "author": "小川未明",
+    "authors": [
+      {
+        "personId": "001475",
+        "name": "小川未明",
+        "kana": "おがわみめい",
+        "roman": "Mimei Ogawa",
+        "role": "著者",
+        "birthDate": "1882-04-07",
+        "deathDate": "1961-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

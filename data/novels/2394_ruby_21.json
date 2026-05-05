@@ -82,5 +82,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002394",
+    "title": "駆逐されんとする文人",
+    "titleKana": "くちくされんとするぶんじん",
+    "sortKana": "くちくされんとするふんしん",
+    "firstAppearance": "「現代」1913（大正2）年5月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-05-19",
+    "updatedAt": "2016-02-06",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000165/card2394.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000165/files/2394_ruby_21.zip",
+    "textFileId": "2394_ruby_21",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000165/files/2394_58584.html",
+    "inputBy": "斉藤省二",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "魯庵の明治　山口昌男、坪内祐三編",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1997（平成9）年5月9日",
+      "inputEdition": "1997（平成9）年5月9日第1刷"
+    },
+    "author": "内田魯庵",
+    "authors": [
+      {
+        "personId": "000165",
+        "name": "内田魯庵",
+        "kana": "うちだろあん",
+        "roman": "Roan Uchida",
+        "role": "著者",
+        "birthDate": "1868-04-27",
+        "deathDate": "1929-06-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

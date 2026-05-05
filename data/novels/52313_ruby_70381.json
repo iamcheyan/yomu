@@ -192,5 +192,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052313",
+    "title": "親方コブセ",
+    "titleKana": "おやかたコブセ",
+    "sortKana": "おやかたこふせ",
+    "firstAppearance": "「新潮　通卷四百四十四號（一月號）」新潮社、1942（昭和17）年1942（昭和17）年1月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-03-03",
+    "updatedAt": "2020-02-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000252/card52313.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000252/files/52313_ruby_70381.zip",
+    "textFileId": "52313_ruby_70381",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000252/files/52313_70439.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "富田晶子",
+    "baseBook1": {
+      "title": "光の中に　金史良作品集",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1999（平成11）年4月10日",
+      "inputEdition": "2005（平成17）年8月10日第2刷",
+      "proofreadEdition": "1999（平成）年4月10日第1刷"
+    },
+    "author": "金史良",
+    "authors": [
+      {
+        "personId": "000252",
+        "name": "金史良",
+        "kana": "きむさりゃん",
+        "roman": "Sa-ryang Kim",
+        "role": "著者",
+        "birthDate": "1914-03-03",
+        "deathDate": "1950",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

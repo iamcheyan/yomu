@@ -490,5 +490,42 @@
     [],
     []
   ],
-  "desc": "犯罪者の妻の愛と覚悟を描く。"
+  "desc": "犯罪者の妻の愛と覚悟を描く。",
+  "aozora_info": {
+    "workId": "002253",
+    "title": "ヴィヨンの妻",
+    "titleKana": "ヴィヨンのつま",
+    "sortKana": "ういよんのつま",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-01-01",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card2253.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/2253_ruby_1031.zip",
+    "textFileId": "2253_ruby_1031",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/2253_14908.html",
+    "inputBy": "細渕紀子",
+    "proofreadBy": "小浜真由美",
+    "baseBook1": {
+      "title": "ヴィヨンの妻",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1950（昭和25）年12月20日、1985（昭和60）年10月30日63刷改版",
+      "proofreadEdition": "1992（平成4）年9月5日第79刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

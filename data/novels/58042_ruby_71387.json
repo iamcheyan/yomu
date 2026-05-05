@@ -2320,5 +2320,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058042",
+    "title": "星より来れる者",
+    "titleKana": "ほしよりきたれるもの",
+    "sortKana": "ほしよりきたれるもの",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-08-01",
+    "updatedAt": "2020-07-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001579/card58042.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001579/files/58042_ruby_71387.zip",
+    "textFileId": "58042_ruby_71387",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001579/files/58042_71436.html",
+    "inputBy": "岡村和彦",
+    "proofreadBy": "きりんの手紙",
+    "baseBook1": {
+      "title": "室生犀星全集第二卷",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1965（昭和40）年4月15日",
+      "inputEdition": "1965（昭和40）年4月15日",
+      "proofreadEdition": "1965（昭和40）年4月15日"
+    },
+    "author": "室生犀星",
+    "authors": [
+      {
+        "personId": "001579",
+        "name": "室生犀星",
+        "kana": "むろうさいせい",
+        "roman": "Saisei Murou",
+        "role": "著者",
+        "birthDate": "1889-08-01",
+        "deathDate": "1962-03-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

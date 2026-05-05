@@ -1076,5 +1076,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000669",
+    "title": "オリンポスの果実",
+    "titleKana": "オリンポスのかじつ",
+    "sortKana": "おりんほすのかしつ",
+    "firstAppearance": "「文学界」1940（昭和15）年9月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-02-07",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000126/card669.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000126/files/669_ruby_3264.zip",
+    "textFileId": "669_ruby_3264",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000126/files/669_43608.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "オリンポスの果実",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1951（昭和26）年9月30日、1991（平成3）年11月30日52刷改版"
+    },
+    "author": "田中英光",
+    "authors": [
+      {
+        "personId": "000126",
+        "name": "田中英光",
+        "kana": "たなかひでみつ",
+        "roman": "Hidemitsu Tanaka",
+        "role": "著者",
+        "birthDate": "1913-01-10",
+        "deathDate": "1949-11-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

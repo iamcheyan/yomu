@@ -26,5 +26,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004955",
+    "title": "諸国の玩具",
+    "titleKana": "しょこくのがんぐ",
+    "sortKana": "しよこくのかんく",
+    "subtitle": "――浅草奥山の草分――",
+    "subtitleKana": "――あさくさおくやまのくさわけ――",
+    "firstAppearance": "「趣味」第4巻第6号、1909（明治42）年6月",
+    "ndc": "NDC 759 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-02-16",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000388/card4955.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000388/files/4955_ruby_8536.zip",
+    "textFileId": "4955_ruby_8536",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000388/files/4955_8645.html",
+    "inputBy": "小林繁雄",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "梵雲庵雑話",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1999（平成11）年8月18日",
+      "inputEdition": "1999（平成11）年8月18日第1刷"
+    },
+    "author": "淡島寒月",
+    "authors": [
+      {
+        "personId": "000388",
+        "name": "淡島寒月",
+        "kana": "あわしまかんげつ",
+        "roman": "Kangetsu Awashima",
+        "role": "著者",
+        "birthDate": "1859-11-17",
+        "deathDate": "1926-02-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

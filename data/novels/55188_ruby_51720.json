@@ -148,5 +148,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055188",
+    "title": "水不足",
+    "titleKana": "みずぶそく",
+    "sortKana": "みすふそく",
+    "firstAppearance": "「改造　第七巻第十号」改造社、1925（大正14）年10月1日",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-12-05",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001581/card55188.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001581/files/55188_ruby_51720.zip",
+    "textFileId": "55188_ruby_51720",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001581/files/55188_51760.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "山村信一郎",
+    "baseBook1": {
+      "title": "正宗白鳥全集第十二卷",
+      "publisher": "福武書店",
+      "firstPublishedAt": "1985（昭和60）年7月30日",
+      "inputEdition": "1985（昭和60）年7月30日",
+      "proofreadEdition": "1985（昭和60）年7月30日"
+    },
+    "author": "正宗白鳥",
+    "authors": [
+      {
+        "personId": "001581",
+        "name": "正宗白鳥",
+        "kana": "まさむねはくちょう",
+        "roman": "Hakucho Masamune",
+        "role": "著者",
+        "birthDate": "1879-03-03",
+        "deathDate": "1962-10-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

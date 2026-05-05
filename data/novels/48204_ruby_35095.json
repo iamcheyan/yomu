@@ -82,5 +82,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048204",
+    "title": "燕尾服着初めの記",
+    "titleKana": "えんびふくきぞめのき",
+    "sortKana": "えんひふくきそめのき",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-06-26",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000280/card48204.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000280/files/48204_ruby_35095.zip",
+    "textFileId": "48204_ruby_35095",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000280/files/48204_35097.html",
+    "inputBy": "浦山敦子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻75　紳士",
+      "publisher": "作品社",
+      "firstPublishedAt": "1997（平成9）年5月25日",
+      "inputEdition": "1997（平成9）年5月25日第1刷",
+      "proofreadEdition": "1997（平成9）年5月25日第1刷"
+    },
+    "author": "徳冨蘆花",
+    "authors": [
+      {
+        "personId": "000280",
+        "name": "徳冨蘆花",
+        "kana": "とくとみろか",
+        "roman": "Roka Tokutomi",
+        "role": "著者",
+        "birthDate": "1868-12-08",
+        "deathDate": "1927-09-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

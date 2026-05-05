@@ -118,5 +118,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060812",
+    "title": "クリスマスと結婚式",
+    "titleKana": "クリスマスとけっこんしき",
+    "sortKana": "くりすますとけつこんしき",
+    "subtitle": "――無名氏の手記より――",
+    "subtitleKana": "――むめいしのしゅきより――",
+    "originalTitle": "ЕЛКА　И　СВАДЬБА",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-12-24",
+    "updatedAt": "2022-11-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000363/card60812.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000363/files/60812_ruby_76739.zip",
+    "textFileId": "60812_ruby_76739",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000363/files/60812_76775.html",
+    "inputBy": "いとうおちゃ",
+    "proofreadBy": "三輪朋加",
+    "baseBook1": {
+      "title": "ドストエーフスキイ全集　2",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "1970（昭和45）年8月25日",
+      "inputEdition": "1970（昭和45）年8月25日初版",
+      "proofreadEdition": "1975（昭和50年）年7月15日8版"
+    },
+    "author": "ドストエフスキーフィヨードル・ミハイロヴィチ",
+    "authors": [
+      {
+        "personId": "000363",
+        "name": "ドストエフスキーフィヨードル・ミハイロヴィチ",
+        "kana": "ドストエフスキーフィヨードル・ミハイロヴィチ",
+        "roman": "Fedor Mikhailovich Dostoevskii",
+        "role": "著者",
+        "birthDate": "1821-11-11",
+        "deathDate": "1881-02-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

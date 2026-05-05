@@ -2656,5 +2656,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060326",
+    "title": "暗黒日記",
+    "titleKana": "あんこくにっき",
+    "sortKana": "あんこくにつき",
+    "ndc": "NDC 210",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-05-21",
+    "updatedAt": "2021-04-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000910/card60326.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000910/files/60326_ruby_73175.zip",
+    "textFileId": "60326_ruby_73175",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000910/files/60326_73215.html",
+    "inputBy": "富田晶子",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "暗黒日記　普及版",
+      "publisher": "東洋経済新報社",
+      "firstPublishedAt": "1954（昭和29）年6月15日",
+      "inputEdition": "1955（昭和30）年7月30日普及版第2刷",
+      "proofreadEdition": "1955（昭和30）年7月30日普及版第2刷"
+    },
+    "author": "清沢洌",
+    "authors": [
+      {
+        "personId": "000910",
+        "name": "清沢洌",
+        "kana": "きよさわきよし",
+        "roman": "Kiyoshi Kiyosawa",
+        "role": "著者",
+        "birthDate": "1890-02-08",
+        "deathDate": "1945-05-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

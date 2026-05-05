@@ -424,5 +424,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059357",
+    "title": "悲しめる顔",
+    "titleKana": "かなしめるかお",
+    "sortKana": "かなしめるかお",
+    "firstAppearance": "「街　第一號」1921（大正10）年6月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-03-17",
+    "updatedAt": "2020-03-03",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card59357.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/59357_ruby_70406.zip",
+    "textFileId": "59357_ruby_70406",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/59357_70464.html",
+    "inputBy": "野崎芹香",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "定本　横光利一全集　第一卷",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "1981（昭和56）年6月30日",
+      "inputEdition": "1981（昭和56）年6月30日初版",
+      "proofreadEdition": "1981（昭和56）年6月30日初版"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

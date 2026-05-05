@@ -74,5 +74,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057435",
+    "title": "大大阪のれいめい",
+    "titleKana": "だいおおさかのれいめい",
+    "sortKana": "たいおおさかのれいめい",
+    "firstAppearance": "「大阪新聞」1948（昭和23）年1月1日",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-01-01",
+    "updatedAt": "2016-01-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001863/card57435.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001863/files/57435_ruby_58188.zip",
+    "textFileId": "57435_ruby_58188",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001863/files/57435_58189.html",
+    "inputBy": "大久保ゆう",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "ふるさと文学館　第三三巻　【大阪Ⅱ】",
+      "publisher": "ぎょうせい",
+      "firstPublishedAt": "1995（平成7）年8月15日",
+      "inputEdition": "1995（平成7）年8月15日初版",
+      "proofreadEdition": "1995（平成7）年8月15日初版"
+    },
+    "author": "安西冬衛",
+    "authors": [
+      {
+        "personId": "001863",
+        "name": "安西冬衛",
+        "kana": "あんざいふゆえ",
+        "roman": "Huyue Anzai",
+        "role": "著者",
+        "birthDate": "1898-03-09",
+        "deathDate": "1965-08-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

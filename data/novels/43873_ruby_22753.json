@@ -146,5 +146,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043873",
+    "title": "戦争責任者の問題",
+    "titleKana": "せんそうせきにんしゃのもんだい",
+    "sortKana": "せんそうせきにんしやのもんたい",
+    "firstAppearance": "「映画春秋　創刊号」1946（昭和21）年8月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-06-13",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000231/card43873.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000231/files/43873_ruby_22753.zip",
+    "textFileId": "43873_ruby_22753",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000231/files/43873_23111.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "田中敬三",
+    "baseBook1": {
+      "title": "新装版　伊丹万作全集1",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1961（昭和36）年7月10日",
+      "inputEdition": "1982（昭和57）年5月25日3版",
+      "proofreadEdition": "1982（昭和57）年5月25日3版"
+    },
+    "author": "伊丹万作",
+    "authors": [
+      {
+        "personId": "000231",
+        "name": "伊丹万作",
+        "kana": "いたみまんさく",
+        "roman": "Mansaku Itami",
+        "role": "著者",
+        "birthDate": "1900-01-02",
+        "deathDate": "1946-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

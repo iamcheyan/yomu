@@ -36,5 +36,54 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051373",
+    "title": "「毒と薬」序",
+    "titleKana": "「どくとくすり」じょ",
+    "sortKana": "とくとくすりしよ",
+    "firstAppearance": "「毒と薬」耕文堂、1918（大正7）年11月5日",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-02-07",
+    "updatedAt": "2021-01-31",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000214/card51373.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000214/files/51373_ruby_72600.zip",
+    "textFileId": "51373_ruby_72600",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000214/files/51373_72644.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "hitsuji",
+    "baseBook1": {
+      "title": "定本　花袋全集　第二十四巻",
+      "publisher": "臨川書店",
+      "firstPublishedAt": "1995（平成7）年4月10日",
+      "inputEdition": "1995（平成7）年4月10日",
+      "proofreadEdition": "1995（平成7）年4月10日"
+    },
+    "author": "田山花袋、田山録弥",
+    "authors": [
+      {
+        "personId": "000214",
+        "name": "田山花袋",
+        "kana": "たやまかたい",
+        "roman": "Katai Tayama",
+        "role": "著者",
+        "birthDate": "1872-01-22",
+        "deathDate": "1930-05-13",
+        "copyright": "なし"
+      },
+      {
+        "personId": "001416",
+        "name": "田山録弥",
+        "kana": "たやまろくや",
+        "roman": "Rokuya Tayama",
+        "role": "著者",
+        "birthDate": "1872-01-22",
+        "deathDate": "1930-05-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

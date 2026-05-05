@@ -6525,5 +6525,44 @@
       }
     ]
   ],
-  "desc": "「恥の多い生涯を送ってきました」。"
+  "desc": "「恥の多い生涯を送ってきました」。",
+  "aozora_info": {
+    "workId": "000301",
+    "title": "人間失格",
+    "titleKana": "にんげんしっかく",
+    "sortKana": "にんけんしつかく",
+    "firstAppearance": "「展望」筑摩書房、1948（昭和23）年6～8月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-01-01",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card301.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/301_ruby_5915.zip",
+    "textFileId": "301_ruby_5915",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/301_14912.html",
+    "inputBy": "細渕真弓",
+    "proofreadBy": "八巻美恵",
+    "baseBook1": {
+      "title": "人間失格",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1952（昭和27）年10月30日、1985（昭和60）年１月30日100刷改版",
+      "inputEdition": "1985（昭和60）年１月30日100刷改版",
+      "proofreadEdition": "1998（平成10）年3月5日136刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

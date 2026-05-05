@@ -434,5 +434,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050295",
+    "title": "歩む",
+    "titleKana": "あゆむ",
+    "sortKana": "あゆむ",
+    "firstAppearance": "「女人芸術」1929（昭和4）年6月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-04-11",
+    "updatedAt": "2021-03-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001422/card50295.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001422/files/50295_ruby_72977.zip",
+    "textFileId": "50295_ruby_72977",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001422/files/50295_73024.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "hitsuji",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・23　婦人作家集（三）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年11月30日",
+      "inputEdition": "1989（平成元）年5月15日第3刷",
+      "proofreadEdition": "1987（昭和62）年11月30日初版"
+    },
+    "author": "戸田豊子",
+    "authors": [
+      {
+        "personId": "001422",
+        "name": "戸田豊子",
+        "kana": "とだとよこ",
+        "roman": "Toyoko Toda",
+        "role": "著者",
+        "birthDate": "1904-01",
+        "deathDate": "1956-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

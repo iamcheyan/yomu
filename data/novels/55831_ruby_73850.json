@@ -732,5 +732,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055831",
+    "title": "ロマンスと縁談",
+    "titleKana": "ロマンスとえんだん",
+    "sortKana": "ろまんすとえんたん",
+    "firstAppearance": "「講談倶楽部」大日本雄辯會講談社、1951（昭和26）年6月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-08-26",
+    "updatedAt": "2021-07-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001750/card55831.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001750/files/55831_ruby_73850.zip",
+    "textFileId": "55831_ruby_73850",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001750/files/55831_73886.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "芝裕久",
+    "baseBook1": {
+      "title": "佐々木邦全集　補巻5　王将連盟　短篇",
+      "publisher": "講談社",
+      "firstPublishedAt": "1975（昭和50）年12月20日",
+      "inputEdition": "1975（昭和50）年12月20日第1刷",
+      "proofreadEdition": "1975（昭和50）年12月20日第1刷"
+    },
+    "author": "佐々木邦",
+    "authors": [
+      {
+        "personId": "001750",
+        "name": "佐々木邦",
+        "kana": "ささきくに",
+        "roman": "Kuni Sasaki",
+        "role": "著者",
+        "birthDate": "1883-05-04",
+        "deathDate": "1964-09-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

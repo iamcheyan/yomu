@@ -764,5 +764,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001111",
+    "title": "生まれいずる悩み",
+    "titleKana": "うまれいずるなやみ",
+    "sortKana": "うまれいするなやみ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-10-10",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000025/card1111.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000025/files/1111_ruby_20599.zip",
+    "textFileId": "1111_ruby_20599",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000025/files/1111_20600.html",
+    "inputBy": "土田一柄",
+    "proofreadBy": "丹羽倫子",
+    "baseBook1": {
+      "title": "小さき者へ・生まれいずる悩み",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1940（昭和15）年3月26日、1962（昭和37）年10月16日第26刷改版",
+      "inputEdition": "1998（平成10）年4月6日第71刷改版"
+    },
+    "author": "有島武郎",
+    "authors": [
+      {
+        "personId": "000025",
+        "name": "有島武郎",
+        "kana": "ありしまたけお",
+        "roman": "Takeo Arishima",
+        "role": "著者",
+        "birthDate": "1878-03-04",
+        "deathDate": "1923-06-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

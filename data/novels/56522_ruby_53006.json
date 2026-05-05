@@ -54,5 +54,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056522",
+    "title": "改めて民藝について",
+    "titleKana": "あらためてみんげいについて",
+    "sortKana": "あらためてみんけいについて",
+    "firstAppearance": "「民藝」1958（昭和33）年8月号",
+    "ndc": "NDC 750",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-03-13",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001520/card56522.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001520/files/56522_ruby_53006.zip",
+    "textFileId": "56522_ruby_53006",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001520/files/56522_53053.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "民藝四十年",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1984（昭和59）年11月16日",
+      "inputEdition": "2011（平成23）年3月4日第29刷",
+      "proofreadEdition": "2011（平成23）年3月4日第29刷"
+    },
+    "author": "柳宗悦",
+    "authors": [
+      {
+        "personId": "001520",
+        "name": "柳宗悦",
+        "kana": "やなぎむねよし",
+        "roman": "Muneyoshi Yanagi",
+        "role": "著者",
+        "birthDate": "1889-03-21",
+        "deathDate": "1961-05-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

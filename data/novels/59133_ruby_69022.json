@@ -1006,5 +1006,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059133",
+    "title": "山岳美観",
+    "titleKana": "さんがくびかん",
+    "sortKana": "さんかくひかん",
+    "subtitle": "02 山岳美観",
+    "subtitleKana": "02 さんがくびかん",
+    "ndc": "NDC 290 786",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-09-05",
+    "updatedAt": "2019-09-03",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000220/card59133.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000220/files/59133_ruby_69022.zip",
+    "textFileId": "59133_ruby_69022",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000220/files/59133_69113.html",
+    "inputBy": "雪森",
+    "proofreadBy": "富田晶子",
+    "baseBook1": {
+      "title": "新選　覆刻　日本の山岳名著　山岳美觀",
+      "publisher": "大修館書店",
+      "firstPublishedAt": "1978（昭和53）年9月1日",
+      "inputEdition": "1978（昭和53）年9月1日",
+      "proofreadEdition": "1978（昭和53）年9月1日"
+    },
+    "author": "吉江喬松",
+    "authors": [
+      {
+        "personId": "000220",
+        "name": "吉江喬松",
+        "kana": "よしえたかまつ",
+        "roman": "Takamatsu Yoshie",
+        "role": "著者",
+        "birthDate": "1880-09-05",
+        "deathDate": "1940-03-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

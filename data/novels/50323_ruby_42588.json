@@ -198,5 +198,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050323",
+    "title": "念仏の家",
+    "titleKana": "ねんぶつのいえ",
+    "sortKana": "ねんふつのいえ",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-05-10",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001425/card50323.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001425/files/50323_ruby_42588.zip",
+    "textFileId": "50323_ruby_42588",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001425/files/50323_42616.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "富田倫生",
+    "baseBook1": {
+      "title": "ふるさと文学館　第二〇巻　【富山】",
+      "publisher": "ぎょうせい",
+      "firstPublishedAt": "1994（平成6）年8月15日",
+      "inputEdition": "1994（平成6）年8月15日初版",
+      "proofreadEdition": "1994（平成6）年8月15日初版"
+    },
+    "author": "小寺菊子",
+    "authors": [
+      {
+        "personId": "001425",
+        "name": "小寺菊子",
+        "kana": "こでらきくこ",
+        "roman": "Kikuko Kodera",
+        "role": "著者",
+        "birthDate": "1883-08-07",
+        "deathDate": "1956-11-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

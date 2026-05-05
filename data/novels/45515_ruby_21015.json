@@ -294,5 +294,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045515",
+    "title": "旱天実景",
+    "titleKana": "かんてんじっけい",
+    "sortKana": "かんてんしつけい",
+    "firstAppearance": "「早稲田文学」1926（大正15）年8月",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-01-05",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001205/card45515.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001205/files/45515_ruby_21015.zip",
+    "textFileId": "45515_ruby_21015",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001205/files/45515_21016.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "富田倫生",
+    "baseBook1": {
+      "title": "茨城近代文学選集Ⅱ",
+      "publisher": "常陽新聞社",
+      "firstPublishedAt": "1977（昭和52）年11月30日",
+      "inputEdition": "1977（昭和52）年11月30日",
+      "proofreadEdition": "1977（昭和52）年11月30日"
+    },
+    "author": "下村千秋",
+    "authors": [
+      {
+        "personId": "001205",
+        "name": "下村千秋",
+        "kana": "しもむらちあき",
+        "roman": "Chiaki Shimomura",
+        "role": "著者",
+        "birthDate": "1893-09-04",
+        "deathDate": "1955-01-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -102,5 +102,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056663",
+    "title": "酒友列伝",
+    "titleKana": "しゅゆうれつでん",
+    "sortKana": "しゆゆうれつてん",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-03-07",
+    "updatedAt": "2016-02-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001693/card56663.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001693/files/56663_ruby_55942.zip",
+    "textFileId": "56663_ruby_55942",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001693/files/56663_55987.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻4　酒場",
+      "publisher": "作品社",
+      "firstPublishedAt": "1991（平成3）年6月25日",
+      "inputEdition": "1999（平成11）年4月30日第7刷",
+      "proofreadEdition": "1999（平成11）年4月30日第7刷"
+    },
+    "author": "山之口貘",
+    "authors": [
+      {
+        "personId": "001693",
+        "name": "山之口貘",
+        "kana": "やまのくちばく",
+        "roman": "Baku Yamanokuchi",
+        "role": "著者",
+        "birthDate": "1903-09-11",
+        "deathDate": "1963-07-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

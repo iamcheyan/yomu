@@ -746,5 +746,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059009",
+    "title": "青べか日記",
+    "titleKana": "あおべかにっき",
+    "sortKana": "あおへかにつき",
+    "subtitle": "――吾が生活　し・さ",
+    "subtitleKana": "――わがせいかつ　し・さ",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-08-16",
+    "updatedAt": "2018-08-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001869/card59009.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001869/files/59009_ruby_65435.zip",
+    "textFileId": "59009_ruby_65435",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001869/files/59009_65479.html",
+    "inputBy": "富田晶子",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "青べか日記",
+      "publisher": "大和書房",
+      "firstPublishedAt": "1971（昭和46）年11月10日",
+      "inputEdition": "1971（昭和46）年11月10日初版",
+      "proofreadEdition": "1971（昭和46）年11月10日初版"
+    },
+    "author": "山本周五郎",
+    "authors": [
+      {
+        "personId": "001869",
+        "name": "山本周五郎",
+        "kana": "やまもとしゅうごろう",
+        "roman": "Shugoro Yamamoto",
+        "role": "著者",
+        "birthDate": "1903-06-22",
+        "deathDate": "1967-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

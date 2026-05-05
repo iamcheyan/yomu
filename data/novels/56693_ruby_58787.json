@@ -162,5 +162,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056693",
+    "title": "恐怖",
+    "titleKana": "きょうふ",
+    "sortKana": "きようふ",
+    "firstAppearance": "「大阪毎日新聞」1913（大正2）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-05-17",
+    "updatedAt": "2016-03-04",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001383/card56693.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001383/files/56693_ruby_58787.zip",
+    "textFileId": "56693_ruby_58787",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001383/files/56693_58830.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "潤一郎ラビリンスⅠ――初期短編集",
+      "publisher": "中公文庫、中央公論社",
+      "firstPublishedAt": "1998（平成10）年5月18日",
+      "inputEdition": "1998（平成10）年5月18日初版",
+      "proofreadEdition": "2012（平成24）年7月10日3刷"
+    },
+    "author": "谷崎潤一郎",
+    "authors": [
+      {
+        "personId": "001383",
+        "name": "谷崎潤一郎",
+        "kana": "たにざきじゅんいちろう",
+        "roman": "Jun'ichiro Tanizaki",
+        "role": "著者",
+        "birthDate": "1886-07-24",
+        "deathDate": "1965-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -66,5 +66,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002663",
+    "title": "雨の回想",
+    "titleKana": "あめのかいそう",
+    "sortKana": "あめのかいそう",
+    "firstAppearance": "「婦人文藝」1934（昭和9）年9月号",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-03-19",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000331/card2663.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000331/files/2663_ruby_5331.zip",
+    "textFileId": "2663_ruby_5331",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000331/files/2663_45773.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "小林徹",
+    "baseBook1": {
+      "title": "空にむかひて",
+      "publisher": "武蔵野書房",
+      "firstPublishedAt": "2001（平成13）年1月21日"
+    },
+    "author": "若杉鳥子",
+    "authors": [
+      {
+        "personId": "000331",
+        "name": "若杉鳥子",
+        "kana": "わかすぎとりこ",
+        "roman": "Toriko Wakasugi",
+        "role": "著者",
+        "birthDate": "1892-12-21",
+        "deathDate": "1937-12-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

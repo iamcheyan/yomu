@@ -236,5 +236,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054014",
+    "title": "夜明の集会",
+    "titleKana": "よあけのしゅうかい",
+    "sortKana": "よあけのしゆうかい",
+    "firstAppearance": "「プロレタリア芸術」1928（昭和3）年3月号",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-07-10",
+    "updatedAt": "2015-05-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001620/card54014.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001620/files/54014_ruby_56840.zip",
+    "textFileId": "54014_ruby_56840",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001620/files/54014_56888.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・38　プロレタリア詩集（一）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年5月25日",
+      "inputEdition": "1987（昭和62）年5月25日初版",
+      "proofreadEdition": "1987（昭和62）年5月25日初版"
+    },
+    "author": "波立一",
+    "authors": [
+      {
+        "personId": "001620",
+        "name": "波立一",
+        "kana": "はりゅうはじめ",
+        "roman": "Hajime Haryu",
+        "role": "著者",
+        "birthDate": "1908",
+        "deathDate": "1937",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

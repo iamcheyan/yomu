@@ -36,5 +36,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045513",
+    "title": "伊賀国",
+    "titleKana": "いがのくに",
+    "sortKana": "いかのくに",
+    "ndc": "NDC 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-09-20",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000275/card45513.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000275/files/45513_ruby_19303.zip",
+    "textFileId": "45513_ruby_19303",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000275/files/45513_19340.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "現代日本紀行文学全集　西日本編",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1976（昭和51）年8月1日",
+      "inputEdition": "1976（昭和51）年8月1日初版",
+      "proofreadEdition": "1976（昭和51）年8月1日初版"
+    },
+    "author": "近松秋江",
+    "authors": [
+      {
+        "personId": "000275",
+        "name": "近松秋江",
+        "kana": "ちかまつしゅうこう",
+        "roman": "Shuko Chikamatsu",
+        "role": "著者",
+        "birthDate": "1876-05-04",
+        "deathDate": "1944-04-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

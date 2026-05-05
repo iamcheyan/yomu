@@ -80,5 +80,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053800",
+    "title": "一枝について",
+    "titleKana": "ひとえだについて",
+    "sortKana": "ひとえたについて",
+    "firstAppearance": "「国民文学」1942（昭和17）年1月号",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-09-27",
+    "updatedAt": "2019-08-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001602/card53800.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001602/files/53800_ruby_69057.zip",
+    "textFileId": "53800_ruby_69057",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001602/files/53800_69148.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "hitsuji",
+    "baseBook1": {
+      "title": "〈外地〉の日本語文学選3　朝鮮",
+      "publisher": "新宿書房",
+      "firstPublishedAt": "1996（平成8）年3月31日",
+      "inputEdition": "1996（平成8）年3月31日第1刷",
+      "proofreadEdition": "1996（平成8）年3月31日第1刷"
+    },
+    "author": "金鍾漢",
+    "authors": [
+      {
+        "personId": "001602",
+        "name": "金鍾漢",
+        "kana": "きむじょんはん",
+        "roman": "Chong-han Kim",
+        "role": "著者",
+        "birthDate": "1914-02-28",
+        "deathDate": "1944-09-27",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -1030,5 +1030,42 @@
       }
     ]
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047147",
+    "title": "橋の上",
+    "titleKana": "はしのうえ",
+    "sortKana": "はしのうえ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-01-09",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001289/card47147.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001289/files/47147_ruby_29250.zip",
+    "textFileId": "47147_ruby_29250",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001289/files/47147_29249.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "犬田卯短編集　一",
+      "publisher": "筑波書林",
+      "firstPublishedAt": "1982（昭和57）年2月15日",
+      "inputEdition": "1982（昭和57）年2月15日第1刷"
+    },
+    "author": "犬田卯",
+    "authors": [
+      {
+        "personId": "001289",
+        "name": "犬田卯",
+        "kana": "いぬたしげる",
+        "roman": "Shigeru Inuta",
+        "role": "著者",
+        "birthDate": "1891-08-23",
+        "deathDate": "1957-07-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

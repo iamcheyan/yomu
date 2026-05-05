@@ -38,5 +38,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002925",
+    "title": "ベリンスキーの眼力",
+    "titleKana": "ベリンスキーのがんりき",
+    "sortKana": "へりんすきいのかんりき",
+    "firstAppearance": "「女靴の跡」高島屋出版部、1948（昭和23）年2月発行",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-04-26",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000311/card2925.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000311/files/2925_ruby_9207.zip",
+    "textFileId": "2925_ruby_9207",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000311/files/2925_9208.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "宮本百合子全集　第十二巻",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1980（昭和55）年4月20日",
+      "inputEdition": "1986（昭和61）年3月20日第4刷"
+    },
+    "author": "宮本百合子",
+    "authors": [
+      {
+        "personId": "000311",
+        "name": "宮本百合子",
+        "kana": "みやもとゆりこ",
+        "roman": "Yuriko Miyamoto",
+        "role": "著者",
+        "birthDate": "1899-02-13",
+        "deathDate": "1951-01-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

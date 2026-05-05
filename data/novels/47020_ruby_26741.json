@@ -72,5 +72,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047020",
+    "title": "スワデシの誓",
+    "titleKana": "スワデシのちかい",
+    "sortKana": "すわてしのちかい",
+    "ndc": "NDC 126 225",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-06-17",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001277/card47020.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001277/files/47020_ruby_26741.zip",
+    "textFileId": "47020_ruby_26741",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001277/files/47020_26801.html",
+    "inputBy": "田中敬三",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "ガンヂーは叫ぶ",
+      "publisher": "アルス",
+      "firstPublishedAt": "1942（昭和17）年6月20日",
+      "inputEdition": "1942（昭和17）年6月20日初版",
+      "proofreadEdition": "1942（昭和17）年6月20日初版"
+    },
+    "author": "ガンジーマハトマ",
+    "authors": [
+      {
+        "personId": "001277",
+        "name": "ガンジーマハトマ",
+        "kana": "ガンジーマハトマ",
+        "roman": "Mahatma Gandhi",
+        "role": "著者",
+        "birthDate": "1869-10-02",
+        "deathDate": "1948-01-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

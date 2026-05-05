@@ -54,5 +54,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058101",
+    "title": "運動",
+    "titleKana": "うんどう",
+    "sortKana": "うんとう",
+    "firstAppearance": "「運動世界　第十號」運動世界社、1909（明治42）年1月1日",
+    "ndc": "NDC 159",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-05-26",
+    "updatedAt": "2018-04-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001879/card58101.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001879/files/58101_ruby_64582.zip",
+    "textFileId": "58101_ruby_64582",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001879/files/58101_64634.html",
+    "inputBy": "フクポー",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "大隈重信演説談話集",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2016（平成28）年3月16日",
+      "inputEdition": "2016（平成28）年3月16日第1刷",
+      "proofreadEdition": "2016（平成28）年3月16日第1刷"
+    },
+    "author": "大隈重信",
+    "authors": [
+      {
+        "personId": "001879",
+        "name": "大隈重信",
+        "kana": "おおくましげのぶ",
+        "roman": "Shigenobu Okuma",
+        "role": "著者",
+        "birthDate": "1838-03-11",
+        "deathDate": "1922-01-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

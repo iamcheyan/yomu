@@ -3396,5 +3396,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046687",
+    "title": "おせん",
+    "titleKana": "おせん",
+    "sortKana": "おせん",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-05-18",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001261/card46687.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001261/files/46687_ruby_26552.zip",
+    "textFileId": "46687_ruby_26552",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001261/files/46687_26607.html",
+    "inputBy": "伊藤時也",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "大衆文学代表作全集　19　邦枝完二集",
+      "publisher": "河出書房",
+      "firstPublishedAt": "1955（昭和30）年9月",
+      "inputEdition": "1955（昭和30）年11月30日8版",
+      "proofreadEdition": "1955（昭和30）年11月30日8版"
+    },
+    "author": "邦枝完二",
+    "authors": [
+      {
+        "personId": "001261",
+        "name": "邦枝完二",
+        "kana": "くにえだかんじ",
+        "roman": "Kanji Kunieda",
+        "role": "著者",
+        "birthDate": "1892-12-28",
+        "deathDate": "1956-08-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

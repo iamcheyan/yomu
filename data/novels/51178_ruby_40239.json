@@ -32,5 +32,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051178",
+    "title": "北海道の「俊寛」",
+    "titleKana": "ほっかいどうのしゅんかん",
+    "sortKana": "ほつかいとうのしゆんかん",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-11-11",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000156/card51178.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000156/files/51178_ruby_40239.zip",
+    "textFileId": "51178_ruby_40239",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000156/files/51178_41141.html",
+    "inputBy": "向山きよみ",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本随筆紀行第二巻　札幌｜小樽｜函館　北の街はリラの香り",
+      "publisher": "作品社",
+      "firstPublishedAt": "1986（昭和61）年4月25日",
+      "inputEdition": "1986（昭和61）年4月25日第1刷",
+      "proofreadEdition": "1986（昭和61）年4月25日第1刷"
+    },
+    "author": "小林多喜二",
+    "authors": [
+      {
+        "personId": "000156",
+        "name": "小林多喜二",
+        "kana": "こばやしたきじ",
+        "roman": "Takiji Kobayashi",
+        "role": "著者",
+        "birthDate": "1903-10-13",
+        "deathDate": "1933-02-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

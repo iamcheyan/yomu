@@ -356,5 +356,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042624",
+    "title": "青春論",
+    "titleKana": "せいしゅんろん",
+    "sortKana": "せいしゆんろん",
+    "firstAppearance": "「文学界　第九巻第十一号、第十二号」1942（昭和17）年11月1日、12月1日発行",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-02-27",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card42624.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/42624_ruby_21405.zip",
+    "textFileId": "42624_ruby_21405",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/42624_21406.html",
+    "inputBy": "kompass",
+    "proofreadBy": "宮元淳一",
+    "baseBook1": {
+      "title": "坂口安吾全集14",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1990（平成2）年6月26日",
+      "inputEdition": "1993（平成5）年3月10日第2刷",
+      "proofreadEdition": "1990（平成2）年6月26日第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -3056,5 +3056,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047357",
+    "title": "生活の探求",
+    "titleKana": "せいかつのたんきゅう",
+    "sortKana": "せいかつのたんきゆう",
+    "firstAppearance": "「書きおろし長篇小説叢書　第二巻」河出書房、1937（昭和12）年10月27日発行",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-08-17",
+    "updatedAt": "2018-09-22",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000008/card47357.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000008/files/47357_ruby_65438.zip",
+    "textFileId": "47357_ruby_65438",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000008/files/47357_65482.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "富田晶子",
+    "baseBook1": {
+      "title": "島木健作作品集　第二卷",
+      "publisher": "創元社",
+      "firstPublishedAt": "1953（昭和28）年6月30日",
+      "inputEdition": "1953（昭和28）年6月30日初版",
+      "proofreadEdition": "1953（昭和28）年6月30日初版"
+    },
+    "author": "島木健作",
+    "authors": [
+      {
+        "personId": "000008",
+        "name": "島木健作",
+        "kana": "しまきけんさく",
+        "roman": "Kensaku Shimaki",
+        "role": "著者",
+        "birthDate": "1903-09-07",
+        "deathDate": "1945-08-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

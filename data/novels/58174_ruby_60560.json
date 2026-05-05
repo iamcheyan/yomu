@@ -152,5 +152,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058174",
+    "title": "湯けむり",
+    "titleKana": "ゆけむり",
+    "sortKana": "ゆけむり",
+    "firstAppearance": "「大分合同新聞」2016（平成28）年4月30日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2017-01-02",
+    "updatedAt": "2016-12-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001918/card58174.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001918/files/58174_ruby_60560.zip",
+    "textFileId": "58174_ruby_60560",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001918/files/58174_60561.html",
+    "inputBy": "澤西祐典",
+    "proofreadBy": "大久保ゆう",
+    "baseBook1": {
+      "title": "大分合同新聞（朝刊）",
+      "publisher": "大分合同新聞社",
+      "firstPublishedAt": "2016（平成28）年4月30日",
+      "inputEdition": "2016（平成28）年4月30日",
+      "proofreadEdition": "2016（平成28）年4月30日"
+    },
+    "author": "澤西祐典",
+    "authors": [
+      {
+        "personId": "001918",
+        "name": "澤西祐典",
+        "kana": "さわにしゆうてん",
+        "roman": "Yuten Sawanishi",
+        "role": "著者",
+        "birthDate": "1986-07-12",
+        "copyright": "あり"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

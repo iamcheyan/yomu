@@ -926,5 +926,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004781",
+    "title": "長崎の鐘",
+    "titleKana": "ながさきのかね",
+    "sortKana": "なかさきのかね",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-09-28",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000293/card4781.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000293/files/4781_txt_6719.zip",
+    "textFileId": "4781_txt_6719",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000293/files/4781_6718.html",
+    "inputBy": "ジェラスガイ",
+    "proofreadBy": "大野晋",
+    "baseBook1": {
+      "title": "日本の原爆文学1　原民喜",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1983（昭和58）年8月1日",
+      "inputEdition": "1983（昭和58）年8月1日初版第1刷"
+    },
+    "author": "原民喜",
+    "authors": [
+      {
+        "personId": "000293",
+        "name": "原民喜",
+        "kana": "はらたみき",
+        "roman": "Tamiki Hara",
+        "role": "著者",
+        "birthDate": "1905-11-15",
+        "deathDate": "1951-03-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

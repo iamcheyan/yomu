@@ -154,5 +154,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056723",
+    "title": "永久凍土地帯",
+    "titleKana": "えいきゅうとうどちたい",
+    "sortKana": "えいきゆうとうとちたい",
+    "firstAppearance": "黒河への旅「文藝春秋　第二十三巻第二号」1945（昭和20）年2月1日<br>陸の大洋「文藝春秋　第二十三巻第二号」1945（昭和20）年2月1日<br>草原の王者「財界　第十巻第四号」1945（昭和20）年10月1日",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-08-21",
+    "updatedAt": "2022-07-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card56723.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/56723_ruby_76037.zip",
+    "textFileId": "56723_ruby_76037",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/56723_76073.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "najuful",
+    "baseBook1": {
+      "title": "中谷宇吉郎紀行集　アラスカの氷河",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2002（平成14）年12月13日",
+      "inputEdition": "2011（平成23）年12月16日第3刷",
+      "proofreadEdition": "2002（平成14）年12月13日第1刷"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

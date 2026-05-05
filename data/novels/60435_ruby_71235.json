@@ -88,5 +88,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060435",
+    "title": "翳",
+    "titleKana": "かげ",
+    "sortKana": "かけ",
+    "firstAppearance": "「明日」公友社、1948（昭和23）年11月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-07-14",
+    "updatedAt": "2020-06-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000293/card60435.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000293/files/60435_ruby_71235.zip",
+    "textFileId": "60435_ruby_71235",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000293/files/60435_71284.html",
+    "inputBy": "竹井真",
+    "proofreadBy": "砂場清隆",
+    "baseBook1": {
+      "title": "原民喜戦後全小説",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "2015（平成27）年6月10日",
+      "inputEdition": "2015（平成27）年6月10日第1刷",
+      "proofreadEdition": "2015（平成27）年6月10日第1刷"
+    },
+    "author": "原民喜",
+    "authors": [
+      {
+        "personId": "000293",
+        "name": "原民喜",
+        "kana": "はらたみき",
+        "roman": "Tamiki Hara",
+        "role": "著者",
+        "birthDate": "1905-11-15",
+        "deathDate": "1951-03-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

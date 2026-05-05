@@ -2546,5 +2546,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000785",
+    "title": "門",
+    "titleKana": "もん",
+    "sortKana": "もん",
+    "firstAppearance": "「朝日新聞」1910（明治43）年3月1日～6月12日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-04-22",
+    "updatedAt": "2015-03-07",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000148/card785.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000148/files/785_ruby_1656.zip",
+    "textFileId": "785_ruby_1656",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000148/files/785_14971.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "高橋知仁",
+    "baseBook1": {
+      "title": "夏目漱石全集6",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1988（昭和63）年3月29日",
+      "inputEdition": "1988（昭和63）年3月29日第1刷",
+      "proofreadEdition": "1993（平成5）年2月25日第2刷"
+    },
+    "author": "夏目漱石",
+    "authors": [
+      {
+        "personId": "000148",
+        "name": "夏目漱石",
+        "kana": "なつめそうせき",
+        "roman": "Soseki Natsume",
+        "role": "著者",
+        "birthDate": "1867-02-09",
+        "deathDate": "1916-12-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

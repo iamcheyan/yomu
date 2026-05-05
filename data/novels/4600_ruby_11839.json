@@ -222,5 +222,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004600",
+    "title": "タネリはたしかにいちにち噛んでいたようだった",
+    "titleKana": "タネリはたしかにいちにちかんでいたようだった",
+    "sortKana": "たねりはたしかにいちにちかんていたようたつた",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-08-24",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card4600.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/4600_ruby_11839.zip",
+    "textFileId": "4600_ruby_11839",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/4600_11971.html",
+    "inputBy": "久保格",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "ポラーノの広場",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1995（平成7）年2月1日",
+      "inputEdition": "1995（平成7）年2月1日発行",
+      "proofreadEdition": "1995（平成7）年2月1日発行"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

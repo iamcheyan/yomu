@@ -1438,5 +1438,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054403",
+    "title": "雪国の春",
+    "titleKana": "ゆきぐにのはる",
+    "sortKana": "ゆきくにのはる",
+    "ndc": "NDC 382",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-09-22",
+    "updatedAt": "2014-09-15",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001566/card54403.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001566/files/54403_ruby_54178.zip",
+    "textFileId": "54403_ruby_54178",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001566/files/54403_54217.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "雪国の春",
+      "publisher": "角川文庫、角川学芸出版",
+      "firstPublishedAt": "1956（昭和31）年7月30日",
+      "inputEdition": "2011（平成23）年11月25日新版初版",
+      "proofreadEdition": "2011（平成23）年11月25日新版初版"
+    },
+    "author": "柳田国男",
+    "authors": [
+      {
+        "personId": "001566",
+        "name": "柳田国男",
+        "kana": "やなぎたくにお",
+        "roman": "Kunio Yanagita",
+        "role": "著者",
+        "birthDate": "1875-07-31",
+        "deathDate": "1962-08-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

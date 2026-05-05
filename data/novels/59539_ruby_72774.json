@@ -46,5 +46,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059539",
+    "title": "「古琉球」改版に際して",
+    "titleKana": "「こりゅうきゅう」かいはんにさいして",
+    "sortKana": "こりゆうきゆうかいはんにさいして",
+    "firstAppearance": "「古琉球」青磁社、1942（昭和17）年10月20日",
+    "ndc": "NDC 219",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-03-15",
+    "updatedAt": "2021-02-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000232/card59539.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000232/files/59539_ruby_72774.zip",
+    "textFileId": "59539_ruby_72774",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000232/files/59539_72826.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "かたこ",
+    "baseBook1": {
+      "title": "古琉球",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2000（平成12）年12月15日",
+      "inputEdition": "2015（平成27）年2月5日第8刷",
+      "proofreadEdition": "2017（平成29）年10月5日第9刷"
+    },
+    "author": "伊波普猷",
+    "authors": [
+      {
+        "personId": "000232",
+        "name": "伊波普猷",
+        "kana": "いはふゆう",
+        "roman": "Fuyu Iha",
+        "role": "著者",
+        "birthDate": "1876-03-15",
+        "deathDate": "1947-08-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

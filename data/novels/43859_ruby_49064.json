@@ -4456,5 +4456,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043859",
+    "title": "光は影を",
+    "titleKana": "ひかりはかげを",
+    "sortKana": "ひかりはかけを",
+    "firstAppearance": "彼を待つもの「キング　第二十六巻第四号」1950（昭和25）年4月1日、はるかなる青春「キング　第二十六巻第五号」1950（昭和25）年5月1日、〔欠題〕「キング　第二十六巻第六号」1950（昭和25）年6月1日、兄の立場「キング　第二十六巻第七号」1950（昭和25）年7月1日、ある少女の役割「キング　第二十六巻第八号」1950（昭和25）年8月1日、父の孤独「キング　第二十六巻第九号」1950（昭和25）年9月1日、愛と死と生の戯れ「キング　第二十六巻第十号」1950（昭和25）年10月1日、運命に逆うもの「キング　第二十六巻第十一号」1950（昭和25）年11月1日、変転の外に「キング　第二十六巻第十二号」1950（昭和25）年12月1日、この日あるがために「キング　第二十七巻第一号」1951（昭和26）年1月1日、二つの未来図「キング　第二十七巻第二号」1951（昭和26）年2月1日、希望の羽ばたき「キング　第二十七巻第三号」1951（昭和26）年3月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-02-03",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001154/card43859.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001154/files/43859_ruby_49064.zip",
+    "textFileId": "43859_ruby_49064",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001154/files/43859_49635.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "岸田國士全集18",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1992（平成4）年3月9日",
+      "inputEdition": "1992（平成4）年3月9日",
+      "proofreadEdition": "1992（平成4）年3月9日"
+    },
+    "author": "岸田国士",
+    "authors": [
+      {
+        "personId": "001154",
+        "name": "岸田国士",
+        "kana": "きしだくにお",
+        "roman": "Kunio Kishida",
+        "role": "著者",
+        "birthDate": "1890-11-02",
+        "deathDate": "1954-03-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

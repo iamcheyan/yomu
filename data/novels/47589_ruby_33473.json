@@ -52,5 +52,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047589",
+    "title": "おとづれ",
+    "titleKana": "おとづれ",
+    "sortKana": "おとつれ",
+    "firstAppearance": "「不同調」1926（昭和元）年",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-03-06",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000726/card47589.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000726/files/47589_ruby_33473.zip",
+    "textFileId": "47589_ruby_33473",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000726/files/47589_34272.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "桃",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1939（昭和14）年2月10日",
+      "inputEdition": "1939（昭和14）年2月10日",
+      "proofreadEdition": "1939（昭和14）年2月10日"
+    },
+    "author": "長谷川時雨",
+    "authors": [
+      {
+        "personId": "000726",
+        "name": "長谷川時雨",
+        "kana": "はせがわしぐれ",
+        "roman": "Shigure Hasegawa",
+        "role": "著者",
+        "birthDate": "1879-10-01",
+        "deathDate": "1941-08-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

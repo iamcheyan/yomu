@@ -1190,5 +1190,51 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049394",
+    "title": "一九二八年三月十五日",
+    "titleKana": "せんきゅうひやくにじゅうはちねんさんがつじゅうごにち",
+    "sortKana": "せんきゆうひやくにしゆうはちねんさんかつしゆうこにち",
+    "firstAppearance": "一～四「戰旗　昭和三年十一月号」全日本無産者藝術聯盟本部、1928（昭和3）年11月1日<br>五～九「戰旗　昭和三年十二月号」全日本無産者藝術聯盟本部、1928（昭和3）年12月1日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-03-15",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000156/card49394.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000156/files/49394_ruby_33413.zip",
+    "textFileId": "49394_ruby_33413",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000156/files/49394_33663.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "富田倫生",
+    "baseBook1": {
+      "title": "戰旗　昭和三年十一月号",
+      "publisher": "全日本無産者藝術聯盟本部",
+      "firstPublishedAt": "1928（昭和3）年11月1日",
+      "inputEdition": "1928（昭和3）年11月1日",
+      "proofreadEdition": "1928（昭和3）年11月1日"
+    },
+    "baseBook2": {
+      "title": "戰旗　昭和三年十二月号",
+      "publisher": "全日本無産者芸術聯盟本部",
+      "firstPublishedAt": "1928（昭和3）年12月1日",
+      "inputEdition": "1928（昭和3）年12月1日",
+      "proofreadEdition": "1928（昭和3）年12月1日"
+    },
+    "author": "小林多喜二",
+    "authors": [
+      {
+        "personId": "000156",
+        "name": "小林多喜二",
+        "kana": "こばやしたきじ",
+        "roman": "Takiji Kobayashi",
+        "role": "著者",
+        "birthDate": "1903-10-13",
+        "deathDate": "1933-02-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

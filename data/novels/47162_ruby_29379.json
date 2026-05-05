@@ -130,5 +130,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047162",
+    "title": "ハナとタマシヒ",
+    "titleKana": "ハナとタマシイ",
+    "sortKana": "はなとたましい",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-03-26",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001292/card47162.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001292/files/47162_ruby_29379.zip",
+    "textFileId": "47162_ruby_29379",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001292/files/47162_29952.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "みの　美しいものになら",
+      "publisher": "四季社",
+      "firstPublishedAt": "1954（昭和29）年3月30日",
+      "inputEdition": "1954（昭和29）年4月15日再版",
+      "proofreadEdition": "1954（昭和29）年4月15日再版"
+    },
+    "author": "平山千代子",
+    "authors": [
+      {
+        "personId": "001292",
+        "name": "平山千代子",
+        "kana": "ひらやまちよこ",
+        "roman": "Chiyoko Hirayama",
+        "role": "著者",
+        "birthDate": "1925-12-16",
+        "deathDate": "1944-08-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

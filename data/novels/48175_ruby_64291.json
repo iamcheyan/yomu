@@ -358,5 +358,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048175",
+    "title": "南部の鼻曲り",
+    "titleKana": "なんぶのはなまがり",
+    "sortKana": "なんふのはなまかり",
+    "firstAppearance": "「新青年」1946（昭和21）年2月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-04-06",
+    "updatedAt": "2018-04-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001224/card48175.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001224/files/48175_ruby_64291.zip",
+    "textFileId": "48175_ruby_64291",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001224/files/48175_64340.html",
+    "inputBy": "時雨",
+    "proofreadBy": "skyward",
+    "baseBook1": {
+      "title": "昆虫図",
+      "publisher": "現代教養文庫、社会思想社",
+      "firstPublishedAt": "1976（昭和51）年12月15日",
+      "inputEdition": "1976（昭和51）年12月15日初版第1刷",
+      "proofreadEdition": "1997（平成9）年9月30日初版第6刷"
+    },
+    "author": "久生十蘭",
+    "authors": [
+      {
+        "personId": "001224",
+        "name": "久生十蘭",
+        "kana": "ひさおじゅうらん",
+        "roman": "Juran Hisao",
+        "role": "著者",
+        "birthDate": "1902-04-06",
+        "deathDate": "1957-10-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

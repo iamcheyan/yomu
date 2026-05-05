@@ -176,5 +176,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000525",
+    "title": "神社合祀に関する意見",
+    "titleKana": "じんじゃごうしにかんするいけん",
+    "sortKana": "しんしやこうしにかんするいけん",
+    "ndc": "NDC 175",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-08-18",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000093/card525.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000093/files/525_ruby_1904.zip",
+    "textFileId": "525_ruby_1904",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000093/files/525_47860.html",
+    "inputBy": "r.sawai",
+    "proofreadBy": "鈴木伸吾",
+    "baseBook1": {
+      "title": "南方熊楠コレクション第五巻　森の思想",
+      "publisher": "河出文庫、河出書房新社",
+      "firstPublishedAt": "1992（平成4）年3月10日",
+      "proofreadEdition": "1992（平成4）年5月15日再版"
+    },
+    "author": "南方熊楠",
+    "authors": [
+      {
+        "personId": "000093",
+        "name": "南方熊楠",
+        "kana": "みなかたくまぐす",
+        "roman": "Kumagusu Minakata",
+        "role": "著者",
+        "birthDate": "1867-05-18",
+        "deathDate": "1941-12-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

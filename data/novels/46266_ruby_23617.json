@@ -86,5 +86,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046266",
+    "title": "月夜のでんしんばしらの軍歌",
+    "titleKana": "つきよのでんしんばしらのぐんか",
+    "sortKana": "つきよのてんしんはしらのくんか",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-09-19",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card46266.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/46266_ruby_23617.zip",
+    "textFileId": "46266_ruby_23617",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/46266_23909.html",
+    "inputBy": "田中敬三",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "【新】校本宮澤賢治全集　第六巻　詩Ⅴ　本文篇",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1996（平成8）年5月30日",
+      "inputEdition": "1996（平成8）年5月30日初版第1刷",
+      "proofreadEdition": "1996（平成8）年5月30日初版第1刷"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

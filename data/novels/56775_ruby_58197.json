@@ -4870,5 +4870,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056775",
+    "title": "狂い凧",
+    "titleKana": "くるいだこ",
+    "sortKana": "くるいたこ",
+    "firstAppearance": "「群像」講談社、1963（昭和38）年1月～5月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-02-07",
+    "updatedAt": "2016-02-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001798/card56775.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001798/files/56775_ruby_58197.zip",
+    "textFileId": "56775_ruby_58197",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001798/files/56775_58206.html",
+    "inputBy": "kompass",
+    "proofreadBy": "酒井裕二",
+    "baseBook1": {
+      "title": "狂い凧",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "2013（平成25）年10月10日",
+      "inputEdition": "2013（平成25）年10月10日第1刷",
+      "proofreadEdition": "2013（平成25）年10月10日第1刷"
+    },
+    "author": "梅崎春生",
+    "authors": [
+      {
+        "personId": "001798",
+        "name": "梅崎春生",
+        "kana": "うめざきはるお",
+        "roman": "Haruo Umezaki",
+        "role": "著者",
+        "birthDate": "1915-02-15",
+        "deathDate": "1965-07-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

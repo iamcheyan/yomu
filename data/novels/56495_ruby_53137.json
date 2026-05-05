@@ -740,5 +740,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056495",
+    "title": "梅颸の杖",
+    "titleKana": "ばいしのつえ",
+    "sortKana": "はいしのつえ",
+    "firstAppearance": "「文藝春秋　オール読物号」1930（昭和5）年7月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-04-09",
+    "updatedAt": "2025-06-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001562/card56495.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001562/files/56495_ruby_53137.zip",
+    "textFileId": "56495_ruby_53137",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001562/files/56495_53175.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "吉川英治全集・44　醤油仏（短編集一）",
+      "publisher": "講談社",
+      "firstPublishedAt": "1970（昭和45）年4月20日",
+      "inputEdition": "1970（昭和45）年4月20日第1刷",
+      "proofreadEdition": "1970（昭和45）年4月20日第1刷"
+    },
+    "author": "吉川英治",
+    "authors": [
+      {
+        "personId": "001562",
+        "name": "吉川英治",
+        "kana": "よしかわえいじ",
+        "roman": "Eiji Yoshikawa",
+        "role": "著者",
+        "birthDate": "1892-08-11",
+        "deathDate": "1962-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

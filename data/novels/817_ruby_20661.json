@@ -1690,5 +1690,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000817",
+    "title": "詩",
+    "titleKana": "し",
+    "sortKana": "し",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-11-11",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000153/card817.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000153/files/817_ruby_20661.zip",
+    "textFileId": "817_ruby_20661",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000153/files/817_20662.html",
+    "inputBy": "j.utiyama",
+    "proofreadBy": "八巻美恵",
+    "baseBook1": {
+      "title": "日本文学全集　12　国木田独歩　石川啄木集",
+      "publisher": "集英社",
+      "firstPublishedAt": "1967（昭和42）年9月7日",
+      "inputEdition": "1972（昭和47）年9月10日第9版",
+      "proofreadEdition": "1972（昭和47）年10月7日"
+    },
+    "author": "石川啄木",
+    "authors": [
+      {
+        "personId": "000153",
+        "name": "石川啄木",
+        "kana": "いしかわたくぼく",
+        "roman": "Takuboku Ishikawa",
+        "role": "著者",
+        "birthDate": "1886-02-20",
+        "deathDate": "1912-04-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

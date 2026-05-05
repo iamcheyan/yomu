@@ -216,5 +216,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004088",
+    "title": "青草",
+    "titleKana": "あおくさ",
+    "sortKana": "あおくさ",
+    "firstAppearance": "「文芸時代」1924（大正13）年12月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-11-29",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000601/card4088.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000601/files/4088_ruby_5542.zip",
+    "textFileId": "4088_ruby_5542",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000601/files/4088_54108.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "日本文学全集88　名作集（三）昭和編",
+      "publisher": "集英社",
+      "firstPublishedAt": "1970（昭和45）年1月25日"
+    },
+    "author": "十一谷義三郎",
+    "authors": [
+      {
+        "personId": "000601",
+        "name": "十一谷義三郎",
+        "kana": "じゅういちやぎさぶろう",
+        "roman": "Gisaburo Juichiya",
+        "role": "著者",
+        "birthDate": "1897-10-14",
+        "deathDate": "1937-04-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

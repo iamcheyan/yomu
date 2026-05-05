@@ -184,5 +184,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004660",
+    "title": "山を想ふ",
+    "titleKana": "やまをおもう",
+    "sortKana": "やまをおもう",
+    "firstAppearance": "「三田文学」1926（大正15）年10月",
+    "ndc": "NDC 291 914 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-10-11",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000800/card4660.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000800/files/4660_ruby_12239.zip",
+    "textFileId": "4660_ruby_12239",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000800/files/4660_12240.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "現代日本紀行文学全集　東日本編",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1976（昭和51）年8月1日",
+      "inputEdition": "1976（昭和51）年8月1日初版"
+    },
+    "author": "水上滝太郎",
+    "authors": [
+      {
+        "personId": "000800",
+        "name": "水上滝太郎",
+        "kana": "みなかみたきたろう",
+        "roman": "Takitaro Minakami",
+        "role": "著者",
+        "birthDate": "1887-12-06",
+        "deathDate": "1940-03-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -142,5 +142,44 @@
     [],
     []
   ],
-  "desc": "盲目の音楽師と弟子の歪んだ愛の物語。"
+  "desc": "盲目の音楽師と弟子の歪んだ愛の物語。",
+  "aozora_info": {
+    "workId": "056866",
+    "title": "春琴抄",
+    "titleKana": "しゅんきんしょう",
+    "sortKana": "しゆんきんしよう",
+    "firstAppearance": "「中央公論」中央公論社、1933（昭和8）年6月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-01-01",
+    "updatedAt": "2020-10-22",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001383/card56866.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001383/files/56866_ruby_58168.zip",
+    "textFileId": "56866_ruby_58168",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001383/files/56866_58169.html",
+    "inputBy": "kompass",
+    "proofreadBy": "酒井裕二",
+    "baseBook1": {
+      "title": "ちくま日本文学014　谷崎潤一郎",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2008（平成20）年4月10日",
+      "inputEdition": "2008（平成20）年4月10日第1刷",
+      "proofreadEdition": "2008（平成20）年4月10日第1刷"
+    },
+    "author": "谷崎潤一郎",
+    "authors": [
+      {
+        "personId": "001383",
+        "name": "谷崎潤一郎",
+        "kana": "たにざきじゅんいちろう",
+        "roman": "Jun'ichiro Tanizaki",
+        "role": "著者",
+        "birthDate": "1886-07-24",
+        "deathDate": "1965-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -88,5 +88,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045452",
+    "title": "入営前後",
+    "titleKana": "にゅうえいぜんご",
+    "sortKana": "にゆうえいせんこ",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-07-19",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000037/card45452.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000037/files/45452_ruby_35362.zip",
+    "textFileId": "45452_ruby_35362",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000037/files/45452_35420.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "黒島傳治全集　第三巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1970（昭和45）年8月30日",
+      "inputEdition": "1970（昭和45）年8月30日第1刷",
+      "proofreadEdition": "1970（昭和45）年8月30日第1刷"
+    },
+    "author": "黒島伝治",
+    "authors": [
+      {
+        "personId": "000037",
+        "name": "黒島伝治",
+        "kana": "くろしまでんじ",
+        "roman": "Denji Kuroshima",
+        "role": "著者",
+        "birthDate": "1898-12-12",
+        "deathDate": "1943-10-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

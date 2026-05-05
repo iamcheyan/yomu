@@ -44,5 +44,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001071",
+    "title": "寒山拾得",
+    "titleKana": "かんざんじっとく",
+    "sortKana": "かんさんしつとく",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-09-12",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card1071.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/1071_ruby_4557.zip",
+    "textFileId": "1071_ruby_4557",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/1071_17107.html",
+    "inputBy": "佐野良二",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "日本の文学　3　森鴎外（二）",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1967（昭和42）年2月4日",
+      "inputEdition": "1967（昭和42）年2月4日初版"
+    },
+    "author": "森鴎外",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

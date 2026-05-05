@@ -196,5 +196,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043547",
+    "title": "指輪一つ",
+    "titleKana": "ゆびわひとつ",
+    "sortKana": "ゆひわひとつ",
+    "firstAppearance": "「講談倶樂部」1925（大正14）年8月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-08-13",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000082/card43547.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000082/files/43547_ruby_18792.zip",
+    "textFileId": "43547_ruby_18792",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000082/files/43547_18862.html",
+    "inputBy": "網迫、土屋隆",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "異妖の怪談集　岡本綺堂伝奇小説集　其ノ二",
+      "publisher": "原書房",
+      "firstPublishedAt": "1999（平成11）年7月2日",
+      "inputEdition": "1999（平成11）年7月2日第1刷",
+      "proofreadEdition": "1999（平成11）年7月2日第1刷"
+    },
+    "author": "岡本綺堂",
+    "authors": [
+      {
+        "personId": "000082",
+        "name": "岡本綺堂",
+        "kana": "おかもときどう",
+        "roman": "Kido Okamoto",
+        "role": "著者",
+        "birthDate": "1872-11-15",
+        "deathDate": "1939-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

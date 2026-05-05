@@ -356,5 +356,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004744",
+    "title": "関牧塲創業記事",
+    "titleKana": "せきぼくじょうそうぎょうきじ",
+    "sortKana": "せきほくしようそうきようきし",
+    "ndc": "NDC 642",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-04-08",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001026/card4744.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001026/files/4744_ruby_17979.zip",
+    "textFileId": "4744_ruby_17979",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001026/files/4744_18072.html",
+    "inputBy": "小林繁雄",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "命の洗濯",
+      "publisher": "警醒社書店",
+      "firstPublishedAt": "1912（明治45）年3月12日",
+      "inputEdition": "1912（明治45）年3月12日第1刷"
+    },
+    "author": "関寛",
+    "authors": [
+      {
+        "personId": "001026",
+        "name": "関寛",
+        "kana": "せきかん",
+        "roman": "Kan Seki",
+        "role": "著者",
+        "birthDate": "1830",
+        "deathDate": "1912-10-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

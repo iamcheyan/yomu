@@ -48,5 +48,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001344",
+    "title": "将棋",
+    "titleKana": "しょうぎ",
+    "sortKana": "しようき",
+    "ndc": "NDC 796 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-04-07",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000083/card1344.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000083/files/1344_ruby_21710.zip",
+    "textFileId": "1344_ruby_21710",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000083/files/1344_22315.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻8　将棋",
+      "publisher": "作品社",
+      "firstPublishedAt": "1991（平成3）年10月25日",
+      "inputEdition": "1991（平成3）年10月25日第1刷",
+      "proofreadEdition": "2000（平成12）年10月30日第9刷"
+    },
+    "author": "菊池寛",
+    "authors": [
+      {
+        "personId": "000083",
+        "name": "菊池寛",
+        "kana": "きくちかん",
+        "roman": "Kan Kikuchi",
+        "role": "著者",
+        "birthDate": "1888-12-26",
+        "deathDate": "1948-03-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -252,5 +252,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001002",
+    "title": "日本三文オペラ",
+    "titleKana": "にほんさんもんオペラ",
+    "sortKana": "にほんさんもんおへら",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-12-15",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000189/card1002.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000189/files/1002_ruby_20989.zip",
+    "textFileId": "1002_ruby_20989",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000189/files/1002_20990.html",
+    "inputBy": "山根鋭二",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "現代文学大系　44　武田麟太郎・島木健作・織田作之助集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1967（昭和42）年3月"
+    },
+    "author": "武田麟太郎",
+    "authors": [
+      {
+        "personId": "000189",
+        "name": "武田麟太郎",
+        "kana": "たけだりんたろう",
+        "roman": "Rintaro Takeda",
+        "role": "著者",
+        "birthDate": "1904-05-09",
+        "deathDate": "1946-03-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

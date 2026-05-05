@@ -70,5 +70,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002679",
+    "title": "文士の生活",
+    "titleKana": "ぶんしのせいかつ",
+    "sortKana": "ふんしのせいかつ",
+    "subtitle": "夏目漱石氏－収入－衣食住－娯楽－趣味－愛憎－日常生活－執筆の前後",
+    "subtitleKana": "なつめそうせきし－しゅうにゅう－いしょくじゅう－ごらく－しゅみ－あいぞう－にちじょうせいかつ－しっぴつのぜんご",
+    "firstAppearance": "「大阪朝日新聞」1914（大正3）年3月22日",
+    "ndc": "NDC 916",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-05-27",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000148/card2679.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000148/files/2679_ruby_6325.zip",
+    "textFileId": "2679_ruby_6325",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000148/files/2679_6493.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "米田進",
+    "baseBook1": {
+      "title": "筑摩全集類聚版　夏目漱石全集　10",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1972（昭和47）年1月10日",
+      "inputEdition": "1972（昭和47）年1月10日第1刷"
+    },
+    "author": "夏目漱石",
+    "authors": [
+      {
+        "personId": "000148",
+        "name": "夏目漱石",
+        "kana": "なつめそうせき",
+        "roman": "Soseki Natsume",
+        "role": "著者",
+        "birthDate": "1867-02-09",
+        "deathDate": "1916-12-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

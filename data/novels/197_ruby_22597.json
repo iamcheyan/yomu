@@ -216,5 +216,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000197",
+    "title": "青い顔",
+    "titleKana": "あおいかお",
+    "sortKana": "あおいかお",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-06-17",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000022/card197.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000022/files/197_ruby_22597.zip",
+    "textFileId": "197_ruby_22597",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000022/files/197_22598.html",
+    "inputBy": "小林徹",
+    "proofreadBy": "山本奈津恵",
+    "baseBook1": {
+      "title": "明治文學全集　72　水野葉舟・中村星湖・三島霜川・上司小劍集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1969（昭和44）年5月25日"
+    },
+    "author": "三島霜川",
+    "authors": [
+      {
+        "personId": "000022",
+        "name": "三島霜川",
+        "kana": "みしまそうせん",
+        "roman": "Sosen Mishima",
+        "role": "著者",
+        "birthDate": "1876-07-30",
+        "deathDate": "1934-03-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

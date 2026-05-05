@@ -48,5 +48,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054336",
+    "title": "都の話",
+    "titleKana": "みやこのはなし",
+    "sortKana": "みやこのはなし",
+    "firstAppearance": "「沖縄毎日新聞」1909（明治42）年5月4日",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-03-30",
+    "updatedAt": "2018-02-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001658/card54336.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001658/files/54336_ruby_64054.zip",
+    "textFileId": "54336_ruby_64054",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001658/files/54336_64146.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "沖縄文学全集　第1巻　詩Ⅰ",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "1991（平成3）年6月6日",
+      "inputEdition": "1991（平成3）年6月6日第1刷",
+      "proofreadEdition": "1991（平成3）年6月6日第1刷"
+    },
+    "author": "渡久山水鳴",
+    "authors": [
+      {
+        "personId": "001658",
+        "name": "渡久山水鳴",
+        "kana": "とくやますいめい",
+        "roman": "Suimei Tokuyama",
+        "role": "著者",
+        "birthDate": "1884",
+        "deathDate": "1911",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

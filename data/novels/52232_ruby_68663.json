@@ -906,5 +906,36 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052232",
+    "title": "生体構成物質の動的状態",
+    "titleKana": "せいたいこうせいぶっしつのどうてきじょうたい",
+    "sortKana": "せいたいこうせいふつしつのとうてきしようたい",
+    "originalTitle": "THE DYNAMIC STATE OF BODY CONSTITUENTS",
+    "ndc": "NDC 491",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2010-11-04",
+    "updatedAt": "2019-07-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001548/card52232.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001548/files/52232_ruby_68663.zip",
+    "textFileId": "52232_ruby_68663",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001548/files/52232_68664.html",
+    "proofreadBy": "The Creative CAT",
+    "author": "シェーンハイマールドルフ",
+    "authors": [
+      {
+        "personId": "001548",
+        "name": "シェーンハイマールドルフ",
+        "kana": "シェーンハイマールドルフ",
+        "roman": "Rudolf Schoenheimer",
+        "role": "著者",
+        "birthDate": "1898-05-10",
+        "deathDate": "1941-09-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

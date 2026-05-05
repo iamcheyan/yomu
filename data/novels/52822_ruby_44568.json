@@ -122,5 +122,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052822",
+    "title": "その村を憶ひて",
+    "titleKana": "そのむらをおもいて",
+    "sortKana": "そのむらをおもいて",
+    "firstAppearance": "「都新聞　第一六五四四号～第一六五四六号」都新聞社、1933（昭和8）年12月8日～10日",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-10-24",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000183/card52822.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000183/files/52822_ruby_44568.zip",
+    "textFileId": "52822_ruby_44568",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000183/files/52822_44714.html",
+    "inputBy": "宮元淳一",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "牧野信一全集第五巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2002（平成14）年7月20日",
+      "inputEdition": "2002（平成14）年7月20日初版第1刷"
+    },
+    "author": "牧野信一",
+    "authors": [
+      {
+        "personId": "000183",
+        "name": "牧野信一",
+        "kana": "まきのしんいち",
+        "roman": "Shin'ichi Makino",
+        "role": "著者",
+        "birthDate": "1896-11-12",
+        "deathDate": "1936-03-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

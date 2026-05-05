@@ -142,5 +142,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000772",
+    "title": "私の個人主義",
+    "titleKana": "わたしのこじんしゅぎ",
+    "sortKana": "わたしのこしんしゆき",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-11-19",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000148/card772.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000148/files/772_ruby_33099.zip",
+    "textFileId": "772_ruby_33099",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000148/files/772_33100.html",
+    "inputBy": "真先芳秋",
+    "proofreadBy": "かとうかおり",
+    "baseBook1": {
+      "title": "ちくま日本文学全集　夏目漱石",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1992（平成4）年1月20日",
+      "inputEdition": "1992（平成4）年1月20日 第1刷",
+      "proofreadEdition": "1998（平成10）年3月15日第2刷"
+    },
+    "author": "夏目漱石",
+    "authors": [
+      {
+        "personId": "000148",
+        "name": "夏目漱石",
+        "kana": "なつめそうせき",
+        "roman": "Soseki Natsume",
+        "role": "著者",
+        "birthDate": "1867-02-09",
+        "deathDate": "1916-12-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

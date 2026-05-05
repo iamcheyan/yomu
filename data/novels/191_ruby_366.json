@@ -126,5 +126,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000191",
+    "title": "続西方の人",
+    "titleKana": "ぞくさいほうのひと",
+    "sortKana": "そくさいほうのひと",
+    "firstAppearance": "「改造」1927（昭和2）年9月",
+    "ndc": "NDC 190 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-06-04",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000879/card191.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000879/files/191_ruby_366.zip",
+    "textFileId": "191_ruby_366",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000879/files/191_15139.html",
+    "inputBy": "j.utiyama",
+    "proofreadBy": "野口英司",
+    "baseBook1": {
+      "title": "現代日本文学大系　43　芥川龍之介集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1968（昭和43）年8月25日",
+      "inputEdition": "1968（昭和43）年8月25日初版第1刷"
+    },
+    "author": "芥川竜之介",
+    "authors": [
+      {
+        "personId": "000879",
+        "name": "芥川竜之介",
+        "kana": "あくたがわりゅうのすけ",
+        "roman": "Ryunosuke Akutagawa",
+        "role": "著者",
+        "birthDate": "1892-03-01",
+        "deathDate": "1927-07-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

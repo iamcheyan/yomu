@@ -40,5 +40,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049256",
+    "title": "大きな怪物",
+    "titleKana": "おおきなばけもの",
+    "sortKana": "おおきなはけもの",
+    "firstAppearance": "「新小説　明治四十四年十二月号」春陽堂、1911（明治44）年12月",
+    "ndc": "NDC 147",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-10-31",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001360/card49256.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001360/files/49256_ruby_32166.zip",
+    "textFileId": "49256_ruby_32166",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001360/files/49256_33056.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "文豪怪談傑作選・特別篇　百物語怪談会",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2007（平成19）年7月10日",
+      "inputEdition": "2007（平成19）年7月10日第1刷",
+      "proofreadEdition": "2007（平成19）年7月10日第1刷"
+    },
+    "author": "平井金三",
+    "authors": [
+      {
+        "personId": "001360",
+        "name": "平井金三",
+        "kana": "ひらいきんざ",
+        "roman": "Kinza Hirai",
+        "role": "著者",
+        "birthDate": "1859",
+        "deathDate": "1916",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

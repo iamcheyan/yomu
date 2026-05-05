@@ -236,5 +236,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004156",
+    "title": "雪の夜",
+    "titleKana": "ゆきのよる",
+    "sortKana": "ゆきのよる",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-02-15",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000156/card4156.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000156/files/4156_ruby_17540.zip",
+    "textFileId": "4156_ruby_17540",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000156/files/4156_17546.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "浅原庸子",
+    "baseBook1": {
+      "title": "日本文学全集43　小林多喜二　徳永直集",
+      "publisher": "集英社",
+      "firstPublishedAt": "1967（昭和42）年12月12日",
+      "inputEdition": "1967（昭和42）年12月12日初版"
+    },
+    "author": "小林多喜二",
+    "authors": [
+      {
+        "personId": "000156",
+        "name": "小林多喜二",
+        "kana": "こばやしたきじ",
+        "roman": "Takiji Kobayashi",
+        "role": "著者",
+        "birthDate": "1903-10-13",
+        "deathDate": "1933-02-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

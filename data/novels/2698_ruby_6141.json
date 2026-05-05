@@ -158,5 +158,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002698",
+    "title": "今度こそ",
+    "titleKana": "こんどこそ",
+    "sortKana": "こんとこそ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-01-29",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000491/card2698.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000491/files/2698_ruby_6141.zip",
+    "textFileId": "2698_ruby_6141",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000491/files/2698_20693.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "青野弘美",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・20　「戦旗」「ナップ」作家集7",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1985（昭和60）年3月25日",
+      "inputEdition": "1989（平成元）年3月25日第4刷"
+    },
+    "author": "片岡鉄兵",
+    "authors": [
+      {
+        "personId": "000491",
+        "name": "片岡鉄兵",
+        "kana": "かたおかてっぺい",
+        "roman": "Teppei Kataoka",
+        "role": "著者",
+        "birthDate": "1894-02-02",
+        "deathDate": "1944-12-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

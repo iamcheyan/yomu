@@ -102,5 +102,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002245",
+    "title": "手術",
+    "titleKana": "しゅじゅつ",
+    "sortKana": "しゆしゆつ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-10-19",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000262/card2245.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000262/files/2245_ruby_3991.zip",
+    "textFileId": "2245_ruby_3991",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000262/files/2245_7057.html",
+    "inputBy": "藤真新一",
+    "proofreadBy": "柳沢成雄",
+    "baseBook1": {
+      "title": "現代怪奇小説集　中島河太郎・紀田順一郎編",
+      "publisher": "立風書房",
+      "firstPublishedAt": "1988（昭和63）年7月10日"
+    },
+    "author": "小酒井不木",
+    "authors": [
+      {
+        "personId": "000262",
+        "name": "小酒井不木",
+        "kana": "こざかいふぼく",
+        "roman": "Fuboku Kosakai",
+        "role": "著者",
+        "birthDate": "1890-10-08",
+        "deathDate": "1929-04-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

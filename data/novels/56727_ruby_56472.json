@@ -194,5 +194,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056727",
+    "title": "白い月の世界",
+    "titleKana": "しろいつきのせかい",
+    "sortKana": "しろいつきのせかい",
+    "firstAppearance": "「文藝春秋」1957（昭和32）年11月",
+    "ndc": "NDC 452",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-06-29",
+    "updatedAt": "2015-03-08",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card56727.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/56727_ruby_56472.zip",
+    "textFileId": "56727_ruby_56472",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/56727_56516.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "中谷宇吉郎紀行集　アラスカの氷河",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2002（平成14）年12月13日",
+      "inputEdition": "2011（平成23）年12月16日第3刷",
+      "proofreadEdition": "2002（平成14）年12月13日第1刷"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -122,5 +122,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056466",
+    "title": "可哀想な彼女",
+    "titleKana": "かわいそうなかのじょ",
+    "sortKana": "かわいそうなかのしよ",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-01-27",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001692/card56466.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001692/files/56466_ruby_52019.zip",
+    "textFileId": "56466_ruby_52019",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001692/files/56466_52044.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆99　哀",
+      "publisher": "作品社",
+      "firstPublishedAt": "1991（平成3）年1月25日",
+      "inputEdition": "1996（平成8）年4月25日第6刷",
+      "proofreadEdition": "1996（平成8）年4月25日第6刷"
+    },
+    "author": "久保田万太郎",
+    "authors": [
+      {
+        "personId": "001692",
+        "name": "久保田万太郎",
+        "kana": "くぼたまんたろう",
+        "roman": "Mantaro Kubota",
+        "role": "著者",
+        "birthDate": "1889-11-07",
+        "deathDate": "1963-05-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

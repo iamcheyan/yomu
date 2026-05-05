@@ -90,5 +90,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047944",
+    "title": "歩くこと",
+    "titleKana": "あるくこと",
+    "sortKana": "あるくこと",
+    "firstAppearance": "「日本および日本人」光文社、1954（昭和29）年4月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-01-01",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001311/card47944.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001311/files/47944_ruby_33966.zip",
+    "textFileId": "47944_ruby_33966",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001311/files/47944_33994.html",
+    "inputBy": "伊藤時也",
+    "proofreadBy": "伊藤時也、及川　雅",
+    "baseBook1": {
+      "title": "三好十郎の仕事　第三巻",
+      "publisher": "學藝書林",
+      "firstPublishedAt": "1968（昭和43）年9月30日",
+      "inputEdition": "1968（昭和43）年9月30日第1刷",
+      "proofreadEdition": "1968（昭和43）年9月30日第1刷"
+    },
+    "author": "三好十郎",
+    "authors": [
+      {
+        "personId": "001311",
+        "name": "三好十郎",
+        "kana": "みよしじゅうろう",
+        "roman": "Juro Miyoshi",
+        "role": "著者",
+        "birthDate": "1902-04-21",
+        "deathDate": "1958-12-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

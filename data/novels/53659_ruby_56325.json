@@ -58,5 +58,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053659",
+    "title": "誤って健康を伝えられた同志たちに",
+    "titleKana": "あやまってけんこうをつたえられたどうしたちに",
+    "sortKana": "あやまつてけんこうをつたえられたとうしたちに",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-05-19",
+    "updatedAt": "2015-03-08",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001585/card53659.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001585/files/53659_ruby_56325.zip",
+    "textFileId": "53659_ruby_56325",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001585/files/53659_56373.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "槇村浩詩集",
+      "publisher": "平和資料館・草の家、飛鳥出版室",
+      "firstPublishedAt": "2003（平成15）年3月15日",
+      "inputEdition": "2003（平成15）年3月15日",
+      "proofreadEdition": "2003（平成15）年3月15日"
+    },
+    "author": "槙村浩",
+    "authors": [
+      {
+        "personId": "001585",
+        "name": "槙村浩",
+        "kana": "まきむらこう",
+        "roman": "Ko Makimura",
+        "role": "著者",
+        "birthDate": "1912-06-01",
+        "deathDate": "1938-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

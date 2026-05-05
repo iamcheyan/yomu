@@ -42,5 +42,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059210",
+    "title": "アメリカ種の落語",
+    "titleKana": "アメリカだねのらくご",
+    "sortKana": "あめりかたねのらくこ",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-08-30",
+    "updatedAt": "2020-07-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card59210.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/59210_ruby_71431.zip",
+    "textFileId": "59210_ruby_71431",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/59210_71480.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "中谷宇吉郎随筆選集第二巻",
+      "publisher": "朝日新聞社",
+      "firstPublishedAt": "1966（昭和41）年8月20日",
+      "inputEdition": "1966（昭和41）年9月30日第2刷",
+      "proofreadEdition": "1966（昭和41）年8月20日"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

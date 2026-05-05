@@ -112,5 +112,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000886",
+    "title": "渓をおもふ",
+    "titleKana": "たにをおもう",
+    "sortKana": "たにをおもう",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-07-26",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000162/card886.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000162/files/886_ruby_4399.zip",
+    "textFileId": "886_ruby_4399",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000162/files/886_17699.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "もりみつじゅんじ",
+    "baseBook1": {
+      "title": "日本の名随筆33　水",
+      "publisher": "作品社",
+      "firstPublishedAt": "1985（昭和60）年7月25日"
+    },
+    "author": "若山牧水",
+    "authors": [
+      {
+        "personId": "000162",
+        "name": "若山牧水",
+        "kana": "わかやまぼくすい",
+        "roman": "Bokusui Wakayama",
+        "role": "著者",
+        "birthDate": "1885-08-24",
+        "deathDate": "1928-09-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

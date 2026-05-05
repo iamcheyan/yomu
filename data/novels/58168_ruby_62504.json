@@ -82,5 +82,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058168",
+    "title": "石の信仰とさえの神と",
+    "titleKana": "いしのかみとさえのかみと",
+    "sortKana": "いしのかみとさえのかみと",
+    "ndc": "NDC 387",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-09-03",
+    "updatedAt": "2017-08-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card58168.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/58168_ruby_62504.zip",
+    "textFileId": "58168_ruby_62504",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/58168_62546.html",
+    "inputBy": "岡村和彦",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆88　石",
+      "publisher": "作品社",
+      "firstPublishedAt": "1990（平成2）年2月25日",
+      "inputEdition": "1990（平成2）年2月25日第1刷",
+      "proofreadEdition": "1990（平成2）年2月25日第1刷"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

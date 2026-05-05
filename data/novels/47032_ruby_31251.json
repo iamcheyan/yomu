@@ -64,5 +64,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047032",
+    "title": "隅田の春",
+    "titleKana": "すみだのはる",
+    "sortKana": "すみたのはる",
+    "firstAppearance": "「東京朝日新聞」1893（明治26）年3～4月",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-08-02",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000374/card47032.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000374/files/47032_ruby_31251.zip",
+    "textFileId": "47032_ruby_31251",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000374/files/47032_31783.html",
+    "inputBy": "斎藤由布子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "明治の文学　第13巻　饗庭篁村",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2003（平成15）年4月25日",
+      "inputEdition": "2003（平成15）年4月25日初版第1刷",
+      "proofreadEdition": "2003（平成15）年4月25日初版第1刷"
+    },
+    "author": "饗庭篁村",
+    "authors": [
+      {
+        "personId": "000374",
+        "name": "饗庭篁村",
+        "kana": "あえばこうそん",
+        "roman": "Koson Aeba",
+        "role": "著者",
+        "birthDate": "1855-09-25",
+        "deathDate": "1922-06-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

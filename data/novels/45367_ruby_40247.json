@@ -526,5 +526,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045367",
+    "title": "武者窓日記",
+    "titleKana": "むしゃまどにっき",
+    "sortKana": "むしやまとにつき",
+    "firstAppearance": "「経済往来　第八巻第十一号」日本評論社、1933（昭和8）年10月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-11-27",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000183/card45367.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000183/files/45367_ruby_40247.zip",
+    "textFileId": "45367_ruby_40247",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000183/files/45367_41256.html",
+    "inputBy": "宮元淳一",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "牧野信一全集第五巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2002（平成14）年7月20日",
+      "inputEdition": "2002（平成14）年7月20日初版第1刷",
+      "proofreadEdition": "2002（平成14）年7月20日初版第1刷"
+    },
+    "author": "牧野信一",
+    "authors": [
+      {
+        "personId": "000183",
+        "name": "牧野信一",
+        "kana": "まきのしんいち",
+        "roman": "Shin'ichi Makino",
+        "role": "著者",
+        "birthDate": "1896-11-12",
+        "deathDate": "1936-03-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

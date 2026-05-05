@@ -48,5 +48,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001149",
+    "title": "農場開放顛末",
+    "titleKana": "のうじょうかいほうてんまつ",
+    "sortKana": "のうしようかいほうてんまつ",
+    "ndc": "NDC 916",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-03-09",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000025/card1149.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000025/files/1149_ruby_17868.zip",
+    "textFileId": "1149_ruby_17868",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000025/files/1149_17875.html",
+    "inputBy": "加藤恭子",
+    "proofreadBy": "篠原陽子",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻96　大正",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年2月25日",
+      "inputEdition": "1999（平成11）年2月25日第1刷"
+    },
+    "author": "有島武郎",
+    "authors": [
+      {
+        "personId": "000025",
+        "name": "有島武郎",
+        "kana": "ありしまたけお",
+        "roman": "Takeo Arishima",
+        "role": "著者",
+        "birthDate": "1878-03-04",
+        "deathDate": "1923-06-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -204,5 +204,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003414",
+    "title": "田舎",
+    "titleKana": "いなか",
+    "sortKana": "いなか",
+    "ndc": "NDC 953",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-01-27",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000882/card3414.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000882/files/3414_ruby_28548.zip",
+    "textFileId": "3414_ruby_28548",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000882/files/3414_29075.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "諸国物語（上）",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1991（平成3）年12月4日",
+      "inputEdition": "1991（平成3）年12月4日第1刷",
+      "proofreadEdition": "1991（平成3）年12月4日第1刷"
+    },
+    "author": "プレヴォーマルセル",
+    "authors": [
+      {
+        "personId": "000882",
+        "name": "プレヴォーマルセル",
+        "kana": "プレヴォーマルセル",
+        "roman": "Marcel Prevost",
+        "role": "著者",
+        "birthDate": "1862-05-01",
+        "deathDate": "1941",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

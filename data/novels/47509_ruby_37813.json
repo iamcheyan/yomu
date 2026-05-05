@@ -786,5 +786,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047509",
+    "title": "乳を刺す",
+    "titleKana": "ちちをさす",
+    "sortKana": "ちちをさす",
+    "subtitle": "黒門町伝七捕物帳",
+    "subtitleKana": "くろもんちょうでんしちとりものちょう",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-03-25",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001261/card47509.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001261/files/47509_ruby_37813.zip",
+    "textFileId": "47509_ruby_37813",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001261/files/47509_38269.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "競作　黒門町伝七捕物帳",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "1992（平成4）年2月20日",
+      "inputEdition": "1992（平成4）年2月20日初版1刷",
+      "proofreadEdition": "1992（平成4）年2月20日初版1刷"
+    },
+    "author": "邦枝完二",
+    "authors": [
+      {
+        "personId": "001261",
+        "name": "邦枝完二",
+        "kana": "くにえだかんじ",
+        "roman": "Kanji Kunieda",
+        "role": "著者",
+        "birthDate": "1892-12-28",
+        "deathDate": "1956-08-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -382,5 +382,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003238",
+    "title": "暗号音盤事件",
+    "titleKana": "あんごうレコードじけん",
+    "sortKana": "あんこうれこおとしけん",
+    "firstAppearance": "「講談雑誌」1942（昭和17）年1月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-04-03",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card3238.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/3238_ruby_9508.zip",
+    "textFileId": "3238_ruby_9508",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/3238_9534.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "浅原庸子",
+    "baseBook1": {
+      "title": "海野十三全集　第7巻　地球要塞",
+      "publisher": "株式会社三一書房",
+      "firstPublishedAt": "1990（平2）年4月30日",
+      "inputEdition": "1990（平成2）年4月30日初版",
+      "proofreadEdition": "1990（平成2）年4月30日初版"
+    },
+    "author": "海野十三",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

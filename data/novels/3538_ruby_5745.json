@@ -34,5 +34,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003538",
+    "title": "菊　食物としての",
+    "titleKana": "きく　しょくもつとしての",
+    "sortKana": "きくしよくもつとしての",
+    "ndc": "NDC 596 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-12-26",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000051/card3538.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000051/files/3538_ruby_5745.zip",
+    "textFileId": "3538_ruby_5745",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000051/files/3538_47839.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "LM3",
+    "baseBook1": {
+      "title": "花の名随筆10　十月の花",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年9月10日",
+      "inputEdition": "1999（平成11）年9月10日初版第1刷"
+    },
+    "author": "幸田露伴",
+    "authors": [
+      {
+        "personId": "000051",
+        "name": "幸田露伴",
+        "kana": "こうだろはん",
+        "roman": "Rohan Koda",
+        "role": "著者",
+        "birthDate": "1867-08-20",
+        "deathDate": "1947-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

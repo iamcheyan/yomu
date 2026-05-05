@@ -138,5 +138,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001786",
+    "title": "他人の夏",
+    "titleKana": "たにんのなつ",
+    "sortKana": "たにんのなつ",
+    "firstAppearance": "「中学時代　夏休み臨時増刊号第一五巻第六号」1963（昭和38）年8月5日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-02-25",
+    "updatedAt": "2022-02-02",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001801/card1786.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001801/files/1786_ruby_74917.zip",
+    "textFileId": "1786_ruby_74917",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001801/files/1786_74952.html",
+    "inputBy": "toko",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "短篇礼讃　忘れかけた名品",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2006（平成18）年7月10日",
+      "inputEdition": "2006（平成18）年7月10日第1刷",
+      "proofreadEdition": "2006（平成18）年7月10日第1刷"
+    },
+    "author": "山川方夫",
+    "authors": [
+      {
+        "personId": "001801",
+        "name": "山川方夫",
+        "kana": "やまかわまさお",
+        "roman": "Masao Yamakawa",
+        "role": "著者",
+        "birthDate": "1930-02-25",
+        "deathDate": "1965-02-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

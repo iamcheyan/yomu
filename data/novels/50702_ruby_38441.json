@@ -124,5 +124,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050702",
+    "title": "孔子と管仲",
+    "titleKana": "こうしとかんちゅう",
+    "sortKana": "こうしとかんちゆう",
+    "firstAppearance": "「支那學　第三卷第二號」1922（大正11）年11月",
+    "ndc": "NDC 123",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-07-09",
+    "updatedAt": "2022-03-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001127/card50702.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001127/files/50702_ruby_38441.zip",
+    "textFileId": "50702_ruby_38441",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001127/files/50702_39433.html",
+    "inputBy": "はまなかひとし",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "支那學文藪",
+      "publisher": "みすず書房",
+      "firstPublishedAt": "1973（昭和48）年4月2日",
+      "inputEdition": "1973（昭和48）年4月2日",
+      "proofreadEdition": "1973（昭和48）年4月2日"
+    },
+    "author": "狩野直喜",
+    "authors": [
+      {
+        "personId": "001127",
+        "name": "狩野直喜",
+        "kana": "かのなおき",
+        "roman": "Naoki Kano",
+        "role": "著者",
+        "birthDate": "1868-02-11",
+        "deathDate": "1947-12-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

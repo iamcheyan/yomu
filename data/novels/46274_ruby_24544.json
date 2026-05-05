@@ -56,5 +56,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046274",
+    "title": "機構への挑戦",
+    "titleKana": "きこうへのちょうせん",
+    "sortKana": "きこうへのちようせん",
+    "subtitle": "――「場所」から「働き」へ――",
+    "subtitleKana": "――「ばしょ」から「はたらき」へ――",
+    "firstAppearance": "「東大新聞」1949（昭和24）年6月",
+    "ndc": "NDC 016",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-12-13",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001166/card46274.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001166/files/46274_ruby_24544.zip",
+    "textFileId": "46274_ruby_24544",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001166/files/46274_24702.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "論理とその実践――組織論から図書館像へ――",
+      "publisher": "てんびん社",
+      "firstPublishedAt": "1972（昭和47）年11月20日",
+      "inputEdition": "1976（昭和51）年3月20日第2刷",
+      "proofreadEdition": "1972（昭和47）年11月20日第1刷"
+    },
+    "author": "中井正一",
+    "authors": [
+      {
+        "personId": "001166",
+        "name": "中井正一",
+        "kana": "なかいまさかず",
+        "roman": "Masakazu Nakai",
+        "role": "著者",
+        "birthDate": "1900-02-14",
+        "deathDate": "1952-05-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

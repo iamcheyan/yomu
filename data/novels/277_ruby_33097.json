@@ -36,5 +36,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000277",
+    "title": "駈込み訴え",
+    "titleKana": "かけこみうったえ",
+    "sortKana": "かけこみうつたえ",
+    "firstAppearance": "「中央公論」1940（昭和15）年2月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-02-24",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card277.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/277_ruby_33097.zip",
+    "textFileId": "277_ruby_33097",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/277_33098.html",
+    "inputBy": "文咲苺子",
+    "proofreadBy": "高橋真也",
+    "baseBook1": {
+      "title": "走れメロス",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1967（昭和42）年7月10日、1985（昭和60）年9月15日40刷改版",
+      "inputEdition": "1988（昭和63）年10月10日48刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

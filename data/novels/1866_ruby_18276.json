@@ -144,5 +144,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001866",
+    "title": "画室の言葉",
+    "titleKana": "がしつのことば",
+    "sortKana": "かしつのことは",
+    "ndc": "NDC 723",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-05-17",
+    "updatedAt": "2017-01-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000298/card1866.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000298/files/1866_ruby_18276.zip",
+    "textFileId": "1866_ruby_18276",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000298/files/1866_18415.html",
+    "inputBy": "加藤恭子",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆23　画",
+      "publisher": "作品社",
+      "firstPublishedAt": "1984（昭和59）年9月25日",
+      "inputEdition": "1991（平成3）年10月20日第12刷"
+    },
+    "author": "藤島武二",
+    "authors": [
+      {
+        "personId": "000298",
+        "name": "藤島武二",
+        "kana": "ふじしまたけじ",
+        "roman": "Takeji Fujishima",
+        "role": "著者",
+        "birthDate": "1867-10-15",
+        "deathDate": "1943-03-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

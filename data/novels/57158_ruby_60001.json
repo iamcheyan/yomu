@@ -276,5 +276,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057158",
+    "title": "雲仙岳",
+    "titleKana": "うんぜんだけ",
+    "sortKana": "うんせんたけ",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-10-27",
+    "updatedAt": "2016-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000514/card57158.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000514/files/57158_ruby_60001.zip",
+    "textFileId": "57158_ruby_60001",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000514/files/57158_60046.html",
+    "inputBy": "岡村和彦",
+    "proofreadBy": "sogo",
+    "baseBook1": {
+      "title": "日本八景　八大家執筆",
+      "publisher": "平凡社ライブラリー、平凡社",
+      "firstPublishedAt": "2005（平成17）年3月10日",
+      "inputEdition": "2005（平成17）年3月10日初版第1刷",
+      "proofreadEdition": "2005（平成17）年3月10日初版第1刷"
+    },
+    "author": "菊池幽芳",
+    "authors": [
+      {
+        "personId": "000514",
+        "name": "菊池幽芳",
+        "kana": "きくちゆうほう",
+        "roman": "Yuho Kikuchi",
+        "role": "著者",
+        "birthDate": "1870-10-27",
+        "deathDate": "1947-07-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

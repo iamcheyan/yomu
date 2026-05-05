@@ -84,5 +84,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043107",
+    "title": "「雨の降る日は天気が悪い」序",
+    "titleKana": "「あめのふるひはてんきがわるい」じょ",
+    "sortKana": "あめのふるひはてんきかわるいしよ",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-08-04",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001081/card43107.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001081/files/43107_ruby_23253.zip",
+    "textFileId": "43107_ruby_23253",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001081/files/43107_23644.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "雨の降る日は天気が悪い",
+      "publisher": "大雄閣",
+      "firstPublishedAt": "1934（昭和9）年9月23日",
+      "inputEdition": "1934（昭和9）年9月23日",
+      "proofreadEdition": "1934（昭和9）年9月23日"
+    },
+    "author": "土井晩翠",
+    "authors": [
+      {
+        "personId": "001081",
+        "name": "土井晩翠",
+        "kana": "どいばんすい",
+        "roman": "Bansui Doi",
+        "role": "著者",
+        "birthDate": "1871-12-05",
+        "deathDate": "1952-10-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

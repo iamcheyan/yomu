@@ -88,5 +88,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052642",
+    "title": "千羽鶴",
+    "titleKana": "せんばづる",
+    "sortKana": "せんはつる",
+    "firstAppearance": "「教育の世紀　4巻7号」教育の世紀社、1916（大正15）年7月",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-04-21",
+    "updatedAt": "2022-03-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001475/card52642.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001475/files/52642_ruby_75279.zip",
+    "textFileId": "52642_ruby_75279",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001475/files/52642_75311.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "へくしん",
+    "baseBook1": {
+      "title": "定本小川未明童話全集　6",
+      "publisher": "講談社",
+      "firstPublishedAt": "1977（昭和52）年4月10日",
+      "inputEdition": "1977（昭和52）年4月10日第1刷",
+      "proofreadEdition": "1977（昭和52）年4月10日第1刷"
+    },
+    "author": "小川未明",
+    "authors": [
+      {
+        "personId": "001475",
+        "name": "小川未明",
+        "kana": "おがわみめい",
+        "roman": "Mimei Ogawa",
+        "role": "著者",
+        "birthDate": "1882-04-07",
+        "deathDate": "1961-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

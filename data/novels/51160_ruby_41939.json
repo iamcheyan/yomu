@@ -4452,5 +4452,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051160",
+    "title": "空中征服",
+    "titleKana": "くうちゅうせいふく",
+    "sortKana": "くうちゆうせいふく",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-01-01",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001468/card51160.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001468/files/51160_ruby_41939.zip",
+    "textFileId": "51160_ruby_41939",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001468/files/51160_41938.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "空中征服　賀川豊彦、大阪市長になる",
+      "publisher": "不二出版",
+      "firstPublishedAt": "2009（平成21）年5月1日",
+      "inputEdition": "2009（平成21）年5月1日第1刷",
+      "proofreadEdition": "2009（平成21）年5月1日第1刷"
+    },
+    "author": "賀川豊彦",
+    "authors": [
+      {
+        "personId": "001468",
+        "name": "賀川豊彦",
+        "kana": "かがわとよひこ",
+        "roman": "Toyohiko Kagawa",
+        "role": "著者",
+        "birthDate": "1888-07-10",
+        "deathDate": "1960-04-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

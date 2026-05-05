@@ -190,5 +190,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000807",
+    "title": "Ｓ中尉の話",
+    "titleKana": "エスちゅういのはなし",
+    "sortKana": "えすちゆういのはなし",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-11-29",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000048/card807.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000048/files/807_ruby_21364.zip",
+    "textFileId": "807_ruby_21364",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000048/files/807_21365.html",
+    "inputBy": "小林徹",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "新進作家叢書22　修道院の秋",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1918（大正7）年9月6日",
+      "inputEdition": "1922（大正11）年8月15日第13版",
+      "proofreadEdition": "1922（大正11）年8月15日第13版"
+    },
+    "author": "南部修太郎",
+    "authors": [
+      {
+        "personId": "000048",
+        "name": "南部修太郎",
+        "kana": "なんぶしゅうたろう",
+        "roman": "Shutaro Nanbu",
+        "role": "著者",
+        "birthDate": "1892-10-12",
+        "deathDate": "1936-06-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

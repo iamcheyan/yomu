@@ -100,5 +100,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055167",
+    "title": "奇怪な客",
+    "titleKana": "きかいなきゃく",
+    "sortKana": "きかいなきやく",
+    "firstAppearance": "「サンデー毎日　第七年第二十七号」毎日新聞社、1928（昭和3）年6月15日",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-08-17",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001581/card55167.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001581/files/55167_ruby_50741.zip",
+    "textFileId": "55167_ruby_50741",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001581/files/55167_51023.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "山村信一郎",
+    "baseBook1": {
+      "title": "正宗白鳥全集第十二卷",
+      "publisher": "福武書店",
+      "firstPublishedAt": "1985（昭和60）年7月30日",
+      "inputEdition": "1985（昭和60）年7月30日",
+      "proofreadEdition": "1985（昭和60）年7月30日"
+    },
+    "author": "正宗白鳥",
+    "authors": [
+      {
+        "personId": "001581",
+        "name": "正宗白鳥",
+        "kana": "まさむねはくちょう",
+        "roman": "Hakucho Masamune",
+        "role": "著者",
+        "birthDate": "1879-03-03",
+        "deathDate": "1962-10-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

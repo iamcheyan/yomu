@@ -8926,5 +8926,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001799",
+    "title": "殺人鬼",
+    "titleKana": "さつじんき",
+    "sortKana": "さつしんき",
+    "firstAppearance": "「名古屋新聞」1931（昭和6年）4月～12月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-10-09",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000289/card1799.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000289/files/1799_ruby_17480.zip",
+    "textFileId": "1799_ruby_17480",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000289/files/1799_19399.html",
+    "inputBy": "今泉るり",
+    "proofreadBy": "はやしだかずこ",
+    "baseBook1": {
+      "title": "殺人鬼",
+      "publisher": "HAYAKAWA POCKET MYSTERY BOOKS No. 195、早川書房",
+      "firstPublishedAt": "1955（昭和30）年4月30日",
+      "inputEdition": "1995（平成 7）年9月30日3刷",
+      "proofreadEdition": "1995（平成 7）年9月30日3刷"
+    },
+    "author": "浜尾四郎",
+    "authors": [
+      {
+        "personId": "000289",
+        "name": "浜尾四郎",
+        "kana": "はまおしろう",
+        "roman": "Shiro Hamao",
+        "role": "著者",
+        "birthDate": "1896-04-24",
+        "deathDate": "1935-10-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -52,5 +52,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052214",
+    "title": "百万人のそして唯一人の文学",
+    "titleKana": "ひゃくまんにんのそしてただひとりのぶんがく",
+    "sortKana": "ひやくまんにんのそしてたたひとりのふんかく",
+    "ndc": "NDC 910",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-01-01",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001542/card52214.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001542/files/52214_ruby_46177.zip",
+    "textFileId": "52214_ruby_46177",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001542/files/52214_46221.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "富田倫生",
+    "baseBook1": {
+      "title": "現代日本文學大系　54　片上伸　平林初之輔　青野季吉　宮本顯治　藏原惟人集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1973（昭和48）年1月20日",
+      "inputEdition": "1987（昭和62）年11月30日初版第12刷発行"
+    },
+    "author": "青野季吉",
+    "authors": [
+      {
+        "personId": "001542",
+        "name": "青野季吉",
+        "kana": "あおのすえきち",
+        "roman": "Suekichi Aono",
+        "role": "著者",
+        "birthDate": "1890-02-24",
+        "deathDate": "1961-06-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

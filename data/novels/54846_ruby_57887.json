@@ -346,5 +346,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054846",
+    "title": "森林と樹木と動物",
+    "titleKana": "しんりんとじゅもくとどうぶつ",
+    "sortKana": "しんりんとしゆもくととうふつ",
+    "ndc": "NDC K650",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-01-29",
+    "updatedAt": "2015-12-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001555/card54846.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001555/files/54846_ruby_57887.zip",
+    "textFileId": "54846_ruby_57887",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001555/files/54846_57936.html",
+    "inputBy": "しだひろし",
+    "proofreadBy": "POKEPEEK2011",
+    "baseBook1": {
+      "title": "山の科学",
+      "publisher": "復刻版　日本児童文庫、名著普及会",
+      "firstPublishedAt": "1982（昭和57）年6月20日",
+      "inputEdition": "1982（昭和57）年6月20日",
+      "proofreadEdition": "1982（昭和57）年6月20日"
+    },
+    "author": "本多静六",
+    "authors": [
+      {
+        "personId": "001555",
+        "name": "本多静六",
+        "kana": "ほんだせいろく",
+        "roman": "Seiroku Honda",
+        "role": "著者",
+        "birthDate": "1866-08-11",
+        "deathDate": "1952-01-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

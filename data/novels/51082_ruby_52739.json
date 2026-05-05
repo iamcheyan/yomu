@@ -204,5 +204,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051082",
+    "title": "塩を載せた船",
+    "titleKana": "しおをのせたふね",
+    "sortKana": "しおをのせたふね",
+    "firstAppearance": "「童話」1923（大正12）年5月",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-02-21",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001475/card51082.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001475/files/51082_ruby_52739.zip",
+    "textFileId": "51082_ruby_52739",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001475/files/51082_52782.html",
+    "inputBy": "ぷろぼの青空工作員チーム入力班",
+    "proofreadBy": "江村秀之",
+    "baseBook1": {
+      "title": "定本小川未明童話全集　3",
+      "publisher": "講談社",
+      "firstPublishedAt": "1977（昭和52）年1月10日",
+      "inputEdition": "1981（昭和56）年1月6日第7刷",
+      "proofreadEdition": "1977（昭和52）年1月10日第1刷"
+    },
+    "author": "小川未明",
+    "authors": [
+      {
+        "personId": "001475",
+        "name": "小川未明",
+        "kana": "おがわみめい",
+        "roman": "Mimei Ogawa",
+        "role": "著者",
+        "birthDate": "1882-04-07",
+        "deathDate": "1961-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -242,5 +242,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046181",
+    "title": "文学に現れたる東北地方の地方色",
+    "titleKana": "ぶんがくにあらわれたるとうほくちほうのちほうしょく",
+    "sortKana": "ふんかくにあらわれたるとうほくちほうのちほうしよく",
+    "subtitle": "（仙台放送局放送原稿）",
+    "subtitleKana": "（せんだいほうそうきょくほうそうげんこう）",
+    "firstAppearance": "「文学に現れたる東北地方の地方色」仙台放送局、1932（昭和7）年8月28午後6時30分～午後7時",
+    "ndc": "NDC 910",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-04-24",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000134/card46181.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000134/files/46181_ruby_34483.zip",
+    "textFileId": "46181_ruby_34483",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000134/files/46181_34800.html",
+    "inputBy": "田中敬三",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "佐左木俊郎選集",
+      "publisher": "英宝社",
+      "firstPublishedAt": "1984（昭和59）年4月14日",
+      "inputEdition": "1984（昭和59）年4月14日初版",
+      "proofreadEdition": "1984（昭和59）年4月14日初版"
+    },
+    "author": "佐左木俊郎",
+    "authors": [
+      {
+        "personId": "000134",
+        "name": "佐左木俊郎",
+        "kana": "ささきとしろう",
+        "roman": "Toshiro Sasaki",
+        "role": "著者",
+        "birthDate": "1900-04-14",
+        "deathDate": "1933-03-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

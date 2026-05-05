@@ -70,5 +70,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047052",
+    "title": "天衣無縫",
+    "titleKana": "てんいむほう",
+    "sortKana": "てんいむほう",
+    "firstAppearance": "「文芸」1942（昭和17）年4月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-08-30",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000040/card47052.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000040/files/47052_ruby_32362.zip",
+    "textFileId": "47052_ruby_32362",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000040/files/47052_32363.html",
+    "inputBy": "桃沢まり",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "定本織田作之助全集　第二巻",
+      "publisher": "文泉堂出版",
+      "firstPublishedAt": "1976（昭和51）年4月25日",
+      "inputEdition": "1995（平成7）年3月20日第3版",
+      "proofreadEdition": "1995（平成7）年3月20日第3版"
+    },
+    "author": "織田作之助",
+    "authors": [
+      {
+        "personId": "000040",
+        "name": "織田作之助",
+        "kana": "おださくのすけ",
+        "roman": "Sakunosuke Oda",
+        "role": "著者",
+        "birthDate": "1913-10-26",
+        "deathDate": "1947-01-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

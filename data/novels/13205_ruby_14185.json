@@ -156,5 +156,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "013205",
+    "title": "村々の祭り",
+    "titleKana": "むらむらのまつり",
+    "sortKana": "むらむらのまつり",
+    "ndc": "NDC 386",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-02-03",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card13205.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/13205_ruby_14185.zip",
+    "textFileId": "13205_ruby_14185",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/13205_14240.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "日本の名随筆44　祭",
+      "publisher": "作品社",
+      "firstPublishedAt": "1986（昭和61）年6月25日",
+      "inputEdition": "1999（平成11）年2月25日第11刷"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

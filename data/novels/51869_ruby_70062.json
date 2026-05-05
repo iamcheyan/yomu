@@ -3674,5 +3674,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051869",
+    "title": "泡鳴五部作",
+    "titleKana": "ほうめいごぶさく",
+    "sortKana": "ほうめいこふさく",
+    "subtitle": "05 憑き物",
+    "subtitleKana": "05 つきもの",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-12-31",
+    "updatedAt": "2020-04-07",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000137/card51869.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000137/files/51869_ruby_70062.zip",
+    "textFileId": "51869_ruby_70062",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000137/files/51869_70063.html",
+    "inputBy": "富田晶子",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "泡鳴五部作　下巻",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1955（昭和30）年7月25日",
+      "inputEdition": "1994（平成6）年1月15日3刷",
+      "proofreadEdition": "1994（平成6）年1月15日3刷"
+    },
+    "author": "岩野泡鳴",
+    "authors": [
+      {
+        "personId": "000137",
+        "name": "岩野泡鳴",
+        "kana": "いわのほうめい",
+        "roman": "Homei Iwano",
+        "role": "著者",
+        "birthDate": "1873-01-20",
+        "deathDate": "1920-05-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

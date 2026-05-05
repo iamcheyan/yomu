@@ -38,5 +38,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056566",
+    "title": "仙台の夏",
+    "titleKana": "せんだいのなつ",
+    "sortKana": "せんたいのなつ",
+    "ndc": "NDC 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-06-27",
+    "updatedAt": "2022-05-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001787/card56566.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001787/files/56566_ruby_75641.zip",
+    "textFileId": "56566_ruby_75641",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001787/files/56566_75671.html",
+    "inputBy": "浦山敦子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本随筆紀行第四巻　岩手｜宮城｜福島　川面燦めき岸辺萌ゆ",
+      "publisher": "作品社",
+      "firstPublishedAt": "1987（昭和62）年12月10日第1刷",
+      "inputEdition": "1987（昭和62）年12月10日第1刷",
+      "proofreadEdition": "1987（昭和62）年12月10日第1刷"
+    },
+    "author": "石川善助",
+    "authors": [
+      {
+        "personId": "001787",
+        "name": "石川善助",
+        "kana": "いしかわぜんすけ",
+        "roman": "Zensuke Ishikawa",
+        "role": "著者",
+        "birthDate": "1901-05-16",
+        "deathDate": "1932-06-27",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -126,5 +126,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048384",
+    "title": "雨ばけ",
+    "titleKana": "あめばけ",
+    "sortKana": "あめはけ",
+    "firstAppearance": "「随筆」1923（大正12）年11月",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-05-23",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card48384.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/48384_ruby_34592.zip",
+    "textFileId": "48384_ruby_34592",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/48384_35153.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "日本幻想文学集成1　泉鏡花",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "1991（平成3）年3月25日",
+      "inputEdition": "1995（平成7）年10月9日初版第5刷",
+      "proofreadEdition": "1991（平成3）年3月25日初版第1刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

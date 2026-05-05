@@ -60,5 +60,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042969",
+    "title": "安吾下田外史",
+    "titleKana": "あんごしもだがいし",
+    "sortKana": "あんこしもたかいし",
+    "firstAppearance": "「歌劇・黒船」1954（昭和29）年5月27日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-08-31",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card42969.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/42969_ruby_23505.zip",
+    "textFileId": "42969_ruby_23505",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/42969_23709.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "土井亨",
+    "baseBook1": {
+      "title": "坂口安吾全集　14",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年6月20日",
+      "inputEdition": "1999（平成11）年6月20日初版第1刷",
+      "proofreadEdition": "1999（平成11）年6月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

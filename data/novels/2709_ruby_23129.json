@@ -194,5 +194,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002709",
+    "title": "蒲生氏郷",
+    "titleKana": "がもううじさと",
+    "sortKana": "かもううしさと",
+    "ndc": "NDC 289",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-07-17",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000051/card2709.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000051/files/2709_ruby_23129.zip",
+    "textFileId": "2709_ruby_23129",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000051/files/2709_23559.html",
+    "inputBy": "kompass",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "昭和文学全集　第4巻",
+      "publisher": "小学館",
+      "firstPublishedAt": "1989（平成元）年4月1日",
+      "inputEdition": "1989（平成元）年4月1日初版第1刷",
+      "proofreadEdition": "1989（平成元）年4月1日初版第1刷"
+    },
+    "author": "幸田露伴",
+    "authors": [
+      {
+        "personId": "000051",
+        "name": "幸田露伴",
+        "kana": "こうだろはん",
+        "roman": "Rohan Koda",
+        "role": "著者",
+        "birthDate": "1867-08-20",
+        "deathDate": "1947-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -58,5 +58,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045305",
+    "title": "挿頭花",
+    "titleKana": "かざし",
+    "sortKana": "かさし",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-06-19",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000278/card45305.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000278/files/45305_ruby_18451.zip",
+    "textFileId": "45305_ruby_18451",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000278/files/45305_18538.html",
+    "inputBy": "浅葱",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "花の名随筆9　九月の花",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年8月10日",
+      "inputEdition": "1999（平成11）年8月10日初版第1刷",
+      "proofreadEdition": "1999（平成11）年8月10日初版第1刷"
+    },
+    "author": "津村信夫",
+    "authors": [
+      {
+        "personId": "000278",
+        "name": "津村信夫",
+        "kana": "つむらのぶお",
+        "roman": "Nobuo Tsumura",
+        "role": "著者",
+        "birthDate": "1909-01-05",
+        "deathDate": "1944-06-27",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

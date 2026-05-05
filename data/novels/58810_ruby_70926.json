@@ -44,5 +44,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058810",
+    "title": "未亡人と人道問題",
+    "titleKana": "みぼうじんとじんどうもんだい",
+    "sortKana": "みほうしんとしんとうもんたい",
+    "firstAppearance": "「女学世界」1906（明治39）年10月",
+    "ndc": "NDC 367",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-05-10",
+    "updatedAt": "2020-04-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000006/card58810.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000006/files/58810_ruby_70926.zip",
+    "textFileId": "58810_ruby_70926",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000006/files/58810_70976.html",
+    "inputBy": "高崎隼",
+    "proofreadBy": "hitsuji",
+    "baseBook1": {
+      "title": "筑摩現代文学大系　1　坪内逍遥　二葉亭四迷　北村透谷　集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1977（昭和52）年9月15日",
+      "inputEdition": "1977（昭和52）年9月15日初版第1刷",
+      "proofreadEdition": "1977（昭和52）年9月15日初版第1刷"
+    },
+    "author": "二葉亭四迷",
+    "authors": [
+      {
+        "personId": "000006",
+        "name": "二葉亭四迷",
+        "kana": "ふたばていしめい",
+        "roman": "Shimei Futabatei",
+        "role": "著者",
+        "birthDate": "1864-04-04",
+        "deathDate": "1909-05-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

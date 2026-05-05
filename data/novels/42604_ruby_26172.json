@@ -42,5 +42,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042604",
+    "title": "レ・ミゼラブル",
+    "titleKana": "レ・ミゼラブル",
+    "sortKana": "れみせらふる",
+    "subtitle": "08 第五部　ジャン・ヴァルジャン",
+    "subtitleKana": "08 だいごぶ　ジャン・ヴァルジャン",
+    "ndc": "NDC 953",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-03-06",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001094/card42604.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001094/files/42604_ruby_26172.zip",
+    "textFileId": "42604_ruby_26172",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001094/files/42604_26198.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "レ・ミゼラブル（四）",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1987（昭和62）年5月18日",
+      "inputEdition": "1987（昭和62）年5月18日",
+      "proofreadEdition": "2003（平成15）年8月25日第25刷"
+    },
+    "author": "ユゴーヴィクトル",
+    "authors": [
+      {
+        "personId": "001094",
+        "name": "ユゴーヴィクトル",
+        "kana": "ユゴーヴィクトル",
+        "roman": "Victor Hugo",
+        "role": "著者",
+        "birthDate": "1802-02-26",
+        "deathDate": "1885-05-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

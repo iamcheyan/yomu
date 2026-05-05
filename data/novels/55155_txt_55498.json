@@ -40,5 +40,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055155",
+    "title": "小島の春",
+    "titleKana": "こじまのはる",
+    "sortKana": "こしまのはる",
+    "subtitle": "03 序",
+    "subtitleKana": "03 じょ",
+    "ndc": "NDC 914 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-01-01",
+    "updatedAt": "2015-01-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001698/card55155.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001698/files/55155_txt_55498.zip",
+    "textFileId": "55155_txt_55498",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001698/files/55155_55499.html",
+    "inputBy": "岡山勝美",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "［復刻版］小島の春",
+      "publisher": "長崎出版",
+      "firstPublishedAt": "2009（平成21）年5月30日",
+      "inputEdition": "2009（平成21）年5月30日初版第1刷",
+      "proofreadEdition": "2009（平成21）年5月30日初版第1刷"
+    },
+    "author": "光田健輔",
+    "authors": [
+      {
+        "personId": "001698",
+        "name": "光田健輔",
+        "kana": "みつだけんすけ",
+        "roman": "Kensuke Mitsuda",
+        "role": "著者",
+        "birthDate": "1876-01-12",
+        "deathDate": "1964-05-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

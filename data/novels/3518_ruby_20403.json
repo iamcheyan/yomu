@@ -564,5 +564,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003518",
+    "title": "獏鸚",
+    "titleKana": "ばくおう",
+    "sortKana": "はくおう",
+    "firstAppearance": "「新青年」博文館、1935（昭和10）年5月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-12-28",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card3518.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/3518_ruby_20403.zip",
+    "textFileId": "3518_ruby_20403",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/3518_20564.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "海野十三全集　第3巻　深夜の市長",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1988（昭和63）年6月30日",
+      "inputEdition": "1988（昭和63）年6月30日第1版第1刷",
+      "proofreadEdition": "1988（昭和63）年6月30日第1版第1刷"
+    },
+    "author": "海野十三",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

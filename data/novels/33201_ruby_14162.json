@@ -66,5 +66,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "033201",
+    "title": "鏡花との一夕",
+    "titleKana": "きょうかとのいっせき",
+    "sortKana": "きようかとのいつせき",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-01-14",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card33201.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/33201_ruby_14162.zip",
+    "textFileId": "33201_ruby_14162",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/33201_14217.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "折口信夫全集　32",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1998（平成10）年1月20日",
+      "inputEdition": "1998（平成10）年1月20日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

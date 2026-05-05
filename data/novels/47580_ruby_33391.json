@@ -3656,5 +3656,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047580",
+    "title": "家",
+    "titleKana": "いえ",
+    "sortKana": "いえ",
+    "firstAppearance": "「文藝春秋」1938（昭和13）年6月",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-02-14",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000726/card47580.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000726/files/47580_ruby_33391.zip",
+    "textFileId": "47580_ruby_33391",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000726/files/47580_34252.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "随筆　きもの",
+      "publisher": "実業之日本社",
+      "firstPublishedAt": "1939（昭和14）年10月20日",
+      "inputEdition": "1939（昭和14）年11月7日5版",
+      "proofreadEdition": "1939（昭和14）年11月7日5版"
+    },
+    "author": "長谷川時雨",
+    "authors": [
+      {
+        "personId": "000726",
+        "name": "長谷川時雨",
+        "kana": "はせがわしぐれ",
+        "roman": "Shigure Hasegawa",
+        "role": "著者",
+        "birthDate": "1879-10-01",
+        "deathDate": "1941-08-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -122,5 +122,42 @@
     [],
     []
   ],
-  "desc": "長い鼻を持つ僧の苦悩と人間の醜さ。"
+  "desc": "長い鼻を持つ僧の苦悩と人間の醜さ。",
+  "aozora_info": {
+    "workId": "000372",
+    "title": "鼻",
+    "titleKana": "はな",
+    "sortKana": "はな",
+    "ndc": "NDC 983",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-01-26",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000207/card372.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000207/files/372_ruby_22447.zip",
+    "textFileId": "372_ruby_22447",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000207/files/372_22448.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "柳沢成雄",
+    "baseBook1": {
+      "title": "外套・鼻",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1938（昭和13）年1月20日、1965（昭和40）年4月16日第20刷改版",
+      "proofreadEdition": "1998（平成10）年5月6日第68刷"
+    },
+    "author": "ゴーゴリニコライ",
+    "authors": [
+      {
+        "personId": "000207",
+        "name": "ゴーゴリニコライ",
+        "kana": "ゴーゴリニコライ",
+        "roman": "Nikolai Gogol",
+        "role": "著者",
+        "birthDate": "1809-03-12",
+        "deathDate": "1852-02-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

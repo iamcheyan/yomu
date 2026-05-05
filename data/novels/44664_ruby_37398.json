@@ -128,5 +128,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "044664",
+    "title": "国防と文化",
+    "titleKana": "こくぼうとぶんか",
+    "sortKana": "こくほうとふんか",
+    "firstAppearance": "「文学界　第八巻第三号」1941（昭和16）年3月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-03-11",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001154/card44664.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001154/files/44664_ruby_37398.zip",
+    "textFileId": "44664_ruby_37398",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001154/files/44664_37983.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "岸田國士全集25",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1991（平成3）年8月8日",
+      "inputEdition": "1991（平成3）年8月8日",
+      "proofreadEdition": "1991（平成3）年8月8日"
+    },
+    "author": "岸田国士",
+    "authors": [
+      {
+        "personId": "001154",
+        "name": "岸田国士",
+        "kana": "きしだくにお",
+        "roman": "Kunio Kishida",
+        "role": "著者",
+        "birthDate": "1890-11-02",
+        "deathDate": "1954-03-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

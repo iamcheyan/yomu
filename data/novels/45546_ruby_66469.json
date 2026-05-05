@@ -14402,5 +14402,51 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045546",
+    "title": "あさひの鎧",
+    "titleKana": "あさひのよろい",
+    "sortKana": "あさひのよろい",
+    "firstAppearance": "「時事新報」1934（昭和9）年8月25日～1935（昭和10）年3月16日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-12-04",
+    "updatedAt": "2018-11-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card45546.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/45546_ruby_66469.zip",
+    "textFileId": "45546_ruby_66469",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/45546_66514.html",
+    "inputBy": "阿和泉拓",
+    "proofreadBy": "酒井裕二",
+    "baseBook1": {
+      "title": "あさひの鎧（下）",
+      "publisher": "国枝史郎伝奇文庫、講談社",
+      "firstPublishedAt": "1976（昭和51）年9月20日",
+      "inputEdition": "1976（昭和51）年9月20日第1刷",
+      "proofreadEdition": "1976（昭和51）年9月20日第1刷"
+    },
+    "baseBook2": {
+      "title": "あさひの鎧（上）",
+      "publisher": "国枝史郎伝奇文庫、講談社",
+      "firstPublishedAt": "1976（昭和51）年9月20日",
+      "inputEdition": "1976（昭和51）年9月20日第1刷",
+      "proofreadEdition": "1976（昭和51）年9月20日第1刷"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

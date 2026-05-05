@@ -82,5 +82,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056830",
+    "title": "書狼書豚",
+    "titleKana": "しょろうしょとん",
+    "sortKana": "しよろうしよとん",
+    "ndc": "NDC 024",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-02-11",
+    "updatedAt": "2015-01-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001796/card56830.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001796/files/56830_ruby_55584.zip",
+    "textFileId": "56830_ruby_55584",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001796/files/56830_55631.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆36　読",
+      "publisher": "作品社",
+      "firstPublishedAt": "1985（昭和60）年10月25日",
+      "inputEdition": "1985（昭和60）年10月25日第1刷",
+      "proofreadEdition": "1994（平成6）年5月20日第14刷"
+    },
+    "author": "辰野隆",
+    "authors": [
+      {
+        "personId": "001796",
+        "name": "辰野隆",
+        "kana": "たつのゆたか",
+        "roman": "Yutaka Tatsuno",
+        "role": "著者",
+        "birthDate": "1888-03-01",
+        "deathDate": "1964-02-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

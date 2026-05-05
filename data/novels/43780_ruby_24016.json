@@ -382,5 +382,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043780",
+    "title": "けむりを吐かぬ煙突",
+    "titleKana": "けむりをはかぬえんとつ",
+    "sortKana": "けむりをはかぬえんとつ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-10-22",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000096/card43780.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000096/files/43780_ruby_24016.zip",
+    "textFileId": "43780_ruby_24016",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000096/files/43780_24358.html",
+    "inputBy": "雨谷りえ、將之",
+    "proofreadBy": "A子",
+    "baseBook1": {
+      "title": "夢野久作全集3",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1992（平成4）年8月24日",
+      "inputEdition": "2004（平成16）年2月10日第4刷",
+      "proofreadEdition": "1992（平成4）年8月24日第1刷"
+    },
+    "author": "夢野久作",
+    "authors": [
+      {
+        "personId": "000096",
+        "name": "夢野久作",
+        "kana": "ゆめのきゅうさく",
+        "roman": "Kyusaku Yumeno",
+        "role": "著者",
+        "birthDate": "1889-01-04",
+        "deathDate": "1936-03-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

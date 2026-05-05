@@ -952,5 +952,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049355",
+    "title": "おばけの正体",
+    "titleKana": "おばけのしょうたい",
+    "sortKana": "おはけのしようたい",
+    "ndc": "NDC 147",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-06-05",
+    "updatedAt": "2019-01-20",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001021/card49355.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001021/files/49355_ruby_58859.zip",
+    "textFileId": "49355_ruby_58859",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001021/files/49355_58901.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "井上円了　妖怪学全集　第5巻",
+      "publisher": "柏書房",
+      "firstPublishedAt": "2000（平成12）年5月10日",
+      "inputEdition": "2000（平成12）年5月10日第1刷",
+      "proofreadEdition": "2000（平成12）年5月10日第1刷"
+    },
+    "author": "井上円了",
+    "authors": [
+      {
+        "personId": "001021",
+        "name": "井上円了",
+        "kana": "いのうええんりょう",
+        "roman": "Enryo Inoue",
+        "role": "著者",
+        "birthDate": "1858-03-18",
+        "deathDate": "1919-06-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

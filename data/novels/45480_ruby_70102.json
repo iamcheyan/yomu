@@ -272,5 +272,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045480",
+    "title": "鰻に呪われた男",
+    "titleKana": "うなぎにのろわれたおとこ",
+    "sortKana": "うなきにのろわれたおとこ",
+    "firstAppearance": "「オール讀物」1931（昭和6）年10月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-12-06",
+    "updatedAt": "2020-01-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000082/card45480.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000082/files/45480_ruby_70102.zip",
+    "textFileId": "45480_ruby_70102",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000082/files/45480_70103.html",
+    "inputBy": "小林繁雄、門田裕志",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "鷲",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "1990（平成2）年8月20日",
+      "inputEdition": "1990（平成2）年8月20日初版1刷",
+      "proofreadEdition": "1990（平成2）年8月20日初版1刷"
+    },
+    "author": "岡本綺堂",
+    "authors": [
+      {
+        "personId": "000082",
+        "name": "岡本綺堂",
+        "kana": "おかもときどう",
+        "roman": "Kido Okamoto",
+        "role": "著者",
+        "birthDate": "1872-11-15",
+        "deathDate": "1939-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

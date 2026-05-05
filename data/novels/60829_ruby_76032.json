@@ -138,5 +138,54 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060829",
+    "title": "鵠が音",
+    "titleKana": "たづがね",
+    "sortKana": "たつかね",
+    "subtitle": "03 追ひ書き",
+    "subtitleKana": "03 おいがき",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-08-15",
+    "updatedAt": "2022-07-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card60829.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/60829_ruby_76032.zip",
+    "textFileId": "60829_ruby_76032",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/60829_76068.html",
+    "inputBy": "和田幸子",
+    "proofreadBy": "ミツボシ",
+    "baseBook1": {
+      "title": "鵠が音",
+      "publisher": "中公文庫、中央公論社",
+      "firstPublishedAt": "1978（昭和53）年8月10日",
+      "inputEdition": "1978（昭和53）年8月10日",
+      "proofreadEdition": "1978（昭和53）年8月10日"
+    },
+    "author": "折口信夫、釈迢空",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      },
+      {
+        "personId": "001068",
+        "name": "釈迢空",
+        "kana": "しゃくちょうくう",
+        "roman": "Choku Shaku",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

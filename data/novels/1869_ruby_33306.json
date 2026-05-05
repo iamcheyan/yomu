@@ -5058,5 +5058,43 @@
     [],
     []
   ],
-  "desc": "日本近代文学の出発点。近代人の苦悩。"
+  "desc": "日本近代文学の出発点。近代人の苦悩。",
+  "aozora_info": {
+    "workId": "001869",
+    "title": "浮雲",
+    "titleKana": "うきぐも",
+    "sortKana": "うきくも",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-12-25",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000006/card1869.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000006/files/1869_ruby_33306.zip",
+    "textFileId": "1869_ruby_33306",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000006/files/1869_33656.html",
+    "inputBy": "佐野暢之、任天堂株式会社",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "浮雲",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1951（昭和26）年12月15日",
+      "inputEdition": "1997（平成9）年4月10日81刷",
+      "proofreadEdition": "2006（平成18）年6月15日87刷"
+    },
+    "author": "二葉亭四迷",
+    "authors": [
+      {
+        "personId": "000006",
+        "name": "二葉亭四迷",
+        "kana": "ふたばていしめい",
+        "roman": "Shimei Futabatei",
+        "role": "著者",
+        "birthDate": "1864-04-04",
+        "deathDate": "1909-05-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

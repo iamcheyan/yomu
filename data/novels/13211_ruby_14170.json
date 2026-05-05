@@ -90,5 +90,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "013211",
+    "title": "神道の新しい方向",
+    "titleKana": "しんとうのあたらしいほうこう",
+    "sortKana": "しんとうのあたらしいほうこう",
+    "ndc": "NDC 171",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-01-08",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card13211.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/13211_ruby_14170.zip",
+    "textFileId": "13211_ruby_14170",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/13211_14225.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻98　昭和２",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年4月25日",
+      "inputEdition": "1999（平成11）年4月25日第1刷"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

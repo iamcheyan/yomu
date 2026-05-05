@@ -206,5 +206,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002550",
+    "title": "御門主",
+    "titleKana": "ごもんしゅ",
+    "sortKana": "こもんしゆ",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-02-24",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000885/card2550.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000885/files/2550_ruby_8229.zip",
+    "textFileId": "2550_ruby_8229",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000885/files/2550_8743.html",
+    "inputBy": "武田秀男",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "東京朝日新聞",
+      "publisher": "朝日新聞東京本社",
+      "firstPublishedAt": "1912（明治45）年1月1日",
+      "inputEdition": "1912（明治45）年1月1日",
+      "proofreadEdition": "1912（明治45）年1月1日"
+    },
+    "author": "与謝野晶子",
+    "authors": [
+      {
+        "personId": "000885",
+        "name": "与謝野晶子",
+        "kana": "よさのあきこ",
+        "roman": "Akiko Yosano",
+        "role": "著者",
+        "birthDate": "1878-12-07",
+        "deathDate": "1942-05-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

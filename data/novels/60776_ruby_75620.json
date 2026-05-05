@@ -88,5 +88,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060776",
+    "title": "肱鉄砲",
+    "titleKana": "ひじでっぽう",
+    "sortKana": "ひしてつほう",
+    "firstAppearance": "「牟婁新報　第五八〇号」1906（明治39）年4月15日",
+    "ndc": "NDC 367",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-06-07",
+    "updatedAt": "2022-05-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/002174/card60776.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/002174/files/60776_ruby_75620.zip",
+    "textFileId": "60776_ruby_75620",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/002174/files/60776_75650.html",
+    "inputBy": "かな　とよみ",
+    "proofreadBy": "持田和踏",
+    "baseBook1": {
+      "title": "［新編］日本女性文学全集　第二巻",
+      "publisher": "菁柿堂",
+      "firstPublishedAt": "2008（平成20）年9月21日",
+      "inputEdition": "2008（平成20）年9月21日第1刷",
+      "proofreadEdition": "2008（平成20）年9月21日第1刷"
+    },
+    "author": "管野須賀子",
+    "authors": [
+      {
+        "personId": "002174",
+        "name": "管野須賀子",
+        "kana": "かんのすがこ",
+        "roman": "Sugako Kanno",
+        "role": "著者",
+        "birthDate": "1881-06-07",
+        "deathDate": "1911-01-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -50,5 +50,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043608",
+    "title": "獅子は死せるに非ず",
+    "titleKana": "ししはしせるにあらず",
+    "sortKana": "ししはしせるにあらす",
+    "subtitle": "終刊の辞に代えて",
+    "subtitleKana": "しゅうかんのじにかえて",
+    "firstAppearance": "「シュピオ」1938（昭和13）年4月号",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-12-26",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000125/card43608.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000125/files/43608_ruby_16999.zip",
+    "textFileId": "43608_ruby_16999",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000125/files/43608_17123.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "「シュピオ」傑作選　幻の探偵雑誌3",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2000（平成12）年5月20日",
+      "inputEdition": "2000（平成12）年5月20日初版1刷",
+      "proofreadEdition": "2000（平成12）年5月20日初版1刷"
+    },
+    "author": "小栗虫太郎",
+    "authors": [
+      {
+        "personId": "000125",
+        "name": "小栗虫太郎",
+        "kana": "おぐりむしたろう",
+        "roman": "Mushitaro Oguri",
+        "role": "著者",
+        "birthDate": "1901-03-14",
+        "deathDate": "1946-02-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -70,5 +70,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054830",
+    "title": "祭のさまざま",
+    "titleKana": "まつりのさまざま",
+    "sortKana": "まつりのさまさま",
+    "ndc": "NDC 386",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-01-31",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001566/card54830.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001566/files/54830_ruby_49769.zip",
+    "textFileId": "54830_ruby_49769",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001566/files/54830_49770.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "阿部哲也",
+    "baseBook1": {
+      "title": "日本の名随筆44　祭",
+      "publisher": "作品社",
+      "firstPublishedAt": "1986（昭和61）年6月25日",
+      "inputEdition": "1999（平成11）年2月25日第11刷",
+      "proofreadEdition": "1991（平成3）年9月1日第8刷"
+    },
+    "author": "柳田国男",
+    "authors": [
+      {
+        "personId": "001566",
+        "name": "柳田国男",
+        "kana": "やなぎたくにお",
+        "roman": "Kunio Yanagita",
+        "role": "著者",
+        "birthDate": "1875-07-31",
+        "deathDate": "1962-08-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

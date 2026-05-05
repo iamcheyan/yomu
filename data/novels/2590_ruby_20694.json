@@ -1016,5 +1016,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002590",
+    "title": "愛と認識との出発",
+    "titleKana": "あいとにんしきとのしゅっぱつ",
+    "sortKana": "あいとにんしきとのしゆつはつ",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-03-18",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000256/card2590.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000256/files/2590_ruby_20694.zip",
+    "textFileId": "2590_ruby_20694",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000256/files/2590_20695.html",
+    "inputBy": "藤原隆行",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "愛と認識との出発",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1950（昭和25）年6月30日、1967（昭和42）年9月30日64版",
+      "inputEdition": "1982（昭和57）年12月20日改版31版"
+    },
+    "author": "倉田百三",
+    "authors": [
+      {
+        "personId": "000256",
+        "name": "倉田百三",
+        "kana": "くらたひゃくぞう",
+        "roman": "Hyakuzo Kurata",
+        "role": "著者",
+        "birthDate": "1891-02-23",
+        "deathDate": "1943-02-12",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

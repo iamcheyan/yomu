@@ -228,5 +228,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003057",
+    "title": "イボタの虫",
+    "titleKana": "イボタのむし",
+    "sortKana": "いほたのむし",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-12-20",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000697/card3057.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000697/files/3057_ruby_7920.zip",
+    "textFileId": "3057_ruby_7920",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000697/files/3057_7921.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "現代日本文學大系　91　現代名作集（一）",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1973（昭和48）年3月5日",
+      "inputEdition": "1985（昭和60）年11月10日初版第12刷"
+    },
+    "author": "中戸川吉二",
+    "authors": [
+      {
+        "personId": "000697",
+        "name": "中戸川吉二",
+        "kana": "なかとがわきちじ",
+        "roman": "Kichiji Nakatogawa",
+        "role": "著者",
+        "birthDate": "1896-05-20",
+        "deathDate": "1942-11-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

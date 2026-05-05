@@ -36,5 +36,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "024386",
+    "title": "長谷川時雨が卅歳若かつたら",
+    "titleKana": "はせがわしぐれがさんじゅっさいわかかったら",
+    "sortKana": "はせかわしくれかさんしゆつさいわかかつたら",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-08-22",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000216/card24386.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000216/files/24386_ruby_10319.zip",
+    "textFileId": "24386_ruby_10319",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000216/files/24386_11980.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "直木三十五全集　第14巻",
+      "publisher": "示人社",
+      "firstPublishedAt": "1991（平成3）年7月6日",
+      "inputEdition": "1991（平成3）年7月6日第1刷"
+    },
+    "author": "直木三十五",
+    "authors": [
+      {
+        "personId": "000216",
+        "name": "直木三十五",
+        "kana": "なおきさんじゅうご",
+        "roman": "Sanjugo Naoki",
+        "role": "著者",
+        "birthDate": "1891-02-12",
+        "deathDate": "1934-02-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

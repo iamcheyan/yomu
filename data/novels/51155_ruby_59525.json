@@ -4366,5 +4366,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051155",
+    "title": "渡良瀬川",
+    "titleKana": "わたらせがわ",
+    "sortKana": "わたらせかわ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-08-25",
+    "updatedAt": "2016-07-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001476/card51155.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001476/files/51155_ruby_59525.zip",
+    "textFileId": "51155_ruby_59525",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001476/files/51155_59739.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "富田晶子",
+    "baseBook1": {
+      "title": "渡良瀬川",
+      "publisher": "新泉社",
+      "firstPublishedAt": "1972（昭和47）年7月1日",
+      "inputEdition": "1972（昭和47）年7月1日第1刷",
+      "proofreadEdition": "1972（昭和47）年7月1日第1刷"
+    },
+    "author": "大鹿卓",
+    "authors": [
+      {
+        "personId": "001476",
+        "name": "大鹿卓",
+        "kana": "おおしかたく",
+        "roman": "Taku Oshika",
+        "role": "著者",
+        "birthDate": "1898-08-25",
+        "deathDate": "1959-02-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

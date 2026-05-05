@@ -570,5 +570,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043517",
+    "title": "誰が罪",
+    "titleKana": "たがつみ",
+    "sortKana": "たかつみ",
+    "firstAppearance": "「世界之日本」1897（明治30）年7月",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-10-14",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001146/card43517.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001146/files/43517_ruby_16531.zip",
+    "textFileId": "43517_ruby_16531",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001146/files/43517_16588.html",
+    "inputBy": "小林繁雄、門田裕志",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "紫琴全集　全一巻",
+      "publisher": "草土文化",
+      "firstPublishedAt": "1983（昭和58）年5月10日",
+      "inputEdition": "1983（昭和58）年5月10日第1刷"
+    },
+    "author": "清水紫琴",
+    "authors": [
+      {
+        "personId": "001146",
+        "name": "清水紫琴",
+        "kana": "しみずしきん",
+        "roman": "Shikin Shimizu",
+        "role": "著者",
+        "birthDate": "1868-01-25",
+        "deathDate": "1933-07-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

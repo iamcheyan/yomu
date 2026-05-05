@@ -810,5 +810,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059024",
+    "title": "悲しみの代価",
+    "titleKana": "かなしみのだいか",
+    "sortKana": "かなしみのたいか",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-03-17",
+    "updatedAt": "2021-03-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000168/card59024.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000168/files/59024_ruby_72776.zip",
+    "textFileId": "59024_ruby_72776",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000168/files/59024_72828.html",
+    "inputBy": "橘美花",
+    "proofreadBy": "奥野未悠",
+    "baseBook1": {
+      "title": "定本　横光利一全集　第二卷",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "1981（昭和56）年8月31日",
+      "inputEdition": "1981（昭和56）年8月31日初版",
+      "proofreadEdition": "1981（昭和56）年8月31日初刷"
+    },
+    "author": "横光利一",
+    "authors": [
+      {
+        "personId": "000168",
+        "name": "横光利一",
+        "kana": "よこみつりいち",
+        "roman": "Riichi Yokomitsu",
+        "role": "著者",
+        "birthDate": "1898-03-17",
+        "deathDate": "1947-12-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

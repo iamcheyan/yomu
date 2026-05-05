@@ -126,5 +126,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047818",
+    "title": "新生の門",
+    "titleKana": "しんせいのもん",
+    "sortKana": "しんせいのもん",
+    "subtitle": "――栃木の女囚刑務所を訪ねて",
+    "subtitleKana": "――とちぎのじょしゅうけいむしょをたずねて",
+    "ndc": "NDC 367 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-04-06",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000291/card47818.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000291/files/47818_ruby_29582.zip",
+    "textFileId": "47818_ruby_29582",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000291/files/47818_30100.html",
+    "inputBy": "岡本ゆみ子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "林芙美子随筆集",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2003（平成15）年2月14日",
+      "inputEdition": "2003（平成15）年2月14日第1刷",
+      "proofreadEdition": "2003（平成15）年4月24日第3刷"
+    },
+    "author": "林芙美子",
+    "authors": [
+      {
+        "personId": "000291",
+        "name": "林芙美子",
+        "kana": "はやしふみこ",
+        "roman": "Fumiko Hayashi",
+        "role": "著者",
+        "birthDate": "1903-12-31",
+        "deathDate": "1951-06-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

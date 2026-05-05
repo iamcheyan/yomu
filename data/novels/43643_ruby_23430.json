@@ -70,5 +70,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043643",
+    "title": "物理学革新の一つの尖端",
+    "titleKana": "ぶつりがくかくしんのひとつのせんたん",
+    "sortKana": "ふつりかくかくしんのひとつのせんたん",
+    "firstAppearance": "「大阪朝日新聞」1932（昭和7）年1月4日",
+    "ndc": "NDC 421 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-10-25",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001153/card43643.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001153/files/43643_ruby_23430.zip",
+    "textFileId": "43643_ruby_23430",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001153/files/43643_24367.html",
+    "inputBy": "小林徹",
+    "proofreadBy": "kamille",
+    "baseBook1": {
+      "title": "随筆",
+      "publisher": "改造社",
+      "firstPublishedAt": "1936（昭和11）年11月20日",
+      "inputEdition": "1936（昭和11）年11月20日発行",
+      "proofreadEdition": "1936（昭和11）年11月20日発行"
+    },
+    "author": "長岡半太郎",
+    "authors": [
+      {
+        "personId": "001153",
+        "name": "長岡半太郎",
+        "kana": "ながおかはんたろう",
+        "roman": "Hantaro Nagaoka",
+        "role": "著者",
+        "birthDate": "1865-08-19",
+        "deathDate": "1950-12-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

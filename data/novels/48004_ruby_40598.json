@@ -82,5 +82,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048004",
+    "title": "悪魔の聖壇",
+    "titleKana": "あくまのせいだん",
+    "sortKana": "あくまのせいたん",
+    "firstAppearance": "「令女界　第六巻第一号」宝文館、1927（昭和2）年1月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-12-12",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000221/card48004.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000221/files/48004_ruby_40598.zip",
+    "textFileId": "48004_ruby_40598",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000221/files/48004_41347.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "平林初之輔探偵小説選Ⅱ〔論創ミステリ叢書2〕",
+      "publisher": "論創社",
+      "firstPublishedAt": "2003（平成15）年11月10日",
+      "inputEdition": "2003（平成15）年11月10日初版第1刷",
+      "proofreadEdition": "2003（平成15）年11月10日初版第1刷"
+    },
+    "author": "平林初之輔",
+    "authors": [
+      {
+        "personId": "000221",
+        "name": "平林初之輔",
+        "kana": "ひらばやしはつのすけ",
+        "roman": "Hatsunosuke Hirabayashi",
+        "role": "著者",
+        "birthDate": "1892-11-08",
+        "deathDate": "1931-06-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

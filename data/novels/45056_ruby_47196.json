@@ -306,5 +306,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045056",
+    "title": "悪魔の宝",
+    "titleKana": "あくまのたから",
+    "sortKana": "あくまのたから",
+    "firstAppearance": "「赤い鳥」1929（昭和4）年1月",
+    "ndc": "NDC K913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-05-09",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000906/card45056.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000906/files/45056_ruby_47196.zip",
+    "textFileId": "45056_ruby_47196",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000906/files/45056_47597.html",
+    "inputBy": "菅野朋子",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本児童文学大系　第一六巻",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1977（昭和52）年11月20日",
+      "inputEdition": "1977（昭和52）年11月20日初刷",
+      "proofreadEdition": "1977（昭和52）年11月20日初刷"
+    },
+    "author": "豊島与志雄",
+    "authors": [
+      {
+        "personId": "000906",
+        "name": "豊島与志雄",
+        "kana": "とよしまよしお",
+        "roman": "Yoshio Toyoshima",
+        "role": "著者",
+        "birthDate": "1890-11-27",
+        "deathDate": "1955-06-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

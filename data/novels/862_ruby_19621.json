@@ -172,5 +172,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000862",
+    "title": "聴雨",
+    "titleKana": "ちょうう",
+    "sortKana": "ちようう",
+    "ndc": "NDC 796 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-08-05",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000040/card862.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000040/files/862_ruby_19621.zip",
+    "textFileId": "862_ruby_19621",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000040/files/862_19622.html",
+    "inputBy": "j.utiyama",
+    "proofreadBy": "野口英司",
+    "baseBook1": {
+      "title": "現代日本文學大系　70　武田麟太郎・島木健作・織田作之助・檀一雄集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1970（昭和45）年6月25日"
+    },
+    "author": "織田作之助",
+    "authors": [
+      {
+        "personId": "000040",
+        "name": "織田作之助",
+        "kana": "おださくのすけ",
+        "roman": "Sakunosuke Oda",
+        "role": "著者",
+        "birthDate": "1913-10-26",
+        "deathDate": "1947-01-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -404,5 +404,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057058",
+    "title": "愛のごとく",
+    "titleKana": "あいのごとく",
+    "sortKana": "あいのことく",
+    "firstAppearance": "「新潮」新潮社、1964（昭和39）年4月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-02-25",
+    "updatedAt": "2018-01-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001801/card57058.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001801/files/57058_ruby_63822.zip",
+    "textFileId": "57058_ruby_63822",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001801/files/57058_63902.html",
+    "inputBy": "kompass",
+    "proofreadBy": "荒木恵一",
+    "baseBook1": {
+      "title": "愛のごとく",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1998（平成10）年5月10日",
+      "inputEdition": "1998（平成10）年5月10日第1刷",
+      "proofreadEdition": "1998（平成10）年5月10日第1刷"
+    },
+    "author": "山川方夫",
+    "authors": [
+      {
+        "personId": "001801",
+        "name": "山川方夫",
+        "kana": "やまかわまさお",
+        "roman": "Masao Yamakawa",
+        "role": "著者",
+        "birthDate": "1930-02-25",
+        "deathDate": "1965-02-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

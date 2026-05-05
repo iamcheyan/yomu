@@ -186,5 +186,40 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000493",
+    "title": "大島が出来る話",
+    "titleKana": "おおしまができるはなし",
+    "sortKana": "おおしまかてきるはなし",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-02-02",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000083/card493.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000083/files/493_ruby_19920.zip",
+    "textFileId": "493_ruby_19920",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000083/files/493_19921.html",
+    "inputBy": "網迫",
+    "proofreadBy": "上岡ちなみ",
+    "baseBook1": {
+      "title": "現代日本文學大系　44　山本有三・菊池寛集",
+      "publisher": "筑摩書房"
+    },
+    "author": "菊池寛",
+    "authors": [
+      {
+        "personId": "000083",
+        "name": "菊池寛",
+        "kana": "きくちかん",
+        "roman": "Kan Kikuchi",
+        "role": "著者",
+        "birthDate": "1888-12-26",
+        "deathDate": "1948-03-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

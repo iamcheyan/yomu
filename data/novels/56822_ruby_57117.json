@@ -5294,5 +5294,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056822",
+    "title": "東京青年",
+    "titleKana": "とうきょうせいねん",
+    "sortKana": "とうきようせいねん",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2015-07-07",
+    "updatedAt": "2017-07-06",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001506/card56822.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001506/files/56822_ruby_57117.zip",
+    "textFileId": "56822_ruby_57117",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001506/files/56822_57118.html",
+    "inputBy": "八巻美恵",
+    "proofreadBy": "高橋雅康",
+    "baseBook1": {
+      "title": "東京青年",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "2002（平成14）年4月25日",
+      "inputEdition": "2002（平成14）年4月25日初版"
+    },
+    "author": "片岡義男",
+    "authors": [
+      {
+        "personId": "001506",
+        "name": "片岡義男",
+        "kana": "かたおかよしお",
+        "roman": "Yoshio Kataoka",
+        "role": "著者",
+        "birthDate": "1939-03-20",
+        "copyright": "あり"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

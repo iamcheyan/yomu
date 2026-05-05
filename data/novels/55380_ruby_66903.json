@@ -288,5 +288,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055380",
+    "title": "水ぎわの家",
+    "titleKana": "みずぎわのいえ",
+    "sortKana": "みすきわのいえ",
+    "firstAppearance": "「中央公論　第四十二年第三号」1927（昭和2）年3月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-02-01",
+    "updatedAt": "2019-01-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000023/card55380.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000023/files/55380_ruby_66903.zip",
+    "textFileId": "55380_ruby_66903",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000023/files/55380_66949.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "久世名取",
+    "baseBook1": {
+      "title": "徳田秋聲全集第16巻",
+      "publisher": "八木書店",
+      "firstPublishedAt": "1999（平成11）年5月18日",
+      "inputEdition": "1999（平成11）年5月18日初版",
+      "proofreadEdition": "1999（平成11）年5月18日初版"
+    },
+    "author": "徳田秋声",
+    "authors": [
+      {
+        "personId": "000023",
+        "name": "徳田秋声",
+        "kana": "とくだしゅうせい",
+        "roman": "Shusei Tokuda",
+        "role": "著者",
+        "birthDate": "1872-02-01",
+        "deathDate": "1943-11-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

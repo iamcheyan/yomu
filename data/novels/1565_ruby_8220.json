@@ -2906,5 +2906,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001565",
+    "title": "斜陽",
+    "titleKana": "しゃよう",
+    "sortKana": "しやよう",
+    "firstAppearance": "「新潮　第四十四巻第七号～第十号」1947（昭和22）年7月1日～1947（昭和22）年10月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-01-29",
+    "updatedAt": "2015-09-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card1565.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/1565_ruby_8220.zip",
+    "textFileId": "1565_ruby_8220",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/1565_8559.html",
+    "inputBy": "SAME SIDE",
+    "proofreadBy": "細渕紀子",
+    "baseBook1": {
+      "title": "斜陽",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1950（昭和25）年11月20日",
+      "inputEdition": "1994（平成6）年6月5日93刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

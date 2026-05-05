@@ -106,5 +106,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048803",
+    "title": "写真と思ひ出",
+    "titleKana": "しゃしんとおもいで",
+    "sortKana": "しやしんとおもいて",
+    "subtitle": "――私の写真修行――",
+    "subtitleKana": "わたしのしゃしんしゅぎょう",
+    "firstAppearance": "「サンデー毎日」1926（大正15）年6月27日",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-06-22",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000048/card48803.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000048/files/48803_ruby_42796.zip",
+    "textFileId": "48803_ruby_42796",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000048/files/48803_42797.html",
+    "inputBy": "小林徹、小林誠",
+    "proofreadBy": "富田倫生",
+    "baseBook1": {
+      "title": "サンデー毎日",
+      "publisher": "大阪毎日新聞社",
+      "firstPublishedAt": "1926（大正15）年6月27日",
+      "inputEdition": "1926（大正15）年6月27日",
+      "proofreadEdition": "1926（大正15）年6月27日"
+    },
+    "author": "南部修太郎",
+    "authors": [
+      {
+        "personId": "000048",
+        "name": "南部修太郎",
+        "kana": "なんぶしゅうたろう",
+        "roman": "Shutaro Nanbu",
+        "role": "著者",
+        "birthDate": "1892-10-12",
+        "deathDate": "1936-06-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -72,5 +72,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057283",
+    "title": "海底の散歩",
+    "titleKana": "かいていのさんぽ",
+    "sortKana": "かいていのさんほ",
+    "firstAppearance": "「読売新聞」読売新聞社、1951（昭和26）年8月20日",
+    "ndc": "NDC 452",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-03-11",
+    "updatedAt": "2021-02-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card57283.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/57283_ruby_72766.zip",
+    "textFileId": "57283_ruby_72766",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/57283_72818.html",
+    "inputBy": "kompass",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "中谷宇吉郎集　第六巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "2001（平成13）年3月5日",
+      "inputEdition": "2001（平成13）年3月5日第1刷",
+      "proofreadEdition": "2001（平成13）年3月5日第1刷"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -220,5 +220,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055376",
+    "title": "浪の音",
+    "titleKana": "なみのおと",
+    "sortKana": "なみのおと",
+    "firstAppearance": "「文芸春秋　第七年第五号」1929（昭和4）年5月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-11-18",
+    "updatedAt": "2019-10-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000023/card55376.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000023/files/55376_ruby_69521.zip",
+    "textFileId": "55376_ruby_69521",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000023/files/55376_69572.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "久世名取",
+    "baseBook1": {
+      "title": "徳田秋聲全集　第16巻",
+      "publisher": "八木書店",
+      "firstPublishedAt": "1999（平成11）年5月18日",
+      "inputEdition": "1999（平成11）年5月18日初版",
+      "proofreadEdition": "1999（平成11）年5月18日初版"
+    },
+    "author": "徳田秋声",
+    "authors": [
+      {
+        "personId": "000023",
+        "name": "徳田秋声",
+        "kana": "とくだしゅうせい",
+        "roman": "Shusei Tokuda",
+        "role": "著者",
+        "birthDate": "1872-02-01",
+        "deathDate": "1943-11-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

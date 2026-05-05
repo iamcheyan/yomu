@@ -112,5 +112,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003622",
+    "title": "犬物語",
+    "titleKana": "いぬものがたり",
+    "sortKana": "いぬものかたり",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-09-16",
+    "updatedAt": "2015-09-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000165/card3622.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000165/files/3622_ruby_7637.zip",
+    "textFileId": "3622_ruby_7637",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000165/files/3622_19268.html",
+    "inputBy": "渡邉つよし",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "日本の名随筆76　犬",
+      "publisher": "作品社",
+      "firstPublishedAt": "1989（平成元）年2月25日",
+      "inputEdition": "1991（平成3）年9月20日第5刷"
+    },
+    "author": "内田魯庵",
+    "authors": [
+      {
+        "personId": "000165",
+        "name": "内田魯庵",
+        "kana": "うちだろあん",
+        "roman": "Roan Uchida",
+        "role": "著者",
+        "birthDate": "1868-04-27",
+        "deathDate": "1929-06-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

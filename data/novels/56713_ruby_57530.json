@@ -266,5 +266,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056713",
+    "title": "眠り人形",
+    "titleKana": "ねむりにんぎょう",
+    "sortKana": "ねむりにんきよう",
+    "firstAppearance": "「少女倶楽部」1929（昭和4）年2月",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-12-09",
+    "updatedAt": "2015-09-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001670/card56713.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001670/files/56713_ruby_57530.zip",
+    "textFileId": "56713_ruby_57530",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001670/files/56713_57576.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "阿部哲也",
+    "baseBook1": {
+      "title": "野村胡堂探偵小説全集",
+      "publisher": "作品社",
+      "firstPublishedAt": "2007（平成19）年4月15日",
+      "inputEdition": "2007（平成19）年4月15日第1刷",
+      "proofreadEdition": "2007（平成19）年4月15日第1刷"
+    },
+    "author": "野村胡堂",
+    "authors": [
+      {
+        "personId": "001670",
+        "name": "野村胡堂",
+        "kana": "のむらこどう",
+        "roman": "Kodo Nomura",
+        "role": "著者",
+        "birthDate": "1882-10-15",
+        "deathDate": "1963-04-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

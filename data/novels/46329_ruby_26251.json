@@ -132,5 +132,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046329",
+    "title": "田遊び祭りの概念",
+    "titleKana": "たあそびまつりのがいねん",
+    "sortKana": "たあそひまつりのかいねん",
+    "firstAppearance": "「民俗芸術　第二巻第九号」1929（昭和4）年9月",
+    "ndc": "NDC 386 773",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-05-06",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card46329.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/46329_ruby_26251.zip",
+    "textFileId": "46329_ruby_26251",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/46329_26563.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "折口信夫全集　3",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1995（平成7）年4月10日",
+      "inputEdition": "1995（平成7）年4月10日初版",
+      "proofreadEdition": "1995（平成7）年4月10日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -210,5 +210,39 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000973",
+    "title": "本はどのように消えてゆくのか",
+    "titleKana": "ほんはどのようにきえてゆくのか",
+    "sortKana": "ほんはとのようにきえてゆくのか",
+    "ndc": "NDC 023",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "1997-09-28",
+    "updatedAt": "2019-05-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000117/card973.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000117/files/973_ruby_68057.zip",
+    "textFileId": "973_ruby_68057",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000117/files/973_68058.html",
+    "inputBy": "津野海太郎",
+    "baseBook1": {
+      "title": "本はどのように消えてゆくのか",
+      "publisher": "晶文社",
+      "firstPublishedAt": "1996（平成8）年2月10日"
+    },
+    "author": "津野海太郎",
+    "authors": [
+      {
+        "personId": "000117",
+        "name": "津野海太郎",
+        "kana": "つのかいたろう",
+        "roman": "Kaitaro Tsuno",
+        "role": "著者",
+        "birthDate": "1938-04-06",
+        "copyright": "あり"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

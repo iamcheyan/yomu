@@ -134,5 +134,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003199",
+    "title": "平将門",
+    "titleKana": "たいらのまさかど",
+    "sortKana": "たいらのまさかと",
+    "ndc": "NDC 289",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-01-25",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000051/card3199.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000051/files/3199_ruby_6102.zip",
+    "textFileId": "3199_ruby_6102",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000051/files/3199_15048.html",
+    "inputBy": "しだひろし",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "筑摩現代文学大系3　幸田露伴　樋口一葉集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1978（昭和53）年1月15日",
+      "inputEdition": "1984（昭和59）年10月1日初版第3刷"
+    },
+    "author": "幸田露伴",
+    "authors": [
+      {
+        "personId": "000051",
+        "name": "幸田露伴",
+        "kana": "こうだろはん",
+        "roman": "Rohan Koda",
+        "role": "著者",
+        "birthDate": "1867-08-20",
+        "deathDate": "1947-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

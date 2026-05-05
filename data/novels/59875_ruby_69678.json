@@ -60,5 +60,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059875",
+    "title": "乳と蜜の流れる地",
+    "titleKana": "ちちとみつのながれるち",
+    "sortKana": "ちちとみつのなかれるち",
+    "firstAppearance": "「あまカラ　新年号　第一三七号」甘辛社、1963（昭和38）年1月5日",
+    "ndc": "NDC 596",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-12-04",
+    "updatedAt": "2019-11-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001937/card59875.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001937/files/59875_ruby_69678.zip",
+    "textFileId": "59875_ruby_69678",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001937/files/59875_69723.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "芝裕久",
+    "baseBook1": {
+      "title": "「あまカラ」抄2",
+      "publisher": "冨山房百科文庫、冨山房",
+      "firstPublishedAt": "1995（平成7）年12月6日",
+      "inputEdition": "1995（平成7）年12月6日第1刷",
+      "proofreadEdition": "1995（平成7）年12月6日第1刷"
+    },
+    "author": "笠信太郎",
+    "authors": [
+      {
+        "personId": "001937",
+        "name": "笠信太郎",
+        "kana": "りゅうしんたろう",
+        "roman": "Shintaro Ryu",
+        "role": "著者",
+        "birthDate": "1900-12-11",
+        "deathDate": "1967-12-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

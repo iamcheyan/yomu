@@ -290,5 +290,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058918",
+    "title": "母を恋うる記",
+    "titleKana": "ははをこうるき",
+    "sortKana": "ははをこうるき",
+    "firstAppearance": "「大阪毎日新聞　夕刊」1919（大正8）年1月18日～2月19日<br>「東京日日新聞」1919（大正8）年1月19日～2月22日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-05-14",
+    "updatedAt": "2022-04-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001383/card58918.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001383/files/58918_ruby_75433.zip",
+    "textFileId": "58918_ruby_75433",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001383/files/58918_75465.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "小原茉莉",
+    "baseBook1": {
+      "title": "刺青・秘密",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1969（昭和44）年8月5日",
+      "inputEdition": "2016（平成28）年6月5日88刷",
+      "proofreadEdition": "2016（平成28）年6月5日88刷"
+    },
+    "author": "谷崎潤一郎",
+    "authors": [
+      {
+        "personId": "001383",
+        "name": "谷崎潤一郎",
+        "kana": "たにざきじゅんいちろう",
+        "roman": "Jun'ichiro Tanizaki",
+        "role": "著者",
+        "birthDate": "1886-07-24",
+        "deathDate": "1965-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

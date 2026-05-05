@@ -106,5 +106,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042168",
+    "title": "夜寒十句",
+    "titleKana": "よさむじっく",
+    "sortKana": "よさむしつく",
+    "ndc": "NDC 911 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-09-19",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000305/card42168.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000305/files/42168_ruby_12296.zip",
+    "textFileId": "42168_ruby_12296",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000305/files/42168_12297.html",
+    "inputBy": "小林繁雄",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆72　夜",
+      "publisher": "作品社",
+      "firstPublishedAt": "1988（昭和63）年10月25日",
+      "inputEdition": "1999（平成11）年4月30日第7刷",
+      "proofreadEdition": "1999（平成11）年4月30日第7刷"
+    },
+    "author": "正岡子規",
+    "authors": [
+      {
+        "personId": "000305",
+        "name": "正岡子規",
+        "kana": "まさおかしき",
+        "roman": "Shiki Masaoka",
+        "role": "著者",
+        "birthDate": "1867-10-14",
+        "deathDate": "1902-09-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

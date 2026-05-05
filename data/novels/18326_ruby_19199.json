@@ -274,5 +274,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "018326",
+    "title": "熊の足跡",
+    "titleKana": "くまのあしあと",
+    "sortKana": "くまのあしあと",
+    "ndc": "NDC 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-09-06",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000280/card18326.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000280/files/18326_ruby_19199.zip",
+    "textFileId": "18326_ruby_19199",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000280/files/18326_19239.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "現代紀行文学全集　北日本編",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1976（昭和51）年8月1日",
+      "inputEdition": "1976（昭和51）年8月1日初版",
+      "proofreadEdition": "1976（昭和51）年8月1日初版"
+    },
+    "author": "徳冨蘆花",
+    "authors": [
+      {
+        "personId": "000280",
+        "name": "徳冨蘆花",
+        "kana": "とくとみろか",
+        "roman": "Roka Tokutomi",
+        "role": "著者",
+        "birthDate": "1868-12-08",
+        "deathDate": "1927-09-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

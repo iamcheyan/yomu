@@ -1384,5 +1384,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003606",
+    "title": "現代日本の思想対立",
+    "titleKana": "げんだいにほんのしそうたいりつ",
+    "sortKana": "けんたいにほんのしそうたいりつ",
+    "firstAppearance": "「現代日本の思想対立」今日の問題社、1936（昭和11）年12月",
+    "ndc": "NDC 121",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-12-16",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000281/card3606.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000281/files/3606_ruby_45530.zip",
+    "textFileId": "3606_ruby_45530",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000281/files/3606_45590.html",
+    "inputBy": "矢野正人",
+    "proofreadBy": "青空文庫（校正支援）",
+    "baseBook1": {
+      "title": "戸坂潤全集　第五巻",
+      "publisher": "勁草書房",
+      "firstPublishedAt": "1967（昭和42）年2月25日",
+      "inputEdition": "1968（昭和43）年12月10日第3刷",
+      "proofreadEdition": "1976（昭和51）年3月15日第6刷"
+    },
+    "author": "戸坂潤",
+    "authors": [
+      {
+        "personId": "000281",
+        "name": "戸坂潤",
+        "kana": "とさかじゅん",
+        "roman": "Jun Tosaka",
+        "role": "著者",
+        "birthDate": "1900-09-27",
+        "deathDate": "1945-08-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

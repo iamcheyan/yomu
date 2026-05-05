@@ -238,5 +238,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "061164",
+    "title": "国訳史記列伝",
+    "titleKana": "こくやくしきれつでん",
+    "sortKana": "こくやくしきれつてん",
+    "subtitle": "06 伍子胥列伝第六",
+    "subtitleKana": "06 ごししょれつでんだいろく",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2025-02-10",
+    "updatedAt": "2025-02-09",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001524/card61164.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001524/files/61164_ruby_78254.zip",
+    "textFileId": "61164_ruby_78254",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001524/files/61164_78253.html",
+    "inputBy": "はまなかひとし",
+    "baseBook1": {
+      "title": "國譯漢文大成　經子史部第十五卷　史記列傳",
+      "publisher": "東洋文化協會",
+      "firstPublishedAt": "1955（昭和30）年5月30日",
+      "inputEdition": "1955（昭和30）年5月30日複版",
+      "proofreadEdition": "1955（昭和30）年5月30日複版"
+    },
+    "author": "司馬遷",
+    "authors": [
+      {
+        "personId": "001524",
+        "name": "司馬遷",
+        "kana": "しばせん",
+        "roman": "Sen Shiba",
+        "role": "著者",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

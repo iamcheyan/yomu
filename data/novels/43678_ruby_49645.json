@@ -696,5 +696,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043678",
+    "title": "地虫",
+    "titleKana": "じむし",
+    "sortKana": "しむし",
+    "firstAppearance": "「新青年」1937（昭和12）年2月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-04-30",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000125/card43678.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000125/files/43678_ruby_49645.zip",
+    "textFileId": "43678_ruby_49645",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000125/files/43678_50146.html",
+    "inputBy": "ロクス・ソルス",
+    "proofreadBy": "安里努",
+    "baseBook1": {
+      "title": "潜航艇「鷹の城」",
+      "publisher": "現代教養文庫、社会思想社",
+      "firstPublishedAt": "1977（昭和52）年12月15日",
+      "inputEdition": "1977（昭和52）年12月15日初版第1刷",
+      "proofreadEdition": "1994（平成6）年8月30日初版第3版"
+    },
+    "author": "小栗虫太郎",
+    "authors": [
+      {
+        "personId": "000125",
+        "name": "小栗虫太郎",
+        "kana": "おぐりむしたろう",
+        "roman": "Mushitaro Oguri",
+        "role": "著者",
+        "birthDate": "1901-03-14",
+        "deathDate": "1946-02-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

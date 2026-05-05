@@ -48,5 +48,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000422",
+    "title": "器楽的幻覚",
+    "titleKana": "きがくてきげんかく",
+    "sortKana": "きかくてきけんかく",
+    "firstAppearance": "「近代風景」1928（昭和3）年5月号",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-11-27",
+    "updatedAt": "2016-07-05",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000074/card422.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000074/files/422_ruby_19699.zip",
+    "textFileId": "422_ruby_19699",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000074/files/422_19700.html",
+    "inputBy": "j.utiyama",
+    "proofreadBy": "福地博文",
+    "baseBook1": {
+      "title": "檸檬・ある心の風景　他二十編",
+      "publisher": "旺文社文庫、旺文社",
+      "firstPublishedAt": "1972（昭和47）年12月10日",
+      "inputEdition": "1974（昭和49）年第4刷",
+      "proofreadEdition": "1974（昭和49）年第4刷"
+    },
+    "author": "梶井基次郎",
+    "authors": [
+      {
+        "personId": "000074",
+        "name": "梶井基次郎",
+        "kana": "かじいもとじろう",
+        "roman": "Motojiro Kajii",
+        "role": "著者",
+        "birthDate": "1901-02-17",
+        "deathDate": "1932-03-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

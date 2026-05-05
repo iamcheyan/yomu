@@ -48,5 +48,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053499",
+    "title": "陶古の女人",
+    "titleKana": "とうこのにょにん",
+    "sortKana": "とうこのによにん",
+    "firstAppearance": "「群像」1956（昭和31）年10月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-02-25",
+    "updatedAt": "2019-11-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001579/card53499.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001579/files/53499_ruby_64048.zip",
+    "textFileId": "53499_ruby_64048",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001579/files/53499_64140.html",
+    "inputBy": "日根敏晶",
+    "proofreadBy": "江村秀之",
+    "baseBook1": {
+      "title": "蜜のあわれ・われはうたえどもやぶれかぶれ",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1993（平成5）年5月10日",
+      "inputEdition": "1993（平成5）年5月10日第1刷",
+      "proofreadEdition": "1993（平成5）年5月10日第1刷"
+    },
+    "author": "室生犀星",
+    "authors": [
+      {
+        "personId": "001579",
+        "name": "室生犀星",
+        "kana": "むろうさいせい",
+        "roman": "Saisei Murou",
+        "role": "著者",
+        "birthDate": "1889-08-01",
+        "deathDate": "1962-03-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

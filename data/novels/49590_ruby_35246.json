@@ -58,5 +58,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049590",
+    "title": "二つの松川",
+    "titleKana": "ふたつのまつかわ",
+    "sortKana": "ふたつのまつかわ",
+    "firstAppearance": "「旅」1936（昭和11）年11月",
+    "ndc": "NDC 786",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-07-30",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001377/card49590.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001377/files/49590_ruby_35246.zip",
+    "textFileId": "49590_ruby_35246",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001377/files/49590_35561.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "山の旅　大正・昭和篇",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2003（平成15）年11月14日",
+      "inputEdition": "2007（平成19）年8月6日第5刷",
+      "proofreadEdition": "2007（平成19）年8月6日第5刷"
+    },
+    "author": "細井吉造",
+    "authors": [
+      {
+        "personId": "001377",
+        "name": "細井吉造",
+        "kana": "ほそいよしぞう",
+        "roman": "Yoshizo Hosoi",
+        "role": "著者",
+        "birthDate": "1904",
+        "deathDate": "1936-11-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

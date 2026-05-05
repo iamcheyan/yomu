@@ -144,5 +144,40 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002036",
+    "title": "蕎麦の味と食い方問題",
+    "titleKana": "そばのあじとくいかたもんだい",
+    "sortKana": "そはのあしとくいかたもんたい",
+    "ndc": "NDC 596",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-02-24",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000312/card2036.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000312/files/2036_ruby_22711.zip",
+    "textFileId": "2036_ruby_22711",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000312/files/2036_22712.html",
+    "inputBy": "加藤恭子",
+    "proofreadBy": "もりみつじゅんじ",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻19　蕎麦",
+      "publisher": "作品社",
+      "firstPublishedAt": "1992（平成4）年9月25日"
+    },
+    "author": "村井政善",
+    "authors": [
+      {
+        "personId": "000312",
+        "name": "村井政善",
+        "kana": "むらいまさよし",
+        "roman": "Masayoshi Murai",
+        "role": "著者",
+        "deathDate": "1937",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

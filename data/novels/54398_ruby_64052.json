@@ -108,5 +108,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054398",
+    "title": "街のシルヱット",
+    "titleKana": "まちのシルエット",
+    "sortKana": "まちのしるえつと",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-03-29",
+    "updatedAt": "2018-02-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001662/card54398.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001662/files/54398_ruby_64052.zip",
+    "textFileId": "54398_ruby_64052",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001662/files/54398_64144.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "沖縄文学全集　第1巻　詩Ⅰ",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "1991（平成3）年6月6日",
+      "inputEdition": "1991（平成3）年6月6日第1刷",
+      "proofreadEdition": "1991（平成3）年6月6日第1刷"
+    },
+    "author": "山口芳光",
+    "authors": [
+      {
+        "personId": "001662",
+        "name": "山口芳光",
+        "kana": "やまぐちよしみつ",
+        "roman": "Yoshimitsu Yamaguchi",
+        "role": "著者",
+        "deathDate": "1930",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

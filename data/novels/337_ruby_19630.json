@@ -4634,5 +4634,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000337",
+    "title": "土曜夫人",
+    "titleKana": "どようふじん",
+    "sortKana": "とようふしん",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-05-14",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000040/card337.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000040/files/337_ruby_19630.zip",
+    "textFileId": "337_ruby_19630",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000040/files/337_19631.html",
+    "inputBy": "佐藤洋之",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "定本織田作之助全集　第七巻",
+      "publisher": "文泉堂出版",
+      "firstPublishedAt": "1976（昭和51）年4月25日"
+    },
+    "author": "織田作之助",
+    "authors": [
+      {
+        "personId": "000040",
+        "name": "織田作之助",
+        "kana": "おださくのすけ",
+        "roman": "Sakunosuke Oda",
+        "role": "著者",
+        "birthDate": "1913-10-26",
+        "deathDate": "1947-01-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

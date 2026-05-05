@@ -410,5 +410,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056574",
+    "title": "三両清兵衛と名馬朝月",
+    "titleKana": "さんりょうせいべえとめいばあさづき",
+    "sortKana": "さんりようせいへえとめいはあさつき",
+    "firstAppearance": "「少年倶楽部」講談社、1931（昭和6）年6月号",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-06-21",
+    "updatedAt": "2022-06-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001791/card56574.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001791/files/56574_ruby_73434.zip",
+    "textFileId": "56574_ruby_73434",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001791/files/56574_73473.html",
+    "inputBy": "sogo",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "少年倶楽部名作選　3　少年詩・童謡ほか",
+      "publisher": "講談社",
+      "firstPublishedAt": "1966（昭和41）年12月17日",
+      "inputEdition": "1966（昭和41）年12月17日初版1刷",
+      "proofreadEdition": "1966（昭和41）年12月17日初版1刷"
+    },
+    "author": "安藤盛",
+    "authors": [
+      {
+        "personId": "001791",
+        "name": "安藤盛",
+        "kana": "あんどうさかん",
+        "roman": "Sakan Ando",
+        "role": "著者",
+        "birthDate": "1893-08-18",
+        "deathDate": "1938-06-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

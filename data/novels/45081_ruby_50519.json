@@ -530,5 +530,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045081",
+    "title": "鳥右ヱ門諸国をめぐる",
+    "titleKana": "とりえもんしょこくをめぐる",
+    "sortKana": "とりえもんしよこくをめくる",
+    "firstAppearance": "「花のき村と盗人たち」帝国教育会出版部、1943（昭和18）年9月30日",
+    "ndc": "NDC K913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-07-13",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000121/card45081.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000121/files/45081_ruby_50519.zip",
+    "textFileId": "45081_ruby_50519",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000121/files/45081_50851.html",
+    "inputBy": "菅野朋子",
+    "proofreadBy": "江村秀之",
+    "baseBook1": {
+      "title": "日本児童文学大系　第二八巻",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1978（昭和53）年11月30日",
+      "inputEdition": "1978（昭和53）年11月30日初刷",
+      "proofreadEdition": "1978（昭和53）年11月30日初刷"
+    },
+    "author": "新美南吉",
+    "authors": [
+      {
+        "personId": "000121",
+        "name": "新美南吉",
+        "kana": "にいみなんきち",
+        "roman": "Nankichi Niimi",
+        "role": "著者",
+        "birthDate": "1913-07-30",
+        "deathDate": "1943-03-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

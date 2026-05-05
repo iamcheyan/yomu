@@ -266,5 +266,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056896",
+    "title": "槍ガ岳",
+    "titleKana": "やりがたけ",
+    "sortKana": "やりかたけ",
+    "subtitle": "（北鎌尾根）",
+    "subtitleKana": "（きたかまおね）",
+    "firstAppearance": "「私家版　風説のビヴァーク」1950（昭和25）年1月6日",
+    "ndc": "NDC 786",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-03-16",
+    "updatedAt": "2015-02-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000307/card56896.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000307/files/56896_ruby_55955.zip",
+    "textFileId": "56896_ruby_55955",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000307/files/56896_56000.html",
+    "inputBy": "岡山勝美",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "新編　風雪のビヴァーク",
+      "publisher": "山と溪谷社",
+      "firstPublishedAt": "2000（平成12）年3月20日",
+      "inputEdition": "2000（平成12）年3月20日初版第1刷",
+      "proofreadEdition": "2000（平成12）年3月20日初版第1刷"
+    },
+    "author": "松濤明",
+    "authors": [
+      {
+        "personId": "000307",
+        "name": "松濤明",
+        "kana": "まつなみあきら",
+        "roman": "Akira Matsunami",
+        "role": "著者",
+        "birthDate": "1922-03-05",
+        "deathDate": "1949-01-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

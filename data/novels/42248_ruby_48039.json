@@ -72,5 +72,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042248",
+    "title": "生みの力",
+    "titleKana": "うみのちから",
+    "sortKana": "うみのちから",
+    "ndc": "NDC 901",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-08-14",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000492/card42248.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000492/files/42248_ruby_48039.zip",
+    "textFileId": "42248_ruby_48039",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000492/files/42248_48114.html",
+    "inputBy": "高柳典子",
+    "proofreadBy": "岩澤秀紀",
+    "baseBook1": {
+      "title": "片上伸全集　第1巻",
+      "publisher": "日本図書センター",
+      "firstPublishedAt": "1997（平成9）年3月25日",
+      "inputEdition": "1997（平成9）年3月25日復刻",
+      "proofreadEdition": "1997（平成9）年3月25日復刻"
+    },
+    "author": "片上伸",
+    "authors": [
+      {
+        "personId": "000492",
+        "name": "片上伸",
+        "kana": "かたがみのぶる",
+        "roman": "Noburu Katagami",
+        "role": "著者",
+        "birthDate": "1884-02-20",
+        "deathDate": "1928-03-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -102,5 +102,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057470",
+    "title": "家庭小言",
+    "titleKana": "かていこごと",
+    "sortKana": "かていここと",
+    "firstAppearance": "一「新佛教　第六卷第一號」新佛教徒同志會、1905（明治38）年1月1日<br>二「新佛教　第六卷第二號」新佛教徒同志會、1905（明治38）年2月1日<br>三「新佛教　第六卷第四號」新佛教徒同志會、1905（明治38）年4月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-05-30",
+    "updatedAt": "2017-03-11",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000058/card57470.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000058/files/57470_ruby_61331.zip",
+    "textFileId": "57470_ruby_61331",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000058/files/57470_61374.html",
+    "inputBy": "高瀬竜一",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "作家の自伝102　伊藤左千夫",
+      "publisher": "日本図書センター",
+      "firstPublishedAt": "2000（平成12）年11月25日",
+      "inputEdition": "2000（平成12）年11月25日初版第1刷",
+      "proofreadEdition": "2000（平成12）年11月25日初版第1刷"
+    },
+    "author": "伊藤左千夫",
+    "authors": [
+      {
+        "personId": "000058",
+        "name": "伊藤左千夫",
+        "kana": "いとうさちお",
+        "roman": "Sachio Ito",
+        "role": "著者",
+        "birthDate": "1864-09-18",
+        "deathDate": "1913-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -126,5 +126,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000745",
+    "title": "少女",
+    "titleKana": "しょうじょ",
+    "sortKana": "しようしよ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-05-17",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000020/card745.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000020/files/745_ruby_28539.zip",
+    "textFileId": "745_ruby_28539",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000020/files/745_28540.html",
+    "inputBy": "森下祐行",
+    "proofreadBy": "もりみつじゅんじ",
+    "baseBook1": {
+      "title": "アンドロギュノスの裔",
+      "publisher": "薔薇十字社",
+      "firstPublishedAt": "1970（昭和45）年9月1日"
+    },
+    "author": "渡辺温",
+    "authors": [
+      {
+        "personId": "000020",
+        "name": "渡辺温",
+        "kana": "わたなべおん",
+        "roman": "On Watanabe",
+        "role": "著者",
+        "birthDate": "1902-08-26",
+        "deathDate": "1930-02-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

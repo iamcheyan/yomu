@@ -52,5 +52,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049651",
+    "title": "帝国劇場のオペラ",
+    "titleKana": "ていこくげきじょうのオペラ",
+    "sortKana": "ていこくけきしようのおへら",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-02-04",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001341/card49651.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001341/files/49651_ruby_37947.zip",
+    "textFileId": "49651_ruby_37947",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001341/files/49651_37948.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "日和下駄　一名　東京散策記",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1999（平成11）年10月10日",
+      "inputEdition": "2006（平成18）年1月5日第7刷",
+      "proofreadEdition": "2006（平成18）年1月5日第7刷"
+    },
+    "author": "永井荷風",
+    "authors": [
+      {
+        "personId": "001341",
+        "name": "永井荷風",
+        "kana": "ながいかふう",
+        "roman": "Kafu Nagai",
+        "role": "著者",
+        "birthDate": "1879-12-03",
+        "deathDate": "1959-04-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

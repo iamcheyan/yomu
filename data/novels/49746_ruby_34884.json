@@ -2072,5 +2072,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049746",
+    "title": "その人を知らず",
+    "titleKana": "そのひとをしらず",
+    "sortKana": "そのひとをしらす",
+    "firstAppearance": "「人間　別冊　人間作品集」1948（昭和23）年6月",
+    "ndc": "NDC 912",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-05-06",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001311/card49746.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001311/files/49746_ruby_34884.zip",
+    "textFileId": "49746_ruby_34884",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001311/files/49746_34885.html",
+    "inputBy": "伊藤時也",
+    "proofreadBy": "伊藤時也、及川　雅",
+    "baseBook1": {
+      "title": "三好十郎の仕事　第三巻",
+      "publisher": "學藝書林",
+      "firstPublishedAt": "1968（昭和43）年9月30日",
+      "inputEdition": "1968（昭和43）年9月30日第1刷",
+      "proofreadEdition": "1968（昭和43年）9月30日第1刷"
+    },
+    "author": "三好十郎",
+    "authors": [
+      {
+        "personId": "001311",
+        "name": "三好十郎",
+        "kana": "みよしじゅうろう",
+        "roman": "Juro Miyoshi",
+        "role": "著者",
+        "birthDate": "1902-04-21",
+        "deathDate": "1958-12-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

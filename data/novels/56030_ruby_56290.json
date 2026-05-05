@@ -592,5 +592,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056030",
+    "title": "にはかへんろ記",
+    "titleKana": "にわかへんろき",
+    "sortKana": "にわかへんろき",
+    "ndc": "NDC 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-04-30",
+    "updatedAt": "2015-03-19",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001692/card56030.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001692/files/56030_ruby_56290.zip",
+    "textFileId": "56030_ruby_56290",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001692/files/56030_56101.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻21　巡礼",
+      "publisher": "作品社",
+      "firstPublishedAt": "1992（平成4）年11月25日",
+      "inputEdition": "1992（平成4）年11月25日第1刷",
+      "proofreadEdition": "1992（平成4）年11月25日第1刷"
+    },
+    "author": "久保田万太郎",
+    "authors": [
+      {
+        "personId": "001692",
+        "name": "久保田万太郎",
+        "kana": "くぼたまんたろう",
+        "roman": "Mantaro Kubota",
+        "role": "著者",
+        "birthDate": "1889-11-07",
+        "deathDate": "1963-05-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

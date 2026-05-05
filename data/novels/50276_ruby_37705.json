@@ -232,5 +232,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050276",
+    "title": "男ごゝろ",
+    "titleKana": "おとこごころ",
+    "sortKana": "おとここころ",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-01-15",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001341/card50276.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001341/files/50276_ruby_37705.zip",
+    "textFileId": "50276_ruby_37705",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001341/files/50276_37757.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻83　男心",
+      "publisher": "作品社",
+      "firstPublishedAt": "1998（平成10）年1月25日",
+      "inputEdition": "1998（平成10）年1月25日第1刷",
+      "proofreadEdition": "1998（平成10）年1月25日第1刷"
+    },
+    "author": "永井荷風",
+    "authors": [
+      {
+        "personId": "001341",
+        "name": "永井荷風",
+        "kana": "ながいかふう",
+        "roman": "Kafu Nagai",
+        "role": "著者",
+        "birthDate": "1879-12-03",
+        "deathDate": "1959-04-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -62,5 +62,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047098",
+    "title": "新たに法学部に入学された諸君へ",
+    "titleKana": "あらたにほうがくぶににゅうがくされたしょくんへ",
+    "sortKana": "あらたにほうかくふににゆうかくされたしよくんへ",
+    "firstAppearance": "「法律時報　九巻四号」1937（昭和12）年4月",
+    "ndc": "NDC 320",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-05-22",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000922/card47098.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000922/files/47098_ruby_29757.zip",
+    "textFileId": "47098_ruby_29757",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000922/files/47098_31034.html",
+    "inputBy": "sogo",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "役人学三則",
+      "publisher": "岩波現代文庫、岩波書店",
+      "firstPublishedAt": "2000（平成12）年2月16日",
+      "inputEdition": "2000（平成12）年2月16日第1刷",
+      "proofreadEdition": "2001（平成13）年1月10日第4刷"
+    },
+    "author": "末弘厳太郎",
+    "authors": [
+      {
+        "personId": "000922",
+        "name": "末弘厳太郎",
+        "kana": "すえひろいずたろう",
+        "roman": "Izutaro Suehiro",
+        "role": "著者",
+        "birthDate": "1888-11-30",
+        "deathDate": "1951-09-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

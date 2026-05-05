@@ -1144,5 +1144,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050423",
+    "title": "三太郎の日記　第三",
+    "titleKana": "さんたろうのにっき　だいさん",
+    "sortKana": "さんたろうのにつきたいさん",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-03-20",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001421/card50423.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001421/files/50423_ruby_46749.zip",
+    "textFileId": "50423_ruby_46749",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001421/files/50423_47066.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "山川",
+    "baseBook1": {
+      "title": "合本三太郎の日記",
+      "publisher": "角川書店",
+      "firstPublishedAt": "1950（昭和25）年3月15日",
+      "inputEdition": "1966（昭和41）年10月30日50版",
+      "proofreadEdition": "1966（昭和41）年10月30日50版"
+    },
+    "author": "阿部次郎",
+    "authors": [
+      {
+        "personId": "001421",
+        "name": "阿部次郎",
+        "kana": "あべじろう",
+        "roman": "Jiro Abe",
+        "role": "著者",
+        "birthDate": "1883-08-27",
+        "deathDate": "1959-10-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

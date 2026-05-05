@@ -1336,5 +1336,36 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053757",
+    "title": "コレラの伝染様式について",
+    "titleKana": "コレラのでんせんようしきについて",
+    "sortKana": "これらのてんせんようしきについて",
+    "originalTitle": "ON THE MODE OF COMMUNICATION OF CHOLERA",
+    "ndc": "NDC 493",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2011-09-21",
+    "updatedAt": "2019-06-08",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001600/card53757.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001600/files/53757_ruby_67623.zip",
+    "textFileId": "53757_ruby_67623",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001600/files/53757_67624.html",
+    "proofreadBy": "The Creative CAT",
+    "author": "スノウジョン",
+    "authors": [
+      {
+        "personId": "001600",
+        "name": "スノウジョン",
+        "kana": "スノウジョン",
+        "roman": "John Snow",
+        "role": "著者",
+        "birthDate": "1813-03-15",
+        "deathDate": "1858-06-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

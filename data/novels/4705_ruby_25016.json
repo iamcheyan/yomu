@@ -72,5 +72,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004705",
+    "title": "尹主事",
+    "titleKana": "ゆんしゅじ",
+    "sortKana": "ゆんしゆし",
+    "firstAppearance": "「故郷」甲鳥書林、1941（昭和16）年",
+    "ndc": "NDC 913",
+    "orthography": "旧字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-02-09",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000252/card4705.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000252/files/4705_ruby_25016.zip",
+    "textFileId": "4705_ruby_25016",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000252/files/4705_25714.html",
+    "inputBy": "ゼファー生",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "金史良作品集",
+      "publisher": "理論社",
+      "firstPublishedAt": "1954（昭和29）年6月20日",
+      "inputEdition": "1972（昭和47）年3月新装版第1刷",
+      "proofreadEdition": "1954（昭和29）年6月20日第1刷"
+    },
+    "author": "金史良",
+    "authors": [
+      {
+        "personId": "000252",
+        "name": "金史良",
+        "kana": "きむさりゃん",
+        "roman": "Sa-ryang Kim",
+        "role": "著者",
+        "birthDate": "1914-03-03",
+        "deathDate": "1950",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -926,5 +926,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002560",
+    "title": "註釈与謝野寛全集",
+    "titleKana": "ちゅうしゃくよさのひろしぜんしゅう",
+    "sortKana": "ちゆうしやくよさのひろしせんしゆう",
+    "firstAppearance": "「冬柏」新詩社、1935（昭和10）年6月号、7月号、9月号、10月号、12月号、1936（昭和11）年2月号",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-04-10",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000885/card2560.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000885/files/2560_ruby_17980.zip",
+    "textFileId": "2560_ruby_17980",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000885/files/2560_18074.html",
+    "inputBy": "武田秀男",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "冬柏",
+      "publisher": "新詩社",
+      "firstPublishedAt": "1935（昭和10）年6月号、7月号、9月号、10月号、12月号、1936（昭和11）年2月号"
+    },
+    "author": "与謝野晶子",
+    "authors": [
+      {
+        "personId": "000885",
+        "name": "与謝野晶子",
+        "kana": "よさのあきこ",
+        "roman": "Akiko Yosano",
+        "role": "著者",
+        "birthDate": "1878-12-07",
+        "deathDate": "1942-05-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

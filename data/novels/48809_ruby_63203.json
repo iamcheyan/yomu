@@ -82,5 +82,54 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048809",
+    "title": "赤い鳥居",
+    "titleKana": "あかいとりい",
+    "sortKana": "あかいとりい",
+    "firstAppearance": "「令女界　第四巻第五号」1925（大正14）年5月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-12-13",
+    "updatedAt": "2017-11-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000214/card48809.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000214/files/48809_ruby_63203.zip",
+    "textFileId": "48809_ruby_63203",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000214/files/48809_63345.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "津村田悟",
+    "baseBook1": {
+      "title": "定本　花袋全集　第二十二巻",
+      "publisher": "臨川書店",
+      "firstPublishedAt": "1995（平成7）年2月10日",
+      "inputEdition": "1995（平成7）年2月10日",
+      "proofreadEdition": "1995（平成7）年2月10日"
+    },
+    "author": "田山花袋、田山録弥",
+    "authors": [
+      {
+        "personId": "000214",
+        "name": "田山花袋",
+        "kana": "たやまかたい",
+        "roman": "Katai Tayama",
+        "role": "著者",
+        "birthDate": "1872-01-22",
+        "deathDate": "1930-05-13",
+        "copyright": "なし"
+      },
+      {
+        "personId": "001416",
+        "name": "田山録弥",
+        "kana": "たやまろくや",
+        "roman": "Rokuya Tayama",
+        "role": "著者",
+        "birthDate": "1872-01-22",
+        "deathDate": "1930-05-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

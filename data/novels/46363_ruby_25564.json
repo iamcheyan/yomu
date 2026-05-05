@@ -190,5 +190,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046363",
+    "title": "回想録",
+    "titleKana": "かいそうろく",
+    "sortKana": "かいそうろく",
+    "ndc": "NDC 289",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-01-18",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001168/card46363.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001168/files/46363_ruby_25564.zip",
+    "textFileId": "46363_ruby_25564",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001168/files/46363_25616.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "昭和文学全集　第4巻",
+      "publisher": "小学館",
+      "firstPublishedAt": "1989（平成元）年4月1日",
+      "inputEdition": "1993（平成5）年9月10日初版第2刷発行",
+      "proofreadEdition": "1993（平成5）年9月10日初版第2刷発行"
+    },
+    "author": "高村光太郎",
+    "authors": [
+      {
+        "personId": "001168",
+        "name": "高村光太郎",
+        "kana": "たかむらこうたろう",
+        "roman": "Kotaro Takamura",
+        "role": "著者",
+        "birthDate": "1883-03-13",
+        "deathDate": "1956-04-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

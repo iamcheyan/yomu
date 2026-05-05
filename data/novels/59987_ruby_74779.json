@@ -110,5 +110,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059987",
+    "title": "名詩集「思ひ出」の真価",
+    "titleKana": "めいししゅう「おもいで」のしんか",
+    "sortKana": "めいししゆうおもいてのしんか",
+    "firstAppearance": "「アルスグラフ　第二卷第一、二號」1926（大正15）年1、2月号",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-01-25",
+    "updatedAt": "2021-12-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000067/card59987.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000067/files/59987_ruby_74779.zip",
+    "textFileId": "59987_ruby_74779",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000067/files/59987_74813.html",
+    "inputBy": "岡村和彦",
+    "proofreadBy": "きりんの手紙",
+    "baseBook1": {
+      "title": "萩原朔太郎全集　第八卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1976（昭和51）年7月25日",
+      "inputEdition": "1976（昭和51）年7月25日初版",
+      "proofreadEdition": "1976（昭和51）年7月25日初版"
+    },
+    "author": "萩原朔太郎",
+    "authors": [
+      {
+        "personId": "000067",
+        "name": "萩原朔太郎",
+        "kana": "はぎわらさくたろう",
+        "roman": "Sakutaro Hagiwara",
+        "role": "著者",
+        "birthDate": "1886-11-01",
+        "deathDate": "1942-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

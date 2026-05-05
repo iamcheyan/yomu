@@ -74,5 +74,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060668",
+    "title": "ねこ",
+    "titleKana": "ねこ",
+    "sortKana": "ねこ",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-11-26",
+    "updatedAt": "2021-10-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/002169/card60668.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/002169/files/60668_ruby_74394.zip",
+    "textFileId": "60668_ruby_74394",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/002169/files/60668_74432.html",
+    "inputBy": "かな　とよみ",
+    "proofreadBy": "The Creative CAT",
+    "baseBook1": {
+      "title": "戀の潜航",
+      "publisher": "改善社",
+      "firstPublishedAt": "1926（大正15）年10月10日",
+      "inputEdition": "1926（大正15）年10月10日",
+      "proofreadEdition": "1926（大正15）年10月10日"
+    },
+    "author": "北村兼子",
+    "authors": [
+      {
+        "personId": "002169",
+        "name": "北村兼子",
+        "kana": "きたむらかねこ",
+        "roman": "Kaneko Kitamura",
+        "role": "著者",
+        "birthDate": "1903-11-26",
+        "deathDate": "1931-07-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

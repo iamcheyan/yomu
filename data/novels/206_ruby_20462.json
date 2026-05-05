@@ -112,5 +112,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000206",
+    "title": "小さき者へ",
+    "titleKana": "ちいさきものへ",
+    "sortKana": "ちいさきものへ",
+    "firstAppearance": "「新潮」1918（大正7）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-02-13",
+    "updatedAt": "2019-11-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000025/card206.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000025/files/206_ruby_20462.zip",
+    "textFileId": "206_ruby_20462",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000025/files/206_20463.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "小さき者へ・生れ出づる悩み",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1955（昭和30）年1月30日、1980（昭和55）年2月10日改版49刷",
+      "inputEdition": "1986（昭和61）年4月30日発行改版63刷"
+    },
+    "author": "有島武郎",
+    "authors": [
+      {
+        "personId": "000025",
+        "name": "有島武郎",
+        "kana": "ありしまたけお",
+        "roman": "Takeo Arishima",
+        "role": "著者",
+        "birthDate": "1878-03-04",
+        "deathDate": "1923-06-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

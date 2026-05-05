@@ -3926,5 +3926,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001502",
+    "title": "破戒",
+    "titleKana": "はかい",
+    "sortKana": "はかい",
+    "firstAppearance": "「破戒」緑蔭叢書第壱編、島崎春樹（自費出版）、1906（明治39）年3月25日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-12-30",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000158/card1502.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000158/files/1502_ruby_24534.zip",
+    "textFileId": "1502_ruby_24534",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000158/files/1502_24633.html",
+    "inputBy": "野口英司",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "現代日本文學大系13　島崎藤村集（一）",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1968（昭和43）年10月1日",
+      "inputEdition": "1968（昭和43）年10月1日初版第1刷",
+      "proofreadEdition": "1968（昭和43）年10月1日初版第1刷"
+    },
+    "author": "島崎藤村",
+    "authors": [
+      {
+        "personId": "000158",
+        "name": "島崎藤村",
+        "kana": "しまざきとうそん",
+        "roman": "Toson Shimazaki",
+        "role": "著者",
+        "birthDate": "1872-03-25",
+        "deathDate": "1943-08-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -292,5 +292,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004811",
+    "title": "恢復期",
+    "titleKana": "かいふくき",
+    "sortKana": "かいふくき",
+    "firstAppearance": "「改造」1931（昭和6）年12月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-02-07",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001030/card4811.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001030/files/4811_ruby_14377.zip",
+    "textFileId": "4811_ruby_14377",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001030/files/4811_14378.html",
+    "inputBy": "kompass",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "燃ゆる頬・聖家族",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1947（昭和22）年11月30日発行、1970（昭和45）年3月30日26刷改版",
+      "inputEdition": "1987（昭和62）年10月20日51刷"
+    },
+    "author": "堀辰雄",
+    "authors": [
+      {
+        "personId": "001030",
+        "name": "堀辰雄",
+        "kana": "ほりたつお",
+        "roman": "Tatsuo Hori",
+        "role": "著者",
+        "birthDate": "1904-12-28",
+        "deathDate": "1953-05-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

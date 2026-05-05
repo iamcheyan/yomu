@@ -38,5 +38,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052021",
+    "title": "呑み込み八百長",
+    "titleKana": "のみこみやおちょう",
+    "sortKana": "のみこみやおちよう",
+    "ndc": "NDC 788",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-01-29",
+    "updatedAt": "2014-12-15",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001527/card52021.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001527/files/52021_ruby_55297.zip",
+    "textFileId": "52021_ruby_55297",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001527/files/52021_55385.html",
+    "inputBy": "浦山敦子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻2　相撲",
+      "publisher": "作品社",
+      "firstPublishedAt": "1991（平成3）年4月25日",
+      "inputEdition": "1991（平成3）年4月25日第1刷",
+      "proofreadEdition": "1991（平成3）年4月25日第1刷"
+    },
+    "author": "栗島山之助",
+    "authors": [
+      {
+        "personId": "001527",
+        "name": "栗島山之助",
+        "kana": "くりしまさんのすけ",
+        "roman": "Sannosuke Kurishima",
+        "role": "著者",
+        "birthDate": "1876-04-01",
+        "deathDate": "1945-11-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

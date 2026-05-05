@@ -290,5 +290,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046648",
+    "title": "書記官",
+    "titleKana": "しょきかん",
+    "sortKana": "しよきかん",
+    "firstAppearance": "「太陽」1895（明治28）年2月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-04-21",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000507/card46648.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000507/files/46648_ruby_26374.zip",
+    "textFileId": "46648_ruby_26374",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000507/files/46648_26530.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "日本の文学　77　名作集（一）",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1970（昭和45）年7月5日",
+      "inputEdition": "1971（昭和46）年4月30日再版",
+      "proofreadEdition": "1970（昭和45）年7月5日初版"
+    },
+    "author": "川上眉山",
+    "authors": [
+      {
+        "personId": "000507",
+        "name": "川上眉山",
+        "kana": "かわかみびざん",
+        "roman": "Bizan Kawakami",
+        "role": "著者",
+        "birthDate": "1869-04-16",
+        "deathDate": "1908-06-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

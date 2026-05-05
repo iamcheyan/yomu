@@ -172,5 +172,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058175",
+    "title": "ぞなもし狩り",
+    "titleKana": "ぞなもしがり",
+    "sortKana": "そなもしかり",
+    "firstAppearance": "「大分合同新聞」2016（平成28）年4月30日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2017-01-02",
+    "updatedAt": "2016-12-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001916/card58175.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001916/files/58175_ruby_60558.zip",
+    "textFileId": "58175_ruby_60558",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001916/files/58175_60559.html",
+    "inputBy": "円城塔",
+    "proofreadBy": "大久保ゆう",
+    "baseBook1": {
+      "title": "大分合同新聞（朝刊）",
+      "publisher": "大分合同新聞社",
+      "firstPublishedAt": "2016（平成28）年4月30日",
+      "inputEdition": "2016（平成28）年4月30日",
+      "proofreadEdition": "2016（平成28）年4月30日"
+    },
+    "author": "円城塔",
+    "authors": [
+      {
+        "personId": "001916",
+        "name": "円城塔",
+        "kana": "えんじょうとう",
+        "roman": "Toh EnJoe",
+        "role": "著者",
+        "birthDate": "1972-09-15",
+        "copyright": "あり"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

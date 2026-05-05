@@ -42,5 +42,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051135",
+    "title": "検疫と荷物検査",
+    "titleKana": "けんえきとにもつけんさ",
+    "sortKana": "けんえきとにもつけんさ",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-07-25",
+    "updatedAt": "2018-06-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000608/card51135.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000608/files/51135_ruby_65180.zip",
+    "textFileId": "51135_ruby_65180",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000608/files/51135_65223.html",
+    "inputBy": "浦山敦子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆79　港",
+      "publisher": "作品社",
+      "firstPublishedAt": "1989（平成元）年5月25日",
+      "inputEdition": "1989（平成元）年5月25日第1刷",
+      "proofreadEdition": "1989（平成元）年5月25日第1刷"
+    },
+    "author": "杉村楚人冠",
+    "authors": [
+      {
+        "personId": "000608",
+        "name": "杉村楚人冠",
+        "kana": "すぎむらそじんかん",
+        "roman": "Sojinkan Sugimura",
+        "role": "著者",
+        "birthDate": "1872-08-28",
+        "deathDate": "1945-10-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -276,5 +276,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043238",
+    "title": "幸徳秋水と僕",
+    "titleKana": "こうとくしゅうすいとぼく",
+    "sortKana": "こうとくしゆうすいとほく",
+    "subtitle": "――反逆児の悩みを語る――",
+    "subtitleKana": "――はんぎゃくじのなやみをかたる――",
+    "firstAppearance": "「朝日新聞」1933（昭和8）4月15～20日",
+    "ndc": "NDC 312 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-10-21",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000525/card43238.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000525/files/43238_ruby_24025.zip",
+    "textFileId": "43238_ruby_24025",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000525/files/43238_24362.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "近代日本思想大系10　木下尚江集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1975（昭和50）年7月20日",
+      "inputEdition": "1975（昭和50）年7月20日初版第1刷",
+      "proofreadEdition": "1975（昭和50）年7月20日初版第1刷"
+    },
+    "author": "木下尚江",
+    "authors": [
+      {
+        "personId": "000525",
+        "name": "木下尚江",
+        "kana": "きのしたなおえ",
+        "roman": "Naoe Kinoshita",
+        "role": "著者",
+        "birthDate": "1869-10-12",
+        "deathDate": "1937-11-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

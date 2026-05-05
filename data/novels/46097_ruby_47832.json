@@ -316,5 +316,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046097",
+    "title": "虹の橋",
+    "titleKana": "にじのはし",
+    "sortKana": "にしのはし",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-07-14",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001224/card46097.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001224/files/46097_ruby_47832.zip",
+    "textFileId": "46097_ruby_47832",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001224/files/46097_47970.html",
+    "inputBy": "笠原正純",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "久夫十蘭全集　Ⅱ",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1970（昭和45）年1月31日",
+      "inputEdition": "1983（昭和58）年09月30日第1版5刷",
+      "proofreadEdition": "1992（平成4）年2月29日第1版第8刷"
+    },
+    "author": "久生十蘭",
+    "authors": [
+      {
+        "personId": "001224",
+        "name": "久生十蘭",
+        "kana": "ひさおじゅうらん",
+        "roman": "Juran Hisao",
+        "role": "著者",
+        "birthDate": "1902-04-06",
+        "deathDate": "1957-10-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

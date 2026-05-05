@@ -486,5 +486,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002929",
+    "title": "天馬",
+    "titleKana": "てんま",
+    "sortKana": "てんま",
+    "firstAppearance": "「文芸春秋」1940（昭和15）年6月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-03-02",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000252/card2929.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000252/files/2929_ruby_37327.zip",
+    "textFileId": "2929_ruby_37327",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000252/files/2929_38047.html",
+    "inputBy": "kompass",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "光の中に　金史良作品集",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "1999(平成11)年4月10日",
+      "inputEdition": "1999(平成11)年4月10日第1刷",
+      "proofreadEdition": "1999(平成11)年4月10日第1刷"
+    },
+    "author": "金史良",
+    "authors": [
+      {
+        "personId": "000252",
+        "name": "金史良",
+        "kana": "きむさりゃん",
+        "roman": "Sa-ryang Kim",
+        "role": "著者",
+        "birthDate": "1914-03-03",
+        "deathDate": "1950",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

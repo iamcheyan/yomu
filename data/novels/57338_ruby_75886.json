@@ -242,5 +242,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057338",
+    "title": "竹乃里人",
+    "titleKana": "たけのさとびと",
+    "sortKana": "たけのさとひと",
+    "firstAppearance": "竹乃里人「馬醉木　第六號」根岸短歌会、1903（明治36）年11月13日<br>竹乃里人「馬醉木　第八號」根岸短歌会、1904（明治37）年2月2日<br>竹の里人「馬醉木　第十一號」根岸短歌会、1904（明治37）年5月5日<br>竹乃里人「馬醉木　第十二號」根岸短歌会、1904（明治37）年7月15日<br>竹の里人「馬醉木　第十三號」根岸短歌会、1904（明治37）年8月25日",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-07-30",
+    "updatedAt": "2022-06-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000058/card57338.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000058/files/57338_ruby_75886.zip",
+    "textFileId": "57338_ruby_75886",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000058/files/57338_75921.html",
+    "inputBy": "高瀬竜一",
+    "proofreadBy": "hitsuji",
+    "baseBook1": {
+      "title": "子規選集　第十二巻　子規の思い出",
+      "publisher": "増進会出版社",
+      "firstPublishedAt": "2002（平成14）年11月5日",
+      "inputEdition": "2002（平成14）年11月5日初版第1刷",
+      "proofreadEdition": "2002（平成14）年11月5日初版第1刷"
+    },
+    "author": "伊藤左千夫",
+    "authors": [
+      {
+        "personId": "000058",
+        "name": "伊藤左千夫",
+        "kana": "いとうさちお",
+        "roman": "Sachio Ito",
+        "role": "著者",
+        "birthDate": "1864-09-18",
+        "deathDate": "1913-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

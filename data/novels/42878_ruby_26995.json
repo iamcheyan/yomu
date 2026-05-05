@@ -72,5 +72,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042878",
+    "title": "思想なき眼",
+    "titleKana": "しそうなきめ",
+    "sortKana": "しそうなきめ",
+    "subtitle": "――「危険な関係」に寄せて――",
+    "subtitleKana": "――「きけんなかんけい」によせて――",
+    "firstAppearance": "「世界文学　第一四号」1947（昭和22）年10月10日",
+    "ndc": "NDC 914 954",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-07-26",
+    "updatedAt": "2016-04-15",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card42878.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/42878_ruby_26995.zip",
+    "textFileId": "42878_ruby_26995",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/42878_27502.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "oterudon",
+    "baseBook1": {
+      "title": "坂口安吾全集　05",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1998（平成10）年6月20日",
+      "inputEdition": "1998（平成10）年6月20日初版第1刷",
+      "proofreadEdition": "1998（平成10）年6月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

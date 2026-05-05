@@ -188,5 +188,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048577",
+    "title": "ストリップ修学旅行",
+    "titleKana": "ストリップしゅうがくりょこう",
+    "sortKana": "すとりつふしゆうかくりよこう",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-03-03",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001293/card48577.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001293/files/48577_ruby_37324.zip",
+    "textFileId": "48577_ruby_37324",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001293/files/48577_38051.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "猿々合戦",
+      "publisher": "要書房",
+      "firstPublishedAt": "1953（昭和28）年9月15日",
+      "inputEdition": "1953（昭和28）年9月15日",
+      "proofreadEdition": "1953（昭和28）年9月15日"
+    },
+    "author": "小野佐世男",
+    "authors": [
+      {
+        "personId": "001293",
+        "name": "小野佐世男",
+        "kana": "おのさせお",
+        "roman": "Saseo Ono",
+        "role": "著者",
+        "birthDate": "1905-02-06",
+        "deathDate": "1954-02-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

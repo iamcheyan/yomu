@@ -66,5 +66,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048213",
+    "title": "佐渡が島",
+    "titleKana": "さどがしま",
+    "sortKana": "さとかしま",
+    "subtitle": "波の上",
+    "subtitleKana": "なみのうえ",
+    "firstAppearance": "「佐渡が島　長塚節自筆草稿」日本古書通信社、1966（昭和41）年9月",
+    "ndc": "NDC 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-08-03",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000118/card48213.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000118/files/48213_ruby_38819.zip",
+    "textFileId": "48213_ruby_38819",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000118/files/48213_39754.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "長塚節全集　第二巻",
+      "publisher": "春陽堂書店",
+      "firstPublishedAt": "1977（昭和52）年1月31日",
+      "inputEdition": "1977（昭和52）年1月31日",
+      "proofreadEdition": "1977（昭和52）年1月31日"
+    },
+    "author": "長塚節",
+    "authors": [
+      {
+        "personId": "000118",
+        "name": "長塚節",
+        "kana": "ながつかたかし",
+        "roman": "Takashi Nagatsuka",
+        "role": "著者",
+        "birthDate": "1879-04-03",
+        "deathDate": "1915-02-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

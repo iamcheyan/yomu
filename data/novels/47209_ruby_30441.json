@@ -352,5 +352,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047209",
+    "title": "赤坂城の謀略",
+    "titleKana": "あかさかじょうのからくり",
+    "sortKana": "あかさかしようのからくり",
+    "firstAppearance": "「日の出」1935（昭和10）年6月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-06-15",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card47209.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/47209_ruby_30441.zip",
+    "textFileId": "47209_ruby_30441",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/47209_31483.html",
+    "inputBy": "阿和泉拓",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "時代小説を読む　城之巻",
+      "publisher": "大陸書房",
+      "firstPublishedAt": "1991（平成3）年1月10日初版",
+      "inputEdition": "1991（平成3）年1月10日初版",
+      "proofreadEdition": "1991（平成3）年1月10日初版"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

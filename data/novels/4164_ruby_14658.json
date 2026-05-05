@@ -82,5 +82,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004164",
+    "title": "黄銅時代の為",
+    "titleKana": "おうどうじだいのため",
+    "sortKana": "おうとうしたいのため",
+    "firstAppearance": "「宮本百合子全集　第十八巻」新日本出版社、1981（昭和56）年5月30日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-04-24",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000311/card4164.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000311/files/4164_ruby_14658.zip",
+    "textFileId": "4164_ruby_14658",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000311/files/4164_14759.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "磐余彦",
+    "baseBook1": {
+      "title": "宮本百合子全集　第十八巻",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1981（昭和56）年5月30日",
+      "inputEdition": "1986（昭和61）年3月20日第2版第1刷"
+    },
+    "author": "宮本百合子",
+    "authors": [
+      {
+        "personId": "000311",
+        "name": "宮本百合子",
+        "kana": "みやもとゆりこ",
+        "roman": "Yuriko Miyamoto",
+        "role": "著者",
+        "birthDate": "1899-02-13",
+        "deathDate": "1951-01-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

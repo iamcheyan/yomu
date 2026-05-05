@@ -130,5 +130,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002522",
+    "title": "青年",
+    "titleKana": "せいねん",
+    "sortKana": "せいねん",
+    "firstAppearance": "「昴」1910（明治43）年3月～1911（明治44）年8月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-12-22",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card2522.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/2522_ruby_5001.zip",
+    "textFileId": "2522_ruby_5001",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/2522_5002.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "藤田禎宏",
+    "baseBook1": {
+      "title": "青年",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1948（昭和23）年12月15日、1985（昭和60）年11月15日66刷改版",
+      "inputEdition": "1998（平成10）年2月15日第85刷"
+    },
+    "author": "森鴎外",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

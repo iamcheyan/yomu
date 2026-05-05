@@ -1638,5 +1638,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056068",
+    "title": "篝火の女",
+    "titleKana": "かがりびのおんな",
+    "sortKana": "かかりひのおんな",
+    "firstAppearance": "「キング」大日本雄辯會講談社、1935（昭和10）年8月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-03-10",
+    "updatedAt": "2015-01-15",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001562/card56068.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001562/files/56068_ruby_52997.zip",
+    "textFileId": "56068_ruby_52997",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001562/files/56068_53044.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "吉川英治全集・43　新・水滸傳（二）",
+      "publisher": "講談社",
+      "firstPublishedAt": "1967（昭和42）年6月20日",
+      "inputEdition": "1967（昭和42）年6月20日第1刷",
+      "proofreadEdition": "1967（昭和42）年6月20日第1刷"
+    },
+    "author": "吉川英治",
+    "authors": [
+      {
+        "personId": "001562",
+        "name": "吉川英治",
+        "kana": "よしかわえいじ",
+        "roman": "Eiji Yoshikawa",
+        "role": "著者",
+        "birthDate": "1892-08-11",
+        "deathDate": "1962-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -66,5 +66,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050727",
+    "title": "人格の養成",
+    "titleKana": "じんかくのようせい",
+    "sortKana": "しんかくのようせい",
+    "firstAppearance": "「をんな　五巻四号」大日本女学会、1905（明治38）年4月15日",
+    "ndc": "NDC 370",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-07-29",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000718/card50727.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000718/files/50727_ruby_38730.zip",
+    "textFileId": "50727_ruby_38730",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000718/files/50727_39694.html",
+    "inputBy": "田中哲郎",
+    "proofreadBy": "ゆうき",
+    "baseBook1": {
+      "title": "新渡戸稲造論集",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2007（平成19）年5月16日",
+      "inputEdition": "2007（平成19）年5月16日第1刷",
+      "proofreadEdition": "2007（平成19）年6月25日第2刷"
+    },
+    "author": "新渡戸稲造",
+    "authors": [
+      {
+        "personId": "000718",
+        "name": "新渡戸稲造",
+        "kana": "にとべいなぞう",
+        "roman": "Inazo Nitobe",
+        "role": "著者",
+        "birthDate": "1862-09-01",
+        "deathDate": "1933-10-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

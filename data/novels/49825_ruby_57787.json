@@ -2252,5 +2252,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049825",
+    "title": "青年の思索のために",
+    "titleKana": "せいねんのしさくのために",
+    "sortKana": "せいねんのしさくのために",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-12-28",
+    "updatedAt": "2015-12-07",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001097/card49825.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001097/files/49825_ruby_57787.zip",
+    "textFileId": "49825_ruby_57787",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001097/files/49825_57788.html",
+    "inputBy": "小島丈幸",
+    "proofreadBy": "酒井和郎",
+    "baseBook1": {
+      "title": "青年の思索のために",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1955（昭和30）年8月25日",
+      "inputEdition": "1990（平成2）年8月25日50刷",
+      "proofreadEdition": "1990（平成2）年8月25日50刷"
+    },
+    "author": "下村湖人",
+    "authors": [
+      {
+        "personId": "001097",
+        "name": "下村湖人",
+        "kana": "しもむらこじん",
+        "roman": "Kojin Shimomura",
+        "role": "著者",
+        "birthDate": "1884-10-03",
+        "deathDate": "1955-04-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

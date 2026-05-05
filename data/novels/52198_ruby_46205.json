@@ -36,5 +36,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052198",
+    "title": "菓子の譜",
+    "titleKana": "かしのふ",
+    "sortKana": "かしのふ",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-01-03",
+    "updatedAt": "2016-01-19",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001534/card52198.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001534/files/52198_ruby_46205.zip",
+    "textFileId": "52198_ruby_46205",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001534/files/52198_46249.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆54　菓",
+      "publisher": "作品社",
+      "firstPublishedAt": "1987（昭和62）年4月25日",
+      "inputEdition": "1997（平成9）年5月20日第8刷",
+      "proofreadEdition": "1997（平成9）年5月20日第8刷"
+    },
+    "author": "岩本素白",
+    "authors": [
+      {
+        "personId": "001534",
+        "name": "岩本素白",
+        "kana": "いわもとそはく",
+        "roman": "Sohaku Iwamoto",
+        "role": "著者",
+        "birthDate": "1883-08-17",
+        "deathDate": "1961-10-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

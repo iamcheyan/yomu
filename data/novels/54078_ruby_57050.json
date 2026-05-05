@@ -66,5 +66,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054078",
+    "title": "河の上の職場",
+    "titleKana": "かわのうえのしょくば",
+    "sortKana": "かわのうえのしよくは",
+    "firstAppearance": "「文学案内」1935（昭和10）年12月号",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-09-25",
+    "updatedAt": "2015-08-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001632/card54078.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001632/files/54078_ruby_57050.zip",
+    "textFileId": "54078_ruby_57050",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001632/files/54078_57307.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・39　プロレタリア詩集（二）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年6月30日",
+      "inputEdition": "1987（昭和62）年6月30日初版",
+      "proofreadEdition": "1987（昭和62）年6月30日初版"
+    },
+    "author": "大江鉄麿",
+    "authors": [
+      {
+        "personId": "001632",
+        "name": "大江鉄麿",
+        "kana": "おおえてつまろ",
+        "roman": "Tetsumaro Oe",
+        "role": "著者",
+        "birthDate": "1915",
+        "deathDate": "1944",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

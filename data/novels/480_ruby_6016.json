@@ -2956,5 +2956,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000480",
+    "title": "玉藻の前",
+    "titleKana": "たまものまえ",
+    "sortKana": "たまものまえ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-03-30",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000082/card480.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000082/files/480_ruby_6016.zip",
+    "textFileId": "480_ruby_6016",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000082/files/480_39601.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "修禅寺物語",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "1992（平成4）年3月20日",
+      "inputEdition": "1992（平成4）年3月20日初版1刷"
+    },
+    "author": "岡本綺堂",
+    "authors": [
+      {
+        "personId": "000082",
+        "name": "岡本綺堂",
+        "kana": "おかもときどう",
+        "roman": "Kido Okamoto",
+        "role": "著者",
+        "birthDate": "1872-11-15",
+        "deathDate": "1939-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

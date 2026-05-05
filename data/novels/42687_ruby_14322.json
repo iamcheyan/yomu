@@ -3152,5 +3152,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042687",
+    "title": "後の業平文治",
+    "titleKana": "のちのなりひらぶんじ",
+    "sortKana": "のちのなりひらふんし",
+    "ndc": "NDC 779 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-02-25",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000989/card42687.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000989/files/42687_ruby_14322.zip",
+    "textFileId": "42687_ruby_14322",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000989/files/42687_14323.html",
+    "inputBy": "小林繁雄",
+    "proofreadBy": "かとうかおり",
+    "baseBook1": {
+      "title": "圓朝全集　巻の四",
+      "publisher": "近代文芸・資料複刻叢書、世界文庫",
+      "firstPublishedAt": "1963（昭和38）年9月10日"
+    },
+    "author": "三遊亭円朝",
+    "authors": [
+      {
+        "personId": "000989",
+        "name": "三遊亭円朝",
+        "kana": "さんゆうていえんちょう",
+        "roman": "Encho San'yutei",
+        "role": "著者",
+        "birthDate": "1839-05-13",
+        "deathDate": "1900-08-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

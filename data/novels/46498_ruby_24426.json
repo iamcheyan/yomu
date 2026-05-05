@@ -94,5 +94,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046498",
+    "title": "フランソア・コッペ訪問記",
+    "titleKana": "フランソア・コッペほうもんき",
+    "sortKana": "ふらんそあこつへほうもんき",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-12-01",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000302/card46498.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000302/files/46498_ruby_24426.zip",
+    "textFileId": "46498_ruby_24426",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000302/files/46498_24614.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆74　客",
+      "publisher": "作品社",
+      "firstPublishedAt": "1988（昭和63）年12月25日",
+      "inputEdition": "1988（昭和63）年12月25日第1刷",
+      "proofreadEdition": "1988（昭和63）年12月25日第1刷"
+    },
+    "author": "堀口九万一",
+    "authors": [
+      {
+        "personId": "000302",
+        "name": "堀口九万一",
+        "kana": "ほりぐちくまいち",
+        "roman": "Kumaichi Horiguchi",
+        "role": "著者",
+        "birthDate": "1865-02-23",
+        "deathDate": "1945-10-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

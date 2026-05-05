@@ -74,5 +74,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002244",
+    "title": "章学誠の史学",
+    "titleKana": "しょうがくせいのしがく",
+    "sortKana": "しようかくせいのしかく",
+    "firstAppearance": "大阪懷徳堂講演、1928（昭和3）年10月6日、「懐徳」第八号に講演録所収",
+    "ndc": "NDC 222",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-07-09",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000284/card2244.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000284/files/2244_ruby_4347.zip",
+    "textFileId": "2244_ruby_4347",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000284/files/2244_14526.html",
+    "inputBy": "はまなかひとし",
+    "proofreadBy": "菅野朋子",
+    "baseBook1": {
+      "title": "内藤湖南全集　第十一巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1969（昭和44）年11月30日",
+      "inputEdition": "1976（昭和51）年10月10日第2刷",
+      "proofreadEdition": "1969（昭和44）年11月30日第1刷"
+    },
+    "author": "内藤湖南",
+    "authors": [
+      {
+        "personId": "000284",
+        "name": "内藤湖南",
+        "kana": "ないとうこなん",
+        "roman": "Konan Naito",
+        "role": "著者",
+        "birthDate": "1866-08-26",
+        "deathDate": "1934-06-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

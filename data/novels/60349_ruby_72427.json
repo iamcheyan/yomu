@@ -40,5 +40,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060349",
+    "title": "「トンネル」に就いて",
+    "titleKana": "「トンネル」について",
+    "sortKana": "とんねるについて",
+    "firstAppearance": "「世界文學月報　第二期六號」新潮社、1930（昭和5）年11月1日",
+    "ndc": "NDC 943",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-01-04",
+    "updatedAt": "2020-12-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/002141/card60349.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/002141/files/60349_ruby_72427.zip",
+    "textFileId": "60349_ruby_72427",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/002141/files/60349_72467.html",
+    "inputBy": "sogo",
+    "proofreadBy": "植松健伍",
+    "baseBook1": {
+      "title": "世界文學月報　第二期六號",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1930（昭和5）年11月1日",
+      "inputEdition": "1930（昭和5）年11月1日",
+      "proofreadEdition": "1930（昭和5）年11月1日"
+    },
+    "author": "成瀬無極",
+    "authors": [
+      {
+        "personId": "002141",
+        "name": "成瀬無極",
+        "kana": "なるせむきょく",
+        "roman": "Mukyoku Naruse",
+        "role": "著者",
+        "birthDate": "1885-4-26",
+        "deathDate": "1958-1-4",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

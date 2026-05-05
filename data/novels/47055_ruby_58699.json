@@ -13772,5 +13772,50 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047055",
+    "title": "蔦葛木曽棧",
+    "titleKana": "つたかずらきそのかけはし",
+    "sortKana": "つたかすらきそのかけはし",
+    "firstAppearance": "「講談雑誌」博文館、1922（大正11）年9月～1926（大正15）年5月<br>よき夫婦、復讐とげられる、右京次郎団、兄妹邂逅大団円「現代大衆文学全集　第六巻　国枝史郎集」平凡社、1930（昭和5）年7月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-04-06",
+    "updatedAt": "2016-04-03",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card47055.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/47055_ruby_58699.zip",
+    "textFileId": "47055_ruby_58699",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/47055_58737.html",
+    "inputBy": "小林繁雄、門田裕志",
+    "proofreadBy": "砂場清隆",
+    "baseBook1": {
+      "title": "蔦葛木曽棧【下】",
+      "publisher": "大衆文学館、講談社",
+      "firstPublishedAt": "1997（平成9）年1月20日",
+      "inputEdition": "1997（平成9）年1月20日第1刷",
+      "proofreadEdition": "1997（平成9）年1月20日第1刷"
+    },
+    "baseBook2": {
+      "title": "蔦葛木曽棧【上】",
+      "publisher": "大衆文学館、講談社",
+      "firstPublishedAt": "1996（平成8）年12月20日",
+      "inputEdition": "1996（平成8）年12月20日第1刷"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

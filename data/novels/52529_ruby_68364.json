@@ -3026,5 +3026,36 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052529",
+    "title": "近代医学の興隆",
+    "titleKana": "きんだいいがくのこうりゅう",
+    "sortKana": "きんたいいかくのこうりゆう",
+    "originalTitle": "THE EVOLUTION OF MODERN MEDICINE",
+    "ndc": "NDC 490",
+    "orthography": "新字新仮名",
+    "workCopyright": "あり",
+    "publishedAt": "2011-07-03",
+    "updatedAt": "2019-06-08",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001574/card52529.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001574/files/52529_ruby_68364.zip",
+    "textFileId": "52529_ruby_68364",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001574/files/52529_68363.html",
+    "proofreadBy": "The Creative CAT",
+    "author": "オスラーウイリアム",
+    "authors": [
+      {
+        "personId": "001574",
+        "name": "オスラーウイリアム",
+        "kana": "オスラーウイリアム",
+        "roman": "William Osler",
+        "role": "著者",
+        "birthDate": "1849-07-12",
+        "deathDate": "1919-12-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

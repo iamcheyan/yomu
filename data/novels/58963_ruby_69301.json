@@ -42,5 +42,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058963",
+    "title": "今日は無事",
+    "titleKana": "きょうはぶじ",
+    "sortKana": "きようはふし",
+    "firstAppearance": "「毎日新聞」1954（昭和29）年5月5日",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-10-28",
+    "updatedAt": "2019-09-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001581/card58963.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001581/files/58963_ruby_69301.zip",
+    "textFileId": "58963_ruby_69301",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001581/files/58963_69353.html",
+    "inputBy": "山村信一郎",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "正宗白鳥全集第二十九卷",
+      "publisher": "福武書店",
+      "firstPublishedAt": "1984（昭和59）年3月31日",
+      "inputEdition": "1984（昭和59）年3月31日",
+      "proofreadEdition": "1984（昭和59）年3月31日発行"
+    },
+    "author": "正宗白鳥",
+    "authors": [
+      {
+        "personId": "001581",
+        "name": "正宗白鳥",
+        "kana": "まさむねはくちょう",
+        "roman": "Hakucho Masamune",
+        "role": "著者",
+        "birthDate": "1879-03-03",
+        "deathDate": "1962-10-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

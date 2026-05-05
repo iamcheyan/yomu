@@ -252,5 +252,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "018396",
+    "title": "偶人信仰の民俗化並びに伝説化せる道",
+    "titleKana": "ぐうじんしんこうのみんぞくかならびにでんせつかせるみち",
+    "sortKana": "くうしんしんこうのみんそくかならひにてんせつかせるみち",
+    "ndc": "NDC 380",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-05-16",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card18396.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/18396_ruby_22320.zip",
+    "textFileId": "18396_ruby_22320",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/18396_22465.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "折口信夫全集　3",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1995年4月10日",
+      "inputEdition": "1995年4月10日初版",
+      "proofreadEdition": "1995年4月10日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

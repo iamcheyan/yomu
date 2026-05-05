@@ -46,5 +46,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003613",
+    "title": "常識家の非常識",
+    "titleKana": "じょうしきかのひじょうしき",
+    "sortKana": "しようしきかのひしようしき",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-09-27",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000067/card3613.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000067/files/3613_ruby.zip",
+    "textFileId": "3613_ruby",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000067/files/3613.html",
+    "inputBy": "渡邉つよし",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻76　常識",
+      "publisher": "作品社",
+      "firstPublishedAt": "1997（平成9）年6月25日"
+    },
+    "author": "萩原朔太郎",
+    "authors": [
+      {
+        "personId": "000067",
+        "name": "萩原朔太郎",
+        "kana": "はぎわらさくたろう",
+        "roman": "Sakutaro Hagiwara",
+        "role": "著者",
+        "birthDate": "1886-11-01",
+        "deathDate": "1942-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

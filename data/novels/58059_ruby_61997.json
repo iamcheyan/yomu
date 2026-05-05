@@ -88,5 +88,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058059",
+    "title": "僧堂教育論",
+    "titleKana": "そうどうきょういくろん",
+    "sortKana": "そうとうきよういくろん",
+    "firstAppearance": "「中外日報」1922（大正11）年8月17-20日、22・23日",
+    "ndc": "NDC 188",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-07-12",
+    "updatedAt": "2017-07-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001833/card58059.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001833/files/58059_ruby_61997.zip",
+    "textFileId": "58059_ruby_61997",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001833/files/58059_61996.html",
+    "inputBy": "酒井和郎",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "禅堂生活",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2016（平成28）年5月17日",
+      "inputEdition": "2016（平成28）年5月17日第1刷",
+      "proofreadEdition": "2016（平成28）年5月17日第1刷"
+    },
+    "author": "鈴木大拙",
+    "authors": [
+      {
+        "personId": "001833",
+        "name": "鈴木大拙",
+        "kana": "すずきだいせつ",
+        "roman": "Daisetsu Suzuki",
+        "role": "著者",
+        "birthDate": "1870-11-11",
+        "deathDate": "1966-07-12",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

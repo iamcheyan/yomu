@@ -2220,5 +2220,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056239",
+    "title": "天皇",
+    "titleKana": "てんのう",
+    "sortKana": "てんのう",
+    "subtitle": "誰が日本民族の主人であるか",
+    "subtitleKana": "だれがにほんみんぞくのしゅじんであるか",
+    "ndc": "NDC 313",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-08-17",
+    "updatedAt": "2015-07-19",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001776/card56239.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001776/files/56239_ruby_56945.zip",
+    "textFileId": "56239_ruby_56945",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001776/files/56239_56991.html",
+    "inputBy": "Democrat",
+    "proofreadBy": "久藤夏生",
+    "baseBook1": {
+      "title": "天皇　―誰が日本民族の主人であるか―",
+      "publisher": "長崎出版",
+      "firstPublishedAt": "1988（昭和63）年11月20日",
+      "inputEdition": "1988（昭和63）年11月20日初版",
+      "proofreadEdition": "1988（昭和63）年11月20日初版"
+    },
+    "author": "蜷川新",
+    "authors": [
+      {
+        "personId": "001776",
+        "name": "蜷川新",
+        "kana": "にながわあらた",
+        "roman": "Arata Ninagawa",
+        "role": "著者",
+        "birthDate": "1873-01-14",
+        "deathDate": "1959-08-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

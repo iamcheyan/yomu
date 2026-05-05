@@ -26,5 +26,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046459",
+    "title": "秋草",
+    "titleKana": "あきくさ",
+    "sortKana": "あきくさ",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-09-29",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000158/card46459.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000158/files/46459_ruby_23721.zip",
+    "textFileId": "46459_ruby_23721",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000158/files/46459_24003.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆19　秋",
+      "publisher": "作品社",
+      "firstPublishedAt": "1984（昭和59）年5月25日",
+      "inputEdition": "1984（昭和59）年5月25日第1刷",
+      "proofreadEdition": "1984（昭和59）年5月25日第1刷"
+    },
+    "author": "島崎藤村",
+    "authors": [
+      {
+        "personId": "000158",
+        "name": "島崎藤村",
+        "kana": "しまざきとうそん",
+        "roman": "Toson Shimazaki",
+        "role": "著者",
+        "birthDate": "1872-03-25",
+        "deathDate": "1943-08-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

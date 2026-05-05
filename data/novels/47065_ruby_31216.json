@@ -96,5 +96,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047065",
+    "title": "人形芝居に関するノオト",
+    "titleKana": "にんぎょうしばいにかんするノート",
+    "sortKana": "にんきようしはいにかんするのおと",
+    "ndc": "NDC 777 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-07-29",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000636/card47065.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000636/files/47065_ruby_31216.zip",
+    "textFileId": "47065_ruby_31216",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000636/files/47065_31725.html",
+    "inputBy": "浦山敦子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻81　人形",
+      "publisher": "作品社",
+      "firstPublishedAt": "1997（平成9）年11月25日",
+      "inputEdition": "1997（平成9）年11月25日第1刷",
+      "proofreadEdition": "1997（平成9）年11月25日第1刷"
+    },
+    "author": "竹内勝太郎",
+    "authors": [
+      {
+        "personId": "000636",
+        "name": "竹内勝太郎",
+        "kana": "たけうちかつたろう",
+        "roman": "Katsutaro Takeuchi",
+        "role": "著者",
+        "birthDate": "1894-10-20",
+        "deathDate": "1935-06-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

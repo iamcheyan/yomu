@@ -770,5 +770,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046264",
+    "title": "日記",
+    "titleKana": "にっき",
+    "sortKana": "につき",
+    "subtitle": "34 一九五一年（昭和二十六年）",
+    "subtitleKana": "34 せんきゅうひゃくごじゅういちねん（しょうわにじゅうろくねん）",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-02-13",
+    "updatedAt": "2021-01-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000311/card46264.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000311/files/46264_txt_72680.zip",
+    "textFileId": "46264_txt_72680",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000311/files/46264_72652.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "富田晶子",
+    "baseBook1": {
+      "title": "宮本百合子全集　第二十五巻",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1981（昭和56）年7月30日",
+      "inputEdition": "1986（昭和61）年3月20日第4刷",
+      "proofreadEdition": "1986（昭和61）年3月20日第4刷"
+    },
+    "author": "宮本百合子",
+    "authors": [
+      {
+        "personId": "000311",
+        "name": "宮本百合子",
+        "kana": "みやもとゆりこ",
+        "roman": "Yuriko Miyamoto",
+        "role": "著者",
+        "birthDate": "1899-02-13",
+        "deathDate": "1951-01-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

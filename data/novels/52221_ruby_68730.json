@@ -206,5 +206,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052221",
+    "title": "愚かな父",
+    "titleKana": "おろかなちち",
+    "sortKana": "おろかなちち",
+    "firstAppearance": "「新小説」1923（大正12）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-08-28",
+    "updatedAt": "2019-07-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001543/card52221.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001543/files/52221_ruby_68730.zip",
+    "textFileId": "52221_ruby_68730",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001543/files/52221_68779.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "現代日本文學大系　62　牧野信一　稻垣足穗　十一谷義三郎　犬養健　中河與一　今東光集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1973（昭和48）年4月24日",
+      "inputEdition": "1987（昭和62）年9月15日初版第12刷",
+      "proofreadEdition": "1987（昭和62）年9月15日初版第12刷"
+    },
+    "author": "犬養健",
+    "authors": [
+      {
+        "personId": "001543",
+        "name": "犬養健",
+        "kana": "いぬかいたける",
+        "roman": "Takeru Inukai",
+        "role": "著者",
+        "birthDate": "1896-07-28",
+        "deathDate": "1960-08-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

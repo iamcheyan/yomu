@@ -30,5 +30,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004498",
+    "title": "利根川の一夜",
+    "titleKana": "とねがわのいちや",
+    "sortKana": "とねかわのいちや",
+    "firstAppearance": "「馬醉木　第拾號」1904（明治37）年4月5日",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-04-08",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000118/card4498.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000118/files/4498_ruby_14841.zip",
+    "textFileId": "4498_ruby_14841",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000118/files/4498_14871.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "今井忠夫",
+    "baseBook1": {
+      "title": "長塚節全集　第二巻",
+      "publisher": "春陽堂書店",
+      "firstPublishedAt": "1977（昭和52）年1月31日",
+      "inputEdition": "1977（昭和52）年1月31日初版",
+      "proofreadEdition": "1977（昭和52）年1月31日初版"
+    },
+    "author": "長塚節",
+    "authors": [
+      {
+        "personId": "000118",
+        "name": "長塚節",
+        "kana": "ながつかたかし",
+        "roman": "Takashi Nagatsuka",
+        "role": "著者",
+        "birthDate": "1879-04-03",
+        "deathDate": "1915-02-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

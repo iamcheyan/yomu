@@ -62,5 +62,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043437",
+    "title": "古傷",
+    "titleKana": "ふるきず",
+    "sortKana": "ふるきす",
+    "firstAppearance": "「自由律」1932（昭和7）年7月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-12-20",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000325/card43437.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000325/files/43437_ruby_24870.zip",
+    "textFileId": "43437_ruby_24870",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000325/files/43437_24884.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "怪奇探偵小説名作選7　蘭郁二郎集　魔像",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2003（平成15）年6月10日",
+      "inputEdition": "2003（平成5）年6月10日第1刷",
+      "proofreadEdition": "2003（平成5）年6月10日第1刷"
+    },
+    "author": "蘭郁二郎",
+    "authors": [
+      {
+        "personId": "000325",
+        "name": "蘭郁二郎",
+        "kana": "らんいくじろう",
+        "roman": "Ikujiro Ran",
+        "role": "著者",
+        "birthDate": "1913-09-02",
+        "deathDate": "1944-01-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

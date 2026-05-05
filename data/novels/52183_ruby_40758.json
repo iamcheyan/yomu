@@ -218,5 +218,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052183",
+    "title": "母子像",
+    "titleKana": "ぼしぞう",
+    "sortKana": "ほしそう",
+    "firstAppearance": "「讀賣新聞」1954（昭和29）年3月26～28日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-12-23",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001224/card52183.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001224/files/52183_ruby_40758.zip",
+    "textFileId": "52183_ruby_40758",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001224/files/52183_41376.html",
+    "inputBy": "平川哲生",
+    "proofreadBy": "富田倫生",
+    "baseBook1": {
+      "title": "久生十蘭短篇選",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2009（平成21）年 5月15日",
+      "inputEdition": "2009（平成21）年 5月15日第1刷"
+    },
+    "author": "久生十蘭",
+    "authors": [
+      {
+        "personId": "001224",
+        "name": "久生十蘭",
+        "kana": "ひさおじゅうらん",
+        "roman": "Juran Hisao",
+        "role": "著者",
+        "birthDate": "1902-04-06",
+        "deathDate": "1957-10-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

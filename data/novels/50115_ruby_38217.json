@@ -286,5 +286,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050115",
+    "title": "蒼白い月",
+    "titleKana": "あおじろいつき",
+    "sortKana": "あおしろいつき",
+    "firstAppearance": "「サンエス」1920（大正9）年7月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-05-26",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000023/card50115.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000023/files/50115_ruby_38217.zip",
+    "textFileId": "50115_ruby_38217",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000023/files/50115_39094.html",
+    "inputBy": "岡本ゆみ子",
+    "proofreadBy": "米田",
+    "baseBook1": {
+      "title": "日本文学全集　8　徳田秋声集",
+      "publisher": "集英社",
+      "firstPublishedAt": "1967（昭和42）年11月12日",
+      "inputEdition": "1967（昭和42）年11月12日",
+      "proofreadEdition": "1980（昭和55）年7月15日5版"
+    },
+    "author": "徳田秋声",
+    "authors": [
+      {
+        "personId": "000023",
+        "name": "徳田秋声",
+        "kana": "とくだしゅうせい",
+        "roman": "Shusei Tokuda",
+        "role": "著者",
+        "birthDate": "1872-02-01",
+        "deathDate": "1943-11-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

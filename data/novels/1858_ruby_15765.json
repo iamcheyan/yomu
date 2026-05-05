@@ -6462,5 +6462,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001858",
+    "title": "晶子鑑賞",
+    "titleKana": "あきこかんしょう",
+    "sortKana": "あきこかんしよう",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-06-22",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000294/card1858.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000294/files/1858_ruby_15765.zip",
+    "textFileId": "1858_ruby_15765",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000294/files/1858_15766.html",
+    "inputBy": "武田秀男",
+    "proofreadBy": "福地博文",
+    "baseBook1": {
+      "title": "晶子鑑賞",
+      "publisher": "三省堂",
+      "firstPublishedAt": "1949（昭和24）年7月25日、1979（昭和54）年1月25日復刊第1刷",
+      "inputEdition": "1979（昭和54）年1月25日復刊第1刷",
+      "proofreadEdition": "1979（昭和54）年1月25日復刊第1刷"
+    },
+    "author": "平野万里",
+    "authors": [
+      {
+        "personId": "000294",
+        "name": "平野万里",
+        "kana": "ひらのばんり",
+        "roman": "Banri Hirano",
+        "role": "著者",
+        "birthDate": "1885-05-25",
+        "deathDate": "1947-02-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

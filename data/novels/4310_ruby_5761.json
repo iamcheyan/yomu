@@ -54,5 +54,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004310",
+    "title": "赤旗事件の回顧",
+    "titleKana": "あかはたじけんのかいこ",
+    "sortKana": "あかはたしけんのかいこ",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-11-04",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000164/card4310.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000164/files/4310_ruby_5761.zip",
+    "textFileId": "4310_ruby_5761",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000164/files/4310_7025.html",
+    "inputBy": "もりみつじゅんじ",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "堺利彦全集　第三巻",
+      "publisher": "法律文化社",
+      "firstPublishedAt": "1970（昭和45）年9月30日",
+      "inputEdition": "1970（昭和45）年9月30日発行"
+    },
+    "author": "堺利彦",
+    "authors": [
+      {
+        "personId": "000164",
+        "name": "堺利彦",
+        "kana": "さかいとしひこ",
+        "roman": "Toshihiko Sakai",
+        "role": "著者",
+        "birthDate": "1871-01-15",
+        "deathDate": "1933-01-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

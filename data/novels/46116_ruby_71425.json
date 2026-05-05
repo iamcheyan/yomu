@@ -486,5 +486,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046116",
+    "title": "悪の花束",
+    "titleKana": "あくのはなたば",
+    "sortKana": "あくのはなたは",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-08-25",
+    "updatedAt": "2020-07-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001224/card46116.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001224/files/46116_ruby_71425.zip",
+    "textFileId": "46116_ruby_71425",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001224/files/46116_71474.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "芝裕久",
+    "baseBook1": {
+      "title": "久生十蘭全集　Ⅲ",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1970（昭和45）年2月28日",
+      "inputEdition": "1998（平成10）年2月28日第1版第7刷",
+      "proofreadEdition": "1986（昭和61）年3月31日第1版第5刷"
+    },
+    "author": "久生十蘭",
+    "authors": [
+      {
+        "personId": "001224",
+        "name": "久生十蘭",
+        "kana": "ひさおじゅうらん",
+        "roman": "Juran Hisao",
+        "role": "著者",
+        "birthDate": "1902-04-06",
+        "deathDate": "1957-10-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

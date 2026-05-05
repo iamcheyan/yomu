@@ -54,5 +54,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046281",
+    "title": "地方の青年についての報告",
+    "titleKana": "ちほうのせいねんについてのほうこく",
+    "sortKana": "ちほうのせいねんについてのほうこく",
+    "firstAppearance": "「青年文化」1947（昭和22）年11月",
+    "ndc": "NDC 379",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-03-20",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001166/card46281.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001166/files/46281_ruby_29059.zip",
+    "textFileId": "46281_ruby_29059",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001166/files/46281_29563.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "論理とその実践――組織論から図書館像へ――",
+      "publisher": "てんびん社",
+      "firstPublishedAt": "1972（昭和47）年11月20日",
+      "inputEdition": "1976（昭和51）年3月20日第2刷"
+    },
+    "author": "中井正一",
+    "authors": [
+      {
+        "personId": "001166",
+        "name": "中井正一",
+        "kana": "なかいまさかず",
+        "roman": "Masakazu Nakai",
+        "role": "著者",
+        "birthDate": "1900-02-14",
+        "deathDate": "1952-05-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

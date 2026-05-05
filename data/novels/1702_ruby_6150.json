@@ -3366,5 +3366,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001702",
+    "title": "黴",
+    "titleKana": "かび",
+    "sortKana": "かひ",
+    "firstAppearance": "「東京朝日新聞」1911（明治44）年8月1日〜11月3日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-01-30",
+    "updatedAt": "2017-07-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000023/card1702.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000023/files/1702_ruby_6150.zip",
+    "textFileId": "1702_ruby_6150",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000023/files/1702_62367.html",
+    "inputBy": "田古嶋香利",
+    "proofreadBy": "久保あきら",
+    "baseBook1": {
+      "title": "日本の文学　9　徳田秋声（一）",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1967（昭和42）年9月5日",
+      "inputEdition": "1971（昭和46）年3月30日第5刷",
+      "proofreadEdition": "1974（昭和49）年6月30日第10刷"
+    },
+    "author": "徳田秋声",
+    "authors": [
+      {
+        "personId": "000023",
+        "name": "徳田秋声",
+        "kana": "とくだしゅうせい",
+        "roman": "Shusei Tokuda",
+        "role": "著者",
+        "birthDate": "1872-02-01",
+        "deathDate": "1943-11-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

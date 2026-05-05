@@ -112,5 +112,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054029",
+    "title": "地を掘る人達に",
+    "titleKana": "ちをほるひとたちに",
+    "sortKana": "ちをほるひとたちに",
+    "firstAppearance": "「ぬかるみの街道」大鐙閣、1918（大正7）年10月",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-08-16",
+    "updatedAt": "2015-05-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001623/card54029.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001623/files/54029_ruby_56943.zip",
+    "textFileId": "54029_ruby_56943",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001623/files/54029_56989.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・38　プロレタリア詩集（一）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年5月25日",
+      "inputEdition": "1987（昭和62）年5月25日初版",
+      "proofreadEdition": "1987（昭和62）年5月25日初版"
+    },
+    "author": "百田宗治",
+    "authors": [
+      {
+        "personId": "001623",
+        "name": "百田宗治",
+        "kana": "ももたそうじ",
+        "roman": "Soji Momota",
+        "role": "著者",
+        "birthDate": "1893-01-25",
+        "deathDate": "1955-12-12",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

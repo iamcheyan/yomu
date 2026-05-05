@@ -388,5 +388,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000879",
+    "title": "透明猫",
+    "titleKana": "とうめいねこ",
+    "sortKana": "とうめいねこ",
+    "firstAppearance": "「少年読物」1948（昭和23）年6月",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-01-22",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card879.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/879_ruby_23880.zip",
+    "textFileId": "879_ruby_23880",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/879_23881.html",
+    "inputBy": "海美",
+    "proofreadBy": "もりみつじゅんじ",
+    "baseBook1": {
+      "title": "海野十三全集　第13巻　少年探偵長",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1992（平成4）年2月29日"
+    },
+    "author": "海野十三",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

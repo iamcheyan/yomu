@@ -160,5 +160,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003582",
+    "title": "紫陽花",
+    "titleKana": "あじさい",
+    "sortKana": "あしさい",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-05-20",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card3582.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/3582_ruby_6277.zip",
+    "textFileId": "3582_ruby_6277",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/3582_6473.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "花の名随筆6　六月の花",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年5月10日",
+      "inputEdition": "1999（平成11）年5月10日初版第1刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

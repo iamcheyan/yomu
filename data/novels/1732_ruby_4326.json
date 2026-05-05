@@ -78,5 +78,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001732",
+    "title": "支那の書目に就いて",
+    "titleKana": "しなのしょもくについて",
+    "sortKana": "しなのしよもくについて",
+    "firstAppearance": "大阪府立圖書館に於て圖書館協會大會講演、1913（大正2）年",
+    "ndc": "NDC 020",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-12-26",
+    "updatedAt": "2016-04-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000284/card1732.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000284/files/1732_ruby_4326.zip",
+    "textFileId": "1732_ruby_4326",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000284/files/1732_21489.html",
+    "inputBy": "はまなかひとし",
+    "proofreadBy": "菅野朋子",
+    "baseBook1": {
+      "title": "内藤湖南全集　第十二卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1970（昭和45）年6月25日",
+      "inputEdition": "1976（昭和51）年10月10日初版第2刷",
+      "proofreadEdition": "1976（昭和51）年10月10日初版第2刷"
+    },
+    "author": "内藤湖南",
+    "authors": [
+      {
+        "personId": "000284",
+        "name": "内藤湖南",
+        "kana": "ないとうこなん",
+        "roman": "Konan Naito",
+        "role": "著者",
+        "birthDate": "1866-08-26",
+        "deathDate": "1934-06-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

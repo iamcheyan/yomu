@@ -592,5 +592,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052349",
+    "title": "菜の花月夜",
+    "titleKana": "なのはなづきよ",
+    "sortKana": "なのはなつきよ",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-02-21",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000491/card52349.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000491/files/52349_ruby_41555.zip",
+    "textFileId": "52349_ruby_41555",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000491/files/52349_42015.html",
+    "inputBy": "岡村和彦",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "花の名随筆3　三月の花",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年2月10日",
+      "inputEdition": "1999（平成11）年2月10日初版第1刷",
+      "proofreadEdition": "1999（平成11）年2月10日初版第1刷"
+    },
+    "author": "片岡鉄兵",
+    "authors": [
+      {
+        "personId": "000491",
+        "name": "片岡鉄兵",
+        "kana": "かたおかてっぺい",
+        "roman": "Teppei Kataoka",
+        "role": "著者",
+        "birthDate": "1894-02-02",
+        "deathDate": "1944-12-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

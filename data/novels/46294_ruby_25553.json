@@ -122,5 +122,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046294",
+    "title": "アラメダより",
+    "titleKana": "アラメダより",
+    "sortKana": "あらめたより",
+    "ndc": "NDC 295",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-01-01",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001180/card46294.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001180/files/46294_ruby_25553.zip",
+    "textFileId": "46294_ruby_25553",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001180/files/46294_25605.html",
+    "inputBy": "田中敬三",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "世界紀行文学全集第17巻北アメリカ編",
+      "publisher": "修道社",
+      "firstPublishedAt": "1959（昭和34）年3月25日",
+      "inputEdition": "1959（昭和34）年3月25日",
+      "proofreadEdition": "1959（昭和34）年3月25日"
+    },
+    "author": "沖野岩三郎",
+    "authors": [
+      {
+        "personId": "001180",
+        "name": "沖野岩三郎",
+        "kana": "おきのいわさぶろう",
+        "roman": "Iwasaburo Okino",
+        "role": "著者",
+        "birthDate": "1876-01-05",
+        "deathDate": "1956-01-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

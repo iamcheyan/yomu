@@ -216,5 +216,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058152",
+    "title": "戯曲体小説　真夏の夜の恋",
+    "titleKana": "ぎきょくたいしょうせつ　まなつのよのこい",
+    "sortKana": "ききよくたいしようせつまなつのよのこい",
+    "firstAppearance": "「新小説　第二十四年第八号」春陽堂書店、1919（大正8）年8月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-01-09",
+    "updatedAt": "2020-12-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001383/card58152.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001383/files/58152_ruby_72433.zip",
+    "textFileId": "58152_ruby_72433",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001383/files/58152_72473.html",
+    "inputBy": "黒潮",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "谷崎潤一郎全集　第七巻",
+      "publisher": "中央公論新社",
+      "firstPublishedAt": "2016（平成28）年11月10日",
+      "inputEdition": "2016（平成28）年11月10日初版",
+      "proofreadEdition": "2016（平成28）年11月10日初版"
+    },
+    "author": "谷崎潤一郎",
+    "authors": [
+      {
+        "personId": "001383",
+        "name": "谷崎潤一郎",
+        "kana": "たにざきじゅんいちろう",
+        "roman": "Jun'ichiro Tanizaki",
+        "role": "著者",
+        "birthDate": "1886-07-24",
+        "deathDate": "1965-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -66,5 +66,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053167",
+    "title": "夜の喜び",
+    "titleKana": "よるのよろこび",
+    "sortKana": "よるのよろこひ",
+    "firstAppearance": "「早稲田文學」1911（明治44）年9月号",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-08-26",
+    "updatedAt": "2016-06-10",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001475/card53167.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001475/files/53167_ruby_59527.zip",
+    "textFileId": "53167_ruby_59527",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001475/files/53167_59564.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "坂本真一",
+    "baseBook1": {
+      "title": "文豪怪談傑作選　小川未明集　幽霊船",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2008（平成20）年8月10日",
+      "inputEdition": "2010（平成22）年5月25日第2刷",
+      "proofreadEdition": "2010（平成22）年5月25日第2刷"
+    },
+    "author": "小川未明",
+    "authors": [
+      {
+        "personId": "001475",
+        "name": "小川未明",
+        "kana": "おがわみめい",
+        "roman": "Mimei Ogawa",
+        "role": "著者",
+        "birthDate": "1882-04-07",
+        "deathDate": "1961-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

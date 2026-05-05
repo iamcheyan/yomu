@@ -102,5 +102,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058862",
+    "title": "残雪の幻像",
+    "titleKana": "ざんせつのげんぞう",
+    "sortKana": "さんせつのけんそう",
+    "ndc": "NDC 291",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-01-01",
+    "updatedAt": "2018-01-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001954/card58862.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001954/files/58862_ruby_63609.zip",
+    "textFileId": "58862_ruby_63609",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001954/files/58862_63610.html",
+    "inputBy": "富田晶子",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "山岳講座　第一巻",
+      "publisher": "白水社",
+      "firstPublishedAt": "1954（昭和29）年5月30日",
+      "inputEdition": "1954（昭和29）年7月30日3版",
+      "proofreadEdition": "1954（昭和29）年7月30日3版"
+    },
+    "author": "中村清太郎",
+    "authors": [
+      {
+        "personId": "001954",
+        "name": "中村清太郎",
+        "kana": "なかむらせいたろう",
+        "roman": "Seitaro Nakamura",
+        "role": "著者",
+        "birthDate": "1888-04-30",
+        "deathDate": "1967-12-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

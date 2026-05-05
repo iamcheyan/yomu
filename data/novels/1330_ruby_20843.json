@@ -1522,5 +1522,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001330",
+    "title": "単独行",
+    "titleKana": "たんどくこう",
+    "sortKana": "たんとくこう",
+    "ndc": "NDC 291",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-02-22",
+    "updatedAt": "2024-08-14",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000245/card1330.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000245/files/1330_ruby_20843.zip",
+    "textFileId": "1330_ruby_20843",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000245/files/1330_77979.html",
+    "inputBy": "田　一木",
+    "proofreadBy": "ゼファー生",
+    "baseBook1": {
+      "title": "単独行",
+      "publisher": "二見書房",
+      "firstPublishedAt": "1970（昭和45）年9月21日",
+      "inputEdition": "1999（平成11）年11月5日45版",
+      "proofreadEdition": "1975（昭和50）年3月5日16版"
+    },
+    "author": "加藤文太郎",
+    "authors": [
+      {
+        "personId": "000245",
+        "name": "加藤文太郎",
+        "kana": "かとうぶんたろう",
+        "roman": "Buntaro Kato",
+        "role": "著者",
+        "birthDate": "1905-03-11",
+        "deathDate": "1936-01-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

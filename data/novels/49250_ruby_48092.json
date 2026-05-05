@@ -178,5 +178,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049250",
+    "title": "古い手帳から",
+    "titleKana": "ふるいてちょうから",
+    "sortKana": "ふるいてちようから",
+    "firstAppearance": "「明星　第一卷第一號～第二卷第二號」1921（大正10）年11月1日～1922（大正11）年7月1日",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-09-03",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card49250.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/49250_ruby_48092.zip",
+    "textFileId": "49250_ruby_48092",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/49250_48303.html",
+    "inputBy": "岩澤秀紀",
+    "proofreadBy": "阿部哲也",
+    "baseBook1": {
+      "title": "鴎外全集　第二十六卷",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1973（昭和48）年12月22日",
+      "inputEdition": "1973（昭和48）年12月22日",
+      "proofreadEdition": "1973（昭和48）年12月22日"
+    },
+    "author": "森鴎外",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

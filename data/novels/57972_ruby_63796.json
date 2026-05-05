@@ -98,5 +98,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057972",
+    "title": "君臣相念",
+    "titleKana": "くんしんそうねん",
+    "sortKana": "くんしんそうねん",
+    "firstAppearance": "「文学界」1943（昭和18）年11月",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-02-06",
+    "updatedAt": "2018-01-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001870/card57972.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001870/files/57972_ruby_63796.zip",
+    "textFileId": "57972_ruby_63796",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001870/files/57972_63876.html",
+    "inputBy": "酒井和郎",
+    "proofreadBy": "山村信一郎",
+    "baseBook1": {
+      "title": "龜井勝一郎全集　第九巻",
+      "publisher": "講談社",
+      "firstPublishedAt": "1971（昭和46）年6月20日",
+      "inputEdition": "1978（昭和53）年9月26日第2刷",
+      "proofreadEdition": "1971（昭和46）年6月20日第1刷"
+    },
+    "author": "亀井勝一郎",
+    "authors": [
+      {
+        "personId": "001870",
+        "name": "亀井勝一郎",
+        "kana": "かめいかついちろう",
+        "roman": "Katsuichiro Kamei",
+        "role": "著者",
+        "birthDate": "1907-02-06",
+        "deathDate": "1966-11-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

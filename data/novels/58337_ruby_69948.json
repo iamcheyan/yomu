@@ -13616,5 +13616,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058337",
+    "title": "いやな感じ",
+    "titleKana": "いやなかんじ",
+    "sortKana": "いやなかんし",
+    "firstAppearance": "「文学界」1960（昭和35）年1月～1963（昭和38）年5月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-01-30",
+    "updatedAt": "2019-12-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001823/card58337.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001823/files/58337_ruby_69948.zip",
+    "textFileId": "58337_ruby_69948",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001823/files/58337_70001.html",
+    "inputBy": "悠悠自炊",
+    "proofreadBy": "Butami",
+    "baseBook1": {
+      "title": "日本の文学　57　高見順",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1965（昭和40）年5月5日",
+      "inputEdition": "1966（昭和41）年12月1日第6版",
+      "proofreadEdition": "1965（昭和40）年5月4日初版"
+    },
+    "author": "高見順",
+    "authors": [
+      {
+        "personId": "001823",
+        "name": "高見順",
+        "kana": "たかみじゅん",
+        "roman": "Jun Takami",
+        "role": "著者",
+        "birthDate": "1907-01-30",
+        "deathDate": "1965-08-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

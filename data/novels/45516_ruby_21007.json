@@ -216,5 +216,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045516",
+    "title": "泥の雨",
+    "titleKana": "どろのあめ",
+    "sortKana": "とろのあめ",
+    "firstAppearance": "「早稲田文学」1923（大正12）年5月",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-01-01",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001205/card45516.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001205/files/45516_ruby_21007.zip",
+    "textFileId": "45516_ruby_21007",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001205/files/45516_21008.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "富田倫生",
+    "baseBook1": {
+      "title": "茨城近代文学選集Ⅱ",
+      "publisher": "常陽新聞社",
+      "firstPublishedAt": "1977（昭和52）年11月30日",
+      "inputEdition": "1977（昭和52）年11月30日",
+      "proofreadEdition": "1977（昭和52）年11月30日"
+    },
+    "author": "下村千秋",
+    "authors": [
+      {
+        "personId": "001205",
+        "name": "下村千秋",
+        "kana": "しもむらちあき",
+        "roman": "Chiaki Shimomura",
+        "role": "著者",
+        "birthDate": "1893-09-04",
+        "deathDate": "1955-01-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -232,5 +232,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004706",
+    "title": "蒲寿庚の事蹟",
+    "titleKana": "ほじゅこうのじせき",
+    "sortKana": "ほしゆこうのしせき",
+    "firstAppearance": "「宋末の提擧市舶西域人蒲壽庚の事」東亜攻究会（上海）、1923（大正12）年11月",
+    "ndc": "NDC 222",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-05-19",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000372/card4706.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000372/files/4706_ruby_13572.zip",
+    "textFileId": "4706_ruby_13572",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000372/files/4706_9679.html",
+    "inputBy": "はまなかひとし",
+    "proofreadBy": "米田進",
+    "baseBook1": {
+      "title": "桑原隲藏全集　第五卷　蒲壽庚の事蹟　考史遊記",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1968（昭和43）年2月13日",
+      "inputEdition": "1968（昭和43）年2月13日",
+      "proofreadEdition": "1968（昭和43）年2月13日"
+    },
+    "author": "桑原隲蔵",
+    "authors": [
+      {
+        "personId": "000372",
+        "name": "桑原隲蔵",
+        "kana": "くわばらじつぞう",
+        "roman": "Jitsuzo Kuwabara",
+        "role": "著者",
+        "birthDate": "1871-01-27",
+        "deathDate": "1931-05-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

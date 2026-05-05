@@ -284,5 +284,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000488",
+    "title": "勲章を貰う話",
+    "titleKana": "くんしょうをもらうはなし",
+    "sortKana": "くんしようをもらうはなし",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-05-18",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000083/card488.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000083/files/488_ruby_19853.zip",
+    "textFileId": "488_ruby_19853",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000083/files/488_19854.html",
+    "inputBy": "真先芳秋",
+    "proofreadBy": "らぴす",
+    "baseBook1": {
+      "title": "菊池寛　短篇と戯曲",
+      "publisher": "文芸春秋",
+      "firstPublishedAt": "1988（昭和63）年3月25日",
+      "inputEdition": "1988（昭和63）年3月25日第1刷",
+      "proofreadEdition": "1988（昭和63）年3月25日第1刷"
+    },
+    "author": "菊池寛",
+    "authors": [
+      {
+        "personId": "000083",
+        "name": "菊池寛",
+        "kana": "きくちかん",
+        "roman": "Kan Kikuchi",
+        "role": "著者",
+        "birthDate": "1888-12-26",
+        "deathDate": "1948-03-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

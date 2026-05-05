@@ -72,5 +72,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053717",
+    "title": "AU MAGASIN DE NOUVEAUTES",
+    "titleKana": "AU MAGASIN DE NOUVEAUTES",
+    "firstAppearance": "「朝鮮と建築　第十一集第七号」朝鮮建築会、1932（昭和7）年7月",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-01-11",
+    "updatedAt": "2018-01-11",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001597/card53717.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001597/files/53717_ruby_63488.zip",
+    "textFileId": "53717_ruby_63488",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001597/files/53717_63532.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "春日井ひとし",
+    "baseBook1": {
+      "title": "李箱作品集成",
+      "publisher": "作品社",
+      "firstPublishedAt": "2006（平成18）年9月15日",
+      "inputEdition": "2006（平成18）年9月15日第1刷",
+      "proofreadEdition": "2006（平成18）年9月15日第1刷"
+    },
+    "author": "李箱",
+    "authors": [
+      {
+        "personId": "001597",
+        "name": "李箱",
+        "kana": "いさん",
+        "roman": "Sang I",
+        "role": "著者",
+        "birthDate": "1910-09-23",
+        "deathDate": "1937-04-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

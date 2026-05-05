@@ -118,5 +118,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050555",
+    "title": "県歌　信濃の国",
+    "titleKana": "けんか　しなののくに",
+    "sortKana": "けんかしなののくに",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-01-21",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000380/card50555.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000380/files/50555_ruby_36916.zip",
+    "textFileId": "50555_ruby_36916",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000380/files/50555_37463.html",
+    "inputBy": "大野晋",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "淺井洌",
+      "publisher": "松本市教育会",
+      "firstPublishedAt": "1990（平成2）年12月20日",
+      "inputEdition": "1990（平成2）年12月20日",
+      "proofreadEdition": "1990（平成2）年12月20日"
+    },
+    "author": "浅井洌",
+    "authors": [
+      {
+        "personId": "000380",
+        "name": "浅井洌",
+        "kana": "あさいれつ",
+        "roman": "Retsu Asai",
+        "role": "著者",
+        "birthDate": "1849-10-10",
+        "deathDate": "1938-02-27",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

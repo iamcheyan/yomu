@@ -102,5 +102,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056814",
+    "title": "堕落論〔続堕落論〕",
+    "titleKana": "だらくろん（ぞくだらくろん）",
+    "sortKana": "たらくろんそくたらくろん",
+    "firstAppearance": "「文学季刊　第二号（冬季号）」1946（昭和21）年12月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-02-17",
+    "updatedAt": "2016-01-12",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card56814.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/56814_ruby_57983.zip",
+    "textFileId": "56814_ruby_57983",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/56814_58010.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "酒井裕二",
+    "baseBook1": {
+      "title": "堕落論・日本文化私観　他二十二篇",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2008（平成20）年9月17日",
+      "inputEdition": "2013（平成25）年4月5日第6刷",
+      "proofreadEdition": "2014（平成26）年11月14日第7刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -260,5 +260,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002288",
+    "title": "葉",
+    "titleKana": "は",
+    "sortKana": "は",
+    "firstAppearance": "「鷭」1934（昭和9）年4月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-10-07",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card2288.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/2288_ruby_33103.zip",
+    "textFileId": "2288_ruby_33103",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/2288_33104.html",
+    "inputBy": "加藤るみ",
+    "proofreadBy": "深水英一郎",
+    "baseBook1": {
+      "title": "晩年",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1947（昭和22）年12月10日、1985（昭和60）年10年5日70刷改版",
+      "inputEdition": "1998（平成10）年7月20日第103刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

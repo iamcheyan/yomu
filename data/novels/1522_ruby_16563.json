@@ -106,5 +106,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001522",
+    "title": "初蛙",
+    "titleKana": "はつがえる",
+    "sortKana": "はつかえる",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-11-05",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000150/card1522.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000150/files/1522_ruby_16563.zip",
+    "textFileId": "1522_ruby_16563",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000150/files/1522_16656.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "大野晋",
+    "baseBook1": {
+      "title": "日本の名随筆17　春",
+      "publisher": "作品社",
+      "firstPublishedAt": "1984（昭和59）年3月25日",
+      "inputEdition": "1997（平成9）年2月20日第20刷",
+      "proofreadEdition": "1997（平成9）年2月20日第20刷"
+    },
+    "author": "薄田泣菫",
+    "authors": [
+      {
+        "personId": "000150",
+        "name": "薄田泣菫",
+        "kana": "すすきだきゅうきん",
+        "roman": "Kyukin Susukida",
+        "role": "著者",
+        "birthDate": "1877-05-19",
+        "deathDate": "1945-10-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

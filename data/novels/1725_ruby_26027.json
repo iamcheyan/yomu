@@ -1680,5 +1680,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001725",
+    "title": "死までを語る",
+    "titleKana": "しまでをかたる",
+    "sortKana": "しまてをかたる",
+    "firstAppearance": "「話」1933（昭和8）年9月号～1934（昭和9）年3月号",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-03-26",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000216/card1725.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000216/files/1725_ruby_26027.zip",
+    "textFileId": "1725_ruby_26027",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000216/files/1725_26171.html",
+    "inputBy": "小林繁雄、門田裕志",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "直木三十五作品集",
+      "publisher": "文藝春秋",
+      "firstPublishedAt": "1989（平成元）年2月15日",
+      "inputEdition": "1989（平成元）年2月15日第1刷",
+      "proofreadEdition": "1989（平成元）年2月15日第1刷"
+    },
+    "author": "直木三十五",
+    "authors": [
+      {
+        "personId": "000216",
+        "name": "直木三十五",
+        "kana": "なおきさんじゅうご",
+        "roman": "Sanjugo Naoki",
+        "role": "著者",
+        "birthDate": "1891-02-12",
+        "deathDate": "1934-02-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

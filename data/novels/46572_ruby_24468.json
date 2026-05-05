@@ -256,5 +256,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046572",
+    "title": "元日の釣",
+    "titleKana": "がんじつのつり",
+    "sortKana": "かんしつのつり",
+    "ndc": "NDC 787",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-12-04",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001252/card46572.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001252/files/46572_ruby_24468.zip",
+    "textFileId": "46572_ruby_24468",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001252/files/46572_24654.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "集成　日本の釣り文学　第二巻　夢に釣る",
+      "publisher": "作品社",
+      "firstPublishedAt": "1995（平成7）年8月10日",
+      "inputEdition": "1995（平成7）年8月10日第1刷",
+      "proofreadEdition": "1995（平成7）年8月10日第1刷"
+    },
+    "author": "石井研堂",
+    "authors": [
+      {
+        "personId": "001252",
+        "name": "石井研堂",
+        "kana": "いしいけんどう",
+        "roman": "Kendo Ishii",
+        "role": "著者",
+        "birthDate": "1865",
+        "deathDate": "1943",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

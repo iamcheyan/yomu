@@ -112,5 +112,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057357",
+    "title": "雪割草の花",
+    "titleKana": "ゆきわりそうのはな",
+    "sortKana": "ゆきわりそうのはな",
+    "firstAppearance": "「家事と衛生」家事衛生研究会、1927（昭和2）年4月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-08-04",
+    "updatedAt": "2016-06-10",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001380/card57357.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001380/files/57357_ruby_59502.zip",
+    "textFileId": "57357_ruby_59502",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001380/files/57357_59539.html",
+    "inputBy": "富田晶子",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "日本山岳名著全集8",
+      "publisher": "あかね書房",
+      "firstPublishedAt": "1962（昭和37）年11月25日",
+      "inputEdition": "1962（昭和37）年11月25日第1刷",
+      "proofreadEdition": "1962（昭和37）年11月25日第1刷"
+    },
+    "author": "石川欣一",
+    "authors": [
+      {
+        "personId": "001380",
+        "name": "石川欣一",
+        "kana": "いしかわきんいち",
+        "roman": "Kinichi Ishikawa",
+        "role": "著者",
+        "birthDate": "1895-03-17",
+        "deathDate": "1959-08-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

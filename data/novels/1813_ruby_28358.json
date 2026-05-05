@@ -8104,5 +8104,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001813",
+    "title": "新版　放浪記",
+    "titleKana": "しんぱん　ほうろうき",
+    "sortKana": "しんはんほうろうき",
+    "firstAppearance": "「女人藝術」1928（昭和3）年10月号～1930（昭和5）年10月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-06-28",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000291/card1813.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000291/files/1813_ruby_28358.zip",
+    "textFileId": "1813_ruby_28358",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000291/files/1813_30136.html",
+    "inputBy": "任天堂株式会社",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "新版　放浪記",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1979（昭和54）年9月30日",
+      "inputEdition": "1983（昭和58）年7月30日9刷",
+      "proofreadEdition": "1991（平成3）年11月5日25刷"
+    },
+    "author": "林芙美子",
+    "authors": [
+      {
+        "personId": "000291",
+        "name": "林芙美子",
+        "kana": "はやしふみこ",
+        "roman": "Fumiko Hayashi",
+        "role": "著者",
+        "birthDate": "1903-12-31",
+        "deathDate": "1951-06-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

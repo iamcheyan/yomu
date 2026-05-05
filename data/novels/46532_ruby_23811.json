@@ -876,5 +876,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046532",
+    "title": "春昼後刻",
+    "titleKana": "しゅんちゅうごこく",
+    "sortKana": "しゆんちゆうここく",
+    "firstAppearance": "「新小説」1906（明治39）年12月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-08-26",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card46532.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/46532_ruby_23811.zip",
+    "textFileId": "46532_ruby_23811",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/46532_23812.html",
+    "inputBy": "小林繁雄",
+    "proofreadBy": "平野彩子、土屋隆",
+    "baseBook1": {
+      "title": "春昼・春昼後刻",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1987（昭和62）年4月16日",
+      "inputEdition": "1999（平成11）年7月5日第19刷",
+      "proofreadEdition": "1995（平成7）年2月15日第15刷"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

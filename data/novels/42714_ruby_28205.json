@@ -330,5 +330,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042714",
+    "title": "立札",
+    "titleKana": "たてふだ",
+    "sortKana": "たてふた",
+    "subtitle": "――近代伝説――",
+    "subtitleKana": "――きんだいでんせつ――",
+    "firstAppearance": "「日本評論」1941（昭和16）年1月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-11-23",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000906/card42714.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000906/files/42714_ruby_28205.zip",
+    "textFileId": "42714_ruby_28205",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000906/files/42714_28559.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "豊島与志雄著作集　第四巻（小説Ⅳ）",
+      "publisher": "未来社",
+      "firstPublishedAt": "1965（昭和40）年6月25日",
+      "inputEdition": "1965（昭和40）年6月25日第1刷",
+      "proofreadEdition": "1965（昭和40）年6月25日第1刷"
+    },
+    "author": "豊島与志雄",
+    "authors": [
+      {
+        "personId": "000906",
+        "name": "豊島与志雄",
+        "kana": "とよしまよしお",
+        "roman": "Yoshio Toyoshima",
+        "role": "著者",
+        "birthDate": "1890-11-27",
+        "deathDate": "1955-06-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

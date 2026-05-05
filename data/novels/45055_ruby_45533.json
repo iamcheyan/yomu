@@ -188,5 +188,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045055",
+    "title": "犬の八公",
+    "titleKana": "いぬのはちこう",
+    "sortKana": "いぬのはちこう",
+    "firstAppearance": "「童話」コドモ社、1926（大正15）年7月",
+    "ndc": "NDC K913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-01-21",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000906/card45055.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000906/files/45055_ruby_45533.zip",
+    "textFileId": "45055_ruby_45533",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000906/files/45055_45841.html",
+    "inputBy": "菅野朋子",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本児童文学大系　第一六巻",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1977（昭和52）年11月20日",
+      "inputEdition": "1977（昭和52）年11月20日初刷",
+      "proofreadEdition": "1977（昭和52）年11月20日初刷"
+    },
+    "author": "豊島与志雄",
+    "authors": [
+      {
+        "personId": "000906",
+        "name": "豊島与志雄",
+        "kana": "とよしまよしお",
+        "roman": "Yoshio Toyoshima",
+        "role": "著者",
+        "birthDate": "1890-11-27",
+        "deathDate": "1955-06-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

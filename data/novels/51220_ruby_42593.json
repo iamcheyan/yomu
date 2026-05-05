@@ -298,5 +298,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051220",
+    "title": "湖畔手記",
+    "titleKana": "こはんしゅき",
+    "sortKana": "こはんしゆき",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-05-19",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000984/card51220.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000984/files/51220_ruby_42593.zip",
+    "textFileId": "51220_ruby_42593",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000984/files/51220_42630.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "子をつれて",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1952（昭和27）年10月5日",
+      "inputEdition": "2009（平成21）年2月19日第9刷",
+      "proofreadEdition": "2009（平成21）年2月19日第9刷"
+    },
+    "author": "葛西善蔵",
+    "authors": [
+      {
+        "personId": "000984",
+        "name": "葛西善蔵",
+        "kana": "かさいぜんぞう",
+        "roman": "Zenzo Kasai",
+        "role": "著者",
+        "birthDate": "1887-01-16",
+        "deathDate": "1928-07-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

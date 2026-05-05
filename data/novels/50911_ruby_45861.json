@@ -46,5 +46,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050911",
+    "title": "訳本ファウストについて",
+    "titleKana": "やくほんファウストについて",
+    "sortKana": "やくほんふあうすとについて",
+    "ndc": "NDC 914 944",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-02-27",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card50911.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/50911_ruby_45861.zip",
+    "textFileId": "50911_ruby_45861",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/50911_46741.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "米田",
+    "baseBook1": {
+      "title": "ファウスト　森鴎外全集11",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1996（平成8）年2月22日",
+      "inputEdition": "2007（平成19）年6月25日第5刷",
+      "proofreadEdition": "1996（平成8）年2月22日第1刷"
+    },
+    "author": "森鴎外",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

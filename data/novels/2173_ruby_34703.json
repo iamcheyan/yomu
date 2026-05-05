@@ -130,5 +130,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002173",
+    "title": "バルザックの寝巻姿",
+    "titleKana": "バルザックのねまきすがた",
+    "sortKana": "はるさつくのねまきすかた",
+    "originalTitle": "東洋曲芸団",
+    "firstAppearance": "小野クララの筆名で「文芸春秋」昭和4年10月号に掲載。",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-02-19",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000043/card2173.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000043/files/2173_ruby_34703.zip",
+    "textFileId": "2173_ruby_34703",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000043/files/2173_34704.html",
+    "inputBy": "田辺浩昭",
+    "proofreadBy": "地田尚",
+    "baseBook1": {
+      "title": "吉行エイスケ作品集",
+      "publisher": "文園社",
+      "firstPublishedAt": "1997（平成9）年7月10日"
+    },
+    "author": "吉行エイスケ",
+    "authors": [
+      {
+        "personId": "000043",
+        "name": "吉行エイスケ",
+        "kana": "よしゆきえいすけ",
+        "roman": "Eisuke Yoshiyuki",
+        "role": "著者",
+        "birthDate": "1906-05-10",
+        "deathDate": "1940-07-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

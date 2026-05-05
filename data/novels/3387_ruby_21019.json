@@ -48,5 +48,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003387",
+    "title": "水仙の幻想",
+    "titleKana": "すいせんのげんそう",
+    "sortKana": "すいせんのけんそう",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-07-06",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000150/card3387.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000150/files/3387_ruby_21019.zip",
+    "textFileId": "3387_ruby_21019",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000150/files/3387_21020.html",
+    "inputBy": "本山智子",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "泣菫随筆",
+      "publisher": "冨山房百科文庫、冨山房",
+      "firstPublishedAt": "1993（平成5）年4月24日",
+      "inputEdition": "1993（平成5）年4月24日第1刷",
+      "proofreadEdition": "1997（平成9）年7月20日第2刷"
+    },
+    "author": "薄田泣菫",
+    "authors": [
+      {
+        "personId": "000150",
+        "name": "薄田泣菫",
+        "kana": "すすきだきゅうきん",
+        "roman": "Kyukin Susukida",
+        "role": "著者",
+        "birthDate": "1877-05-19",
+        "deathDate": "1945-10-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

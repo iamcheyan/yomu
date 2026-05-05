@@ -56,5 +56,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002316",
+    "title": "兵隊の死",
+    "titleKana": "へいたいのし",
+    "sortKana": "へいたいのし",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-01-27",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000020/card2316.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000020/files/2316_ruby_1379.zip",
+    "textFileId": "2316_ruby_1379",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000020/files/2316_13544.html",
+    "inputBy": "もりみつじゅんじ",
+    "proofreadBy": "田尻幹二",
+    "baseBook1": {
+      "title": "アンドロギュノスの裔",
+      "publisher": "薔薇十字社",
+      "firstPublishedAt": "1970（昭和45）年9月1日",
+      "inputEdition": "1970（昭和45）年9月1日初版",
+      "proofreadEdition": "1970（昭和45）年9月1日初版"
+    },
+    "author": "渡辺温",
+    "authors": [
+      {
+        "personId": "000020",
+        "name": "渡辺温",
+        "kana": "わたなべおん",
+        "roman": "On Watanabe",
+        "role": "著者",
+        "birthDate": "1902-08-26",
+        "deathDate": "1930-02-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

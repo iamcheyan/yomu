@@ -52,5 +52,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003208",
+    "title": "きのふけふの草花",
+    "titleKana": "きのうきょうのくさばな",
+    "sortKana": "きのうきようのくさはな",
+    "ndc": "NDC 470 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-08-01",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000093/card3208.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000093/files/3208_ruby_22709.zip",
+    "textFileId": "3208_ruby_22709",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000093/files/3208_22710.html",
+    "inputBy": "渡邉つよし",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻14　園芸",
+      "publisher": "作品社",
+      "firstPublishedAt": "1992（平成4）年4月25日",
+      "inputEdition": "1992（平成4）年4月25日第1刷",
+      "proofreadEdition": "1993（平成5）年9月30日第2刷"
+    },
+    "author": "南方熊楠",
+    "authors": [
+      {
+        "personId": "000093",
+        "name": "南方熊楠",
+        "kana": "みなかたくまぐす",
+        "roman": "Kumagusu Minakata",
+        "role": "著者",
+        "birthDate": "1867-05-18",
+        "deathDate": "1941-12-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -1796,5 +1796,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057230",
+    "title": "ふしぎな人",
+    "titleKana": "ふしぎなひと",
+    "sortKana": "ふしきなひと",
+    "firstAppearance": "「たのしい二年生」大日本雄弁会講談社／講談社、1958（昭和33）年8月～1959（昭和34）年3月<br>「たのしい三年生」講談社、1959（昭和34）年4月～12月",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-07-16",
+    "updatedAt": "2016-06-10",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001779/card57230.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001779/files/57230_ruby_59440.zip",
+    "textFileId": "57230_ruby_59440",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001779/files/57230_59480.html",
+    "inputBy": "sogo",
+    "proofreadBy": "北川松生",
+    "baseBook1": {
+      "title": "江戸川乱歩全集　第21巻　ふしぎな人",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2005（平成17）年3月20日",
+      "inputEdition": "2005（平成17）年3月20日初版1刷",
+      "proofreadEdition": "2005（平成17）年3月20日初版1刷"
+    },
+    "author": "江戸川乱歩",
+    "authors": [
+      {
+        "personId": "001779",
+        "name": "江戸川乱歩",
+        "kana": "えどがわらんぽ",
+        "roman": "Ranpo Edogawa",
+        "role": "著者",
+        "birthDate": "1894-10-21",
+        "deathDate": "1965-07-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -90,5 +90,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046577",
+    "title": "散歩生活",
+    "titleKana": "さんぽせいかつ",
+    "sortKana": "さんほせいかつ",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-01-21",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000026/card46577.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000026/files/46577_ruby_24793.zip",
+    "textFileId": "46577_ruby_24793",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000026/files/46577_25524.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻32　散歩",
+      "publisher": "作品社",
+      "firstPublishedAt": "1993（平成5）年10月25日",
+      "inputEdition": "1993（平成5）年10月25日第1刷",
+      "proofreadEdition": "1993（平成5）年10月25日第1刷"
+    },
+    "author": "中原中也",
+    "authors": [
+      {
+        "personId": "000026",
+        "name": "中原中也",
+        "kana": "なかはらちゅうや",
+        "roman": "Chuya Nakahara",
+        "role": "著者",
+        "birthDate": "1907-04-29",
+        "deathDate": "1937-10-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

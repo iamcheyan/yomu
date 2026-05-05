@@ -40,5 +40,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057235",
+    "title": "三次の鵜飼",
+    "titleKana": "みよしのうかい",
+    "sortKana": "みよしのうかい",
+    "firstAppearance": "「大阪朝日新聞」1926（大正15）年8月3日",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-05-12",
+    "updatedAt": "2017-03-11",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000702/card57235.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000702/files/57235_ruby_61304.zip",
+    "textFileId": "57235_ruby_61304",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000702/files/57235_61347.html",
+    "inputBy": "岡村和彦",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "ふるさと文学館　第四〇巻　【広島】",
+      "publisher": "ぎょうせい",
+      "firstPublishedAt": "1994（平成6）年2月15日",
+      "inputEdition": "1994（平成6）年2月15日初版",
+      "proofreadEdition": "1994（平成6）年2月15日初版"
+    },
+    "author": "中村憲吉",
+    "authors": [
+      {
+        "personId": "000702",
+        "name": "中村憲吉",
+        "kana": "なかむらけんきち",
+        "roman": "Kenkichi Nakamura",
+        "role": "著者",
+        "birthDate": "1889-01-25",
+        "deathDate": "1934-05-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

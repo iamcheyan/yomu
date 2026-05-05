@@ -328,5 +328,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046534",
+    "title": "歌よみに与ふる書",
+    "titleKana": "うたよみにあたうるしょ",
+    "sortKana": "うたよみにあたうるしよ",
+    "firstAppearance": "歌よみに与ふる書「日本」日本新聞社、1898（明治31）年2月12日<br> 再び歌よみに与ふる書「日本附録週報」1898（明治31）年2月14日<br> 三たび歌よみに与ふる書「日本」日本新聞社、1898（明治31）年2月18日<br> 四たび歌よみに与ふる書「日本」日本新聞社、1898（明治31）年2月21日<br> 五たび歌よみに与ふる書「日本」日本新聞社、1898（明治31）年2月23日<br> 六たび歌よみに与ふる書「日本」日本新聞社、1898（明治31）年2月24日<br> 七たび歌よみに与ふる書「日本」日本新聞社、1898（明治31）年2月28日<br> 八たび歌よみに与ふる書「日本」日本新聞社、1898（明治31）年3月1日<br> 九たび歌よみに与ふる書「日本」日本新聞社、1898（明治31）年3月3日<br> 十たび歌よみに与ふる書「日本」日本新聞社、1898（明治31）年3月4日",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-09-17",
+    "updatedAt": "2016-06-10",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000305/card46534.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000305/files/46534_ruby_59598.zip",
+    "textFileId": "46534_ruby_59598",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000305/files/46534_59640.html",
+    "inputBy": "kompass",
+    "proofreadBy": "高瀬竜一",
+    "baseBook1": {
+      "title": "子規選集　第七巻　子規の短歌革新",
+      "publisher": "増進会出版社",
+      "firstPublishedAt": "2002（平成14）年4月12日",
+      "inputEdition": "2002（平成14）年4月12日初版第1刷",
+      "proofreadEdition": "2002（平成14）年4月12日初版第1刷"
+    },
+    "author": "正岡子規",
+    "authors": [
+      {
+        "personId": "000305",
+        "name": "正岡子規",
+        "kana": "まさおかしき",
+        "roman": "Shiki Masaoka",
+        "role": "著者",
+        "birthDate": "1867-10-14",
+        "deathDate": "1902-09-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

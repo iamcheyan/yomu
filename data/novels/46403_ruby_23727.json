@@ -210,5 +210,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046403",
+    "title": "「香水の表情」に就いて",
+    "titleKana": "「こうすいのひょうじょう」について",
+    "sortKana": "こうすいのひようしようについて",
+    "subtitle": "――漫談的無駄話――",
+    "subtitleKana": "――まんだんてきむだばなし――",
+    "ndc": "NDC 576 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-11-04",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000190/card46403.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000190/files/46403_ruby_23727.zip",
+    "textFileId": "46403_ruby_23727",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000190/files/46403_24378.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆48　香",
+      "publisher": "作品社",
+      "firstPublishedAt": "1986（昭和61）年10月25日",
+      "inputEdition": "1986（昭和61）年10月25日第1刷",
+      "proofreadEdition": "1986（昭和61）年10月25日第1刷"
+    },
+    "author": "大手拓次",
+    "authors": [
+      {
+        "personId": "000190",
+        "name": "大手拓次",
+        "kana": "おおてたくじ",
+        "roman": "Takuji Ote",
+        "role": "著者",
+        "birthDate": "1887-12-03",
+        "deathDate": "1934-04-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

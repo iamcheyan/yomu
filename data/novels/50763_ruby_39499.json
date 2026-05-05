@@ -148,5 +148,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050763",
+    "title": "さいかち淵",
+    "titleKana": "さいかちぶち",
+    "sortKana": "さいかちふち",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-10-07",
+    "updatedAt": "2023-07-08",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card50763.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/50763_ruby_39499.zip",
+    "textFileId": "50763_ruby_39499",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/50763_40543.html",
+    "inputBy": "ゆうき",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "イーハトーボ農学校の春",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1996（平成8）年3月25日",
+      "inputEdition": "1996（平成8）年3月25日初版",
+      "proofreadEdition": "1996（平成8）年3月25日初版"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

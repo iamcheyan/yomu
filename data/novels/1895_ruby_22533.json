@@ -50,5 +50,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001895",
+    "title": "余話",
+    "titleKana": "よわ",
+    "sortKana": "よわ",
+    "subtitle": "秘められた箱",
+    "subtitleKana": "ひめられたはこ",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-02-24",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000183/card1895.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000183/files/1895_ruby_22533.zip",
+    "textFileId": "1895_ruby_22533",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000183/files/1895_22534.html",
+    "inputBy": "加藤恭子",
+    "proofreadBy": "もりみつじゅんじ",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻69　秘密",
+      "publisher": "作品社",
+      "firstPublishedAt": "1996（平成8）年11月25日"
+    },
+    "author": "牧野信一",
+    "authors": [
+      {
+        "personId": "000183",
+        "name": "牧野信一",
+        "kana": "まきのしんいち",
+        "roman": "Shin'ichi Makino",
+        "role": "著者",
+        "birthDate": "1896-11-12",
+        "deathDate": "1936-03-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -128,5 +128,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "061285",
+    "title": "片男波",
+    "titleKana": "かたおなみ",
+    "sortKana": "かたおなみ",
+    "firstAppearance": "「文藝倶樂部　第二巻第九編臨時増刊　海嘯義捐小説」博文館、1896（明治29）年7月25日",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2023-02-03",
+    "updatedAt": "2023-01-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000241/card61285.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000241/files/61285_ruby_76843.zip",
+    "textFileId": "61285_ruby_76843",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000241/files/61285_76844.html",
+    "inputBy": "持田和踏",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "天変動く　大震災と作家たち",
+      "publisher": "インパクト出版会",
+      "firstPublishedAt": "2011（平成23）年9月11日",
+      "inputEdition": "2011（平成23）年9月11日第1刷",
+      "proofreadEdition": "2011（平成23）年9月11日第1刷"
+    },
+    "author": "小栗風葉",
+    "authors": [
+      {
+        "personId": "000241",
+        "name": "小栗風葉",
+        "kana": "おぐりふうよう",
+        "roman": "Fuyo Oguri",
+        "role": "著者",
+        "birthDate": "1875-02-03",
+        "deathDate": "1926-01-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

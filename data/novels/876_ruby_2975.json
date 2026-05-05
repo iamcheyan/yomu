@@ -218,5 +218,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000876",
+    "title": "人造人間殺害事件",
+    "titleKana": "ロボットさつがいじけん",
+    "sortKana": "ろほつとさつかいしけん",
+    "firstAppearance": "「新青年」博文館、1931（昭和6）年1月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-01-01",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000160/card876.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000160/files/876_ruby_2975.zip",
+    "textFileId": "876_ruby_2975",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000160/files/876_45575.html",
+    "inputBy": "田浦亜矢子",
+    "proofreadBy": "もりみつじゅんじ",
+    "baseBook1": {
+      "title": "海野十三全集　第1巻　遺言状放送",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1990（平成2）年10月15日",
+      "inputEdition": "1990（平成2）年10月15日第1版第1刷",
+      "proofreadEdition": "1990（平成2）年10月15日第1版第1刷"
+    },
+    "author": "海野十三",
+    "authors": [
+      {
+        "personId": "000160",
+        "name": "海野十三",
+        "kana": "うんのじゅうざ",
+        "roman": "Juza Unno",
+        "role": "著者",
+        "birthDate": "1897-12-26",
+        "deathDate": "1949-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -42,5 +42,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002975",
+    "title": "小説と現実",
+    "titleKana": "しょうせつとげんじつ",
+    "sortKana": "しようせつとけんしつ",
+    "subtitle": "小沢清の「軍服」について",
+    "subtitleKana": "おざわきよしの「ぐんぷく」について",
+    "firstAppearance": "「アカハタ」1947（昭和22）年3月3日号",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-05-10",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000311/card2975.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000311/files/2975_ruby_10066.zip",
+    "textFileId": "2975_ruby_10066",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000311/files/2975_10067.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "米田進",
+    "baseBook1": {
+      "title": "宮本百合子全集　第十三巻",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1979（昭和54）年11月20日",
+      "inputEdition": "1986（昭和61）年3月20日第5刷"
+    },
+    "author": "宮本百合子",
+    "authors": [
+      {
+        "personId": "000311",
+        "name": "宮本百合子",
+        "kana": "みやもとゆりこ",
+        "roman": "Yuriko Miyamoto",
+        "role": "著者",
+        "birthDate": "1899-02-13",
+        "deathDate": "1951-01-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

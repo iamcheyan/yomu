@@ -3926,5 +3926,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050186",
+    "title": "斬られの仙太",
+    "titleKana": "きられのせんた",
+    "sortKana": "きられのせんた",
+    "firstAppearance": "「斬られの仙太」ナウカ社、1934（昭和9）年4月",
+    "ndc": "NDC 912",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-10-21",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001311/card50186.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001311/files/50186_ruby_35170.zip",
+    "textFileId": "50186_ruby_35170",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001311/files/50186_36140.html",
+    "inputBy": "伊藤時也",
+    "proofreadBy": "伊藤時也、及川　雅",
+    "baseBook1": {
+      "title": "叢書名著の復興1　恐怖の季節",
+      "publisher": "ぺりかん社",
+      "firstPublishedAt": "1966（昭和41）年12月1日",
+      "inputEdition": "1966（昭和41）年12月1日第1刷",
+      "proofreadEdition": "1966（昭和41）年12月1日第1刷"
+    },
+    "author": "三好十郎",
+    "authors": [
+      {
+        "personId": "001311",
+        "name": "三好十郎",
+        "kana": "みよしじゅうろう",
+        "roman": "Juro Miyoshi",
+        "role": "著者",
+        "birthDate": "1902-04-21",
+        "deathDate": "1958-12-16",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

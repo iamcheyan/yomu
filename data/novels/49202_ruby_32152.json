@@ -50,5 +50,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049202",
+    "title": "「ああしんど」",
+    "titleKana": "「ああしんど」",
+    "sortKana": "ああしんと",
+    "firstAppearance": "「新小説　明治四十四年十二月号」春陽堂、1911（明治44）年12月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-10-27",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001351/card49202.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001351/files/49202_ruby_32152.zip",
+    "textFileId": "49202_ruby_32152",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001351/files/49202_33049.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "文豪怪談傑作選・特別篇　百物語怪談会",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "2007（平成19）年7月10日",
+      "inputEdition": "2007（平成19）年7月10日第1刷",
+      "proofreadEdition": "2007（平成19）年7月10日第1刷"
+    },
+    "author": "池田蕉園",
+    "authors": [
+      {
+        "personId": "001351",
+        "name": "池田蕉園",
+        "kana": "いけだしょうえん",
+        "roman": "Shoen Ikeda",
+        "role": "著者",
+        "birthDate": "1886-05-13",
+        "deathDate": "1917-12-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

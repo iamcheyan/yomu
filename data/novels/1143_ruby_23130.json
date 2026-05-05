@@ -438,5 +438,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001143",
+    "title": "親子",
+    "titleKana": "おやこ",
+    "sortKana": "おやこ",
+    "firstAppearance": "「泉」1923（大正12）年5月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-06-29",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000025/card1143.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000025/files/1143_ruby_23130.zip",
+    "textFileId": "1143_ruby_23130",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000025/files/1143_23267.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "カインの末裔",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1969（昭和44）年10月30日改版初版",
+      "inputEdition": "1991（平成3）年7月20日改版25版",
+      "proofreadEdition": "1985（昭和60）年12月20日改版21版"
+    },
+    "author": "有島武郎",
+    "authors": [
+      {
+        "personId": "000025",
+        "name": "有島武郎",
+        "kana": "ありしまたけお",
+        "roman": "Takeo Arishima",
+        "role": "著者",
+        "birthDate": "1878-03-04",
+        "deathDate": "1923-06-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

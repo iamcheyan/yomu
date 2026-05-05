@@ -48,5 +48,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047355",
+    "title": "夭折した富永太郎",
+    "titleKana": "ようせつしたとみながたろう",
+    "sortKana": "ようせつしたとみなかたろう",
+    "firstAppearance": "「山繭」1926（大正15）年11月号",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-05-08",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000026/card47355.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000026/files/47355_ruby_29694.zip",
+    "textFileId": "47355_ruby_29694",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000026/files/47355_30915.html",
+    "inputBy": "高柳典子",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "富永太郎詩集",
+      "publisher": "思潮社",
+      "firstPublishedAt": "1975（昭和50）年 7月10日",
+      "inputEdition": "2000（平成12）年6月10日第7刷",
+      "proofreadEdition": "1984（昭和59）年10月1日第6刷"
+    },
+    "author": "中原中也",
+    "authors": [
+      {
+        "personId": "000026",
+        "name": "中原中也",
+        "kana": "なかはらちゅうや",
+        "roman": "Chuya Nakahara",
+        "role": "著者",
+        "birthDate": "1907-04-29",
+        "deathDate": "1937-10-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

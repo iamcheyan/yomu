@@ -40,5 +40,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054422",
+    "title": "ねがひ",
+    "titleKana": "ねがい",
+    "sortKana": "ねかい",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-10-03",
+    "updatedAt": "2016-09-09",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001667/card54422.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001667/files/54422_ruby_59967.zip",
+    "textFileId": "54422_ruby_59967",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001667/files/54422_60012.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "良本典代",
+    "baseBook1": {
+      "title": "沖縄文学全集　第1巻　詩Ⅰ",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "1991（平成3）年6月6日",
+      "inputEdition": "1991（平成3）年6月6日第1刷",
+      "proofreadEdition": "1991（平成3）年6月6日第1刷"
+    },
+    "author": "仲村渠",
+    "authors": [
+      {
+        "personId": "001667",
+        "name": "仲村渠",
+        "kana": "なかむらかれ",
+        "roman": "Kare Nakamura",
+        "role": "著者",
+        "birthDate": "1905-10-03",
+        "deathDate": "1951-12-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

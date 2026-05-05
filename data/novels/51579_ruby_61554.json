@@ -104,5 +104,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051579",
+    "title": "写生に出かけた少年",
+    "titleKana": "しゃせいにでかけたしょうねん",
+    "sortKana": "しやせいにてかけたしようねん",
+    "firstAppearance": "「小学四年生」1939（昭和14）年8月",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-06-18",
+    "updatedAt": "2017-05-29",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001475/card51579.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001475/files/51579_ruby_61554.zip",
+    "textFileId": "51579_ruby_61554",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001475/files/51579_61593.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "酒井裕二",
+    "baseBook1": {
+      "title": "定本小川未明童話全集　12",
+      "publisher": "講談社",
+      "firstPublishedAt": "1977（昭和52）年10月10日",
+      "inputEdition": "1982（昭和57）年9月10日第5刷",
+      "proofreadEdition": "1977（昭和52）年10月10日第1刷"
+    },
+    "author": "小川未明",
+    "authors": [
+      {
+        "personId": "001475",
+        "name": "小川未明",
+        "kana": "おがわみめい",
+        "roman": "Mimei Ogawa",
+        "role": "著者",
+        "birthDate": "1882-04-07",
+        "deathDate": "1961-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

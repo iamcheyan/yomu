@@ -34,5 +34,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002317",
+    "title": "待つ",
+    "titleKana": "まつ",
+    "sortKana": "まつ",
+    "firstAppearance": "1942（昭和17）年6月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-02-16",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card2317.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/2317_ruby_1535.zip",
+    "textFileId": "2317_ruby_1535",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/2317_13904.html",
+    "inputBy": "網迫",
+    "proofreadBy": "野口英司",
+    "baseBook1": {
+      "title": "女生徒",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1954（昭和29）年10月20日、1968（昭和43）年2月5日改版44版",
+      "inputEdition": "1968（昭和43）年2月5日44版",
+      "proofreadEdition": "1989（平成元）年7月10日改版41版"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

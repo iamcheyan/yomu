@@ -36,5 +36,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004414",
+    "title": "馬地獄",
+    "titleKana": "うまじごく",
+    "sortKana": "うましこく",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-02-23",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000040/card4414.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000040/files/4414_ruby_14335.zip",
+    "textFileId": "4414_ruby_14335",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000040/files/4414_14356.html",
+    "inputBy": "よしだとしひこ",
+    "proofreadBy": "今井忠夫",
+    "baseBook1": {
+      "title": "ちくま日本文学全集　織田作之助",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1993（平成5）年5月20日",
+      "inputEdition": "1993（平成5）年5月20日第1刷",
+      "proofreadEdition": "1993（平成5）年5月20日第1刷"
+    },
+    "author": "織田作之助",
+    "authors": [
+      {
+        "personId": "000040",
+        "name": "織田作之助",
+        "kana": "おださくのすけ",
+        "roman": "Sakunosuke Oda",
+        "role": "著者",
+        "birthDate": "1913-10-26",
+        "deathDate": "1947-01-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

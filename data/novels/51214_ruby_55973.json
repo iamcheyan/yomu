@@ -126,5 +126,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051214",
+    "title": "雑信一束",
+    "titleKana": "ざっしんいっそく",
+    "sortKana": "さつしんいつそく",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-03-28",
+    "updatedAt": "2015-02-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000879/card51214.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000879/files/51214_ruby_55973.zip",
+    "textFileId": "51214_ruby_55973",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000879/files/51214_56018.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "岡山勝美",
+    "baseBook1": {
+      "title": "上海游記・江南游記",
+      "publisher": "講談社文芸文庫、講談社",
+      "firstPublishedAt": "2001（平成13）年10月10日",
+      "inputEdition": "2001（平成13）年10月10日第1刷",
+      "proofreadEdition": "2001（平成13）年10月10日第1刷"
+    },
+    "author": "芥川竜之介",
+    "authors": [
+      {
+        "personId": "000879",
+        "name": "芥川竜之介",
+        "kana": "あくたがわりゅうのすけ",
+        "roman": "Ryunosuke Akutagawa",
+        "role": "著者",
+        "birthDate": "1892-03-01",
+        "deathDate": "1927-07-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

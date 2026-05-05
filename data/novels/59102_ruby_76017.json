@@ -414,5 +414,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059102",
+    "title": "殺生谷の鬼火",
+    "titleKana": "せっしょうだにのおにび",
+    "sortKana": "せつしようたにのおにひ",
+    "firstAppearance": "「新少年」1937（昭和12）年9月",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-08-03",
+    "updatedAt": "2022-07-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001869/card59102.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001869/files/59102_ruby_76017.zip",
+    "textFileId": "59102_ruby_76017",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001869/files/59102_76053.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "良本典代",
+    "baseBook1": {
+      "title": "山本周五郎探偵小説全集　第一巻　少年探偵・春田龍介",
+      "publisher": "作品社",
+      "firstPublishedAt": "2007（平成19）年10月15日",
+      "inputEdition": "2007（平成19）年10月15日第1刷",
+      "proofreadEdition": "2007（平成19）年10月15日第1刷"
+    },
+    "author": "山本周五郎",
+    "authors": [
+      {
+        "personId": "001869",
+        "name": "山本周五郎",
+        "kana": "やまもとしゅうごろう",
+        "roman": "Shugoro Yamamoto",
+        "role": "著者",
+        "birthDate": "1903-06-22",
+        "deathDate": "1967-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

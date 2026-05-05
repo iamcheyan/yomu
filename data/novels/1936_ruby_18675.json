@@ -162,5 +162,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001936",
+    "title": "とっこべとら子",
+    "titleKana": "とっこべとらこ",
+    "sortKana": "とつこへとらこ",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-07-29",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000081/card1936.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000081/files/1936_ruby_18675.zip",
+    "textFileId": "1936_ruby_18675",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000081/files/1936_18754.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "風の又三郎",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1988（昭和63）年12月10日",
+      "inputEdition": "1990（平成2）年10月20日8版",
+      "proofreadEdition": "1990（平成2）年10月20日8版"
+    },
+    "author": "宮沢賢治",
+    "authors": [
+      {
+        "personId": "000081",
+        "name": "宮沢賢治",
+        "kana": "みやざわけんじ",
+        "roman": "Kenji Miyazawa",
+        "role": "著者",
+        "birthDate": "1896-08-27",
+        "deathDate": "1933-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

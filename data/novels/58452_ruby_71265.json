@@ -40,5 +40,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058452",
+    "title": "アテヌキという地名",
+    "titleKana": "アテヌキというちめい",
+    "sortKana": "あてぬきというちめい",
+    "firstAppearance": "「民間傳承二卷二號」民間傳承の會、1936（昭和11）年10月20日",
+    "ndc": "NDC 291",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-07-31",
+    "updatedAt": "2020-06-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001566/card58452.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001566/files/58452_ruby_71265.zip",
+    "textFileId": "58452_ruby_71265",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001566/files/58452_71314.html",
+    "inputBy": "フクポー",
+    "proofreadBy": "木下聡",
+    "baseBook1": {
+      "title": "柳田國男全集20",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1990（平成2）年7月31日",
+      "inputEdition": "1990（平成2）年7月31日第1刷",
+      "proofreadEdition": "1990（平成2）年7月31日第1刷"
+    },
+    "author": "柳田国男",
+    "authors": [
+      {
+        "personId": "001566",
+        "name": "柳田国男",
+        "kana": "やなぎたくにお",
+        "roman": "Kunio Yanagita",
+        "role": "著者",
+        "birthDate": "1875-07-31",
+        "deathDate": "1962-08-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

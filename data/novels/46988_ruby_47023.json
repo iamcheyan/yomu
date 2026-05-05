@@ -128,5 +128,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046988",
+    "title": "とんまの六兵衛",
+    "titleKana": "とんまのろくべえ",
+    "sortKana": "とんまのろくへえ",
+    "firstAppearance": "「赤い鳥」赤い鳥社、1925（大正14）年7月",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-03-22",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001205/card46988.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001205/files/46988_ruby_47023.zip",
+    "textFileId": "46988_ruby_47023",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001205/files/46988_47024.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "富田倫生",
+    "baseBook1": {
+      "title": "あたまでっかち――下村千秋童話選集――",
+      "publisher": "茨城県稲敷郡阿見町教育委員会",
+      "firstPublishedAt": "1997（平成9）年1月31日",
+      "inputEdition": "1997（平成9）年1月31日初版",
+      "proofreadEdition": "1997（平成9）年1月31日初版"
+    },
+    "author": "下村千秋",
+    "authors": [
+      {
+        "personId": "001205",
+        "name": "下村千秋",
+        "kana": "しもむらちあき",
+        "roman": "Chiaki Shimomura",
+        "role": "著者",
+        "birthDate": "1893-09-04",
+        "deathDate": "1955-01-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

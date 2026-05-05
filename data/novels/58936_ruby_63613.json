@@ -70,5 +70,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058936",
+    "title": "秋艸道人の書について",
+    "titleKana": "しゅうそうどうじんのしょについて",
+    "sortKana": "しゆうそうとうしんのしよについて",
+    "firstAppearance": "「淡交」淡交社、1961（昭和36）年8月号",
+    "ndc": "NDC 728",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-01-01",
+    "updatedAt": "2018-01-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001974/card58936.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001974/files/58936_ruby_63613.zip",
+    "textFileId": "58936_ruby_63613",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001974/files/58936_63614.html",
+    "inputBy": "大久保ゆう",
+    "proofreadBy": "富田晶子",
+    "baseBook1": {
+      "title": "日本の名随筆64　書",
+      "publisher": "作品社",
+      "firstPublishedAt": "1988（昭和63）年2月25日",
+      "inputEdition": "1988（昭和63）年2月25日第1刷",
+      "proofreadEdition": "1988（昭和63）年2月25日第1刷"
+    },
+    "author": "吉野秀雄",
+    "authors": [
+      {
+        "personId": "001974",
+        "name": "吉野秀雄",
+        "kana": "よしのひでお",
+        "roman": "Hideo Yoshino",
+        "role": "著者",
+        "birthDate": "1902-07-03",
+        "deathDate": "1967-07-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

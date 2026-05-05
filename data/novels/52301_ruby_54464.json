@@ -2122,5 +2122,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052301",
+    "title": "黒檜",
+    "titleKana": "くろひ",
+    "sortKana": "くろひ",
+    "firstAppearance": "「黒檜」八雲書林、1940（昭和15）年8月13日",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-10-05",
+    "updatedAt": "2014-10-07",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000106/card52301.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000106/files/52301_ruby_54464.zip",
+    "textFileId": "52301_ruby_54464",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000106/files/52301_54415.html",
+    "inputBy": "岡村和彦",
+    "proofreadBy": "光森裕樹",
+    "baseBook1": {
+      "title": "歌集　黒檜",
+      "publisher": "短歌新聞社文庫、短歌新聞社",
+      "firstPublishedAt": "1994（平成6）年8月25日",
+      "inputEdition": "2002（平成14）年1月10日再版",
+      "proofreadEdition": "2002（平成14）年1月10日再版"
+    },
+    "author": "北原白秋",
+    "authors": [
+      {
+        "personId": "000106",
+        "name": "北原白秋",
+        "kana": "きたはらはくしゅう",
+        "roman": "Hakushu Kitahara",
+        "role": "著者",
+        "birthDate": "1885-01-25",
+        "deathDate": "1942-11-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

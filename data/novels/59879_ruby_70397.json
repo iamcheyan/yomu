@@ -62,5 +62,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059879",
+    "title": "甘い野辺",
+    "titleKana": "あまいのべ",
+    "sortKana": "あまいのへ",
+    "firstAppearance": "「あまカラ　10月号　第五十号」甘辛社、1955（昭和30）年10月5日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-03-12",
+    "updatedAt": "2020-02-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/002093/card59879.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/002093/files/59879_ruby_70397.zip",
+    "textFileId": "59879_ruby_70397",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/002093/files/59879_70455.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "芝裕久",
+    "baseBook1": {
+      "title": "「あまカラ」抄1",
+      "publisher": "冨山房百科文庫、冨山房",
+      "firstPublishedAt": "1995（平成7）年11月13日",
+      "inputEdition": "1995（平成7）年11月13日第1刷",
+      "proofreadEdition": "1995（平成7）年11月13日第1刷"
+    },
+    "author": "浜本浩",
+    "authors": [
+      {
+        "personId": "002093",
+        "name": "浜本浩",
+        "kana": "はまもとひろし",
+        "roman": "Hiroshi Hamamoto",
+        "role": "著者",
+        "birthDate": "1890-08-14",
+        "deathDate": "1959-03-12",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -566,5 +566,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043586",
+    "title": "鵞湖仙人",
+    "titleKana": "がこせんにん",
+    "sortKana": "かこせんにん",
+    "firstAppearance": "「ポケット」1926（大正15）年3月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-01-09",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card43586.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/43586_ruby_17138.zip",
+    "textFileId": "43586_ruby_17138",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/43586_17209.html",
+    "inputBy": "阿和泉拓",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "妖異全集",
+      "publisher": "桃源社",
+      "firstPublishedAt": "1975（昭和50）年9月25日",
+      "inputEdition": "1975（昭和50）年9月25日",
+      "proofreadEdition": "1975（昭和50）年9月25日"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

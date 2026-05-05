@@ -322,5 +322,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004300",
+    "title": "香水紳士",
+    "titleKana": "こうすいしんし",
+    "sortKana": "こうすいしんし",
+    "firstAppearance": "「少女の友」實業之日本社、1940（昭和15）年5月号",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-01-22",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000236/card4300.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000236/files/4300_ruby_6029.zip",
+    "textFileId": "4300_ruby_6029",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000236/files/4300_42457.html",
+    "inputBy": "金光寛峯",
+    "proofreadBy": "群竹",
+    "baseBook1": {
+      "title": "少女の友",
+      "publisher": "實業之日本社",
+      "firstPublishedAt": "1940（昭和15）年5月",
+      "inputEdition": "1940（昭和15）年5月号",
+      "proofreadEdition": "1940（昭和15）年5月号"
+    },
+    "author": "大阪圭吉",
+    "authors": [
+      {
+        "personId": "000236",
+        "name": "大阪圭吉",
+        "kana": "おおさかけいきち",
+        "roman": "Keikichi Osaka",
+        "role": "著者",
+        "birthDate": "1912-03-20",
+        "deathDate": "1945-07-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -70,5 +70,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059414",
+    "title": "冠松次郎氏におくる詩",
+    "titleKana": "かんむりまつじろうしにおくるし",
+    "sortKana": "かんむりまつしろうしにおくるし",
+    "firstAppearance": "「読売新聞」1930（昭和5）年8月17日",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-02-04",
+    "updatedAt": "2020-01-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001579/card59414.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001579/files/59414_ruby_70121.zip",
+    "textFileId": "59414_ruby_70121",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001579/files/59414_70170.html",
+    "inputBy": "富田晶子",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "紀行とエッセーで読む　作家の山旅",
+      "publisher": "ヤマケイ文庫、山と渓谷社",
+      "firstPublishedAt": "2017（平成29）年3月1日",
+      "inputEdition": "2017（平成29）年3月1日初版第1刷",
+      "proofreadEdition": "2017（平成29）年3月1日初版第1刷"
+    },
+    "author": "室生犀星",
+    "authors": [
+      {
+        "personId": "001579",
+        "name": "室生犀星",
+        "kana": "むろうさいせい",
+        "roman": "Saisei Murou",
+        "role": "著者",
+        "birthDate": "1889-08-01",
+        "deathDate": "1962-03-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

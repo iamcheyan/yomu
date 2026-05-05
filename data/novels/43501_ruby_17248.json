@@ -236,5 +236,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043501",
+    "title": "念珠集",
+    "titleKana": "ねんじゅしゅう",
+    "sortKana": "ねんしゆしゆう",
+    "firstAppearance": "「改造」1925（大正14）年11月、1926（大正15）年4月",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-01-30",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001059/card43501.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001059/files/43501_ruby_17248.zip",
+    "textFileId": "43501_ruby_17248",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001059/files/43501_17416.html",
+    "inputBy": "kamille",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "斎藤茂吉選集　第八巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1981（昭和56）年5月27日",
+      "inputEdition": "1981（昭和56）年5月27日第1刷",
+      "proofreadEdition": "1998（平成10）年8月7日第2刷"
+    },
+    "author": "斎藤茂吉",
+    "authors": [
+      {
+        "personId": "001059",
+        "name": "斎藤茂吉",
+        "kana": "さいとうもきち",
+        "roman": "Mokichi Saito",
+        "role": "著者",
+        "birthDate": "1882-5-14",
+        "deathDate": "1953-2-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

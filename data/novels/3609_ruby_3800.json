@@ -42,5 +42,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003609",
+    "title": "十歳以前に読んだ本",
+    "titleKana": "じっさいいぜんによんだほん",
+    "sortKana": "しつさいいせんによんたほん",
+    "subtitle": "――明治四十五年六月『少年世界』の為に――",
+    "subtitleKana": "――めいじよんじゅうごねんろくがつ『しょうねんせかい』のために――",
+    "ndc": "NDC 916",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-09-12",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000141/card3609.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000141/files/3609_ruby_3800.zip",
+    "textFileId": "3609_ruby_3800",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000141/files/3609_17701.html",
+    "inputBy": "渡邉つよし",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆36　読",
+      "publisher": "作品社",
+      "firstPublishedAt": "1985（昭和60）年10月25日",
+      "inputEdition": "1991（平成3）年9月1日第10刷"
+    },
+    "author": "坪内逍遥",
+    "authors": [
+      {
+        "personId": "000141",
+        "name": "坪内逍遥",
+        "kana": "つぼうちしょうよう",
+        "roman": "Shoyo Tsubouchi",
+        "role": "著者",
+        "birthDate": "1859-06-22",
+        "deathDate": "1935-02-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

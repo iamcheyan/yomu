@@ -64,5 +64,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046691",
+    "title": "恐ろしい東京",
+    "titleKana": "おそろしいとうきょう",
+    "sortKana": "おそろしいとうきよう",
+    "firstAppearance": "「探偵春秋　2巻2号」1937（昭和12）年2月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-08-17",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000096/card46691.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000096/files/46691_ruby_27661.zip",
+    "textFileId": "46691_ruby_27661",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000096/files/46691_27707.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "夢野久作全集7",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1970（昭和45）年1月31日",
+      "inputEdition": "1992（平成4）年2月29日第12刷",
+      "proofreadEdition": "1985（昭和60）年5月15日第1版第8刷"
+    },
+    "author": "夢野久作",
+    "authors": [
+      {
+        "personId": "000096",
+        "name": "夢野久作",
+        "kana": "ゆめのきゅうさく",
+        "roman": "Kyusaku Yumeno",
+        "role": "著者",
+        "birthDate": "1889-01-04",
+        "deathDate": "1936-03-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

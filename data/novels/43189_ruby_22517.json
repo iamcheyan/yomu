@@ -124,5 +124,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043189",
+    "title": "推理小説論",
+    "titleKana": "すいりしょうせつろん",
+    "sortKana": "すいりしようせつろん",
+    "firstAppearance": "「新潮　第四七巻第四号」1950（昭和25）年4月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-06-11",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card43189.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/43189_ruby_22517.zip",
+    "textFileId": "43189_ruby_22517",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/43189_22524.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "花田泰治郎",
+    "baseBook1": {
+      "title": "坂口安吾全集　09",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1998（平成10）年10月20日",
+      "inputEdition": "1998（平成10）年10月20日",
+      "proofreadEdition": "1998（平成10）年10月20日"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

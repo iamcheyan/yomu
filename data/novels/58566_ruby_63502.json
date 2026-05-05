@@ -54,5 +54,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058566",
+    "title": "稀有の文才",
+    "titleKana": "けうのぶんさい",
+    "sortKana": "けうのふんさい",
+    "firstAppearance": "「現代日本文学全集　第四九巻附録　月報第一七号」筑摩書房、1954（昭和29）年9月5日",
+    "ndc": "NDC 910",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-01-16",
+    "updatedAt": "2017-12-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001763/card58566.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001763/files/58566_ruby_63502.zip",
+    "textFileId": "58566_ruby_63502",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001763/files/58566_63546.html",
+    "inputBy": "焼野",
+    "proofreadBy": "えんどう豆",
+    "baseBook1": {
+      "title": "定本　佐藤春夫全集　第24巻",
+      "publisher": "臨川書店",
+      "firstPublishedAt": "2000（平成12）年2月10日",
+      "inputEdition": "2000（平成12）年2月10日初版",
+      "proofreadEdition": "2000（平成12）年2月10日初版"
+    },
+    "author": "佐藤春夫",
+    "authors": [
+      {
+        "personId": "001763",
+        "name": "佐藤春夫",
+        "kana": "さとうはるお",
+        "roman": "Haruo Sato",
+        "role": "著者",
+        "birthDate": "1892-04-09",
+        "deathDate": "1964-05-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

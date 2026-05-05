@@ -50,5 +50,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058013",
+    "title": "祝東京専門学校之開校",
+    "titleKana": "しゅくとうきょうせんもんがっこうのかいこう",
+    "sortKana": "しゆくとうきようせんもんかつこうのかいこう",
+    "firstAppearance": "「祝東京専門学校之開校」と題して東京専門学校開校式での演説、1882（明治15）年10月21日",
+    "ndc": "NDC 377",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-10-21",
+    "updatedAt": "2018-09-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001887/card58013.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001887/files/58013_ruby_65952.zip",
+    "textFileId": "58013_ruby_65952",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001887/files/58013_66104.html",
+    "inputBy": "フクポー",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "早稲田大学",
+      "publisher": "岩波現代文庫、岩波書店",
+      "firstPublishedAt": "2015（平成27）年1月16日",
+      "inputEdition": "2015（平成27）年1月16日第1刷",
+      "proofreadEdition": "2015（平成27）年1月16日第1刷"
+    },
+    "author": "小野梓",
+    "authors": [
+      {
+        "personId": "001887",
+        "name": "小野梓",
+        "kana": "おのあずさ",
+        "roman": "Azusa Ono",
+        "role": "著者",
+        "birthDate": "1852-03-10",
+        "deathDate": "1886-01-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -96,5 +96,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000228",
+    "title": "セメント樽の中の手紙",
+    "titleKana": "セメントだるのなかのてがみ",
+    "sortKana": "せめんとたるのなかのてかみ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-10-03",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000031/card228.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000031/files/228_ruby_21663.zip",
+    "textFileId": "228_ruby_21663",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000031/files/228_21664.html",
+    "inputBy": "山根鋭二",
+    "proofreadBy": "かとうかおり",
+    "baseBook1": {
+      "title": "全集・現代文学の発見・第一巻　最初の衝撃",
+      "publisher": "学芸書林",
+      "firstPublishedAt": "1968（昭和43）年9月10日"
+    },
+    "author": "葉山嘉樹",
+    "authors": [
+      {
+        "personId": "000031",
+        "name": "葉山嘉樹",
+        "kana": "はやまよしき",
+        "roman": "Yoshiki Hayama",
+        "role": "著者",
+        "birthDate": "1894-03-12",
+        "deathDate": "1945-10-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

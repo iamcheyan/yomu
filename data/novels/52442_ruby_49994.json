@@ -1226,5 +1226,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "052442",
+    "title": "治郎吉格子",
+    "titleKana": "じろきちこうし",
+    "sortKana": "しろきちこうし",
+    "firstAppearance": "「週刊朝日　秋季特別号」1931（昭和6）年10月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-03-18",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001562/card52442.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001562/files/52442_ruby_49994.zip",
+    "textFileId": "52442_ruby_49994",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001562/files/52442_49995.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "治郎吉格子　名作短編集（一）",
+      "publisher": "吉川英治歴史時代文庫、講談社",
+      "firstPublishedAt": "1990（平成2）年9月11日",
+      "inputEdition": "2003（平成15）年4月25日第8刷",
+      "proofreadEdition": "1990（平成2）年9月11日第1刷"
+    },
+    "author": "吉川英治",
+    "authors": [
+      {
+        "personId": "001562",
+        "name": "吉川英治",
+        "kana": "よしかわえいじ",
+        "roman": "Eiji Yoshikawa",
+        "role": "著者",
+        "birthDate": "1892-08-11",
+        "deathDate": "1962-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

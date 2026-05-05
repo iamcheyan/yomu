@@ -752,5 +752,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000408",
+    "title": "陣中日誌（遺稿）",
+    "titleKana": "じんちゅうにっし（いこう）",
+    "sortKana": "しんちゆうにつしいこう",
+    "subtitle": "附・戦線便り",
+    "subtitleKana": "ふ・せんせんだより",
+    "firstAppearance": "「中央公論」1938（昭和13）年12月号",
+    "ndc": "NDC 916",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-02-18",
+    "updatedAt": "2014-11-12",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000072/card408.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000072/files/408_ruby_3319.zip",
+    "textFileId": "408_ruby_3319",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000072/files/408_13546.html",
+    "inputBy": "野村裕介",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "山中貞雄作品集　全一巻",
+      "publisher": "実業之日本社",
+      "firstPublishedAt": "1998（平成10）年10月28日",
+      "inputEdition": "1998（平成10）年10月28日初版",
+      "proofreadEdition": "1998（平成10）年10月28日初版"
+    },
+    "author": "山中貞雄",
+    "authors": [
+      {
+        "personId": "000072",
+        "name": "山中貞雄",
+        "kana": "やまなかさだお",
+        "roman": "Sadao Yamanaka",
+        "role": "著者",
+        "birthDate": "1909-11-07",
+        "deathDate": "1938-09-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

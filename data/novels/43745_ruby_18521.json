@@ -472,5 +472,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043745",
+    "title": "戯作者",
+    "titleKana": "げさくしゃ",
+    "sortKana": "けさくしや",
+    "firstAppearance": "「サンデー毎日」1925（大正14）年4月1日春季特別号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-06-22",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000255/card43745.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000255/files/43745_ruby_18521.zip",
+    "textFileId": "43745_ruby_18521",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000255/files/43745_18555.html",
+    "inputBy": "阿和泉拓",
+    "proofreadBy": "湯地光弘",
+    "baseBook1": {
+      "title": "国枝史郎伝奇全集　巻五",
+      "publisher": "未知谷",
+      "firstPublishedAt": "1993（平成5）年7月20日",
+      "inputEdition": "1993（平成5）年7月20日初版"
+    },
+    "author": "国枝史郎",
+    "authors": [
+      {
+        "personId": "000255",
+        "name": "国枝史郎",
+        "kana": "くにえだしろう",
+        "roman": "Shiro Kunieda",
+        "role": "著者",
+        "birthDate": "1887-10-10",
+        "deathDate": "1943-04-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

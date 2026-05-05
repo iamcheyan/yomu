@@ -142,5 +142,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003058",
+    "title": "矛盾の様な真実",
+    "titleKana": "むじゅんのようなしんじつ",
+    "sortKana": "むしゆんのようなしんしつ",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-11-28",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000074/card3058.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000074/files/3058_ruby_7616.zip",
+    "textFileId": "3058_ruby_7616",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000074/files/3058_7617.html",
+    "inputBy": "高柳典子",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "梶井基次郎全集　第一巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年11月10日",
+      "inputEdition": "1999（平成11）年11月10日"
+    },
+    "author": "梶井基次郎",
+    "authors": [
+      {
+        "personId": "000074",
+        "name": "梶井基次郎",
+        "kana": "かじいもとじろう",
+        "roman": "Motojiro Kajii",
+        "role": "著者",
+        "birthDate": "1901-02-17",
+        "deathDate": "1932-03-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

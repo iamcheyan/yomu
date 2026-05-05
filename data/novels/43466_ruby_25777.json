@@ -1166,5 +1166,54 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043466",
+    "title": "高野聖",
+    "titleKana": "こうやひじり",
+    "sortKana": "こうやひしり",
+    "firstAppearance": "「新小説　第五年第三巻」春陽堂、1900（明治33）年2月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-03-18",
+    "updatedAt": "2016-02-22",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card43466.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/43466_ruby_25777.zip",
+    "textFileId": "43466_ruby_25777",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/43466_26099.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "新編　泉鏡花集　第八巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "2004（平成16）年1月7日",
+      "inputEdition": "2004（平成16）年1月7日第1刷",
+      "proofreadEdition": "2004（平成16）年1月7日第1刷"
+    },
+    "author": "泉鏡花、泉鏡太郎",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      },
+      {
+        "personId": "000886",
+        "name": "泉鏡太郎",
+        "kana": "いずみきょうたろう",
+        "roman": "Kyotaro Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

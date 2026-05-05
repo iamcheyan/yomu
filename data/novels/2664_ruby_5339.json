@@ -138,5 +138,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002664",
+    "title": "職業の苦痛",
+    "titleKana": "しょくぎょうのくつう",
+    "sortKana": "しよくきようのくつう",
+    "ndc": "NDC 916",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-03-19",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000331/card2664.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000331/files/2664_ruby_5339.zip",
+    "textFileId": "2664_ruby_5339",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000331/files/2664_45804.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "小林徹",
+    "baseBook1": {
+      "title": "空にむかひて",
+      "publisher": "武蔵野書房",
+      "firstPublishedAt": "2001（平成13）年1月21日"
+    },
+    "author": "若杉鳥子",
+    "authors": [
+      {
+        "personId": "000331",
+        "name": "若杉鳥子",
+        "kana": "わかすぎとりこ",
+        "roman": "Toriko Wakasugi",
+        "role": "著者",
+        "birthDate": "1892-12-21",
+        "deathDate": "1937-12-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

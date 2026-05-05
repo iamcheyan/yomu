@@ -74,5 +74,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045293",
+    "title": "山を降る一隊",
+    "titleKana": "やまをくだるいったい",
+    "sortKana": "やまをくたるいつたい",
+    "firstAppearance": "「週刊朝日　第十七巻第一号」朝日新聞社、1930（昭和5）年1月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-09-10",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000183/card45293.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000183/files/45293_ruby_39783.zip",
+    "textFileId": "45293_ruby_39783",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000183/files/45293_39813.html",
+    "inputBy": "宮元淳一",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "牧野信一全集第三巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2002（平成14）年5月20日",
+      "inputEdition": "2002（平成14）年5月20日初版第1刷",
+      "proofreadEdition": "2002（平成14）年5月20日初版第1刷"
+    },
+    "author": "牧野信一",
+    "authors": [
+      {
+        "personId": "000183",
+        "name": "牧野信一",
+        "kana": "まきのしんいち",
+        "roman": "Shin'ichi Makino",
+        "role": "著者",
+        "birthDate": "1896-11-12",
+        "deathDate": "1936-03-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

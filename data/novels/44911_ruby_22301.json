@@ -106,5 +106,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "044911",
+    "title": "女流俳句を味読す",
+    "titleKana": "じょりゅうはいくをみどくす",
+    "sortKana": "しよりゆうはいくをみとくす",
+    "firstAppearance": "「花衣　創刊号」1932（昭和7）年3月",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-05-06",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000606/card44911.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000606/files/44911_ruby_22301.zip",
+    "textFileId": "44911_ruby_22301",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000606/files/44911_22424.html",
+    "inputBy": "杉田弘晃",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "杉田久女随筆集",
+      "publisher": "講談社",
+      "firstPublishedAt": "2003（平成15）年6月10日",
+      "inputEdition": "2003（平成15）年6月10日第1刷",
+      "proofreadEdition": "2003（平成15）年6月10日第1刷"
+    },
+    "author": "杉田久女",
+    "authors": [
+      {
+        "personId": "000606",
+        "name": "杉田久女",
+        "kana": "すぎたひさじょ",
+        "roman": "Hisajo Sugita",
+        "role": "著者",
+        "birthDate": "1890-05-30",
+        "deathDate": "1946-01-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

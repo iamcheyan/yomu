@@ -44,5 +44,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042755",
+    "title": "雲",
+    "titleKana": "くも",
+    "sortKana": "くも",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-05-05",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000136/card42755.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000136/files/42755_ruby_34854.zip",
+    "textFileId": "42755_ruby_34854",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000136/files/42755_34855.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "田中敬三",
+    "baseBook1": {
+      "title": "日本現代文學全集54　千家元麿・山村暮鳥・佐藤惣之助・福士幸次郎・堀口大學集",
+      "publisher": "講談社",
+      "firstPublishedAt": "1966（昭和41）年8月19日",
+      "inputEdition": "1966（昭和41）年8月19日発行",
+      "proofreadEdition": "1966（昭和41）年8月19日発行"
+    },
+    "author": "山村暮鳥",
+    "authors": [
+      {
+        "personId": "000136",
+        "name": "山村暮鳥",
+        "kana": "やまむらぼちょう",
+        "roman": "Bocho Yamamura",
+        "role": "著者",
+        "birthDate": "1884-01-10",
+        "deathDate": "1924-12-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -422,5 +422,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001401",
+    "title": "近時政論考",
+    "titleKana": "きんじせいろんこう",
+    "sortKana": "きんしせいろんこう",
+    "ndc": "NDC 312",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-10-09",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000253/card1401.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000253/files/1401_ruby_23869.zip",
+    "textFileId": "1401_ruby_23869",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000253/files/1401_24296.html",
+    "inputBy": "tsuru",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "日本の名著　37　陸羯南　三宅雪嶺",
+      "publisher": "中公バックス、中央公論社",
+      "firstPublishedAt": "1984（昭和59）年8月20日",
+      "inputEdition": "1984（昭和59）年8月20日初版",
+      "proofreadEdition": "1984（昭和59）年8月20日初版"
+    },
+    "author": "陸羯南",
+    "authors": [
+      {
+        "personId": "000253",
+        "name": "陸羯南",
+        "kana": "くがかつなん",
+        "roman": "Katsunan Kuga",
+        "role": "著者",
+        "birthDate": "1857-11-30",
+        "deathDate": "1907-09-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

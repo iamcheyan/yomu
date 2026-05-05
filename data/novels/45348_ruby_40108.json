@@ -292,5 +292,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045348",
+    "title": "奇友往来",
+    "titleKana": "きゆうおうらい",
+    "sortKana": "きゆうおうらい",
+    "subtitle": "（引越しをする男）",
+    "subtitleKana": "（ひっこしをするおとこ）",
+    "firstAppearance": "「文藝春秋　オール讀物　第三巻第七号」文藝春秋社、1933（昭和8）年7月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-11-03",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000183/card45348.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000183/files/45348_ruby_40108.zip",
+    "textFileId": "45348_ruby_40108",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000183/files/45348_40775.html",
+    "inputBy": "宮元淳一",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "牧野信一全集第五巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2002（平成14）年7月20日",
+      "inputEdition": "2002（平成14）年7月20日初版第1刷",
+      "proofreadEdition": "2002（平成14）年7月20日初版第1刷"
+    },
+    "author": "牧野信一",
+    "authors": [
+      {
+        "personId": "000183",
+        "name": "牧野信一",
+        "kana": "まきのしんいち",
+        "roman": "Shin'ichi Makino",
+        "role": "著者",
+        "birthDate": "1896-11-12",
+        "deathDate": "1936-03-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -48,5 +48,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003241",
+    "title": "江戸か東京か",
+    "titleKana": "えどかとうきょうか",
+    "sortKana": "えとかとうきようか",
+    "firstAppearance": "「趣味　第四巻第八号」1909（明治42）年8月",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-02-14",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000388/card3241.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000388/files/3241_ruby_8542.zip",
+    "textFileId": "3241_ruby_8542",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000388/files/3241_8641.html",
+    "inputBy": "小林繁雄",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "梵雲庵雑話",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1999（平成11）年8月18日",
+      "inputEdition": "1999（平成11）年8月18日第1刷"
+    },
+    "author": "淡島寒月",
+    "authors": [
+      {
+        "personId": "000388",
+        "name": "淡島寒月",
+        "kana": "あわしまかんげつ",
+        "roman": "Kangetsu Awashima",
+        "role": "著者",
+        "birthDate": "1859-11-17",
+        "deathDate": "1926-02-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

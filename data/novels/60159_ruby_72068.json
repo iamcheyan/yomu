@@ -456,5 +456,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060159",
+    "title": "四人",
+    "titleKana": "よにん",
+    "sortKana": "よにん",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-11-08",
+    "updatedAt": "2020-10-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/002132/card60159.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/002132/files/60159_ruby_72068.zip",
+    "textFileId": "60159_ruby_72068",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/002132/files/60159_72109.html",
+    "inputBy": "フクポー",
+    "proofreadBy": "The Creative CAT",
+    "baseBook1": {
+      "title": "新潮　第百四巻第七号",
+      "publisher": "新潮社",
+      "firstPublishedAt": "2007（平成19）年7月1日",
+      "inputEdition": "2007（平成19）年7月1日",
+      "proofreadEdition": "2007（平成19）年7月1日"
+    },
+    "author": "芥川多加志",
+    "authors": [
+      {
+        "personId": "002132",
+        "name": "芥川多加志",
+        "kana": "あくたがわたかし",
+        "roman": "Takashi Akutagawa",
+        "role": "著者",
+        "birthDate": "1922-11-08",
+        "deathDate": "1945-04-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

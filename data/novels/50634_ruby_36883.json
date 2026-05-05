@@ -94,5 +94,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050634",
+    "title": "ニイチエ雑観",
+    "titleKana": "ニイチェざっかん",
+    "sortKana": "にいちえさつかん",
+    "subtitle": "超人の如く潔き没落を憧憬するニイチエの日本精神に就て",
+    "subtitleKana": "ちょうじんのごとくいさぎよきぼつらくをしょうけいするニイチェのにほんせいしんについて",
+    "ndc": "NDC 134 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-12-12",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000393/card50634.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000393/files/50634_ruby_36883.zip",
+    "textFileId": "50634_ruby_36883",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000393/files/50634_37257.html",
+    "inputBy": "田中敬三",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "近代浪漫派文庫　14　登張竹風　生田長江",
+      "publisher": "新学社",
+      "firstPublishedAt": "2006（平成18）年3月12日",
+      "inputEdition": "2006（平成18）年3月12日第1刷",
+      "proofreadEdition": "2006（平成18）年3月12日第1刷"
+    },
+    "author": "生田長江",
+    "authors": [
+      {
+        "personId": "000393",
+        "name": "生田長江",
+        "kana": "いくたちょうこう",
+        "roman": "Choko Ikuta",
+        "role": "著者",
+        "birthDate": "1882-04-21",
+        "deathDate": "1936-01-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

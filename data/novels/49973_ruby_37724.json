@@ -74,5 +74,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049973",
+    "title": "現代茶人批判",
+    "titleKana": "げんだいちゃじんひはん",
+    "sortKana": "けんたいちやしんひはん",
+    "firstAppearance": "「陶磁味」1947（昭和22）年～1948（昭和23）年",
+    "ndc": "NDC 751 791",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-01-26",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001403/card49973.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001403/files/49973_ruby_37724.zip",
+    "textFileId": "49973_ruby_37724",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001403/files/49973_37776.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "魯山人の美食手帖",
+      "publisher": "グルメ文庫、角川春樹事務所",
+      "firstPublishedAt": "2008（平成20）年4月18日",
+      "inputEdition": "2008（平成20）年4月18日第1刷",
+      "proofreadEdition": "2008（平成20）年4月18日第1刷"
+    },
+    "author": "北大路魯山人",
+    "authors": [
+      {
+        "personId": "001403",
+        "name": "北大路魯山人",
+        "kana": "きたおおじろさんじん",
+        "roman": "Rosanjin Kitaoji",
+        "role": "著者",
+        "birthDate": "1883-03-23",
+        "deathDate": "1959-12-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

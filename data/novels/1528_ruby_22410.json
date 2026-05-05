@@ -200,5 +200,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001528",
+    "title": "湖水の女",
+    "titleKana": "こすいのおんな",
+    "sortKana": "こすいのおんな",
+    "firstAppearance": "「湖水の女」春陽堂、1916（大正5）年12月",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-05-23",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000107/card1528.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000107/files/1528_ruby_22410.zip",
+    "textFileId": "1528_ruby_22410",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000107/files/1528_23021.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "鈴木三重吉童話集",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1996（平成8）年11月18日",
+      "inputEdition": "1996（平成8）年11月18日第1刷",
+      "proofreadEdition": "1996（平成8）年11月18日第1刷"
+    },
+    "author": "鈴木三重吉",
+    "authors": [
+      {
+        "personId": "000107",
+        "name": "鈴木三重吉",
+        "kana": "すずきみえきち",
+        "roman": "Miekichi Suzuki",
+        "role": "著者",
+        "birthDate": "1882-09-29",
+        "deathDate": "1936-06-27",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

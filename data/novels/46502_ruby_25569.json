@@ -36,5 +36,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046502",
+    "title": "気仙沼",
+    "titleKana": "けせんぬま",
+    "sortKana": "けせんぬま",
+    "ndc": "NDC 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-01-30",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001168/card46502.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001168/files/46502_ruby_25569.zip",
+    "textFileId": "46502_ruby_25569",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001168/files/46502_25621.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "日本の名随筆79　港",
+      "publisher": "作品社",
+      "firstPublishedAt": "1989（平成元）年5月25日",
+      "inputEdition": "1995（平成7）年8月20日第5刷",
+      "proofreadEdition": "1995（平成7）年8月20日第5刷"
+    },
+    "author": "高村光太郎",
+    "authors": [
+      {
+        "personId": "001168",
+        "name": "高村光太郎",
+        "kana": "たかむらこうたろう",
+        "roman": "Kotaro Takamura",
+        "role": "著者",
+        "birthDate": "1883-03-13",
+        "deathDate": "1956-04-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

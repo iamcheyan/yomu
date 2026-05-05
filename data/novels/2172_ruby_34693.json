@@ -168,5 +168,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002172",
+    "title": "東京ロマンティック恋愛記",
+    "titleKana": "とうきょうロマンティックれんあいき",
+    "sortKana": "とうきようろまんていつくれんあいき",
+    "firstAppearance": "「近代生活」昭和6年4月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-02-19",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000043/card2172.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000043/files/2172_ruby_34693.zip",
+    "textFileId": "2172_ruby_34693",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000043/files/2172_34694.html",
+    "inputBy": "田辺浩昭",
+    "proofreadBy": "地田尚",
+    "baseBook1": {
+      "title": "吉行エイスケ作品集",
+      "publisher": "文園社",
+      "firstPublishedAt": "1997（平成9）年7月10日"
+    },
+    "author": "吉行エイスケ",
+    "authors": [
+      {
+        "personId": "000043",
+        "name": "吉行エイスケ",
+        "kana": "よしゆきえいすけ",
+        "roman": "Eisuke Yoshiyuki",
+        "role": "著者",
+        "birthDate": "1906-05-10",
+        "deathDate": "1940-07-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

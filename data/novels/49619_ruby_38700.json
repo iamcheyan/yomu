@@ -3340,5 +3340,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049619",
+    "title": "第二邪宗門",
+    "titleKana": "だいにじゃしゅうもん",
+    "sortKana": "たいにしやしゆうもん",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-07-26",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000106/card49619.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000106/files/49619_ruby_38700.zip",
+    "textFileId": "49619_ruby_38700",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000106/files/49619_39687.html",
+    "inputBy": "飛鷹美緒",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "白秋全集　1",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1984（昭和59）年12月5日",
+      "inputEdition": "1984（昭和59）年12月5日",
+      "proofreadEdition": "1984（昭和59）年12月5日"
+    },
+    "author": "北原白秋",
+    "authors": [
+      {
+        "personId": "000106",
+        "name": "北原白秋",
+        "kana": "きたはらはくしゅう",
+        "roman": "Hakushu Kitahara",
+        "role": "著者",
+        "birthDate": "1885-01-25",
+        "deathDate": "1942-11-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

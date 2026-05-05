@@ -372,5 +372,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002612",
+    "title": "大師の入唐",
+    "titleKana": "だいしのにっとう",
+    "sortKana": "たいしのにつとう",
+    "firstAppearance": "弘法大師降誕記念會講演、1921（大正10）年6月15日",
+    "ndc": "NDC 188 222",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-07-09",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000372/card2612.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000372/files/2612_ruby_1865.zip",
+    "textFileId": "2612_ruby_1865",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000372/files/2612_14882.html",
+    "inputBy": "はまなかひとし",
+    "proofreadBy": "菅野朋子",
+    "baseBook1": {
+      "title": "桑原隲藏全集　第一卷　東洋史説苑",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1968（昭和43）年2月13日",
+      "inputEdition": "1968（昭和43）年2月13日",
+      "proofreadEdition": "1968（昭和43）年2月13日"
+    },
+    "author": "桑原隲蔵",
+    "authors": [
+      {
+        "personId": "000372",
+        "name": "桑原隲蔵",
+        "kana": "くわばらじつぞう",
+        "roman": "Jitsuzo Kuwabara",
+        "role": "著者",
+        "birthDate": "1871-01-27",
+        "deathDate": "1931-05-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

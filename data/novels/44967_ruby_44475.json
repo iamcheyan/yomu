@@ -68,5 +68,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "044967",
+    "title": "いぬさん　と　おねこさん",
+    "titleKana": "いぬさん　と　おねこさん",
+    "sortKana": "いぬさんとおねこさん",
+    "firstAppearance": "「子供之友」婦人之友社、1930（昭和5）年1月～2月",
+    "ndc": "NDC K913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-09-24",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001172/card44967.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001172/files/44967_ruby_44475.zip",
+    "textFileId": "44967_ruby_44475",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001172/files/44967_44629.html",
+    "inputBy": "菅野朋子",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本児童文学大系　第二六巻",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1978（昭和53）年11月30日",
+      "inputEdition": "1978（昭和53）年11月30日初刷",
+      "proofreadEdition": "1978（昭和53）年11月30日初刷"
+    },
+    "author": "村山籌子",
+    "authors": [
+      {
+        "personId": "001172",
+        "name": "村山籌子",
+        "kana": "むらやまかずこ",
+        "roman": "Kazuko Murayama",
+        "role": "著者",
+        "birthDate": "1903-11-07",
+        "deathDate": "1946-08-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

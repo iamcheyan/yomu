@@ -74,5 +74,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057453",
+    "title": "「光線の圧力」の話",
+    "titleKana": "「こうせんのあつりょく」のはなし",
+    "sortKana": "こうせんのあつりよくのはなし",
+    "firstAppearance": "「漱石全集　第十五巻　月報第九号」岩波書店、1936（昭和11）年7月10日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-11-21",
+    "updatedAt": "2016-09-09",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001569/card57453.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001569/files/57453_ruby_60090.zip",
+    "textFileId": "57453_ruby_60090",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001569/files/57453_60136.html",
+    "inputBy": "kompass",
+    "proofreadBy": "砂場清隆",
+    "baseBook1": {
+      "title": "中谷宇吉郎集　第一巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "2000（平成12）年10月5日",
+      "inputEdition": "2000（平成12）年10月5日第1刷",
+      "proofreadEdition": "2000（平成12）年10月5日第1刷"
+    },
+    "author": "中谷宇吉郎",
+    "authors": [
+      {
+        "personId": "001569",
+        "name": "中谷宇吉郎",
+        "kana": "なかやうきちろう",
+        "roman": "Ukichiro Nakaya",
+        "role": "著者",
+        "birthDate": "1900-07-04",
+        "deathDate": "1962-04-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

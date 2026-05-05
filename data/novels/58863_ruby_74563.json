@@ -1332,5 +1332,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058863",
+    "title": "下谷叢話",
+    "titleKana": "したやそうわ",
+    "sortKana": "したやそうわ",
+    "firstAppearance": "自序「下谷叢話」春陽堂、1926（大正15）年3月20日<br>第一～第四「女性　第五巻第二号」プラトン社、1924（大正13）年2月1日<br>第五～第十一「女性　第五巻第三号」プラトン社、1924（大正13）年3月1日<br>第十二～第十五「女性　第五巻第四号」プラトン社、1924（大正13）年4月1日<br>第十六～第二十二「女性　第五巻第五号」プラトン社、1924（大正13）年5月1日<br>第二十三～第二十九「女性　第五巻第六号」プラトン社、1924（大正13）年6月1日<br>第三十～第三十五「女性　第六巻第一号」プラトン社、1924（大正13）年7月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-12-03",
+    "updatedAt": "2021-12-06",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001341/card58863.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001341/files/58863_ruby_74563.zip",
+    "textFileId": "58863_ruby_74563",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001341/files/58863_74600.html",
+    "inputBy": "入江幹夫",
+    "proofreadBy": "ムィシュカ",
+    "baseBook1": {
+      "title": "下谷叢話",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2000（平成12）年9月14日",
+      "inputEdition": "2009（平成21）年7月9日第2刷",
+      "proofreadEdition": "2019（令和元）年7月12日第3刷"
+    },
+    "author": "永井荷風",
+    "authors": [
+      {
+        "personId": "001341",
+        "name": "永井荷風",
+        "kana": "ながいかふう",
+        "roman": "Kafu Nagai",
+        "role": "著者",
+        "birthDate": "1879-12-03",
+        "deathDate": "1959-04-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

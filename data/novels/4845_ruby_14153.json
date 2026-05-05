@@ -38,5 +38,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004845",
+    "title": "卜居",
+    "titleKana": "ぼっきょ",
+    "sortKana": "ほつきよ",
+    "subtitle": "津村信夫に",
+    "subtitleKana": "つむらのぶおに",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-01-15",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001030/card4845.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001030/files/4845_ruby_14153.zip",
+    "textFileId": "4845_ruby_14153",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001030/files/4845_14208.html",
+    "inputBy": "横尾、近藤",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "堀辰雄集　新潮日本文学16",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1969（昭和44）年11月12日",
+      "inputEdition": "1992（平成4）年5月20日16刷"
+    },
+    "author": "堀辰雄",
+    "authors": [
+      {
+        "personId": "001030",
+        "name": "堀辰雄",
+        "kana": "ほりたつお",
+        "roman": "Tatsuo Hori",
+        "role": "著者",
+        "birthDate": "1904-12-28",
+        "deathDate": "1953-05-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

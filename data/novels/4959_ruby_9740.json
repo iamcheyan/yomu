@@ -76,5 +76,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004959",
+    "title": "月夜のあとさき",
+    "titleKana": "つきよのあとさき",
+    "sortKana": "つきよのあとさき",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-06-05",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000278/card4959.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000278/files/4959_ruby_9740.zip",
+    "textFileId": "4959_ruby_9740",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000278/files/4959_10258.html",
+    "inputBy": "小鍛冶茂子",
+    "proofreadBy": "林幸雄",
+    "baseBook1": {
+      "title": "日本の名随筆19　秋",
+      "publisher": "作品社",
+      "firstPublishedAt": "1984（昭和59）年5月25日",
+      "inputEdition": "1984（昭和59）年5月25日第1刷"
+    },
+    "author": "津村信夫",
+    "authors": [
+      {
+        "personId": "000278",
+        "name": "津村信夫",
+        "kana": "つむらのぶお",
+        "roman": "Nobuo Tsumura",
+        "role": "著者",
+        "birthDate": "1909-01-05",
+        "deathDate": "1944-06-27",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

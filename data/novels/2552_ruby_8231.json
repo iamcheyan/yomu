@@ -74,5 +74,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002552",
+    "title": "六日間",
+    "titleKana": "むいかかん",
+    "sortKana": "むいかかん",
+    "subtitle": "（日記）",
+    "subtitleKana": "にっき",
+    "ndc": "NDC 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-02-28",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000885/card2552.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000885/files/2552_ruby_8231.zip",
+    "textFileId": "2552_ruby_8231",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000885/files/2552_8751.html",
+    "inputBy": "武田秀男",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "文章世界",
+      "publisher": "博文館",
+      "firstPublishedAt": "1912（明治45）年4月号",
+      "inputEdition": "1912（明治45）年4月号",
+      "proofreadEdition": "1912（明治45）年4月号"
+    },
+    "author": "与謝野晶子",
+    "authors": [
+      {
+        "personId": "000885",
+        "name": "与謝野晶子",
+        "kana": "よさのあきこ",
+        "roman": "Akiko Yosano",
+        "role": "著者",
+        "birthDate": "1878-12-07",
+        "deathDate": "1942-05-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

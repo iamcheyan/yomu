@@ -116,5 +116,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055835",
+    "title": "奇術考案業",
+    "titleKana": "きじゅつこうあんぎょう",
+    "sortKana": "きしゆつこうあんきよう",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-07-18",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001726/card55835.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001726/files/55835_ruby_53780.zip",
+    "textFileId": "55835_ruby_53780",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001726/files/55835_53821.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻7　奇術",
+      "publisher": "作品社",
+      "firstPublishedAt": "1991（平成3）年9月25日",
+      "inputEdition": "1999（平成11）年4月30日第2刷",
+      "proofreadEdition": "1991（平成3）年9月25日第1刷"
+    },
+    "author": "長谷川伸",
+    "authors": [
+      {
+        "personId": "001726",
+        "name": "長谷川伸",
+        "kana": "はせがわしん",
+        "roman": "Shin Hasegawa",
+        "role": "著者",
+        "birthDate": "1884-03-15",
+        "deathDate": "1963-06-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

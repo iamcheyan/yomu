@@ -284,5 +284,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057346",
+    "title": "二人の稚児",
+    "titleKana": "ふたりのちご",
+    "sortKana": "ふたりのちこ",
+    "firstAppearance": "「中央公論」1918（大正7）年4月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-04-10",
+    "updatedAt": "2018-03-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001383/card57346.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001383/files/57346_ruby_64298.zip",
+    "textFileId": "57346_ruby_64298",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001383/files/57346_64347.html",
+    "inputBy": "しりかげる",
+    "proofreadBy": "まりお",
+    "baseBook1": {
+      "title": "潤一郎ラビリンスⅤ――少年の王国",
+      "publisher": "中公文庫、中央公論新社",
+      "firstPublishedAt": "1998（平成10）年9月18日",
+      "inputEdition": "2007（平成19）年5月30日再版",
+      "proofreadEdition": "2007（平成19）年5月30日再版"
+    },
+    "author": "谷崎潤一郎",
+    "authors": [
+      {
+        "personId": "001383",
+        "name": "谷崎潤一郎",
+        "kana": "たにざきじゅんいちろう",
+        "roman": "Jun'ichiro Tanizaki",
+        "role": "著者",
+        "birthDate": "1886-07-24",
+        "deathDate": "1965-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

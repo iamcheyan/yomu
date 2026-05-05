@@ -170,5 +170,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049441",
+    "title": "硯友社と文士劇",
+    "titleKana": "けんゆうしゃとぶんしげき",
+    "sortKana": "けんゆうしやとふんしけき",
+    "ndc": "NDC 910",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-04-03",
+    "updatedAt": "2015-03-31",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000448/card49441.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000448/files/49441_ruby_56294.zip",
+    "textFileId": "49441_ruby_56294",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000448/files/49441_56105.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "明治文学遊学案内",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "2000（平成12）年8月25日",
+      "inputEdition": "2000（平成12）年8月25日初版第1刷",
+      "proofreadEdition": "2000（平成12）年8月25日初版第1刷"
+    },
+    "author": "江見水蔭",
+    "authors": [
+      {
+        "personId": "000448",
+        "name": "江見水蔭",
+        "kana": "えみすいいん",
+        "roman": "Suiin Emi",
+        "role": "著者",
+        "birthDate": "1869-09-17",
+        "deathDate": "1934-11-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

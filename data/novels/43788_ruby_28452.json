@@ -84,5 +84,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043788",
+    "title": "骨董",
+    "titleKana": "こっとう",
+    "sortKana": "こつとう",
+    "ndc": "NDC 756 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-12-07",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000051/card43788.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000051/files/43788_ruby_28452.zip",
+    "textFileId": "43788_ruby_28452",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000051/files/43788_28595.html",
+    "inputBy": "kompass",
+    "proofreadBy": "浅原庸子",
+    "baseBook1": {
+      "title": "日本現代文學全集　6　幸田露伴集",
+      "publisher": "講談社",
+      "firstPublishedAt": "1963（昭和38）年1月19日",
+      "inputEdition": "1980（昭和55）年5月26日増補改訂版第1刷",
+      "proofreadEdition": "1980（昭和55）年5月26日増補改訂版第1刷"
+    },
+    "author": "幸田露伴",
+    "authors": [
+      {
+        "personId": "000051",
+        "name": "幸田露伴",
+        "kana": "こうだろはん",
+        "roman": "Rohan Koda",
+        "role": "著者",
+        "birthDate": "1867-08-20",
+        "deathDate": "1947-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

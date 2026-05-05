@@ -56,5 +56,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058156",
+    "title": "雨粒",
+    "titleKana": "あまつぶ",
+    "sortKana": "あまつふ",
+    "firstAppearance": "「新短歌」新短歌発行所、1939（昭和14）年11月20日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-01-19",
+    "updatedAt": "2017-12-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001429/card58156.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001429/files/58156_ruby_63505.zip",
+    "textFileId": "58156_ruby_63505",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001429/files/58156_63549.html",
+    "inputBy": "岡村和彦",
+    "proofreadBy": "高瀬竜一",
+    "baseBook1": {
+      "title": "日本近代随筆選　1出会いの時〔全3冊〕",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "2016（平成28）年4月15日",
+      "inputEdition": "2016（平成28）年6月15日第2刷",
+      "proofreadEdition": "2016（平成28）年4月15日第1刷"
+    },
+    "author": "石原純",
+    "authors": [
+      {
+        "personId": "001429",
+        "name": "石原純",
+        "kana": "いしわらあつし",
+        "roman": "Atsushi Ishiwara",
+        "role": "著者",
+        "birthDate": "1881-1-15",
+        "deathDate": "1947-1-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

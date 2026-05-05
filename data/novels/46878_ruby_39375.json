@@ -176,5 +176,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046878",
+    "title": "愛国歌小観",
+    "titleKana": "あいこくかしょうかん",
+    "sortKana": "あいこくかしようかん",
+    "firstAppearance": "「日本評論」1942（昭和17）年5月号",
+    "ndc": "NDC 911",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-10-02",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001059/card46878.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001059/files/46878_ruby_39375.zip",
+    "textFileId": "46878_ruby_39375",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001059/files/46878_40529.html",
+    "inputBy": "しだひろし",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "齋藤茂吉全集　第十四卷",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1975（昭和50）年7月18日",
+      "inputEdition": "1975（昭和50）年7月18日",
+      "proofreadEdition": "1975（昭和50）年7月18日"
+    },
+    "author": "斎藤茂吉",
+    "authors": [
+      {
+        "personId": "001059",
+        "name": "斎藤茂吉",
+        "kana": "さいとうもきち",
+        "roman": "Mokichi Saito",
+        "role": "著者",
+        "birthDate": "1882-5-14",
+        "deathDate": "1953-2-25",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

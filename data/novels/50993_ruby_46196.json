@@ -134,5 +134,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050993",
+    "title": "牛女",
+    "titleKana": "うしおんな",
+    "sortKana": "うしおんな",
+    "firstAppearance": "「おとぎの世界」1919（大正8）年5月",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-01-02",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001475/card50993.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001475/files/50993_ruby_46196.zip",
+    "textFileId": "50993_ruby_46196",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001475/files/50993_46240.html",
+    "inputBy": "ぷろぼの青空工作員チーム入力班",
+    "proofreadBy": "ぷろぼの青空工作員チーム校正班",
+    "baseBook1": {
+      "title": "定本小川未明童話全集　1",
+      "publisher": "講談社",
+      "firstPublishedAt": "1976（昭和51）年11月10日",
+      "inputEdition": "1982（昭和57）年9月10日第7刷",
+      "proofreadEdition": "1982（昭和57）年9月10日第7刷"
+    },
+    "author": "小川未明",
+    "authors": [
+      {
+        "personId": "001475",
+        "name": "小川未明",
+        "kana": "おがわみめい",
+        "roman": "Mimei Ogawa",
+        "role": "著者",
+        "birthDate": "1882-04-07",
+        "deathDate": "1961-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

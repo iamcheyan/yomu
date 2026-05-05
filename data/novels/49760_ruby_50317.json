@@ -284,5 +284,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049760",
+    "title": "奥州における御館藤原氏",
+    "titleKana": "おうしゅうにおけるみたちふじわらし",
+    "sortKana": "おうしゆうにおけるみたちふしわらし",
+    "firstAppearance": "「民族と歴史　第七巻第六号」1922（大正11）年6月",
+    "ndc": "NDC 212",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-05-24",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001344/card49760.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001344/files/49760_ruby_50317.zip",
+    "textFileId": "49760_ruby_50317",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001344/files/49760_50612.html",
+    "inputBy": "しだひろし",
+    "proofreadBy": "Juki",
+    "baseBook1": {
+      "title": "喜田貞吉著作集　第九巻　蝦夷の研究",
+      "publisher": "平凡社",
+      "firstPublishedAt": "1980（昭和55）年5月25日",
+      "inputEdition": "1980（昭和55）年5月25日初版第1刷",
+      "proofreadEdition": "1980（昭和55）年5月25日初版第1刷"
+    },
+    "author": "喜田貞吉",
+    "authors": [
+      {
+        "personId": "001344",
+        "name": "喜田貞吉",
+        "kana": "きたさだきち",
+        "roman": "Sadakichi Kita",
+        "role": "著者",
+        "birthDate": "1871-07-11",
+        "deathDate": "1939-07-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

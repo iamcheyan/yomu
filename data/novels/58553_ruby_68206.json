@@ -44,5 +44,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058553",
+    "title": "裸体美に就て",
+    "titleKana": "らたいびについて",
+    "sortKana": "らたいひについて",
+    "firstAppearance": "「文藝春秋　第十三年第一號（新年特別號）」文藝春秋社、1935（昭和10）年1月1日",
+    "ndc": "NDC 701",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-06-09",
+    "updatedAt": "2019-05-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001940/card58553.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001940/files/58553_ruby_68206.zip",
+    "textFileId": "58553_ruby_68206",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001940/files/58553_68251.html",
+    "inputBy": "sogo",
+    "proofreadBy": "The Creative CAT",
+    "baseBook1": {
+      "title": "文藝春秋　第十三年第一號（新年特別號）",
+      "publisher": "文藝春秋社",
+      "firstPublishedAt": "1935（昭和10）年1月1日",
+      "inputEdition": "1935（昭和10）年1月1日"
+    },
+    "author": "小倉右一郎",
+    "authors": [
+      {
+        "personId": "001940",
+        "name": "小倉右一郎",
+        "kana": "おぐらゆういちろう",
+        "roman": "Yuichiro Ogura",
+        "role": "著者",
+        "birthDate": "1881-06-09",
+        "deathDate": "1962-07-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

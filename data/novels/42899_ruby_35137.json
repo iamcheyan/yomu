@@ -166,5 +166,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042899",
+    "title": "魔の退屈",
+    "titleKana": "まのたいくつ",
+    "sortKana": "まのたいくつ",
+    "firstAppearance": "「太平　第二巻第一〇号」時事通信社、1946（昭和21）年10月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-07-11",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card42899.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/42899_ruby_35137.zip",
+    "textFileId": "42899_ruby_35137",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/42899_35406.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "深津辰男・美智子",
+    "baseBook1": {
+      "title": "坂口安吾全集　04",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1998（平成10）年5月22日",
+      "inputEdition": "1998（平成10）年5月22日初版第1刷",
+      "proofreadEdition": "1998（平成10）年5月22日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

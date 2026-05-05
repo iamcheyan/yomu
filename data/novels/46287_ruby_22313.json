@@ -52,5 +52,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046287",
+    "title": "手数将棋",
+    "titleKana": "てかずしょうぎ",
+    "sortKana": "てかすしようき",
+    "ndc": "NDC 796 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-04-07",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000268/card46287.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000268/files/46287_ruby_22313.zip",
+    "textFileId": "46287_ruby_22313",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000268/files/46287_22314.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻8　将棋",
+      "publisher": "作品社",
+      "firstPublishedAt": "1991（平成3）年10月25日",
+      "inputEdition": "1991（平成3）年10月25日第1刷",
+      "proofreadEdition": "2000（平成12）年10月30日第9刷"
+    },
+    "author": "関根金次郎",
+    "authors": [
+      {
+        "personId": "000268",
+        "name": "関根金次郎",
+        "kana": "せきねきんじろう",
+        "roman": "Kinjiro Sekine",
+        "role": "著者",
+        "birthDate": "1868-04-01",
+        "deathDate": "1946-03-12",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

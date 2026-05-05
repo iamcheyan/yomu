@@ -130,5 +130,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050915",
+    "title": "女の決闘",
+    "titleKana": "おんなのけっとう",
+    "sortKana": "おんなのけつとう",
+    "ndc": "NDC 943",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-09-16",
+    "updatedAt": "2019-05-14",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001193/card50915.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001193/files/50915_ruby_39238.zip",
+    "textFileId": "50915_ruby_39238",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001193/files/50915_40186.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "米田",
+    "baseBook1": {
+      "title": "於母影　冬の王　森鴎外全集12",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1996（平成8）年3月21日",
+      "inputEdition": "1996（平成8）年3月21日第1刷",
+      "proofreadEdition": "1996（平成8）年3月21日第1刷"
+    },
+    "author": "オイレンベルクヘルベルト",
+    "authors": [
+      {
+        "personId": "001193",
+        "name": "オイレンベルクヘルベルト",
+        "kana": "オイレンベルクヘルベルト",
+        "roman": "Herbert Eulenberg",
+        "role": "著者",
+        "birthDate": "1876-01-25",
+        "deathDate": "1949-09-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

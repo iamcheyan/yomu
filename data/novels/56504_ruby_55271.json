@@ -106,5 +106,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056504",
+    "title": "詩二つ",
+    "titleKana": "しふたつ",
+    "sortKana": "しふたつ",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-01-12",
+    "updatedAt": "2015-02-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000074/card56504.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000074/files/56504_ruby_55271.zip",
+    "textFileId": "56504_ruby_55271",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000074/files/56504_55359.html",
+    "inputBy": "呑天",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "梶井基次郎全集　全一巻",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1986（昭和61）年8月26日",
+      "inputEdition": "1990（平成2）年5月20日第7刷",
+      "proofreadEdition": "1986（昭和61）年8月26日第1刷"
+    },
+    "author": "梶井基次郎",
+    "authors": [
+      {
+        "personId": "000074",
+        "name": "梶井基次郎",
+        "kana": "かじいもとじろう",
+        "roman": "Motojiro Kajii",
+        "role": "著者",
+        "birthDate": "1901-02-17",
+        "deathDate": "1932-03-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

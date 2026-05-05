@@ -156,5 +156,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055961",
+    "title": "魯迅さん",
+    "titleKana": "ろじんさん",
+    "sortKana": "ろしんさん",
+    "firstAppearance": "「図書」岩波書店、1955（昭和30）年8月",
+    "ndc": "NDC 920",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-09-07",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001762/card55961.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001762/files/55961_ruby_51159.zip",
+    "textFileId": "55961_ruby_51159",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001762/files/55961_51160.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "エッセイの贈りもの　1",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1999（平成11）年3月5日",
+      "inputEdition": "1999（平成11）年3月5日第1刷",
+      "proofreadEdition": "1999（平成11）年4月8日第2刷"
+    },
+    "author": "内山完造",
+    "authors": [
+      {
+        "personId": "001762",
+        "name": "内山完造",
+        "kana": "うちやまかんぞう",
+        "roman": "Kanzou Uchiyama",
+        "role": "著者",
+        "birthDate": "1885-01-11",
+        "deathDate": "1959-09-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -306,5 +306,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002931",
+    "title": "シベリヤに近く",
+    "titleKana": "シベリヤにちかく",
+    "sortKana": "しへりやにちかく",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-08-31",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000219/card2931.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000219/files/2931_ruby_8580.zip",
+    "textFileId": "2931_ruby_8580",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000219/files/2931_11976.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "大野裕",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・10　「文芸戦線」作家集（一）",
+      "publisher": "新日本出版",
+      "firstPublishedAt": "1985（昭和60）年11月25日",
+      "inputEdition": "1989（平成元）年3月25日第4刷"
+    },
+    "author": "里村欣三",
+    "authors": [
+      {
+        "personId": "000219",
+        "name": "里村欣三",
+        "kana": "さとむらきんぞう",
+        "roman": "Kinzo Satomura",
+        "role": "著者",
+        "birthDate": "1902-03-13",
+        "deathDate": "1945-02-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

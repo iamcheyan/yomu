@@ -112,5 +112,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043104",
+    "title": "レンブラントの国",
+    "titleKana": "レンブラントのくに",
+    "sortKana": "れんふらんとのくに",
+    "ndc": "NDC 293 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-09-10",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000963/card43104.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000963/files/43104_ruby_18216.zip",
+    "textFileId": "43104_ruby_18216",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000963/files/43104_27835.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "世界紀行文学全集　第八巻　ドイツ、オーストリア、オランダ、ベルギー編",
+      "publisher": "修道社",
+      "firstPublishedAt": "1960（昭和35）年7月20日",
+      "inputEdition": "1960（昭和35）年7月20日",
+      "proofreadEdition": "1960（昭和35）年7月20日"
+    },
+    "author": "野上豊一郎",
+    "authors": [
+      {
+        "personId": "000963",
+        "name": "野上豊一郎",
+        "kana": "のがみとよいちろう",
+        "roman": "Toyoichiro Nogami",
+        "role": "著者",
+        "birthDate": "1883-09-14",
+        "deathDate": "1950-02-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -30,5 +30,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001857",
+    "title": "月の夜",
+    "titleKana": "つきのよ",
+    "sortKana": "つきのよ",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-11-06",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000064/card1857.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000064/files/1857_ruby_18925.zip",
+    "textFileId": "1857_ruby_18925",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000064/files/1857_18926.html",
+    "inputBy": "葵",
+    "proofreadBy": "もりみつじゅんじ",
+    "baseBook1": {
+      "title": "日本の名随筆58　月",
+      "publisher": "作品社",
+      "firstPublishedAt": "1987（昭和62）年8月25日",
+      "inputEdition": "1989（平成1）年1月25日第2刷"
+    },
+    "author": "樋口一葉",
+    "authors": [
+      {
+        "personId": "000064",
+        "name": "樋口一葉",
+        "kana": "ひぐちいちよう",
+        "roman": "Ichiyo Higuchi",
+        "role": "著者",
+        "birthDate": "1872-05-02",
+        "deathDate": "1896-11-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

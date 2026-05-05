@@ -52,5 +52,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003742",
+    "title": "支那の画",
+    "titleKana": "しなのえ",
+    "sortKana": "しなのえ",
+    "ndc": "NDC 720 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-07-19",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000879/card3742.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000879/files/3742_ruby_27218.zip",
+    "textFileId": "3742_ruby_27218",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000879/files/3742_27306.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "筑摩全集類聚　芥川龍之介全集第四巻",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1971（昭和46）年6月5日",
+      "inputEdition": "1979（昭和54）年4月10日初版第11刷"
+    },
+    "author": "芥川竜之介",
+    "authors": [
+      {
+        "personId": "000879",
+        "name": "芥川竜之介",
+        "kana": "あくたがわりゅうのすけ",
+        "roman": "Ryunosuke Akutagawa",
+        "role": "著者",
+        "birthDate": "1892-03-01",
+        "deathDate": "1927-07-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

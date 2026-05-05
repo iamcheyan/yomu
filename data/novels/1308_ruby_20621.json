@@ -318,5 +318,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001308",
+    "title": "影を踏まれた女",
+    "titleKana": "かげをふまれたおんな",
+    "sortKana": "かけをふまれたおんな",
+    "subtitle": "近代異妖編",
+    "subtitleKana": "きんだいいようへん",
+    "firstAppearance": "「講談倶楽部」1925（大正14年）9月号",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-12-30",
+    "updatedAt": "2016-09-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000082/card1308.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000082/files/1308_ruby_20621.zip",
+    "textFileId": "1308_ruby_20621",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000082/files/1308_20622.html",
+    "inputBy": "林田清明",
+    "proofreadBy": "ちはる",
+    "baseBook1": {
+      "title": "日本幻想文学集成23　岡本綺堂　猿の眼　種村季弘編",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "1993（平成5）年9月20日"
+    },
+    "author": "岡本綺堂",
+    "authors": [
+      {
+        "personId": "000082",
+        "name": "岡本綺堂",
+        "kana": "おかもときどう",
+        "roman": "Kido Okamoto",
+        "role": "著者",
+        "birthDate": "1872-11-15",
+        "deathDate": "1939-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -186,5 +186,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042615",
+    "title": "風と光と二十の私と",
+    "titleKana": "かぜとひかりとはたちのわたしと",
+    "sortKana": "かせとひかりとはたちのわたしと",
+    "firstAppearance": "「文芸　第四巻第一号（新春号）」1947（昭和22）年1月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-01-29",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card42615.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/42615_ruby_21263.zip",
+    "textFileId": "42615_ruby_21263",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/42615_21291.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "坂口安吾全集４",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1990（平成2）年3月27日",
+      "inputEdition": "1990（平成2）年3月27日第1刷",
+      "proofreadEdition": "1990（平成2）年3月27日第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

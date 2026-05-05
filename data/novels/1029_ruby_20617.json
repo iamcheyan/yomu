@@ -3166,5 +3166,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001029",
+    "title": "藍色の蟇",
+    "titleKana": "あいいろのひき",
+    "sortKana": "あいいろのひき",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-10-30",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000190/card1029.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000190/files/1029_ruby_20617.zip",
+    "textFileId": "1029_ruby_20617",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000190/files/1029_20618.html",
+    "inputBy": "湯地光弘",
+    "proofreadBy": "丹羽倫子",
+    "baseBook1": {
+      "title": "世界の詩28　大手拓次詩集",
+      "publisher": "彌生書房",
+      "firstPublishedAt": "1965（昭和40）年10月25日",
+      "inputEdition": "1981（昭和56）年6月5日第7版"
+    },
+    "author": "大手拓次",
+    "authors": [
+      {
+        "personId": "000190",
+        "name": "大手拓次",
+        "kana": "おおてたくじ",
+        "roman": "Takuji Ote",
+        "role": "著者",
+        "birthDate": "1887-12-03",
+        "deathDate": "1934-04-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

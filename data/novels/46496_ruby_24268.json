@@ -194,5 +194,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046496",
+    "title": "丹那山の怪",
+    "titleKana": "たんなやまのかい",
+    "sortKana": "たんなやまのかい",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-11-19",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000448/card46496.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000448/files/46496_ruby_24268.zip",
+    "textFileId": "46496_ruby_24268",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000448/files/46496_24421.html",
+    "inputBy": "岡山勝美",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "怪奇・伝奇時代小説選集11　妖艶の谷　他11編",
+      "publisher": "春陽文庫、春陽堂書店",
+      "firstPublishedAt": "2000（平成12）年8月20日",
+      "inputEdition": "2000（平成12）年8月20日第1刷",
+      "proofreadEdition": "2000（平成12）年8月20日第1刷"
+    },
+    "author": "江見水蔭",
+    "authors": [
+      {
+        "personId": "000448",
+        "name": "江見水蔭",
+        "kana": "えみすいいん",
+        "roman": "Suiin Emi",
+        "role": "著者",
+        "birthDate": "1869-09-17",
+        "deathDate": "1934-11-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

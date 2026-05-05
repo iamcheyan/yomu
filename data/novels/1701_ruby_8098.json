@@ -3230,5 +3230,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001701",
+    "title": "足迹",
+    "titleKana": "あしあと",
+    "sortKana": "あしあと",
+    "firstAppearance": "「読売新聞」1910（明治43）年7月30日〜11月18日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-03-18",
+    "updatedAt": "2017-07-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000023/card1701.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000023/files/1701_ruby_8098.zip",
+    "textFileId": "1701_ruby_8098",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000023/files/1701_9313.html",
+    "inputBy": "田古嶋香利",
+    "proofreadBy": "久保あきら",
+    "baseBook1": {
+      "title": "日本の文学　9　徳田秋声（一）",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1967（昭和42）年9月5日",
+      "inputEdition": "1971（昭和46）年3月30日第5刷",
+      "proofreadEdition": "1974（昭和49）年6月30日第10刷"
+    },
+    "author": "徳田秋声",
+    "authors": [
+      {
+        "personId": "000023",
+        "name": "徳田秋声",
+        "kana": "とくだしゅうせい",
+        "roman": "Shusei Tokuda",
+        "role": "著者",
+        "birthDate": "1872-02-01",
+        "deathDate": "1943-11-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

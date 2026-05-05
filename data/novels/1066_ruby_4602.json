@@ -370,5 +370,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001066",
+    "title": "一兵卒",
+    "titleKana": "いっぺいそつ",
+    "sortKana": "いつへいそつ",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-09-28",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000214/card1066.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000214/files/1066_ruby_4602.zip",
+    "textFileId": "1066_ruby_4602",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000214/files/1066_43394.html",
+    "inputBy": "久保あきら",
+    "proofreadBy": "伊藤時也",
+    "baseBook1": {
+      "title": "蒲団・一兵卒",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1969（昭和44）年10月20日改版初版",
+      "inputEdition": "1974（昭和49）年11月30日改版8版"
+    },
+    "author": "田山花袋",
+    "authors": [
+      {
+        "personId": "000214",
+        "name": "田山花袋",
+        "kana": "たやまかたい",
+        "roman": "Katai Tayama",
+        "role": "著者",
+        "birthDate": "1872-01-22",
+        "deathDate": "1930-05-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

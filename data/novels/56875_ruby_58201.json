@@ -92,5 +92,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056875",
+    "title": "蘆刈",
+    "titleKana": "あしかり",
+    "sortKana": "あしかり",
+    "firstAppearance": "「改造」改造社、1932（昭和7）年11月号、12月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-02-25",
+    "updatedAt": "2016-01-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001383/card56875.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001383/files/56875_ruby_58201.zip",
+    "textFileId": "56875_ruby_58201",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001383/files/56875_58210.html",
+    "inputBy": "kompass",
+    "proofreadBy": "酒井裕二",
+    "baseBook1": {
+      "title": "吉野葛・蘆刈",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1950（昭和25）年8月30日",
+      "inputEdition": "1986（昭和61）年6月16日第12刷改版",
+      "proofreadEdition": "2014（平成26）年2月5日第36刷"
+    },
+    "author": "谷崎潤一郎",
+    "authors": [
+      {
+        "personId": "001383",
+        "name": "谷崎潤一郎",
+        "kana": "たにざきじゅんいちろう",
+        "roman": "Jun'ichiro Tanizaki",
+        "role": "著者",
+        "birthDate": "1886-07-24",
+        "deathDate": "1965-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

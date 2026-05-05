@@ -122,5 +122,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004652",
+    "title": "華厳滝",
+    "titleKana": "けごんのたき",
+    "sortKana": "けこんのたき",
+    "firstAppearance": "「東京日日新聞」1927（昭和2）年8月1日～8日",
+    "ndc": "NDC 914 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-06-01",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000051/card4652.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000051/files/4652_ruby_15315.zip",
+    "textFileId": "4652_ruby_15315",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000051/files/4652_15554.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "現代日本紀行文学全集　東日本編",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1976（昭和51）年8月1日",
+      "inputEdition": "1976（昭和51）年8月1日初版"
+    },
+    "author": "幸田露伴",
+    "authors": [
+      {
+        "personId": "000051",
+        "name": "幸田露伴",
+        "kana": "こうだろはん",
+        "roman": "Rohan Koda",
+        "role": "著者",
+        "birthDate": "1867-08-20",
+        "deathDate": "1947-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

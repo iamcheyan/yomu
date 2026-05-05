@@ -1194,5 +1194,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048287",
+    "title": "南洲手抄言志録",
+    "titleKana": "なんしゅうしゅしょうげんしろく",
+    "sortKana": "なんしゆうしゆしようけんしろく",
+    "subtitle": "05 秋月古香略伝",
+    "subtitleKana": "05 あきづきここうりゃくでん",
+    "firstAppearance": "「西郷南洲遺訓」1939（昭和14）年2月2日",
+    "ndc": "NDC 121 289",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-08-12",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001334/card48287.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001334/files/48287_txt_32125.zip",
+    "textFileId": "48287_txt_32125",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001334/files/48287_32126.html",
+    "inputBy": "田中哲郎",
+    "proofreadBy": "川山隆",
+    "baseBook1": {
+      "title": "西郷南洲遺訓",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1939（昭和14）年2月2日",
+      "inputEdition": "1985（昭和60）年2月20日第26刷",
+      "proofreadEdition": "1996（平成8）年4月15日第41刷"
+    },
+    "author": "山田済斎",
+    "authors": [
+      {
+        "personId": "001334",
+        "name": "山田済斎",
+        "kana": "やまだせいさい",
+        "roman": "Seisai Yamada",
+        "role": "著者",
+        "birthDate": "1867-12-18",
+        "deathDate": "1952-11-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

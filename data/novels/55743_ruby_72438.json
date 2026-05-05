@@ -128,5 +128,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055743",
+    "title": "三島由紀夫",
+    "titleKana": "みしまゆきお",
+    "sortKana": "みしまゆきお",
+    "subtitle": "ナルシシスムの運命",
+    "subtitleKana": "ナルシシスムのうんめい",
+    "firstAppearance": "「文學界」文藝春秋新社、1952（昭和27）年3月",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-01-14",
+    "updatedAt": "2020-12-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001157/card55743.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001157/files/55743_ruby_72438.zip",
+    "textFileId": "55743_ruby_72438",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001157/files/55743_72478.html",
+    "inputBy": "阿部哲也",
+    "proofreadBy": "sogo",
+    "baseBook1": {
+      "title": "日本現代文學全集　91　神西清・丸岡明・由起しげ子集",
+      "publisher": "講談社",
+      "firstPublishedAt": "1966（昭和41）年10月19日",
+      "inputEdition": "1966（昭和41）年10月19日",
+      "proofreadEdition": "1966（昭和41）年10月19日"
+    },
+    "author": "神西清",
+    "authors": [
+      {
+        "personId": "001157",
+        "name": "神西清",
+        "kana": "じんざいきよし",
+        "roman": "Kiyoshi Jinzai",
+        "role": "著者",
+        "birthDate": "1903-11-15",
+        "deathDate": "1957-03-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

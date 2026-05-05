@@ -66,5 +66,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059870",
+    "title": "飢えは最善のソースか",
+    "titleKana": "うえはさいぜんのソースか",
+    "sortKana": "うえはさいせんのそおすか",
+    "firstAppearance": "「あまカラ　3月号　第七十九号」甘辛社、1958（昭和33）年3月5日",
+    "ndc": "NDC 596 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-03-17",
+    "updatedAt": "2020-02-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001380/card59870.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001380/files/59870_ruby_70407.zip",
+    "textFileId": "59870_ruby_70407",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001380/files/59870_70465.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "芝裕久",
+    "baseBook1": {
+      "title": "「あまカラ」抄2",
+      "publisher": "冨山房百科文庫、冨山房",
+      "firstPublishedAt": "1995（平成7）年12月6日",
+      "inputEdition": "1995（平成7）年12月6日第1刷",
+      "proofreadEdition": "1995（平成7）年12月6日第1刷"
+    },
+    "author": "石川欣一",
+    "authors": [
+      {
+        "personId": "001380",
+        "name": "石川欣一",
+        "kana": "いしかわきんいち",
+        "roman": "Kinichi Ishikawa",
+        "role": "著者",
+        "birthDate": "1895-03-17",
+        "deathDate": "1959-08-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

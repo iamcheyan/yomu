@@ -54,5 +54,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004381",
+    "title": "清見寺の鐘声",
+    "titleKana": "せいけんじのしょうせい",
+    "sortKana": "せいけんしのしようせい",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-01-19",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000271/card4381.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000271/files/4381_ruby_14043.zip",
+    "textFileId": "4381_ruby_14043",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000271/files/4381_14058.html",
+    "inputBy": "三州生桑",
+    "proofreadBy": "今井忠夫",
+    "baseBook1": {
+      "title": "現代日本文學全集　第十三篇",
+      "publisher": "改造社",
+      "firstPublishedAt": "1928（昭和3）年12月1日",
+      "inputEdition": "1928（昭和3）年12月1日",
+      "proofreadEdition": "1928（昭和3）年12月1日"
+    },
+    "author": "高山樗牛",
+    "authors": [
+      {
+        "personId": "000271",
+        "name": "高山樗牛",
+        "kana": "たかやまちょぎゅう",
+        "roman": "Chogyu Takayama",
+        "role": "著者",
+        "birthDate": "1871-02-28",
+        "deathDate": "1902-12-24",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

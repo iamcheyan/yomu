@@ -46,5 +46,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002408",
+    "title": "明治二十四、五年頃の東京文科大学選科",
+    "titleKana": "めいじにじゅうし、ごねんころのとうきょうぶんかだいがくせんか",
+    "sortKana": "めいしにしゆうしこねんころのとうきようふんかたいかくせんか",
+    "ndc": "NDC 121",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-03-24",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000182/card2408.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000182/files/2408_ruby_21698.zip",
+    "textFileId": "2408_ruby_21698",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000182/files/2408_21754.html",
+    "inputBy": "ふろっぎぃ",
+    "proofreadBy": "しだひろし",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻95　明治",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年1月25日",
+      "inputEdition": "1999（平成11）年1月25日第1刷",
+      "proofreadEdition": "1999（平成11）年1月25日第1刷"
+    },
+    "author": "西田幾多郎",
+    "authors": [
+      {
+        "personId": "000182",
+        "name": "西田幾多郎",
+        "kana": "にしだきたろう",
+        "roman": "Kitaro Nishida",
+        "role": "著者",
+        "birthDate": "1870-06-17",
+        "deathDate": "1945-06-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

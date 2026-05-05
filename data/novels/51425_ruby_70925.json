@@ -2306,5 +2306,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "051425",
+    "title": "明治世相百話",
+    "titleKana": "めいじせそうひゃくわ",
+    "sortKana": "めいしせそうひやくわ",
+    "ndc": "NDC 210",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-05-10",
+    "updatedAt": "2020-04-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001513/card51425.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001513/files/51425_ruby_70925.zip",
+    "textFileId": "51425_ruby_70925",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001513/files/51425_70975.html",
+    "inputBy": "小原田ひとみ",
+    "proofreadBy": "みきた",
+    "baseBook1": {
+      "title": "明治世相百話",
+      "publisher": "中公文庫、中央公論新社",
+      "firstPublishedAt": "1983（昭和58）年7月10日",
+      "inputEdition": "2005（平成17）年8月25日改版",
+      "proofreadEdition": "2005（平成17）年8月25日改版"
+    },
+    "author": "山本笑月",
+    "authors": [
+      {
+        "personId": "001513",
+        "name": "山本笑月",
+        "kana": "やまもとしょうげつ",
+        "roman": "Shogetsu Yamamoto",
+        "role": "著者",
+        "birthDate": "1873-10-05",
+        "deathDate": "1936-05-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

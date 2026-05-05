@@ -186,5 +186,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "061032",
+    "title": "花束",
+    "titleKana": "はなたば",
+    "sortKana": "はなたは",
+    "firstAppearance": "「文協　第七号」福井県文化協議会、1956（昭和31）年11月25日",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2024-09-20",
+    "updatedAt": "2024-09-19",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001637/card61032.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001637/files/61032_ruby_77999.zip",
+    "textFileId": "61032_ruby_77999",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001637/files/61032_77998.html",
+    "inputBy": "津村田悟",
+    "baseBook1": {
+      "title": "中野鈴子全詩集",
+      "publisher": "フェニックス出版",
+      "firstPublishedAt": "1980（昭和55）年4月30日",
+      "inputEdition": "1980（昭和55）年4月30日初版",
+      "proofreadEdition": "1980（昭和55）年4月30日初版"
+    },
+    "author": "中野鈴子",
+    "authors": [
+      {
+        "personId": "001637",
+        "name": "中野鈴子",
+        "kana": "なかのすずこ",
+        "roman": "Suzuko Nakano",
+        "role": "著者",
+        "birthDate": "1906-01-24",
+        "deathDate": "1958-01-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

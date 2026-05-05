@@ -134,5 +134,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046518",
+    "title": "呉清源",
+    "titleKana": "ごせいげん",
+    "sortKana": "こせいけん",
+    "ndc": "NDC 795 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-01-04",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001248/card46518.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001248/files/46518_ruby_25560.zip",
+    "textFileId": "46518_ruby_25560",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001248/files/46518_25612.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻11　囲碁Ⅱ",
+      "publisher": "作品社",
+      "firstPublishedAt": "1992（平成4）年1月25日",
+      "inputEdition": "2000（平成12）年1月30日第7刷"
+    },
+    "author": "佐藤垢石",
+    "authors": [
+      {
+        "personId": "001248",
+        "name": "佐藤垢石",
+        "kana": "さとうこうせき",
+        "roman": "Koseki Sato",
+        "role": "著者",
+        "birthDate": "1888-06-18",
+        "deathDate": "1956-07-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

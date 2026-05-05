@@ -54,5 +54,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001707",
+    "title": "草とり",
+    "titleKana": "くさとり",
+    "sortKana": "くさとり",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-11-13",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000280/card1707.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000280/files/1707_ruby_21314.zip",
+    "textFileId": "1707_ruby_21314",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000280/files/1707_21315.html",
+    "inputBy": "増元弘信",
+    "proofreadBy": "菅野朋子",
+    "baseBook1": {
+      "title": "日本の名随筆94　草",
+      "publisher": "作品社",
+      "firstPublishedAt": "1990（平成2）年8月25日"
+    },
+    "author": "徳冨蘆花",
+    "authors": [
+      {
+        "personId": "000280",
+        "name": "徳冨蘆花",
+        "kana": "とくとみろか",
+        "roman": "Roka Tokutomi",
+        "role": "著者",
+        "birthDate": "1868-12-08",
+        "deathDate": "1927-09-18",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

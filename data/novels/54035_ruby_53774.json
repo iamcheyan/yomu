@@ -108,5 +108,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054035",
+    "title": "さらわれた兄よ",
+    "titleKana": "さらわれたあによ",
+    "sortKana": "さらわれたあによ",
+    "subtitle": "――残された妹の歌――",
+    "subtitleKana": "――のこされたいもうとのうた――",
+    "firstAppearance": "「戦旗」全日本無産者芸術連盟本部、1930（昭和5）年3月臨時増刊号",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2014-07-13",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001175/card54035.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001175/files/54035_ruby_53774.zip",
+    "textFileId": "54035_ruby_53774",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001175/files/54035_53815.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "日本プロレタリア文学集・39　プロレタリア詩集（二）",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1987（昭和62）年6月30日",
+      "inputEdition": "1987（昭和62）年6月30日初版",
+      "proofreadEdition": "1987（昭和62）年6月30日初版"
+    },
+    "author": "槙本楠郎",
+    "authors": [
+      {
+        "personId": "001175",
+        "name": "槙本楠郎",
+        "kana": "まきもとくすろう",
+        "roman": "Kusuro Makimoto",
+        "role": "著者",
+        "birthDate": "1898-08-01",
+        "deathDate": "1956-09-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

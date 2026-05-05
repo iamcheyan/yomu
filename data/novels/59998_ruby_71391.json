@@ -184,5 +184,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059998",
+    "title": "イーダちゃんのお花",
+    "titleKana": "イーダちゃんのおはな",
+    "sortKana": "いいたちやんのおはな",
+    "ndc": "NDC K949",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-08-04",
+    "updatedAt": "2020-07-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000019/card59998.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000019/files/59998_ruby_71391.zip",
+    "textFileId": "59998_ruby_71391",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000019/files/59998_71440.html",
+    "inputBy": "チエコ",
+    "proofreadBy": "木下聡",
+    "baseBook1": {
+      "title": "人魚の姫　アンデルセン童話集Ⅰ",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1967（昭和42）年12月10日",
+      "inputEdition": "2011（平成23）年9月5日48刷",
+      "proofreadEdition": "2011（平成23）年9月5日48刷"
+    },
+    "author": "アンデルセンハンス・クリスチャン",
+    "authors": [
+      {
+        "personId": "000019",
+        "name": "アンデルセンハンス・クリスチャン",
+        "kana": "アンデルセンハンス・クリスチャン",
+        "roman": "Hans Christian Andersen",
+        "role": "著者",
+        "birthDate": "1805-04-02",
+        "deathDate": "1875-08-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -72,5 +72,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048020",
+    "title": "明治時代の湯屋",
+    "titleKana": "めいじじだいのゆや",
+    "sortKana": "めいししたいのゆや",
+    "firstAppearance": "「江戸と東京」1938（昭和13）年4月",
+    "ndc": "NDC 383",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-05-28",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000082/card48020.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000082/files/48020_ruby_29787.zip",
+    "textFileId": "48020_ruby_29787",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000082/files/48020_31199.html",
+    "inputBy": "川山隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "文藝別冊［総特集］岡本綺堂",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "2004（平成16）年1月30日",
+      "inputEdition": "2004（平成16）年1月30日",
+      "proofreadEdition": "2004（平成16）年1月30日"
+    },
+    "author": "岡本綺堂",
+    "authors": [
+      {
+        "personId": "000082",
+        "name": "岡本綺堂",
+        "kana": "おかもときどう",
+        "roman": "Kido Okamoto",
+        "role": "著者",
+        "birthDate": "1872-11-15",
+        "deathDate": "1939-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

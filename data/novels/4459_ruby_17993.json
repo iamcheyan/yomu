@@ -466,5 +466,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004459",
+    "title": "細木香以",
+    "titleKana": "さいきこうい",
+    "sortKana": "さいきこうい",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-04-17",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card4459.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/4459_ruby_17993.zip",
+    "textFileId": "4459_ruby_17993",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/4459_18093.html",
+    "inputBy": "ジェラスガイ",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "森鴎外全集6",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1996（平成8）年1月24日",
+      "inputEdition": "1996（平成8）年1月24日第1刷",
+      "proofreadEdition": "1996（平成8）年1月24日第1刷"
+    },
+    "author": "森鴎外",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

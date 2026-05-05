@@ -60,5 +60,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001608",
+    "title": "パウロの混乱",
+    "titleKana": "パウロのこんらん",
+    "sortKana": "はうろのこんらん",
+    "firstAppearance": "「現代文学」1940（昭和15）年11月号",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-05-14",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000035/card1608.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000035/files/1608_ruby_18267.zip",
+    "textFileId": "1608_ruby_18267",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000035/files/1608_18408.html",
+    "inputBy": "加藤恭子",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆　別巻100　聖書",
+      "publisher": "作品社",
+      "firstPublishedAt": "1999（平成11）年6月25日",
+      "inputEdition": "1999（平成11）年6月25日第1刷"
+    },
+    "author": "太宰治",
+    "authors": [
+      {
+        "personId": "000035",
+        "name": "太宰治",
+        "kana": "だざいおさむ",
+        "roman": "Osamu Dazai",
+        "role": "著者",
+        "birthDate": "1909-06-19",
+        "deathDate": "1948-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

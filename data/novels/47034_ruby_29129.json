@@ -170,5 +170,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047034",
+    "title": "雪の宿り",
+    "titleKana": "ゆきのやどり",
+    "sortKana": "ゆきのやとり",
+    "firstAppearance": "「文藝」河出書房、1946（昭和21）年3、4月合併号",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-01-01",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001157/card47034.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001157/files/47034_ruby_29129.zip",
+    "textFileId": "47034_ruby_29129",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001157/files/47034_29130.html",
+    "inputBy": "小林繁雄",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "日本幻想文学集成19　神西清",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "1993（平成5）年5月20日",
+      "inputEdition": "1993（平成5）年5月20日初版第1刷",
+      "proofreadEdition": "1993（平成5）年5月20日初版第1刷"
+    },
+    "author": "神西清",
+    "authors": [
+      {
+        "personId": "001157",
+        "name": "神西清",
+        "kana": "じんざいきよし",
+        "roman": "Kiyoshi Jinzai",
+        "role": "著者",
+        "birthDate": "1903-11-15",
+        "deathDate": "1957-03-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

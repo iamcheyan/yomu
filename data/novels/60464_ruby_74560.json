@@ -42,5 +42,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060464",
+    "title": "オリムピヤ選手予選",
+    "titleKana": "オリムピヤせんしゅよせん",
+    "sortKana": "おりむひやせんしゆよせん",
+    "firstAppearance": "「冒険世界」博文館、1911（明治44）年12月1日号",
+    "ndc": "NDC 782",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-12-01",
+    "updatedAt": "2021-11-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/002152/card60464.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/002152/files/60464_ruby_74560.zip",
+    "textFileId": "60464_ruby_74560",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/002152/files/60464_74597.html",
+    "inputBy": "sogo",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "《復録》日本大雑誌　明治篇",
+      "publisher": "流動出版",
+      "firstPublishedAt": "1979（昭和54）年12月10日改装初版",
+      "inputEdition": "1979（昭和54）年12月10日改装初版",
+      "proofreadEdition": "1979（昭和54）年12月10日改装初版"
+    },
+    "author": "長瀬金平",
+    "authors": [
+      {
+        "personId": "002152",
+        "name": "長瀬金平",
+        "kana": "ながせきんぺい",
+        "roman": "Kinpei Nagase",
+        "role": "著者",
+        "birthDate": "1885",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

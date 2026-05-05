@@ -50,5 +50,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060351",
+    "title": "修道院の月",
+    "titleKana": "しゅうどういんのつき",
+    "sortKana": "しゆうとういんのつき",
+    "firstAppearance": "「牧神　創刊号」1920（大正9）年10月16日",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-06-23",
+    "updatedAt": "2022-05-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001976/card60351.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001976/files/60351_ruby_75638.zip",
+    "textFileId": "60351_ruby_75638",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001976/files/60351_75668.html",
+    "inputBy": "きりんの手紙",
+    "proofreadBy": "hitsuji",
+    "baseBook1": {
+      "title": "三木露風全集　第3巻",
+      "publisher": "日本図書センター",
+      "firstPublishedAt": "1974（昭和49）年4月20日",
+      "inputEdition": "1994（平成6）年10月25日初版第3刷",
+      "proofreadEdition": "1983（昭和58）年6月25日第2刷"
+    },
+    "author": "三木露風",
+    "authors": [
+      {
+        "personId": "001976",
+        "name": "三木露風",
+        "kana": "みきろふう",
+        "roman": "Rofu Miki",
+        "role": "著者",
+        "birthDate": "1889-06-23",
+        "deathDate": "1964-12-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

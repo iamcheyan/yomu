@@ -72,5 +72,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "013207",
+    "title": "山の音を聴きながら",
+    "titleKana": "やまのおとをききながら",
+    "sortKana": "やまのおとをききなから",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-01-20",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card13207.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/13207_ruby_14186.zip",
+    "textFileId": "13207_ruby_14186",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/13207_14241.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "多羅尾伴内",
+    "baseBook1": {
+      "title": "日本の名随筆67　宿",
+      "publisher": "作品社",
+      "firstPublishedAt": "1988（昭和63）年5月25日",
+      "inputEdition": "1999（平成11）年9月30日第9刷"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

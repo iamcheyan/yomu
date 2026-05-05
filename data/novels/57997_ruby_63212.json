@@ -36,5 +36,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057997",
+    "title": "忘られぬお国言葉",
+    "titleKana": "わすられぬおくにことば",
+    "sortKana": "わすられぬおくにことは",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-12-19",
+    "updatedAt": "2017-11-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001413/card57997.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001413/files/57997_ruby_63212.zip",
+    "textFileId": "57997_ruby_63212",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001413/files/57997_63354.html",
+    "inputBy": "岩下恵介",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "大きな活字で読みやすい本　新編・日本随筆紀行　心にふるさとがある7　歌の調べ　方言の響き",
+      "publisher": "作品社",
+      "firstPublishedAt": "1998（平成10）年4月25日",
+      "inputEdition": "1998（平成10）年4月25日第1刷",
+      "proofreadEdition": "1998（平成10）年4月25日第1刷"
+    },
+    "author": "池田亀鑑",
+    "authors": [
+      {
+        "personId": "001413",
+        "name": "池田亀鑑",
+        "kana": "いけだきかん",
+        "roman": "Kikan Ikeda",
+        "role": "著者",
+        "birthDate": "1896-12-09",
+        "deathDate": "1956-12-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

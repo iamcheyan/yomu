@@ -90,5 +90,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045257",
+    "title": "アメリカ独立宣言",
+    "titleKana": "アメリカどくりつせんげん",
+    "sortKana": "あめりかとくりつせんけん",
+    "originalTitle": "THE DECLARATION OF INDEPENDENCE",
+    "ndc": "NDC 312",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-07-04",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001189/card45257.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001189/files/45257_ruby_18658.zip",
+    "textFileId": "45257_ruby_18658",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001189/files/45257_18673.html",
+    "inputBy": "京都大学電子テクスト研究会入力班",
+    "proofreadBy": "京都大学電子テクスト研究会校正班",
+    "baseBook1": {
+      "title": "翻訳の思想　日本近代思想大系15",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1991（平成3）年9月30日",
+      "inputEdition": "1991（平成3）年9月30日第1刷"
+    },
+    "author": "ジェファーソントマス",
+    "authors": [
+      {
+        "personId": "001189",
+        "name": "ジェファーソントマス",
+        "kana": "ジェファーソントマス",
+        "roman": "Thomas Jefferson",
+        "role": "著者",
+        "birthDate": "1743-04-13",
+        "deathDate": "1826-07-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

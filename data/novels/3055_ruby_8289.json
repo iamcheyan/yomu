@@ -1536,5 +1536,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003055",
+    "title": "逸見猶吉詩集",
+    "titleKana": "へんみゆうきちししゅう",
+    "sortKana": "へんみゆうきちししゆう",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-01-19",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000765/card3055.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000765/files/3055_ruby_8289.zip",
+    "textFileId": "3055_ruby_8289",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000765/files/3055_8290.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "現代日本名詩集大成　七",
+      "publisher": "創元社",
+      "firstPublishedAt": "1960（昭和35）年11月20日",
+      "inputEdition": "1960（昭和35）年11月20日初版"
+    },
+    "author": "逸見猶吉",
+    "authors": [
+      {
+        "personId": "000765",
+        "name": "逸見猶吉",
+        "kana": "へんみゆうきち",
+        "roman": "Yukichi Henmi",
+        "role": "著者",
+        "birthDate": "1907-09-09",
+        "deathDate": "1946-05-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

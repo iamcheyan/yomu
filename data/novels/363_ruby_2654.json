@@ -1408,5 +1408,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000363",
+    "title": "義血侠血",
+    "titleKana": "ぎけつきょうけつ",
+    "sortKana": "きけつきようけつ",
+    "firstAppearance": "「読売新聞」1894（明治27）年11月1日～30日",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-10-23",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000050/card363.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000050/files/363_ruby_2654.zip",
+    "textFileId": "363_ruby_2654",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000050/files/363_20915.html",
+    "inputBy": "真先芳秋",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "高野聖",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1971（昭和46）年4月20日改版初版",
+      "inputEdition": "1999（平成11）年2月10日改版40版"
+    },
+    "author": "泉鏡花",
+    "authors": [
+      {
+        "personId": "000050",
+        "name": "泉鏡花",
+        "kana": "いずみきょうか",
+        "roman": "Kyoka Izumi",
+        "role": "著者",
+        "birthDate": "1873-11-04",
+        "deathDate": "1939-09-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

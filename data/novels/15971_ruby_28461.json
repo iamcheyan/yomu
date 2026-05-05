@@ -308,5 +308,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "015971",
+    "title": "砂遊場からの同志",
+    "titleKana": "すなあそびばからのどうし",
+    "sortKana": "すなあそひはからのとうし",
+    "subtitle": "――ソヴェト同盟の共学について――",
+    "subtitleKana": "――ソヴェトどうめいのきょうがくについて――",
+    "firstAppearance": "「教育」（「教育科学　第四冊」附録）岩波講座、岩波書店、1932（昭和7）年1月15日",
+    "ndc": "NDC 372",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2007-12-27",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000311/card15971.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000311/files/15971_ruby_28461.zip",
+    "textFileId": "15971_ruby_28461",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000311/files/15971_28865.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "宮本百合子全集　第三十巻",
+      "publisher": "新日本出版社",
+      "firstPublishedAt": "1986（昭和61）年3月20日",
+      "inputEdition": "1986（昭和61）年3月20日初版",
+      "proofreadEdition": "1986（昭和61）年3月20日初版"
+    },
+    "author": "宮本百合子",
+    "authors": [
+      {
+        "personId": "000311",
+        "name": "宮本百合子",
+        "kana": "みやもとゆりこ",
+        "roman": "Yuriko Miyamoto",
+        "role": "著者",
+        "birthDate": "1899-02-13",
+        "deathDate": "1951-01-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

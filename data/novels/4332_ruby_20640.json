@@ -2506,5 +2506,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004332",
+    "title": "女の一生",
+    "titleKana": "おんなのいっしょう",
+    "sortKana": "おんなのいつしよう",
+    "firstAppearance": "「女の一生」文明社、1946（昭和21）年10月刊、初演は1945（昭和20）年4月",
+    "ndc": "NDC 912",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-02-04",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000827/card4332.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000827/files/4332_ruby_20640.zip",
+    "textFileId": "4332_ruby_20640",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000827/files/4332_21415.html",
+    "inputBy": "伊藤時也",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "現代日本文學大系　83　森本薫・木下順二・田中千禾夫・飯沢匡集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1970（昭和45）年4月5日",
+      "inputEdition": "1981（昭和56）年10月30日初版第13刷",
+      "proofreadEdition": "1985（昭和60）年11月10日初版第14刷"
+    },
+    "author": "森本薫",
+    "authors": [
+      {
+        "personId": "000827",
+        "name": "森本薫",
+        "kana": "もりもとかおる",
+        "roman": "Kaoru Morimoto",
+        "role": "著者",
+        "birthDate": "1912-06-04",
+        "deathDate": "1946-10-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

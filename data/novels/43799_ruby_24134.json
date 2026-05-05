@@ -256,5 +256,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043799",
+    "title": "競漕",
+    "titleKana": "きょうそう",
+    "sortKana": "きようそう",
+    "firstAppearance": "「新思潮」1916（大正5）年6月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-12-10",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001151/card43799.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001151/files/43799_ruby_24134.zip",
+    "textFileId": "43799_ruby_24134",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001151/files/43799_24697.html",
+    "inputBy": "土屋隆",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "日本の文学　78　名作集（二）",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1970（昭和45）年8月5日",
+      "inputEdition": "1970（昭和45）年8月5日初版",
+      "proofreadEdition": "1970（昭和45）年8月5日初版"
+    },
+    "author": "久米正雄",
+    "authors": [
+      {
+        "personId": "001151",
+        "name": "久米正雄",
+        "kana": "くめまさお",
+        "roman": "Masao Kume",
+        "role": "著者",
+        "birthDate": "1891-11-23",
+        "deathDate": "1952-03-01",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

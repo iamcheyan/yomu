@@ -96,5 +96,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004443",
+    "title": "能ぎらい／能好き／能という名前",
+    "titleKana": "のうぎらい／のうずき／のうというなまえ",
+    "sortKana": "のうきらいのうすきのうというなまえ",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2002-12-01",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000096/card4443.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000096/files/4443_ruby_7704.zip",
+    "textFileId": "4443_ruby_7704",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000096/files/4443_7705.html",
+    "inputBy": "渡邉つよし",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆87　能",
+      "publisher": "作品社",
+      "firstPublishedAt": "1990（平成2）年1月25日",
+      "inputEdition": "1991（平成3）年9月1日第3刷"
+    },
+    "author": "夢野久作",
+    "authors": [
+      {
+        "personId": "000096",
+        "name": "夢野久作",
+        "kana": "ゆめのきゅうさく",
+        "roman": "Kyusaku Yumeno",
+        "role": "著者",
+        "birthDate": "1889-01-04",
+        "deathDate": "1936-03-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -192,5 +192,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001434",
+    "title": "水の東京",
+    "titleKana": "みずのとうきょう",
+    "sortKana": "みすのとうきよう",
+    "ndc": "NDC 914 915",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-08-01",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000051/card1434.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000051/files/1434_ruby_20709.zip",
+    "textFileId": "1434_ruby_20709",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000051/files/1434_20710.html",
+    "inputBy": "八巻美恵",
+    "proofreadBy": "染川隆俊",
+    "baseBook1": {
+      "title": "一国の首都　他一篇",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1993（平成5）年5月17日",
+      "inputEdition": "1999（平成11）年11月8日第2刷",
+      "proofreadEdition": "1999（平成11）年11月8日第2刷"
+    },
+    "author": "幸田露伴",
+    "authors": [
+      {
+        "personId": "000051",
+        "name": "幸田露伴",
+        "kana": "こうだろはん",
+        "roman": "Rohan Koda",
+        "role": "著者",
+        "birthDate": "1867-08-20",
+        "deathDate": "1947-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

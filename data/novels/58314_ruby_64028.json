@@ -62,5 +62,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "058314",
+    "title": "本邦肖像彫刻技法の推移",
+    "titleKana": "ほんぽうしょうぞうちょうこくぎほうのすいい",
+    "sortKana": "ほんほうしようそうちようこくきほうのすいい",
+    "firstAppearance": "「道統　第四巻第十号」1941（昭和16）年11月1日",
+    "ndc": "NDC 712 718",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-03-13",
+    "updatedAt": "2018-02-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001168/card58314.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001168/files/58314_ruby_64028.zip",
+    "textFileId": "58314_ruby_64028",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001168/files/58314_64120.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "仏教の名随筆　2",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "2006（平成18）年7月10日",
+      "inputEdition": "2006（平成18）年7月10日初版第1刷",
+      "proofreadEdition": "2006（平成18）年7月10日初版第1刷"
+    },
+    "author": "高村光太郎",
+    "authors": [
+      {
+        "personId": "001168",
+        "name": "高村光太郎",
+        "kana": "たかむらこうたろう",
+        "roman": "Kotaro Takamura",
+        "role": "著者",
+        "birthDate": "1883-03-13",
+        "deathDate": "1956-04-02",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -42,5 +42,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043605",
+    "title": "愛人と厭人",
+    "titleKana": "あいじんとえんじん",
+    "sortKana": "あいしんとえんしん",
+    "firstAppearance": "「新潮」1920（大正9）年8月",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-04-15",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000809/card43605.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000809/files/43605_ruby_29583.zip",
+    "textFileId": "43605_ruby_29583",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000809/files/43605_30585.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "惜しみなく愛は奪う",
+      "publisher": "角川文庫、角川書店",
+      "firstPublishedAt": "1969（昭和44）年1月30日改版",
+      "inputEdition": "1979（昭和54）年4月30日改版14版",
+      "proofreadEdition": "1979（昭和54）年4月30日改版14版"
+    },
+    "author": "宮原晃一郎",
+    "authors": [
+      {
+        "personId": "000809",
+        "name": "宮原晃一郎",
+        "kana": "みやはらこういちろう",
+        "roman": "Koichiro Miyahara",
+        "role": "著者",
+        "birthDate": "1882-09-02",
+        "deathDate": "1945-06-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

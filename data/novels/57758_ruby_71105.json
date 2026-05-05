@@ -1812,5 +1812,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057758",
+    "title": "柳橋物語",
+    "titleKana": "やなぎばしものがたり",
+    "sortKana": "やなきはしものかたり",
+    "firstAppearance": "前編「椿　創刊号」山本周五郎一人雑誌、1946（昭和21）年7月<br>中・後編「新青年」1949（昭和24）年1月～3月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-06-22",
+    "updatedAt": "2020-05-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001869/card57758.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001869/files/57758_ruby_71105.zip",
+    "textFileId": "57758_ruby_71105",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001869/files/57758_71150.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "Butami",
+    "baseBook1": {
+      "title": "山本周五郎全集第二巻　日本婦道記・柳橋物語",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1981（昭和56）年9月15日",
+      "inputEdition": "1981（昭和56）年10月25日2刷",
+      "proofreadEdition": "1987（昭和62）年09月30日3刷"
+    },
+    "author": "山本周五郎",
+    "authors": [
+      {
+        "personId": "001869",
+        "name": "山本周五郎",
+        "kana": "やまもとしゅうごろう",
+        "roman": "Shugoro Yamamoto",
+        "role": "著者",
+        "birthDate": "1903-06-22",
+        "deathDate": "1967-02-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

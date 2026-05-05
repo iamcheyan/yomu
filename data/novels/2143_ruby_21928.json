@@ -102,5 +102,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002143",
+    "title": "謡曲黒白談",
+    "titleKana": "ようきょくこくびゃくだん",
+    "sortKana": "ようきよくこくひやくたん",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2001-10-29",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000096/card2143.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000096/files/2143_ruby_21928.zip",
+    "textFileId": "2143_ruby_21928",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000096/files/2143_21929.html",
+    "inputBy": "柴田卓治",
+    "proofreadBy": "小林徹",
+    "baseBook1": {
+      "title": "夢野久作全集11",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1992（平成4）年12月3日"
+    },
+    "author": "夢野久作",
+    "authors": [
+      {
+        "personId": "000096",
+        "name": "夢野久作",
+        "kana": "ゆめのきゅうさく",
+        "roman": "Kyusaku Yumeno",
+        "role": "著者",
+        "birthDate": "1889-01-04",
+        "deathDate": "1936-03-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -28,5 +28,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "049753",
+    "title": "目に見えない怪物",
+    "titleKana": "めにみえないかいぶつ",
+    "sortKana": "めにみえないかいふつ",
+    "subtitle": "―能の現代化",
+    "subtitleKana": "―のうのげんだいか",
+    "ndc": "NDC 773",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-12-22",
+    "updatedAt": "2019-11-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001240/card49753.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001240/files/49753_ruby_69705.zip",
+    "textFileId": "49753_ruby_69705",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001240/files/49753_69750.html",
+    "inputBy": "鈴木厚司",
+    "proofreadBy": "きゅうり",
+    "baseBook1": {
+      "title": "加藤道夫全集（全一卷）",
+      "publisher": "新潮社",
+      "firstPublishedAt": "1955（昭和30）年9月30日",
+      "inputEdition": "1955（昭和30）年9月30日",
+      "proofreadEdition": "1955（昭和30）年9月30日"
+    },
+    "author": "加藤道夫",
+    "authors": [
+      {
+        "personId": "001240",
+        "name": "加藤道夫",
+        "kana": "かとうみちお",
+        "roman": "Michio Kato",
+        "role": "著者",
+        "birthDate": "1918-10-17",
+        "deathDate": "1953-12-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

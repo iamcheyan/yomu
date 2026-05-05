@@ -306,5 +306,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002943",
+    "title": "かんかん虫",
+    "titleKana": "かんかんむし",
+    "sortKana": "かんかんむし",
+    "firstAppearance": "「白樺」1910（明治43）年10月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2003-03-10",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000025/card2943.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000025/files/2943_ruby_8114.zip",
+    "textFileId": "2943_ruby_8114",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000025/files/2943_9309.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "日本プロレタリア文学大系　序",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1955（昭和30）年3月31日第1版発行",
+      "inputEdition": "1961（昭和36）年6月20日第2刷",
+      "proofreadEdition": "1968（昭和43）年12月5日第3刷"
+    },
+    "author": "有島武郎",
+    "authors": [
+      {
+        "personId": "000025",
+        "name": "有島武郎",
+        "kana": "ありしまたけお",
+        "roman": "Takeo Arishima",
+        "role": "著者",
+        "birthDate": "1878-03-04",
+        "deathDate": "1923-06-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

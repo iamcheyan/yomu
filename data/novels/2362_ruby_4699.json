@@ -56,5 +56,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "002362",
+    "title": "時の観念とエントロピーならびにプロバビリティ",
+    "titleKana": "ときのかんねんとエントロピーならびにプロバビリティ",
+    "sortKana": "ときのかんねんとえんとろひいならひにふろはひりてい",
+    "firstAppearance": "「理学会」1917（大正6）年1月",
+    "ndc": "NDC 420",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-10-03",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000042/card2362.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000042/files/2362_ruby_4699.zip",
+    "textFileId": "2362_ruby_4699",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000042/files/2362_13808.html",
+    "inputBy": "富田倫生",
+    "proofreadBy": "かとうかおり",
+    "baseBook1": {
+      "title": "日本の名随筆91　時",
+      "publisher": "作品社",
+      "firstPublishedAt": "1990（平成2）年5月25日"
+    },
+    "author": "寺田寅彦",
+    "authors": [
+      {
+        "personId": "000042",
+        "name": "寺田寅彦",
+        "kana": "てらだとらひこ",
+        "roman": "Torahiko Terada",
+        "role": "著者",
+        "birthDate": "1878-11-28",
+        "deathDate": "1935-12-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

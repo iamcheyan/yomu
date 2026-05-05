@@ -102,5 +102,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048312",
+    "title": "墨子",
+    "titleKana": "ぼくし",
+    "sortKana": "ほくし",
+    "firstAppearance": "「岩波講座　世界思潮　第二册」岩波書店、1929（昭和4）年7月",
+    "ndc": "NDC 124",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2011-02-26",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000051/card48312.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000051/files/48312_ruby_41628.zip",
+    "textFileId": "48312_ruby_41628",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000051/files/48312_42002.html",
+    "inputBy": "しだひろし",
+    "proofreadBy": "大沢たかお",
+    "baseBook1": {
+      "title": "露伴全集　第十八卷",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1949（昭和24）年10月10日",
+      "inputEdition": "1949（昭和24）年10月10日第1刷",
+      "proofreadEdition": "1979（昭和54）年1月18日第2刷"
+    },
+    "author": "幸田露伴",
+    "authors": [
+      {
+        "personId": "000051",
+        "name": "幸田露伴",
+        "kana": "こうだろはん",
+        "roman": "Rohan Koda",
+        "role": "著者",
+        "birthDate": "1867-08-20",
+        "deathDate": "1947-07-30",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

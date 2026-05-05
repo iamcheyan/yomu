@@ -34,5 +34,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004289",
+    "title": "姑と嫁に就て（再び）",
+    "titleKana": "しゅうとめとよめについて（ふたたび）",
+    "sortKana": "しゆうとめとよめについてふたたひ",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-04-09",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000885/card4289.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000885/files/4289_ruby_17981.zip",
+    "textFileId": "4289_ruby_17981",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000885/files/4289_18073.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "土屋隆",
+    "baseBook1": {
+      "title": "定本　與謝野晶子全集　第十五卷　評論感想集二",
+      "publisher": "講談社",
+      "firstPublishedAt": "1980（昭和55）年5月10日",
+      "inputEdition": "1980（昭和55）年5月10日第1刷"
+    },
+    "author": "与謝野晶子",
+    "authors": [
+      {
+        "personId": "000885",
+        "name": "与謝野晶子",
+        "kana": "よさのあきこ",
+        "roman": "Akiko Yosano",
+        "role": "著者",
+        "birthDate": "1878-12-07",
+        "deathDate": "1942-05-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

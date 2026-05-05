@@ -2220,5 +2220,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056676",
+    "title": "灰色の巨人",
+    "titleKana": "はいいろのきょじん",
+    "sortKana": "はいいろのきよしん",
+    "firstAppearance": "「少年クラブ」大日本雄辯會講談社、1955（昭和30）年1月号～12月号",
+    "ndc": "NDC K913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2017-07-13",
+    "updatedAt": "2017-07-31",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001779/card56676.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001779/files/56676_ruby_61995.zip",
+    "textFileId": "56676_ruby_61995",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001779/files/56676_61994.html",
+    "inputBy": "sogo",
+    "proofreadBy": "茅宮君子",
+    "baseBook1": {
+      "title": "灰色の巨人／魔法博士",
+      "publisher": "江戸川乱歩推理文庫、講談社",
+      "firstPublishedAt": "1988（昭和63）年3月8日",
+      "inputEdition": "1988（昭和63）年3月8日第1刷",
+      "proofreadEdition": "1988（昭和63）年3月8日第1刷"
+    },
+    "author": "江戸川乱歩",
+    "authors": [
+      {
+        "personId": "001779",
+        "name": "江戸川乱歩",
+        "kana": "えどがわらんぽ",
+        "roman": "Ranpo Edogawa",
+        "role": "著者",
+        "birthDate": "1894-10-21",
+        "deathDate": "1965-07-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

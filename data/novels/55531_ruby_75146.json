@@ -2812,5 +2812,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055531",
+    "title": "我が愛する詩人の伝記",
+    "titleKana": "わがあいするしじんのでんき",
+    "sortKana": "わかあいするししんのてんき",
+    "firstAppearance": "北原白秋「婦人公論　第四十三巻第一号」1958（昭和33）年1月号<br>高村光太郎「婦人公論　第四十三巻第二号」1958（昭和33）年2月号<br>萩原朔太郎「婦人公論　第四十三巻第三号」1958（昭和33）年3月号<br>釈迢空「婦人公論　第四十三巻第四号」1958（昭和33）年4月号<br>堀辰雄「婦人公論　第四十三巻第七号」1958（昭和33）年7月号<br>立原道造「婦人公論　第四十三巻第八号」1958（昭和33）年8月号<br>津村信夫「婦人公論　第四十三巻第九号」1958（昭和33）年9月号<br>山村暮鳥「婦人公論　第四十三巻第十一号」1958（昭和33）年10月号<br>百田宗治「婦人公論　第四十三巻第十二号」1958（昭和33）年11月号<br>千家元麿「婦人公論　第四十三巻第十三号」1958（昭和33）年12月号<br>島崎藤村「婦人公論　第四十三巻第六号」1958（昭和33）年6月号",
+    "ndc": "NDC 911",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-03-26",
+    "updatedAt": "2022-02-25",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001579/card55531.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001579/files/55531_ruby_75146.zip",
+    "textFileId": "55531_ruby_75146",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001579/files/55531_75184.html",
+    "inputBy": "きりんの手紙",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "我が愛する詩人の伝記",
+      "publisher": "中公文庫、中央公論社",
+      "firstPublishedAt": "1974（昭和49）年4月10日",
+      "inputEdition": "1984（昭和59）年7月30日6版",
+      "proofreadEdition": "1987（昭和62）年10月30日7版"
+    },
+    "author": "室生犀星",
+    "authors": [
+      {
+        "personId": "001579",
+        "name": "室生犀星",
+        "kana": "むろうさいせい",
+        "roman": "Saisei Murou",
+        "role": "著者",
+        "birthDate": "1889-08-01",
+        "deathDate": "1962-03-26",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -80,5 +80,42 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000624",
+    "title": "山月記",
+    "titleKana": "さんげつき",
+    "sortKana": "さんけつき",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-11-13",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000119/card624.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000119/files/624_ruby_5668.zip",
+    "textFileId": "624_ruby_5668",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000119/files/624_14544.html",
+    "inputBy": "平松大樹",
+    "proofreadBy": "林めぐみ",
+    "baseBook1": {
+      "title": "李陵・山月記",
+      "publisher": "新潮文庫、新潮社",
+      "firstPublishedAt": "1969（昭和44）年9月20日、1989（平成元）年6月10日第43刷改版",
+      "proofreadEdition": "1994（平成6）年5月15日第50刷"
+    },
+    "author": "中島敦",
+    "authors": [
+      {
+        "personId": "000119",
+        "name": "中島敦",
+        "kana": "なかじまあつし",
+        "roman": "Atsushi Nakajima",
+        "role": "著者",
+        "birthDate": "1909-05-05",
+        "deathDate": "1942-12-04",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

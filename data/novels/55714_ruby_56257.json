@@ -70,5 +70,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055714",
+    "title": "新短歌に就いて",
+    "titleKana": "しんたんかについて",
+    "sortKana": "しんたんかについて",
+    "firstAppearance": "「短歌研究」1936（昭和11）年12月号",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-04-07",
+    "updatedAt": "2015-03-08",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000026/card55714.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000026/files/55714_ruby_56257.zip",
+    "textFileId": "55714_ruby_56257",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000026/files/55714_56068.html",
+    "inputBy": "村松洋一",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "新編中原中也全集　第四巻　評論・小説",
+      "publisher": "角川書店",
+      "firstPublishedAt": "2003（平成15）年11月25日",
+      "inputEdition": "2003（平成15）年11月25日初版",
+      "proofreadEdition": "2003（平成15）年11月25日初版"
+    },
+    "author": "中原中也",
+    "authors": [
+      {
+        "personId": "000026",
+        "name": "中原中也",
+        "kana": "なかはらちゅうや",
+        "roman": "Chuya Nakahara",
+        "role": "著者",
+        "birthDate": "1907-04-29",
+        "deathDate": "1937-10-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

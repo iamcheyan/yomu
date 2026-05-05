@@ -188,5 +188,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045155",
+    "title": "孝行鶉の話",
+    "titleKana": "こうこううずらのはなし",
+    "sortKana": "こうこううすらのはなし",
+    "firstAppearance": "「赤い鳥」1922（大正11）年2月",
+    "ndc": "NDC K913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-09-15",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000809/card45155.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000809/files/45155_ruby_18125.zip",
+    "textFileId": "45155_ruby_18125",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000809/files/45155_19262.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "鈴木厚司",
+    "baseBook1": {
+      "title": "日本児童文学大系　第一一巻",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1978（昭和53）年11月30日",
+      "inputEdition": "1978（昭和53）年11月30日初刷",
+      "proofreadEdition": "1978（昭和53）年11月30日初刷"
+    },
+    "author": "宮原晃一郎",
+    "authors": [
+      {
+        "personId": "000809",
+        "name": "宮原晃一郎",
+        "kana": "みやはらこういちろう",
+        "roman": "Koichiro Miyahara",
+        "role": "著者",
+        "birthDate": "1882-09-02",
+        "deathDate": "1945-06-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

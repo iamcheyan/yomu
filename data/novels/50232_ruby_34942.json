@@ -128,5 +128,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050232",
+    "title": "詩に関する話",
+    "titleKana": "しにかんするはなし",
+    "sortKana": "しにかんするはなし",
+    "firstAppearance": "「白痴群　第六号」1930（昭和5）年4月1日",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-06-14",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000026/card50232.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000026/files/50232_ruby_34942.zip",
+    "textFileId": "50232_ruby_34942",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000026/files/50232_35106.html",
+    "inputBy": "村松洋一",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "新編中原中也全集　第四巻　評論・小説",
+      "publisher": "角川書店",
+      "firstPublishedAt": "2003（平成15）年11月25日",
+      "inputEdition": "2003（平成15）年11月25日初版",
+      "proofreadEdition": "2003（平成15）年11月25日初版"
+    },
+    "author": "中原中也",
+    "authors": [
+      {
+        "personId": "000026",
+        "name": "中原中也",
+        "kana": "なかはらちゅうや",
+        "roman": "Chuya Nakahara",
+        "role": "著者",
+        "birthDate": "1907-04-29",
+        "deathDate": "1937-10-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

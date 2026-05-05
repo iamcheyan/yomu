@@ -162,5 +162,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "060357",
+    "title": "新浦島",
+    "titleKana": "しんうらしま",
+    "sortKana": "しんうらしま",
+    "originalTitle": "RIP VAN WINKLE. EINE NACHGELASSENE SCHRIFT VON DIETRICH KNICKERBOCKER.",
+    "firstAppearance": "「少年園　第二巻　第十三号」1889（明治22）年5月3日<br>「少年園　第二巻　第十四号」1889（明治22）年5月18日<br>「少年園　第二巻　第十五号」1889（明治22）年6月3日<br>「少年園　第二巻　第十六号」1889（明治22）年6月18日<br>「少年園　第二巻　第十七号」1889（明治22）年7月3日<br>「少年園　第二巻　第十八号」1889（明治22）年7月18日<br>「少年園　第二巻　第二十号」1889（明治22）年8月18日",
+    "ndc": "NDC K933",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-07-09",
+    "updatedAt": "2022-06-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001257/card60357.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001257/files/60357_ruby_75861.zip",
+    "textFileId": "60357_ruby_75861",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001257/files/60357_75896.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "鴎外選集　第16巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1980（昭和55）年2月22日",
+      "inputEdition": "1980（昭和55）年6月30日第2刷",
+      "proofreadEdition": "1980（昭和55）年2月22日第1刷"
+    },
+    "author": "アーヴィングワシントン",
+    "authors": [
+      {
+        "personId": "001257",
+        "name": "アーヴィングワシントン",
+        "kana": "アーヴィングワシントン",
+        "roman": "Washington Irving",
+        "role": "著者",
+        "birthDate": "1783-04-03",
+        "deathDate": "1859-11-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -62,5 +62,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000693",
+    "title": "追儺",
+    "titleKana": "ついな",
+    "sortKana": "ついな",
+    "firstAppearance": "「東亜之光」1909（明治42）年5月",
+    "ndc": "NDC 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1998-05-11",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000129/card693.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000129/files/693_ruby_333.zip",
+    "textFileId": "693_ruby_333",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000129/files/693_18396.html",
+    "inputBy": "村上聡",
+    "proofreadBy": "野口英司",
+    "baseBook1": {
+      "title": "ザ・鴎外　―森鴎外全小説全一冊―",
+      "publisher": "第三書館",
+      "firstPublishedAt": "1985（昭和60）年5月1日",
+      "inputEdition": "1992（昭和67）年8月20日第2刷"
+    },
+    "author": "森鴎外",
+    "authors": [
+      {
+        "personId": "000129",
+        "name": "森鴎外",
+        "kana": "もりおうがい",
+        "roman": "Ogai Mori",
+        "role": "著者",
+        "birthDate": "1862-02-17",
+        "deathDate": "1922-07-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

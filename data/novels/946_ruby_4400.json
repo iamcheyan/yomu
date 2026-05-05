@@ -1014,5 +1014,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000946",
+    "title": "善の研究",
+    "titleKana": "ぜんのけんきゅう",
+    "sortKana": "せんのけんきゆう",
+    "firstAppearance": "「善の研究」弘道館、1911（明治44）年2月6日発行",
+    "ndc": "NDC 121",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-07-27",
+    "updatedAt": "2022-01-09",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000182/card946.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000182/files/946_ruby_4400.zip",
+    "textFileId": "946_ruby_4400",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000182/files/946_74853.html",
+    "inputBy": "nns",
+    "proofreadBy": "かとうかおり",
+    "baseBook1": {
+      "title": "善の研究",
+      "publisher": "岩波文庫、岩波書店",
+      "firstPublishedAt": "1950（昭和25）年 1月10日、1979（昭和54）年10月16日第48刷改版",
+      "inputEdition": "1999（平成11）年10月25日第86刷"
+    },
+    "author": "西田幾多郎",
+    "authors": [
+      {
+        "personId": "000182",
+        "name": "西田幾多郎",
+        "kana": "にしだきたろう",
+        "roman": "Kitaro Nishida",
+        "role": "著者",
+        "birthDate": "1870-06-17",
+        "deathDate": "1945-06-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -156,5 +156,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059397",
+    "title": "田端に居た頃",
+    "titleKana": "たばたにいたころ",
+    "sortKana": "たはたにいたころ",
+    "subtitle": "（室生犀星のこと）",
+    "subtitleKana": "（むろおさいせいのこと）",
+    "firstAppearance": "「驢馬　第二號」1926（大正15）年5月号",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-03-26",
+    "updatedAt": "2020-02-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000067/card59397.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000067/files/59397_ruby_70424.zip",
+    "textFileId": "59397_ruby_70424",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000067/files/59397_70482.html",
+    "inputBy": "きりんの手紙",
+    "proofreadBy": "岡村和彦",
+    "baseBook1": {
+      "title": "萩原朔太郎全集　第八卷",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1976（昭和51）年7月25日",
+      "inputEdition": "1976（昭和51）年7月25日初版",
+      "proofreadEdition": "1976（昭和51）年7月25日初版"
+    },
+    "author": "萩原朔太郎",
+    "authors": [
+      {
+        "personId": "000067",
+        "name": "萩原朔太郎",
+        "kana": "はぎわらさくたろう",
+        "roman": "Sakutaro Hagiwara",
+        "role": "著者",
+        "birthDate": "1886-11-01",
+        "deathDate": "1942-05-11",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

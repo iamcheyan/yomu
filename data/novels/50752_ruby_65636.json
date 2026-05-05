@@ -116,5 +116,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050752",
+    "title": "コロポックル説の誤謬を論ず（下）",
+    "titleKana": "コロポックルせつのごびゅうをろんず（げ）",
+    "sortKana": "ころほつくるせつのこひゆうをろんすけ",
+    "firstAppearance": "「歴史地理　第十二卷第六號」日本歴史地理學會、1908（明治41）年12月1日",
+    "ndc": "NDC 389",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-09-03",
+    "updatedAt": "2018-08-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001469/card50752.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001469/files/50752_ruby_65636.zip",
+    "textFileId": "50752_ruby_65636",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001469/files/50752_65731.html",
+    "inputBy": "しだひろし",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "歴史地理　第十二卷第六號",
+      "publisher": "日本歴史地理學會",
+      "firstPublishedAt": "1908（明治41）12月1日",
+      "inputEdition": "1908（明治41）12月1日",
+      "proofreadEdition": "1908（明治41）12月1日"
+    },
+    "author": "河野常吉",
+    "authors": [
+      {
+        "personId": "001469",
+        "name": "河野常吉",
+        "kana": "こうのつねきち",
+        "roman": "Tsunekichi Kono",
+        "role": "著者",
+        "birthDate": "1863-01-11",
+        "deathDate": "1930-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -660,5 +660,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "004710",
+    "title": "山陰土産",
+    "titleKana": "さんいんみやげ",
+    "sortKana": "さんいんみやけ",
+    "firstAppearance": "「大阪朝日新聞」1927(昭和2）年7月～9月",
+    "ndc": "NDC 915",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-10-22",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000158/card4710.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000158/files/4710_ruby_19601.zip",
+    "textFileId": "4710_ruby_19601",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000158/files/4710_19618.html",
+    "inputBy": "林幸雄",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "現代日本紀行文学全集　西日本編",
+      "publisher": "ほるぷ出版",
+      "firstPublishedAt": "1976（昭和51）年8月1日",
+      "inputEdition": "1976（昭和51）年8月1日初版",
+      "proofreadEdition": "1976（昭和51）年8月1日初版"
+    },
+    "author": "島崎藤村",
+    "authors": [
+      {
+        "personId": "000158",
+        "name": "島崎藤村",
+        "kana": "しまざきとうそん",
+        "roman": "Toson Shimazaki",
+        "role": "著者",
+        "birthDate": "1872-03-25",
+        "deathDate": "1943-08-22",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

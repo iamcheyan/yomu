@@ -220,5 +220,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "061145",
+    "title": "光を覆うものなし",
+    "titleKana": "ひかりをおおうものなし",
+    "sortKana": "ひかりをおおうものなし",
+    "subtitle": "――競輪不正事件――",
+    "subtitleKana": "――けいりんふせいじけん――",
+    "firstAppearance": "「新潮　第四八巻第一二号」1951（昭和26）年11月1日",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2022-12-07",
+    "updatedAt": "2022-11-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card61145.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/61145_ruby_76721.zip",
+    "textFileId": "61145_ruby_76721",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/61145_76757.html",
+    "inputBy": "持田和踏",
+    "proofreadBy": "ばっちゃん",
+    "baseBook1": {
+      "title": "坂口安吾全集16",
+      "publisher": "ちくま文庫、筑摩書房",
+      "firstPublishedAt": "1991（平成3）年7月24日",
+      "inputEdition": "1991（平成3）年7月24日第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

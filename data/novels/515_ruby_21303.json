@@ -78,5 +78,41 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "000515",
+    "title": "国民性と文学",
+    "titleKana": "こくみんせいとぶんがく",
+    "sortKana": "こくみんせいとふんかく",
+    "ndc": "NDC 901",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "1999-01-19",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000087/card515.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000087/files/515_ruby_21303.zip",
+    "textFileId": "515_ruby_21303",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000087/files/515_21304.html",
+    "inputBy": "j.utiyama",
+    "proofreadBy": "丹羽倫子",
+    "baseBook1": {
+      "title": "現代日本文學大系　96　文藝評論集",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1973（昭和48）年7月10日"
+    },
+    "author": "綱島梁川",
+    "authors": [
+      {
+        "personId": "000087",
+        "name": "綱島梁川",
+        "kana": "つなしまりょうせん",
+        "roman": "Ryosen Tsunashima",
+        "role": "著者",
+        "birthDate": "1873-05-27",
+        "deathDate": "1907-09-14",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

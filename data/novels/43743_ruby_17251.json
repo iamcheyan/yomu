@@ -52,5 +52,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043743",
+    "title": "荒磯の興味",
+    "titleKana": "あらいそのきょうみ",
+    "sortKana": "あらいそのきようみ",
+    "ndc": "NDC 787",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-01-31",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000577/card43743.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000577/files/43743_ruby_17251.zip",
+    "textFileId": "43743_ruby_17251",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000577/files/43743_17418.html",
+    "inputBy": "浅葱",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "日本の名随筆4　釣",
+      "publisher": "作品社",
+      "firstPublishedAt": "1982（昭和57）年10月25日",
+      "inputEdition": "1995（平成7）年3月30日第24刷",
+      "proofreadEdition": "1998（平成10）年1月30日第26刷"
+    },
+    "author": "佐藤惣之助",
+    "authors": [
+      {
+        "personId": "000577",
+        "name": "佐藤惣之助",
+        "kana": "さとうそうのすけ",
+        "roman": "Sonosuke Sato",
+        "role": "著者",
+        "birthDate": "1890-12-03",
+        "deathDate": "1942-05-15",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

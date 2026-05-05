@@ -54,5 +54,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048482",
+    "title": "透明な輪",
+    "titleKana": "とうめいなわ",
+    "sortKana": "とうめいなわ",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2009-07-21",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000293/card48482.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000293/files/48482_ruby_35176.zip",
+    "textFileId": "48482_ruby_35176",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000293/files/48482_35430.html",
+    "inputBy": "蒋龍",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "普及版　原民喜全集第一巻",
+      "publisher": "芳賀書店",
+      "firstPublishedAt": "1966（昭和41）年2月15日",
+      "inputEdition": "1966（昭和41）年2月15日",
+      "proofreadEdition": "1966（昭和41）年2月15日"
+    },
+    "author": "原民喜",
+    "authors": [
+      {
+        "personId": "000293",
+        "name": "原民喜",
+        "kana": "はらたみき",
+        "roman": "Tamiki Hara",
+        "role": "著者",
+        "birthDate": "1905-11-15",
+        "deathDate": "1951-03-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

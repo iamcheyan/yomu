@@ -124,5 +124,46 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059420",
+    "title": "それからそれ",
+    "titleKana": "それからそれ",
+    "sortKana": "それからそれ",
+    "subtitle": "書斎山岳文断片",
+    "subtitleKana": "しょさいさんがくぶんだんぺん",
+    "firstAppearance": "「山　第一卷第七號」梓書房、1934（昭和9）年7月1日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2020-07-26",
+    "updatedAt": "2020-06-30",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001533/card59420.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001533/files/59420_ruby_71254.zip",
+    "textFileId": "59420_ruby_71254",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001533/files/59420_71303.html",
+    "inputBy": "富田晶子",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "紀行とエッセーで読む　作家の山旅",
+      "publisher": "ヤマケイ文庫、山と溪谷社",
+      "firstPublishedAt": "2017（平成29）年3月1日",
+      "inputEdition": "2017（平成29）年3月1日初版第1刷",
+      "proofreadEdition": "2017（平成29）年3月1日初版第1刷"
+    },
+    "author": "宇野浩二",
+    "authors": [
+      {
+        "personId": "001533",
+        "name": "宇野浩二",
+        "kana": "うのこうじ",
+        "roman": "Koji Uno",
+        "role": "著者",
+        "birthDate": "1891-07-26",
+        "deathDate": "1961-09-21",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

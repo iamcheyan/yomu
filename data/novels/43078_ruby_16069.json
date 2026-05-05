@@ -56,5 +56,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "043078",
+    "title": "塵埃と光",
+    "titleKana": "じんあいとひかり",
+    "sortKana": "しんあいとひかり",
+    "firstAppearance": "「科学知識」1922（大正11）年5月1日",
+    "ndc": "NDC 401",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-11-28",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000042/card43078.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000042/files/43078_ruby_16069.zip",
+    "textFileId": "43078_ruby_16069",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000042/files/43078_24592.html",
+    "inputBy": "Nana ohbe",
+    "proofreadBy": "松永正敏",
+    "baseBook1": {
+      "title": "寺田寅彦全集　第六巻",
+      "publisher": "岩波書店",
+      "firstPublishedAt": "1997（平成9）年5月6日",
+      "inputEdition": "1997（平成9）年5月6日",
+      "proofreadEdition": "1997（平成9）年5月6日"
+    },
+    "author": "寺田寅彦",
+    "authors": [
+      {
+        "personId": "000042",
+        "name": "寺田寅彦",
+        "kana": "てらだとらひこ",
+        "roman": "Torahiko Terada",
+        "role": "著者",
+        "birthDate": "1878-11-28",
+        "deathDate": "1935-12-31",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

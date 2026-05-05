@@ -178,5 +178,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "045545",
+    "title": "流転",
+    "titleKana": "るてん",
+    "sortKana": "るてん",
+    "firstAppearance": "「探偵趣味」1927（昭和2）年8月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2005-09-26",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001208/card45545.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001208/files/45545_ruby_19323.zip",
+    "textFileId": "45545_ruby_19323",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001208/files/45545_19348.html",
+    "inputBy": "網迫、土屋隆",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "「探偵趣味」傑作選　幻の探偵雑誌2",
+      "publisher": "光文社文庫、光文社",
+      "firstPublishedAt": "2000（平成12）年4月20日",
+      "inputEdition": "2000（平成12）年4月20日初版1刷",
+      "proofreadEdition": "2000（平成12）年4月20日初版1刷"
+    },
+    "author": "山下利三郎",
+    "authors": [
+      {
+        "personId": "001208",
+        "name": "山下利三郎",
+        "kana": "やましたりさぶろう",
+        "roman": "Risaburo Yamashita",
+        "role": "著者",
+        "birthDate": "1892",
+        "deathDate": "1952-03-29",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

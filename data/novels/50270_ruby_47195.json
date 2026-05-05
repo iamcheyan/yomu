@@ -60,5 +60,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "050270",
+    "title": "屍体と民俗",
+    "titleKana": "したいとみんぞく",
+    "sortKana": "したいとみんそく",
+    "firstAppearance": "「デカメロン　第一巻第五号」1931（昭和6）年",
+    "ndc": "NDC 385",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2012-05-25",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001420/card50270.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001420/files/50270_ruby_47195.zip",
+    "textFileId": "50270_ruby_47195",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001420/files/50270_47671.html",
+    "inputBy": "しだひろし",
+    "proofreadBy": "門田裕志",
+    "baseBook1": {
+      "title": "タブーに挑む民俗学　中山太郎土俗学エッセイ集成",
+      "publisher": "河出書房新社",
+      "firstPublishedAt": "2007（平成19）年3月30日",
+      "inputEdition": "2007（平成19）年3月30日初版",
+      "proofreadEdition": "2007（平成19）年3月30日初版"
+    },
+    "author": "中山太郎",
+    "authors": [
+      {
+        "personId": "001420",
+        "name": "中山太郎",
+        "kana": "なかやまたろう",
+        "roman": "Taro Nakayama",
+        "role": "著者",
+        "birthDate": "1876-11-13",
+        "deathDate": "1947-06-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

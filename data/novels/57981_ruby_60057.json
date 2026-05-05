@@ -36,5 +36,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057981",
+    "title": "学校の今昔",
+    "titleKana": "がっこうのこんじゃく",
+    "sortKana": "かつこうのこんしやく",
+    "firstAppearance": "「読売新聞　夕刊」読売新聞社、1937（昭和12）年7月31日",
+    "ndc": "NDC 914",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2016-11-03",
+    "updatedAt": "2016-09-09",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001581/card57981.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001581/files/57981_ruby_60057.zip",
+    "textFileId": "57981_ruby_60057",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001581/files/57981_60103.html",
+    "inputBy": "フクポー",
+    "proofreadBy": "山村信一郎",
+    "baseBook1": {
+      "title": "正宗白鳥全集第二十七卷",
+      "publisher": "福武書店",
+      "firstPublishedAt": "1985（昭和60）年6月29日",
+      "inputEdition": "1985（昭和60）年6月29日",
+      "proofreadEdition": "1985（昭和60）年6月29日"
+    },
+    "author": "正宗白鳥",
+    "authors": [
+      {
+        "personId": "001581",
+        "name": "正宗白鳥",
+        "kana": "まさむねはくちょう",
+        "roman": "Hakucho Masamune",
+        "role": "著者",
+        "birthDate": "1879-03-03",
+        "deathDate": "1962-10-28",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

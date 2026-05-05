@@ -42,5 +42,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001745",
+    "title": "土",
+    "titleKana": "つち",
+    "sortKana": "つち",
+    "ndc": "NDC 913",
+    "orthography": "旧字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2004-12-05",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000118/card1745.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000118/files/1745_ruby_16881.zip",
+    "textFileId": "1745_ruby_16881",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000118/files/1745_16941.html",
+    "inputBy": "町野修三",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "長塚節名作選　一",
+      "publisher": "春陽堂書店",
+      "firstPublishedAt": "1987（昭和62）年8月20日",
+      "inputEdition": "1987（昭和62）年8月20日第1刷",
+      "proofreadEdition": "1987（昭和62）年8月20日第1刷"
+    },
+    "author": "長塚節",
+    "authors": [
+      {
+        "personId": "000118",
+        "name": "長塚節",
+        "kana": "ながつかたかし",
+        "roman": "Takashi Nagatsuka",
+        "role": "著者",
+        "birthDate": "1879-04-03",
+        "deathDate": "1915-02-08",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

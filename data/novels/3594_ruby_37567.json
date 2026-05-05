@@ -1160,5 +1160,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "003594",
+    "title": "イデオロギーの論理学",
+    "titleKana": "イデオロギーのろんりがく",
+    "sortKana": "いておろきいのろんりかく",
+    "firstAppearance": "「性格」概念の理論的使命「新興科学の旗のもとに　一巻二号」1928（昭和3）年10月<br>「問題」に関する理論「哲学研究　一五七号」1929（昭和4）年2月<br>論理の政治的性格「思想　九〇号」1929（昭和4）年8月<br>科学の歴史的社会的制約「東洋学芸雑誌　四六巻一号」1929（昭和4）年12月<br>科学の大衆性「思想　九六号」1930（昭和5）年",
+    "ndc": "NDC 121",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2010-05-03",
+    "updatedAt": "2016-10-07",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000281/card3594.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000281/files/3594_ruby_37567.zip",
+    "textFileId": "3594_ruby_37567",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000281/files/3594_38772.html",
+    "inputBy": "矢野正人",
+    "proofreadBy": "トレンドイースト",
+    "baseBook1": {
+      "title": "戸坂潤全集　第二巻",
+      "publisher": "勁草書房",
+      "firstPublishedAt": "1966（昭和41）年2月15日",
+      "inputEdition": "1970（昭和45）年9月10日第7刷",
+      "proofreadEdition": "1975（昭和50）年12月20日第11刷"
+    },
+    "author": "戸坂潤",
+    "authors": [
+      {
+        "personId": "000281",
+        "name": "戸坂潤",
+        "kana": "とさかじゅん",
+        "roman": "Jun Tosaka",
+        "role": "著者",
+        "birthDate": "1900-09-27",
+        "deathDate": "1945-08-09",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

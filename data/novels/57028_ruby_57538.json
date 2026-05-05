@@ -84,5 +84,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "057028",
+    "title": "北岳と朝日岳",
+    "titleKana": "きただけとあさひだけ",
+    "sortKana": "きたたけとあさひたけ",
+    "firstAppearance": "「改造」1929（昭和4）年6月",
+    "ndc": "NDC 291 786",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-12-13",
+    "updatedAt": "2015-09-01",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001373/card57028.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001373/files/57028_ruby_57538.zip",
+    "textFileId": "57028_ruby_57538",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001373/files/57028_57584.html",
+    "inputBy": "栗原晶子",
+    "proofreadBy": "雪森",
+    "baseBook1": {
+      "title": "山の憶い出　下",
+      "publisher": "平凡社ライブラリー、平凡社",
+      "firstPublishedAt": "1999（平成11）年7月15日",
+      "inputEdition": "1999（平成11）年7月15日初版第1刷",
+      "proofreadEdition": "1999（平成11）年7月15日初版第1刷"
+    },
+    "author": "木暮理太郎",
+    "authors": [
+      {
+        "personId": "001373",
+        "name": "木暮理太郎",
+        "kana": "こぐれりたろう",
+        "roman": "Ritaro Kogure",
+        "role": "著者",
+        "birthDate": "1873",
+        "deathDate": "1944-05-07",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

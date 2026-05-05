@@ -52,5 +52,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "059871",
+    "title": "腹のへった話",
+    "titleKana": "はらのへったはなし",
+    "sortKana": "はらのへつたはなし",
+    "firstAppearance": "「あまカラ　4月号　第六十八号」甘辛社、1957（昭和32）年4月5日",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2019-07-19",
+    "updatedAt": "2019-06-28",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001798/card59871.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001798/files/59871_ruby_68446.zip",
+    "textFileId": "59871_ruby_68446",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001798/files/59871_68495.html",
+    "inputBy": "砂場清隆",
+    "proofreadBy": "芝裕久",
+    "baseBook1": {
+      "title": "「あまカラ」抄1",
+      "publisher": "冨山房百科文庫、冨山房",
+      "firstPublishedAt": "1995（平成7）年11月13日",
+      "inputEdition": "1995（平成7）年11月13日第1刷",
+      "proofreadEdition": "1995（平成7）年11月13日第1刷"
+    },
+    "author": "梅崎春生",
+    "authors": [
+      {
+        "personId": "001798",
+        "name": "梅崎春生",
+        "kana": "うめざきはるお",
+        "roman": "Haruo Umezaki",
+        "role": "著者",
+        "birthDate": "1915-02-15",
+        "deathDate": "1965-07-19",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

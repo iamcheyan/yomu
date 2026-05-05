@@ -58,5 +58,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001470",
+    "title": "私の父",
+    "titleKana": "わたしのちち",
+    "sortKana": "わたしのちち",
+    "ndc": "NDC 914",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2000-11-15",
+    "updatedAt": "2014-09-17",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000164/card1470.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000164/files/1470_ruby_18921.zip",
+    "textFileId": "1470_ruby_18921",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000164/files/1470_18922.html",
+    "inputBy": "もりみつじゅんじ",
+    "proofreadBy": "今井忠夫",
+    "baseBook1": {
+      "title": "日本の名随筆49　父",
+      "publisher": "作品社",
+      "firstPublishedAt": "1986（昭和61）年11月25日",
+      "inputEdition": "1988（昭和63）年1月20日第4刷",
+      "proofreadEdition": "1989（平成元）年10月31日第7刷"
+    },
+    "author": "堺利彦",
+    "authors": [
+      {
+        "personId": "000164",
+        "name": "堺利彦",
+        "kana": "さかいとしひこ",
+        "roman": "Toshihiko Sakai",
+        "role": "著者",
+        "birthDate": "1871-01-15",
+        "deathDate": "1933-01-23",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

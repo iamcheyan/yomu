@@ -70,5 +70,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "054342",
+    "title": "はめつ",
+    "titleKana": "はめつ",
+    "sortKana": "はめつ",
+    "firstAppearance": "「沖縄毎日新聞」1909（明治42）年6月15日",
+    "ndc": "NDC 911",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-11-29",
+    "updatedAt": "2018-10-24",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001658/card54342.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001658/files/54342_ruby_66301.zip",
+    "textFileId": "54342_ruby_66301",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001658/files/54342_66348.html",
+    "inputBy": "坂本真一",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "沖縄文学全集　第1巻　詩Ⅰ",
+      "publisher": "国書刊行会",
+      "firstPublishedAt": "1991（平成3）年6月6日",
+      "inputEdition": "1991（平成3）年6月6日第1刷",
+      "proofreadEdition": "1991（平成3）年6月6日第1刷"
+    },
+    "author": "渡久山水鳴",
+    "authors": [
+      {
+        "personId": "001658",
+        "name": "渡久山水鳴",
+        "kana": "とくやますいめい",
+        "roman": "Suimei Tokuyama",
+        "role": "著者",
+        "birthDate": "1884",
+        "deathDate": "1911",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -824,5 +824,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "042977",
+    "title": "狼園",
+    "titleKana": "ろうえん",
+    "sortKana": "ろうえん",
+    "firstAppearance": "「文学界　第三巻第一号～第三巻第三号」1936（昭和11）年1月1日～3月1日",
+    "ndc": "NDC 913",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-01-02",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001095/card42977.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001095/files/42977_ruby_21009.zip",
+    "textFileId": "42977_ruby_21009",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001095/files/42977_21010.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "今井忠夫",
+    "baseBook1": {
+      "title": "坂口安吾全集　02",
+      "publisher": "筑摩書房",
+      "firstPublishedAt": "1999（平成11）年4月20日",
+      "inputEdition": "1999（平成11）年4月20日初版第1刷",
+      "proofreadEdition": "1999（平成11）年4月20日初版第1刷"
+    },
+    "author": "坂口安吾",
+    "authors": [
+      {
+        "personId": "001095",
+        "name": "坂口安吾",
+        "kana": "さかぐちあんご",
+        "roman": "Ango Sakaguchi",
+        "role": "著者",
+        "birthDate": "1906-10-20",
+        "deathDate": "1955-02-17",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

@@ -250,5 +250,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "055720",
+    "title": "新古細句銀座通",
+    "titleKana": "しんこざいくれんがのみちすじ",
+    "sortKana": "しんこさいくれんかのみちすし",
+    "firstAppearance": "「東京日日新聞」1927（昭和2）年5月24日～6月10日",
+    "ndc": "NDC 915",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-09-28",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000251/card55720.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000251/files/55720_ruby_51173.zip",
+    "textFileId": "55720_ruby_51173",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000251/files/55720_51174.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "仙酔ゑびす",
+    "baseBook1": {
+      "title": "大東京繁昌記",
+      "publisher": "毎日新聞社",
+      "firstPublishedAt": "1999（平成11）年5月15日",
+      "inputEdition": "1999（平成11）年5月15日",
+      "proofreadEdition": "1999（平成11）年5月15日"
+    },
+    "author": "岸田劉生",
+    "authors": [
+      {
+        "personId": "000251",
+        "name": "岸田劉生",
+        "kana": "きしだりゅうせい",
+        "roman": "Ryusei Kishida",
+        "role": "著者",
+        "birthDate": "1891-06-23",
+        "deathDate": "1929-12-20",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

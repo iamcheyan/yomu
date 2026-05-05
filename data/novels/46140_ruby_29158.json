@@ -620,5 +620,45 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "046140",
+    "title": "顎十郎捕物帳",
+    "titleKana": "あごじゅうろうとりものちょう",
+    "sortKana": "あこしゆうろうとりものちよう",
+    "subtitle": "24 蠑螈",
+    "subtitleKana": "24 いもり",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2008-01-19",
+    "updatedAt": "2014-09-21",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001224/card46140.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001224/files/46140_ruby_29158.zip",
+    "textFileId": "46140_ruby_29158",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001224/files/46140_29178.html",
+    "inputBy": "tatsuki",
+    "proofreadBy": "小林繁雄、門田裕志",
+    "baseBook1": {
+      "title": "久生十蘭全集　Ⅳ",
+      "publisher": "三一書房",
+      "firstPublishedAt": "1970（昭和45）年3月31日",
+      "inputEdition": "1970（昭和45）年3月31日初版",
+      "proofreadEdition": "1970（昭和45）年3月31日初版"
+    },
+    "author": "久生十蘭",
+    "authors": [
+      {
+        "personId": "001224",
+        "name": "久生十蘭",
+        "kana": "ひさおじゅうらん",
+        "roman": "Juran Hisao",
+        "role": "著者",
+        "birthDate": "1902-04-06",
+        "deathDate": "1957-10-06",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

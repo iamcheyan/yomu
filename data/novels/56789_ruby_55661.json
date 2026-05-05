@@ -146,5 +146,43 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "056789",
+    "title": "万葉集の恋歌に就て",
+    "titleKana": "まんようしゅうのこいうたについて",
+    "sortKana": "まんようしゆうのこいうたについて",
+    "ndc": "NDC 911 914",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2015-02-13",
+    "updatedAt": "2015-01-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/001749/card56789.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/001749/files/56789_ruby_55661.zip",
+    "textFileId": "56789_ruby_55661",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/001749/files/56789_55662.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "noriko saito",
+    "baseBook1": {
+      "title": "日本の名随筆63　万葉（三）",
+      "publisher": "作品社",
+      "firstPublishedAt": "1988（昭和63）年1月25日",
+      "inputEdition": "1988（昭和63）年1月25日第1刷",
+      "proofreadEdition": "1997（平成9）年5月20日第8刷"
+    },
+    "author": "三好達治",
+    "authors": [
+      {
+        "personId": "001749",
+        "name": "三好達治",
+        "kana": "みよしたつじ",
+        "roman": "Tatsuji Miyoshi",
+        "role": "著者",
+        "birthDate": "1900-08-23",
+        "deathDate": "1964-04-05",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

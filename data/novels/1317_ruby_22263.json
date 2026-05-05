@@ -3456,5 +3456,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "001317",
+    "title": "黒死館殺人事件",
+    "titleKana": "こくしかんさつじんじけん",
+    "sortKana": "こくしかんさつしんしけん",
+    "firstAppearance": "「新青年」博文館、1934（昭和9）年4月号～12月号",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2006-05-31",
+    "updatedAt": "2014-09-18",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000125/card1317.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000125/files/1317_ruby_22263.zip",
+    "textFileId": "1317_ruby_22263",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000125/files/1317_23268.html",
+    "inputBy": "ロクス・ソルス",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "小栗虫太郎傑作選１　黒死館殺人事件",
+      "publisher": "現代教養文庫、社会思想社",
+      "firstPublishedAt": "1977（昭和52）年4月25日",
+      "inputEdition": "1977（昭和52）年4月25日初版第1刷",
+      "proofreadEdition": "1984（昭和59）年6月15日初版第6刷"
+    },
+    "author": "小栗虫太郎",
+    "authors": [
+      {
+        "personId": "000125",
+        "name": "小栗虫太郎",
+        "kana": "おぐりむしたろう",
+        "roman": "Mushitaro Oguri",
+        "role": "著者",
+        "birthDate": "1901-03-14",
+        "deathDate": "1946-02-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

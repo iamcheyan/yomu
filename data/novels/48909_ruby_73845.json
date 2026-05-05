@@ -48,5 +48,54 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "048909",
+    "title": "存在",
+    "titleKana": "そんざい",
+    "sortKana": "そんさい",
+    "firstAppearance": "「不同調　第二巻第四号」1926（大正15）年4月1日",
+    "ndc": "NDC 910",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2021-08-21",
+    "updatedAt": "2021-07-27",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000214/card48909.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000214/files/48909_ruby_73845.zip",
+    "textFileId": "48909_ruby_73845",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000214/files/48909_73881.html",
+    "inputBy": "特定非営利活動法人はるかぜ",
+    "proofreadBy": "津村田悟",
+    "baseBook1": {
+      "title": "定本　花袋全集　第二十三巻",
+      "publisher": "臨川書店",
+      "firstPublishedAt": "1995（平成7）年3月10日",
+      "inputEdition": "1995（平成7）年3月10日",
+      "proofreadEdition": "1995（平成7）年3月10日"
+    },
+    "author": "田山花袋、田山録弥",
+    "authors": [
+      {
+        "personId": "000214",
+        "name": "田山花袋",
+        "kana": "たやまかたい",
+        "roman": "Katai Tayama",
+        "role": "著者",
+        "birthDate": "1872-01-22",
+        "deathDate": "1930-05-13",
+        "copyright": "なし"
+      },
+      {
+        "personId": "001416",
+        "name": "田山録弥",
+        "kana": "たやまろくや",
+        "roman": "Rokuya Tayama",
+        "role": "著者",
+        "birthDate": "1872-01-22",
+        "deathDate": "1930-05-13",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

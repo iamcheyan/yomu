@@ -72,5 +72,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "047685",
+    "title": "神楽（その一）",
+    "titleKana": "かぐら（そのいち）",
+    "sortKana": "かくらそのいち",
+    "firstAppearance": "「神楽研究」壬生書院、1934（昭和9）年5月",
+    "ndc": "NDC 768",
+    "orthography": "新字旧仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2018-05-04",
+    "updatedAt": "2018-04-26",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000933/card47685.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000933/files/47685_ruby_64547.zip",
+    "textFileId": "47685_ruby_64547",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000933/files/47685_64599.html",
+    "inputBy": "門田裕志",
+    "proofreadBy": "フクポー",
+    "baseBook1": {
+      "title": "折口信夫全集　21",
+      "publisher": "中央公論社",
+      "firstPublishedAt": "1996（平成8）年11月10日",
+      "inputEdition": "1996（平成8）年11月10日初版",
+      "proofreadEdition": "1996（平成8）年11月10日初版"
+    },
+    "author": "折口信夫",
+    "authors": [
+      {
+        "personId": "000933",
+        "name": "折口信夫",
+        "kana": "おりくちしのぶ",
+        "roman": "Shinobu Orikuchi",
+        "role": "著者",
+        "birthDate": "1887-02-11",
+        "deathDate": "1953-09-03",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }

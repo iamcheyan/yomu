@@ -724,5 +724,44 @@
     [],
     []
   ],
-  "desc": ""
+  "desc": "",
+  "aozora_info": {
+    "workId": "053808",
+    "title": "わが町",
+    "titleKana": "わがまち",
+    "sortKana": "わかまち",
+    "firstAppearance": "「文藝　第十巻年十一号」改造社、1942（昭和17）年11月",
+    "ndc": "NDC 913",
+    "orthography": "新字新仮名",
+    "workCopyright": "なし",
+    "publishedAt": "2013-07-19",
+    "updatedAt": "2014-09-16",
+    "cardUrl": "https://www.aozora.gr.jp/cards/000040/card53808.html",
+    "textUrl": "https://www.aozora.gr.jp/cards/000040/files/53808_ruby_50551.zip",
+    "textFileId": "53808_ruby_50551",
+    "htmlUrl": "https://www.aozora.gr.jp/cards/000040/files/53808_50752.html",
+    "inputBy": "kompass",
+    "proofreadBy": "小林繁雄",
+    "baseBook1": {
+      "title": "俗臭　織田作之助［初出］作品集",
+      "publisher": "インパクト出版会",
+      "firstPublishedAt": "2011(平成23)年5月20日",
+      "inputEdition": "2011(平成23)年5月20日第1刷",
+      "proofreadEdition": "2011(平成23)年5月20日第1刷"
+    },
+    "author": "織田作之助",
+    "authors": [
+      {
+        "personId": "000040",
+        "name": "織田作之助",
+        "kana": "おださくのすけ",
+        "roman": "Sakunosuke Oda",
+        "role": "著者",
+        "birthDate": "1913-10-26",
+        "deathDate": "1947-01-10",
+        "copyright": "なし"
+      }
+    ],
+    "source": "aozora_list_person_all_extended_utf8"
+  }
 }
