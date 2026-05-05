@@ -6,8 +6,8 @@
     --line-height: 2.2;
     --primary-color: #000;
     --primary-dark: #333;
-    --highlight-bg: #fff9c4;
-    --highlight-border: #f9a825;
+    --highlight-bg: #eee;
+    --highlight-border: #999;
     --vocab-bg: #f5f5f5;
     --vocab-border: #999;
 }
@@ -16,6 +16,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent !important;
 }
 
 body {
@@ -320,6 +321,44 @@ body.show-furigana rt {
     font-size: 0.75em;
     color: #999;
     vertical-align: super;
+}
+
+/* 翻译图标 */
+.trans-icon {
+    display: inline-block;
+    font-size: 0.6em;
+    color: #999;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 0 4px;
+    margin-left: 6px;
+    vertical-align: middle;
+    font-family: "Hiragino Sans", sans-serif;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+.trans-icon.disabled {
+    color: #ddd;
+    border-color: #eee;
+    cursor: default;
+}
+
+/* 翻译行 */
+.translation-line {
+    font-size: 0.85em;
+    color: #666;
+    line-height: 1.8;
+    margin: -0.5em 0 1em 2em;
+    padding: 8px 0;
+    border-left: 2px solid #ddd;
+    padding-left: 12px;
+    font-family: "Hiragino Sans", "Yu Gothic", "Microsoft YaHei", sans-serif;
+}
+
+.translation-line.hidden {
+    display: none;
 }
 
 /* 可点击的单词 */
@@ -763,10 +802,6 @@ input:checked+.slider-round:before {
     cursor: pointer;
 }
 
-.vocab-item button:active {
-    background: #eee;
-}
-
 .vocab-empty {
     text-align: center;
     padding: 60px 20px;
@@ -904,10 +939,6 @@ input:checked+.slider-round:before {
     border: none;
     font-weight: bold;
     cursor: pointer;
-}
-
-.header-actions button:active {
-    background: #333;
 }
 
 .hidden {
