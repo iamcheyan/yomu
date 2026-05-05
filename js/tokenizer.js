@@ -132,18 +132,66 @@ const YomuTokenizer = {
 
     /**
      * Render a paragraph with ruby annotations and clickable tokens
-     * @param {string} text - raw text paragraph
+     * @param {string} text - raw text paragraph (may contain Aozora 《》｜ ruby)
      * @returns {string} HTML with ruby tags and word-token spans
      */
     renderParagraph(text) {
-        if (!this._ready || !text) return `<p>${text}</p>`;
+        if (!text) return `<p>${text}</p>`;
 
+        // If text has Aozora ruby markers, use them (more accurate than kuromoji)
+        if (text.includes('《')) {
+            return this._renderAozoraParagraph(text);
+        }
+
+        // Otherwise fall back to kuromoji auto-ruby
+        if (!this._ready) return `<p>${this._escapeHtml(text)}</p>`;
+        return this._renderKuromojiParagraph(text);
+    },
+
+    /**
+     * Parse Aozora Bunko ruby format: 漢字《かな》 and ｜漢字《かな》
+     */
+    _renderAozoraParagraph(text) {
+        let html = '<p>';
+        // Process ｜ marker first (explicit ruby start), then 《》 pairs
+        // Pattern: optional ｜, then kanji/text, then 《reading》
+        const regex = /｜?([^\｜《》]+?)《([^》]+)》/g;
+        let lastIndex = 0;
+        let match;
+
+        while ((match = regex.exec(text)) !== null) {
+            // Text before this ruby
+            const before = text.slice(lastIndex, match.index);
+            if (before) html += this._escapeHtml(before);
+
+            const kanji = match[1];
+            const reading = match[2];
+            // Convert katakana reading to hiragana for display
+            const hiragana = reading.replace(/[ァ-ヶ]/g, ch =>
+                String.fromCharCode(ch.charCodeAt(0) - 0x60)
+            );
+
+            html += `<ruby class="word-token has-furigana" data-surface="${this._escapeAttr(kanji)}" data-reading="${this._escapeAttr(hiragana)}">${this._escapeHtml(kanji)}<rp>(</rp><rt>${this._escapeHtml(hiragana)}</rt><rp>)</rp></ruby>`;
+            lastIndex = match.index + match[0].length;
+        }
+
+        // Remaining text after last ruby
+        const after = text.slice(lastIndex);
+        if (after) html += this._escapeHtml(after);
+
+        html += '</p>';
+        return html;
+    },
+
+    /**
+     * Render using kuromoji auto-tokenization (fallback)
+     */
+    _renderKuromojiParagraph(text) {
         const tokens = this.tokenize(text);
         let html = '<p>';
 
         for (const token of tokens) {
             const surface = token.surface_form;
-            // Skip whitespace/newlines
             if (/^\s+$/.test(surface)) {
                 html += surface;
                 continue;
@@ -155,7 +203,6 @@ const YomuTokenizer = {
             const pos = token.pos;
             const posDetail = token.pos_detail_1;
 
-            // Build data attributes for lookup
             const dataAttrs = `data-surface="${this._escapeAttr(surface)}" data-lemma="${this._escapeAttr(lemma)}" data-reading="${this._escapeAttr(reading)}" data-pos="${this._escapeAttr(pos)}" data-pos-detail="${this._escapeAttr(posDetail)}"`;
 
             if (needsRuby) {

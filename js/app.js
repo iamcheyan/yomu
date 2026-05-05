@@ -5,6 +5,8 @@ const Yomu = {
     reader: YomuReader,
     _settingsOpen: false,
     _vocabViewOpen: false,
+    _storeOpen: false,
+    _storeBooks: [],
 
     async init() {
         const loading = document.getElementById('loading-overlay');
@@ -38,7 +40,20 @@ const Yomu = {
     },
 
     _renderBookList() {
-        const books = YomuReader.getBooks();
+        const bundledBooks = YomuReader.getBooks();
+        const downloadedBooks = YomuStorage.getDownloadedBooks();
+        
+        // Merge and deduplicate by ID (downloaded takes precedence)
+        const booksMap = new Map();
+        bundledBooks.forEach(b => booksMap.set(b.id, b));
+        downloadedBooks.forEach(b => booksMap.set(b.id, b));
+        
+        const books = Array.from(booksMap.values());
+        
+        // Update counter
+        const counter = document.getElementById('library-count');
+        if (counter) counter.textContent = books.length;
+        
         const grid = document.getElementById('book-grid');
         let html = '';
 
@@ -49,14 +64,19 @@ const Yomu = {
             html += `
                 <div class="book-card" onclick="Yomu.openBook('${book.id}')">
                     <div class="book-info">
-                        <div class="book-title">${this._escapeHtml(book.title)}</div>
+                        <div class="book-title">
+                            ${this._escapeHtml(book.title)}
+                        </div>
                         <div class="book-author">${this._escapeHtml(book.author)}</div>
                         <div class="book-desc">${this._escapeHtml(book.desc || '')}</div>
-                        ${progress.lastRead ? `<div class="book-progress">読了 ${percent}%</div>` : ''}
-                        ${progress.lastRead ? `<div class="progress-bar-container"><div class="progress-bar-fill" style="width:${percent}%"></div></div>` : ''}
                     </div>
+                    
                     <div class="book-meta">
-                        ${book.year || ''}
+                        <div class="book-progress-info">
+                            ${progress.lastRead ? `<span class="book-progress">読了 ${percent}%</span>` : ''}
+                            ${progress.lastRead ? `<div class="progress-bar-container"><div class="progress-bar-fill" style="width:${percent}%"></div></div>` : ''}
+                        </div>
+                        <div class="file-id">${book.id}.json</div>
                     </div>
                 </div>
             `;
@@ -73,11 +93,105 @@ const Yomu = {
         // Save current scroll position before leaving
         document.getElementById('reader-view').classList.remove('active');
         document.getElementById('vocab-view').classList.add('hidden');
+        document.getElementById('store-view').classList.add('hidden');
         document.getElementById('book-list-view').classList.remove('hidden');
         document.getElementById('bottom-bar').style.display = 'none';
         this._vocabViewOpen = false;
+        this._storeOpen = false;
         this._renderBookList();
         window.scrollTo(0, 0);
+    },
+
+    // ===== Store (Online Library) =====
+    async showStore() {
+        document.getElementById('book-list-view').classList.add('hidden');
+        document.getElementById('store-view').classList.remove('hidden');
+        this._storeOpen = true;
+
+        if (this._storeBooks.length === 0) {
+            try {
+                const resp = await fetch('data/aozora_catalog.json');
+                this._storeBooks = await resp.json();
+            } catch (e) {
+                console.error('Failed to load store catalog:', e);
+            }
+        }
+
+        this._renderStore();
+    },
+
+    _renderStore(filter = '') {
+        const grid = document.getElementById('store-grid');
+        const downloaded = YomuStorage.getDownloadedBooks();
+        const query = filter.toLowerCase();
+
+        const filtered = this._storeBooks.filter(b => 
+            b.title.toLowerCase().includes(query) || 
+            b.author.toLowerCase().includes(query)
+        );
+
+        let html = '';
+        for (const book of filtered) {
+            const isDownloaded = downloaded.some(d => d.id === book.id);
+            html += `
+                <div class="book-card ${isDownloaded ? 'downloaded' : ''}" id="store-book-${book.id}" onclick="Yomu.downloadBook('${book.id}')">
+                    <div class="book-info">
+                        <div class="book-title">${this._escapeHtml(book.title)}</div>
+                        <div class="book-author">${this._escapeHtml(book.author)}</div>
+                        <div class="book-desc">${this._escapeHtml(book.desc || '')}</div>
+                    </div>
+                    <div class="book-meta">
+                        ${isDownloaded ? '取得済み' : 'ダウンロード'}
+                    </div>
+                </div>
+            `;
+        }
+        grid.innerHTML = html || '<div style="padding: 20px; color: #999;">作品が見つかりませんでした。</div>';
+    },
+
+    filterStore(query) {
+        this._renderStore(query);
+    },
+
+    async downloadBook(bookId) {
+        const book = this._storeBooks.find(b => b.id === bookId);
+        if (!book) return;
+
+        // Check if already downloaded
+        if (YomuStorage.getDownloadedBooks().some(d => d.id === bookId)) {
+            // Already have it, just open it
+            this.openBook(bookId);
+            return;
+        }
+
+        const el = document.getElementById(`store-book-${bookId}`);
+        el.classList.add('downloading');
+
+        try {
+            const processed = await YomuAozora.downloadBook(book);
+            await YomuStorage.saveBookContent(bookId, processed);
+            
+            // Add to downloaded list
+            YomuStorage.addDownloadedBook({
+                id: book.id,
+                title: book.title,
+                author: book.author,
+                desc: book.desc,
+                year: book.year
+            });
+
+            el.classList.remove('downloading');
+            el.classList.add('downloaded');
+            
+            // Re-render store to show checkmark
+            this._renderStore(document.getElementById('store-search-input').value);
+            
+            alert(`「${book.title}」をダウンロードしました。`);
+        } catch (e) {
+            el.classList.remove('downloading');
+            console.error('Download failed:', e);
+            alert('ダウンロードに失敗しました。ネットワーク接続を確認してください。');
+        }
     },
 
     // Furigana toggle
@@ -129,11 +243,12 @@ const Yomu = {
         const overlay = document.getElementById('settings-overlay');
 
         if (this._settingsOpen) {
-            panel.classList.add('hidden');
+            panel.classList.remove('open');
             overlay.classList.add('hidden');
             this._settingsOpen = false;
         } else {
             panel.classList.remove('hidden');
+            panel.classList.add('open');
             overlay.classList.remove('hidden');
             this._settingsOpen = true;
         }

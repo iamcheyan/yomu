@@ -29,9 +29,18 @@ const YomuReader = {
 
         // Load book data
         try {
-            const resp = await fetch(`data/novels/${bookId}.json`);
-            if (!resp.ok) throw new Error('Book not found');
-            const data = await resp.json();
+            let data = await YomuStorage.getBookContent(bookId);
+            
+            if (!data) {
+                // Fallback to static files
+                const resp = await fetch(`data/novels/${bookId}.json`);
+                if (resp.ok) {
+                    data = await resp.json();
+                }
+            }
+
+            if (!data) throw new Error('Book not found');
+            
             this._renderBook(data);
         } catch (e) {
             console.error('Failed to load book:', e);
