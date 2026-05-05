@@ -53,22 +53,9 @@ const Yomu = {
             // Hide loading
             loading.classList.add('hidden');
             
-            // Initial Routing (Prioritize URL Hash)
+            // Initial routing: URL hashes are explicit routes; the bare root opens the library.
             if (!this._handleHashRouting()) {
-                // Fallback to last session state if no hash
-                const lastState = YomuStorage.getAppState();
-                const view = lastState.lastView || 'library';
-                const bookId = lastState.lastBookId;
-
-                if (view === 'reader' && bookId) {
-                    await this.openBook(bookId, false);
-                } else if (view === 'vocab') {
-                    this.showVocab(false);
-                } else if (view === 'store') {
-                    this.showStore(false);
-                } else {
-                    this.showBookList(false);
-                }
+                this.showBookList(false);
             }
         } catch (e) {
             console.error('Init failed:', e);

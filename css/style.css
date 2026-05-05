@@ -368,6 +368,12 @@ body.font-gothic {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 4px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.reader-header h1:active {
+    opacity: 0.6;
 }
 
 .reader-header .author {
@@ -1407,7 +1413,7 @@ input:checked+.slider-round:before {
     width: 100%;
     max-width: 800px;
     background: #fff;
-    border-top: 1px solid #eee;
+    /* border-top: 1px solid #eee; */
     padding: 8px 0;
     display: flex;
     justify-content: space-between;
@@ -1432,6 +1438,12 @@ body.reader-active .reader-status-bar {
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 70%;
+    cursor: pointer;
+}
+
+.status-left:active {
+    color: #000;
+    text-decoration: underline;
 }
 
 .status-right {

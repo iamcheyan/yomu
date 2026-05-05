@@ -261,7 +261,12 @@ const YomuReader = {
         // 清理青空文库的排版指令 ［＃...］
         html = html.replace(/［＃[^］]*］/g, '');
 
-        return `<p class="novel-para" id="p-${index}">${html}</p>`;
+        let transIcon = '';
+        if (this._currentBookData.translations && this._currentBookData.translations[index] && this._currentBookData.translations[index].length > 0) {
+            transIcon = `<span class="trans-icon" onclick="Yomu.reader.toggleTranslation(${index})">意</span>`;
+        }
+
+        return `<p class="novel-para" id="p-${index}">${html}${transIcon}</p>`;
     },
 
     reRender() {
@@ -305,16 +310,22 @@ const YomuReader = {
             const paragraphs = document.querySelectorAll('#novel-content [id^="p-"]');
             let currentParaIndex = lastKnownParaIndex;
             
-            for (const p of paragraphs) {
+            for (let i = paragraphs.length - 1; i >= 0; i--) {
+                const p = paragraphs[i];
                 const rect = p.getBoundingClientRect();
-                // If the top of the paragraph is below the top 20% of the screen, or the bottom is visible
-                if (rect.bottom > 0) {
+                if (rect.top < window.innerHeight) {
                     const idNum = parseInt(p.id.split('-')[1]);
                     if (!isNaN(idNum)) {
                         currentParaIndex = idNum;
                     }
                     break;
                 }
+            }
+
+            // If we've reached the very bottom, force 100% if all content is rendered
+            const isAtBottom = (window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 60);
+            if (isAtBottom && this._renderedCount >= this._paragraphs.length) {
+                currentParaIndex = this._paragraphs.length;
             }
             
             lastKnownParaIndex = currentParaIndex;
@@ -415,5 +426,40 @@ const YomuReader = {
                   .replace(/'/g, '&#39;')
                   .replace(/</g, '&lt;')
                   .replace(/>/g, '&gt;');
-    }
+    },
+    /**
+     * Toggle translation visibility for a paragraph
+     */
+    toggleTranslation(index) {
+        const p = document.getElementById(`p-${index}`);
+        if (!p) return;
+
+        let transLine = p.nextElementSibling;
+        if (transLine && transLine.classList.contains('translation-line')) {
+            transLine.remove();
+            return;
+        }
+
+        // Render translation
+        const translations = this._currentBookData.translations[index];
+        if (!translations) return;
+
+        transLine = document.createElement('div');
+        transLine.className = 'translation-line';
+        
+        let transHtml = '';
+        translations.forEach(t => {
+            transHtml += `
+                <div class="trans-item">
+                    <div class="trans-meta">
+                        <span class="trans-model">${t.model_name || t.model}</span>
+                    </div>
+                    <div class="trans-text">${t.text}</div>
+                </div>
+            `;
+        });
+        
+        transLine.innerHTML = transHtml;
+        p.after(transLine);
+    },
 };
