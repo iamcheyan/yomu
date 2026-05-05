@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="100" fill="#ffffff" />
+  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="'Hiragino Mincho ProN', 'Yu Mincho', serif" font-size="320" fill="#000000">よ</text>
+  <rect width="508" height="508" x="2" y="2" rx="98" fill="none" stroke="#000000" stroke-width="4" />
+</svg>

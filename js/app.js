@@ -7,8 +7,16 @@ const Yomu = {
     _vocabViewOpen: false,
     _storeOpen: false,
     _storeBooks: [],
+    _isReaderOpen: false,
 
     async init() {
+        document.addEventListener('keydown', (e) => this._handleGlobalKey(e));
+        document.addEventListener('volumekey', (e) => {
+            if (e.detail && e.detail.direction) {
+                this._scrollReader(e.detail.direction === 'down' ? 1 : -1);
+            }
+        });
+
         const loading = document.getElementById('loading-overlay');
         const msg = document.getElementById('loading-msg');
 
@@ -31,12 +39,44 @@ const Yomu = {
             // Render book list
             this._renderBookList();
 
+            // Setup history handling
+            window.addEventListener('popstate', (e) => this._handlePopState(e));
+            
+            // Initial state
+            if (!history.state) {
+                history.replaceState({ view: 'library' }, '');
+            }
+
             // Hide loading
             loading.classList.add('hidden');
+            
+            // Initial view state
+            this.showBookList(false); // false means don't push state
         } catch (e) {
             console.error('Init failed:', e);
             msg.textContent = '初期化に失敗しました。ページを再読み込みしてください。';
         }
+    },
+
+    _handleGlobalKey(e) {
+        if (!this._isReaderOpen) return;
+
+        const key = e.key || e.code || '';
+        if (key === 'AudioVolumeDown' || key === 'VolumeDown' || key === 'PageDown' || key === ' ') {
+            e.preventDefault();
+            this._scrollReader(1);
+        } else if (key === 'AudioVolumeUp' || key === 'VolumeUp' || key === 'PageUp') {
+            e.preventDefault();
+            this._scrollReader(-1);
+        }
+    },
+
+    _scrollReader(direction) {
+        const amount = window.innerHeight * 0.85; // Leave 15% overlap for reading continuity
+        window.scrollBy({
+            top: direction * amount,
+            behavior: 'auto' // E-ink friendly: instant jump
+        });
     },
 
     _renderBookList() {
@@ -85,28 +125,49 @@ const Yomu = {
         grid.innerHTML = html;
     },
 
-    async openBook(bookId) {
+    async openBook(bookId, pushState = true) {
         await YomuReader.openBook(bookId);
+        this._isReaderOpen = true;
+        document.body.classList.add('reader-active');
+        document.getElementById('bottom-bar').classList.remove('hidden');
+        if (pushState) {
+            history.pushState({ view: 'reader', bookId: bookId }, '');
+        }
     },
 
-    showBookList() {
+    showBookList(pushState = true) {
         // Save current scroll position before leaving
         document.getElementById('reader-view').classList.remove('active');
+        document.body.classList.remove('reader-active');
+        
         document.getElementById('vocab-view').classList.add('hidden');
         document.getElementById('store-view').classList.add('hidden');
         document.getElementById('book-list-view').classList.remove('hidden');
-        document.getElementById('bottom-bar').style.display = 'none';
+        
+        // Show bottom bar but handle its internal visibility via CSS
+        document.getElementById('bottom-bar').classList.remove('hidden');
+        
         this._vocabViewOpen = false;
         this._storeOpen = false;
+        this._isReaderOpen = false;
+        
+        if (pushState) {
+            history.pushState({ view: 'library' }, '');
+        }
+        
         this._renderBookList();
         window.scrollTo(0, 0);
     },
 
     // ===== Store (Online Library) =====
-    async showStore() {
+    async showStore(pushState = true) {
         document.getElementById('book-list-view').classList.add('hidden');
         document.getElementById('store-view').classList.remove('hidden');
         this._storeOpen = true;
+        
+        if (pushState) {
+            history.pushState({ view: 'store' }, '');
+        }
 
         if (this._storeBooks.length === 0) {
             try {
@@ -228,6 +289,16 @@ const Yomu = {
         if (display) display.textContent = size + 'px';
     },
 
+    adjustFontSize(delta) {
+        const slider = document.getElementById('font-size-slider');
+        if (!slider) return;
+        const newVal = parseInt(slider.value) + delta;
+        if (newVal >= parseInt(slider.min) && newVal <= parseInt(slider.max)) {
+            slider.value = newVal;
+            this.setFontSize(newVal);
+        }
+    },
+
     // Line height
     setLineHeight(val) {
         const lh = (val / 10).toFixed(1);
@@ -235,6 +306,16 @@ const Yomu = {
         YomuStorage.saveSetting('lineHeight', parseFloat(lh));
         const display = document.getElementById('line-height-value');
         if (display) display.textContent = lh;
+    },
+
+    adjustLineHeight(delta) {
+        const slider = document.getElementById('line-height-slider');
+        if (!slider) return;
+        const newVal = parseInt(slider.value) + delta;
+        if (newVal >= parseInt(slider.min) && newVal <= parseInt(slider.max)) {
+            slider.value = newVal;
+            this.setLineHeight(newVal);
+        }
     },
 
     // Settings panel
@@ -281,11 +362,15 @@ const Yomu = {
     },
 
     // Vocabulary view
-    showVocab() {
+    showVocab(pushState = true) {
         document.getElementById('book-list-view').classList.add('hidden');
         document.getElementById('reader-view').classList.remove('active');
         document.getElementById('vocab-view').classList.remove('hidden');
         this._vocabViewOpen = true;
+
+        if (pushState) {
+            history.pushState({ view: 'vocab' }, '');
+        }
 
         this._renderVocabList();
     },
@@ -362,6 +447,44 @@ const Yomu = {
                 const btn = document.getElementById('btn-furigana');
                 if (btn) btn.classList.remove('active');
             }
+        }
+
+        // Animation (E-ink optimization)
+        const noAnimToggle = document.getElementById('no-animation-toggle');
+        const noAnim = settings.noAnimation === true;
+        if (noAnimToggle) noAnimToggle.checked = noAnim;
+        
+        const animStyle = document.getElementById('animation-style');
+        if (animStyle) animStyle.disabled = noAnim;
+    },
+
+    updateAnimationSetting() {
+        const checkbox = document.getElementById('no-animation-toggle');
+        const noAnim = checkbox ? checkbox.checked : false;
+        
+        const animStyle = document.getElementById('animation-style');
+        if (animStyle) animStyle.disabled = noAnim;
+        
+        YomuStorage.saveSetting('noAnimation', noAnim);
+    },
+
+    _handlePopState(e) {
+        const state = e.state;
+        if (!state) return;
+
+        switch (state.view) {
+            case 'library':
+                this.showBookList(false);
+                break;
+            case 'reader':
+                this.openBook(state.bookId, false);
+                break;
+            case 'store':
+                this.showStore(false);
+                break;
+            case 'vocab':
+                this.showVocab(false);
+                break;
         }
     },
 

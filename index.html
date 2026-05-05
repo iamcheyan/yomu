@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#000000">
     <title>Yomu - 日語読書器</title>
     <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/svg+xml" href="assets/app_icon.svg">
+    <link rel="apple-touch-icon" href="assets/app_icon.svg">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css" id="animation-style">
 </head>
 <body class="font-mincho show-furigana">
 
@@ -86,7 +90,7 @@
     <!-- ===== 底部工具栏 ===== -->
     <div id="bottom-bar" class="bottom-bar">
         <div class="bar-left">
-            <button id="btn-furigana" class="active" onclick="Yomu.toggleFurigana()" title="ふりがな">あ</button>
+            <button id="btn-furigana" class="active reader-only" onclick="Yomu.toggleFurigana()" title="ふりがな">あ</button>
             <button id="btn-settings" onclick="Yomu.toggleSettings()" title="設定">⚙</button>
         </div>
         <div class="bar-center">
@@ -94,8 +98,8 @@
         </div>
         <div class="bar-right">
             <button id="btn-vocab" onclick="Yomu.showVocab()" title="単語帳">単</button>
-            <button onclick="Yomu.reader.scrollTop()" title="最初へ">↑</button>
-            <button id="btn-booklist" onclick="Yomu.showBookList()" title="書籍一覧">一覧</button>
+            <button class="reader-only" onclick="Yomu.reader.scrollTop()" title="最初へ">↑</button>
+            <button id="btn-booklist" class="reader-only" onclick="Yomu.showBookList()" title="書籍一覧">一覧</button>
         </div>
     </div>
 
@@ -117,7 +121,9 @@
         <div class="settings-group">
             <label>文字サイズ</label>
             <div class="control-row">
+                <button class="step-btn" onclick="Yomu.adjustFontSize(-1)">-</button>
                 <input type="range" id="font-size-slider" min="14" max="32" value="20" oninput="Yomu.setFontSize(this.value)">
+                <button class="step-btn" onclick="Yomu.adjustFontSize(1)">+</button>
                 <span class="value-display" id="font-size-value">20px</span>
             </div>
         </div>
@@ -125,7 +131,9 @@
         <div class="settings-group">
             <label>行間</label>
             <div class="control-row">
+                <button class="step-btn" onclick="Yomu.adjustLineHeight(-1)">-</button>
                 <input type="range" id="line-height-slider" min="15" max="35" value="22" oninput="Yomu.setLineHeight(this.value)">
+                <button class="step-btn" onclick="Yomu.adjustLineHeight(1)">+</button>
                 <span class="value-display" id="line-height-value">2.2</span>
             </div>
         </div>
@@ -134,6 +142,14 @@
             <label>ふりがな表示</label>
             <label class="switch">
                 <input type="checkbox" id="furigana-toggle" checked onchange="Yomu.toggleFurigana()">
+                <span class="slider-round"></span>
+            </label>
+        </div>
+
+        <div class="settings-group">
+            <label>アニメーション無効 (墨水屏)</label>
+            <label class="switch">
+                <input type="checkbox" id="no-animation-toggle" onchange="Yomu.updateAnimationSetting()">
                 <span class="slider-round"></span>
             </label>
         </div>

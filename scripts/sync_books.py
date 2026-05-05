@@ -43,8 +43,7 @@ def clean_aozora(text):
     else:
         content = text
 
-    # Remove input notes [＃...] only
-    content = re.sub(r'［＃[^］]+］', '', content)
+    # Keep all annotations ［＃...］ for learning purposes
     # Keep ruby 《...》 and ｜ markers for learning purposes
     return content
 

@@ -138,8 +138,8 @@ const YomuTokenizer = {
     renderParagraph(text) {
         if (!text) return `<p>${text}</p>`;
 
-        // If text has Aozora ruby markers, use them (more accurate than kuromoji)
-        if (text.includes('《')) {
+        // If text has Aozora markers (ruby or annotations), use them
+        if (text.includes('《') || text.includes('［＃')) {
             return this._renderAozoraParagraph(text);
         }
 
@@ -149,38 +149,88 @@ const YomuTokenizer = {
     },
 
     /**
-     * Parse Aozora Bunko ruby format: 漢字《かな》 and ｜漢字《かな》
+     * Parse Aozora Bunko format: ruby 《》｜ and annotations ［＃...］
      */
     _renderAozoraParagraph(text) {
-        let html = '<p>';
-        // Process ｜ marker first (explicit ruby start), then 《》 pairs
-        // Pattern: optional ｜, then kanji/text, then 《reading》
-        const regex = /｜?([^\｜《》]+?)《([^》]+)》/g;
+        let html = '';
         let lastIndex = 0;
+
+        // Check for indentation at paragraph start
+        let indentMatch = text.match(/^［＃(\d+)字下げ］/);
+        let prefix = '';
+        if (indentMatch) {
+            const indent = parseInt(indentMatch[1]);
+            prefix = ` style="text-indent:${indent}em"`;
+            lastIndex = indentMatch[0].length;
+        }
+
+        // Combined regex for all markers
+        const regex = /｜([^｜《》]+)《([^》]+)》|([一-鿿々〆〇]+)《([^》]+)》|※(［＃[^］]+］)|(［＃「([^」]+)」に傍点］)|(［＃[^］]+］)/g;
         let match;
 
         while ((match = regex.exec(text)) !== null) {
-            // Text before this ruby
+            // Text before this marker
             const before = text.slice(lastIndex, match.index);
             if (before) html += this._escapeHtml(before);
 
-            const kanji = match[1];
-            const reading = match[2];
-            // Convert katakana reading to hiragana for display
-            const hiragana = reading.replace(/[ァ-ヶ]/g, ch =>
-                String.fromCharCode(ch.charCodeAt(0) - 0x60)
-            );
+            if (match[1] !== undefined) {
+                // ｜...《...》 - explicit ruby
+                const kanji = match[1];
+                const reading = this._kataToHira(match[2]);
+                html += this._makeRuby(kanji, reading);
+            } else if (match[3] !== undefined) {
+                // 漢字《かな》 - implicit ruby
+                const kanji = match[3];
+                const reading = this._kataToHira(match[4]);
+                html += this._makeRuby(kanji, reading);
+            } else if (match[5] !== undefined) {
+                // ※［＃...］ - 外字 (character description)
+                const desc = match[5].replace(/^［＃|］$/g, '');
+                html += `<span class="gaiji" title="${this._escapeAttr(desc)}">※</span>`;
+            } else if (match[6] !== undefined) {
+                // ［＃「...」に傍点］ - emphasis dots
+                const word = match[7];
+                // Find and wrap the matching text before this annotation
+                const precedingText = text.slice(lastIndex, match.index);
+                const wordIndex = precedingText.lastIndexOf(word);
+                if (wordIndex >= 0) {
+                    // Re-render: text before word + emphasized word + text after word
+                    const beforeWord = precedingText.slice(0, wordIndex);
+                    const afterWord = precedingText.slice(wordIndex + word.length);
+                    if (beforeWord) html += this._escapeHtml(beforeWord);
+                    html += `<em class="bōten">${this._escapeHtml(word)}</em>`;
+                    if (afterWord) html += this._escapeHtml(afterWord);
+                } else {
+                    // Can't find the word, just show the annotation
+                    html += `<span class="annotation" title="傍点: ${this._escapeAttr(word)}">●</span>`;
+                }
+            } else if (match[8] !== undefined) {
+                // Other annotations - show as subtle tooltip
+                const note = match[8].replace(/^［＃|］$/g, '');
+                // Skip layout notes (X字下げ, 地から etc) - they're handled above or ignored
+                if (!note.match(/字下げ|字上げ|地から/)) {
+                    html += `<span class="annotation" title="${this._escapeAttr(note)}">㊟</span>`;
+                }
+            }
 
-            html += `<ruby class="word-token has-furigana" data-surface="${this._escapeAttr(kanji)}" data-reading="${this._escapeAttr(hiragana)}">${this._escapeHtml(kanji)}<rp>(</rp><rt>${this._escapeHtml(hiragana)}</rt><rp>)</rp></ruby>`;
             lastIndex = match.index + match[0].length;
         }
 
-        // Remaining text after last ruby
+        // Remaining text
         const after = text.slice(lastIndex);
         if (after) html += this._escapeHtml(after);
 
-        html += '</p>';
-        return html;
+        return `<p${prefix}>${html}</p>`;
+    },
+
+    _kataToHira(str) {
+        return str.replace(/[ァ-ヶ]/g, ch =>
+            String.fromCharCode(ch.charCodeAt(0) - 0x60)
+        );
+    },
+
+    _makeRuby(kanji, reading) {
+        return `<ruby class="word-token has-furigana" data-surface="${this._escapeAttr(kanji)}" data-reading="${this._escapeAttr(reading)}">${this._escapeHtml(kanji)}<rp>(</rp><rt>${this._escapeHtml(reading)}</rt><rp>)</rp></ruby>`;
     },
 
     /**

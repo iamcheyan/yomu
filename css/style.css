@@ -4,22 +4,18 @@
 :root {
     --base-font-size: 20px;
     --line-height: 2.2;
-    --sidebar-width: 280px;
+    --primary-color: #000;
+    --primary-dark: #333;
     --highlight-bg: #fff9c4;
     --highlight-border: #f9a825;
-    --vocab-bg: #e8f5e9;
-    --vocab-border: #4caf50;
-    --correct-color: #67c23a;
-    --wrong-color: #f56c6c;
+    --vocab-bg: #f5f5f5;
+    --vocab-border: #999;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* 墨水屏优化：全局禁用动画和过渡 */
-    transition: none !important;
-    animation: none !important;
 }
 
 body {
@@ -30,6 +26,12 @@ body {
     -webkit-font-smoothing: antialiased;
     font-size: var(--base-font-size);
     line-height: var(--line-height);
+    /* Professional Japanese Typesetting */
+    line-break: strict;
+    overflow-wrap: break-word;
+    word-break: normal;
+    text-align: justify;
+    text-justify: inter-character;
 }
 
 body.font-mincho {
@@ -89,7 +91,7 @@ body.font-gothic {
 }
 
 .book-list-header {
-    border-bottom: 3px solid #000;
+    border-bottom: 3px solid var(--primary-color);
     margin-bottom: 32px;
     padding-bottom: 20px;
     display: flex;
@@ -117,16 +119,12 @@ body.font-gothic {
 
 .header-actions button {
     padding: 10px 20px;
-    background: #000;
+    background: var(--primary-color);
     color: #fff;
-    border: 2px solid #000;
+    border: 2px solid var(--primary-color);
     font-weight: bold;
     cursor: pointer;
     font-size: 14px;
-}
-
-.header-actions button:hover {
-    background: #333;
 }
 
 .book-grid {
@@ -137,7 +135,7 @@ body.font-gothic {
 }
 
 .book-card {
-    border: 2px solid #000;
+    border: 2px solid var(--primary-color);
     padding: 24px;
     cursor: pointer;
     display: flex;
@@ -145,18 +143,6 @@ body.font-gothic {
     gap: 12px;
     background: #fff;
     position: relative;
-}
-
-.book-card:hover {
-    background: #fafafa;
-    box-shadow: 4px 4px 0 #000;
-    transform: translate(-2px, -2px);
-}
-
-.book-card:active {
-    background: #eee;
-    transform: translate(0, 0);
-    box-shadow: none;
 }
 
 .book-info {
@@ -231,7 +217,7 @@ body.font-gothic {
 
 .progress-bar-fill {
     height: 100%;
-    background: #000;
+    background: var(--primary-color);
     width: 0%;
 }
 
@@ -286,8 +272,8 @@ body.font-gothic {
 .novel-text p {
     font-size: var(--base-font-size);
     line-height: var(--line-height);
-    margin-bottom: 1em;
-    text-indent: 2em;
+    margin-bottom: 1.5em;
+    text-indent: 1em; /* Standard Japanese indentation is 1 character */
 }
 
 /* Ruby (振假名) */
@@ -314,10 +300,6 @@ body.show-furigana rt {
 .word-token {
     cursor: pointer;
     border-bottom: 1px dashed transparent;
-}
-
-.word-token:hover {
-    border-bottom-color: #999;
 }
 
 .word-token.has-furigana {
@@ -398,14 +380,6 @@ body.show-furigana rt {
     color: #fff;
 }
 
-.popup-actions button:active {
-    background: #eee;
-}
-
-.popup-actions button.primary:active {
-    background: #333;
-}
-
 /* 弹出遮罩 */
 .popup-overlay {
     position: fixed;
@@ -429,7 +403,7 @@ body.show-furigana rt {
     bottom: 0;
     /* Float slightly above bottom */
     background: #fff;
-    border-top: 2px solid #000;
+    border-top: 2px solid var(--primary-color);
     padding: 10px 0;
     display: flex;
     align-items: center;
@@ -443,6 +417,26 @@ body.show-furigana rt {
     display: flex;
     align-items: center;
     gap: 12px;
+}
+
+/* Reader specific elements */
+.bottom-bar .bar-center,
+.bottom-bar .reader-only {
+    display: none;
+}
+
+body.reader-active .bottom-bar .bar-center,
+body.reader-active .bottom-bar .reader-only {
+    display: block;
+}
+
+body.reader-active .bottom-bar .bar-center {
+    display: flex;
+    justify-content: center;
+}
+
+body.reader-active .bottom-bar .bar-right .reader-only {
+    display: flex;
 }
 
 .bottom-bar .bar-center {
@@ -461,8 +455,9 @@ body.show-furigana rt {
 .bottom-bar button {
     height: 38px;
     min-width: 38px;
-    border: 2px solid #000;
+    border: 2px solid var(--primary-color);
     background: #fff;
+    color: var(--primary-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -473,12 +468,8 @@ body.show-furigana rt {
     border-radius: 0;
 }
 
-.bottom-bar button:active {
-    background: #eee;
-}
-
 .bottom-bar button.active {
-    background: #000;
+    background: var(--primary-color);
     color: #fff;
 }
 
@@ -495,8 +486,6 @@ body.show-furigana rt {
     padding: 30px;
     overflow-y: auto;
     transform: translateX(100%);
-    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
-    /* Enable transition for settings only */
 }
 
 .settings-panel.open {
@@ -535,10 +524,6 @@ body.show-furigana rt {
     padding: 0 5px;
 }
 
-.settings-header .close-btn:hover {
-    color: #666;
-}
-
 .settings-group {
     margin-bottom: 24px;
 }
@@ -553,7 +538,22 @@ body.show-furigana rt {
 .settings-group .control-row {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 8px;
+}
+
+.step-btn {
+    width: 32px;
+    height: 32px;
+    border: 2px solid #000;
+    background: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    flex-shrink: 0;
 }
 
 .settings-group input[type="range"] {
@@ -667,7 +667,7 @@ input:checked+.slider-round:before {
 }
 
 .vocab-header {
-    border-bottom: 3px solid #000;
+    border-bottom: 3px solid var(--primary-color);
     margin-bottom: 24px;
     padding-bottom: 14px;
     display: flex;
@@ -690,7 +690,7 @@ input:checked+.slider-round:before {
 }
 
 .vocab-item {
-    border: 2px solid #000;
+    border: 2px solid var(--primary-color);
     padding: 16px 20px;
     margin-bottom: 12px;
     display: flex;
@@ -799,7 +799,7 @@ input:checked+.slider-round:before {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    border-bottom: 3px solid #000;
+    border-bottom: 3px solid var(--primary-color);
     margin-bottom: 32px;
     padding-bottom: 20px;
 }
