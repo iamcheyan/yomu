@@ -58,11 +58,18 @@ const YomuReader = {
             let data = await YomuStorage.getBookContent(bookId);
             
             if (!data) {
-                // Fallback to static files
-                const resp = await fetch(`data/novels/${bookId}.json`);
-                if (resp.ok) {
-                    data = await resp.json();
-                }
+                // Fallback to static files (Use XHR for better compatibility on Android file://)
+                data = await new Promise((resolve, reject) => {
+                    const xhr = new XMLHttpRequest();
+                    xhr.open('GET', `data/novels/${bookId}.json`, true);
+                    xhr.onload = () => {
+                        if (xhr.status === 0 || (xhr.status >= 200 && xhr.status < 300)) {
+                            try { resolve(JSON.parse(xhr.responseText)); } catch (e) { reject(e); }
+                        } else { reject(new Error(`XHR failed: ${xhr.status}`)); }
+                    };
+                    xhr.onerror = () => reject(new Error('Network Error'));
+                    xhr.send();
+                }).catch(() => null);
             }
 
             if (!data) throw new Error('Book not found');
@@ -104,22 +111,26 @@ const YomuReader = {
     _renderBook(data) {
         const container = document.getElementById('novel-content');
         let html = '';
-        
+
         const settings = YomuStorage.getSettings();
         const forceAuto = settings.autoFurigana === true;
 
+        this._translations = data.translations || [];
+
         if (data.chapters) {
+            let paraIndex = 0;
             for (const chapter of data.chapters) {
                 if (chapter.title) {
                     html += `<h2 class="chapter-title">${this._escapeHtml(chapter.title)}</h2>`;
                 }
                 for (const para of chapter.paragraphs) {
-                    html += YomuTokenizer.renderParagraph(para, forceAuto);
+                    html += this._renderParaWithTranslation(para, paraIndex, forceAuto);
+                    paraIndex++;
                 }
             }
         } else if (data.paragraphs) {
-            for (const para of data.paragraphs) {
-                html += YomuTokenizer.renderParagraph(para, forceAuto);
+            for (let i = 0; i < data.paragraphs.length; i++) {
+                html += this._renderParaWithTranslation(data.paragraphs[i], i, forceAuto);
             }
         }
 
@@ -132,6 +143,34 @@ const YomuReader = {
                 this._onWordClick(el);
             });
         });
+    },
+
+    _renderParaWithTranslation(text, index, forceAuto) {
+        let html = YomuTokenizer.renderParagraph(text, forceAuto);
+        const hasTranslation = this._translations && this._translations[index];
+        const iconClass = hasTranslation ? 'trans-icon' : 'trans-icon disabled';
+        const iconTitle = hasTranslation ? '翻訳を表示' : '翻訳なし';
+        // Insert icon and translation container before the closing </p>
+        html = html.replace(/<\/p>$/,
+            `<span class="${iconTitle === '翻訳なし' ? 'trans-icon disabled' : 'trans-icon'}" data-para-index="${index}" title="${iconTitle}" onclick="Yomu.reader.toggleTranslation(${index})">译</span></p>`);
+        html += `<div class="translation-line hidden" id="trans-${index}"></div>`;
+        return html;
+    },
+
+    toggleTranslation(index) {
+        const el = document.getElementById(`trans-${index}`);
+        if (!el) return;
+
+        if (!el.classList.contains('hidden')) {
+            el.classList.add('hidden');
+            return;
+        }
+
+        const translation = this._translations && this._translations[index];
+        if (translation) {
+            el.textContent = translation;
+            el.classList.remove('hidden');
+        }
     },
 
     reRender() {
