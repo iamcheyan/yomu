@@ -100,6 +100,12 @@ const YomuReader = {
         // Update UI
         document.getElementById('reader-title').textContent = book.title;
         document.getElementById('reader-author').textContent = book.author;
+        
+        // Update Status Bar
+        const statusTitle = document.getElementById('status-title');
+        const statusAuthor = document.getElementById('status-author');
+        if (statusTitle) statusTitle.textContent = book.title;
+        if (statusAuthor) statusAuthor.textContent = book.author;
 
         // Flatten book content into paragraphs
         this._paragraphs = [];
@@ -282,6 +288,9 @@ const YomuReader = {
     _updateProgressUI(percent) {
         const text = document.getElementById('progress-text');
         if (text) text.textContent = `${percent}%`;
+        
+        const statusProgress = document.getElementById('status-progress');
+        if (statusProgress) statusProgress.textContent = `${percent}%`;
     },
 
     _startProgressTracking() {
