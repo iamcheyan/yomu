@@ -1,0 +1,727 @@
+/* Yomu - 日語小説読書器 */
+/* Adapted from OpenJLPT e-ink optimized style */
+
+:root {
+    --base-font-size: 20px;
+    --line-height: 2.2;
+    --sidebar-width: 280px;
+    --highlight-bg: #fff9c4;
+    --highlight-border: #f9a825;
+    --vocab-bg: #e8f5e9;
+    --vocab-border: #4caf50;
+    --correct-color: #67c23a;
+    --wrong-color: #f56c6c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* 墨水屏优化：全局禁用动画和过渡 */
+    transition: none !important;
+    animation: none !important;
+}
+
+body {
+    font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS Mincho", serif;
+    background: #fff;
+    color: #000;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    font-size: var(--base-font-size);
+    line-height: var(--line-height);
+}
+
+body.font-mincho {
+    font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS Mincho", serif;
+}
+
+body.font-gothic {
+    font-family: "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+}
+
+/* Loading Overlay */
+.loading-overlay {
+    position: fixed;
+    inset: 0;
+    background: #fff;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading-overlay.hidden {
+    display: none;
+}
+
+.loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #000;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    animation: spin 1s linear infinite !important;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.loading-text {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* ===== 书籍列表视图 ===== */
+.book-list-view {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 30px;
+}
+
+.book-list-header {
+    border-bottom: 3px solid #000;
+    margin-bottom: 32px;
+    padding-bottom: 14px;
+}
+
+.book-list-header h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.book-list-header p {
+    font-size: 14px;
+    color: #666;
+}
+
+.book-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+.book-card {
+    border: 2px solid #000;
+    padding: 24px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.book-card:hover {
+    background: #f8f8f8;
+}
+
+.book-card:active {
+    background: #eee;
+}
+
+.book-info {
+    flex: 1;
+}
+
+.book-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.book-author {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.book-desc {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #444;
+}
+
+.book-meta {
+    text-align: right;
+    white-space: nowrap;
+    font-size: 12px;
+    color: #999;
+}
+
+.book-progress {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #666;
+    font-weight: bold;
+}
+
+.progress-bar-container {
+    width: 100%;
+    height: 4px;
+    background: #eee;
+    margin-top: 6px;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background: #000;
+    width: 0%;
+}
+
+/* ===== 阅读器视图 ===== */
+.reader-view {
+    display: none;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 30px 100px;
+}
+
+.reader-view.active {
+    display: block;
+}
+
+.book-list-view.hidden {
+    display: none;
+}
+
+/* 阅读器头部 */
+.reader-header {
+    border-bottom: 3px solid #000;
+    margin-bottom: 24px;
+    padding-bottom: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.reader-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.reader-header .author {
+    font-size: 14px;
+    color: #666;
+}
+
+.reader-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.reader-actions button {
+    height: 36px;
+    padding: 0 14px;
+    border: 2px solid #000;
+    background: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.reader-actions button:active {
+    background: #eee;
+}
+
+.reader-actions button.active {
+    background: #000;
+    color: #fff;
+}
+
+/* 章节标题 */
+.chapter-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 40px 0 20px;
+    border-left: 8px solid #000;
+    padding-left: 15px;
+}
+
+/* 小说正文 */
+.novel-text {
+    padding: 0;
+}
+
+.novel-text p {
+    font-size: var(--base-font-size);
+    line-height: var(--line-height);
+    margin-bottom: 1em;
+    text-indent: 2em;
+}
+
+/* Ruby (振假名) */
+ruby {
+    ruby-position: over;
+    ruby-align: center;
+}
+
+rt {
+    visibility: hidden;
+    font-family: "Hiragino Sans", sans-serif;
+    font-size: 0.5em;
+    line-height: 1;
+    color: #444;
+    user-select: none;
+    font-weight: bold;
+}
+
+body.show-furigana rt {
+    visibility: visible;
+}
+
+/* 可点击的单词 */
+.word-token {
+    cursor: pointer;
+    border-bottom: 1px dashed transparent;
+}
+
+.word-token:hover {
+    border-bottom-color: #999;
+}
+
+.word-token.has-furigana {
+    /* 有振假名的汉字 */
+}
+
+/* 生词标记 */
+.word-token.marked {
+    background: var(--vocab-bg);
+    border-bottom: 1px solid var(--vocab-border);
+    padding: 0 2px;
+}
+
+/* 查询弹出卡片 */
+.popup-card {
+    position: fixed;
+    background: #fff;
+    border: 2px solid #000;
+    padding: 20px;
+    max-width: 360px;
+    width: 90%;
+    z-index: 5000;
+    box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.08);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popup-card.hidden {
+    display: none;
+}
+
+.popup-word {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.popup-reading {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 12px;
+    font-family: "Hiragino Sans", sans-serif;
+}
+
+.popup-pos {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 10px;
+    font-family: "Hiragino Sans", sans-serif;
+}
+
+.popup-meaning {
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 16px;
+    border-left: 3px solid #000;
+    padding-left: 12px;
+}
+
+.popup-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.popup-actions button {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #000;
+    background: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.popup-actions button.primary {
+    background: #000;
+    color: #fff;
+}
+
+.popup-actions button:active {
+    background: #eee;
+}
+
+.popup-actions button.primary:active {
+    background: #333;
+}
+
+/* 弹出遮罩 */
+.popup-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 4999;
+}
+
+.popup-overlay.hidden {
+    display: none;
+}
+
+/* ===== 底部工具栏 ===== */
+.bottom-bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    border-top: 2px solid #000;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    z-index: 1000;
+}
+
+.bottom-bar .bar-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.bottom-bar .bar-center {
+    flex: 1;
+    text-align: center;
+    font-size: 13px;
+    font-family: "Hiragino Sans", sans-serif;
+}
+
+.bottom-bar .bar-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.bottom-bar button {
+    height: 36px;
+    min-width: 36px;
+    border: 2px solid #000;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.bottom-bar button:active {
+    background: #eee;
+}
+
+.bottom-bar button.active {
+    background: #000;
+    color: #fff;
+}
+
+/* ===== 设置面板 ===== */
+.settings-panel {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    background: #fff;
+    border-left: 2px solid #000;
+    z-index: 2000;
+    padding: 24px;
+    overflow-y: auto;
+    transform: translateX(100%);
+}
+
+.settings-panel.open {
+    transform: translateX(0);
+}
+
+.settings-panel.hidden {
+    display: none;
+}
+
+.settings-panel h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+}
+
+.settings-group {
+    margin-bottom: 24px;
+}
+
+.settings-group label {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.settings-group .control-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.settings-group input[type="range"] {
+    -webkit-appearance: none;
+    flex: 1;
+    height: 3px;
+    background: #000;
+    outline: none;
+}
+
+.settings-group input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 2.5px solid #000;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.settings-group .value-display {
+    font-size: 14px;
+    font-weight: bold;
+    min-width: 40px;
+    text-align: right;
+    font-family: "Hiragino Sans", sans-serif;
+}
+
+/* 字体切换按钮 */
+.font-btn-group {
+    display: flex;
+    gap: 8px;
+}
+
+.font-btn {
+    padding: 6px 14px;
+    border: 2.5px solid #000;
+    background: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.font-btn.active {
+    background: #000;
+    color: #fff;
+}
+
+/* 开关 */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 44px;
+    height: 24px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider-round {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background-color: #fff;
+    border: 2.5px solid #000;
+}
+
+.slider-round:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 2.5px;
+    background-color: #000;
+}
+
+input:checked + .slider-round {
+    background-color: #000;
+}
+
+input:checked + .slider-round:before {
+    background-color: #fff;
+    transform: translateX(19px);
+}
+
+/* 设置遮罩 */
+.settings-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1999;
+}
+
+.settings-overlay.hidden {
+    display: none;
+}
+
+/* ===== 生词本视图 ===== */
+.vocab-view {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 30px;
+}
+
+.vocab-view.hidden {
+    display: none;
+}
+
+.vocab-header {
+    border-bottom: 3px solid #000;
+    margin-bottom: 24px;
+    padding-bottom: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.vocab-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.vocab-header .count {
+    font-size: 14px;
+    color: #666;
+}
+
+.vocab-list {
+    list-style: none;
+}
+
+.vocab-item {
+    border: 2px solid #000;
+    padding: 16px 20px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.vocab-item-info {
+    flex: 1;
+}
+
+.vocab-item-word {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.vocab-item-reading {
+    font-size: 14px;
+    color: #666;
+    font-family: "Hiragino Sans", sans-serif;
+}
+
+.vocab-item-meaning {
+    font-size: 14px;
+    color: #444;
+    margin-top: 6px;
+}
+
+.vocab-item-source {
+    font-size: 11px;
+    color: #999;
+    margin-top: 4px;
+}
+
+.vocab-item button {
+    height: 32px;
+    padding: 0 12px;
+    border: 2px solid #000;
+    background: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.vocab-item button:active {
+    background: #eee;
+}
+
+.vocab-empty {
+    text-align: center;
+    padding: 60px 20px;
+    color: #999;
+    font-size: 15px;
+}
+
+/* ===== Custom Scrollbar ===== */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000;
+    border: 2px solid #fff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #333;
+}
+
+/* ===== 响应式 ===== */
+@media (max-width: 900px) {
+    .book-list-view,
+    .reader-view,
+    .vocab-view {
+        padding: 20px 15px;
+    }
+
+    .reader-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .settings-panel {
+        width: 85vw;
+    }
+
+    .bottom-bar {
+        padding: 8px 12px;
+    }
+
+    .popup-card {
+        max-width: 90%;
+    }
+}

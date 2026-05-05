@@ -1,0 +1,9 @@
+{
+  "name": "Yomu",
+  "short_name": "Yomu",
+  "description": "日語小説読書器 - 日本の古典文学を読む",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000"
+}
