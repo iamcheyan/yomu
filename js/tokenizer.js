@@ -340,6 +340,66 @@ const YomuTokenizer = {
         return html;
     },
 
+    /**
+     * Pure minimal furigana renderer for performance (no vocab tracking, no spans)
+     */
+    renderPureFurigana(text) {
+        if (!this._ready) return this._escapeHtml(text);
+        const tokens = this.tokenize(text);
+        let html = '';
+
+        for (const token of tokens) {
+            const surface = token.surface_form;
+            if (/^\s+$/.test(surface)) {
+                html += surface;
+                continue;
+            }
+
+            // Always add furigana if there is kanji
+            const needsRuby = /[一-鿿]/.test(surface) && token.pos !== '記号';
+            
+            if (needsRuby) {
+                const reading = this.getHiragana(token);
+                html += `<ruby>${this._escapeHtml(surface)}<rt>${this._escapeHtml(reading)}</rt></ruby>`;
+            } else {
+                html += this._escapeHtml(surface);
+            }
+        }
+        return html;
+    },
+
+    /**
+     * Pure minimal hybrid renderer (Aozora + Pure Furigana)
+     */
+    renderPureHybridFurigana(text) {
+        let html = '';
+        let lastIndex = 0;
+        const regex = /｜([^｜《》]+)《([^》]+)》|([一-鿿々〆〇]+)《([^》]+)》|※(［＃[^］]+］)|(［＃「([^」]+)」に傍点］)|(［＃[^］]+］)/g;
+        let match;
+
+        while ((match = regex.exec(text)) !== null) {
+            const before = text.slice(lastIndex, match.index);
+            if (before) {
+                html += this.renderPureFurigana(before);
+            }
+
+            if (match[1] !== undefined) {
+                html += `<ruby>${this._escapeHtml(match[1])}<rt>${this._escapeHtml(this._kataToHira(match[2]))}</rt></ruby>`;
+            } else if (match[3] !== undefined) {
+                html += `<ruby>${this._escapeHtml(match[3])}<rt>${this._escapeHtml(this._kataToHira(match[4]))}</rt></ruby>`;
+            }
+            // Ignore layout notes in pure rendering
+            lastIndex = match.index + match[0].length;
+        }
+
+        const after = text.slice(lastIndex);
+        if (after) {
+            html += this.renderPureFurigana(after);
+        }
+
+        return html;
+    },
+
     _escapeHtml(str) {
         if (!str) return '';
         return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');

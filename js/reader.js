@@ -125,6 +125,7 @@ const YomuReader = {
 
         this._renderedCount = 0;
         this._chunkSize = 50;
+        this._furiganaQueue = [];
         document.getElementById('novel-content').innerHTML = '';
 
         // Show reader view
@@ -156,6 +157,7 @@ const YomuReader = {
         // Start infinite scroll & tracking
         this._initInfiniteScroll();
         this._startProgressTracking();
+        this._startFuriganaProcessor();
     },
 
     _renderNextChunk() {
@@ -163,6 +165,9 @@ const YomuReader = {
         const start = this._renderedCount;
         const end = Math.min(start + this._chunkSize, this._paragraphs.length);
         
+        const settings = YomuStorage.getSettings();
+        const forceAuto = settings.furiganaMode === 'nlp';
+
         let html = '';
         for (let i = start; i < end; i++) {
             const para = this._paragraphs[i];
@@ -170,6 +175,11 @@ const YomuReader = {
                 html += `<h2 class="chapter-title" id="p-${i}">${this._escapeHtml(para.content)}</h2>`;
             } else {
                 html += this._renderPara(para.content, i);
+                
+                // If NLP furigana is enabled, queue it for background processing
+                if (forceAuto) {
+                    this._furiganaQueue.push({ index: i, text: para.content });
+                }
             }
         }
         
@@ -181,6 +191,26 @@ const YomuReader = {
         
         this._renderedCount = end;
         this._updateSentinel();
+    },
+
+    _startFuriganaProcessor() {
+        if (this._furiganaInterval) clearInterval(this._furiganaInterval);
+        
+        this._furiganaInterval = setInterval(() => {
+            // Check if queue has items and Kuromoji is ready
+            if (!this._furiganaQueue || this._furiganaQueue.length === 0) return;
+            if (typeof YomuTokenizer === 'undefined' || !YomuTokenizer._ready) return;
+
+            // Process a small batch to avoid UI blocking (5 paras per 100ms)
+            const batch = this._furiganaQueue.splice(0, 5);
+            for (const item of batch) {
+                const el = document.getElementById(`p-${item.index}`);
+                if (el) {
+                    // Silently replace the basic paragraph with the fully annotated one
+                    el.innerHTML = YomuTokenizer.renderPureHybridFurigana(item.text);
+                }
+            }
+        }, 100);
     },
 
     _updateSentinel() {
