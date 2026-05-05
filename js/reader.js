@@ -262,8 +262,10 @@ const YomuReader = {
         html = html.replace(/［＃[^］]*］/g, '');
 
         let transIcon = '';
-        if (this._currentBookData.translations && this._currentBookData.translations[index] && this._currentBookData.translations[index].length > 0) {
-            transIcon = `<span class="trans-icon" onclick="Yomu.reader.toggleTranslation(${index})">意</span>`;
+        const trans = this._currentBookData.translations ? this._currentBookData.translations[index] : null;
+        if (trans && trans.length > 0) {
+            const count = trans.length;
+            transIcon = `<span class="trans-icon" data-para-index="${index}" title="${count}件の翻訳あり" onclick="Yomu.reader.toggleTranslation(${index})">译</span>`;
         }
 
         return `<p class="novel-para" id="p-${index}">${html}${transIcon}</p>`;
