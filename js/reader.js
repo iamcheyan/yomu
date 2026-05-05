@@ -8,12 +8,38 @@ const YomuReader = {
 
     async init() {
         try {
-            const resp = await fetch('data/books.json');
-            if (resp.ok) {
-                this._books = await resp.json();
+            console.log('Loading book catalog...');
+            // In Android, fetch on file:// can be tricky, try XHR as fallback
+            const data = await new Promise((resolve, reject) => {
+                const xhr = new XMLHttpRequest();
+                xhr.open('GET', 'data/books.json', true);
+                xhr.onload = () => {
+                    if (xhr.status === 0 || (xhr.status >= 200 && xhr.status < 300)) {
+                        try {
+                            resolve(JSON.parse(xhr.responseText));
+                        } catch (e) {
+                            reject(e);
+                        }
+                    } else {
+                        reject(new Error(`XHR failed with status ${xhr.status}`));
+                    }
+                };
+                xhr.onerror = () => reject(new Error('XHR Network Error'));
+                xhr.send();
+            });
+            
+            if (data && Array.isArray(data)) {
+                this._books = data;
+                console.log(`Loaded ${data.length} books.`);
             }
         } catch (e) {
             console.error('Failed to load book list:', e);
+            // Last resort: hardcoded sample if everything fails
+            if (this._books.length === 0) {
+                this._books = [
+                    { id: "rashomon", title: "羅生門", author: "芥川龍之介", desc: "加载失败，请检查资源。" }
+                ];
+            }
         }
     },
 
