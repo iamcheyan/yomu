@@ -233,7 +233,13 @@ const Yomu = {
     },
 
     async openBook(bookId, pushState = true) {
-        await YomuReader.openBook(bookId);
+        const success = await YomuReader.openBook(bookId);
+        if (!success) {
+            console.warn(`Book ${bookId} not found or failed to load. Returning to library.`);
+            this.showBookList();
+            return;
+        }
+
         this._isReaderOpen = true;
         document.body.classList.add('reader-active');
         // Keep bottom bar hidden by default in reader
@@ -292,7 +298,7 @@ const Yomu = {
 
         if (this._storeBooks.length === 0) {
             try {
-                const resp = await fetch('data/aozora_catalog.json');
+                const resp = await fetch('data/aozora_catalog.json?t=' + Date.now());
                 this._storeBooks = await resp.json();
             } catch (e) {
                 console.error('Failed to load store catalog:', e);

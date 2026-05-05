@@ -12,7 +12,7 @@ const YomuReader = {
             // In Android, fetch on file:// can be tricky, try XHR as fallback
             const data = await new Promise((resolve, reject) => {
                 const xhr = new XMLHttpRequest();
-                xhr.open('GET', 'data/books.json', true);
+                xhr.open('GET', 'data/books.json?t=' + Date.now(), true);
                 xhr.onload = () => {
                     if (xhr.status === 0 || (xhr.status >= 200 && xhr.status < 300)) {
                         try {
@@ -87,14 +87,12 @@ const YomuReader = {
                 });
             } catch (e) {
                 console.error('Failed to load book:', e);
-                Yomu.alert('書籍の読み込みに失敗しました。', 'エラー');
-                return;
+                return false;
             }
         }
-
+        
         if (!bookData) {
-            Yomu.alert('書籍の読み込みに失敗しました。', 'エラー');
-            return;
+            return false;
         }
 
         this._currentBookData = bookData;
@@ -159,6 +157,8 @@ const YomuReader = {
         this._initInfiniteScroll();
         this._startProgressTracking();
         this._startFuriganaProcessor();
+
+        return true;
     },
 
     _renderNextChunk() {
@@ -280,8 +280,8 @@ const YomuReader = {
     },
 
     _updateProgressUI(percent) {
-        const zenFill = document.getElementById('zen-progress-fill');
-        if (zenFill) zenFill.style.width = `${percent}%`;
+        const text = document.getElementById('progress-text');
+        if (text) text.textContent = `${percent}%`;
     },
 
     _startProgressTracking() {

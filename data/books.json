@@ -1,142 +1,122 @@
 [
   {
-    "id": "rashomon",
+    "id": "18340_ruby_13244",
     "title": "羅生門",
     "author": "芥川龍之介",
-    "desc": "平安末期の荒廃した羅生門を舞台に、生きるための悪を描いた傑作。",
-    "fileId": "rashomon"
+    "desc": "平安末期の荒廃した羅生門を舞台に、生きるための悪を描いた傑作。"
   },
   {
     "id": "hashire_melos",
     "title": "走れメロス",
     "author": "太宰治",
-    "desc": "友情と信頼を貫こうとする青年の物語。",
-    "fileId": "hashire_melos"
+    "desc": "友情と信頼を贯こうとする青年の物語。"
   },
   {
-    "id": "bocchan",
+    "id": "752_ruby_2438",
     "title": "坊っちゃん",
     "author": "夏目漱石",
-    "desc": "無鉄砲な教師が田舎の学校で騒動を巻き起こす。",
-    "fileId": "bocchan"
+    "desc": "無鉄砲な教師が田舎の学校で騒動を巻き起こす。"
   },
   {
     "id": "sangetsuki",
     "title": "山月記",
     "author": "中島敦",
-    "desc": "自尊心ゆえに虎になった男の悲哀。",
-    "fileId": "sangetsuki"
+    "desc": "自尊心ゆえに虎になった男の悲哀。"
   },
   {
     "id": "mai_hime",
     "title": "舞姫",
     "author": "森鷗外",
-    "desc": "ドイツ留学中のエリートと踊り子の悲恋。",
-    "fileId": "mai_hime"
+    "desc": "ドイツ留学中のエリートと踊り子の悲恋。"
   },
   {
-    "id": "ningen_shikkaku",
+    "id": "301_ruby_5915",
     "title": "人間失格",
     "author": "太宰治",
-    "desc": "「恥の多い生涯を送ってきました」。",
-    "fileId": "ningen_shikkaku"
+    "desc": "「恥の多い生涯を送ってきました」。"
   },
   {
     "id": "kokoro",
     "title": "こころ",
     "author": "夏目漱石",
-    "desc": "先生の遺書を通じて描かれる孤独とエゴイズム。",
-    "fileId": "kokoro"
+    "desc": "先生の遺書を通じて描かれる孤独とエゴイズム。"
   },
   {
     "id": "gingatetsudo",
     "title": "銀河鉄道の夜",
     "author": "宮沢賢治",
-    "desc": "星空を駆ける幻想的な鉄道旅。",
-    "fileId": "gingatetsudo"
+    "desc": "星空を駆ける幻想的な鉄道旅。"
   },
   {
     "id": "kumo_no_ito",
     "title": "蜘蛛の糸",
     "author": "芥川龍之介",
-    "desc": "地獄に垂らされた一本の糸とカンダタの物語。",
-    "fileId": "kumo_no_ito"
+    "desc": "地獄に垂らされた一本の糸とカンダタの物語。"
   },
   {
     "id": "kazetachinu",
     "title": "風立ちぬ",
     "author": "堀辰雄",
-    "desc": "美しくも切ない愛と死の物語。",
-    "fileId": "kazetachinu"
+    "desc": "美しくも切ない愛と死の物語。"
   },
   {
-    "id": "lemon",
+    "id": "424_ruby_19825",
     "title": "檸檬",
     "author": "梶井基次郎",
-    "desc": "鬱屈した感情がレモン一つで晴れる瞬間。",
-    "fileId": "lemon"
+    "desc": "鬱屈した感情がレモン一つで晴れる瞬間。"
   },
   {
     "id": "yodaka_no_hoshi",
     "title": "よだかの星",
     "author": "宮沢賢治",
-    "desc": "醜いよだかが星になるまでの純粋な魂。",
-    "fileId": "yodaka_no_hoshi"
+    "desc": "醜いよだかが星になるまでの純粋な魂。"
   },
   {
     "id": "takasebune",
     "title": "高瀬舟",
     "author": "森鷗外",
-    "desc": "安楽死をテーマにした深い問いかけ。",
-    "fileId": "takasebune"
+    "desc": "安楽死をテーマにした深い問いかけ。"
   },
   {
     "id": "gakumon_no_susume",
     "title": "学問のすすめ",
     "author": "福沢諭吉",
-    "desc": "「天は人の上に人を造らず」。現代日本の礎。",
-    "fileId": "gakumon_no_susume"
+    "desc": "「天は人の上に人を造らず」。現代日本の礎。"
   },
   {
     "id": "wagahai_neko",
     "title": "吾輩は猫である",
     "author": "夏目漱石",
-    "desc": "猫の視点から人間社会を風刺した漱石の出世作。",
-    "fileId": "wagahai_neko"
+    "desc": "猫の視点から人间社会を風刺した漱石の出世作。"
   },
   {
-    "id": "sanshiro",
+    "id": "794_ruby_4237",
     "title": "三四郎",
     "author": "夏目漱石",
-    "desc": "地方出身の大学生が東京で揺れ動く青春。",
-    "fileId": "sanshiro"
+    "desc": "地方出身の大学生が東京で揺れ動く青春。"
   },
   {
     "id": "chumon_ryori",
     "title": "注文の多い料理店",
     "author": "宮沢賢治",
-    "desc": "注文が次々と出てくる不思議な料理店。",
-    "fileId": "chumon_ryori"
+    "desc": "注文が次々と出てくる不思議な料理店。"
   },
   {
-    "id": "taketori",
+    "id": "48310_ruby_42452",
     "title": "竹取物語",
     "author": "作者不詳",
-    "desc": "日本最古の物語。かぐや姫の伝説。",
-    "fileId": "taketori"
+    "desc": "日本最古の物語。かぐや姫の伝説。"
   },
   {
     "id": "izunodori",
     "title": "伊豆の踊子",
     "author": "川端康成",
-    "desc": "伊豆の旅で出会った踊子との淡い恋。",
-    "fileId": "izunodori"
+    "desc": "伊豆の旅で出会った踊子との淡い恋。"
   },
   {
     "id": "yuki_onna",
     "title": "雪女",
     "author": "小泉八雲",
-    "desc": "雪の中から現れた美女の怪談。",
-    "fileId": "yuki_onna"
+    "desc": "雪の中から現れた美女の怪談。"
   }
 ]
