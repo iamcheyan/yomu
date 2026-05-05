@@ -19,6 +19,10 @@
     -webkit-tap-highlight-color: transparent !important;
 }
 
+html {
+    scroll-behavior: auto !important;
+}
+
 body {
     font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS Mincho", serif;
     background: #fff;
@@ -33,6 +37,7 @@ body {
     word-break: normal;
     text-align: justify;
     text-justify: inter-character;
+    scroll-behavior: auto !important;
 }
 
 body.font-mincho {
@@ -274,7 +279,8 @@ body.font-gothic {
     font-size: var(--base-font-size);
     line-height: var(--line-height);
     margin-bottom: 1.5em;
-    text-indent: 1em; /* Standard Japanese indentation is 1 character */
+    text-indent: 1em;
+    /* Standard Japanese indentation is 1 character */
 }
 
 /* Ruby (振假名) */
@@ -359,6 +365,20 @@ body.show-furigana rt {
 
 .translation-line.hidden {
     display: none;
+}
+
+.trans-item {
+    margin-bottom: 6px;
+}
+
+.trans-model {
+    font-size: 0.75em;
+    color: #999;
+    font-family: monospace;
+    background: #f5f5f5;
+    padding: 1px 4px;
+    margin-right: 6px;
+    border: 1px solid #eee;
 }
 
 /* 可点击的单词 */
@@ -840,7 +860,7 @@ input:checked+.slider-round:before {
 
     .bottom-bar {
         width: calc(100% - 40px) !important;
-        padding: 8px 15px !important;
+        /* padding: 8px 15px !important; */
     }
 
     .popup-card {
