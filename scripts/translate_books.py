@@ -17,15 +17,25 @@ DATA_DIR = os.path.join(ROOT_DIR, "data", "novels")
 ENV_FILE = os.path.join(ROOT_DIR, ".env")
 CONFIG_FILE = os.path.join(ROOT_DIR, "config.json")
 
-TRANSLATION_PROMPT = """你是精通日语文学的中文翻译家。将以下日语原文翻译成中文。
+TRANSLATION_PROMPT = """你是一位精通日语的中文翻译老师，正在帮助日语初学者阅读日本文学名著。
+
+请将以下日语原文翻译成中文，并附带简要的语法解说。
 
 要求：
-1. 保持原文的文学风格和语气
-2. 使用自然流畅的现代中文
-3. 对于古日语/文语体，翻译为通顺的现代中文，不要用文言文
-4. 不要添加解释或注释，只输出翻译结果
+1. 忠实还原原文含义，不遗漏、不添加、不意译
+2. 保持原文的文学风格和语气
+3. 使用自然流畅的现代中文
+4. 对于古日语/文语体，翻译为通顺的现代中文，不要用文言文
 5. 人名、地名保留原文汉字
 6. 如果原文是对话，保持对话的口语感
+
+翻译完成后，另起一行写「语法解说：」，用简明中文解释这段中对初学者有帮助的语法要点，例如：
+- 重要的助词用法（は、が、を、に、で等）
+- 动词变形（て形、た形、ない形、敬语等）
+- 句型结构（～ている、～たことがある、～ように等）
+- 古日语/文语体与现代日语的对照
+
+语法解说要简洁，只挑这段中最重要的 1-3 个点，不要逐词翻译。如果这段没有特别值得讲解的语法，可以省略语法解说部分。
 
 原文：
 {text}"""
@@ -101,7 +111,7 @@ def call_openai_compatible(api_key, base_url, model, prompt, timeout=120):
     data = json.dumps({
         "model": model,
         "messages": [{"role": "user", "content": prompt}],
-        "max_tokens": 1000,
+        "max_tokens": 2000,
         "temperature": 0.3,
     }).encode("utf-8")
 
@@ -146,13 +156,28 @@ def test_provider(provider):
 
 
 def translate_paragraph(provider, text):
-    """翻译一个段落"""
+    """翻译一个段落，返回 (translation, grammar) 元组"""
     prompt = TRANSLATION_PROMPT.format(text=text)
     result = call_provider(provider, prompt)
-    if result:
-        # 清理可能的引号包裹
-        result = result.strip('"').strip('"').strip('"').strip()
-    return result
+    if not result:
+        return None, None
+
+    # 清理可能的引号包裹
+    result = result.strip('"').strip('"').strip('"').strip()
+
+    # 分离翻译和语法解说
+    grammar = ""
+    # 尝试多种分隔方式
+    for sep in ["语法解说：", "语法解说:", "【语法解说】", "语法要点："]:
+        if sep in result:
+            parts = result.split(sep, 1)
+            translation = parts[0].strip()
+            grammar = parts[1].strip()
+            # 去掉末尾可能的引号
+            grammar = grammar.strip('"').strip('"').strip('"').strip()
+            return translation, grammar
+
+    return result, ""
 
 
 def translate_book(book_id, providers):
@@ -197,13 +222,21 @@ def translate_book(book_id, providers):
             if len(para.strip()) < 3:
                 continue
 
-            result = translate_paragraph(provider, para)
-            if result:
-                existing_translations[i].append({
-                    "text": result,
+            translation, grammar = translate_paragraph(provider, para)
+            if translation:
+                entry = {
+                    "text": translation,
                     "model": provider_id,
-                })
+                }
+                if grammar:
+                    entry["grammar"] = grammar
+                existing_translations[i].append(entry)
                 translated_count += 1
+
+                # 每翻译一段就保存，防止中断丢失
+                book["translations"] = existing_translations
+                with open(filepath, "w", encoding="utf-8") as f:
+                    json.dump(book, f, ensure_ascii=False, indent=2)
             else:
                 print(f"    段落 {i+1} 翻译失败")
 
@@ -211,11 +244,6 @@ def translate_book(book_id, providers):
             time.sleep(0.5)
 
         print(f"    完成: 新增 {translated_count} 段, 跳过 {skipped_count} 段")
-
-    # 保存
-    book["translations"] = existing_translations
-    with open(filepath, "w", encoding="utf-8") as f:
-        json.dump(book, f, ensure_ascii=False, indent=2)
 
     print(f"  已保存: {filepath}")
     return True

@@ -51,8 +51,17 @@ const Yomu = {
             // Hide loading
             loading.classList.add('hidden');
             
-            // Initial view state
-            this.showBookList(false); // false means don't push state
+            // Initial view state (Restore from last session)
+            const lastState = YomuStorage.getAppState();
+            if (lastState.lastView === 'reader' && lastState.lastBookId) {
+                this.openBook(lastState.lastBookId, false);
+            } else if (lastState.lastView === 'vocab') {
+                this.showVocab(false);
+            } else if (lastState.lastView === 'store') {
+                this.showStore(false);
+            } else {
+                this.showBookList(false);
+            }
         } catch (e) {
             console.error('Init failed:', e);
             msg.textContent = '初期化に失敗しました。ページを再読み込みしてください。';
@@ -154,6 +163,10 @@ const Yomu = {
         document.body.classList.add('reader-active');
         // Keep bottom bar hidden by default in reader
         document.getElementById('bottom-bar').classList.add('hidden');
+        
+        // Save app state
+        YomuStorage.saveAppState({ lastView: 'reader', lastBookId: bookId });
+
         if (pushState) {
             history.pushState({ view: 'reader', bookId: bookId }, '');
         }
@@ -161,6 +174,8 @@ const Yomu = {
 
     showBookList(pushState = true) {
         // Save current scroll position before leaving
+        YomuStorage.saveAppState({ lastView: 'library', lastBookId: null });
+        
         document.getElementById('reader-view').classList.remove('active');
         document.body.classList.remove('reader-active');
         

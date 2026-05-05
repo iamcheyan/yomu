@@ -92,20 +92,23 @@ const YomuReader = {
         document.getElementById('reader-view').classList.add('active');
         document.getElementById('bottom-bar').style.display = 'flex';
 
-        // Restore scroll position
-        const progress = YomuStorage.getProgress(bookId);
-        if (progress.scrollPercent > 0) {
-            requestAnimationFrame(() => {
-                const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
-                window.scrollTo(0, maxScroll * progress.scrollPercent / 100);
-            });
-        }
-
-        // Track scroll for progress
-        this._startProgressTracking();
-
         // Mark vocab words
         this._refreshVocabMarks();
+
+        // Restore scroll position (Prioritize precise scrollTop, fallback to percentage)
+        const progress = YomuStorage.getProgress(data.id || this._currentBook.id);
+        if (progress) {
+            setTimeout(() => {
+                if (progress.scrollTop) {
+                    window.scrollTo(0, progress.scrollTop);
+                } else if (progress.scrollPercent > 0) {
+                    const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+                    window.scrollTo(0, maxScroll * progress.scrollPercent / 100);
+                }
+            }, 100);
+        }
+
+        this._startProgressTracking();
     },
 
     _renderBook(data) {
@@ -174,6 +177,12 @@ const YomuReader = {
                 <span class="trans-model">${this._escapeHtml(t.model || '')}</span>
                 <span class="trans-text">${this._escapeHtml(t.text)}</span>
             </div>`;
+            if (t.grammar) {
+                html += `<div class="trans-grammar">
+                    <span class="trans-grammar-label">语法解说</span>
+                    <span class="trans-grammar-text">${this._escapeHtml(t.grammar)}</span>
+                </div>`;
+            }
         }
         el.innerHTML = html;
         el.classList.remove('hidden');
@@ -242,7 +251,7 @@ const YomuReader = {
                 document.getElementById('progress-text').textContent = percent + '%';
 
                 if (this._currentBook) {
-                    YomuStorage.saveProgress(this._currentBook.id, percent);
+                    YomuStorage.saveProgress(this._currentBook.id, percent, scrollTop);
                 }
             }, 200);
         };

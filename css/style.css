@@ -278,7 +278,7 @@ body.font-gothic {
 .novel-text p {
     font-size: var(--base-font-size);
     line-height: var(--line-height);
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
     text-indent: 1em;
     /* Standard Japanese indentation is 1 character */
 }
@@ -379,6 +379,28 @@ body.show-furigana rt {
     padding: 1px 4px;
     margin-right: 6px;
     border: 1px solid #eee;
+}
+
+.trans-grammar {
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px dashed #ddd;
+}
+
+.trans-grammar-label {
+    font-size: 0.7em;
+    color: #999;
+    font-family: "Hiragino Sans", sans-serif;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.trans-grammar-text {
+    font-size: 0.8em;
+    color: #555;
+    line-height: 1.7;
+    font-family: "Hiragino Sans", sans-serif;
 }
 
 /* 可点击的单词 */
@@ -577,7 +599,8 @@ body.reader-active .bottom-bar .bar-right .reader-only {
     font-size: 16px !important;
     opacity: 0;
     visibility: hidden;
-    transition: none; /* Instant for e-ink */
+    transition: none;
+    /* Instant for e-ink */
 }
 
 .settings-panel.open {

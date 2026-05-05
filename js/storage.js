@@ -31,10 +31,21 @@ const YomuStorage = {
         return all[bookId] || { scrollPercent: 0, lastRead: null };
     },
 
-    saveProgress(bookId, scrollPercent) {
+    saveProgress(bookId, scrollPercent, scrollTop) {
         const all = this.get('progress', {});
-        all[bookId] = { scrollPercent, lastRead: Date.now() };
+        all[bookId] = { scrollPercent, scrollTop, lastRead: Date.now() };
         this.set('progress', all);
+    },
+
+    // App state: { lastView, lastBookId }
+    getAppState() {
+        return this.get('app_state', { lastView: 'library', lastBookId: null });
+    },
+
+    saveAppState(state) {
+        const current = this.getAppState();
+        const updated = { ...current, ...state };
+        this.set('app_state', updated);
     },
 
     // Vocabulary list
