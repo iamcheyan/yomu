@@ -71,15 +71,23 @@ const Yomu = {
     _handleGlobalClick(e) {
         if (!this._isReaderOpen) return;
 
-        // Ignore if clicking on interactive elements
+        // Priority 1: If settings panel is open, click outside to close it
+        if (this._settingsOpen) {
+            if (!e.target.closest('.settings-panel')) {
+                this.toggleSettings();
+            }
+            return; // Don't do anything else while settings are open
+        }
+
+        // Priority 2: Ignore if clicking on interactive elements
         if (e.target.closest('.word-token') || 
             e.target.closest('.bottom-bar') || 
-            e.target.closest('.settings-panel') || 
             e.target.closest('button') ||
             e.target.closest('.trans-icon')) {
             return;
         }
 
+        // Priority 3: Toggle bottom bar
         this.toggleBottomBar();
     },
 
