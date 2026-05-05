@@ -102,8 +102,30 @@ const YomuReader = {
         document.getElementById('reader-title').textContent = book.title;
         document.getElementById('reader-author').textContent = book.author;
 
-        // Render all content
-        this._renderBook(bookData);
+        // Flatten book content into paragraphs
+        this._paragraphs = [];
+        if (bookData.chapters) {
+            for (const chapter of bookData.chapters) {
+                if (chapter.title) {
+                    this._paragraphs.push({ type: 'header', content: chapter.title });
+                }
+                for (const para of chapter.paragraphs) {
+                    if (para && para.trim()) {
+                        this._paragraphs.push({ type: 'text', content: para });
+                    }
+                }
+            }
+        } else if (bookData.paragraphs) {
+            for (const para of bookData.paragraphs) {
+                if (para && para.trim()) {
+                    this._paragraphs.push({ type: 'text', content: para });
+                }
+            }
+        }
+
+        this._renderedCount = 0;
+        this._chunkSize = 50;
+        document.getElementById('novel-content').innerHTML = '';
 
         // Show reader view
         document.getElementById('book-list-view').classList.add('hidden');
@@ -111,45 +133,85 @@ const YomuReader = {
         document.getElementById('reader-view').classList.add('active');
         document.getElementById('bottom-bar').style.display = 'flex';
 
+        // Initial render chunk
+        this._renderNextChunk();
+
         // Restore scroll progress
         const progress = YomuStorage.getProgress(bookId);
-        if (progress && progress.scrollTop) {
-            setTimeout(() => window.scrollTo(0, progress.scrollTop), 50);
+        if (progress && progress.paraIndex) {
+            while (this._renderedCount <= progress.paraIndex && this._renderedCount < this._paragraphs.length) {
+                this._renderNextChunk();
+            }
+            const el = document.getElementById(`p-${progress.paraIndex}`);
+            if (el) {
+                setTimeout(() => el.scrollIntoView(), 50);
+            }
+            const percent = this._paragraphs.length > 0 ? Math.round((progress.paraIndex / this._paragraphs.length) * 100) : 0;
+            this._updateProgressUI(percent);
         } else {
             window.scrollTo(0, 0);
+            this._updateProgressUI(0);
         }
 
-        // Start progress tracking
+        // Start infinite scroll & tracking
+        this._initInfiniteScroll();
         this._startProgressTracking();
     },
 
-    _renderBook(bookData) {
+    _renderNextChunk() {
         const container = document.getElementById('novel-content');
+        const start = this._renderedCount;
+        const end = Math.min(start + this._chunkSize, this._paragraphs.length);
+        
         let html = '';
-
-        if (bookData.chapters) {
-            for (const chapter of bookData.chapters) {
-                if (chapter.title) {
-                    html += `<h2 class="chapter-title">${this._escapeHtml(chapter.title)}</h2>`;
-                }
-                for (const para of chapter.paragraphs) {
-                    if (para && para.trim()) {
-                        html += this._renderPara(para);
-                    }
-                }
-            }
-        } else if (bookData.paragraphs) {
-            for (const para of bookData.paragraphs) {
-                if (para && para.trim()) {
-                    html += this._renderPara(para);
-                }
+        for (let i = start; i < end; i++) {
+            const para = this._paragraphs[i];
+            if (para.type === 'header') {
+                html += `<h2 class="chapter-title" id="p-${i}">${this._escapeHtml(para.content)}</h2>`;
+            } else {
+                html += this._renderPara(para.content, i);
             }
         }
-
-        container.innerHTML = html;
+        
+        const temp = document.createElement('div');
+        temp.innerHTML = html;
+        while (temp.firstChild) {
+            container.appendChild(temp.firstChild);
+        }
+        
+        this._renderedCount = end;
+        this._updateSentinel();
     },
 
-    _renderPara(text) {
+    _updateSentinel() {
+        let sentinel = document.getElementById('render-sentinel');
+        if (!sentinel) {
+            sentinel = document.createElement('div');
+            sentinel.id = 'render-sentinel';
+            sentinel.style.height = '100px';
+            sentinel.style.margin = '20px 0';
+            document.getElementById('novel-content').appendChild(sentinel);
+        } else {
+            document.getElementById('novel-content').appendChild(sentinel);
+        }
+
+        sentinel.style.display = (this._renderedCount >= this._paragraphs.length) ? 'none' : 'block';
+    },
+
+    _initInfiniteScroll() {
+        if (this._observer) this._observer.disconnect();
+        
+        this._observer = new IntersectionObserver((entries) => {
+            if (entries[0].isIntersecting && this._renderedCount < this._paragraphs.length) {
+                this._renderNextChunk();
+            }
+        }, { rootMargin: '400px' });
+
+        const sentinel = document.getElementById('render-sentinel');
+        if (sentinel) this._observer.observe(sentinel);
+    },
+
+    _renderPara(text, index) {
         // 处理青空文库的假名标记: 漢字《かな》 → <ruby>漢字<rt>かな</rt></ruby>
         let html = this._escapeHtml(text);
 
@@ -162,15 +224,33 @@ const YomuReader = {
         // 清理青空文库的排版指令 ［＃...］
         html = html.replace(/［＃[^］]*］/g, '');
 
-        return `<p class="novel-para">${html}</p>`;
+        return `<p class="novel-para" id="p-${index}">${html}</p>`;
     },
 
     reRender() {
-        if (this._currentBookData) {
-            const scrollY = window.scrollY;
-            this._renderBook(this._currentBookData);
-            window.scrollTo(0, scrollY);
+        if (this._currentBook) {
+            const topEl = document.elementFromPoint(window.innerWidth / 2, 100);
+            let currentParaIndex = 0;
+            if (topEl) {
+                const pEl = topEl.closest('[id^="p-"]');
+                if (pEl) currentParaIndex = parseInt(pEl.id.split('-')[1]);
+            }
+
+            this._renderedCount = 0;
+            document.getElementById('novel-content').innerHTML = '';
+            
+            while (this._renderedCount <= currentParaIndex && this._renderedCount < this._paragraphs.length) {
+                this._renderNextChunk();
+            }
+
+            const el = document.getElementById(`p-${currentParaIndex}`);
+            if (el) el.scrollIntoView();
         }
+    },
+
+    _updateProgressUI(percent) {
+        const zenFill = document.getElementById('zen-progress-fill');
+        if (zenFill) zenFill.style.width = `${percent}%`;
     },
 
     _startProgressTracking() {
@@ -179,19 +259,25 @@ const YomuReader = {
         }
 
         this._scrollListener = () => {
-            const scrollTop = window.scrollY;
-            const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
-            const percent = maxScroll > 0 ? Math.round(scrollTop / maxScroll * 100) : 0;
+            const topEl = document.elementFromPoint(window.innerWidth / 2, 100);
+            let paraIndex = 0;
+            
+            if (topEl) {
+                const pEl = topEl.closest('[id^="p-"]');
+                if (pEl) {
+                    paraIndex = parseInt(pEl.id.split('-')[1]);
+                }
+            }
 
-            // Update Zen progress bar
-            const zenFill = document.getElementById('zen-progress-fill');
-            if (zenFill) zenFill.style.width = `${percent}%`;
+            const total = this._paragraphs.length;
+            const percent = total > 0 ? Math.round((paraIndex / total) * 100) : 0;
+            
+            this._updateProgressUI(percent);
 
-            // Debounced save
             if (this._scrollTimeout) clearTimeout(this._scrollTimeout);
             this._scrollTimeout = setTimeout(() => {
                 if (this._currentBook) {
-                    YomuStorage.saveProgress(this._currentBook.id, percent, scrollTop);
+                    YomuStorage.saveProgress(this._currentBook.id, percent, window.scrollY, paraIndex);
                 }
             }, 500);
         };
