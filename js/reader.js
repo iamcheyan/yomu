@@ -29,8 +29,18 @@ const YomuReader = {
             });
             
             if (data && Array.isArray(data)) {
-                this._books = data;
-                console.log(`Loaded ${data.length} books.`);
+                let books = data;
+                // Merge synced books from storage
+                const settings = YomuStorage.getSettings();
+                if (settings.syncedBooks && Array.isArray(settings.syncedBooks)) {
+                    for (const sb of settings.syncedBooks) {
+                        if (!books.find(b => b.id === sb.id)) {
+                            books.push(sb);
+                        }
+                    }
+                }
+                this._books = books;
+                console.log(`Loaded ${this._books.length} books.`);
             }
         } catch (e) {
             console.error('Failed to load book list:', e);

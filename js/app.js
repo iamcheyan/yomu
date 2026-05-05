@@ -43,24 +43,26 @@ const Yomu = {
             // Setup history handling
             window.addEventListener('popstate', (e) => this._handlePopState(e));
             
-            // Initial state
-            if (!history.state) {
-                history.replaceState({ view: 'library' }, '');
-            }
-
             // Hide loading
             loading.classList.add('hidden');
             
             // Initial view state (Restore from last session)
             const lastState = YomuStorage.getAppState();
-            if (lastState.lastView === 'reader' && lastState.lastBookId) {
-                this.openBook(lastState.lastBookId, false);
-            } else if (lastState.lastView === 'vocab') {
+            const view = lastState.lastView || 'library';
+            const bookId = lastState.lastBookId;
+
+            if (view === 'reader' && bookId) {
+                await this.openBook(bookId, false);
+                if (!history.state) history.replaceState({ view: 'reader', bookId }, '');
+            } else if (view === 'vocab') {
                 this.showVocab(false);
-            } else if (lastState.lastView === 'store') {
+                if (!history.state) history.replaceState({ view: 'vocab' }, '');
+            } else if (view === 'store') {
                 this.showStore(false);
+                if (!history.state) history.replaceState({ view: 'store' }, '');
             } else {
                 this.showBookList(false);
+                if (!history.state) history.replaceState({ view: 'library' }, '');
             }
         } catch (e) {
             console.error('Init failed:', e);
