@@ -99,6 +99,7 @@ def sync_book(work_id, title, author, author_id, file_id, desc):
                     "title": title,
                     "author": author,
                     "paragraphs": paragraphs,
+                    "translations": [[] for _ in paragraphs],
                     "desc": desc
                 }
                 

@@ -147,12 +147,11 @@ const YomuReader = {
 
     _renderParaWithTranslation(text, index, forceAuto) {
         let html = YomuTokenizer.renderParagraph(text, forceAuto);
-        const hasTranslation = this._translations && this._translations[index];
-        const iconClass = hasTranslation ? 'trans-icon' : 'trans-icon disabled';
-        const iconTitle = hasTranslation ? '翻訳を表示' : '翻訳なし';
-        // Insert icon and translation container before the closing </p>
+        const translations = this._translations && this._translations[index];
+        const hasTranslation = Array.isArray(translations) && translations.length > 0;
+        const iconTitle = hasTranslation ? `${translations.length}件の翻訳` : '翻訳なし';
         html = html.replace(/<\/p>$/,
-            `<span class="${iconTitle === '翻訳なし' ? 'trans-icon disabled' : 'trans-icon'}" data-para-index="${index}" title="${iconTitle}" onclick="Yomu.reader.toggleTranslation(${index})">译</span></p>`);
+            `<span class="trans-icon${hasTranslation ? '' : ' disabled'}" data-para-index="${index}" title="${iconTitle}" onclick="Yomu.reader.toggleTranslation(${index})">译${hasTranslation ? translations.length : ''}</span></p>`);
         html += `<div class="translation-line hidden" id="trans-${index}"></div>`;
         return html;
     },
@@ -166,11 +165,18 @@ const YomuReader = {
             return;
         }
 
-        const translation = this._translations && this._translations[index];
-        if (translation) {
-            el.textContent = translation;
-            el.classList.remove('hidden');
+        const translations = this._translations && this._translations[index];
+        if (!Array.isArray(translations) || translations.length === 0) return;
+
+        let html = '';
+        for (const t of translations) {
+            html += `<div class="trans-item">
+                <span class="trans-model">${this._escapeHtml(t.model || '')}</span>
+                <span class="trans-text">${this._escapeHtml(t.text)}</span>
+            </div>`;
         }
+        el.innerHTML = html;
+        el.classList.remove('hidden');
     },
 
     reRender() {

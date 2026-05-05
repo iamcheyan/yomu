@@ -561,28 +561,43 @@ body.reader-active .bottom-bar .bar-right .reader-only {
 /* ===== 设置面板 ===== */
 .settings-panel {
     position: fixed;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 320px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+    width: 360px;
+    max-width: 90vw;
+    max-height: 90vh;
     background: #fff;
-    border-left: 3px solid #000;
+    border: 3px solid #000;
     z-index: 2000;
-    padding: 30px;
+    padding: 24px;
     overflow-y: auto;
-    transform: translateX(100%);
     /* Isolate settings from global typography changes */
     line-height: 1.5 !important;
     font-size: 16px !important;
+    opacity: 0;
+    visibility: hidden;
+    transition: none; /* Instant for e-ink */
 }
 
 .settings-panel.open {
-    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+    display: block !important;
 }
 
-/* Ensure settings panel is visible when open even if hidden class was toggled */
-.settings-panel.open.hidden {
-    display: block !important;
+/* Overlay for modal */
+.settings-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1999;
+    display: none;
+}
+
+.settings-overlay.active {
+    display: block;
 }
 
 .settings-header {

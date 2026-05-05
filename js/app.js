@@ -349,13 +349,64 @@ const Yomu = {
 
         if (this._settingsOpen) {
             panel.classList.remove('open');
-            overlay.classList.add('hidden');
+            overlay.classList.remove('active');
             this._settingsOpen = false;
         } else {
-            panel.classList.remove('hidden');
             panel.classList.add('open');
-            overlay.classList.remove('hidden');
+            overlay.classList.add('active');
             this._settingsOpen = true;
+            this._fetchVersion();
+        }
+    },
+
+    _fetchVersion() {
+        const el = document.getElementById('settings-version');
+        if (!el) return;
+        
+        // Fetch latest commit hash from GitHub
+        fetch('https://api.github.com/repos/iamcheyan/yomu/commits/main')
+            .then(r => r.json())
+            .then(data => {
+                if (data.sha) {
+                    const short = data.sha.substring(0, 7);
+                    const date = (data.commit?.committer?.date || '').substring(0, 10);
+                    el.textContent = `${short} (${date})`;
+                }
+            })
+            .catch(() => {
+                el.textContent = 'v1.0.0';
+            });
+    },
+
+    async syncData() {
+        if (!confirm('GitHubから最新の書籍データを取得しますか？\n（現在の読み込み中的书籍列表が更新されます）')) {
+            return;
+        }
+
+        const btn = document.querySelector('button[onclick="Yomu.syncData()"]');
+        const originalText = btn.textContent;
+        btn.textContent = '同期中...';
+        btn.disabled = true;
+
+        try {
+            const url = 'https://raw.githubusercontent.com/iamcheyan/yomu/main/data/books.json';
+            const r = await fetch(url + '?t=' + Date.now());
+            if (r.ok) {
+                const books = await r.json();
+                // Save to storage
+                YomuStorage.saveSetting('syncedBooks', books);
+                
+                alert(`同期完了！${books.length} 冊の書籍情報を取得しました。ページを再読み込みします。`);
+                window.location.reload();
+            } else {
+                throw new Error('Sync failed: ' + r.status);
+            }
+        } catch (e) {
+            console.error('Sync failed:', e);
+            alert('同期に失敗しました。ネットワーク连接を確認してください。');
+        } finally {
+            btn.textContent = originalText;
+            btn.disabled = false;
         }
     },
 
