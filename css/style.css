@@ -571,6 +571,9 @@ body.reader-active .bottom-bar .bar-right .reader-only {
     padding: 30px;
     overflow-y: auto;
     transform: translateX(100%);
+    /* Isolate settings from global typography changes */
+    line-height: 1.5 !important;
+    font-size: 16px !important;
 }
 
 .settings-panel.open {
