@@ -8,6 +8,7 @@ const Yomu = {
     _storeOpen: false,
     _storeBooks: [],
     _storePage: 0,
+    _homePage: 0,
     _pageSize: 10,
     _isReaderOpen: false,
 
@@ -149,15 +150,24 @@ const Yomu = {
         const bundledBooks = YomuReader.getBooks();
         const downloadedBooks = YomuStorage.getDownloadedBooks();
         
+        // Combined list
+        const allBooks = [];
+        for (const b of downloadedBooks) allBooks.push({ ...b, isDownloaded: true });
+        for (const b of bundledBooks) {
+            // Avoid duplicates if a bundled book is somehow in downloaded
+            if (!downloadedBooks.some(d => d.id === b.id)) {
+                allBooks.push({ ...b, isDownloaded: false });
+            }
+        }
+
         // Update counter
         const counter = document.getElementById('library-count');
-        const totalCount = bundledBooks.length + downloadedBooks.length;
-        if (counter) counter.textContent = totalCount;
+        if (counter) counter.textContent = allBooks.length;
         
         const grid = document.getElementById('book-grid');
         let html = '';
 
-        const renderCard = (book, isDownloaded = false) => {
+        const renderCard = (book) => {
             const progress = YomuStorage.getProgress(book.id);
             const percent = Math.round(progress.scrollPercent || 0);
             return `
@@ -172,7 +182,7 @@ const Yomu = {
                             ${progress.lastRead ? `<span class="book-progress">読了 ${percent}%</span>` : ''}
                             ${progress.lastRead ? `<div class="progress-bar-container"><div class="progress-bar-fill" style="width:${percent}%"></div></div>` : ''}
                         </div>
-                        ${isDownloaded ? `
+                        ${book.isDownloaded ? `
                             <button class="delete-btn" onclick="Yomu.deleteBook(event, '${book.id}', '${this._escapeAttr(book.title)}')">
                                 削除
                             </button>
@@ -182,26 +192,41 @@ const Yomu = {
             `;
         };
 
-        // 1. Downloaded section (Now on top)
-        if (downloadedBooks.length > 0) {
-            html += '<h2 class="library-section-title">ダウンロード済み</h2>';
-            html += '<div class="library-section-grid">';
-            for (const book of downloadedBooks) {
-                html += renderCard(book, true);
-            }
-            html += '</div>';
-        }
+        // Paging
+        const start = this._homePage * this._pageSize;
+        const paged = allBooks.slice(start, start + this._pageSize);
 
-        // 2. Built-in section
-        html += '<h2 class="library-section-title">名作選</h2>';
-        html += '<div class="library-section-grid">';
-        for (const book of bundledBooks) {
+        for (const book of paged) {
             html += renderCard(book);
         }
-        html += '</div>';
 
-        grid.innerHTML = html;
-        grid.style.display = 'block'; // Ensure it's not a grid itself if it contains grids
+        grid.innerHTML = html || '<div style="padding: 20px; color: #999;">蔵書がありません。</div>';
+
+        // Update pagination buttons
+        const prevBtn = document.getElementById('btn-home-prev');
+        const nextBtn = document.getElementById('btn-home-next');
+        if (prevBtn) prevBtn.disabled = this._homePage === 0;
+        if (nextBtn) nextBtn.disabled = (this._homePage + 1) * this._pageSize >= allBooks.length;
+    },
+
+    nextHomePage() {
+        const bundledBooks = YomuReader.getBooks();
+        const downloadedBooks = YomuStorage.getDownloadedBooks();
+        const total = bundledBooks.length + downloadedBooks.length;
+        
+        if ((this._homePage + 1) * this._pageSize < total) {
+            this._homePage++;
+            this._renderBookList();
+            window.scrollTo(0, 0);
+        }
+    },
+
+    prevHomePage() {
+        if (this._homePage > 0) {
+            this._homePage--;
+            this._renderBookList();
+            window.scrollTo(0, 0);
+        }
     },
 
     async openBook(bookId, pushState = true) {
