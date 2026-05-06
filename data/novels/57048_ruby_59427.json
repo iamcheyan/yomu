@@ -24,23 +24,119 @@
   ],
   "translations": [
     [],
+    [
+      {
+        "text": "收件人：大阪市西区松岛十返町 武部种吉先生",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "发信地 東京市外巣鴨村宮仲二五八三",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
     [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    []
+    [
+      {
+        "text": "前略，您有还礼吗？",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "我也很健康，请您放心。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "日前在25日那天，生了个女孩，给她取名叫魔子《まこ》。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "那边好像已经上市松茸了呢，不过这边还弄不到。只要一点点就好，能不能麻烦寄给我呢？作为补偿，您那边随便什么想要的东西，我这边也会寄给您。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "请务必多多关照。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "野枝",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "津子小姐",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "底本：《定本 伊藤野枝全集 第二卷 评论·随笔·书简1——〈青鞜〉的时代》学艺书林",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "2000年（平成12年）5月31日 初版发行",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "输入：酒井裕二",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "校正：雪森",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "2016年6月10日制作",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "青空文库制作文件：",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "本文件由网络图书馆青空文庫（http://www.aozora.gr.jp/）制作。参与录入、校对、制作的是各位志愿者。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ]
   ],
   "desc": "",
   "aozora_info": {

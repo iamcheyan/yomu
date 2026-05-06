@@ -324,12 +324,6 @@ const Yomu = {
                         </div>
                         <div class="book-desc">${this._escapeHtml(book.desc || '')}</div>
                     </div>
-                    ${progress.lastRead ? `
-                    <div class="book-progress-row">
-                        <div class="progress-bar-container"><div class="progress-bar-fill" style="--progress-width:${percent}%"></div></div>
-                        <span class="book-progress">${percent}%</span>
-                    </div>
-                    ` : ''}
                     <div class="book-card-bottom">
                         <div class="book-tags">
                             ${this._renderTag(this._categoryLabel(this._bookCategory(book)))}
@@ -340,6 +334,13 @@ const Yomu = {
                             </button>
                         ` : ''}
                     </div>
+                    ${progress.lastRead ? `
+                    <div class="book-progress-row">
+                        <span class="book-progress-label">${percent >= 100 ? '読了' : '既読'}</span>
+                        <div class="progress-bar-container"><div class="progress-bar-fill" style="--progress-width:${percent}%"></div></div>
+                        <span class="book-progress">${percent}%</span>
+                    </div>
+                    ` : ''}
                 </div>
             `;
         };
