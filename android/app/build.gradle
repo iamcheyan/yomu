@@ -47,7 +47,7 @@ tasks.register('syncWebAssets', Copy) {
         include 'data/version.json'
         include 'data/aozora_catalog_preview.json'
         include 'data/aozora_catalog_compact.json'
-        include 'libs/dict/*.dat.gz'
+        // include 'libs/dict/*.dat.gz' // Removed to reduce APK size; downloaded at runtime instead
 
         // 打包首页精选书目
         bundledBookIds.each { bookId ->

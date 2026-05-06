@@ -18,14 +18,15 @@ const YomuTokenizer = {
     async init() {
         const isAndroid = !!window.YomuNative;
 
-        // Priority: external storage > APK assets > CDN
+        // Android must only use user-downloaded dictionaries. Web can use bundled assets/CDN.
         const paths = [];
         if (isAndroid) {
             const extPath = window.YomuNative.getExternalPath() + '/dict';
             paths.push(extPath);
+        } else {
+            paths.push('libs/dict');
+            paths.push(this.CDN_BASE);
         }
-        paths.push('libs/dict');
-        paths.push(this.CDN_BASE);
 
         for (const dicPath of paths) {
             try {
@@ -52,9 +53,8 @@ const YomuTokenizer = {
      * Check if dictionary is available locally (not CDN)
      */
     isDictAvailable() {
-        if (this._ready && this._dictPath !== this.CDN_BASE) return true;
         if (!window.YomuNative) return this._ready;
-        return window.YomuNative.fileExists('dict/base.dat.gz');
+        return this.DICT_FILES.every(file => window.YomuNative.fileExists('dict/' + file));
     },
 
     /**
@@ -66,8 +66,8 @@ const YomuTokenizer = {
 
     /**
      * Download dictionary files to external storage
-     * @param {function} onProgress - callback(filename, progressPercent, downloadedBytes)
-     * @param {function} onComplete - callback when all files downloaded
+     * @param {function} onProgress - callback(overallPercent, currentFilename, filePercent)
+     * @param {function} onComplete - callback(successCount, totalCount)
      * @param {function} onError - callback(filename, errorMsg)
      */
     downloadDict(onProgress, onComplete, onError) {
@@ -76,25 +76,56 @@ const YomuTokenizer = {
             return;
         }
 
-        // Set up global callback for native bridge
-        let completed = 0;
         const total = this.DICT_FILES.length;
+        let completed = 0;
+        let failed = 0;
+        const fileProgress = {};
+
+        // Initialize progress for all files
+        for (const file of this.DICT_FILES) {
+            fileProgress[file] = 0;
+        }
+
+        const updateOverallProgress = (filename, progress) => {
+            if (progress >= 0) fileProgress[filename] = progress;
+
+            // Calculate overall progress: (sum of all file progress) / total
+            let totalProgress = 0;
+            for (const file of this.DICT_FILES) {
+                totalProgress += fileProgress[file];
+            }
+            const overallPercent = Math.round(totalProgress / total);
+
+            if (onProgress) onProgress(overallPercent, filename, progress);
+        };
 
         window.YomuNativeCallback = {
             onDownloadProgress: (filename, progress, downloaded) => {
-                if (onProgress) onProgress(filename, progress, downloaded);
+                updateOverallProgress(filename, progress);
             },
             onDownloadComplete: (filename) => {
                 completed++;
-                console.log(`[Tokenizer] Downloaded ${filename} (${completed}/${total})`);
-                if (completed >= total) {
+                fileProgress[filename] = 100;
+                updateOverallProgress(filename, 100);
+
+                console.log(`[Tokenizer] Downloaded ${filename} (${completed + failed}/${total})`);
+
+                if (completed + failed >= total) {
+                    const finalSuccessCount = completed;
                     delete window.YomuNativeCallback;
-                    if (onComplete) onComplete();
+                    if (onComplete) onComplete(finalSuccessCount, total);
                 }
             },
             onDownloadError: (filename, error) => {
+                failed++;
                 console.error(`[Tokenizer] Download failed: ${filename} - ${error}`);
                 if (onError) onError(filename, error);
+
+                if (completed + failed >= total) {
+                    const finalSuccessCount = completed;
+                    delete window.YomuNativeCallback;
+                    if (onComplete) onComplete(finalSuccessCount, total);
+                }
             }
         };
 

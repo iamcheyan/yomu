@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/animations.css" id="animation-style">
 </head>
 
-<body class="show-furigana">
+<body>
 
     <!-- Loading -->
     <div id="loading-overlay" class="loading-overlay">
@@ -30,31 +30,29 @@
             </div>
         </div>
         <div class="home-filter-panel" id="home-filter-panel">
-            <div class="filter-group">
-                <div class="filter-label">分類</div>
-                <button class="filter-chip active" data-home-filter-type="category" data-home-filter-value=""
-                    onclick="Yomu.setHomeFilter('category', '')">すべて</button>
-                <button class="filter-chip" data-home-filter-type="category" data-home-filter-value="fiction"
-                    onclick="Yomu.setHomeFilter('category', 'fiction')">小説</button>
-                <button class="filter-chip" data-home-filter-type="category" data-home-filter-value="children"
-                    onclick="Yomu.setHomeFilter('category', 'children')">児童文学</button>
-                <button class="filter-chip" data-home-filter-type="category" data-home-filter-value="essay"
-                    onclick="Yomu.setHomeFilter('category', 'essay')">随筆・記録</button>
-                <button class="filter-chip" data-home-filter-type="category" data-home-filter-value="poetry"
-                    onclick="Yomu.setHomeFilter('category', 'poetry')">詩歌</button>
-                <button class="filter-chip" data-home-filter-type="category" data-home-filter-value="drama"
-                    onclick="Yomu.setHomeFilter('category', 'drama')">戯曲</button>
-                <button class="filter-chip" data-home-filter-type="category" data-home-filter-value="foreign"
-                    onclick="Yomu.setHomeFilter('category', 'foreign')">海外文学</button>
-            </div>
-            <div class="filter-group">
-                <div class="filter-label">翻訳</div>
-                <button class="filter-chip active" data-home-filter-type="translation" data-home-filter-value=""
-                    onclick="Yomu.setHomeFilter('translation', '')">すべて</button>
-                <button class="filter-chip" data-home-filter-type="translation" data-home-filter-value="translated"
-                    onclick="Yomu.setHomeFilter('translation', 'translated')">翻訳あり</button>
-                <button class="filter-chip" data-home-filter-type="translation" data-home-filter-value="untranslated"
-                    onclick="Yomu.setHomeFilter('translation', 'untranslated')">原文のみ</button>
+            <div class="home-filter-main">
+                <div class="filter-chips-group">
+                    <button class="filter-chip active" data-home-filter-type="category" data-home-filter-value=""
+                        onclick="Yomu.setHomeFilter('category', '')">すべて</button>
+                    <button class="filter-chip" data-home-filter-type="category" data-home-filter-value="fiction"
+                        onclick="Yomu.setHomeFilter('category', 'fiction')">小説</button>
+                    <button class="filter-chip" data-home-filter-type="category" data-home-filter-value="children"
+                        onclick="Yomu.setHomeFilter('category', 'children')">児童文学</button>
+                    <button class="filter-chip" data-home-filter-type="category" data-home-filter-value="essay"
+                        onclick="Yomu.setHomeFilter('category', 'essay')">随筆・記録</button>
+                    <button class="filter-chip" data-home-filter-type="category" data-home-filter-value="poetry"
+                        onclick="Yomu.setHomeFilter('category', 'poetry')">詩歌</button>
+                    <button class="filter-chip" data-home-filter-type="category" data-home-filter-value="drama"
+                        onclick="Yomu.setHomeFilter('category', 'drama')">戯曲</button>
+                    <button class="filter-chip" data-home-filter-type="category" data-home-filter-value="foreign"
+                        onclick="Yomu.setHomeFilter('category', 'foreign')">海外文学</button>
+                </div>
+                <select class="settings-select filter-select" id="home-translation-select"
+                    onchange="Yomu.setHomeFilter('translation', this.value)">
+                    <option value="">翻訳: すべて</option>
+                    <option value="translated">翻訳あり</option>
+                    <option value="untranslated">原文のみ</option>
+                </select>
             </div>
             <div class="filter-summary" id="home-filter-summary"></div>
         </div>
@@ -165,6 +163,9 @@
 
             <!-- Detailed Metadata Grid -->
             <div id="card-metadata" class="frontmatter-grid card-metadata"></div>
+
+            <!-- Card Footer (Links) -->
+            <div id="card-footer" class="card-footer"></div>
         </div>
     </div>
 
@@ -173,13 +174,6 @@
         <div class="settings-header">
             <h2>メニュー</h2>
             <div class="u-display-flex u-gap-10">
-                <button class="menu-btn" onclick="Yomu.showBookList()" title="ホーム">
-                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
-                    </svg>
-                </button>
                 <button class="close-btn" onclick="Yomu.toggleSettingsFromButton(event)">×</button>
             </div>
         </div>
@@ -223,20 +217,10 @@
             </select>
         </div>
 
-        <div class="settings-group" id="dict-download-group">
-            <label>辞書データ</label>
-            <div class="u-text-align-right">
-                <span id="dict-status-msg" style="font-size: 12px; color: #888; margin-right: 8px;"></span>
-                <button class="font-btn" id="btn-dict-dl" onclick="Yomu.promptDictDownload()">ダウンロード</button>
-            </div>
-        </div>
-
-
-
         <div class="settings-group">
-            <label>データ同期</label>
+            <label>初期化</label>
             <div class="u-text-align-right">
-                <button class="font-btn" onclick="Yomu.syncData()">同期する</button>
+                <button class="font-btn" onclick="Yomu.clearAllData()">全て削除</button>
             </div>
         </div>
 
@@ -274,11 +258,11 @@
 
     <!-- JS Modules -->
     <script src="libs/kuromoji.js"></script>
-    <script src="js/storage.js?v=2"></script>
-    <script src="js/tokenizer.js?v=2"></script>
+    <script src="js/storage.js?v=3"></script>
+    <script src="js/tokenizer.js?v=3"></script>
     <script src="js/reader.js?v=6"></script>
     <script src="js/aozora.js?v=4"></script>
-    <script src="js/app.js?v=8"></script>
+    <script src="js/app.js?v=9"></script>
 </body>
 
 </html>

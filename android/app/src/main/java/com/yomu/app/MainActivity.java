@@ -26,6 +26,10 @@ import java.io.File;
 public class MainActivity extends Activity {
     private WebView webView;
 
+    private String getRootPath() {
+        return Environment.getExternalStorageDirectory().getAbsolutePath() + "/Yomu/data";
+    }
+
     @SuppressLint("SetJavaScriptEnabled")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,7 +65,7 @@ public class MainActivity extends Activity {
             @Override
             public void onPageFinished(WebView view, String url) {
                 // 自动注入数据根路径
-                view.evaluateJavascript("window.DATA_ROOT = 'file:///sdcard/Yomu/data';", null);
+                view.evaluateJavascript("window.DATA_ROOT = 'file://" + getRootPath() + "';", null);
                 view.evaluateJavascript("window.IS_ANDROID = true;", null);
             }
         });
@@ -71,9 +75,11 @@ public class MainActivity extends Activity {
             @android.webkit.JavascriptInterface
             public void saveFile(String filename, String content) {
                 try {
-                    File dir = new File("/sdcard/Yomu/data");
+                    File dir = new File(getRootPath());
                     if (!dir.exists()) dir.mkdirs();
                     File file = new File(dir, filename);
+                    File parent = file.getParentFile();
+                    if (parent != null && !parent.exists()) parent.mkdirs();
                     java.io.FileWriter writer = new java.io.FileWriter(file);
                     writer.write(content);
                     writer.close();
@@ -85,7 +91,7 @@ public class MainActivity extends Activity {
             @android.webkit.JavascriptInterface
             public String readFile(String filename) {
                 try {
-                    File file = new File("/sdcard/Yomu/data", filename);
+                    File file = new File(getRootPath(), filename);
                     if (!file.exists()) return null;
                     java.util.Scanner scanner = new java.util.Scanner(file).useDelimiter("\\A");
                     return scanner.hasNext() ? scanner.next() : "";
@@ -97,7 +103,7 @@ public class MainActivity extends Activity {
             @android.webkit.JavascriptInterface
             public String listFiles() {
                 try {
-                    File dir = new File("/sdcard/Yomu/data");
+                    File dir = new File(getRootPath());
                     if (!dir.exists()) return "[]";
                     File[] files = dir.listFiles();
                     if (files == null) return "[]";
@@ -116,7 +122,7 @@ public class MainActivity extends Activity {
             @android.webkit.JavascriptInterface
             public boolean fileExists(String filename) {
                 try {
-                    File file = new File("/sdcard/Yomu/data", filename);
+                    File file = new File(getRootPath(), filename);
                     return file.exists();
                 } catch (Exception e) {
                     return false;
@@ -126,16 +132,56 @@ public class MainActivity extends Activity {
             @android.webkit.JavascriptInterface
             public boolean deleteFile(String filename) {
                 try {
-                    File file = new File("/sdcard/Yomu/data", filename);
+                    File file = new File(getRootPath(), filename);
+                    if (file.isDirectory()) {
+                        return deleteRecursive(file);
+                    }
                     return file.exists() && file.delete();
                 } catch (Exception e) {
                     return false;
                 }
             }
 
+            private boolean deleteRecursive(File fileOrDirectory) {
+                if (fileOrDirectory.isDirectory()) {
+                    File[] files = fileOrDirectory.listFiles();
+                    if (files != null) {
+                        for (File child : files) {
+                            deleteRecursive(child);
+                        }
+                    }
+                }
+                return fileOrDirectory.delete();
+            }
+
+            @android.webkit.JavascriptInterface
+            public boolean clearAllData() {
+                try {
+                    File dir = new File(getRootPath());
+                    if (dir.exists() && dir.isDirectory()) {
+                        File[] children = dir.listFiles();
+                        if (children != null) {
+                            for (File child : children) {
+                                if (!deleteRecursive(child) && child.exists()) {
+                                    return false;
+                                }
+                            }
+                        }
+                    }
+                    if (!dir.exists() && !dir.mkdirs()) {
+                        return false;
+                    }
+                    String[] remaining = dir.list();
+                    return remaining == null || remaining.length == 0;
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    return false;
+                }
+            }
+
             @android.webkit.JavascriptInterface
             public String getExternalPath() {
-                return "/sdcard/Yomu/data";
+                return getRootPath();
             }
 
             @android.webkit.JavascriptInterface
@@ -144,15 +190,15 @@ public class MainActivity extends Activity {
                     @Override
                     public void run() {
                         try {
-                            File dir = new File("/sdcard/Yomu/data");
-                            // Support subdirectories (e.g., "dict/base.dat.gz")
-                            int lastSlash = filename.lastIndexOf('/');
-                            if (lastSlash > 0) {
-                                dir = new File("/sdcard/Yomu/data", filename.substring(0, lastSlash));
-                            }
-                            if (!dir.exists()) dir.mkdirs();
+                            File root = new File(getRootPath());
+                            File outFile = new File(root, filename);
 
-                            File outFile = new File("/sdcard/Yomu/data", filename);
+                            // Support subdirectories (e.g., "dict/base.dat.gz")
+                            File parentDir = outFile.getParentFile();
+                            if (parentDir != null && !parentDir.exists()) {
+                                parentDir.mkdirs();
+                            }
+
                             java.net.URL u = new java.net.URL(url);
                             java.net.HttpURLConnection conn = (java.net.HttpURLConnection) u.openConnection();
                             conn.setRequestMethod("GET");

@@ -123,7 +123,7 @@ const YomuStorage = {
             fontSize: 20,
             lineHeight: 2.2,
             font: 'mincho',
-            furiganaMode: 'nlp',
+            furiganaMode: 'none',
             noAnimation: true
         });
     },
@@ -235,5 +235,37 @@ const YomuStorage = {
         const books = this.getDownloadedBooks().filter(b => b.id !== bookId);
         this.set('downloaded_books', books);
         this.deleteBookContent(bookId);
+    },
+
+    async clearAllData() {
+        if (this._progressTimer) {
+            clearTimeout(this._progressTimer);
+            this._progressTimer = null;
+        }
+
+        // 1. Clear LocalStorage
+        localStorage.clear();
+
+        // 2. Clear IndexedDB
+        if (this._db) {
+            this._db.close();
+            this._db = null;
+        }
+        await new Promise((resolve, reject) => {
+            const req = indexedDB.deleteDatabase(this._DB_NAME);
+            req.onsuccess = () => resolve();
+            req.onerror = () => reject();
+        });
+
+        // 3. Clear Native External Storage
+        if (this._isAndroid && window.YomuNative && window.YomuNative.clearAllData) {
+            const ok = window.YomuNative.clearAllData();
+            if (!ok) {
+                throw new Error('Native external storage clear failed');
+            }
+        }
+
+        // 4. Reset cache
+        this._extCache = {};
     }
 };

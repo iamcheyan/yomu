@@ -73,7 +73,13 @@ const Yomu = {
 
             // Initial routing
             if (!this._handleHashRouting()) {
-                this.showBookList(false);
+                const state = YomuStorage.getAppState();
+                if (state.lastView === 'reader' && state.lastBookId) {
+                    console.log('[App] Resuming last book:', state.lastBookId);
+                    this.openBook(state.lastBookId, false);
+                } else {
+                    this.showBookList(false);
+                }
             }
         } catch (e) {
             console.error('Fatal Init Error:', e);
@@ -209,6 +215,14 @@ const Yomu = {
 
                         metadataEl.innerHTML = rows.join('');
                         metadataEl.style.display = rows.length > 0 ? 'grid' : 'none';
+
+                        // Card Footer (External Link)
+                        const footerEl = document.getElementById('card-footer');
+                        if (footerEl) {
+                            footerEl.innerHTML = info.cardUrl
+                                ? `<a class="frontmatter-link" href="${this._escapeAttr(info.cardUrl)}" target="_blank" rel="noopener noreferrer">青空文庫 図書カード</a>`
+                                : '';
+                        }
                     }
                 }
             }
@@ -243,7 +257,7 @@ const Yomu = {
         const counter = document.getElementById('library-count');
         if (counter) counter.textContent = allBooks.length;
         this._renderHomeFilters(allBooks.length);
-        
+
         const grid = document.getElementById('book-grid');
         let html = '';
 
@@ -299,7 +313,7 @@ const Yomu = {
 
     nextHomePage() {
         const total = this._getFilteredLibraryBooks().length;
-        
+
         if ((this._homePage + 1) * this._pageSize < total) {
             this._homePage++;
             this._renderBookList();
@@ -363,6 +377,11 @@ const Yomu = {
             btn.classList.toggle('active', this._homeFilters[type] === value);
         });
 
+        const transSelect = document.getElementById('home-translation-select');
+        if (transSelect) {
+            transSelect.value = this._homeFilters.translation || '';
+        }
+
         const summary = document.getElementById('home-filter-summary');
         if (summary) {
             const active = [
@@ -390,7 +409,7 @@ const Yomu = {
         document.body.classList.add('reader-active');
         this._storeOpen = false;
         this.updateReaderControlsAvailability();
-        
+
         // Save app state
         YomuStorage.saveAppState({ lastView: 'reader', lastBookId: bookId });
 
@@ -403,7 +422,7 @@ const Yomu = {
     showBookList(pushState = true) {
         // Save current scroll position before leaving
         YomuStorage.saveAppState({ lastView: 'library', lastBookId: null });
-        
+
         document.getElementById('reader-view').classList.remove('active');
         document.body.classList.remove('reader-active');
         document.body.classList.remove('reader-controls-available');
@@ -415,11 +434,11 @@ const Yomu = {
 
         this._storeOpen = false;
         this._isReaderOpen = false;
-        
+
         if (pushState) {
             history.pushState({ view: 'library' }, '', '#library');
         }
-        
+
         this._renderBookList();
         window.scrollTo(0, 0);
     },
@@ -429,7 +448,7 @@ const Yomu = {
         document.getElementById('book-list-view').classList.add('hidden');
         document.getElementById('store-view').classList.remove('hidden');
         this._storeOpen = true;
-        
+
         if (pushState) {
             history.pushState({ view: 'store' }, '');
         }
@@ -499,7 +518,7 @@ const Yomu = {
     nextStorePage() {
         const query = document.getElementById('store-search-input').value.toLowerCase();
         const filtered = this._getFilteredStoreBooks(query);
-        
+
         if ((this._storePage + 1) * this._pageSize < filtered.length) {
             this._storePage++;
             this._renderStore(query);
@@ -530,7 +549,7 @@ const Yomu = {
 
         let html = '';
         for (const book of paged) {
-            const id = book.fileId || book.workId; 
+            const id = book.fileId || book.workId;
             const isDownloaded = downloaded.some(d => d.id === id);
             const authorText = book.author || `(著者ID: ${book.authorId})`;
             html += `
@@ -552,7 +571,7 @@ const Yomu = {
                         </div>
                     </div>
                     <div class="book-meta">
-                        <button class="download-btn ${isDownloaded ? 'downloaded' : ''}" 
+                        <button class="download-btn ${isDownloaded ? 'downloaded' : ''}"
                                 id="btn-dl-${id}"
                                 onclick="${isDownloaded ? `Yomu.openBook('${id}')` : `Yomu.downloadBook('${id}')`}">
                             ${isDownloaded ? '読む' : '本棚に追加'}
@@ -734,10 +753,10 @@ const Yomu = {
             if (processed && !processed.aozora_info) {
                 processed.aozora_info = this._catalogBookToAozoraInfo(book);
             }
-            
+
             updateStatus('解析・保存中...', 70);
             await YomuStorage.saveBookContent(bookId, processed);
-            
+
             // Add to downloaded list
             YomuStorage.addDownloadedBook({
                 id: bookId,
@@ -752,7 +771,7 @@ const Yomu = {
 
             updateStatus('完了！', 100);
             msgEl.innerHTML += '<p class="u-margin-top-20 u-font-weight-bold">本棚に追加しました。</p>';
-            
+
             okBtn.textContent = '今すぐ読む';
             okBtn.classList.remove('hidden');
             okBtn.onclick = () => {
@@ -762,7 +781,7 @@ const Yomu = {
 
             // Refresh store in background
             setTimeout(() => this._renderStore(document.getElementById('store-search-input')?.value || ''), 100);
-            
+
         } catch (e) {
             console.error('Download failed:', e);
             titleEl.textContent = 'エラー';
@@ -802,8 +821,8 @@ const Yomu = {
     // Furigana toggle
     toggleFurigana() {
         const settings = YomuStorage.getSettings();
-        const currentMode = settings.furiganaMode || 'nlp';
-        const nextMode = currentMode === 'none' ? 'nlp' : 'none';
+        const currentMode = settings.furiganaMode || 'none';
+        const nextMode = currentMode === 'none' ? 'internal' : 'none';
         this.setFuriganaMode(nextMode);
     },
 
@@ -894,56 +913,6 @@ const Yomu = {
         }
     },
 
-    async syncData() {
-        if (!await this.confirm('GitHubから最新の書籍データを取得しますか？\n（現在の読み込み中的书籍列表が更新されます）', 'データ同期')) {
-            return;
-        }
-
-        const btn = document.querySelector('button[onclick="Yomu.syncData()"]');
-        const originalText = btn.textContent;
-        btn.textContent = '同期中...';
-        btn.disabled = true;
-
-        try {
-            // 1. Sync Books
-            const url = 'https://raw.githubusercontent.com/iamcheyan/yomu/main/data/books.json';
-            const r = await fetch(url + '?t=' + Date.now());
-            if (r.ok) {
-                const books = await r.json();
-                YomuStorage.saveSetting('syncedBooks', books);
-                
-                // 2. Sync Version info
-                try {
-                    const vUrl = 'https://api.github.com/repos/iamcheyan/yomu/commits/main';
-                    const vr = await fetch(vUrl);
-                    if (vr.ok) {
-                        const vData = await vr.json();
-                        if (vData.sha) {
-                            const ver = {
-                                sha: vData.sha.substring(0, 7),
-                                date: (vData.commit?.committer?.date || '').substring(0, 10)
-                            };
-                            YomuStorage.saveSetting('version', ver);
-                        }
-                    }
-                } catch (ve) {
-                    console.warn('Version sync failed:', ve);
-                }
-
-                await this.alert(`同期完了！${books.length} 冊の書籍情報を取得しました。ページを再読み込みします。`, '同期成功');
-                window.location.reload();
-            } else {
-                throw new Error('Sync failed: ' + r.status);
-            }
-        } catch (e) {
-            console.error('Sync failed:', e);
-            await this.alert('同期に失敗しました。ネットワーク连接を確認してください。', 'エラー');
-        } finally {
-            btn.textContent = originalText;
-            btn.disabled = false;
-        }
-    },
-
     // Custom Modals (Async)
     async deleteBook(event, bookId, title) {
         event.stopPropagation(); // Don't open the book
@@ -985,7 +954,7 @@ const Yomu = {
             titleEl.textContent = title;
             msgEl.textContent = message;
             cancelBtn.classList.remove('hidden');
-            
+
             okBtn.onclick = () => {
                 overlay.classList.remove('active');
                 resolve(true);
@@ -1023,14 +992,27 @@ const Yomu = {
         }
 
         // Furigana Mode
-        const furiMode = settings.furiganaMode || 'nlp';
+        let furiMode = settings.furiganaMode || 'none';
+        if (furiMode === 'nlp' && !YomuTokenizer.isDictAvailable()) {
+            furiMode = 'internal';
+            YomuStorage.saveSetting('furiganaMode', furiMode);
+        }
         const furiSelect = document.getElementById('furigana-mode-select');
         if (furiSelect) furiSelect.value = furiMode;
-        
+
         document.body.classList.toggle('show-furigana', furiMode !== 'none');
     },
 
     setFuriganaMode(mode) {
+        if (mode === 'nlp' && !YomuTokenizer.isDictAvailable()) {
+            // Revert selection temporarily to avoid showing empty results
+            const settings = YomuStorage.getSettings();
+            const furiSelect = document.getElementById('furigana-mode-select');
+            if (furiSelect) furiSelect.value = settings.furiganaMode || 'internal';
+
+            this.promptDictDownload(false);
+            return;
+        }
         YomuStorage.saveSetting('furiganaMode', mode);
         this._applySettings();
         if (this._isReaderOpen && this.reader.getCurrentBook()) {
@@ -1040,46 +1022,18 @@ const Yomu = {
 
     _updateNlpOptionState() {
         const furiSelect = document.getElementById('furigana-mode-select');
-        const dictStatus = document.getElementById('dict-status-msg');
-        const dlBtn = document.getElementById('btn-dict-dl');
         if (!furiSelect) return;
 
         const nlpOption = furiSelect.querySelector('option[value="nlp"]');
-        const dictReady = YomuTokenizer.isDictAvailable();
-
         if (nlpOption) {
-            nlpOption.disabled = !dictReady;
-            // Hide the option if not ready to keep UI clean
-            nlpOption.style.display = dictReady ? '' : 'none';
-        }
-
-        if (dictStatus) {
-            dictStatus.textContent = dictReady ? 'ダウンロード済み' : '未ダウンロード';
-        }
-
-        const dlGroup = document.getElementById('dict-download-group');
-        if (dlGroup) {
-            // If bundled or already downloaded, we can hide the whole download section to simplify UI
-            dlGroup.style.display = dictReady ? 'none' : '';
-        }
-
-        if (dlBtn) {
-            dlBtn.disabled = dictReady;
-            dlBtn.textContent = dictReady ? '完了' : 'ダウンロード';
-        }
-
-        if (!dictReady) {
-            // Auto-downgrade if currently set to nlp
-            const settings = YomuStorage.getSettings();
-            if (settings.furiganaMode === 'nlp') {
-                YomuStorage.saveSetting('furiganaMode', 'internal');
-                furiSelect.value = 'internal';
-                this._applySettings();
-            }
+            const dictReady = YomuTokenizer.isDictAvailable();
+            nlpOption.disabled = false;
+            nlpOption.style.display = '';
+            nlpOption.textContent = dictReady ? 'Kuromoji.js' : 'Kuromoji.js（未ダウンロード）';
         }
     },
 
-    async promptDictDownload() {
+    async promptDictDownload(isAuto = false) {
         return new Promise((resolve) => {
             const overlay = document.getElementById('modal-overlay');
             const titleEl = document.getElementById('modal-title');
@@ -1088,17 +1042,33 @@ const Yomu = {
             const cancelBtn = document.getElementById('modal-cancel-btn');
 
             titleEl.textContent = '辞書ダウンロード';
-            msgEl.innerHTML = `
-                <p>ふりがな表示に必要な Kuromoji 辞書をダウンロードしますか？</p>
-                <p class="dict-progress-info">約18MB / Wi-Fi推奨</p>
-                <span class="download-status-text" id="dict-dl-status"></span>
-                <div class="download-progress-container hidden" id="dict-dl-progress-wrap">
-                    <div class="download-progress-fill" id="dict-dl-progress" style="--progress-width:0%"></div>
-                </div>
-            `;
+
+            if (isAuto) {
+                msgEl.innerHTML = `
+                    <p>形態素解析エンジン「Kuromoji」の辞書データが未ダウンロードです。</p>
+                    <p style="text-align:left; font-size:13px; line-height:1.6; margin-top:10px; color:#444;">
+                        このデータをダウンロードすることで、アプリ内のすべての単語に正確なふりがなを表示し、分かち書き（ワードラップ）の精度を向上させることができます。
+                    </p>
+                    <p class="dict-progress-info">約18MB / Wi-Fi環境推奨</p>
+                    <span class="download-status-text" id="dict-dl-status"></span>
+                    <div class="download-progress-container hidden" id="dict-dl-progress-wrap">
+                        <div class="download-progress-fill" id="dict-dl-progress" style="--progress-width:0%"></div>
+                    </div>
+                `;
+            } else {
+                msgEl.innerHTML = `
+                    <p>ふりがな表示に必要な Kuromoji 辞書をダウンロードしますか？</p>
+                    <p class="dict-progress-info">約18MB / Wi-Fi推奨</p>
+                    <span class="download-status-text" id="dict-dl-status"></span>
+                    <div class="download-progress-container hidden" id="dict-dl-progress-wrap">
+                        <div class="download-progress-fill" id="dict-dl-progress" style="--progress-width:0%"></div>
+                    </div>
+                `;
+            }
+
             okBtn.textContent = 'ダウンロード';
             okBtn.classList.remove('hidden');
-            cancelBtn.textContent = 'スキップ';
+            cancelBtn.textContent = isAuto ? '後で' : 'キャンセル';
             cancelBtn.classList.remove('hidden');
             overlay.classList.add('active');
 
@@ -1124,29 +1094,87 @@ const Yomu = {
                 if (statusEl) statusEl.textContent = 'ダウンロード中...';
 
                 YomuTokenizer.downloadDict(
-                    (filename, progress, downloaded) => {
-                        if (statusEl) statusEl.textContent = `ダウンロード中... ${filename}`;
-                        if (progressEl && progress >= 0) progressEl.style.setProperty('--progress-width', progress + '%');
+                    (overallProgress, filename, fileProgress) => {
+                        if (statusEl) statusEl.textContent = `ダウンロード中... (${overallProgress}%)`;
+                        if (progressEl) progressEl.style.setProperty('--progress-width', overallProgress + '%');
                     },
-                    async () => {
-                        if (statusEl) statusEl.textContent = '辞書を読み込み中...';
-                        if (progressEl) progressEl.style.setProperty('--progress-width', '100%');
-                        await YomuTokenizer.reinit();
-                        this._updateNlpOptionState();
-                        cleanup();
-                        resolve();
+                    async (successCount, totalCount) => {
+                        if (successCount === totalCount) {
+                            if (statusEl) statusEl.textContent = '設定を更新中...';
+                            await YomuTokenizer.reinit();
+
+                            // Auto-switch to NLP mode
+                            YomuStorage.saveSetting('furiganaMode', 'nlp');
+
+                            if (statusEl) statusEl.textContent = '完了！アプリを再起動します...';
+
+                            // Force reload after a short delay
+                            setTimeout(() => {
+                                window.location.hash = ''; // Return to library for clean start
+                                window.location.reload();
+                            }, 1500);
+                        } else {
+                            if (statusEl) statusEl.textContent = `一部のファイルのダウンロードに失敗しました (${successCount}/${totalCount})`;
+                            okBtn.textContent = '再試行';
+                            okBtn.classList.remove('hidden');
+                            cancelBtn.textContent = '閉じる';
+                            cancelBtn.classList.remove('hidden');
+                            cancelBtn.onclick = () => { cleanup(); resolve(); };
+                        }
                     },
                     (filename, error) => {
-                        if (statusEl) statusEl.textContent = `エラー: ${filename} - ${error}`;
-                        cancelBtn.classList.remove('hidden');
-                        cancelBtn.textContent = '閉じる';
-                        cancelBtn.onclick = () => { cleanup(); resolve(); };
+                        console.error(`Download error for ${filename}: ${error}`);
                     }
                 );
             };
         });
     },
 
+    async clearAllData() {
+        const overlay = document.getElementById('modal-overlay');
+        const titleEl = document.getElementById('modal-title');
+        const msgEl = document.getElementById('modal-message');
+        const okBtn = document.getElementById('modal-ok-btn');
+        const cancelBtn = document.getElementById('modal-cancel-btn');
+
+        titleEl.textContent = 'データの全削除';
+        msgEl.innerHTML = 'すべての設定、読書履歴、ダウンロードした本、および辞書データを削除しますか？<br><br><span class="u-color-error">※この操作は取り消せません。</span>';
+
+        okBtn.textContent = '削除する';
+        okBtn.classList.remove('hidden');
+        cancelBtn.textContent = 'キャンセル';
+        cancelBtn.classList.remove('hidden');
+        overlay.classList.add('active');
+
+        okBtn.onclick = async () => {
+            okBtn.classList.add('hidden');
+            cancelBtn.classList.add('hidden');
+            msgEl.textContent = '削除中...';
+
+            try {
+                await YomuStorage.clearAllData();
+                YomuTokenizer._ready = false;
+                YomuTokenizer._tokenizer = null;
+                YomuTokenizer._dictPath = null;
+                document.body.classList.remove('show-furigana');
+                msgEl.textContent = '削除完了。アプリを再起動します。';
+                setTimeout(() => {
+                    window.location.hash = '';
+                    window.location.reload();
+                }, 1500);
+            } catch (e) {
+                console.error('Clear failed:', e);
+                msgEl.textContent = '削除に失败しました。';
+                cancelBtn.classList.remove('hidden');
+                cancelBtn.textContent = '閉じる';
+                cancelBtn.onclick = () => overlay.classList.remove('active');
+            }
+        };
+
+        cancelBtn.onclick = () => {
+            overlay.classList.remove('active');
+        };
+    },
     _handlePopState(e) {
         // If state is present, use it
         if (e.state) {
