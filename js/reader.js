@@ -423,18 +423,18 @@ const YomuReader = {
 
 
 
-    /**
-     * Pinch-to-zoom gesture for font size
-     */
     _initGestures() {
         let initialDist = 0;
         let initialFontSize = 0;
         let isPinching = false;
         
-        // Target the main scrollable area or the body
         const container = document.body;
+        const readerView = document.getElementById('reader-view');
 
         container.addEventListener('touchstart', (e) => {
+            // Only allow pinch zoom in reader view
+            if (!readerView.classList.contains('active')) return;
+
             if (e.touches.length === 2) {
                 isPinching = true;
                 initialDist = Math.hypot(
@@ -447,6 +447,9 @@ const YomuReader = {
 
         container.addEventListener('touchmove', (e) => {
             if (e.touches.length === 2 && isPinching) {
+                // Double check active state
+                if (!readerView.classList.contains('active')) return;
+
                 // Prevent default browser zoom/scroll
                 e.preventDefault();
                 

@@ -10,7 +10,7 @@
     <link rel="icon" type="image/svg+xml" href="assets/app_icon.svg">
     <link rel="apple-touch-icon" href="assets/app_icon.svg">
     <link rel="stylesheet" href="css/style.css?v=5">
-    <link rel="stylesheet" href="css/animations.css" id="animation-style">
+
 </head>
 
 <body>
@@ -21,97 +21,64 @@
         <div class="loading-text" id="loading-msg">辞書を読み込み中...</div>
     </div>
 
+    <!-- ===== Shared Header (Bookshelf & Store) ===== -->
+    <div id="main-header" class="book-list-header main-header-container">
+        <h1 id="main-title">読書器</h1>
+        <div class="header-actions">
+            <button id="btn-show-store" class="icon-btn" onclick="Yomu.showStore()" title="書庫" aria-label="書庫">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+            </button>
+            <button id="btn-show-library" class="icon-btn hidden" onclick="Yomu.back()" title="戻る" aria-label="戻る">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                </svg>
+            </button>
+        </div>
+    </div>
+
     <!-- ===== 书籍列表 ===== -->
     <div id="book-list-view" class="book-list-view">
-        <div class="book-list-header">
-            <h1>読書器</h1>
-            <div class="header-actions">
-                <button id="btn-show-store" onclick="Yomu.showStore()">書庫</button>
-            </div>
-        </div>
         <div class="home-filter-panel" id="home-filter-panel">
             <div class="home-filter-main">
-                <div class="filter-chips-group">
-                    <button class="filter-chip active" data-home-filter-type="category" data-home-filter-value=""
-                        onclick="Yomu.setHomeFilter('category', '')">すべて</button>
-                    <button class="filter-chip" data-home-filter-type="category" data-home-filter-value="fiction"
-                        onclick="Yomu.setHomeFilter('category', 'fiction')">小説</button>
-                    <button class="filter-chip" data-home-filter-type="category" data-home-filter-value="children"
-                        onclick="Yomu.setHomeFilter('category', 'children')">児童文学</button>
-                    <button class="filter-chip" data-home-filter-type="category" data-home-filter-value="essay"
-                        onclick="Yomu.setHomeFilter('category', 'essay')">随筆・記録</button>
-                    <button class="filter-chip" data-home-filter-type="category" data-home-filter-value="poetry"
-                        onclick="Yomu.setHomeFilter('category', 'poetry')">詩歌</button>
-                    <button class="filter-chip" data-home-filter-type="category" data-home-filter-value="drama"
-                        onclick="Yomu.setHomeFilter('category', 'drama')">戯曲</button>
-                    <button class="filter-chip" data-home-filter-type="category" data-home-filter-value="foreign"
-                        onclick="Yomu.setHomeFilter('category', 'foreign')">海外文学</button>
+                <div class="filter-chips-group" id="home-filter-chips"></div>
+                <div class="home-pagination-header">
+                    <span id="home-page-info">1 / 1</span>
+                    <div class="header-pagination-btns">
+                        <button class="icon-btn-small" onclick="Yomu.prevHomePage()" id="btn-home-prev-header">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                        </button>
+                        <button class="icon-btn-small" onclick="Yomu.nextHomePage()" id="btn-home-next-header">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                        </button>
+                    </div>
                 </div>
-                <select class="settings-select filter-select" id="home-translation-select"
-                    onchange="Yomu.setHomeFilter('translation', this.value)">
-                    <option value="">翻訳: すべて</option>
-                    <option value="translated">翻訳あり</option>
-                    <option value="untranslated">原文のみ</option>
-                </select>
             </div>
             <div class="filter-summary" id="home-filter-summary"></div>
         </div>
-        <div id="book-grid" class="book-grid"></div>
+        <div id="book-grid" class="book-grid home-adaptive-grid"></div>
 
-        <div class="pagination-bar u-margin-bottom-20" id="home-pagination">
-            <button onclick="Yomu.prevHomePage()" id="btn-home-prev" class="page-btn">前へ</button>
-            <button onclick="Yomu.nextHomePage()" id="btn-home-next" class="page-btn">次へ</button>
-        </div>
+
     </div>
 
     <!-- ===== 书库 (Store) ===== -->
     <div id="store-view" class="store-view hidden">
-        <div class="store-header">
-            <div>
-                <h1 onclick="Yomu.showBookList()" class="u-cursor-pointer">書庫</h1>
-                <p>所蔵作品から検索して読む</p>
-            </div>
-            <div class="header-actions">
-                <button onclick="Yomu.showBookList()" class="back-btn">戻る</button>
-            </div>
-        </div>
         <div class="store-search">
             <input type="text" id="store-search-input" placeholder="作品名、著者名で検索..."
                 oninput="Yomu.filterStore(this.value)">
         </div>
         <div class="store-filter-panel" id="store-filter-panel">
             <div class="filter-group" id="filter-authors"></div>
-            <div class="filter-group">
-                <div class="filter-label">分類</div>
-                <button class="filter-chip active" data-filter-type="category" data-filter-value=""
-                    onclick="Yomu.setStoreFilter('category', '')">すべて</button>
-                <button class="filter-chip" data-filter-type="category" data-filter-value="fiction"
-                    onclick="Yomu.setStoreFilter('category', 'fiction')">小説</button>
-                <button class="filter-chip" data-filter-type="category" data-filter-value="children"
-                    onclick="Yomu.setStoreFilter('category', 'children')">児童文学</button>
-                <button class="filter-chip" data-filter-type="category" data-filter-value="essay"
-                    onclick="Yomu.setStoreFilter('category', 'essay')">随筆・記録</button>
-                <button class="filter-chip" data-filter-type="category" data-filter-value="poetry"
-                    onclick="Yomu.setStoreFilter('category', 'poetry')">詩歌</button>
-                <button class="filter-chip" data-filter-type="category" data-filter-value="drama"
-                    onclick="Yomu.setStoreFilter('category', 'drama')">戯曲</button>
-                <button class="filter-chip" data-filter-type="category" data-filter-value="foreign"
-                    onclick="Yomu.setStoreFilter('category', 'foreign')">海外文学</button>
-            </div>
-            <div class="filter-group">
-                <div class="filter-label">文字遣い</div>
-                <button class="filter-chip active" data-filter-type="orthography" data-filter-value=""
-                    onclick="Yomu.setStoreFilter('orthography', '')">すべて</button>
-                <button class="filter-chip" data-filter-type="orthography" data-filter-value="新字新仮名"
-                    onclick="Yomu.setStoreFilter('orthography', '新字新仮名')">新字新仮名</button>
-                <button class="filter-chip" data-filter-type="orthography" data-filter-value="新字旧仮名"
-                    onclick="Yomu.setStoreFilter('orthography', '新字旧仮名')">新字旧仮名</button>
-                <button class="filter-chip" data-filter-type="orthography" data-filter-value="旧字旧仮名"
-                    onclick="Yomu.setStoreFilter('orthography', '旧字旧仮名')">旧字旧仮名</button>
-            </div>
+            <div class="filter-group" id="filter-categories"></div>
+            <div class="filter-group" id="filter-orthographies"></div>
             <div class="filter-summary" id="store-filter-summary"></div>
         </div>
-        <div id="store-grid" class="book-grid"></div>
+        <div id="store-grid" class="book-grid home-adaptive-grid"></div>
 
         <div class="pagination-bar">
             <button onclick="Yomu.prevStorePage()" id="btn-prev-page" class="page-btn">前へ</button>
@@ -123,14 +90,14 @@
     <div id="reader-view" class="reader-view">
         <div class="reader-header">
             <div>
-                <h1 id="reader-title" onclick="Yomu.showBookList()" class="u-cursor-pointer"></h1>
+                <h1 id="reader-title"></h1>
                 <div class="author" id="reader-author"></div>
             </div>
         </div>
         <div id="book-frontmatter" class="book-frontmatter"></div>
         <div id="novel-content" class="novel-text font-mincho"></div>
 
-        <button id="reader-back-btn" class="reader-back-btn" onclick="Yomu.showBookList()" title="戻る" aria-label="戻る">
+        <button id="reader-back-btn" class="reader-back-btn" onclick="Yomu.back()" title="戻る" aria-label="戻る">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <path d="M15 18l-6-6 6-6"></path>
@@ -244,7 +211,7 @@
 
     <!-- Global Footer (Unified) -->
     <div class="library-footer global-footer">
-        <p><span id="library-count">0</span> 冊の蔵書</p>
+        <p>青空文庫より <span id="library-count">0</span> 冊を所蔵</p>
         <a class="github-footer-link" href="https://github.com/iamcheyan/yomu" target="_blank"
             rel="noopener noreferrer">
             <svg viewBox="0 0 24 24" aria-hidden="true">
