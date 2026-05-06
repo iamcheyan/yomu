@@ -534,6 +534,14 @@ rt {
     font-size: 0.01px;
 }
 
+.novel-text.font-mincho rt {
+    font-family: "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+}
+
+.novel-text.font-gothic rt {
+    font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS Mincho", serif;
+}
+
 body.show-furigana rt {
     opacity: 1;
     font-size: 0.55em;
