@@ -315,316 +315,1696 @@
     "このファイルは、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。"
   ],
   "translations": [
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    []
+    [
+      {
+        "text": "【#三级标题】【#中标题】前桥的铃兰灯笼【#中标题结束】",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "从停车场前绕着市区外侧的新修八间道路是前桥市的一大景观。悬铃木行道树让深绿的叶子在晚风中摇曳，看起来就很凉爽了。夜里会挂上造型仿铃兰的铃兰灯笼，有种适合夏夜的“易明”之感。民谣两篇。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "text": "来了就好好看看",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "铃兰灯笼",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "小花四姐妹",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "亲生父母中的一位",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "夜的前橋啊。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "铃兰灯笼",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "月亮不出来吗？",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "没有黑暗",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "[三级标题] [二级标题] 榛名与赤城连山 [二级标题结束]",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "西边能看见榛名连山，北边能看见赤城连山。前橋市是被自然美景环抱的城市。民謡三篇。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "text": "从榛名山出发",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "即使是乌鸦的孩子",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "我跟你玩吧。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "飞过来哦",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "从赤城山出发",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "哪怕是兔子的孩子",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "我和你一起玩吧。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "蹦过来呀",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "乌鸦啊，不来啊，不来啊。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "兔也不来",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "我跟你玩吧。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "不愿意吗？",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "[三级标题] [中标题] 越后街道至渋川 [中标题结束]",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "从前橋市，沿着越后街道顺着利根的流向，往渋川去。这一带全是桑田。一首童谣。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "text": "这里附近是",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "桑畑",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "如果看到了蚕的话",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "赶快来哈",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "阿拉拉诺拉茨特巴",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "アララノラ",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "桑畑中，到处散落着芋畑，芋叶随风轻轻摇曳。一首民谣。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "text": "因为土用来了",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "田里的土豆是……",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "孩子也怀上了吗？",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "匆匆忙忙",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "走大约二里路，就有群马县境内最古老的铁桥坂东桥。利根的水正以汹涌的势头从桥下流过。听说这一带是利根川唯一的香鱼产地。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "阿由在河边嬉戏。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "我在田野和孩子一起玩挥旗游戏。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "想起在长良川游玩时的旧作，于是渡过坂東橋。一首民谣。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "text": "过坂东桥",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "坂東橋を渡る",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "小鮎子看见土了",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "狐狸花开了。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "绽放又凋零",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "又绽放了。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "小あゆこ，别往这边看",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "狐狸花开了。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "这片附近的田园里，到处开着红色狐花。</think_never_used_51bce0c785ca2f68081bfa7d91973934>这片附近的田园里，到处开着红色狐花。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "[三字缩进] [中标题] 半田乌与八木原狐 [中标题结束]",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "过了坂東桥，就是群马县有名的模范村古巻村。直到十多年前，这里还是个到了被传唱作“半田乌配八木原狐”程度的极度淫靡的不良村，如今却在现任村长儘田氏的努力下，成了全国数一数二的模范村。关于儘田氏至今的努力，有太多听了都会落泪的佳话。从村民如今尊称儘田氏为二宫并敬重他这一点，也能想象出他是一位多么实践实干的人格者。童谣一篇。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "text": "儘田村長さんは",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "开枪了",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "半田乌是",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "已经不在了",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "八木原的狐狸也",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "已经不在了",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "儘田村長さんは",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "打了枪",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "不久，我们抵达了渋川町。大利根在渋川分为两支，一支流向沼田方向，另一支流向草津方向。我站在草津方向的利根水源吾妻川旁的渋川。从这里开始，便是我要撰写的关于利根水源的探险记了。这是一篇民间传说。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "text": "上州渋川",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "直到再次到来之前",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "我居然来了啊",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "别说话了。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "长野街道的宿场",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "越後街道在渋川分为两段，其中一段变为长野街道。长野街道是沿着利根河的支流吾妻川进入信濃路的唯一一条川街道。我朝着长野街道和吾妻川的源头走去，站在渋川边。街道上的宿场，还有马车停放的地方、古色古香的茶店，以及保留着往日风貌的景点。有四篇民间歌谣。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "text": "长野街道的",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "在道真村中",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "马在叫着",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "你看着我",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "长野街道的",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "是烟子，是烟子，马是",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "是在哪儿出生的？",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "马或者",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "踢了小石子的话",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "茶店门前",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "小石子吃了一惊",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "摔倒了。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "小石啊！吓傻了！",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "再也不会踢你了",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "眺望着脚后跟",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "如此想呢。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "鱼无法生存的河",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "吾妻川从吾妻郡中央连绵的山脚下奔腾而下，流入大利根。沼尻桥的景色、岩井洞的奇观，到处都是壮丽景观。一首民谣。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "text": "不断往下不断往下",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "早濑的水是",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "为什么这么着急？",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "流淌着",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "从草津温泉到涩川大约十里，吾妻川的这一流域流着草津温泉的水，一条鱼都没有。我试着把这十里的流域命名为《鱼不栖川》。民谣两篇。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "text": "上州吾妻",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "是前世的缘分吗",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "鱼儿无法栖息的地方",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "也有河",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "鱼儿无法栖息的地方",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "吾妻川的",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "凝视着水面。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "所谓的“给我过日子”是…",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "[三级标题] [中标题] 山间特有的美人乡 [中标题结束]",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "在东京很少能看到素颜的女性，不过在这里全是素颜的女性。而且美人这么多，大概是山间特有的天恩吧。\n三首民谣。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "text": "姐姐，看这里！",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "稍微露个脸啦",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "脸颊的笑窝",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "无法翻译该日语内容，其可能存在拼写错误、语法不完整或方言过度缩略的问题，请核对原文后再次尝试。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "脸颊上的笑窝",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "妈妈给的",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“别摔倒了，别弄丢了。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "你跟我说了",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "鼻緒が切れた。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "要是下駄的话才不要呢",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "珂落与妈妈",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "被骂",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "即使能见到素颜的美人，但毕竟是在山间的偏僻之地，像东京那样能见到现代女孩的机会是找不到的。就像一首童谣。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "text": "摩登女郎哟",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "没有吗？已经？",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "射干条纹蛇",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "再见啦！",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "条纹蛇，喂！",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "现代女孩，哟~",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "不在吗？喂",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "现代女孩，哟~",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "ゐたら条纹蛇",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "咱们走吧。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "卖解毒药的女子军",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "不久便抵达了中之条町。吾妻川在这里分为主流和支流。我沿着吾妻川的支流，沿着四万街道前行。四万街道是在四里长的峡谷中，沿着河流建造通往四万温泉的道路。途中，遇到了从越后来的卖毒消药的娘子军，成为了同行者。娘子军虽然行为古怪，但毕竟是女人啊。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "“离开越後的时候呀哟、眼泪也流下来了呀哟”之类的，带着像是说着忍受不了思乡之情的神情，一边唱一边走着。一首民谣。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "text": "山间升起了雾气。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "致雉子之子",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "越后恋得紧",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "轻拍",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "[三级标题] [中标题] 四万温泉的一夜 [中标题结束]",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "四万是峡谷里冷清的温泉场，但有好几家设施相当完备的温泉旅馆。我从田村旅馆的三楼将四万的全景尽收眼底。吾妻川的支流变成了狭窄的谷川，从旅馆前面流过。虽小，但上游有小倉瀑布、大泉瀑布、日南見瀑布等名胜。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "夕雾绕山而行，不知不觉间，太阳已在雾中沉没。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "正好是那天夜里的丑满时分。传来了刺破黑暗的尖锐报时声。刚觉得奇怪的那一瞬间，又听到了楼上楼下走廊里来回乱跑的杂乱脚步声。我直觉是‘山贼来袭’，立刻跳了起来。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "[三级标题] [二级标题] 四万温泉的丑时[二级标题结束]",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "丑时将尽之际，划破黑暗传来的呐喊声，以及那非同寻常的廊侧脚步声——我当即以为是山贼来袭，没想到却是报丑刻的田村旅馆的掌柜们的怒吼声。童谣一篇。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "text": "四万田村",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "掌柜们是",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "呦呦呦，好极了！",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "发出呐喊声",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "夜半时分，丑时已至。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "哟咿哟咿哟伊萨",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "夜深人静之时",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "领班也困了",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "哟哟哟，真是的。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "一副睡眼惺忪的样子",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "大声喧哗",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "好呀好呀好呀",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "今天正是土用丑日。据说在丑时泡温泉对百病有特效，所以店家就告诉浴客了具体时间。真是亲切的店长们啊。就像一首童谣。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "text": "客人，起床啦",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "丑时已到。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "再不快点起床的话",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "丑时归去",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "若是回去一次的话",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "今年是不会来的。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "我讨厌贪睡的人",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "我不困，不想睡。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "“回去吧回去吧”地",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "浴室里看看。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "客人，请起来",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "丑时已到。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "第二天，回到中之条，重新沿着吾妻川的主流踏上长野街道启程。四万温泉的景色缺乏变化。一首民谣。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "text": "四万日元就能泡温泉。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "大利根川的",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "最后，或是随波逐流。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "变成水",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "[三级标题] [中标题] 关东的野马溪 [中标题结束]",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "从中之条到原町、从原町到郷原《さとはら》的沿吾妻川的街道是一片多麻田的平和农村。民谣两篇。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "text": "田畑踏破踏",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "要是被问起是不是土用的话",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "土用到了，土用到了。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "麻说了",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "麻的嫩叶",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "无论飘落，还是枯萎",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "土用に刈りよくやか。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "把麻树",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "从岩岛望去，对岸的山峦连绵起伏，吾妻川逐渐变得湍急。从岩岛到川原汤大约两里的路程，被誉为关东第一绝景的这条街道，然而看到吾妻川的水声如雷，水汽腾腾地流淌，反而觉得更加壮观。一首民谣。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "text": "要说这里与銚子",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "五十里也如此。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "水别睡哦",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "流淌而来",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "从河底涌出的温泉",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "不久抵达长野县。吾妻川在这里也分为主流和支流。我沿着支流须川往上走。大约两里路的地方有汤之平温泉。再往上两里路有花敷温泉。这两个温泉都是从河底喷涌而出的，真是奇观。就像一首童谣。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "text": "好疼好疼好疼",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "从河里跳出来",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "涌出来，溢出来",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "须川流淌而去",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "流啊流啊",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "吾妻川へ",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "被反复揉搓着",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "大利根川へ",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "咕咚咕咚咕咚",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "洒落而出",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "草津温泉的名产",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "从湯の平温泉翻越一座山，就是那句“即使是医生，在草津的温泉里……”的草津温泉。草津温泉有著名的“汤揉”，有名景“赛之河原”，还有神秘的“冰谷”。这三者都是其他地方看不到的，是草津温泉的瑰宝。民谣三篇。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "text": "搓澡呀，开始了",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "汤长《ゆちやう》先生的倡议",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "领唱是老婆呀",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "热水不沸腾",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "在賽的河原",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "我本以为不行呢。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "石头的地藏菩萨",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "试着抚摸了一下。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "氷谷かよ",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "即便是在夏天，也感觉很冷。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "从岩石之中",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "风儿吹拂。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "我离开草津温泉，前往吾妻川本流的水源地、上信国境的鸟居峠。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "长野街道一直延伸至吾妻川的主流。即便看到落叶松的林子和与白桦交织的杂树林，也能感受到这一带是高原。民谣一首。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "text": "在杂树林里",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "披上白布",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "可爱的白樺",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "布拭去",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "不久过了嬬恋，到达了鹿泽温泉。吾妻川的干流变成了溪流。接下来的水源探索就想交给探险家了。沿着我此行目的的大利根支流吾妻川，一边唱着童谣一边唱着民谣的旅行，到此结束了。鹿泽温泉是上州唯一的高原温泉，四周的景色非常雄伟。一篇民谣。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "text": "浅间裾野的",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "六里原也",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "一路畅通无阻",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "风吹",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "底本：《定本 野口雨情 第六卷》未来社",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "1986（昭和61）年9月25日第1版第1次印刷发行",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "底本的原版：「东京日日新闻」",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "1926（大正15）年7月29日、8月3日、8月4日",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "初出：《东京日日新闻》",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "1926（大正15）年7月29日、8月3日、8月4日",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "输入：林幸雄",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "校正：今井忠夫",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "2003年11月24日制作",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "2016年2月7日修正",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "青空文库制作文件：",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "这个文件是在互联网图书馆青空文库（http://www.aozora.gr.jp/）制作完成的。参与录入、校对、制作的是各位志愿者。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ]
   ],
   "desc": "",
   "aozora_info": {

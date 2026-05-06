@@ -2,8 +2,6 @@ plugins {
     id 'com.android.application'
 }
 
-import groovy.json.JsonSlurper
-
 android {
     namespace 'com.yomu.app'
     compileSdk 33
@@ -25,9 +23,14 @@ android {
 }
 
 def webAssetOutputDir = layout.projectDirectory.dir('src/main/assets')
-def bundledBookIds = new JsonSlurper()
-        .parse(file('../../data/books.json'))
-        .collect { it.id }
+// Only bundle 4 books to keep APK small; kuromoji dict downloaded at runtime
+def bundledBookIds = [
+    '18340_ruby_13244', 'hashire_melos', '752_ruby_2438', 'sangetsuki', 'mai_hime',
+    '301_ruby_5915', 'kokoro', 'gingatetsudo', 'kumo_no_ito', 'kazetachinu',
+    '424_ruby_19825', 'yodaka_no_hoshi', 'takasebune', 'gakumon_no_susume',
+    'wagahai_neko', '794_ruby_4237', 'chumon_ryori', '48310_ruby_42452',
+    'izunodori', 'yuki_onna'
+]
 
 // 编译前自动同步 Web 文件到 assets
 tasks.register('syncWebAssets', Copy) {
@@ -35,14 +38,16 @@ tasks.register('syncWebAssets', Copy) {
         include 'index.html'
         include 'css/**'
         include 'js/**'
-        include 'libs/**'
+        include 'libs/kuromoji.js'
         include 'assets/**'
         include 'manifest.json'
 
         // 核心数据文件
         include 'data/books.json'
+        include 'data/version.json'
         include 'data/aozora_catalog_preview.json'
         include 'data/aozora_catalog_compact.json'
+        include 'libs/dict/*.dat.gz'
 
         // 打包首页精选书目
         bundledBookIds.each { bookId ->

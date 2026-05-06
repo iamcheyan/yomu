@@ -1,11 +1,45 @@
 /**
- * Yomu Storage - localStorage wrapper for settings and vocabulary
+ * Yomu Storage - External storage primary, localStorage fallback
+ * On Android: reads/writes to /sdcard/Yomu/data/ via YomuNative bridge
+ * On Web: uses localStorage and IndexedDB as before
  */
 const YomuStorage = {
     PREFIX: 'yomu_',
+    _extCache: {},      // Cache of data loaded from external storage
+    _isAndroid: false,
+    _progressTimer: null,
+
+    /**
+     * Initialize storage: load from external storage if available
+     */
+    async init() {
+        this._isAndroid = !!window.YomuNative;
+        if (!this._isAndroid) return;
+
+        // Load persistent data from external storage
+        const keys = ['settings', 'progress', 'downloaded_books'];
+        for (const key of keys) {
+            try {
+                const json = window.YomuNative.readFile(key + '.json');
+                if (json) {
+                    const data = JSON.parse(json);
+                    this._extCache[key] = data;
+                    // Also sync to localStorage for fast access
+                    localStorage.setItem(this.PREFIX + key, JSON.stringify(data));
+                    console.log(`[Storage] Loaded ${key} from external storage`);
+                }
+            } catch (e) {
+                console.warn(`[Storage] Failed to load ${key} from external:`, e);
+            }
+        }
+    },
 
     get(key, defaultVal) {
         try {
+            // External cache takes priority on Android
+            if (this._isAndroid && this._extCache[key] !== undefined) {
+                return this._extCache[key];
+            }
             const val = localStorage.getItem(this.PREFIX + key);
             return val !== null ? JSON.parse(val) : defaultVal;
         } catch (e) {
@@ -15,34 +49,64 @@ const YomuStorage = {
 
     set(key, val) {
         try {
+            // Update cache
+            if (this._isAndroid) {
+                this._extCache[key] = val;
+            }
+            // Always write to localStorage (fast, synchronous)
             localStorage.setItem(this.PREFIX + key, JSON.stringify(val));
+            // Async write to external storage
+            if (this._isAndroid) {
+                this._syncToExt(key, val);
+            }
         } catch (e) {
             console.warn('Storage save failed:', e);
         }
     },
 
-    remove(key) {
-        localStorage.removeItem(this.PREFIX + key);
+    _syncToExt(key, val) {
+        try {
+            window.YomuNative.saveFile(key + '.json', JSON.stringify(val));
+        } catch (e) {
+            console.warn(`[Storage] External sync failed for ${key}:`, e);
+        }
     },
 
-    // Reading progress: { bookId: { scrollPercent, lastRead } }
+    remove(key) {
+        localStorage.removeItem(this.PREFIX + key);
+        if (this._isAndroid) {
+            delete this._extCache[key];
+            try { window.YomuNative.deleteFile(key + '.json'); } catch (e) {}
+        }
+    },
+
+    // ===== Reading Progress =====
     getProgress(bookId) {
         const all = this.get('progress', {});
         return all[bookId] || { scrollPercent: 0, lastRead: null };
     },
 
     saveProgress(bookId, scrollPercent, scrollTop, paraIndex) {
-        const progress = JSON.parse(localStorage.getItem('yomu_progress') || '{}');
-        progress[bookId] = { 
-            scrollPercent, 
-            scrollTop, 
+        const progress = this.get('progress', {});
+        progress[bookId] = {
+            scrollPercent,
+            scrollTop,
             paraIndex,
-            lastRead: Date.now() 
+            lastRead: Date.now()
         };
-        localStorage.setItem('yomu_progress', JSON.stringify(progress));
+        // Always update localStorage immediately
+        localStorage.setItem(this.PREFIX + 'progress', JSON.stringify(progress));
+        if (this._isAndroid) {
+            this._extCache.progress = progress;
+            // Debounce external writes (progress updates frequently during scroll)
+            if (this._progressTimer) clearTimeout(this._progressTimer);
+            this._progressTimer = setTimeout(() => {
+                this._syncToExt('progress', progress);
+            }, 3000);
+        }
     },
 
-    // App state: { lastView, lastBookId }
+    // ===== App State =====
     getAppState() {
         return this.get('app_state', { lastView: 'library', lastBookId: null });
     },
@@ -53,45 +117,13 @@ const YomuStorage = {
         this.set('app_state', updated);
     },
 
-    // Vocabulary list
-    getVocab() {
-        return this.get('vocab', []);
-    },
-
-    addVocab(word, reading, meaning, pos, bookId, lemma, posDetail) {
-        const vocab = this.getVocab();
-        const exists = vocab.find(v => v.word === word && v.reading === reading);
-        if (exists) return false;
-        vocab.unshift({ 
-            word, 
-            reading, 
-            meaning, 
-            pos, 
-            bookId, 
-            lemma,
-            posDetail,
-            addedAt: Date.now() 
-        });
-        this.set('vocab', vocab);
-        return true;
-    },
-
-    removeVocab(word, reading) {
-        const vocab = this.getVocab().filter(v => !(v.word === word && v.reading === reading));
-        this.set('vocab', vocab);
-    },
-
-    isMarked(word, reading) {
-        return this.getVocab().some(v => v.word === word && v.reading === reading);
-    },
-
-    // Settings
+    // ===== Settings =====
     getSettings() {
         return this.get('settings', {
             fontSize: 20,
             lineHeight: 2.2,
             font: 'mincho',
-            furiganaMode: 'nlp', // 'none', 'internal', 'nlp'
+            furiganaMode: 'nlp',
             noAnimation: true
         });
     },
@@ -136,10 +168,10 @@ const YomuStorage = {
             request.onerror = (e) => reject(e);
         });
 
-        // 2. If on Android, also save to Filesystem (User Home Dir)
+        // 2. If on Android, also save to external storage
         if (window.YomuNative) {
             try {
-                window.YomuNative.saveFile(bookId + '.json', JSON.stringify(data));
+                window.YomuNative.saveFile('novels/' + bookId + '.json', JSON.stringify(data));
                 console.log('[Storage] Saved to Android filesystem:', bookId);
             } catch (e) {
                 console.error('[Storage] Android filesystem save failed:', e);
@@ -158,10 +190,10 @@ const YomuStorage = {
             request.onerror = (e) => reject(e);
         });
 
-        // 2. Fallback to Android filesystem if not in IndexedDB
+        // 2. Fallback to Android external storage
         if (!data && window.YomuNative) {
             try {
-                const json = window.YomuNative.readFile(bookId + '.json');
+                const json = window.YomuNative.readFile('novels/' + bookId + '.json');
                 if (json) {
                     data = JSON.parse(json);
                     console.log('[Storage] Loaded from Android filesystem:', bookId);
@@ -186,7 +218,7 @@ const YomuStorage = {
         });
     },
 
-    // Local library management (list of downloaded books)
+    // ===== Local library management =====
     getDownloadedBooks() {
         return this.get('downloaded_books', []);
     },

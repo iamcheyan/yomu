@@ -112,6 +112,98 @@ public class MainActivity extends Activity {
                     return "[]";
                 }
             }
+
+            @android.webkit.JavascriptInterface
+            public boolean fileExists(String filename) {
+                try {
+                    File file = new File("/sdcard/Yomu/data", filename);
+                    return file.exists();
+                } catch (Exception e) {
+                    return false;
+                }
+            }
+
+            @android.webkit.JavascriptInterface
+            public boolean deleteFile(String filename) {
+                try {
+                    File file = new File("/sdcard/Yomu/data", filename);
+                    return file.exists() && file.delete();
+                } catch (Exception e) {
+                    return false;
+                }
+            }
+
+            @android.webkit.JavascriptInterface
+            public String getExternalPath() {
+                return "/sdcard/Yomu/data";
+            }
+
+            @android.webkit.JavascriptInterface
+            public void downloadFile(final String url, final String filename) {
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        try {
+                            File dir = new File("/sdcard/Yomu/data");
+                            // Support subdirectories (e.g., "dict/base.dat.gz")
+                            int lastSlash = filename.lastIndexOf('/');
+                            if (lastSlash > 0) {
+                                dir = new File("/sdcard/Yomu/data", filename.substring(0, lastSlash));
+                            }
+                            if (!dir.exists()) dir.mkdirs();
+
+                            File outFile = new File("/sdcard/Yomu/data", filename);
+                            java.net.URL u = new java.net.URL(url);
+                            java.net.HttpURLConnection conn = (java.net.HttpURLConnection) u.openConnection();
+                            conn.setRequestMethod("GET");
+                            conn.setConnectTimeout(15000);
+                            conn.setReadTimeout(60000);
+                            conn.connect();
+
+                            int totalSize = conn.getContentLength();
+                            java.io.InputStream is = conn.getInputStream();
+                            java.io.FileOutputStream fos = new java.io.FileOutputStream(outFile);
+                            byte[] buffer = new byte[8192];
+                            int bytesRead;
+                            long[] downloaded = {0};
+                            while ((bytesRead = is.read(buffer)) != -1) {
+                                fos.write(buffer, 0, bytesRead);
+                                downloaded[0] += bytesRead;
+                                final int progress = totalSize > 0 ? (int) (downloaded[0] * 100 / totalSize) : -1;
+                                final long dlBytes = downloaded[0];
+                                webView.post(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        webView.evaluateJavascript(
+                                            "if(window.YomuNativeCallback) YomuNativeCallback.onDownloadProgress('" + filename + "'," + progress + "," + dlBytes + ")", null);
+                                    }
+                                });
+                            }
+                            fos.close();
+                            is.close();
+                            conn.disconnect();
+
+                            webView.post(new Runnable() {
+                                @Override
+                                public void run() {
+                                    webView.evaluateJavascript(
+                                        "if(window.YomuNativeCallback) YomuNativeCallback.onDownloadComplete('" + filename + "')", null);
+                                }
+                            });
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                            final String errMsg = e.getMessage();
+                            webView.post(new Runnable() {
+                                @Override
+                                public void run() {
+                                    webView.evaluateJavascript(
+                                        "if(window.YomuNativeCallback) YomuNativeCallback.onDownloadError('" + filename + "','" + errMsg + "')", null);
+                                }
+                            });
+                        }
+                    }
+                }).start();
+            }
         }, "YomuNative");
 
         // 处理 APK 下载和安装

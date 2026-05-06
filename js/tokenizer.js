@@ -4,12 +4,28 @@
 const YomuTokenizer = {
     _tokenizer: null,
     _ready: false,
+    _dictPath: null,
+
+    DICT_FILES: [
+        'base.dat.gz', 'cc.dat.gz', 'check.dat.gz',
+        'tid.dat.gz', 'tid_map.dat.gz', 'tid_pos.dat.gz',
+        'unk.dat.gz', 'unk_char.dat.gz', 'unk_compat.dat.gz',
+        'unk_invoke.dat.gz', 'unk_map.dat.gz', 'unk_pos.dat.gz'
+    ],
+
+    CDN_BASE: 'https://cdn.jsdelivr.net/npm/kuromoji@0.1.2/dict/',
 
     async init() {
-        const paths = [
-            'libs/dict',
-            'https://cdn.jsdelivr.net/npm/kuromoji@0.1.2/dict/'
-        ];
+        const isAndroid = !!window.YomuNative;
+
+        // Priority: external storage > APK assets > CDN
+        const paths = [];
+        if (isAndroid) {
+            const extPath = window.YomuNative.getExternalPath() + '/dict';
+            paths.push(extPath);
+        }
+        paths.push('libs/dict');
+        paths.push(this.CDN_BASE);
 
         for (const dicPath of paths) {
             try {
@@ -21,51 +37,100 @@ const YomuTokenizer = {
                 });
                 this._tokenizer = tokenizer;
                 this._ready = true;
+                this._dictPath = dicPath;
+                console.log('[Tokenizer] Loaded from:', dicPath);
                 return;
             } catch (e) {
-                console.warn(`Failed to load tokenizer from ${dicPath}:`, e);
+                console.warn(`[Tokenizer] Failed from ${dicPath}:`, e);
             }
         }
-        
-        throw new Error('All tokenizer initialization attempts failed.');
+
+        console.warn('[Tokenizer] All paths failed. Kuromoji unavailable.');
     },
 
+    /**
+     * Check if dictionary is available locally (not CDN)
+     */
+    isDictAvailable() {
+        if (this._ready && this._dictPath !== this.CDN_BASE) return true;
+        if (!window.YomuNative) return this._ready;
+        return window.YomuNative.fileExists('dict/base.dat.gz');
+    },
+
+    /**
+     * Check if tokenizer is ready
+     */
     isReady() {
         return this._ready;
     },
 
     /**
-     * Tokenize a text string and return tokens with ruby info
-     * @param {string} text - Japanese text
-     * @returns {Array} tokens
+     * Download dictionary files to external storage
+     * @param {function} onProgress - callback(filename, progressPercent, downloadedBytes)
+     * @param {function} onComplete - callback when all files downloaded
+     * @param {function} onError - callback(filename, errorMsg)
      */
+    downloadDict(onProgress, onComplete, onError) {
+        if (!window.YomuNative) {
+            if (onError) onError('*', 'Not on Android');
+            return;
+        }
+
+        // Set up global callback for native bridge
+        let completed = 0;
+        const total = this.DICT_FILES.length;
+
+        window.YomuNativeCallback = {
+            onDownloadProgress: (filename, progress, downloaded) => {
+                if (onProgress) onProgress(filename, progress, downloaded);
+            },
+            onDownloadComplete: (filename) => {
+                completed++;
+                console.log(`[Tokenizer] Downloaded ${filename} (${completed}/${total})`);
+                if (completed >= total) {
+                    delete window.YomuNativeCallback;
+                    if (onComplete) onComplete();
+                }
+            },
+            onDownloadError: (filename, error) => {
+                console.error(`[Tokenizer] Download failed: ${filename} - ${error}`);
+                if (onError) onError(filename, error);
+            }
+        };
+
+        // Start downloads
+        for (const file of this.DICT_FILES) {
+            const url = this.CDN_BASE + file;
+            window.YomuNative.downloadFile(url, 'dict/' + file);
+        }
+    },
+
+    /**
+     * Reinitialize after dictionary download
+     */
+    async reinit() {
+        this._ready = false;
+        this._tokenizer = null;
+        await this.init();
+    },
+
     tokenize(text) {
         if (!this._tokenizer) return [];
         return this._tokenizer.tokenize(text);
     },
 
-    /**
-     * Check if a token needs ruby annotation
-     * A token needs ruby if it contains kanji and has a different reading
-     */
     needsRuby(token) {
         if (!token || !token.surface_form) return false;
         const surface = token.surface_form;
         const reading = token.reading;
-        // Has kanji characters
         const hasKanji = /[一-鿿]/.test(surface);
         if (!hasKanji) return false;
-        // Reading differs from surface (means kanji needs annotation)
         if (reading && reading !== surface) return true;
         return false;
     },
 
-    /**
-     * Get the hiragana reading for a token
-     */
     getHiragana(token) {
         if (!token || !token.reading) return '';
-        // kuromoji returns katakana reading, convert to hiragana
         return this.katakanaToHiragana(token.reading);
     },
 
@@ -75,96 +140,49 @@ const YomuTokenizer = {
         );
     },
 
-    /**
-     * Get the lemma (base/dictionary form) of a token
-     */
     getLemma(token) {
         if (!token) return '';
         return token.basic_form === '*' ? token.surface_form : token.basic_form;
     },
 
-    /**
-     * Get part of speech in Japanese
-     */
     getPOS(token) {
         if (!token) return '';
         const pos = token.pos;
-        const posDetail = token.pos_detail_1;
         const map = {
-            '名詞': '名詞',
-            '動詞': '動詞',
-            '形容詞': '形容詞',
-            '副詞': '副詞',
-            '助詞': '助詞',
-            '助動詞': '助動詞',
-            '接続詞': '接続詞',
-            '感動詞': '感動詞',
-            '連体詞': '連体詞',
-            '接頭詞': '接頭詞',
-            '記号': '記号',
-            'フィラー': 'フィラー',
+            '名詞': '名詞', '動詞': '動詞', '形容詞': '形容詞',
+            '副詞': '副詞', '助詞': '助詞', '助動詞': '助動詞',
+            '接続詞': '接続詞', '感動詞': '感動詞', '連体詞': '連体詞',
+            '接頭詞': '接頭詞', '記号': '記号', 'フィラー': 'フィラー',
             'その他': 'その他'
         };
         return map[pos] || pos;
     },
 
-    /**
-     * Get POS in English for dictionary display
-     */
     getPOSEnglish(token) {
         if (!token) return '';
         const map = {
-            '名詞': 'noun',
-            '動詞': 'verb',
-            '形容詞': 'adjective',
-            '副詞': 'adverb',
-            '助詞': 'particle',
-            '助動詞': 'auxiliary',
-            '接続詞': 'conjunction',
-            '感動詞': 'interjection',
-            '連体詞': 'adnominal',
-            '接頭詞': 'prefix',
-            '記号': 'symbol',
-            'フィラー': 'filler',
-            'その他': 'other'
+            '名詞': 'noun', '動詞': 'verb', '形容詞': 'adjective',
+            '副詞': 'adverb', '助詞': 'particle', '助動詞': 'auxiliary',
+            '接続詞': 'conjunction', '感動詞': 'interjection',
+            '連体詞': 'adnominal', '接頭詞': 'prefix', '記号': 'symbol',
+            'フィラー': 'filler', 'その他': 'other'
         };
         return map[token.pos] || token.pos;
     },
 
-    /**
-     * Check if token is a content word (not function word)
-     */
     isContentWord(token) {
         if (!token) return false;
         const skip = ['助詞', '助動詞', '記号', '接続詞', 'フィラー', 'その他'];
         return !skip.includes(token.pos);
     },
 
-    /**
-     * Render a paragraph with ruby annotations and clickable tokens
-     * @param {string} text - raw text paragraph (may contain Aozora 《》｜ ruby)
-     * @param {boolean} forceAuto - whether to force kuromoji for all kanji
-     * @returns {string} HTML with ruby tags and word-token spans
-     */
     renderParagraph(text, forceAuto = false) {
         if (!text) return `<p>${text}</p>`;
-
-        // Hybrid Mode: Preserve Aozora markers and fill gaps with NLP
-        if (forceAuto) {
-            return this._renderHybridParagraph(text);
-        }
-
-        // Standard Aozora mode
-        if (text.includes('《') || text.includes('［＃')) {
-            return this._renderAozoraParagraph(text);
-        }
-        
+        if (forceAuto) return this._renderHybridParagraph(text);
+        if (text.includes('《') || text.includes('［＃')) return this._renderAozoraParagraph(text);
         return this._renderKuromojiParagraph(text, false);
     },
 
-    /**
-     * Hybrid Rendering: Use Aozora markers where present, NLP for the rest
-     */
     _renderHybridParagraph(text) {
         let html = '';
         let lastIndex = 0;
@@ -172,14 +190,9 @@ const YomuTokenizer = {
         let match;
 
         while ((match = regex.exec(text)) !== null) {
-            // Text before this marker - process with NLP
             const before = text.slice(lastIndex, match.index);
-            if (before) {
-                // Tokenize and add furigana to all kanji in the 'before' block
-                html += this._renderKuromojiParagraph(before, true, true);
-            }
+            if (before) html += this._renderKuromojiParagraph(before, true, true);
 
-            // Handle the matched marker (Same as _renderAozoraParagraph)
             if (match[1] !== undefined) {
                 html += this._makeRuby(match[1], this._kataToHira(match[2]));
             } else if (match[3] !== undefined) {
@@ -189,7 +202,6 @@ const YomuTokenizer = {
                 html += `<span class="gaiji-badge">${this._escapeHtml(desc)}</span>`;
             } else if (match[8] !== undefined) {
                 const note = match[8].replace(/^［＃|］$/g, '');
-                // 过滤掉纯布局、分页、样式类的标注，这些不应作为注脚显示
                 const isLayoutNote = note.match(/字下げ|字上げ|地から|改頁|見出し|改段|中見出し|大見出し|小見出し|改丁|太字|斜体|窓書き/);
                 if (!isLayoutNote) {
                     html += `<span class="annotation-wrapper"><span class="annotation-icon">㊟</span><span class="annotation-content">${this._escapeHtml(note)}</span></span>`;
@@ -199,86 +211,61 @@ const YomuTokenizer = {
         }
 
         const after = text.slice(lastIndex);
-        if (after) {
-            html += this._renderKuromojiParagraph(after, true, true);
-        }
-
+        if (after) html += this._renderKuromojiParagraph(after, true, true);
         if (!html.trim()) return '';
         return `<p>${html}</p>`;
     },
 
-    /**
-     * Parse Aozora Bunko format: ruby 《》｜ and annotations ［＃...］
-     */
     _renderAozoraParagraph(text) {
         let html = '';
         let lastIndex = 0;
 
-        // Check for indentation at paragraph start
         let indentMatch = text.match(/^［＃(\d+)字下げ］/);
         let prefix = '';
         if (indentMatch) {
             const indent = parseInt(indentMatch[1]);
-            prefix = ` style="text-indent:${indent}em"`;
+            prefix = ` style="--indent:${indent}em" class="u-indent"`;
             lastIndex = indentMatch[0].length;
         }
 
-        // Combined regex for all markers
         const regex = /｜([^｜《》]+)《([^》]+)》|([一-鿿々〆〇]+)《([^》]+)》|※(［＃[^］]+］)|(［＃「([^」]+)」に傍点］)|(［＃[^］]+］)/g;
         let match;
 
         while ((match = regex.exec(text)) !== null) {
-            // Text before this marker
             const before = text.slice(lastIndex, match.index);
             if (before) html += this._escapeHtml(before);
 
             if (match[1] !== undefined) {
-                // ｜...《...》 - explicit ruby
-                const kanji = match[1];
-                const reading = this._kataToHira(match[2]);
-                html += this._makeRuby(kanji, reading);
+                html += this._makeRuby(match[1], this._kataToHira(match[2]));
             } else if (match[3] !== undefined) {
-                // 漢字《かな》 - implicit ruby
-                const kanji = match[3];
-                const reading = this._kataToHira(match[4]);
-                html += this._makeRuby(kanji, reading);
+                html += this._makeRuby(match[3], this._kataToHira(match[4]));
             } else if (match[5] !== undefined) {
-                // ※［＃...］ - 外字 (character description)
                 const desc = match[5].replace(/^［＃|］$/g, '');
                 html += `<span class="gaiji-badge">${this._escapeHtml(desc)}</span>`;
             } else if (match[6] !== undefined) {
-                // ［＃「...」に傍点］ - emphasis dots
                 const word = match[7];
-                // Find and wrap the matching text before this annotation
                 const precedingText = text.slice(lastIndex, match.index);
                 const wordIndex = precedingText.lastIndexOf(word);
                 if (wordIndex >= 0) {
-                    // Re-render: text before word + emphasized word + text after word
                     const beforeWord = precedingText.slice(0, wordIndex);
                     const afterWord = precedingText.slice(wordIndex + word.length);
                     if (beforeWord) html += this._escapeHtml(beforeWord);
                     html += `<em class="bōten">${this._escapeHtml(word)}</em>`;
                     if (afterWord) html += this._escapeHtml(afterWord);
                 } else {
-                    // Can't find the word, just show the annotation
                     html += `<span class="annotation-wrapper"><span class="annotation-icon">㊟</span><span class="annotation-content">${this._escapeHtml(word)}</span></span>`;
                 }
             } else if (match[8] !== undefined) {
-                // Other annotations - show as inline badge
                 const note = match[8].replace(/^［＃|］$/g, '');
-                // Skip layout notes (X字下げ, 地から etc) - they're handled above or ignored
                 if (!note.match(/字下げ|字上げ|地から/)) {
                     html += `<span class="annotation-wrapper"><span class="annotation-icon">㊟</span><span class="annotation-content">${this._escapeHtml(note)}</span></span>`;
                 }
             }
-
             lastIndex = match.index + match[0].length;
         }
 
-        // Remaining text
         const after = text.slice(lastIndex);
         if (after) html += this._escapeHtml(after);
-
         if (!html.trim()) return '';
         return `<p${prefix}>${html}</p>`;
     },
@@ -293,12 +280,9 @@ const YomuTokenizer = {
         return `<ruby class="word-token has-furigana" data-surface="${this._escapeAttr(kanji)}" data-reading="${this._escapeAttr(reading)}">${this._escapeHtml(kanji)}<rt>${this._escapeHtml(reading)}</rt></ruby>`;
     },
 
-    /**
-     * Render using kuromoji auto-tokenization (fallback)
-     */
     _renderKuromojiParagraph(text, forceAllFurigana = false, isInline = false) {
         if (!this._ready) return this._escapeHtml(text);
-        
+
         const tokens = this.tokenize(text);
         let html = isInline ? '' : '<p>';
 
@@ -312,8 +296,7 @@ const YomuTokenizer = {
             const lemma = this.getLemma(token);
             const reading = this.getHiragana(token);
             let needsRuby = this.needsRuby(token);
-            
-            // If Full Furigana is ON, force ruby for all Kanji
+
             if (forceAllFurigana && /[一-鿿]/.test(surface)) {
                 needsRuby = true;
             }
@@ -332,17 +315,12 @@ const YomuTokenizer = {
         }
 
         if (isInline) return html;
-        // Strip <p> and check content
-        const content = html.substring(3); 
+        const content = html.substring(3);
         if (!content.trim()) return '';
-        
         html += '</p>';
         return html;
     },
 
-    /**
-     * Pure minimal furigana renderer for performance (no vocab tracking, no spans)
-     */
     renderPureFurigana(text) {
         if (!this._ready) return this._escapeHtml(text);
         const tokens = this.tokenize(text);
@@ -354,10 +332,7 @@ const YomuTokenizer = {
                 html += surface;
                 continue;
             }
-
-            // Always add furigana if there is kanji
             const needsRuby = /[一-鿿]/.test(surface) && token.pos !== '記号';
-            
             if (needsRuby) {
                 const reading = this.getHiragana(token);
                 html += `<ruby>${this._escapeHtml(surface)}<rt>${this._escapeHtml(reading)}</rt></ruby>`;
@@ -368,9 +343,6 @@ const YomuTokenizer = {
         return html;
     },
 
-    /**
-     * Pure minimal hybrid renderer (Aozora + Pure Furigana)
-     */
     renderPureHybridFurigana(text) {
         let html = '';
         let lastIndex = 0;
@@ -379,24 +351,18 @@ const YomuTokenizer = {
 
         while ((match = regex.exec(text)) !== null) {
             const before = text.slice(lastIndex, match.index);
-            if (before) {
-                html += this.renderPureFurigana(before);
-            }
+            if (before) html += this.renderPureFurigana(before);
 
             if (match[1] !== undefined) {
                 html += `<ruby>${this._escapeHtml(match[1])}<rt>${this._escapeHtml(this._kataToHira(match[2]))}</rt></ruby>`;
             } else if (match[3] !== undefined) {
                 html += `<ruby>${this._escapeHtml(match[3])}<rt>${this._escapeHtml(this._kataToHira(match[4]))}</rt></ruby>`;
             }
-            // Ignore layout notes in pure rendering
             lastIndex = match.index + match[0].length;
         }
 
         const after = text.slice(lastIndex);
-        if (after) {
-            html += this.renderPureFurigana(after);
-        }
-
+        if (after) html += this.renderPureFurigana(after);
         return html;
     },
 

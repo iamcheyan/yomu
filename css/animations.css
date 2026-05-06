@@ -1,9 +1,9 @@
 /* Yomu - Animation and Hover Effects (Disabled for E-ink) */
 
 /* Global transitions */
-* {
+/* * {
     transition: all 0.2s ease-in-out;
-}
+} */
 
 /* Specific Hover & Active Effects */
 .book-card:hover {
@@ -22,29 +22,12 @@
     background: var(--primary-dark);
 }
 
-.bottom-bar button:hover {
-    background: #f5f5f5;
-}
-
-.bottom-bar button:active,
 .step-btn:active {
     background: #eee;
 }
 
-.bottom-bar button.active:hover {
-    background: var(--primary-dark);
-}
-
 .word-token:hover {
     border-bottom-color: #999;
-}
-
-.popup-actions button:active {
-    background: #eee;
-}
-
-.popup-actions button.primary:active {
-    background: var(--primary-dark);
 }
 
 .settings-header .close-btn:hover {
@@ -54,11 +37,6 @@
 /* Smooth scrolling for modern browsers */
 html {
     scroll-behavior: smooth;
-}
-
-/* Settings Panel Slide */
-.settings-panel {
-    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .settings-overlay {

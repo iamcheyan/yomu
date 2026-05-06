@@ -20,6 +20,9 @@ if [[ $SYNC_PARAM == sync:* ]]; then
     echo ">>> 检测到同步需求: 用户=$REMOTE_USER, 主机=$REMOTE_HOST"
 fi
 
+echo ">>> 正在更新版本信息..."
+./scripts/update-version.sh
+
 echo ">>> 正在启动 Gradle 编译（自动同步 Web 资源）..."
 cd android
 ./gradlew clean assembleDebug

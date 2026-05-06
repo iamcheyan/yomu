@@ -136,14 +136,12 @@ const YomuReader = {
 
         // Show reader view
         document.getElementById('book-list-view').classList.add('hidden');
-        document.getElementById('vocab-view').classList.add('hidden');
         document.getElementById('reader-view').classList.add('active');
-        document.getElementById('bottom-bar').style.display = 'flex';
 
         // Initial render chunk
         this._renderNextChunk();
 
-        // Restore scroll progress
+        // Restore scroll progress (before starting infinite scroll observer)
         const progress = YomuStorage.getProgress(bookId);
         if (progress && progress.paraIndex) {
             while (this._renderedCount <= progress.paraIndex && this._renderedCount < this._paragraphs.length) {
@@ -151,7 +149,8 @@ const YomuReader = {
             }
             const el = document.getElementById(`p-${progress.paraIndex}`);
             if (el) {
-                setTimeout(() => el.scrollIntoView(), 50);
+                // Use instant scroll to avoid triggering observer during animation
+                el.scrollIntoView({ behavior: 'instant', block: 'start' });
             }
             const percent = this._paragraphs.length > 0 ? Math.round((progress.paraIndex / this._paragraphs.length) * 100) : 0;
             this._updateProgressUI(percent);
@@ -160,10 +159,12 @@ const YomuReader = {
             this._updateProgressUI(0);
         }
 
-        // Start infinite scroll & tracking
-        this._initInfiniteScroll();
-        this._startProgressTracking();
-        this._startFuriganaProcessor();
+        // Start infinite scroll & tracking AFTER scroll restoration is complete
+        requestAnimationFrame(() => {
+            this._initInfiniteScroll();
+            this._startProgressTracking();
+            this._startFuriganaProcessor();
+        });
 
         return true;
     },
@@ -272,14 +273,17 @@ const YomuReader = {
         if (!sentinel) {
             sentinel = document.createElement('div');
             sentinel.id = 'render-sentinel';
-            sentinel.style.height = '100px';
-            sentinel.style.margin = '20px 0';
+            sentinel.classList.add('reader-sentinel');
             document.getElementById('novel-content').appendChild(sentinel);
         } else {
             document.getElementById('novel-content').appendChild(sentinel);
         }
 
-        sentinel.style.display = (this._renderedCount >= this._paragraphs.length) ? 'none' : 'block';
+        if (this._renderedCount >= this._paragraphs.length) {
+            sentinel.classList.add('hidden');
+        } else {
+            sentinel.classList.remove('hidden');
+        }
     },
 
     _initInfiniteScroll() {
@@ -340,9 +344,6 @@ const YomuReader = {
     },
 
     _updateProgressUI(percent) {
-        const text = document.getElementById('progress-text');
-        if (text) text.textContent = `${percent}%`;
-        
         const statusProgress = document.getElementById('status-progress');
         if (statusProgress) statusProgress.textContent = `${percent}%`;
     },
@@ -355,14 +356,29 @@ const YomuReader = {
         let lastKnownParaIndex = 0;
 
         this._scrollListener = () => {
+            // Check if at the very top
+            if (window.scrollY <= 5) {
+                this._updateProgressUI(0);
+                if (window.Yomu && typeof Yomu.updateReaderControlsAvailability === 'function') {
+                    Yomu.updateReaderControlsAvailability();
+                }
+                if (this._currentBook) {
+                    YomuStorage.saveProgress(this._currentBook.id, 0, 0, 0);
+                }
+                return;
+            }
+
             // Find the topmost visible paragraph to calculate accurate progress
             const paragraphs = document.querySelectorAll('#novel-content [id^="p-"]');
             let currentParaIndex = lastKnownParaIndex;
             
-            for (let i = paragraphs.length - 1; i >= 0; i--) {
+            // Find the first paragraph that is visible at the top of the viewport
+            for (let i = 0; i < paragraphs.length; i++) {
                 const p = paragraphs[i];
                 const rect = p.getBoundingClientRect();
-                if (rect.top < window.innerHeight) {
+                // If the top of the paragraph is within the top half of the screen
+                // or if it's a large paragraph and we are currently inside it.
+                if (rect.bottom > 100) {
                     const idNum = parseInt(p.id.split('-')[1]);
                     if (!isNaN(idNum)) {
                         currentParaIndex = idNum;
@@ -375,6 +391,12 @@ const YomuReader = {
             const isAtBottom = (window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 60);
             if (isAtBottom && this._renderedCount >= this._paragraphs.length) {
                 currentParaIndex = this._paragraphs.length;
+                if (window.Yomu &&
+                    typeof Yomu.updateReaderControlsAvailability === 'function' &&
+                    typeof Yomu.setReaderControlsVisible === 'function') {
+                    Yomu.updateReaderControlsAvailability();
+                    Yomu.setReaderControlsVisible(true);
+                }
             }
             
             lastKnownParaIndex = currentParaIndex;
@@ -383,6 +405,9 @@ const YomuReader = {
             const percent = total > 0 ? Math.round((currentParaIndex / total) * 100) : 0;
             
             this._updateProgressUI(percent);
+            if (window.Yomu && typeof Yomu.updateReaderControlsAvailability === 'function') {
+                Yomu.updateReaderControlsAvailability();
+            }
 
             if (this._scrollTimeout) clearTimeout(this._scrollTimeout);
             this._scrollTimeout = setTimeout(() => {
