@@ -141,7 +141,7 @@
 
         <!-- Minimalist Status Bar -->
         <div id="reader-status-bar" class="reader-status-bar">
-            <div class="status-left u-cursor-pointer" onclick="Yomu.showBookList()">
+            <div class="status-left u-cursor-pointer" onclick="Yomu.toggleBookInfoCard(event)">
                 <span id="status-title"></span> · <span id="status-author"></span>
             </div>
             <div class="status-right">
@@ -155,6 +155,16 @@
                     </svg>
                 </button>
             </div>
+        </div>
+
+        <!-- Book Info Card (Floating) -->
+        <div id="book-info-card" class="book-info-card">
+            <div class="card-label">Reading</div>
+            <div id="card-title" class="card-title"></div>
+            <div id="card-author" class="card-author"></div>
+
+            <!-- Detailed Metadata Grid -->
+            <div id="card-metadata" class="frontmatter-grid card-metadata"></div>
         </div>
     </div>
 
@@ -266,9 +276,9 @@
     <script src="libs/kuromoji.js"></script>
     <script src="js/storage.js?v=2"></script>
     <script src="js/tokenizer.js?v=2"></script>
-    <script src="js/reader.js?v=5"></script>
-    <script src="js/aozora.js?v=3"></script>
-    <script src="js/app.js?v=6"></script>
+    <script src="js/reader.js?v=6"></script>
+    <script src="js/aozora.js?v=4"></script>
+    <script src="js/app.js?v=8"></script>
 </body>
 
 </html>

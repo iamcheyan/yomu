@@ -5,26 +5,32 @@ const YomuAozora = {
     BASE_URL: 'https://raw.githubusercontent.com/iamcheyan/yomu/main/data/novels/',
     GITHUB_RAW: 'https://raw.githubusercontent.com/iamcheyan/yomu/main/data/novels/',
 
-    /**
-     * Fetch a pre-processed JSON book from GitHub
-     */
     async downloadBook(bookMeta) {
-        // 由于我们已经将所有文件名重命名为标准的 ID (fileId)，
-        // 现在的逻辑变得非常简单和可靠：直接使用 ID 拼接 URL。
         const bookId = bookMeta.id || bookMeta.fileId || bookMeta.workId;
-        const url = `${this.GITHUB_RAW}${bookId}.json`;
+        const localUrl = `data/novels/${bookId}.json`;
+        const remoteUrl = `${this.GITHUB_RAW}${bookId}.json`;
 
-        console.log(`Downloading book: ${bookId} from ${url}`);
-        const response = await fetch(url);
-        
-        if (!response.ok) {
-            throw new Error(`Failed to fetch book: ${bookId} (HTTP ${response.status})`);
+        if (!window.YomuNative) {
+            try {
+                console.log(`[Aozora] Loading local book: ${bookId} from ${localUrl}`);
+                return await this._fetchBookJson(localUrl);
+            } catch (e) {
+                console.warn(`[Aozora] Local book load failed, falling back to GitHub: ${bookId}`, e);
+            }
         }
-        
-        const bookData = await response.json();
-        // 保存到本地存储
-        await YomuStorage.saveBookContent(bookId, bookData);
-        return bookData;
+
+        console.log(`[Aozora] Loading remote book: ${bookId} from ${remoteUrl}`);
+        return this._fetchBookJson(remoteUrl);
+    },
+
+    async _fetchBookJson(url) {
+        const response = await fetch(url);
+
+        if (!response.ok) {
+            throw new Error(`Failed to fetch book JSON: ${url} (HTTP ${response.status})`);
+        }
+
+        return response.json();
     },
 
     /**

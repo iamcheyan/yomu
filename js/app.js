@@ -22,6 +22,7 @@ const Yomu = {
     _pageSize: 10,
     _isReaderOpen: false,
     _readerControlsVisible: false,
+    _bookInfoCardOpen: false,
     _localVersion: null,
 
     async init() {
@@ -114,11 +115,16 @@ const Yomu = {
             e.target.closest('.settings-panel') ||
             e.target.closest('.settings-overlay') ||
             e.target.closest('.modal-card') ||
+            e.target.closest('.book-info-card') ||
             e.target.closest('.reader-status-bar') ||
             e.target.closest('.reader-back-btn');
 
         if (!interactive && document.body.classList.contains('reader-controls-available')) {
             this.setReaderControlsVisible(!this._readerControlsVisible);
+            if (this._bookInfoCardOpen) this.setBookInfoCardVisible(false);
+        } else if (!e.target.closest('.book-info-card') && !e.target.closest('.status-left')) {
+            // Clicked something else interactive, close card if it was open
+            if (this._bookInfoCardOpen) this.setBookInfoCardVisible(false);
         }
     },
 
@@ -143,6 +149,70 @@ const Yomu = {
         }
 
         document.body.classList.add('reader-controls-available');
+    },
+
+    toggleBookInfoCard(event) {
+        if (event) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
+        this.setBookInfoCardVisible(!this._bookInfoCardOpen);
+    },
+
+    setBookInfoCardVisible(visible) {
+        this._bookInfoCardOpen = Boolean(visible);
+        const card = document.getElementById('book-info-card');
+        if (card) {
+            card.classList.toggle('active', this._bookInfoCardOpen);
+            if (this._bookInfoCardOpen) {
+                // Update card content from current book
+                const book = YomuReader.getCurrentBook();
+                const bookData = YomuReader.getCurrentBookData();
+
+                if (book) {
+                    const titleEl = document.getElementById('card-title');
+                    const authorEl = document.getElementById('card-author');
+                    if (titleEl) titleEl.textContent = book.title;
+                    if (authorEl) authorEl.textContent = book.author;
+
+                    // Metadata Population
+                    const metadataEl = document.getElementById('card-metadata');
+                    if (metadataEl && bookData) {
+                        const info = bookData.aozora_info || {};
+                        const authors = info.authors || [];
+                        const author = authors[0] || {};
+                        const baseBook = info.baseBook1 || {};
+
+                        const rows = [];
+                        const addRow = (label, value) => {
+                            if (!value) return;
+                            rows.push(`
+                                <div class="frontmatter-row">
+                                    <div class="frontmatter-label">${this._escapeHtml(label)}</div>
+                                    <div class="frontmatter-value">${this._escapeHtml(value)}</div>
+                                </div>
+                            `);
+                        };
+
+                        addRow('作品読み', info.titleKana);
+                        addRow('分類', info.ndc);
+                        addRow('文字遣い', info.orthography);
+                        addRow('初出', info.firstAppearance);
+                        addRow('公開日', info.publishedAt);
+                        addRow('最終更新', info.updatedAt);
+                        addRow('著者読み', [author.kana, author.roman].filter(Boolean).join(' / '));
+                        addRow('生没年', [author.birthDate, author.deathDate].filter(Boolean).join(' - '));
+                        addRow('底本', baseBook.title);
+                        addRow('出版社', baseBook.publisher);
+                        addRow('底本初版', baseBook.firstPublishedAt);
+                        addRow('入力・校正', [info.inputBy, info.proofreadBy].filter(Boolean).join(' / '));
+
+                        metadataEl.innerHTML = rows.join('');
+                        metadataEl.style.display = rows.length > 0 ? 'grid' : 'none';
+                    }
+                }
+            }
+        }
     },
 
     _handleGlobalKey(e) {
@@ -318,6 +388,7 @@ const Yomu = {
         document.getElementById('store-view').classList.add('hidden');
         document.getElementById('reader-view').classList.add('active');
         document.body.classList.add('reader-active');
+        this._storeOpen = false;
         this.updateReaderControlsAvailability();
         
         // Save app state
@@ -337,6 +408,7 @@ const Yomu = {
         document.body.classList.remove('reader-active');
         document.body.classList.remove('reader-controls-available');
         this.setReaderControlsVisible(false);
+        this.setBookInfoCardVisible(false);
 
         document.getElementById('store-view').classList.add('hidden');
         document.getElementById('book-list-view').classList.remove('hidden');
@@ -483,7 +555,7 @@ const Yomu = {
                         <button class="download-btn ${isDownloaded ? 'downloaded' : ''}" 
                                 id="btn-dl-${id}"
                                 onclick="${isDownloaded ? `Yomu.openBook('${id}')` : `Yomu.downloadBook('${id}')`}">
-                            ${isDownloaded ? '読む' : 'ダウンロード'}
+                            ${isDownloaded ? '読む' : '本棚に追加'}
                         </button>
                     </div>
                 </div>
@@ -638,7 +710,7 @@ const Yomu = {
         const okBtn = document.getElementById('modal-ok-btn');
         const cancelBtn = document.getElementById('modal-cancel-btn');
 
-        titleEl.textContent = 'ダウンロード';
+        titleEl.textContent = '本棚に追加';
         msgEl.innerHTML = `
             <span class="download-status-text" id="dl-status">接続中...</span>
             <div class="download-progress-container">
@@ -657,7 +729,7 @@ const Yomu = {
         };
 
         try {
-            updateStatus('データを取得中...', 30);
+            updateStatus(window.YomuNative ? '作品データをダウンロード中...' : '作品データを読み込み中...', 30);
             const processed = await YomuAozora.downloadBook(book);
             if (processed && !processed.aozora_info) {
                 processed.aozora_info = this._catalogBookToAozoraInfo(book);
@@ -679,7 +751,7 @@ const Yomu = {
             });
 
             updateStatus('完了！', 100);
-            msgEl.innerHTML += '<p class="u-margin-top-20 u-font-weight-bold">準備が整いました。</p>';
+            msgEl.innerHTML += '<p class="u-margin-top-20 u-font-weight-bold">本棚に追加しました。</p>';
             
             okBtn.textContent = '今すぐ読む';
             okBtn.classList.remove('hidden');
@@ -694,7 +766,7 @@ const Yomu = {
         } catch (e) {
             console.error('Download failed:', e);
             titleEl.textContent = 'エラー';
-            msgEl.textContent = 'ダウンロードに失敗しました。接続を確認してください。';
+            msgEl.textContent = '本棚への追加に失敗しました。接続を確認してください。';
             okBtn.textContent = '閉じる';
             okBtn.classList.remove('hidden');
             okBtn.onclick = () => overlay.classList.remove('active');

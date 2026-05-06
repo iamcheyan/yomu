@@ -136,6 +136,7 @@ const YomuReader = {
 
         // Show reader view
         document.getElementById('book-list-view').classList.add('hidden');
+        document.getElementById('store-view').classList.add('hidden');
         document.getElementById('reader-view').classList.add('active');
 
         // Initial render chunk
