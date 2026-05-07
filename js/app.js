@@ -23,6 +23,7 @@ const Yomu = {
     _adaptivePageSize: 10,
     _isReaderOpen: false,
     _readerControlsVisible: false,
+    _readerControlsTimeout: null,
     _bookInfoCardOpen: false,
     _localVersion: null,
 
@@ -160,9 +161,15 @@ const Yomu = {
         if (!interactive && document.body.classList.contains('reader-controls-available')) {
             this.setReaderControlsVisible(!this._readerControlsVisible);
             if (this._bookInfoCardOpen) this.setBookInfoCardVisible(false);
-        } else if (!e.target.closest('.book-info-card') && !e.target.closest('.status-left')) {
-            // Clicked something else interactive, close card if it was open
-            if (this._bookInfoCardOpen) this.setBookInfoCardVisible(false);
+        } else {
+            // If user interacts with something else while controls are visible, reset the timer
+            if (this._readerControlsVisible) {
+                this.setReaderControlsVisible(true);
+            }
+            if (!e.target.closest('.book-info-card') && !e.target.closest('.status-left')) {
+                // Clicked something else interactive, close card if it was open
+                if (this._bookInfoCardOpen) this.setBookInfoCardVisible(false);
+            }
         }
     },
 
@@ -175,8 +182,19 @@ const Yomu = {
     },
 
     setReaderControlsVisible(visible) {
+        if (this._readerControlsTimeout) {
+            clearTimeout(this._readerControlsTimeout);
+            this._readerControlsTimeout = null;
+        }
+
         this._readerControlsVisible = Boolean(visible);
         document.body.classList.toggle('reader-controls-visible', this._readerControlsVisible);
+
+        if (this._readerControlsVisible) {
+            this._readerControlsTimeout = setTimeout(() => {
+                this.setReaderControlsVisible(false);
+            }, 5000);
+        }
     },
 
     updateReaderControlsAvailability() {
@@ -295,6 +313,11 @@ const Yomu = {
             top: direction * amount,
             behavior: 'auto' // E-ink friendly: instant jump
         });
+
+        // Reset auto-hide timer if controls are visible during scroll
+        if (this._readerControlsVisible) {
+            this.setReaderControlsVisible(true);
+        }
     },
 
     _renderBookList() {

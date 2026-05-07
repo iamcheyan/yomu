@@ -27,28 +27,160 @@
     "このファイルは、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。"
   ],
   "translations": [
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    []
+    [
+      {
+        "text": "那还是横滨行车的火车尚未电气化的时代。傍晚六点四十分左右，那辆火车从田浦站出发时，一个戴着蓝色面孔、没戴帽子的水兵，像影子法师一样踉踉跄跄地走向二等车厢。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "（又是之前那个水兵吗？）",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "那天，那个专心致志的客人，几天前也曾在那个地方看到过像影法师那样的水手。当时，从二等车厢里走出了一名列车员。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "你刚才也看见啦？不过，刚刚往二等车厢那边走的水兵，是怎么回事呀？",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "列车男孩瞪大了眼睛。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "是没戴帽子的水兵吗？",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "是啊。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "是进去之后往那边去了吗？",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“去了也没怎么专心吧？”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "那么，又出来了吗？",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“出去了是吗？”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "会说那种话哦",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "客人后来从列车员那里听说，有三个水兵伴同，去田浦方向游玩，回来时其中一人丢失了帽子，因此途中被轧死。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "底本：《传奇之匣6 田中貢太郎日本怪谈事典》学研Ｍ文库、学习研究社",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "2003（平成15）年10月22日首次出版发行",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "底本的母本：《新怪谈集 实话篇》改造社",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "1938年（昭和13年）",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "Hiroshi_O",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "校对：西本杏子",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "2010年10月20日制作",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "青空文库制作文件：",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "这个文件是在互联网图书馆、青空文庫（http://www.aozora.gr.jp/）制作的。参与录入、校对、制作的是各位志愿者。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ]
   ],
   "desc": "",
   "aozora_info": {

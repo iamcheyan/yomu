@@ -235,236 +235,1604 @@
     "このファイルは、インターネットの図書館、青空文庫（https://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。"
   ],
   "translations": [
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    []
+    [
+      {
+        "text": "春天将近的傍晚。在官立寄宿学校的一栋男生宿舍里，许多人下了楼，在宽敞的草坪庭院里四处聚集。他们是为了观察当时备受瞩目的哈雷彗星的出现。五十多岁的资深学者，戴着深度近视眼镜，瘦削的半白胡须的宿舍长，从怀中掏出厚重的银色怀表，查看时间。然而，就在这时，有学生穿着拖鞋想要走进庭院，他一一耐心地提醒道：“穿上鞋，穿上鞋。”实际上，枯黄的草坪上，霜融化的泥土已经渗出，呈现出一片湿润。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "身为理科讲师、头发整齐分开的名叫饭岛的理学士，在庭院的合适位置架着望远镜。身材肥胖但性格豪爽的法学士野田副寮长，和温和寡言——总觉得像是病后的文学士森岛和作，因为是作陪，也下到庭院里，混在小学生们中间。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "这真是个爽快的黄昏，仿佛让人联想到“千金一刻”的成语。在远处的酒馆里，准备晚餐的盘子发出响亮的声音。从建筑后面飘来的是过了盛开的梅花的蒸气般的香气。然而，这并非像那四位君子所比喻的那样清晰，反而像梅花本身忧郁地生病了一般，散发出沉重的香气。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "――刚好从今天傍晚五点左右开始，H彗星本来应该能用肉眼观测到的。这是它与地球阔别数十年的重逢。因此，除了整个朝着春天迈进的都市那热闹的躁动之外，自从这个彗星的传闻被报纸大肆报道以来，人们的心里就带着各种各样的臆测，滋生出一股好奇心，以及一种诡异感。说是现在这栋宿舍的中庭里也吵吵嚷嚷地聚了一大帮人，要观测这名声在外的彗星。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "十分、十五分。然而，那颗至关重要的彗星却并未出现。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "森島和作和野田很快就腻了，一边坐在建筑物窗户下面放着的长椅上，彼此用懒得张嘴的语气开始闲聊。那在旁人看来虽说好像挺无聊的，但其实是只有长时间的朋友之间才能进行的、流露着亲密情谊的对话。因为两人是从小认识的老朋友。而且这所官立寄宿学校——是从小学部到中学部再到高等学部总共十五年制的特殊组织的学校——对他们俩来说都是母校。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "野田在前些年一拿到法学士学位，就与这所学校有了联系。他原本是个乐天派，除了正常课程外，诸如少年寮的副寮长之类的职务，大多数人可能会觉得麻烦，但他却毫不犹豫地接受了。于是，他穿上旧式的学生服搭配长大衣，来到比以前稍微延伸、建筑物颜色也有些褪色的寄宿舎，短暂地愉快地回到了那里。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "但森島和作走了一条略有不同的路径，在此处和野田会合了。他平稳无事地从这里的中学部毕业后，突然以非同寻常的热心开始准备高等学校的考试，最后进了京都的三高。这件事对同年级的任何人来说都很意外。而且，和作彻底不再跟原来的朋友们通信了。只有他开始敬慕在京都大学担任哲学讲座的××博士，从三高毕业后直接升入该校文学部这件事，传到了从前的伙伴们那里。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "最近听说野田通过别人得知，和作因为每年京都的严寒而身体受损，最近又因为流感后遗症，被医生建议搬到其他地方去。那个勤快的他，立刻与和作往返了几次消息，已经想出了和作在东京静养的同时赚取生活费的方法。结果，和作在这个寄宿学校里，除了上德语课，还得到了一个图书管理员这样的悠闲职务。这个图书管理员的职务，因为待遇额外丰厚，是野田特意为他安排的。果然，和作非常感激野田的这份心意。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "……在京都的土地上找工作、不久把乡里的母亲接来、还有再在××教授身边专心研究好几年——把那样的所有空想和计划彻底抛弃，和作这个正月回到了东京。他**刚好**一个月前开始工作的。——在从前熟悉的周围环境里，他感到一种类似病后疲惫的、某种安稳的休息。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "后边的游戏室里啪的一声亮起了电灯，那光影清晰地洒落在草地上。一个学生用力地打开窗户，探出头去。同时，传来了一阵轻柔的乒乓球声。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "“先生！”那少年活泼地搭话道。“星星还没出来吗？”",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“还、还呢，”野田没看对方一眼，随意地回答道，“急急忙忙只会把事情搞砸。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "“那再来一局！”那个学生正就那样朝着房间里喊，声音听起来像是在胜负当中愉快亢奋。“至少得打倒四个人不可！”",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“先生！”这次是一位看起来有些神经质的同学发现了野田，从同一扇窗户呼喊道。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "要不要加入五人斩？我刚刚被**耍**了才输的哦",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“是谁啊？”野田背着手往后看了一眼，“哦，是德兵卫吧。要是和德兵卫对上，那得用左手多打几下。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "这么说着，他便豪爽地哇哈哈笑了起来。不过，森島和作一听到“徳兵衛”这个名字，猛地回头，死死凝视着那个少年的脸。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "「哎呀，德兵卫这个名字真是让人头疼啊。」她一边皱眉，一边用那种娇嗔的高声说道，「先生给取了这么个外号，大家都拿它来开玩笑，根本停不下来。」",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "可是，房间里的那帮打乒乓球的家伙一听见那个，就一齐「德兵卫。德兵卫」地起哄。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“切特，切特。”那个少年大声地惋惜着。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "“知道吧？是加納君的孩子哦。也就是说，是德次郎的外甥啦”，野田回头看向和作。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“你经常出去玩的时候，穿着水兵服或者类似的东西，一直走到房间门口的那个男孩子啊。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "是啊嘛……前不久才第一次被告知，吓了一跳哦",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "和歌诗人将头靠在长椅的背上，用无法动弹的前额注视着少年。他不知所以地感到慌乱。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "“你”，和作隔了一小会儿，突然对那个少年搭话说，“真的跟鶴子叔母一模一样啊”",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "然而他依旧变得僵硬，脸色像孩子一样泛起了红晕。即便是少年，面对这样的事情也难以保持严肃，他也露出了同样的害羞神态。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "你不知道吗？今天脸色特别好，所以才这么想的吧？今天是加纳那家伙太得意忘形了。不对，不是说坏话哦。然后野田以那种已经很习惯哄小孩的语气说着。你平时要是也运动成那样就好了哦。别总窝在图书馆里——前阵子被舍监骂了吧？我可都知道得清清楚楚哦。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“你这是在挨骂吗？”野田那人的恶劣微笑让他屈服，名叫加纳的少年愤怒地反驳道，“虽然说过要锻炼身体，但也没说过不能读书啊。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "“真是个会说漂亮蒙人话的家伙啊”野田又大声笑了起来。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“真的呢，那是真的……啊？”加纳转过身来，向朋友询问，“喂，先生，现在轮到我了。星星出来的时候，别忘了告诉我哦。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "哎呀那家伙一疯起来可机灵可有意思了呢，但平时总阴沉沉的真让人头疼啊。野田边用下巴指乒乓球轻响越来越大的窗边暗处边说，那是加納往那边缩进去之后。不过脑子好使。简直敏感过头了啊。在加納家里是例外呢。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“嗯……”和作一边以那倒地的身体为支撑站起身来，一边重重地踢出一脚。他闭上了嘴。因为他的脑海中浮现出了那个少年的阿姨鹤子。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "徳兵衛吗。旧仇名啊！",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "过了一会儿，和作一边凝视着前方天空那即将出现的彗星，一边不自觉地提高了声音。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "是啊。是三代目的仇名嘛。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "——从旧事说起。大约十年前的事。那时，他们年级上有个叫加納信徳《のぶのり》的学生。他和朋友们一起去看歌舞伎座演出的“一寸《ちよつと》徳兵卫”狂言，因此被取了同样的名字“徳兵卫”。这应该就是它的起源吧。信徳早就毕业了，而年纪比他大很多弟弟徳次郎，正好和野田、和作他们同一级入学。似乎是毕业生的口里传出来的，这个徳次郎也继承了那个“儘徳兵卫”的名字。时代又变了。这次是信徳考上大学后不久结婚生的长子信一，又进了同一个寄宿学校，从野田那里再次得到了那个陈旧的仇名。岁月流转，两人都毕业了，只有那个仇名和寄宿学校的建筑一起留了下来。然而，和作一听到那个仇名，就感觉到了某种褪色的过去的味道……不过，那对他来说有着特别的意义。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "那时候，和作常常从寄宿学校去加納家玩。这是源于和作已故的父亲，与当时刚去世不久的德次郎的父亲之间的交情。两人是同一藩的先觉者，属于××伯一派的政治家。只是早逝的和作的父亲运气不好，虽不算长寿但总之晚了十几年的德次郎的父亲，却看到了自己得意时代的一部分。——和作第一次去加納家的时候，有个留着剪短发、气质很好的老妇人走出来，像要盯着和作的脸看似的说：“你是和作先生？嗯。我很了解你父亲哦。”那时候和作被一种奇妙地触动心弦的怀念击中了。这份怀念一直没有消失。于是他渐渐频繁地出入加納家了。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "主人的空宅保持着无争的宁静，庭院树木繁茂的加纳家，是保持和作最初印象的适宜之地。和作常去的德次郎的房间位于二楼六畳。从出窗前的青桐树透过的光线，可以看到屋檐阴影下，下座敷的寂寞障子仅露出腰部。那里偶尔会传来年轻夫人的声音，随即又消失无踪。除了常子，还有德次郎不同的妹妹鹤子，但这并不是从二楼就能听到她声音的活泼性格。有时可以看到穿着和服、放学归来的身影在走廊角落一闪而过，但很快就被下座敷的寂寞氛围所吞噬。“这家人真是严谨啊”，和作心想。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "但尽管如此，他还是不得不感觉到，加納家的某个地方，飘着那种家有正在茁壮成长的女儿的家庭所特有的、看不见的华丽氛围。对于在寄宿家庭长大的和作来说，这种甜腻的氛围，和他小时候第一次闻到的海味很像。等到梧桐长得茂密，大大的叶子铺开阴影的时候，他会比之前更大胆地透过树枝往下看，同时仔细留意下面的动静。不久后，和作的那个日式谜题被解开了。被介绍了。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "鹤子是那种把头发从下垂的发型换成束发的、还带着点不搭调的滑稽感的少女。她十七岁，看起来比实际年龄要稚嫩。一旦被介绍认识，她就会毫不犹豫地走进哥哥的房间，甚至向刚认识的和作请教作业问题。和作反而得对德次郎投去那种“你这样做真的可以吗？”的眼神。然而德次郎对妹妹的事冷淡得很，而且对第一学科的事情也不太擅长。——当这变成了一件很普通的事情时，她这次小心翼翼地拿着英语书说：“喂，拜托了。拿回宿舍后，请帮我用假名标上。”她像孩子一样批评了德次郎。像孩子一样玩弄着秘密。然而——当她摸索着书包装里的英读本，上面用糟糕的罗马字署名着タヅコ、カノウ时，和作又有了那种像是卖掉了朋友的感觉。那个在下座敷里显得孤寂的谜团，现在却感觉变得平凡了……",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "可是，鶴子把孩子气的秘密更增添着积累下去。更扩散开下去。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "和作自己都不如，常子夫人比任何人都更简单、更清晰地看穿了这种关系的本质。突然，鹤子不再上二楼了。取而代之的是青桐意味深长地茂盛起来。常子意味深长地扶持着和作。德次郎意味深长地露出了软弱的神情。——这种模糊而意味深长的事物，对和作来说比任何东西都更刺痛了他。他带着与已故父亲的深刻联想来到这个家，仅仅是因为在这个家中感受到了父亲壮年时代的遗风，所以他受到的打击是巨大的。然后，他就像声音渐渐远去一样，从这个都市人的家庭中疏远了。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "——要好的朋友在小河上方牵着手，沿着两岸的小路走。遇到一小截树桩。两人本来只打算暂时松开手。但是小河却一点一点地变宽，两人的手之间的距离也越来越大。——那时候从英语课本里学到的这个伤感的比喻故事，正贴合和作的心意。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "他的头脑中那股汹涌澎湃的思绪逐渐平息下来，进入稍显宁静的时期，和作开始对加纳家产生了前所未有的屈辱感。鹤子的孩子气般的亲近感并非针对加纳家所谓的“法度”，而是对和作这个人的评价，现在他才彻底明白，所有现象的起源都是由此而来。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "一从中学部毕业，和作就突然起了念头，参加了地方高中的入学考试。对他来说，东京人那种灵活周旋的社交技巧实在是受不了。他想起了谷物的素朴。从剩下的日子不多这一点来看，他的考试复习也简直是疯了一样。他没有把考上京都三高的通知发给德次郎。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "那本充满疯狂气息的和歌，自入学之后便逐渐延续。原本在他身上潜藏着一种特有的、对未知生涯的屈服感，那是一种身为不幸父亲的儿子的感觉。而现在，这种感觉被点燃了。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "从那之后到现在已经过了六年。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "……“看到了，看到了。”声音响起。开始变成影子的人潮突然骚动起来。房间里留下的学生和院子里玩耍的学生都立刻聚集过来。野田和和作也站起来加入了他们的行列。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "傍晚的天空还留着最后的余晖，不知不觉间变得能用肉眼看见的彗星清晰地显现着。它在像是要斜斜坠下的位置皎洁地悬着。带着细羽毛般清冷感的彗尾，以无比巨大的弓形缓缓消失着。那是人类哪怕稍稍凭记忆也画不出来的线条。正以柔和的神情凝神仰望它的和作，脸色不觉变了。那是面对带着与人性太过迥异的冷漠之物，混杂着惊讶与畏惧的脸色。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "寮长将胡须向上扬起，像南画中的人物一样，背脊圆滚滚地专注地凝视着。为了努力看得更清楚，却不知/不慎踩到了今年新发芽的可爱花朵。野田副寮长将帽子歪戴到阿弥陀佛的位置，双手放在腰间，愉快地观察着。理学士则忙不迭地调整焦距。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "随着天空的黑暗一点点变深，彗星越发清晰地显眼起来。彗星偶尔会冷冷地闪烁。它保持着一种像是经历了漫长轨道旅途却也不知疲倦、不会弯折似的漠不关心。有着那种一旦开始环绕就会永远以同样步伐循环不知多少万年、多少万次的东西的冷淡。——那份冷淡里，包含着像是“那种事我可不知道哦”般，对人类必须马上改变形态这类事全然不知的、从一开始就没有活着的东西的诡异魅力。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“……成程《了不起》”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "と和作独自心生了佩服。接着他像是感到了刺骨的寒意般浑身颤抖。当思绪飘向那几百万光年、几亿光年——如此遥远漫长的距离时，他平日的尺度就会陷入混乱，感到一阵仿佛要晕过去的眩晕。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "「好了/啊。想要看的人快来吧。不要互相推搡哦！」",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "把眼睛从望远镜上移开后，那位洋派理学士快活地说道。学生们立刻闹哄哄地聚成一团围到他身边，依次窥看那台机器。接着，少年们用清澈的声音一个接一个地发出感叹词。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“嘿，看这多清楚啊？怎么样，没想到彗星会是这么壮观的东西吧？”理学士满脸笑容，这样雄辩地解释道。“不过它实际上非常轻，也就是说是由非常稀薄的物质构成的。不管是什么淡淡的云雾，透过它看到另一边的星星，星星的光多少会变得暗淡一些，但彗星却不是这样。透过彗星的尾巴，其他星星可以清晰地看到。常说的像幕布一样的春雾，彗星比春雾还要再薄一层——也就是说它更轻巧。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "和作不由自主地微笑了。是因为这位年长的理学士，在他看来有种天真的感觉。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“那边的あつち上空有云出来了哦。”和作发现了几朵飘浮的云，便向他提醒道。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "啊，原来如此。不过应该不会一下子扩散开吧。接着，理学士又挨个看了一遍正凑着望远镜看的学生。你们这个时代可真好啊！你们这个时代，最适合看这种东西留下深刻印象啦。好好凑过去看着吧。我还是小孩看到彗星那会儿，是在还没怎么开化的田舍，村里的人总说箒星是凶事的征兆，担心得不行。我也夜里跑到田里边看，边想着会降下什么凶事来，还小孩子气地难过了好一阵。那个印象我一辈子都忘不了呢。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“那是哈雷彗星吗？”一个学生问道。刚才从《さつき》游戏室探出头来的加纳信一回答道：“没错，就是那哈雷彗星啊。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "“什么？你不看报纸啊。”说着理学士微笑了。“像能亲眼见过两次哈雷彗星这样的长寿老人，本来就很少见啦。因为它每七十五年绕一圈，会来到地球附近的嘛。”",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“七十五年，一转眼就过去了！”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "什么嘛。才七十五年左右就吃惊的话可不行哦。说这种话的理学士，看起来正处于一种轻松愉快的兴奋状态。那个叫千八百十一年彗星的家伙啊加纳君，要三千年才绕一圈哦。还有些咱们以为现在只遇到过这一次，就永远不会再见的类型的彗星，其实说不定画着非常大的圆，或者几万年之后才终于绕完一圈又回来呢。这种事情凭人类一代甚至十代人是弄不明白的呀。人类真是渺小的东西啊……。毕竟实际上还有十万年才绕一圈的彗星，这事是已经确定了的对吧。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“……十万年？”信一用他那神经质的锐利眼神，茫然地抬起，“说十万年，真是太厉害了啊。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "要是能适可而止就好了嘛",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "和作心情不错，瞥了一眼那位理学士。因为他担心信一的神经质。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "「喂，摆着一副好像要往这边掉下来的样子哎」轮到看望远镜的信一的同级生，几乎要喊出是大发现似的大叫道。「那样的话老师要往哪个方向飞过去呀？」",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“这可是原始的恐怖啊。”理学士总是带着兴奋的表情笑着，“不过，可不是只有你一个人。最近，那些学者们也在闹腾，说地球要出大事了。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "“那么——”那个学生大吃一惊，把眼睛从机器上移开了。“那个——报纸上登出来的事，那个呀是真的吗？”",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“总之没问题吧、这次肯定没问题吧。”理学士抬头仰望着那奇特形状，闪耀着银色的光芒。“……但是严格来说，这并不是只限于彗星的事情，今后漫长的岁月里，也不能断言绝对不会发生这样的碰撞呢。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "“为什么？老师！”</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！”</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！”</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>为什么？老师！</think_never_used_51bce0c785ca2f68081bfa7d91973934>“为什么？老师！",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“得寸进尺了！”和作从莫名的焦虑中，内心坚定地说道。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "“为什么呢”理学士露出像是陷入沉思的神情。“我们的太阳系是在宇宙中扩展着的银河系的极小一部分。是比粟粒还要小的一部分。我们这个太阳系正在浩瀚的宇宙中旅行着。当然，和宇宙的广袤比起来，那简直和蜗牛爬行一样，不过，它确实在一点一点地旅行着，这是毫无疑问的。所以几十万、几百万年之后，也不能完全保证不会和其他星发生碰撞。所以我们的世界……”",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "哎呀，那家伙真讨厌啊！",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "和作像收到了糟糕的预感一样，朝传来那个声音的方向回头看了。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "于是他发现信一从朋友群里独自一人，孤零零地站着……他奇妙地僵硬着脖子，用毫无表情的眼神盯着一个地方。他那没有血色的嘴唇紧紧闭着，样子很不寻常。信一无力地用手按着额头。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "加納君！",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "和作大声呼喊。信一回头望去。和作惊讶于他那毫无表情的眼神。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "「加納君，怎么了」他急匆匆地靠了过去。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "信一试图回答些什么。但似乎同时感到一阵眩晕，迫不及待地用手捂住额头，等待和作靠近，结果像是倚靠一般地倒了下来。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "“谁啊！”和作一边撑着一边喊。“谁快来！”",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "野田飞奔而来。他们从前后抱住信一，将他抬进家里……在和作踩着脚步登上升降口的楼梯时，他耳边回荡着同班同学冷嘲热讽的声音：“这家伙，什么时候都是这副德行。真是个懦夫。”还有那在建筑物内沉淀的、那种忧郁病症般的沉重梅香，在昏暗的阴影中刺痛了他的感官。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "过了大约三十分钟之后，和作在走廊拐角的副寮长室里与野田面对面坐着。二人刚才才刚把热得像是冬天结束似的麦饭塞得满嘴都是。——这会儿野田站起身来给和作泡了茶。茶具藏在报春花的花盆后面。只配备了办公桌、书架和寝台的那间简朴狭小的房间，被蒸汽暖得足足的。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“……嗯，我那时候不在旁边，所以不太清楚。”坐在椅子上的野田一边说，一边继续话题。然后他反复强调道：“总之，不能晕倒。不能表现得不像个孩子。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "「不过确实是小孩子似的恐惧没错啦」，和作不知怎么地在为信一辩护着。「飯島君的药也劲儿太大了呀。——宇宙论什么的还太早啦。——大家开始陆陆续续害怕的时候，要是适可而止停掉就好了啊。——那种所谓的宇宙论说到底不就是小乘论嘛」",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“看起来很温柔啊。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "野田大大地点了点头。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“既然禁止了吸烟《たばこ》，那当然小乘论《小乗論》也不行哦。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "不过野田一直怀着这样的担忧，那个饭岛会不会在饭后休息时来到隔壁房间？",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“也就是说，信一并不重视血统这件事啊。”他玩笑地说。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "要是能再像德次郎那么磨磨蹭蹭就好了呀。望着星星——变得发青倒下——怎么都不像是德次郎",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "这次和作苦笑着。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "最近，野田已经是第二第三次见到只要一提起加納家就立刻态度冷淡的和作了。野田心里纳闷，这是怎么回事呢。他也觉得，会不会是因为加納家的家庭氛围这几年里完全变了，所以和作才变得不喜欢那里了。而且要是这样的话，他也是赞成的。他突然直截了当地问了。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“喂，你是不是觉得这段时间加纳家的感觉不太喜欢？”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "“嗯？”和作明显地动摇着，紧盯着野田。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“但是加纳家也变了啊！”……虽然心想会不会有点糟糕，野田还是用力地靠在椅背上，带着感叹的语气说：“你知道那家搬走后的新建筑吗？……为什么要把那么稳重的日本馆卖掉呢。那确实符合常子夫人的品味。可怜的是鹤子小姐。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "为什么",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“为什么你总是被生活、兴趣压得喘不过气来，姐姐这么压着你。虽然还没结婚，但也许是因为丧偶的人会感到孤单吧。不过，大概是因为姐姐戴着眼镜找话题吧。那完全是个重要的大人偶……也许是因为这样看待她，总觉得那个叫鹤子的人，虽然很漂亮，却不会突然生气。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "“是这样吗”和作好像生气了似的回答道。“总之我已经，再也不会去那家了，所以……”",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "他这么一说，他就无精打采地伸过半边身子向茶桌。野田惊讶地看着他。但野田从他那侧脸的和作中，只能观察到喝番茶的人的表情……",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "——听见敲门声，寮长探出头来。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“哎呀，原来是在那里啊。”和作找到那个地方时，宿舍长走了过来。“森岛君，我有点事情要拜托你。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "请问是什么？",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“其实我挺担心的，你一个人回去的话，能不能麻烦你送加纳回家？”寮长带着一丝怜悯的表情说道。“他的神经应该已经稳定下来了，但是今晚让他睡在冷清的医局里，我也有些担心。再说，对待那种连‘也许’都说不出的人，我也有些担心。不过，在家里安静地休息一两天应该是最合适的。虽然有些奢侈，但那家伙确实需要特别照顾。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "「有没有其他人呢？」和作稍微困惑地说道。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“那个嘛，我接下来有宿舍长会议，野田君是值班，小使又是一个人留在那儿的，空那个地方也不行啊，嗯，如果你的情况不好，就去找饭岛君，虽然方向不同，但我打算试试看让他帮忙。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "那可不行，和作想道。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“你，去吧”——野田直视着他，随意地做了个手势。这时，和作竟产生了把那微妙的感情托付给野田的奇妙心情。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "「你好！」——野田不知为什么又重复了一遍。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“哎呀，要去吗？”和作站起身来。“马上可以吗？”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "「和作，前阵子忘在这儿走的蝙蝠伞拿上走吧」野田就那么背对着窗户，温柔地说。「要是下起雨来淋湿了的话，又不行哦」",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "信一被裹在斗篷里带了出来。两人走到门口，穿上鞋。和作感觉自己的身体容易感冒，夜里有些冷，便竖起了外套的领子。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "……你不是普通的晕眩吧？",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "在刚刚发出市外线的车站候车室里，信一倚靠在长椅上，脸色苍白，毫无血色，和作忍不住开口问道：“是突然觉得不舒服了吗，还是……？”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "于是信一抬起脸，微微露出了微笑。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“那……吗？”和作一边追赶着，一边问道，“是关于饭岛先生的事情吗？不是吗？”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "要是那样的话，我当时觉得真的有必要换个想法。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "信一却还是忍不住露出了淡淡的微笑。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "要是那样的话，千万别把那种话放在心上啊。——说什么人类是无聊玩意儿的家伙才是笨蛋呢。——渺小也没关系啊。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "信一瞪大了眼睛，看着和作那严厉的语气，似乎有些意外地感到懒散。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "“我就算渺小又有什么关系呢。我们有‘种族’这种东西啊。大概明白吧。比方说我住在京都的老师要是上了年纪的话，我就得拼命替他干活才行啊。等我衰老老朽了，接下来就是像你这样年纪的人来接手我的工作啦。人就算渺小，哪里不方便呢？人正因为渺小，才像个人不是吗？”",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "然而，面对这样的少年信一，和作自己却无法忽视自己独自努力的身影，不禁意识到“我在努力着”。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "这是为了什么的奇怪的亢奋呢",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "他想是这样的。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "难道是因为眼前信一那带着少年气的打击，和现在的自己也并非全无关系吗？难道是因为自己心里正揣着一团无论如何都不想把“死去”和“就此消逝”当成一回事的焦虑的火吗？或者是……",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "或许是因为意识到现在必须去加纳的家，所以才会感到无法再思考下去吧。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "可一想到这件事，和作就露出了跟刚才给野田看的一模一样的不快表情，之后便完全沉默了下来。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "电车来了。和作让信一坐在角落的座位上靠了一会儿。然后，两人就再也没说话了。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "同一天晚上八点多，在离山手线的停车场和丘向的公园都很近的加纳家，亲生兄弟们刚聚在一起吃完了热闹的晚饭。主人信德也没被邀请参加宴会，德次郎也没有外出。不过，遗孀一放下筷子，就说风湿病犯了疼，在女佣的搀扶下，进了这座新宅里唯一的日式房间——隐居所。遗孀已经完全苍老了。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "「妈妈，您马上就回去吗？」",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "于是，留着板寸、蓄着浓胡子、给人感觉像个一寸将校的信徳，用若无其事的口吻询问起身体状况来。他是个家里人偶尔会受不了的、爱操心琐碎事的人。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "哎呀，好不容易烧的东西。一起去阿つち吧，路上吃点糖果。那边正烧着呢。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "信徳一边环视其他人，一边快步站起身，走进了设有大型固定煖炉《ファイアプレース》的客厅。——那是因为当天遗孀难得心情不错地出现在正屋《おもや》，信徳便吩咐年轻夫人，给家中最舒适的那间房的煖炉《だんろ》添上煤，把那里当作全家的中心待了半天。而且刚才大家围坐餐桌时，信徳为了母亲以防炉火熄灭，往里面投《はふ》了很多煤放好，刚才说的就是这件事。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "常子和德次郎以“那家伙啊，就是那一招……”的姿态站起身来。正在给母亲的烟灰缸点火的小鹤子，回头对嫂子说“马上就好”，然后起身朝门外走去。于是，只有他们两个人，带着邮件、文件和编织袋等，走进被吩咐的接待室。在那个窗户很多，感觉像温室一样的房间里，地上铺着大石头，壁炉里煤炭满满地愉快地燃烧着，三人便在周围确定了肘挂椅的位置，轻松地坐了下来。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "这样的休息，从形式上来说也让信德特别满意。一家人毫无隔阂地过日子的想法，还带着点不知哪里来的西洋味儿，从心底契合他那爱操心到有点吵人的性格。他有一种奇怪的固执想法，觉得要是同胞们随着成年多少变得疏远的话，自己是过意不去的。——就连最近刚当上外交官候补的德次郎，都已经对这位哥哥长年累月的细致照顾感到厌烦，一副满心期待着本该外派到外国工作的这个秋天的样子。不过，信德的这种做法，虽然外表有些老派，却饱含着真心。正因为是最小的孩子，鹤子能感受到这一点，在心里对这位哥哥抱着深深的爱意。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“鹤子现在在做什么呢？”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "拿着铅笔正在浏览文件的信德，抬起了不高兴的脸。常子察觉到了形势，于是走到门口，就这样喊了句「鹤子小姐」。……直到她喊完为止，故意一直绷着脸不高兴的信德，像是这下满意了似的，又把视线落回了文件上。常子觉得他那爱耍小性子的样子很可笑。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "门缓缓打开，鹤子两手拿着针线活，下巴夹着晚报，一副悠闲的样子走了进来。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "她已经二十二岁了。身上穿着朴素的紫色羽织，还有同样风格的偏黑和服。这身很适合她，很美。不过尽管如此，在鹤子看来，果然还是像野田说的那样，这份美丽里总有些不出彩的地方。这似乎是因为她缺乏一种对自己的美貌时刻有着鲜活自觉的特质。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "鹤子走到信德的旁边，递给他晚报，然后坐在嫂嫂的旁边，开始轻轻抚摸着小侄女《めひ》衣袖的破洞。――她与那个事事张扬的嫂嫂并肩而坐，这种对比显得有些微妙。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "“哎呀，鹤子小姐。你又做那种事了？明明之后再做也可以的嘛。”常子皱着眉头说。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“唉，再往前一点。”鹤子一边这么说，一边继续缝纫。然后，她来到了一个稍微宽敞一点的地方。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "“真的别这样了，拜托你。”常子见状，拦住了鹤子的手。“交给女佣们去做嘛。大家不都闲着吗？”",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“唉。唉。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "不过，鶴子只要一忙着照料这种事情，就总会感到一种仿佛在做最适合自己性子的工作的安心。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "——随手换了一份晚报/\\/预想的信德毫无保留地随意整理好，递给了德次郎。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "不管什么全都是H彗星的事，没完没了。啊——”打着哈欠说完，又把目光移回了原来的文件上。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“公园里应该也有人吧，上面写着呢。是不是有这样的气氛？”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "徳次郎站起身来，猛地推开身后的窗户，探出了头。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“喂，糟糕，糟糕。飘起了薄薄的云，正迅速地扩散开来呢。”抬头仰望天空，从声音的回响中可以感受到。“……看到这温暖的天气，明天会不会下雨啊？”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "「那今天这么阴天，天文台那边肯定也很头疼吧」，常子插了嘴，「不过明天也能好好观测到吗，真是」",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“咦，那件事”信徳似乎有些不情愿地说，“在天文台的时候突然想起来的，我跟你两个人的名字，学校（那时候是指寄宿学校）寄来了邀请函。好像是有关于博士讲彗星的讲座。去看看吧？”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "不太让人感激呢",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "德次郎以淡然的神情回答道。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "“说到学校啊”，信德用同样慵懒的语气说道。“前几天在电车上碰到野田了哦。据野田说，那个森岛啊，是森岛和作吧？听说那家伙这次要当高等部的讲师啦，你知道吗？”",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“唉，我知道了。”气弱的小德次郎因为还沒有告诉家里任何人，所以表情显得有些不自然。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "“我是第一次从野田那儿听说啊，那家伙是文学院哲学系毕业的哦。嗯哼”对和作印象模糊的信徳露出了钦佩的神色。“以前他常来我家那会儿，我虽然不太了解，但好像不管什么都在你房间里闹腾，那家伙不是挺活泼的嘛？”",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“哎呀，确实有些地方听起来像是变了调呢。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "「谁？森岛先生？」常子接过话头说。「哎哎，对哦对哦，那个人从以前起就是个哲学者哦。怪人哦」",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "……鹤子悠然地抬起脸来。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "不过，常子一察觉那副样子，就边说着“哎，鹤子小姐”边站起身，把放在长椅上的大编织袋取过来，快活地说了起来。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“喂，我这里有一件东西要给你看，想请你批评一下。”她从袋子里拿出了一双女孩子的袜子样品。“昨天我向朋友学到了这种毛线，立刻就回家开始买了。这个款式是最流行的。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "「哎呀，好软」鹤子懒洋洋地把手背贴上去瞧了瞧。「真的好软呢」",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“从这里拿四根棒，我用五根。我还在织信一的袜子呢，不过后跟和脚踝那里会塞入棉絮。哎呀，就像是山贼的袜子。以前说一周能织两三双，但是要开那种生硬的洞真的很费劲，我这脚踝真是受不了。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "常子一边夸张地皱着眉头让人看，就连这会儿也一直留意着鹤子哪怕一丁点的表情变化。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "四人又沉默了下来。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "暖炉的煤炭正合信徳心意，惬意地燃烧起来。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "然后过了大约五分钟。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "——突然，玄关的门铃响了起来。四个人同时抬起了脸。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“若是我的客人，就让他去书房。”信徳用不悦的声音对常子说道。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "谁呀？这时候",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "不规则客人面前，比兄长更自信满满的德次郎竖起了耳朵。然而，他听到的也只有公园周围行驶的电车电线杆的声音。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "女佣进来了。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“哪位？”常子小心翼翼地注意着门口，轻声问道。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "刚才是信一大人",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“信一？出了什么事了吗？”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "有什么身体不舒服之类的，从学校来了位像老师那样的人跟着",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“像您这样的客人，我们这里是没有的。这是名片。”常子一边不高兴地嘟囔着，一边递上了名片。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "收下了。您看起来是打算就那样回去……",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“既然如此，就请多多关照。”她迅速地接过名片，瞥了一眼，突然像是忘记了之前的忙碌，“啊，是的，”说着，她不经意地站起身来。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "“无论如何让信一休息啦。我，去门口一趟吧？”信德性急地，刚要露出本来的性子。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "「嗯，嗯。我现在就去做。」常子脸上露出一种异常深沉的表情。「那么，就把信一带到长椅（沙发）那里，让他躺一会儿。还有鹤子小姐，不好意思，麻烦您量一下体温。」",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "鹤子走出了房间。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“你……这是什么啊？”常子在停顿了一下后，郑重其事地递出名片，“你们俩在传闲话呢，这就是惩罚吧。——森岛和作先生……怎么样？”她带着一丝微笑念道，“特意来给您道一声问候。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "“哦”，说着这话的徳次郎脸上浮现出了微弱的困惑神色。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“森岛？那可真是可怜啊。要不要来这里？”没有丝毫先入为主的偏见和兴趣，信德像往常一样说道。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "“对吧。不过您应该不会在玄关就说要回去吧？”常子一边整理着衣襟下摆，一边已经小步小步地往门口赶了。“不用啦不用啦，我会好好道谢的。”",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "……常子真心实意地爱着自己的义妹。那是一种已经超越了婚姻经验的妇人特有的爱情。她不仅有着能够从一而终地照顾她的责任感——或许正因为如此——她还费尽心思地策划着鹤子的幸福。处于这样的位置，鹤子无论是从美貌还是气质来看都是无可挑剔的好女儿，但她却总是莫名地陷入各种忧虑和思考，给人一种不够光彩的印象。……然而现在，常子为鹤子找到了一个非常合适的婚事对象，几乎可以说是千载难逢的好机会。因此，在鹤子的事情上，她在家中变得格外神经质。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "……真希望你能在玄关就回去就好了",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "常子在昏暗的走廊中感受到了春天的气息，内心深处地渴望着它。每当想到那种难以预测的、极其谨慎的时刻与完全相反的时刻交替出现，她就会感到一种古老而奇怪的焦虑。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "「是啊。……无论如何都得请你从玄关回去」",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "为了家庭的平静，尽管从本能上感到厌恶，她还是紧紧地握住自己的心，缓缓地打开了玄关那扇厚重的玻璃门。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "但是户外，有着和刚才在走廊里飘着的一样的湿润凝滞的空气，只有从灰泥檐的阴影里照着的灯光，在石阶上落下**孤零零的一小点**。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“哎呀。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "常子开着门就那样站了很久",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“……嗯，挺好的。他回来了。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "她一边大口吸着那仿佛萦绕着某种香气的夜气，一边无法抑制涌上心头的安心表情。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“嘛，挺好的，挺好的。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "怀着已经平安守护住幸福的心情，她弄出拖鞋的声响，就那样往里面信一横躺着的地方走了进去。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [],
+    [
+      {
+        "text": "森島和作从加纳居住的宁静宅邸出发，穿过电车通行道，再从电车通行道出来，来到了两旁排列着街树和街灯的耀眼大路上。他仍能感觉到自己身后，那被种植的树木环绕的建筑的冷静。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "对他来说，那栋建筑的屋顶和墙壁，一边牢牢地挡住夜里的寒气啦、意外的灾祸啦，一边在黑暗中静静地微笑着似的。他像刚从温室出来的人那样深呼吸了一下。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "“果然还是那样比较好。我在没有让其他世界的家人感到惊讶之前就出来了。”",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "……然后他在旧外套下面感受到了决断力。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "和歌在繁华的大街人行道上穿梭，边缝缀着夜店前驻足的人，边大步流星地前行。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "——不知什么时候天空已经发生了变化。大概从一小时前开始，那些一直像雾霭一样渐渐舒展开来的淡云，现在已经低低地笼罩在城市上空，把重要的彗星和其他所有的东西，全都给遮住了。而后，只有那轻柔飘浮的春夜气息，独自在脸上占据了空间。那和刚才硬要暗示出宇宙宏大、人类渺小这类比喻的天空，实在是一点也不像。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "月亮所在之处，唯有模糊可见。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "和作突然想起了自己三高时代读过的那句“朦胧月夜啊，竟也有与这张脸不相配的恋情吧”。接着一边走一边凝神看向月亮所在的地方。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "然而不久，他发现自己正以冷漠的目光审视着自己。他脸红了。他生气地摇了摇头。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "那难道不是件没什么大不了的事吗！难道不是只要一听到鹤子结婚的传闻，很快就会消失得无影无踪的那种程度的事吗！",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "二丁目、三丁目，他都以同样的速度走着，一边茫茫然地望着前方数间远的地方，一边继续前行。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "「过去，睡吧」稍々之后，他像是激动起来似的对自己说道。「那样的过去……」",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "沉寂的空虚袭来。接着，那熟悉的病后疲惫又逐渐占据了他的身体。这样下去不行。他点燃了藏于旧外套之下的决心。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "对啦……等春天到了，把身体养好，得赶紧着手整理好的工作！",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "他离开京都时，想起了某项研究，那是××先生亲切地向他传授了大体方针的时候。——如果连健康都恢复了，再着手那项工作，或许就能稍微嘲笑一下现在的自己，成为一个可以俯视自己的自己吧。他这样想着。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "和作心里满是想要疼惜现在动不动就焦急的自己的心情。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "五丁目尽头，来到濠端《ほりばた》的电车交叉点。和作担心走得太远，便上了电车。心想，如果直接回家，正好十点。然而在这漫无边际的朦胧夜晚，不禁担心自己是否真的能安然入睡。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "首行缩进两字符（大正十二年四月）",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "底本：《现代日本文学大系 62 牧野信一 稻垣足穗 十一谷义三郎 犬养健 中河与一 今东光集》筑摩书房",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "1973（昭和48）年4月24日初版第1刷发行",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "1987年（昭和62年）9月15日，初版第12刷发行。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "初出：《改造》",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "1923年（大正12年）4月",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "門田裕志",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "校对：西本杏子",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "2021年6月28日制作",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "青空文库制作文件：",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "这个文件是在互联网图书馆、青空文庫（https://www.aozora.gr.jp/）制作的。参与输入、校对、制作的是诸位志愿者。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ]
   ],
   "desc": "",
   "aozora_info": {
