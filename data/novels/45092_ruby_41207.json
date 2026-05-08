@@ -27,28 +27,160 @@
     "このファイルは、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。"
   ],
   "translations": [
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    []
+    [
+      {
+        "text": "灯笼般的船只，所以……",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "像火花一样跑着。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "灯笼微弱地摇曳着，因此……",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "只有那里看得见粉雪。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "灯笼啊，急匆匆地。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "驯鹿的屁股发光啦。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "灯笼熄灭了，所以……",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "有人正用双手捧着",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "灯笼摇曳的雪橇啊。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "貂走出树林看着。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "底本：《日本儿童文学大系 第二八卷》ほるぷ出版",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "1978（昭和53）年11月30日首次印刷发行",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "底本的原版：「赤い鳥」赤い鳥社",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "1932（昭和7）年6月",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "初出：「红鸟」红鸟社",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "1932（昭和7）年6月",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "输入：菅野朋子",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "校对：noriko saito",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "2010年12月9日制作",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "2016年1月30日修订",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "青空文库制作文件：",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "这个文件是由互联网图书馆青空文库（http://www.aozora.gr.jp/）制作的。承担输入、校对、制作工作的是各位志愿者朋友们。",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ]
   ],
   "desc": "",
   "aozora_info": {

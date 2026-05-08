@@ -26,27 +26,147 @@
     "このファイルは、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。"
   ],
   "translations": [
+    [
+      {
+        "text": "苍蝇",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "乌鸦",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "绕回巢穴。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "峠的",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "时雨啊。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "来了",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "麻雀《すずめ》も",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "回去",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "竹丛《たけやぶ》へ",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "峠的",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "狐狸",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
     [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    []
+    [
+      {
+        "text": "底本：《日本儿童文学大系 第一四卷》ほるぷ出版",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "1977（昭和52）年11月20日首次印刷发行",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "底本的原著者：「春天的海之歌」教文馆",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "1941（昭和16）年6月",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "输入：菅野朋子",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "校正：noriko saito",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "2011年1月22日制作",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ],
+    [
+      {
+        "text": "青空文庫制作文件：",
+        "model": "ark",
+        "model_name": "火山ARK"
+      }
+    ],
+    [
+      {
+        "text": "这个文件是在互联网图书馆、青空文库（http://www.aozora.gr.jp/）制作的。输入、校对、制作都是由志愿者完成的。",
+        "model": "zhipu",
+        "model_name": "智谱AI"
+      }
+    ]
   ],
   "desc": "",
   "aozora_info": {
