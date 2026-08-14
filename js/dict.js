@@ -35,8 +35,7 @@ const YomuDict = {
     },
 
     // 数据源: 本地相对路径优先；Android file:// 下 data/dict 不在 APK 内，
-// 回退到线上站点源（仍失败则弹窗显示错误与再試行，不阻塞阅读）。
-REMOTE_BASE: 'https://iamcheyan.com/yomu/data/dict/',
+REMOTE_BASE: 'https://yomu.iamcheyan.com/data/dict/',
 
 _dictUrl(name) {
     return `data/dict/${name}`;

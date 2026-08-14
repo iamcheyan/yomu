@@ -24,8 +24,10 @@ import android.widget.Toast;
 import java.io.File;
 
 public class MainActivity extends Activity {
+    private WebView webView;
     private android.webkit.ValueCallback<Uri[]> filePathCallback;
     private static final int FILE_CHOOSER_REQUEST = 10001;
+
     private String getRootPath() {
         return Environment.getExternalStorageDirectory().getAbsolutePath() + "/Yomu/data";
     }
@@ -328,8 +330,21 @@ public class MainActivity extends Activity {
                     unregisterReceiver(this);
                 }
             }
-        });
+        }, new IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE));
     }
+
+    private void installApk() {
+        File file = new File(Environment.getExternalStoragePublicDirectory(
+                Environment.DIRECTORY_DOWNLOADS), "yomu-latest.apk");
+
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setDataAndType(Uri.fromFile(file),
+                "application/vnd.android.package-archive");
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+        startActivity(intent);
+    }
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
