@@ -1,5 +1,9 @@
 /**
  * Yomu Reader - Core reading view logic
+ *
+ * 2026 redesign: 一页连续纵向内容。全文渲染进正常 document flow，
+ * 阅读进度基于 window.scrollTop / scrollHeight，无左右分页、无横向
+ * 滚动容器、无 vertical-reading 路径。
  */
 const YomuReader = {
     _currentBook: null,
@@ -52,7 +56,7 @@ const YomuReader = {
                 ];
             }
         }
-        
+
         // Initialize gestures
         this._initGestures();
     },
@@ -100,23 +104,21 @@ const YomuReader = {
                 }
             }
         }
-        
+
         if (!bookData) {
             return false;
         }
 
         this._currentBookData = bookData;
 
-        // Update UI
+        // Update UI (扉 + 上部浮層の書名)
         document.getElementById('reader-title').textContent = book.title;
         document.getElementById('reader-author').textContent = book.author;
-        
-        // Update Status Bar
+
         const statusTitle = document.getElementById('status-title');
-        const statusAuthor = document.getElementById('status-author');
         if (statusTitle) statusTitle.textContent = book.title;
-        if (statusAuthor) statusAuthor.textContent = book.author;
         this._renderBookFrontmatter(book, bookData);
+
         // Flatten book content into paragraphs
         this._paragraphs = [];
         this._chapters = [];
@@ -174,20 +176,11 @@ const YomuReader = {
             }
             const el = document.getElementById(`p-${progress.paraIndex}`);
             if (el) {
-                // Use instant scroll to avoid triggering observer during animation;
-                // 縦書き时按 inline 轴（水平）对齐到行首
-                el.scrollIntoView(this._isVertical()
-                    ? { behavior: 'instant', block: 'nearest', inline: 'start' }
-                    : { behavior: 'instant', block: 'start' });
+                el.scrollIntoView({ behavior: 'instant', block: 'start' });
                 if (jumpTo !== null) el.classList.add('search-hit-flash');
             }
             const percent = this._paragraphs.length > 0 ? Math.round((progress.paraIndex / this._paragraphs.length) * 100) : 0;
             this._updateProgressUI(percent);
-        } else if (this._isVertical()) {
-            // vertical-rl: scrollLeft 0 即行首（内容最右）
-            const c = this._scrollContainer();
-            if (c) c.scrollLeft = 0;
-            this._updateProgressUI(0);
         } else {
             window.scrollTo(0, 0);
             this._updateProgressUI(0);
@@ -211,32 +204,13 @@ const YomuReader = {
         return this._currentBookData;
     },
 
-    // ===== B2: 縦書きモード — 滚动容器与进度度量分支 =====
-    _isVertical() {
-        return document.body.classList.contains('vertical-reading');
-    },
-
-    _scrollContainer() {
-        return this._isVertical()
-            ? document.getElementById('novel-content')
-            : window;
-    },
-
-    /**
-     * 布局模式切换后重新套用已保存的阅读位置。
-     * 确保目标段落已渲染，然后在当前滚动容器内定位。
-     */
+    /** 布局参数变化（字号/行距/余白/字体）后重新套用已保存的阅读位置 */
     reapplyProgress() {
         if (!this._currentBook) return;
         const progress = YomuStorage.getProgress(this._currentBook.id);
         const paraIndex = progress && progress.paraIndex;
         if (!paraIndex) {
-            if (this._isVertical()) {
-                const c = this._scrollContainer();
-                if (c) c.scrollLeft = 0; // vertical-rl: scrollLeft 0 = 行首（最右）
-            } else {
-                window.scrollTo(0, 0);
-            }
+            window.scrollTo(0, 0);
             this._updateProgressUI(0);
             return;
         }
@@ -244,31 +218,18 @@ const YomuReader = {
             this._renderNextChunk();
         }
         const el = document.getElementById(`p-${paraIndex}`);
-        if (el) el.scrollIntoView({ behavior: 'instant', block: 'nearest', inline: 'start' });
+        if (el) el.scrollIntoView({ behavior: 'instant', block: 'nearest' });
         const total = this._paragraphs.length;
         this._updateProgressUI(total > 0 ? Math.round((paraIndex / total) * 100) : 0);
     },
 
-    /**
-     * 当前阅读段：横排取第一个 rect.bottom > 100 的段落；
-     * 縦書き取第一个 rect.right > 100 的段落（阅读向左推进，
-     * 已读段落移出右侧视口）。
-     */
+    /** 当前阅读段：视口内第一个 rect.bottom > 100 的段落 */
     _findCurrentParaIndex(startFrom) {
         const paragraphs = document.querySelectorAll('#novel-content [id^="p-"]');
-        const vertical = this._isVertical();
         for (let i = 0; i < paragraphs.length; i++) {
             const p = paragraphs[i];
             const rect = p.getBoundingClientRect();
-            if (vertical) {
-                // 縦書き: 已读段落移出右侧视口（rect.left >= vw）；
-                // 当前段 = 第一个仍有部分位于视口内的段落
-                if (rect.right > 100 && rect.left < window.innerWidth - 40) {
-                    const idNum = parseInt(p.id.split('-')[1]);
-                    if (!isNaN(idNum)) return idNum;
-                    break;
-                }
-            } else if (rect.bottom > 100) {
+            if (rect.bottom > 100) {
                 const idNum = parseInt(p.id.split('-')[1]);
                 if (!isNaN(idNum)) return idNum;
                 break;
@@ -276,6 +237,7 @@ const YomuReader = {
         }
         return startFrom || 0;
     },
+
     /**
      * Map legacy slug ids to canonical fileId ids using books.json aliases
      * (e.g. `kokoro` -> `773_ruby_5968`).
@@ -405,7 +367,7 @@ const YomuReader = {
         const container = document.getElementById('novel-content');
         const start = this._renderedCount;
         const end = Math.min(start + this._chunkSize, this._paragraphs.length);
-        
+
         const settings = YomuStorage.getSettings();
         const forceAuto = settings.furiganaMode === 'nlp';
 
@@ -416,7 +378,7 @@ const YomuReader = {
                 html += `<h2 class="chapter-title" id="p-${i}">${this._escapeHtml(para.content)}</h2>`;
             } else {
                 html += this._renderPara(para.content, i);
-                
+
                 // If NLP furigana is enabled, queue it for background processing
                 if (forceAuto) {
                     this._furiganaQueue.push({ index: i, text: para.content });
@@ -424,9 +386,7 @@ const YomuReader = {
             }
         }
 
-
         const temp = document.createElement('div');
-
         temp.innerHTML = html;
         while (temp.firstChild) {
             container.appendChild(temp.firstChild);
@@ -443,7 +403,7 @@ const YomuReader = {
 
     _startFuriganaProcessor() {
         if (this._furiganaInterval) clearInterval(this._furiganaInterval);
-        
+
         this._furiganaInterval = setInterval(() => {
             // Check if queue has items and Kuromoji is ready
             if (!this._furiganaQueue || this._furiganaQueue.length === 0) return;
@@ -482,7 +442,7 @@ const YomuReader = {
 
     _initInfiniteScroll() {
         if (this._observer) this._observer.disconnect();
-        
+
         this._observer = new IntersectionObserver((entries) => {
             if (entries[0].isIntersecting && this._renderedCount < this._paragraphs.length) {
                 this._renderNextChunk();
@@ -540,30 +500,22 @@ const YomuReader = {
     _updateProgressUI(percent) {
         const statusProgress = document.getElementById('status-progress');
         if (statusProgress) statusProgress.textContent = `${percent}%`;
-        // Mobile UX: thin progress bar pinned to the top edge
+        // 顶部细进度线
         const fill = document.getElementById('reader-progress-fill');
         if (fill) fill.style.width = `${percent}%`;
     },
 
-
+    /** 进度跟踪：全部基于 window scroll（纵向文档） */
     _startProgressTracking() {
         if (this._scrollListener) {
-            window.removeEventListener('scroll', this._scrollListener);
-            const cont = document.getElementById('novel-content');
-            if (cont) cont.removeEventListener('scroll', this._scrollListener);
+            window.removeEventListener('scroll', this._scrollListener, this._scrollListenerOpts);
         }
 
         let lastKnownParaIndex = 0;
 
         this._scrollListener = () => {
-            const vertical = this._isVertical();
-            const container = vertical ? this._scrollContainer() : null;
-
-            // Check if at the very beginning of the reading flow
-            const atStart = vertical
-                ? (container && container.scrollLeft >= -2)
-                : window.scrollY <= 5;
-            if (atStart) {
+            // Check if at the very beginning
+            if (window.scrollY <= 5) {
                 this._updateProgressUI(0);
                 if (window.Yomu && typeof Yomu.updateReaderControlsAvailability === 'function') {
                     Yomu.updateReaderControlsAvailability();
@@ -577,10 +529,7 @@ const YomuReader = {
             let currentParaIndex = this._findCurrentParaIndex(lastKnownParaIndex);
 
             // If we've reached the very end, force 100% if all content is rendered
-            const isAtEnd = vertical
-                ? (container && this._renderedCount >= this._paragraphs.length &&
-                   (container.clientWidth - container.scrollLeft) >= (container.scrollWidth - 60))
-                : ((window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 60));
+            const isAtEnd = (window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 60);
             if (isAtEnd) {
                 currentParaIndex = this._paragraphs.length;
                 if (window.Yomu &&
@@ -605,8 +554,7 @@ const YomuReader = {
             this._scrollTimeout = setTimeout(() => {
                 if (this._currentBook) {
                     // Save both percentage, fallback scroll height, and exact para index
-                    const scrollTop = vertical && container ? container.scrollLeft : window.scrollY;
-                    YomuStorage.saveProgress(this._currentBook.id, percent, scrollTop, currentParaIndex);
+                    YomuStorage.saveProgress(this._currentBook.id, percent, window.scrollY, currentParaIndex);
                     if (window.YomuStats) {
                         try { YomuStats.onProgress(this._currentBook.id, percent); } catch (e) {}
                     }
@@ -614,15 +562,15 @@ const YomuReader = {
             }, 500);
         };
 
-        window.addEventListener('scroll', this._scrollListener, { passive: true });
-        const cont = document.getElementById('novel-content');
-        if (cont) cont.addEventListener('scroll', this._scrollListener, { passive: true });
+        this._scrollListenerOpts = { passive: true };
+        window.addEventListener('scroll', this._scrollListener, this._scrollListenerOpts);
     },
+
     _initGestures() {
         let initialDist = 0;
         let initialFontSize = 0;
         let isPinching = false;
-        
+
         const container = document.body;
         const readerView = document.getElementById('reader-view');
 
@@ -636,7 +584,7 @@ const YomuReader = {
                     e.touches[0].pageX - e.touches[1].pageX,
                     e.touches[0].pageY - e.touches[1].pageY
                 );
-                initialFontSize = YomuStorage.getSettings().fontSize || 20;
+                initialFontSize = YomuStorage.getSettings().fontSize || 21;
             }
         }, { passive: false });
 
@@ -647,16 +595,16 @@ const YomuReader = {
 
                 // Prevent default browser zoom/scroll
                 e.preventDefault();
-                
+
                 const currentDist = Math.hypot(
                     e.touches[0].pageX - e.touches[1].pageX,
                     e.touches[0].pageY - e.touches[1].pageY
                 );
-                
+
                 if (initialDist > 0) {
                     const ratio = currentDist / initialDist;
                     let newSize = Math.round(initialFontSize * ratio);
-                    
+
                     // Constraints
                     if (newSize < 12) newSize = 12;
                     if (newSize > 64) newSize = 64;
@@ -680,7 +628,6 @@ const YomuReader = {
     scrollTop() {
         window.scrollTo({ top: 0 });
     },
-
 
     /**
      * Toggle translation visibility for a paragraph
