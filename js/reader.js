@@ -162,7 +162,12 @@ const YomuReader = {
         this._renderNextChunk();
 
         // Restore scroll progress (before starting infinite scroll observer)
-        const progress = YomuStorage.getProgress(bookId);
+        // C3: jumpPara（全文検索跳转）优先于保存的进度
+        const jumpTo = (typeof this._pendingJump === 'number') ? this._pendingJump : null;
+        this._pendingJump = null;
+        const progress = jumpTo !== null
+            ? { paraIndex: jumpTo }
+            : YomuStorage.getProgress(bookId);
         if (progress && progress.paraIndex) {
             while (this._renderedCount <= progress.paraIndex && this._renderedCount < this._paragraphs.length) {
                 this._renderNextChunk();
@@ -174,6 +179,7 @@ const YomuReader = {
                 el.scrollIntoView(this._isVertical()
                     ? { behavior: 'instant', block: 'nearest', inline: 'start' }
                     : { behavior: 'instant', block: 'start' });
+                if (jumpTo !== null) el.classList.add('search-hit-flash');
             }
             const percent = this._paragraphs.length > 0 ? Math.round((progress.paraIndex / this._paragraphs.length) * 100) : 0;
             this._updateProgressUI(percent);

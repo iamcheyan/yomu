@@ -34,6 +34,18 @@ const YomuDict = {
         return this._state === 'ready';
     },
 
+    // 数据源: 本地相对路径优先；Android file:// 下 data/dict 不在 APK 内，
+// 回退到线上站点源（仍失败则弹窗显示错误与再試行，不阻塞阅读）。
+REMOTE_BASE: 'https://iamcheyan.com/yomu/data/dict/',
+
+_dictUrl(name) {
+    return `data/dict/${name}`;
+},
+
+_remoteUrl(name) {
+    return this.REMOTE_BASE + name;
+},
+
     /**
      * 按需载入词典。多次调用共享同一个 promise；失败后允许重试。
      */
@@ -43,37 +55,47 @@ const YomuDict = {
 
         this._state = 'loading';
         this._loadPromise = new Promise((resolve) => {
-            const xhr = new XMLHttpRequest();
-            // 无 cache-bust 参数: Android WebView file:// XHR 带 "?" 会失败
-            xhr.open('GET', 'data/dict/jmdict.json', true);
-            xhr.onload = () => {
-                if (xhr.status === 0 || (xhr.status >= 200 && xhr.status < 300)) {
-                    try {
-                        const data = JSON.parse(xhr.responseText);
-                        if (!data || !data.index || !data.entries) {
-                            throw new Error('invalid dictionary format');
+            // 依次尝试 本地 → 线上（Android file:// 下 data/dict 不在 APK 内，回退站点源）
+            const tryUrl = (url) => new Promise((res) => {
+                const xhr = new XMLHttpRequest();
+                // 无 cache-bust 参数: Android WebView file:// XHR 带 "?" 会失败
+                xhr.open('GET', url, true);
+                xhr.onload = () => {
+                    if (xhr.status === 0 || (xhr.status >= 200 && xhr.status < 300)) {
+                        try {
+                            const data = JSON.parse(xhr.responseText);
+                            if (!data || !data.index || !data.entries) throw new Error('invalid dictionary format');
+                            res(data);
+                        } catch (e) {
+                            console.error('[Dict] parse failed:', e);
+                            res(null);
                         }
-                        this._data = data;
-                        this._state = 'ready';
-                        console.log('[Dict] loaded:', data.meta ? `${data.meta.entries} entries` : 'ok');
-                        resolve(true);
-                    } catch (e) {
-                        console.error('[Dict] parse failed:', e);
-                        this._state = 'error';
-                        resolve(false);
+                    } else {
+                        res(null);
                     }
+                };
+                xhr.onerror = () => res(null);
+                xhr.send();
+            });
+
+            tryUrl(this._dictUrl('jmdict.json')).then(data => {
+                if (data) { this._dataSource = 'local'; return data; }
+                console.warn('[Dict] local dict missing, falling back to remote');
+                return tryUrl(this._remoteUrl('jmdict.json'));
+            }).then(data => {
+                if (data) {
+                    this._data = data;
+                    this._state = 'ready';
+                    this._dataSource = this._dataSource || 'remote';
+                    console.log('[Dict] loaded (' + this._dataSource + '):',
+                        data.meta ? `${data.meta.entries} entries` : 'ok');
+                    resolve(true);
                 } else {
-                    console.error(`[Dict] XHR failed with status ${xhr.status}`);
+                    console.error('[Dict] all sources failed');
                     this._state = 'error';
                     resolve(false);
                 }
-            };
-            xhr.onerror = () => {
-                console.error('[Dict] network error');
-                this._state = 'error';
-                resolve(false);
-            };
-            xhr.send();
+            });
         }).finally(() => {
             // 允许失败后的下一次 tap 重新发起请求
             this._loadPromise = null;
@@ -85,25 +107,40 @@ const YomuDict = {
         if (this._jlptData) return Promise.resolve(true);
         if (this._jlptPromise) return this._jlptPromise;
         this._jlptPromise = new Promise((resolve) => {
-            const xhr = new XMLHttpRequest();
-            xhr.open('GET', 'data/dict/jlpt.json', true);
-            xhr.onload = () => {
-                if (xhr.status === 0 || (xhr.status >= 200 && xhr.status < 300)) {
-                    try {
-                        const data = JSON.parse(xhr.responseText);
-                        if (!data || !data.voc) throw new Error('bad jlpt data');
-                        this._jlptData = data;
-                        resolve(true);
-                    } catch (e) {
-                        console.error('[Dict] jlpt parse failed:', e);
-                        resolve(false);
+            const tryUrl = (url) => new Promise((res) => {
+                const xhr = new XMLHttpRequest();
+                xhr.open('GET', url, true);
+                xhr.onload = () => {
+                    if (xhr.status === 0 || (xhr.status >= 200 && xhr.status < 300)) {
+                        try {
+                            const data = JSON.parse(xhr.responseText);
+                            if (!data || !data.voc) throw new Error('bad jlpt data');
+                            res(data);
+                        } catch (e) {
+                            console.error('[Dict] jlpt parse failed:', e);
+                            res(null);
+                        }
+                    } else {
+                        res(null);
                     }
+                };
+                xhr.onerror = () => res(null);
+                xhr.send();
+            });
+
+            tryUrl(this._dictUrl('jlpt.json')).then(data => {
+                if (data) { this._jlptSource = 'local'; return data; }
+                console.warn('[Dict] local jlpt missing, falling back to remote');
+                return tryUrl(this._remoteUrl('jlpt.json'));
+            }).then(data => {
+                if (data) {
+                    this._jlptData = data;
+                    this._jlptSource = this._jlptSource || 'remote';
+                    resolve(true);
                 } else {
                     resolve(false);
                 }
-            };
-            xhr.onerror = () => resolve(false);
-            xhr.send();
+            });
         }).finally(() => { this._jlptPromise = null; });
         return this._jlptPromise;
     },

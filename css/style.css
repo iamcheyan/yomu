@@ -3299,3 +3299,176 @@ body.theme-dark .action-sheet-btn.danger {
 
 /* Old Android WebView: dvh unsupported → the vh declaration above still wins.
    env() unsupported → the plain fallback declaration still wins. */
+/* ===== C1: ローカル导入 ===== */
+.store-search .import-btn {
+    flex: 0 0 auto;
+    margin-left: 8px;
+}
+
+.store-search .import-btn svg {
+    display: block;
+}
+
+/* ===== C2: 下载管理 ===== */
+.toast .toast-cancel {
+    flex: 0 0 auto;
+    margin-left: 10px;
+    padding: 4px 12px;
+    border: 1px solid currentColor;
+    background: transparent;
+    color: inherit;
+    border-radius: 999px;
+    font-size: 12px;
+    min-height: 28px;
+}
+
+.toast .toast-cancel:disabled {
+    opacity: 0.5;
+}
+
+/* ===== C5: 数据备份 ===== */
+.backup-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.backup-row .settings-btn {
+    flex: 1;
+    min-height: 44px;
+    border: 1px solid var(--line-color, #ccc);
+    background: transparent;
+    color: inherit;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+/* ===== C3: 全文検索 ===== */
+.fulltext-section-label {
+    grid-column: 1 / -1;
+    margin-top: 8px;
+    font-size: 12px;
+    color: var(--muted-color, #666);
+    letter-spacing: 0.05em;
+}
+
+.fulltext-card .fulltext-excerpt {
+    margin-top: 6px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--muted-color, #555);
+    border-left: 2px solid var(--line-color, #ccc);
+    padding-left: 8px;
+}
+
+.search-hit-flash {
+    animation: hitflash 2.4s ease-out 1;
+}
+
+@keyframes hitflash {
+    0% { background: rgba(128, 128, 128, 0.35); }
+    100% { background: transparent; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .search-hit-flash { animation: none; background: rgba(128, 128, 128, 0.2); }
+}
+
+/* ===== C4: タブレット2段組 + 自動スクロール ===== */
+@media (min-width: 768px) {
+    body.reader-active:not(.vertical-reading):not(.two-column-off) #novel-content {
+        column-count: 2;
+        column-gap: 3em;
+        column-rule: 1px solid var(--line-color, rgba(128, 128, 128, 0.25));
+        max-width: none;
+    }
+}
+
+.settings-select-inline {
+    width: auto;
+    min-width: 90px;
+    flex: 0 0 auto;
+}
+
+.status-icon-btn.active {
+    color: var(--accent-color, inherit);
+    background: rgba(128, 128, 128, 0.15);
+}
+
+/* ===== C6: AI 設定与结果面板 ===== */
+.ai-config-row {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.ai-config-row .settings-input {
+    min-height: 44px;
+    padding: 8px 10px;
+    border: 1px solid var(--line-color, #ccc);
+    background: transparent;
+    color: inherit;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.ai-config-note {
+    margin: 4px 0 0;
+    font-size: 12px;
+    color: var(--muted-color, #666);
+}
+
+.ai-panel {
+    position: fixed;
+    inset: 8% 4%;
+    max-width: 640px;
+    margin: 0 auto;
+    background: var(--bg-color, #fff);
+    color: var(--fg-color, #111);
+    border: 1px solid var(--line-color, #ccc);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 1200;
+}
+
+.ai-panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--line-color, #ccc);
+    font-weight: 700;
+}
+
+.ai-panel-source {
+    padding: 10px 14px;
+    font-size: 13px;
+    color: var(--muted-color, #555);
+    border-bottom: 1px dashed var(--line-color, #ccc);
+    max-height: 5em;
+    overflow-y: auto;
+}
+
+.ai-panel-body {
+    padding: 14px;
+    overflow-y: auto;
+    flex: 1;
+    font-size: 15px;
+    line-height: 1.7;
+    white-space: pre-wrap;
+}
+
+.ai-status {
+    color: var(--muted-color, #555);
+}
+
+.ai-status-error {
+    color: #b00020;
+    margin-bottom: 10px;
+}
+
+.ai-result {
+    white-space: pre-wrap;
+}

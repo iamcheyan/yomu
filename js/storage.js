@@ -80,6 +80,76 @@ const YomuStorage = {
         }
     },
 
+    // ===== C5: 学习数据统一导出/导入（无后端云同步替代） =====
+    EXPORT_KEYS: ['progress', 'settings', 'downloaded_books', 'app_state', 'bookmarks', 'wordbook', 'reading_stats'],
+    EXPORT_VERSION: 1,
+
+    exportAllData() {
+        const data = {};
+        for (const key of this.EXPORT_KEYS) {
+            const v = this.get(key, null);
+            if (v !== null) data[key] = v;
+        }
+        return {
+            format: 'yomu-backup',
+            version: this.EXPORT_VERSION,
+            exportedAt: new Date().toISOString(),
+            data
+        };
+    },
+
+    /**
+     * 导入备份。mode: 'replace' 全量覆盖 | 'merge' 逐键合并
+     * （对象浅合并按 lastRead/addedAt 新者胜，数组按 id/键去重）。
+     * 返回 { ok, errors } — errors 为被拒绝的键及原因。
+     */
+    importAllData(bundle, mode = 'replace') {
+        const errors = [];
+        if (!bundle || bundle.format !== 'yomu-backup' || !bundle.data ||
+            typeof bundle.data !== 'object') {
+            return { ok: false, errors: ['format'] };
+        }
+        const newer = (a, b) => {
+            const ta = a && (a.lastRead || a.addedAt || a.at || 0);
+            const tb = b && (b.lastRead || b.addedAt || b.at || 0);
+            return (tb || 0) >= (ta || 0) ? b : a;
+        };
+        for (const key of this.EXPORT_KEYS) {
+            const incoming = bundle.data[key];
+            if (incoming === undefined) continue;
+            try {
+                if (mode === 'replace') {
+                    this.set(key, incoming);
+                    continue;
+                }
+                // merge
+                const current = this.get(key, null);
+                if (current === null || Array.isArray(current) !== Array.isArray(incoming)) {
+                    this.set(key, incoming);
+                    continue;
+                }
+                if (Array.isArray(current)) {
+                    const idOf = (x) => x && (x.id || x.bookId || `${x.surface || ''}|${x.reading || ''}`);
+                    const seen = new Map(current.map(x => [idOf(x), x]));
+                    for (const x of incoming) {
+                        const k = idOf(x);
+                        seen.set(k, seen.has(k) ? newer(seen.get(k), x) : x);
+                    }
+                    this.set(key, [...seen.values()]);
+                } else {
+                    const merged = { ...current };
+                    for (const [k, v] of Object.entries(incoming)) {
+                        merged[k] = (k in merged) ? newer(merged[k], v) : v;
+                    }
+                    this.set(key, merged);
+                }
+            } catch (e) {
+                errors.push(`${key}: ${e.message}`);
+            }
+        }
+        return { ok: errors.length === 0, errors };
+    },
+
     // ===== Reading Progress =====
     getProgress(bookId) {
         const all = this.get('progress', {});

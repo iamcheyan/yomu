@@ -392,6 +392,31 @@ const Yomu = {
             html += renderCard(book);
         }
 
+        // C3: 全文一致卡片（追加在标题/作者结果之后；仅第 1 页显示）
+        if (this._homePage === 0 && this._fullTextResults && this._fullTextResults.size > 0) {
+            const shown = new Set(filtered.map(b => b.id));
+            const ftHtml = [];
+            for (const [id, r] of this._fullTextResults) {
+                if (shown.has(id)) continue;
+                const book = r.book;
+                ftHtml.push(`
+                    <div class="book-card fulltext-card" onclick="Yomu.openBook('${this._escapeAttr(book.id)}', true, ${r.hit.paraIndex})">
+                        <div class="book-info">
+                            <div class="book-title-row">
+                                <span class="book-title">${this._escapeHtml(book.title)}</span>
+                                <span class="book-tag match-tag">本文一致</span>
+                            </div>
+                            <div class="book-author">${this._escapeHtml(book.author || '')}</div>
+                            <div class="fulltext-excerpt">${this._escapeHtml(r.hit.excerpt)}</div>
+                        </div>
+                    </div>
+                `);
+            }
+            if (ftHtml.length > 0) {
+                html += `<div class="fulltext-section-label">本文検索の結果</div>` + ftHtml.join('');
+            }
+        }
+
         grid.innerHTML = html || '<div class="empty-msg">条件に合う作品がありません。</div>';
 
         // Update pagination UI
@@ -458,9 +483,23 @@ const Yomu = {
                 this._homeSearch = homeInput.value;
                 this._homePage = 0;
                 this._renderBookList();
+                // C3: 全文検索（本地范围、异步追加，不阻塞标题/作者结果）
+                if (this._homeSearch && this._homeSearch.trim().length >= 2) {
+                    const q = this._homeSearch;
+                    clearTimeout(this._fullTextTimer);
+                    this._fullTextTimer = setTimeout(() => {
+                        if (this._homeSearch === q) this._runLibrarySearch(q);
+                    }, 350);
+                } else {
+                    this._fullTextResults = null;
+                    const statusEl = document.getElementById('home-fulltext-status');
+                    if (statusEl) statusEl.textContent = '';
+                    this._renderBookList();
+                }
             }, 220));
         }
     },
+
 
     nextHomePage() {
         const total = this._getFilteredLibraryBooks().length;
@@ -510,11 +549,95 @@ const Yomu = {
         for (const b of downloadedBooks) allBooks.push({ ...b, isDownloaded: true });
         for (const b of bundledBooks) {
             if (!downloadedIds.has(b.id)) {
-                allBooks.push({ ...b, isDownloaded: false });
+                // C1: ローカル导入书（source=local）可删除
+                allBooks.push({ ...b, isDownloaded: b.source === 'local' });
             }
         }
 
         return allBooks;
+    },
+
+    // ===== C3: 書架内全文検索（本地范围、查询时扫描、零额外存储） =====
+    // 范围评估见 docs/fulltext-search-notes.md：全部 11,041 本建索引 ≈560MB 原文，
+    // 设备不可用；故只对「本地已有内容」的书做查询时子串扫描。
+
+    async _fullTextSearch(q) {
+        const query = (q || '').trim().toLowerCase();
+        if (query.length < 2) return [];
+
+        // 候选 = 下载 + 导入 + 精选书单（其内容 data/novels/*.json 可按需取）
+        const seen = new Set();
+        const candidates = [];
+        for (const b of YomuStorage.getDownloadedBooks()) {
+            if (!seen.has(b.id)) { seen.add(b.id); candidates.push(b); }
+        }
+        const settings = YomuStorage.getSettings();
+        for (const b of (settings.syncedBooks || [])) {
+            if (!seen.has(b.id)) { seen.add(b.id); candidates.push(b); }
+        }
+        for (const b of YomuReader.getBooks()) {
+            if (!seen.has(b.id)) { seen.add(b.id); candidates.push(b); }
+        }
+
+        const results = [];
+        for (const book of candidates) {
+            if (results.length >= 12) break;
+            let content = await YomuStorage.getBookContent(book.fileId || book.id);
+            if (!content) {
+                content = await new Promise((resolve) => {
+                    const xhr = new XMLHttpRequest();
+                    xhr.open('GET', `data/novels/${book.fileId || book.id}.json`, true);
+                    xhr.onload = () => {
+                        if (xhr.status === 0 || (xhr.status >= 200 && xhr.status < 300)) {
+                            try { resolve(JSON.parse(xhr.responseText)); } catch (e) { resolve(null); }
+                        } else resolve(null);
+                    };
+                    xhr.onerror = () => resolve(null);
+                    xhr.send();
+                }).catch(() => null);
+            }
+            if (!content) continue;
+
+            // 展平为与 reader 相同的全局段落序（章标题占一位）
+            const paras = [];
+            if (Array.isArray(content.chapters)) {
+                for (const ch of content.chapters) {
+                    paras.push(ch.title || '');
+                    for (const p of (ch.paragraphs || [])) paras.push(p);
+                }
+            } else if (Array.isArray(content.paragraphs)) {
+                paras.push(...content.paragraphs);
+            }
+
+            const hits = [];
+            for (let i = 0; i < paras.length && hits.length < 2; i++) {
+                const text = String(paras[i] || '');
+                const at = text.toLowerCase().indexOf(query);
+                if (at >= 0) {
+                    const from = Math.max(0, at - 12);
+                    hits.push({
+                        paraIndex: i,
+                        excerpt: (from > 0 ? '…' : '') + text.slice(from, at + query.length + 18) + '…'
+                    });
+                }
+            }
+            if (hits.length > 0) {
+                results.push({ book, hit: hits[0], hits });
+            }
+        }
+        return results;
+    },
+
+    async _runLibrarySearch(q) {
+        const results = await this._fullTextSearch(q);
+        this._fullTextResults = new Map(results.map(r => [r.book.id, r]));
+        this._renderBookList();
+        const tag = document.getElementById('home-fulltext-status');
+        if (tag) {
+            tag.textContent = results.length > 0
+                ? `本文一致：${results.length} 件（タップで該当段落へ）`
+                : '';
+        }
     },
 
     _getFilteredLibraryBooks(allBooks = null) {
@@ -592,7 +715,9 @@ const Yomu = {
         return `<button class="filter-chip${active}" data-home-filter-type="${this._escapeAttr(type)}" data-home-filter-value="${this._escapeAttr(value)}" onclick="${this._escapeAttr(action)}"><span class="chip-label">${this._escapeHtml(label)}</span>${countHtml}</button>`;
     },
 
-    async openBook(bookId, pushState = true) {
+    async openBook(bookId, pushState = true, jumpPara = null) {
+        // C3: 全文検索跳转 — 在 reader.openBook 消费（优先于保存进度）
+        if (typeof jumpPara === 'number') YomuReader._pendingJump = jumpPara;
         const success = await YomuReader.openBook(bookId);
         if (!success) {
             console.warn(`Book ${bookId} not found or failed to load. Returning to library.`);
@@ -1139,7 +1264,12 @@ const Yomu = {
 
         // Mobile UX: non-blocking toast + shelf card badge (replaces modal dialog)
         this._setStoreCardDownloading(bookId, true);
-        const dlToast = this._toastDownloadStart(book.title);
+
+        // C2: 可中止下载 — toast 内「中止」按钮触发 AbortController
+        const controller = new AbortController();
+        if (!this._downloadControllers) this._downloadControllers = new Map();
+        this._downloadControllers.set(bookId, controller);
+        const dlToast = this._toastDownloadStart(book.title, () => controller.abort());
 
         const updateStatus = (text, progress) => {
             dlToast.update(text, progress);
@@ -1148,7 +1278,17 @@ const Yomu = {
 
         try {
             updateStatus(window.YomuNative ? '作品データをダウンロード中...' : '作品データを読み込み中...', 30);
-            const processed = await YomuAozora.downloadBook(book);
+            const processed = await YomuAozora.downloadBook(book, {
+                signal: controller.signal,
+                onProgress: (frac) => {
+                    if (frac == null) {
+                        updateStatus('作品データをダウンロード中...', 45); // 不定进度
+                    } else {
+                        // 10%(開始)〜65%(受信完了) の帯域に写像
+                        updateStatus(`ダウンロード中... ${Math.round(frac * 100)}%`, 10 + Math.round(frac * 55));
+                    }
+                }
+            });
             if (processed && !processed.aozora_info) {
                 processed.aozora_info = this._catalogBookToAozoraInfo(book);
             }
@@ -1181,14 +1321,21 @@ const Yomu = {
             // land on the same book. No leftover store modal/state.
             await this.openBook(bookId);
         } catch (e) {
-            console.error('Download failed:', e);
-            const notFound = typeof e === 'object' && e !== null && /HTTP 40[04]/.test(e.message || '');
-            dlToast.fail(notFound
-                ? 'この作品の本文データはこのビルドに収録されていません。'
-                : '本棚への追加に失敗しました。接続を確認してください。');
+            const aborted = e && (e.name === 'AbortError' || /aborted/i.test(e.message || ''));
+            if (aborted) {
+                console.log('Download aborted by user:', bookId);
+                dlToast.fail('ダウンロードを中断しました');
+            } else {
+                console.error('Download failed:', e);
+                const notFound = typeof e === 'object' && e !== null && /HTTP 40[04]/.test(e.message || '');
+                dlToast.fail(notFound
+                    ? 'この作品の本文データはこのビルドに収録されていません。'
+                    : '本棚への追加に失敗しました。接続を確認してください。');
+            }
             this._setStoreCardDownloading(bookId, false);
         } finally {
             this._downloadsInFlight.delete(bookId);
+            if (this._downloadControllers) this._downloadControllers.delete(bookId);
         }
     },
 
@@ -1301,6 +1448,11 @@ const Yomu = {
                 if (note !== null) YomuBookmarks.setNote(bookId, paraIndex, note, para);
             } }
         ];
+        // C6: AI 段落翻訳/文法解説（用户自带 key，未配置时也显示并引导设置）
+        if (window.YomuAI) {
+            actions.push({ label: '🇨🇳 AI 翻訳', fn: () => this.runAiOnParagraph(bookId, paraIndex, 'translate') });
+            actions.push({ label: '📖 AI 文法解説', fn: () => this.runAiOnParagraph(bookId, paraIndex, 'grammar') });
+        }
 
         sheet.innerHTML = `
             <div class="action-sheet-title">${this._escapeHtml((para && para.content || '').slice(0, 60))}</div>
@@ -1452,7 +1604,165 @@ const Yomu = {
             this._updateNlpOptionState();
             this._fetchVersion();
             if (window.YomuStats) YomuStats._renderUI();
+            if (window.YomuAI) this.restoreAiConfigUI();
         }
+    },
+
+    // ===== C4: タブレット2段組 =====
+    setTwoColumn(enabled) {
+        const on = Boolean(enabled);
+        YomuStorage.saveSetting('twoColumn', on);
+        document.body.classList.toggle('two-column-off', !on);
+        const toggle = document.getElementById('two-column-toggle');
+        if (toggle) toggle.checked = on;
+    },
+
+    // ===== C4: 自動スクロール =====
+    toggleAutoScroll() {
+        if (this._autoScrollActive) {
+            this.stopAutoScroll();
+        } else {
+            this.startAutoScroll();
+        }
+    },
+
+    startAutoScroll() {
+        if (this._autoScrollActive || !this._isReaderOpen) return;
+        const speeds = { slow: 24, normal: 48, fast: 90 };
+        const pxPerSec = speeds[(YomuStorage.getSettings().autoScrollSpeed)] || speeds.normal;
+        this._autoScrollActive = true;
+        const btn = document.getElementById('autoscroll-btn');
+        if (btn) btn.classList.add('active');
+        let last = performance.now();
+        let acc = 0;
+        const step = (now) => {
+            if (!this._autoScrollActive) return;
+            acc += (now - last) / 1000 * pxPerSec;
+            last = now;
+            if (acc >= 1) {
+                const d = Math.floor(acc);
+                acc -= d;
+                if (this.isVerticalReading()) {
+                    const c = document.getElementById('novel-content');
+                    if (c) c.scrollLeft -= d; // 縦書き: 行頭(右)から左へ
+                } else {
+                    window.scrollBy(0, d);
+                }
+            }
+            this._autoScrollRaf = requestAnimationFrame(step);
+        };
+        this._autoScrollRaf = requestAnimationFrame(step);
+        this.showToast('自動スクロール開始（タップで停止）');
+        // 用户任何交互即停止（墨水屏设备友好）
+        const stop = () => this.stopAutoScroll();
+        this._autoScrollStop = stop;
+        window.addEventListener('pointerdown', stop, { once: true, capture: true });
+        window.addEventListener('keydown', stop, { once: true, capture: true });
+        if (window.YomuReader) YomuReader._scrollContainer().addEventListener('wheel', stop, { once: true, capture: true });
+    },
+
+    stopAutoScroll() {
+        if (!this._autoScrollActive) return;
+        this._autoScrollActive = false;
+        if (this._autoScrollRaf) cancelAnimationFrame(this._autoScrollRaf);
+        const btn = document.getElementById('autoscroll-btn');
+        if (btn) btn.classList.remove('active');
+        window.removeEventListener('pointerdown', this._autoScrollStop, { capture: true });
+        window.removeEventListener('keydown', this._autoScrollStop, { capture: true });
+        if (this._autoScrollStop) this.showToast('自動スクロール停止');
+        this._autoScrollStop = null;
+    },
+
+    setAutoScrollSpeed(v) {
+        const allowed = ['slow', 'normal', 'fast'];
+        const speed = allowed.includes(v) ? v : 'normal';
+        YomuStorage.saveSetting('autoScrollSpeed', speed);
+        if (this._autoScrollActive) {
+            this.stopAutoScroll();
+            this.startAutoScroll();
+        }
+    },
+    // ===== C6: AI 翻訳/文法解説 =====
+    onAiProviderChange(providerId) {
+        const preset = (window.YomuAI && YomuAI.PRESETS[providerId]) || { baseUrl: '', model: '' };
+        const baseInput = document.getElementById('ai-baseurl-input');
+        const modelInput = document.getElementById('ai-model-input');
+        if (baseInput) baseInput.value = preset.baseUrl || '';
+        if (modelInput) modelInput.value = preset.model || '';
+        this.saveAiConfig(providerId);
+    },
+
+    saveAiConfig(providerId) {
+        if (!window.YomuAI) return;
+        const provider = providerId ||
+            (document.getElementById('ai-provider-select') || {}).value || 'custom';
+        const cfg = {
+            provider,
+            baseUrl: ((document.getElementById('ai-baseurl-input') || {}).value || '').trim(),
+            model: ((document.getElementById('ai-model-input') || {}).value || '').trim(),
+            apiKey: ((document.getElementById('ai-key-input') || {}).value || '').trim(),
+            format: (YomuAI.PRESETS[provider] || {}).format === 'gemini' ? 'gemini' : 'openai'
+        };
+        if (cfg.baseUrl) {
+            YomuAI.saveConfig(cfg);
+            this.showToast('AI 設定を保存しました（キーは本端末のみ）');
+        } else {
+            YomuAI.clearConfig();
+        }
+    },
+
+    restoreAiConfigUI() {
+        const cfg = window.YomuAI ? YomuAI.getConfig() : null;
+        const providerSel = document.getElementById('ai-provider-select');
+        const baseInput = document.getElementById('ai-baseurl-input');
+        const modelInput = document.getElementById('ai-model-input');
+        const keyInput = document.getElementById('ai-key-input');
+        if (providerSel) providerSel.value = (cfg && cfg.provider) || 'zhipu';
+        if (baseInput) baseInput.value = (cfg && cfg.baseUrl) || ((YomuAI.PRESETS.zhipu || {}).baseUrl || '');
+        if (modelInput) modelInput.value = (cfg && cfg.model) || 'glm-4-flash';
+        if (keyInput) keyInput.value = (cfg && cfg.apiKey) || '';
+    },
+
+    async runAiOnParagraph(bookId, paraIndex, kind) {
+        const para = document.getElementById(`p-${paraIndex}`);
+        const text = para ? para.textContent.trim() : '';
+        if (!text) return;
+
+        const overlay = document.getElementById('ai-panel-overlay');
+        const titleEl = document.getElementById('ai-panel-title');
+        const sourceEl = document.getElementById('ai-panel-source');
+        const bodyEl = document.getElementById('ai-panel-body');
+        if (!overlay) return;
+        titleEl.textContent = kind === 'grammar' ? 'AI 文法解説' : 'AI 翻訳';
+        sourceEl.textContent = text.length > 160 ? text.slice(0, 160) + '…' : text;
+        bodyEl.innerHTML = '<div class="ai-status">リクエスト中...</div>';
+        overlay.classList.add('active');
+
+        const run = async () => {
+            bodyEl.innerHTML = '<div class="ai-status">リクエスト中...</div>';
+            try {
+                const out = await YomuAI.explain(text, kind);
+                bodyEl.innerHTML = '';
+                const pre = document.createElement('div');
+                pre.className = 'ai-result';
+                pre.textContent = out;
+                bodyEl.appendChild(pre);
+            } catch (e) {
+                console.warn('[AI] request failed:', e);
+                bodyEl.innerHTML = `
+                    <div class="ai-status ai-status-error">${this._escapeHtml(e.message || 'リクエスト失敗')}</div>
+                    <button class="settings-btn" type="button" id="ai-retry-btn">再試行</button>
+                `;
+                const btn = document.getElementById('ai-retry-btn');
+                if (btn) btn.addEventListener('click', run);
+            }
+        };
+        await run();
+    },
+
+    closeAiPanel() {
+        const overlay = document.getElementById('ai-panel-overlay');
+        if (overlay) overlay.classList.remove('active');
     },
 
     // ===== Mobile UX: toasts =====
@@ -1466,6 +1776,7 @@ const Yomu = {
         if (!el) {
             el = document.createElement('div');
             el.className = `toast ${type}`;
+
             if (id) el.dataset.id = id;
             el.innerHTML = '<span class="toast-text"></span>';
             container.appendChild(el);
@@ -1515,10 +1826,25 @@ const Yomu = {
             hide
         };
     },
-
-    _toastDownloadStart(title) {
+    _toastDownloadStart(title, onCancel) {
         const t = this.showToast(`「${title}」を取得中...`, { id: 'download', duration: 0 });
         t.update(null, 10);
+        // C2: 中止按钮（可选）
+        if (typeof onCancel === 'function') {
+            const container = document.getElementById('toast-container');
+            const el = container ? container.querySelector('.toast[data-id="download"]') : null;
+            if (el && !el.querySelector('.toast-cancel')) {
+                const btn = document.createElement('button');
+                btn.className = 'toast-cancel';
+                btn.type = 'button';
+                btn.textContent = '中止';
+                btn.addEventListener('click', () => {
+                    btn.disabled = true;
+                    onCancel();
+                });
+                el.appendChild(btn);
+            }
+        }
         return t;
     },
 
@@ -1550,6 +1876,28 @@ const Yomu = {
         YomuStorage.saveSetting('jlptShow', on);
         const toggle = document.getElementById('jlpt-show-toggle');
         if (toggle) toggle.checked = on;
+    },
+
+    // ===== C1: ローカル .txt / .epub インポート =====
+    pickLocalFile() {
+        const input = document.getElementById('local-file-input');
+        if (!input) return;
+        input.value = '';
+        input.click();
+    },
+
+    async onLocalFilePicked(input) {
+        const file = input.files && input.files[0];
+        if (!file) return;
+        this.showToast?.('読み込み中: ' + file.name);
+        try {
+            const meta = await YomuImporter.importFile(file);
+            this._renderBookList();
+            if (this.showToast) this.showToast(`「${meta.title}」を書架に追加しました`);
+        } catch (e) {
+            console.error('[Import] failed:', e);
+            if (this.showToast) this.showToast('インポート失敗: ' + e.message);
+        }
     },
 
     setEdgeTap(enabled) {
@@ -1904,6 +2252,7 @@ const Yomu = {
         }
     },
 
+
     _fetchVersion() {
         const el = document.getElementById('settings-version');
         if (!el) return;
@@ -1912,20 +2261,94 @@ const Yomu = {
         const ver = settings.version || this._localVersion;
 
         if (ver) {
-            el.textContent = `${ver.sha} (${ver.date})`;
-        } else {
-            el.textContent = 'v1.0.0';
+            el.textContent = ver;
         }
     },
 
-    // Custom Modals (Async)
     async deleteBook(event, bookId, title) {
         event.stopPropagation(); // Don't open the book
         const ok = await this.confirm(`「${title}」を削除しますか？`);
         if (ok) {
-            YomuStorage.removeDownloadedBook(bookId);
+            // C1: ローカル导入书走 syncedBooks 移除；下载书走原路径
+            const settings = YomuStorage.getSettings();
+            const isLocal = Array.isArray(settings.syncedBooks) &&
+                settings.syncedBooks.some(b => b.id === bookId);
+            if (isLocal && window.YomuImporter) {
+                YomuImporter.removeLocalBook(bookId);
+            } else {
+                YomuStorage.removeDownloadedBook(bookId);
+                // C2: 释放 SW HTTP 缓存（data/novels/{id}.json 等）
+                this._purgeHttpCacheForBook(bookId);
+            }
             this._renderBookList();
         }
+    },
+
+    /** C2: 删除单本时释放 Service Worker 缓存中的本书数据 */
+    async _purgeHttpCacheForBook(bookId) {
+        if (!('caches' in window)) return;
+        try {
+            const names = await caches.keys();
+            for (const name of names) {
+                const cache = await caches.open(name);
+                const keys = await cache.keys();
+                for (const req of keys) {
+                    const u = new URL(req.url);
+                    if (u.pathname === `/data/novels/${bookId}.json` ||
+                        u.pathname.endsWith(`/data/novels/${bookId}.json`)) {
+                        await cache.delete(req);
+                        console.log('[Cache] purged', u.pathname);
+                    }
+                }
+            }
+        } catch (e) {
+            console.warn('[Cache] purge failed:', e);
+        }
+    },
+
+    // ===== C5: 学习数据一括書き出し/読み込み =====
+    exportBackup() {
+        const bundle = YomuStorage.exportAllData();
+        const blob = new Blob([JSON.stringify(bundle, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        const d = new Date();
+        const pad = n => String(n).padStart(2, '0');
+        a.href = url;
+        a.download = `yomu-backup-${d.getFullYear()}${pad(d.getMonth() + 1)}${pad(d.getDate())}.json`;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        setTimeout(() => URL.revokeObjectURL(url), 5000);
+        this.showToast('バックアップを書き出しました');
+    },
+
+    async importBackup(input) {
+        const file = input.files && input.files[0];
+        input.value = '';
+        if (!file) return;
+        let bundle;
+        try {
+            bundle = JSON.parse(await file.text());
+        } catch (e) {
+            this.alert('バックアップファイルが読み取れません（JSON 不正）', '読み込み失敗');
+            return;
+        }
+        const replace = await this.confirm(
+            '既存のデータを上書きして読み込みますか？（キャンセルで併合）',
+            'バックアップ読み込み');
+        const mode = replace ? 'replace' : 'merge';
+        const result = YomuStorage.importAllData(bundle, mode);
+        if (!result.ok) {
+            console.warn('[Backup] partial import errors:', result.errors);
+            this.alert(`一部のデータを読み込めませんでした: ${result.errors.join(', ')}`, '読み込み警告');
+        } else {
+            this.showToast(mode === 'replace' ? 'データを復元しました' : 'データを併合しました');
+        }
+        // 导入会改变 settings/syncedBooks/进度等全局状态；
+        // 各模块（阅读器书单、统计、书签）均有内存态，最可靠的恢复是重启页面。
+        this.toggleSettings();
+        setTimeout(() => location.reload(), 700);
     },
 
     alert(message, title = '通知') {
@@ -2013,6 +2436,12 @@ const Yomu = {
         // B5: JLPT 難度表示（默认开）
         const jlptToggle = document.getElementById('jlpt-show-toggle');
         if (jlptToggle) jlptToggle.checked = settings.jlptShow !== false;
+
+        // C4: 2段組（≥768px、默认开）与自動スクロール速度
+        this.setTwoColumn(settings.twoColumn !== false);
+        const speedSelect = document.querySelector('.settings-select-inline');
+        if (speedSelect) speedSelect.value = settings.autoScrollSpeed || 'normal';
+
 
         // Furigana Mode
         let furiMode = settings.furiganaMode || 'none';

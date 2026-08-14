@@ -5,7 +5,11 @@ const YomuAozora = {
     BASE_URL: 'https://raw.githubusercontent.com/iamcheyan/yomu/main/data/novels/',
     GITHUB_RAW: 'https://raw.githubusercontent.com/iamcheyan/yomu/main/data/novels/',
 
-    async downloadBook(bookMeta) {
+    /**
+     * C2: 下载管理 — 支持 AbortSignal 与真实下载进度（content-length 流式计数）。
+     * opts: { signal, onProgress(fraction|null) }
+     */
+    async downloadBook(bookMeta, opts = {}) {
         const bookId = bookMeta.id || bookMeta.fileId || bookMeta.workId;
         const localUrl = `data/novels/${bookId}.json`;
         const remoteUrl = `${this.GITHUB_RAW}${bookId}.json`;
@@ -13,24 +17,46 @@ const YomuAozora = {
         if (!window.YomuNative) {
             try {
                 console.log(`[Aozora] Loading local book: ${bookId} from ${localUrl}`);
-                return await this._fetchBookJson(localUrl);
+                return await this._fetchBookJson(localUrl, opts);
             } catch (e) {
+                if (e.name === 'AbortError') throw e;
                 console.warn(`[Aozora] Local book load failed, falling back to GitHub: ${bookId}`, e);
             }
         }
 
         console.log(`[Aozora] Loading remote book: ${bookId} from ${remoteUrl}`);
-        return this._fetchBookJson(remoteUrl);
+        return this._fetchBookJson(remoteUrl, opts);
     },
 
-    async _fetchBookJson(url) {
-        const response = await fetch(url);
+    async _fetchBookJson(url, opts = {}) {
+        const response = await fetch(url, opts.signal ? { signal: opts.signal } : undefined);
 
         if (!response.ok) {
             throw new Error(`Failed to fetch book JSON: ${url} (HTTP ${response.status})`);
         }
 
-        return response.json();
+        const totalHeader = response.headers.get('content-length');
+        const total = totalHeader ? parseInt(totalHeader, 10) : 0;
+
+        // 无 body reader / 无 content-length（HTTP 压缩等）→ 直接 json()
+        if (!response.body || !total) {
+            if (opts.onProgress) opts.onProgress(null); // 不定进度
+            return response.json();
+        }
+
+        const reader = response.body.getReader();
+        const chunks = [];
+        let received = 0;
+        while (true) {
+            const { done, value } = await reader.read();
+            if (done) break;
+            chunks.push(value);
+            received += value.length;
+            if (opts.onProgress) opts.onProgress(Math.min(1, received / total));
+        }
+        const blob = new Blob(chunks);
+        const text = await blob.text();
+        return JSON.parse(text);
     },
 
     /**

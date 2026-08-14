@@ -25,6 +25,15 @@ Yomu 是一个面向日语阅读学习的离线阅读工具。它以浏览器 We
 
 这些作品以公版或青空文库允许公开阅读的文本为基础。本项目不主张拥有原作品版权，也不有意侵犯任何作者、译者、出版社或权利方权益。如果你认为仓库中的某个内容存在版权或授权问题，请通过 GitHub issue 联系，我会尽快核查并移除或修正。
 
+除作品文本外，学习数据来源：
+
+- `data/dict/jmdict.json` — EDRDG JMdict（CC BY-SA 4.0）常用语精简版，`scripts/build_dict.py` 生成。
+- `data/dict/jlpt.json` — Jonathan Waller (tanos.co.uk, CC-BY) JLPT 词表，经
+  [Bluskyo/JLPT_Vocabulary](https://github.com/Bluskyo/JLPT_Vocabulary)（MIT）整理，
+  `scripts/build_jlpt.py` 生成。
+
+上述数据的来源、许可证与重建方法详见 `data/dict/README.md`。
+
 青空文库：<https://www.aozora.gr.jp/>
 
 ## 本地使用
