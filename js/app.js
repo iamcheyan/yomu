@@ -69,6 +69,7 @@ const Yomu = {
             // Step 4: Reader
             msg.textContent = '書籍リストを読み込み中...';
             try { await YomuReader.init(); } catch (e) { console.error('Reader init failed:', e); }
+            if (window.YomuStats) { try { YomuStats.init(); } catch (e) { console.error('Stats init failed:', e); } }
 
             // Step 5: Settings & UI
             msg.textContent = 'UIを準備中...';
@@ -312,10 +313,16 @@ const Yomu = {
 
     _scrollReader(direction) {
         const amount = window.innerHeight * 0.85; // Leave 15% overlap for reading continuity
-        window.scrollBy({
-            top: direction * amount,
-            behavior: 'auto' // E-ink friendly: instant jump
-        });
+        if (this.isVerticalReading()) {
+            // 縦書き: 阅读向左推进；direction 1 = 前进（左）, -1 = 后退（右）
+            const c = document.getElementById('novel-content');
+            if (c) c.scrollBy({ left: -direction * amount, behavior: 'auto' });
+        } else {
+            window.scrollBy({
+                top: direction * amount,
+                behavior: 'auto' // E-ink friendly: instant jump
+            });
+        }
 
         // Reset auto-hide timer if controls are visible during scroll
         if (this._readerControlsVisible) {
@@ -594,6 +601,7 @@ const Yomu = {
         }
 
         this._isReaderOpen = true;
+        if (window.YomuStats) YomuStats.setReading(true);
         this._consumeNewBadge(bookId);
         // 隐藏其他视图，只显示阅读器
         document.getElementById('book-list-view').classList.add('hidden');
@@ -641,6 +649,7 @@ const Yomu = {
 
         this._storeOpen = false;
         this._isReaderOpen = false;
+        if (window.YomuStats) YomuStats.setReading(false);
 
         if (pushState) {
             // Only push if we aren't already on library hash to avoid duplicates
@@ -670,6 +679,7 @@ const Yomu = {
         document.getElementById('book-list-view').classList.add('hidden');
         document.getElementById('store-view').classList.remove('hidden');
         this._storeOpen = true;
+        if (window.YomuStats) YomuStats.setReading(false);
 
         // Update shared header
         const storeBtn = document.getElementById('btn-show-store');
@@ -1243,6 +1253,10 @@ const Yomu = {
         panel.classList.add('open');
         this._tocOpen = true;
 
+        if (window.YomuBookmarks) {
+            YomuBookmarks.renderTocSection(document.getElementById('toc-bookmarks'));
+        }
+
         const currentItem = list.querySelector('.toc-item.current');
         if (currentItem) currentItem.scrollIntoView({ block: 'center' });
     },
@@ -1268,6 +1282,56 @@ const Yomu = {
         const nextMode = currentMode === 'none' ? 'internal' : 'none';
         this.setFuriganaMode(nextMode);
     },
+
+    // ===== B4: 段落しおり/ハイライト/ノート =====
+    openParagraphMenu(bookId, paraIndex) {
+        const overlay = document.getElementById('action-sheet-overlay');
+        const sheet = document.getElementById('action-sheet');
+        if (!overlay || !sheet) return;
+
+        const entry = window.YomuBookmarks ? YomuBookmarks.get(bookId, paraIndex) : null;
+        const para = (typeof YomuReader !== 'undefined' && YomuReader._paragraphs) ? YomuReader._paragraphs[paraIndex] : null;
+
+        const actions = [
+            { label: (entry && entry.b) ? '⭐ しおり解除' : '⭐ しおり', fn: () => { YomuBookmarks.toggleBookmark(bookId, paraIndex, para); } },
+            { label: (entry && entry.hl) ? '🎨 ハイライト解除' : '🎨 ハイライト', fn: () => { YomuBookmarks.toggleHighlight(bookId, paraIndex, para); } },
+            { label: (entry && entry.n) ? '📝 ノート編集' : '📝 ノート追加', fn: () => {
+                const cur = (YomuBookmarks.get(bookId, paraIndex) || {}).n || '';
+                const note = window.prompt('ノート（最大2000字）', cur);
+                if (note !== null) YomuBookmarks.setNote(bookId, paraIndex, note, para);
+            } }
+        ];
+
+        sheet.innerHTML = `
+            <div class="action-sheet-title">${this._escapeHtml((para && para.content || '').slice(0, 60))}</div>
+            ${actions.map((a, i) => `<button class="action-sheet-btn" data-action="${i}"><span>${this._escapeHtml(a.label)}</span></button>`).join('')}
+            <button class="action-sheet-btn cancel">キャンセル</button>
+        `;
+        sheet.querySelectorAll('[data-action]').forEach(btn => {
+            btn.addEventListener('click', () => {
+                this.closeActionSheet();
+                actions[parseInt(btn.dataset.action, 10)].fn();
+                if (window.YomuBookmarks) YomuBookmarks.apply(bookId, paraIndex, paraIndex + 1);
+            });
+        });
+        const cancelBtn = sheet.querySelector('.cancel');
+        if (cancelBtn) cancelBtn.addEventListener('click', () => this.closeActionSheet());
+
+        overlay.classList.add('active');
+        sheet.classList.add('active');
+    },
+
+    _paragraphFromEvent(e) {
+        if (!this._isReaderOpen) return null;
+        const el = e.target.closest && e.target.closest('#novel-content [id^="p-"]');
+        if (!el) return null;
+        const m = el.id.match(/^p-(\d+)$/);
+        if (!m) return null;
+        const book = (typeof YomuReader !== 'undefined') ? YomuReader.getCurrentBook() : null;
+        if (!book) return null;
+        return { bookId: book.id, paraIndex: parseInt(m[1], 10) };
+    },
+
 
     // ===== Font pair (漢字/かな 別指定) =====
     async setFontPair(kanji, kana, opts = {}) {
@@ -1387,6 +1451,7 @@ const Yomu = {
             this._settingsOpen = true;
             this._updateNlpOptionState();
             this._fetchVersion();
+            if (window.YomuStats) YomuStats._renderUI();
         }
     },
 
@@ -1462,7 +1527,36 @@ const Yomu = {
         if (card) card.classList.toggle('downloading', Boolean(on));
     },
 
-    // ===== Mobile UX: new-download shelf badges =====
+    // ===== B2: 縦書き読書モード =====
+    isVerticalReading() {
+        return document.body.classList.contains('vertical-reading');
+    },
+
+    setVerticalReading(enabled) {
+        const on = Boolean(enabled);
+        document.body.classList.toggle('vertical-reading', on);
+        YomuStorage.saveSetting('verticalReading', on);
+        const toggle = document.getElementById('vertical-reading-toggle');
+        if (toggle) toggle.checked = on;
+        if (this._isReaderOpen && this.reader.getCurrentBook()) {
+            // 重新套用阅读位置（滚动容器从 window 切到 #novel-content 或反之）
+            this.reader.reapplyProgress();
+        }
+    },
+
+    // ===== B5: JLPT 難度表示切替 =====
+    setJlptShow(enabled) {
+        const on = Boolean(enabled);
+        YomuStorage.saveSetting('jlptShow', on);
+        const toggle = document.getElementById('jlpt-show-toggle');
+        if (toggle) toggle.checked = on;
+    },
+
+    setEdgeTap(enabled) {
+        const on = Boolean(enabled);
+        document.body.classList.toggle('edge-tap-on', on);
+        YomuStorage.saveSetting('edgeTap', on);
+    },
     _getNewBookIds() {
         if (!this._newBookIds) {
             this._newBookIds = new Set(YomuStorage.get('new_books', []));
@@ -1472,6 +1566,15 @@ const Yomu = {
 
     _isNewBook(id) {
         return this._getNewBookIds().has(id);
+    },
+
+    scrollToTop() {
+        if (this.isVerticalReading()) {
+            const c = document.getElementById('novel-content');
+            if (c) c.scrollLeft = 0; // vertical-rl: 0 = 行首
+        } else {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
     },
 
     _markNewBook(id) {
@@ -1520,6 +1623,7 @@ const Yomu = {
         // Keep the PWA chrome color in sync with the reading theme
         const meta = document.querySelector('meta[name="theme-color"]');
         if (meta) meta.setAttribute('content', getComputedStyle(document.body).backgroundColor);
+
     },
 
     setBrightness(val) {
@@ -1694,6 +1798,40 @@ const Yomu = {
         });
 
         this._initPullToRefresh();
+
+        // B4: 阅读器段落长按 → しおり/ハイライト/ノート 菜单
+        let paraLpTimer = null;
+        let paraLpFired = false;
+        document.addEventListener('touchstart', (e) => {
+            if (!this._isReaderOpen || e.touches.length !== 1) return;
+            const target = this._paragraphFromEvent(e);
+            if (!target) return;
+            paraLpFired = false;
+            paraLpTimer = setTimeout(() => {
+                paraLpFired = true;
+                if (navigator.vibrate) navigator.vibrate(12);
+                this.openParagraphMenu(target.bookId, target.paraIndex);
+            }, 500);
+        }, { passive: true });
+        const cancelParaLp = () => {
+            if (paraLpTimer) { clearTimeout(paraLpTimer); paraLpTimer = null; }
+        };
+        document.addEventListener('touchmove', cancelParaLp, { passive: true });
+        document.addEventListener('touchend', (e) => {
+            cancelParaLp();
+            if (paraLpFired) {
+                paraLpFired = false;
+                e.preventDefault();
+                e.stopPropagation();
+            }
+        }, { passive: false });
+        document.addEventListener('contextmenu', (e) => {
+            const target = this._paragraphFromEvent(e);
+            if (target) {
+                e.preventDefault();
+                this.openParagraphMenu(target.bookId, target.paraIndex);
+            }
+        });
     },
 
     _initPullToRefresh() {
@@ -1802,7 +1940,6 @@ const Yomu = {
             msgEl.textContent = message;
             cancelBtn.classList.add('hidden');
             okBtn.onclick = () => {
-                overlay.classList.remove('active');
                 resolve();
             };
 
@@ -1869,6 +2006,13 @@ const Yomu = {
         const edgeOn = settings.edgeTap === true;
         if (edgeToggle) edgeToggle.checked = edgeOn;
         this.setEdgeTap(edgeOn);
+
+        // B2: 縦書きモード（阅读面布局，跨会话保持）
+        this.setVerticalReading(settings.verticalReading === true);
+
+        // B5: JLPT 難度表示（默认开）
+        const jlptToggle = document.getElementById('jlpt-show-toggle');
+        if (jlptToggle) jlptToggle.checked = settings.jlptShow !== false;
 
         // Furigana Mode
         let furiMode = settings.furiganaMode || 'none';

@@ -169,11 +169,19 @@ const YomuReader = {
             }
             const el = document.getElementById(`p-${progress.paraIndex}`);
             if (el) {
-                // Use instant scroll to avoid triggering observer during animation
-                el.scrollIntoView({ behavior: 'instant', block: 'start' });
+                // Use instant scroll to avoid triggering observer during animation;
+                // 縦書き时按 inline 轴（水平）对齐到行首
+                el.scrollIntoView(this._isVertical()
+                    ? { behavior: 'instant', block: 'nearest', inline: 'start' }
+                    : { behavior: 'instant', block: 'start' });
             }
             const percent = this._paragraphs.length > 0 ? Math.round((progress.paraIndex / this._paragraphs.length) * 100) : 0;
             this._updateProgressUI(percent);
+        } else if (this._isVertical()) {
+            // vertical-rl: scrollLeft 0 即行首（内容最右）
+            const c = this._scrollContainer();
+            if (c) c.scrollLeft = 0;
+            this._updateProgressUI(0);
         } else {
             window.scrollTo(0, 0);
             this._updateProgressUI(0);
@@ -189,13 +197,78 @@ const YomuReader = {
         return true;
     },
 
-
     getCurrentBook() {
         return this._currentBook;
     },
 
     getCurrentBookData() {
         return this._currentBookData;
+    },
+
+    // ===== B2: 縦書きモード — 滚动容器与进度度量分支 =====
+    _isVertical() {
+        return document.body.classList.contains('vertical-reading');
+    },
+
+    _scrollContainer() {
+        return this._isVertical()
+            ? document.getElementById('novel-content')
+            : window;
+    },
+
+    /**
+     * 布局模式切换后重新套用已保存的阅读位置。
+     * 确保目标段落已渲染，然后在当前滚动容器内定位。
+     */
+    reapplyProgress() {
+        if (!this._currentBook) return;
+        const progress = YomuStorage.getProgress(this._currentBook.id);
+        const paraIndex = progress && progress.paraIndex;
+        if (!paraIndex) {
+            if (this._isVertical()) {
+                const c = this._scrollContainer();
+                if (c) c.scrollLeft = 0; // vertical-rl: scrollLeft 0 = 行首（最右）
+            } else {
+                window.scrollTo(0, 0);
+            }
+            this._updateProgressUI(0);
+            return;
+        }
+        while (this._renderedCount <= paraIndex && this._renderedCount < this._paragraphs.length) {
+            this._renderNextChunk();
+        }
+        const el = document.getElementById(`p-${paraIndex}`);
+        if (el) el.scrollIntoView({ behavior: 'instant', block: 'nearest', inline: 'start' });
+        const total = this._paragraphs.length;
+        this._updateProgressUI(total > 0 ? Math.round((paraIndex / total) * 100) : 0);
+    },
+
+    /**
+     * 当前阅读段：横排取第一个 rect.bottom > 100 的段落；
+     * 縦書き取第一个 rect.right > 100 的段落（阅读向左推进，
+     * 已读段落移出右侧视口）。
+     */
+    _findCurrentParaIndex(startFrom) {
+        const paragraphs = document.querySelectorAll('#novel-content [id^="p-"]');
+        const vertical = this._isVertical();
+        for (let i = 0; i < paragraphs.length; i++) {
+            const p = paragraphs[i];
+            const rect = p.getBoundingClientRect();
+            if (vertical) {
+                // 縦書き: 已读段落移出右侧视口（rect.left >= vw）；
+                // 当前段 = 第一个仍有部分位于视口内的段落
+                if (rect.right > 100 && rect.left < window.innerWidth - 40) {
+                    const idNum = parseInt(p.id.split('-')[1]);
+                    if (!isNaN(idNum)) return idNum;
+                    break;
+                }
+            } else if (rect.bottom > 100) {
+                const idNum = parseInt(p.id.split('-')[1]);
+                if (!isNaN(idNum)) return idNum;
+                break;
+            }
+        }
+        return startFrom || 0;
     },
     /**
      * Map legacy slug ids to canonical fileId ids using books.json aliases
@@ -344,15 +417,22 @@ const YomuReader = {
                 }
             }
         }
-        
+
+
         const temp = document.createElement('div');
+
         temp.innerHTML = html;
         while (temp.firstChild) {
             container.appendChild(temp.firstChild);
         }
-        
+
         this._renderedCount = end;
         this._updateSentinel();
+
+        // B4: 套用书签/高亮样式
+        if (window.YomuBookmarks && this._currentBook) {
+            try { YomuBookmarks.apply(this._currentBook.id, start, end); } catch (e) {}
+        }
     },
 
     _startFuriganaProcessor() {
@@ -441,7 +521,7 @@ const YomuReader = {
 
             this._renderedCount = 0;
             document.getElementById('novel-content').innerHTML = '';
-            
+
             while (this._renderedCount <= currentParaIndex && this._renderedCount < this._paragraphs.length) {
                 this._renderNextChunk();
             }
@@ -459,16 +539,25 @@ const YomuReader = {
         if (fill) fill.style.width = `${percent}%`;
     },
 
+
     _startProgressTracking() {
         if (this._scrollListener) {
             window.removeEventListener('scroll', this._scrollListener);
+            const cont = document.getElementById('novel-content');
+            if (cont) cont.removeEventListener('scroll', this._scrollListener);
         }
 
         let lastKnownParaIndex = 0;
 
         this._scrollListener = () => {
-            // Check if at the very top
-            if (window.scrollY <= 5) {
+            const vertical = this._isVertical();
+            const container = vertical ? this._scrollContainer() : null;
+
+            // Check if at the very beginning of the reading flow
+            const atStart = vertical
+                ? (container && container.scrollLeft >= -2)
+                : window.scrollY <= 5;
+            if (atStart) {
                 this._updateProgressUI(0);
                 if (window.Yomu && typeof Yomu.updateReaderControlsAvailability === 'function') {
                     Yomu.updateReaderControlsAvailability();
@@ -479,28 +568,14 @@ const YomuReader = {
                 return;
             }
 
-            // Find the topmost visible paragraph to calculate accurate progress
-            const paragraphs = document.querySelectorAll('#novel-content [id^="p-"]');
-            let currentParaIndex = lastKnownParaIndex;
-            
-            // Find the first paragraph that is visible at the top of the viewport
-            for (let i = 0; i < paragraphs.length; i++) {
-                const p = paragraphs[i];
-                const rect = p.getBoundingClientRect();
-                // If the top of the paragraph is within the top half of the screen
-                // or if it's a large paragraph and we are currently inside it.
-                if (rect.bottom > 100) {
-                    const idNum = parseInt(p.id.split('-')[1]);
-                    if (!isNaN(idNum)) {
-                        currentParaIndex = idNum;
-                    }
-                    break;
-                }
-            }
+            let currentParaIndex = this._findCurrentParaIndex(lastKnownParaIndex);
 
-            // If we've reached the very bottom, force 100% if all content is rendered
-            const isAtBottom = (window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 60);
-            if (isAtBottom && this._renderedCount >= this._paragraphs.length) {
+            // If we've reached the very end, force 100% if all content is rendered
+            const isAtEnd = vertical
+                ? (container && this._renderedCount >= this._paragraphs.length &&
+                   (container.clientWidth - container.scrollLeft) >= (container.scrollWidth - 60))
+                : ((window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 60));
+            if (isAtEnd) {
                 currentParaIndex = this._paragraphs.length;
                 if (window.Yomu &&
                     typeof Yomu.updateReaderControlsAvailability === 'function' &&
@@ -509,12 +584,12 @@ const YomuReader = {
                     Yomu.setReaderControlsVisible(true);
                 }
             }
-            
+
             lastKnownParaIndex = currentParaIndex;
 
             const total = this._paragraphs.length;
             const percent = total > 0 ? Math.round((currentParaIndex / total) * 100) : 0;
-            
+
             this._updateProgressUI(percent);
             if (window.Yomu && typeof Yomu.updateReaderControlsAvailability === 'function') {
                 Yomu.updateReaderControlsAvailability();
@@ -524,15 +599,19 @@ const YomuReader = {
             this._scrollTimeout = setTimeout(() => {
                 if (this._currentBook) {
                     // Save both percentage, fallback scroll height, and exact para index
-                    YomuStorage.saveProgress(this._currentBook.id, percent, window.scrollY, currentParaIndex);
+                    const scrollTop = vertical && container ? container.scrollLeft : window.scrollY;
+                    YomuStorage.saveProgress(this._currentBook.id, percent, scrollTop, currentParaIndex);
+                    if (window.YomuStats) {
+                        try { YomuStats.onProgress(this._currentBook.id, percent); } catch (e) {}
+                    }
                 }
             }, 500);
         };
-        window.addEventListener('scroll', this._scrollListener);
+
+        window.addEventListener('scroll', this._scrollListener, { passive: true });
+        const cont = document.getElementById('novel-content');
+        if (cont) cont.addEventListener('scroll', this._scrollListener, { passive: true });
     },
-
-
-
     _initGestures() {
         let initialDist = 0;
         let initialFontSize = 0;
