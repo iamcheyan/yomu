@@ -24,8 +24,8 @@ import android.widget.Toast;
 import java.io.File;
 
 public class MainActivity extends Activity {
-    private WebView webView;
-
+    private android.webkit.ValueCallback<Uri[]> filePathCallback;
+    private static final int FILE_CHOOSER_REQUEST = 10001;
     private String getRootPath() {
         return Environment.getExternalStorageDirectory().getAbsolutePath() + "/Yomu/data";
     }
@@ -67,6 +67,35 @@ public class MainActivity extends Activity {
                 // 自动注入数据根路径
                 view.evaluateJavascript("window.DATA_ROOT = 'file://" + getRootPath() + "';", null);
                 view.evaluateJavascript("window.IS_ANDROID = true;", null);
+            }
+        });
+
+        // 本地导入/备份読み込み（<input type="file">）需要 file chooser 支持
+        webView.setWebChromeClient(new android.webkit.WebChromeClient() {
+            @Override
+            public boolean onShowFileChooser(WebView view,
+                                             android.webkit.ValueCallback<Uri[]> callback,
+                                             FileChooserParams params) {
+                if (filePathCallback != null) {
+                    filePathCallback.onReceiveValue(null);
+                }
+                filePathCallback = callback;
+                Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
+                intent.addCategory(Intent.CATEGORY_OPENABLE);
+                // accept=".txt,.epub" 等扩展名列表不是合法 MIME，退回 */*
+                String[] accept = params.getAcceptTypes();
+                String a0 = (accept != null && accept.length > 0 && accept[0] != null)
+                        ? accept[0].trim() : "";
+                intent.setType((a0.isEmpty() || a0.contains(",") || a0.startsWith(".")) ? "*/*" : a0);
+                try {
+                    startActivityForResult(
+                            Intent.createChooser(intent, "ファイルを選択"), FILE_CHOOSER_REQUEST);
+                } catch (android.content.ActivityNotFoundException e) {
+                    filePathCallback = null;
+                    Toast.makeText(MainActivity.this, "ファイル選択アプリがありません", Toast.LENGTH_SHORT).show();
+                    return false;
+                }
+                return true;
             }
         });
 
@@ -299,20 +328,25 @@ public class MainActivity extends Activity {
                     unregisterReceiver(this);
                 }
             }
-        }, new IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE));
+        });
     }
 
-    private void installApk() {
-        File file = new File(Environment.getExternalStoragePublicDirectory(
-                Environment.DIRECTORY_DOWNLOADS), "yomu-latest.apk");
-
-        Intent intent = new Intent(Intent.ACTION_VIEW);
-        intent.setDataAndType(Uri.fromFile(file),
-                "application/vnd.android.package-archive");
-        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
-        startActivity(intent);
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == FILE_CHOOSER_REQUEST) {
+            if (filePathCallback != null) {
+                Uri[] results = null;
+                if (resultCode == RESULT_OK && data != null && data.getData() != null) {
+                    results = new Uri[]{ data.getData() };
+                }
+                filePathCallback.onReceiveValue(results);
+                filePathCallback = null;
+            }
+            return;
+        }
+        super.onActivityResult(requestCode, resultCode, data);
     }
+
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
