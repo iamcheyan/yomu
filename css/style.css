@@ -14,39 +14,35 @@
     --highlight-bg: #eee;
     --highlight-border: #999;
     --progress-width: 0%;
+    /* Mobile reading UX tokens (themes override these on <body>) */
+    --reader-margin: 20px;
+    --bg-color: #ffffff;
+    --fg-color: #000000;
+    --line-color: #000000;
+    --muted-color: #666666;
+    --soft-bg: #eeeeee;
 }
 
 
 
-html,
-body {
-    height: 100vh;
-    overflow: hidden;
+html {
     scroll-behavior: auto !important;
 }
 
 body {
     font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS Mincho", serif;
-    background: #fff;
-    color: #000;
+    background: var(--bg-color);
+    color: var(--fg-color);
     -webkit-font-smoothing: antialiased;
     font-size: var(--base-font-size);
     line-height: var(--line-height);
     display: flex;
     flex-direction: column;
+    /* Mobile: stop browser pull-to-refresh / horizontal rubber-banding so the
+       in-app gestures (edge tap, custom pull-to-refresh) stay predictable. */
+    overscroll-behavior-y: none;
+    overscroll-behavior-x: none;
 }
-
-/* Re-enable scroll ONLY when reader is active */
-html.reader-active,
-body.reader-active {
-    overflow-y: auto !important;
-    height: auto !important;
-}
-
-.novel-text.font-mincho {
-    font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS Mincho", serif;
-}
-
 .novel-text.font-gothic {
     font-family: "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
 }
@@ -101,7 +97,6 @@ body.reader-active {
     max-width: 800px;
     margin: 0 auto;
     width: 100%;
-    overflow: hidden;
     padding: 0;
 }
 
@@ -121,16 +116,9 @@ body.reader-active .main-header-container {
 
 .home-adaptive-grid {
     flex: 1;
-    overflow: hidden !important;
-
-    grid-template-rows: repeat(var(--grid-rows, 2), 1fr);
     gap: 20px;
     padding: 10px 0;
-}
-
-
-body.reader-active .main-header-container {
-    display: none;
+    align-content: start;
 }
 
 .book-list-header {
@@ -503,7 +491,7 @@ body.reader-active .main-header-container {
     display: none;
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px 0 100px;
+    padding: 20px var(--reader-margin) 100px;
 }
 
 .reader-view.active {
@@ -1195,12 +1183,16 @@ input:checked+.slider-round:before {
 @media (max-width: 900px) {
 
     .book-list-view,
-    .reader-view,
     .store-view,
     .main-header-container,
     .reader-status-bar {
         padding-left: 20px !important;
         padding-right: 20px !important;
+    }
+
+    .reader-view {
+        padding-left: var(--reader-margin) !important;
+        padding-right: var(--reader-margin) !important;
     }
 
     .reader-back-btn {
@@ -1237,11 +1229,279 @@ input:checked+.slider-round:before {
     background: #f8f8f8;
 }
 
+/* Filter panel collapses by default so the result list stays visible on
+   small screens; the toggle chip expands it. */
+.store-filter-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1.5px solid #000;
+    background: #fff;
+    color: #000;
+    padding: 6px 14px;
+    font-family: "Hiragino Sans", "Yu Gothic", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 14px;
+}
+
+.store-filter-toggle::before {
+    content: "▶";
+    font-size: 10px;
+}
+
+.store-filter-toggle.expanded::before {
+    content: "▼";
+}
+
+.store-filter-toggle .active-filter-count {
+    display: none;
+    font-size: 10px;
+    font-weight: 700;
+    background: #000;
+    color: #fff;
+    padding: 1px 6px;
+    min-width: 14px;
+    text-align: center;
+}
+
+.store-filter-toggle.has-active .active-filter-count {
+    display: inline-block;
+}
+
+.store-filter-panel.collapsed .filter-group,
+.store-filter-panel.collapsed .filter-summary {
+    display: none;
+}
+
+.store-filter-panel.collapsed {
+    margin-bottom: 14px;
+    padding: 0;
+}
+
+/* Catalog entries without a bundled/offline novel: keep them browsable but
+   clearly unavailable instead of failing at download time. */
+.book-card.unavailable {
+    opacity: 0.55;
+}
+
+.book-card.unavailable .book-title,
+.book-card.unavailable .book-author {
+    color: #777;
+}
+
+.download-btn.unavailable {
+    background: #eee;
+    color: #888;
+    border-color: #ccc;
+    cursor: default;
+}
+
+/* Compact store rows on phones: ≥5 results visible on the first screen. */
+@media (max-width: 600px) {
+    #store-grid.home-adaptive-grid {
+        gap: 10px;
+        padding: 0;
+    }
+
+    #store-grid .book-card {
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        min-height: 0;
+        padding: 10px 12px;
+    }
+
+    #store-grid .book-info {
+        gap: 2px;
+        min-width: 0;
+    }
+
+    #store-grid .book-title {
+        font-size: 15px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    #store-grid .book-author {
+        font-size: 11px;
+    }
+
+    #store-grid .book-tags {
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+
+    #store-grid .book-tag {
+        padding: 2px 5px;
+        font-size: 10px;
+    }
+
+    #store-grid .book-meta {
+        margin-top: 0;
+        flex-shrink: 0;
+        align-self: center;
+    }
+
+    #store-grid .download-btn {
+        padding: 6px 10px;
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    #store-grid .empty-msg {
+        padding: 12px;
+    }
+}
+
 .store-filter-panel {
     margin-bottom: 24px;
     /* border-top: 2px solid #000;
     border-bottom: 2px solid #000; */
     padding: 14px 0;
+}
+
+/* ===== Home search ===== */
+.home-search {
+    margin: 12px 0 4px;
+}
+
+/* ===== Table of Contents ===== */
+.toc-btn {
+    position: fixed;
+    top: 18px;
+    right: max(18px, calc((100vw - 800px) / 2));
+    width: 46px;
+    height: 46px;
+    border: 3px solid #000;
+    background: #fff;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 101;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+.toc-btn:active {
+    background: #000;
+    color: #fff;
+    box-shadow: none;
+    transform: translate(2px, 2px);
+}
+
+body.reader-active.reader-controls-available.reader-controls-visible .toc-btn {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.toc-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 2500;
+    display: none;
+}
+
+.toc-overlay.active {
+    display: block;
+}
+
+.toc-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 320px;
+    max-width: 85vw;
+    background: #fff;
+    border-left: 3px solid #000;
+    z-index: 2600;
+    display: none;
+    flex-direction: column;
+    font-family: "Hiragino Sans", "Yu Gothic", sans-serif;
+}
+
+.toc-panel.open {
+    display: flex;
+}
+
+.toc-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+    border-bottom: 3px solid #000;
+    flex-shrink: 0;
+}
+
+.toc-header h2 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.toc-header .close-btn {
+    background: none;
+    border: none;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0 4px;
+}
+
+.toc-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px 0 30px;
+}
+
+.toc-item {
+    display: block;
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #eee;
+    padding: 12px 20px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    cursor: pointer;
+    line-height: 1.5;
+}
+
+.toc-item:active {
+    background: #000;
+    color: #fff;
+}
+
+.toc-item.current {
+    background: #eee;
+}
+
+.toc-item .toc-level-sub {
+    display: block;
+    font-size: 12px;
+    color: #666;
+    padding-left: 14px;
+    font-weight: 500;
+}
+
+.toc-item.current .toc-level-sub {
+    color: #333;
+}
+
+.toc-empty {
+    padding: 24px 20px;
+    color: #888;
+    font-size: 13px;
 }
 
 
@@ -1845,3 +2105,741 @@ body.reader-active .global-footer {
 .u-indent {
     text-indent: var(--indent, 0);
 }
+
+/* ==========================================================================
+   Mobile UX: themes, reader chrome, gestures, touch targets, safe areas
+   (loaded last so var-based overrides win the cascade over older rules)
+   ========================================================================== */
+
+/* ===== Themes (四档护眼底色) ===== */
+body.theme-sepia {
+    --bg-color: #f7f0dc;
+    --fg-color: #43392a;
+    --line-color: #43392a;
+    --muted-color: #8a7c63;
+    --soft-bg: #eae0c4;
+    --primary-color: #43392a;
+    --primary-dark: #5c5140;
+    --highlight-bg: #eae0c4;
+}
+
+body.theme-green {
+    --bg-color: #cfe0c5;
+    --fg-color: #243521;
+    --line-color: #243521;
+    --muted-color: #5d7158;
+    --soft-bg: #bcd3af;
+    --primary-color: #243521;
+    --primary-dark: #38492f;
+    --highlight-bg: #bcd3af;
+}
+
+body.theme-dark {
+    --bg-color: #141414;
+    --fg-color: #c8c8c8;
+    --line-color: #c8c8c8;
+    --muted-color: #8a8a8a;
+    --soft-bg: #262626;
+    --primary-color: #c8c8c8;
+    --primary-dark: #a0a0a0;
+    --highlight-bg: #262626;
+}
+
+/* Repaint the hardcoded black/white surfaces with theme tokens */
+.main-header-container,
+.reader-status-bar,
+.toc-panel,
+.book-info-card,
+.settings-panel,
+.modal-card,
+.loading-overlay {
+    background: var(--bg-color);
+    color: var(--fg-color);
+}
+
+.book-card,
+.store-search input,
+.store-filter-toggle,
+.filter-chip,
+.page-btn,
+.modal-btn,
+.font-btn,
+.step-btn,
+.settings-select,
+.book-tag {
+    border-color: var(--line-color);
+}
+
+.store-filter-toggle,
+.filter-chip,
+.page-btn,
+.modal-btn,
+.font-btn,
+.step-btn,
+.settings-select {
+    background: var(--bg-color);
+    color: var(--fg-color);
+}
+
+.book-title,
+.toc-item,
+.book-info-card .card-title,
+.frontmatter-value,
+.status-right {
+    color: var(--fg-color);
+}
+
+.book-author,
+.book-desc,
+.reader-header .author,
+.book-info-card .card-author,
+.toc-item .toc-level-sub,
+.frontmatter-label {
+    color: var(--muted-color);
+}
+
+.toc-header,
+.toc-panel {
+    border-color: var(--line-color);
+}
+
+.toc-item {
+    border-bottom-color: var(--soft-bg);
+}
+
+.toc-item:active {
+    background: var(--fg-color);
+    color: var(--bg-color);
+}
+
+.toc-item.current {
+    background: var(--soft-bg);
+}
+
+.chip-count,
+.toc-item.current {
+    background-color: var(--soft-bg);
+}
+
+.chip-count {
+    color: var(--muted-color);
+}
+
+.download-btn,
+.modal-btn.primary,
+.card-label,
+.filter-chip.active {
+    background: var(--fg-color);
+    color: var(--bg-color);
+    border-color: var(--fg-color);
+}
+
+.filter-chip.active .chip-count {
+    background: var(--bg-color);
+    color: var(--fg-color);
+}
+
+.font-btn.active {
+    background: var(--fg-color);
+    color: var(--bg-color);
+}
+
+.frontmatter-link {
+    color: var(--fg-color);
+}
+
+.frontmatter-row,
+.card-footer,
+.book-info-card .frontmatter-row {
+    border-color: var(--soft-bg);
+}
+
+.settings-group input[type="range"] {
+    background: var(--fg-color);
+}
+
+.settings-group input[type="range"]::-webkit-slider-thumb {
+    background: var(--bg-color);
+    border-color: var(--fg-color);
+}
+
+.slider-round {
+    background-color: var(--bg-color);
+    border-color: var(--line-color);
+}
+
+.slider-round:before {
+    background-color: var(--fg-color);
+}
+
+input:checked+.slider-round {
+    background-color: var(--fg-color);
+}
+
+input:checked+.slider-round:before {
+    background-color: var(--bg-color);
+}
+
+.loading-spinner {
+    border-color: var(--soft-bg);
+    border-top-color: var(--fg-color);
+}
+
+.loading-overlay.hidden + * .loading-spinner {
+    /* noop: keeps selector count stable for old WebView parsers */
+}
+
+.download-progress-container {
+    background: var(--soft-bg);
+    border-color: var(--line-color);
+}
+
+.download-progress-fill {
+    background: var(--fg-color);
+}
+
+.trans-model {
+    background: var(--fg-color);
+    color: var(--bg-color);
+}
+
+.translation-line {
+    color: var(--muted-color);
+}
+
+.book-card.downloading::after {
+    background: var(--fg-color);
+    color: var(--bg-color);
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--fg-color);
+    border-color: var(--bg-color);
+}
+
+/* ===== Reader progress bar (fixed at top, survives immersive mode) ===== */
+#reader-progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: transparent;
+    z-index: 150;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    pointer-events: none;
+}
+
+body.reader-active #reader-progress-bar {
+    opacity: 1;
+}
+
+#reader-progress-fill {
+    height: 100%;
+    width: 0%;
+    background: var(--fg-color);
+    transition: width 0.15s linear;
+}
+
+/* ===== Back-to-top (part of the auto-hiding reader chrome) ===== */
+#back-to-top-btn {
+    position: fixed;
+    right: 18px;
+    right: calc(18px + env(safe-area-inset-right, 0px));
+    bottom: 72px;
+    bottom: calc(72px + env(safe-area-inset-bottom, 0px));
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 2px solid var(--line-color);
+    background: var(--bg-color);
+    color: var(--fg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 110;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(8px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+body.reader-active.reader-controls-available.reader-controls-visible.past-scroll-depth #back-to-top-btn {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+}
+
+/* ===== Edge tap paging zones ===== */
+.tap-zone {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 14%;
+    max-width: 84px;
+    z-index: 90;
+    display: none;
+    background: transparent;
+}
+
+body.reader-active.edge-tap-on #tap-zone-left {
+    display: block;
+    left: 0;
+}
+
+body.reader-active.edge-tap-on #tap-zone-right {
+    display: block;
+    right: 0;
+}
+
+/* ===== Immersive reading mode (沉浸モード) ===== */
+body.reader-immersive .reader-header {
+    display: none;
+}
+
+body.reader-immersive .reader-view {
+    padding-top: 20px;
+}
+
+body.reader-immersive #back-to-top-btn {
+    display: none;
+}
+
+#immersive-toggle-btn.active {
+    color: var(--muted-color);
+}
+
+/* ===== Brightness dim overlay ===== */
+#brightness-overlay {
+    position: fixed;
+    inset: 0;
+    background: #000;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 5000;
+    transition: opacity 0.2s ease;
+}
+
+/* ===== Toast (download progress etc.) ===== */
+#toast-container {
+    position: fixed;
+    bottom: 84px;
+    bottom: calc(84px + env(safe-area-inset-bottom, 0px));
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 4000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: min(92vw, 420px);
+    pointer-events: none;
+}
+
+.toast {
+    pointer-events: auto;
+    background: var(--fg-color);
+    color: var(--bg-color);
+    padding: 12px 18px;
+    border-radius: 10px;
+    font-family: "Hiragino Sans", "Yu Gothic", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    max-width: 100%;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.toast.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.toast-progress {
+    margin-top: 8px;
+    height: 4px;
+    border-radius: 2px;
+    background: rgba(127, 127, 127, 0.4);
+    overflow: hidden;
+}
+
+.toast-progress>span {
+    display: block;
+    height: 100%;
+    width: 0%;
+    background: currentColor;
+    transition: width 0.2s ease;
+}
+
+.toast-success {
+    background: var(--fg-color);
+}
+
+.toast-error {
+    background: #b3261e;
+    color: #fff;
+}
+
+/* ===== Action sheet (card long-press menu) ===== */
+.action-sheet-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 3500;
+    display: none;
+}
+
+.action-sheet-overlay.active {
+    display: block;
+}
+
+.action-sheet {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    width: min(100vw, 480px);
+    background: var(--bg-color);
+    border: 2px solid var(--line-color);
+    border-bottom: none;
+    border-radius: 18px 18px 0 0;
+    padding: 8px 12px;
+    padding-bottom: 12px;
+    padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+    z-index: 3600;
+    transform: translate(-50%, 105%);
+    transition: transform 0.25s ease;
+    font-family: "Hiragino Sans", "Yu Gothic", sans-serif;
+}
+
+.action-sheet.active {
+    transform: translate(-50%, 0);
+}
+
+.action-sheet-title {
+    padding: 10px 10px 8px;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--muted-color);
+    border-bottom: 1px solid var(--soft-bg);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.action-sheet-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    min-height: 52px;
+    padding: 12px 14px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--soft-bg);
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--fg-color);
+    text-align: left;
+    cursor: pointer;
+}
+
+.action-sheet-btn:last-child {
+    border-bottom: none;
+}
+
+.action-sheet-btn.danger {
+    color: #b3261e;
+}
+
+body.theme-dark .action-sheet-btn.danger {
+    color: #ff7b72;
+}
+
+.action-sheet-btn.cancel {
+    justify-content: center;
+    border-top: 2px solid var(--line-color);
+    margin-top: 4px;
+}
+
+.action-sheet-btn svg {
+    flex-shrink: 0;
+}
+
+/* ===== Pull-to-refresh indicator ===== */
+.ptr-indicator {
+    position: fixed;
+    top: 10px;
+    top: calc(10px + env(safe-area-inset-top, 0px));
+    left: 50%;
+    transform: translate(-50%, -70px);
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: var(--bg-color);
+    border: 2px solid var(--line-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 160;
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    font-size: 20px;
+    color: var(--fg-color);
+    pointer-events: none;
+}
+
+.ptr-indicator.visible {
+    transform: translate(-50%, 0);
+}
+
+.ptr-indicator.armed {
+    color: var(--muted-color);
+}
+
+.ptr-indicator .ptr-spin {
+    animation: ptr-rotate 0.8s linear infinite;
+}
+
+@keyframes ptr-rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* ===== Shelf badges ===== */
+.badge-new {
+    display: inline-flex;
+    align-items: center;
+    border: 1.5px solid var(--line-color);
+    background: var(--fg-color);
+    color: var(--bg-color);
+    font-size: 10px;
+    font-weight: 800;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: "Hiragino Sans", "Yu Gothic", sans-serif;
+    flex-shrink: 0;
+}
+
+.book-progress-row .progress-bar-container {
+    background: var(--soft-bg);
+}
+
+/* ===== Settings panel mobile sizing ===== */
+.settings-panel {
+    width: 440px;
+    max-width: 92vw;
+    max-height: 85vh;
+    max-height: 85dvh;
+}
+
+.settings-group-column {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+}
+
+.switch-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    font-family: "Hiragino Sans", "Yu Gothic", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    min-height: 44px;
+    cursor: pointer;
+}
+
+.theme-btn-group {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.theme-btn {
+    flex: 1;
+    min-width: 64px;
+    min-height: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    border: 2px solid var(--line-color);
+    background: var(--bg-color);
+    color: var(--fg-color);
+    font-family: "Hiragino Sans", "Yu Gothic", sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 6px 4px;
+    cursor: pointer;
+}
+
+.theme-btn>span {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 1.5px solid var(--line-color);
+}
+
+.theme-btn[data-theme="light"]>span {
+    background: #ffffff;
+}
+
+.theme-btn[data-theme="sepia"]>span {
+    background: #f7f0dc;
+}
+
+.theme-btn[data-theme="green"]>span {
+    background: #cfe0c5;
+}
+
+.theme-btn[data-theme="dark"]>span {
+    background: #1b1b1b;
+}
+
+.theme-btn.active {
+    box-shadow: inset 0 0 0 2px var(--bg-color), inset 0 0 0 4px var(--fg-color);
+}
+
+/* ===== Sticky search boxes (don't scroll off-screen) ===== */
+#book-list-view .home-search,
+#store-view>.store-search {
+    position: sticky;
+    top: 0;
+    z-index: 95;
+    background: var(--bg-color);
+    padding: 6px 0 4px;
+    margin: 6px 0 4px;
+}
+
+/* ===== Reading comfort ===== */
+.novel-text {
+    touch-action: pan-y;
+    -webkit-text-size-adjust: 100%;
+    word-break: normal;
+    overflow-wrap: break-word;
+}
+
+/* ===== Touch targets ≥44px (coarse pointers = phones / e-ink) ===== */
+@media (pointer: coarse) {
+    .icon-btn {
+        width: 44px;
+        height: 44px;
+    }
+
+    .icon-btn-small {
+        width: 44px;
+        height: 44px;
+    }
+
+    .delete-btn-icon {
+        min-width: 44px;
+        min-height: 44px;
+    }
+
+    .status-settings-btn,
+    .status-icon-btn {
+        min-width: 44px;
+        min-height: 44px;
+        padding: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: inherit;
+    }
+
+    .step-btn {
+        width: 44px;
+        height: 44px;
+    }
+
+    .font-btn,
+    .settings-select,
+    .download-btn,
+    .page-btn {
+        min-height: 44px;
+    }
+
+    .filter-chip {
+        min-height: 44px;
+    }
+
+    .toc-item {
+        min-height: 48px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+
+    .toc-header .close-btn {
+        min-width: 44px;
+        min-height: 44px;
+    }
+
+    .settings-header .close-btn {
+        min-width: 44px;
+        min-height: 44px;
+        font-size: 26px;
+    }
+
+    .modal-btn {
+        min-height: 48px;
+    }
+
+    #reader-progress-bar {
+        height: 4px;
+    }
+}
+
+/* ===== Safe-area (viewport-fit=cover notch screens) ===== */
+.reader-status-bar {
+    padding-bottom: 5px;
+    padding-bottom: calc(5px + env(safe-area-inset-bottom, 0px));
+}
+
+.toc-btn {
+    top: 18px;
+    top: calc(18px + env(safe-area-inset-top, 0px));
+}
+
+.reader-back-btn {
+    top: 18px;
+    top: calc(18px + env(safe-area-inset-top, 0px));
+}
+
+.main-header-container {
+    padding-top: 6px;
+    padding-top: calc(6px + env(safe-area-inset-top, 0px));
+}
+
+.reader-view {
+    padding-bottom: 110px;
+    padding-bottom: calc(110px + env(safe-area-inset-bottom, 0px));
+}
+
+.action-sheet {
+    padding-bottom: 12px;
+    padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+}
+
+.book-info-card {
+    max-height: 75vh;
+    max-height: 75dvh;
+}
+
+/* Old Android WebView: dvh unsupported → the vh declaration above still wins.
+   env() unsupported → the plain fallback declaration still wins. */

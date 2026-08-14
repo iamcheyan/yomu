@@ -12,7 +12,8 @@ const YomuReader = {
             // In Android, fetch on file:// can be tricky, try XHR as fallback
             const data = await new Promise((resolve, reject) => {
                 const xhr = new XMLHttpRequest();
-                xhr.open('GET', 'data/books.json?t=' + Date.now(), true);
+                // No "?t=" cache-bust: breaks XHR on Android file:///android_asset.
+                xhr.open('GET', 'data/books.json', true);
                 xhr.onload = () => {
                     if (xhr.status === 0 || (xhr.status >= 200 && xhr.status < 300)) {
                         try {
@@ -61,6 +62,9 @@ const YomuReader = {
     },
 
     async openBook(bookId) {
+        // Resolve legacy slug ids to canonical fileId ids so progress,
+        // downloads and history stay unified (D-01..D-03).
+        bookId = this._resolveBookId(bookId);
         let book = this._books.find(b => b.id === bookId);
         if (!book) {
             book = YomuStorage.getDownloadedBooks().find(b => b.id === bookId);
@@ -68,26 +72,32 @@ const YomuReader = {
         if (!book) return;
 
         this._currentBook = book;
-        const targetFileId = book.fileId || bookId;
+        bookId = book.id;
+        const targetFileId = book.fileId || book.id;
 
-        // Load book data
+
+        // Load book data; try the canonical fileId first, then legacy alias
+        // files (novels/kokoro.json etc.) which still ship in some builds.
         let bookData = await YomuStorage.getBookContent(targetFileId);
         if (!bookData) {
-            try {
-                bookData = await new Promise((resolve, reject) => {
-                    const xhr = new XMLHttpRequest();
-                    xhr.open('GET', `data/novels/${targetFileId}.json`, true);
-                    xhr.onload = () => {
-                        if (xhr.status === 0 || (xhr.status >= 200 && xhr.status < 300)) {
-                            try { resolve(JSON.parse(xhr.responseText)); } catch (e) { reject(e); }
-                        } else { reject(new Error(`XHR failed: ${xhr.status}`)); }
-                    };
-                    xhr.onerror = () => reject(new Error('Network Error'));
-                    xhr.send();
-                });
-            } catch (e) {
-                console.error('Failed to load book:', e);
-                return false;
+            const candidates = [targetFileId, ...(book.aliases || [])];
+            for (const candidate of candidates) {
+                try {
+                    bookData = await new Promise((resolve, reject) => {
+                        const xhr = new XMLHttpRequest();
+                        xhr.open('GET', `data/novels/${candidate}.json`, true);
+                        xhr.onload = () => {
+                            if (xhr.status === 0 || (xhr.status >= 200 && xhr.status < 300)) {
+                                try { resolve(JSON.parse(xhr.responseText)); } catch (e) { reject(e); }
+                            } else { reject(new Error(`XHR failed: ${xhr.status}`)); }
+                        };
+                        xhr.onerror = () => reject(new Error('Network Error'));
+                        xhr.send();
+                    });
+                    break;
+                } catch (e) {
+                    console.warn(`Failed to load book content for ${candidate}:`, e);
+                }
             }
         }
         
@@ -107,28 +117,37 @@ const YomuReader = {
         if (statusTitle) statusTitle.textContent = book.title;
         if (statusAuthor) statusAuthor.textContent = book.author;
         this._renderBookFrontmatter(book, bookData);
-
         // Flatten book content into paragraphs
         this._paragraphs = [];
+        this._chapters = [];
         if (bookData.chapters) {
+            let paraIndex = 0;
             for (const chapter of bookData.chapters) {
+                const chapterStart = paraIndex;
                 if (chapter.title) {
                     this._paragraphs.push({ type: 'header', content: chapter.title });
+                    paraIndex++;
                 }
                 for (const para of chapter.paragraphs) {
                     if (para && para.trim()) {
                         this._paragraphs.push({ type: 'text', content: para });
+                        paraIndex++;
                     }
                 }
+                this._chapters.push({ title: chapter.title || '', start: chapterStart, level: 0 });
             }
         } else if (bookData.paragraphs) {
             for (const para of bookData.paragraphs) {
-                if (para && para.trim()) {
+                if (!para || !para.trim()) continue;
+                const heading = this._parseHeading(para);
+                if (heading) {
+                    this._paragraphs.push({ type: 'header', content: heading.title });
+                    this._chapters.push({ title: heading.title, start: this._paragraphs.length - 1, level: heading.level });
+                } else {
                     this._paragraphs.push({ type: 'text', content: para });
                 }
             }
         }
-
         this._renderedCount = 0;
         this._chunkSize = 50;
         this._furiganaQueue = [];
@@ -168,6 +187,94 @@ const YomuReader = {
         });
 
         return true;
+    },
+
+
+    getCurrentBook() {
+        return this._currentBook;
+    },
+
+    getCurrentBookData() {
+        return this._currentBookData;
+    },
+    /**
+     * Map legacy slug ids to canonical fileId ids using books.json aliases
+     * (e.g. `kokoro` -> `773_ruby_5968`).
+     */
+    _resolveBookId(bookId) {
+        if (!bookId) return bookId;
+        const canonical = (this._books || []).find(b =>
+            b.id === bookId || (b.aliases && b.aliases.includes(bookId))
+        );
+        if (canonical) return canonical.id;
+        const downloaded = YomuStorage.getDownloadedBooks().find(b =>
+            b.id === bookId || (b.aliases && b.aliases.includes(bookId))
+        );
+        return downloaded ? downloaded.id : bookId;
+    },
+
+    /**
+     * Detect Aozora heading paragraphs such as
+     * `［＃２字下げ］上　先生と私［＃「上　先生と私」は大見出し］` and
+     * `［＃５字下げ］一［＃「一」は中見出し］`. Returns null for body text.
+     */
+    _parseHeading(para) {
+        const m = para.match(/^(?:［＃[^］]*］)*\s*([^［］]+?)\s*［＃[「「]?([^\]」]+?)[」]?(?:は)(大見出し|中見出し|小見出し)］/);
+        if (!m) return null;
+        const title = m[1].replace(/《[^》]*》/g, '').replace(/｜/g, '').trim();
+        if (!title) return null;
+        const kind = m[3];
+        const level = kind === '大見出し' ? 0 : (kind === '中見出し' ? 1 : 2);
+        return { title, level };
+    },
+
+    getChapters() {
+        return this._chapters || [];
+    },
+
+    /**
+     * Jump to a chapter: render chunks until the target paragraph exists,
+     * then scroll it into view.
+     */
+    jumpToChapter(index) {
+        const chapter = (this._chapters || [])[index];
+        if (!chapter) return;
+
+        while (this._renderedCount <= chapter.start && this._renderedCount < this._paragraphs.length) {
+            this._renderNextChunk();
+        }
+
+        const el = document.getElementById(`p-${chapter.start}`);
+        if (el) {
+            el.scrollIntoView({ behavior: 'instant', block: 'start' });
+        }
+
+        const total = this._paragraphs.length;
+        this._updateProgressUI(total > 0 ? Math.round((chapter.start / total) * 100) : 0);
+    },
+
+    getCurrentChapterIndex() {
+        const chapters = this._chapters || [];
+        if (chapters.length === 0) return -1;
+
+        // Find topmost visible paragraph, then the last chapter at or above it.
+        const paragraphs = document.querySelectorAll('#novel-content [id^="p-"]');
+        let currentPara = 0;
+        for (let i = 0; i < paragraphs.length; i++) {
+            const rect = paragraphs[i].getBoundingClientRect();
+            if (rect.bottom > 100) {
+                const idNum = parseInt(paragraphs[i].id.split('-')[1]);
+                if (!isNaN(idNum)) currentPara = idNum;
+                break;
+            }
+        }
+
+        let idx = -1;
+        for (let i = 0; i < chapters.length; i++) {
+            if (chapters[i].start <= currentPara) idx = i;
+            else break;
+        }
+        return idx;
     },
 
     _renderBookFrontmatter(book, bookData) {
@@ -347,6 +454,9 @@ const YomuReader = {
     _updateProgressUI(percent) {
         const statusProgress = document.getElementById('status-progress');
         if (statusProgress) statusProgress.textContent = `${percent}%`;
+        // Mobile UX: thin progress bar pinned to the top edge
+        const fill = document.getElementById('reader-progress-fill');
+        if (fill) fill.style.width = `${percent}%`;
     },
 
     _startProgressTracking() {
@@ -487,28 +597,6 @@ const YomuReader = {
     },
 
 
-
-    getCurrentBook() {
-        return this._currentBook;
-    },
-
-    getCurrentBookData() {
-        return this._currentBookData;
-    },
-
-    _escapeHtml(str) {
-        if (!str) return '';
-        return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-    },
-
-    _escapeAttr(str) {
-        if (!str) return '';
-        return str.replace(/&/g, '&amp;')
-                  .replace(/"/g, '&quot;')
-                  .replace(/'/g, '&#39;')
-                  .replace(/</g, '&lt;')
-                  .replace(/>/g, '&gt;');
-    },
     /**
      * Toggle translation visibility for a paragraph
      */
@@ -528,20 +616,34 @@ const YomuReader = {
 
         transLine = document.createElement('div');
         transLine.className = 'translation-line';
-        
+
         let transHtml = '';
         translations.forEach(t => {
             transHtml += `
                 <div class="trans-item">
                     <div class="trans-meta">
-                        <span class="trans-model">${t.model_name || t.model}</span>
+                        <span class="trans-model">${this._escapeHtml(t.model_name || t.model || '')}</span>
                     </div>
-                    <div class="trans-text">${t.text}</div>
+                    <div class="trans-text">${this._escapeHtml(t.text || '')}</div>
                 </div>
             `;
         });
-        
+
         transLine.innerHTML = transHtml;
         p.after(transLine);
+    },
+
+    _escapeAttr(str) {
+        if (!str) return '';
+        return str.replace(/&/g, '&amp;')
+                  .replace(/"/g, '&quot;')
+                  .replace(/'/g, '&#39;')
+                  .replace(/</g, '&lt;')
+                  .replace(/>/g, '&gt;');
+    },
+
+    _escapeHtml(str) {
+        if (!str) return '';
+        return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     },
 };

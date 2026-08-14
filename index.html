@@ -3,13 +3,25 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <meta name="theme-color" content="#000000">
     <title>Yomu - 日語読書器</title>
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/svg+xml" href="assets/app_icon.svg">
-    <link rel="apple-touch-icon" href="assets/app_icon.svg">
-    <link rel="stylesheet" href="css/style.css?v=5">
+    <link rel="apple-touch-icon" href="assets/app_icon.png">
+    <link rel="stylesheet" href="css/style.css?v=8">
+
+    <script>
+        // PWA: register service worker for offline reading (http/https only;
+        // Android WebView file:// builds skip this gracefully).
+        if ('serviceWorker' in navigator &&
+            (location.protocol === 'https:' || location.hostname === 'localhost' || location.hostname === '127.0.0.1')) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js').catch(err =>
+                    console.warn('SW registration skipped:', err.message));
+            });
+        }
+    </script>
 
 </head>
 
@@ -45,6 +57,10 @@
     <!-- ===== 书籍列表 ===== -->
     <div id="book-list-view" class="book-list-view">
         <div class="home-filter-panel" id="home-filter-panel">
+            <div class="store-search home-search">
+                <input type="text" id="home-search-input" placeholder="書架内を検索（作品名・著者名）..."
+                    autocomplete="off">
+            </div>
             <div class="home-filter-main">
                 <div class="filter-chips-group" id="home-filter-chips"></div>
                 <div class="home-pagination-header">
@@ -70,9 +86,11 @@
     <div id="store-view" class="store-view hidden">
         <div class="store-search">
             <input type="text" id="store-search-input" placeholder="作品名、著者名で検索..."
-                oninput="Yomu.filterStore(this.value)">
+                autocomplete="off">
         </div>
-        <div class="store-filter-panel" id="store-filter-panel">
+        <button id="store-filter-toggle" class="store-filter-toggle" onclick="Yomu.toggleStoreFilters(event)"
+            aria-expanded="false">絞り込み<span class="active-filter-count" id="store-active-filter-count"></span></button>
+        <div class="store-filter-panel collapsed" id="store-filter-panel">
             <div class="filter-group" id="filter-authors"></div>
             <div class="filter-group" id="filter-categories"></div>
             <div class="filter-group" id="filter-orthographies"></div>
@@ -97,12 +115,43 @@
         <div id="book-frontmatter" class="book-frontmatter"></div>
         <div id="novel-content" class="novel-text font-mincho"></div>
 
+        <div id="reader-progress-bar" aria-hidden="true"><div id="reader-progress-fill"></div></div>
+
+        <button id="back-to-top-btn" onclick="Yomu.scrollToTop()" title="先頭へ戻る" aria-label="先頭へ戻る">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="18 15 12 9 6 15"></polyline>
+            </svg>
+        </button>
+
+        <!-- Edge tap paging zones (enabled via settings) -->
+        <div id="tap-zone-left" class="tap-zone" aria-hidden="true"></div>
+        <div id="tap-zone-right" class="tap-zone" aria-hidden="true"></div>
+
         <button id="reader-back-btn" class="reader-back-btn" onclick="Yomu.back()" title="戻る" aria-label="戻る">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <path d="M15 18l-6-6 6-6"></path>
             </svg>
         </button>
+
+        <!-- Table of Contents -->
+        <button id="toc-btn" class="toc-btn" onclick="Yomu.toggleToc(event)" title="目次" aria-label="目次">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="4" y1="6" x2="20" y2="6"></line>
+                <line x1="4" y1="12" x2="20" y2="12"></line>
+                <line x1="4" y1="18" x2="14" y2="18"></line>
+            </svg>
+        </button>
+        <div id="toc-overlay" class="toc-overlay" onclick="Yomu.closeToc()"></div>
+        <div id="toc-panel" class="toc-panel" role="dialog" aria-label="目次">
+            <div class="toc-header">
+                <h2>目次</h2>
+                <button class="close-btn" onclick="Yomu.closeToc()" aria-label="閉じる">×</button>
+            </div>
+            <div id="toc-list" class="toc-list"></div>
+        </div>
 
         <!-- Minimalist Status Bar -->
         <div id="reader-status-bar" class="reader-status-bar">
@@ -111,6 +160,12 @@
             </div>
             <div class="status-right">
                 <span id="status-progress">0%</span>
+                <button class="status-icon-btn" id="immersive-toggle-btn" onclick="Yomu.toggleImmersive(event)" title="沉浸モード" aria-label="沉浸モード">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path>
+                    </svg>
+                </button>
                 <button class="status-settings-btn" onclick="Yomu.toggleSettingsFromButton(event)" title="設定"
                     aria-label="設定">
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -173,6 +228,46 @@
                 <button class="step-btn" onclick="Yomu.adjustLineHeight(1)">+</button>
                 <span class="value-display u-display-none" id="line-height-value">2.2</span>
             </div>
+
+        </div>
+
+        <div class="settings-group">
+            <label>ページ余白</label>
+            <div class="control-row">
+                <button class="step-btn" onclick="Yomu.adjustMargin(-4)">-</button>
+                <input type="range" id="margin-slider" min="8" max="48" step="2" value="20"
+                    oninput="Yomu.setMargin(this.value)">
+                <button class="step-btn" onclick="Yomu.adjustMargin(4)">+</button>
+                <span class="value-display u-display-none" id="margin-value">20px</span>
+            </div>
+        </div>
+
+        <div class="settings-group">
+            <label>背景色</label>
+            <div class="theme-btn-group" role="group" aria-label="背景色">
+                <button class="theme-btn theme-light active" data-theme="light" onclick="Yomu.setTheme('light')" aria-label="白"><span></span>白</button>
+                <button class="theme-btn theme-sepia" data-theme="sepia" onclick="Yomu.setTheme('sepia')" aria-label="米黄"><span></span>米黄</button>
+                <button class="theme-btn theme-green" data-theme="green" onclick="Yomu.setTheme('green')" aria-label="緑"><span></span>緑</button>
+                <button class="theme-btn theme-dark" data-theme="dark" onclick="Yomu.setTheme('dark')" aria-label="黒"><span></span>黒</button>
+            </div>
+        </div>
+
+        <div class="settings-group">
+            <label>明るさ</label>
+            <div class="control-row">
+                <button class="step-btn" onclick="Yomu.adjustBrightness(-10)">-</button>
+                <input type="range" id="brightness-slider" min="50" max="100" step="5" value="100"
+                    oninput="Yomu.setBrightness(this.value)">
+                <button class="step-btn" onclick="Yomu.adjustBrightness(10)">+</button>
+            </div>
+        </div>
+
+        <div class="settings-group settings-group-column">
+            <label>読書操作</label>
+            <label class="switch-row">
+                <span>画面端タップでページめくり</span>
+                <span class="switch"><input type="checkbox" id="edge-tap-toggle" onchange="Yomu.setEdgeTap(this.checked)"><span class="slider-round"></span></span>
+            </label>
         </div>
 
         <div class="settings-group">
@@ -209,7 +304,6 @@
         </div>
     </div>
 
-    <!-- Global Footer (Unified) -->
     <div class="library-footer global-footer">
         <p>青空文庫より <span id="library-count">0</span> 冊を所蔵</p>
         <a class="github-footer-link" href="https://github.com/iamcheyan/yomu" target="_blank"
@@ -223,13 +317,19 @@
         </a>
     </div>
 
+    <!-- Mobile UX: toast, long-press action sheet, brightness dim -->
+    <div id="toast-container" aria-live="polite"></div>
+    <div id="brightness-overlay" aria-hidden="true"></div>
+    <div id="action-sheet-overlay" class="action-sheet-overlay" onclick="Yomu.closeActionSheet()"></div>
+    <div id="action-sheet" class="action-sheet" role="dialog" aria-label="操作"></div>
+
     <!-- JS Modules -->
     <script src="libs/kuromoji.js"></script>
     <script src="js/storage.js?v=3"></script>
     <script src="js/tokenizer.js?v=3"></script>
-    <script src="js/reader.js?v=6"></script>
+    <script src="js/reader.js?v=9"></script>
     <script src="js/aozora.js?v=4"></script>
-    <script src="js/app.js?v=9"></script>
+    <script src="js/app.js?v=14"></script>
 </body>
 
 </html>

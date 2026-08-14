@@ -23,13 +23,16 @@ android {
 }
 
 def webAssetOutputDir = layout.projectDirectory.dir('src/main/assets')
-// Only bundle 4 books to keep APK small; kuromoji dict downloaded at runtime
+// 编译前自动同步 Web 文件到 assets。
+// 注意：id 以 data/books.json 为准（canonical fileId）；带别名的历史 slug
+// 文件一并打包，保证旧进度/离线数据仍可打开。
 def bundledBookIds = [
-    '18340_ruby_13244', 'hashire_melos', '752_ruby_2438', 'sangetsuki', 'mai_hime',
-    '301_ruby_5915', 'kokoro', 'gingatetsudo', 'kumo_no_ito', 'kazetachinu',
-    '424_ruby_19825', 'yodaka_no_hoshi', 'takasebune', 'gakumon_no_susume',
-    'wagahai_neko', '794_ruby_4237', 'chumon_ryori', '48310_ruby_42452',
-    'izunodori', 'yuki_onna'
+    '18340_ruby_13244', 'hashire_melos', '752_ruby_2438', '624_ruby_5668', 'sangetsuki', 'mai_hime',
+    '301_ruby_5915', '773_ruby_5968', 'kokoro', '456_ruby_145', 'gingatetsudo',
+    '92_ruby_164', 'kumo_no_ito', '4803_ruby_14149', 'kazetachinu',
+    '424_ruby_19825', '473_ruby_467', 'yodaka_no_hoshi', 'takasebune', 'gakumon_no_susume',
+    '789_ruby_5639', 'wagahai_neko', '794_ruby_4237', '43754_ruby_17594', 'chumon_ryori',
+    '48310_ruby_42452', 'izunodori', 'yuki_onna'
 ]
 
 // 编译前自动同步 Web 文件到 assets

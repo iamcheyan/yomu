@@ -23,17 +23,20 @@
     "author": "夏目漱石",
     "desc": "無鉄砲な教師が田舎の学校で騒動を巻き起こす。",
     "hasTrans": true,
-    "ndc": "",
-    "baseBook": ""
+    "ndc": "NDC 913",
+    "baseBook": "筑摩書房"
   },
   {
-    "id": "sangetsuki",
+    "id": "624_ruby_5668",
     "title": "山月記",
     "author": "中島敦",
     "desc": "自尊心ゆえに虎になった男の悲哀。",
     "hasTrans": false,
-    "ndc": "",
-    "baseBook": ""
+    "ndc": "NDC 913",
+    "baseBook": "新潮文庫、新潮社",
+    "aliases": [
+      "sangetsuki"
+    ]
   },
   {
     "id": "mai_hime",
@@ -54,40 +57,52 @@
     "baseBook": "新潮文庫、新潮社"
   },
   {
-    "id": "kokoro",
+    "id": "773_ruby_5968",
     "title": "こころ",
     "author": "夏目漱石",
     "desc": "先生の遺書を通じて描かれる孤独とエゴイズム。",
     "hasTrans": false,
-    "ndc": "",
-    "baseBook": ""
+    "ndc": "NDC 913",
+    "baseBook": "集英社文庫、集英社",
+    "aliases": [
+      "kokoro"
+    ]
   },
   {
-    "id": "gingatetsudo",
+    "id": "456_ruby_145",
     "title": "銀河鉄道の夜",
     "author": "宮沢賢治",
     "desc": "星空を駆ける幻想的な鉄道旅。",
     "hasTrans": false,
-    "ndc": "",
-    "baseBook": ""
+    "ndc": "NDC K913",
+    "baseBook": "新潮文庫、新潮社",
+    "aliases": [
+      "gingatetsudo"
+    ]
   },
   {
-    "id": "kumo_no_ito",
+    "id": "92_ruby_164",
     "title": "蜘蛛の糸",
     "author": "芥川龍之介",
     "desc": "地獄に垂らされた一本の糸とカンダタの物語。",
     "hasTrans": false,
-    "ndc": "",
-    "baseBook": ""
+    "ndc": "NDC K913",
+    "baseBook": "ちくま文庫、筑摩書房",
+    "aliases": [
+      "kumo_no_ito"
+    ]
   },
   {
-    "id": "kazetachinu",
+    "id": "4803_ruby_14149",
     "title": "風立ちぬ",
     "author": "堀辰雄",
     "desc": "美しくも切ない愛と死の物語。",
     "hasTrans": false,
-    "ndc": "",
-    "baseBook": ""
+    "ndc": "NDC 913",
+    "baseBook": "小学館",
+    "aliases": [
+      "kazetachinu"
+    ]
   },
   {
     "id": "424_ruby_19825",
@@ -99,13 +114,16 @@
     "baseBook": "旺文社文庫、旺文社"
   },
   {
-    "id": "yodaka_no_hoshi",
+    "id": "473_ruby_467",
     "title": "よだかの星",
     "author": "宮沢賢治",
     "desc": "醜いよだかが星になるまでの純粋な魂。",
     "hasTrans": false,
-    "ndc": "",
-    "baseBook": ""
+    "ndc": "NDC K913",
+    "baseBook": "新潮文庫、新潮社",
+    "aliases": [
+      "yodaka_no_hoshi"
+    ]
   },
   {
     "id": "takasebune",
@@ -126,13 +144,16 @@
     "baseBook": ""
   },
   {
-    "id": "wagahai_neko",
+    "id": "789_ruby_5639",
     "title": "吾輩は猫である",
     "author": "夏目漱石",
     "desc": "猫の視点から人间社会を風刺した漱石の出世作。",
     "hasTrans": false,
-    "ndc": "",
-    "baseBook": ""
+    "ndc": "NDC 913",
+    "baseBook": "ちくま文庫、筑摩書房",
+    "aliases": [
+      "wagahai_neko"
+    ]
   },
   {
     "id": "794_ruby_4237",
@@ -140,17 +161,20 @@
     "author": "夏目漱石",
     "desc": "地方出身の大学生が東京で揺れ動く青春。",
     "hasTrans": true,
-    "ndc": "",
-    "baseBook": ""
+    "ndc": "NDC 913",
+    "baseBook": "角川文庫クラシックス、角川書店"
   },
   {
-    "id": "chumon_ryori",
+    "id": "43754_ruby_17594",
     "title": "注文の多い料理店",
     "author": "宮沢賢治",
     "desc": "注文が次々と出てくる不思議な料理店。",
     "hasTrans": false,
-    "ndc": "",
-    "baseBook": ""
+    "ndc": "NDC K913",
+    "baseBook": "新潮文庫、新潮社",
+    "aliases": [
+      "chumon_ryori"
+    ]
   },
   {
     "id": "48310_ruby_42452",

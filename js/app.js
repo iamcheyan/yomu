@@ -15,12 +15,13 @@ const Yomu = {
         orthography: ''
     },
     _homePage: 0,
+    _homeSearch: '',
     _homeFilters: {
-        category: '',
-        translation: ''
+        category: ''
     },
-    _pageSize: 10,
-    _adaptivePageSize: 10,
+    _storePageCount: 10,
+    _storeFilterPanelOpen: false,
+    _tocOpen: false,
     _isReaderOpen: false,
     _readerControlsVisible: false,
     _readerControlsTimeout: null,
@@ -43,6 +44,8 @@ const Yomu = {
         });
         document.addEventListener('click', (e) => this._handleGlobalClick(e));
 
+        this._initSearchInputs();
+        this._initMobileUX();
         const loading = document.getElementById('loading-overlay');
         const msg = document.getElementById('loading-msg');
 
@@ -337,10 +340,11 @@ const Yomu = {
             const progress = YomuStorage.getProgress(book.id);
             const percent = Math.round(progress.scrollPercent || 0);
             return `
-                <div class="book-card" onclick="Yomu.openBook('${book.id}')">
+                <div class="book-card" data-book-id="${this._escapeAttr(book.id)}" data-book-source="library" onclick="Yomu.openBook('${book.id}')">
                     <div class="book-info">
                         <div class="book-title-row">
                             <span class="book-title">${this._escapeHtml(book.title)}</span>
+                            ${this._isNewBook(book.id) ? '<span class="badge-new">新着</span>' : ''}
                             ${book.hasTrans ? '<span class="badge-e">訳</span>' : ''}
                             <span class="book-title-sep">·</span>
                             <span class="book-author">${this._escapeHtml(book.author)}</span>
@@ -398,19 +402,57 @@ const Yomu = {
         if (!grid) return;
 
         const containerHeight = grid.clientHeight;
-        if (containerHeight <= 0) {
-            this._adaptivePageSize = 8;
-            grid.style.setProperty('--grid-rows', 4);
-            return;
+
+        // Measure the real rendered card height when available.
+        const firstCard = grid.querySelector('.book-card');
+        const columns = window.innerWidth <= 600 ? 1 : 2;
+        let cardHeight = 170; // conservative first-paint guess
+        if (firstCard) {
+            const measured = firstCard.getBoundingClientRect().height;
+            if (measured > 40) cardHeight = measured;
         }
 
         const gap = 20;
-        const minRowHeight = 170;
-        const maxRows = Math.floor((containerHeight + gap) / (minRowHeight + gap));
-        const rows = Math.max(1, Math.min(maxRows, 6));
+        const minRows = 3; // A5 goal: at least 6 books per page
+        let rows;
+        let pageSize;
+        if (containerHeight <= 0) {
+            rows = 4;
+            pageSize = rows * columns;
+        } else {
+            const fittedRows = Math.floor((containerHeight + gap) / (cardHeight + gap));
+            rows = Math.max(minRows, Math.min(fittedRows, 6));
+            pageSize = rows * columns;
+        }
 
         grid.style.setProperty('--grid-rows', rows);
-        this._adaptivePageSize = rows * 2;
+        this._adaptivePageSize = Math.max(6, pageSize);
+    },
+
+    _initSearchInputs() {
+        const debounce = (fn, wait) => {
+            let timer = null;
+            return (...args) => {
+                clearTimeout(timer);
+                timer = setTimeout(() => fn(...args), wait);
+            };
+        };
+
+        const storeInput = document.getElementById('store-search-input');
+        if (storeInput) {
+            storeInput.addEventListener('input', debounce(() => {
+                if (this._storeOpen) this.filterStore(storeInput.value);
+            }, 220));
+        }
+
+        const homeInput = document.getElementById('home-search-input');
+        if (homeInput) {
+            homeInput.addEventListener('input', debounce(() => {
+                this._homeSearch = homeInput.value;
+                this._homePage = 0;
+                this._renderBookList();
+            }, 220));
+        }
     },
 
     nextHomePage() {
@@ -443,11 +485,24 @@ const Yomu = {
     _getLibraryBooks() {
         const bundledBooks = YomuReader.getBooks();
         const downloadedBooks = YomuStorage.getDownloadedBooks();
+        const downloadedIds = new Set(downloadedBooks.map(d => d.id));
         const allBooks = [];
+
+        // Migrate reading progress recorded under legacy slug ids onto the
+        // canonical fileId ids (D-03).
+        for (const b of bundledBooks) {
+            if (!b.aliases) continue;
+            for (const alias of b.aliases) {
+                const legacy = YomuStorage.getProgress(alias);
+                if (legacy && legacy.lastRead && !YomuStorage.getProgress(b.id).lastRead) {
+                    YomuStorage.saveProgress(b.id, legacy.scrollPercent, legacy.scrollTop, legacy.paraIndex);
+                }
+            }
+        }
 
         for (const b of downloadedBooks) allBooks.push({ ...b, isDownloaded: true });
         for (const b of bundledBooks) {
-            if (!downloadedBooks.some(d => d.id === b.id)) {
+            if (!downloadedIds.has(b.id)) {
                 allBooks.push({ ...b, isDownloaded: false });
             }
         }
@@ -456,10 +511,13 @@ const Yomu = {
     },
 
     _getFilteredLibraryBooks(allBooks = null) {
+        const q = (this._homeSearch || '').trim().toLowerCase();
         const books = (allBooks || this._getLibraryBooks()).filter(book => {
+            if (q) {
+                const haystack = `${book.title || ''} ${book.author || ''} ${book.desc || ''}`.toLowerCase();
+                if (!haystack.includes(q)) return false;
+            }
             if (this._homeFilters.category && this._bookCategory(book) !== this._homeFilters.category) return false;
-            if (this._homeFilters.translation === 'translated' && !book.hasTrans) return false;
-            if (this._homeFilters.translation === 'untranslated' && book.hasTrans) return false;
             return true;
         });
 
@@ -497,19 +555,12 @@ const Yomu = {
             `;
         }
 
-        const transSelect = document.getElementById('home-translation-select');
-        if (transSelect) {
-            transSelect.value = this._homeFilters.translation || '';
-        }
-
         const summary = document.getElementById('home-filter-summary');
         if (summary) {
             const active = [
-                this._categoryLabel(this._homeFilters.category),
-                this._homeFilters.translation === 'translated' ? '翻訳あり' : '',
-                this._homeFilters.translation === 'untranslated' ? '原文のみ' : ''
+                this._categoryLabel(this._homeFilters.category)
             ].filter(Boolean);
-            summary.textContent = `${resultCount} 冊${active.length ? ' · ' + active.join(' / ') : ''}`;
+            summary.textContent = `${resultCount} 冊${this._homeSearch ? ` · 「${this._homeSearch}」` : ''}${active.length ? ' · ' + active.join(' / ') : ''}`;
         }
     },
 
@@ -529,6 +580,7 @@ const Yomu = {
         }
 
         this._isReaderOpen = true;
+        this._consumeNewBadge(bookId);
         // 隐藏其他视图，只显示阅读器
         document.getElementById('book-list-view').classList.add('hidden');
         document.getElementById('store-view').classList.add('hidden');
@@ -537,6 +589,9 @@ const Yomu = {
         document.body.classList.add('reader-active');
         this._storeOpen = false;
         this.updateReaderControlsAvailability();
+        document.body.classList.remove('reader-immersive');
+        const immersiveBtn = document.getElementById('immersive-toggle-btn');
+        if (immersiveBtn) immersiveBtn.classList.remove('active');
 
         // Save app state
         YomuStorage.saveAppState({ lastView: 'reader', lastBookId: bookId });
@@ -557,6 +612,7 @@ const Yomu = {
         document.body.classList.remove('reader-controls-available');
         this.setReaderControlsVisible(false);
         this.setBookInfoCardVisible(false);
+        document.body.classList.remove('reader-immersive', 'past-scroll-depth');
 
         document.getElementById('store-view').classList.add('hidden');
         document.getElementById('book-list-view').classList.remove('hidden');
@@ -585,31 +641,6 @@ const Yomu = {
         window.scrollTo({ top: 0, behavior: 'auto' });
     },
 
-    back() {
-        if (this._settingsOpen) {
-            this.toggleSettings();
-            return;
-        }
-        if (this._bookInfoCardOpen) {
-            this.setBookInfoCardVisible(false);
-            return;
-        }
-        
-        // If we are in reader or store, we want to go back
-        if (this._isReaderOpen || this._storeOpen) {
-            // Check if we have history to go back to
-            if (window.history.length > 1) {
-                window.history.back();
-            } else {
-                // Fallback if no history (should not happen with our init fix)
-                this.showBookList(true);
-            }
-        } else {
-            // Already in library, let Android handle it (it will exit)
-            // Or we could trigger a confirmation toast "Press again to exit"
-            // For now, do nothing and let native handle hardware back
-        }
-    },
 
     // ===== Store (Online Library) =====
     async showStore(pushState = true) {
@@ -620,6 +651,7 @@ const Yomu = {
         document.body.classList.remove('reader-controls-available');
         this.setReaderControlsVisible(false);
         this.setBookInfoCardVisible(false);
+        document.body.classList.remove('reader-immersive', 'past-scroll-depth');
 
         document.getElementById('book-list-view').classList.add('hidden');
         document.getElementById('store-view').classList.remove('hidden');
@@ -643,9 +675,38 @@ const Yomu = {
             await this._loadStorePreviewCatalog();
         }
 
-        this._storePage = 0; // Reset page when opening store
+        // Keep the browsing position when returning to the store (U-03);
+        // page resets happen on search/filter changes instead.
         this._renderStore();
         this._loadFullStoreCatalog();
+    },
+
+    back() {
+        if (this._tocOpen) {
+            this.closeToc();
+            return;
+        }
+        if (this._settingsOpen) {
+            this.toggleSettings();
+            return;
+        }
+        if (this._bookInfoCardOpen) {
+            this.setBookInfoCardVisible(false);
+            return;
+        }
+
+        // If we are in reader or store, we want to go back
+        if (this._isReaderOpen || this._storeOpen) {
+            // Check if we have history to go back to
+            if (window.history.length > 1) {
+                window.history.back();
+            } else {
+                // Fallback if no history (should not happen with our init fix)
+                this.showBookList(true);
+            }
+        } else {
+            // Already in library; let native/OS handle hardware back.
+        }
     },
 
     async _loadStorePreviewCatalog() {
@@ -668,7 +729,6 @@ const Yomu = {
             if (data) {
                 this._storeBooks = data;
                 this._storeCatalogLoaded = true;
-                this._storePage = 0;
                 this._renderStore(document.getElementById('store-search-input')?.value || '');
             }
         } catch (e) {
@@ -678,13 +738,33 @@ const Yomu = {
         }
     },
 
-    /**
-     * Helper to fetch local JSON using XHR (more reliable than fetch on Android file://)
-     */
+
+    nextStorePage() {
+        const query = document.getElementById('store-search-input').value.toLowerCase();
+        const filtered = this._getFilteredStoreBooks(query);
+
+        if ((this._storePage + 1) * this._storePageCount < filtered.length) {
+            this._storePage++;
+            this._renderStore(query);
+            window.scrollTo({ top: 0, behavior: 'auto' });
+        }
+    },
+
+    prevStorePage() {
+        if (this._storePage > 0) {
+            this._storePage--;
+            const query = document.getElementById('store-search-input').value.toLowerCase();
+            this._renderStore(query);
+            window.scrollTo({ top: 0, behavior: 'auto' });
+        }
+    },
+
     _fetchLocalJson(path) {
         return new Promise((resolve, reject) => {
             const xhr = new XMLHttpRequest();
-            xhr.open('GET', path + '?t=' + Date.now(), true);
+            // No cache-busting query string: Android WebView XHR against
+            // file:///android_asset fails when a "?" is appended.
+            xhr.open('GET', path, true);
             xhr.onload = () => {
                 if (xhr.status === 0 || (xhr.status >= 200 && xhr.status < 300)) {
                     try {
@@ -701,26 +781,6 @@ const Yomu = {
         });
     },
 
-    nextStorePage() {
-        const query = document.getElementById('store-search-input').value.toLowerCase();
-        const filtered = this._getFilteredStoreBooks(query);
-
-        if ((this._storePage + 1) * this._pageSize < filtered.length) {
-            this._storePage++;
-            this._renderStore(query);
-            window.scrollTo({ top: 0, behavior: 'auto' });
-        }
-    },
-
-    prevStorePage() {
-        if (this._storePage > 0) {
-            this._storePage--;
-            const query = document.getElementById('store-search-input').value.toLowerCase();
-            this._renderStore(query);
-            window.scrollTo({ top: 0, behavior: 'auto' });
-        }
-    },
-
     _renderStore(filter = '') {
         const grid = document.getElementById('store-grid');
         const downloaded = YomuStorage.getDownloadedBooks();
@@ -730,16 +790,21 @@ const Yomu = {
         this._renderStoreFilters(filtered.length);
 
         // Slice for pagination
-        const start = this._storePage * this._pageSize;
-        const paged = filtered.slice(start, start + this._pageSize);
+        const start = this._storePage * this._storePageCount;
+        const paged = filtered.slice(start, start + this._storePageCount);
 
         let html = '';
         for (const book of paged) {
             const id = book.fileId || book.workId;
-            const isDownloaded = downloaded.some(d => d.id === id);
+            const isDownloaded = downloaded.some(d => d.id === id || (d.aliases && d.aliases.includes(id)));
+            const available = book.available !== false || isDownloaded;
             const authorText = book.author || `(著者ID: ${book.authorId})`;
+            const action = isDownloaded
+                ? `Yomu.openBook('${id}')`
+                : (available ? `Yomu.downloadBook('${id}')` : '');
+            const btnClass = isDownloaded ? 'downloaded' : (available ? '' : 'unavailable');
             html += `
-                <div class="book-card ${isDownloaded ? 'downloaded' : ''}" id="store-book-${id}">
+                <div class="book-card ${isDownloaded ? 'downloaded' : ''} ${available ? '' : 'unavailable'}" id="store-book-${id}" data-book-id="${this._escapeAttr(id)}" data-book-source="store">
                     <div class="book-info">
                         <div class="book-title">
                             ${this._escapeHtml(book.title)}
@@ -752,10 +817,10 @@ const Yomu = {
                         </div>
                     </div>
                     <div class="book-meta">
-                        <button class="download-btn ${isDownloaded ? 'downloaded' : ''}"
+                        <button class="download-btn ${btnClass}"
                                 id="btn-dl-${id}"
-                                onclick="${isDownloaded ? `Yomu.openBook('${id}')` : `Yomu.downloadBook('${id}')`}">
-                            ${isDownloaded ? '読む' : 'オフライン保存'}
+                                ${action ? `onclick="${action}"` : 'disabled'}>
+                            ${isDownloaded ? '読む' : (available ? 'オフライン保存' : '本文データ未収録')}
                         </button>
                     </div>
                 </div>
@@ -767,7 +832,22 @@ const Yomu = {
         const prevBtn = document.getElementById('btn-prev-page');
         const nextBtn = document.getElementById('btn-next-page');
         if (prevBtn) prevBtn.disabled = this._storePage === 0;
-        if (nextBtn) nextBtn.disabled = (this._storePage + 1) * this._pageSize >= filtered.length;
+        if (nextBtn) nextBtn.disabled = (this._storePage + 1) * this._storePageCount >= filtered.length;
+    },
+
+    toggleStoreFilters(event) {
+        if (event) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
+        this._storeFilterPanelOpen = !this._storeFilterPanelOpen;
+        const panel = document.getElementById('store-filter-panel');
+        const toggle = document.getElementById('store-filter-toggle');
+        if (panel) panel.classList.toggle('collapsed', !this._storeFilterPanelOpen);
+        if (toggle) {
+            toggle.classList.toggle('expanded', this._storeFilterPanelOpen);
+            toggle.setAttribute('aria-expanded', String(this._storeFilterPanelOpen));
+        }
     },
 
     filterStore(query) {
@@ -787,7 +867,7 @@ const Yomu = {
         const seen = new Set();
 
         return this._storeBooks.filter(book => {
-            const key = `${book.title}|${book.author}|${book.authorId}`;
+            const key = `${book.workId}|${book.title}|${book.author}|${book.authorId}`;
             if (seen.has(key)) return false;
             seen.add(key);
 
@@ -880,7 +960,7 @@ const Yomu = {
             `;
         }
 
-        document.querySelectorAll('.filter-chip').forEach(btn => {
+        document.querySelectorAll('#store-view .filter-chip').forEach(btn => {
             const type = btn.dataset.filterType;
             const value = btn.dataset.filterValue || '';
             btn.classList.toggle('active', this._storeFilters[type] === value);
@@ -896,6 +976,13 @@ const Yomu = {
             const loading = this._storeCatalogLoading && !this._storeCatalogLoaded ? ' · 全書庫を読み込み中' : '';
             summary.textContent = `${resultCount} 件${active.length ? ' · ' + active.join(' / ') : ''}${loading}`;
         }
+
+        const activeCount = ['author', 'category', 'orthography']
+            .filter(k => this._storeFilters[k]).length;
+        const badge = document.getElementById('store-active-filter-count');
+        if (badge) badge.textContent = activeCount > 0 ? String(activeCount) : '';
+        const toggleBtn = document.getElementById('store-filter-toggle');
+        if (toggleBtn) toggleBtn.classList.toggle('has-active', activeCount > 0);
     },
 
     _filterButton(type, value, label, count = null) {
@@ -906,20 +993,32 @@ const Yomu = {
     },
 
     _bookCategory(book) {
-        const ndc = book.ndc || '';
-        if (/NDC\s*K/.test(ndc)) return 'children';
-        if (/NDC\s*913/.test(ndc)) return 'fiction';
-        if (/NDC\s*911/.test(ndc)) return 'poetry';
-        if (/NDC\s*912/.test(ndc)) return 'drama';
-        if (/NDC\s*91[456]/.test(ndc)) return 'essay';
-        if (/NDC\s*9[2-9]/.test(ndc)) return 'foreign';
-
         const id = book.id || book.fileId || '';
         const title = book.title || '';
+
+        // Curated children's classics: keep them in 児童文学 even when the
+        // Aozora record's NDC comes from a general-fiction edition.
         if (['gingatetsudo', 'kumo_no_ito', 'yodaka_no_hoshi', 'chumon_ryori', 'yuki_onna'].includes(id)) {
             return 'children';
         }
         if (id === 'gakumon_no_susume') return 'essay';
+
+        // NDC: the main class (913 etc.) defines the genre. The juvenile
+        // sub-table marker K only marks a children's edition of that class —
+        // e.g. 羅生門 tagged `NDC K913` by its 底本 stays 小説 (B2), while a
+        // K-only code with no numeric class falls back to 児童文学.
+        const codes = (book.ndc || '').split(/[\s/、]+/).filter(Boolean).map(c => c.replace(/^NDC\s*/, ''));
+        const numeric = codes.map(c => c.replace(/^K/, ''));
+        const match = (re) => numeric.some(c => re.test(c));
+        const hasNumeric = numeric.some(c => /^\d/.test(c));
+
+        if (match(/^913/)) return 'fiction';
+        if (match(/^911/)) return 'poetry';
+        if (match(/^912/)) return 'drama';
+        if (match(/^91[456]/)) return 'essay';
+        if (match(/^9[2-9]/)) return 'foreign';
+        if (!hasNumeric && codes.some(c => /^K/.test(c))) return 'children';
+
         if (title) return 'fiction';
         return '';
     },
@@ -949,30 +1048,22 @@ const Yomu = {
             return;
         }
 
-        // Show Progress Dialog
-        const overlay = document.getElementById('modal-overlay');
-        const titleEl = document.getElementById('modal-title');
-        const msgEl = document.getElementById('modal-message');
-        const okBtn = document.getElementById('modal-ok-btn');
-        const cancelBtn = document.getElementById('modal-cancel-btn');
+        // Honest availability guard: the catalog may list works whose text
+        // data is not in this build. Fail with a clear message up front
+        // instead of a fake network error after a 404.
+        if (book.available === false) {
+            this.alert('この作品の本文データはこのビルドに収録されていません。', '本文データ未収録');
+            return;
+        }
 
-        titleEl.textContent = '本棚に追加';
-        msgEl.innerHTML = `
-            <span class="download-status-text" id="dl-status">接続中...</span>
-            <div class="download-progress-container">
-                <div class="download-progress-fill" id="dl-progress" style="--progress-width: 10%"></div>
-            </div>
-        `;
-        cancelBtn.classList.add('hidden');
-        okBtn.classList.add('hidden'); // Hide OK until done
-        overlay.classList.add('active');
+        // Mobile UX: non-blocking toast + shelf card badge (replaces modal dialog)
+        this._setStoreCardDownloading(bookId, true);
+        const dlToast = this._toastDownloadStart(book.title);
 
         const updateStatus = (text, progress) => {
-            const statusEl = document.getElementById('dl-status');
-            const progressEl = document.getElementById('dl-progress');
-            if (statusEl) statusEl.textContent = text;
-            if (progressEl) progressEl.style.setProperty('--progress-width', progress + '%');
+            dlToast.update(text, progress);
         };
+
 
         try {
             updateStatus(window.YomuNative ? '作品データをダウンロード中...' : '作品データを読み込み中...', 30);
@@ -997,25 +1088,19 @@ const Yomu = {
             });
 
             updateStatus('完了！', 100);
-            msgEl.innerHTML += '<p class="u-margin-top-20 u-font-weight-bold">本棚に追加しました。</p>';
-
-            okBtn.textContent = '今すぐ読む';
-            okBtn.classList.remove('hidden');
-            okBtn.onclick = () => {
-                overlay.classList.remove('active');
-                this.openBook(bookId);
-            };
+            this._setStoreCardDownloading(bookId, false);
+            this._markNewBook(bookId);
+            dlToast.finish('本棚に追加しました');
 
             // Refresh store in background
             setTimeout(() => this._renderStore(document.getElementById('store-search-input')?.value || ''), 100);
-
         } catch (e) {
             console.error('Download failed:', e);
-            titleEl.textContent = 'エラー';
-            msgEl.textContent = '本棚への追加に失敗しました。接続を確認してください。';
-            okBtn.textContent = '閉じる';
-            okBtn.classList.remove('hidden');
-            okBtn.onclick = () => overlay.classList.remove('active');
+            const notFound = typeof e === 'object' && e !== null && /HTTP 40[04]/.test(e.message || '');
+            dlToast.fail(notFound
+                ? 'この作品の本文データはこのビルドに収録されていません。'
+                : '本棚への追加に失敗しました。接続を確認してください。');
+            this._setStoreCardDownloading(bookId, false);
         }
     },
 
@@ -1043,6 +1128,59 @@ const Yomu = {
             },
             source: 'aozora_catalog'
         };
+    },
+
+    // ===== Table of Contents =====
+    toggleToc(event) {
+        if (event) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
+        if (this._tocOpen) {
+            this.closeToc();
+        } else {
+            this.openToc();
+        }
+    },
+
+    openToc() {
+        const overlay = document.getElementById('toc-overlay');
+        const panel = document.getElementById('toc-panel');
+        const list = document.getElementById('toc-list');
+        if (!overlay || !panel || !list) return;
+
+        const chapters = this.reader.getChapters();
+        if (chapters.length === 0) {
+            list.innerHTML = '<div class="toc-empty">この作品には目次情報がありません。</div>';
+        } else {
+            const current = this.reader.getCurrentChapterIndex();
+            list.innerHTML = chapters.map((ch, i) => `
+                <button class="toc-item ${i === current ? 'current' : ''}" onclick="Yomu.jumpToToc(${i})">
+                    ${ch.level > 0 ? `<span class="toc-level-sub">${this._escapeHtml(ch.title)}</span>` : this._escapeHtml(ch.title)}
+                </button>
+            `).join('');
+        }
+
+        overlay.classList.add('active');
+        panel.classList.add('open');
+        this._tocOpen = true;
+
+        const currentItem = list.querySelector('.toc-item.current');
+        if (currentItem) currentItem.scrollIntoView({ block: 'center' });
+    },
+
+    closeToc() {
+        const overlay = document.getElementById('toc-overlay');
+        const panel = document.getElementById('toc-panel');
+        if (overlay) overlay.classList.remove('active');
+        if (panel) panel.classList.remove('open');
+        this._tocOpen = false;
+    },
+
+    jumpToToc(index) {
+        this.closeToc();
+        this.reader.jumpToChapter(index);
+        this.setReaderControlsVisible(true);
     },
 
     // Furigana toggle
@@ -1123,6 +1261,382 @@ const Yomu = {
             this._settingsOpen = true;
             this._updateNlpOptionState();
             this._fetchVersion();
+        }
+    },
+
+    // ===== Mobile UX: toasts =====
+    showToast(message, opts = {}) {
+        const container = document.getElementById('toast-container');
+        const noop = { update() {}, finish() {}, fail() {}, hide() {} };
+        if (!container) return noop;
+
+        const { type = '', duration = 2400, id = null } = opts;
+        let el = id ? container.querySelector(`.toast[data-id="${id}"]`) : null;
+        if (!el) {
+            el = document.createElement('div');
+            el.className = `toast ${type}`;
+            if (id) el.dataset.id = id;
+            el.innerHTML = '<span class="toast-text"></span>';
+            container.appendChild(el);
+        }
+
+        const textEl = el.querySelector('.toast-text');
+        if (textEl && message) textEl.textContent = message;
+        requestAnimationFrame(() => el.classList.add('show'));
+
+        let timer = null;
+        const hide = () => {
+            el.classList.remove('show');
+            setTimeout(() => el.remove(), 300);
+        };
+        if (duration > 0) timer = setTimeout(hide, duration);
+
+        const setBar = (progress) => {
+            let bar = el.querySelector('.toast-progress>span');
+            if (!bar) {
+                const wrap = document.createElement('div');
+                wrap.className = 'toast-progress';
+                wrap.appendChild(document.createElement('span'));
+                el.appendChild(wrap);
+                bar = wrap.firstChild;
+            }
+            bar.style.width = progress + '%';
+        };
+
+        return {
+            update(text, progress) {
+                if (textEl && text != null) textEl.textContent = text;
+                if (progress != null) setBar(progress);
+                if (timer) { clearTimeout(timer); timer = null; }
+            },
+            finish(text) {
+                if (textEl && text) textEl.textContent = text;
+                setBar(100);
+                if (timer) clearTimeout(timer);
+                timer = setTimeout(hide, 1800);
+            },
+            fail(text) {
+                el.classList.add('toast-error');
+                if (textEl && text) textEl.textContent = text;
+                if (timer) clearTimeout(timer);
+                timer = setTimeout(hide, 3500);
+            },
+            hide
+        };
+    },
+
+    _toastDownloadStart(title) {
+        const t = this.showToast(`「${title}」を取得中...`, { id: 'download', duration: 0 });
+        t.update(null, 10);
+        return t;
+    },
+
+    _setStoreCardDownloading(bookId, on) {
+        const card = document.getElementById(`store-book-${bookId}`);
+        if (card) card.classList.toggle('downloading', Boolean(on));
+    },
+
+    // ===== Mobile UX: new-download shelf badges =====
+    _getNewBookIds() {
+        if (!this._newBookIds) {
+            this._newBookIds = new Set(YomuStorage.get('new_books', []));
+        }
+        return this._newBookIds;
+    },
+
+    _isNewBook(id) {
+        return this._getNewBookIds().has(id);
+    },
+
+    _markNewBook(id) {
+        const set = this._getNewBookIds();
+        set.add(id);
+        YomuStorage.set('new_books', Array.from(set).slice(-50));
+    },
+
+    _consumeNewBadge(id) {
+        const set = this._getNewBookIds();
+        if (set.delete(id)) {
+            YomuStorage.set('new_books', Array.from(set));
+        }
+    },
+
+    // ===== Mobile UX: reader settings (margin / theme / brightness / edge tap) =====
+    setMargin(px) {
+        const val = Math.max(8, Math.min(48, parseInt(px) || 20));
+        document.documentElement.style.setProperty('--reader-margin', val + 'px');
+        YomuStorage.saveSetting('readerMargin', val);
+        const display = document.getElementById('margin-value');
+        if (display) display.textContent = val + 'px';
+        const slider = document.getElementById('margin-slider');
+        if (slider && parseInt(slider.value) !== val) slider.value = val;
+    },
+
+    adjustMargin(delta) {
+        const slider = document.getElementById('margin-slider');
+        if (!slider) return;
+        const newVal = parseInt(slider.value) + delta;
+        if (newVal >= parseInt(slider.min) && newVal <= parseInt(slider.max)) {
+            slider.value = newVal;
+            this.setMargin(newVal);
+        }
+    },
+
+    setTheme(theme) {
+        const valid = ['light', 'sepia', 'green', 'dark'];
+        if (!valid.includes(theme)) theme = 'light';
+        document.body.classList.remove('theme-sepia', 'theme-green', 'theme-dark');
+        if (theme !== 'light') document.body.classList.add(`theme-${theme}`);
+        YomuStorage.saveSetting('theme', theme);
+        document.querySelectorAll('.theme-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.theme === theme);
+        });
+        // Keep the PWA chrome color in sync with the reading theme
+        const meta = document.querySelector('meta[name="theme-color"]');
+        if (meta) meta.setAttribute('content', getComputedStyle(document.body).backgroundColor);
+    },
+
+    setBrightness(val) {
+        const v = Math.max(50, Math.min(100, parseInt(val) || 100));
+        const overlay = document.getElementById('brightness-overlay');
+        if (overlay) overlay.style.opacity = String(((100 - v) / 100) * 0.55);
+        YomuStorage.saveSetting('brightness', v);
+        const slider = document.getElementById('brightness-slider');
+        if (slider && parseInt(slider.value) !== v) slider.value = v;
+    },
+
+    adjustBrightness(delta) {
+        const slider = document.getElementById('brightness-slider');
+        if (!slider) return;
+        const newVal = parseInt(slider.value) + delta;
+        if (newVal >= parseInt(slider.min) && newVal <= parseInt(slider.max)) {
+            slider.value = newVal;
+            this.setBrightness(newVal);
+        }
+    },
+
+    setEdgeTap(enabled) {
+        const on = Boolean(enabled);
+        document.body.classList.toggle('edge-tap-on', on);
+        YomuStorage.saveSetting('edgeTap', on);
+    },
+
+    toggleImmersive(event) {
+        if (event) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
+        const on = !document.body.classList.contains('reader-immersive');
+        document.body.classList.toggle('reader-immersive', on);
+        const btn = document.getElementById('immersive-toggle-btn');
+        if (btn) btn.classList.toggle('active', on);
+        this.setReaderControlsVisible(true);
+    },
+
+    scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    },
+
+    // ===== Mobile UX: long-press action sheet =====
+    openBookMenu(bookId, source) {
+        if (!bookId) return;
+        const ICONS = {
+            book: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>',
+            dl: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>',
+            trash: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>',
+            info: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>'
+        };
+
+        let book = null;
+        let isDownloaded = false;
+        if (source === 'store') {
+            book = this._storeBooks.find(b => (b.fileId || b.workId) === bookId);
+            isDownloaded = YomuStorage.getDownloadedBooks().some(d => d.id === bookId);
+        } else {
+            book = this._getLibraryBooks().find(b => b.id === bookId);
+            isDownloaded = Boolean(book && book.isDownloaded);
+        }
+        if (!book) return;
+
+        const overlay = document.getElementById('action-sheet-overlay');
+        const sheet = document.getElementById('action-sheet');
+        if (!overlay || !sheet) return;
+
+        const title = book.title || '';
+        const actions = [];
+        if (source === 'store') {
+            if (isDownloaded) {
+                actions.push({ icon: ICONS.book, label: '読む', fn: () => this.openBook(bookId) });
+                actions.push({ icon: ICONS.trash, label: 'ダウンロードを削除', danger: true, fn: () => this.deleteBook({ stopPropagation() {} }, bookId, title) });
+            } else if (book.available !== false) {
+                actions.push({ icon: ICONS.dl, label: 'オフライン保存', fn: () => this.downloadBook(bookId) });
+            }
+        } else {
+            actions.push({ icon: ICONS.book, label: '読む', fn: () => this.openBook(bookId) });
+            actions.push({ icon: ICONS.info, label: '詳細', fn: () => this._showBookDetails(book) });
+            if (isDownloaded) {
+                actions.push({ icon: ICONS.trash, label: 'この本を削除', danger: true, fn: () => this.deleteBook({ stopPropagation() {} }, bookId, title) });
+            }
+        }
+        if (actions.length === 0) return;
+
+        sheet.innerHTML = `
+            <div class="action-sheet-title">${this._escapeHtml(title)}</div>
+            ${actions.map((a, i) => `<button class="action-sheet-btn ${a.danger ? 'danger' : ''}" data-action="${i}">${a.icon}<span>${a.label}</span></button>`).join('')}
+            <button class="action-sheet-btn cancel">キャンセル</button>
+        `;
+        sheet.querySelectorAll('[data-action]').forEach(btn => {
+            btn.addEventListener('click', () => {
+                this.closeActionSheet();
+                actions[parseInt(btn.dataset.action, 10)].fn();
+            });
+        });
+        const cancelBtn = sheet.querySelector('.cancel');
+        if (cancelBtn) cancelBtn.addEventListener('click', () => this.closeActionSheet());
+
+        overlay.classList.add('active');
+        sheet.classList.add('active');
+    },
+
+    closeActionSheet() {
+        const overlay = document.getElementById('action-sheet-overlay');
+        const sheet = document.getElementById('action-sheet');
+        if (overlay) overlay.classList.remove('active');
+        if (sheet) sheet.classList.remove('active');
+    },
+
+    _showBookDetails(book) {
+        const lines = [
+            book.title || '',
+            book.author || '',
+            book.desc || '',
+            this._categoryLabel(this._bookCategory(book))
+        ].filter(Boolean);
+        this.alert(lines.join('\n'), '詳細');
+    },
+
+    // ===== Mobile UX: gestures wiring =====
+    _initMobileUX() {
+        // Back-to-top availability follows reading depth
+        window.addEventListener('scroll', () => {
+            if (this._isReaderOpen) {
+                document.body.classList.toggle('past-scroll-depth', window.scrollY > 600);
+            }
+        }, { passive: true });
+
+        // Edge tap paging (optional setting, reader only)
+        const tapLeft = document.getElementById('tap-zone-left');
+        const tapRight = document.getElementById('tap-zone-right');
+        if (tapLeft) tapLeft.addEventListener('click', () => {
+            if (this._isReaderOpen && !this._settingsOpen) this._scrollReader(-1);
+        });
+        if (tapRight) tapRight.addEventListener('click', () => {
+            if (this._isReaderOpen && !this._settingsOpen) this._scrollReader(1);
+        });
+
+        // Card long-press menu (shelf + store); desktop gets right-click
+        let lpTimer = null;
+        let lpFired = false;
+        document.addEventListener('touchstart', (e) => {
+            const card = e.target.closest && e.target.closest('.book-card');
+            if (!card || this._isReaderOpen) return;
+            lpFired = false;
+            lpTimer = setTimeout(() => {
+                lpFired = true;
+                if (navigator.vibrate) navigator.vibrate(12);
+                this.openBookMenu(card.dataset.bookId, card.dataset.bookSource);
+            }, 500);
+        }, { passive: true });
+        const cancelLp = () => {
+            if (lpTimer) { clearTimeout(lpTimer); lpTimer = null; }
+        };
+        document.addEventListener('touchmove', cancelLp, { passive: true });
+        document.addEventListener('touchend', (e) => {
+            cancelLp();
+            if (lpFired) {
+                lpFired = false;
+                e.preventDefault();
+                e.stopPropagation();
+            }
+        }, { passive: false });
+        document.addEventListener('contextmenu', (e) => {
+            const card = e.target.closest && e.target.closest('.book-card');
+            if (card && !this._isReaderOpen) {
+                e.preventDefault();
+                this.openBookMenu(card.dataset.bookId, card.dataset.bookSource);
+            }
+        });
+
+        this._initPullToRefresh();
+    },
+
+    _initPullToRefresh() {
+        let startY = 0;
+        let pulling = false;
+        let armed = false;
+        let indicator = null;
+        const TRIGGER = 72;
+
+        const getIndicator = () => {
+            if (!indicator || !indicator.isConnected) {
+                indicator = document.createElement('div');
+                indicator.className = 'ptr-indicator';
+                indicator.textContent = '↓';
+                document.body.appendChild(indicator);
+            }
+            return indicator;
+        };
+
+        document.addEventListener('touchstart', (e) => {
+            if (this._isReaderOpen || window.scrollY > 0 || e.touches.length !== 1) return;
+            const t = e.touches[0];
+            if (t.target.closest && t.target.closest('input, textarea, select, button, .book-card')) {
+                pulling = false;
+                return;
+            }
+            startY = t.clientY;
+            pulling = true;
+            armed = false;
+        }, { passive: true });
+
+        document.addEventListener('touchmove', (e) => {
+            if (!pulling || this._isReaderOpen) return;
+            const dy = e.touches[0].clientY - startY;
+            if (dy <= 0) {
+                if (indicator) indicator.classList.remove('visible');
+                return;
+            }
+            const ind = getIndicator();
+            const drag = Math.min(dy * 0.4, 96);
+            ind.classList.add('visible');
+            ind.style.transform = `translate(-50%, ${-70 + drag}px)`;
+            armed = dy >= TRIGGER;
+            ind.classList.toggle('armed', armed);
+            ind.textContent = armed ? '↻' : '↓';
+        }, { passive: true });
+
+        document.addEventListener('touchend', () => {
+            if (!pulling) return;
+            pulling = false;
+            if (indicator) {
+                indicator.classList.remove('visible', 'armed');
+                indicator.style.transform = '';
+                indicator.textContent = '↓';
+            }
+            if (armed) {
+                armed = false;
+                this._refreshCurrentList();
+            }
+        });
+    },
+
+    _refreshCurrentList() {
+        if (this._storeOpen) {
+            this._renderStore(document.getElementById('store-search-input')?.value || '');
+            this.showToast('書庫を更新しました');
+        } else if (!this._isReaderOpen) {
+            this._renderBookList();
+            this.showToast('書架を更新しました');
         }
     },
 
@@ -1217,6 +1731,17 @@ const Yomu = {
             if (slider) slider.value = settings.lineHeight * 10;
             this.setLineHeight(settings.lineHeight * 10);
         }
+
+        // Reader margin (mobile UX)
+        this.setMargin(settings.readerMargin || 20);
+
+        // Theme / brightness / edge tap (mobile UX)
+        this.setTheme(settings.theme || 'light');
+        this.setBrightness(settings.brightness || 100);
+        const edgeToggle = document.getElementById('edge-tap-toggle');
+        const edgeOn = settings.edgeTap === true;
+        if (edgeToggle) edgeToggle.checked = edgeOn;
+        this.setEdgeTap(edgeOn);
 
         // Furigana Mode
         let furiMode = settings.furiganaMode || 'none';
