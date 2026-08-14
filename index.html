@@ -9,7 +9,7 @@
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/svg+xml" href="assets/app_icon.svg">
     <link rel="apple-touch-icon" href="assets/app_icon.png">
-    <link rel="stylesheet" href="css/style.css?v=19">
+    <link rel="stylesheet" href="css/style.css?v=20">
 
     <script>
         // PWA: register service worker for offline reading (http/https only;
@@ -307,16 +307,14 @@
             <div class="font-pair-row">
                 <label class="font-pair-label">漢字</label>
                 <div class="font-pair-control">
-                    <select id="font-kanji-select" class="settings-select font-pair-select"
-                        onchange="Yomu.onFontSelect('kanji', this.value)"></select>
+                    <div id="font-kanji-select" class="ypop-host font-pair-select-host"></div>
                     <div class="font-sample" id="font-sample-kanji">永遠の約束 かな カナ 123</div>
                 </div>
             </div>
             <div class="font-pair-row">
                 <label class="font-pair-label">かな</label>
                 <div class="font-pair-control">
-                    <select id="font-kana-select" class="settings-select font-pair-select"
-                        onchange="Yomu.onFontSelect('kana', this.value)"></select>
+                    <div id="font-kana-select" class="ypop-host font-pair-select-host"></div>
                     <div class="font-sample" id="font-sample-kana">永遠の約束 かな カナ 123</div>
                 </div>
             </div>
@@ -378,11 +376,7 @@
 
         <div class="settings-group">
             <label>ふりがな表示</label>
-            <select id="furigana-mode-select" class="settings-select" onchange="Yomu.setFuriganaMode(this.value)">
-                <option value="none">不表示</option>
-                <option value="internal">内置</option>
-                <option value="nlp">Kuromoji.js</option>
-            </select>
+            <div id="furigana-mode-select" class="ypop-host"></div>
         </div>
 
         <div class="settings-group settings-group-column">
@@ -393,23 +387,14 @@
             </label>
             <label class="switch-row">
                 <span>自動スクロール速度</span>
-                <select class="settings-select settings-select-inline" onchange="Yomu.setAutoScrollSpeed(this.value)">
-                    <option value="slow">遅い</option>
-                    <option value="normal" selected>普通</option>
-                    <option value="fast">速い</option>
-                </select>
+                <div id="autoscroll-speed-select" class="ypop-host settings-select-inline-host"></div>
             </label>
         </div>
 
         <div class="settings-group settings-group-column">
             <label>AI 翻訳（任意・自带キー）</label>
             <div class="ai-config-row">
-                <select id="ai-provider-select" class="settings-select" onchange="Yomu.onAiProviderChange(this.value)">
-                    <option value="zhipu">智谱AI (GLM)</option>
-                    <option value="kimi">Kimi (Moonshot)</option>
-                    <option value="ark">火山ARK</option>
-                    <option value="custom">自定义 / 本地代理</option>
-                </select>
+                <div id="ai-provider-select" class="ypop-host"></div>
                 <input type="url" id="ai-baseurl-input" class="settings-input" placeholder="Base URL（例: http://localhost:11434/v1）" onchange="Yomu.saveAiConfig()">
                 <input type="text" id="ai-model-input" class="settings-input" placeholder="モデル名" onchange="Yomu.saveAiConfig()">
                 <input type="password" id="ai-key-input" class="settings-input" placeholder="API キー（本地代理可留空）" autocomplete="off" onchange="Yomu.saveAiConfig()">
@@ -490,6 +475,7 @@
     <div id="action-sheet" class="action-sheet" role="dialog" aria-label="操作"></div>
 
     <!-- JS Modules -->
+    <script src="js/ypop.js?v=1"></script>
     <script src="libs/kuromoji.js"></script>
     <script src="js/storage.js?v=4"></script>
     <script src="js/fonts.js?v=1"></script>
@@ -497,12 +483,12 @@
     <script src="js/reader.js?v=16"></script>
     <script src="js/aozora.js?v=5"></script>
     <script src="js/bookmarks.js?v=1"></script>
-    <script src="js/stats.js?v=1"></script>
+    <script src="js/stats.js?v=2"></script>
     <script src="js/dict.js?v=6"></script>
     <script src="js/importer.js?v=1"></script>
     <script src="js/ai.js?v=1"></script>
     <script src="js/wordbook.js?v=2"></script>
-    <script src="js/app.js?v=28"></script>
+    <script src="js/app.js?v=29"></script>
 
 </body>
 

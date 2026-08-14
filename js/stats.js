@@ -167,14 +167,23 @@ const YomuStats = {
             </div>
             <div class="stats-row stats-row-sub">
                 <span>累計 ${t.minutes} 分 · ${t.chars.toLocaleString()} 字</span>
-                <label class="stats-goal-select">
+                <span class="stats-goal-select">
                     目標
-                    <select onchange="YomuStats.setGoalMinutes(this.value)">
-                        ${[5, 15, 30, 60, 120].map(m => `<option value="${m}" ${m === goal ? 'selected' : ''}>${m} 分/日</option>`).join('')}
-                    </select>
-                </label>
+                    <span class="stats-goal-host"></span>
+                </span>
             </div>
         `;
+
+        // 自绘目标时长下拉（替代原生 select）
+        const goalHost = wrap.querySelector('.stats-goal-host');
+        if (goalHost && window.YomuPop) {
+            YomuPop.select({
+                trigger: goalHost,
+                options: [5, 15, 30, 60, 120].map(m => ({ value: m, label: `${m} 分/日` })),
+                value: goal,
+                onChange: (v) => YomuStats.setGoalMinutes(v)
+            });
+        }
     }
 };
 

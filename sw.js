@@ -9,13 +9,14 @@
  *    keeps the raw JSON available too).
  *  - Anything else (cross-origin, non-GET): network only.
  */
-const CACHE = 'yomu-v16';
+const CACHE = 'yomu-v17';
 
 const SHELL = [
   './',
   './index.html',
   './manifest.json',
   './css/style.css',
+  './js/ypop.js',
   './js/app.js',
   './js/dict.js',
   './js/wordbook.js',

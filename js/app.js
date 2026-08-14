@@ -1525,8 +1525,15 @@ const Yomu = {
             { icon: ICON_HL, label: (entry && entry.hl) ? 'ハイライト解除' : 'ハイライト', fn: () => { YomuBookmarks.toggleHighlight(bookId, paraIndex, para); } },
             { icon: ICON_NOTE, label: (entry && entry.n) ? 'ノート編集' : 'ノート追加', fn: () => {
                 const cur = (YomuBookmarks.get(bookId, paraIndex) || {}).n || '';
-                const note = window.prompt('ノート（最大2000字）', cur);
-                if (note !== null) YomuBookmarks.setNote(bookId, paraIndex, note, para);
+                YomuPop.prompt({
+                    title: 'ノート',
+                    label: 'この段落へのメモ（最大2000字）',
+                    value: cur,
+                    maxlength: 2000,
+                    placeholder: '感想・文法メモなど…'
+                }).then(note => {
+                    if (note !== null) YomuBookmarks.setNote(bookId, paraIndex, note, para);
+                });
             } }
         ];
         // C6: AI 段落翻訳/文法解説（用户自带 key，未配置时也显示并引导设置）
@@ -1603,28 +1610,30 @@ const Yomu = {
     },
 
     _initFontUI() {
+        if (!window.YomuPop) return;
         const options = [
             { id: 'mincho', label: 'システム（明朝）' },
             { id: 'gothic', label: 'システム（ゴシック）' },
             ...Object.entries(YomuFonts.FONTS).map(([id, f]) => ({ id, label: f.label }))
         ];
         for (const slot of ['kanji', 'kana']) {
-            const sel = document.getElementById(`font-${slot}-select`);
-            if (!sel || sel.options.length) continue;
-            for (const o of options) {
-                const opt = document.createElement('option');
-                opt.value = o.id;
-                opt.textContent = o.label;
-                sel.appendChild(opt);
-            }
+            const host = document.getElementById(`font-${slot}-select`);
+            if (!host || host._ypInit) continue;
+            host._ypInit = true;
+            YomuPop.select({
+                trigger: host,
+                options: options.map(o => ({ value: o.id, label: o.label })),
+                value: 'mincho',
+                onChange: (v) => this.onFontSelect(slot, v)
+            });
         }
     },
 
     _updateFontUI() {
         const cur = YomuFonts.current;
         for (const slot of ['kanji', 'kana']) {
-            const sel = document.getElementById(`font-${slot}-select`);
-            if (sel) sel.value = cur[slot] || 'mincho';
+            const host = document.getElementById(`font-${slot}-select`);
+            if (host && host.setValue) host.setValue(cur[slot] || 'mincho');
         }
         document.querySelectorAll('.font-preset-btn').forEach(btn => {
             btn.classList.toggle('active', YomuFonts.isPresetActive(btn.dataset.preset));
@@ -1763,7 +1772,7 @@ const Yomu = {
     saveAiConfig(providerId) {
         if (!window.YomuAI) return;
         const provider = providerId ||
-            (document.getElementById('ai-provider-select') || {}).value || 'custom';
+            ((document.getElementById('ai-provider-select') || {})._ypValue) || 'custom';
         const cfg = {
             provider,
             baseUrl: ((document.getElementById('ai-baseurl-input') || {}).value || '').trim(),
@@ -1785,7 +1794,7 @@ const Yomu = {
         const baseInput = document.getElementById('ai-baseurl-input');
         const modelInput = document.getElementById('ai-model-input');
         const keyInput = document.getElementById('ai-key-input');
-        if (providerSel) providerSel.value = (cfg && cfg.provider) || 'zhipu';
+        if (providerSel && providerSel.setValue) providerSel.setValue((cfg && cfg.provider) || 'zhipu');
         if (baseInput) baseInput.value = (cfg && cfg.baseUrl) || ((YomuAI.PRESETS.zhipu || {}).baseUrl || '');
         if (modelInput) modelInput.value = (cfg && cfg.model) || 'glm-4-flash';
         if (keyInput) keyInput.value = (cfg && cfg.apiKey) || '';
@@ -2454,8 +2463,8 @@ const Yomu = {
         if (jlptToggle) jlptToggle.checked = settings.jlptShow !== false;
 
         // 自動スクロール速度
-        const speedSelect = document.querySelector('.settings-select-inline');
-        if (speedSelect) speedSelect.value = settings.autoScrollSpeed || 'normal';
+        const speedSelect = document.getElementById('autoscroll-speed-select');
+        if (speedSelect && speedSelect.setValue) speedSelect.setValue(settings.autoScrollSpeed || 'normal');
 
         // Furigana Mode
         let furiMode = settings.furiganaMode || 'none';
@@ -2464,9 +2473,12 @@ const Yomu = {
             YomuStorage.saveSetting('furiganaMode', furiMode);
         }
         const furiSelect = document.getElementById('furigana-mode-select');
-        if (furiSelect) furiSelect.value = furiMode;
+        if (furiSelect && furiSelect.setValue) furiSelect.setValue(furiMode);
 
         document.body.classList.toggle('show-furigana', furiMode !== 'none');
+
+        // 自绘下拉组件初始化（替代原生 select）
+        this._initPopSelects();
     },
 
     setFuriganaMode(mode) {
@@ -2474,7 +2486,7 @@ const Yomu = {
             // Revert selection temporarily to avoid showing empty results
             const settings = YomuStorage.getSettings();
             const furiSelect = document.getElementById('furigana-mode-select');
-            if (furiSelect) furiSelect.value = settings.furiganaMode || 'internal';
+            if (furiSelect && furiSelect.setValue) furiSelect.setValue(settings.furiganaMode || 'internal');
 
             this.promptDictDownload(false);
             return;
@@ -2488,14 +2500,65 @@ const Yomu = {
 
     _updateNlpOptionState() {
         const furiSelect = document.getElementById('furigana-mode-select');
-        if (!furiSelect) return;
+        if (!furiSelect || !furiSelect._ypOptions) return;
 
-        const nlpOption = furiSelect.querySelector('option[value="nlp"]');
+        const dictReady = YomuTokenizer.isDictAvailable();
+        const nlpOption = furiSelect._ypOptions.find(o => o.value === 'nlp');
         if (nlpOption) {
-            const dictReady = YomuTokenizer.isDictAvailable();
-            nlpOption.disabled = false;
-            nlpOption.style.display = '';
-            nlpOption.textContent = dictReady ? 'Kuromoji.js' : 'Kuromoji.js（未ダウンロード）';
+            nlpOption.label = dictReady ? 'Kuromoji.js' : 'Kuromoji.js（未ダウンロード）';
+            furiSelect.setValue(furiSelect._ypValue);
+        }
+    },
+
+    // 自绘下拉：初始化设置面板内的选择器（ふりがな / 自动滚动 / AI 提供方）
+    _initPopSelects() {
+        if (!window.YomuPop) return;
+
+        const furiHost = document.getElementById('furigana-mode-select');
+        if (furiHost && !furiHost._ypInit) {
+            furiHost._ypInit = true;
+            YomuPop.select({
+                trigger: furiHost,
+                options: [
+                    { value: 'none', label: '不表示' },
+                    { value: 'internal', label: '内置' },
+                    { value: 'nlp', label: 'Kuromoji.js' }
+                ],
+                value: YomuStorage.getSettings().furiganaMode || 'internal',
+                onChange: (v) => this.setFuriganaMode(v)
+            });
+            this._updateNlpOptionState();
+        }
+
+        const speedHost = document.getElementById('autoscroll-speed-select');
+        if (speedHost && !speedHost._ypInit) {
+            speedHost._ypInit = true;
+            YomuPop.select({
+                trigger: speedHost,
+                options: [
+                    { value: 'slow', label: '遅い' },
+                    { value: 'normal', label: '普通' },
+                    { value: 'fast', label: '速い' }
+                ],
+                value: YomuStorage.getSettings().autoScrollSpeed || 'normal',
+                onChange: (v) => this.setAutoScrollSpeed(v)
+            });
+        }
+
+        const aiHost = document.getElementById('ai-provider-select');
+        if (aiHost && !aiHost._ypInit) {
+            aiHost._ypInit = true;
+            YomuPop.select({
+                trigger: aiHost,
+                options: [
+                    { value: 'zhipu', label: '智谱AI (GLM)' },
+                    { value: 'kimi', label: 'Kimi (Moonshot)' },
+                    { value: 'ark', label: '火山ARK' },
+                    { value: 'custom', label: '自定义 / 本地代理' }
+                ],
+                value: (window.YomuAI && YomuAI.getConfig() && YomuAI.getConfig().provider) || 'zhipu',
+                onChange: (v) => this.onAiProviderChange(v)
+            });
         }
     },
 
