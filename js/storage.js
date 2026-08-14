@@ -122,12 +122,12 @@ const YomuStorage = {
         return this.get('settings', {
             fontSize: 20,
             lineHeight: 2.2,
-            font: 'mincho',
+            fontKanji: 'mincho',
+            fontKana: 'mincho',
             furiganaMode: 'none',
             noAnimation: true
         });
     },
-
     saveSetting(key, val) {
         const settings = this.getSettings();
         settings[key] = val;

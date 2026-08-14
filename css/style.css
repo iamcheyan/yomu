@@ -8,7 +8,7 @@
 
 :root {
     --base-font-size: 20px;
-    --line-height: 2.2;
+    --reader-font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS Mincho", serif;
     --primary-color: #000;
     --primary-dark: #333;
     --highlight-bg: #eee;
@@ -43,8 +43,8 @@ body {
     overscroll-behavior-y: none;
     overscroll-behavior-x: none;
 }
-.novel-text.font-gothic {
-    font-family: "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+.novel-text {
+    font-family: var(--reader-font-family);
 }
 
 /* Loading Overlay */
@@ -643,13 +643,7 @@ rt {
     font-size: 0.01px;
 }
 
-.novel-text.font-mincho rt {
-    font-family: "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
-}
-
-.novel-text.font-gothic rt {
-    font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS Mincho", serif;
-}
+/* ふりがな（rt）は正文本体字体を継承（漢字/かな分流后単一來源） */
 
 body.show-furigana rt {
     opacity: 1;
@@ -766,15 +760,7 @@ body.show-furigana rt {
     word-break: break-all;
 }
 
-.novel-text.font-mincho .trans-text,
-.novel-text.font-mincho .trans-grammar-text {
-    font-family: "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
-}
-
-.novel-text.font-gothic .trans-text,
-.novel-text.font-gothic .trans-grammar-text {
-    font-family: "Hiragino Mincho ProN", "Yu Mincho", "MS Mincho", serif;
-}
+/* 訳注テキストも正文本体字体を継承 */
 
 .trans-grammar {
     margin-top: 8px;
@@ -1067,7 +1053,67 @@ body.show-furigana rt {
     display: none;
 }
 
-/* 字体切换按钮 */
+/* ===== フォント設定（漢字/かな別指定 + プリセット + プレビュー） ===== */
+.font-preset-btn-group {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.font-pair-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.font-pair-label {
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.font-pair-control {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+    min-width: 0;
+}
+
+.font-pair-select {
+    min-width: 180px;
+    max-width: 100%;
+}
+
+.font-sample {
+    font-size: 12px;
+    line-height: 1.5;
+    color: var(--fg-color);
+    opacity: 0.75;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 220px;
+}
+
+#font-sample-kanji {
+    font-family: var(--preview-kanji-font);
+}
+
+#font-sample-kana {
+    font-family: var(--preview-kana-font);
+}
+
+.font-combo-preview {
+    font-family: var(--reader-font-family);
+    font-size: 16px;
+    line-height: 1.8;
+    border: 1px solid var(--line-color, #eee);
+    padding: 10px 12px;
+    margin-top: 2px;
+}
+
 .font-btn-group {
     display: flex;
     gap: 8px;

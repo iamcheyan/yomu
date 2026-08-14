@@ -10,9 +10,10 @@ Yomu 是一个面向日语阅读学习的离线阅读工具。它以浏览器 We
 - 墨水屏优化：界面尽量减少动画和复杂色彩，阅读器使用高对比、低干扰的排版。
 - 日语学习辅助：支持假名标注显示，并集成 Kuromoji 分词能力。
 - 书库检索：可浏览和搜索青空文库来源的作品目录。
-- Android 打包：可通过 Gradle 打包为 APK，适合部署到安卓墨水屏设备。
+- 汉字/假名分别指定字体：通过 `unicode-range` 双 `@font-face` 分流，内置 4 款 OFL 日文字体，离线可用。
 
 ## 内容来源与版权说明
+
 
 本项目收录和整理的作品主要来自青空文库（Aozora Bunko）公开提供的公版文学资源。感谢青空文库及其志愿者长期进行文本录入、校对、整理与公开发布工作。
 
@@ -62,12 +63,40 @@ build_output/yomu-debug.apk
 
 当前 APK 构建逻辑默认只打包精选书目，避免把完整书库全部塞进安装包导致体积过大。完整书库数据适合通过 Web 版本或后续同步逻辑使用。
 
+## 字体与许可证
+
+阅读器支持**汉字与假名分别指定不同字体**（例如：汉字=明朝体、假名=圆体）。
+实现方式是 `unicode-range` 双 `@font-face` 分流（`js/fonts.js`）：假名槽位
+命中平假名/片假名/半角片假名区间，汉字槽位命中 CJK 统一表意区间，其余
+字符沿 font-family 链回退。
+
+### 入库决策
+
+字体 woff2 二进制**直接 git 入库** `assets/fonts/`：四款合计约 5.6MB，
+低于 50MB 上限，且保证 Web PWA 与 Android APK（构建时随 `assets/**`
+打包）离线可用。`scripts/download_fonts.sh` 可复现下载（@fontsource
+固定版本 5.3.0），懒加载与进度条由 `js/fonts.js` 处理。
+
+### 字体清单（全部 SIL Open Font License 1.1）
+
+| 字体 | 用途 | 许可证 | 版权 |
+|---|---|---|---|
+| Noto Serif JP | 明朝体（正文首选） | [OFL 1.1](assets/fonts/licenses/OFL-noto-serif-jp.txt) | © 2012 Google Inc. |
+| Noto Sans JP | ゴシック体 | [OFL 1.1](assets/fonts/licenses/OFL-noto-sans-jp.txt) | © 2014-2021 Adobe |
+| Klee One | 教科書体（毛笔感） | [OFL 1.1](assets/fonts/licenses/OFL-klee-one.txt) | © 2020 Fontworks |
+| Zen Maru Gothic | 圆体 | [OFL 1.1](assets/fonts/licenses/OFL-zen-maru-gothic.txt) | © 2021 Zen Maru Gothic Project |
+
+SIL OFL 1.1 允许随软件分发、嵌入与再分发字体二进制；保留各字体
+Reserved Font Name，许可证原文见 `assets/fonts/licenses/`。
+验收记录与截图见 `docs/font-audit/`。
+
 ## 项目结构
 
 ```text
 index.html              Web App 入口
 css/                    样式与墨水屏阅读优化
-js/                     阅读器、书库、存储、分词等前端逻辑
+js/                     阅读器、书库、存储、分词、字体分流等前端逻辑
+assets/fonts/           内置日文字体（woff2，OFL 1.1）与许可证
 data/books.json         首页精选书目
 data/aozora_catalog.json 青空文库目录索引
 data/novels/            本地作品内容

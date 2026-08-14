@@ -1191,21 +1191,69 @@ const Yomu = {
         this.setFuriganaMode(nextMode);
     },
 
-    // Font family
-    setFont(font) {
-        document.body.classList.remove('font-mincho', 'font-gothic');
+    // ===== Font pair (漢字/かな 別指定) =====
+    async setFontPair(kanji, kana, opts = {}) {
+        YomuStorage.saveSetting('fontKanji', kanji);
+        YomuStorage.saveSetting('fontKana', kana);
 
-        const content = document.getElementById('novel-content');
-        if (content) {
-            content.classList.remove('font-mincho', 'font-gothic');
-            content.classList.add(`font-${font}`);
+        // 即時反映（未ダウンロードなら font-display:swap で後から差し替え）
+        YomuFonts.apply(kanji, kana);
+        this._updateFontUI();
+
+        const token = this._fontLoadToken = (this._fontLoadToken || 0) + 1;
+        const ids = [...new Set([kanji, kana])].filter(id => YomuFonts.FONTS[id]);
+        for (const id of ids) {
+            const toast = opts.silent ? null
+                : this.showToast(`「${YomuFonts.FONTS[id].label}」を準備中...`, { id: 'font-dl', duration: 0 });
+            const ok = await YomuFonts.load(id, p => toast && toast.update(null, p));
+            if (token !== this._fontLoadToken) {
+                if (toast) toast.hide();
+                return;
+            }
+            if (toast) {
+                if (ok) toast.finish('フォント準備完了');
+                else toast.fail('フォント取得に失敗しました（通信環境を確認してください）');
+            }
         }
+    },
 
-        YomuStorage.saveSetting('font', font);
+    onFontSelect(slot, value) {
+        const cur = YomuFonts.current;
+        this.setFontPair(slot === 'kanji' ? value : cur.kanji,
+                         slot === 'kana' ? value : cur.kana);
+    },
 
-        // Update button states
-        document.querySelectorAll('.font-btn').forEach(btn => {
-            btn.classList.toggle('active', btn.dataset.font === font);
+    applyFontPreset(presetId) {
+        const p = YomuFonts.PRESETS[presetId];
+        if (p) this.setFontPair(p.kanji, p.kana);
+    },
+
+    _initFontUI() {
+        const options = [
+            { id: 'mincho', label: 'システム（明朝）' },
+            { id: 'gothic', label: 'システム（ゴシック）' },
+            ...Object.entries(YomuFonts.FONTS).map(([id, f]) => ({ id, label: f.label }))
+        ];
+        for (const slot of ['kanji', 'kana']) {
+            const sel = document.getElementById(`font-${slot}-select`);
+            if (!sel || sel.options.length) continue;
+            for (const o of options) {
+                const opt = document.createElement('option');
+                opt.value = o.id;
+                opt.textContent = o.label;
+                sel.appendChild(opt);
+            }
+        }
+    },
+
+    _updateFontUI() {
+        const cur = YomuFonts.current;
+        for (const slot of ['kanji', 'kana']) {
+            const sel = document.getElementById(`font-${slot}-select`);
+            if (sel) sel.value = cur[slot] || 'mincho';
+        }
+        document.querySelectorAll('.font-preset-btn').forEach(btn => {
+            btn.classList.toggle('active', YomuFonts.isPresetActive(btn.dataset.preset));
         });
     },
 
@@ -1713,10 +1761,11 @@ const Yomu = {
     _applySettings() {
         const settings = YomuStorage.getSettings();
 
-        // Font family
-        if (settings.font) {
-            this.setFont(settings.font);
-        }
+        // Font pair (漢字/かな別指定；旧 'font' 設定は両スロットへ移行)
+        this._initFontUI();
+        this.setFontPair(settings.fontKanji || settings.font || 'mincho',
+                         settings.fontKana || settings.font || 'mincho',
+                         { silent: true });
 
         // Font size
         if (settings.fontSize) {

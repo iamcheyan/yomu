@@ -9,7 +9,7 @@
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/svg+xml" href="assets/app_icon.svg">
     <link rel="apple-touch-icon" href="assets/app_icon.png">
-    <link rel="stylesheet" href="css/style.css?v=8">
+    <link rel="stylesheet" href="css/style.css?v=9">
 
     <script>
         // PWA: register service worker for offline reading (http/https only;
@@ -200,12 +200,30 @@
             </div>
         </div>
 
-        <div class="settings-group">
+        <div class="settings-group settings-group-column font-pair-group">
             <label>フォント</label>
-            <div class="font-btn-group">
-                <button class="font-btn active" data-font="mincho" onclick="Yomu.setFont('mincho')">明朝体</button>
-                <button class="font-btn" data-font="gothic" onclick="Yomu.setFont('gothic')">ゴシック</button>
+            <div class="font-preset-btn-group" role="group" aria-label="プリセット">
+                <button class="font-btn font-preset-btn" data-preset="mincho" onclick="Yomu.applyFontPreset('mincho')">明朝経典</button>
+                <button class="font-btn font-preset-btn" data-preset="textbook" onclick="Yomu.applyFontPreset('textbook')">教科書柔和</button>
+                <button class="font-btn font-preset-btn" data-preset="maru" onclick="Yomu.applyFontPreset('maru')">圆体輕鬆</button>
             </div>
+            <div class="font-pair-row">
+                <label class="font-pair-label">漢字</label>
+                <div class="font-pair-control">
+                    <select id="font-kanji-select" class="settings-select font-pair-select"
+                        onchange="Yomu.onFontSelect('kanji', this.value)"></select>
+                    <div class="font-sample" id="font-sample-kanji">永遠の約束 かな カナ 123</div>
+                </div>
+            </div>
+            <div class="font-pair-row">
+                <label class="font-pair-label">かな</label>
+                <div class="font-pair-control">
+                    <select id="font-kana-select" class="settings-select font-pair-select"
+                        onchange="Yomu.onFontSelect('kana', this.value)"></select>
+                    <div class="font-sample" id="font-sample-kana">永遠の約束 かな カナ 123</div>
+                </div>
+            </div>
+            <div id="font-combo-preview" class="font-combo-preview">吾輩は猫である。名字 123 ABC</div>
         </div>
 
         <div class="settings-group">
@@ -326,10 +344,11 @@
     <!-- JS Modules -->
     <script src="libs/kuromoji.js"></script>
     <script src="js/storage.js?v=3"></script>
+    <script src="js/fonts.js?v=1"></script>
     <script src="js/tokenizer.js?v=3"></script>
     <script src="js/reader.js?v=9"></script>
     <script src="js/aozora.js?v=4"></script>
-    <script src="js/app.js?v=14"></script>
+    <script src="js/app.js?v=15"></script>
 </body>
 
 </html>
