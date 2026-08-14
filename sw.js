@@ -9,7 +9,7 @@
  *    keeps the raw JSON available too).
  *  - Anything else (cross-origin, non-GET): network only.
  */
-const CACHE = 'yomu-v17';
+const CACHE = 'yomu-v18';
 
 const SHELL = [
   './',

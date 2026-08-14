@@ -1517,8 +1517,6 @@ const Yomu = {
         const ICON_STAR = '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.4 6.3 6.6.4-5.1 4.3 1.7 6.4L12 15.9l-5.6 3.5 1.7-6.4L3 8.7l6.6-.4z"></path></svg>';
         const ICON_HL = '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path></svg>';
         const ICON_NOTE = '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>';
-        const ICON_TRANS = '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8l6 6"></path><path d="M4 14l6-6 2-3"></path><path d="M2 5h12"></path><path d="M7 2h1"></path><path d="M22 22l-5-10-5 10"></path><line x1="14" y1="18" x2="20" y2="18"></line></svg>';
-        const ICON_GRAM = '<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>';
 
         const actions = [
             { icon: ICON_STAR, label: (entry && entry.b) ? 'しおり解除' : 'しおり', fn: () => { YomuBookmarks.toggleBookmark(bookId, paraIndex, para); } },
@@ -1536,11 +1534,6 @@ const Yomu = {
                 });
             } }
         ];
-        // C6: AI 段落翻訳/文法解説（用户自带 key，未配置时也显示并引导设置）
-        if (window.YomuAI) {
-            actions.push({ icon: ICON_TRANS, label: 'AI 翻訳', fn: () => this.runAiOnParagraph(bookId, paraIndex, 'translate') });
-            actions.push({ icon: ICON_GRAM, label: 'AI 文法解説', fn: () => this.runAiOnParagraph(bookId, paraIndex, 'grammar') });
-        }
 
         sheet.innerHTML = `
             <div class="action-sheet-title">${this._escapeHtml((para && para.content || '').slice(0, 60))}</div>
@@ -1693,7 +1686,6 @@ const Yomu = {
             this._updateNlpOptionState();
             this._fetchVersion();
             if (window.YomuStats) YomuStats._renderUI();
-            if (window.YomuAI) this.restoreAiConfigUI();
         }
     },
 
@@ -1757,89 +1749,6 @@ const Yomu = {
             this.stopAutoScroll();
             this.startAutoScroll();
         }
-    },
-
-    // ===== C6: AI 翻訳/文法解説 =====
-    onAiProviderChange(providerId) {
-        const preset = (window.YomuAI && YomuAI.PRESETS[providerId]) || { baseUrl: '', model: '' };
-        const baseInput = document.getElementById('ai-baseurl-input');
-        const modelInput = document.getElementById('ai-model-input');
-        if (baseInput) baseInput.value = preset.baseUrl || '';
-        if (modelInput) modelInput.value = preset.model || '';
-        this.saveAiConfig(providerId);
-    },
-
-    saveAiConfig(providerId) {
-        if (!window.YomuAI) return;
-        const provider = providerId ||
-            ((document.getElementById('ai-provider-select') || {})._ypValue) || 'custom';
-        const cfg = {
-            provider,
-            baseUrl: ((document.getElementById('ai-baseurl-input') || {}).value || '').trim(),
-            model: ((document.getElementById('ai-model-input') || {}).value || '').trim(),
-            apiKey: ((document.getElementById('ai-key-input') || {}).value || '').trim(),
-            format: (YomuAI.PRESETS[provider] || {}).format === 'gemini' ? 'gemini' : 'openai'
-        };
-        if (cfg.baseUrl) {
-            YomuAI.saveConfig(cfg);
-            this.showToast('AI 設定を保存しました（キーは本端末のみ）');
-        } else {
-            YomuAI.clearConfig();
-        }
-    },
-
-    restoreAiConfigUI() {
-        const cfg = window.YomuAI ? YomuAI.getConfig() : null;
-        const providerSel = document.getElementById('ai-provider-select');
-        const baseInput = document.getElementById('ai-baseurl-input');
-        const modelInput = document.getElementById('ai-model-input');
-        const keyInput = document.getElementById('ai-key-input');
-        if (providerSel && providerSel.setValue) providerSel.setValue((cfg && cfg.provider) || 'zhipu');
-        if (baseInput) baseInput.value = (cfg && cfg.baseUrl) || ((YomuAI.PRESETS.zhipu || {}).baseUrl || '');
-        if (modelInput) modelInput.value = (cfg && cfg.model) || 'glm-4-flash';
-        if (keyInput) keyInput.value = (cfg && cfg.apiKey) || '';
-    },
-
-    async runAiOnParagraph(bookId, paraIndex, kind) {
-        const para = document.getElementById(`p-${paraIndex}`);
-        const text = para ? para.textContent.trim() : '';
-        if (!text) return;
-
-        const overlay = document.getElementById('ai-panel-overlay');
-        const titleEl = document.getElementById('ai-panel-title');
-        const sourceEl = document.getElementById('ai-panel-source');
-        const bodyEl = document.getElementById('ai-panel-body');
-        if (!overlay) return;
-        titleEl.textContent = kind === 'grammar' ? 'AI 文法解説' : 'AI 翻訳';
-        sourceEl.textContent = text.length > 160 ? text.slice(0, 160) + '…' : text;
-        bodyEl.innerHTML = '<div class="ai-status">リクエスト中...</div>';
-        overlay.classList.add('active');
-
-        const run = async () => {
-            bodyEl.innerHTML = '<div class="ai-status">リクエスト中...</div>';
-            try {
-                const out = await YomuAI.explain(text, kind);
-                bodyEl.innerHTML = '';
-                const pre = document.createElement('div');
-                pre.className = 'ai-result';
-                pre.textContent = out;
-                bodyEl.appendChild(pre);
-            } catch (e) {
-                console.warn('[AI] request failed:', e);
-                bodyEl.innerHTML = `
-                    <div class="ai-status ai-status-error">${this._escapeHtml(e.message || 'リクエスト失敗')}</div>
-                    <button class="settings-btn" type="button" id="ai-retry-btn">再試行</button>
-                `;
-                const btn = document.getElementById('ai-retry-btn');
-                if (btn) btn.addEventListener('click', run);
-            }
-        };
-        await run();
-    },
-
-    closeAiPanel() {
-        const overlay = document.getElementById('ai-panel-overlay');
-        if (overlay) overlay.classList.remove('active');
     },
 
     // ===== Mobile UX: toasts =====
@@ -2542,22 +2451,6 @@ const Yomu = {
                 ],
                 value: YomuStorage.getSettings().autoScrollSpeed || 'normal',
                 onChange: (v) => this.setAutoScrollSpeed(v)
-            });
-        }
-
-        const aiHost = document.getElementById('ai-provider-select');
-        if (aiHost && !aiHost._ypInit) {
-            aiHost._ypInit = true;
-            YomuPop.select({
-                trigger: aiHost,
-                options: [
-                    { value: 'zhipu', label: '智谱AI (GLM)' },
-                    { value: 'kimi', label: 'Kimi (Moonshot)' },
-                    { value: 'ark', label: '火山ARK' },
-                    { value: 'custom', label: '自定义 / 本地代理' }
-                ],
-                value: (window.YomuAI && YomuAI.getConfig() && YomuAI.getConfig().provider) || 'zhipu',
-                onChange: (v) => this.onAiProviderChange(v)
             });
         }
     },

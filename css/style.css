@@ -2609,33 +2609,6 @@ input:checked+.slider-round:before {
     font-variant-numeric: tabular-nums;
 }
 
-.ai-config-row {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-.ai-config-row .ypop-host .ypop-trigger {
-    min-width: 0;
-    width: 100%;
-}
-
-.ai-config-row .settings-input {
-    min-height: 44px;
-    padding: 8px 12px;
-    border: 1px solid var(--line-color);
-    background: transparent;
-    color: inherit;
-    border-radius: 10px;
-    font-size: 14px;
-}
-
-.ai-config-note {
-    margin: 2px 0 0;
-    font-size: 12px;
-    color: var(--muted-color);
-}
-
 /* ===== モーダル ===== */
 .modal-overlay {
     position: fixed;
@@ -2999,80 +2972,6 @@ body.theme-dark .ypop-prompt-card {
     font-family: monospace;
     font-size: 11px;
     color: var(--muted-color);
-}
-
-/* ===== AI パネル ===== */
-.ai-panel {
-    position: fixed;
-    inset: 8% 4%;
-    max-width: 640px;
-    margin: 0 auto;
-    background: var(--raised-bg);
-    color: var(--fg-color);
-    border-radius: 16px;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    z-index: 3200;
-    box-shadow: var(--shadow-pop);
-    font-family: var(--font-sans);
-}
-
-.ai-panel-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 12px 18px;
-    border-bottom: 1px solid var(--hairline);
-    font-weight: 600;
-}
-
-.ai-panel-source {
-    padding: 10px 18px;
-    font-size: 13px;
-    color: var(--muted-color);
-    border-bottom: 1px solid var(--hairline);
-    max-height: 5em;
-    overflow-y: auto;
-}
-
-.ai-panel-body {
-    padding: 16px 18px;
-    overflow-y: auto;
-    flex: 1;
-    font-size: 15px;
-    line-height: 1.8;
-    white-space: pre-wrap;
-}
-
-.ai-status {
-    color: var(--muted-color);
-}
-
-.ai-status-error {
-    color: #b3261e;
-    margin-bottom: 10px;
-}
-
-body.theme-dark .ai-status-error {
-    color: #ff7b72;
-}
-
-.ai-result {
-    white-space: pre-wrap;
-}
-
-#ai-retry-btn {
-    margin-top: 10px;
-    padding: 9px 18px;
-    border: 1px solid var(--line-color);
-    background: transparent;
-    color: var(--fg-color);
-    font-family: var(--font-sans);
-    font-size: 13px;
-    cursor: pointer;
-    min-height: 42px;
-    border-radius: 999px;
 }
 
 /* ===== 明るさ ===== */
