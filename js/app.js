@@ -513,22 +513,36 @@ const Yomu = {
     _getFilteredLibraryBooks(allBooks = null) {
         const q = (this._homeSearch || '').trim().toLowerCase();
         const books = (allBooks || this._getLibraryBooks()).filter(book => {
-            if (q) {
-                const haystack = `${book.title || ''} ${book.author || ''} ${book.desc || ''}`.toLowerCase();
-                if (!haystack.includes(q)) return false;
-            }
             if (this._homeFilters.category && this._bookCategory(book) !== this._homeFilters.category) return false;
             return true;
         });
 
-        // Sort by last read timestamp
-        return books.sort((a, b) => {
-            const progA = YomuStorage.getProgress(a.id);
-            const progB = YomuStorage.getProgress(b.id);
-            const timeA = progA.lastRead || 0;
-            const timeB = progB.lastRead || 0;
-            return timeB - timeA;
-        });
+        const lastRead = (b) => YomuStorage.getProgress(b.id).lastRead || 0;
+
+        if (!q) {
+            // Sort by last read timestamp
+            return books.sort((a, b) => lastRead(b) - lastRead(a));
+        }
+
+        // Relevance search (A2): same tiers as the store; within a tier the
+        // recently-read book wins. Library records have no kana fields.
+        const scored = [];
+        for (let i = 0; i < books.length; i++) {
+            const book = books[i];
+            const rec = {
+                title: (book.title || '').toLowerCase(),
+                titleKana: '',
+                author: (book.author || '').toLowerCase(),
+                authorKana: '',
+                authorRoman: '',
+                other: (book.desc || '').toLowerCase()
+            };
+            const match = this._matchBook(rec, q);
+            if (!match) continue;
+            scored.push({ book, tier: match.tier, lr: lastRead(book) });
+        }
+        scored.sort((a, b) => a.tier - b.tier || b.lr - a.lr);
+        return scored.map(s => s.book);
     },
 
     _renderHomeFilters(allBooks, resultCount) {
@@ -784,9 +798,9 @@ const Yomu = {
     _renderStore(filter = '') {
         const grid = document.getElementById('store-grid');
         const downloaded = YomuStorage.getDownloadedBooks();
-        const query = filter.toLowerCase();
+        const query = filter.trim().toLowerCase();
 
-        const filtered = this._getFilteredStoreBooks(query);
+        const filtered = this._getFilteredStoreBooks(filter);
         this._renderStoreFilters(filtered.length);
 
         // Slice for pagination
@@ -794,7 +808,8 @@ const Yomu = {
         const paged = filtered.slice(start, start + this._storePageCount);
 
         let html = '';
-        for (const book of paged) {
+        for (const entry of paged) {
+            const book = entry.book;
             const id = book.fileId || book.workId;
             const isDownloaded = downloaded.some(d => d.id === id || (d.aliases && d.aliases.includes(id)));
             const available = book.available !== false || isDownloaded;
@@ -812,6 +827,7 @@ const Yomu = {
                         </div>
                         <div class="book-author">${this._escapeHtml(authorText)}</div>
                         <div class="book-tags">
+                            ${query && entry.label ? this._renderTag(entry.label, 'match-tag') : ''}
                             ${this._renderTag(this._categoryLabel(this._bookCategory(book)))}
                             ${book.baseBook ? this._renderTag(`底本: ${book.baseBook}`) : ''}
                         </div>
@@ -866,35 +882,81 @@ const Yomu = {
         const q = (query || '').trim().toLowerCase();
         const seen = new Set();
 
-        return this._storeBooks.filter(book => {
+        const accepts = (book) => {
             const key = `${book.workId}|${book.title}|${book.author}|${book.authorId}`;
             if (seen.has(key)) return false;
             seen.add(key);
-
-            if (q && !this._storeSearchText(book).includes(q)) return false;
             if (this._storeFilters.author && book.author !== this._storeFilters.author) return false;
             if (this._storeFilters.category && this._bookCategory(book) !== this._storeFilters.category) return false;
             if (this._storeFilters.orthography && book.orthography !== this._storeFilters.orthography) return false;
             return true;
-        });
+        };
+
+        if (!q) {
+            return this._storeBooks.filter(book => accepts(book)).map(book => ({ book }));
+        }
+
+        // Relevance search (A2): score every catalog entry, then sort by
+        // tier (exact title > title prefix > exact author > substrings)
+        // keeping catalog order within the same tier.
+        const records = this._getStoreSearchRecords();
+        const scored = [];
+        for (const rec of records) {
+            const book = this._storeBooks[rec.i];
+            if (!accepts(book)) continue;
+            const match = this._matchBook(rec, q);
+            if (!match) continue;
+            scored.push({ book, tier: match.tier, label: match.label, i: rec.i });
+        }
+        scored.sort((a, b) => a.tier - b.tier || a.i - b.i);
+        return scored;
     },
 
-    _storeSearchText(book) {
-        return [
-            book.title,
-            book.titleKana,
-            book.author,
-            book.authorKana,
-            book.authorRoman,
-            book.authorId,
-            book.workId,
-            book.fileId,
-            book.ndc,
-            book.orthography,
-            book.baseBook,
-            book.baseBookTitle,
-            book.desc
-        ].filter(Boolean).join(' ').toLowerCase();
+    /**
+     * Lazily built lowercase search records for the store catalog.
+     * Cached against the _storeBooks array identity, so swapping the
+     * preview catalog for the full one invalidates it automatically.
+     */
+    _getStoreSearchRecords() {
+        if (this._storeSearchRecords && this._storeSearchRecords.src === this._storeBooks) {
+            return this._storeSearchRecords.list;
+        }
+        const list = this._storeBooks.map((book, i) => ({
+            i,
+            title: (book.title || '').toLowerCase(),
+            titleKana: (book.titleKana || '').toLowerCase(),
+            author: (book.author || '').toLowerCase(),
+            authorKana: (book.authorKana || '').toLowerCase(),
+            authorRoman: (book.authorRoman || '').toLowerCase(),
+            other: [
+                book.authorId, book.workId, book.fileId, book.ndc,
+                book.orthography, book.baseBook, book.baseBookTitle, book.desc
+            ].filter(Boolean).join(' ').toLowerCase()
+        }));
+        this._storeSearchRecords = { src: this._storeBooks, list };
+        return list;
+    },
+
+    /**
+     * Relevance tiers (A2): 精确タイトル > 読み一致 > タイトル前方 > 読み前方 >
+     * 精確著者 > 著者読み > 著者前方 > 部分一致（タイトル/読み/著者）> その他.
+     * Returns null when the record does not match the query at all.
+     */
+    _matchBook(rec, q) {
+        if (rec.title === q) return { tier: 0, label: 'タイトル一致' };
+        if (rec.titleKana === q) return { tier: 1, label: '読み一致' };
+        if (rec.title.startsWith(q)) return { tier: 2, label: 'タイトル前方' };
+        if (rec.titleKana.startsWith(q)) return { tier: 3, label: '読み前方' };
+        if (rec.author === q) return { tier: 4, label: '著者一致' };
+        if (rec.authorKana === q || rec.authorRoman === q) return { tier: 5, label: '著者読み一致' };
+        if (rec.author.startsWith(q)) return { tier: 6, label: '著者前方' };
+        if (rec.title.includes(q)) return { tier: 7, label: 'タイトル部分' };
+        if (rec.titleKana.includes(q)) return { tier: 8, label: '読み部分' };
+        if (rec.author.includes(q) || rec.authorKana.includes(q) || rec.authorRoman.includes(q)) {
+            return { tier: 9, label: '著者部分' };
+        }
+        if (rec.other.includes(q)) return { tier: 10, label: 'その他' };
+        return null;
     },
 
     _renderStoreFilters(resultCount) {
@@ -992,6 +1054,12 @@ const Yomu = {
         return `<button class="filter-chip${active}" data-filter-type="${this._escapeAttr(type)}" data-filter-value="${this._escapeAttr(value)}" onclick="${this._escapeAttr(action)}"><span class="chip-label">${this._escapeHtml(label)}</span>${countHtml}</button>`;
     },
 
+    _renderTag(label, extraClass = '') {
+        if (!label) return '';
+        const cls = extraClass ? ` ${extraClass}` : '';
+        return `<span class="book-tag${cls}">${this._escapeHtml(label)}</span>`;
+    },
+
     _bookCategory(book) {
         const id = book.id || book.fileId || '';
         const title = book.title || '';
@@ -1034,10 +1102,6 @@ const Yomu = {
         }[category] || '';
     },
 
-    _renderTag(label) {
-        return label ? `<span class="book-tag">${this._escapeHtml(label)}</span>` : '';
-    },
-
     async downloadBook(bookId) {
         const book = this._storeBooks.find(b => (b.fileId || b.workId) === bookId);
         if (!book) return;
@@ -1055,6 +1119,13 @@ const Yomu = {
             this.alert('この作品の本文データはこのビルドに収録されていません。', '本文データ未収録');
             return;
         }
+
+        // One download per book at a time. Nothing is persisted until the
+        // whole book is fetched and saved, so retrying after an interrupted
+        // download starts from a clean state.
+        if (!this._downloadsInFlight) this._downloadsInFlight = new Set();
+        if (this._downloadsInFlight.has(bookId)) return;
+        this._downloadsInFlight.add(bookId);
 
         // Mobile UX: non-blocking toast + shelf card badge (replaces modal dialog)
         this._setStoreCardDownloading(bookId, true);
@@ -1094,6 +1165,11 @@ const Yomu = {
 
             // Refresh store in background
             setTimeout(() => this._renderStore(document.getElementById('store-search-input')?.value || ''), 100);
+
+            // A1 下载→阅读状态机: explicitly open the downloaded book so that
+            // reader-view.active, hash, app state and rendered content all
+            // land on the same book. No leftover store modal/state.
+            await this.openBook(bookId);
         } catch (e) {
             console.error('Download failed:', e);
             const notFound = typeof e === 'object' && e !== null && /HTTP 40[04]/.test(e.message || '');
@@ -1101,6 +1177,8 @@ const Yomu = {
                 ? 'この作品の本文データはこのビルドに収録されていません。'
                 : '本棚への追加に失敗しました。接続を確認してください。');
             this._setStoreCardDownloading(bookId, false);
+        } finally {
+            this._downloadsInFlight.delete(bookId);
         }
     },
 
