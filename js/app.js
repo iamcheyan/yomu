@@ -691,7 +691,11 @@ const Yomu = {
             const active = [
                 this._categoryLabel(this._homeFilters.category)
             ].filter(Boolean);
-            summary.textContent = `${resultCount} 冊${this._homeSearch ? ` · 「${this._homeSearch}」` : ''}${active.length ? ' · ' + active.join(' / ') : ''}`;
+            const parts = [];
+            if (active.length && this._homeFilters.category !== '') parts.push(active.join(' / '));
+            if (this._homeSearch) parts.push(`「${this._homeSearch}」`);
+            // 默认状态（すべて・無検索）不显示冗余统计，让列表自己说话
+            summary.textContent = parts.length ? `${resultCount} 冊 · ${parts.join(' · ')}` : '';
         }
     },
 

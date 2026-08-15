@@ -296,20 +296,25 @@ body.theme-dark .u-color-error { color: #ff7b72; }
 
 .home-searchbar {
     grid-area: search;
+    padding-bottom: 26px;
 }
 
+/* 検索 — 底線式（無框）: 文字だけで立つ */
 .search-capsule {
     display: flex;
     align-items: center;
-    gap: 8px;
-    background: var(--soft-bg);
-    border-radius: 999px;
-    padding: 5px 8px 5px 18px;
-    transition: background-color 0.2s ease;
+    gap: 10px;
+    background: transparent;
+    border-bottom: 1px solid var(--line-color);
+    border-radius: 0;
+    padding: 4px 2px 8px;
+    max-width: 560px;
+    transition: border-color 0.2s ease;
 }
 
 .search-capsule:focus-within {
-    background: var(--accent-soft);
+    border-bottom-color: var(--accent-color);
+    background: transparent;
 }
 
 .search-icon {
@@ -478,29 +483,32 @@ body.theme-dark .u-color-error { color: #ff7b72; }
 /* --- 筛选 chips --- */
 .home-chips {
     grid-area: chips;
+    padding-bottom: 10px;
 }
 
 .filter-chips-group {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    align-items: baseline;
+    gap: 4px 22px;
 }
 
+/* 分類 — 純文字タブ（無框）: 選択は色と下線で示す */
 .filter-chip {
     display: inline-flex;
-    align-items: center;
-    gap: 6px;
+    align-items: baseline;
+    gap: 5px;
     border: none;
-    background: var(--soft-bg);
+    background: transparent;
     color: var(--muted-color);
-    padding: 9px 16px;
-    border-radius: 999px;
+    padding: 6px 0;
+    border-radius: 0;
     font-family: var(--font-sans);
     font-size: 13px;
     cursor: pointer;
     line-height: 1.2;
-    min-height: 38px;
-    transition: background-color 0.2s ease, color 0.2s ease;
+    min-height: 36px;
+    transition: color 0.2s ease;
 }
 
 .filter-chip .chip-label {
@@ -508,17 +516,19 @@ body.theme-dark .u-color-error { color: #ff7b72; }
 }
 
 .filter-chip .chip-count {
-    font-size: 10px;
-    opacity: 0.75;
+    font-size: 10.5px;
+    opacity: 0.7;
+    font-variant-numeric: tabular-nums;
 }
 
 .filter-chip.active {
-    background: var(--fg-color);
-    color: var(--bg-color);
+    background: transparent;
+    color: var(--fg-color);
+    box-shadow: inset 0 -1px 0 var(--fg-color);
 }
 
 .filter-chip:active {
-    transform: scale(0.97);
+    transform: none;
 }
 
 .filter-summary {
@@ -763,6 +773,7 @@ body.theme-dark .u-color-error { color: #ff7b72; }
 .store-toolbar .store-search {
     flex: 1;
     min-width: 0;
+    max-width: none;
 }
 
 .tool-icon-btn {
