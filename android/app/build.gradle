@@ -5,6 +5,7 @@ plugins {
 android {
     namespace 'com.yomu.app'
     compileSdk 33
+    buildToolsVersion '35.0.1'
 
     defaultConfig {
         applicationId "com.yomu.app"

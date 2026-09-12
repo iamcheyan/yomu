@@ -117,18 +117,29 @@ const Yomu = {
             }
         } catch (e) {
             console.error('Fatal Init Error:', e);
-            msg.textContent = '初期化に失敗しました。';
+            loading.classList.add('loading-failed');
+            msg.textContent = '';
+            const failure = document.createElement('div');
+            failure.className = 'loading-failure';
+            failure.innerHTML = `
+                <div class="loading-failure-mark" aria-hidden="true">読</div>
+                <p class="loading-failure-title">読み込みできませんでした</p>
+                <p class="loading-failure-hint">もう一度読み込むと復旧する場合があります。</p>`;
             const btn = document.createElement('button');
             btn.textContent = '再読み込み';
-            btn.className = 'modal-btn primary';
-            btn.style.marginTop = '20px';
+            btn.className = 'loading-retry-btn';
             btn.onclick = () => window.location.reload();
-            msg.appendChild(document.createElement('br'));
-            msg.appendChild(btn);
+            failure.appendChild(btn);
+            msg.appendChild(failure);
         }
     },
 
     _handleGlobalClick(e) {
+        if (e.target.id === 'settings-overlay' && this._settingsOpen) {
+            this.toggleSettings();
+            return;
+        }
+
         // 1. Handle Modal Overlay click (Click on background to cancel)
         if (e.target.id === 'modal-overlay') {
             const cancelBtn = document.getElementById('modal-cancel-btn');
@@ -343,6 +354,7 @@ const Yomu = {
             const percent = Math.round(progress.scrollPercent || 0);
             return `
                 <div class="book-row" data-book-id="${this._escapeAttr(book.id)}" data-book-source="library" onclick="Yomu.openBook('${this._escapeAttr(book.id)}')">
+                    ${this._coverMarkup(book)}
                     <div class="book-row-main">
                         <div class="book-row-title-line">
                             <span class="book-row-title">${this._escapeHtml(book.title)}</span>
@@ -378,6 +390,7 @@ const Yomu = {
                 const book = r.book;
                 ftHtml.push(`
                     <div class="book-row" onclick="Yomu.openBook('${this._escapeAttr(book.id)}', true, ${r.hit.paraIndex})">
+                        ${this._coverMarkup(book)}
                         <div class="book-row-main">
                             <div class="book-row-title-line">
                                 <span class="book-row-title">${this._escapeHtml(book.title)}</span>
@@ -1006,6 +1019,7 @@ const Yomu = {
 
             rowHtml.push(`
                 <div class="store-row ${available ? '' : 'unavailable'}" id="store-book-${id}" data-book-id="${this._escapeAttr(id)}" data-book-source="store" ${isDownloaded ? `onclick="Yomu.openBook('${id}')"` : ''}>
+                    ${this._coverMarkup(book)}
                     <div class="store-row-main">
                         <div class="store-row-title">
                             <span>${this._escapeHtml(book.title)}</span>
@@ -1027,6 +1041,7 @@ const Yomu = {
 
             cellHtml.push(`
                 <div class="store-cell ${available ? '' : 'unavailable'}" ${isDownloaded ? `onclick="Yomu.openBook('${id}')"` : ''}>
+                    ${this._coverMarkup(book)}
                     <div class="store-cell-title">${this._escapeHtml(book.title)}</div>
                     <div class="store-cell-author">${this._escapeHtml(authorText)}</div>
                     <div class="store-cell-action">
@@ -1058,6 +1073,34 @@ const Yomu = {
         if (nextBtn) nextBtn.disabled = (this._storePage + 1) * this._storePageCount >= filtered.length;
         const pageInfo = document.getElementById('store-page-info');
         if (pageInfo) pageInfo.textContent = `${this._storePage + 1} / ${totalPages}`;
+    },
+
+    /** Stable, local cover for authors without a verified historical scan. */
+    _coverMarkup(book) {
+        const author = book.author || '';
+        const themes = {
+            '夏目漱石': ['souseki', '夏目漱石'],
+            '芥川龍之介': ['akutagawa', '芥川龍之介'],
+            '太宰治': ['dazai', '太宰治'],
+            '宮沢賢治': ['kenji', '宮沢賢治'],
+            '森鴎外': ['ogai', '森鴎外'],
+            '森鷗外': ['ogai', '森鷗外'],
+            '中島敦': ['nakajima', '中島敦'],
+            '泉鏡花': ['kyoka', '泉鏡花'],
+            '泉鏡花、泉鏡太郎': ['kyoka', '泉鏡花'],
+            '江戸川乱歩': ['ranpo', '江戸川乱歩'],
+            '坂口安吾': ['ango', '坂口安吾'],
+            '島崎藤村': ['toson', '島崎藤村'],
+            '谷崎潤一郎': ['tanizaki', '谷崎潤一郎'],
+            '国木田独歩': ['doppo', '国木田独歩'],
+            '樋口一葉': ['ichiyo', '樋口一葉']
+        };
+        const theme = themes[author] || ['default', '青空文庫'];
+        return `<div class="book-cover book-cover-${theme[0]}" aria-label="${this._escapeAttr(book.title)} — ${this._escapeAttr(author)}">
+            <span class="book-cover-mark" aria-hidden="true">青空文庫</span>
+            <span class="book-cover-title">${this._escapeHtml(book.title)}</span>
+            <span class="book-cover-author">${this._escapeHtml(theme[1])}</span>
+        </div>`;
     },
 
     toggleStoreFilters(event) {
@@ -1608,18 +1651,20 @@ const Yomu = {
 
     _initFontUI() {
         if (!window.YomuPop) return;
-        const options = [
-            { id: 'mincho', label: 'システム（明朝）' },
-            { id: 'gothic', label: 'システム（ゴシック）' },
-            ...Object.entries(YomuFonts.FONTS).map(([id, f]) => ({ id, label: f.label }))
-        ];
         for (const slot of ['kanji', 'kana']) {
             const host = document.getElementById(`font-${slot}-select`);
             if (!host || host._ypInit) continue;
             host._ypInit = true;
+            const options = [
+                { id: 'mincho', label: 'システム（明朝）', labelClass: `font-preview-${slot}` },
+                { id: 'gothic', label: 'システム（ゴシック）', labelClass: `font-preview-${slot}` },
+                ...Object.entries(YomuFonts.FONTS).map(([id, f]) => ({
+                    id, label: f.label, labelClass: `font-preview-${slot} font-preview-${id}`
+                }))
+            ];
             YomuPop.select({
                 trigger: host,
-                options: options.map(o => ({ value: o.id, label: o.label })),
+                options: options.map(o => ({ value: o.id, label: o.label, labelClass: o.labelClass })),
                 value: 'mincho',
                 onChange: (v) => this.onFontSelect(slot, v)
             });
@@ -1687,10 +1732,22 @@ const Yomu = {
             panel.classList.add('open');
             overlay.classList.add('active');
             this._settingsOpen = true;
+            this.setSettingsSection('reading');
             this._updateNlpOptionState();
             this._fetchVersion();
             if (window.YomuStats) YomuStats._renderUI();
         }
+    },
+
+    setSettingsSection(section) {
+        const active = ['reading', 'display', 'data'].includes(section) ? section : 'reading';
+        document.querySelectorAll('#settings-panel .settings-group[data-settings-section]').forEach((el) => {
+            el.hidden = el.dataset.settingsSection !== active;
+        });
+        document.querySelectorAll('#settings-panel .settings-tab').forEach((tab) => {
+            tab.hidden = false;
+            tab.classList.toggle('active', tab.dataset.settingsSection === active);
+        });
     },
 
     // ===== C4: 自動スクロール =====
@@ -1921,6 +1978,15 @@ const Yomu = {
             slider.value = newVal;
             this.setMargin(newVal);
         }
+    },
+
+    setReaderWidth(px) {
+        const val = [60, 75, 90, 100].includes(Number(px)) ? Number(px) : 75;
+        document.documentElement.style.setProperty('--reader-width', val + 'vw');
+        YomuStorage.saveSetting('readerWidth', val);
+        document.querySelectorAll('.reader-width-btn').forEach(btn => {
+            btn.classList.toggle('active', Number(btn.dataset.readerWidth) === val);
+        });
     },
 
     setTheme(theme) {
@@ -2366,10 +2432,19 @@ const Yomu = {
         }
 
         this.setMargin(settings.readerMargin || 24);
+        this.setReaderWidth(settings.readerWidth || 75);
 
         // Theme / brightness
         this.setTheme(settings.theme || 'light');
         this.setBrightness(settings.brightness || 100);
+
+        // 墨水屏模式：Android 默认开启，网页端可由用户手动开启
+        const einkMode = settings.einkMode !== undefined
+            ? settings.einkMode
+            : document.body.classList.contains('env-android');
+        document.body.classList.toggle('eink-mode', einkMode);
+        const einkToggle = document.getElementById('eink-mode-toggle');
+        if (einkToggle) einkToggle.checked = einkMode;
 
         // B5: JLPT 難度表示（默认开）
         const jlptToggle = document.getElementById('jlpt-show-toggle');
@@ -2392,6 +2467,12 @@ const Yomu = {
 
         // 自绘下拉组件初始化（替代原生 select）
         this._initPopSelects();
+    },
+
+    setEinkMode(enabled) {
+        const value = Boolean(enabled);
+        YomuStorage.saveSetting('einkMode', value);
+        document.body.classList.toggle('eink-mode', value);
     },
 
     setFuriganaMode(mode) {

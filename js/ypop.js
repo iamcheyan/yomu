@@ -37,6 +37,18 @@
         });
     }
 
+    function renderPreview(o) {
+        return o && o.preview
+            ? '<span class="ypop-preview ' + esc(o.previewClass || '') + '">' + esc(o.preview) + '</span>'
+            : '';
+    }
+
+    function renderLabel(o) {
+        if (!o) return '';
+        const cls = o.labelClass ? ' class="' + esc(o.labelClass) + '"' : '';
+        return '<span' + cls + '>' + esc(o.label || '') + '</span>';
+    }
+
     // 唯一实例：一次只允许一个打开
     document.addEventListener('click', (e) => {
         if (!e.target.closest('.ypop-menu') && !e.target.closest('.ypop-trigger')) {
@@ -69,8 +81,6 @@
         const { trigger, options, value, onChange, align = 'left' } = opts;
         if (!trigger || !Array.isArray(options)) return;
 
-        const renderLabel = (o) => (o && o.label) || '';
-
         // ---- 触发按钮（自绘，替代 <select>）----
         let btn = trigger.querySelector('.ypop-trigger');
         if (!btn) {
@@ -85,7 +95,7 @@
         }
         const cur = options.find(o => o.value === value);
         btn.innerHTML =
-            '<span class="ypop-trigger-value">' + esc(renderLabel(cur)) + '</span>' +
+            '<span class="ypop-trigger-value">' + renderLabel(cur) + renderPreview(cur) + '</span>' +
             '<svg class="ypop-caret" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>';
         btn.setAttribute('aria-haspopup', 'listbox');
         btn.setAttribute('aria-expanded', 'false');
@@ -93,7 +103,7 @@
         // 状态同步入口（替代 select.value = x）
         trigger.setValue = (v) => {
             const o = options.find(o => o.value === v);
-            btn.querySelector('.ypop-trigger-value').textContent = renderLabel(o);
+            btn.querySelector('.ypop-trigger-value').innerHTML = renderLabel(o) + renderPreview(o);
             trigger._ypValue = v;
         };
         trigger.setValue(value);
@@ -126,7 +136,7 @@
             item.className = 'ypop-item' + (o.value === trigger._ypValue ? ' selected' : '') + (o.disabled ? ' disabled' : '');
             item.setAttribute('role', 'option');
             item.innerHTML =
-                '<span class="ypop-item-label">' + esc(o.label) + '</span>' +
+                '<span class="ypop-item-label">' + renderLabel(o) + '</span>' +
                 (o.hint ? '<span class="ypop-item-hint">' + esc(o.hint) + '</span>' : '') +
                 '<svg class="ypop-check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>';
             if (!o.disabled) {
