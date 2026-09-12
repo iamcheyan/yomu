@@ -1077,6 +1077,9 @@ const Yomu = {
 
     /** Stable, local cover for authors without a verified historical scan. */
     _coverMarkup(book) {
+        const progress = YomuStorage.getProgress(book.id);
+        const percent = Math.round(progress.scrollPercent || 0);
+        const state = percent >= 100 ? 'finished' : (percent > 0 ? 'reading' : 'closed');
         const author = book.author || '';
         const themes = {
             '夏目漱石': ['souseki', '夏目漱石'],
@@ -1096,10 +1099,11 @@ const Yomu = {
             '樋口一葉': ['ichiyo', '樋口一葉']
         };
         const theme = themes[author] || ['default', '青空文庫'];
-        return `<div class="book-cover book-cover-${theme[0]}" aria-label="${this._escapeAttr(book.title)} — ${this._escapeAttr(author)}">
+        return `<div class="book-cover book-cover-${theme[0]} book-cover-${state}" data-progress="${percent}" aria-label="${this._escapeAttr(book.title)} — ${this._escapeAttr(author)}">
             <span class="book-cover-mark" aria-hidden="true">青空文庫</span>
             <span class="book-cover-title">${this._escapeHtml(book.title)}</span>
             <span class="book-cover-author">${this._escapeHtml(theme[1])}</span>
+            ${state !== 'closed' ? `<span class="book-cover-state">${state === 'finished' ? '読了' : percent + '%'}</span>` : ''}
         </div>`;
     },
 
