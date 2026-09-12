@@ -1,63 +1,43 @@
 <!doctype html>
 <html lang="ja">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Yomu cover state test</title>
-    <style>
-        :root { color-scheme: light; --bg: #f4ead2; --ink: #332d24; --muted: #9a8d74; --line: #b9ad96; }
-        * { box-sizing: border-box; }
-        body { margin: 0; padding: 48px; background: var(--bg); color: var(--ink); font-family: Georgia, "Noto Serif JP", serif; }
-        header { max-width: 1180px; margin: 0 auto 38px; }
-        h1 { margin: 0 0 8px; font-size: 32px; letter-spacing: .08em; }
-        p { margin: 0; color: var(--muted); font-family: system-ui, sans-serif; }
-        .states { max-width: 1420px; margin: 0 auto; display: grid; grid-template-columns: repeat(5, minmax(150px, 1fr)); gap: 34px 30px; align-items: start; }
-        .state { min-width: 0; }
-        .state-name { margin: 14px 0 5px; font-size: 17px; font-weight: 600; }
-        .state-note { font-size: 12px; line-height: 1.6; }
-        .book { position: relative; aspect-ratio: .72 / 1; min-height: 280px; }
-        .book-pages { position: absolute; inset: 8% 4% 7%; overflow: hidden; background: #eee7d7; border: 1px solid #9f927a; box-shadow: 4px 5px 0 rgba(70, 60, 45, .18); }
-        .book-back { position: absolute; z-index: 2; inset: 8% 10%; padding: 18px; background: #d9dde3; border: 1px solid #78818b; box-shadow: 5px 5px 0 #c2c5c9; opacity: 0; transform-origin: right center; transition: opacity .2s ease, transform .2s ease; }
-        .book-back::after { position: absolute; inset: 9px; border: 1px solid #9ba2aa; content: ""; }
-        .book-pages::before { position: absolute; inset: 10px; border: 1px solid #c3b8a3; content: ""; }
-        .book-pages::after { position: absolute; left: 18px; right: 18px; top: 36%; height: 2px; background: #c7bca7; box-shadow: 0 13px #c7bca7, 0 26px #c7bca7, 0 39px #c7bca7; content: ""; opacity: .7; }
-        .book-front { position: absolute; z-index: 3; inset: 8% 10%; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; background: #d9dde3; border: 1px solid #78818b; box-shadow: 5px 5px 0 #c2c5c9; transform-origin: left center; transition: transform .2s ease; }
-        .book-front::after { position: absolute; inset: 9px; border: 1px solid #9ba2aa; content: ""; }
-        .book-front span { position: relative; z-index: 1; }
-        .closed-title { align-self: center; margin: auto 0; font-size: 25px; font-weight: 700; }
-        .book-spine { position: absolute; z-index: 4; left: 10%; top: 8%; bottom: 7%; width: 3px; background: #78818b; }
-        .state-0 .book-front { transform: rotateY(0deg); }
-        .state-10 .book-front { transform: perspective(500px) rotateY(-6deg) translateX(-1%); }
-        .state-20 .book-front { transform: perspective(500px) rotateY(-12deg) translateX(-3%); }
-        .state-35 .book-front { transform: perspective(500px) rotateY(-22deg) translateX(-5%); }
-        .state-50 .book-front { transform: perspective(500px) rotateY(-32deg) translateX(-8%); }
-        .state-65 .book-front { transform: perspective(500px) rotateY(-40deg) translateX(-10%); }
-        .state-80 .book-front { transform: perspective(500px) rotateY(-44deg) translateX(-12%); }
-        .state-90 .book-front { transform: perspective(500px) rotateY(-34deg) translateX(-9%); opacity: .28; }
-        .state-100 .book-front { transform: perspective(500px) rotateY(-88deg) translateX(-25%); opacity: 0; }
-        .state-10 .book-pages, .state-20 .book-pages, .state-35 .book-pages { background: #e9e3d5; }
-        .state-50 .book-pages, .state-65 .book-pages, .state-80 .book-pages, .state-90 .book-pages, .state-100 .book-pages { background: #f4eddf; }
-        .state-90 .book-front span { opacity: .18; }
-        .state-50 .book-back { opacity: .08; transform: perspective(500px) rotateY(26deg) translateX(8%); }
-        .state-65 .book-back { opacity: .22; transform: perspective(500px) rotateY(18deg) translateX(5%); }
-        .state-80 .book-back { opacity: .42; transform: perspective(500px) rotateY(10deg) translateX(3%); }
-        .state-90 .book-back { opacity: .72; transform: perspective(500px) rotateY(4deg) translateX(1%); }
-        .state-100 .book-back { opacity: 1; transform: rotateY(0deg); }
-        @media (max-width: 900px) { body { padding: 28px 18px; } .states { grid-template-columns: repeat(2, minmax(150px, 1fr)); } }
-    </style>
-</head>
-<body>
-    <header><h1>本の開き具合テスト</h1><p>閉じた本から、読み終えた本まで。正式な書架にはまだ反映していません。</p></header>
-    <main class="states">
-        <section class="state state-0"><div class="book"><div class="book-pages"></div><div class="book-back"></div><div class="book-front"><span>青空文庫</span><span class="closed-title">山月記</span><span>中島敦</span></div><i class="book-spine"></i></div><h2 class="state-name">未読 — 0%</h2><p class="state-note">本を閉じた状態</p></section>
-        <section class="state state-10"><div class="book"><div class="book-pages"></div><div class="book-back"></div><div class="book-front"><span>青空文庫</span><span class="closed-title">山月記</span><span>中島敦</span></div><i class="book-spine"></i></div><h2 class="state-name">読書中 — 10%</h2><p class="state-note">ほんの少し開いた状態</p></section>
-        <section class="state state-20"><div class="book"><div class="book-pages"></div><div class="book-back"></div><div class="book-front"><span>青空文庫</span><span class="closed-title">山月記</span><span>中島敦</span></div><i class="book-spine"></i></div><h2 class="state-name">読書中 — 20%</h2><p class="state-note">少しだけ開いた状態</p></section>
-        <section class="state state-35"><div class="book"><div class="book-pages"></div><div class="book-back"></div><div class="book-front"><span>青空文庫</span><span class="closed-title">山月記</span><span>中島敦</span></div><i class="book-spine"></i></div><h2 class="state-name">読書中 — 35%</h2><p class="state-note">ページが見え始めた状態</p></section>
-        <section class="state state-50"><div class="book"><div class="book-pages"></div><div class="book-back"></div><div class="book-front"><span>青空文庫</span><span class="closed-title">山月記</span><span>中島敦</span></div><i class="book-spine"></i></div><h2 class="state-name">読書中 — 50%</h2><p class="state-note">本が半分開いた状態</p></section>
-        <section class="state state-65"><div class="book"><div class="book-pages"></div><div class="book-back"></div><div class="book-front"><span>青空文庫</span><span class="closed-title">山月記</span><span>中島敦</span></div><i class="book-spine"></i></div><h2 class="state-name">読書中 — 65%</h2><p class="state-note">後半に入った状態</p></section>
-        <section class="state state-80"><div class="book"><div class="book-pages"></div><div class="book-back"></div><div class="book-front"><span>青空文庫</span><span class="closed-title">山月記</span><span>中島敦</span></div><i class="book-spine"></i></div><h2 class="state-name">終盤 — 80%</h2><p class="state-note">ほぼ開ききった状態</p></section>
-        <section class="state state-90"><div class="book"><div class="book-pages"></div><div class="book-back"></div><div class="book-front"><span>青空文庫</span><span class="closed-title">山月記</span><span>中島敦</span></div><i class="book-spine"></i></div><h2 class="state-name">終盤 — 90%</h2><p class="state-note">表紙が端に寄った状態</p></section>
-        <section class="state state-100"><div class="book"><div class="book-pages"></div><div class="book-back"></div><div class="book-front"><span>青空文庫</span><span class="closed-title">山月記</span><span>中島敦</span></div><i class="book-spine"></i></div><h2 class="state-name">読了 — 100%</h2><p class="state-note">封底が見える状態</p></section>
-    </main>
-</body>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>本の開き具合 — 試作</title>
+<style>
+*{box-sizing:border-box}body{margin:0;padding:48px 28px;background:#f4ead2;color:#332d24;font-family:system-ui,sans-serif}
+header,main{max-width:1440px;margin:auto}h1{margin:0 0 12px;font-size:32px}header p,.note{color:#827760;line-height:1.8}
+.states{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:28px;margin-top:48px}svg{display:block;width:100%;height:auto}h2{font-size:18px;margin:18px 0 8px}.note{font-size:14px;margin:0}
+@media(max-width:850px){.states{grid-template-columns:repeat(2,minmax(0,1fr))}}
+</style>
+<header><h1>本の開き具合テスト</h1><p>表紙から本文へ、本文から裏表紙へ。<br>同じ大きさの本で、5つの状態を比較します。</p></header>
+<main class="states" id="states"></main>
+<script>
+const cover=(back=false)=>`
+<rect width="200" height="300" fill="#d9dde3" stroke="#89929c" stroke-width="1.4"/>
+<rect x="9" y="9" width="182" height="282" fill="none" stroke="#9ba2aa"/>
+<path d="M${back?195:5} 0v300" stroke="#89929c" stroke-width="2"/>
+${back?'<text x="100" y="273" text-anchor="middle" font-size="12">青空文庫</text><path d="M86 245h28" stroke="#89929c"/>':'<text x="18" y="35" font-size="14">青空文庫</text><text x="100" y="158" text-anchor="middle" font-size="25" font-weight="700">山月記</text><text x="181" y="274" text-anchor="end" font-size="14">中島敦</text>'}`;
+const page=()=>`<rect width="200" height="300" fill="#f6f0e3" stroke="#aaa18f"/>
+${Array.from({length:8},(_,i)=>'<path d="M30 '+(62+i*22)+'h'+(i===7?88:140)+'" stroke="#c1b7a4" stroke-width="1.6"/>').join('')}`;
+function panel(content,x,width,leftY,rightY,height){
+return '<g transform="matrix('+width/200+' '+(rightY-leftY)/200+' 0 '+height/300+' '+x+' '+leftY+')">'+content+'</g>';
+}
+function book(p){
+ let art='<g>';
+ if(p===0||p===100){
+  art+='<path d="M24 20H236V320H24Z" fill="#c9c2b2"/><path d="M22 17H233V317H22Z" fill="#ede6d7" stroke="#b8af9e"/>'+panel(cover(p===100),20,210,14,14,300);
+ } else {
+  const reverse=p>50;
+  const hinge=reverse?158:92;
+  art+='<path d="M24 20L'+(hinge+4)+' 38L234 20V306L'+(hinge+4)+' 322L24 306Z" fill="#c9c2b2"/>';
+  art+=panel(p===25?cover():page(),20,hinge-20,14,32,282);
+  art+=panel(p===75?cover(true):page(),hinge,230-hinge,32,14,282);
+  art+='<path d="M'+hinge+' 32v282" stroke="#8b8271" stroke-width="2"/>';
+ }
+ art+='</g>';
+ return '<svg viewBox="0 0 250 335" role="img" aria-label="読書の進み具合 '+p+'%" fill="#303944">'+art+'</svg>';
+}
+const states=[[0,'未読','表紙を閉じた状態。'],[25,'読書中','表紙を開き、本文が大きく見える。'],[50,'中ほど','左右のページが見える折り返し地点。'],[75,'終盤','反対側から見た本。裏表紙を閉じていく。'],[100,'読了','裏表紙を閉じた状態。背は右側に。']];
+document.getElementById('states').innerHTML=states.map(([p,name,note])=>'<section>'+book(p)+'<h2>'+name+' — '+p+'%</h2><p class="note">'+note+'</p></section>').join('');
+</script>
 </html>
