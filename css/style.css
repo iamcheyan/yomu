@@ -317,7 +317,6 @@ body.theme-dark .u-color-error { color: #ff7b72; }
     grid-template-areas:
         "hero"
         "search"
-        "side"
         "chips"
         "list";
     align-content: start;
@@ -3570,24 +3569,16 @@ body.theme-dark .action-sheet-btn.danger {
 /* デスクトップ：非対称2栏（主列＋右サイド）— 携帯レイアウトの引き伸ばしではない */
 @media (min-width: 1200px) {
     .home-view {
-        grid-template-columns: minmax(0, 1fr) 292px;
+        grid-template-columns: minmax(0, 1fr);
         grid-template-areas:
-            "hero  side"
-            "search side"
-            "chips side"
-            "list  side";
-        column-gap: 60px;
+            "hero"
+            "search"
+            "chips"
+            "list";
     }
 
     .home-hero {
         padding-top: 52px;
-    }
-
-    .home-side {
-        padding-top: 62px;
-        position: sticky;
-        top: 16px;
-        align-self: start;
     }
 
     /* サイドでは「続きを読む」を縦のリストに */

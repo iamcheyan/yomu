@@ -342,7 +342,6 @@ const Yomu = {
         const counter = document.getElementById('library-count');
         if (counter) counter.textContent = allBooks.length;
         this._renderHomeFilters(allBooks, filtered.length);
-        this._renderContinueRail(allBooks);
 
         const grid = document.getElementById('book-grid');
         let html = '';
@@ -419,35 +418,6 @@ const Yomu = {
             `;
         }
         grid.innerHTML = html;
-    },
-
-    /** 続きを読む（最近阅读的横向区域） */
-    _renderContinueRail(allBooks) {
-        const section = document.getElementById('home-continue-section');
-        const rail = document.getElementById('continue-rail');
-        if (!section || !rail) return;
-
-        const reading = allBooks
-            .map(b => ({ book: b, p: YomuStorage.getProgress(b.id) }))
-            .filter(x => x.p && x.p.lastRead)
-            .sort((a, b) => (b.p.lastRead || 0) - (a.p.lastRead || 0))
-            .slice(0, 6);
-
-        section.classList.toggle('hidden', reading.length === 0);
-
-        rail.innerHTML = reading.map(({ book, p }) => {
-            const percent = Math.round(p.scrollPercent || 0);
-            return `
-                <button class="continue-item" onclick="Yomu.openBook('${this._escapeAttr(book.id)}')">
-                    <div class="continue-title">${this._escapeHtml(book.title)}</div>
-                    <div class="continue-author">${this._escapeHtml(book.author || '')}</div>
-                    <div class="mini-progress">
-                        <div class="track"><span style="width:${percent}%"></span></div>
-                        <span class="pct">${percent >= 100 ? '読了' : percent + '%'}</span>
-                    </div>
-                </button>
-            `;
-        }).join('');
     },
 
 
