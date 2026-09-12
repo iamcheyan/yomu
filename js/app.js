@@ -1034,7 +1034,16 @@ const Yomu = {
     _coverMarkup(book) {
         const progress = YomuStorage.getProgress(book.id);
         const percent = Math.round(progress.scrollPercent || 0);
-        const state = percent >= 100 ? 'finished' : (percent > 0 ? 'reading' : 'closed');
+        const clamped = Math.max(0, Math.min(100, percent));
+        const firstHalf = clamped <= 50;
+        const half = firstHalf ? clamped / 50 : (clamped - 50) / 50;
+        const frontAngle = firstHalf ? -32 * half : -32 - 56 * half;
+        const frontShift = firstHalf ? -8 * half : -8 - 17 * half;
+        const frontOpacity = firstHalf ? 1 : 1 - half;
+        const backOpacity = firstHalf ? 0 : Math.max(0, (clamped - 55) / 45);
+        const backAngle = firstHalf ? 26 : 26 * (1 - half);
+        const backShift = firstHalf ? 8 : 8 * (1 - half);
+        const textOpacity = firstHalf ? 1 : Math.max(.05, 1 - half * 1.2);
         const author = book.author || '';
         const themes = {
             '夏目漱石': ['souseki', '夏目漱石'],
@@ -1054,11 +1063,16 @@ const Yomu = {
             '樋口一葉': ['ichiyo', '樋口一葉']
         };
         const theme = themes[author] || ['default', '青空文庫'];
-        return `<div class="book-cover book-cover-${theme[0]} book-cover-${state}" data-progress="${percent}" aria-label="${this._escapeAttr(book.title)} — ${this._escapeAttr(author)}">
-            <span class="book-cover-mark" aria-hidden="true">青空文庫</span>
-            <span class="book-cover-title">${this._escapeHtml(book.title)}</span>
-            <span class="book-cover-author">${this._escapeHtml(theme[1])}</span>
-            ${state !== 'closed' ? `<span class="book-cover-state">${state === 'finished' ? '読了' : percent + '%'}</span>` : ''}
+        return `<div class="book-cover book-cover-${theme[0]}" data-progress="${percent}" style="--front-angle:${frontAngle};--front-shift:${frontShift};--front-opacity:${frontOpacity};--back-opacity:${backOpacity};--back-angle:${backAngle};--back-shift:${backShift};--front-text-opacity:${textOpacity}" aria-label="${this._escapeAttr(book.title)} — ${this._escapeAttr(author)}">
+            <div class="book-cover-pages" aria-hidden="true"></div>
+            <div class="book-cover-back" aria-hidden="true"><span>青空文庫</span></div>
+            <div class="book-cover-front">
+                <span class="book-cover-mark" aria-hidden="true">青空文庫</span>
+                <span class="book-cover-title">${this._escapeHtml(book.title)}</span>
+                <span class="book-cover-author">${this._escapeHtml(theme[1])}</span>
+            </div>
+            <i class="book-cover-spine" aria-hidden="true"></i>
+            ${percent > 0 ? `<span class="book-cover-state">${percent >= 100 ? '読了' : percent + '%'}</span>` : ''}
         </div>`;
     },
 

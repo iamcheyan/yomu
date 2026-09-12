@@ -975,6 +975,7 @@ body.theme-dark .u-color-error { color: #ff7b72; }
     border: 1px solid color-mix(in srgb, var(--cover-ink) 28%, transparent);
     box-shadow: 2px 2px 0 color-mix(in srgb, var(--cover-ink) 16%, transparent);
     font-family: var(--font-serif, serif);
+    isolation: isolate;
 }
 
 .book-cover-real {
@@ -998,32 +999,99 @@ body.theme-dark .u-color-error { color: #ff7b72; }
     pointer-events: none;
 }
 
-/* 本の開き具合で読書状態を表現 */
-.book-cover-reading,
-.book-cover-finished {
-    background-image: linear-gradient(90deg,
-        color-mix(in srgb, var(--cover-paper) 88%, var(--cover-ink)) 0 47%,
-        color-mix(in srgb, var(--cover-ink) 28%, var(--cover-paper)) 48% 49%,
-        var(--cover-paper) 50% 100%);
-}
-
-.book-cover-reading::before,
-.book-cover-finished::before {
+/* 本の開き具合で読書状態を表現。進捗に応じて正面から封底へ移る。 */
+.book-cover-pages,
+.book-cover-back,
+.book-cover-front {
     position: absolute;
-    top: 7px;
-    right: -7px;
-    bottom: 7px;
-    width: 13px;
-    border: 1px solid color-mix(in srgb, var(--cover-ink) 28%, transparent);
-    background: color-mix(in srgb, var(--cover-paper) 78%, white);
-    box-shadow: 2px 2px 0 color-mix(in srgb, var(--cover-ink) 15%, transparent);
-    content: '';
-    transform: skewY(-1deg);
+    inset: 7px 8px;
 }
 
-.book-cover-finished {
-    box-shadow: 3px 3px 0 color-mix(in srgb, var(--cover-ink) 22%, transparent),
-        7px 7px 0 color-mix(in srgb, var(--cover-ink) 10%, transparent);
+.book-cover-pages {
+    z-index: 0;
+    overflow: hidden;
+    background: color-mix(in srgb, var(--cover-paper) 78%, white);
+    border: 1px solid color-mix(in srgb, var(--cover-ink) 34%, transparent);
+    box-shadow: 2px 2px 0 color-mix(in srgb, var(--cover-ink) 15%, transparent);
+}
+
+.book-cover-pages::before {
+    position: absolute;
+    inset: 8px;
+    border: 1px solid color-mix(in srgb, var(--cover-ink) 20%, transparent);
+    content: '';
+}
+
+.book-cover-pages::after {
+    position: absolute;
+    top: 40%;
+    left: 16%;
+    width: 68%;
+    height: 1px;
+    background: color-mix(in srgb, var(--cover-ink) 22%, transparent);
+    box-shadow: 0 7px color-mix(in srgb, var(--cover-ink) 22%, transparent),
+        0 14px color-mix(in srgb, var(--cover-ink) 22%, transparent),
+        0 21px color-mix(in srgb, var(--cover-ink) 22%, transparent);
+    content: '';
+}
+
+.book-cover-back,
+.book-cover-front {
+    padding: 11px 10px 10px;
+    background: var(--cover-paper);
+    border: 1px solid color-mix(in srgb, var(--cover-ink) 42%, transparent);
+    box-shadow: 2px 2px 0 color-mix(in srgb, var(--cover-ink) 18%, transparent);
+}
+
+.book-cover-back {
+    z-index: 1;
+    opacity: var(--back-opacity);
+    transform: perspective(500px) rotateY(calc(var(--back-angle) * 1deg)) translateX(calc(var(--back-shift) * 1%));
+    transform-origin: right center;
+}
+
+.book-cover-back::after,
+.book-cover-front::after {
+    position: absolute;
+    inset: 5px;
+    border: 1px solid color-mix(in srgb, var(--cover-ink) 28%, transparent);
+    content: '';
+    pointer-events: none;
+}
+
+.book-cover-back span {
+    position: absolute;
+    right: 10px;
+    bottom: 9px;
+    font-size: 8px;
+    letter-spacing: .06em;
+}
+
+.book-cover-front {
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: var(--front-opacity);
+    transform: perspective(500px) rotateY(calc(var(--front-angle) * 1deg)) translateX(calc(var(--front-shift) * 1%));
+    transform-origin: left center;
+}
+
+.book-cover-front .book-cover-mark,
+.book-cover-front .book-cover-title,
+.book-cover-front .book-cover-author {
+    opacity: var(--front-text-opacity);
+}
+
+.book-cover-spine {
+    position: absolute;
+    z-index: 4;
+    top: 7px;
+    bottom: 7px;
+    left: 8px;
+    width: 2px;
+    background: color-mix(in srgb, var(--cover-ink) 55%, transparent);
+    pointer-events: none;
 }
 
 .book-cover-state {
