@@ -523,20 +523,6 @@ body.theme-dark .u-color-error { color: #ff7b72; }
     flex-shrink: 0;
 }
 
-.home-stats-content {
-    font-family: var(--font-sans);
-    font-size: 13px;
-    color: var(--muted-color);
-    line-height: 2;
-}
-
-.home-stats-content strong {
-    color: var(--fg-color);
-    font-size: 17px;
-    font-weight: 600;
-    margin: 0 2px;
-}
-
 /* --- 筛选 chips --- */
 .home-chips {
     grid-area: chips;
@@ -2836,57 +2822,6 @@ input:checked+.slider-round:before {
     border-color: var(--accent-color);
     color: var(--fg-color);
     background: var(--soft-bg);
-}
-
-/* 統計 */
-.reading-stats {
-    width: 100%;
-}
-
-.stats-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    gap: 8px;
-    font-size: 13px;
-}
-
-.stats-row strong {
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.stats-row-sub {
-    font-size: 12px;
-    color: var(--muted-color);
-    margin-top: 6px;
-}
-
-.stats-goal-bar {
-    height: 5px;
-    margin: 10px 0 6px;
-    border-radius: 3px;
-    background: var(--soft-bg);
-    overflow: hidden;
-}
-
-.stats-goal-fill {
-    height: 100%;
-    background: var(--accent-color);
-    border-radius: 3px;
-}
-
-.stats-goal-select {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-}
-
-.stats-goal-select .ypop-trigger {
-    font-size: 12px;
-    min-height: 32px;
-    padding: 4px 12px;
-    min-width: 90px;
 }
 
 /* バックアップ */

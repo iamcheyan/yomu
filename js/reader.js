@@ -555,9 +555,6 @@ const YomuReader = {
                 if (this._currentBook) {
                     // Save both percentage, fallback scroll height, and exact para index
                     YomuStorage.saveProgress(this._currentBook.id, percent, window.scrollY, currentParaIndex);
-                    if (window.YomuStats) {
-                        try { YomuStats.onProgress(this._currentBook.id, percent); } catch (e) {}
-                    }
                 }
             }, 500);
         };

@@ -81,7 +81,7 @@ const YomuStorage = {
     },
 
     // ===== C5: 学习数据统一导出/导入（无后端云同步替代） =====
-    EXPORT_KEYS: ['progress', 'settings', 'downloaded_books', 'app_state', 'bookmarks', 'wordbook', 'reading_stats'],
+    EXPORT_KEYS: ['progress', 'settings', 'downloaded_books', 'app_state', 'bookmarks', 'wordbook'],
     EXPORT_VERSION: 1,
 
     exportAllData() {

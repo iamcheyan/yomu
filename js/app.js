@@ -66,7 +66,6 @@ const Yomu = {
             // Step 4: Reader
             msg.textContent = '書籍リストを読み込み中...';
             try { await YomuReader.init(); } catch (e) { console.error('Reader init failed:', e); }
-            if (window.YomuStats) { try { YomuStats.init(); } catch (e) { console.error('Stats init failed:', e); } }
 
             // Step 5: Settings & UI
             msg.textContent = 'UIを準備中...';
@@ -344,7 +343,6 @@ const Yomu = {
         if (counter) counter.textContent = allBooks.length;
         this._renderHomeFilters(allBooks, filtered.length);
         this._renderContinueRail(allBooks);
-        this._renderHomeStats();
 
         const grid = document.getElementById('book-grid');
         let html = '';
@@ -452,16 +450,6 @@ const Yomu = {
         }).join('');
     },
 
-    _renderHomeStats() {
-        const el = document.getElementById('home-stats-content');
-        if (!el || !window.YomuStats) return;
-        const t = YomuStats.totals();
-        const streak = YomuStats.streak();
-        el.innerHTML = `
-            連続 <strong>${streak}</strong> 日　·　累計 <strong>${t.minutes}</strong> 分<br>
-            読了 <strong>${t.chars.toLocaleString()}</strong> 字
-        `;
-    },
 
     _initSearchInputs() {
         const debounce = (fn, wait) => {
@@ -730,7 +718,6 @@ const Yomu = {
         }
 
         this._isReaderOpen = true;
-        if (window.YomuStats) YomuStats.setReading(true);
         this._consumeNewBadge(bookId);
         // 隐藏其他视图，只显示阅读器
         document.getElementById('book-list-view').classList.add('hidden');
@@ -778,7 +765,6 @@ const Yomu = {
 
         this._storeOpen = false;
         this._isReaderOpen = false;
-        if (window.YomuStats) YomuStats.setReading(false);
 
         if (pushState) {
             // Only push if we aren't already on library hash to avoid duplicates
@@ -807,7 +793,6 @@ const Yomu = {
         document.getElementById('book-list-view').classList.add('hidden');
         document.getElementById('store-view').classList.remove('hidden');
         this._storeOpen = true;
-        if (window.YomuStats) YomuStats.setReading(false);
 
         // Update shared header
         const storeBtn = document.getElementById('btn-show-store');
@@ -1739,7 +1724,6 @@ const Yomu = {
             this.setSettingsSection('reading');
             this._updateNlpOptionState();
             this._fetchVersion();
-            if (window.YomuStats) YomuStats._renderUI();
         }
     },
 
