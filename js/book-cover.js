@@ -157,10 +157,11 @@ const YomuBookCover = (() => {
             <span class="book-cover-author">${escape(author, escapeHtml)}</span>
             <span class="book-cover-rule" aria-hidden="true"></span>
             <span class="book-cover-publisher">${escape(publisher, escapeHtml)}</span>
-            <div class="book-cover-cloud-icon" title="クリックして保存">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
-                    <polyline points="9 13 12 16 15 13"/><line x1="12" y1="9" x2="12" y2="16"/>
+            <div class="book-cover-download-icon" title="クリックして保存">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <circle class="download-disc" cx="12" cy="12" r="10"/>
+                    <polyline class="download-arrow" points="8.5 11.5 12 15 15.5 11.5"/>
+                    <line class="download-arrow" x1="12" y1="7.5" x2="12" y2="15"/>
                 </svg>
             </div>
         ` : `

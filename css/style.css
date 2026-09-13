@@ -278,12 +278,14 @@ body.theme-dark .u-color-error { color: #ff7b72; }
 
 .header-actions {
     display: flex;
-    gap: 4px;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
 }
 
 .icon-btn {
     background: transparent;
-    border: none;
+    border: 1px solid transparent;
     cursor: pointer;
     width: 44px;
     height: 44px;
@@ -292,11 +294,16 @@ body.theme-dark .u-color-error { color: #ff7b72; }
     justify-content: center;
     color: var(--fg-color);
     border-radius: 50%;
-    transition: background-color 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.icon-btn:hover {
+    background: var(--soft-bg);
+    border-color: var(--hairline);
 }
 
 .icon-btn:active {
-    background: var(--soft-bg);
+    background: var(--hairline);
 }
 
 .icon-btn.hidden {
@@ -311,7 +318,7 @@ body.theme-dark .u-color-error { color: #ff7b72; }
     max-width: var(--page-max-width);
     width: 100%;
     margin: 0 auto;
-    padding: 4px var(--page-pad) 60px;
+    padding: 0 var(--page-pad) 60px;
     display: grid;
     grid-template-columns: minmax(0, 1fr);
     grid-template-areas:
@@ -323,7 +330,7 @@ body.theme-dark .u-color-error { color: #ff7b72; }
 
 .home-hero {
     grid-area: hero;
-    padding: 36px 0 16px;
+    padding: calc(16px + env(safe-area-inset-top, 0px)) 0 14px;
 }
 
 .home-eyebrow {
@@ -332,14 +339,22 @@ body.theme-dark .u-color-error { color: #ff7b72; }
     letter-spacing: 0.32em;
     text-transform: uppercase;
     color: var(--muted-color);
-    margin-bottom: 10px;
+    margin-bottom: 14px;
+}
+
+.home-hero-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
 }
 
 .home-title {
     font-size: 42px;
     font-weight: 600;
     letter-spacing: 0.1em;
-    line-height: 1.2;
+    line-height: 1.15;
+    margin: 0;
 }
 
 .home-sub {
@@ -983,6 +998,15 @@ body.theme-dark .search-inline-capsule {
     min-width: 0;
 }
 
+.book-row-word-count {
+    flex: 0 0 auto;
+    min-width: 48px;
+    color: var(--muted-color);
+    font-family: var(--font-sans);
+    font-size: 10px;
+    white-space: nowrap;
+}
+
 .book-row-action {
     display: flex;
     align-items: center;
@@ -997,15 +1021,15 @@ body.theme-dark .search-inline-capsule {
 }
 
 .book-row .row-more-btn {
-    position: absolute;
-    right: -2px;
-    bottom: 26px;
+    /* Footer 内の通常フローに戻し、進捗バーと重ならないようにする。 */
+    position: static;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 24px;
-    height: 24px;
-    margin: 0;
+    flex: 0 0 28px;
+    width: 28px;
+    height: 28px;
+    margin: 0 0 0 2px;
     padding: 0;
     color: var(--muted-color);
     background: transparent;
@@ -1238,11 +1262,37 @@ body.theme-dark .search-inline-capsule {
     max-height: 0;
 }
 
+/* 首页的「青空文庫 全作品」复用商店筛选，但本棚不显示。 */
+.catalog-filter-tools {
+    margin: 6px 0 4px;
+}
+
+.catalog-filter-groups {
+    display: block;
+}
+
 .filter-group {
     display: flex;
-    align-items: flex-start;
-    gap: 18px;
-    padding: 16px 0 6px;
+    align-items: baseline;
+    gap: 8px;
+    padding: 0;
+    width: 100%;
+}
+
+.filter-group .filter-chips-group {
+    gap: 4px 18px;
+}
+
+.filter-group .filter-label {
+    width: auto;
+    margin-right: 2px;
+    color: var(--muted-color);
+    font-size: 12px;
+}
+
+.catalog-filter-tools .filter-chip {
+    min-height: 36px;
+    padding: 6px 0;
 }
 
 .filter-label {
@@ -4273,7 +4323,7 @@ body.theme-dark .action-sheet-btn.danger {
 
     .home-hero,
     .store-hero {
-        padding-top: 24px;
+        padding-top: calc(12px + env(safe-area-inset-top, 0px));
     }
 
     .home-title,
@@ -4411,7 +4461,7 @@ body.theme-dark .action-sheet-btn.danger {
     }
 
     .home-hero {
-        padding-top: 52px;
+        padding-top: 24px;
     }
 
     /* サイドでは「続きを読む」を縦のリストに */

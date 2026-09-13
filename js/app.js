@@ -17,7 +17,9 @@ const Yomu = {
     _storeFilters: {
         author: '',
         category: '',
-        orthography: ''
+        orthography: '',
+        translation: '',
+        download: ''
     },
     _homeSearch: '',
     _libraryScope: 'library',
@@ -35,6 +37,7 @@ const Yomu = {
     _readerControlsTimeout: null,
     _bookInfoCardOpen: false,
     _localVersion: null,
+    _wordCountCache: new Map(),
 
     async init() {
         document.addEventListener('keydown', (e) => this._handleGlobalKey(e));
@@ -383,6 +386,7 @@ const Yomu = {
                         ${this._bookMetaMarkup(book)}
                         <div class="book-row-footer">
                             <div class="book-row-progress ${isRead ? 'is-read' : 'is-unread'}">
+                                <span class="book-row-word-count" data-book-word-count="${this._escapeAttr(book.id)}">—字</span>
                                 <div class="track"><span style="width:${percent}%"></span></div>
                                 <span class="pct">${percent >= 100 ? '読了' : percent + '%'}</span>
                             </div>
@@ -439,6 +443,55 @@ const Yomu = {
             `;
         }
         grid.innerHTML = html;
+        this._hydrateBookWordCounts(filtered);
+    },
+
+    async _hydrateBookWordCounts(books) {
+        const unique = new Map();
+        for (const book of books || []) {
+            if (book && book.id) unique.set(book.id, book);
+        }
+
+        await Promise.all([...unique.values()].map(async (book) => {
+            let count = this._wordCountCache.get(book.id);
+            if (count == null) {
+                const candidates = [book.fileId, book.id, ...(Array.isArray(book.aliases) ? book.aliases : [])]
+                    .filter(Boolean);
+                let data = null;
+                for (const candidate of candidates) {
+                    data = await YomuStorage.getBookContent(candidate).catch(() => null);
+                    if (data) break;
+                }
+                if (!data) {
+                    for (const candidate of candidates) {
+                        data = await this._fetchLocalJson(`data/novels/${encodeURIComponent(candidate)}.json`).catch(() => null);
+                        if (data) break;
+                    }
+                }
+                count = this._countBookCharacters(data);
+                this._wordCountCache.set(book.id, count);
+            }
+
+            document.querySelectorAll('[data-book-word-count]').forEach((el) => {
+                if (el.dataset.bookWordCount === book.id) {
+                    el.textContent = `${count.toLocaleString()}字`;
+                    el.setAttribute('aria-label', `全${count.toLocaleString()}字`);
+                }
+            });
+        }));
+    },
+
+    _countBookCharacters(data) {
+        if (!data) return 0;
+        const text = [];
+        if (Array.isArray(data.paragraphs)) text.push(...data.paragraphs);
+        if (Array.isArray(data.chapters)) {
+            for (const chapter of data.chapters) {
+                if (chapter.title) text.push(chapter.title);
+                if (Array.isArray(chapter.paragraphs)) text.push(...chapter.paragraphs);
+            }
+        }
+        return Array.from(text.filter(Boolean).join('').replace(/\s/g, '')).length;
     },
 
     /** 統一書庫：青空文庫カタログ（全作品）を統一カードで表示する */
@@ -447,8 +500,6 @@ const Yomu = {
         if (!grid) return;
 
         // 同期青空文庫分类过滤
-        this._storeFilters.category = this._homeFilters.category;
-
         const query = (this._homeSearch || '').trim();
         const entries = this._getFilteredStoreBooks(query);
         const localBooks = this._getLibraryBooks();
@@ -489,9 +540,18 @@ const Yomu = {
         }
 
         this._renderHomeFilters(this._storeBooks, entries.length);
+        this._renderStoreFilters(entries.length);
 
         if (!paged.length) {
-            const hasFilter = Boolean(query || this._homeFilters.category);
+            const hasFilter = Boolean(
+                query ||
+                this._homeFilters.category ||
+                this._storeFilters.author ||
+                this._storeFilters.category ||
+                this._storeFilters.orthography ||
+                this._storeFilters.translation ||
+                this._storeFilters.download
+            );
             grid.innerHTML = `
                 <div class="empty-state">
                     <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -513,7 +573,8 @@ const Yomu = {
                 (book.fileId && savedBookMap.get(book.fileId)) || null;
             const saved = Boolean(localBook);
             const targetBook = localBook || { ...book, id };
-            const available = book.available !== false || saved;
+            // 用户只需要理解两种状态：本地书籍与云端书籍。
+            const available = true;
 
             let actionHtml = '';
             let cardClick = '';
@@ -531,21 +592,10 @@ const Yomu = {
                         </div>
                     `;
                 }
-                actionHtml = `<button class="card-dl-btn saved" onclick="event.stopPropagation(); ${cardClick}">読む</button>`;
-            } else if (available) {
-                cardClick = `Yomu.downloadBook('${this._escapeAttr(id)}')`;
-                actionHtml = `
-                    <button class="card-dl-btn" onclick="event.stopPropagation(); ${cardClick}">
-                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                            <polyline points="7 10 12 15 17 10"></polyline>
-                            <line x1="12" y1="15" x2="12" y2="3"></line>
-                        </svg>
-                        保存
-                    </button>
-                `;
+                actionHtml = '';
             } else {
-                actionHtml = `<button class="card-dl-btn unavailable" disabled>未収録</button>`;
+                cardClick = `Yomu.confirmCloudDownload('${this._escapeAttr(id)}')`;
+                actionHtml = '';
             }
 
             return `
@@ -554,12 +604,8 @@ const Yomu = {
                     <div class="book-row-main">
                         <div class="book-row-author-line">
                             <span class="book-row-author">${this._escapeHtml(book.author || `(著者ID: ${book.authorId || ''})`)}</span>
-                            ${saved ? '<span class="badge-saved">本棚</span>' : ''}
                         </div>
                         ${this._bookMetaMarkup(book)}
-                        <div class="book-row-action">
-                            ${actionHtml}
-                        </div>
                     </div>
                 </div>
             `;
@@ -732,6 +778,7 @@ const Yomu = {
             this._homeFilters[type] = value;
         }
         if (this._libraryScope === 'catalog') {
+            if (type === 'category') this._storeFilters.category = this._homeFilters.category;
             this._catalogPage = 0;
         }
         this._renderBookList();
@@ -742,7 +789,7 @@ const Yomu = {
         this._homeSearch = '';
         this._homeFilters.status = 'all';
         this._homeFilters.category = '';
-        this._storeFilters.category = '';
+        this._storeFilters = { author: '', category: '', orthography: '', translation: '', download: '' };
         this._catalogPage = 0;
         this._fullTextResults = null;
         const input = document.getElementById('home-search-input');
@@ -777,8 +824,9 @@ const Yomu = {
         for (const b of downloadedBooks) allBooks.push({ ...b, isDownloaded: true });
         for (const b of bundledBooks) {
             if (!downloadedIds.has(b.id)) {
-                // C1: ローカル导入书（source=local）可删除
-                allBooks.push({ ...b, isDownloaded: b.source === 'local' });
+                // 精选书目随应用资源提供，和下载到设备的书一样属于本地书籍。
+                // 书架中的书不能再被封面渲染成云端灰色状态。
+                allBooks.push({ ...b, isDownloaded: true });
             }
         }
 
@@ -913,20 +961,15 @@ const Yomu = {
     },
 
     _renderHomeFilters(allBooks, resultCount) {
+        const catalogTools = document.getElementById('catalog-filter-tools');
+        if (catalogTools) catalogTools.classList.toggle('hidden', this._libraryScope !== 'catalog');
+
         const chipBox = document.getElementById('home-filter-chips');
         if (chipBox) {
             if (this._libraryScope === 'catalog') {
-                // Catalog scope: show categories
-                const cats = [
-                    { id: '', label: 'すべて' },
-                    { id: 'fiction', label: '小説' },
-                    { id: 'children', label: '児童文学' },
-                    { id: 'essay', label: '随筆・記録' },
-                    { id: 'poetry', label: '詩歌' },
-                    { id: 'drama', label: '戯曲' },
-                    { id: 'foreign', label: '海外文学' }
-                ];
-                chipBox.innerHTML = cats.map(c => this._homeFilterButton('category', c.id, c.label)).join('');
+                // 全作品では、下の共通欄を著者・分類・文字遣いに置き換える。
+                // 「小説」などの本棚用タイプチップはここでは表示しない。
+                chipBox.innerHTML = '';
             } else {
                 // Library scope: show status (すべて, 読書中, 読了) + present categories
                 let readingCount = 0;
@@ -977,8 +1020,19 @@ const Yomu = {
                 if (this._homeFilters.status === 'reading') parts.push('読書中');
                 else if (this._homeFilters.status === 'finished') parts.push('読了');
             }
-            const catLabel = this._categoryLabel(this._homeFilters.category);
-            if (catLabel) parts.push(catLabel);
+            if (this._libraryScope === 'catalog') {
+                if (this._storeFilters.author) parts.push(this._storeFilters.author);
+                const catalogCategory = this._categoryLabel(this._storeFilters.category);
+                if (catalogCategory) parts.push(catalogCategory);
+                if (this._storeFilters.orthography) parts.push(this._storeFilters.orthography);
+                if (this._storeFilters.translation === 'yes') parts.push('翻訳あり');
+                if (this._storeFilters.translation === 'no') parts.push('翻訳なし');
+                if (this._storeFilters.download === 'yes') parts.push('ダウンロード済み');
+                if (this._storeFilters.download === 'no') parts.push('未ダウンロード');
+            } else {
+                const catLabel = this._categoryLabel(this._homeFilters.category);
+                if (catLabel) parts.push(catLabel);
+            }
             if (this._homeSearch) parts.push(`「${this._homeSearch}」`);
             summary.textContent = parts.length ? `${resultCount.toLocaleString()} 冊 · ${parts.join(' · ')}` : '';
         }
@@ -1205,11 +1259,17 @@ const Yomu = {
     },
 
     clearStoreFilters() {
-        this._storeFilters = { author: '', category: '', orthography: '' };
-        this._storePage = 0;
-        const input = document.getElementById('store-search-input');
-        if (input) input.value = '';
-        this._renderStore('');
+        this._storeFilters = { author: '', category: '', orthography: '', translation: '', download: '' };
+        this._homeFilters.category = '';
+        if (this._libraryScope === 'catalog') {
+            this._catalogPage = 0;
+            this._renderBookList();
+        } else {
+            this._storePage = 0;
+            const input = document.getElementById('store-search-input');
+            if (input) input.value = '';
+            this._renderStore('');
+        }
     },
 
     _renderStore(filter = '') {
@@ -1240,13 +1300,13 @@ const Yomu = {
             const book = entry.book;
             const id = book.fileId || book.workId;
             const isDownloaded = downloaded.some(d => d.id === id || (d.aliases && d.aliases.includes(id)));
-            const available = book.available !== false || isDownloaded;
+            const available = true;
             const authorText = book.author || `(著者ID: ${book.authorId})`;
             const action = isDownloaded
                 ? `Yomu.openBook('${id}')`
-                : (available ? `Yomu.downloadBook('${id}')` : '');
-            const btnClass = isDownloaded ? 'downloaded' : (available ? '' : 'unavailable');
-            const btnLabel = isDownloaded ? '読む' : (available ? '保存' : '未収録');
+                : `Yomu.confirmCloudDownload('${id}')`;
+            const btnClass = isDownloaded ? 'downloaded' : 'cloud-book';
+            const btnLabel = isDownloaded ? '読む' : 'クラウド';
             const cat = this._bookCategory(book);
             const metaBits = [
                 query && entry.label ? `<span class="match-tag">${this._escapeHtml(entry.label)}</span>` : '',
@@ -1257,12 +1317,11 @@ const Yomu = {
             const percent = Math.round(progress.scrollPercent || 0);
 
             rowHtml.push(`
-                <div class="store-row ${available ? '' : 'unavailable'}" id="store-book-${id}" data-book-id="${this._escapeAttr(id)}" data-book-source="store" ${isDownloaded ? `onclick="Yomu.openBook('${id}')"` : ''}>
+                <div class="store-row" id="store-book-${id}" data-book-id="${this._escapeAttr(id)}" data-book-source="store" onclick="${action}">
                     ${this._coverMarkup(book)}
                     <div class="store-row-main">
                         <div class="store-row-title">
                             <span>${this._escapeHtml(book.title)}</span>
-                            ${isDownloaded ? '<span class="dl-dot" title="ダウンロード済み"></span>' : ''}
                             ${book.hasTrans ? '<span class="dot-e" title="翻訳あり">訳</span>' : ''}
                         </div>
                         <div class="store-row-author">${this._escapeHtml(authorText)}</div>
@@ -1274,18 +1333,11 @@ const Yomu = {
                         </div>
                         ` : ''}
                     </div>
-                    <div class="book-meta">
-                        <button class="download-btn ${btnClass}"
-                                id="btn-dl-${id}"
-                                ${action ? `onclick="${action}"` : 'disabled'}>
-                            ${btnLabel}
-                        </button>
-                    </div>
                 </div>
             `);
 
             cellHtml.push(`
-                <div class="store-cell ${available ? '' : 'unavailable'}" ${isDownloaded ? `onclick="Yomu.openBook('${id}')"` : ''}>
+                <div class="store-cell" onclick="${action}">
                     ${this._coverMarkup(book)}
                     <div class="store-cell-title">${this._escapeHtml(book.title)}</div>
                     <div class="store-cell-author">${this._escapeHtml(authorText)}</div>
@@ -1295,9 +1347,6 @@ const Yomu = {
                         <span class="pct">${percent >= 100 ? '読了' : percent + '%'}</span>
                     </div>
                     ` : ''}
-                    <div class="store-cell-action">
-                        <button class="download-btn ${btnClass}" ${action ? `onclick="${action}"` : 'disabled'}>${btnLabel}</button>
-                    </div>
                 </div>
             `);
         }
@@ -1386,7 +1435,10 @@ const Yomu = {
                 escapeHtml: value => this._escapeHtml(value),
                 escapeAttr: value => this._escapeAttr(value),
                 category: this._bookCategory(book),
-                isUndownloaded: book.available === false
+                isUndownloaded: !Boolean(
+                    book.isDownloaded ||
+                    YomuStorage.getDownloadedBooks().some(d => d.id === (book.id || book.fileId || book.workId))
+                )
             });
         }
         const clamped = Math.max(0, Math.min(100, percent));
@@ -1546,6 +1598,7 @@ const Yomu = {
         const panel = document.getElementById('store-filter-panel');
         const toggle = document.getElementById('store-filter-toggle');
         if (panel) panel.classList.toggle('collapsed', !this._storeFilterPanelOpen);
+        if (panel) panel.setAttribute('aria-hidden', String(!this._storeFilterPanelOpen));
         if (toggle) {
             toggle.classList.toggle('active', this._storeFilterPanelOpen);
             toggle.setAttribute('aria-expanded', String(this._storeFilterPanelOpen));
@@ -1560,13 +1613,19 @@ const Yomu = {
     setStoreFilter(type, value) {
         if (!Object.prototype.hasOwnProperty.call(this._storeFilters, type)) return;
         this._storeFilters[type] = value;
-        this._storePage = 0;
-        this._renderStore(document.getElementById('store-search-input')?.value || '');
+        if (this._libraryScope === 'catalog') {
+            this._catalogPage = 0;
+            this._renderBookList();
+        } else {
+            this._storePage = 0;
+            this._renderStore(document.getElementById('store-search-input')?.value || '');
+        }
     },
 
     _getFilteredStoreBooks(query = '') {
         const q = (query || '').trim().toLowerCase();
         const seen = new Set();
+        const localIds = this._getCatalogLocalIds();
 
         const accepts = (book) => {
             const key = `${book.workId}|${book.title}|${book.author}|${book.authorId}`;
@@ -1575,6 +1634,10 @@ const Yomu = {
             if (this._storeFilters.author && book.author !== this._storeFilters.author) return false;
             if (this._storeFilters.category && this._bookCategory(book) !== this._storeFilters.category) return false;
             if (this._storeFilters.orthography && book.orthography !== this._storeFilters.orthography) return false;
+            if (this._storeFilters.translation === 'yes' && !book.hasTrans) return false;
+            if (this._storeFilters.translation === 'no' && book.hasTrans) return false;
+            if (this._storeFilters.download === 'yes' && !this._isCatalogBookDownloaded(book, localIds)) return false;
+            if (this._storeFilters.download === 'no' && this._isCatalogBookDownloaded(book, localIds)) return false;
             return true;
         };
 
@@ -1698,7 +1761,7 @@ const Yomu = {
             for (const book of this._storeBooks) {
                 if (book.orthography) counts.set(book.orthography, (counts.get(book.orthography) || 0) + 1);
             }
-            const orths = ['新字新仮名', '新字旧仮名', '旧字旧仮名'];
+            const orths = ['新字新仮名', '新字旧仮名', '旧字旧仮名', '旧字新仮名', 'その他'];
             orthBox.innerHTML = `
                 <div class="filter-label">文字遣い</div>
                 <div class="filter-chips-group">
@@ -1708,7 +1771,39 @@ const Yomu = {
             `;
         }
 
-        document.querySelectorAll('#store-view .filter-chip[data-filter-type]').forEach(btn => {
+        // 4. Translation availability
+        const translationBox = document.getElementById('filter-translation');
+        if (translationBox) {
+            const translated = this._storeBooks.filter(book => Boolean(book.hasTrans)).length;
+            const untranslated = this._storeBooks.length - translated;
+            translationBox.innerHTML = `
+                <div class="filter-label">翻訳</div>
+                <div class="filter-chips-group">
+                    ${this._filterButton('translation', '', 'すべて')}
+                    ${this._filterButton('translation', 'yes', '翻訳あり', translated)}
+                    ${this._filterButton('translation', 'no', '翻訳なし', untranslated)}
+                </div>
+            `;
+        }
+
+        // 5. Local availability. Bundled books count as downloaded because
+        // their contents are already shipped with the app.
+        const downloadBox = document.getElementById('filter-download');
+        if (downloadBox) {
+            const localIds = this._getCatalogLocalIds();
+            const downloaded = this._storeBooks.filter(book => this._isCatalogBookDownloaded(book, localIds)).length;
+            const cloud = this._storeBooks.length - downloaded;
+            downloadBox.innerHTML = `
+                <div class="filter-label">保存状態</div>
+                <div class="filter-chips-group">
+                    ${this._filterButton('download', '', 'すべて')}
+                    ${this._filterButton('download', 'yes', 'ダウンロード済み', downloaded)}
+                    ${this._filterButton('download', 'no', '未ダウンロード', cloud)}
+                </div>
+            `;
+        }
+
+        document.querySelectorAll('#store-view .filter-chip[data-filter-type], #catalog-filter-tools .filter-chip[data-filter-type]').forEach(btn => {
             const type = btn.dataset.filterType;
             const value = btn.dataset.filterValue || '';
             btn.classList.toggle('active', this._storeFilters[type] === value);
@@ -1716,11 +1811,7 @@ const Yomu = {
 
         const summary = document.getElementById('store-filter-summary');
         if (summary) {
-            const active = [
-                this._storeFilters.author,
-                this._categoryLabel(this._storeFilters.category),
-                this._storeFilters.orthography
-            ].filter(Boolean);
+            const active = this._storeFilterSummaryParts();
             const loading = this._storeCatalogLoading && !this._storeCatalogLoaded ? ' · 全書庫を読み込み中' : '';
             summary.textContent = `${resultCount.toLocaleString()} 件${active.length ? ' · ' + active.join(' / ') : ''}${loading}`;
         }
@@ -1728,16 +1819,12 @@ const Yomu = {
         // Hero subtitle: 収録数と現在の絞り込み
         const sub = document.getElementById('store-sub');
         if (sub) {
-            const active = [
-                this._storeFilters.author,
-                this._categoryLabel(this._storeFilters.category),
-                this._storeFilters.orthography
-            ].filter(Boolean);
+            const active = this._storeFilterSummaryParts();
             const total = this._storeCatalogLoaded ? this._storeBooks.length.toLocaleString() : '…';
             sub.textContent = `青空文庫 ${total} 点${active.length ? ' · ' + active.join(' / ') : ''}`;
         }
 
-        const activeCount = ['author', 'category', 'orthography']
+        const activeCount = ['author', 'category', 'orthography', 'translation', 'download']
             .filter(k => this._storeFilters[k]).length;
         const badge = document.getElementById('store-active-filter-count');
         if (badge) badge.textContent = activeCount > 0 ? String(activeCount) : '';
@@ -1750,6 +1837,38 @@ const Yomu = {
         const action = `Yomu.setStoreFilter(${JSON.stringify(type)}, ${JSON.stringify(value)})`;
         const countHtml = count !== null ? `<span class="chip-count">${count}</span>` : '';
         return `<button class="filter-chip${active}" data-filter-type="${this._escapeAttr(type)}" data-filter-value="${this._escapeAttr(value)}" onclick="${this._escapeAttr(action)}"><span class="chip-label">${this._escapeHtml(label)}</span>${countHtml}</button>`;
+    },
+
+    _storeFilterSummaryParts() {
+        const parts = [
+            this._storeFilters.author,
+            this._categoryLabel(this._storeFilters.category),
+            this._storeFilters.orthography
+        ].filter(Boolean);
+        if (this._storeFilters.translation === 'yes') parts.push('翻訳あり');
+        if (this._storeFilters.translation === 'no') parts.push('翻訳なし');
+        if (this._storeFilters.download === 'yes') parts.push('ダウンロード済み');
+        if (this._storeFilters.download === 'no') parts.push('未ダウンロード');
+        return parts;
+    },
+
+    _getCatalogLocalIds() {
+        const ids = new Set();
+        const add = (book) => {
+            if (!book) return;
+            [book.id, book.fileId, book.workId].filter(Boolean).forEach(id => ids.add(id));
+            if (Array.isArray(book.aliases)) book.aliases.filter(Boolean).forEach(id => ids.add(id));
+        };
+        YomuStorage.getDownloadedBooks().forEach(add);
+        YomuReader.getBooks().forEach(add);
+        return ids;
+    },
+
+    _isCatalogBookDownloaded(book, localIds = null) {
+        const ids = [book.id, book.fileId, book.workId].filter(Boolean);
+        if (Array.isArray(book.aliases)) ids.push(...book.aliases.filter(Boolean));
+        const known = localIds || this._getCatalogLocalIds();
+        return ids.some(id => known.has(id));
     },
 
     _bookCategory(book) {
@@ -1810,6 +1929,18 @@ const Yomu = {
         `;
     },
 
+    async confirmCloudDownload(bookId) {
+        const book = this._storeBooks.find(b => (b.fileId || b.workId || b.id) === bookId);
+        if (!book) return;
+        const downloaded = YomuStorage.getDownloadedBooks().some(d => d.id === bookId);
+        if (downloaded) {
+            this.openBook(bookId);
+            return;
+        }
+        const ok = await this.confirm(`「${book.title || 'この作品'}」を本棚にダウンロードしますか？`, 'クラウドからダウンロード');
+        if (ok) await this.downloadBook(bookId);
+    },
+
     async downloadBook(bookId) {
         const book = this._storeBooks.find(b => (b.fileId || b.workId) === bookId);
         if (!book) return;
@@ -1817,14 +1948,6 @@ const Yomu = {
         // Check if already downloaded
         if (YomuStorage.getDownloadedBooks().some(d => d.id === bookId)) {
             this.openBook(bookId);
-            return;
-        }
-
-        // Honest availability guard: the catalog may list works whose text
-        // data is not in this build. Fail with a clear message up front
-        // instead of a fake network error after a 404.
-        if (book.available === false) {
-            this.alert('この作品の本文データはこのビルドに収録されていません。', '本文データ未収録');
             return;
         }
 
@@ -2522,8 +2645,8 @@ const Yomu = {
             if (isDownloaded) {
                 actions.push({ icon: ICONS.book, label: '読む', fn: () => this.openBook(bookId) });
                 actions.push({ icon: ICONS.trash, label: 'ダウンロードを削除', danger: true, fn: () => this.deleteBook({ stopPropagation() {} }, bookId, title) });
-            } else if (book.available !== false) {
-                actions.push({ icon: ICONS.dl, label: 'オフライン保存', fn: () => this.downloadBook(bookId) });
+            } else {
+                actions.push({ icon: ICONS.dl, label: 'クラウドからダウンロード', fn: () => this.confirmCloudDownload(bookId) });
             }
         } else {
             actions.push({ icon: ICONS.book, label: '読む', fn: () => this.openBook(bookId) });
