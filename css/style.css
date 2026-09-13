@@ -347,12 +347,14 @@ body.theme-dark .u-color-error { color: #ff7b72; }
     justify-content: space-between;
     align-items: center;
     gap: 16px;
+    font-family: YomuCoverSerif, "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", "Source Han Serif SC", serif;
 }
 
 .home-title {
+    font-family: inherit;
     font-size: 42px;
     font-weight: 600;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.12em;
     line-height: 1.15;
     margin: 0;
 }
