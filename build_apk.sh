@@ -20,6 +20,20 @@ if [[ $SYNC_PARAM == sync:* ]]; then
     echo ">>> 检测到同步需求: 用户=$REMOTE_USER, 主机=$REMOTE_HOST"
 fi
 
+if [ -z "$JAVA_HOME" ]; then
+    for candidate in \
+        "/nix/store/kfi0dzyh16brh3mz0wj1irq8np297dqj-openjdk-17.0.20.1+1" \
+        "/nix/store/18311cxwsdjsc52dhas54wfqqa212q5m-openjdk-21.0.12+8" \
+        $(ls -d /nix/store/*openjdk-17*/ 2>/dev/null | head -n 1) \
+        $(ls -d /nix/store/*openjdk-21*/ 2>/dev/null | head -n 1); do
+        if [ -x "$candidate/bin/java" ]; then
+            export JAVA_HOME="$candidate"
+            export PATH="$JAVA_HOME/bin:$PATH"
+            break
+        fi
+    done
+fi
+
 echo ">>> 正在更新版本信息..."
 ./scripts/update-version.sh
 

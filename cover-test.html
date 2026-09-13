@@ -30,11 +30,11 @@
     </style>
     <!-- 2. 系统主样式 -->
     <link rel="stylesheet" href="css/style.css">
-    <!-- 3. 新设计核心规范覆盖（墨水屏优化：统一象牙白不透明纸张 + 3px分类内边框 + 书打开进度 + 未下载状态） -->
+    <!-- 3. 新设计核心规范覆盖（纯白纸张 + 分类内边框 + 书打开进度 + 未下载状态） -->
     <style>
         :root {
-            /* 统一象牙白纸张底色与深墨色，彻底消除多色纸张与半透明，墨水屏高对比度 */
-            --cover-base-paper: #f7f4ec;
+            /* 封面纸张固定纯白，不随页面主题变化 */
+            --cover-base-paper: #FFFFFF;
             --cover-base-ink: #2b2723;
             
             /* 图书分类专属内边框色彩体系（和风高对比） */
@@ -220,7 +220,7 @@
         }
 
         /* ====================================================
-           核心覆盖规则：日本文庫判（105×148mm）固定尺寸 + 统一象牙白不透明纸张 + 3px分类内边框
+           核心覆盖规则：日本文庫判（105×148mm）固定尺寸 + 纯白不透明纸张 + 分类内边框
            ==================================================== */
         .book-cover {
             --cover-paper: var(--cover-base-paper) !important;
@@ -436,7 +436,7 @@
         .book-cover-back::after {
             position: absolute;
             inset: 7px;
-            border: 3px solid var(--cat-border-color, #c59b38);
+            border: 1px solid var(--cat-border-color, #c59b38);
             border-radius: 1px;
             content: '';
             pointer-events: none;
@@ -835,9 +835,11 @@
         }
         .book-cover-cloud-icon {
             position: absolute;
-            top: 54%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            top: auto;
+            right: 13px;
+            bottom: 11%;
+            left: auto;
+            transform: none;
             color: #777777;
             display: flex;
             flex-direction: column;
@@ -867,7 +869,7 @@
             color: #888888;
         }
     </style>
-    <link rel="stylesheet" href="css/book-cover.css?v=9">
+    <link rel="stylesheet" href="css/book-cover.css?v=18">
 </head>
 <body class="test-page">
     <div class="test-wrap">
@@ -1002,7 +1004,7 @@
         </section>
     </div>
 
-    <script src="js/book-cover.js?v=2"></script>
+    <script src="js/book-cover.js?v=3"></script>
     <script>
         const testBooks = [
             {
@@ -1011,6 +1013,7 @@
                 author: '太宰治',
                 ndc: 'NDC 913',
                 category: 'fiction',
+                hasTrans: true,
                 desc: '恥の多い生涯を送って来ました。自分には、人間の生活というものが、見当がつかないのです。',
                 defaultProgress: 58
             },
@@ -1204,9 +1207,13 @@
             }
 
             let frontInnerHtml = '';
+            const translationMark = book.hasTrans
+                ? '<span class="book-cover-translation-mark" title="翻訳あり" aria-label="翻訳あり">訳</span>'
+                : '';
             if (isUndownloaded) {
                 frontInnerHtml = `
                     <span class="book-cover-mark" aria-hidden="true">${escapeHtml(coverNdc)}</span>
+                    ${translationMark}
                     <span class="book-cover-title">${escapeHtml(book.title)}</span>
                     <span class="book-cover-author">${escapeHtml(book.author)}</span>
                     <span class="book-cover-rule" aria-hidden="true"></span>
@@ -1222,6 +1229,7 @@
             } else {
                 frontInnerHtml = `
                     <span class="book-cover-mark" aria-hidden="true">${escapeHtml(coverNdc)}</span>
+                    ${translationMark}
                     <span class="book-cover-title">${escapeHtml(book.title)}</span>
                     <span class="book-cover-author">${escapeHtml(book.author)}</span>
                     <span class="book-cover-rule" aria-hidden="true"></span>
@@ -1254,9 +1262,6 @@
                     <div class="book-row">
                         ${bookCoverHtml}
                         <div class="book-row-main">
-                            <div class="book-row-author-line">
-                                <span class="book-row-author">${escapeHtml(book.author || '')}</span>
-                            </div>
                             <div class="book-row-footer">
                                 <div class="book-row-progress ${isRead ? 'is-read' : 'is-unread'}">
                                     <div class="track"><span style="width:${clamped}%"></span></div>

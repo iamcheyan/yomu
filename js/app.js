@@ -23,8 +23,13 @@ const Yomu = {
     },
     _homeSearch: '',
     _libraryScope: 'library',
+    _libraryPage: 0,
     _catalogPage: 0,
     _catalogPageSize: 36,
+    _catalogRowsPerPage: 2,
+    _activeCatalogPageSize: null,
+    _activeLibraryPageSize: null,
+    _catalogResizeTimer: null,
     _homeFilters: {
         status: 'all',
         category: ''
@@ -39,6 +44,50 @@ const Yomu = {
     _localVersion: null,
     _wordCountCache: new Map(),
 
+    _getCatalogColumnCount() {
+        const grid = document.getElementById('book-grid');
+        if (!grid) return 1;
+
+        const tracks = getComputedStyle(grid).gridTemplateColumns
+            .split(/\s+/)
+            .filter(Boolean);
+        return Math.max(1, tracks.length);
+    },
+
+    _getCatalogPageSize() {
+        // 每页固定两行，列数由当前窗口和 CSS 网格自动决定，确保整页没有落单。
+        return this._getCatalogColumnCount() * this._catalogRowsPerPage;
+    },
+
+    _gridPlaceholders(count, columns, center = false) {
+        const remainder = count % columns;
+        if (!remainder) return '';
+        const slots = columns - remainder;
+        const leading = center ? Math.floor(slots / 2) : 0;
+        const trailing = slots - leading;
+        const placeholder = () => '<div class="book-row book-row-placeholder" aria-hidden="true"></div>';
+        return [
+            ...Array.from({ length: leading }, placeholder),
+            ...Array.from({ length: trailing }, placeholder)
+        ].join('');
+    },
+
+    _scheduleCatalogLayoutRefresh() {
+        if (this._libraryScope !== 'catalog' && this._libraryScope !== 'library') return;
+        clearTimeout(this._catalogResizeTimer);
+        this._catalogResizeTimer = setTimeout(() => {
+            const pageSize = this._getCatalogPageSize();
+            const activePageSize = this._libraryScope === 'catalog'
+                ? this._activeCatalogPageSize
+                : this._activeLibraryPageSize;
+            if (pageSize !== activePageSize) {
+                if (this._libraryScope === 'catalog') this._catalogPage = 0;
+                else this._libraryPage = 0;
+                this._renderBookList();
+            }
+        }, 120);
+    },
+
     async init() {
         document.addEventListener('keydown', (e) => this._handleGlobalKey(e));
         document.addEventListener('volumekey', (e) => {
@@ -47,6 +96,7 @@ const Yomu = {
             }
         });
         document.addEventListener('click', (e) => this._handleGlobalClick(e));
+        window.addEventListener('resize', () => this._scheduleCatalogLayoutRefresh(), { passive: true });
 
         this._initSearchInputs();
         this._initMobileUX();
@@ -301,8 +351,10 @@ const Yomu = {
     _handleGlobalKey(e) {
         // Handle keys globally (for both Reader and Library/Store)
         const key = e.key || e.code || '';
-        const isDown = key === 'AudioVolumeDown' || key === 'VolumeDown' || key === 'PageDown' || key === ' ';
-        const isUp = key === 'AudioVolumeUp' || key === 'VolumeUp' || key === 'PageUp';
+        const isVolumeDown = key === 'AudioVolumeDown' || key === 'VolumeDown';
+        const isVolumeUp = key === 'AudioVolumeUp' || key === 'VolumeUp';
+        const isDown = isVolumeDown || key === 'PageDown' || key === ' ';
+        const isUp = isVolumeUp || key === 'PageUp';
 
         if (this._isReaderOpen) {
             if (isDown) {
@@ -311,6 +363,17 @@ const Yomu = {
             } else if (isUp) {
                 e.preventDefault();
                 this._scrollReader(-1);
+            }
+        } else if (document.body.classList.contains('eink-mode') && (isVolumeDown || isVolumeUp)) {
+            // 墨水屏列表：音量键切换整页，避免长列表中逐屏滚动。
+            e.preventDefault();
+            if (this._storeOpen) {
+                if (isVolumeDown) this.nextStorePage();
+                else this.prevStorePage();
+            } else if (isVolumeDown) {
+                this.nextCatalogPage();
+            } else {
+                this.prevCatalogPage();
             }
         } else {
             // Library or Store view: volume keys page the lists
@@ -347,12 +410,24 @@ const Yomu = {
             return;
         }
 
-        // Hide catalog pagination in library mode
-        const pagination = document.getElementById('catalog-pagination');
-        if (pagination) pagination.classList.add('hidden');
-
         const allBooks = this._getLibraryBooks();
         const filtered = this._getFilteredLibraryBooks(allBooks);
+        const pageSize = this._getCatalogPageSize();
+        this._activeLibraryPageSize = pageSize;
+        const totalPages = Math.max(1, Math.ceil(filtered.length / pageSize));
+        if (this._libraryPage >= totalPages) this._libraryPage = Math.max(0, totalPages - 1);
+        const paged = filtered.slice(this._libraryPage * pageSize, (this._libraryPage + 1) * pageSize);
+
+        const pagination = document.getElementById('catalog-pagination');
+        if (pagination) {
+            pagination.classList.remove('hidden');
+            const pageInfo = document.getElementById('catalog-page-info');
+            if (pageInfo) pageInfo.textContent = `${this._libraryPage + 1} / ${totalPages}`;
+            const prevBtn = document.getElementById('btn-prev-catalog-page');
+            const nextBtn = document.getElementById('btn-next-catalog-page');
+            if (prevBtn) prevBtn.disabled = this._libraryPage <= 0;
+            if (nextBtn) nextBtn.disabled = this._libraryPage >= totalPages - 1;
+        }
 
         // Update counters
         const counter = document.getElementById('library-count');
@@ -374,15 +449,14 @@ const Yomu = {
             const percent = Math.round(progress.scrollPercent || 0);
             const isRead = Boolean(progress.lastRead || percent > 0);
             const descAttr = book.desc ? this._escapeAttr(book.desc) : '';
+            const markers = [
+                this._isNewBook(book.id) ? '<span class="badge-new">新着</span>' : ''
+            ].filter(Boolean).join('');
             return `
                 <div class="book-row" data-book-id="${this._escapeAttr(book.id)}" data-book-source="library" onclick="Yomu.openBook('${this._escapeAttr(book.id)}')" ${descAttr ? `title="${descAttr}"` : ''}>
                     ${this._coverMarkup(book)}
                     <div class="book-row-main">
-                        <div class="book-row-author-line">
-                            <span class="book-row-author">${this._escapeHtml(book.author || '')}</span>
-                            ${this._isNewBook(book.id) ? '<span class="badge-new">新着</span>' : ''}
-                            ${book.hasTrans ? '<span class="dot-e" title="翻訳あり">訳</span>' : ''}
-                        </div>
+                        ${markers ? `<div class="book-row-author-line">${markers}</div>` : ''}
                         ${this._bookMetaMarkup(book)}
                         <div class="book-row-footer">
                             <div class="book-row-progress ${isRead ? 'is-read' : 'is-unread'}">
@@ -399,7 +473,7 @@ const Yomu = {
             `;
         };
 
-        for (const book of filtered) {
+        for (const book of paged) {
             html += renderRow(book);
         }
 
@@ -415,7 +489,6 @@ const Yomu = {
                         ${this._coverMarkup(book)}
                         <div class="book-row-main">
                             <div class="book-row-author-line">
-                                <span class="book-row-author">${this._escapeHtml(book.author || '')}</span>
                                 <span class="match-tag">本文一致</span>
                             </div>
                             ${this._bookMetaMarkup(book)}
@@ -442,8 +515,12 @@ const Yomu = {
                 </div>
             `;
         }
+        // 保留当前网格的空槽位，避免最后一行的书卡视觉上挤成“落单”。
+        if (!this._fullTextResults || this._fullTextResults.size === 0) {
+            html += this._gridPlaceholders(paged.length, this._getCatalogColumnCount(), true);
+        }
         grid.innerHTML = html;
-        this._hydrateBookWordCounts(filtered);
+        this._hydrateBookWordCounts(paged);
     },
 
     async _hydrateBookWordCounts(books) {
@@ -523,9 +600,11 @@ const Yomu = {
         }
 
         // 分页计算
-        const totalPages = Math.max(1, Math.ceil(entries.length / this._catalogPageSize));
+        const pageSize = this._getCatalogPageSize();
+        this._activeCatalogPageSize = pageSize;
+        const totalPages = Math.max(1, Math.ceil(entries.length / pageSize));
         if (this._catalogPage >= totalPages) this._catalogPage = Math.max(0, totalPages - 1);
-        const paged = entries.slice(this._catalogPage * this._catalogPageSize, (this._catalogPage + 1) * this._catalogPageSize);
+        const paged = entries.slice(this._catalogPage * pageSize, (this._catalogPage + 1) * pageSize);
 
         // 分页条
         const pagination = document.getElementById('catalog-pagination');
@@ -565,7 +644,7 @@ const Yomu = {
             return;
         }
 
-        grid.innerHTML = paged.map(entry => {
+        const pageHtml = paged.map(entry => {
             const book = entry.book;
             const id = book.fileId || book.workId || book.id;
             const localBook = savedBookMap.get(id) ||
@@ -602,17 +681,23 @@ const Yomu = {
                 <div class="book-row ${available ? '' : 'unavailable'}" data-book-id="${this._escapeAttr(id)}" ${cardClick ? `onclick="${cardClick}"` : ''} ${book.desc ? `title="${this._escapeAttr(book.desc)}"` : ''}>
                     ${this._coverMarkup(targetBook)}
                     <div class="book-row-main">
-                        <div class="book-row-author-line">
-                            <span class="book-row-author">${this._escapeHtml(book.author || `(著者ID: ${book.authorId || ''})`)}</span>
-                        </div>
                         ${this._bookMetaMarkup(book)}
                     </div>
                 </div>
             `;
         }).join('');
+        grid.innerHTML = pageHtml + this._gridPlaceholders(paged.length, this._getCatalogColumnCount());
     },
 
     prevCatalogPage() {
+        if (this._libraryScope === 'library') {
+            if (this._libraryPage > 0) {
+                this._libraryPage--;
+                this._renderBookList();
+                window.scrollTo({ top: 0, behavior: 'auto' });
+            }
+            return;
+        }
         if (this._catalogPage > 0) {
             this._catalogPage--;
             this._renderBookList();
@@ -621,9 +706,22 @@ const Yomu = {
     },
 
     nextCatalogPage() {
+        if (this._libraryScope === 'library') {
+            const allBooks = this._getLibraryBooks();
+            const entries = this._getFilteredLibraryBooks(allBooks);
+            const pageSize = this._getCatalogPageSize();
+            const totalPages = Math.ceil(entries.length / pageSize);
+            if (this._libraryPage < totalPages - 1) {
+                this._libraryPage++;
+                this._renderBookList();
+                window.scrollTo({ top: 0, behavior: 'auto' });
+            }
+            return;
+        }
         const query = (this._homeSearch || '').trim();
         const entries = this._getFilteredStoreBooks(query);
-        const totalPages = Math.ceil(entries.length / this._catalogPageSize);
+        const pageSize = this._getCatalogPageSize();
+        const totalPages = Math.ceil(entries.length / pageSize);
         if (this._catalogPage < totalPages - 1) {
             this._catalogPage++;
             this._renderBookList();
@@ -636,6 +734,7 @@ const Yomu = {
         this._homeSearch = '';
         this._homeFilters.status = 'all';
         this._homeFilters.category = '';
+        this._libraryPage = 0;
         this._catalogPage = 0;
         this._fullTextResults = null;
 
@@ -664,7 +763,7 @@ const Yomu = {
 
         const pagination = document.getElementById('catalog-pagination');
         if (pagination) {
-            pagination.classList.toggle('hidden', this._libraryScope !== 'catalog');
+            pagination.classList.remove('hidden');
         }
 
         if (this._libraryScope === 'catalog') {
@@ -742,6 +841,7 @@ const Yomu = {
                     this._renderBookList();
                     return;
                 }
+                this._libraryPage = 0;
                 this._renderBookList();
                 // C3: 全文検索（本地范围、异步追加，不阻塞标题/作者结果）
                 if (this._homeSearch && this._homeSearch.trim().length >= 2) {
@@ -780,6 +880,8 @@ const Yomu = {
         if (this._libraryScope === 'catalog') {
             if (type === 'category') this._storeFilters.category = this._homeFilters.category;
             this._catalogPage = 0;
+        } else {
+            this._libraryPage = 0;
         }
         this._renderBookList();
         window.scrollTo({ top: 0, behavior: 'auto' });
@@ -790,6 +892,7 @@ const Yomu = {
         this._homeFilters.status = 'all';
         this._homeFilters.category = '';
         this._storeFilters = { author: '', category: '', orthography: '', translation: '', download: '' };
+        this._libraryPage = 0;
         this._catalogPage = 0;
         this._fullTextResults = null;
         const input = document.getElementById('home-search-input');
@@ -1301,7 +1404,6 @@ const Yomu = {
             const id = book.fileId || book.workId;
             const isDownloaded = downloaded.some(d => d.id === id || (d.aliases && d.aliases.includes(id)));
             const available = true;
-            const authorText = book.author || `(著者ID: ${book.authorId})`;
             const action = isDownloaded
                 ? `Yomu.openBook('${id}')`
                 : `Yomu.confirmCloudDownload('${id}')`;
@@ -1322,9 +1424,7 @@ const Yomu = {
                     <div class="store-row-main">
                         <div class="store-row-title">
                             <span>${this._escapeHtml(book.title)}</span>
-                            ${book.hasTrans ? '<span class="dot-e" title="翻訳あり">訳</span>' : ''}
                         </div>
-                        <div class="store-row-author">${this._escapeHtml(authorText)}</div>
                         ${metaBits ? `<div class="store-row-meta">${metaBits}</div>` : ''}
                         ${progress.lastRead ? `
                         <div class="book-row-progress store-row-progress">
@@ -1340,7 +1440,6 @@ const Yomu = {
                 <div class="store-cell" onclick="${action}">
                     ${this._coverMarkup(book)}
                     <div class="store-cell-title">${this._escapeHtml(book.title)}</div>
-                    <div class="store-cell-author">${this._escapeHtml(authorText)}</div>
                     ${progress.lastRead ? `
                     <div class="book-row-progress store-cell-progress">
                         <div class="track"><span style="width:${percent}%"></span></div>
@@ -1918,14 +2017,10 @@ const Yomu = {
         const category = this._categoryLabel(this._bookCategory(book));
         const orthography = book.orthography || '';
         const meta = [category, orthography].filter(Boolean);
-        // `baseBookTitle` は書名そのものなので表示せず、底本欄だけを使う。
-        const source = book.baseBook || book.publisher || '';
-
-        if (!meta.length && !source) return '';
+        if (!meta.length) return '';
 
         return `
-            ${meta.length ? `<div class="book-card-meta">${meta.map(value => `<span>${this._escapeHtml(value)}</span>`).join('')}</div>` : ''}
-            ${source ? `<div class="book-card-source" title="${this._escapeAttr(source)}">底本：${this._escapeHtml(source)}</div>` : ''}
+            <div class="book-card-meta">${meta.map(value => `<span>${this._escapeHtml(value)}</span>`).join('')}</div>
         `;
     },
 
@@ -3061,6 +3156,7 @@ const Yomu = {
 
     setEinkMode(enabled) {
         const value = Boolean(enabled);
+        const wasEink = document.body.classList.contains('eink-mode');
         YomuStorage.saveSetting('einkMode', value);
         document.body.classList.toggle('eink-mode', value);
 
@@ -3087,6 +3183,13 @@ const Yomu = {
         const meta = document.querySelector('meta[name="theme-color"]');
         if (meta) {
             meta.setAttribute('content', value ? '#FFFFFF' : getComputedStyle(document.body).backgroundColor);
+        }
+
+        // 切换显示模式后，重新从第一页开始，避免沿用另一种分页尺寸造成跳页。
+        if (wasEink !== value) {
+            if (this._libraryScope === 'catalog') this._catalogPage = 0;
+            else this._libraryPage = 0;
+            this._renderBookList();
         }
     },
 

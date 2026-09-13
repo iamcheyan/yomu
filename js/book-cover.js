@@ -151,8 +151,12 @@ const YomuBookCover = (() => {
         const coverNdc = book.ndc || 'NDC 913';
         const author = book.author || '';
         const publisher = publisherOf(book);
+        const translationMark = book.hasTrans
+            ? '<span class="book-cover-translation-mark" title="翻訳あり" aria-label="翻訳あり">訳</span>'
+            : '';
         const front = isUndownloaded ? `
             <span class="book-cover-mark" aria-hidden="true">${escape(coverNdc, escapeHtml)}</span>
+            ${translationMark}
             <span class="book-cover-title">${escape(book.title, escapeHtml)}</span>
             <span class="book-cover-author">${escape(author, escapeHtml)}</span>
             <span class="book-cover-rule" aria-hidden="true"></span>
@@ -166,6 +170,7 @@ const YomuBookCover = (() => {
             </div>
         ` : `
             <span class="book-cover-mark" aria-hidden="true">${escape(coverNdc, escapeHtml)}</span>
+            ${translationMark}
             <span class="book-cover-title">${escape(book.title, escapeHtml)}</span>
             <span class="book-cover-author">${escape(author, escapeHtml)}</span>
             <span class="book-cover-rule" aria-hidden="true"></span>

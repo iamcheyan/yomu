@@ -6,7 +6,8 @@
  * state here. Page-specific styles should only size the surrounding card.
  */
 :root {
-    --cover-base-paper: #f7f4ec;
+    /* 封面纸张固定纯白，不跟随页面护眼主题变化。 */
+    --cover-base-paper: #FFFFFF;
     --cover-base-ink: #2b2723;
     --cat-fiction: #c59b38;
     --cat-essay: #3b7066;
@@ -194,7 +195,7 @@
 .book-cover-back::after {
     position: absolute;
     inset: 7px;
-    border: 3px solid var(--cat-border-color, var(--cat-fiction));
+    border: 1px solid var(--cat-border-color, var(--cat-fiction));
     border-radius: 1px;
     content: '';
     pointer-events: none;
@@ -207,7 +208,39 @@
 .cat-drama { --cat-border-color: var(--cat-drama); }
 .cat-default { --cat-border-color: var(--cat-default); }
 
-.book-cover-mark { position: absolute; top: 12px; right: 13px; z-index: 1; font: 600 9.5px system-ui, sans-serif; color: #555047; letter-spacing: .06em; }
+/* 普通模式：封面文字与分类边框共用主题色；墨水屏模式在下方统一覆盖为黑白。 */
+body:not(.eink-mode) .book-cover:not(.is-undownloaded) {
+    --cover-ink: var(--cat-border-color, var(--cover-base-ink)) !important;
+    --cover-text-color: color-mix(in srgb, var(--cat-border-color, var(--cover-base-ink)) 75%, #000000);
+}
+
+body:not(.eink-mode) .book-cover:not(.is-undownloaded) .book-cover-front,
+body:not(.eink-mode) .book-cover:not(.is-undownloaded) .book-cover-back,
+body:not(.eink-mode) .book-cover:not(.is-undownloaded) .book-cover-mark,
+body:not(.eink-mode) .book-cover:not(.is-undownloaded) .book-cover-title,
+body:not(.eink-mode) .book-cover:not(.is-undownloaded) .book-cover-author,
+body:not(.eink-mode) .book-cover:not(.is-undownloaded) .book-cover-publisher {
+    color: var(--cover-text-color, var(--cat-border-color, var(--cover-base-ink))) !important;
+}
+
+.book-cover-mark { position: absolute; top: 12px; left: 13px; right: auto; z-index: 1; font: 600 9.5px system-ui, sans-serif; color: #555047; letter-spacing: .06em; text-align: left; }
+.book-cover-translation-mark {
+    position: absolute;
+    top: -1px;
+    right: 13px;
+    z-index: 7;
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: clamp(19px, 14%, 27px);
+    height: clamp(35px, 24%, 48px);
+    padding-top: clamp(6px, 5%, 9px);
+    background: var(--cat-border-color, var(--cat-fiction));
+    color: var(--cover-paper);
+    font: 600 clamp(9px, 1.1vw, 13px)/1 var(--display-font-family, var(--font-serif, serif));
+    letter-spacing: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 78%, 0 100%);
+}
 .book-cover-title { position: absolute; left: 50%; top: 30%; z-index: 1; width: calc(100% - 24px); max-height: 5.8em; overflow: hidden; transform: translate(-50%, -50%) !important; font: 600 16px/1.45 var(--display-font-family, var(--font-serif, serif)); letter-spacing: .09em; text-align: center; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; line-clamp: 4; }
 .book-cover-title::before { display: none !important; }
 .book-cover-author { position: absolute; top: 47%; left: 12px; right: 12px; z-index: 1; overflow: hidden; font: 11px/1.35 var(--display-font-family, var(--font-serif, serif)); letter-spacing: .12em; text-align: center; text-overflow: ellipsis; white-space: nowrap; }
@@ -238,7 +271,7 @@
     border-color: #c7c6c0 !important;
 }
 .book-cover.is-undownloaded .book-cover-front::after {
-    border: 3px dashed var(--cloud-border, #aaa) !important;
+    border: 1px dashed var(--cloud-border, #aaa) !important;
 }
 .book-cover.is-undownloaded .book-cover-spine {
     background: #aaa9a4 !important;
@@ -256,7 +289,7 @@
     color: #666764;
 }
 .book-cover-download-icon {
-    /* 左上角的小型下载状态徽章，与右上角 NDC 组成统一书眉。 */
+    /* 未下载书的下载状态徽章；书眉左侧留给 NDC，徽章放在右下方。 */
     position: absolute;
     top: 12%;
     left: 13px;
@@ -276,10 +309,16 @@
     stroke-linejoin: round;
 }
 .book-cover.is-undownloaded .book-cover-mark {
-    right: 13px;
+    left: 13px;
+    right: auto;
 }
 .book-cover.is-undownloaded .book-cover-download-icon {
     color: #8b8d8b;
+    top: auto;
+    right: 13px;
+    bottom: 11%;
+    left: auto;
+    transform: none;
 }
 
 /* Formal cards use the same cover face; their surrounding layout controls the
@@ -315,8 +354,14 @@ body.eink-mode .book-cover-container {
 
 body.eink-mode .book-cover-front::after,
 body.eink-mode .book-cover-back::after {
-    border-color: #333333 !important;
-    border-width: 1.5px !important;
+    display: none !important;
+}
+
+/* 墨水屏模式不展示打开书的透视页层，避免进度变化时在封面后残留书页。 */
+body.eink-mode .book-cover-pages-base,
+body.eink-mode .book-cover-page-turning,
+body.eink-mode .book-cover-page-lines {
+    display: none !important;
 }
 
 body.eink-mode .book-cover-paper {
@@ -353,16 +398,21 @@ body.eink-mode .book-cover-title {
     color: #000000 !important;
 }
 
+body.eink-mode .book-cover-translation-mark {
+    background: #000000 !important;
+    color: #FFFFFF !important;
+}
+
 body.eink-mode .book-cover-author,
 body.eink-mode .book-cover-publisher,
 body.eink-mode .book-cover-mark {
-    color: #222222 !important;
-    opacity: 0.9 !important;
+    color: #000000 !important;
+    opacity: 1 !important;
 }
 
 body.eink-mode .book-cover-rule {
-    background: #666666 !important;
-    opacity: 0.6 !important;
+    background: #000000 !important;
+    opacity: 1 !important;
 }
 
 body.eink-mode .stamp-done {
@@ -373,10 +423,15 @@ body.eink-mode .stamp-done {
 
 body.eink-mode .book-cover.is-undownloaded .book-cover-front {
     background: #FFFFFF !important;
-    border-color: #777777 !important;
-    color: #333333 !important;
+    border-color: #000000 !important;
+    color: #000000 !important;
 }
 
 body.eink-mode .book-cover.is-undownloaded .book-cover-front::after {
-    border: 1.5px dashed #777777 !important;
+    display: block !important;
+    border: 1.5px dashed #000000 !important;
+}
+
+body.eink-mode .book-cover-download-icon {
+    color: #000000 !important;
 }

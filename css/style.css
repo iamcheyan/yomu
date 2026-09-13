@@ -21,7 +21,7 @@
     --display-font-family: var(--font-serif);
 
     /* 紙張（默认） */
-    --bg-color: #F7F3EA;
+    --bg-color: #FFFFFF;
     --fg-color: #282521;
     --muted-color: #8D867C;
     --accent-color: #8C7A54;
@@ -380,9 +380,16 @@ body.eink-mode #btn-toggle-eink.active {
 }
 
 body.eink-mode .icon-btn {
-    border: 1.2px solid #777777 !important;
+    border: none !important;
     background: #FFFFFF !important;
-    color: #111111 !important;
+    color: #000000 !important;
+}
+
+body.eink-mode .icon-btn.active,
+body.eink-mode #btn-toggle-eink.active {
+    border: 2px solid #000000 !important;
+    background: #FFFFFF !important;
+    color: #000000 !important;
 }
 
 /* 本棚／全作品 分割切替：极简字重与灰阶区分，彻底去掉外框与背景色 */
@@ -472,6 +479,49 @@ body.eink-mode .filter-chip.active .chip-count {
     opacity: 1 !important;
 }
 
+/* 墨水屏分页：保留前后翻页文字，去掉胶囊外框，减少刷新残影。 */
+body.eink-mode .pagination-bar .page-btn {
+    border: none !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    color: #000000 !important;
+    box-shadow: none !important;
+}
+
+body.eink-mode .pagination-bar .page-btn:disabled {
+    border: none !important;
+    color: #999999 !important;
+    opacity: 1 !important;
+}
+
+/* 墨水屏宽屏上的全作品筛选：保持纯文字，但压缩行高，避免作者列表把书籍推得过低。 */
+body.eink-mode .catalog-filter-tools {
+    margin: 2px 0 2px !important;
+}
+
+body.eink-mode .catalog-filter-groups {
+    row-gap: 1px;
+}
+
+body.eink-mode .catalog-filter-tools .filter-group {
+    gap: 10px;
+}
+
+body.eink-mode .catalog-filter-tools .filter-group .filter-chips-group {
+    column-gap: 24px;
+    row-gap: 0;
+}
+
+body.eink-mode .catalog-filter-tools .filter-chip {
+    min-height: 30px;
+    padding: 3px 0 !important;
+    font-size: 12px;
+}
+
+body.eink-mode .catalog-filter-tools .filter-chip .chip-count {
+    font-size: 10px;
+}
+
 /* 弹窗、侧拉面板、菜单：白底 + 黑线框 */
 body.eink-mode .settings-panel,
 body.eink-mode .modal-card,
@@ -514,7 +564,8 @@ body.eink-mode .tool-icon-btn.active {
 /* 阅读器上下栏与振假名 */
 body.eink-mode .reader-topbar,
 body.eink-mode .reader-bottombar {
-    border-bottom: 1px solid #000000 !important;
+    border-top: none !important;
+    border-bottom: none !important;
     background: #FFFFFF !important;
 }
 
@@ -593,6 +644,8 @@ body.eink-mode rt {
     display: inline-flex;
     align-items: center;
     gap: 4px;
+    height: 44px;
+    box-sizing: border-box;
     padding: 3px;
     background: var(--soft-bg);
     border: 1px solid var(--hairline);
@@ -604,6 +657,8 @@ body.eink-mode rt {
     display: inline-flex;
     align-items: center;
     gap: 8px;
+    height: 36px;
+    box-sizing: border-box;
     padding: 7px 16px;
     border: none;
     border-radius: 999px;
@@ -661,6 +716,8 @@ body.theme-dark .scope-nav-btn.active {
     display: inline-flex;
     align-items: center;
     gap: 6px;
+    height: 44px;
+    box-sizing: border-box;
     padding: 7px 16px;
     border: 1px solid var(--hairline);
     border-radius: 999px;
@@ -692,6 +749,8 @@ body.theme-dark .scope-nav-btn.active {
     display: flex;
     align-items: center;
     gap: 8px;
+    height: 44px;
+    box-sizing: border-box;
     background: var(--bg-color);
     border: 1px solid var(--line-color);
     border-radius: 999px;
@@ -1079,6 +1138,11 @@ body.theme-dark .search-inline-capsule {
     padding: 0;
     cursor: pointer;
     height: 100%;
+}
+
+.book-row-placeholder {
+    visibility: hidden;
+    pointer-events: none;
 }
 
 .book-row:active {
@@ -3879,7 +3943,7 @@ input:checked+.slider-round:before {
     border: 1px solid var(--line-color);
 }
 
-.theme-btn[data-theme="light"]>span { background: #F7F3EA; }
+.theme-btn[data-theme="light"]>span { background: #FFFFFF; }
 .theme-btn[data-theme="sepia"]>span { background: #F3E9D2; }
 .theme-btn[data-theme="green"]>span { background: #DFE8D5; }
 .theme-btn[data-theme="dark"]>span { background: #1b1b1b; }
@@ -3887,7 +3951,8 @@ input:checked+.slider-round:before {
 .theme-btn.active {
     border-color: var(--accent-color);
     color: var(--fg-color);
-    background: var(--soft-bg);
+    /* 选中区域使用当前主题底色，避免白色主题出现灰色块。 */
+    background: var(--bg-color);
 }
 
 /* バックアップ */
