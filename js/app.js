@@ -367,23 +367,21 @@ const Yomu = {
         const renderRow = (book) => {
             const progress = this._getBookProgress(book);
             const percent = Math.round(progress.scrollPercent || 0);
+            const isRead = Boolean(progress.lastRead || percent > 0);
+            const descAttr = book.desc ? this._escapeAttr(book.desc) : '';
             return `
-                <div class="book-row" data-book-id="${this._escapeAttr(book.id)}" data-book-source="library" onclick="Yomu.openBook('${this._escapeAttr(book.id)}')">
+                <div class="book-row" data-book-id="${this._escapeAttr(book.id)}" data-book-source="library" onclick="Yomu.openBook('${this._escapeAttr(book.id)}')" ${descAttr ? `title="${descAttr}"` : ''}>
                     ${this._coverMarkup(book)}
                     <div class="book-row-main">
-                        <div class="book-row-title-line">
-                            <span class="book-row-title">${this._escapeHtml(book.title)}</span>
+                        <div class="book-row-author-line">
+                            <span class="book-row-author">${this._escapeHtml(book.author || '')}</span>
                             ${this._isNewBook(book.id) ? '<span class="badge-new">新着</span>' : ''}
                             ${book.hasTrans ? '<span class="dot-e" title="翻訳あり">訳</span>' : ''}
                         </div>
-                        <div class="book-row-author">${this._escapeHtml(book.author || '')}</div>
-                        ${book.desc ? `<div class="book-row-desc">${this._escapeHtml(book.desc)}</div>` : ''}
-                        ${progress.lastRead ? `
-                        <div class="book-row-progress">
+                        <div class="book-row-progress ${isRead ? 'is-read' : 'is-unread'}">
                             <div class="track"><span style="width:${percent}%"></span></div>
                             <span class="pct">${percent >= 100 ? '読了' : percent + '%'}</span>
                         </div>
-                        ` : ''}
                     </div>
                     <button class="row-more-btn" onclick="Yomu.openBookMenu('${this._escapeAttr(book.id)}', 'library', event)" title="詳細メニュー" aria-label="詳細メニュー">
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="5" r="1.6"></circle><circle cx="12" cy="12" r="1.6"></circle><circle cx="12" cy="19" r="1.6"></circle></svg>
@@ -544,16 +542,13 @@ const Yomu = {
             }
 
             return `
-                <div class="book-row ${available ? '' : 'unavailable'}" data-book-id="${this._escapeAttr(id)}" ${cardClick ? `onclick="${cardClick}"` : ''}>
+                <div class="book-row ${available ? '' : 'unavailable'}" data-book-id="${this._escapeAttr(id)}" ${cardClick ? `onclick="${cardClick}"` : ''} ${book.desc ? `title="${this._escapeAttr(book.desc)}"` : ''}>
                     ${this._coverMarkup(targetBook)}
                     <div class="book-row-main">
-                        <div class="book-row-title-line">
-                            <span class="book-row-title">${this._escapeHtml(book.title)}</span>
+                        <div class="book-row-author-line">
+                            <span class="book-row-author">${this._escapeHtml(book.author || `(著者ID: ${book.authorId || ''})`)}</span>
                             ${saved ? '<span class="badge-saved">本棚</span>' : ''}
                         </div>
-                        <div class="book-row-author">${this._escapeHtml(book.author || `(著者ID: ${book.authorId || ''})`)}</div>
-                        ${book.desc ? `<div class="book-row-desc">${this._escapeHtml(book.desc)}</div>` : ''}
-                        ${progressHtml}
                         <div class="book-row-action">
                             ${actionHtml}
                         </div>
@@ -1506,7 +1501,11 @@ const Yomu = {
         if (isFinished) stateClass += ' is-finished';
         if (isFlipped) stateClass += ' is-flipped';
 
-        return `<div class="book-cover book-cover-${theme[0]}${stateClass}" data-progress="${percent}" style="--front-angle:${frontAngle.toFixed(1)};--front-shift:${frontShift.toFixed(1)};--front-opacity:${frontOpacity};--back-angle:${backAngle.toFixed(1)};--back-shift:${backShift.toFixed(1)};--page1-angle:${page1Angle.toFixed(1)};--page1-shift:${page1Shift.toFixed(1)};--page2-angle:${page2Angle.toFixed(1)};--page2-shift:${page2Shift.toFixed(1)};--page3-angle:${page3Angle.toFixed(1)};--page3-shift:${page3Shift.toFixed(1)};--page4-angle:${page4Angle.toFixed(1)};--page4-shift:${page4Shift.toFixed(1)}" aria-label="${this._escapeAttr(book.title)} — ${this._escapeAttr(author)}">
+            const coverAuthor = (theme[1] && theme[1] !== '青空文庫')
+                ? theme[1]
+                : (book.author && book.author.length <= 10 ? book.author : '青空文庫');
+
+            return `<div class="book-cover book-cover-${theme[0]}${stateClass}" data-progress="${percent}" style="--front-angle:${frontAngle.toFixed(1)};--front-shift:${frontShift.toFixed(1)};--front-opacity:${frontOpacity};--back-angle:${backAngle.toFixed(1)};--back-shift:${backShift.toFixed(1)};--page1-angle:${page1Angle.toFixed(1)};--page1-shift:${page1Shift.toFixed(1)};--page2-angle:${page2Angle.toFixed(1)};--page2-shift:${page2Shift.toFixed(1)};--page3-angle:${page3Angle.toFixed(1)};--page3-shift:${page3Shift.toFixed(1)};--page4-angle:${page4Angle.toFixed(1)};--page4-shift:${page4Shift.toFixed(1)}" aria-label="${this._escapeAttr(book.title)} — ${this._escapeAttr(author)}">
             <div class="book-cover-pages-base" aria-hidden="true"><div class="book-cover-page-lines"></div></div>
             <div class="book-cover-page-turning page-layer-1" aria-hidden="true"></div>
             <div class="book-cover-page-turning page-layer-2" aria-hidden="true"></div>
@@ -1516,7 +1515,7 @@ const Yomu = {
             <div class="book-cover-front">
                 <span class="book-cover-mark" aria-hidden="true">青空文庫</span>
                 <span class="book-cover-title">${this._escapeHtml(book.title)}</span>
-                <span class="book-cover-author">${this._escapeHtml(theme[1])}</span>
+                <span class="book-cover-author">${this._escapeHtml(coverAuthor)}</span>
             </div>
             <i class="book-cover-spine" aria-hidden="true"></i>
             ${percent > 0 ? `<span class="book-cover-state">${percent >= 100 ? '読了' : percent + '%'}</span>` : ''}
