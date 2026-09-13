@@ -347,7 +347,7 @@ const Yomu = {
         let html = '';
 
         const renderRow = (book) => {
-            const progress = YomuStorage.getProgress(book.id);
+            const progress = this._getBookProgress(book);
             const percent = Math.round(progress.scrollPercent || 0);
             return `
                 <div class="book-row" data-book-id="${this._escapeAttr(book.id)}" data-book-source="library" onclick="Yomu.openBook('${this._escapeAttr(book.id)}')">
@@ -972,6 +972,9 @@ const Yomu = {
                 this._categoryLabel(cat)
             ].filter(Boolean).join(' · ');
 
+            const progress = this._getBookProgress(book);
+            const percent = Math.round(progress.scrollPercent || 0);
+
             rowHtml.push(`
                 <div class="store-row ${available ? '' : 'unavailable'}" id="store-book-${id}" data-book-id="${this._escapeAttr(id)}" data-book-source="store" ${isDownloaded ? `onclick="Yomu.openBook('${id}')"` : ''}>
                     ${this._coverMarkup(book)}
@@ -983,6 +986,12 @@ const Yomu = {
                         </div>
                         <div class="store-row-author">${this._escapeHtml(authorText)}</div>
                         ${metaBits ? `<div class="store-row-meta">${metaBits}</div>` : ''}
+                        ${progress.lastRead ? `
+                        <div class="book-row-progress store-row-progress">
+                            <div class="track"><span style="width:${percent}%"></span></div>
+                            <span class="pct">${percent >= 100 ? '読了' : percent + '%'}</span>
+                        </div>
+                        ` : ''}
                     </div>
                     <div class="book-meta">
                         <button class="download-btn ${btnClass}"
@@ -999,6 +1008,12 @@ const Yomu = {
                     ${this._coverMarkup(book)}
                     <div class="store-cell-title">${this._escapeHtml(book.title)}</div>
                     <div class="store-cell-author">${this._escapeHtml(authorText)}</div>
+                    ${progress.lastRead ? `
+                    <div class="book-row-progress store-cell-progress">
+                        <div class="track"><span style="width:${percent}%"></span></div>
+                        <span class="pct">${percent >= 100 ? '読了' : percent + '%'}</span>
+                    </div>
+                    ` : ''}
                     <div class="store-cell-action">
                         <button class="download-btn ${btnClass}" ${action ? `onclick="${action}"` : 'disabled'}>${btnLabel}</button>
                     </div>
@@ -1030,20 +1045,86 @@ const Yomu = {
         if (pageInfo) pageInfo.textContent = `${this._storePage + 1} / ${totalPages}`;
     },
 
-    /** Stable, local cover for authors without a verified historical scan. */
+    _getBookProgress(book) {
+        if (!book) return { scrollPercent: 0, lastRead: null };
+        const id = book.id || book.fileId || book.workId;
+        let progress = YomuStorage.getProgress(id);
+        if (progress && (progress.scrollPercent || progress.lastRead)) return progress;
+
+        if (book.fileId && book.fileId !== id) {
+            const p = YomuStorage.getProgress(book.fileId);
+            if (p && (p.scrollPercent || p.lastRead)) return p;
+        }
+
+        if (book.workId && book.workId !== id) {
+            const p = YomuStorage.getProgress(book.workId);
+            if (p && (p.scrollPercent || p.lastRead)) return p;
+            const stripped = String(book.workId).replace(/^0+/, '');
+            if (stripped && stripped !== book.workId) {
+                const p2 = YomuStorage.getProgress(stripped);
+                if (p2 && (p2.scrollPercent || p2.lastRead)) return p2;
+            }
+        }
+
+        if (book.aliases && Array.isArray(book.aliases)) {
+            for (const alias of book.aliases) {
+                const p = YomuStorage.getProgress(alias);
+                if (p && (p.scrollPercent || p.lastRead)) return p;
+            }
+        }
+
+        const bundled = (typeof YomuReader !== 'undefined' && YomuReader.getBooks) ? (YomuReader.getBooks() || []) : [];
+        const downloaded = (typeof YomuStorage !== 'undefined' && YomuStorage.getDownloadedBooks) ? (YomuStorage.getDownloadedBooks() || []) : [];
+        const allKnown = [...bundled, ...downloaded];
+        const match = allKnown.find(d => 
+            (d.id && (d.id === book.id || d.id === book.fileId || d.id === book.workId)) ||
+            (d.workId && (d.workId === book.workId || d.workId === book.id)) ||
+            (d.fileId && (d.fileId === book.fileId || d.fileId === book.id)) ||
+            (d.title && d.title === book.title && d.author === book.author)
+        );
+        if (match && match.id) {
+            const p = YomuStorage.getProgress(match.id);
+            if (p && (p.scrollPercent || p.lastRead)) return p;
+            if (match.aliases && Array.isArray(match.aliases)) {
+                for (const alias of match.aliases) {
+                    const p = YomuStorage.getProgress(alias);
+                    if (p && (p.scrollPercent || p.lastRead)) return p;
+                }
+            }
+        }
+
+        return { scrollPercent: 0, lastRead: null };
+    },
+
+    /** Unified 3D book cover with 4 fanning turning page layers and stepped fore-edge thickness */
     _coverMarkup(book) {
-        const progress = YomuStorage.getProgress(book.id);
+        const progress = this._getBookProgress(book);
         const percent = Math.round(progress.scrollPercent || 0);
         const clamped = Math.max(0, Math.min(100, percent));
-        const firstHalf = clamped <= 50;
-        const half = firstHalf ? clamped / 50 : (clamped - 50) / 50;
-        const frontAngle = firstHalf ? -32 * half : -32 - 56 * half;
-        const frontShift = firstHalf ? -8 * half : -8 - 17 * half;
-        const frontOpacity = firstHalf ? 1 : 1 - half;
-        const backOpacity = firstHalf ? 0 : Math.max(0, (clamped - 55) / 45);
-        const backAngle = firstHalf ? 26 : 26 * (1 - half);
-        const backShift = firstHalf ? 8 : 8 * (1 - half);
-        const textOpacity = firstHalf ? 1 : Math.max(.05, 1 - half * 1.2);
+        const threshold = 75;
+        const isFlipped = clamped > threshold;
+
+        let frontAngle = 0;
+        let frontShift = 0;
+        let frontOpacity = 1;
+        let backAngle = 0;
+        let backShift = 0;
+
+        if (clamped === 0) {
+            frontAngle = 0;
+            frontShift = 0;
+            frontOpacity = 1;
+        } else if (!isFlipped) {
+            const ratio = clamped / threshold;
+            frontAngle = -65 * Math.pow(ratio, 0.85);
+            frontShift = -16 * ratio;
+            frontOpacity = Math.max(0.4, 1 - 0.5 * ratio);
+        } else {
+            const remain = (100 - clamped) / (100 - threshold);
+            backAngle = 65 * Math.pow(remain, 0.9);
+            backShift = 16 * remain;
+        }
+
         const author = book.author || '';
         const themes = {
             '夏目漱石': ['souseki', '夏目漱石'],
@@ -1063,9 +1144,97 @@ const Yomu = {
             '樋口一葉': ['ichiyo', '樋口一葉']
         };
         const theme = themes[author] || ['default', '青空文庫'];
-        return `<div class="book-cover book-cover-${theme[0]}" data-progress="${percent}" style="--front-angle:${frontAngle};--front-shift:${frontShift};--front-opacity:${frontOpacity};--back-opacity:${backOpacity};--back-angle:${backAngle};--back-shift:${backShift};--front-text-opacity:${textOpacity}" aria-label="${this._escapeAttr(book.title)} — ${this._escapeAttr(author)}">
-            <div class="book-cover-pages" aria-hidden="true"></div>
-            <div class="book-cover-back" aria-hidden="true"><span>青空文庫</span></div>
+
+        let backContent = '';
+        if (isFlipped) {
+            const isFinished = clamped === 100;
+            const stampHTML = isFinished
+                ? '<span class="stamp-done">読了</span>'
+                : '<span class="stamp-pending">読書中</span>';
+            const workNum = (book.workId || book.id || 'BOOK').toString().replace(/\D/g, '').slice(0, 5) || '001';
+            const barcodeHTML = `
+                <div class="barcode-wrap">
+                    <div class="barcode-lines"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                    <span class="barcode-num">978-AOZORA-${workNum}</span>
+                </div>
+            `;
+
+            if (book.desc && book.desc.trim()) {
+                let text = book.desc.replace(/[。！!]+$/, '').trim();
+                const quoteMatch = text.match(/「([^」]+)」/);
+                if (quoteMatch) text = quoteMatch[1];
+                let vText = text;
+                if (text.length > 6) {
+                    const mid = Math.min(6, Math.ceil(text.length / 2));
+                    vText = `${text.slice(0, mid)}<br>${text.slice(mid, mid + 6)}`;
+                }
+                backContent = `
+                    <div class="back-inner">
+                        <div class="back-header"><span>${this._escapeHtml(book.ndc || 'NDC 913')}</span><span>青空文庫</span></div>
+                        <div class="vertical-quote-wrap"><div class="vertical-quote">${vText}</div></div>
+                        <div class="back-footer">${barcodeHTML}${stampHTML}</div>
+                    </div>
+                `;
+            } else {
+                backContent = `
+                    <div class="back-inner">
+                        <div class="back-header"><span>${this._escapeHtml(book.ndc || 'NDC 913')}</span><span>青空文庫</span></div>
+                        <div class="center-crest">
+                            <div class="crest-svg">
+                                <svg width="28" height="28" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.4">
+                                    <circle cx="18" cy="18" r="16" stroke-dasharray="3 2"/>
+                                    <path d="M10 20c3-3 6-5 8-5s5 2 8 5c-3-1-5-1-8 1-3-2-5-2-8-1z" fill="currentColor" fill-opacity="0.18"/>
+                                    <circle cx="18" cy="12" r="1.8" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            <div class="crest-text">青空文庫</div>
+                            <div class="crest-sub">日本文学・名作選</div>
+                        </div>
+                        <div class="back-footer">${barcodeHTML}${stampHTML}</div>
+                    </div>
+                `;
+            }
+        }
+
+        let page1Angle = 0, page1Shift = 0;
+        let page2Angle = 0, page2Shift = 0;
+        let page3Angle = 0, page3Shift = 0;
+        let page4Angle = 0, page4Shift = 0;
+
+        if (!isFlipped) {
+            page1Angle = frontAngle * 0.20;
+            page1Shift = frontShift * 0.18;
+            page2Angle = frontAngle * 0.40;
+            page2Shift = frontShift * 0.36;
+            page3Angle = frontAngle * 0.60;
+            page3Shift = frontShift * 0.56;
+            page4Angle = frontAngle * 0.80;
+            page4Shift = frontShift * 0.76;
+        } else {
+            page1Angle = backAngle * 0.20;
+            page1Shift = backShift * 0.18;
+            page2Angle = backAngle * 0.40;
+            page2Shift = backShift * 0.36;
+            page3Angle = backAngle * 0.60;
+            page3Shift = backShift * 0.56;
+            page4Angle = backAngle * 0.80;
+            page4Shift = backShift * 0.76;
+        }
+
+        const isClosed = clamped === 0;
+        const isFinished = clamped === 100;
+        let stateClass = '';
+        if (isClosed) stateClass += ' is-closed';
+        if (isFinished) stateClass += ' is-finished';
+        if (isFlipped) stateClass += ' is-flipped';
+
+        return `<div class="book-cover book-cover-${theme[0]}${stateClass}" data-progress="${percent}" style="--front-angle:${frontAngle.toFixed(1)};--front-shift:${frontShift.toFixed(1)};--front-opacity:${frontOpacity};--back-angle:${backAngle.toFixed(1)};--back-shift:${backShift.toFixed(1)};--page1-angle:${page1Angle.toFixed(1)};--page1-shift:${page1Shift.toFixed(1)};--page2-angle:${page2Angle.toFixed(1)};--page2-shift:${page2Shift.toFixed(1)};--page3-angle:${page3Angle.toFixed(1)};--page3-shift:${page3Shift.toFixed(1)};--page4-angle:${page4Angle.toFixed(1)};--page4-shift:${page4Shift.toFixed(1)}" aria-label="${this._escapeAttr(book.title)} — ${this._escapeAttr(author)}">
+            <div class="book-cover-pages-base" aria-hidden="true"><div class="book-cover-page-lines"></div></div>
+            <div class="book-cover-page-turning page-layer-1" aria-hidden="true"></div>
+            <div class="book-cover-page-turning page-layer-2" aria-hidden="true"></div>
+            <div class="book-cover-page-turning page-layer-3" aria-hidden="true"></div>
+            <div class="book-cover-page-turning page-layer-4" aria-hidden="true"></div>
+            <div class="book-cover-back" aria-hidden="true">${backContent}</div>
             <div class="book-cover-front">
                 <span class="book-cover-mark" aria-hidden="true">青空文庫</span>
                 <span class="book-cover-title">${this._escapeHtml(book.title)}</span>

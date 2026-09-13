@@ -595,7 +595,7 @@ body.theme-dark .u-color-error { color: #ff7b72; }
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    gap: 9px;
+    gap: 12px;
     min-width: 0;
     padding: 0;
     cursor: pointer;
@@ -962,18 +962,16 @@ body.theme-dark .u-color-error { color: #ff7b72; }
     --cover-ink: #25221f;
     --cover-paper: #e9e2d2;
     position: relative;
-    display: flex;
+    display: block;
     flex: 0 0 96px;
     width: 96px;
     min-height: 136px;
-    padding: 11px 10px 10px;
-    flex-direction: column;
-    justify-content: space-between;
-    overflow: hidden;
+    padding: 0;
+    overflow: visible;
     color: var(--cover-ink);
-    background: var(--cover-paper);
-    border: 1px solid color-mix(in srgb, var(--cover-ink) 28%, transparent);
-    box-shadow: 2px 2px 0 color-mix(in srgb, var(--cover-ink) 16%, transparent);
+    background: transparent;
+    border: none;
+    box-shadow: none;
     font-family: var(--font-serif, serif);
     isolation: isolate;
 }
@@ -981,6 +979,8 @@ body.theme-dark .u-color-error { color: #ff7b72; }
 .book-cover-real {
     overflow: hidden;
     background: #e8e5dc;
+    border: 1px solid color-mix(in srgb, var(--cover-ink) 28%, transparent);
+    box-shadow: 2px 2px 0 color-mix(in srgb, var(--cover-ink) 16%, transparent);
 }
 
 .book-cover-image {
@@ -991,7 +991,7 @@ body.theme-dark .u-color-error { color: #ff7b72; }
     filter: grayscale(0.15) contrast(0.96);
 }
 
-.book-cover::after {
+.book-cover-real::after {
     position: absolute;
     inset: 5px;
     border: 1px solid color-mix(in srgb, var(--cover-ink) 35%, transparent);
@@ -999,54 +999,205 @@ body.theme-dark .u-color-error { color: #ff7b72; }
     pointer-events: none;
 }
 
-/* 本の開き具合で読書状態を表現。進捗に応じて正面から封底へ移る。 */
-.book-cover-pages,
+/* 闭合未读（0%）或读了合上（100%）时，整书只展现纯粹封面或封底，不显示内页与切面阴影 */
+.book-cover.is-closed .book-cover-pages-base,
+.book-cover.is-closed .book-cover-page-turning,
+.book-cover.is-finished .book-cover-pages-base,
+.book-cover.is-finished .book-cover-page-turning {
+    display: none !important;
+}
+
+.book-cover.is-closed .book-cover-back {
+    display: none !important;
+}
+
+.book-cover.is-finished .book-cover-front {
+    display: none !important;
+}
+
+/* 本の開き具合で読書状態を表現：多層書芯と扇形翻頁 */
+.book-cover-pages-base,
 .book-cover-back,
 .book-cover-front {
     position: absolute;
-    inset: 7px 8px;
+    inset: 0;
 }
 
-.book-cover-pages {
+.book-cover-pages-base {
     z-index: 0;
     overflow: hidden;
     background: color-mix(in srgb, var(--cover-paper) 78%, white);
     border: 1px solid color-mix(in srgb, var(--cover-ink) 34%, transparent);
-    box-shadow: 2px 2px 0 color-mix(in srgb, var(--cover-ink) 15%, transparent);
+    /* 细腻百页阶梯纸边，大幅增强书本厚重感 */
+    box-shadow:
+        1px 1px 0 color-mix(in srgb, var(--cover-paper) 90%, var(--cover-ink)),
+        2px 2px 0 color-mix(in srgb, var(--cover-paper) 80%, var(--cover-ink)),
+        3px 3px 0 color-mix(in srgb, var(--cover-paper) 88%, var(--cover-ink)),
+        4px 4px 0 color-mix(in srgb, var(--cover-paper) 76%, var(--cover-ink)),
+        5px 5px 0 color-mix(in srgb, var(--cover-paper) 84%, var(--cover-ink)),
+        6px 6px 0 color-mix(in srgb, var(--cover-paper) 72%, var(--cover-ink)),
+        7px 7px 0 color-mix(in srgb, var(--cover-paper) 80%, var(--cover-ink)),
+        8px 9px 12px color-mix(in srgb, var(--cover-ink) 24%, transparent);
 }
 
-.book-cover-pages::before {
+.book-cover.is-flipped .book-cover-pages-base {
+    box-shadow:
+        -1px 1px 0 color-mix(in srgb, var(--cover-paper) 90%, var(--cover-ink)),
+        -2px 2px 0 color-mix(in srgb, var(--cover-paper) 80%, var(--cover-ink)),
+        -3px 3px 0 color-mix(in srgb, var(--cover-paper) 88%, var(--cover-ink)),
+        -4px 4px 0 color-mix(in srgb, var(--cover-paper) 76%, var(--cover-ink)),
+        -5px 5px 0 color-mix(in srgb, var(--cover-paper) 84%, var(--cover-ink)),
+        -6px 6px 0 color-mix(in srgb, var(--cover-paper) 72%, var(--cover-ink)),
+        -7px 7px 0 color-mix(in srgb, var(--cover-paper) 80%, var(--cover-ink)),
+        -8px 9px 12px color-mix(in srgb, var(--cover-ink) 24%, transparent);
+}
+
+.book-cover-page-lines {
     position: absolute;
     inset: 8px;
-    border: 1px solid color-mix(in srgb, var(--cover-ink) 20%, transparent);
-    content: '';
+    border: 1px solid color-mix(in srgb, var(--cover-ink) 18%, transparent);
+    background: color-mix(in srgb, var(--cover-paper) 85%, white);
 }
 
-.book-cover-pages::after {
+.book-cover-page-lines::after {
     position: absolute;
-    top: 40%;
-    left: 16%;
-    width: 68%;
+    left: 8px;
+    right: 8px;
+    top: 24%;
     height: 1px;
     background: color-mix(in srgb, var(--cover-ink) 22%, transparent);
-    box-shadow: 0 7px color-mix(in srgb, var(--cover-ink) 22%, transparent),
-        0 14px color-mix(in srgb, var(--cover-ink) 22%, transparent),
-        0 21px color-mix(in srgb, var(--cover-ink) 22%, transparent);
+    box-shadow:
+        0 6px color-mix(in srgb, var(--cover-ink) 22%, transparent),
+        0 12px color-mix(in srgb, var(--cover-ink) 22%, transparent),
+        0 18px color-mix(in srgb, var(--cover-ink) 22%, transparent),
+        0 24px color-mix(in srgb, var(--cover-ink) 22%, transparent),
+        0 30px color-mix(in srgb, var(--cover-ink) 22%, transparent);
     content: '';
+    opacity: .7;
+}
+
+/* 翻动中的多层内页（形成扇形展开的层叠厚度，4 层翻页梯队） */
+.book-cover-page-turning {
+    position: absolute;
+    inset: 0;
+    background: color-mix(in srgb, var(--cover-paper) 90%, white);
+    border: 1px solid color-mix(in srgb, var(--cover-ink) 28%, transparent);
+    transform-origin: left center;
+    transform: perspective(900px) rotateY(calc(var(--page1-angle) * 1deg)) translateX(calc(var(--page1-shift) * 1%));
+    pointer-events: none;
+}
+
+.book-cover-page-turning.page-layer-1 {
+    z-index: 1;
+    background: color-mix(in srgb, var(--cover-paper) 88%, white);
+    box-shadow: 1px 2px 4px color-mix(in srgb, var(--cover-ink) 10%, transparent);
+}
+
+.book-cover-page-turning.page-layer-2 {
+    z-index: 2;
+    background: color-mix(in srgb, var(--cover-paper) 92%, white);
+    box-shadow: 1.8px 2.5px 5px color-mix(in srgb, var(--cover-ink) 12%, transparent);
+    transform: perspective(900px) rotateY(calc(var(--page2-angle) * 1deg)) translateX(calc(var(--page2-shift) * 1%));
+}
+
+.book-cover-page-turning.page-layer-3 {
+    z-index: 3;
+    background: color-mix(in srgb, var(--cover-paper) 95%, white);
+    box-shadow: 2.4px 3.2px 6px color-mix(in srgb, var(--cover-ink) 15%, transparent);
+    transform: perspective(900px) rotateY(calc(var(--page3-angle) * 1deg)) translateX(calc(var(--page3-shift) * 1%));
+}
+
+.book-cover-page-turning.page-layer-4 {
+    z-index: 4;
+    background: color-mix(in srgb, var(--cover-paper) 98%, white);
+    box-shadow: 3px 4px 8px color-mix(in srgb, var(--cover-ink) 18%, transparent);
+    transform: perspective(900px) rotateY(calc(var(--page4-angle) * 1deg)) translateX(calc(var(--page4-shift) * 1%));
+}
+
+.book-cover-page-turning::after {
+    position: absolute;
+    left: 8px;
+    right: 8px;
+    top: 26%;
+    height: 1px;
+    background: color-mix(in srgb, var(--cover-ink) 18%, transparent);
+    box-shadow:
+        0 7px color-mix(in srgb, var(--cover-ink) 18%, transparent),
+        0 14px color-mix(in srgb, var(--cover-ink) 18%, transparent),
+        0 21px color-mix(in srgb, var(--cover-ink) 18%, transparent);
+    content: '';
+    opacity: .5;
+}
+
+.book-cover.is-flipped .book-cover-page-turning {
+    transform-origin: right center;
+    transform: perspective(900px) rotateY(calc(var(--page1-angle) * 1deg)) translateX(calc(var(--page1-shift) * 1%));
+}
+
+.book-cover.is-flipped .book-cover-page-turning.page-layer-1 {
+    box-shadow: -1px 2px 4px color-mix(in srgb, var(--cover-ink) 10%, transparent);
+}
+
+.book-cover.is-flipped .book-cover-page-turning.page-layer-2 {
+    box-shadow: -1.8px 2.5px 5px color-mix(in srgb, var(--cover-ink) 12%, transparent);
+    transform: perspective(900px) rotateY(calc(var(--page2-angle) * 1deg)) translateX(calc(var(--page2-shift) * 1%));
+}
+
+.book-cover.is-flipped .book-cover-page-turning.page-layer-3 {
+    box-shadow: -2.4px 3.2px 6px color-mix(in srgb, var(--cover-ink) 15%, transparent);
+    transform: perspective(900px) rotateY(calc(var(--page3-angle) * 1deg)) translateX(calc(var(--page3-shift) * 1%));
+}
+
+.book-cover.is-flipped .book-cover-page-turning.page-layer-4 {
+    box-shadow: -3px 4px 8px color-mix(in srgb, var(--cover-ink) 18%, transparent);
+    transform: perspective(900px) rotateY(calc(var(--page4-angle) * 1deg)) translateX(calc(var(--page4-shift) * 1%));
 }
 
 .book-cover-back,
 .book-cover-front {
-    padding: 11px 10px 10px;
+    padding: 13px 11px 11px;
     background: var(--cover-paper);
-    border: 1px solid color-mix(in srgb, var(--cover-ink) 42%, transparent);
-    box-shadow: 2px 2px 0 color-mix(in srgb, var(--cover-ink) 18%, transparent);
+    border: 1px solid color-mix(in srgb, var(--cover-ink) 35%, transparent);
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.12);
 }
 
 .book-cover-back {
     z-index: 1;
-    opacity: var(--back-opacity);
-    transform: perspective(500px) rotateY(calc(var(--back-angle) * 1deg)) translateX(calc(var(--back-shift) * 1%));
+    display: none;
+}
+
+.book-cover-spine {
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 3px;
+    background: color-mix(in srgb, var(--cover-ink) 55%, transparent);
+    pointer-events: none;
+}
+
+.book-cover.is-flipped .book-cover-spine {
+    left: auto;
+    right: 0;
+}
+
+.book-cover.is-flipped .book-cover-front {
+    display: none;
+}
+
+.book-cover.is-flipped .book-cover-state {
+    display: none;
+}
+
+.book-cover.is-flipped .book-cover-back {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 3;
+    padding: 13px 11px;
+    box-shadow: -2px 3px 8px rgba(0, 0, 0, 0.12);
+    transform: perspective(900px) rotateY(calc(var(--back-angle) * 1deg)) translateX(calc(var(--back-shift) * 1%));
     transform-origin: right center;
 }
 
@@ -1059,12 +1210,155 @@ body.theme-dark .u-color-error { color: #ff7b72; }
     pointer-events: none;
 }
 
-.book-cover-back span {
-    position: absolute;
-    right: 10px;
-    bottom: 9px;
-    font-size: 8px;
+/* 封底内部精致排版 */
+.book-cover-back .back-inner {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.book-cover-back .back-header {
+    font-size: 8.5px;
+    color: color-mix(in srgb, var(--cover-ink) 65%, transparent);
     letter-spacing: .06em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.book-cover-back .vertical-quote-wrap {
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.book-cover-back .vertical-quote {
+    writing-mode: vertical-rl;
+    font-size: 11px;
+    letter-spacing: .16em;
+    color: var(--cover-ink);
+    font-weight: 600;
+    line-height: 1.8;
+    max-height: 95px;
+    white-space: nowrap;
+}
+
+.book-cover-back .center-crest {
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    text-align: center;
+}
+
+.book-cover-back .crest-svg {
+    color: var(--cover-ink);
+    opacity: .85;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-cover-back .crest-svg svg {
+    width: 24px;
+    height: 24px;
+}
+
+.book-cover-back .crest-text {
+    font-size: 9.5px;
+    letter-spacing: .16em;
+    color: var(--cover-ink);
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.book-cover-back .crest-sub {
+    font-size: 7.5px;
+    color: color-mix(in srgb, var(--cover-ink) 65%, transparent);
+    letter-spacing: .08em;
+    white-space: nowrap;
+}
+
+.book-cover-back .back-footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-top: 1px solid color-mix(in srgb, var(--cover-ink) 30%, transparent);
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.book-cover-back .barcode-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5px;
+}
+
+.book-cover-back .barcode-lines {
+    display: flex;
+    gap: 1.2px;
+    height: 10px;
+    align-items: stretch;
+}
+
+.book-cover-back .barcode-lines i {
+    background: color-mix(in srgb, var(--cover-ink) 75%, transparent);
+    display: block;
+    width: 1.2px;
+}
+
+.book-cover-back .barcode-lines i:nth-child(even) {
+    width: 2px;
+}
+
+.book-cover-back .barcode-lines i:nth-child(3n) {
+    width: 0.8px;
+}
+
+.book-cover-back .barcode-num {
+    font-size: 6px;
+    font-family: monospace;
+    color: color-mix(in srgb, var(--cover-ink) 70%, transparent);
+    letter-spacing: -.02em;
+    white-space: nowrap;
+}
+
+.book-cover-back .stamp-done {
+    width: 20px;
+    height: 20px;
+    border: 1.2px solid #a83836;
+    color: #a83836;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8.5px;
+    font-weight: 700;
+    transform: rotate(-10deg);
+    opacity: .95;
+    background: rgba(168, 56, 54, .04);
+    flex-shrink: 0;
+}
+
+.book-cover-back .stamp-pending {
+    width: 20px;
+    height: 20px;
+    border: 1px dashed color-mix(in srgb, var(--cover-ink) 45%, transparent);
+    color: color-mix(in srgb, var(--cover-ink) 65%, transparent);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 7px;
+    flex-shrink: 0;
 }
 
 .book-cover-front {
@@ -1073,7 +1367,7 @@ body.theme-dark .u-color-error { color: #ff7b72; }
     flex-direction: column;
     justify-content: space-between;
     opacity: var(--front-opacity);
-    transform: perspective(500px) rotateY(calc(var(--front-angle) * 1deg)) translateX(calc(var(--front-shift) * 1%));
+    transform: perspective(900px) rotateY(calc(var(--front-angle) * 1deg)) translateX(calc(var(--front-shift) * 1%));
     transform-origin: left center;
 }
 
@@ -1083,16 +1377,6 @@ body.theme-dark .u-color-error { color: #ff7b72; }
     opacity: var(--front-text-opacity);
 }
 
-.book-cover-spine {
-    position: absolute;
-    z-index: 4;
-    top: 7px;
-    bottom: 7px;
-    left: 8px;
-    width: 2px;
-    background: color-mix(in srgb, var(--cover-ink) 55%, transparent);
-    pointer-events: none;
-}
 
 .book-cover-state {
     position: absolute;
@@ -1262,14 +1546,41 @@ body.theme-dark .u-color-error { color: #ff7b72; }
 .store-cell {
     display: flex;
     flex-direction: column;
-    gap: 9px;
+    gap: 12px;
     cursor: pointer;
+}
+
+.store-row .book-cover {
+    flex-shrink: 0;
+}
+.store-row .book-cover-front,
+.store-row .book-cover-back {
+    padding: 10px 8px 8px;
+}
+.store-row .book-cover .book-cover-title {
+    font-size: 13.5px;
+}
+.store-row .book-cover .book-cover-mark,
+.store-row .book-cover .book-cover-author {
+    font-size: 8px;
 }
 
 .store-cell .book-cover {
     width: 100%;
     height: 196px;
     flex-basis: auto;
+}
+.store-cell .book-cover-front,
+.store-cell .book-cover-back {
+    padding: 12px 10px 10px;
+}
+.store-cell .book-cover .book-cover-title {
+    font-size: 15px;
+}
+
+.store-row-progress,
+.store-cell-progress {
+    margin-top: 6px;
 }
 
 .store-cell:active {
@@ -3590,6 +3901,18 @@ body.theme-dark .action-sheet-btn.danger {
         grid-area: cover;
         width: 64px;
         min-height: 96px;
+    }
+
+    .store-row .book-cover .book-cover-title {
+        font-size: 11px;
+    }
+    .store-row .book-cover-front,
+    .store-row .book-cover-back {
+        padding: 8px 6px 6px;
+    }
+    .store-row .book-cover-mark,
+    .store-row .book-cover-author {
+        font-size: 7px;
     }
 
     .store-row-main {
