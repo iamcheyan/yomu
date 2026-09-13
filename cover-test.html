@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Yomu 書籍カバー・開き具合テスト</title>
-    <!-- 1. 确保固定产品字体声明与系统完全一致 -->
+    <title>Yomu 書籍カバー・開き具合と新デザイン調測頁</title>
+    <!-- 1. 字体声明 -->
     <style>
         @font-face {
             font-family: "YomuCoverSerif";
@@ -28,16 +28,37 @@
             src: url("assets/fonts/klee-one-400.woff2") format("woff2");
         }
     </style>
-    <!-- 2. 直接引入主系统样式表，保证100%相同的样式、变量与规则 -->
+    <!-- 2. 系统主样式 -->
     <link rel="stylesheet" href="css/style.css">
-    <!-- 3. 测试页专属布局辅助样式（不影响 book-cover 本身） -->
+    <!-- 3. 新设计核心规范覆盖（墨水屏优化：统一象牙白不透明纸张 + 3px分类内边框 + 书打开进度 + 未下载状态） -->
     <style>
+        :root {
+            /* 统一象牙白纸张底色与深墨色，彻底消除多色纸张与半透明，墨水屏高对比度 */
+            --cover-base-paper: #f7f4ec;
+            --cover-base-ink: #2b2723;
+            
+            /* 图书分类专属内边框色彩体系（和风高对比） */
+            --cat-fiction: #c59b38;    /* 小说：经典琥珀金 */
+            --cat-essay: #3b7066;      /* 随笔・记录：深青竹 */
+            --cat-poetry: #a83d3b;     /* 诗歌：茜红 */
+            --cat-foreign: #355988;    /* 海外文学：绀青 */
+            --cat-children: #4e873b;   /* 儿童文学：萌黄翠竹 */
+            --cat-drama: #724580;      /* 戏剧・演剧：菖蒲紫 */
+            --cat-default: #685f54;    /* 其他/通用：墨灰 */
+
+            /* 日本文庫判（105 mm × 148 mm，宽高比 1 : 1.4095）标准开本固定尺寸 */
+            --bunko-w: 156px;
+            --bunko-h: 220px; /* 156 * 148 / 105 = 219.88px ≈ 220px (严格 105 : 148) */
+            --stage-w: 172px; /* 包含书脊 6px + 右侧书芯厚度切面 10px */
+            --stage-h: 238px; /* 包含上下微透视与真实投影 */
+        }
+
         body.test-page {
             margin: 0;
-            padding: 36px 32px 60px;
+            padding: 36px 36px 60px;
             background: var(--bg-color, #f4ead2);
             color: var(--fg-color, #25221f);
-            font-family: var(--font-serif, "Noto Serif JP", serif);
+            font-family: YomuCoverSerif, "Noto Serif JP", serif;
             -webkit-font-smoothing: antialiased;
         }
         .test-wrap {
@@ -63,8 +84,8 @@
         /* 顶部交互调试面板 */
         .preview-panel {
             margin-bottom: 36px;
-            padding: 22px 26px;
-            background: rgba(255, 255, 255, .6);
+            padding: 22px 28px;
+            background: rgba(255, 255, 255, .65);
             border: 1px solid var(--hairline, rgba(0,0,0,0.12));
             border-radius: 12px;
             display: flex;
@@ -73,8 +94,11 @@
             box-shadow: 0 4px 16px rgba(0, 0, 0, .04);
         }
         .preview-card-wrap {
-            width: 184px;
+            width: var(--stage-w);
             flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .preview-controls {
             flex: 1;
@@ -101,14 +125,14 @@
         }
 
         .btn-group {
-            margin-top: 14px;
+            margin-top: 12px;
             display: flex;
             align-items: center;
             gap: 8px;
             flex-wrap: wrap;
         }
         .btn-group-label {
-            font-size: 12.5px;
+            font-size: 12px;
             font-weight: 600;
             color: var(--fg-color, #25221f);
             font-family: var(--font-sans, system-ui, sans-serif);
@@ -116,9 +140,9 @@
         .test-btn {
             background: rgba(255, 255, 255, .7);
             border: 1px solid var(--hairline, rgba(0,0,0,0.18));
-            padding: 5px 12px;
+            padding: 4.5px 11px;
             border-radius: 6px;
-            font-size: 12px;
+            font-size: 11.5px;
             font-family: var(--font-sans, system-ui, sans-serif);
             cursor: pointer;
             color: var(--fg-color, #25221f);
@@ -133,38 +157,9 @@
             border-color: #555f6b;
         }
 
-        /* 竖排书名模式（默认启用） */
-        body.test-page.mode-vertical-title .book-cover-title {
-            position: absolute;
-            top: 16px;
-            bottom: 16px;
-            left: 50%;
-            right: auto;
-            transform: translateX(-50%);
-            writing-mode: vertical-rl;
-            text-orientation: mixed;
-            font-family: YomuCoverSerif, var(--font-serif, serif);
-            font-size: clamp(15px, 1.8vw, 19px);
-            font-weight: 600;
-            line-height: 1.5;
-            letter-spacing: 0.16em;
-            max-height: 168px;
-            max-width: 4.5em;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            overflow: hidden;
-            white-space: normal;
-        }
-        body.test-page.mode-vertical-title .book-cover-title::before {
-            display: none;
-        }
-
         /* 区域标题 */
         .section-header {
-            margin: 32px 0 16px;
+            margin: 36px 0 16px;
             padding-bottom: 8px;
             border-bottom: 1px solid var(--hairline, rgba(0,0,0,0.14));
             display: flex;
@@ -172,7 +167,7 @@
             justify-content: space-between;
         }
         .section-title {
-            font-size: 18px;
+            font-size: 17.5px;
             font-weight: 700;
             margin: 0;
             letter-spacing: .04em;
@@ -183,18 +178,27 @@
             font-family: var(--font-sans, system-ui, sans-serif);
         }
 
-        /* 网格展示容器：100% 保持与真实书架 .book-listing 完全一致的尺寸与间距 */
+        /* 网格展示容器：固定文庫判卡片宽度，自动换行，防止 1fr 拉伸变形为方块 */
         .test-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(176px, 1fr));
-            gap: 36px 40px;
-            padding-top: 12px;
+            grid-template-columns: repeat(auto-fill, var(--stage-w));
+            gap: 32px 30px;
+            padding-top: 8px;
         }
 
         .state-card {
             display: flex;
             flex-direction: column;
             gap: 8px;
+            width: var(--stage-w);
+        }
+        .state-card .book-row {
+            width: var(--stage-w);
+            height: auto;
+        }
+        .state-card .book-row .book-cover {
+            width: var(--stage-w);
+            height: var(--stage-h);
         }
         .state-meta {
             padding-top: 6px;
@@ -205,7 +209,7 @@
             font-family: var(--font-sans, system-ui, sans-serif);
         }
         .state-name {
-            font-size: 12.5px;
+            font-size: 12px;
             font-weight: 600;
             color: var(--fg-color, #25221f);
         }
@@ -214,81 +218,573 @@
             color: var(--muted-color, #70685c);
             line-height: 1.4;
         }
+
+        /* ====================================================
+           核心覆盖规则：日本文庫判（105×148mm）固定尺寸 + 统一象牙白不透明纸张 + 3px分类内边框
+           ==================================================== */
+        .book-cover {
+            --cover-paper: var(--cover-base-paper) !important;
+            --cover-ink: var(--cover-base-ink) !important;
+            position: relative;
+            width: var(--stage-w);
+            height: var(--stage-h);
+            perspective: 1000px;
+            overflow: visible;
+        }
+
+        /* 文庫判正封面与内页精确尺寸锁定：156px × 220px (严格 105 : 148) */
+        .book-cover-front,
+        .book-cover-back,
+        .book-cover-pages-base,
+        .book-cover-page-turning {
+            position: absolute;
+            left: 6px;
+            top: 8px;
+            width: var(--bunko-w);
+            height: var(--bunko-h);
+            box-sizing: border-box;
+            border-radius: 1px 2px 2px 1px;
+        }
+
+        /* 闭合未读（0%）或读了合上（100%）时，隐藏翻页层，但保留底册书芯与切口厚度阴影 */
+        .book-cover.is-closed .book-cover-page-turning,
+        .book-cover.is-finished .book-cover-page-turning {
+            display: none !important;
+        }
+        .book-cover.is-closed .book-cover-back {
+            display: none !important;
+        }
+        .book-cover.is-finished .book-cover-front {
+            display: none !important;
+        }
+
+        /* 书脊：严格锚定在封面左侧 6px 位置 */
+        .book-cover-spine {
+            position: absolute;
+            z-index: 6;
+            left: 6px;
+            top: 8px;
+            width: 2px;
+            height: var(--bunko-h);
+            background: color-mix(in srgb, var(--cover-ink) 30%, transparent);
+            box-shadow: 1px 0 0 color-mix(in srgb, white 58%, transparent);
+            opacity: .82;
+            pointer-events: none;
+        }
+        .book-cover.is-flipped .book-cover-spine {
+            left: auto;
+            right: 6px;
+            box-shadow: -1px 0 0 color-mix(in srgb, white 58%, transparent);
+        }
+
+        /* 底册书芯厚度（右侧呈现立体层叠） */
+        .book-cover-pages-base {
+            background: #faf6ec;
+            border: 1px solid #c8bead;
+            box-shadow:
+                1px 1px 0 #ede6d6,
+                2px 2px 0 #e4dcc9,
+                3px 3px 0 #dcd4c1,
+                4px 4px 0 #d4cbb8,
+                5px 5px 0 #ccc3af,
+                6px 6px 0 #c4bba6,
+                7px 7px 0 #bcb39e,
+                8px 9px 12px rgba(60, 50, 40, .26);
+            z-index: 1;
+            overflow: hidden;
+        }
+        /* is-flipped: 書芯厚みを左側に反転 */
+        .book-cover.is-flipped .book-cover-pages-base {
+            /* style.css の left:4%/right:10% を !important で上書き */
+            left: 6px !important;
+            right: auto !important;
+            top: 8px !important;
+            width: var(--bunko-w) !important;
+            height: var(--bunko-h) !important;
+            box-shadow:
+                -1px 1px 0 #ede6d6,
+                -2px 2px 0 #e4dcc9,
+                -3px 3px 0 #dcd4c1,
+                -4px 4px 0 #d4cbb8,
+                -5px 5px 0 #ccc3af,
+                -6px 6px 0 #c4bba6,
+                -7px 7px 0 #bcb39e,
+                -8px 9px 12px rgba(60, 50, 40, .26);
+        }
+        .book-cover-page-lines {
+            position: absolute;
+            inset: 8px;
+            border: 1px solid #e0d7c6;
+            background: #faf6ec;
+        }
+        .book-cover-page-lines::after {
+            position: absolute;
+            left: 12px;
+            right: 12px;
+            top: 24%;
+            height: 1.5px;
+            background: #ccbfa9;
+            box-shadow:
+                0 12px #ccbfa9,
+                0 24px #ccbfa9,
+                0 36px #ccbfa9,
+                0 48px #ccbfa9,
+                0 60px #ccbfa9;
+            content: "";
+            opacity: .6;
+        }
+
+        /* 翻页多层扇形展开（4 层梯队） */
+        .book-cover-page-turning {
+            transform-origin: left center;
+            pointer-events: none;
+            border: 1px solid #baaf99;
+        }
+        .book-cover-page-turning.page-layer-1 {
+            z-index: 2;
+            background: #faf6ec;
+            transform: perspective(1000px) rotateY(calc(var(--page1-angle) * 1deg));
+        }
+        .book-cover-page-turning.page-layer-2 {
+            z-index: 3;
+            background: #fbf8f0;
+            transform: perspective(1000px) rotateY(calc(var(--page2-angle) * 1deg));
+        }
+        .book-cover-page-turning.page-layer-3 {
+            z-index: 4;
+            background: #fdfaf4;
+            transform: perspective(1000px) rotateY(calc(var(--page3-angle) * 1deg));
+        }
+        .book-cover-page-turning.page-layer-4 {
+            z-index: 5;
+            background: #fffdfa;
+            transform: perspective(1000px) rotateY(calc(var(--page4-angle) * 1deg));
+        }
+        .book-cover-page-turning::after {
+            position: absolute;
+            left: 10px;
+            right: 10px;
+            top: 25%;
+            height: 1.5px;
+            background: #d5caa3;
+            box-shadow: 0 12px #d5caa3, 0 24px #d5caa3, 0 36px #d5caa3;
+            content: "";
+            opacity: .5;
+        }
+        /* is-flipped 翻页层：style.css の left:6%/right:10% + page-layer-N { left:5%~7.5% }（3クラス高特異性）を
+           !important で完全封殺。右溢れの根本原因を排除。 */
+        .book-cover.is-flipped .book-cover-page-turning,
+        .book-cover.is-flipped .book-cover-page-turning.page-layer-1,
+        .book-cover.is-flipped .book-cover-page-turning.page-layer-2,
+        .book-cover.is-flipped .book-cover-page-turning.page-layer-3,
+        .book-cover.is-flipped .book-cover-page-turning.page-layer-4 {
+            left: 6px !important;
+            right: auto !important;
+            top: 8px !important;
+            width: var(--bunko-w) !important;
+            height: var(--bunko-h) !important;
+        }
+        .book-cover.is-flipped .book-cover-page-turning {
+            transform-origin: right center;
+        }
+
+        .book-cover.is-flipped .book-cover-front {
+            display: none;
+        }
+        .book-cover.is-flipped .book-cover-back {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            z-index: 8 !important;
+            /* style.css is-flipped back transform は perspective(600px) + translateX を使う → !important で上書き */
+            left: 6px !important;
+            right: auto !important;
+            top: 8px !important;
+            width: var(--bunko-w) !important;
+            height: var(--bunko-h) !important;
+            transform: perspective(1000px) rotateY(calc(var(--back-angle) * 1deg)) !important;
+            transform-origin: right center !important;
+        }
+
+        /* 封面与封底彻底不透明：彻底根除透明透出内页横线の問題，墨水屏清晰锐利 */
+        .book-cover-front {
+            z-index: 6;
+            background: var(--cover-paper) !important;
+            color: var(--cover-ink) !important;
+            opacity: 1 !important;
+            border: 1px solid #baaf99;
+            box-shadow: 3px 3px 10px rgba(50, 45, 35, .20);
+            transform-origin: left center;
+            transform: perspective(1000px) rotateY(calc(var(--front-angle) * 1deg));
+            padding: 12px;
+        }
+        .book-cover-back {
+            display: none;
+            z-index: 6;
+            background: var(--cover-paper) !important;
+            color: var(--cover-ink) !important;
+            opacity: 1 !important;
+            border: 1px solid #baaf99;
+            box-shadow: -3px 3px 10px rgba(50, 45, 35, .20);
+            transform-origin: right center;
+            transform: perspective(1000px) rotateY(calc(var(--back-angle) * 1deg));
+            padding: 12px;
+        }
+
+        /* 封面内侧 3px 加厚边框（只有这个边框颜色根据图书分类改变） */
+        .book-cover-front::after,
+        .book-cover-back::after {
+            position: absolute;
+            inset: 7px;
+            border: 3px solid var(--cat-border-color, #c59b38);
+            border-radius: 1px;
+            content: '';
+            pointer-events: none;
+        }
+
+        /* 分类专属内边框色 */
+        .cat-fiction { --cat-border-color: var(--cat-fiction); }
+        .cat-essay { --cat-border-color: var(--cat-essay); }
+        .cat-poetry { --cat-border-color: var(--cat-poetry); }
+        .cat-foreign { --cat-border-color: var(--cat-foreign); }
+        .cat-children { --cat-border-color: var(--cat-children); }
+        .cat-drama { --cat-border-color: var(--cat-drama); }
+        .cat-default { --cat-border-color: var(--cat-default); }
+
+        /* NDC 编目号：右上角 */
+        .book-cover-mark {
+            position: absolute;
+            top: 12px;
+            right: 13px;
+            font-size: 9.5px;
+            font-weight: 600;
+            color: #555047;
+            letter-spacing: .06em;
+            font-family: system-ui, sans-serif;
+        }
+
+        /* 封面竖排书名：完美居中，挺拔优雅 */
+        .book-cover-title {
+            position: absolute;
+            left: 50%;
+            top: 30%;
+            transform: translate(-50%, -50%);
+            font-family: YomuCoverSerif, var(--font-serif, serif);
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 1.45;
+            letter-spacing: .09em;
+            max-height: 5.8em;
+            width: calc(100% - 24px);
+            text-align: center;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 4;
+            line-clamp: 4;
+        }
+        .book-cover-title::before {
+            display: none;
+        }
+
+        .book-cover-author {
+            position: absolute;
+            top: 47%;
+            left: 12px;
+            right: 12px;
+            overflow: hidden;
+            font-family: YomuCoverAccent, YomuCoverSerif, var(--font-serif, serif);
+            font-size: 11px;
+            line-height: 1.35;
+            letter-spacing: .12em;
+            text-align: center;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .book-cover-rule {
+            position: absolute;
+            top: 64%;
+            left: 28%;
+            right: 28%;
+            height: 1px;
+            background: color-mix(in srgb, var(--cover-ink) 42%, transparent);
+        }
+
+        .book-cover-publisher {
+            position: absolute;
+            top: 79%;
+            left: 12px;
+            right: 12px;
+            overflow: hidden;
+            font-family: YomuCoverSans, system-ui, sans-serif;
+            font-size: 9px;
+            line-height: 1.35;
+            letter-spacing: .12em;
+            text-align: center;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        /* 封底内部排版 */
+        .back-inner {
+            position: relative;
+            z-index: 1;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .back-header {
+            font-size: 9px;
+            color: #6a6256;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 2px;
+            font-family: system-ui, sans-serif;
+        }
+        .vertical-quote-wrap {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 4px 0;
+        }
+        .vertical-quote {
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            font-size: 11px;
+            line-height: 1.7;
+            letter-spacing: .16em;
+            color: #3b3630;
+            max-height: 106px;
+        }
+        .center-crest {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+            color: #70685c;
+        }
+        .crest-text {
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: .16em;
+            color: #3b3630;
+        }
+        .crest-sub {
+            font-size: 8px;
+            color: #887f73;
+            letter-spacing: .08em;
+        }
+        .back-footer {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            padding-top: 4px;
+        }
+        .barcode-wrap {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+        .barcode-lines {
+            display: flex;
+            align-items: flex-end;
+            gap: 1.5px;
+            height: 15px;
+        }
+        .barcode-lines i {
+            display: block;
+            width: 1.5px;
+            height: 100%;
+            background: #2b2723;
+        }
+        .barcode-lines i:nth-child(even) { width: 1px; }
+        .barcode-lines i:nth-child(3n) { width: 2.2px; }
+        .barcode-num {
+            font-size: 6.5px;
+            color: #6a6256;
+            letter-spacing: .04em;
+            font-family: monospace;
+        }
+        .stamp-done {
+            width: 32px;
+            height: 32px;
+            border: 2px solid #b83324;
+            border-radius: 50%;
+            color: #b83324;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: .08em;
+            transform: rotate(-12deg);
+            box-shadow: 0 0 0 1px #b83324, inset 0 0 0 1px #b83324;
+            font-family: YomuCoverSerif, serif;
+        }
+
+        /* 未下载状态（灰色纸张 + 虚线框 + 云朵图标 + 提示用户点击下载） */
+        .book-cover.is-undownloaded .book-cover-front {
+            background: #eaeaea !important;
+            color: #666666 !important;
+            border-color: #cccccc !important;
+        }
+        .book-cover.is-undownloaded .book-cover-front::after {
+            border: 2px dashed #999999 !important;
+        }
+        .book-cover.is-undownloaded .book-cover-spine {
+            background: #999999 !important;
+        }
+        .book-cover.is-undownloaded .book-cover-mark {
+            display: none;
+        }
+        .book-cover.is-undownloaded .book-cover-title {
+            position: absolute;
+            top: 22px;
+            left: 10px;
+            right: 10px;
+            transform: none;
+            writing-mode: horizontal-tb;
+            font-size: 14.5px;
+            font-weight: 600;
+            line-height: 1.35;
+            letter-spacing: .06em;
+            text-align: center;
+            max-height: 2.7em;
+            color: #555555;
+        }
+        .undownloaded-author {
+            position: absolute;
+            top: 48px;
+            left: 10px;
+            right: 10px;
+            font-size: 11px;
+            text-align: center;
+            color: #777777;
+            letter-spacing: .06em;
+        }
+        .book-cover-cloud-icon {
+            position: absolute;
+            top: 54%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #777777;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+        }
+        .book-cover-cloud-icon svg {
+            width: 34px;
+            height: 34px;
+        }
+        .book-cover-cloud-icon::after {
+            content: "";
+            display: block;
+            width: 22px;
+            height: 1.5px;
+            background: currentColor;
+            opacity: 0.35;
+        }
+        .undownloaded-imprint {
+            position: absolute;
+            bottom: 12px;
+            left: 10px;
+            right: 10px;
+            font-size: 9.5px;
+            text-align: center;
+            letter-spacing: .12em;
+            color: #888888;
+        }
     </style>
 </head>
-<body class="test-page mode-vertical-title">
+<body class="test-page">
     <div class="test-wrap">
         <header class="test-header">
-            <h1>本の開き具合・封面封底样式调测页</h1>
-            <p>100% 采用主系统相同的字体（YomuCoverSerif/Sans/Accent）、DOM 结构、CSS 变量、作者和风配色及封底印章体系。</p>
+            <h1>本の開き具合・日本文庫判（105×148mm）封面调测页</h1>
+            <p><strong>开本尺寸严格锁定</strong>：日本文庫判（105 mm × 148 mm ＝ 宽:高 1:1.4095，固定尺寸 156px × 220px，永不随网格拉伸变形） ｜ 统一象牙白不透明纸张（墨水屏高对比优化） ｜ 3px分类内边框 ｜ 3D开书进度展开与收窄 ｜ 未下载状态</p>
             
             <div class="preview-panel">
                 <div class="preview-card-wrap" id="preview-card-container"></div>
                 <div class="preview-controls">
                     <label for="progress-slider">
-                        <span>進捗スライダー（0% 〜 100% 任意位置实时调试）</span>
+                        <span>進捗スライダー（0% 〜 100% 拖动观察开书展开与折角）</span>
                         <span id="slider-label">0%</span>
                     </label>
                     <input type="range" id="progress-slider" min="0" max="100" value="0" step="1">
-                    <div class="preview-note" id="slider-note">本を閉じた状態（表紙正面）</div>
+                    <div class="preview-note" id="slider-note">未読（0%）— 本を閉じた状態（表紙正面）</div>
                     
                     <div class="btn-group">
-                        <span class="btn-group-label">书名排版方向：</span>
-                        <button class="test-btn orient-btn active" data-orient="vertical">★ 竖排书名（当前展示）</button>
-                        <button class="test-btn orient-btn" data-orient="horizontal">横排书名对比</button>
+                        <span class="btn-group-label">切换图书分类边框色：</span>
+                        <button class="test-btn cat-btn active" data-cat="fiction">小说（琥珀金 #c59b38）</button>
+                        <button class="test-btn cat-btn" data-cat="essay">随笔・记录（深青竹 #3b7066）</button>
+                        <button class="test-btn cat-btn" data-cat="poetry">诗歌（茜红 #a83d3b）</button>
+                        <button class="test-btn cat-btn" data-cat="foreign">海外文学（绀青 #355988）</button>
+                        <button class="test-btn cat-btn" data-cat="children">儿童文学（翠竹 #4e873b）</button>
+                        <button class="test-btn cat-btn" data-cat="drama">戏剧（菖蒲紫 #724580）</button>
+                        <button class="test-btn cat-btn" data-cat="default">通用/其他（墨灰 #685f54）</button>
                     </div>
 
                     <div class="btn-group" style="margin-top: 10px;">
-                        <span class="btn-group-label">切换当前测试图书：</span>
-                        <button class="test-btn active" data-book-idx="0">太宰治《人間失格》</button>
-                        <button class="test-btn" data-book-idx="1">饗庭篁村《木曽道中記》</button>
-                        <button class="test-btn" data-book-idx="2">夏目漱石《吾輩は猫である》</button>
-                        <button class="test-btn" data-book-idx="3">森鴎外《高瀬舟》</button>
-                        <button class="test-btn" data-book-idx="4">中島敦《山月記》（精选·有简介）</button>
-                        <button class="test-btn" data-book-idx="5">芥川龍之介《羅生門》</button>
-                        <button class="test-btn" data-book-idx="6">宮沢賢治《銀河鉄道の夜》</button>
+                        <span class="btn-group-label">切换演示作品：</span>
+                        <button class="test-btn book-btn active" data-book-idx="0">太宰治《人間失格》</button>
+                        <button class="test-btn book-btn" data-book-idx="1">饗庭篁村《木曽道中記》</button>
+                        <button class="test-btn book-btn" data-book-idx="2">夏目漱石《吾輩は猫である》</button>
+                        <button class="test-btn book-btn" data-book-idx="3">森鴎外《高瀬舟》</button>
+                        <button class="test-btn book-btn" data-book-idx="4">中島敦《山月記》</button>
+                        <button class="test-btn book-btn" data-book-idx="5">アーヴィング《ジョン・ブル》</button>
+                    </div>
+
+                    <div class="btn-group" style="margin-top: 10px;">
+                        <span class="btn-group-label">特殊状态演示：</span>
+                        <button class="test-btn undl-btn" id="toggle-undl-btn">★ 切换为【未下载状态】（灰色纸张 + 虚线边框 + 云朵）</button>
                     </div>
                 </div>
             </div>
         </header>
 
-        <!-- 第 1 部分：当前主系统真实书架还原（与截图 Image 0 对应） -->
+        <!-- 第 1 部分：开书全阶段进阶（0% 闭合、25% 打开、60% 大幅展开收窄、85% 封底反转、100% 读了盖印、未下载） -->
         <section>
             <div class="section-header">
-                <h2 class="section-title">1. 当前书架真实状态还原（多书目横向对比）</h2>
-                <span class="section-desc">包含《木曽道中記 53%》、《人間失格 58%》、《ジョン・ブル 35%》、《高瀬舟 24%》、《吾輩は猫である 9%》</span>
+                <h2 class="section-title">1. 书打开全阶段展开进阶（阅读进度真实状态）</h2>
+                <span class="section-desc">0%未读闭合、25%翻开、60%大幅展开收窄锁定书脊、85%封底反转、100%完读盖章、未下载状态</span>
+            </div>
+            <div class="test-grid" id="stages-grid"></div>
+        </section>
+
+        <!-- 第 2 部分：真实书架作品还原（多书目横向对比） -->
+        <section style="margin-top: 40px;">
+            <div class="section-header">
+                <h2 class="section-title">2. 真实书架作品套用新设计效果</h2>
+                <span class="section-desc">统一象牙白不透明纸张，只有 3px 内侧边框按分类变色，开书角度自然后缩收窄</span>
             </div>
             <div class="test-grid" id="shelf-grid"></div>
         </section>
 
-        <!-- 第 2 部分：单作品 0% ~ 100% 全阶段阶梯展示 -->
+        <!-- 第 3 部分：图书分类 3px 加厚边框色彩展示 -->
         <section style="margin-top: 40px;">
             <div class="section-header">
-                <h2 class="section-title">2. 选中作品全阶段演进阶梯（0% ~ 100%）</h2>
-                <span class="section-desc">0%未读闭合、5%~75%逐渐展开扇形书芯与内页、75%反转为封底、100%读了合上盖红印</span>
+                <h2 class="section-title">3. 图书分类专属内边框（3px 加厚）色彩对比</h2>
+                <span class="section-desc">小说（琥珀金）、随笔（深青竹）、诗歌（茜红）、海外文学（绀青）、儿童文学（翠竹）、戏剧（菖蒲紫）、通用（墨灰）</span>
             </div>
-            <div class="test-grid" id="stages-grid"></div>
+            <div class="test-grid" id="category-grid"></div>
         </section>
     </div>
 
-    <!-- 引入主系统 fonts.js -->
-    <script src="js/fonts.js"></script>
+    <script src="js/book-cover.js?v=1"></script>
     <script>
-        // 初始化字体
-        if (typeof YomuFonts !== 'undefined') {
-            YomuFonts.apply('mincho', 'mincho');
-        }
-
-        // 测试图书数据集（包含真实书架上的书籍）
         const testBooks = [
             {
                 id: 'dazai_ningen',
                 title: '人間失格',
                 author: '太宰治',
                 ndc: 'NDC 913',
-                themeClass: 'dazai',
+                category: 'fiction',
                 desc: '恥の多い生涯を送って来ました。自分には、人間の生活というものが、見当がつかないのです。',
-                workId: '001',
                 defaultProgress: 58
             },
             {
@@ -296,9 +792,8 @@
                 title: '木曽道中記',
                 author: '饗庭篁村',
                 ndc: 'NDC 915',
-                themeClass: 'default',
+                category: 'essay',
                 desc: '',
-                workId: '002',
                 defaultProgress: 53
             },
             {
@@ -306,9 +801,8 @@
                 title: '吾輩は猫である',
                 author: '夏目漱石',
                 ndc: 'NDC 913',
-                themeClass: 'souseki',
+                category: 'fiction',
                 desc: '吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。',
-                workId: '003',
                 defaultProgress: 9
             },
             {
@@ -316,9 +810,8 @@
                 title: '高瀬舟',
                 author: '森鴎外',
                 ndc: 'NDC 913',
-                themeClass: 'ogai',
+                category: 'fiction',
                 desc: '高瀬舟は京都の高瀬川を上下する小舟である。',
-                workId: '004',
                 defaultProgress: 24
             },
             {
@@ -326,44 +819,34 @@
                 title: '山月記',
                 author: '中島敦',
                 ndc: 'NDC 913',
-                themeClass: 'nakajima',
+                category: 'fiction',
                 desc: '自尊心ゆえに虎になった男の悲哀。臆病な自尊心と尊大な羞恥心。',
-                workId: '005',
-                defaultProgress: 65
-            },
-            {
-                id: 'akutagawa_rashomon',
-                title: '羅生門',
-                author: '芥川龍之介',
-                ndc: 'NDC 913',
-                themeClass: 'akutagawa',
-                desc: 'ある日の暮方の事である。一人の下人が、羅生門の下で雨やみを待っていた。',
-                workId: '006',
-                defaultProgress: 40
-            },
-            {
-                id: 'kenji_ginga',
-                title: '銀河鉄道の夜',
-                author: '宮沢賢治',
-                ndc: 'NDC 913',
-                themeClass: 'kenji',
-                desc: '',
-                workId: '007',
-                defaultProgress: 80
+                defaultProgress: 60
             },
             {
                 id: 'john_bull',
                 title: 'ジョン・ブル',
                 author: 'アーヴィングワシントン',
                 ndc: 'NDC 933',
-                themeClass: 'default',
+                category: 'foreign',
                 desc: '',
-                workId: '008',
                 defaultProgress: 35
             }
         ];
 
+        const categoryLabels = {
+            fiction: '小说（琥珀金 #c59b38）',
+            essay: '随笔・记录（深青竹 #3b7066）',
+            poetry: '诗歌（茜红 #a83d3b）',
+            foreign: '海外文学（绀青 #355988）',
+            children: '儿童文学（翠竹 #4e873b）',
+            drama: '戏剧（菖蒲紫 #724580）',
+            default: '通用/其他（墨灰 #685f54）'
+        };
+
         let currentBookIndex = 0;
+        let currentCat = 'fiction';
+        let isPreviewUndownloaded = false;
 
         function escapeHtml(str) {
             return String(str || '')
@@ -381,92 +864,70 @@
         }
 
         /**
-         * 100% 严格复刻 js/app.js 的 _coverMarkup 逻辑
+         * 完整保持书本打开动画与阅读进度（多层展开与折角收窄）
          */
-        function renderBookCover(book, percent) {
+        function renderOpenBookCover(book, percent, options = {}) {
+            const isUndownloaded = Boolean(options.isUndownloaded);
             const clamped = Math.max(0, Math.min(100, Math.round(percent)));
+            if (window.YomuBookCover) {
+                return YomuBookCover.render(book, clamped, {
+                    escapeHtml,
+                    escapeAttr,
+                    category: options.category || book.category || 'fiction',
+                    isUndownloaded
+                });
+            }
+            const cat = options.category || book.category || 'fiction';
             const threshold = 75;
-            const isFlipped = clamped > threshold;
+            const isFlipped = clamped > threshold && !isUndownloaded;
 
             let frontAngle = 0;
             let frontShift = 0;
-            let frontOpacity = 1;
             let backAngle = 0;
             let backShift = 0;
 
-            if (clamped === 0) {
+            if (clamped === 0 || isUndownloaded) {
                 frontAngle = 0;
-                frontOpacity = 1;
             } else if (!isFlipped) {
                 const ratio = clamped / threshold;
-                // 0% -> 0°, 50% -> -46°, 75% -> -65°
+                // 封面随旋转自然收窄，最左侧锁定书脊（frontShift = 0）
                 frontAngle = -65 * Math.pow(ratio, 0.85);
                 frontShift = 0;
-                frontOpacity = Math.max(0.4, 1 - 0.5 * ratio);
             } else {
                 const remain = (100 - clamped) / (100 - threshold);
                 backAngle = 65 * Math.pow(remain, 0.9);
+                // 与前半程保持同一展示区域，不额外平移整组书页。
                 backShift = 0;
             }
 
-            let page1Angle = 0, page1Shift = 0;
-            let page2Angle = 0, page2Shift = 0;
-            let page3Angle = 0, page3Shift = 0;
-            let page4Angle = 0, page4Shift = 0;
-
-            if (!isFlipped) {
+            let page1Angle = 0, page2Angle = 0, page3Angle = 0, page4Angle = 0;
+            if (!isFlipped && !isUndownloaded) {
                 page1Angle = frontAngle * 0.20;
-                page1Shift = frontShift * 0.18;
                 page2Angle = frontAngle * 0.40;
-                page2Shift = frontShift * 0.36;
                 page3Angle = frontAngle * 0.60;
-                page3Shift = frontShift * 0.56;
                 page4Angle = frontAngle * 0.80;
-                page4Shift = frontShift * 0.76;
-            } else {
+            } else if (isFlipped && !isUndownloaded) {
                 page1Angle = backAngle * 0.20;
-                page1Shift = backShift * 0.18;
                 page2Angle = backAngle * 0.40;
-                page2Shift = backShift * 0.36;
                 page3Angle = backAngle * 0.60;
-                page3Shift = backShift * 0.56;
                 page4Angle = backAngle * 0.80;
-                page4Shift = backShift * 0.76;
             }
 
-            const isClosed = clamped === 0;
-            const isFinished = clamped === 100;
+            const isClosed = (clamped === 0) || isUndownloaded;
+            const isFinished = (clamped === 100) && !isUndownloaded;
+
             let stateClass = '';
             if (isClosed) stateClass += ' is-closed';
             if (isFinished) stateClass += ' is-finished';
             if (isFlipped) stateClass += ' is-flipped';
+            if (isUndownloaded) stateClass += ' is-undownloaded';
 
-            const author = book.author || '';
             const coverNdc = book.ndc || 'NDC 913';
-            const themes = {
-                '夏目漱石': ['souseki', '夏目漱石'],
-                '芥川龍之介': ['akutagawa', '芥川龍之介'],
-                '太宰治': ['dazai', '太宰治'],
-                '宮沢賢治': ['kenji', '宮沢賢治'],
-                '森鴎外': ['ogai', '森鴎外'],
-                '森鷗外': ['ogai', '森鷗外'],
-                '中島敦': ['nakajima', '中島敦'],
-                '泉鏡花': ['kyoka', '泉鏡花'],
-                '江戸川乱歩': ['ranpo', '江戸川乱歩'],
-                '坂口安吾': ['ango', '坂口安吾'],
-                '島崎藤村': ['toson', '島崎藤村'],
-                '谷崎潤一郎': ['tanizaki', '谷崎潤一郎'],
-                '国木田独歩': ['doppo', '国木田独歩'],
-                '樋口一葉': ['ichiyo', '樋口一葉']
-            };
-            const theme = (book.themeClass ? [book.themeClass] : null) || themes[author] || ['default', '青空文庫'];
+            const coverPublisher = book.publisher || book.baseBook || '青空文庫';
 
             let backContent = '';
             if (isFlipped) {
-                // 依据用户确认：只保留大号盖印“読了”，移除中间的“読書中”标
-                const stampHTML = isFinished
-                    ? '<span class="stamp-done">読了</span>'
-                    : '';
+                const stampHTML = isFinished ? '<span class="stamp-done">読了</span>' : '';
                 const workNum = (book.workId || book.id || 'BOOK').toString().replace(/\D/g, '').slice(0, 5) || '001';
                 const barcodeHTML = `
                     <div class="barcode-wrap">
@@ -486,7 +947,7 @@
                     }
                     backContent = `
                         <div class="back-inner">
-                            <div class="back-header"><span>${escapeHtml(book.ndc || 'NDC 913')}</span><span>青空文庫</span></div>
+                            <div class="back-header"><span>${escapeHtml(coverNdc)}</span><span>青空文庫</span></div>
                             <div class="vertical-quote-wrap"><div class="vertical-quote">${vText}</div></div>
                             <div class="back-footer">${barcodeHTML}${stampHTML}</div>
                         </div>
@@ -494,7 +955,7 @@
                 } else {
                     backContent = `
                         <div class="back-inner">
-                            <div class="back-header"><span>${escapeHtml(book.ndc || 'NDC 913')}</span><span>青空文庫</span></div>
+                            <div class="back-header"><span>${escapeHtml(coverNdc)}</span><span>青空文庫</span></div>
                             <div class="center-crest">
                                 <div class="crest-svg">
                                     <svg width="28" height="28" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.4">
@@ -512,7 +973,33 @@
                 }
             }
 
-            return `<div class="book-cover book-cover-${theme[0]}${stateClass}" data-progress="${clamped}" style="--front-angle:${frontAngle.toFixed(1)};--front-shift:${frontShift.toFixed(1)};--front-opacity:${frontOpacity};--back-angle:${backAngle.toFixed(1)};--back-shift:${backShift.toFixed(1)};--page1-angle:${page1Angle.toFixed(1)};--page1-shift:${page1Shift.toFixed(1)};--page2-angle:${page2Angle.toFixed(1)};--page2-shift:${page2Shift.toFixed(1)};--page3-angle:${page3Angle.toFixed(1)};--page3-shift:${page3Shift.toFixed(1)};--page4-angle:${page4Angle.toFixed(1)};--page4-shift:${page4Shift.toFixed(1)}" aria-label="${escapeAttr(book.title)} — ${escapeAttr(author)}">
+            let frontInnerHtml = '';
+            if (isUndownloaded) {
+                frontInnerHtml = `
+                    <span class="book-cover-mark" aria-hidden="true">${escapeHtml(coverNdc)}</span>
+                    <span class="book-cover-title">${escapeHtml(book.title)}</span>
+                    <span class="book-cover-author">${escapeHtml(book.author)}</span>
+                    <span class="book-cover-rule" aria-hidden="true"></span>
+                    <span class="book-cover-publisher">${escapeHtml(coverPublisher)}</span>
+                    <div class="book-cover-cloud-icon" title="点击下载">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
+                            <polyline points="9 13 12 16 15 13"/>
+                            <line x1="12" y1="9" x2="12" y2="16"/>
+                        </svg>
+                    </div>
+                `;
+            } else {
+                frontInnerHtml = `
+                    <span class="book-cover-mark" aria-hidden="true">${escapeHtml(coverNdc)}</span>
+                    <span class="book-cover-title">${escapeHtml(book.title)}</span>
+                    <span class="book-cover-author">${escapeHtml(book.author)}</span>
+                    <span class="book-cover-rule" aria-hidden="true"></span>
+                    <span class="book-cover-publisher">${escapeHtml(coverPublisher)}</span>
+                `;
+            }
+
+            return `<div class="book-cover cat-${cat}${stateClass}" data-progress="${clamped}" style="--front-angle:${frontAngle.toFixed(1)};--front-shift:0;--back-angle:${backAngle.toFixed(1)};--back-shift:0;--page1-angle:${page1Angle.toFixed(1)};--page1-shift:0;--page2-angle:${page2Angle.toFixed(1)};--page2-shift:0;--page3-angle:${page3Angle.toFixed(1)};--page3-shift:0;--page4-angle:${page4Angle.toFixed(1)};--page4-shift:0" aria-label="${escapeAttr(book.title)} — ${escapeAttr(book.author)}">
                 <div class="book-cover-pages-base" aria-hidden="true"><div class="book-cover-page-lines"></div></div>
                 <div class="book-cover-page-turning page-layer-1" aria-hidden="true"></div>
                 <div class="book-cover-page-turning page-layer-2" aria-hidden="true"></div>
@@ -520,23 +1007,22 @@
                 <div class="book-cover-page-turning page-layer-4" aria-hidden="true"></div>
                 <div class="book-cover-back" aria-hidden="true">${backContent}</div>
                 <div class="book-cover-front">
-                    <span class="book-cover-mark" aria-hidden="true">${escapeHtml(coverNdc)}</span>
-                    <span class="book-cover-title">${escapeHtml(book.title)}</span>
+                    ${frontInnerHtml}
                 </div>
                 <i class="book-cover-spine" aria-hidden="true"></i>
             </div>`;
         }
 
-        /**
-         * 完整渲染包含下部作者、标题与进度条的书卡组件（100% 对应系统 .book-row）
-         */
-        function renderBookRowCard(book, percent, meta = null) {
+        function renderCardItem(book, percent, options = {}) {
+            const isUndownloaded = Boolean(options.isUndownloaded);
             const clamped = Math.max(0, Math.min(100, Math.round(percent)));
             const isRead = clamped > 0;
+            const bookCoverHtml = renderOpenBookCover(book, clamped, options);
+
             return `
                 <div class="state-card">
                     <div class="book-row">
-                        ${renderBookCover(book, clamped)}
+                        ${bookCoverHtml}
                         <div class="book-row-main">
                             <div class="book-row-author-line">
                                 <span class="book-row-author">${escapeHtml(book.author || '')}</span>
@@ -544,7 +1030,7 @@
                             <div class="book-row-footer">
                                 <div class="book-row-progress ${isRead ? 'is-read' : 'is-unread'}">
                                     <div class="track"><span style="width:${clamped}%"></span></div>
-                                    <span class="pct">${clamped >= 100 ? '読了' : clamped + '%'}</span>
+                                    <span class="pct">${isUndownloaded ? '未下载' : (clamped >= 100 ? '読了' : clamped + '%')}</span>
                                 </div>
                                 <button class="row-more-btn" title="詳細メニュー" aria-label="詳細メニュー">
                                     <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="5" r="1.8"></circle><circle cx="12" cy="12" r="1.8"></circle><circle cx="12" cy="19" r="1.8"></circle></svg>
@@ -552,87 +1038,127 @@
                             </div>
                         </div>
                     </div>
-                    ${meta ? `
-                        <div class="state-meta">
-                            <span class="state-name">${escapeHtml(meta.title)}</span>
-                            <span class="state-note">${escapeHtml(meta.note)}</span>
-                        </div>
-                    ` : ''}
+                    <div class="state-meta">
+                        <span class="state-name">${escapeHtml(options.labelTitle || book.title)}</span>
+                        <span class="state-note">${escapeHtml(options.labelDesc || '')}</span>
+                    </div>
                 </div>
             `;
         }
 
-        // 渲染区 1：真实书架还原
-        function renderShelfSection() {
-            const shelfGrid = document.getElementById('shelf-grid');
-            const shelfItems = [
-                testBooks[1], // 木曽道中記 53%
-                testBooks[0], // 人間失格 58%
-                testBooks[7], // ジョン・ブル 35%
-                testBooks[3], // 高瀬舟 24%
-                testBooks[2]  // 吾輩は猫である 9%
-            ];
-            shelfGrid.innerHTML = shelfItems.map(book => {
-                return renderBookRowCard(book, book.defaultProgress, {
-                    title: `当前书架实态：${book.title}`,
-                    note: `作者：${book.author} ｜ 进度：${book.defaultProgress}%`
-                });
-            }).join('');
-        }
-
         // 阶段描述
         function getStageDescription(p) {
-            if (p === 0) return { title: '未読 — 0%', note: '本を閉じた状態（表紙正面）' };
-            if (p === 100) return { title: '読了 — 100%', note: '封底が右側に現れ、完全に閉じて読了印が押された状態' };
-            if (p <= 20) return { title: `読書中 — ${p}%`, note: '表紙を開き始めた状態' };
-            if (p <= 50) return { title: `読書中 — ${p}%`, note: '読書進行中：本を大きく開いて読み進めている状態' };
-            if (p <= 75) return { title: `深読期 — ${p}%`, note: '本が最も大きく開き（約65°）、内頁が広く露出' };
-            return { title: `終盤・読了へ — ${p}%`, note: '左右反転：封底が右側に現れ、徐々に閉じて読了へと向かう状態' };
+            if (p === 0) return { title: '未読（0% 闭合）', note: '实体正面闭合，右侧展现真实书芯厚度' };
+            if (p === 100) return { title: '読了（100% 完读合上）', note: '左右反转封底完全合上，盖双圈朱红“読了”大印' };
+            if (p <= 20) return { title: `読書中（${p}% 开书初读）`, note: '封面开始折开，露出右侧多层扇形书芯与内页' };
+            if (p <= 55) return { title: `読書中（${p}% 深度阅读）`, note: '封面角度收窄自然后缩，最左侧锁定书脊' };
+            if (p <= 75) return { title: `深読期（${p}% 大幅展开）`, note: '封面最充分展开（-65°），书芯内页与横格线广泛露出' };
+            return { title: `終盤・読了へ（${p}% 封底反转）`, note: '左右反转呈现封底（条形码/引用），逐步合拢' };
         }
 
-        // 渲染区 2：单作品 0% ~ 100% 阶段网格
+        // 渲染第 1 部分：开书全阶段进阶
         function renderStagesSection() {
-            const stagesGrid = document.getElementById('stages-grid');
+            const grid = document.getElementById('stages-grid');
             const book = testBooks[currentBookIndex];
-            const steps = [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100];
-            stagesGrid.innerHTML = steps.map(pct => {
-                const desc = getStageDescription(pct);
-                return renderBookRowCard(book, pct, desc);
-            }).join('');
+            const steps = [
+                { p: 0, title: '未読（0%）', note: '正封面闭合' },
+                { p: 25, title: '読書中（25%）', note: '封面折开露出内页' },
+                { p: 53, title: '半分くらい（53%）', note: '封面自然后缩收窄' },
+                { p: 60, title: '深読期（60%）', note: '封面大幅展开，锁定书脊' },
+                { p: 85, title: '終盤（85%）', note: '封底朝向，引用与条码' },
+                { p: 100, title: '読了（100%）', note: '合上封底，盖大红印' },
+                { p: 0, isUndownloaded: true, title: '未ダウンロード', note: '灰色纸张·虚线框·云朵' }
+            ];
+            grid.innerHTML = steps.map(s => renderCardItem(book, s.p, {
+                labelTitle: s.title,
+                labelDesc: s.note,
+                isUndownloaded: s.isUndownloaded,
+                category: currentCat
+            })).join('');
+        }
+
+        // 渲染第 2 部分：书架真实作品对比
+        function renderShelfSection() {
+            const grid = document.getElementById('shelf-grid');
+            const shelfItems = [
+                { ...testBooks[0], p: 58 },                     // 人間失格 58% 小说
+                { ...testBooks[1], p: 53 },                     // 木曽道中記 53% 随笔
+                { ...testBooks[2], p: 9 },                      // 吾輩は猫である 9% 小说
+                { ...testBooks[3], p: 24 },                     // 高瀬舟 24% 小说
+                { ...testBooks[4], p: 100 },                    // 山月記 100% 读了
+                { ...testBooks[5], p: 0, isUndownloaded: true } // ジョン・ブル 未下载
+            ];
+            grid.innerHTML = shelfItems.map(item => renderCardItem(item, item.p, {
+                labelTitle: `${item.title}（${item.isUndownloaded ? '未下载' : (item.p === 100 ? '読了' : item.p + '%')}）`,
+                labelDesc: `${item.author} ｜ ${categoryLabels[item.category]}`,
+                isUndownloaded: item.isUndownloaded,
+                category: item.category
+            })).join('');
+        }
+
+        // 渲染第 3 部分：分类内边框对比
+        function renderCategorySection() {
+            const grid = document.getElementById('category-grid');
+            const catEntries = [
+                { cat: 'fiction', title: '小说类', author: '太宰治 / 夏目漱石' },
+                { cat: 'essay', title: '随笔・记录', author: '饗庭篁村 / 寺田寅彦' },
+                { cat: 'poetry', title: '诗歌类', author: '萩原朔太郎 / 石川啄木' },
+                { cat: 'foreign', title: '海外文学', author: 'アーヴィング / ポー' },
+                { cat: 'children', title: '儿童文学', author: '宫泽贤治 / 新美南吉' },
+                { cat: 'drama', title: '戏剧・演剧', author: '森鸥外 / 泉镜花' },
+                { cat: 'default', title: '通用/其他', author: '青空文库精选' }
+            ];
+            grid.innerHTML = catEntries.map(item => renderCardItem({ title: item.title, author: item.author, category: item.cat }, 30, {
+                labelTitle: categoryLabels[item.cat],
+                labelDesc: '3px 加厚彩色内边框（纸张/文字统一）',
+                category: item.cat
+            })).join('');
         }
 
         // 顶部交互预览更新
         const slider = document.getElementById('progress-slider');
         const sliderLabel = document.getElementById('slider-label');
         const sliderNote = document.getElementById('slider-note');
-        const previewCardContainer = document.getElementById('preview-card-container');
+        const previewContainer = document.getElementById('preview-card-container');
+        const toggleUndlBtn = document.getElementById('toggle-undl-btn');
 
         function updatePreview(val) {
             const p = Number(val);
+            sliderLabel.textContent = `${p}%`;
             const book = testBooks[currentBookIndex];
             const desc = getStageDescription(p);
-            sliderLabel.textContent = `${p}%`;
-            sliderNote.textContent = `${desc.title} ｜ ${desc.note}`;
-            previewCardContainer.innerHTML = renderBookRowCard(book, p);
+
+            if (isPreviewUndownloaded) {
+                sliderNote.textContent = '未ダウンロード — 灰色纸张，虚线边框，中心下载云朵图标';
+            } else {
+                sliderNote.textContent = `${desc.title} — ${desc.note}`;
+            }
+
+            previewContainer.innerHTML = renderCardItem(book, p, {
+                labelTitle: isPreviewUndownloaded ? `${book.title}（未下载）` : `${book.title}（${p}%）`,
+                labelDesc: categoryLabels[currentCat],
+                category: currentCat,
+                isUndownloaded: isPreviewUndownloaded
+            });
         }
 
-        // 书名排版方向切换
-        document.querySelectorAll('.orient-btn').forEach(btn => {
+        slider.addEventListener('input', (e) => updatePreview(e.target.value));
+
+        // 分类切换
+        document.querySelectorAll('.cat-btn').forEach(btn => {
             btn.addEventListener('click', () => {
-                document.querySelectorAll('.orient-btn').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
-                if (btn.dataset.orient === 'vertical') {
-                    document.body.classList.add('mode-vertical-title');
-                } else {
-                    document.body.classList.remove('mode-vertical-title');
-                }
+                currentCat = btn.dataset.cat;
+                updatePreview(slider.value);
+                renderStagesSection();
             });
         });
 
-        // 图书切换按钮
-        document.querySelectorAll('.test-btn[data-book-idx]').forEach(btn => {
+        // 演示图书切换
+        document.querySelectorAll('.book-btn').forEach(btn => {
             btn.addEventListener('click', () => {
-                document.querySelectorAll('.test-btn[data-book-idx]').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.book-btn').forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
                 currentBookIndex = Number(btn.dataset.bookIdx);
                 updatePreview(slider.value);
@@ -640,9 +1166,17 @@
             });
         });
 
+        // 未下载状态切换
+        toggleUndlBtn.addEventListener('click', () => {
+            isPreviewUndownloaded = !isPreviewUndownloaded;
+            toggleUndlBtn.classList.toggle('active', isPreviewUndownloaded);
+            updatePreview(slider.value);
+        });
+
         // 首次初始化
-        renderShelfSection();
         renderStagesSection();
+        renderShelfSection();
+        renderCategorySection();
         updatePreview(0);
     </script>
 </body>

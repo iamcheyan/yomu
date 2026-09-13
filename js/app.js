@@ -1381,6 +1381,12 @@ const Yomu = {
     _coverMarkup(book) {
         const progress = this._getBookProgress(book);
         const percent = Math.round(progress.scrollPercent || 0);
+        if (window.YomuBookCover) {
+            return YomuBookCover.render(book, percent, {
+                escapeHtml: value => this._escapeHtml(value),
+                escapeAttr: value => this._escapeAttr(value)
+            });
+        }
         const clamped = Math.max(0, Math.min(100, percent));
         // 75%之后翻转为封底，向读了收拢
         const threshold = 75;
@@ -1408,6 +1414,7 @@ const Yomu = {
 
         const author = book.author || '';
         const coverNdc = book.ndc || 'NDC 913';
+        const coverPublisher = book.publisher || (book.baseBook || '').split(/[、,，]/).pop().trim() || '青空文庫';
         const themes = {
             '夏目漱石': ['souseki', '夏目漱石'],
             '芥川龍之介': ['akutagawa', '芥川龍之介'],
@@ -1520,6 +1527,9 @@ const Yomu = {
             <div class="book-cover-front">
                 <span class="book-cover-mark" aria-hidden="true">${this._escapeHtml(coverNdc)}</span>
                 <span class="book-cover-title">${this._escapeHtml(book.title)}</span>
+                <span class="book-cover-author">${this._escapeHtml(author)}</span>
+                <span class="book-cover-rule" aria-hidden="true"></span>
+                <span class="book-cover-publisher">${this._escapeHtml(coverPublisher)}</span>
             </div>
             <i class="book-cover-spine" aria-hidden="true"></i>
         </div>`;
