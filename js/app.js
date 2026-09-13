@@ -653,7 +653,7 @@ const Yomu = {
 
         const titleEl = document.getElementById('home-title');
         const subEl = document.getElementById('home-sub');
-        if (titleEl) titleEl.textContent = this._libraryScope === 'catalog' ? '青空文庫' : '書架';
+        if (titleEl) titleEl.textContent = this._libraryScope === 'catalog' ? '全作品' : '書架';
         if (subEl) subEl.textContent = this._libraryScope === 'catalog'
             ? '一万五千篇の文学作品。タップして端末に保存・読書。'
             : '静かに読むための日本語書架。全ての本が手元に。';
@@ -2188,17 +2188,20 @@ const Yomu = {
         return { bookId: book.id, paraIndex: parseInt(m[1], 10) };
     },
 
-    // ===== Font pair (漢字/かな 別指定) =====
-    async setFontPair(kanji, kana, opts = {}) {
-        YomuStorage.saveSetting('fontKanji', kanji);
-        YomuStorage.saveSetting('fontKana', kana);
+    // ===== Font pair (本文 / 振りがな 別指定) =====
+    async setFontPair(body, ruby, opts = {}) {
+        YomuStorage.saveSetting('fontBody', body);
+        YomuStorage.saveSetting('fontRuby', ruby);
+        // 兼容旧配置项
+        YomuStorage.saveSetting('fontKanji', body);
+        YomuStorage.saveSetting('fontKana', ruby);
 
         // 即時反映（未ダウンロードなら font-display:swap で後から差し替え）
-        YomuFonts.apply(kanji, kana);
+        YomuFonts.apply(body, ruby);
         this._updateFontUI();
 
         const token = this._fontLoadToken = (this._fontLoadToken || 0) + 1;
-        const ids = [...new Set([kanji, kana])].filter(id => YomuFonts.FONTS[id]);
+        const ids = [...new Set([body, ruby])].filter(id => YomuFonts.FONTS[id]);
         for (const id of ids) {
             const toast = opts.silent ? null
                 : this.showToast(`「${YomuFonts.FONTS[id].label}」を準備中...`, { id: 'font-dl', duration: 0 });
@@ -2216,24 +2219,30 @@ const Yomu = {
 
     onFontSelect(slot, value) {
         const cur = YomuFonts.current;
-        this.setFontPair(slot === 'kanji' ? value : cur.kanji,
-                         slot === 'kana' ? value : cur.kana);
+        const curBody = cur.body || cur.kanji;
+        const curRuby = cur.ruby || cur.kana;
+        this.setFontPair(
+            (slot === 'body' || slot === 'kanji') ? value : curBody,
+            (slot === 'ruby' || slot === 'kana') ? value : curRuby
+        );
     },
 
     applyFontPreset(presetId) {
         const p = YomuFonts.PRESETS[presetId];
-        if (p) this.setFontPair(p.kanji, p.kana);
+        if (p) this.setFontPair(p.body || p.kanji, p.ruby || p.kana);
     },
 
     _initFontUI() {
         if (!window.YomuPop) return;
-        for (const slot of ['kanji', 'kana']) {
-            const host = document.getElementById(`font-${slot}-select`);
+        const slots = ['body', 'ruby'];
+        for (const slot of slots) {
+            const host = document.getElementById(`font-${slot}-select`) ||
+                         document.getElementById(slot === 'body' ? 'font-kanji-select' : 'font-kana-select');
             if (!host || host._ypInit) continue;
             host._ypInit = true;
             const options = [
-                { id: 'mincho', label: 'システム（明朝）', labelClass: `font-preview-${slot}` },
-                { id: 'gothic', label: 'システム（ゴシック）', labelClass: `font-preview-${slot}` },
+                { id: 'mincho', label: 'システム（明朝）', labelClass: `font-preview-${slot} font-preview-mincho` },
+                { id: 'gothic', label: 'システム（ゴシック）', labelClass: `font-preview-${slot} font-preview-gothic` },
                 ...Object.entries(YomuFonts.FONTS).map(([id, f]) => ({
                     id, label: f.label, labelClass: `font-preview-${slot} font-preview-${id}`
                 }))
@@ -2249,10 +2258,15 @@ const Yomu = {
 
     _updateFontUI() {
         const cur = YomuFonts.current;
-        for (const slot of ['kanji', 'kana']) {
-            const host = document.getElementById(`font-${slot}-select`);
-            if (host && host.setValue) host.setValue(cur[slot] || 'mincho');
-        }
+        const bodyVal = cur.body || cur.kanji || 'mincho';
+        const rubyVal = cur.ruby || cur.kana || 'mincho';
+
+        const bodyHost = document.getElementById('font-body-select') || document.getElementById('font-kanji-select');
+        if (bodyHost && bodyHost.setValue) bodyHost.setValue(bodyVal);
+
+        const rubyHost = document.getElementById('font-ruby-select') || document.getElementById('font-kana-select');
+        if (rubyHost && rubyHost.setValue) rubyHost.setValue(rubyVal);
+
         document.querySelectorAll('.font-preset-btn').forEach(btn => {
             btn.classList.toggle('active', YomuFonts.isPresetActive(btn.dataset.preset));
         });
@@ -2988,10 +3002,10 @@ const Yomu = {
     _applySettings() {
         const settings = YomuStorage.getSettings();
 
-        // Font pair (漢字/かな別指定；旧 'font' 設定は両スロットへ移行)
+        // Font pair (本文 / 振りがな 別指定)
         this._initFontUI();
-        this.setFontPair(settings.fontKanji || settings.font || 'mincho',
-                         settings.fontKana || settings.font || 'mincho',
+        this.setFontPair(settings.fontBody || settings.fontKanji || settings.font || 'mincho',
+                         settings.fontRuby || settings.fontKana || settings.font || 'mincho',
                          { silent: true });
 
         // Font size / line height / margin

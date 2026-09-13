@@ -1,23 +1,17 @@
 /**
- * Yomu Fonts - 汉字/假名分别指定（unicode-range 分流）
+ * Yomu Fonts - 本文（正文）与 振りがな（ルビ）分别指定字体
  *
- * 原理：CSS font-family 无法按字符类型选字体，故用两个 @font-face：
- *   - YomuKana  ← 假名槽位选中的字体（range: 平假名+片假名+半角片假名）
- *   - YomuKanji ← 汉字槽位选中的字体（range: CJK 统一表意+扩展A+兼容）
- * 正文 font-family = "YomuKana", "YomuKanji", 系统栈：假名专属 range
- * 命中假名字体，其余（汉字/拉丁/标点）落到汉字字体，最终回退系统字体。
- * family 名与槽位绑定（而非字体 id），切换槽位即重建对应 @font-face。
+ * 原理：
+ *   - YomuBodyFont ← 本文槽位（正文文字，覆盖汉字/假名/英数/标点）
+ *   - YomuRubyFont ← 振りがな槽位（<rt> 注音专属字体，支持圆体/明朝/黑体/教科书体）
+ * 读者正文使用 --reader-font-family，振假名使用 --ruby-font-family。
+ * 网站标题与书籍封面使用 --display-font-family，并跟随正文选择。
+ * 针对日语阅读与学习优化，可在正文使用明朝/教科书体的同时，为小字注音指定清晰可辨的圆体或无衬线体。
  *
- * 字体 woff2 已 git 入库 assets/fonts/（共约 5.6MB < 50MB 上限，
- * APK 构建随 assets/** 打包，Web 端由 Service Worker 缓存离线可用）。
- * local 为仓库文件；cdn 为 fontsource 固定版本直链，local 不可达时兜底。
- * 全部字体为 SIL Open Font License 1.1（见 assets/fonts/licenses/）。
+ * 字体 woff2 已入库 assets/fonts/（共约 5.6MB），离线可用。
+ * local 为仓库文件；cdn 为 fontsource 固定版本直链。全部字体为 SIL Open Font License 1.1。
  */
 const YomuFonts = (() => {
-
-    // unicode-range：与 docs/FONT_SYSTEM_GOAL.md 第三节一致
-    const RANGE_KANA = 'U+3040-30FF, U+31F0-31FF, U+FF66-FF9D';   // ひらがな+カタカナ+半角カナ
-    const RANGE_KANJI = 'U+4E00-9FFF, U+3400-4DBF, U+F900-FAFF';  // CJK統合漢字+拡張A+互換
 
     const MINCHO = '"Hiragino Mincho ProN", "Yu Mincho", "MS Mincho", serif';
     const GOTHIC = '"Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif';
@@ -40,26 +34,26 @@ const YomuFonts = (() => {
             cdn: 'https://cdn.jsdelivr.net/npm/@fontsource/klee-one@5.3.0/files/klee-one-japanese-400-normal.woff2'
         },
         'zen-maru-gothic': {
-            label: 'Zen Maru Gothic（圆体）',
+            label: 'Zen Maru Gothic（丸ゴシック）',
             local: 'assets/fonts/zen-maru-gothic-400.woff2',
             cdn: 'https://cdn.jsdelivr.net/npm/@fontsource/zen-maru-gothic@5.3.0/files/zen-maru-gothic-japanese-400-normal.woff2'
         }
     };
 
-    // 一键预设：明朝经典 / 教科書柔和 / 圆体轻松
+    // 一键预设：明朝经典 / 教科書体 / 丸ゴシック
     const PRESETS = {
-        mincho: { label: '明朝経典', kanji: 'noto-serif-jp', kana: 'noto-serif-jp' },
-        textbook: { label: '教科書柔和', kanji: 'klee-one', kana: 'noto-sans-jp' },
-        maru: { label: '圆体輕鬆', kanji: 'noto-sans-jp', kana: 'zen-maru-gothic' }
+        mincho: { label: '明朝経典', body: 'noto-serif-jp', ruby: 'noto-serif-jp', kanji: 'noto-serif-jp', kana: 'noto-serif-jp' },
+        textbook: { label: '教科書体', body: 'klee-one', ruby: 'zen-maru-gothic', kanji: 'klee-one', kana: 'zen-maru-gothic' },
+        maru: { label: '丸ゴシック', body: 'zen-maru-gothic', ruby: 'zen-maru-gothic', kanji: 'zen-maru-gothic', kana: 'zen-maru-gothic' }
     };
 
     const _blobSrc = {};        // 字体 id -> blob: URL（已下载）
     const _ready = new Set();
-    let _current = { kanji: 'mincho', kana: 'mincho' };
+    let _current = { body: 'mincho', ruby: 'mincho' };
 
-    function _face(fam, src, range) {
+    function _face(fam, src) {
         return `@font-face{font-family:"${fam}";font-style:normal;font-weight:400;` +
-            `font-display:swap;src:${src};unicode-range:${range};}`;
+            `font-display:swap;src:${src};}`;
     }
 
     function _srcFor(id) {
@@ -68,8 +62,7 @@ const YomuFonts = (() => {
         return `url("${f.local}") format("woff2"),url("${f.cdn}") format("woff2")`;
     }
 
-    /** 按当前槽位重建两个 @font-face（同 family 重复注册时后者覆盖前者，
-        故必须整体重建、槽位独占 family） */
+    /** 重建 @font-face */
     function _rebuild() {
         let el = document.getElementById('yomu-font-faces');
         if (!el) {
@@ -78,15 +71,24 @@ const YomuFonts = (() => {
             document.head.appendChild(el);
         }
         let css = '';
-        if (FONTS[_current.kana]) css += _face('YomuKana', _srcFor(_current.kana), RANGE_KANA);
-        if (FONTS[_current.kanji]) css += _face('YomuKanji', _srcFor(_current.kanji), RANGE_KANJI);
-        // 封面使用固定的产品字体，不随正文设置变化。
-        css += _face('YomuCoverSerif', _srcFor('noto-serif-jp'), RANGE_KANA);
-        css += _face('YomuCoverSerif', _srcFor('noto-serif-jp'), RANGE_KANJI);
-        css += _face('YomuCoverSans', _srcFor('noto-sans-jp'), RANGE_KANA);
-        css += _face('YomuCoverSans', _srcFor('noto-sans-jp'), RANGE_KANJI);
-        css += _face('YomuCoverAccent', _srcFor('klee-one'), RANGE_KANA);
-        css += _face('YomuCoverAccent', _srcFor('klee-one'), RANGE_KANJI);
+        if (FONTS[_current.body]) {
+            css += _face('YomuBodyFont', _srcFor(_current.body));
+            css += _face('YomuKanji', _srcFor(_current.body)); // 兼容旧引用
+        }
+        if (FONTS[_current.ruby]) {
+            css += _face('YomuRubyFont', _srcFor(_current.ruby));
+            css += _face('YomuKana', _srcFor(_current.ruby)); // 兼容旧引用
+        }
+
+        // 注册各个字体本身的名字，方便下拉菜单预览
+        for (const id of Object.keys(FONTS)) {
+            css += _face(id, _srcFor(id));
+        }
+
+        // 保留封面字体别名，兼容旧样式；实际封面样式现在跟随正文选择。
+        css += _face('YomuCoverSerif', _srcFor('noto-serif-jp'));
+        css += _face('YomuCoverSans', _srcFor('noto-sans-jp'));
+        css += _face('YomuCoverAccent', _srcFor('klee-one'));
         el.textContent = css;
     }
 
@@ -110,9 +112,7 @@ const YomuFonts = (() => {
     }
 
     /**
-     * 懒加载：XHR 下载（带进度）→ blob: src → 重建 @font-face → 等待
-     * 引用该字体的槽位真正可用。local 失败依次尝试 cdn；全部失败则保留
-     * URL 注册，由浏览器自行加载（Android WebView file:// 场景）。
+     * 懒加载：XHR 下载（带进度）→ blob: src → 重建 @font-face
      * @returns {Promise<boolean>} 是否加载成功
      */
     async function load(id, onProgress) {
@@ -136,14 +136,12 @@ const YomuFonts = (() => {
         }
         try {
             const loads = [];
-            if (_current.kana === id) loads.push(document.fonts.load('16px YomuKana', 'かなカナ'));
-            if (_current.kanji === id) loads.push(document.fonts.load('16px YomuKanji', '漢字'));
+            if (_current.body === id) loads.push(document.fonts.load('16px YomuBodyFont', '吾輩は猫である'));
+            if (_current.ruby === id) loads.push(document.fonts.load('16px YomuRubyFont', 'わがはい'));
             await Promise.all(loads);
-            const ok = (_current.kana !== id || document.fonts.check('16px YomuKana', 'か')) &&
-                       (_current.kanji !== id || document.fonts.check('16px YomuKanji', '漢'));
-            if (ok) _ready.add(id);
+            _ready.add(id);
             if (onProgress) onProgress(100);
-            return ok;
+            return true;
         } catch (e) {
             console.warn('[YomuFonts] load failed:', id, e);
             return false;
@@ -155,32 +153,39 @@ const YomuFonts = (() => {
     }
 
     /**
-     * 应用组合：正文 font-family = 假名字体在前、汉字字体在后。
-     * 槽位值为 'mincho'/'gothic'（系统，无法按 range 分流）或字体 id。
-     * 系统槽位作为兜底栈追加；双系统 = 传统整体切换（假名槽优先）。
+     * 应用组合：
+     * @param {string} bodyId 本文字体（正文）
+     * @param {string} rubyId 振りがな字体（ルビ）
      */
-    function apply(kanjiId, kanaId) {
-        _current = { kanji: kanjiId || 'mincho', kana: kanaId || 'mincho' };
+    function apply(bodyId, rubyId) {
+        _current = {
+            body: bodyId || 'mincho',
+            ruby: rubyId || 'mincho'
+        };
         _rebuild();
-        const kanaCustom = Boolean(FONTS[_current.kana]);
-        const kanjiCustom = Boolean(FONTS[_current.kanji]);
 
-        const parts = [];
-        if (kanaCustom) parts.push('YomuKana');
-        if (kanjiCustom) parts.push('YomuKanji');
-        // 兜底系统栈：单侧自定义时取对侧系统槽；双自定义用明朝；双系统用假名槽
-        let sys;
-        if (!kanaCustom && !kanjiCustom) sys = _sysStack(_current.kana);
-        else if (!kanjiCustom) sys = _sysStack(_current.kanji);
-        else if (!kanaCustom) sys = _sysStack(_current.kana);
-        else sys = MINCHO;
-        parts.push(sys);
+        const bodyCustom = Boolean(FONTS[_current.body]);
+        const rubyCustom = Boolean(FONTS[_current.ruby]);
 
-        document.documentElement.style.setProperty('--reader-font-family', parts.join(', '));
-        document.documentElement.style.setProperty('--preview-kana-font',
-            kanaCustom ? `"YomuKana", ${MINCHO}` : _sysStack(_current.kana));
-        document.documentElement.style.setProperty('--preview-kanji-font',
-            kanjiCustom ? `"YomuKanji", ${MINCHO}` : _sysStack(_current.kanji));
+        // 本文字体栈
+        const bodyStack = bodyCustom
+            ? `"YomuBodyFont", ${_current.body === 'noto-sans-jp' ? GOTHIC : MINCHO}`
+            : _sysStack(_current.body);
+
+        // 振假名字体栈
+        const rubyStack = rubyCustom
+            ? `"YomuRubyFont", ${_current.ruby === 'noto-serif-jp' ? MINCHO : GOTHIC}`
+            : _sysStack(_current.ruby);
+
+        document.documentElement.style.setProperty('--reader-font-family', bodyStack);
+        document.documentElement.style.setProperty('--ruby-font-family', rubyStack);
+        document.documentElement.style.setProperty('--display-font-family', bodyStack);
+
+        // 设置面板预览变量
+        document.documentElement.style.setProperty('--preview-body-font', bodyStack);
+        document.documentElement.style.setProperty('--preview-ruby-font', rubyStack);
+        document.documentElement.style.setProperty('--preview-kanji-font', bodyStack);
+        document.documentElement.style.setProperty('--preview-kana-font', rubyStack);
 
         return _current;
     }
@@ -188,11 +193,22 @@ const YomuFonts = (() => {
     /** 当前选择是否与给定预设一致（供预设高亮） */
     function isPresetActive(presetId) {
         const p = PRESETS[presetId];
-        return Boolean(p) && p.kanji === _current.kanji && p.kana === _current.kana;
+        if (!p) return false;
+        const curBody = _current.body;
+        const curRuby = _current.ruby;
+        return (p.body === curBody || p.kanji === curBody) &&
+               (p.ruby === curRuby || p.kana === curRuby);
     }
 
     return {
         FONTS, PRESETS, load, apply, isPresetActive,
-        get current() { return { ..._current }; }
+        get current() {
+            return {
+                body: _current.body,
+                ruby: _current.ruby,
+                kanji: _current.body, // 兼容旧属性访问
+                kana: _current.ruby
+            };
+        }
     };
 })();

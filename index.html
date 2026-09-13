@@ -9,7 +9,7 @@
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/svg+xml" href="assets/app_icon.svg">
     <link rel="apple-touch-icon" href="assets/app_icon.png">
-    <link rel="stylesheet" href="css/style.css?v=34">
+    <link rel="stylesheet" href="css/style.css?v=35">
     <link rel="stylesheet" href="css/book-cover.css?v=8">
 
     <script>
@@ -66,7 +66,7 @@
                         <span class="scope-nav-badge" id="library-count">20</span>
                     </button>
                     <button type="button" class="scope-nav-btn" data-library-scope="catalog" onclick="Yomu.setLibraryScope('catalog')">
-                        <span class="scope-nav-label"><span class="scope-prefix">青空文庫 </span>全作品</span>
+                        <span class="scope-nav-label">全作品</span>
                         <span class="scope-nav-badge" id="catalog-count">15,035</span>
                     </button>
                 </div>
@@ -264,20 +264,20 @@
                 <button class="font-btn font-preset-btn" data-preset="maru" onclick="Yomu.applyFontPreset('maru')">丸ゴシック</button>
             </div>
             <div class="font-pair-row">
-                <label class="font-pair-label">漢字</label>
+                <label class="font-pair-label">本文</label>
                 <div class="font-pair-control">
-                    <div id="font-kanji-select" class="ypop-host font-pair-select-host"></div>
-                    <div class="font-sample" id="font-sample-kanji">永遠の約束 かな カナ 123</div>
+                    <div id="font-body-select" class="ypop-host font-pair-select-host"></div>
+                    <div class="font-sample" id="font-sample-body">吾輩は猫である。名前はまだ無い。</div>
                 </div>
             </div>
             <div class="font-pair-row">
-                <label class="font-pair-label">かな</label>
+                <label class="font-pair-label">振りがな</label>
                 <div class="font-pair-control">
-                    <div id="font-kana-select" class="ypop-host font-pair-select-host"></div>
-                    <div class="font-sample" id="font-sample-kana">永遠の約束 かな カナ 123</div>
+                    <div id="font-ruby-select" class="ypop-host font-pair-select-host"></div>
+                    <div class="font-sample" id="font-sample-ruby">ふりがな・ルビ（わがはい・ねこ）</div>
                 </div>
             </div>
-            <div id="font-combo-preview" class="font-combo-preview">吾輩は猫である。名字 123 ABC</div>
+            <div id="font-combo-preview" class="font-combo-preview"><ruby>吾輩<rt>わがはい</rt></ruby>は<ruby>猫<rt>ねこ</rt></ruby>である。名前はまだ無い。</div>
         </div>
 
         <div class="settings-group" data-settings-section="display">
@@ -420,8 +420,8 @@
     <!-- JS Modules -->
     <script src="js/ypop.js?v=2"></script>
     <script src="libs/kuromoji.js"></script>
-    <script src="js/storage.js?v=4"></script>
-    <script src="js/fonts.js?v=2"></script>
+    <script src="js/storage.js?v=5"></script>
+    <script src="js/fonts.js?v=3"></script>
     <script src="js/book-cover.js?v=2"></script>
     <script src="js/tokenizer.js?v=3"></script>
     <script src="js/reader.js?v=18"></script>
@@ -430,7 +430,7 @@
     <script src="js/dict.js?v=6"></script>
     <script src="js/importer.js?v=1"></script>
     <script src="js/wordbook.js?v=2"></script>
-    <script src="js/app.js?v=42"></script>
+    <script src="js/app.js?v=44"></script>
 
 </body>
 

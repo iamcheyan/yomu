@@ -18,6 +18,7 @@
 
     --font-serif: "Hiragino Mincho ProN", "Yu Mincho", "MS Mincho", serif;
     --font-sans: "Hiragino Sans", "Yu Gothic", "Meiryo", system-ui, sans-serif;
+    --display-font-family: var(--font-serif);
 
     /* 紙張（默认） */
     --bg-color: #F7F3EA;
@@ -347,7 +348,7 @@ body.theme-dark .u-color-error { color: #ff7b72; }
     justify-content: space-between;
     align-items: center;
     gap: 16px;
-    font-family: YomuCoverSerif, "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", "Source Han Serif SC", serif;
+    font-family: var(--display-font-family, var(--font-serif));
 }
 
 .home-title {
@@ -2408,6 +2409,7 @@ rp {
 }
 
 rt {
+    font-family: var(--ruby-font-family, var(--reader-font-family, var(--font-serif)));
     font-size: 0.01px;
     line-height: 1.1;
     color: var(--muted-color);
@@ -2418,6 +2420,7 @@ rt {
 body.show-furigana rt {
     opacity: 0.92;
     font-size: 0.52em;
+    font-family: var(--ruby-font-family, var(--reader-font-family, var(--font-serif)));
 }
 
 /* 外字・注記 */
@@ -3516,21 +3519,38 @@ body.eink-mode .settings-overlay {
     max-width: 220px;
 }
 
+#font-sample-body,
 #font-sample-kanji {
-    font-family: var(--preview-kanji-font);
+    font-family: var(--preview-body-font, var(--preview-kanji-font));
 }
 
+#font-sample-ruby,
 #font-sample-kana {
-    font-family: var(--preview-kana-font);
+    font-family: var(--preview-ruby-font, var(--preview-kana-font));
 }
 
 .font-combo-preview {
     font-family: var(--reader-font-family, var(--font-serif));
-    font-size: 15px;
-    line-height: 1.9;
+    font-size: 16px;
+    line-height: 2.2;
+    border-top: 1px solid var(--hairline);
     border-bottom: 1px solid var(--hairline);
-    padding: 6px 2px 14px;
+    padding: 10px 4px;
+    margin-top: 6px;
     color: var(--fg-color);
+    text-align: center;
+}
+
+.font-combo-preview ruby {
+    ruby-position: over;
+    -webkit-ruby-position: over;
+}
+
+.font-combo-preview rt {
+    font-family: var(--ruby-font-family, var(--reader-font-family, var(--font-serif)));
+    font-size: 0.52em;
+    opacity: 0.88;
+    color: var(--muted-color);
 }
 
 .settings-select {
@@ -3898,12 +3918,16 @@ body.eink-mode .ypop-item {
     white-space: nowrap;
 }
 
-.font-preview-kanji { font-family: YomuKanji, var(--font-serif); }
-.font-preview-kana { font-family: YomuKana, var(--font-serif); }
-.font-preview-noto-serif-jp { font-weight: 500; }
-.font-preview-noto-sans-jp { font-weight: 600; }
-.font-preview-klee-one { font-weight: 500; }
-.font-preview-zen-maru-gothic { font-weight: 600; }
+.font-preview-body { font-family: var(--preview-body-font); }
+.font-preview-ruby { font-family: var(--preview-ruby-font); }
+.font-preview-kanji { font-family: var(--preview-body-font); }
+.font-preview-kana { font-family: var(--preview-ruby-font); }
+.font-preview-noto-serif-jp { font-family: "noto-serif-jp", "Noto Serif JP", serif; font-weight: 500; }
+.font-preview-noto-sans-jp { font-family: "noto-sans-jp", "Noto Sans JP", sans-serif; font-weight: 600; }
+.font-preview-klee-one { font-family: "klee-one", "Klee One", serif; font-weight: 500; }
+.font-preview-zen-maru-gothic { font-family: "zen-maru-gothic", "Zen Maru Gothic", sans-serif; font-weight: 600; }
+.font-preview-mincho { font-family: var(--font-serif); }
+.font-preview-gothic { font-family: var(--font-sans); }
 
 .ypop-item-hint {
     flex: 0 0 auto;

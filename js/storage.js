@@ -192,6 +192,8 @@ const YomuStorage = {
         return this.get('settings', {
             fontSize: 20,
             lineHeight: 2.2,
+            fontBody: 'mincho',
+            fontRuby: 'mincho',
             fontKanji: 'mincho',
             fontKana: 'mincho',
             furiganaMode: 'none',
