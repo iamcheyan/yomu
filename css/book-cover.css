@@ -26,7 +26,7 @@
     width: 100%;
     height: auto;
     aspect-ratio: 105 / 148;
-    perspective: 1000px;
+    perspective: 2400px;
     overflow: visible !important;
 }
 
@@ -143,12 +143,12 @@
     pointer-events: none;
     border: 1px solid #baaf99;
     background: #faf6ec;
-    transform: perspective(1000px) rotateY(calc(var(--page1-angle) * 1deg)) !important;
+    transform: perspective(2400px) rotateY(calc(var(--page1-angle) * 1deg)) !important;
 }
 .book-cover-page-turning.page-layer-1 { z-index: 2; background: #faf6ec; }
-.book-cover-page-turning.page-layer-2 { z-index: 3; background: #fbf8f0; transform: perspective(1000px) rotateY(calc(var(--page2-angle) * 1deg)) !important; }
-.book-cover-page-turning.page-layer-3 { z-index: 4; background: #fdfaf4; transform: perspective(1000px) rotateY(calc(var(--page3-angle) * 1deg)) !important; }
-.book-cover-page-turning.page-layer-4 { z-index: 5; background: #fffdfa; transform: perspective(1000px) rotateY(calc(var(--page4-angle) * 1deg)) !important; }
+.book-cover-page-turning.page-layer-2 { z-index: 3; background: #fbf8f0; transform: perspective(2400px) rotateY(calc(var(--page2-angle) * 1deg)) !important; }
+.book-cover-page-turning.page-layer-3 { z-index: 4; background: #fdfaf4; transform: perspective(2400px) rotateY(calc(var(--page3-angle) * 1deg)) !important; }
+.book-cover-page-turning.page-layer-4 { z-index: 5; background: #fffdfa; transform: perspective(2400px) rotateY(calc(var(--page4-angle) * 1deg)) !important; }
 .book-cover-page-turning::after {
     left: 10px;
     right: 10px;
@@ -180,8 +180,8 @@
     font-family: YomuCoverSerif, var(--font-serif, serif);
     box-shadow: 3px 3px 10px rgba(50, 45, 35, .20);
 }
-.book-cover-front { z-index: 6; transform-origin: left center; transform: perspective(1000px) rotateY(calc(var(--front-angle) * 1deg)) !important; }
-.book-cover-back { display: none; z-index: 6; transform-origin: right center; transform: perspective(1000px) rotateY(calc(var(--back-angle) * 1deg)) !important; box-shadow: -3px 3px 10px rgba(50, 45, 35, .20); }
+.book-cover-front { z-index: 6; transform-origin: left center !important; transform: perspective(2400px) rotateY(calc(var(--front-angle) * 1deg)) !important; }
+.book-cover-back { display: none; z-index: 6; transform-origin: right center !important; transform: perspective(2400px) rotateY(calc(var(--back-angle) * 1deg)) !important; box-shadow: -3px 3px 10px rgba(50, 45, 35, .20); }
 .book-cover.is-flipped .book-cover-front { display: none !important; }
 .book-cover.is-flipped .book-cover-back {
     display: flex !important;

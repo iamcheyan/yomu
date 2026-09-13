@@ -81,7 +81,7 @@ const YomuBookCover = (() => {
         const threshold = 75;
         const isFlipped = clamped > threshold && !isUndownloaded;
 
-        const mode = options.mode || 'ortho'; // 默认推荐和风正交平视等高，也可传入 subtle / scale / classic
+        const mode = options.mode || 'subtle'; // 正式使用方案 2：弱透视克制微张（最大开角 28°，远透视 2400px，高度形变小于 2px）
         let frontAngle = 0;
         let frontOpacity = 1;
         let backAngle = 0;

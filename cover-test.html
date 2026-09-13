@@ -908,8 +908,8 @@
 
                     <div class="btn-group" style="margin-top: 10px;">
                         <span class="btn-group-label">高度/比例优化方案：</span>
-                        <button class="test-btn mode-btn active" data-mode="ortho">★ 方案 3：和风平视正交（上下绝对水平齐平，纯水平收窄）</button>
-                        <button class="test-btn mode-btn" data-mode="subtle">方案 2：弱透视克制微张（开角28°，自然文气）</button>
+                        <button class="test-btn mode-btn active" data-mode="subtle">★ 正式方案 2：弱透视克制微张（开角28°，高度形变<2px，自然文气）</button>
+                        <button class="test-btn mode-btn" data-mode="ortho">方案 3：和风平视正交（上下绝对水平齐平，纯水平收窄）</button>
                         <button class="test-btn mode-btn" data-mode="scale">方案 1：等高 3D 整体收缩（保持大角度，整体 scale 贴合 220px）</button>
                         <button class="test-btn mode-btn" data-mode="classic">方案 0：现状对照（未收缩，60%膨胀至294px）</button>
                     </div>
@@ -1073,7 +1073,7 @@
 
         let currentBookIndex = 0;
         let currentCat = 'fiction';
-        let currentMode = 'ortho'; // 默认方案 3：和风平视正交收折（上下绝对水平平齐）
+        let currentMode = 'subtle'; // 采用方案 2：弱透视克制微张（开角28°，远透视2400px，高度形变小于2px）
         let isPreviewUndownloaded = false;
 
         function escapeHtml(str) {
