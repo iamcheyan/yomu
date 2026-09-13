@@ -1384,7 +1384,9 @@ const Yomu = {
         if (window.YomuBookCover) {
             return YomuBookCover.render(book, percent, {
                 escapeHtml: value => this._escapeHtml(value),
-                escapeAttr: value => this._escapeAttr(value)
+                escapeAttr: value => this._escapeAttr(value),
+                category: this._bookCategory(book),
+                isUndownloaded: book.available === false
             });
         }
         const clamped = Math.max(0, Math.min(100, percent));

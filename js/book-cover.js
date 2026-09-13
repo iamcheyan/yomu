@@ -98,7 +98,8 @@ const YomuBookCover = (() => {
             (isFlipped ? backAngle : frontAngle) * ratio
         );
         const theme = AUTHOR_THEMES[book.author || ''] || 'default';
-        const categoryClass = options.category ? ` cat-${options.category}` : '';
+        const category = options.category || book.category || 'default';
+        const categoryClass = ` cat-${category}`;
         const extraClass = options.extraClass ? ` ${options.extraClass}` : '';
         const stateClass = `${clamped === 0 || isUndownloaded ? ' is-closed' : ''}${clamped === 100 ? ' is-finished' : ''}${isFlipped ? ' is-flipped' : ''}${isUndownloaded ? ' is-undownloaded' : ''}`;
         const coverNdc = book.ndc || 'NDC 913';

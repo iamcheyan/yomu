@@ -1,0 +1,247 @@
+/*
+ * Yomu book cover system
+ *
+ * This is the single visual source for cover-test.html and the library.
+ * Keep geometry, typography, border colours, page layers and the undownloaded
+ * state here. Page-specific styles should only size the surrounding card.
+ */
+:root {
+    --cover-base-paper: #f7f4ec;
+    --cover-base-ink: #2b2723;
+    --cat-fiction: #c59b38;
+    --cat-essay: #3b7066;
+    --cat-poetry: #a83d3b;
+    --cat-foreign: #355988;
+    --cat-children: #4e873b;
+    --cat-drama: #724580;
+    --cat-default: #685f54;
+}
+
+.book-cover {
+    --cover-paper: var(--cover-base-paper) !important;
+    --cover-ink: var(--cover-base-ink) !important;
+    --bunko-w: 100%;
+    --bunko-h: 100%;
+    position: relative !important;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 105 / 148;
+    perspective: 1000px;
+    overflow: visible !important;
+}
+
+/* The test page owns the fixed display stage; the book face keeps the real
+   105:148 bunko proportion inside that stage. */
+.test-page .book-cover,
+.state-card .book-row .book-cover {
+    --bunko-w: 156px;
+    --bunko-h: 220px;
+}
+.test-page .book-cover,
+.state-card .book-row .book-cover {
+    width: 172px !important;
+    height: 238px !important;
+    aspect-ratio: auto;
+}
+
+.book-cover-front,
+.book-cover-back,
+.book-cover-pages-base,
+.book-cover-page-turning {
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: var(--bunko-w) !important;
+    height: var(--bunko-h) !important;
+    box-sizing: border-box;
+    border-radius: 1px 2px 2px 1px;
+}
+
+.test-page .book-cover-front,
+.test-page .book-cover-back,
+.test-page .book-cover-pages-base,
+.test-page .book-cover-page-turning,
+.state-card .book-cover-front,
+.state-card .book-cover-back,
+.state-card .book-cover-pages-base,
+.state-card .book-cover-page-turning {
+    left: 6px !important;
+    top: 8px !important;
+}
+
+.book-cover.is-closed .book-cover-page-turning,
+.book-cover.is-finished .book-cover-page-turning { display: none !important; }
+.book-cover.is-closed .book-cover-back { display: none !important; }
+.book-cover.is-finished .book-cover-front { display: none !important; }
+
+.book-cover-spine {
+    position: absolute !important;
+    z-index: 6;
+    left: 0 !important;
+    top: 0 !important;
+    width: 2px !important;
+    height: var(--bunko-h) !important;
+    background: color-mix(in srgb, var(--cover-ink) 30%, transparent) !important;
+    box-shadow: 1px 0 0 color-mix(in srgb, white 58%, transparent) !important;
+    opacity: .82;
+    pointer-events: none;
+}
+.test-page .book-cover-spine,
+.state-card .book-cover-spine { left: 6px !important; top: 8px !important; }
+.book-cover.is-flipped .book-cover-spine {
+    left: auto !important;
+    right: 0 !important;
+    box-shadow: -1px 0 0 color-mix(in srgb, white 58%, transparent) !important;
+}
+.test-page .book-cover.is-flipped .book-cover-spine,
+.state-card .book-cover.is-flipped .book-cover-spine { right: 10px !important; }
+
+.book-cover-pages-base {
+    z-index: 1;
+    overflow: hidden;
+    background: #faf6ec;
+    border: 1px solid #c8bead;
+    box-shadow: 1px 1px 0 #ede6d6, 2px 2px 0 #e4dcc9,
+        3px 3px 0 #dcd4c1, 4px 4px 0 #d4cbb8, 5px 5px 0 #ccc3af,
+        6px 6px 0 #c4bba6, 7px 7px 0 #bcb39e,
+        8px 9px 12px rgba(60, 50, 40, .26) !important;
+}
+.book-cover.is-flipped .book-cover-pages-base {
+    left: 0 !important;
+    right: auto !important;
+    top: 0 !important;
+    box-shadow: -1px 1px 0 #ede6d6, -2px 2px 0 #e4dcc9,
+        -3px 3px 0 #dcd4c1, -4px 4px 0 #d4cbb8, -5px 5px 0 #ccc3af,
+        -6px 6px 0 #c4bba6, -7px 7px 0 #bcb39e,
+        -8px 9px 12px rgba(60, 50, 40, .26) !important;
+}
+.test-page .book-cover.is-flipped .book-cover-pages-base,
+.state-card .book-cover.is-flipped .book-cover-pages-base { left: 6px !important; top: 8px !important; }
+
+.book-cover-page-lines {
+    position: absolute;
+    inset: 8px;
+    border: 1px solid #e0d7c6;
+    background: #faf6ec;
+}
+.book-cover-page-lines::after,
+.book-cover-page-turning::after {
+    position: absolute;
+    left: 12px;
+    right: 12px;
+    top: 24%;
+    height: 1.5px;
+    background: #ccbfa9;
+    box-shadow: 0 12px #ccbfa9, 0 24px #ccbfa9, 0 36px #ccbfa9,
+        0 48px #ccbfa9, 0 60px #ccbfa9;
+    content: "";
+    opacity: .6;
+}
+.book-cover-page-turning {
+    z-index: 2;
+    transform-origin: left center !important;
+    pointer-events: none;
+    border: 1px solid #baaf99;
+    background: #faf6ec;
+    transform: perspective(1000px) rotateY(calc(var(--page1-angle) * 1deg)) !important;
+}
+.book-cover-page-turning.page-layer-1 { z-index: 2; background: #faf6ec; }
+.book-cover-page-turning.page-layer-2 { z-index: 3; background: #fbf8f0; transform: perspective(1000px) rotateY(calc(var(--page2-angle) * 1deg)) !important; }
+.book-cover-page-turning.page-layer-3 { z-index: 4; background: #fdfaf4; transform: perspective(1000px) rotateY(calc(var(--page3-angle) * 1deg)) !important; }
+.book-cover-page-turning.page-layer-4 { z-index: 5; background: #fffdfa; transform: perspective(1000px) rotateY(calc(var(--page4-angle) * 1deg)) !important; }
+.book-cover-page-turning::after {
+    left: 10px;
+    right: 10px;
+    top: 25%;
+    box-shadow: 0 12px #d5caa3, 0 24px #d5caa3, 0 36px #d5caa3;
+    background: #d5caa3;
+    opacity: .5;
+}
+.book-cover.is-flipped .book-cover-page-turning,
+.book-cover.is-flipped .book-cover-page-turning.page-layer-1,
+.book-cover.is-flipped .book-cover-page-turning.page-layer-2,
+.book-cover.is-flipped .book-cover-page-turning.page-layer-3,
+.book-cover.is-flipped .book-cover-page-turning.page-layer-4 {
+    left: 0 !important;
+    right: auto !important;
+    top: 0 !important;
+    transform-origin: right center !important;
+}
+.test-page .book-cover.is-flipped .book-cover-page-turning,
+.state-card .book-cover.is-flipped .book-cover-page-turning { left: 6px !important; top: 8px !important; }
+
+.book-cover-front,
+.book-cover-back {
+    background: var(--cover-paper) !important;
+    color: var(--cover-ink) !important;
+    opacity: 1 !important;
+    border: 1px solid #baaf99;
+    padding: 12px;
+    font-family: YomuCoverSerif, var(--font-serif, serif);
+    box-shadow: 3px 3px 10px rgba(50, 45, 35, .20);
+}
+.book-cover-front { z-index: 6; transform-origin: left center; transform: perspective(1000px) rotateY(calc(var(--front-angle) * 1deg)) !important; }
+.book-cover-back { display: none; z-index: 6; transform-origin: right center; transform: perspective(1000px) rotateY(calc(var(--back-angle) * 1deg)) !important; box-shadow: -3px 3px 10px rgba(50, 45, 35, .20); }
+.book-cover.is-flipped .book-cover-front { display: none !important; }
+.book-cover.is-flipped .book-cover-back {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 8 !important;
+    transform-origin: right center !important;
+}
+.book-cover-front::after,
+.book-cover-back::after {
+    position: absolute;
+    inset: 7px;
+    border: 3px solid var(--cat-border-color, var(--cat-fiction));
+    border-radius: 1px;
+    content: '';
+    pointer-events: none;
+}
+.cat-fiction { --cat-border-color: var(--cat-fiction); }
+.cat-essay { --cat-border-color: var(--cat-essay); }
+.cat-poetry { --cat-border-color: var(--cat-poetry); }
+.cat-foreign { --cat-border-color: var(--cat-foreign); }
+.cat-children { --cat-border-color: var(--cat-children); }
+.cat-drama { --cat-border-color: var(--cat-drama); }
+.cat-default { --cat-border-color: var(--cat-default); }
+
+.book-cover-mark { position: absolute; top: 12px; right: 13px; z-index: 1; font: 600 9.5px system-ui, sans-serif; color: #555047; letter-spacing: .06em; }
+.book-cover-title { position: absolute; left: 50%; top: 30%; z-index: 1; width: calc(100% - 24px); max-height: 5.8em; overflow: hidden; transform: translate(-50%, -50%) !important; font: 600 16px/1.45 YomuCoverSerif, var(--font-serif, serif); letter-spacing: .09em; text-align: center; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; line-clamp: 4; }
+.book-cover-title::before { display: none !important; }
+.book-cover-author { position: absolute; top: 47%; left: 12px; right: 12px; z-index: 1; overflow: hidden; font: 11px/1.35 YomuCoverAccent, YomuCoverSerif, var(--font-serif, serif); letter-spacing: .12em; text-align: center; text-overflow: ellipsis; white-space: nowrap; }
+.book-cover-rule { position: absolute; top: 64%; left: 28%; right: 28%; z-index: 1; height: 1px; background: color-mix(in srgb, var(--cover-ink) 42%, transparent); }
+.book-cover-publisher { position: absolute; top: 79%; left: 12px; right: 12px; z-index: 1; overflow: hidden; font: 9px/1.35 YomuCoverSans, system-ui, sans-serif; letter-spacing: .12em; text-align: center; text-overflow: ellipsis; white-space: nowrap; }
+
+.back-inner { position: relative; z-index: 1; height: 100%; display: flex; flex-direction: column; justify-content: space-between; }
+.back-header { font: 9px system-ui, sans-serif; color: #6a6256; display: flex; justify-content: space-between; padding: 0 2px; }
+.vertical-quote-wrap { flex: 1; display: flex; align-items: center; justify-content: center; padding: 4px 0; }
+.vertical-quote { writing-mode: vertical-rl; text-orientation: mixed; font-size: 11px; line-height: 1.7; letter-spacing: .16em; color: #3b3630; max-height: 106px; }
+.center-crest { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; color: #70685c; }
+.crest-text { font-size: 11px; font-weight: 600; letter-spacing: .16em; color: #3b3630; }
+.crest-sub { font-size: 8px; color: #887f73; letter-spacing: .08em; }
+.back-footer { display: flex; align-items: flex-end; justify-content: space-between; padding-top: 4px; }
+.barcode-wrap { display: flex; flex-direction: column; gap: 2px; }
+.barcode-lines { display: flex; align-items: flex-end; gap: 1.5px; height: 15px; }
+.barcode-lines i { display: block; width: 1.5px; height: 100%; background: #2b2723; }
+.barcode-lines i:nth-child(even) { width: 1px; }
+.barcode-lines i:nth-child(3n) { width: 2.2px; }
+.barcode-num { font: 6.5px monospace; color: #6a6256; letter-spacing: .04em; }
+.stamp-done { width: 32px; height: 32px; border: 2px solid #b83324; border-radius: 50%; color: #b83324; display: flex; align-items: center; justify-content: center; font: 700 11px YomuCoverSerif, serif; letter-spacing: .08em; transform: rotate(-12deg); box-shadow: 0 0 0 1px #b83324, inset 0 0 0 1px #b83324; }
+
+.book-cover.is-undownloaded .book-cover-front { background: #eaeaea !important; color: #666 !important; border-color: #ccc !important; }
+.book-cover.is-undownloaded .book-cover-front::after { border: 2px dashed #999 !important; }
+.book-cover.is-undownloaded .book-cover-spine { background: #999 !important; }
+.book-cover.is-undownloaded .book-cover-mark { display: none; }
+.book-cover.is-undownloaded .book-cover-title { top: 22px; left: 10px; right: 10px; width: auto; transform: none !important; font: 600 14.5px/1.35 YomuCoverSans, system-ui, sans-serif; letter-spacing: .06em; max-height: 2.7em; color: #555; }
+.book-cover-cloud-icon { position: absolute; top: 54%; left: 50%; transform: translate(-50%, -50%); color: #777; display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.book-cover-cloud-icon svg { width: 34px; height: 34px; }
+
+/* Formal cards use the same cover face; their surrounding layout controls the
+   card width, never the cover artwork. */
+.book-row .book-cover,
+.store-row .book-cover,
+.store-cell .book-cover { flex: 0 0 auto; }
+.store-row .book-cover .book-cover-title,
+.store-cell .book-cover .book-cover-title { font-size: 16px !important; }
