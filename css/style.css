@@ -385,67 +385,90 @@ body.eink-mode .icon-btn {
     color: #111111 !important;
 }
 
-/* 本棚／全作品 分割切替导航：白色底框 + 浅灰激活胶囊，杜绝全黑药丸残影 */
+/* 本棚／全作品 分割切替：极简字重与灰阶区分，彻底去掉外框与背景色 */
 body.eink-mode .library-scope-nav {
-    background: #FFFFFF !important;
-    border: 1.5px solid #000000 !important;
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    gap: 18px !important;
 }
 
 body.eink-mode .scope-nav-btn {
     background: transparent !important;
-    color: #555555 !important;
-    border: 1px solid transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 6px 0 !important;
+    color: #777777 !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    box-shadow: none !important;
+}
+
+body.eink-mode .scope-nav-btn .scope-nav-badge {
+    background: transparent !important;
+    border: none !important;
+    color: #999999 !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    padding: 0 !important;
 }
 
 body.eink-mode .scope-nav-btn.active {
-    background: #E8E8E8 !important;
+    background: transparent !important;
+    border: none !important;
     color: #000000 !important;
-    border: 1.5px solid #000000 !important;
-    font-weight: 700 !important;
+    font-size: 15.5px !important;
+    font-weight: 800 !important;
+    box-shadow: none !important;
 }
 
 body.eink-mode .scope-nav-btn.active .scope-nav-badge {
-    background: #FFFFFF !important;
+    background: transparent !important;
+    border: none !important;
     color: #000000 !important;
-    border: 1px solid #777777 !important;
-}
-
-body.eink-mode .scope-nav-badge {
-    background: #EEEEEE !important;
-    color: #555555 !important;
-    border: 1px solid transparent !important;
+    font-weight: 700 !important;
+    padding: 0 !important;
 }
 
 /* 搜索胶囊与触发按钮 */
-body.eink-mode .search-trigger-btn,
+body.eink-mode .search-trigger-btn {
+    border: 1px solid #999999 !important;
+    background: transparent !important;
+    color: #444444 !important;
+}
+
 body.eink-mode .search-inline-capsule {
     border: 1.2px solid #555555 !important;
     background: #FFFFFF !important;
-    color: #222222 !important;
+    color: #000000 !important;
 }
 
-/* 分类、著者等筛选项：彻底去除实心黑方块，改用高对比度浅灰底框 + 纯黑文字加粗 */
+/* 分类、著者等筛选项：彻底去掉边框与背景色，纯靠粗黑体与浅灰色文字区分 */
 body.eink-mode .filter-chip {
-    color: #555555 !important;
+    color: #777777 !important;
     background: transparent !important;
-    border: 1.2px solid transparent !important;
-    padding: 3px 8px !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 6px 0 !important;
+    font-weight: 400 !important;
 }
 
 body.eink-mode .filter-chip .chip-count {
-    color: #777777 !important;
+    color: #999999 !important;
+    font-weight: 400 !important;
 }
 
 body.eink-mode .filter-chip.active {
-    background: #E8E8E8 !important;
+    background: transparent !important;
     color: #000000 !important;
-    border: 1.5px solid #000000 !important;
-    border-radius: 4px !important;
-    font-weight: 700 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    font-weight: 800 !important;
 }
 
 body.eink-mode .filter-chip.active .chip-count {
-    color: #222222 !important;
+    color: #000000 !important;
+    font-weight: 700 !important;
     opacity: 1 !important;
 }
 
