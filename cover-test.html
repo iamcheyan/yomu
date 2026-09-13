@@ -442,6 +442,172 @@
             pointer-events: none;
         }
 
+        /* ====================================================
+           三种高度/比例优化方案的核心 CSS 表现
+           ==================================================== */
+
+        /* 方案 1：等高 3D 整体收缩（Scale 自动等高补偿） */
+        .book-cover.mode-scale {
+            transform-origin: center 118px; /* 纸张中心点等比缩放 */
+            transform: scale(var(--cover-scale, 1));
+        }
+
+        /* 方案 2：弱透视克制微张（最大开角 28°，远视距 2400px，高度形变小于 2px） */
+        .book-cover.mode-subtle {
+            perspective: 2400px !important;
+        }
+        .book-cover.mode-subtle .book-cover-front {
+            transform: perspective(2400px) rotateY(calc(var(--front-angle) * 1deg)) !important;
+        }
+        .book-cover.mode-subtle.is-flipped .book-cover-back {
+            transform: perspective(2400px) rotateY(calc(var(--back-angle) * 1deg)) !important;
+        }
+        .book-cover.mode-subtle .book-cover-page-turning.page-layer-1 {
+            transform: perspective(2400px) rotateY(calc(var(--page1-angle) * 1deg)) !important;
+        }
+        .book-cover.mode-subtle .book-cover-page-turning.page-layer-2 {
+            transform: perspective(2400px) rotateY(calc(var(--page2-angle) * 1deg)) !important;
+        }
+        .book-cover.mode-subtle .book-cover-page-turning.page-layer-3 {
+            transform: perspective(2400px) rotateY(calc(var(--page3-angle) * 1deg)) !important;
+        }
+        .book-cover.mode-subtle .book-cover-page-turning.page-layer-4 {
+            transform: perspective(2400px) rotateY(calc(var(--page4-angle) * 1deg)) !important;
+        }
+
+        /* 方案 3：和风平视正交收折（上下 100% 绝对水平平齐，纯水平收窄与内页层叠，高度恒定 220px） */
+        .book-cover.mode-ortho {
+            perspective: none !important;
+        }
+        .book-cover.mode-ortho .book-cover-front {
+            transform-origin: left center !important;
+            transform: scaleX(var(--front-scale-x, 1)) !important;
+        }
+        .book-cover.mode-ortho.is-flipped .book-cover-back {
+            transform-origin: right center !important;
+            transform: scaleX(var(--back-scale-x, 1)) !important;
+        }
+        .book-cover.mode-ortho .book-cover-page-turning {
+            transform-origin: left center !important;
+        }
+        .book-cover.mode-ortho.is-flipped .book-cover-page-turning {
+            transform-origin: right center !important;
+        }
+        .book-cover.mode-ortho .book-cover-page-turning.page-layer-1 {
+            transform: scaleX(var(--page1-scale-x, 1)) !important;
+        }
+        .book-cover.mode-ortho .book-cover-page-turning.page-layer-2 {
+            transform: scaleX(var(--page2-scale-x, 1)) !important;
+        }
+        .book-cover.mode-ortho .book-cover-page-turning.page-layer-3 {
+            transform: scaleX(var(--page3-scale-x, 1)) !important;
+        }
+        .book-cover.mode-ortho .book-cover-page-turning.page-layer-4 {
+            transform: scaleX(var(--page4-scale-x, 1)) !important;
+        }
+
+        /* 横向方案对比区专用样式 */
+        .compare-section {
+            margin-bottom: 48px;
+            background: rgba(255, 255, 255, .4);
+            border: 1px solid var(--hairline, rgba(0,0,0,0.12));
+            border-radius: 12px;
+            padding: 24px 28px;
+        }
+        .compare-plan-block {
+            margin-bottom: 32px;
+            padding-bottom: 24px;
+            border-bottom: 1px dashed #dcd4c1;
+        }
+        .compare-plan-block:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+        .compare-plan-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+        }
+        .plan-badge {
+            display: inline-block;
+            padding: 3px 9px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 700;
+            background: #e6dfcc;
+            color: #4a4235;
+        }
+        .plan-badge.rec {
+            background: #3b7066;
+            color: #ffffff;
+        }
+        .plan-badge.muted {
+            background: #d4cec0;
+            color: #665f54;
+        }
+        .compare-plan-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #2b2723;
+        }
+        .compare-plan-desc {
+            font-size: 13px;
+            color: #6d6458;
+            flex: 1;
+            min-width: 260px;
+        }
+        .btn-apply-mode {
+            padding: 5px 12px;
+            font-size: 12px;
+            border: 1px solid #baaf99;
+            border-radius: 6px;
+            background: #fdfaf4;
+            color: #2b2723;
+            cursor: pointer;
+            transition: all .15s;
+        }
+        .btn-apply-mode:hover {
+            background: #2b2723;
+            color: #ffffff;
+        }
+        .compare-card-box {
+            position: relative;
+            width: var(--stage-w);
+        }
+        /* 红虚线基准对齐线：Top 8px 与 Bottom 228px，精准卡死文库判 220px 标准纸张高度 */
+        .compare-card-box::before {
+            content: "";
+            position: absolute;
+            left: -8px;
+            right: -8px;
+            top: 8px;
+            height: 1px;
+            border-top: 1px dashed rgba(220, 50, 50, 0.75);
+            pointer-events: none;
+            z-index: 50;
+        }
+        .compare-card-box::after {
+            content: "";
+            position: absolute;
+            left: -8px;
+            right: -8px;
+            top: 228px;
+            height: 1px;
+            border-top: 1px dashed rgba(220, 50, 50, 0.75);
+            pointer-events: none;
+            z-index: 50;
+        }
+        .compare-card-label {
+            margin-top: 10px;
+            text-align: center;
+            font-size: 12px;
+            color: #5c5549;
+            font-family: var(--font-sans, system-ui, sans-serif);
+        }
+
         /* 分类专属内边框色 */
         .cat-fiction { --cat-border-color: var(--cat-fiction); }
         .cat-essay { --cat-border-color: var(--cat-essay); }
@@ -701,7 +867,7 @@
             color: #888888;
         }
     </style>
-    <link rel="stylesheet" href="css/book-cover.css?v=1">
+    <link rel="stylesheet" href="css/book-cover.css?v=2">
 </head>
 <body class="test-page">
     <div class="test-wrap">
@@ -741,6 +907,14 @@
                     </div>
 
                     <div class="btn-group" style="margin-top: 10px;">
+                        <span class="btn-group-label">高度/比例优化方案：</span>
+                        <button class="test-btn mode-btn active" data-mode="ortho">★ 方案 3：和风平视正交（上下绝对水平齐平，纯水平收窄）</button>
+                        <button class="test-btn mode-btn" data-mode="subtle">方案 2：弱透视克制微张（开角28°，自然文气）</button>
+                        <button class="test-btn mode-btn" data-mode="scale">方案 1：等高 3D 整体收缩（保持大角度，整体 scale 贴合 220px）</button>
+                        <button class="test-btn mode-btn" data-mode="classic">方案 0：现状对照（未收缩，60%膨胀至294px）</button>
+                    </div>
+
+                    <div class="btn-group" style="margin-top: 10px;">
                         <span class="btn-group-label">特殊状态演示：</span>
                         <button class="test-btn undl-btn" id="toggle-undl-btn">★ 切换为【未下载状态】（灰色纸张 + 虚线边框 + 云朵）</button>
                     </div>
@@ -748,11 +922,63 @@
             </div>
         </header>
 
+        <!-- 特别展区：高度与比例 3 种方案同屏横向实测对比（上下红虚线为 220px 标准基准线） -->
+        <section class="compare-section">
+            <div class="section-header" style="margin-bottom: 20px;">
+                <h2 class="section-title">【高度与比例优化】三种方案同屏横向实测对比</h2>
+                <span class="section-desc">上下红虚线为未读/已读的标准 220px 基准线（Top 8px, Bottom 228px）。点击各行右侧“设为当前方案”可直接全局套用。</span>
+            </div>
+
+            <!-- 方案 3 -->
+            <div class="compare-plan-block">
+                <div class="compare-plan-header">
+                    <span class="plan-badge rec">推荐首选</span>
+                    <span class="compare-plan-title">方案 3：和风平视正交收折（上下 100% 绝对水平平齐）</span>
+                    <span class="compare-plan-desc">高度永远恒定 220px，仅封面水平收窄露出内页。书架列表如同标尺对齐般极致工整，墨水屏零锯齿毛刺。</span>
+                    <button class="btn-apply-mode" data-apply="ortho">套用方案 3</button>
+                </div>
+                <div class="test-grid" id="grid-compare-ortho"></div>
+            </div>
+
+            <!-- 方案 2 -->
+            <div class="compare-plan-block">
+                <div class="compare-plan-header">
+                    <span class="plan-badge">方案 2</span>
+                    <span class="compare-plan-title">方案 2：弱透视克制微张（最大开角 28°，远视距 2400px）</span>
+                    <span class="compare-plan-desc">书本微启自然文气，上下垂直形变小于 2px，保持 3D 纸张微倾斜的同时杜绝夸张膨胀。</span>
+                    <button class="btn-apply-mode" data-apply="subtle">套用方案 2</button>
+                </div>
+                <div class="test-grid" id="grid-compare-subtle"></div>
+            </div>
+
+            <!-- 方案 1 -->
+            <div class="compare-plan-block">
+                <div class="compare-plan-header">
+                    <span class="plan-badge">方案 1</span>
+                    <span class="compare-plan-title">方案 1：等高 3D 整体收缩（保持 65° 大角度，整体 Scale 贴合红线）</span>
+                    <span class="compare-plan-desc">保留大开大合的 3D 扇形展开，通过整体比例缩放使最高/最低点刚好不越过 220px 红线。</span>
+                    <button class="btn-apply-mode" data-apply="scale">套用方案 1</button>
+                </div>
+                <div class="test-grid" id="grid-compare-scale"></div>
+            </div>
+
+            <!-- 方案 0 现状对照 -->
+            <div class="compare-plan-block">
+                <div class="compare-plan-header">
+                    <span class="plan-badge muted">方案 0</span>
+                    <span class="compare-plan-title">方案 0：现状对照（未做高度收缩，原始大角度）</span>
+                    <span class="compare-plan-desc">60% 时高度由 220px 膨胀到 294px（溢出红线 74px），列表高低错落严重。</span>
+                    <button class="btn-apply-mode" data-apply="classic">套用方案 0</button>
+                </div>
+                <div class="test-grid" id="grid-compare-classic"></div>
+            </div>
+        </section>
+
         <!-- 第 1 部分：开书全阶段进阶（0% 闭合、25% 打开、60% 大幅展开收窄、85% 封底反转、100% 读了盖印、未下载） -->
         <section>
             <div class="section-header">
-                <h2 class="section-title">1. 书打开全阶段展开进阶（阅读进度真实状态）</h2>
-                <span class="section-desc">0%未读闭合、25%翻开、60%大幅展开收窄锁定书脊、85%封底反转、100%完读盖章、未下载状态</span>
+                <h2 class="section-title">1. 当前所选方案：书打开全阶段展开进阶</h2>
+                <span class="section-desc">0%未读闭合、25%翻开、53%半开、60%大幅展开收窄、85%封底反转、100%完读盖章、未下载状态</span>
             </div>
             <div class="test-grid" id="stages-grid"></div>
         </section>
@@ -847,6 +1073,7 @@
 
         let currentBookIndex = 0;
         let currentCat = 'fiction';
+        let currentMode = 'ortho'; // 默认方案 3：和风平视正交收折（上下绝对水平平齐）
         let isPreviewUndownloaded = false;
 
         function escapeHtml(str) {
@@ -870,11 +1097,13 @@
         function renderOpenBookCover(book, percent, options = {}) {
             const isUndownloaded = Boolean(options.isUndownloaded);
             const clamped = Math.max(0, Math.min(100, Math.round(percent)));
+            const activeMode = options.mode || currentMode;
             if (window.YomuBookCover) {
                 return YomuBookCover.render(book, clamped, {
                     escapeHtml,
                     escapeAttr,
                     category: options.category || book.category || 'fiction',
+                    mode: activeMode,
                     isUndownloaded
                 });
             }
@@ -1174,7 +1403,74 @@
             updatePreview(slider.value);
         });
 
+        // 渲染特别展区：四方案横向实测对比（带 220px 红虚线对齐基准线）
+        function renderComparisonSection() {
+            const book = testBooks[0]; // 太宰治《人間失格》
+            const compSteps = [
+                { p: 0, label: '0% 未読' },
+                { p: 25, label: '25% 読書中' },
+                { p: 53, label: '53% 半開' },
+                { p: 60, label: '60% 展開' },
+                { p: 85, label: '85% 終盤' },
+                { p: 100, label: '100% 読了' },
+                { p: 0, isUndownloaded: true, label: '未ダウンロード' }
+            ];
+
+            const renderRow = (gridId, mode) => {
+                const grid = document.getElementById(gridId);
+                if (!grid) return;
+                grid.innerHTML = compSteps.map(s => {
+                    const coverHtml = renderOpenBookCover(book, s.p, {
+                        mode,
+                        category: 'fiction',
+                        isUndownloaded: s.isUndownloaded
+                    });
+                    return `
+                        <div class="compare-card-box">
+                            ${coverHtml}
+                            <div class="compare-card-label">${s.label}</div>
+                        </div>
+                    `;
+                }).join('');
+            };
+
+            renderRow('grid-compare-ortho', 'ortho');
+            renderRow('grid-compare-subtle', 'subtle');
+            renderRow('grid-compare-scale', 'scale');
+            renderRow('grid-compare-classic', 'classic');
+        }
+
+        // 方案全局切换函数
+        function setCoverMode(newMode) {
+            currentMode = newMode;
+            // 更新顶部按钮 active 状态
+            document.querySelectorAll('.mode-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.mode === newMode);
+            });
+            // 重新渲染当前交互预览及各板块
+            updatePreview(slider.value);
+            renderStagesSection();
+            renderShelfSection();
+            renderCategorySection();
+        }
+
+        // 顶部方案模式切换按钮事件
+        document.querySelectorAll('.mode-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                setCoverMode(btn.dataset.mode);
+            });
+        });
+
+        // 对比展区“套用方案”快捷按钮事件
+        document.querySelectorAll('.btn-apply-mode').forEach(btn => {
+            btn.addEventListener('click', () => {
+                setCoverMode(btn.dataset.apply);
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        });
+
         // 首次初始化
+        renderComparisonSection();
         renderStagesSection();
         renderShelfSection();
         renderCategorySection();

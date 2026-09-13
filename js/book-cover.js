@@ -81,26 +81,72 @@ const YomuBookCover = (() => {
         const threshold = 75;
         const isFlipped = clamped > threshold && !isUndownloaded;
 
+        const mode = options.mode || 'ortho'; // 默认推荐和风正交平视等高，也可传入 subtle / scale / classic
         let frontAngle = 0;
         let frontOpacity = 1;
         let backAngle = 0;
         let backShift = 0;
-        if (clamped > 0 && !isUndownloaded && !isFlipped) {
-            const ratio = clamped / threshold;
-            frontAngle = -65 * Math.pow(ratio, 0.85);
-            frontOpacity = Math.max(0.4, 1 - 0.5 * ratio);
-        } else if (isFlipped) {
-            const remain = (100 - clamped) / (100 - threshold);
-            backAngle = 65 * Math.pow(remain, 0.9);
+        let coverScale = 1;
+        let frontScaleX = 1;
+        let backScaleX = 1;
+        let pageScaleXs = [1, 1, 1, 1];
+        let pageAngles = [0, 0, 0, 0];
+
+        if (clamped > 0 && !isUndownloaded) {
+            const ratio = clamped <= threshold ? clamped / threshold : 0;
+            const remain = clamped > threshold ? (100 - clamped) / (100 - threshold) : 0;
+
+            if (mode === 'ortho') {
+                // 方案 3：和风平视正交收折（上下绝对 100% 水平平齐，仅水平收窄与内页层叠，高度恒定 220px）
+                frontAngle = 0;
+                backAngle = 0;
+                if (!isFlipped) {
+                    const shrinkDelta = 0.48 * Math.pow(ratio, 0.85);
+                    frontScaleX = 1 - shrinkDelta;
+                    frontOpacity = Math.max(0.6, 1 - 0.4 * ratio);
+                    pageScaleXs = [0.15, 0.30, 0.45, 0.65].map(step => 1 - shrinkDelta * step);
+                } else {
+                    const shrinkDelta = 0.48 * Math.pow(remain, 0.9);
+                    backScaleX = 1 - shrinkDelta;
+                    pageScaleXs = [0.15, 0.30, 0.45, 0.65].map(step => 1 - shrinkDelta * step);
+                }
+            } else if (mode === 'subtle') {
+                // 方案 2：弱透视克制角度（最大开角 28°，远透视 2400px，文气质感微张，高度起伏小于 2px）
+                if (!isFlipped) {
+                    frontAngle = -28 * Math.pow(ratio, 0.85);
+                    frontOpacity = Math.max(0.4, 1 - 0.5 * ratio);
+                } else {
+                    backAngle = 28 * Math.pow(remain, 0.9);
+                }
+                pageAngles = [0.25, 0.50, 0.75, 1.00].map(r => (isFlipped ? backAngle : frontAngle) * r);
+            } else if (mode === 'scale') {
+                // 方案 1：等高 3D 整体收缩（保持 65° 大角度，但通过整体 scale 缩小，使 3D 展开后的上下顶点贴合 220px）
+                if (!isFlipped) {
+                    frontAngle = -65 * Math.pow(ratio, 0.85);
+                    frontOpacity = Math.max(0.4, 1 - 0.5 * ratio);
+                    coverScale = 1 / (1 + 0.33 * Math.pow(ratio, 0.85));
+                } else {
+                    backAngle = 65 * Math.pow(remain, 0.9);
+                    coverScale = 1 / (1 + 0.33 * Math.pow(remain, 0.9));
+                }
+                pageAngles = [0.2, 0.4, 0.6, 0.8].map(r => (isFlipped ? backAngle : frontAngle) * r);
+            } else {
+                // 方案 0：现状对照（未做高度收缩的大角度 3D）
+                if (!isFlipped) {
+                    frontAngle = -65 * Math.pow(ratio, 0.85);
+                    frontOpacity = Math.max(0.4, 1 - 0.5 * ratio);
+                } else {
+                    backAngle = 65 * Math.pow(remain, 0.9);
+                }
+                pageAngles = [0.2, 0.4, 0.6, 0.8].map(r => (isFlipped ? backAngle : frontAngle) * r);
+            }
         }
 
-        const pageAngles = [0.2, 0.4, 0.6, 0.8].map(ratio =>
-            (isFlipped ? backAngle : frontAngle) * ratio
-        );
         const theme = AUTHOR_THEMES[book.author || ''] || 'default';
         const category = options.category || book.category || 'default';
         const categoryClass = ` cat-${category}`;
         const extraClass = options.extraClass ? ` ${options.extraClass}` : '';
+        const modeClass = ` mode-${mode}`;
         const stateClass = `${clamped === 0 || isUndownloaded ? ' is-closed' : ''}${clamped === 100 ? ' is-finished' : ''}${isFlipped ? ' is-flipped' : ''}${isUndownloaded ? ' is-undownloaded' : ''}`;
         const coverNdc = book.ndc || 'NDC 913';
         const author = book.author || '';
@@ -128,13 +174,17 @@ const YomuBookCover = (() => {
         const style = [
             `--front-angle:${frontAngle.toFixed(1)}`,
             `--front-opacity:${frontOpacity}`,
+            `--cover-scale:${coverScale.toFixed(3)}`,
+            `--front-scale-x:${frontScaleX.toFixed(3)}`,
+            `--back-scale-x:${backScaleX.toFixed(3)}`,
             `--back-angle:${backAngle.toFixed(1)}`,
             `--back-shift:${backShift.toFixed(1)}`,
-            ...pageAngles.flatMap((angle, i) => [`--page${i + 1}-angle:${angle.toFixed(1)}`, `--page${i + 1}-shift:0`])
+            ...pageAngles.flatMap((angle, i) => [`--page${i + 1}-angle:${angle.toFixed(1)}`, `--page${i + 1}-shift:0`]),
+            ...pageScaleXs.map((sx, i) => `--page${i + 1}-scale-x:${sx.toFixed(3)}`)
         ].join(';');
         const back = isFlipped ? backContent(book, clamped, escapeHtml) : '';
 
-        return `<div class="book-cover book-cover-${theme}${categoryClass}${extraClass}${stateClass}" data-progress="${clamped}" style="${style}" aria-label="${escape(book.title, escapeAttr)} — ${escape(author, escapeAttr)}">
+        return `<div class="book-cover book-cover-${theme}${categoryClass}${modeClass}${extraClass}${stateClass}" data-progress="${clamped}" style="${style}" aria-label="${escape(book.title, escapeAttr)} — ${escape(author, escapeAttr)}">
             <div class="book-cover-pages-base" aria-hidden="true"><div class="book-cover-page-lines"></div></div>
             <div class="book-cover-page-turning page-layer-1" aria-hidden="true"></div>
             <div class="book-cover-page-turning page-layer-2" aria-hidden="true"></div>
@@ -146,5 +196,8 @@ const YomuBookCover = (() => {
         </div>`;
     }
 
-    return { render };
+    const instance = { render };
+    if (typeof window !== 'undefined') window.YomuBookCover = instance;
+    if (typeof globalThis !== 'undefined') globalThis.YomuBookCover = instance;
+    return instance;
 })();
