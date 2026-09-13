@@ -177,7 +177,7 @@
     opacity: 1 !important;
     border: 1px solid #baaf99;
     padding: 12px;
-    font-family: YomuCoverSerif, var(--font-serif, serif);
+    font-family: var(--display-font-family, var(--font-serif, serif));
     box-shadow: 3px 3px 10px rgba(50, 45, 35, .20);
 }
 .book-cover-front { z-index: 6; transform-origin: left center !important; transform: perspective(2400px) rotateY(calc(var(--front-angle) * 1deg)) !important; }
@@ -208,11 +208,11 @@
 .cat-default { --cat-border-color: var(--cat-default); }
 
 .book-cover-mark { position: absolute; top: 12px; right: 13px; z-index: 1; font: 600 9.5px system-ui, sans-serif; color: #555047; letter-spacing: .06em; }
-.book-cover-title { position: absolute; left: 50%; top: 30%; z-index: 1; width: calc(100% - 24px); max-height: 5.8em; overflow: hidden; transform: translate(-50%, -50%) !important; font: 600 16px/1.45 YomuCoverSerif, var(--font-serif, serif); letter-spacing: .09em; text-align: center; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; line-clamp: 4; }
+.book-cover-title { position: absolute; left: 50%; top: 30%; z-index: 1; width: calc(100% - 24px); max-height: 5.8em; overflow: hidden; transform: translate(-50%, -50%) !important; font: 600 16px/1.45 var(--display-font-family, var(--font-serif, serif)); letter-spacing: .09em; text-align: center; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; line-clamp: 4; }
 .book-cover-title::before { display: none !important; }
-.book-cover-author { position: absolute; top: 47%; left: 12px; right: 12px; z-index: 1; overflow: hidden; font: 11px/1.35 YomuCoverAccent, YomuCoverSerif, var(--font-serif, serif); letter-spacing: .12em; text-align: center; text-overflow: ellipsis; white-space: nowrap; }
+.book-cover-author { position: absolute; top: 47%; left: 12px; right: 12px; z-index: 1; overflow: hidden; font: 11px/1.35 var(--display-font-family, var(--font-serif, serif)); letter-spacing: .12em; text-align: center; text-overflow: ellipsis; white-space: nowrap; }
 .book-cover-rule { position: absolute; top: 64%; left: 28%; right: 28%; z-index: 1; height: 1px; background: color-mix(in srgb, var(--cover-ink) 42%, transparent); }
-.book-cover-publisher { position: absolute; top: 79%; left: 12px; right: 12px; z-index: 1; overflow: hidden; font: 9px/1.35 YomuCoverSans, system-ui, sans-serif; letter-spacing: .12em; text-align: center; text-overflow: ellipsis; white-space: nowrap; }
+.book-cover-publisher { position: absolute; top: 79%; left: 12px; right: 12px; z-index: 1; overflow: hidden; font: 9px/1.35 var(--display-font-family, var(--font-serif, serif)); letter-spacing: .12em; text-align: center; text-overflow: ellipsis; white-space: nowrap; }
 
 .back-inner { position: relative; z-index: 1; height: 100%; display: flex; flex-direction: column; justify-content: space-between; }
 .back-header { font: 9px system-ui, sans-serif; color: #6a6256; display: flex; justify-content: space-between; padding: 0 2px; }
@@ -228,7 +228,7 @@
 .barcode-lines i:nth-child(even) { width: 1px; }
 .barcode-lines i:nth-child(3n) { width: 2.2px; }
 .barcode-num { font: 6.5px monospace; color: #6a6256; letter-spacing: .04em; }
-.stamp-done { width: 32px; height: 32px; border: 2px solid #b83324; border-radius: 50%; color: #b83324; display: flex; align-items: center; justify-content: center; font: 700 11px YomuCoverSerif, serif; letter-spacing: .08em; transform: rotate(-12deg); box-shadow: 0 0 0 1px #b83324, inset 0 0 0 1px #b83324; }
+.stamp-done { width: 32px; height: 32px; border: 2px solid #b83324; border-radius: 50%; color: #b83324; display: flex; align-items: center; justify-content: center; font: 700 11px var(--display-font-family, var(--font-serif, serif)); letter-spacing: .08em; transform: rotate(-12deg); box-shadow: 0 0 0 1px #b83324, inset 0 0 0 1px #b83324; }
 
 .book-cover.is-undownloaded .book-cover-front {
     /* 云端书使用中性灰，与已下载书的分类色明确区分。 */
@@ -250,7 +250,7 @@
     right: auto;
     width: calc(100% - 24px);
     transform: translate(-50%, -50%) !important;
-    font: 600 16px/1.45 YomuCoverSerif, var(--font-serif, serif);
+    font: 600 16px/1.45 var(--display-font-family, var(--font-serif, serif));
     letter-spacing: .09em;
     max-height: 5.8em;
     color: #666764;
@@ -289,3 +289,76 @@
 .store-cell .book-cover { flex: 0 0 auto; }
 .store-row .book-cover .book-cover-title,
 .store-cell .book-cover .book-cover-title { font-size: 16px !important; }
+
+/* ============================================================
+   墨水屏模式（E-Ink Mode）专用封面与质感优化
+   - 彻底去除 3D 旋转角度与视差透视（保持平面 2D 印刷感）
+   - 彻底消除 box-shadow、多层重叠阴影与半透明渐变（杜绝 16 阶灰度抖动脏斑）
+   - 使用清晰 1.5px 实线边框，呈现日本文库本的纯净纸质质感
+   ============================================================ */
+body.eink-mode .book-cover-container {
+    perspective: none !important;
+    transform: none !important;
+}
+
+body.eink-mode .book-cover-paper {
+    transform: none !important;
+    box-shadow: none !important;
+    border-radius: 2px !important;
+    border: 1.5px solid var(--fg-color, #1a1a1a) !important;
+    background: var(--bg-color, #F7F3EA) !important;
+}
+
+body.eink-mode .book-cover-front {
+    transform: none !important;
+    box-shadow: none !important;
+    border-radius: 2px !important;
+    border: 1.5px solid var(--fg-color, #1a1a1a) !important;
+    background: var(--bg-color, #F7F3EA) !important;
+}
+
+body.eink-mode .book-cover-back,
+body.eink-mode .book-cover-page-edge {
+    display: none !important;
+}
+
+body.eink-mode .book-cover-spine {
+    display: none !important;
+}
+
+body.eink-mode .book-cover-frame {
+    border-color: var(--fg-color, #1a1a1a) !important;
+    opacity: 0.9 !important;
+}
+
+body.eink-mode .book-cover-title {
+    color: var(--fg-color, #1a1a1a) !important;
+}
+
+body.eink-mode .book-cover-author,
+body.eink-mode .book-cover-publisher,
+body.eink-mode .book-cover-mark {
+    color: var(--fg-color, #1a1a1a) !important;
+    opacity: 0.85 !important;
+}
+
+body.eink-mode .book-cover-rule {
+    background: var(--fg-color, #1a1a1a) !important;
+    opacity: 0.6 !important;
+}
+
+body.eink-mode .stamp-done {
+    box-shadow: none !important;
+    border: 2px solid var(--fg-color, #1a1a1a) !important;
+    color: var(--fg-color, #1a1a1a) !important;
+}
+
+body.eink-mode .book-cover.is-undownloaded .book-cover-front {
+    background: var(--bg-color, #F7F3EA) !important;
+    border-color: var(--line-color, #666) !important;
+    color: var(--fg-color, #1a1a1a) !important;
+}
+
+body.eink-mode .book-cover.is-undownloaded .book-cover-front::after {
+    border: 1.5px dashed var(--line-color, #666) !important;
+}

@@ -9,8 +9,8 @@
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/svg+xml" href="assets/app_icon.svg">
     <link rel="apple-touch-icon" href="assets/app_icon.png">
-    <link rel="stylesheet" href="css/style.css?v=35">
-    <link rel="stylesheet" href="css/book-cover.css?v=8">
+    <link rel="stylesheet" href="css/style.css?v=37">
+    <link rel="stylesheet" href="css/book-cover.css?v=9">
 
     <script>
         // PWA: register service worker for offline reading (http/https only;
@@ -47,6 +47,15 @@
                             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                             <polyline points="17 8 12 3 7 8"></polyline>
                             <line x1="12" y1="3" x2="12" y2="15"></line>
+                        </svg>
+                    </button>
+                    <button id="btn-toggle-eink" class="icon-btn" onclick="Yomu.toggleEinkMode()" title="電子ペーパー（E-Ink）表示切替" aria-label="電子ペーパー表示切替">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                            <line x1="12" y1="18" x2="12.01" y2="18" stroke-width="2.5"></line>
+                            <path d="M8 6h8"></path>
+                            <path d="M8 9h8"></path>
+                            <path d="M8 12h5"></path>
                         </svg>
                     </button>
                     <button id="btn-open-settings" class="icon-btn" onclick="Yomu.toggleSettings()" title="設定" aria-label="設定">
@@ -421,7 +430,7 @@
     <script src="js/ypop.js?v=2"></script>
     <script src="libs/kuromoji.js"></script>
     <script src="js/storage.js?v=5"></script>
-    <script src="js/fonts.js?v=3"></script>
+    <script src="js/fonts.js?v=4"></script>
     <script src="js/book-cover.js?v=2"></script>
     <script src="js/tokenizer.js?v=3"></script>
     <script src="js/reader.js?v=18"></script>
@@ -430,7 +439,7 @@
     <script src="js/dict.js?v=6"></script>
     <script src="js/importer.js?v=1"></script>
     <script src="js/wordbook.js?v=2"></script>
-    <script src="js/app.js?v=44"></script>
+    <script src="js/app.js?v=45"></script>
 
 </body>
 

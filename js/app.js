@@ -3028,13 +3028,13 @@ const Yomu = {
         this.setTheme(settings.theme || 'light');
         this.setBrightness(settings.brightness || 100);
 
-        // 墨水屏模式：Android 默认开启，网页端可由用户手动开启
+        // 墨水屏模式：已保存优先；未保存时支持设备嗅探（update: slow 或墨水屏UA特征）
+        const isEinkScreen = (window.matchMedia && window.matchMedia('(update: slow)').matches) ||
+                             /BOOX|Onyx|Hanvon|iReader|Moaan|inkPalm|MiReader|Hisense|Bigme|Meebook|Likebook|Kindle|Kobo/i.test(navigator.userAgent);
         const einkMode = settings.einkMode !== undefined
             ? settings.einkMode
-            : document.body.classList.contains('env-android');
-        document.body.classList.toggle('eink-mode', einkMode);
-        const einkToggle = document.getElementById('eink-mode-toggle');
-        if (einkToggle) einkToggle.checked = einkMode;
+            : (isEinkScreen || document.body.classList.contains('env-android'));
+        this.setEinkMode(einkMode);
 
         // B5: JLPT 難度表示（默认开）
         const jlptToggle = document.getElementById('jlpt-show-toggle');
@@ -3063,6 +3063,23 @@ const Yomu = {
         const value = Boolean(enabled);
         YomuStorage.saveSetting('einkMode', value);
         document.body.classList.toggle('eink-mode', value);
+
+        const einkToggle = document.getElementById('eink-mode-toggle');
+        if (einkToggle) einkToggle.checked = value;
+
+        const einkBtn = document.getElementById('btn-toggle-eink');
+        if (einkBtn) {
+            einkBtn.classList.toggle('active', value);
+            einkBtn.setAttribute('aria-pressed', value ? 'true' : 'false');
+            einkBtn.title = value ? '電子ペーパー（E-Ink）：ON（タップで解除）' : '電子ペーパー（E-Ink）表示切替';
+        }
+    },
+
+    toggleEinkMode() {
+        const isCurrentEink = document.body.classList.contains('eink-mode');
+        const next = !isCurrentEink;
+        this.setEinkMode(next);
+        this.showToast(next ? '電子ペーパー表示（E-Ink）：ON' : '電子ペーパー表示（E-Ink）：OFF', { duration: 1800 });
     },
 
     setFuriganaMode(mode) {
