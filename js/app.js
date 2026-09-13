@@ -354,6 +354,8 @@ const Yomu = {
         // Update counters
         const counter = document.getElementById('library-count');
         if (counter) counter.textContent = allBooks.length;
+        const footerCounter = document.getElementById('library-footer-count');
+        if (footerCounter) footerCounter.textContent = allBooks.length.toLocaleString();
         const catBadge = document.getElementById('catalog-count');
         if (catBadge && this._storeBooks && this._storeBooks.length) {
             catBadge.textContent = this._storeBooks.length.toLocaleString();
@@ -378,14 +380,17 @@ const Yomu = {
                             ${this._isNewBook(book.id) ? '<span class="badge-new">新着</span>' : ''}
                             ${book.hasTrans ? '<span class="dot-e" title="翻訳あり">訳</span>' : ''}
                         </div>
-                        <div class="book-row-progress ${isRead ? 'is-read' : 'is-unread'}">
-                            <div class="track"><span style="width:${percent}%"></span></div>
-                            <span class="pct">${percent >= 100 ? '読了' : percent + '%'}</span>
+                        ${this._bookMetaMarkup(book)}
+                        <div class="book-row-footer">
+                            <div class="book-row-progress ${isRead ? 'is-read' : 'is-unread'}">
+                                <div class="track"><span style="width:${percent}%"></span></div>
+                                <span class="pct">${percent >= 100 ? '読了' : percent + '%'}</span>
+                            </div>
+                            <button class="row-more-btn" onclick="Yomu.openBookMenu('${this._escapeAttr(book.id)}', 'library', event)" title="詳細メニュー" aria-label="詳細メニュー">
+                                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="5" r="1.8"></circle><circle cx="12" cy="12" r="1.8"></circle><circle cx="12" cy="19" r="1.8"></circle></svg>
+                            </button>
                         </div>
                     </div>
-                    <button class="row-more-btn" onclick="Yomu.openBookMenu('${this._escapeAttr(book.id)}', 'library', event)" title="詳細メニュー" aria-label="詳細メニュー">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="5" r="1.6"></circle><circle cx="12" cy="12" r="1.6"></circle><circle cx="12" cy="19" r="1.6"></circle></svg>
-                    </button>
                 </div>
             `;
         };
@@ -405,11 +410,11 @@ const Yomu = {
                     <div class="book-row" onclick="Yomu.openBook('${this._escapeAttr(book.id)}', true, ${r.hit.paraIndex})">
                         ${this._coverMarkup(book)}
                         <div class="book-row-main">
-                            <div class="book-row-title-line">
-                                <span class="book-row-title">${this._escapeHtml(book.title)}</span>
+                            <div class="book-row-author-line">
+                                <span class="book-row-author">${this._escapeHtml(book.author || '')}</span>
                                 <span class="match-tag">本文一致</span>
                             </div>
-                            <div class="book-row-author">${this._escapeHtml(book.author || '')}</div>
+                            ${this._bookMetaMarkup(book)}
                             <div class="fulltext-excerpt">${this._escapeHtml(r.hit.excerpt)}</div>
                         </div>
                     </div>
@@ -462,6 +467,8 @@ const Yomu = {
         if (catBadge) {
             const count = this._storeBooks.length || 15035;
             catBadge.textContent = count.toLocaleString();
+            const footerCounter = document.getElementById('library-footer-count');
+            if (footerCounter) footerCounter.textContent = count.toLocaleString();
         }
 
         // 分页计算
@@ -549,6 +556,7 @@ const Yomu = {
                             <span class="book-row-author">${this._escapeHtml(book.author || `(著者ID: ${book.authorId || ''})`)}</span>
                             ${saved ? '<span class="badge-saved">本棚</span>' : ''}
                         </div>
+                        ${this._bookMetaMarkup(book)}
                         <div class="book-row-action">
                             ${actionHtml}
                         </div>
@@ -1374,6 +1382,7 @@ const Yomu = {
         const progress = this._getBookProgress(book);
         const percent = Math.round(progress.scrollPercent || 0);
         const clamped = Math.max(0, Math.min(100, percent));
+        // 75%之后翻转为封底，向读了收拢
         const threshold = 75;
         const isFlipped = clamped > threshold;
 
@@ -1385,20 +1394,20 @@ const Yomu = {
 
         if (clamped === 0) {
             frontAngle = 0;
-            frontShift = 0;
             frontOpacity = 1;
         } else if (!isFlipped) {
             const ratio = clamped / threshold;
             frontAngle = -65 * Math.pow(ratio, 0.85);
-            frontShift = -16 * ratio;
+            frontShift = 0;
             frontOpacity = Math.max(0.4, 1 - 0.5 * ratio);
         } else {
             const remain = (100 - clamped) / (100 - threshold);
             backAngle = 65 * Math.pow(remain, 0.9);
-            backShift = 16 * remain;
+            backShift = 0;
         }
 
         const author = book.author || '';
+        const coverNdc = book.ndc || 'NDC 913';
         const themes = {
             '夏目漱石': ['souseki', '夏目漱石'],
             '芥川龍之介': ['akutagawa', '芥川龍之介'],
@@ -1423,7 +1432,7 @@ const Yomu = {
             const isFinished = clamped === 100;
             const stampHTML = isFinished
                 ? '<span class="stamp-done">読了</span>'
-                : '<span class="stamp-pending">読書中</span>';
+                : '';
             const workNum = (book.workId || book.id || 'BOOK').toString().replace(/\D/g, '').slice(0, 5) || '001';
             const barcodeHTML = `
                 <div class="barcode-wrap">
@@ -1501,11 +1510,7 @@ const Yomu = {
         if (isFinished) stateClass += ' is-finished';
         if (isFlipped) stateClass += ' is-flipped';
 
-            const coverAuthor = (theme[1] && theme[1] !== '青空文庫')
-                ? theme[1]
-                : (book.author && book.author.length <= 10 ? book.author : '青空文庫');
-
-            return `<div class="book-cover book-cover-${theme[0]}${stateClass}" data-progress="${percent}" style="--front-angle:${frontAngle.toFixed(1)};--front-shift:${frontShift.toFixed(1)};--front-opacity:${frontOpacity};--back-angle:${backAngle.toFixed(1)};--back-shift:${backShift.toFixed(1)};--page1-angle:${page1Angle.toFixed(1)};--page1-shift:${page1Shift.toFixed(1)};--page2-angle:${page2Angle.toFixed(1)};--page2-shift:${page2Shift.toFixed(1)};--page3-angle:${page3Angle.toFixed(1)};--page3-shift:${page3Shift.toFixed(1)};--page4-angle:${page4Angle.toFixed(1)};--page4-shift:${page4Shift.toFixed(1)}" aria-label="${this._escapeAttr(book.title)} — ${this._escapeAttr(author)}">
+        return `<div class="book-cover book-cover-${theme[0]}${stateClass}" data-progress="${percent}" style="--front-angle:${frontAngle.toFixed(1)};--front-shift:${frontShift.toFixed(1)};--front-opacity:${frontOpacity};--back-angle:${backAngle.toFixed(1)};--back-shift:${backShift.toFixed(1)};--page1-angle:${page1Angle.toFixed(1)};--page1-shift:${page1Shift.toFixed(1)};--page2-angle:${page2Angle.toFixed(1)};--page2-shift:${page2Shift.toFixed(1)};--page3-angle:${page3Angle.toFixed(1)};--page3-shift:${page3Shift.toFixed(1)};--page4-angle:${page4Angle.toFixed(1)};--page4-shift:${page4Shift.toFixed(1)}" aria-label="${this._escapeAttr(book.title)} — ${this._escapeAttr(author)}">
             <div class="book-cover-pages-base" aria-hidden="true"><div class="book-cover-page-lines"></div></div>
             <div class="book-cover-page-turning page-layer-1" aria-hidden="true"></div>
             <div class="book-cover-page-turning page-layer-2" aria-hidden="true"></div>
@@ -1513,12 +1518,10 @@ const Yomu = {
             <div class="book-cover-page-turning page-layer-4" aria-hidden="true"></div>
             <div class="book-cover-back" aria-hidden="true">${backContent}</div>
             <div class="book-cover-front">
-                <span class="book-cover-mark" aria-hidden="true">青空文庫</span>
+                <span class="book-cover-mark" aria-hidden="true">${this._escapeHtml(coverNdc)}</span>
                 <span class="book-cover-title">${this._escapeHtml(book.title)}</span>
-                <span class="book-cover-author">${this._escapeHtml(coverAuthor)}</span>
             </div>
             <i class="book-cover-spine" aria-hidden="true"></i>
-            ${percent > 0 ? `<span class="book-cover-state">${percent >= 100 ? '読了' : percent + '%'}</span>` : ''}
         </div>`;
     },
 
@@ -1777,6 +1780,22 @@ const Yomu = {
             drama: '戯曲',
             foreign: '海外文学'
         }[category] || '';
+    },
+
+    /** カード下部の補足情報。作品名は表紙にあるため、ここでは重複させない。 */
+    _bookMetaMarkup(book) {
+        const category = this._categoryLabel(this._bookCategory(book));
+        const orthography = book.orthography || '';
+        const meta = [category, orthography].filter(Boolean);
+        // `baseBookTitle` は書名そのものなので表示せず、底本欄だけを使う。
+        const source = book.baseBook || book.publisher || '';
+
+        if (!meta.length && !source) return '';
+
+        return `
+            ${meta.length ? `<div class="book-card-meta">${meta.map(value => `<span>${this._escapeHtml(value)}</span>`).join('')}</div>` : ''}
+            ${source ? `<div class="book-card-source" title="${this._escapeAttr(source)}">底本：${this._escapeHtml(source)}</div>` : ''}
+        `;
     },
 
     async downloadBook(bookId) {

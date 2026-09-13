@@ -3,689 +3,647 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Yomu cover state test</title>
+    <title>Yomu 書籍カバー・開き具合テスト</title>
+    <!-- 1. 确保固定产品字体声明与系统完全一致 -->
     <style>
-        :root { color-scheme: light; --bg: #f4ead2; --ink: #332d24; --muted: #9a8d74; --line: #b9ad96; }
-        * { box-sizing: border-box; }
-        body { margin: 0; padding: 48px; background: var(--bg); color: var(--ink); font-family: Georgia, "Noto Serif JP", serif; }
-        header { max-width: 1420px; margin: 0 auto 38px; }
-        h1 { margin: 0 0 8px; font-size: 32px; letter-spacing: .08em; }
-        p { margin: 0; color: var(--muted); font-family: system-ui, sans-serif; }
+        @font-face {
+            font-family: "YomuCoverSerif";
+            font-style: normal;
+            font-weight: 400 700;
+            font-display: swap;
+            src: url("assets/fonts/noto-serif-jp-400.woff2") format("woff2");
+        }
+        @font-face {
+            font-family: "YomuCoverSans";
+            font-style: normal;
+            font-weight: 400 700;
+            font-display: swap;
+            src: url("assets/fonts/noto-sans-jp-400.woff2") format("woff2");
+        }
+        @font-face {
+            font-family: "YomuCoverAccent";
+            font-style: normal;
+            font-weight: 400 700;
+            font-display: swap;
+            src: url("assets/fonts/klee-one-400.woff2") format("woff2");
+        }
+    </style>
+    <!-- 2. 直接引入主系统样式表，保证100%相同的样式、变量与规则 -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 3. 测试页专属布局辅助样式（不影响 book-cover 本身） -->
+    <style>
+        body.test-page {
+            margin: 0;
+            padding: 36px 32px 60px;
+            background: var(--bg-color, #f4ead2);
+            color: var(--fg-color, #25221f);
+            font-family: var(--font-serif, "Noto Serif JP", serif);
+            -webkit-font-smoothing: antialiased;
+        }
+        .test-wrap {
+            max-width: 1420px;
+            margin: 0 auto;
+        }
+        .test-header {
+            margin-bottom: 24px;
+        }
+        .test-header h1 {
+            margin: 0 0 8px;
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: .06em;
+        }
+        .test-header p {
+            margin: 0;
+            color: var(--muted-color, #70685c);
+            font-size: 13.5px;
+            line-height: 1.6;
+        }
 
-        /* 顶部面板：交互滑块与封底风格切换 */
+        /* 顶部交互调试面板 */
         .preview-panel {
-            margin-top: 24px;
-            padding: 20px 24px;
-            background: rgba(255, 255, 255, .5);
-            border: 1px solid var(--line);
-            border-radius: 10px;
+            margin-bottom: 36px;
+            padding: 22px 26px;
+            background: rgba(255, 255, 255, .6);
+            border: 1px solid var(--hairline, rgba(0,0,0,0.12));
+            border-radius: 12px;
             display: flex;
             align-items: center;
-            gap: 32px;
-            max-width: 920px;
-            min-height: 240px;
+            gap: 36px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, .04);
         }
-        .preview-demo { width: 155px; flex-shrink: 0; }
-        .preview-demo .book { min-height: 220px; }
-        .preview-demo .closed-title { font-size: 20px !important; }
-        .preview-controls { flex: 1; min-width: 0; }
-        .preview-controls label { display: flex; justify-content: space-between; font-size: 14px; font-weight: 600; margin-bottom: 8px; font-family: system-ui, sans-serif; }
-        .preview-controls input[type="range"] { width: 100%; cursor: pointer; accent-color: #555f6b; }
-        .preview-note { margin-top: 6px; font-size: 12px; color: var(--muted); }
-
-        .style-switcher { margin-top: 16px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-        .style-switcher span { font-size: 13px; font-weight: 600; color: var(--ink); font-family: system-ui, sans-serif; }
-        .style-btn, .book-btn {
-            background: #e8e2d4;
-            border: 1px solid var(--line);
-            padding: 5px 11px;
-            border-radius: 6px;
-            font-size: 11.5px;
-            font-family: system-ui, sans-serif;
+        .preview-card-wrap {
+            width: 184px;
+            flex-shrink: 0;
+        }
+        .preview-controls {
+            flex: 1;
+            min-width: 0;
+        }
+        .preview-controls label {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            font-family: var(--font-sans, system-ui, sans-serif);
+        }
+        .preview-controls input[type="range"] {
+            width: 100%;
             cursor: pointer;
-            color: var(--ink);
+            accent-color: #555f6b;
+        }
+        .preview-note {
+            margin-top: 8px;
+            font-size: 13px;
+            color: var(--muted-color, #70685c);
+            font-family: var(--font-sans, system-ui, sans-serif);
+        }
+
+        .btn-group {
+            margin-top: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .btn-group-label {
+            font-size: 12.5px;
+            font-weight: 600;
+            color: var(--fg-color, #25221f);
+            font-family: var(--font-sans, system-ui, sans-serif);
+        }
+        .test-btn {
+            background: rgba(255, 255, 255, .7);
+            border: 1px solid var(--hairline, rgba(0,0,0,0.18));
+            padding: 5px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-family: var(--font-sans, system-ui, sans-serif);
+            cursor: pointer;
+            color: var(--fg-color, #25221f);
             transition: all .15s ease;
         }
-        .style-btn.active, .book-btn.active {
+        .test-btn:hover {
+            background: #fff;
+        }
+        .test-btn.active {
             background: #555f6b;
             color: #fff;
             border-color: #555f6b;
         }
 
-        .states { max-width: 1420px; margin: 0 auto; display: grid; grid-template-columns: repeat(5, minmax(150px, 1fr)); gap: 34px 30px; align-items: start; }
-        .state { min-width: 0; }
-        .state-name { margin: 14px 0 5px; font-size: 17px; font-weight: 600; }
-        .state-note { font-size: 12px; line-height: 1.6; }
-        .book { position: relative; aspect-ratio: .72 / 1; min-height: 280px; }
-
-        /* 闭合未读（0%）或读了合上（100%）时，整书只展现纯粹封面或封底，不显示内页与切面阴影 */
-        .state.is-closed .book-pages-base,
-        .state.is-closed .book-page-turning,
-        .state.is-finished .book-pages-base,
-        .state.is-finished .book-page-turning {
-            display: none !important;
-        }
-
-        /* 多层书芯堆叠与翻页效果（厚重感设计） */
-        .book-pages-base {
+        /* 竖排书名模式（默认启用） */
+        body.test-page.mode-vertical-title .book-cover-title {
             position: absolute;
-            top: 8%;
-            bottom: 7%;
-            left: 10%;
-            right: 4%;
-            overflow: hidden;
-            background: #faf6ec;
-            border: 1px solid #a89d87;
-            /* 细腻百页阶梯纸边，大幅增强书本厚重感 */
-            box-shadow:
-                1px 1px 0 #ede6d6,
-                2px 2px 0 #e4dcc9,
-                3px 3px 0 #dcd4c1,
-                4px 4px 0 #d4cbb8,
-                5px 5px 0 #ccc3af,
-                6px 6px 0 #c4bba6,
-                7px 7px 0 #bcb39e,
-                8px 9px 12px rgba(60, 50, 40, .28);
-            z-index: 0;
-        }
-        .state.is-flipped .book-pages-base {
-            left: 4%;
-            right: 10%;
-            box-shadow:
-                -1px 1px 0 #ede6d6,
-                -2px 2px 0 #e4dcc9,
-                -3px 3px 0 #dcd4c1,
-                -4px 4px 0 #d4cbb8,
-                -5px 5px 0 #ccc3af,
-                -6px 6px 0 #c4bba6,
-                -7px 7px 0 #bcb39e,
-                -8px 9px 12px rgba(60, 50, 40, .28);
-        }
-        .book-page-lines {
-            position: absolute;
-            inset: 10px;
-            border: 1px solid #dcd4c3;
-            background: #faf6ec;
-        }
-        .book-page-lines::after {
-            position: absolute;
-            left: 14px;
-            right: 14px;
-            top: 25%;
-            height: 1.5px;
-            background: #ccbfa9;
-            box-shadow:
-                0 10px #ccbfa9,
-                0 20px #ccbfa9,
-                0 30px #ccbfa9,
-                0 40px #ccbfa9,
-                0 50px #ccbfa9,
-                0 60px #ccbfa9;
-            content: "";
-            opacity: .65;
-        }
-
-        /* 翻动中的多层内页（形成扇形展开的层叠厚度，4 层翻页梯队） */
-        .book-page-turning {
-            position: absolute;
-            top: 8%;
-            bottom: 7%;
-            left: 10%;
-            right: 6%;
-            background: #fdfaf2;
-            border: 1px solid #baaf99;
-            transform-origin: left center;
-            transform: perspective(600px) rotateY(calc(var(--page-angle) * 1deg)) translateX(calc(var(--page-shift) * 1%));
-            pointer-events: none;
-        }
-        .book-page-turning.page-layer-1 {
-            z-index: 1;
-            background: #faf6ec;
-            box-shadow: 1px 2px 4px rgba(60, 50, 40, .10);
-        }
-        .book-page-turning.page-layer-2 {
-            z-index: 2;
-            right: 5.5%;
-            background: #fbf8f0;
-            box-shadow: 2px 3px 6px rgba(60, 50, 40, .13);
-        }
-        .book-page-turning.page-layer-3 {
-            z-index: 3;
-            right: 6.5%;
-            background: #fdfaf4;
-            box-shadow: 2.5px 3.5px 7px rgba(60, 50, 40, .16);
-        }
-        .book-page-turning.page-layer-4 {
-            z-index: 4;
-            right: 7.5%;
-            background: #fffdfa;
-            box-shadow: 3px 4px 9px rgba(60, 50, 40, .19);
-        }
-        .book-page-turning::after {
-            position: absolute;
-            left: 12px;
-            right: 12px;
-            top: 28%;
-            height: 1.5px;
-            background: #d5caa3;
-            box-shadow: 0 11px #d5caa3, 0 22px #d5caa3, 0 33px #d5caa3, 0 44px #d5caa3;
-            content: "";
-            opacity: .5;
-        }
-        .state.is-flipped .book-page-turning {
-            left: 6%;
-            right: 10%;
-            transform-origin: right center;
-        }
-        .state.is-flipped .book-page-turning.page-layer-1 {
-            left: 5%;
-            box-shadow: -1px 2px 4px rgba(60, 50, 40, .10);
-        }
-        .state.is-flipped .book-page-turning.page-layer-2 {
-            left: 5.5%;
-            box-shadow: -2px 3px 6px rgba(60, 50, 40, .13);
-        }
-        .state.is-flipped .book-page-turning.page-layer-3 {
-            left: 6.5%;
-            box-shadow: -2.5px 3.5px 7px rgba(60, 50, 40, .16);
-        }
-        .state.is-flipped .book-page-turning.page-layer-4 {
-            left: 7.5%;
-            box-shadow: -3px 4px 9px rgba(60, 50, 40, .19);
-        }
-
-        /* 前半段（0% ~ 75%）：正面朝向，书籍在左侧，书脊在左 */
-        .book-spine { position: absolute; z-index: 5; left: 10%; top: 8%; bottom: 7%; width: 3.5px; background: #78818b; box-shadow: inset 1px 0 0 rgba(255,255,255,0.35); }
-        .book-front { position: absolute; z-index: 4; inset: 8% 10%; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; background: #d9dde3; border: 1px solid #78818b; box-shadow: 5px 5px 10px rgba(50, 55, 60, .25); transform-origin: left center; transform: perspective(600px) rotateY(calc(var(--front-angle) * 1deg)) translateX(calc(var(--front-shift) * 1%)); }
-        .book-front::after { position: absolute; inset: 9px; border: 1px solid #9ba2aa; content: ""; }
-        .book-front span { position: relative; z-index: 1; }
-        .closed-title { align-self: center; margin: auto 0; font-size: 25px; font-weight: 700; }
-        .book-back { display: none; }
-
-        /* 后半段（75%之后，80% ~ 100%）：左右对调，背面朝向，书籍在右侧，书脊在右 */
-        .state.is-flipped .book-spine { left: auto; right: 10%; box-shadow: inset -1px 0 0 rgba(255,255,255,0.35); }
-        .state.is-flipped .book-front { display: none; }
-        .state.is-flipped .book-back {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            position: absolute;
-            z-index: 4;
-            inset: 8% 10%;
-            padding: 14px 12px;
-            background: #d9dde3;
-            border: 1px solid #78818b;
-            box-shadow: -5px 5px 10px rgba(50, 55, 60, .25);
-            transform-origin: right center;
-            transform: perspective(600px) rotateY(calc(var(--back-angle) * 1deg)) translateX(calc(var(--back-shift) * 1%));
-        }
-        .state.is-flipped .book-back::after { position: absolute; inset: 7px; border: 1px solid #9ba2aa; content: ""; pointer-events: none; }
-
-        /* 封底内部精致排版 */
-        .back-inner { position: relative; z-index: 1; height: 100%; display: flex; flex-direction: column; justify-content: space-between; }
-        .back-header { font-size: 9.5px; color: #5a6470; letter-spacing: .06em; display: flex; justify-content: space-between; align-items: center; white-space: nowrap; }
-        .back-body { margin: 8px 0 auto; }
-        .back-desc { font-size: 10.5px; line-height: 1.65; color: #3c4652; text-align: justify; margin: 0; letter-spacing: .02em; }
-        .back-quote { font-size: 11px; line-height: 1.6; color: #2e3844; font-style: italic; border-left: 2px solid #8e98a4; padding-left: 6px; margin: 4px 0 0; }
-        .back-colophon { font-size: 9.5px; line-height: 1.6; color: #5a6470; margin: 0; }
-        .back-minimal { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; gap: 10px; text-align: center; }
-        
-        /* 竖排区域（有简介书籍） */
-        .vertical-quote-wrap {
-            margin: auto 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 120px;
-        }
-        .vertical-quote {
+            top: 16px;
+            bottom: 16px;
+            left: 50%;
+            right: auto;
+            transform: translateX(-50%);
             writing-mode: vertical-rl;
-            font-size: 12.5px;
-            letter-spacing: .18em;
-            color: #2e3844;
+            text-orientation: mixed;
+            font-family: YomuCoverSerif, var(--font-serif, serif);
+            font-size: clamp(15px, 1.8vw, 19px);
             font-weight: 600;
-            line-height: 1.9;
-            max-height: 110px;
-            white-space: nowrap;
-        }
-
-        /* 方案 A 无简介时的回退排版：经典文库和风章＋分类（岩波/新潮文库封底典范） */
-        .center-crest {
-            margin: auto 0;
+            line-height: 1.5;
+            letter-spacing: 0.16em;
+            max-height: 168px;
+            max-width: 4.5em;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            gap: 7px;
             text-align: center;
+            overflow: hidden;
+            white-space: normal;
         }
-        .crest-svg svg {
-            width: 28px;
-            height: 28px;
-        }
-        .crest-svg {
-            color: #555f6b;
-            opacity: .85;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .crest-text {
-            font-size: 10.5px;
-            letter-spacing: .16em;
-            color: #414b56;
-            font-weight: 600;
-            white-space: nowrap;
-        }
-        .crest-sub {
-            font-size: 8.5px;
-            color: #6e7987;
-            letter-spacing: .08em;
-            white-space: nowrap;
+        body.test-page.mode-vertical-title .book-cover-title::before {
+            display: none;
         }
 
-        .back-footer { display: flex; align-items: flex-end; justify-content: space-between; border-top: 1px solid #9ba2aa; padding-top: 6px; margin-top: 6px; }
-        
-        /* 模拟条形码 */
-        .barcode-wrap { display: flex; flex-direction: column; gap: 2px; }
-        .barcode-lines { display: flex; gap: 1.5px; height: 12px; align-items: stretch; }
-        .barcode-lines i { background: #555f6b; display: block; }
-        .barcode-lines i:nth-child(odd) { width: 1.5px; }
-        .barcode-lines i:nth-child(even) { width: 2.5px; }
-        .barcode-lines i:nth-child(3n) { width: 1px; }
-        .barcode-num { font-size: 7px; font-family: monospace; color: #555f6b; letter-spacing: -.02em; white-space: nowrap; }
-        
-        /* 印章体系 */
-        .stamp-done {
-            width: 22px;
-            height: 22px;
-            border: 1.3px solid #a83836;
-            color: #a83836;
-            border-radius: 50%;
+        /* 区域标题 */
+        .section-header {
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--hairline, rgba(0,0,0,0.14));
             display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 9.5px;
+            align-items: baseline;
+            justify-content: space-between;
+        }
+        .section-title {
+            font-size: 18px;
             font-weight: 700;
-            transform: rotate(-10deg);
-            opacity: .95;
-            background: rgba(168, 56, 54, .04);
-            flex-shrink: 0;
+            margin: 0;
+            letter-spacing: .04em;
         }
-        .stamp-pending {
-            width: 22px;
-            height: 22px;
-            border: 1px dashed #9ba2aa;
-            color: #78818b;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 8px;
-            flex-shrink: 0;
-        }
-        .stamp-square {
-            width: 24px;
-            height: 24px;
-            border: 1.2px solid #a83836;
-            color: #a83836;
-            border-radius: 2px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 10px;
-            font-weight: bold;
-            transform: rotate(3deg);
-            opacity: .9;
+        .section-desc {
+            font-size: 12px;
+            color: var(--muted-color, #70685c);
+            font-family: var(--font-sans, system-ui, sans-serif);
         }
 
-        @media (max-width: 900px) {
-            body { padding: 28px 18px; }
-            .states { grid-template-columns: repeat(2, minmax(150px, 1fr)); }
-            .preview-panel { flex-direction: column; align-items: stretch; }
-            .preview-demo { width: 180px; margin: 0 auto; }
-            .vertical-quote { font-size: 12px; letter-spacing: .16em; line-height: 1.6; }
-            .vertical-quote-wrap { height: 100px; }
+        /* 网格展示容器：100% 保持与真实书架 .book-listing 完全一致的尺寸与间距 */
+        .test-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(176px, 1fr));
+            gap: 36px 40px;
+            padding-top: 12px;
+        }
+
+        .state-card {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .state-meta {
+            padding-top: 6px;
+            border-top: 1px dashed var(--hairline, rgba(0,0,0,0.12));
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            font-family: var(--font-sans, system-ui, sans-serif);
+        }
+        .state-name {
+            font-size: 12.5px;
+            font-weight: 600;
+            color: var(--fg-color, #25221f);
+        }
+        .state-note {
+            font-size: 11px;
+            color: var(--muted-color, #70685c);
+            line-height: 1.4;
         }
     </style>
 </head>
-<body>
-    <header>
-        <h1>本の開き具合テスト</h1>
-        <p>閉じた本から、読み終えた本まで。0%〜75%は大きく開いて読み進め、75%以降は本が左右反転して封底（裏表紙）側へと向かいます。</p>
-        <div class="preview-panel">
-            <div class="preview-demo" id="preview-demo"></div>
-            <div class="preview-controls">
-                <label for="progress-slider"><span>進捗スライダー（0% 〜 100%）</span><span id="slider-label">0%</span></label>
-                <input type="range" id="progress-slider" min="0" max="100" value="0" step="1">
-                <div class="preview-note" id="slider-note">本を閉じた状態</div>
-                
-                <div class="style-switcher" style="margin-top:14px">
-                    <span>当前展示作品：</span>
-                    <button class="book-btn active" data-index="0">【精选】山月記（有简介）</button>
-                    <button class="book-btn" data-index="1">【精选】走れメロス（有简介）</button>
-                    <button class="book-btn" data-index="2">【全库普通书】吾輩は猫である（无简介·回退）</button>
-                    <button class="book-btn" data-index="3">【全库普通书】銀河鉄道の夜（无简介·回退）</button>
-                </div>
-                
-                <div class="style-switcher" style="margin-top:10px">
-                    <span>封底排版模式：</span>
-                    <button class="style-btn active" data-style="plan_a">★ 方案 A（全库自适应：有简介用短句，无简介回退文库书名章）</button>
-                    <button class="style-btn" data-style="quote_demo">原方案四（名句原型）</button>
-                    <button class="style-btn" data-style="standard">横排梗概</button>
+<body class="test-page mode-vertical-title">
+    <div class="test-wrap">
+        <header class="test-header">
+            <h1>本の開き具合・封面封底样式调测页</h1>
+            <p>100% 采用主系统相同的字体（YomuCoverSerif/Sans/Accent）、DOM 结构、CSS 变量、作者和风配色及封底印章体系。</p>
+            
+            <div class="preview-panel">
+                <div class="preview-card-wrap" id="preview-card-container"></div>
+                <div class="preview-controls">
+                    <label for="progress-slider">
+                        <span>進捗スライダー（0% 〜 100% 任意位置实时调试）</span>
+                        <span id="slider-label">0%</span>
+                    </label>
+                    <input type="range" id="progress-slider" min="0" max="100" value="0" step="1">
+                    <div class="preview-note" id="slider-note">本を閉じた状態（表紙正面）</div>
+                    
+                    <div class="btn-group">
+                        <span class="btn-group-label">书名排版方向：</span>
+                        <button class="test-btn orient-btn active" data-orient="vertical">★ 竖排书名（当前展示）</button>
+                        <button class="test-btn orient-btn" data-orient="horizontal">横排书名对比</button>
+                    </div>
+
+                    <div class="btn-group" style="margin-top: 10px;">
+                        <span class="btn-group-label">切换当前测试图书：</span>
+                        <button class="test-btn active" data-book-idx="0">太宰治《人間失格》</button>
+                        <button class="test-btn" data-book-idx="1">饗庭篁村《木曽道中記》</button>
+                        <button class="test-btn" data-book-idx="2">夏目漱石《吾輩は猫である》</button>
+                        <button class="test-btn" data-book-idx="3">森鴎外《高瀬舟》</button>
+                        <button class="test-btn" data-book-idx="4">中島敦《山月記》（精选·有简介）</button>
+                        <button class="test-btn" data-book-idx="5">芥川龍之介《羅生門》</button>
+                        <button class="test-btn" data-book-idx="6">宮沢賢治《銀河鉄道の夜》</button>
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
-    <main class="states" id="states"></main>
+        </header>
+
+        <!-- 第 1 部分：当前主系统真实书架还原（与截图 Image 0 对应） -->
+        <section>
+            <div class="section-header">
+                <h2 class="section-title">1. 当前书架真实状态还原（多书目横向对比）</h2>
+                <span class="section-desc">包含《木曽道中記 53%》、《人間失格 58%》、《ジョン・ブル 35%》、《高瀬舟 24%》、《吾輩は猫である 9%》</span>
+            </div>
+            <div class="test-grid" id="shelf-grid"></div>
+        </section>
+
+        <!-- 第 2 部分：单作品 0% ~ 100% 全阶段阶梯展示 -->
+        <section style="margin-top: 40px;">
+            <div class="section-header">
+                <h2 class="section-title">2. 选中作品全阶段演进阶梯（0% ~ 100%）</h2>
+                <span class="section-desc">0%未读闭合、5%~75%逐渐展开扇形书芯与内页、75%反转为封底、100%读了合上盖红印</span>
+            </div>
+            <div class="test-grid" id="stages-grid"></div>
+        </section>
+    </div>
+
+    <!-- 引入主系统 fonts.js -->
+    <script src="js/fonts.js"></script>
     <script>
-      const sampleBooks = [
-        {
-          id: '624_ruby_5668',
-          title: '山月記',
-          author: '中島敦',
-          ndc: 'NDC 913',
-          desc: '自尊心ゆえに虎になった男の悲哀。',
-          barcode: '978-AOZORA-624'
-        },
-        {
-          id: 'hashire_melos',
-          title: '走れメロス',
-          author: '太宰治',
-          ndc: 'NDC 913',
-          desc: '友情と信頼を貫こうとする青年の物語。',
-          barcode: '978-AOZORA-MELOS'
-        },
-        {
-          id: 'cat_sample',
-          title: '吾輩は猫である',
-          author: '夏目漱石',
-          ndc: 'NDC 913',
-          desc: '', // 无简介，触发全库回退
-          barcode: '978-AOZORA-789'
-        },
-        {
-          id: 'kenji_sample',
-          title: '銀河鉄道の夜',
-          author: '宮沢賢治',
-          ndc: 'NDC 913',
-          desc: '', // 无简介，触发全库回退
-          barcode: '978-AOZORA-456'
+        // 初始化字体
+        if (typeof YomuFonts !== 'undefined') {
+            YomuFonts.apply('mincho', 'mincho');
         }
-      ];
 
-      const states = document.getElementById('states');
-      let currentBookIndex = 0;
-      let currentBackStyle = 'plan_a';
-
-      function getBackContentHTML(book, percent, style) {
-        const isFinished = percent === 100;
-        const stampHTML = isFinished
-          ? '<span class="stamp-done">読了</span>'
-          : '<span class="stamp-pending">読書中</span>';
-
-        const barcodeHTML = `
-          <div class="barcode-wrap">
-            <div class="barcode-lines"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
-            <span class="barcode-num">${book.barcode || '978-AOZORA-BOOK'}</span>
-          </div>
-        `;
-
-        // 方案 A：自适应分流
-        if (style === 'plan_a') {
-          // 分支 1：如果有简介（如精选 20 本）
-          if (book.desc && book.desc.trim()) {
-            let text = book.desc.replace(/[。！!]+$/, '').trim();
-            const quoteMatch = text.match(/「([^」]+)」/);
-            if (quoteMatch) {
-              text = quoteMatch[1];
+        // 测试图书数据集（包含真实书架上的书籍）
+        const testBooks = [
+            {
+                id: 'dazai_ningen',
+                title: '人間失格',
+                author: '太宰治',
+                ndc: 'NDC 913',
+                themeClass: 'dazai',
+                desc: '恥の多い生涯を送って来ました。自分には、人間の生活というものが、見当がつかないのです。',
+                workId: '001',
+                defaultProgress: 58
+            },
+            {
+                id: 'kiso_dochu',
+                title: '木曽道中記',
+                author: '饗庭篁村',
+                ndc: 'NDC 915',
+                themeClass: 'default',
+                desc: '',
+                workId: '002',
+                defaultProgress: 53
+            },
+            {
+                id: 'souseki_neko',
+                title: '吾輩は猫である',
+                author: '夏目漱石',
+                ndc: 'NDC 913',
+                themeClass: 'souseki',
+                desc: '吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。',
+                workId: '003',
+                defaultProgress: 9
+            },
+            {
+                id: 'ogai_takasebune',
+                title: '高瀬舟',
+                author: '森鴎外',
+                ndc: 'NDC 913',
+                themeClass: 'ogai',
+                desc: '高瀬舟は京都の高瀬川を上下する小舟である。',
+                workId: '004',
+                defaultProgress: 24
+            },
+            {
+                id: 'nakajima_sangetsuki',
+                title: '山月記',
+                author: '中島敦',
+                ndc: 'NDC 913',
+                themeClass: 'nakajima',
+                desc: '自尊心ゆえに虎になった男の悲哀。臆病な自尊心と尊大な羞恥心。',
+                workId: '005',
+                defaultProgress: 65
+            },
+            {
+                id: 'akutagawa_rashomon',
+                title: '羅生門',
+                author: '芥川龍之介',
+                ndc: 'NDC 913',
+                themeClass: 'akutagawa',
+                desc: 'ある日の暮方の事である。一人の下人が、羅生門の下で雨やみを待っていた。',
+                workId: '006',
+                defaultProgress: 40
+            },
+            {
+                id: 'kenji_ginga',
+                title: '銀河鉄道の夜',
+                author: '宮沢賢治',
+                ndc: 'NDC 913',
+                themeClass: 'kenji',
+                desc: '',
+                workId: '007',
+                defaultProgress: 80
+            },
+            {
+                id: 'john_bull',
+                title: 'ジョン・ブル',
+                author: 'アーヴィングワシントン',
+                ndc: 'NDC 933',
+                themeClass: 'default',
+                desc: '',
+                workId: '008',
+                defaultProgress: 35
             }
-            let vText = text;
-            if (text.length <= 6) {
-              vText = text;
+        ];
+
+        let currentBookIndex = 0;
+
+        function escapeHtml(str) {
+            return String(str || '')
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;');
+        }
+
+        function escapeAttr(str) {
+            return String(str || '')
+                .replace(/&/g, '&amp;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+
+        /**
+         * 100% 严格复刻 js/app.js 的 _coverMarkup 逻辑
+         */
+        function renderBookCover(book, percent) {
+            const clamped = Math.max(0, Math.min(100, Math.round(percent)));
+            const threshold = 75;
+            const isFlipped = clamped > threshold;
+
+            let frontAngle = 0;
+            let frontShift = 0;
+            let frontOpacity = 1;
+            let backAngle = 0;
+            let backShift = 0;
+
+            if (clamped === 0) {
+                frontAngle = 0;
+                frontOpacity = 1;
+            } else if (!isFlipped) {
+                const ratio = clamped / threshold;
+                // 0% -> 0°, 50% -> -46°, 75% -> -65°
+                frontAngle = -65 * Math.pow(ratio, 0.85);
+                frontShift = 0;
+                frontOpacity = Math.max(0.4, 1 - 0.5 * ratio);
             } else {
-              const mid = Math.min(6, Math.ceil(text.length / 2));
-              vText = `${text.slice(0, mid)}<br>${text.slice(mid, mid + 6)}`;
+                const remain = (100 - clamped) / (100 - threshold);
+                backAngle = 65 * Math.pow(remain, 0.9);
+                backShift = 0;
             }
+
+            let page1Angle = 0, page1Shift = 0;
+            let page2Angle = 0, page2Shift = 0;
+            let page3Angle = 0, page3Shift = 0;
+            let page4Angle = 0, page4Shift = 0;
+
+            if (!isFlipped) {
+                page1Angle = frontAngle * 0.20;
+                page1Shift = frontShift * 0.18;
+                page2Angle = frontAngle * 0.40;
+                page2Shift = frontShift * 0.36;
+                page3Angle = frontAngle * 0.60;
+                page3Shift = frontShift * 0.56;
+                page4Angle = frontAngle * 0.80;
+                page4Shift = frontShift * 0.76;
+            } else {
+                page1Angle = backAngle * 0.20;
+                page1Shift = backShift * 0.18;
+                page2Angle = backAngle * 0.40;
+                page2Shift = backShift * 0.36;
+                page3Angle = backAngle * 0.60;
+                page3Shift = backShift * 0.56;
+                page4Angle = backAngle * 0.80;
+                page4Shift = backShift * 0.76;
+            }
+
+            const isClosed = clamped === 0;
+            const isFinished = clamped === 100;
+            let stateClass = '';
+            if (isClosed) stateClass += ' is-closed';
+            if (isFinished) stateClass += ' is-finished';
+            if (isFlipped) stateClass += ' is-flipped';
+
+            const author = book.author || '';
+            const coverNdc = book.ndc || 'NDC 913';
+            const themes = {
+                '夏目漱石': ['souseki', '夏目漱石'],
+                '芥川龍之介': ['akutagawa', '芥川龍之介'],
+                '太宰治': ['dazai', '太宰治'],
+                '宮沢賢治': ['kenji', '宮沢賢治'],
+                '森鴎外': ['ogai', '森鴎外'],
+                '森鷗外': ['ogai', '森鷗外'],
+                '中島敦': ['nakajima', '中島敦'],
+                '泉鏡花': ['kyoka', '泉鏡花'],
+                '江戸川乱歩': ['ranpo', '江戸川乱歩'],
+                '坂口安吾': ['ango', '坂口安吾'],
+                '島崎藤村': ['toson', '島崎藤村'],
+                '谷崎潤一郎': ['tanizaki', '谷崎潤一郎'],
+                '国木田独歩': ['doppo', '国木田独歩'],
+                '樋口一葉': ['ichiyo', '樋口一葉']
+            };
+            const theme = (book.themeClass ? [book.themeClass] : null) || themes[author] || ['default', '青空文庫'];
+
+            let backContent = '';
+            if (isFlipped) {
+                // 依据用户确认：只保留大号盖印“読了”，移除中间的“読書中”标
+                const stampHTML = isFinished
+                    ? '<span class="stamp-done">読了</span>'
+                    : '';
+                const workNum = (book.workId || book.id || 'BOOK').toString().replace(/\D/g, '').slice(0, 5) || '001';
+                const barcodeHTML = `
+                    <div class="barcode-wrap">
+                        <div class="barcode-lines"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                        <span class="barcode-num">978-AOZORA-${workNum}</span>
+                    </div>
+                `;
+
+                if (book.desc && book.desc.trim()) {
+                    let text = book.desc.replace(/[。！!]+$/, '').trim();
+                    const quoteMatch = text.match(/「([^」]+)」/);
+                    if (quoteMatch) text = quoteMatch[1];
+                    let vText = text;
+                    if (text.length > 6) {
+                        const mid = Math.min(6, Math.ceil(text.length / 2));
+                        vText = `${text.slice(0, mid)}<br>${text.slice(mid, mid + 6)}`;
+                    }
+                    backContent = `
+                        <div class="back-inner">
+                            <div class="back-header"><span>${escapeHtml(book.ndc || 'NDC 913')}</span><span>青空文庫</span></div>
+                            <div class="vertical-quote-wrap"><div class="vertical-quote">${vText}</div></div>
+                            <div class="back-footer">${barcodeHTML}${stampHTML}</div>
+                        </div>
+                    `;
+                } else {
+                    backContent = `
+                        <div class="back-inner">
+                            <div class="back-header"><span>${escapeHtml(book.ndc || 'NDC 913')}</span><span>青空文庫</span></div>
+                            <div class="center-crest">
+                                <div class="crest-svg">
+                                    <svg width="28" height="28" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.4">
+                                        <circle cx="18" cy="18" r="16" stroke-dasharray="3 2"/>
+                                        <path d="M10 20c3-3 6-5 8-5s5 2 8 5c-3-1-5-1-8 1-3-2-5-2-8-1z" fill="currentColor" fill-opacity="0.18"/>
+                                        <circle cx="18" cy="12" r="1.8" fill="currentColor"/>
+                                    </svg>
+                                </div>
+                                <div class="crest-text">青空文庫</div>
+                                <div class="crest-sub">日本文学・名作選</div>
+                            </div>
+                            <div class="back-footer">${barcodeHTML}${stampHTML}</div>
+                        </div>
+                    `;
+                }
+            }
+
+            return `<div class="book-cover book-cover-${theme[0]}${stateClass}" data-progress="${clamped}" style="--front-angle:${frontAngle.toFixed(1)};--front-shift:${frontShift.toFixed(1)};--front-opacity:${frontOpacity};--back-angle:${backAngle.toFixed(1)};--back-shift:${backShift.toFixed(1)};--page1-angle:${page1Angle.toFixed(1)};--page1-shift:${page1Shift.toFixed(1)};--page2-angle:${page2Angle.toFixed(1)};--page2-shift:${page2Shift.toFixed(1)};--page3-angle:${page3Angle.toFixed(1)};--page3-shift:${page3Shift.toFixed(1)};--page4-angle:${page4Angle.toFixed(1)};--page4-shift:${page4Shift.toFixed(1)}" aria-label="${escapeAttr(book.title)} — ${escapeAttr(author)}">
+                <div class="book-cover-pages-base" aria-hidden="true"><div class="book-cover-page-lines"></div></div>
+                <div class="book-cover-page-turning page-layer-1" aria-hidden="true"></div>
+                <div class="book-cover-page-turning page-layer-2" aria-hidden="true"></div>
+                <div class="book-cover-page-turning page-layer-3" aria-hidden="true"></div>
+                <div class="book-cover-page-turning page-layer-4" aria-hidden="true"></div>
+                <div class="book-cover-back" aria-hidden="true">${backContent}</div>
+                <div class="book-cover-front">
+                    <span class="book-cover-mark" aria-hidden="true">${escapeHtml(coverNdc)}</span>
+                    <span class="book-cover-title">${escapeHtml(book.title)}</span>
+                </div>
+                <i class="book-cover-spine" aria-hidden="true"></i>
+            </div>`;
+        }
+
+        /**
+         * 完整渲染包含下部作者、标题与进度条的书卡组件（100% 对应系统 .book-row）
+         */
+        function renderBookRowCard(book, percent, meta = null) {
+            const clamped = Math.max(0, Math.min(100, Math.round(percent)));
+            const isRead = clamped > 0;
             return `
-              <div class="back-inner">
-                <div class="back-header"><span>${book.ndc || 'NDC 913'}</span><span>青空文庫</span></div>
-                <div class="vertical-quote-wrap">
-                  <div class="vertical-quote">${vText}</div>
+                <div class="state-card">
+                    <div class="book-row">
+                        ${renderBookCover(book, clamped)}
+                        <div class="book-row-main">
+                            <div class="book-row-author-line">
+                                <span class="book-row-author">${escapeHtml(book.author || '')}</span>
+                            </div>
+                            <div class="book-row-footer">
+                                <div class="book-row-progress ${isRead ? 'is-read' : 'is-unread'}">
+                                    <div class="track"><span style="width:${clamped}%"></span></div>
+                                    <span class="pct">${clamped >= 100 ? '読了' : clamped + '%'}</span>
+                                </div>
+                                <button class="row-more-btn" title="詳細メニュー" aria-label="詳細メニュー">
+                                    <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="5" r="1.8"></circle><circle cx="12" cy="12" r="1.8"></circle><circle cx="12" cy="19" r="1.8"></circle></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    ${meta ? `
+                        <div class="state-meta">
+                            <span class="state-name">${escapeHtml(meta.title)}</span>
+                            <span class="state-note">${escapeHtml(meta.note)}</span>
+                        </div>
+                    ` : ''}
                 </div>
-                <div class="back-footer">
-                  ${barcodeHTML}
-                  ${stampHTML}
-                </div>
-              </div>
             `;
-          }
-
-          // 分支 2：普通青空图书（无简介） -> 优雅回退到日式文库本经典封底（文库徽章＋名作选）
-          return `
-            <div class="back-inner">
-              <div class="back-header"><span>${book.ndc || 'NDC 913'}</span><span>青空文庫</span></div>
-              <div class="center-crest">
-                <div class="crest-svg">
-                  <svg width="34" height="34" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.4">
-                    <circle cx="18" cy="18" r="16" stroke-dasharray="3 2"/>
-                    <path d="M10 20c3-3 6-5 8-5s5 2 8 5c-3-1-5-1-8 1-3-2-5-2-8-1z" fill="currentColor" fill-opacity="0.18"/>
-                    <circle cx="18" cy="12" r="1.8" fill="currentColor"/>
-                  </svg>
-                </div>
-                <div class="crest-text">青空文庫</div>
-                <div class="crest-sub">日本文学・名作選</div>
-              </div>
-              <div class="back-footer">
-                ${barcodeHTML}
-                ${stampHTML}
-              </div>
-            </div>
-          `;
         }
 
-        // 原方案四（硬编码名句展示）
-        if (style === 'quote_demo') {
-          return `
-            <div class="back-inner">
-              <div class="back-header"><span>${book.ndc || 'NDC 913'}</span><span>青空文庫</span></div>
-              <div class="vertical-quote-wrap">
-                <div class="vertical-quote">臆病な自尊心と<br>尊大な羞恥心</div>
-              </div>
-              <div class="back-footer">
-                ${barcodeHTML}
-                ${stampHTML}
-              </div>
-            </div>
-          `;
+        // 渲染区 1：真实书架还原
+        function renderShelfSection() {
+            const shelfGrid = document.getElementById('shelf-grid');
+            const shelfItems = [
+                testBooks[1], // 木曽道中記 53%
+                testBooks[0], // 人間失格 58%
+                testBooks[7], // ジョン・ブル 35%
+                testBooks[3], // 高瀬舟 24%
+                testBooks[2]  // 吾輩は猫である 9%
+            ];
+            shelfGrid.innerHTML = shelfItems.map(book => {
+                return renderBookRowCard(book, book.defaultProgress, {
+                    title: `当前书架实态：${book.title}`,
+                    note: `作者：${book.author} ｜ 进度：${book.defaultProgress}%`
+                });
+            }).join('');
         }
 
-        // 横排梗概
-        if (style === 'standard') {
-          return `
-            <div class="back-inner">
-              <div class="back-header"><span>${book.ndc || 'NDC 913'}</span><span>青空文庫</span></div>
-              <div class="back-body">
-                <p class="back-desc">${book.desc || '青空文庫収録作品。明治・大正・昭和の近代日本文学を代表する名作。'}</p>
-              </div>
-              <div class="back-footer">
-                ${barcodeHTML}
-                ${stampHTML}
-              </div>
-            </div>
-          `;
-        }
-      }
-
-      function computeState(percent, book = sampleBooks[currentBookIndex], style = currentBackStyle) {
-        const threshold = 75;
-        const isFlipped = percent > threshold;
-        let frontAngle = 0, frontShift = 0, backAngle = 0, backShift = 0;
-        let note = '';
-        let stageName = '';
-
-        if (percent === 0) {
-          stageName = '未読';
-          note = '本を閉じた状態（表紙正面）';
-        } else if (percent === 100) {
-          stageName = '読了';
-          note = '封底が右側に現れ、完全に閉じて読了印が押された状態';
-        } else if (!isFlipped) {
-          stageName = '読書中';
-          const ratio = percent / threshold;
-          // 0% -> 0°, 50% -> -46°, 75% -> -65°
-          frontAngle = -65 * Math.pow(ratio, 0.85);
-          frontShift = -16 * ratio;
-          if (percent < 30) {
-            note = '表紙を開き始めた状態';
-          } else if (percent < 60) {
-            note = '読書進行中：本を大きく開いて読み進めている状態';
-          } else {
-            note = '深読期：本が最も大きく開き（約65°）、内頁が広く露出';
-          }
-        } else {
-          stageName = '終盤・読了へ';
-          const remain = (100 - percent) / (100 - threshold);
-          backAngle = 65 * Math.pow(remain, 0.9);
-          backShift = 16 * remain;
-          note = '左右反転：封底が右側に現れ、徐々に閉じて読了へと向かう状態';
+        // 阶段描述
+        function getStageDescription(p) {
+            if (p === 0) return { title: '未読 — 0%', note: '本を閉じた状態（表紙正面）' };
+            if (p === 100) return { title: '読了 — 100%', note: '封底が右側に現れ、完全に閉じて読了印が押された状態' };
+            if (p <= 20) return { title: `読書中 — ${p}%`, note: '表紙を開き始めた状態' };
+            if (p <= 50) return { title: `読書中 — ${p}%`, note: '読書進行中：本を大きく開いて読み進めている状態' };
+            if (p <= 75) return { title: `深読期 — ${p}%`, note: '本が最も大きく開き（約65°）、内頁が広く露出' };
+            return { title: `終盤・読了へ — ${p}%`, note: '左右反転：封底が右側に現れ、徐々に閉じて読了へと向かう状態' };
         }
 
-        let page1Angle = 0, page1Shift = 0;
-        let page2Angle = 0, page2Shift = 0;
-        let page3Angle = 0, page3Shift = 0;
-        let page4Angle = 0, page4Shift = 0;
-
-        if (!isFlipped) {
-          page1Angle = frontAngle * 0.20;
-          page1Shift = frontShift * 0.18;
-          page2Angle = frontAngle * 0.40;
-          page2Shift = frontShift * 0.36;
-          page3Angle = frontAngle * 0.60;
-          page3Shift = frontShift * 0.56;
-          page4Angle = frontAngle * 0.80;
-          page4Shift = frontShift * 0.76;
-        } else {
-          page1Angle = backAngle * 0.20;
-          page1Shift = backShift * 0.18;
-          page2Angle = backAngle * 0.40;
-          page2Shift = backShift * 0.36;
-          page3Angle = backAngle * 0.60;
-          page3Shift = backShift * 0.56;
-          page4Angle = backAngle * 0.80;
-          page4Shift = backShift * 0.76;
+        // 渲染区 2：单作品 0% ~ 100% 阶段网格
+        function renderStagesSection() {
+            const stagesGrid = document.getElementById('stages-grid');
+            const book = testBooks[currentBookIndex];
+            const steps = [0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100];
+            stagesGrid.innerHTML = steps.map(pct => {
+                const desc = getStageDescription(pct);
+                return renderBookRowCard(book, pct, desc);
+            }).join('');
         }
 
-        const isClosed = percent === 0;
-        const isFinished = percent === 100;
-        let stateClass = '';
-        if (isClosed) stateClass += ' is-closed';
-        if (isFinished) stateClass += ' is-finished';
-        if (isFlipped) stateClass += ' is-flipped';
+        // 顶部交互预览更新
+        const slider = document.getElementById('progress-slider');
+        const sliderLabel = document.getElementById('slider-label');
+        const sliderNote = document.getElementById('slider-note');
+        const previewCardContainer = document.getElementById('preview-card-container');
 
-        const backContent = isFlipped ? getBackContentHTML(book, percent, style) : '';
-        return {
-          percent,
-          book,
-          firstHalf: !isFlipped,
-          isClosed,
-          isFinished,
-          stateClass,
-          frontAngle: Math.round(frontAngle * 10) / 10,
-          frontShift: Math.round(frontShift * 10) / 10,
-          backAngle: Math.round(backAngle * 10) / 10,
-          backShift: Math.round(backShift * 10) / 10,
-          page1Angle: Math.round(page1Angle * 10) / 10,
-          page1Shift: Math.round(page1Shift * 10) / 10,
-          page2Angle: Math.round(page2Angle * 10) / 10,
-          page2Shift: Math.round(page2Shift * 10) / 10,
-          page3Angle: Math.round(page3Angle * 10) / 10,
-          page3Shift: Math.round(page3Shift * 10) / 10,
-          page4Angle: Math.round(page4Angle * 10) / 10,
-          page4Shift: Math.round(page4Shift * 10) / 10,
-          stageName,
-          note,
-          backContent
-        };
-      }
+        function updatePreview(val) {
+            const p = Number(val);
+            const book = testBooks[currentBookIndex];
+            const desc = getStageDescription(p);
+            sliderLabel.textContent = `${p}%`;
+            sliderNote.textContent = `${desc.title} ｜ ${desc.note}`;
+            previewCardContainer.innerHTML = renderBookRowCard(book, p);
+        }
 
-      function cardHTML(info) {
-        return `
-          <section class="state${info.stateClass}" style="--front-angle:${info.frontAngle};--front-shift:${info.frontShift};--back-angle:${info.backAngle};--back-shift:${info.backShift}">
-            <div class="book">
-              <div class="book-pages-base"><div class="book-page-lines"></div></div>
-              <div class="book-page-turning page-layer-1" style="--page-angle:${info.page1Angle};--page-shift:${info.page1Shift}"></div>
-              <div class="book-page-turning page-layer-2" style="--page-angle:${info.page2Angle};--page-shift:${info.page2Shift}"></div>
-              <div class="book-page-turning page-layer-3" style="--page-angle:${info.page3Angle};--page-shift:${info.page3Shift}"></div>
-              <div class="book-page-turning page-layer-4" style="--page-angle:${info.page4Angle};--page-shift:${info.page4Shift}"></div>
-              <div class="book-back">${info.backContent}</div>
-              <div class="book-front"><span>青空文庫</span><span class="closed-title">${info.book.title}</span><span>${info.book.author}</span></div>
-              <i class="book-spine"></i>
-            </div>
-            <h2 class="state-name">${info.stageName} — ${info.percent}%</h2>
-            <p class="state-note">${info.note}</p>
-          </section>
-        `;
-      }
-
-      function renderGrid() {
-        const book = sampleBooks[currentBookIndex];
-        states.innerHTML = Array.from({length: 21}, (_, i) => cardHTML(computeState(i * 5, book, currentBackStyle))).join('');
-      }
-
-      // 动态滑块与预览更新
-      const slider = document.getElementById('progress-slider');
-      const previewDemo = document.getElementById('preview-demo');
-      const sliderLabel = document.getElementById('slider-label');
-      const sliderNote = document.getElementById('slider-note');
-
-      function updatePreview(val) {
-        const book = sampleBooks[currentBookIndex];
-        const info = computeState(Number(val), book, currentBackStyle);
-        sliderLabel.textContent = `${info.percent}%`;
-        sliderNote.textContent = `${info.stageName} — ${info.note}`;
-        previewDemo.innerHTML = `
-          <div class="state${info.stateClass}" style="--front-angle:${info.frontAngle};--front-shift:${info.frontShift};--back-angle:${info.backAngle};--back-shift:${info.backShift}">
-            <div class="book">
-              <div class="book-pages-base"><div class="book-page-lines"></div></div>
-              <div class="book-page-turning page-layer-1" style="--page-angle:${info.page1Angle};--page-shift:${info.page1Shift}"></div>
-              <div class="book-page-turning page-layer-2" style="--page-angle:${info.page2Angle};--page-shift:${info.page2Shift}"></div>
-              <div class="book-page-turning page-layer-3" style="--page-angle:${info.page3Angle};--page-shift:${info.page3Shift}"></div>
-              <div class="book-page-turning page-layer-4" style="--page-angle:${info.page4Angle};--page-shift:${info.page4Shift}"></div>
-              <div class="book-back">${info.backContent}</div>
-              <div class="book-front"><span>青空文庫</span><span class="closed-title" style="font-size:18px">${info.book.title}</span><span>${info.book.author}</span></div>
-              <i class="book-spine"></i>
-            </div>
-          </div>
-        `;
-      }
-
-      slider.addEventListener('input', (e) => updatePreview(e.target.value));
-
-      // 作品切换
-      document.querySelectorAll('.book-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-          document.querySelectorAll('.book-btn').forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
-          currentBookIndex = Number(btn.dataset.index);
-          renderGrid();
-          updatePreview(slider.value);
+        // 书名排版方向切换
+        document.querySelectorAll('.orient-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.orient-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                if (btn.dataset.orient === 'vertical') {
+                    document.body.classList.add('mode-vertical-title');
+                } else {
+                    document.body.classList.remove('mode-vertical-title');
+                }
+            });
         });
-      });
 
-      // 风格切换按钮
-      document.querySelectorAll('.style-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-          document.querySelectorAll('.style-btn').forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
-          currentBackStyle = btn.dataset.style;
-          renderGrid();
-          updatePreview(slider.value);
+        // 图书切换按钮
+        document.querySelectorAll('.test-btn[data-book-idx]').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.test-btn[data-book-idx]').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentBookIndex = Number(btn.dataset.bookIdx);
+                updatePreview(slider.value);
+                renderStagesSection();
+            });
         });
-      });
 
-      renderGrid();
-      updatePreview(0);
+        // 首次初始化
+        renderShelfSection();
+        renderStagesSection();
+        updatePreview(0);
     </script>
 </body>
 </html>

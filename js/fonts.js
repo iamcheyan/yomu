@@ -80,6 +80,13 @@ const YomuFonts = (() => {
         let css = '';
         if (FONTS[_current.kana]) css += _face('YomuKana', _srcFor(_current.kana), RANGE_KANA);
         if (FONTS[_current.kanji]) css += _face('YomuKanji', _srcFor(_current.kanji), RANGE_KANJI);
+        // 封面使用固定的产品字体，不随正文设置变化。
+        css += _face('YomuCoverSerif', _srcFor('noto-serif-jp'), RANGE_KANA);
+        css += _face('YomuCoverSerif', _srcFor('noto-serif-jp'), RANGE_KANJI);
+        css += _face('YomuCoverSans', _srcFor('noto-sans-jp'), RANGE_KANA);
+        css += _face('YomuCoverSans', _srcFor('noto-sans-jp'), RANGE_KANJI);
+        css += _face('YomuCoverAccent', _srcFor('klee-one'), RANGE_KANA);
+        css += _face('YomuCoverAccent', _srcFor('klee-one'), RANGE_KANJI);
         el.textContent = css;
     }
 

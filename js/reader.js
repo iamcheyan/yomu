@@ -256,6 +256,21 @@ const YomuReader = {
         return startFrom || 0;
     },
 
+    /** 縦スクロールの端はブラウザや端末によって数pxずれるため、共通判定にする。 */
+    _isAtDocumentEnd(tolerance = 80) {
+        const scrollTop = Math.max(
+            window.scrollY || 0,
+            document.documentElement.scrollTop || 0,
+            document.body.scrollTop || 0
+        );
+        const viewportBottom = scrollTop + window.innerHeight;
+        const documentHeight = Math.max(
+            document.documentElement.scrollHeight || 0,
+            document.body.scrollHeight || 0
+        );
+        return viewportBottom >= documentHeight - tolerance;
+    },
+
     /**
      * Map legacy slug ids to canonical fileId ids using books.json aliases
      * (e.g. `kokoro` -> `773_ruby_5968`).
@@ -538,7 +553,9 @@ const YomuReader = {
             return;
         }
 
-        const currentParaIndex = this._findCurrentParaIndex(0);
+        const currentParaIndex = this._isAtDocumentEnd() && this._renderedCount >= this._paragraphs.length
+            ? this._paragraphs.length
+            : this._findCurrentParaIndex(0);
         const total = this._paragraphs.length;
         const percent = total > 0 ? Math.round((currentParaIndex / total) * 100) : 0;
         YomuStorage.saveProgress(this._currentBook.id, percent, window.scrollY, currentParaIndex);
@@ -613,7 +630,7 @@ const YomuReader = {
             let currentParaIndex = this._findCurrentParaIndex(lastKnownParaIndex);
 
             // If we've reached the very end, force 100% if all content is rendered
-            const isAtEnd = (window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 60);
+            const isAtEnd = this._isAtDocumentEnd() && this._renderedCount >= this._paragraphs.length;
             if (isAtEnd) {
                 currentParaIndex = this._paragraphs.length;
                 if (window.Yomu &&
@@ -776,4 +793,3 @@ document.addEventListener('visibilitychange', () => {
         }
     }
 });
-
