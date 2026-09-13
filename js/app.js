@@ -711,6 +711,10 @@ const Yomu = {
     },
 
     showBookList(pushState = true) {
+        if (typeof YomuReader !== 'undefined' && YomuReader.closeBook) {
+            YomuReader.closeBook();
+        }
+
         // Save current scroll position before leaving
         YomuStorage.saveAppState({ lastView: 'library', lastBookId: null });
 
@@ -751,6 +755,10 @@ const Yomu = {
 
     // ===== Store (Online Library) =====
     async showStore(pushState = true) {
+        if (typeof YomuReader !== 'undefined' && YomuReader.closeBook) {
+            YomuReader.closeBook();
+        }
+
         YomuStorage.saveAppState({ lastView: 'store', lastBookId: null });
 
         document.getElementById('reader-view').classList.remove('active');

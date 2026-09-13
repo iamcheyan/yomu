@@ -165,12 +165,24 @@ const YomuReader = {
 
         // Restore scroll progress (before starting infinite scroll observer)
         // C3: jumpPara（全文検索跳转）优先于保存的进度
+        this._isRestoringScroll = true;
         const jumpTo = (typeof this._pendingJump === 'number') ? this._pendingJump : null;
         this._pendingJump = null;
-        const progress = jumpTo !== null
+        let progress = jumpTo !== null
             ? { paraIndex: jumpTo }
             : YomuStorage.getProgress(bookId);
-        if (progress && progress.paraIndex) {
+
+        if ((!progress || (!progress.paraIndex && !progress.scrollPercent && !progress.lastRead)) && book.aliases) {
+            for (const alias of book.aliases) {
+                const p = YomuStorage.getProgress(alias);
+                if (p && (p.paraIndex || p.scrollPercent || p.lastRead)) {
+                    progress = p;
+                    break;
+                }
+            }
+        }
+
+        if (progress && typeof progress.paraIndex === 'number' && progress.paraIndex > 0) {
             while (this._renderedCount <= progress.paraIndex && this._renderedCount < this._paragraphs.length) {
                 this._renderNextChunk();
             }
@@ -181,6 +193,9 @@ const YomuReader = {
             }
             const percent = this._paragraphs.length > 0 ? Math.round((progress.paraIndex / this._paragraphs.length) * 100) : 0;
             this._updateProgressUI(percent);
+        } else if (progress && progress.scrollTop > 50) {
+            window.scrollTo({ top: progress.scrollTop, behavior: 'instant' });
+            this._updateProgressUI(progress.scrollPercent || 0);
         } else {
             window.scrollTo(0, 0);
             this._updateProgressUI(0);
@@ -191,6 +206,9 @@ const YomuReader = {
             this._initInfiniteScroll();
             this._startProgressTracking();
             this._startFuriganaProcessor();
+            setTimeout(() => {
+                this._isRestoringScroll = false;
+            }, 400);
         });
 
         return true;
@@ -505,6 +523,57 @@ const YomuReader = {
         if (fill) fill.style.width = `${percent}%`;
     },
 
+    /** 立即刷新并持久化当前阅读进度（用于退出/刷新/切后台时无延迟保存） */
+    saveCurrentProgressImmediately() {
+        if (!this._currentBook || this._isRestoringScroll) return;
+        if (this._scrollTimeout) {
+            clearTimeout(this._scrollTimeout);
+            this._scrollTimeout = null;
+        }
+        const readerView = document.getElementById('reader-view');
+        if (!readerView || !readerView.classList.contains('active')) return;
+
+        if (window.scrollY <= 5) {
+            YomuStorage.saveProgress(this._currentBook.id, 0, 0, 0);
+            return;
+        }
+
+        const currentParaIndex = this._findCurrentParaIndex(0);
+        const total = this._paragraphs.length;
+        const percent = total > 0 ? Math.round((currentParaIndex / total) * 100) : 0;
+        YomuStorage.saveProgress(this._currentBook.id, percent, window.scrollY, currentParaIndex);
+    },
+
+    /** 退出阅读器时的清理：保存进度并解绑全局滚动监听 */
+    closeBook() {
+        if (!this._currentBook) return;
+        this.saveCurrentProgressImmediately();
+        this._stopProgressTracking();
+        this._currentBook = null;
+        this._currentBookData = null;
+        this._renderedCount = 0;
+        this._furiganaQueue = [];
+    },
+
+    _stopProgressTracking() {
+        if (this._scrollListener) {
+            window.removeEventListener('scroll', this._scrollListener, this._scrollListenerOpts);
+            this._scrollListener = null;
+        }
+        if (this._scrollTimeout) {
+            clearTimeout(this._scrollTimeout);
+            this._scrollTimeout = null;
+        }
+        if (this._observer) {
+            this._observer.disconnect();
+            this._observer = null;
+        }
+        if (this._furiganaInterval) {
+            clearInterval(this._furiganaInterval);
+            this._furiganaInterval = null;
+        }
+    },
+
     /** 进度跟踪：全部基于 window scroll（纵向文档） */
     _startProgressTracking() {
         if (this._scrollListener) {
@@ -514,15 +583,30 @@ const YomuReader = {
         let lastKnownParaIndex = 0;
 
         this._scrollListener = () => {
+            // 安全守卫 1：如果阅读器未激活或当前无活动图书，忽略所有全局滚动事件
+            const readerView = document.getElementById('reader-view');
+            if (!readerView || !readerView.classList.contains('active') || !this._currentBook) {
+                return;
+            }
+
+            // 安全守卫 2：正在恢复跳转或渲染排版中，不触发覆盖保存
+            if (this._isRestoringScroll) {
+                return;
+            }
+
             // Check if at the very beginning
             if (window.scrollY <= 5) {
                 this._updateProgressUI(0);
                 if (window.Yomu && typeof Yomu.updateReaderControlsAvailability === 'function') {
                     Yomu.updateReaderControlsAvailability();
                 }
-                if (this._currentBook) {
-                    YomuStorage.saveProgress(this._currentBook.id, 0, 0, 0);
-                }
+                if (this._scrollTimeout) clearTimeout(this._scrollTimeout);
+                this._scrollTimeout = setTimeout(() => {
+                    const rv = document.getElementById('reader-view');
+                    if (rv && rv.classList.contains('active') && this._currentBook && !this._isRestoringScroll && window.scrollY <= 5) {
+                        YomuStorage.saveProgress(this._currentBook.id, 0, 0, 0);
+                    }
+                }, 500);
                 return;
             }
 
@@ -552,7 +636,8 @@ const YomuReader = {
 
             if (this._scrollTimeout) clearTimeout(this._scrollTimeout);
             this._scrollTimeout = setTimeout(() => {
-                if (this._currentBook) {
+                const rv = document.getElementById('reader-view');
+                if (rv && rv.classList.contains('active') && this._currentBook && !this._isRestoringScroll) {
                     // Save both percentage, fallback scroll height, and exact para index
                     YomuStorage.saveProgress(this._currentBook.id, percent, window.scrollY, currentParaIndex);
                 }
@@ -676,3 +761,19 @@ const YomuReader = {
         return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     },
 };
+
+// 页面刷新、跳出、切后台或关闭时立即保存当前阅读进度，防止刷新进度丢失
+window.addEventListener('beforeunload', () => {
+    if (typeof YomuReader !== 'undefined' && YomuReader.saveCurrentProgressImmediately) {
+        YomuReader.saveCurrentProgressImmediately();
+    }
+});
+
+document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') {
+        if (typeof YomuReader !== 'undefined' && YomuReader.saveCurrentProgressImmediately) {
+            YomuReader.saveCurrentProgressImmediately();
+        }
+    }
+});
+
