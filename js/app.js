@@ -2219,8 +2219,17 @@ const Yomu = {
     toggleFurigana() {
         const settings = YomuStorage.getSettings();
         const currentMode = settings.furiganaMode || 'none';
-        const nextMode = currentMode === 'none' ? 'internal' : 'none';
+        const nextMode = currentMode === 'nlp' ? 'none' : 'nlp';
         this.setFuriganaMode(nextMode);
+    },
+
+    _updateFuriganaToggle(mode) {
+        const btn = document.getElementById('furigana-toggle-btn');
+        if (!btn) return;
+        const enabled = mode === 'nlp';
+        btn.classList.toggle('active', enabled);
+        btn.setAttribute('aria-pressed', enabled ? 'true' : 'false');
+        btn.title = enabled ? 'ふりがな表示：ON' : 'ふりがな表示：OFF';
     },
 
     // ===== B4: 段落しおり/ハイライト/ノート =====
@@ -3142,13 +3151,14 @@ const Yomu = {
         // Furigana Mode
         let furiMode = settings.furiganaMode || 'none';
         if (furiMode === 'nlp' && !YomuTokenizer.isDictAvailable()) {
-            furiMode = 'internal';
+            furiMode = 'none';
             YomuStorage.saveSetting('furiganaMode', furiMode);
         }
         const furiSelect = document.getElementById('furigana-mode-select');
         if (furiSelect && furiSelect.setValue) furiSelect.setValue(furiMode);
 
         document.body.classList.toggle('show-furigana', furiMode !== 'none');
+        this._updateFuriganaToggle(furiMode);
 
         // 自绘下拉组件初始化（替代原生 select）
         this._initPopSelects();
@@ -3205,7 +3215,7 @@ const Yomu = {
             // Revert selection temporarily to avoid showing empty results
             const settings = YomuStorage.getSettings();
             const furiSelect = document.getElementById('furigana-mode-select');
-            if (furiSelect && furiSelect.setValue) furiSelect.setValue(settings.furiganaMode || 'internal');
+            if (furiSelect && furiSelect.setValue) furiSelect.setValue(settings.furiganaMode || 'none');
 
             this.promptDictDownload(false);
             return;
@@ -3243,7 +3253,7 @@ const Yomu = {
                     { value: 'internal', label: '内置' },
                     { value: 'nlp', label: 'Kuromoji.js' }
                 ],
-                value: YomuStorage.getSettings().furiganaMode || 'internal',
+                value: YomuStorage.getSettings().furiganaMode || 'none',
                 onChange: (v) => this.setFuriganaMode(v)
             });
             this._updateNlpOptionState();

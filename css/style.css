@@ -2923,6 +2923,14 @@ body.reader-active.reader-controls-available.reader-controls-visible .reader-top
     cursor: pointer;
 }
 
+.furigana-toggle-label {
+    font-family: var(--font-serif);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: -0.08em;
+    line-height: 1;
+}
+
 .bar-icon-btn:active {
     background: var(--soft-bg);
 }
