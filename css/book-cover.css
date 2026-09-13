@@ -296,25 +296,43 @@
    - 彻底消除 box-shadow、多层重叠阴影与半透明渐变（杜绝 16 阶灰度抖动脏斑）
    - 使用清晰 1.5px 实线边框，呈现日本文库本的纯净纸质质感
    ============================================================ */
+body.eink-mode {
+    --cat-fiction: #222222 !important;
+    --cat-essay: #222222 !important;
+    --cat-poetry: #222222 !important;
+    --cat-foreign: #222222 !important;
+    --cat-children: #222222 !important;
+    --cat-drama: #222222 !important;
+    --cat-default: #222222 !important;
+    --cover-paper: #FFFFFF !important;
+    --cover-ink: #000000 !important;
+}
+
 body.eink-mode .book-cover-container {
     perspective: none !important;
     transform: none !important;
+}
+
+body.eink-mode .book-cover-front::after,
+body.eink-mode .book-cover-back::after {
+    border-color: #333333 !important;
+    border-width: 1.5px !important;
 }
 
 body.eink-mode .book-cover-paper {
     transform: none !important;
     box-shadow: none !important;
     border-radius: 2px !important;
-    border: 1.5px solid var(--fg-color, #1a1a1a) !important;
-    background: var(--bg-color, #F7F3EA) !important;
+    border: 1.5px solid #000000 !important;
+    background: #FFFFFF !important;
 }
 
 body.eink-mode .book-cover-front {
     transform: none !important;
     box-shadow: none !important;
     border-radius: 2px !important;
-    border: 1.5px solid var(--fg-color, #1a1a1a) !important;
-    background: var(--bg-color, #F7F3EA) !important;
+    border: 1.5px solid #000000 !important;
+    background: #FFFFFF !important;
 }
 
 body.eink-mode .book-cover-back,
@@ -327,38 +345,38 @@ body.eink-mode .book-cover-spine {
 }
 
 body.eink-mode .book-cover-frame {
-    border-color: var(--fg-color, #1a1a1a) !important;
+    border-color: #333333 !important;
     opacity: 0.9 !important;
 }
 
 body.eink-mode .book-cover-title {
-    color: var(--fg-color, #1a1a1a) !important;
+    color: #000000 !important;
 }
 
 body.eink-mode .book-cover-author,
 body.eink-mode .book-cover-publisher,
 body.eink-mode .book-cover-mark {
-    color: var(--fg-color, #1a1a1a) !important;
-    opacity: 0.85 !important;
+    color: #222222 !important;
+    opacity: 0.9 !important;
 }
 
 body.eink-mode .book-cover-rule {
-    background: var(--fg-color, #1a1a1a) !important;
+    background: #666666 !important;
     opacity: 0.6 !important;
 }
 
 body.eink-mode .stamp-done {
     box-shadow: none !important;
-    border: 2px solid var(--fg-color, #1a1a1a) !important;
-    color: var(--fg-color, #1a1a1a) !important;
+    border: 2px solid #000000 !important;
+    color: #000000 !important;
 }
 
 body.eink-mode .book-cover.is-undownloaded .book-cover-front {
-    background: var(--bg-color, #F7F3EA) !important;
-    border-color: var(--line-color, #666) !important;
-    color: var(--fg-color, #1a1a1a) !important;
+    background: #FFFFFF !important;
+    border-color: #777777 !important;
+    color: #333333 !important;
 }
 
 body.eink-mode .book-cover.is-undownloaded .book-cover-front::after {
-    border: 1.5px dashed var(--line-color, #666) !important;
+    border: 1.5px dashed #777777 !important;
 }

@@ -3073,6 +3073,21 @@ const Yomu = {
             einkBtn.setAttribute('aria-pressed', value ? 'true' : 'false');
             einkBtn.title = value ? '電子ペーパー（E-Ink）：ON（タップで解除）' : '電子ペーパー（E-Ink）表示切替';
         }
+
+        // 墨水屏模式下关闭亮度半透明蒙层并重置系统状态栏颜色为纯白
+        const overlay = document.getElementById('brightness-overlay');
+        if (overlay) {
+            if (value) {
+                overlay.style.opacity = '0';
+            } else {
+                const b = (YomuStorage.getSettings && YomuStorage.getSettings().brightness) || 100;
+                overlay.style.opacity = String(((100 - b) / 100) * 0.55);
+            }
+        }
+        const meta = document.querySelector('meta[name="theme-color"]');
+        if (meta) {
+            meta.setAttribute('content', value ? '#FFFFFF' : getComputedStyle(document.body).backgroundColor);
+        }
     },
 
     toggleEinkMode() {

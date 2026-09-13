@@ -9,8 +9,8 @@
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/svg+xml" href="assets/app_icon.svg">
     <link rel="apple-touch-icon" href="assets/app_icon.png">
-    <link rel="stylesheet" href="css/style.css?v=37">
-    <link rel="stylesheet" href="css/book-cover.css?v=9">
+    <link rel="stylesheet" href="css/style.css?v=38">
+    <link rel="stylesheet" href="css/book-cover.css?v=10">
 
     <script>
         // PWA: register service worker for offline reading (http/https only;
@@ -332,7 +332,7 @@
             </div>
         </div>
 
-        <div class="settings-group settings-group-column" data-settings-section="display">
+        <div class="settings-group settings-group-column" id="settings-theme-group" data-settings-section="display">
             <label>背景色</label>
             <div class="theme-btn-group" role="group" aria-label="背景色">
                 <button class="theme-btn theme-light active" data-theme="light" onclick="Yomu.setTheme('light')" aria-label="白"><span></span>白</button>
@@ -342,7 +342,7 @@
             </div>
         </div>
 
-        <div class="settings-group" data-settings-section="display">
+        <div class="settings-group" id="settings-brightness-group" data-settings-section="display">
             <label>明るさ</label>
             <div class="control-row">
                 <button class="step-btn" onclick="Yomu.adjustBrightness(-10)" aria-label="暗く">−</button>
@@ -439,7 +439,7 @@
     <script src="js/dict.js?v=6"></script>
     <script src="js/importer.js?v=1"></script>
     <script src="js/wordbook.js?v=2"></script>
-    <script src="js/app.js?v=45"></script>
+    <script src="js/app.js?v=46"></script>
 
 </body>
 

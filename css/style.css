@@ -321,67 +321,183 @@ body.theme-dark .u-color-error { color: #ff7b72; }
     border-color: var(--fg-color);
 }
 
-/* 墨水屏（E-Ink）专用高对比度与纯平线条强化 */
+/* ============================================================
+   墨水屏（E-Ink）专用高对比度、去黑块与纯平线条体系
+   - 杜绝大面积黑色实心色块（避免翻转微囊引起严重 ghosting 残影）
+   - 锁定纯白背景（#FFFFFF）与白、灰、黑三色系统，忽略用户主题色
+   - 隐藏背景色与亮度设置（避免灰阶抖动）
+   ============================================================ */
+body.eink-mode,
+body.eink-mode.theme-sepia,
+body.eink-mode.theme-green,
+body.eink-mode.theme-dark {
+    --bg-color: #FFFFFF !important;
+    --raised-bg: #FFFFFF !important;
+    --soft-bg: #F4F4F4 !important;
+    --fg-color: #000000 !important;
+    --muted-color: #555555 !important;
+    --accent-color: #000000 !important;
+    --accent-soft: #EEEEEE !important;
+    --line-color: #888888 !important;
+    --hairline: #CCCCCC !important;
+    --highlight-bg: #E4E4E4 !important;
+    --primary-color: #000000 !important;
+    background: #FFFFFF !important;
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+}
+
+body.eink-mode #reader-container,
+body.eink-mode .reader-page,
+body.eink-mode .reader-screen-pad,
+body.eink-mode .shelf-header,
+body.eink-mode .home-view,
+body.eink-mode .store-view,
+body.eink-mode .store-header,
+body.eink-mode .reader-topbar,
+body.eink-mode .reader-bottombar {
+    background: #FFFFFF !important;
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+}
+
+/* 墨水屏模式下隐藏背景色与亮度设置项（避免灰阶抖动与残影） */
+body.eink-mode #settings-theme-group,
+body.eink-mode #settings-brightness-group {
+    display: none !important;
+}
+
+body.eink-mode #brightness-overlay {
+    display: none !important;
+    opacity: 0 !important;
+}
+
+/* 顶部墨水屏按钮：浅灰底 + 2px 细黑框，杜绝黑色大圆饼残影 */
 body.eink-mode #btn-toggle-eink.active {
-    background: var(--fg-color) !important;
-    color: var(--bg-color) !important;
-    border-color: var(--fg-color) !important;
+    background: #E5E5E5 !important;
+    color: #000000 !important;
+    border: 2px solid #000000 !important;
 }
 
 body.eink-mode .icon-btn {
-    border: 1px solid var(--fg-color) !important;
+    border: 1.2px solid #777777 !important;
+    background: #FFFFFF !important;
+    color: #111111 !important;
+}
+
+/* 本棚／全作品 分割切替导航：白色底框 + 浅灰激活胶囊，杜绝全黑药丸残影 */
+body.eink-mode .library-scope-nav {
+    background: #FFFFFF !important;
+    border: 1.5px solid #000000 !important;
+}
+
+body.eink-mode .scope-nav-btn {
+    background: transparent !important;
+    color: #555555 !important;
+    border: 1px solid transparent !important;
 }
 
 body.eink-mode .scope-nav-btn.active {
-    background: var(--fg-color) !important;
-    color: var(--bg-color) !important;
-    border: 1px solid var(--fg-color) !important;
+    background: #E8E8E8 !important;
+    color: #000000 !important;
+    border: 1.5px solid #000000 !important;
+    font-weight: 700 !important;
 }
 
 body.eink-mode .scope-nav-btn.active .scope-nav-badge {
-    background: var(--bg-color) !important;
-    color: var(--fg-color) !important;
+    background: #FFFFFF !important;
+    color: #000000 !important;
+    border: 1px solid #777777 !important;
 }
 
-body.eink-mode .search-trigger-btn {
-    border: 1px solid var(--fg-color) !important;
+body.eink-mode .scope-nav-badge {
+    background: #EEEEEE !important;
+    color: #555555 !important;
+    border: 1px solid transparent !important;
+}
+
+/* 搜索胶囊与触发按钮 */
+body.eink-mode .search-trigger-btn,
+body.eink-mode .search-inline-capsule {
+    border: 1.2px solid #555555 !important;
+    background: #FFFFFF !important;
+    color: #222222 !important;
+}
+
+/* 分类、著者等筛选项：彻底去除实心黑方块，改用高对比度浅灰底框 + 纯黑文字加粗 */
+body.eink-mode .filter-chip {
+    color: #555555 !important;
+    background: transparent !important;
+    border: 1.2px solid transparent !important;
+    padding: 3px 8px !important;
+}
+
+body.eink-mode .filter-chip .chip-count {
+    color: #777777 !important;
 }
 
 body.eink-mode .filter-chip.active {
-    border: 1.5px solid var(--fg-color) !important;
-    background: var(--fg-color) !important;
-    color: var(--bg-color) !important;
+    background: #E8E8E8 !important;
+    color: #000000 !important;
+    border: 1.5px solid #000000 !important;
+    border-radius: 4px !important;
+    font-weight: 700 !important;
 }
 
+body.eink-mode .filter-chip.active .chip-count {
+    color: #222222 !important;
+    opacity: 1 !important;
+}
+
+/* 弹窗、侧拉面板、菜单：白底 + 黑线框 */
 body.eink-mode .settings-panel,
 body.eink-mode .modal-card,
 body.eink-mode .action-sheet,
-body.eink-mode .ypop-menu {
-    border: 2px solid var(--fg-color) !important;
-    background: var(--bg-color) !important;
+body.eink-mode .ypop-menu,
+body.eink-mode .ypop-prompt-card {
+    border: 2px solid #000000 !important;
+    background: #FFFFFF !important;
+    color: #000000 !important;
 }
 
 body.eink-mode .settings-overlay,
 body.eink-mode .modal-overlay,
 body.eink-mode .action-sheet-backdrop {
-    background: rgba(0, 0, 0, 0.45) !important;
+    background: rgba(0, 0, 0, 0.3) !important;
 }
 
+/* Toast 提示：白底黑框 */
 body.eink-mode .toast {
-    border: 1.5px solid var(--fg-color) !important;
-    background: var(--bg-color) !important;
-    color: var(--fg-color) !important;
+    border: 1.5px solid #000000 !important;
+    background: #FFFFFF !important;
+    color: #000000 !important;
+    font-weight: 600 !important;
 }
 
+/* 主要操作按钮、设置按钮、弹窗确认按钮：避免纯黑大底色，用浅灰底 + 粗黑框 */
+body.eink-mode .modal-btn.primary,
+body.eink-mode .ypop-btn.primary,
+body.eink-mode .settings-btn.primary,
+body.eink-mode .primary-btn,
+body.eink-mode .font-btn.active,
+body.eink-mode .reader-width-btn.active,
+body.eink-mode .tool-icon-btn.active {
+    background: #E8E8E8 !important;
+    color: #000000 !important;
+    border: 1.5px solid #000000 !important;
+    font-weight: 700 !important;
+}
+
+/* 阅读器上下栏与振假名 */
 body.eink-mode .reader-topbar,
 body.eink-mode .reader-bottombar {
-    border-bottom: 1px solid var(--fg-color) !important;
-    background: var(--bg-color) !important;
+    border-bottom: 1px solid #000000 !important;
+    background: #FFFFFF !important;
 }
 
 body.eink-mode rt {
     opacity: 1 !important;
-    color: var(--fg-color) !important;
+    color: #000000 !important;
 }
 
 /* ============================================================
