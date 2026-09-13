@@ -316,7 +316,6 @@ body.theme-dark .u-color-error { color: #ff7b72; }
     grid-template-columns: minmax(0, 1fr);
     grid-template-areas:
         "hero"
-        "search"
         "chips"
         "list";
     align-content: start;
@@ -324,7 +323,7 @@ body.theme-dark .u-color-error { color: #ff7b72; }
 
 .home-hero {
     grid-area: hero;
-    padding: 40px 0 20px;
+    padding: 36px 0 16px;
 }
 
 .home-eyebrow {
@@ -350,12 +349,20 @@ body.theme-dark .u-color-error { color: #ff7b72; }
     letter-spacing: 0.04em;
 }
 
-/* --- 本棚／全作品 分割切替（Segmented Scope Nav） --- */
+/* --- 本棚／全作品 分割切替 + 検索トリガー（Home Toolbar Bar） --- */
+.home-toolbar-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 18px;
+    flex-wrap: wrap;
+}
+
 .library-scope-nav {
     display: inline-flex;
     align-items: center;
     gap: 4px;
-    margin-top: 20px;
     padding: 3px;
     background: var(--soft-bg);
     border: 1px solid var(--hairline);
@@ -415,27 +422,98 @@ body.theme-dark .scope-nav-btn.active {
     color: var(--accent-color);
 }
 
-.home-searchbar {
-    grid-area: search;
-    padding-bottom: 26px;
+.home-search-wrap {
+    display: inline-flex;
+    align-items: center;
 }
 
-/* 検索 — 底線式（無框）: 文字だけで立つ */
-.search-capsule {
+.search-trigger-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 16px;
+    border: 1px solid var(--hairline);
+    border-radius: 999px;
+    background: var(--soft-bg);
+    color: var(--muted-color);
+    font-family: var(--font-sans);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    transition: all 0.16s ease;
+    white-space: nowrap;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.search-trigger-btn:hover {
+    color: var(--fg-color);
+    border-color: var(--line-color);
+    background: var(--bg-color);
+}
+
+.search-trigger-btn.has-query {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+    background: var(--accent-soft);
+}
+
+.search-inline-capsule {
     display: flex;
     align-items: center;
-    gap: 10px;
-    background: transparent;
-    border-bottom: 1px solid var(--line-color);
-    border-radius: 0;
-    padding: 4px 2px 8px;
-    max-width: 560px;
-    transition: border-color 0.2s ease;
+    gap: 8px;
+    background: var(--bg-color);
+    border: 1px solid var(--line-color);
+    border-radius: 999px;
+    padding: 3px 12px;
+    width: 280px;
+    max-width: 100%;
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
 }
 
-.search-capsule:focus-within {
-    border-bottom-color: var(--accent-color);
+body.theme-dark .search-inline-capsule {
+    background: #2a2e33;
+    border-color: var(--hairline);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+.search-inline-capsule:focus-within {
+    border-color: var(--accent-color);
+}
+
+.search-inline-capsule input {
+    flex: 1;
+    min-width: 80px;
+    border: none;
     background: transparent;
+    outline: none;
+    font-family: var(--font-sans);
+    font-size: 13px;
+    color: var(--fg-color);
+    padding: 5px 0;
+}
+
+.search-inline-capsule input::placeholder {
+    color: var(--muted-color);
+    font-size: 12px;
+}
+
+.search-close-btn {
+    background: transparent;
+    border: none;
+    color: var(--muted-color);
+    font-family: var(--font-sans);
+    font-size: 12px;
+    cursor: pointer;
+    padding: 4px 2px 4px 8px;
+    border-left: 1px solid var(--hairline);
+    white-space: nowrap;
+    transition: color 0.15s ease;
+}
+
+.search-close-btn:hover {
+    color: var(--fg-color);
 }
 
 .search-icon {
@@ -3830,13 +3908,19 @@ body.theme-dark .ypop-prompt-card {
 
 .toast {
     pointer-events: auto;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    column-gap: 14px;
     background: var(--raised-bg);
     color: var(--fg-color);
-    padding: 12px 18px;
+    width: max-content;
+    min-width: 230px;
+    max-width: min(92vw, 380px);
+    padding: 11px 15px;
     border-radius: 12px;
     font-family: var(--font-sans);
-    font-size: 14px;
-    max-width: 100%;
+    font-size: 13px;
     box-shadow: var(--shadow-pop);
     opacity: 0;
     transform: translateY(10px);
@@ -3849,6 +3933,7 @@ body.theme-dark .ypop-prompt-card {
 }
 
 .toast-progress {
+    grid-column: 1 / -1;
     margin-top: 8px;
     height: 3px;
     border-radius: 2px;
@@ -3874,14 +3959,21 @@ body.theme-dark .toast-error {
 
 .toast .toast-cancel {
     flex: 0 0 auto;
-    margin-left: 12px;
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 0;
     padding: 5px 14px;
     border: 1px solid currentColor;
     background: transparent;
     color: inherit;
     border-radius: 999px;
     font-size: 12px;
-    min-height: 30px;
+    min-height: 32px;
+}
+
+body.eink-mode .toast {
+    border: 1px solid var(--line-color);
+    box-shadow: none;
 }
 
 .toast .toast-cancel:disabled {
@@ -4035,6 +4127,58 @@ body.theme-dark .action-sheet-btn.danger {
         font-size: 32px;
     }
 
+    .home-toolbar-bar {
+        gap: 8px;
+        flex-wrap: nowrap;
+    }
+
+    .home-toolbar-bar .library-scope-nav {
+        flex: 1;
+        min-width: 0;
+        padding: 2px;
+        gap: 2px;
+    }
+
+    .home-toolbar-bar .scope-nav-btn {
+        padding: 6px 8px;
+        font-size: 12px;
+        gap: 5px;
+        flex: 1;
+        justify-content: center;
+        min-width: 0;
+    }
+
+    .home-toolbar-bar .scope-nav-label {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .home-toolbar-bar .scope-prefix {
+        display: none;
+    }
+
+    .home-toolbar-bar .scope-nav-badge {
+        padding: 1px 5px;
+        font-size: 10px;
+    }
+
+    .home-toolbar-bar .search-trigger-btn {
+        padding: 6px 12px;
+        font-size: 12px;
+        gap: 5px;
+        flex-shrink: 0;
+    }
+
+    .home-toolbar-bar.search-open .library-scope-nav {
+        display: none;
+    }
+
+    .home-toolbar-bar.search-open .home-search-wrap,
+    .home-toolbar-bar.search-open .search-inline-capsule {
+        width: 100%;
+    }
+
     .book-row {
         grid-template-columns: 84px minmax(0, 1fr) 36px;
         gap: 0 14px;
@@ -4135,7 +4279,6 @@ body.theme-dark .action-sheet-btn.danger {
         grid-template-columns: minmax(0, 1fr);
         grid-template-areas:
             "hero"
-            "search"
             "chips"
             "list";
     }

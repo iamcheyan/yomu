@@ -599,6 +599,8 @@ const Yomu = {
         }
         const clearBtn = document.getElementById('home-search-clear');
         if (clearBtn) clearBtn.classList.add('hidden');
+        const triggerBtn = document.getElementById('search-trigger-btn');
+        if (triggerBtn) triggerBtn.classList.remove('has-query');
 
         const titleEl = document.getElementById('home-title');
         const subEl = document.getElementById('home-sub');
@@ -626,6 +628,32 @@ const Yomu = {
         window.scrollTo({ top: 0, behavior: 'auto' });
     },
 
+    toggleHomeSearch(open) {
+        const toolbar = document.querySelector('.home-toolbar-bar');
+        const trigger = document.getElementById('search-trigger-btn');
+        const capsule = document.getElementById('search-inline-capsule');
+        const input = document.getElementById('home-search-input');
+        if (!trigger || !capsule) return;
+
+        const isCurrentlyOpen = !capsule.classList.contains('hidden');
+        const shouldOpen = open !== undefined ? Boolean(open) : !isCurrentlyOpen;
+
+        if (shouldOpen) {
+            trigger.classList.add('hidden');
+            capsule.classList.remove('hidden');
+            if (toolbar) toolbar.classList.add('search-open');
+            if (input) {
+                setTimeout(() => input.focus(), 60);
+            }
+        } else {
+            if (this._homeSearch) {
+                this.clearHomeFilters();
+            }
+            capsule.classList.add('hidden');
+            trigger.classList.remove('hidden');
+            if (toolbar) toolbar.classList.remove('search-open');
+        }
+    },
 
     _initSearchInputs() {
         const debounce = (fn, wait) => {
@@ -645,11 +673,20 @@ const Yomu = {
 
         const homeInput = document.getElementById('home-search-input');
         const clearBtn = document.getElementById('home-search-clear');
+        const triggerBtn = document.getElementById('search-trigger-btn');
         if (homeInput) {
+            homeInput.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') {
+                    this.toggleHomeSearch(false);
+                }
+            });
             homeInput.addEventListener('input', debounce(() => {
                 this._homeSearch = homeInput.value;
                 if (clearBtn) {
                     clearBtn.classList.toggle('hidden', !this._homeSearch);
+                }
+                if (triggerBtn) {
+                    triggerBtn.classList.toggle('has-query', Boolean(this._homeSearch));
                 }
                 if (this._libraryScope === 'catalog') {
                     this._catalogPage = 0;
@@ -709,6 +746,8 @@ const Yomu = {
         if (input) input.value = '';
         const clearBtn = document.getElementById('home-search-clear');
         if (clearBtn) clearBtn.classList.add('hidden');
+        const triggerBtn = document.getElementById('search-trigger-btn');
+        if (triggerBtn) triggerBtn.classList.remove('has-query');
         const statusEl = document.getElementById('home-fulltext-status');
         if (statusEl) statusEl.textContent = '';
         this._renderBookList();

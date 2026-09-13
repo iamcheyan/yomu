@@ -9,7 +9,7 @@
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/svg+xml" href="assets/app_icon.svg">
     <link rel="apple-touch-icon" href="assets/app_icon.png">
-    <link rel="stylesheet" href="css/style.css?v=28">
+    <link rel="stylesheet" href="css/style.css?v=29">
 
     <script>
         // PWA: register service worker for offline reading (http/https only;
@@ -63,33 +63,45 @@
             <h2 class="home-title" id="home-title">書架</h2>
             <p class="home-sub" id="home-sub">静かに読むための日本語書架。全ての本が手元に。</p>
 
-            <div class="library-scope-nav" role="tablist" aria-label="表示範囲">
-                <button type="button" class="scope-nav-btn active" data-library-scope="library" onclick="Yomu.setLibraryScope('library')">
-                    <span class="scope-nav-label">本棚</span>
-                    <span class="scope-nav-badge" id="library-count">20</span>
-                </button>
-                <button type="button" class="scope-nav-btn" data-library-scope="catalog" onclick="Yomu.setLibraryScope('catalog')">
-                    <span class="scope-nav-label">青空文庫 全作品</span>
-                    <span class="scope-nav-badge" id="catalog-count">15,035</span>
-                </button>
-            </div>
-        </section>
+            <div class="home-toolbar-bar">
+                <div class="library-scope-nav" role="tablist" aria-label="表示範囲">
+                    <button type="button" class="scope-nav-btn active" data-library-scope="library" onclick="Yomu.setLibraryScope('library')">
+                        <span class="scope-nav-label">本棚</span>
+                        <span class="scope-nav-badge" id="library-count">20</span>
+                    </button>
+                    <button type="button" class="scope-nav-btn" data-library-scope="catalog" onclick="Yomu.setLibraryScope('catalog')">
+                        <span class="scope-nav-label"><span class="scope-prefix">青空文庫 </span>全作品</span>
+                        <span class="scope-nav-badge" id="catalog-count">15,035</span>
+                    </button>
+                </div>
 
-        <div class="home-searchbar">
-            <div class="search-capsule">
-                <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <circle cx="11" cy="11" r="8"></circle>
-                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                </svg>
-                <input type="text" id="home-search-input" placeholder="本棚内を検索（作品名・著者名・本文）..."
-                    autocomplete="off">
-                <button id="home-search-clear" class="icon-btn-small search-clear-btn hidden" onclick="Yomu.clearHomeFilters()" title="検索クリア" aria-label="検索クリア">
-                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
-                </button>
+                <div class="home-search-wrap" id="home-search-wrap">
+                    <button type="button" class="search-trigger-btn" id="search-trigger-btn" onclick="Yomu.toggleHomeSearch(true)" title="検索を開く" aria-label="検索">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        <span class="search-trigger-text">検索</span>
+                    </button>
+
+                    <div class="search-inline-capsule hidden" id="search-inline-capsule">
+                        <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        <input type="text" id="home-search-input" placeholder="本棚内を検索..." autocomplete="off">
+                        <button id="home-search-clear" class="search-clear-btn hidden" onclick="Yomu.clearHomeFilters()" title="検索クリア" aria-label="検索クリア">
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                        </button>
+                        <button type="button" class="search-close-btn" onclick="Yomu.toggleHomeSearch(false)" title="閉じる" aria-label="閉じる">
+                            閉じる
+                        </button>
+                    </div>
+                </div>
             </div>
             <input type="file" id="local-file-input" accept=".txt,.text,.epub" class="hidden" onchange="Yomu.onLocalFilePicked(this)">
-        </div>
+        </section>
 
         <div class="home-chips">
             <div class="filter-chips-group" id="home-filter-chips"></div>
@@ -411,7 +423,7 @@
     <script src="js/dict.js?v=6"></script>
     <script src="js/importer.js?v=1"></script>
     <script src="js/wordbook.js?v=2"></script>
-    <script src="js/app.js?v=38"></script>
+    <script src="js/app.js?v=39"></script>
 
 </body>
 
