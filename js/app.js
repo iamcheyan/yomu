@@ -20,7 +20,11 @@ const Yomu = {
         orthography: ''
     },
     _homeSearch: '',
+    _libraryScope: 'library',
+    _catalogPage: 0,
+    _catalogPageSize: 36,
     _homeFilters: {
+        status: 'all',
         category: ''
     },
     _storePageCount: 10,
@@ -335,12 +339,26 @@ const Yomu = {
 
     // ===== ホーム（書架） =====
     _renderBookList() {
+        if (this._libraryScope === 'catalog') {
+            this._renderCatalogList();
+            return;
+        }
+
+        // Hide catalog pagination in library mode
+        const pagination = document.getElementById('catalog-pagination');
+        if (pagination) pagination.classList.add('hidden');
+
         const allBooks = this._getLibraryBooks();
         const filtered = this._getFilteredLibraryBooks(allBooks);
 
-        // Update counter (Total books in library)
+        // Update counters
         const counter = document.getElementById('library-count');
         if (counter) counter.textContent = allBooks.length;
+        const catBadge = document.getElementById('catalog-count');
+        if (catBadge && this._storeBooks && this._storeBooks.length) {
+            catBadge.textContent = this._storeBooks.length.toLocaleString();
+        }
+
         this._renderHomeFilters(allBooks, filtered.length);
 
         const grid = document.getElementById('book-grid');
@@ -404,7 +422,7 @@ const Yomu = {
             }
         }
 
-        const hasQuery = Boolean(this._homeSearch && this._homeSearch.trim()) || Boolean(this._homeFilters.category);
+        const hasQuery = Boolean(this._homeSearch && this._homeSearch.trim()) || Boolean(this._homeFilters.category) || this._homeFilters.status !== 'all';
         if (!html) {
             html = `
                 <div class="empty-state">
@@ -418,6 +436,194 @@ const Yomu = {
             `;
         }
         grid.innerHTML = html;
+    },
+
+    /** 統一書庫：青空文庫カタログ（全作品）を統一カードで表示する */
+    _renderCatalogList() {
+        const grid = document.getElementById('book-grid');
+        if (!grid) return;
+
+        // 同期青空文庫分类过滤
+        this._storeFilters.category = this._homeFilters.category;
+
+        const query = (this._homeSearch || '').trim();
+        const entries = this._getFilteredStoreBooks(query);
+        const localBooks = this._getLibraryBooks();
+        const savedBookMap = new Map();
+        for (const b of localBooks) {
+            if (b.id) savedBookMap.set(b.id, b);
+            if (b.fileId) savedBookMap.set(b.fileId, b);
+            if (b.workId) savedBookMap.set(b.workId, b);
+            if (b.aliases && Array.isArray(b.aliases)) {
+                for (const a of b.aliases) savedBookMap.set(a, b);
+            }
+        }
+
+        // 计数
+        const catBadge = document.getElementById('catalog-count');
+        if (catBadge) {
+            const count = this._storeBooks.length || 15035;
+            catBadge.textContent = count.toLocaleString();
+        }
+
+        // 分页计算
+        const totalPages = Math.max(1, Math.ceil(entries.length / this._catalogPageSize));
+        if (this._catalogPage >= totalPages) this._catalogPage = Math.max(0, totalPages - 1);
+        const paged = entries.slice(this._catalogPage * this._catalogPageSize, (this._catalogPage + 1) * this._catalogPageSize);
+
+        // 分页条
+        const pagination = document.getElementById('catalog-pagination');
+        if (pagination) {
+            pagination.classList.remove('hidden');
+            const pageInfo = document.getElementById('catalog-page-info');
+            if (pageInfo) pageInfo.textContent = `${this._catalogPage + 1} / ${totalPages}`;
+            const prevBtn = document.getElementById('btn-prev-catalog-page');
+            const nextBtn = document.getElementById('btn-next-catalog-page');
+            if (prevBtn) prevBtn.disabled = this._catalogPage <= 0;
+            if (nextBtn) nextBtn.disabled = this._catalogPage >= totalPages - 1;
+        }
+
+        this._renderHomeFilters(this._storeBooks, entries.length);
+
+        if (!paged.length) {
+            const hasFilter = Boolean(query || this._homeFilters.category);
+            grid.innerHTML = `
+                <div class="empty-state">
+                    <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <p>条件に合う作品がありません</p>
+                    ${hasFilter ? '<button class="text-action-btn" onclick="Yomu.clearHomeFilters()">絞り込みをクリア</button>' : ''}
+                </div>
+            `;
+            return;
+        }
+
+        grid.innerHTML = paged.map(entry => {
+            const book = entry.book;
+            const id = book.fileId || book.workId || book.id;
+            const localBook = savedBookMap.get(id) ||
+                (book.workId && savedBookMap.get(book.workId)) ||
+                (book.fileId && savedBookMap.get(book.fileId)) || null;
+            const saved = Boolean(localBook);
+            const targetBook = localBook || { ...book, id };
+            const available = book.available !== false || saved;
+
+            let actionHtml = '';
+            let cardClick = '';
+            let progressHtml = '';
+            if (saved) {
+                const openId = localBook.id || id;
+                cardClick = `Yomu.openBook('${this._escapeAttr(openId)}')`;
+                const progress = this._getBookProgress(localBook);
+                const percent = Math.round(progress.scrollPercent || 0);
+                if (progress.lastRead) {
+                    progressHtml = `
+                        <div class="book-row-progress">
+                            <div class="track"><span style="width:${percent}%"></span></div>
+                            <span class="pct">${percent >= 100 ? '読了' : percent + '%'}</span>
+                        </div>
+                    `;
+                }
+                actionHtml = `<button class="card-dl-btn saved" onclick="event.stopPropagation(); ${cardClick}">読む</button>`;
+            } else if (available) {
+                cardClick = `Yomu.downloadBook('${this._escapeAttr(id)}')`;
+                actionHtml = `
+                    <button class="card-dl-btn" onclick="event.stopPropagation(); ${cardClick}">
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                        保存
+                    </button>
+                `;
+            } else {
+                actionHtml = `<button class="card-dl-btn unavailable" disabled>未収録</button>`;
+            }
+
+            return `
+                <div class="book-row ${available ? '' : 'unavailable'}" data-book-id="${this._escapeAttr(id)}" ${cardClick ? `onclick="${cardClick}"` : ''}>
+                    ${this._coverMarkup(targetBook)}
+                    <div class="book-row-main">
+                        <div class="book-row-title-line">
+                            <span class="book-row-title">${this._escapeHtml(book.title)}</span>
+                            ${saved ? '<span class="badge-saved">本棚</span>' : ''}
+                        </div>
+                        <div class="book-row-author">${this._escapeHtml(book.author || `(著者ID: ${book.authorId || ''})`)}</div>
+                        ${book.desc ? `<div class="book-row-desc">${this._escapeHtml(book.desc)}</div>` : ''}
+                        ${progressHtml}
+                        <div class="book-row-action">
+                            ${actionHtml}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }).join('');
+    },
+
+    prevCatalogPage() {
+        if (this._catalogPage > 0) {
+            this._catalogPage--;
+            this._renderBookList();
+            window.scrollTo({ top: 0, behavior: 'auto' });
+        }
+    },
+
+    nextCatalogPage() {
+        const query = (this._homeSearch || '').trim();
+        const entries = this._getFilteredStoreBooks(query);
+        const totalPages = Math.ceil(entries.length / this._catalogPageSize);
+        if (this._catalogPage < totalPages - 1) {
+            this._catalogPage++;
+            this._renderBookList();
+            window.scrollTo({ top: 0, behavior: 'auto' });
+        }
+    },
+
+    async setLibraryScope(scope) {
+        this._libraryScope = scope === 'catalog' ? 'catalog' : 'library';
+        this._homeSearch = '';
+        this._homeFilters.status = 'all';
+        this._homeFilters.category = '';
+        this._catalogPage = 0;
+        this._fullTextResults = null;
+
+        const input = document.getElementById('home-search-input');
+        if (input) {
+            input.value = '';
+            input.placeholder = this._libraryScope === 'catalog'
+                ? '青空文庫全作品を検索（タイトル・著者名）...'
+                : '本棚内を検索（作品名・著者名・本文）...';
+        }
+        const clearBtn = document.getElementById('home-search-clear');
+        if (clearBtn) clearBtn.classList.add('hidden');
+
+        const titleEl = document.getElementById('home-title');
+        const subEl = document.getElementById('home-sub');
+        if (titleEl) titleEl.textContent = this._libraryScope === 'catalog' ? '青空文庫' : '書架';
+        if (subEl) subEl.textContent = this._libraryScope === 'catalog'
+            ? '一万五千篇の文学作品。タップして端末に保存・読書。'
+            : '静かに読むための日本語書架。全ての本が手元に。';
+
+        document.querySelectorAll('[data-library-scope]').forEach(button => {
+            button.classList.toggle('active', button.dataset.libraryScope === this._libraryScope);
+        });
+
+        const pagination = document.getElementById('catalog-pagination');
+        if (pagination) {
+            pagination.classList.toggle('hidden', this._libraryScope !== 'catalog');
+        }
+
+        if (this._libraryScope === 'catalog') {
+            if (!this._storeBooks.length) await this._loadStorePreviewCatalog();
+            this._renderBookList();
+            await this._loadFullStoreCatalog();
+        } else {
+            this._renderBookList();
+        }
+        window.scrollTo({ top: 0, behavior: 'auto' });
     },
 
 
@@ -438,9 +644,18 @@ const Yomu = {
         }
 
         const homeInput = document.getElementById('home-search-input');
+        const clearBtn = document.getElementById('home-search-clear');
         if (homeInput) {
             homeInput.addEventListener('input', debounce(() => {
                 this._homeSearch = homeInput.value;
+                if (clearBtn) {
+                    clearBtn.classList.toggle('hidden', !this._homeSearch);
+                }
+                if (this._libraryScope === 'catalog') {
+                    this._catalogPage = 0;
+                    this._renderBookList();
+                    return;
+                }
                 this._renderBookList();
                 // C3: 全文検索（本地范围、异步追加，不阻塞标题/作者结果）
                 if (this._homeSearch && this._homeSearch.trim().length >= 2) {
@@ -470,17 +685,30 @@ const Yomu = {
 
     setHomeFilter(type, value) {
         if (!Object.prototype.hasOwnProperty.call(this._homeFilters, type)) return;
-        this._homeFilters[type] = value;
+        if (this._homeFilters[type] === value) {
+            if (type === 'status') this._homeFilters.status = 'all';
+            else if (type === 'category') this._homeFilters.category = '';
+        } else {
+            this._homeFilters[type] = value;
+        }
+        if (this._libraryScope === 'catalog') {
+            this._catalogPage = 0;
+        }
         this._renderBookList();
         window.scrollTo({ top: 0, behavior: 'auto' });
     },
 
     clearHomeFilters() {
         this._homeSearch = '';
+        this._homeFilters.status = 'all';
         this._homeFilters.category = '';
+        this._storeFilters.category = '';
+        this._catalogPage = 0;
         this._fullTextResults = null;
         const input = document.getElementById('home-search-input');
         if (input) input.value = '';
+        const clearBtn = document.getElementById('home-search-clear');
+        if (clearBtn) clearBtn.classList.add('hidden');
         const statusEl = document.getElementById('home-fulltext-status');
         if (statusEl) statusEl.textContent = '';
         this._renderBookList();
@@ -601,6 +829,15 @@ const Yomu = {
     _getFilteredLibraryBooks(allBooks = null) {
         const q = (this._homeSearch || '').trim().toLowerCase();
         const books = (allBooks || this._getLibraryBooks()).filter(book => {
+            if (this._homeFilters.status === 'reading') {
+                const p = this._getBookProgress(book);
+                const pct = p.scrollPercent || 0;
+                if (!p.lastRead || pct <= 0 || pct >= 99.5) return false;
+            } else if (this._homeFilters.status === 'finished') {
+                const p = this._getBookProgress(book);
+                const pct = p.scrollPercent || 0;
+                if (!p.lastRead || pct < 99.5) return false;
+            }
             if (this._homeFilters.category && this._bookCategory(book) !== this._homeFilters.category) return false;
             return true;
         });
@@ -636,37 +873,72 @@ const Yomu = {
     _renderHomeFilters(allBooks, resultCount) {
         const chipBox = document.getElementById('home-filter-chips');
         if (chipBox) {
-            const counts = new Map();
-            for (const book of allBooks) {
-                const cat = this._bookCategory(book);
-                if (cat) counts.set(cat, (counts.get(cat) || 0) + 1);
+            if (this._libraryScope === 'catalog') {
+                // Catalog scope: show categories
+                const cats = [
+                    { id: '', label: 'すべて' },
+                    { id: 'fiction', label: '小説' },
+                    { id: 'children', label: '児童文学' },
+                    { id: 'essay', label: '随筆・記録' },
+                    { id: 'poetry', label: '詩歌' },
+                    { id: 'drama', label: '戯曲' },
+                    { id: 'foreign', label: '海外文学' }
+                ];
+                chipBox.innerHTML = cats.map(c => this._homeFilterButton('category', c.id, c.label)).join('');
+            } else {
+                // Library scope: show status (すべて, 読書中, 読了) + present categories
+                let readingCount = 0;
+                let finishedCount = 0;
+                const catCounts = new Map();
+                for (const book of allBooks) {
+                    const p = this._getBookProgress(book);
+                    const pct = p.scrollPercent || 0;
+                    if (p.lastRead && pct >= 99.5) finishedCount++;
+                    else if (p.lastRead && pct > 0) readingCount++;
+
+                    const cat = this._bookCategory(book);
+                    if (cat) catCounts.set(cat, (catCounts.get(cat) || 0) + 1);
+                }
+
+                const chips = [];
+                // Status chips
+                chips.push(this._homeFilterButton('status', 'all', 'すべて', allBooks.length));
+                if (readingCount > 0) {
+                    chips.push(this._homeFilterButton('status', 'reading', '読書中', readingCount));
+                }
+                if (finishedCount > 0) {
+                    chips.push(this._homeFilterButton('status', 'finished', '読了', finishedCount));
+                }
+
+                // Category chips (only those present in library)
+                const cats = [
+                    { id: 'fiction', label: '小説' },
+                    { id: 'children', label: '児童文学' },
+                    { id: 'essay', label: '随筆・記録' },
+                    { id: 'poetry', label: '詩歌' },
+                    { id: 'drama', label: '戯曲' },
+                    { id: 'foreign', label: '海外文学' }
+                ].filter(c => (catCounts.get(c.id) || 0) > 0);
+
+                for (const c of cats) {
+                    chips.push(this._homeFilterButton('category', c.id, c.label, catCounts.get(c.id)));
+                }
+
+                chipBox.innerHTML = chips.join('');
             }
-
-            const cats = [
-                { id: 'fiction', label: '小説' },
-                { id: 'children', label: '児童文学' },
-                { id: 'essay', label: '随筆・記録' },
-                { id: 'poetry', label: '詩歌' },
-                { id: 'drama', label: '戯曲' },
-                { id: 'foreign', label: '海外文学' }
-            ].filter(c => counts.get(c.id) > 0);
-
-            chipBox.innerHTML = `
-                ${this._homeFilterButton('category', '', 'すべて', allBooks.length)}
-                ${cats.map(c => this._homeFilterButton('category', c.id, c.label, counts.get(c.id))).join('')}
-            `;
         }
 
         const summary = document.getElementById('home-filter-summary');
         if (summary) {
-            const active = [
-                this._categoryLabel(this._homeFilters.category)
-            ].filter(Boolean);
             const parts = [];
-            if (active.length && this._homeFilters.category !== '') parts.push(active.join(' / '));
+            if (this._libraryScope === 'library') {
+                if (this._homeFilters.status === 'reading') parts.push('読書中');
+                else if (this._homeFilters.status === 'finished') parts.push('読了');
+            }
+            const catLabel = this._categoryLabel(this._homeFilters.category);
+            if (catLabel) parts.push(catLabel);
             if (this._homeSearch) parts.push(`「${this._homeSearch}」`);
-            // 默认状态（すべて・無検索）不显示冗余统计，让列表自己说话
-            summary.textContent = parts.length ? `${resultCount} 冊 · ${parts.join(' · ')}` : '';
+            summary.textContent = parts.length ? `${resultCount.toLocaleString()} 冊 · ${parts.join(' · ')}` : '';
         }
     },
 
@@ -691,7 +963,7 @@ const Yomu = {
         this._consumeNewBadge(bookId);
         // 隐藏其他视图，只显示阅读器
         document.getElementById('book-list-view').classList.add('hidden');
-        document.getElementById('store-view').classList.add('hidden');
+        document.getElementById('store-view')?.classList.add('hidden');
         document.getElementById('reader-view').classList.add('active');
         document.documentElement.classList.add('reader-active');
         document.body.classList.add('reader-active');
@@ -726,15 +998,11 @@ const Yomu = {
         this.setBookInfoCardVisible(false);
         document.body.classList.remove('reader-immersive', 'past-scroll-depth');
 
-        document.getElementById('store-view').classList.add('hidden');
+        document.getElementById('store-view')?.classList.add('hidden');
         document.getElementById('book-list-view').classList.remove('hidden');
 
         // Update shared header
-        const storeBtn = document.getElementById('btn-show-store');
-        const libBtn = document.getElementById('btn-show-library');
         const mainTitle = document.getElementById('main-title');
-        if (storeBtn) storeBtn.classList.remove('hidden');
-        if (libBtn) libBtn.classList.add('hidden');
         if (mainTitle) mainTitle.textContent = '読書器';
 
         this._storeOpen = false;
@@ -755,46 +1023,8 @@ const Yomu = {
 
     // ===== Store (Online Library) =====
     async showStore(pushState = true) {
-        if (typeof YomuReader !== 'undefined' && YomuReader.closeBook) {
-            YomuReader.closeBook();
-        }
-
-        YomuStorage.saveAppState({ lastView: 'store', lastBookId: null });
-
-        document.getElementById('reader-view').classList.remove('active');
-        document.body.classList.remove('reader-active');
-        document.body.classList.remove('reader-controls-available');
-        this.setReaderControlsVisible(false);
-        this.setBookInfoCardVisible(false);
-        document.body.classList.remove('reader-immersive', 'past-scroll-depth');
-
-        document.getElementById('book-list-view').classList.add('hidden');
-        document.getElementById('store-view').classList.remove('hidden');
-        this._storeOpen = true;
-
-        // Update shared header
-        const storeBtn = document.getElementById('btn-show-store');
-        const libBtn = document.getElementById('btn-show-library');
-        const mainTitle = document.getElementById('main-title');
-        if (storeBtn) storeBtn.classList.add('hidden');
-        if (libBtn) libBtn.classList.remove('hidden');
-        if (mainTitle) mainTitle.textContent = '書庫';
-
-        if (pushState) {
-            if (window.location.hash !== '#store') {
-                history.pushState({ view: 'store' }, '', '#store');
-            }
-        }
-
-        if (this._storeBooks.length === 0) {
-            this._renderStoreSkeleton();
-            await this._loadStorePreviewCatalog();
-        }
-
-        // Keep the browsing position when returning to the store (U-03);
-        // page resets happen on search/filter changes instead.
-        this._renderStore();
-        this._loadFullStoreCatalog();
+        await this.showBookList(pushState);
+        await this.setLibraryScope('catalog');
     },
 
     /** 目录加载骨架（低对比 shimmer） */
@@ -868,7 +1098,8 @@ const Yomu = {
             if (data) {
                 this._storeBooks = data;
                 this._storeCatalogLoaded = true;
-                this._renderStore(document.getElementById('store-search-input')?.value || '');
+                if (this._libraryScope === 'catalog') this._renderBookList();
+                else this._renderStore(document.getElementById('store-search-input')?.value || '');
             }
         } catch (e) {
             console.error('Failed to load full store catalog:', e);
@@ -1585,8 +1816,11 @@ const Yomu = {
             this._markNewBook(bookId);
             dlToast.finish('本棚に追加しました');
 
-            // Refresh store in background
-            setTimeout(() => this._renderStore(document.getElementById('store-search-input')?.value || ''), 100);
+            // Refresh store or catalog in background
+            setTimeout(() => {
+                if (this._libraryScope === 'catalog') this._renderBookList();
+                else this._renderStore(document.getElementById('store-search-input')?.value || '');
+            }, 100);
 
             // A1 下载→阅读状态机: explicitly open the downloaded book so that
             // reader-view.active, hash, app state and rendered content all
@@ -2046,7 +2280,8 @@ const Yomu = {
     },
 
     _setStoreCardDownloading(bookId, on) {
-        const card = document.getElementById(`store-book-${bookId}`);
+        const card = document.getElementById(`store-book-${bookId}`) ||
+                     document.querySelector(`.book-row[data-book-id="${CSS.escape ? CSS.escape(bookId) : bookId}"]`);
         if (card) card.classList.toggle('downloading', Boolean(on));
     },
 

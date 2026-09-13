@@ -350,6 +350,71 @@ body.theme-dark .u-color-error { color: #ff7b72; }
     letter-spacing: 0.04em;
 }
 
+/* --- 本棚／全作品 分割切替（Segmented Scope Nav） --- */
+.library-scope-nav {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 20px;
+    padding: 3px;
+    background: var(--soft-bg);
+    border: 1px solid var(--hairline);
+    border-radius: 999px;
+    max-width: 100%;
+}
+
+.scope-nav-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 16px;
+    border: none;
+    border-radius: 999px;
+    background: transparent;
+    color: var(--muted-color);
+    font-family: var(--font-sans);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    transition: all 0.16s ease;
+    white-space: nowrap;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.scope-nav-btn:hover {
+    color: var(--fg-color);
+}
+
+.scope-nav-btn.active {
+    background: var(--bg-color);
+    color: var(--fg-color);
+    font-weight: 600;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+body.theme-dark .scope-nav-btn.active {
+    background: #2a2e33;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+}
+
+.scope-nav-badge {
+    display: inline-block;
+    padding: 1px 7px;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.35;
+    border-radius: 999px;
+    background: var(--hairline);
+    color: var(--muted-color);
+    transition: all 0.16s ease;
+}
+
+.scope-nav-btn.active .scope-nav-badge {
+    background: var(--accent-soft);
+    color: var(--accent-color);
+}
+
 .home-searchbar {
     grid-area: search;
     padding-bottom: 26px;
@@ -410,6 +475,18 @@ body.theme-dark .u-color-error { color: #ff7b72; }
     justify-content: center;
     cursor: pointer;
     border-radius: 50%;
+}
+
+.search-clear-btn {
+    color: var(--muted-color);
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    transition: color 0.15s ease;
+}
+
+.search-clear-btn:hover {
+    color: var(--fg-color);
 }
 
 .icon-btn-small:disabled {
@@ -588,6 +665,101 @@ body.theme-dark .u-color-error { color: #ff7b72; }
     grid-template-columns: repeat(auto-fill, minmax(176px, 1fr));
     gap: 30px 24px;
     padding-top: 18px;
+}
+
+.badge-saved {
+    display: inline-flex;
+    align-items: center;
+    font-family: var(--font-sans);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: var(--accent-color);
+    background: var(--accent-soft);
+    border: 1px solid currentColor;
+    border-radius: 999px;
+    padding: 1px 7px;
+    flex-shrink: 0;
+    transform: translateY(-2px);
+}
+
+.book-row.unavailable {
+    opacity: 0.52;
+    cursor: default;
+}
+
+.book-row-action {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.card-dl-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    font-family: var(--font-sans);
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 14px;
+    border-radius: 999px;
+    border: 1px solid var(--line-color);
+    background: transparent;
+    color: var(--fg-color);
+    cursor: pointer;
+    min-height: 32px;
+    transition: all 0.15s ease;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.card-dl-btn:hover {
+    background: var(--soft-bg);
+    border-color: var(--fg-color);
+}
+
+.card-dl-btn:active {
+    transform: scale(0.97);
+}
+
+.card-dl-btn.saved {
+    background: var(--accent-soft);
+    border-color: transparent;
+    color: var(--accent-color);
+    font-weight: 600;
+}
+
+.card-dl-btn.saved:hover {
+    background: var(--soft-bg);
+    border-color: var(--accent-color);
+}
+
+.card-dl-btn.unavailable {
+    opacity: 0.5;
+    cursor: not-allowed;
+    border-color: var(--hairline);
+    color: var(--muted-color);
+}
+
+.book-row.downloading {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+.book-row.downloading .card-dl-btn {
+    color: transparent !important;
+    position: relative;
+}
+
+.book-row.downloading .card-dl-btn::after {
+    content: "保存中...";
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--muted-color);
+    font-size: 11px;
 }
 
 .book-row {
